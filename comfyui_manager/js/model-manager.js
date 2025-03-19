@@ -175,7 +175,7 @@ export class ModelManager {
 
 			".cmm-manager-stop": {
 				click: () => {
-					api.fetchApi('/manager/queue/reset');
+					api.fetchApi('/v2/manager/queue/reset');
 					infoToast('Cancel', 'Remaining tasks will stop after completing the current task.');
 				}
 			},
@@ -435,7 +435,7 @@ export class ModelManager {
 	}
 
 	async installModels(list, btn) {
-		let stats = await api.fetchApi('/manager/queue/status');
+		let stats = await api.fetchApi('/v2/manager/queue/status');
 
 		stats = await stats.json();
 		if(stats.is_processing) {
@@ -449,7 +449,7 @@ export class ModelManager {
 		let needRefresh = false;
 		let errorMsg = "";
 
-		await api.fetchApi('/manager/queue/reset');
+		await api.fetchApi('/v2/manager/queue/reset');
 
 		let target_items = [];
 
@@ -468,7 +468,7 @@ export class ModelManager {
 			const data = item.originalData;
 			data.ui_id = item.hash;
 
-			const res = await api.fetchApi(`/manager/queue/install_model`, {
+			const res = await api.fetchApi(`/v2/manager/queue/install_model`, {
 				method: 'POST',
 				body: JSON.stringify(data)
 			});
@@ -499,7 +499,7 @@ export class ModelManager {
 			}
 		}
 		else {
-			await api.fetchApi('/manager/queue/start');
+			await api.fetchApi('/v2/manager/queue/start');
 			this.showStop();
 			showTerminal();
 		}
@@ -645,7 +645,7 @@ export class ModelManager {
 
 		const mode = manager_instance.datasrc_combo.value;
 
-		const res = await fetchData(`/externalmodel/getlist?mode=${mode}`);
+		const res = await fetchData(`/v2/externalmodel/getlist?mode=${mode}`);
 		if (res.error) {
 			this.showError("Failed to get external model list.");
 			this.hideLoading();

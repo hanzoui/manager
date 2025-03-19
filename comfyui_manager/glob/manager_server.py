@@ -14,14 +14,14 @@ import git
 from datetime import datetime
 
 from server import PromptServer
-import manager_core as core
-import manager_util
-import cm_global
 import logging
 import asyncio
 import queue
 
-import manager_downloader
+from . import manager_core as core
+from . import manager_util
+from . import cm_global
+from . import manager_downloader
 
 
 logging.info(f"### Loading: ComfyUI-Manager ({core.version_str})")
@@ -155,9 +155,7 @@ class ManagerFuncsInComfyUI(core.ManagerFuncs):
 
 core.manager_funcs = ManagerFuncsInComfyUI()
 
-sys.path.append('../..')
-
-from manager_downloader import download_url, download_url_with_agent
+from .manager_downloader import download_url, download_url_with_agent
 
 core.comfy_path = os.path.dirname(folder_paths.__file__)
 core.js_path = os.path.join(core.comfy_path, "web", "extensions")
@@ -662,7 +660,7 @@ async def task_worker():
                                          'total_count': total_count, 'done_count': done_count})
 
 
-@routes.get("/customnode/getmappings")
+@routes.get("/v2/customnode/getmappings")
 async def fetch_customnode_mappings(request):
     """
     provide unified (node -> node pack) mapping list
@@ -698,7 +696,7 @@ async def fetch_customnode_mappings(request):
     return web.json_response(json_obj, content_type='application/json')
 
 
-@routes.get("/customnode/fetch_updates")
+@routes.get("/v2/customnode/fetch_updates")
 async def fetch_updates(request):
     try:
         if request.rel_url.query["mode"] == "local":
@@ -725,7 +723,7 @@ async def fetch_updates(request):
         return web.Response(status=400)
 
 
-@routes.get("/manager/queue/update_all")
+@routes.get("/v2/manager/queue/update_all")
 async def update_all(request):
     if not is_allowed_security_level('middle'):
         logging.error(SECURITY_MESSAGE_MIDDLE_OR_BELOW)
@@ -825,7 +823,7 @@ async def installed_list(request):
     return web.json_response(res, content_type='application/json')
 
 
-@routes.get("/customnode/getlist")
+@routes.get("/v2/customnode/getlist")
 async def fetch_customnode_list(request):
     """
     provide unified custom node list
@@ -938,7 +936,7 @@ def check_model_installed(json_obj):
             executor.submit(process_model_phase, item)
 
 
-@routes.get("/externalmodel/getlist")
+@routes.get("/v2/externalmodel/getlist")
 async def fetch_externalmodel_list(request):
     # The model list is only allowed in the default channel, yet.
     json_obj = await core.get_data_by_mode(request.rel_url.query["mode"], 'model-list.json')
@@ -951,14 +949,14 @@ async def fetch_externalmodel_list(request):
     return web.json_response(json_obj, content_type='application/json')
 
 
-@PromptServer.instance.routes.get("/snapshot/getlist")
+@PromptServer.instance.routes.get("/v2/snapshot/getlist")
 async def get_snapshot_list(request):
     items = [f[:-5] for f in os.listdir(core.manager_snapshot_path) if f.endswith('.json')]
     items.sort(reverse=True)
     return web.json_response({'items': items}, content_type='application/json')
 
 
-@routes.get("/snapshot/remove")
+@routes.get("/v2/snapshot/remove")
 async def remove_snapshot(request):
     if not is_allowed_security_level('middle'):
         logging.error(SECURITY_MESSAGE_MIDDLE_OR_BELOW)
@@ -976,7 +974,7 @@ async def remove_snapshot(request):
         return web.Response(status=400)
 
 
-@routes.get("/snapshot/restore")
+@routes.get("/v2/snapshot/restore")
 async def restore_snapshot(request):
     if not is_allowed_security_level('middle'):
         logging.error(SECURITY_MESSAGE_MIDDLE_OR_BELOW)
@@ -1002,7 +1000,7 @@ async def restore_snapshot(request):
         return web.Response(status=400)
 
 
-@routes.get("/snapshot/get_current")
+@routes.get("/v2/snapshot/get_current")
 async def get_current_snapshot_api(request):
     try:
         return web.json_response(await core.get_current_snapshot(), content_type='application/json')
@@ -1010,7 +1008,7 @@ async def get_current_snapshot_api(request):
         return web.Response(status=400)
 
 
-@routes.get("/snapshot/save")
+@routes.get("/v2/snapshot/save")
 async def save_snapshot(request):
     try:
         await core.save_snapshot_with_postfix('snapshot')
@@ -1047,82 +1045,7 @@ def unzip_install(files):
     return True
 
 
-def copy_install(files, js_path_name=None):
-    for url in files:
-        if url.endswith("/"):
-            url = url[:-1]
-        try:
-            filename = os.path.basename(url)
-            if url.endswith(".py"):
-                download_url(url, core.get_default_custom_nodes_path(), filename)
-            else:
-                path = os.path.join(core.js_path, js_path_name) if js_path_name is not None else core.js_path
-                if not os.path.exists(path):
-                    os.makedirs(path)
-                download_url(url, path, filename)
-
-        except Exception as e:
-            logging.error(f"Install(copy) error: {url} / {e}", file=sys.stderr)
-            return False
-
-    logging.info("Installation was successful.")
-    return True
-
-
-def copy_uninstall(files, js_path_name='.'):
-    for url in files:
-        if url.endswith("/"):
-            url = url[:-1]
-        dir_name = os.path.basename(url)
-        base_path = core.get_default_custom_nodes_path() if url.endswith('.py') else os.path.join(core.js_path, js_path_name)
-        file_path = os.path.join(base_path, dir_name)
-
-        try:
-            if os.path.exists(file_path):
-                os.remove(file_path)
-            elif os.path.exists(file_path + ".disabled"):
-                os.remove(file_path + ".disabled")
-        except Exception as e:
-            logging.error(f"Uninstall(copy) error: {url} / {e}", file=sys.stderr)
-            return False
-
-    logging.info("Uninstallation was successful.")
-    return True
-
-
-def copy_set_active(files, is_disable, js_path_name='.'):
-    if is_disable:
-        action_name = "Disable"
-    else:
-        action_name = "Enable"
-
-    for url in files:
-        if url.endswith("/"):
-            url = url[:-1]
-        dir_name = os.path.basename(url)
-        base_path = core.get_default_custom_nodes_path() if url.endswith('.py') else os.path.join(core.js_path, js_path_name)
-        file_path = os.path.join(base_path, dir_name)
-
-        try:
-            if is_disable:
-                current_name = file_path
-                new_name = file_path + ".disabled"
-            else:
-                current_name = file_path + ".disabled"
-                new_name = file_path
-
-            os.rename(current_name, new_name)
-
-        except Exception as e:
-            logging.error(f"{action_name}(copy) error: {url} / {e}", file=sys.stderr)
-
-            return False
-
-    logging.info(f"{action_name} was successful.")
-    return True
-
-
-@routes.get("/customnode/versions/{node_name}")
+@routes.get("/v2/customnode/versions/{node_name}")
 async def get_cnr_versions(request):
     node_name = request.match_info.get("node_name", None)
     versions = core.cnr_utils.all_versions_of_node(node_name)
@@ -1133,7 +1056,7 @@ async def get_cnr_versions(request):
     return web.Response(status=400)
 
 
-@routes.get("/customnode/disabled_versions/{node_name}")
+@routes.get("/v2/customnode/disabled_versions/{node_name}")
 async def get_disabled_versions(request):
     node_name = request.match_info.get("node_name", None)
     versions = []
@@ -1149,7 +1072,7 @@ async def get_disabled_versions(request):
     return web.Response(status=400)
 
 
-@routes.post("/customnode/import_fail_info")
+@routes.post("/v2/customnode/import_fail_info")
 async def import_fail_info(request):
     json_data = await request.json()
 
@@ -1166,20 +1089,20 @@ async def import_fail_info(request):
     return web.Response(status=400)
 
 
-@routes.post("/manager/queue/reinstall")
+@routes.post("/v2/manager/queue/reinstall")
 async def reinstall_custom_node(request):
     await uninstall_custom_node(request)
     await install_custom_node(request)
 
 
-@routes.get("/manager/queue/reset")
+@routes.get("/v2/manager/queue/reset")
 async def reset_queue(request):
     global task_queue
     task_queue = queue.Queue()
     return web.Response(status=200)
 
 
-@routes.get("/manager/queue/status")
+@routes.get("/v2/manager/queue/status")
 async def queue_count(request):
     global task_queue
 
@@ -1194,7 +1117,7 @@ async def queue_count(request):
         'is_processing': is_processing})
 
 
-@routes.post("/manager/queue/install")
+@routes.post("/v2/manager/queue/install")
 async def install_custom_node(request):
     if not is_allowed_security_level('middle'):
         logging.error(SECURITY_MESSAGE_MIDDLE_OR_BELOW)
@@ -1255,7 +1178,7 @@ async def install_custom_node(request):
 
 task_worker_thread:threading.Thread = None
 
-@routes.get("/manager/queue/start")
+@routes.get("/v2/manager/queue/start")
 async def queue_start(request):
     global nodepack_result
     global model_result
@@ -1273,7 +1196,7 @@ async def queue_start(request):
     return web.Response(status=200)
 
 
-@routes.post("/manager/queue/fix")
+@routes.post("/v2/manager/queue/fix")
 async def fix_custom_node(request):
     if not is_allowed_security_level('middle'):
         logging.error(SECURITY_MESSAGE_GENERAL)
@@ -1295,7 +1218,7 @@ async def fix_custom_node(request):
     return web.Response(status=200)
 
 
-@routes.post("/customnode/install/git_url")
+@routes.post("/v2/customnode/install/git_url")
 async def install_custom_node_git_url(request):
     if not is_allowed_security_level('high'):
         logging.error(SECURITY_MESSAGE_NORMAL_MINUS)
@@ -1315,7 +1238,7 @@ async def install_custom_node_git_url(request):
     return web.Response(status=400)
 
 
-@routes.post("/customnode/install/pip")
+@routes.post("/v2/customnode/install/pip")
 async def install_custom_node_pip(request):
     if not is_allowed_security_level('high'):
         logging.error(SECURITY_MESSAGE_NORMAL_MINUS)
@@ -1327,7 +1250,7 @@ async def install_custom_node_pip(request):
     return web.Response(status=200)
 
 
-@routes.post("/manager/queue/uninstall")
+@routes.post("/v2/manager/queue/uninstall")
 async def uninstall_custom_node(request):
     if not is_allowed_security_level('middle'):
         logging.error(SECURITY_MESSAGE_MIDDLE_OR_BELOW)
@@ -1350,7 +1273,7 @@ async def uninstall_custom_node(request):
     return web.Response(status=200)
 
 
-@routes.post("/manager/queue/update")
+@routes.post("/v2/manager/queue/update")
 async def update_custom_node(request):
     if not is_allowed_security_level('middle'):
         logging.error(SECURITY_MESSAGE_MIDDLE_OR_BELOW)
@@ -1371,14 +1294,14 @@ async def update_custom_node(request):
     return web.Response(status=200)
 
 
-@routes.get("/manager/queue/update_comfyui")
+@routes.get("/v2/manager/queue/update_comfyui")
 async def update_comfyui(request):
     is_stable = core.get_config()['update_policy'] != 'nightly-comfyui'
     task_queue.put(("update-comfyui", ('comfyui', is_stable)))
     return web.Response(status=200)
 
 
-@routes.get("/comfyui_manager/comfyui_versions")
+@routes.get("/v2/comfyui_manager/comfyui_versions")
 async def comfyui_versions(request):
     try:
         res, current, latest = core.get_comfyui_versions()
@@ -1389,7 +1312,7 @@ async def comfyui_versions(request):
     return web.Response(status=400)
 
 
-@routes.get("/comfyui_manager/comfyui_switch_version")
+@routes.get("/v2/comfyui_manager/comfyui_switch_version")
 async def comfyui_switch_version(request):
     try:
         if "ver" in request.rel_url.query:
@@ -1402,7 +1325,7 @@ async def comfyui_switch_version(request):
     return web.Response(status=400)
 
 
-@routes.post("/manager/queue/disable")
+@routes.post("/v2/manager/queue/disable")
 async def disable_node(request):
     json_data = await request.json()
 
@@ -1437,7 +1360,7 @@ async def check_whitelist_for_model(item):
     return False
 
 
-@routes.post("/manager/queue/install_model")
+@routes.post("/v2/manager/queue/install_model")
 async def install_model(request):
     json_data = await request.json()
 
@@ -1469,7 +1392,7 @@ async def install_model(request):
     return web.Response(status=200)
 
 
-@routes.get("/manager/preview_method")
+@routes.get("/v2/manager/preview_method")
 async def preview_method(request):
     if "value" in request.rel_url.query:
         set_preview_method(request.rel_url.query['value'])
@@ -1480,7 +1403,7 @@ async def preview_method(request):
     return web.Response(status=200)
 
 
-@routes.get("/manager/db_mode")
+@routes.get("/v2/manager/db_mode")
 async def db_mode(request):
     if "value" in request.rel_url.query:
         set_db_mode(request.rel_url.query['value'])
@@ -1492,7 +1415,7 @@ async def db_mode(request):
 
 
 
-@routes.get("/manager/policy/component")
+@routes.get("/v2/manager/policy/component")
 async def component_policy(request):
     if "value" in request.rel_url.query:
         set_component_policy(request.rel_url.query['value'])
@@ -1503,7 +1426,7 @@ async def component_policy(request):
     return web.Response(status=200)
 
 
-@routes.get("/manager/policy/update")
+@routes.get("/v2/manager/policy/update")
 async def update_policy(request):
     if "value" in request.rel_url.query:
         set_update_policy(request.rel_url.query['value'])
@@ -1514,7 +1437,7 @@ async def update_policy(request):
     return web.Response(status=200)
 
 
-@routes.get("/manager/channel_url_list")
+@routes.get("/v2/manager/channel_url_list")
 async def channel_url_list(request):
     channels = core.get_channel_dict()
     if "value" in request.rel_url.query:
@@ -1551,7 +1474,7 @@ def add_target_blank(html_text):
     return modified_html
 
 
-@routes.get("/manager/notice")
+@routes.get("/v2/manager/notice")
 async def get_notice(request):
     url = "github.com"
     path = "/ltdrdata/ltdrdata.github.io/wiki/News"
@@ -1598,7 +1521,13 @@ async def get_notice(request):
                 return web.Response(text="Unable to retrieve Notice", status=200)
 
 
-@routes.get("/manager/reboot")
+# legacy /manager/notice
+@routes.get("/manager/notice")
+async def get_notice_legacy(request):
+    return web.Response(text="""<font color="red">Starting from ComfyUI-Manager V4.0+, it should be installed via pip.<BR><BR>Please remove the ComfyUI-Manager installed in the <font color="white">'custom_nodes'</font> directory.</font>""", status=200)
+
+
+@routes.get("/v2/manager/reboot")
 def restart(self):
     if not is_allowed_security_level('middle'):
         logging.error(SECURITY_MESSAGE_MIDDLE_OR_BELOW)
@@ -1635,7 +1564,7 @@ def restart(self):
     return os.execv(sys.executable, cmds)
 
 
-@routes.post("/manager/component/save")
+@routes.post("/v2/manager/component/save")
 async def save_component(request):
     try:
         data = await request.json()
@@ -1665,7 +1594,7 @@ async def save_component(request):
         return web.Response(status=400)
 
 
-@routes.post("/manager/component/loads")
+@routes.post("/v2/manager/component/loads")
 async def load_components(request):
     if os.path.exists(core.manager_components_path):
         try:
@@ -1690,7 +1619,7 @@ async def load_components(request):
         return web.json_response({})
 
 
-@routes.get("/manager/version")
+@routes.get("/v2/manager/version")
 async def get_version(request):
     return web.Response(text=core.version_str, status=200)
 
@@ -1770,5 +1699,4 @@ cm_global.register_extension('ComfyUI-Manager',
                                  'name': 'ComfyUI Manager',
                                  'nodes': {},
                                  'description': 'This extension provides the ability to manage custom nodes in ComfyUI.', })
-
 
