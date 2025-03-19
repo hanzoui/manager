@@ -1,7 +1,6 @@
 import os
 import logging
 
-
 def prestartup():
     from . import prestartup_script  # noqa: F401
     logging.info('[PRE] ComfyUI-Manager')
