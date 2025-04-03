@@ -23021,7 +23021,17 @@
             "description": "A custom node for ComfyUI to integrate GPT API.",
             "install_type": "git-clone"
         },
-
+        {
+            "author": "zzubnik",
+            "title": "TT_TextTools",
+            "id": "TT_TextTools",
+            "reference": "https://github.com/zzubnik/TT_TextTools",
+            "files": [
+                "https://github.com/zzubnik/TT_TextTools"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom text tools for helping with multiple prompt generation in ComfyUI. These tools allow more variety than just relying on the randomness of the image generator. You can create related, themed prompts, random each time."
+        },
 
 
 

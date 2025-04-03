@@ -11,6 +11,16 @@
         
         
         {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-LayerAnimate",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-LayerAnimate",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-LayerAnimate"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for LayerAnimate model."
+        },
+        {
             "author": "CY-CHENYUE",
             "title": "ComfyUI-GPT-API",
             "id": "ComfyUI-GPT-API",
@@ -20,6 +30,17 @@
             ],
             "description": "A custom node for ComfyUI to integrate GPT API.",
             "install_type": "git-clone"
+        },
+        {
+            "author": "zzubnik",
+            "title": "TT_TextTools",
+            "id": "TT_TextTools",
+            "reference": "https://github.com/zzubnik/TT_TextTools",
+            "files": [
+                "https://github.com/zzubnik/TT_TextTools"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom text tools for helping with multiple prompt generation in ComfyUI. These tools allow more variety than just relying on the randomness of the image generator. You can create related, themed prompts, random each time."
         },
         {
             "author": "pnikolic-amd",
@@ -618,116 +639,6 @@
             ],
             "install_type": "git-clone",
             "description": "It works the same as human-parser-comfyui-node but is implemented in pure Python so that it doesn't require a runtime build for InPlaceABNSync."
-        },
-        {
-            "author": "1038lab",
-            "title": "Comfyui-Spark-TTS",
-            "reference": "https://github.com/1038lab/ComfyUI-SparkTTS",
-            "files": [
-                "https://github.com/1038lab/ComfyUI-SparkTTS"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-SparkTTS is a custom ComfyUI node implementation of SparkTTS, an advanced text-to-speech system that harnesses the power of large language models (LLMs) to generate highly accurate and natural-sounding speech."
-        },
-        {
-            "author": "fblissjr",
-            "title": "wanvideo - seamless flow",
-            "reference": "https://github.com/fblissjr/ComfyUI-WanSeamlessFlow",
-            "files": [
-                "https://github.com/fblissjr/ComfyUI-WanSeamlessFlow"
-             ],
-             "install_type": "git-clone",
-             "description": "experimental wanvideo comfyui node with a singular goal - visually seamless transitions between context windows"
-        },
-        {
-            "author": "fofr",
-            "title": "ComfyUI-Basic-Auth",
-            "reference": "https://github.com/fofr/comfyui-basic-auth",
-            "files": [
-                "https://github.com/fofr/comfyui-basic-auth"
-            ],
-            "install_type": "git-clone",
-            "description": "A basic auth middleware for ComfyUI"
-        },
-        {
-            "author": "ryanontheinside",
-            "title": "ComfyUI_SuperResolution",
-            "reference": "https://github.com/ryanontheinside/ComfyUI_SuperResolution",
-            "files": [
-                "https://github.com/ryanontheinside/ComfyUI_SuperResolution"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of high-performance neural network-based Super Resolution models for ComfyUI."
-        },
-        {
-            "author": "thezveroboy",
-            "title": "ComfyUI-WAN-ClipSkip",
-            "reference": "https://github.com/thezveroboy/ComfyUI-WAN-ClipSkip",
-            "files": [
-               "https://github.com/thezveroboy/ComfyUI-WAN-ClipSkip"
-            ],
-            "description": "Custom nodes for ComfyUI implementing the csm model for text-to-speech generation.",
-            "install_type": "git-clone"
-        },
-        {
-            "author": "ShmuelRonen",
-            "title": "ComfyUI-PixArt_XL",
-            "reference": "https://github.com/ShmuelRonen/ComfyUI-PixArt_XL",
-            "files": [
-                "https://github.com/ShmuelRonen/ComfyUI-PixArt_XL"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI extension that integrates PixArt-Alpha models directly into ComfyUI with advanced memory management."
-        },
-        {
-            "author": "leeguandong",
-            "title": "ComfyUI_QWQ32B",
-            "reference": "https://github.com/leeguandong/ComfyUI_QWQ32B",
-            "files": [
-                "https://github.com/leeguandong/ComfyUI_QWQ32B"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes to use [a/QwQ-32B](https://huggingface.co/Qwen/QwQ-32B)"
-        },
-        {
-            "author": "ComplexRobot",
-            "title": "ComfyUI-Simple-VFI",
-            "reference": "https://github.com/ComplexRobot/ComfyUI-Simple-VFI",
-            "files": [
-                "https://github.com/ComplexRobot/ComfyUI-Simple-VFI"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes for simple frame interpolation without the use of AI. Uses standard image operations to blend frames together."
-        },
-        {
-            "author": "Taithrah",
-            "title": "Fens-Simple-Nodes",
-            "reference": "https://github.com/Taithrah/ComfyUI_Fens_Simple_Nodes",
-            "files": [
-                "https://github.com/Taithrah/ComfyUI_Fens_Simple_Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Simple nodes for ComfyUI"
-        },
-        {
-            "author": "Immac",
-            "title": "ComfyUI Core Video Nodes",
-            "reference": "https://github.com/Immac/ComfyUI-CoreVideoMocks",
-            "files": [
-                "https://github.com/Immac/ComfyUI-CoreVideoMocks"
-            ],
-            "install_type": "git-clone",
-            "description": "A mock of a possible implementation of for ComfyUI Core Video Nodes."
-        },
-        {
-            "author": "joreyaesh",
-            "title": "ComfyUI Touchpad Scroll Controller",
-            "reference": "https://github.com/joreyaesh/comfyui_touchpad_scroll_controller.enableTouchpadScroll",
-            "files": [
-                "https://github.com/joreyaesh/comfyui_touchpad_scroll_controller.enableTouchpadScroll"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI extension that enhances touchpad navigation by redirecting two-finger scrolling over to the canvas, including over textareas. This can prevent accidental back/forward browser navigation when using horizontal touchpad gestures and provides smooth zooming and panning for Mac and other touchpad users."
         }
     ]
 }

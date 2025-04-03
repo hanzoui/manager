@@ -13,7 +13,27 @@
         
         
         
-        
+        {
+            "author": "alexgenovese",
+            "title": "ComfyUI-Diffusion-4k [WIP]",
+            "reference": "https://github.com/alexgenovese/ComfyUI-Diffusion-4k",
+            "files": [
+                "https://github.com/alexgenovese/ComfyUI-Diffusion-4k"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node implementation of the Diffusion 4K research paper.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "KERRY-YUAN",
+            "title": "Python_Executor [UNSAFE]",
+            "id": "PythonExecutor",
+            "reference": "https://github.com/KERRY-YUAN/ComfyUI_Python_Executor",
+            "files": [
+                "https://github.com/KERRY-YUAN/ComfyUI_Python_Executor"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes: Provides nodes to execute arbitrary Python code snippets and Resize images directly within ComfyUI workflows. [w/This node allows you to execute arbitrary code via the workflow.]"
+        },
         {
             "author": "ashllay",
             "title": "ComfyUI_MoreComfy",
