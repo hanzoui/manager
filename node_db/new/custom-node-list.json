@@ -11,6 +11,26 @@
         
 
         {
+            "author": "pnikolic-amd",
+            "title": "MIGraphX Node for ComfyUI",
+            "reference": "https://github.com/pnikolic-amd/ComfyUI_MIGraphX",
+            "files": [
+                "https://github.com/pnikolic-amd/ComfyUI_MIGraphX"
+            ],
+            "install_type": "git-clone",
+            "description": "This node enables better performance for Stable Diffusion models, by leveraging AMD MIGraphX, on Navi3 and Navi4 GPUs."
+        },
+        {
+            "author": "bemoregt",
+            "title": "ComfyUI_CustomNode_Image2Spectrum",
+            "reference": "https://github.com/bemoregt/ComfyUI_CustomNode_Image2Spectrum",
+            "files": [
+                "https://github.com/bemoregt/ComfyUI_CustomNode_Image2Spectrum"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Custom Node for converting images to frequency spectrum visualizations using FFT"
+        },
+        {
             "author": "Yushan777",
             "title": "Y7Nodes for ComfyUI",
             "id": "y7nodes",

@@ -2823,17 +2823,6 @@
             "description": "Quickly and easily build a GUI on top of your workflow. Gather just the nodes that you want to see, with no spaghetti, onto controller panels, leaving your workflow untouched in the background."
         },
         {
-            "author": "TGu-97",
-            "title": "TGu Utilities",
-            "id": "tgu",
-            "reference": "https://github.com/TGu-97/ComfyUI-TGu-utils",
-            "files": [
-                "https://github.com/TGu-97/ComfyUI-TGu-utils"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes: MPN Switch, MPN Reroute, PN Switch. This is a set of custom nodes for ComfyUI. Mainly focus on control switches."
-        },
-        {
             "author": "seanlynch",
             "title": "SRL's nodes",
             "id": "srl",
@@ -6376,16 +6365,6 @@
             ],
             "install_type": "git-clone",
             "description": "Nodes:SingleImageDataUrlLoader"
-        },
-        {
-            "author": "ginlov",
-            "title": "segment_to_mask_comfyui",
-            "reference": "https://github.com/ginlov/segment_to_mask_comfyui",
-            "files": [
-                "https://github.com/ginlov/segment_to_mask_comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes:SegToMask"
         },
         {
             "author": "glowcone",
@@ -16686,6 +16665,16 @@
             "description": "Yet another set of LLM nodes for ComfyUI (for local/remote OpenAI-like APIs, multi-modal models supported)"
         },
         {
+            "author": "asaddi",
+            "title": "YALLM-LlamaVision",
+            "reference": "https://github.com/asaddi/YALLM-LlamaVision",
+            "files": [
+                "https://github.com/asaddi/YALLM-LlamaVision"
+            ],
+            "install_type": "git-clone",
+            "description": "A set of nodes for basic Llama 3.2 Vision support in ComfyUI. Give it an image and query and it will output a text response."
+        },
+        {
             "author": "ycyy",
             "title": "ComfyUI-YCYY-LoraInfo",
             "reference": "https://github.com/ycyy/ComfyUI-YCYY-LoraInfo",
@@ -22990,7 +22979,27 @@
             ],
             "install_type": "git-clone",
             "description": "A collection of utility / quality-of-life nodes for ComfyUI. Probably only useful to me."
-        } ,
+        },
+        {
+            "author": "bemoregt",
+            "title": "ComfyUI_CustomNode_Image2Spectrum",
+            "reference": "https://github.com/bemoregt/ComfyUI_CustomNode_Image2Spectrum",
+            "files": [
+                "https://github.com/bemoregt/ComfyUI_CustomNode_Image2Spectrum"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Custom Node for converting images to frequency spectrum visualizations using FFT"
+        },
+        {
+            "author": "pnikolic-amd",
+            "title": "MIGraphX Node for ComfyUI",
+            "reference": "https://github.com/pnikolic-amd/ComfyUI_MIGraphX",
+            "files": [
+                "https://github.com/pnikolic-amd/ComfyUI_MIGraphX"
+            ],
+            "install_type": "git-clone",
+            "description": "This node enables better performance for Stable Diffusion models, by leveraging AMD MIGraphX, on Navi3 and Navi4 GPUs."
+        },
 
 
 
