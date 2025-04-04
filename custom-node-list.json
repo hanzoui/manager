@@ -7752,7 +7752,17 @@
                 "https://github.com/ShmuelRonen/google_moogle"
             ],
             "install_type": "git-clone",
-            "description": "AGoogle Moogle is a Google Translator node for ComfyUI that provides easy-to-use text translation capabilities directly within your ComfyUI workflows."
+            "description": "A Google Moogle is a Google Translator node for ComfyUI that provides easy-to-use text translation capabilities directly within your ComfyUI workflows."
+        },
+        {
+            "author": "ShmuelRonen",
+            "title": "comfyui-openai_fm",
+            "reference": "https://github.com/ShmuelRonen/comfyui-openai_fm",
+            "files": [
+                "https://github.com/ShmuelRonen/comfyui-openai_fm"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that integrates OpenAI last T2S capabilities for free"
         },
         {
             "author": "redhottensors",
@@ -15264,6 +15274,16 @@
             "description": "A collection of high-performance neural network-based Super Resolution models for ComfyUI."
         },
         {
+            "author": "ryanontheinside",
+            "title": "Control Freak for ComfyUI",
+            "reference": "https://github.com/ryanontheinside/ComfyUI_ControlFreak",
+            "files": [
+                "https://github.com/ryanontheinside/ComfyUI_ControlFreak"
+            ],
+            "install_type": "git-clone",
+            "description": "Control Freak gives you physical control over your ComfyUI workflows by mapping MIDI controllers, gamepads, and other input devices to any node parameter or UI element. Transform your image generation experience with tactile, responsive control. Ever heard of 'flow state'?"
+        },
+        {
             "author": "ControlAltAI",
             "title": "ControlAltAI Nodes",
             "id": "controlaltai",
@@ -16837,6 +16857,16 @@
             ],
             "install_type": "git-clone",
             "description": "This plugin works with [a/IF_AI_Tools](https://github.com/if-ai/ComfyUI-IF_AI_tools) to build a workflow in ComfyUI that uses AI to assist in generating prompts."
+        },
+        {
+            "author": "Moooonet",
+            "title": "ComfyUI-Align",
+            "reference": "https://github.com/Moooonet/ComfyUI-Align",
+            "files": [
+                "https://github.com/Moooonet/ComfyUI-Align"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful node alignment and color management plugin for ComfyUI, designed to enhance your workflow efficiency"
         },
         {
             "author": "Nojahhh",
@@ -23175,6 +23205,16 @@
             "description": "Extract CLIP and VAE models from a loaded checkpoint in ComfyUI."
         },
         {
+            "author": "hekmon",
+            "title": "ComfyUI OpenAI API",
+            "reference": "https://github.com/hekmon/comfyui-openai-api",
+            "files": [
+                "https://github.com/hekmon/comfyui-openai-api"
+            ],
+            "install_type": "git-clone",
+            "description": "Call LLM and VLM in a simple way using the OpenAI API standard from ComfyUI"
+        },
+        {
             "author": "thezveroboy",
             "title": "ComfyUI Random Image Loader",
             "reference": "https://github.com/thezveroboy/comfyui-random-image-loader",
@@ -23344,6 +23384,56 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI node that provides an Image Loader that updates inside the workflow when the Image file is changed. This allows for a easy bridge between 3D software, and 2D art applications while retaining use of a full workflow rather than being restricted to a plugin."
+        },
+        {
+            "author": "kayselmecnun",
+            "title": "ComfyUI-Qwen-25-VL",
+            "reference": "https://github.com/kayselmecnun/ComfyUI-Qwen-25-VL",
+            "files": [
+                "https://github.com/kayselmecnun/ComfyUI-Qwen-25-VL"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom Comfy UI node for using Qwen2.5-VL-3B/7B-Instruct models"
+        },
+        {
+            "author": "iSuneast",
+            "title": "ComfyUI-WebhookNotifier",
+            "reference": "https://github.com/iSuneast/ComfyUI-WebhookNotifier",
+            "files": [
+                "https://github.com/iSuneast/ComfyUI-WebhookNotifier"
+            ],
+            "install_type": "git-clone",
+            "description": "The Webhook Notification plugin for ComfyUI, used to send webhook notifications when image generation is complete."
+        },
+        {
+            "author": "mobilehacker",
+            "title": "ComfyUI_format-lora-stack",
+            "reference": "https://github.com/mobilehacker/ComfyUI_format-lora-stack",
+            "files": [
+                "https://github.com/mobilehacker/ComfyUI_format-lora-stack"
+            ],
+            "install_type": "git-clone",
+            "description": "Simple node to convert lora_stack output into string to generate a1111-style lora strength output text, like <lora:name:0.69>. Used to include your Lora names from Lora Stack in text input-output nodes and so on."
+        },
+        {
+            "author": "Jokimbe",
+            "title": "ComfyUI-DrawThings-gRPC",
+            "reference": "https://github.com/Jokimbe/ComfyUI-DrawThings-gRPC",
+            "files": [
+                "https://github.com/Jokimbe/ComfyUI-DrawThings-gRPC"
+            ],
+            "install_type": "git-clone",
+            "description": "Connect to any Draw Things gRPC server"
+        },
+        {
+            "author": "ZhiHui6",
+            "title": "comfyui_zhihui_nodes",
+            "reference": "https://github.com/ZhiHui6/comfyui_zhihui_nodes",
+            "files": [
+                "https://github.com/ZhiHui6/comfyui_zhihui_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Prompt Preset, Video Batch Loader, Video Combiner"
         },
 
 

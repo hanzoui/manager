@@ -5469,6 +5469,16 @@
             "title_aux": "ComfyUI-SoX-Mixdown"
         }
     ],
+    "https://github.com/Jokimbe/ComfyUI-DrawThings-gRPC": [
+        [
+            "DrawThingsControlNet",
+            "DrawThingsLoRA",
+            "DrawThingsSampler"
+        ],
+        {
+            "title_aux": "ComfyUI-DrawThings-gRPC"
+        }
+    ],
     "https://github.com/Jonseed/ComfyUI-Detail-Daemon": [
         [
             "DetailDaemonGraphSigmasNode",
@@ -9072,7 +9082,6 @@
     ],
     "https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper": [
         [
-            "DG_VideoAudioMixer",
             "LatentSyncNode",
             "VideoLengthAdjuster"
         ],
@@ -9156,6 +9165,14 @@
         ],
         {
             "title_aux": "Wav2Lip Node for ComfyUI"
+        }
+    ],
+    "https://github.com/ShmuelRonen/comfyui-openai_fm": [
+        [
+            "OpenAIFMNode"
+        ],
+        {
+            "title_aux": "comfyui-openai_fm"
         }
     ],
     "https://github.com/ShmuelRonen/google_moogle": [
@@ -10695,6 +10712,14 @@
             "title_aux": "ComfyUI-LivePortrait_v3"
         }
     ],
+    "https://github.com/VertexAnomaly/ComfyUI_ImageSentinel": [
+        [
+            "ImageSentinel"
+        ],
+        {
+            "title_aux": "ComfyUI_ImageSentinel"
+        }
+    ],
     "https://github.com/VertexStudio/roblox-comfyui-nodes": [
         [
             "FirstLetterNode",
@@ -11795,6 +11820,16 @@
         ],
         {
             "title_aux": "ComfyUI_InfiniteYou"
+        }
+    ],
+    "https://github.com/ZhiHui6/comfyui_zhihui_nodes": [
+        [
+            "PromptPreset",
+            "VideoCombine",
+            "VideoSequenceProcessor"
+        ],
+        {
+            "title_aux": "comfyui_zhihui_nodes"
         }
     ],
     "https://github.com/a-und-b/ComfyUI_Delay": [
@@ -15313,6 +15348,7 @@
             "LayerMask: MediapipeFacialSegment",
             "LayerMask: ObjectDetectorFL2",
             "LayerMask: ObjectDetectorGemini",
+            "LayerMask: ObjectDetectorGeminiV2",
             "LayerMask: ObjectDetectorMask",
             "LayerMask: ObjectDetectorYOLO8",
             "LayerMask: ObjectDetectorYOLOWorld",
@@ -15333,6 +15369,8 @@
             "LayerUtility: DeepSeekAPIV2",
             "LayerUtility: Florence2Image2Prompt",
             "LayerUtility: Gemini",
+            "LayerUtility: GeminiImageEdit",
+            "LayerUtility: GeminiV2",
             "LayerUtility: GetColorTone",
             "LayerUtility: GetColorToneV2",
             "LayerUtility: ImageAutoCrop",
@@ -19325,6 +19363,24 @@
             "title_aux": "comfyui-checkpoint-extract"
         }
     ],
+    "https://github.com/hekmon/comfyui-openai-api": [
+        [
+            "OAIAPIChatCompletion",
+            "OAIAPIClient",
+            "OAIAPIDebug",
+            "OAIAPIDeveloperRole",
+            "OAIAPIExtraBody",
+            "OAIAPIFrequencyPenalty",
+            "OAIAPIMaxTokens",
+            "OAIAPIPresencePenalty",
+            "OAIAPISeed",
+            "OAIAPITemperature",
+            "OAIAPITopP"
+        ],
+        {
+            "title_aux": "ComfyUI OpenAI API"
+        }
+    ],
     "https://github.com/heshengtao/comfyui_LLM_party": [
         [
             "About_us",
@@ -20773,12 +20829,14 @@
             "LoadHunyuanLoraFromCivitAI",
             "LoadHunyuanLoraFromComfyOnline",
             "LoadHunyuanLoraFromHF",
+            "LoadImageFromURL",
             "LoadLoraFromCivitAI",
             "LoadLoraFromComfyOnline",
             "LoadLoraFromHF",
             "LoadLoraFromHFWithToken",
             "LoadWanVideoLoraFromCivitAI",
             "LoadWanVideoLoraFromComfyOnline",
+            "LoadWanVideoLoraFromHF",
             "SaveAudioAsWav",
             "SaveText"
         ],
@@ -21595,6 +21653,14 @@
         ],
         {
             "title_aux": "comfyUI-nsfw-detection"
+        }
+    ],
+    "https://github.com/kayselmecnun/ComfyUI-Qwen-25-VL": [
+        [
+            "QwenVL"
+        ],
+        {
+            "title_aux": "ComfyUI-Qwen-25-VL"
         }
     ],
     "https://github.com/kazeyori/ComfyUI-QuickImageSequenceProcess": [
@@ -25112,6 +25178,14 @@
             "title_aux": "ComfyUI_mittimiWidthHeight"
         }
     ],
+    "https://github.com/mobilehacker/ComfyUI_format-lora-stack": [
+        [
+            "FormatLoraStack"
+        ],
+        {
+            "title_aux": "ComfyUI_format-lora-stack"
+        }
+    ],
     "https://github.com/modelscope/comfyscope": [
         [
             "DashScopeFLUXAPI"
@@ -27321,6 +27395,14 @@
         {
             "nodename_pattern": " \\(ruucm\\)$",
             "title_aux": "Ruucm's ComfyUI Nodes"
+        }
+    ],
+    "https://github.com/ryanontheinside/ComfyUI_ControlFreak": [
+        [
+            "DummyNode"
+        ],
+        {
+            "title_aux": "Control Freak for ComfyUI"
         }
     ],
     "https://github.com/ryanontheinside/ComfyUI_Doom": [
