@@ -3695,7 +3695,6 @@
         {
             "author": "ostris",
             "title": "Flex.1 tools",
-            "id": "ostris",
             "reference": "https://github.com/ostris/ComfyUI-FlexTools",
             "files": [
                 "https://github.com/ostris/ComfyUI-FlexTools"
@@ -19934,7 +19933,7 @@
         },
         {
             "author": "0x-jerry",
-            "title": "Rembg Background Removal Node for ComfyUI",
+            "title": "0x-jerry/Rembg Background Removal Node for ComfyUI",
             "reference": "https://github.com/0x-jerry/comfyui-rembg",
             "files": [
                 "https://github.com/0x-jerry/comfyui-rembg"
@@ -21590,17 +21589,6 @@
         },
         {
             "author": "burnsbert",
-            "title": "EBU LMStudio LLM Integration",
-            "id": "ebu-lmstudio",
-            "reference": "https://github.com/burnsbert/ComfyUI-EBU-LMStudio",
-            "files": [
-                "https://github.com/burnsbert/ComfyUI-EBU-LMStudio"
-             ],
-             "install_type": "git-clone",
-             "description": "Custom nodes for integrating LM Studio's LLM functionality into ComfyUI. Includes EBU LMStudio Load, EBU LMStudio UnloadAll, and EBU LMStudio Make Request."
-        },
-        {
-            "author": "burnsbert",
             "title": "EBU PromptHelper",
             "id": "ebu-prompthelper",
             "reference": "https://github.com/burnsbert/ComfyUI-EBU-PromptHelper",
@@ -21876,16 +21864,6 @@
             "description": "Implement Region Attention for Flux model. Add node RegionAttention that takes a regions - mask + condition, mask could be set from comfyui masks or bbox in FluxRegionBBOX node.\nThis code is not optimized and has a memory leak. If you caught a OOM just try run a query againg - works on my RTX3080. For generation it uses a usual prompt that have influence to all picture and a regions that have their own prompts.\nBase prompt good for setup background and style of image. This is train-free technique and results not always stable - sometimes need to try several seeds or change prompt."
         },
         {
-            "author": "RodrigoSKohl",
-            "title": "Interior Design for Comfyui",
-            "reference": "https://github.com/RodrigoSKohl/StableDesign-for-ComfyUI",
-            "files": [
-                "https://github.com/RodrigoSKohl/StableDesign-for-ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "This node is based on MykolaL/StableDesign"
-        },
-        {
             "author": "yas-ponotech",
             "title": "ComfyUI-Stability-AI-API",
             "reference": "https://github.com/yhayano-ponotech/comfyui-stability-ai-api",
@@ -21978,13 +21956,13 @@
         },
         {
             "author": "benda1989",
-            "title": "CosyVoice2 for ComfyUI",
+            "title": "GKK·CosyVoice",
             "reference": "https://github.com/benda1989/CosyVoice2_ComfyUI",
             "files": [
                 "https://github.com/benda1989/CosyVoice2_ComfyUI"
             ],
             "install_type": "git-clone",
-            "description": "A plugin of ComfyUI for CosyVoice2, one component for text to Sonic Video"
+            "description": "a plugin of ComfyUI for CosyVoice2"
         },
         {
             "author": "benda1989",
@@ -22788,16 +22766,6 @@
             ],
             "install_type": "git-clone",
             "description": "Save prompt history and reselect"
-        },
-        {
-            "author": "camiilevitoriia",
-            "title": "ComfyUI-WanVideoStartEndFrames",
-            "reference": "https://github.com/camiilevitoriia/ComfyUI-WanVideoStartEndFrames",
-            "files": [
-                "https://github.com/camiilevitoriia/ComfyUI-WanVideoStartEndFrames"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes that support video generation by start and end frames"
         },
         {
             "author": "Tensor-Art",
