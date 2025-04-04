@@ -23335,6 +23335,16 @@
             "install_type": "git-clone",
             "description": "A suite of custom ComfyUI nodes for building real-time video and audio workflows using ComfyStream."
         },
+        {
+            "author": "VertexAnomaly",
+            "title": "ComfyUI_ImageSentinel",
+            "reference": "https://github.com/VertexAnomaly/ComfyUI_ImageSentinel",
+            "files": [
+                "https://github.com/VertexAnomaly/ComfyUI_ImageSentinel"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node that provides an Image Loader that updates inside the workflow when the Image file is changed. This allows for a easy bridge between 3D software, and 2D art applications while retaining use of a full workflow rather than being restricted to a plugin."
+        },
 
 
 
