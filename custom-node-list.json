@@ -7764,6 +7764,16 @@
             "description": "A custom node for ComfyUI that integrates OpenAI last T2S capabilities for free"
         },
         {
+            "author": "ShmuelRonen",
+            "title": "DJ_VideoAudioMixer",
+            "reference": "https://github.com/ShmuelRonen/DJ_VideoAudioMixer",
+            "files": [
+                "https://github.com/ShmuelRonen/DJ_VideoAudioMixer"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful ComfyUI custom node for combining video clips with synchronized audio, background music, and advanced audio controls."
+        },
+        {
             "author": "redhottensors",
             "title": "ComfyUI-Prediction",
             "id": "prediction",
@@ -20447,6 +20457,16 @@
             "description": "Video Generation Nodes for EasyAnimate, which suppors text-to-video, image-to-video, video-to-video and different controls."
         },
         {
+            "author": "bubbliiiing",
+            "title": "VideoX-Fun",
+            "reference": "https://github.com/aigc-apps/VideoX-Fun",
+            "files": [
+                "https://github.com/aigc-apps/VideoX-Fun"
+            ],
+            "install_type": "git-clone",
+            "description": "VideoX-Fun is a video generation pipeline that can be used to generate AI images and videos, as well as to train baseline and Lora models for Diffusion Transformer. We support direct prediction from pre-trained baseline models to generate videos with different resolutions, durations, and FPS. Additionally, we also support users in training their own baseline and Lora models to perform specific style transformations."
+        },
+        {
             "author": "DraconicDragon",
             "title": "ComfyUI-Venice-API",
             "reference": "https://github.com/DraconicDragon/ComfyUI-Venice-API",
@@ -22695,7 +22715,7 @@
                 "https://github.com/Taithrah/ComfyUI_Fens_Simple_Nodes"
             ],
             "install_type": "git-clone",
-            "description": "Simple nodes for ComfyUI"
+            "description": "Simple nodes for ComfyUI - Token Counter"
         },
         {
             "author": "Immac",
@@ -23354,16 +23374,6 @@
             "description": "A ComfyUI node that provides an Image Loader that updates inside the workflow when the Image file is changed. This allows for a easy bridge between 3D software, and 2D art applications while retaining use of a full workflow rather than being restricted to a plugin."
         },
         {
-            "author": "kayselmecnun",
-            "title": "ComfyUI-Qwen-25-VL",
-            "reference": "https://github.com/kayselmecnun/ComfyUI-Qwen-25-VL",
-            "files": [
-                "https://github.com/kayselmecnun/ComfyUI-Qwen-25-VL"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom Comfy UI node for using Qwen2.5-VL-3B/7B-Instruct models"
-        },
-        {
             "author": "iSuneast",
             "title": "ComfyUI-WebhookNotifier",
             "reference": "https://github.com/iSuneast/ComfyUI-WebhookNotifier",
@@ -23402,6 +23412,36 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Prompt Preset, Video Batch Loader, Video Combiner"
+        },
+        {
+            "author": "Temult",
+            "title": "Sigma Graph Node for ComfyUI",
+            "reference": "https://github.com/Temult/sigma-graph-node",
+            "files": [
+                "https://github.com/Temult/sigma-graph-node"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node for interactively editing sigma schedules via graph and text."
+        },
+        {
+            "author": "Raykosan",
+            "title": "ComfyUI_RS-SaturationNode",
+            "reference": "https://github.com/Raykosan/ComfyUI_RS-SaturationNode",
+            "files": [
+                "https://github.com/Raykosan/ComfyUI_RS-SaturationNode"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional image saturation control with artifact and highlight protection."
+        },
+        {
+            "author": "MasterpieceX",
+            "title": "mpx-comfyui-nodes",
+            "reference": "https://github.com/withmpx/mpx-comfyui-nodes",
+            "files": [
+                "https://github.com/withmpx/mpx-comfyui-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This Module provides nodes to allow the development of 3D Generative AI workflows that use the MasterpieceX Python SDK."
         },
 
 

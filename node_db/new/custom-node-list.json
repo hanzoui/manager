@@ -11,6 +11,56 @@
         
         
         {
+            "author": "Temult",
+            "title": "Sigma Graph Node for ComfyUI",
+            "reference": "https://github.com/Temult/sigma-graph-node",
+            "files": [
+                "https://github.com/Temult/sigma-graph-node"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node for interactively editing sigma schedules via graph and text."
+        },
+        {
+            "author": "ShmuelRonen",
+            "title": "DJ_VideoAudioMixer",
+            "reference": "https://github.com/ShmuelRonen/DJ_VideoAudioMixer",
+            "files": [
+                "https://github.com/ShmuelRonen/DJ_VideoAudioMixer"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful ComfyUI custom node for combining video clips with synchronized audio, background music, and advanced audio controls."
+        },
+        {
+            "author": "bubbliiiing",
+            "title": "VideoX-Fun",
+            "reference": "https://github.com/aigc-apps/VideoX-Fun",
+            "files": [
+                "https://github.com/aigc-apps/VideoX-Fun"
+            ],
+            "install_type": "git-clone",
+            "description": "VideoX-Fun is a video generation pipeline that can be used to generate AI images and videos, as well as to train baseline and Lora models for Diffusion Transformer. We support direct prediction from pre-trained baseline models to generate videos with different resolutions, durations, and FPS. Additionally, we also support users in training their own baseline and Lora models to perform specific style transformations."
+        },
+        {
+            "author": "Raykosan",
+            "title": "ComfyUI_RS-SaturationNode",
+            "reference": "https://github.com/Raykosan/ComfyUI_RS-SaturationNode",
+            "files": [
+                "https://github.com/Raykosan/ComfyUI_RS-SaturationNode"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional image saturation control with artifact and highlight protection."
+        },
+        {
+            "author": "MasterpieceX",
+            "title": "mpx-comfyui-nodes",
+            "reference": "https://github.com/withmpx/mpx-comfyui-nodes",
+            "files": [
+                "https://github.com/withmpx/mpx-comfyui-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This Module provides nodes to allow the development of 3D Generative AI workflows that use the MasterpieceX Python SDK."
+        },
+        {
             "author": "VertexAnomaly",
             "title": "ComfyUI_ImageSentinel",
             "reference": "https://github.com/VertexAnomaly/ComfyUI_ImageSentinel",
@@ -39,16 +89,6 @@
             ],
             "install_type": "git-clone",
             "description": "Call LLM and VLM in a simple way using the OpenAI API standard from ComfyUI"
-        },
-        {
-            "author": "kayselmecnun",
-            "title": "ComfyUI-Qwen-25-VL",
-            "reference": "https://github.com/kayselmecnun/ComfyUI-Qwen-25-VL",
-            "files": [
-                "https://github.com/kayselmecnun/ComfyUI-Qwen-25-VL"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom Comfy UI node for using Qwen2.5-VL-3B/7B-Instruct models"
         },
         {
             "author": "ShmuelRonen",
@@ -638,56 +678,6 @@
             ],
             "install_type": "git-clone",
             "description": "This repository contains ComfyUI custom nodes for StepVideo."
-        },
-        {
-            "author": "Flow-two",
-            "title": "ComfyUI-WanStartEndFramesNative",
-            "reference": "https://github.com/Flow-two/ComfyUI-WanStartEndFramesNative",
-            "files": [
-                "https://github.com/Flow-two/ComfyUI-WanStartEndFramesNative"
-            ],
-            "install_type": "git-clone",
-            "description": "Start and end frames video generation node that supports native ComfyUI."
-        },
-        {
-            "author": "LoveEatCandy",
-            "title": "COMFYUI-ReplacePartOfImage",
-            "reference": "https://github.com/LoveEatCandy/COMFYUI-ReplacePartOfImage",
-            "files": [
-                "https://github.com/LoveEatCandy/COMFYUI-ReplacePartOfImage"
-            ],
-            "install_type": "git-clone",
-            "description": "Replace part of an image with another image"
-        },
-        {
-            "author": "zakantonio",
-            "title": "Avatar Generation Experience",
-            "reference": "https://github.com/zakantonio/AvatarGen-experience",
-            "files": [
-                "https://github.com/zakantonio/AvatarGen-experience"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that transforms user photos into stylized character avatars."
-        },
-        {
-            "author": "AIExplorer25",
-            "title": "ComfyUI_AutoDownloadModels",
-            "reference": "https://github.com/AIExplorer25/ComfyUI_AutoDownloadModels",
-            "files": [
-                "https://github.com/AIExplorer25/ComfyUI_AutoDownloadModels"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node helps to auto download models from huggingface"
-        },
-        {
-            "author": "Altair200333",
-            "title": "Flux Pro Nodes for ComfyUI",
-            "reference": "https://github.com/Altair200333/ComfyUI_Flux_1.1_PRO",
-            "files": [
-                "https://github.com/Altair200333/ComfyUI_Flux_1.1_PRO"
-            ],
-            "install_type": "git-clone",
-            "description": "This plugin adds a new node to ComfyUI. The node uses the FLUX.1 Fill API to fill in parts of an image."
         }
     ]
 }

@@ -8058,6 +8058,14 @@
             "title_aux": "ComfyUI-Rodin"
         }
     ],
+    "https://github.com/Raykosan/ComfyUI_RS-SaturationNode": [
+        [
+            "RS_SaturationSwitch"
+        ],
+        {
+            "title_aux": "ComfyUI_RS-SaturationNode"
+        }
+    ],
     "https://github.com/RaymondProduction/comfyui-zerna-pack": [
         [
             "CLIPDynamicPromptEncoder //Zerna Pack",
@@ -9157,6 +9165,14 @@
         ],
         {
             "title_aux": "Wav2Lip Node for ComfyUI"
+        }
+    ],
+    "https://github.com/ShmuelRonen/DJ_VideoAudioMixer": [
+        [
+            "DJ_VideoAudioMixer"
+        ],
+        {
+            "title_aux": "DJ_VideoAudioMixer"
         }
     ],
     "https://github.com/ShmuelRonen/comfyui-openai_fm": [
@@ -10410,6 +10426,14 @@
         ],
         {
             "title_aux": "ComfyUI-IDM-VTON [WIP]"
+        }
+    ],
+    "https://github.com/Temult/sigma-graph-node": [
+        [
+            "SigmaGraphNode"
+        ],
+        {
+            "title_aux": "Sigma Graph Node for ComfyUI"
         }
     ],
     "https://github.com/TencentQQGYLab/ComfyUI-ELLA": [
@@ -11915,6 +11939,7 @@
             "Latent Operation To Module",
             "LatentApplyOperationCFGToStep",
             "Model Bending",
+            "Model Bending (SD Layers)",
             "Model Inspector",
             "Model VAE Bending",
             "Multiply Scalar Module (Bending)",
@@ -12241,6 +12266,31 @@
             "title_aux": "Video Generation Nodes for EasyAnimate"
         }
     ],
+    "https://github.com/aigc-apps/VideoX-Fun": [
+        [
+            "CogVideoXFunInpaintSampler",
+            "CogVideoXFunT2VSampler",
+            "CogVideoXFunV2VSampler",
+            "FunTextBox",
+            "LoadCogVideoXFunLora",
+            "LoadCogVideoXFunModel",
+            "LoadWanFunLora",
+            "LoadWanFunModel",
+            "LoadWanLora",
+            "LoadWanModel",
+            "VideoToCanny",
+            "VideoToDepth",
+            "VideoToOpenpose",
+            "WanFunInpaintSampler",
+            "WanFunT2VSampler",
+            "WanFunV2VSampler",
+            "WanI2VSampler",
+            "WanT2VSampler"
+        ],
+        {
+            "title_aux": "VideoX-Fun"
+        }
+    ],
     "https://github.com/aimerib/ComfyUI_HigherBitDepthSaveImage": [
         [
             "SaveImageHigherBitDepth"
@@ -12315,9 +12365,7 @@
             "AK_BinaryAmplitudeGate",
             "AK_BlobTrack",
             "AK_BrightnessToFloatList",
-            "AK_ConvertAudioToSaltAudio",
             "AK_ConvertListToFloatList",
-            "AK_ConvertSaltAudioToAudio",
             "AK_DilateMaskLinearInfinite",
             "AK_FadeBetweenBatches",
             "AK_FlexFeatureToFloatList",
@@ -21635,14 +21683,6 @@
             "title_aux": "comfyUI-nsfw-detection"
         }
     ],
-    "https://github.com/kayselmecnun/ComfyUI-Qwen-25-VL": [
-        [
-            "QwenVL"
-        ],
-        {
-            "title_aux": "ComfyUI-Qwen-25-VL"
-        }
-    ],
     "https://github.com/kazeyori/ComfyUI-QuickImageSequenceProcess": [
         [
             "QuickImageSequenceProcess"
@@ -23246,7 +23286,9 @@
             "FaceMeshDrawNode",
             "FaceMeshMaskNode",
             "FaceMeshNode",
-            "FeatureBankAttentionProcessor"
+            "FeatureBankAttentionProcessor",
+            "SuperResolutionModelLoader",
+            "SuperResolutionUpscale"
         ],
         {
             "title_aux": "ComfyUI-Stream-Pack"
@@ -25110,10 +25152,10 @@
     ],
     "https://github.com/mit-han-lab/ComfyUI-nunchaku": [
         [
-            "SVDQuantDepthPreprocessor",
-            "SVDQuantFluxDiTLoader",
-            "SVDQuantFluxLoraLoader",
-            "SVDQuantTextEncoderLoader"
+            "NunchakuDepthPreprocessor",
+            "NunchakuFluxDiTLoader",
+            "NunchakuFluxLoraLoader",
+            "NunchakuTextEncoderLoader"
         ],
         {
             "title_aux": "ComfyUI-nunchaku"
@@ -28699,8 +28741,10 @@
             "Comic_Type",
             "EasyFunction_Lite",
             "Pre_Translate_prompt",
-            "Storydiffusion_Model_Loader",
-            "Storydiffusion_Sampler"
+            "StoryDiffusion_Apply",
+            "StoryDiffusion_CLIPTextEncode",
+            "StoryDiffusion_KSampler",
+            "StoryDiffusion_Lora_Control"
         ],
         {
             "title_aux": "ComfyUI_StoryDiffusion"
@@ -30465,6 +30509,32 @@
         ],
         {
             "title_aux": "ComfyUI-SelectStringFromListWithIndex"
+        }
+    ],
+    "https://github.com/withmpx/mpx-comfyui-nodes": [
+        [
+            "Agent_PickBestImageFromList",
+            "Agent_ReflectionOnImageList",
+            "ImagesTo3DModels",
+            "LoadImageData",
+            "ObjectListToImageList",
+            "PickFromList",
+            "SaveModelsToDisk",
+            "ShowList",
+            "ShowString",
+            "StringListToStringList",
+            "StringListToText",
+            "TextToImage",
+            "TextToList",
+            "TextToObjectList",
+            "TextToScriptBreakdown",
+            "TextToStory",
+            "TextToText",
+            "TransformObjectList",
+            "TwoTextToText"
+        ],
+        {
+            "title_aux": "mpx-comfyui-nodes"
         }
     ],
     "https://github.com/wjl0313/ComfyUI_KimNodes": [
