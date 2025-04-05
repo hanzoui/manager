@@ -20843,6 +20843,16 @@
             "description": "A ComfyUI wrapper for [a/Kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx)"
         },
         {
+            "author": "Burgstall-labs",
+            "title": "ComfyUI-BS-Textchop",
+            "reference": "https://github.com/Burgstall-labs/ComfyUI-BS-Textchop",
+            "files": [
+                "https://github.com/Burgstall-labs/ComfyUI-BS-Textchop"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that extracts text segments based on specified start and/or end marker strings. You can define multiple marker pairs to extract different segments from the same input text.\nThe node intelligently adapts its extraction based on whether you provide a start marker, an end marker, or both for each pair."
+        },
+        {
             "author": "Kidev",
             "title": "ComfyUI Fisheye Effects Nodes",
             "reference": "https://github.com/Kidev/ComfyUI-Fisheye-effects",
@@ -23271,16 +23281,6 @@
             ],
             "install_type": "git-clone",
             "description": "This custom node package provides nodes specifically for using the mvadapter_ig2mv_sdxl.safetensors adapter within ComfyUI. This adapter is designed for image-guided multi-view generation, typically used for creating textures from 3D mesh renders (position and normal maps)."
-        },
-        {
-            "author": "Stable-X",
-            "title": "ComfyUI-Hi3DGen",
-            "reference": "https://github.com/Stable-X/ComfyUI-Hi3DGen",
-            "files": [
-                "https://github.com/Stable-X/ComfyUI-Hi3DGen"
-            ],
-            "install_type": "git-clone",
-            "description": "This extension integrates [a/Hi3DGen](https://github.com/Stable-X/Hi3DGen) into ComfyUI, allowing user to generate high-fidelity 3D geometry generation from Images."
         },
         {
             "author": "LaVie024",

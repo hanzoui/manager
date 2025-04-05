@@ -14,6 +14,16 @@
         
         
         {
+            "author": "Stable-X",
+            "title": "ComfyUI-Hi3DGen",
+            "reference": "https://github.com/Stable-X/ComfyUI-Hi3DGen",
+            "files": [
+                "https://github.com/Stable-X/ComfyUI-Hi3DGen"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension integrates [a/Hi3DGen](https://github.com/Stable-X/Hi3DGen) into ComfyUI, allowing user to generate high-fidelity 3D geometry generation from Images.[w/If the *sageattention* package is installed, this node pack causes problems.]"
+        },
+        {
             "author": "stiffy-committee",
             "title": "comfyui-stiffy-nodes",
             "reference": "https://github.com/stiffy-committee/comfyui-stiffy-nodes",
@@ -223,16 +233,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Simple Image Rotate"
-        },
-        {
-            "author": "ImagineerNL",
-            "title": "comfyui_potrace_svg",
-            "reference": "https://github.com/ImagineerNL/comfyui_potrace_svg",
-            "files": [
-                "https://github.com/ImagineerNL/comfyui_potrace_svg"
-            ],
-            "install_type": "git-clone",
-            "description": "This project converts raster images into SVG format using the Potrace library."
         },
         {
             "author": "DonutsDelivery",
