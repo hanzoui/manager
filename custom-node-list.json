@@ -208,6 +208,17 @@
             "description": "Proper implementation of ImageMagick - the famous software suite for editing and manipulating digital images to ComfyUI using [a/wandpy](https://github.com/emcconville/wand).\nNOTE: You need to install ImageMagick, manually."
         },
         {
+            "author": "jerrywap",
+            "title": "ComfyUI_UploadToWebhookHTTP",
+            "id": "upload-to-webhook-http",
+            "reference": "https://github.com/jerrywap/ComfyUI_UploadToWebhookHTTP",
+            "files": [
+              "https://github.com/jerrywap/ComfyUI_UploadToWebhookHTTP"
+            ],
+            "install_type": "git-clone",
+            "description": "Send generated images or videos to any HTTP webhook with optional parameters such as prompt-id and metadata payload."
+        },
+        {
             "author": "time-river",
             "title": "CLIPSeg",
             "id": "clipseg",
