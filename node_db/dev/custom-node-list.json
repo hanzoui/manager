@@ -14,6 +14,106 @@
         
         
         {
+            "author": "oxysoft",
+            "title": "Comfy-Compel",
+            "reference": "https://github.com/oxysoft/Comfy-Compel",
+            "files": [
+                "https://github.com/oxysoft/Comfy-Compel"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: CLIP Embed (Compel)"
+        },
+        {
+            "author": "QingLuanWithoutHeart",
+            "title": "ComfyUI File/Image Utils Nodes [UNSAFE]",
+            "reference": "https://github.com/QingLuanWithoutHeart/comfyui-file-image-utils",
+            "files": [
+                "https://github.com/QingLuanWithoutHeart/comfyui-file-image-utils"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node set provides useful utilities for file operations and image loading in ComfyUI."
+        },
+        {
+            "author": "pmarmotte2",
+            "title": "VibeVoiceSelector [WIP]",
+            "reference": "https://github.com/pmarmotte2/Comfyui-VibeVoiceSelector",
+            "files": [
+                "https://github.com/pmarmotte2/Comfyui-VibeVoiceSelector"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Vibe Voice Selector"
+        },
+        {
+            "author": "Temult",
+            "title": "TWanVideoSigmaSampler: EXPERIMENTAL [WIP]",
+            "reference": "https://github.com/Temult/TWanSigmaSampler",
+            "files": [
+                "https://github.com/Temult/TWanSigmaSampler"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that modifies the WanVideoSampler to accept an external sigma schedule. Allows for customized and non-standard noise schedules in Wan 2.1 video generation workflow.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "wordbrew",
+            "title": "WAN Control Nodes for ComfyUI [WIP]",
+            "reference": "https://github.com/wordbrew/comfyui-wan-control-nodes",
+            "files": [
+                "https://github.com/wordbrew/comfyui-wan-control-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This pack provides enhanced control nodes for working with Wan video models in ComfyUI. It is under active development and may change regularly, or may not. Depends entirely on my free time and waning interest. Please don't come to rely on it for anything, but you are welcome to improve on it.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Kur0butiMegane",
+            "title": "Comfyui-StringUtils",
+            "reference": "https://github.com/Kur0butiMegane/Comfyui-StringUtils",
+            "files": [
+                "https://github.com/Kur0butiMegane/Comfyui-StringUtils"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Prompt Normalizer, String Splitter, String Line Selector, Extract Markup Value"
+        },
+        {
+            "author": "techtruth",
+            "title": "ComfyUI-Dreambooth",
+            "reference": "https://github.com/techtruth/ComfyUI-Dreambooth",
+            "files": [
+              "https://github.com/techtruth/ComfyUI-Dreambooth"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Dreambooth Trainer"
+        },
+        {
+            "author": "438443467",
+            "title": "ComfyUI-SanMian-Nodes",
+            "reference": "https://github.com/438443467/ComfyUI-SanMian-Nodes",
+            "files": [
+              "https://github.com/438443467/ComfyUI-SanMian-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Add Text To Image, Adjust Hex Brightness, Adjust Transparency By Mask, Align Images with Mask, Align Restore Json, Binarize Mask, Blend ICLight, ..."
+        },
+        {
+            "author": "alexgenovese",
+            "title": "ComfyUI-Reica",
+            "reference": "https://github.com/alexgenovese/ComfyUI-Reica",
+            "files": [
+                "https://github.com/alexgenovese/ComfyUI-Reica"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Reica Text Image Display, Flux Image Generator, Reica GCP: Read Image, Reica GCP: Write Image & Get URL, Reica API: Send HTTP Notification"
+        },
+        {
+            "author": "yanlang0123",
+            "title": "ComfyUI_Lam",
+            "reference": "https://github.com/yanlang0123/ComfyUI_Lam",
+            "files": [
+                "https://github.com/yanlang0123/ComfyUI_Lam"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension has some useful nodes, loops, wechat public number +AI chat drawing, distributed cluster."
+        },
+        {
             "author": "Stable-X",
             "title": "ComfyUI-Hi3DGen",
             "reference": "https://github.com/Stable-X/ComfyUI-Hi3DGen",
