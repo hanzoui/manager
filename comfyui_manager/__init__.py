@@ -1,6 +1,8 @@
 import os
 import logging
 
+ENABLE_LEGACY_COMFYUI_MANAGER_FRONT_DEFAULT = True # Enable legacy ComfyUI Manager frontend while new UI is in beta phase
+
 def prestartup():
     from . import prestartup_script  # noqa: F401
     logging.info('[PRE] ComfyUI-Manager')
