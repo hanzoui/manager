@@ -1558,6 +1558,9 @@ export class CustomNodesManager {
 
 	async onQueueStatus(event) {
 		let self = CustomNodesManager.instance;
+		// If legacy manager front is not open, return early (using new manager front)
+		if (self.element?.style.display === 'none') return
+
 		if(event.detail.status == 'in_progress' && event.detail.ui_target == 'nodepack_manager') {
 			const hash = event.detail.target;
 
