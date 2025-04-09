@@ -808,7 +808,7 @@ def populate_markdown(x):
 
 # freeze imported version
 startup_time_installed_node_packs = core.get_installed_node_packs()
-@routes.get("/customnode/installed")
+@routes.get("/v2/customnode/installed")
 async def installed_list(request):
     mode = request.query.get('mode', 'default')
 
