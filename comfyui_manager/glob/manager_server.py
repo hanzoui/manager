@@ -25,7 +25,12 @@ from . import manager_downloader
 
 
 logging.info(f"### Loading: ComfyUI-Manager ({core.version_str})")
-logging.info("[ComfyUI-Manager] network_mode: " + core.get_config()['network_mode'])
+
+if not manager_util.is_manager_pip_package():
+    network_mode_description = "offline"
+else:
+    network_mode_description = core.get_config()['network_mode']
+logging.info("[ComfyUI-Manager] network_mode: " + network_mode_description)
 
 comfy_ui_hash = "-"
 comfyui_tag = None
@@ -1898,7 +1903,7 @@ async def default_cache_update():
             logging.error(f"[ComfyUI-Manager] Failed to perform initial fetching '{filename}': {e}")
             traceback.print_exc()
 
-    if core.get_config()['network_mode'] != 'offline':
+    if core.get_config()['network_mode'] != 'offline' and not manager_util.is_manager_pip_package():
         a = get_cache("custom-node-list.json")
         b = get_cache("extension-node-map.json")
         c = get_cache("model-list.json")

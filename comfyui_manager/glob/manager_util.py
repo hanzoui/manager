@@ -26,6 +26,8 @@ cache_dir = os.path.join(comfyui_manager_path, '.cache')  # This path is also up
 
 use_uv = False
 
+def is_manager_pip_package():
+    return not os.path.exists(os.path.join(comfyui_manager_path, '..', 'custom_nodes'))
 
 def add_python_path_to_env():
     if platform.system() != "Windows":
