@@ -728,7 +728,7 @@ class UnifiedManager:
 
         return latest
 
-    async def reload(self, cache_mode, dont_wait=True):
+    async def reload(self, cache_mode, dont_wait=True, update_cnr_map=True):
         self.custom_node_map_cache = {}
         self.cnr_inactive_nodes = {}      # node_id -> node_version -> fullpath
         self.nightly_inactive_nodes = {}  # node_id -> fullpath
@@ -739,14 +739,15 @@ class UnifiedManager:
         if get_config()['network_mode'] != 'public' or manager_util.is_manager_pip_package():
             dont_wait = True
 
-        # reload 'cnr_map' and 'repo_cnr_map'
-        cnrs = await cnr_utils.get_cnr_data(cache_mode=cache_mode=='cache', dont_wait=dont_wait)
+        if update_cnr_map:
+            # reload 'cnr_map' and 'repo_cnr_map'
+            cnrs = await cnr_utils.get_cnr_data(cache_mode=cache_mode=='cache', dont_wait=dont_wait)
 
-        for x in cnrs:
-            self.cnr_map[x['id']] = x
-            if 'repository' in x:
-                normalized_url = git_utils.normalize_url(x['repository'])
-                self.repo_cnr_map[normalized_url] = x
+            for x in cnrs:
+                self.cnr_map[x['id']] = x
+                if 'repository' in x:
+                    normalized_url = git_utils.normalize_url(x['repository'])
+                    self.repo_cnr_map[normalized_url] = x
 
         # reload node status info from custom_nodes/*
         for custom_nodes_path in folder_paths.get_folder_paths('custom_nodes'):
