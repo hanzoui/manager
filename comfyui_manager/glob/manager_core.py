@@ -558,7 +558,7 @@ class UnifiedManager:
                     ver = str(manager_util.StrictVersion(info['version']))
                     return {'id': cnr['id'], 'cnr': cnr, 'ver': ver}
                 else:
-                    return None
+                    return {'id': info['id'], 'ver': info['version']}
             else:
                 return None
 
