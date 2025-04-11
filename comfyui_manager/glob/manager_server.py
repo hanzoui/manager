@@ -1918,6 +1918,8 @@ async def default_cache_update():
             # load at least once
             await core.unified_manager.reload('remote', dont_wait=False)
             await core.unified_manager.get_custom_nodes(channel_url, 'remote')
+    else:
+        await core.unified_manager.reload('remote', dont_wait=False, update_cnr_map=False)
 
     logging.info("[ComfyUI-Manager] All startup tasks have been completed.")
 
