@@ -222,7 +222,7 @@ function isBeforeFrontendVersion(compareVersion) {
     }
 }
 
-const is_legacy_front = isBeforeFrontendVersion('1.2.49');
+const is_legacy_front = () => isBeforeFrontendVersion('1.2.49');
 const isNewManagerUI = () => isBeforeFrontendVersion('1.16.4');
 
 document.head.appendChild(docStyle);
