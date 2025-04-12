@@ -43,6 +43,17 @@
             "description": "A ComfyUI node that fetches an image from an HTTP URL and returns it as an image tensor. Useful for API-based workflows."
         },
         {
+            "author": "lum3on",
+            "title": "HiDream Sampler",
+            "id": "hidream-sampler",
+            "reference": "https://github.com/lum3on/comfyui_HiDream-Sampler",
+            "files": [
+                "https://github.com/lum3on/comfyui_HiDream-Sampler"
+            ],
+            "install_type": "copy",
+            "description": "A custom ComfyUI node for generating images using the HiDream AI model. Uses quantization for lower memory usage."
+        },
+        {
             "author": "lquesada",
             "title": "ComfyUI-Interactive",
             "id": "comfyui-interactive",
