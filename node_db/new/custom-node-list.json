@@ -11,6 +11,38 @@
         
         
         {
+            "author": "brantje",
+            "title": "ComfyUI-api-tools",
+            "id": "comfyui_api_tools",
+            "reference": "https://github.com/brantje/ComfyUI-api-tools",
+            "files": [
+                "https://github.com/brantje/ComfyUI-api-tools"
+            ],
+            "install_type": "git-clone",
+            "description": "Adds extra API functionallity and prometheus endpoint"
+        },
+        {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-UNO",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-UNO",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-UNO"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for UNO model."
+        },
+        {
+            "author": "jerrywap",
+            "title": "ComfyUI_LoadImageFromHttpURL",
+            "id": "load-image-from-http-url",
+            "reference": "https://github.com/jerrywap/ComfyUI_LoadImageFromHttpURL",
+            "files": [
+              "https://github.com/jerrywap/ComfyUI_LoadImageFromHttpURL"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node that fetches an image from an HTTP URL and returns it as an image tensor. Useful for API-based workflows."
+        },
+        {
             "author": "lquesada",
             "title": "ComfyUI-Interactive",
             "id": "comfyui-interactive",
