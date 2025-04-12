@@ -1326,67 +1326,66 @@ class UnifiedManager:
             return result.fail(f'Path not found: {repo_path}')
 
         # version check
-        repo = git.Repo(repo_path)
+        with git.Repo(repo_path) as repo:
+            if repo.head.is_detached:
+                if not switch_to_default_branch(repo):
+                    return result.fail(f"Failed to switch to default branch: {repo_path}")
 
-        if repo.head.is_detached:
-            if not switch_to_default_branch(repo):
-                return result.fail(f"Failed to switch to default branch: {repo_path}")
+            current_branch = repo.active_branch
+            branch_name = current_branch.name
 
-        current_branch = repo.active_branch
-        branch_name = current_branch.name
-
-        if current_branch.tracking_branch() is None:
-            print(f"[ComfyUI-Manager] There is no tracking branch ({current_branch})")
-            remote_name = get_remote_name(repo)
-        else:
-            remote_name = current_branch.tracking_branch().remote_name
-
-        if remote_name is None:
-            return result.fail(f"Failed to get remote when installing: {repo_path}")
-
-        remote = repo.remote(name=remote_name)
-
-        try:
-            remote.fetch()
-        except Exception as e:
-            if 'detected dubious' in str(e):
-                print(f"[ComfyUI-Manager] Try fixing 'dubious repository' error on '{repo_path}' repository")
-                safedir_path = repo_path.replace('\\', '/')
-                subprocess.run(['git', 'config', '--global', '--add', 'safe.directory', safedir_path])
-                try:
-                    remote.fetch()
-                except Exception:
-                    print("\n[ComfyUI-Manager] Failed to fixing repository setup. Please execute this command on cmd: \n"
-                          "-----------------------------------------------------------------------------------------\n"
-                          f'git config --global --add safe.directory "{safedir_path}"\n'
-                          "-----------------------------------------------------------------------------------------\n")
-
-        commit_hash = repo.head.commit.hexsha
-        if f'{remote_name}/{branch_name}' in repo.refs:
-            remote_commit_hash = repo.refs[f'{remote_name}/{branch_name}'].object.hexsha
-        else:
-            return result.fail(f"Not updatable branch: {branch_name}")
-
-        if commit_hash != remote_commit_hash:
-            git_pull(repo_path)
-
-            if len(repo.remotes) > 0:
-                url = repo.remotes[0].url
+            if current_branch.tracking_branch() is None:
+                print(f"[ComfyUI-Manager] There is no tracking branch ({current_branch})")
+                remote_name = get_remote_name(repo)
             else:
-                url = "unknown repo"
+                remote_name = current_branch.tracking_branch().remote_name
 
-            def postinstall():
-                return self.execute_install_script(url, repo_path, instant_execution=instant_execution, no_deps=no_deps)
+            if remote_name is None:
+                return result.fail(f"Failed to get remote when installing: {repo_path}")
 
-            if return_postinstall:
-                return result.with_postinstall(postinstall)
+            remote = repo.remote(name=remote_name)
+
+            try:
+                remote.fetch()
+            except Exception as e:
+                if 'detected dubious' in str(e):
+                    print(f"[ComfyUI-Manager] Try fixing 'dubious repository' error on '{repo_path}' repository")
+                    safedir_path = repo_path.replace('\\', '/')
+                    subprocess.run(['git', 'config', '--global', '--add', 'safe.directory', safedir_path])
+                    try:
+                        remote.fetch()
+                    except Exception:
+                        print("\n[ComfyUI-Manager] Failed to fixing repository setup. Please execute this command on cmd: \n"
+                              "-----------------------------------------------------------------------------------------\n"
+                              f'git config --global --add safe.directory "{safedir_path}"\n'
+                              "-----------------------------------------------------------------------------------------\n")
+
+            commit_hash = repo.head.commit.hexsha
+            if f'{remote_name}/{branch_name}' in repo.refs:
+                remote_commit_hash = repo.refs[f'{remote_name}/{branch_name}'].object.hexsha
             else:
-                if not postinstall():
-                    return result.fail(f"Failed to execute install script: {url}")
+                return result.fail(f"Not updatable branch: {branch_name}")
 
-            return result
-        else:
-            return ManagedResult('skip').with_msg('Up to date')
+            if commit_hash != remote_commit_hash:
+                git_pull(repo_path)
+
+                if len(repo.remotes) > 0:
+                    url = repo.remotes[0].url
+                else:
+                    url = "unknown repo"
+
+                def postinstall():
+                    return self.execute_install_script(url, repo_path, instant_execution=instant_execution, no_deps=no_deps)
+
+                if return_postinstall:
+                    return result.with_postinstall(postinstall)
+                else:
+                    if not postinstall():
+                        return result.fail(f"Failed to execute install script: {url}")
+
+                return result
+            else:
+                return ManagedResult('skip').with_msg('Up to date')
 
     def unified_update(self, node_id, version_spec=None, instant_execution=False, no_deps=False, return_postinstall=False):
         orig_print(f"\x1b[2K\rUpdating: {node_id}", end='')
@@ -2654,22 +2653,8 @@ async def get_current_snapshot(custom_nodes_only = False):
 
                         cnr_custom_nodes[info['id']] = info['ver']
                     else:
-                        repo = git.Repo(fullpath)
-
-                        if repo.head.is_detached:
-                            remote_name = get_remote_name(repo)
-                        else:
-                            current_branch = repo.active_branch
-
-                            if current_branch.tracking_branch() is None:
-                                remote_name = get_remote_name(repo)
-                            else:
-                                remote_name = current_branch.tracking_branch().remote_name
-
-                        commit_hash = repo.head.commit.hexsha
-
-                        url = repo.remotes[remote_name].url
-
+                        commit_hash = git_utils.get_commit_hash(fullpath)
+                        url = git_utils.git_url(fullpath)
                         git_custom_nodes[url] = dict(hash=commit_hash, disabled=is_disabled)
                 except:
                     print(f"Failed to extract snapshots for the custom node '{path}'.")
