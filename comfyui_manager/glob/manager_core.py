@@ -38,7 +38,7 @@ from . import manager_util
 from . import git_utils
 from . import manager_downloader
 from .node_package import InstalledNodePackage
-
+from .enums import NetworkMode, SecurityLevel, DBMode
 
 version_code = [4, 0]
 version_str = f"V{version_code[0]}.{version_code[1]}" + (f'.{version_code[2]}' if len(version_code) > 2 else '')
@@ -237,7 +237,7 @@ def update_user_directory(user_dir):
 
     if not os.path.exists(manager_util.cache_dir):
         os.makedirs(manager_util.cache_dir)
-    
+
     if not os.path.exists(manager_batch_history_path):
         os.makedirs(manager_batch_history_path)
 
@@ -558,7 +558,7 @@ class UnifiedManager:
                     ver = str(manager_util.StrictVersion(info['version']))
                     return {'id': cnr['id'], 'cnr': cnr, 'ver': ver}
                 else:
-                    return None
+                    return {'id': info['id'], 'ver': info['version']}
             else:
                 return None
 
@@ -734,7 +734,7 @@ class UnifiedManager:
 
         return latest
 
-    async def reload(self, cache_mode, dont_wait=True):
+    async def reload(self, cache_mode, dont_wait=True, update_cnr_map=True):
         self.custom_node_map_cache = {}
         self.cnr_inactive_nodes = {}      # node_id -> node_version -> fullpath
         self.nightly_inactive_nodes = {}  # node_id -> fullpath
@@ -742,17 +742,18 @@ class UnifiedManager:
         self.unknown_active_nodes = {}    # node_id -> repo url * fullpath
         self.active_nodes = {}            # node_id -> node_version * fullpath
 
-        if get_config()['network_mode'] != 'public':
+        if get_config()['network_mode'] != 'public' or manager_util.is_manager_pip_package():
             dont_wait = True
 
-        # reload 'cnr_map' and 'repo_cnr_map'
-        cnrs = await cnr_utils.get_cnr_data(cache_mode=cache_mode=='cache', dont_wait=dont_wait)
+        if update_cnr_map:
+            # reload 'cnr_map' and 'repo_cnr_map'
+            cnrs = await cnr_utils.get_cnr_data(cache_mode=cache_mode=='cache', dont_wait=dont_wait)
 
-        for x in cnrs:
-            self.cnr_map[x['id']] = x
-            if 'repository' in x:
-                normalized_url = git_utils.normalize_url(x['repository'])
-                self.repo_cnr_map[normalized_url] = x
+            for x in cnrs:
+                self.cnr_map[x['id']] = x
+                if 'repository' in x:
+                    normalized_url = git_utils.normalize_url(x['repository'])
+                    self.repo_cnr_map[normalized_url] = x
 
         # reload node status info from custom_nodes/*
         for custom_nodes_path in folder_paths.get_folder_paths('custom_nodes'):
@@ -1677,9 +1678,9 @@ def read_config():
                     'model_download_by_agent': get_bool('model_download_by_agent', False),
                     'downgrade_blacklist': default_conf.get('downgrade_blacklist', '').lower(),
                     'always_lazy_install': get_bool('always_lazy_install', False),
-                    'network_mode': default_conf.get('network_mode', 'public').lower(),
-                    'security_level': default_conf.get('security_level', 'normal').lower(),
-                    'db_mode': default_conf.get('db_mode', 'cache').lower(),
+                    'network_mode': default_conf.get('network_mode', NetworkMode.PUBLIC.value).lower(),
+                    'security_level': default_conf.get('security_level', SecurityLevel.NORMAL.value).lower(),
+                    'db_mode': default_conf.get('db_mode', DBMode.CACHE.value).lower(),
                }
 
     except Exception:
@@ -1700,9 +1701,9 @@ def read_config():
             'model_download_by_agent': False,
             'downgrade_blacklist': '',
             'always_lazy_install': False,
-            'network_mode': 'public',   # public | private | offline
-            'security_level': 'normal', # strong | normal | normal- | weak
-            'db_mode': 'cache',         # local | cache | remote
+            'network_mode': NetworkMode.OFFLINE.value,
+            'security_level': SecurityLevel.NORMAL.value,
+            'db_mode': DBMode.CACHE.value,
         }
 
 
@@ -2199,7 +2200,7 @@ async def get_data_by_mode(mode, filename, channel_url=None):
             cache_uri = str(manager_util.simple_hash(uri))+'_'+filename
             cache_uri = os.path.join(manager_util.cache_dir, cache_uri)
 
-            if get_config()['network_mode'] == 'offline':
+            if get_config()['network_mode'] == 'offline' or manager_util.is_manager_pip_package():
                 # offline network mode
                 if os.path.exists(cache_uri):
                     json_obj = await manager_util.get_data(cache_uri)

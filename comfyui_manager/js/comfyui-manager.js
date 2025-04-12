@@ -189,8 +189,7 @@ docStyle.innerHTML = `
 }
 `;
 
-function is_legacy_front() {
-    let compareVersion = '1.2.49';
+function isBeforeFrontendVersion(compareVersion) {
     try {
         const frontendVersion = window['__COMFYUI_FRONTEND_VERSION__'];
         if (typeof frontendVersion !== 'string') {
@@ -222,6 +221,9 @@ function is_legacy_front() {
         return true;
     }
 }
+
+const is_legacy_front = () => isBeforeFrontendVersion('1.2.49');
+const isNotNewManagerUI = () => isBeforeFrontendVersion('1.16.4');
 
 document.head.appendChild(docStyle);
 
@@ -476,9 +478,9 @@ async function updateComfyUI() {
 
 //	set_inprogress_mode();
 	showTerminal();
-	
+
 	batch_id = generateUUID();
-	
+
 	let batch = {};
 	batch['batch_id'] = batch_id;
 	batch['update_comfyui'] = true;
@@ -671,7 +673,7 @@ async function onQueueStatus(event) {
 		if(batch_id != event.detail.batch_id) {
 			return;
 		}
-		
+
 		let success_list = [];
 		let failed_list = [];
 		let comfyui_state = null;
@@ -778,7 +780,7 @@ async function updateAll(update_comfyui) {
 	showTerminal();
 
 	batch_id = generateUUID();
-	
+
 	let batch = {};
 	if(update_comfyui) {
 		update_all_button.innerText = "Updating ComfyUI...";
@@ -1516,7 +1518,10 @@ app.registerExtension({
 				}).element
 			);
 
-			app.menu?.settingsGroup.element.before(cmGroup.element);
+			const shouldShowLegacyMenuItems = isNotNewManagerUI();
+			if (shouldShowLegacyMenuItems) {
+				app.menu?.settingsGroup.element.before(cmGroup.element);
+			}
 		}
 		catch(exception) {
 			console.log('ComfyUI is outdated. New style menu based features are disabled.');

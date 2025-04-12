@@ -1533,7 +1533,7 @@ export class CustomNodesManager {
 		else {
 			this.batch_id = generateUUID();
 			batch['batch_id'] = this.batch_id;
-			
+
 			const res = await api.fetchApi(`/v2/manager/queue/batch`, {
 				method: 'POST',
 				body: JSON.stringify(batch)
@@ -1548,7 +1548,7 @@ export class CustomNodesManager {
 					errorMsg = `[FAIL] ${item.title}`;
 				}
 			}
-			
+
 			this.showStop();
 			showTerminal();
 		}
@@ -1556,6 +1556,9 @@ export class CustomNodesManager {
 
 	async onQueueStatus(event) {
 		let self = CustomNodesManager.instance;
+		// If legacy manager front is not open, return early (using new manager front)
+		if (self.element?.style.display === 'none') return
+
 		if(event.detail.status == 'in_progress' && event.detail.ui_target == 'nodepack_manager') {
 			const hash = event.detail.target;
 

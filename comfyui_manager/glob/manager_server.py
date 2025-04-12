@@ -25,7 +25,12 @@ from . import manager_downloader
 
 
 logging.info(f"### Loading: ComfyUI-Manager ({core.version_str})")
-logging.info("[ComfyUI-Manager] network_mode: " + core.get_config()['network_mode'])
+
+if not manager_util.is_manager_pip_package():
+    network_mode_description = "offline"
+else:
+    network_mode_description = core.get_config()['network_mode']
+logging.info("[ComfyUI-Manager] network_mode: " + network_mode_description)
 
 comfy_ui_hash = "-"
 comfyui_tag = None
@@ -411,7 +416,7 @@ class TaskBatch:
         item = self.tasks[self.current_index]
         self.current_index += 1
         return item
-        
+
     def done_count(self):
         return len(self.nodepack_result) + len(self.model_result)
 
@@ -487,7 +492,7 @@ async def task_worker():
         ui_id, cnr_id = item
         core.unified_manager.unified_enable(cnr_id)
         return 'success'
-        
+
     async def do_update(item):
         ui_id, node_name, node_ver = item
 
@@ -664,9 +669,9 @@ async def task_worker():
             logging.info(f"\n[ComfyUI-Manager] A tasks batch(batch_id={cur_batch.batch_id}) is completed.\nstat={cur_batch.stats}")
 
             res = {'status': 'batch-done',
-                   'nodepack_result': cur_batch.nodepack_result, 
+                   'nodepack_result': cur_batch.nodepack_result,
                    'model_result': cur_batch.model_result,
-                   'total_count': cur_batch.total_count(), 
+                   'total_count': cur_batch.total_count(),
                    'done_count': cur_batch.done_count(),
                    'batch_id': cur_batch.batch_id,
                    'remaining_batch_count': len(task_batch_queue) }
@@ -773,10 +778,10 @@ async def queue_batch(request):
                 res = await _update_custom_node(x)
                 if res.status != 200:
                     failed.add(x[0])
-                
+
         elif k == 'update_comfyui':
             await update_comfyui(None)
-            
+
         elif k == 'disable':
             for x in v:
                 await _disable_node(x)
@@ -988,7 +993,7 @@ def populate_markdown(x):
 
 # freeze imported version
 startup_time_installed_node_packs = core.get_installed_node_packs()
-@routes.get("/customnode/installed")
+@routes.get("/v2/customnode/installed")
 async def installed_list(request):
     mode = request.query.get('mode', 'default')
 
@@ -1294,7 +1299,7 @@ async def abort_queue(request):
         if len(task_batch_queue) > 0:
             task_batch_queue[0].abort()
             task_batch_queue.popleft()
-            
+
     return web.Response(status=200)
 
 
@@ -1396,10 +1401,10 @@ async def queue_start(request):
     with task_worker_lock:
         finalize_temp_queue_batch()
         return _queue_start()
-    
+
 def _queue_start():
     global task_worker_thread
-    
+
     if task_worker_thread is not None and task_worker_thread.is_alive():
         return web.Response(status=201) # already in-progress
 
@@ -1588,7 +1593,7 @@ async def check_whitelist_for_model(item):
 async def install_model(request):
     json_data = await request.json()
     return await _install_model(json_data)
-    
+
 
 async def _install_model(json_data):
     if not is_allowed_security_level('middle'):
@@ -1895,7 +1900,7 @@ async def default_cache_update():
             logging.error(f"[ComfyUI-Manager] Failed to perform initial fetching '{filename}': {e}")
             traceback.print_exc()
 
-    if core.get_config()['network_mode'] != 'offline':
+    if core.get_config()['network_mode'] != 'offline' and not manager_util.is_manager_pip_package():
         a = get_cache("custom-node-list.json")
         b = get_cache("extension-node-map.json")
         c = get_cache("model-list.json")
@@ -1910,6 +1915,8 @@ async def default_cache_update():
             # load at least once
             await core.unified_manager.reload('remote', dont_wait=False)
             await core.unified_manager.get_custom_nodes(channel_url, 'remote')
+    else:
+        await core.unified_manager.reload('remote', dont_wait=False, update_cnr_map=False)
 
     logging.info("[ComfyUI-Manager] All startup tasks have been completed.")
 
