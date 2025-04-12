@@ -26,10 +26,11 @@ def should_be_disabled(fullpath:str) -> bool:
     2. The blocklist can be expanded later based on policies.
     """
 
-    # In cases where installation is done via a zip archive, the directory name may not be comfyui-manager, and it may not contain a git repository.
-    # It is assumed that any installed legacy ComfyUI-Manager will have at least 'comfyui-manager' in its directory name.
-    dir_name = os.path.basename(fullpath).lower()
-    if 'comfyui-manager' in dir_name:
-        return True
-    else:
-        return False
+    if not args.disable_manager:
+        # In cases where installation is done via a zip archive, the directory name may not be comfyui-manager, and it may not contain a git repository.
+        # It is assumed that any installed legacy ComfyUI-Manager will have at least 'comfyui-manager' in its directory name.
+        dir_name = os.path.basename(fullpath).lower()
+        if 'comfyui-manager' in dir_name:
+            return True
+
+    return False
