@@ -12,10 +12,10 @@ import ast
 import logging
 import traceback
 
-from .glob import security_check
-from .glob import manager_util
-from .glob import cm_global
-from .glob import manager_downloader
+from .common import security_check
+from .common import manager_util
+from .common import cm_global
+from .common import manager_downloader
 import folder_paths
 
 manager_util.add_python_path_to_env()

@@ -15,7 +15,7 @@ import git
 import importlib
 
 
-import manager_util
+from .common import manager_util
 
 # read env vars
 # COMFYUI_FOLDERS_BASE_PATH is not required in cm-cli.py
@@ -35,10 +35,11 @@ if not os.path.exists(os.path.join(comfy_path, 'folder_paths.py')):
 
 
 import utils.extra_config
-from .glob import cm_global
+from .common import cm_global
 from .glob import manager_core as core
+from .common import context
 from .glob.manager_core import unified_manager
-from .glob import cnr_utils
+from .common import cnr_utils
 
 comfyui_manager_path = os.path.abspath(os.path.dirname(__file__))
 
@@ -80,7 +81,7 @@ def read_downgrade_blacklist():
     try:
         import configparser
         config = configparser.ConfigParser(strict=False)
-        config.read(core.manager_config.path)
+        config.read(context.manager_config_path)
         default_conf = config['default']
 
         if 'downgrade_blacklist' in default_conf:
@@ -141,15 +142,15 @@ class Ctx:
         if os.path.exists(extra_model_paths_yaml):
             utils.extra_config.load_extra_path_config(extra_model_paths_yaml)
 
-        core.update_user_directory(user_directory)
+        context.update_user_directory(user_directory)
 
-        if os.path.exists(core.manager_pip_overrides_path):
-            with open(core.manager_pip_overrides_path, 'r', encoding="UTF-8", errors="ignore") as json_file:
+        if os.path.exists(context.manager_pip_overrides_path):
+            with open(context.manager_pip_overrides_path, 'r', encoding="UTF-8", errors="ignore") as json_file:
                 cm_global.pip_overrides = json.load(json_file)
                 cm_global.pip_overrides = {'numpy': 'numpy<2'}
 
-        if os.path.exists(core.manager_pip_blacklist_path):
-            with open(core.manager_pip_blacklist_path, 'r', encoding="UTF-8", errors="ignore") as f:
+        if os.path.exists(context.manager_pip_blacklist_path):
+            with open(context.manager_pip_blacklist_path, 'r', encoding="UTF-8", errors="ignore") as f:
                 for x in f.readlines():
                     y = x.strip()
                     if y != '':
@@ -162,15 +163,15 @@ class Ctx:
 
     @staticmethod
     def get_startup_scripts_path():
-        return os.path.join(core.manager_startup_script_path, "install-scripts.txt")
+        return os.path.join(context.manager_startup_script_path, "install-scripts.txt")
 
     @staticmethod
     def get_restore_snapshot_path():
-        return os.path.join(core.manager_startup_script_path, "restore-snapshot.json")
+        return os.path.join(context.manager_startup_script_path, "restore-snapshot.json")
 
     @staticmethod
     def get_snapshot_path():
-        return core.manager_snapshot_path
+        return context.manager_snapshot_path
 
     @staticmethod
     def get_custom_nodes_paths():
@@ -646,7 +647,7 @@ def install(
     cmd_ctx.set_channel_mode(channel, mode)
     cmd_ctx.set_no_deps(no_deps)
 
-    pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, core.manager_files_path)
+    pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, context.manager_files_path)
     for_each_nodes(nodes, act=install_node)
     pip_fixer.fix_broken()
 
@@ -684,7 +685,7 @@ def reinstall(
     cmd_ctx.set_channel_mode(channel, mode)
     cmd_ctx.set_no_deps(no_deps)
 
-    pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, core.manager_files_path)
+    pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, context.manager_files_path)
     for_each_nodes(nodes, act=reinstall_node)
     pip_fixer.fix_broken()
 
@@ -738,7 +739,7 @@ def update(
     if 'all' in nodes:
         asyncio.run(auto_save_snapshot())
 
-    pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, core.manager_files_path)
+    pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, context.manager_files_path)
 
     for x in nodes:
         if x.lower() in ['comfyui', 'comfy', 'all']:
@@ -839,7 +840,7 @@ def fix(
     if 'all' in nodes:
         asyncio.run(auto_save_snapshot())
 
-    pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, core.manager_files_path)
+    pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, context.manager_files_path)
     for_each_nodes(nodes, fix_node, allow_all=True)
     pip_fixer.fix_broken()
 
@@ -1116,7 +1117,7 @@ def restore_snapshot(
             print(f"[bold red]ERROR: `{snapshot_path}` is not exists.[/bold red]")
             exit(1)
 
-    pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, core.manager_files_path)
+    pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, context.manager_files_path)
     try:
         asyncio.run(core.restore_snapshot(snapshot_path, extras))
     except Exception:
@@ -1148,7 +1149,7 @@ def restore_dependencies(
     total = len(node_paths)
     i = 1
 
-    pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, core.manager_files_path)
+    pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, context.manager_files_path)
     for x in node_paths:
         print("----------------------------------------------------------------------------------------------------")
         print(f"Restoring [{i}/{total}]: {x}")
@@ -1167,7 +1168,7 @@ def post_install(
 ):
     path = os.path.expanduser(path)
 
-    pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, core.manager_files_path)
+    pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, context.manager_files_path)
     unified_manager.execute_install_script('', path, instant_execution=True)
     pip_fixer.fix_broken()
 
@@ -1211,7 +1212,7 @@ def install_deps(
                 print(f"[bold red]Invalid json file: {deps}[/bold red]")
                 exit(1)
 
-            pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, core.manager_files_path)
+            pip_fixer = manager_util.PIPFixer(manager_util.get_installed_packages(), comfy_path, context.manager_files_path)
             for k in json_obj['custom_nodes'].keys():
                 state = core.simple_check_custom_node(k)
                 if state == 'installed':
