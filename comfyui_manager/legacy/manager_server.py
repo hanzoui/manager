@@ -417,7 +417,7 @@ class TaskBatch:
         item = self.tasks[self.current_index]
         self.current_index += 1
         return item
-        
+
     def done_count(self):
         return len(self.nodepack_result) + len(self.model_result)
 
@@ -493,7 +493,7 @@ async def task_worker():
         ui_id, cnr_id = item
         core.unified_manager.unified_enable(cnr_id)
         return 'success'
-        
+
     async def do_update(item):
         ui_id, node_name, node_ver = item
 
@@ -502,10 +502,7 @@ async def task_worker():
 
             if res.ver == 'unknown':
                 url = core.unified_manager.unknown_active_nodes[node_name][0]
-                try:
-                    title = os.path.basename(url)
-                except Exception:
-                    title = node_name
+                title = os.path.basename(url)
             else:
                 url = core.unified_manager.cnr_map[node_name].get('repository')
                 title = core.unified_manager.cnr_map[node_name]['name']
@@ -673,9 +670,9 @@ async def task_worker():
             logging.info(f"\n[ComfyUI-Manager] A tasks batch(batch_id={cur_batch.batch_id}) is completed.\nstat={cur_batch.stats}")
 
             res = {'status': 'batch-done',
-                   'nodepack_result': cur_batch.nodepack_result, 
+                   'nodepack_result': cur_batch.nodepack_result,
                    'model_result': cur_batch.model_result,
-                   'total_count': cur_batch.total_count(), 
+                   'total_count': cur_batch.total_count(),
                    'done_count': cur_batch.done_count(),
                    'batch_id': cur_batch.batch_id,
                    'remaining_batch_count': len(task_batch_queue) }
@@ -782,10 +779,10 @@ async def queue_batch(request):
                 res = await _update_custom_node(x)
                 if res.status != 200:
                     failed.add(x[0])
-                
+
         elif k == 'update_comfyui':
             await update_comfyui(None)
-            
+
         elif k == 'disable':
             for x in v:
                 await _disable_node(x)
@@ -1303,7 +1300,7 @@ async def abort_queue(request):
         if len(task_batch_queue) > 0:
             task_batch_queue[0].abort()
             task_batch_queue.popleft()
-            
+
     return web.Response(status=200)
 
 
@@ -1405,10 +1402,10 @@ async def queue_start(request):
     with task_worker_lock:
         finalize_temp_queue_batch()
         return _queue_start()
-    
+
 def _queue_start():
     global task_worker_thread
-    
+
     if task_worker_thread is not None and task_worker_thread.is_alive():
         return web.Response(status=201) # already in-progress
 
@@ -1597,7 +1594,7 @@ async def check_whitelist_for_model(item):
 async def install_model(request):
     json_data = await request.json()
     return await _install_model(json_data)
-    
+
 
 async def _install_model(json_data):
     if not is_allowed_security_level('middle'):

@@ -150,82 +150,6 @@ def check_invalid_nodes():
         print("\n---------------------------------------------------------------------------\n")
 
 
-# read env vars
-comfy_path: str = os.environ.get('COMFYUI_PATH')
-comfy_base_path = os.environ.get('COMFYUI_FOLDERS_BASE_PATH')
-
-if comfy_path is None:
-    try:
-        comfy_path = os.path.abspath(os.path.dirname(sys.modules['__main__'].__file__))
-        os.environ['COMFYUI_PATH'] = comfy_path
-    except:
-        logging.error("[ComfyUI-Manager] environment variable 'COMFYUI_PATH' is not specified.")
-        exit(-1)
-
-if comfy_base_path is None:
-    comfy_base_path = comfy_path
-
-
-channel_list_template_path = os.path.join(manager_util.comfyui_manager_path, 'channels.list.template')
-git_script_path = os.path.join(manager_util.comfyui_manager_path, "git_helper.py")
-
-manager_files_path = None
-manager_config_path = None
-manager_channel_list_path = None
-manager_startup_script_path:str = None
-manager_snapshot_path = None
-manager_pip_overrides_path = None
-manager_pip_blacklist_path = None
-manager_components_path = None
-manager_batch_history_path = None
-
-def update_user_directory(user_dir):
-    global manager_files_path
-    global manager_config_path
-    global manager_channel_list_path
-    global manager_startup_script_path
-    global manager_snapshot_path
-    global manager_pip_overrides_path
-    global manager_pip_blacklist_path
-    global manager_components_path
-    global manager_batch_history_path
-
-    manager_files_path = os.path.abspath(os.path.join(user_dir, 'default', 'ComfyUI-Manager'))
-    if not os.path.exists(manager_files_path):
-        os.makedirs(manager_files_path)
-
-    manager_snapshot_path = os.path.join(manager_files_path, "snapshots")
-    if not os.path.exists(manager_snapshot_path):
-        os.makedirs(manager_snapshot_path)
-
-    manager_startup_script_path = os.path.join(manager_files_path, "startup-scripts")
-    if not os.path.exists(manager_startup_script_path):
-        os.makedirs(manager_startup_script_path)
-
-    manager_config_path = os.path.join(manager_files_path, 'config.ini')
-    manager_channel_list_path = os.path.join(manager_files_path, 'channels.list')
-    manager_pip_overrides_path = os.path.join(manager_files_path, "pip_overrides.json")
-    manager_pip_blacklist_path = os.path.join(manager_files_path, "pip_blacklist.list")
-    manager_components_path = os.path.join(manager_files_path, "components")
-    manager_util.cache_dir = os.path.join(manager_files_path, "cache")
-    manager_batch_history_path = os.path.join(manager_files_path, "batch_history")
-
-    if not os.path.exists(manager_util.cache_dir):
-        os.makedirs(manager_util.cache_dir)
-    
-    if not os.path.exists(manager_batch_history_path):
-        os.makedirs(manager_batch_history_path)
-
-try:
-    import folder_paths
-    update_user_directory(folder_paths.get_user_directory())
-
-except Exception:
-    # fallback:
-    # This case is only possible when running with cm-cli, and in practice, this case is not actually used.
-    update_user_directory(os.path.abspath(manager_util.comfyui_manager_path))
-
-
 cached_config = None
 js_path = None
 
@@ -851,9 +775,8 @@ class UnifiedManager:
                     package_name = remap_pip_package(line.strip())
                     if package_name and not package_name.startswith('#') and package_name not in self.processed_install:
                         self.processed_install.add(package_name)
-                        clean_package_name = package_name.split('#')[0].strip()
-                        install_cmd = manager_util.make_pip_cmd(["install", clean_package_name])
-                        if clean_package_name != "" and not clean_package_name.startswith('#'):
+                        install_cmd = manager_util.make_pip_cmd(["install", package_name])
+                        if package_name.strip() != "" and not package_name.startswith('#'):
                             res = res and try_install_script(url, repo_path, install_cmd, instant_execution=instant_execution)
 
                 pip_fixer.fix_broken()
@@ -2064,13 +1987,6 @@ def is_valid_url(url):
     return False
 
 
-def extract_url_and_commit_id(s):
-    index = s.rfind('@')
-    if index == -1:
-        return (s, '')
-    else:
-        return (s[:index], s[index+1:])
-
 async def gitclone_install(url, instant_execution=False, msg_prefix='', no_deps=False):
     await unified_manager.reload('cache')
     await unified_manager.get_custom_nodes('default', 'cache')
@@ -2088,11 +2004,8 @@ async def gitclone_install(url, instant_execution=False, msg_prefix='', no_deps=
         cnr = unified_manager.get_cnr_by_repo(url)
         if cnr:
             cnr_id = cnr['id']
-            return await unified_manager.install_by_id(cnr_id, version_spec=None, channel='default', mode='cache')
+            return await unified_manager.install_by_id(cnr_id, version_spec='nightly', channel='default', mode='cache')
         else:
-            new_url, commit_id = extract_url_and_commit_id(url)
-            if commit_id != "":
-                url = new_url
             repo_name = os.path.splitext(os.path.basename(url))[0]
 
             # NOTE: Keep original name as possible if unknown node
@@ -2125,10 +2038,6 @@ async def gitclone_install(url, instant_execution=False, msg_prefix='', no_deps=
                     return result.fail(f"Failed to clone '{clone_url}' into  '{repo_path}'")
             else:
                 repo = git.Repo.clone_from(clone_url, repo_path, recursive=True, progress=GitProgress())
-                if commit_id!= "":
-                    repo.git.checkout(commit_id)
-                    repo.git.submodule('update', '--init', '--recursive')
-
                 repo.git.clear_cache()
                 repo.close()
 

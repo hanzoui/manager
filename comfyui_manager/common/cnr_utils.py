@@ -6,7 +6,7 @@ import time
 from dataclasses import dataclass
 from typing import List
 
-from . import manager_core
+from . import context
 from . import manager_util
 
 import requests
@@ -48,9 +48,9 @@ async def _get_cnr_data(cache_mode=True, dont_wait=True):
         # Get ComfyUI version tag
         if is_desktop:
             # extract version from pyproject.toml instead of git tag
-            comfyui_ver = manager_core.get_current_comfyui_ver() or 'unknown'
+            comfyui_ver = context.get_current_comfyui_ver() or 'unknown'
         else:
-            comfyui_ver = manager_core.get_comfyui_tag() or 'unknown'
+            comfyui_ver = context.get_comfyui_tag() or 'unknown'
 
         if is_desktop:
             if is_windows:

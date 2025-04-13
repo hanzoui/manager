@@ -11,13 +11,20 @@ def prestartup():
 
 def start():
     logging.info('[START] ComfyUI-Manager')
-    from .glob import manager_server  # noqa: F401
-    from .glob import share_3rdparty  # noqa: F401
-    from .glob import cm_global       # noqa: F401
+    from .common import cm_global     # noqa: F401
 
-    if os.environ.get('ENABLE_LEGACY_COMFYUI_MANAGER_FRONT', 'false') == 'true':
-        import nodes
-        nodes.EXTENSION_WEB_DIRS['comfyui-manager-legacy'] = os.path.join(os.path.dirname(__file__), 'js')
+    should_show_legacy_manager_front = os.environ.get('ENABLE_LEGACY_COMFYUI_MANAGER_FRONT', 'false') == 'true' or ENABLE_LEGACY_COMFYUI_MANAGER_FRONT_DEFAULT
+    if not args.disable_manager and should_show_legacy_manager_front:
+        try:
+            from .legacy import manager_server  # noqa: F401
+            from .legacy import share_3rdparty  # noqa: F401
+            import nodes
+            nodes.EXTENSION_WEB_DIRS['comfyui-manager-legacy'] = os.path.join(os.path.dirname(__file__), 'js')
+        except Exception as e:
+            print("Error enabling legacy ComfyUI Manager frontend:", e)
+    else:
+        from .glob import manager_server  # noqa: F401
+        from .glob import share_3rdparty  # noqa: F401
 
 
 def should_be_disabled(fullpath:str) -> bool:
