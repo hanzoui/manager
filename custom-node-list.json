@@ -3424,6 +3424,16 @@
             "description": "some comfyui custom nodes to set it as known type"
         },
         {
+            "author": "YMC",
+            "title": "comfyui_node_ymc_effect_shatter",
+            "reference": "https://github.com/YMC-GitHub/comfyui_node_ymc_effect_shatter",
+            "files": [
+                "https://github.com/YMC-GitHub/comfyui_node_ymc_effect_shatter"
+            ],
+            "install_type": "git-clone",
+            "description": "some comfyui custom nodes to make effect shatter"
+        },
+        {
             "author": "chibiace",
             "title": "ComfyUI-Chibi-Nodes",
             "id": "chibi",
@@ -23780,7 +23790,17 @@
             "install_type": "git-clone",
             "description": "A new ComfyUI node for integrating Topaz Photo AI's powerful image enhancement capabilities"
         },
-
+        {
+            "author": "big-mon",
+            "title": "ComfyUI-ResolutionPresets",
+            "id": "bigmonComfyuiResolutionPresets",
+            "reference": "https://github.com/big-mon/ComfyUI-ResolutionPresets",
+            "files": [
+                "httpshttps://github.com/big-mon/ComfyUI-ResolutionPresets"
+            ],
+            "install_type": "git-clone",
+            "description": "Provides recommended resolution presets specifically. Select a preset from the dropdown to easily output the corresponding width and height values for use with nodes like Empty Latent Image."
+        },
 
 
 
@@ -24239,17 +24259,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "big-mon",
-            "title": "ComfyUI-ResolutionPresets",
-            "id": "bigmonComfyuiResolutionPresets",
-            "reference": "https://github.com/big-mon/ComfyUI-ResolutionPresets",
-            "files": [
-                "httpshttps://github.com/big-mon/ComfyUI-ResolutionPresets"
-            ],
-            "install_type": "git-clone",
-            "description": "Provides recommended resolution presets specifically. Select a preset from the dropdown to easily output the corresponding width and height values for use with nodes like Empty Latent Image."
         }
     ]
 }
