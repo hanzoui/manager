@@ -2,8 +2,6 @@ import os
 import logging
 from comfy.cli_args import args
 
-ENABLE_LEGACY_COMFYUI_MANAGER_FRONT_DEFAULT = True # Enable legacy ComfyUI Manager frontend while new UI is in beta phase
-
 def prestartup():
     from . import prestartup_script  # noqa: F401
     logging.info('[PRE] ComfyUI-Manager')
@@ -14,8 +12,7 @@ def start():
     from .common import cm_global     # noqa: F401
 
     if not args.disable_manager:
-        should_show_legacy_manager_front = args.enable_manager_legacy_ui or ENABLE_LEGACY_COMFYUI_MANAGER_FRONT_DEFAULT
-        if should_show_legacy_manager_front:
+        if args.enable_manager_legacy_ui:
             try:
                 from .legacy import manager_server  # noqa: F401
                 from .legacy import share_3rdparty  # noqa: F401
