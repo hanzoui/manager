@@ -24239,6 +24239,17 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "big-mon",
+            "title": "ComfyUI-ResolutionPresets",
+            "id": "bigmonComfyuiResolutionPresets",
+            "reference": "https://github.com/big-mon/ComfyUI-ResolutionPresets",
+            "files": [
+                "httpshttps://github.com/big-mon/ComfyUI-ResolutionPresets"
+            ],
+            "install_type": "git-clone",
+            "description": "Provides recommended resolution presets specifically. Select a preset from the dropdown to easily output the corresponding width and height values for use with nodes like Empty Latent Image."
         }
     ]
 }
