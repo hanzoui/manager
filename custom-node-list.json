@@ -16542,7 +16542,7 @@
         },
         {
             "author": "edelvarden",
-            "title": "ComfyUI-ImageMetadataExtension",
+            "title": "comfyui_image_metadata_extension",
             "reference": "https://github.com/edelvarden/comfyui_image_metadata_extension",
             "files": [
                 "https://github.com/edelvarden/comfyui_image_metadata_extension"
@@ -22545,7 +22545,7 @@
         },
         {
             "author": "ifmylove2011",
-            "title": "comfyui-missing-tool",
+            "title": "comfyui-missed-tool",
             "reference": "https://github.com/ifmylove2011/comfyui-missed-tool",
             "files": [
                 "https://github.com/ifmylove2011/comfyui-missed-tool"
@@ -23890,6 +23890,47 @@
             "install_type": "git-clone",
             "description": "A specialized node for ComfyUI that provides balanced weight control across multiple elements in image generation workflows, helping prevent CFG burnout while maintaining proper relationships between weights."
         },
+        {
+            "author": "xLegende",
+            "title": "ComfyUI-Prompt-Formatter",
+            "id": "comfyui-prompt-formatter",
+            "reference": "https://github.com/xLegende/ComfyUI-Prompt-Formatter",
+            "files": [
+                "https://github.com/xLegende/ComfyUI-Prompt-Formatter"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository contains custom nodes for ComfyUI designed to help structure, filter, and generate text prompts using categorized tag definitions stored in a YAML file."
+        },
+        {
+            "author": "QijiTec",
+            "title": "ComfyUI-RED-UNO",
+            "reference": "https://github.com/QijiTec/ComfyUI-RED-UNO",
+            "files": [
+                "https://github.com/QijiTec/ComfyUI-RED-UNO"
+            ],
+            "install_type": "git-clone",
+            "description": "Default 16GB VRAM UNO in context generation ComfyUI-node, using RED-UNO FT model"
+        },
+        {
+            "author": "tritant",
+            "title": "ComfyUI_Flux_Lora_Merger",
+            "reference": "https://github.com/tritant/ComfyUI_Flux_Lora_Merger",
+            "files": [
+                "https://github.com/tritant/ComfyUI_Flux_Lora_Merger"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node to merge up to 4 LoRA models into a Flux.1-Dev UNet"
+        },
+        {
+            "author": "chou18194766xx",
+            "title": "comfyui-EncryptSave",
+            "reference": "https://github.com/chou18194766xx/comfyui-EncryptSave",
+            "files": [
+                "https://github.com/chou18194766xx/comfyui-EncryptSave"
+            ],
+            "install_type": "git-clone",
+            "description": "comfyui image encrypt and save."
+        },
 
 
 
@@ -24348,17 +24389,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "xLegende",
-            "title": "ComfyUI-Prompt-Formatter",
-            "id": "comfyui-prompt-formatter",
-            "reference": "https://github.com/xLegende/ComfyUI-Prompt-Formatter",
-            "files": [
-                "https://github.com/xLegende/ComfyUI-Prompt-Formatter"
-            ],
-            "install_type": "git-clone",
-            "description": "This repository contains custom nodes for ComfyUI designed to help structure, filter, and generate text prompts using categorized tag definitions stored in a YAML file."
         }
     ]
 }

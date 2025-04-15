@@ -5552,18 +5552,12 @@
     "https://github.com/Jokimbe/ComfyUI-DrawThings-gRPC": [
         [
             "DrawThingsControlNet",
-            "DrawThingsFlux",
-            "DrawThingsHighResFix",
             "DrawThingsLoRA",
-            "DrawThingsLoRANet",
             "DrawThingsNegative",
             "DrawThingsPositive",
             "DrawThingsRefiner",
             "DrawThingsSampler",
-            "DrawThingsTeaCache",
-            "DrawThingsTiled",
-            "DrawThingsUpscaler",
-            "DrawThingsVideo"
+            "DrawThingsUpscaler"
         ],
         {
             "title_aux": "ComfyUI-DrawThings-gRPC"
@@ -8160,6 +8154,15 @@
         ],
         {
             "title_aux": "ComfyUI-Qais-Helper"
+        }
+    ],
+    "https://github.com/QijiTec/ComfyUI-RED-UNO": [
+        [
+            "REDUNOGenerate",
+            "REDUNOModelLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-RED-UNO"
         }
     ],
     "https://github.com/Raapys/ComfyUI-LatentGC_Aggressive": [
@@ -10964,6 +10967,7 @@
             "VrchDelayOSCControlNode",
             "VrchFloatKeyControlNode",
             "VrchFloatOSCControlNode",
+            "VrchGamepadLoaderNode",
             "VrchImageChannelLoaderNode",
             "VrchImageFlipBookWebViewerNode",
             "VrchImagePreviewBackgroundNode",
@@ -12122,6 +12126,7 @@
             "Latent Operation (Threshold)",
             "Latent Operation To Module",
             "LatentApplyOperationCFGToStep",
+            "LoRA Bending",
             "Model Bending",
             "Model Bending (SD Layers)",
             "Model Inspector",
@@ -17907,7 +17912,7 @@
             "SaveImageWithMetaData"
         ],
         {
-            "title_aux": "ComfyUI-ImageMetadataExtension"
+            "title_aux": "comfyui_image_metadata_extension"
         }
     ],
     "https://github.com/edenartlab/eden_comfy_pipelines": [
@@ -20480,7 +20485,7 @@
             "TxtSave"
         ],
         {
-            "title_aux": "comfyui-missing-tool"
+            "title_aux": "comfyui-missed-tool"
         }
     ],
     "https://github.com/ihmily/ComfyUI-Light-Tool": [
@@ -25216,6 +25221,7 @@
     "https://github.com/melMass/comfy_oiio": [
         [
             "OIIO_ColorspaceConvert",
+            "OIIO_ColorspaceMatchFinder",
             "OIIO_LoadImage",
             "OIIO_SaveImage"
         ],
@@ -30378,6 +30384,14 @@
             "title_aux": "ComfyUI-CreaPrompt"
         }
     ],
+    "https://github.com/tritant/ComfyUI_Flux_Lora_Merger": [
+        [
+            "FluxLoraMerger"
+        ],
+        {
+            "title_aux": "ComfyUI_Flux_Lora_Merger"
+        }
+    ],
     "https://github.com/trojblue/trNodes": [
         [
             "trColorCorrection",
@@ -32465,6 +32479,7 @@
             "ImageConcanateOfUtils",
             "ImageResizeTo8x",
             "ImageTransition",
+            "ImageTransitionLeftToRight",
             "IntMultipleAddLiteral",
             "LoadImageMaskWithSwitch",
             "LoadImageMaskWithoutListDir",
