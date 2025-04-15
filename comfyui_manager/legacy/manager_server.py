@@ -992,6 +992,15 @@ def populate_markdown(x):
         x['title'] = manager_util.sanitize_tag(x['title'])
 
 
+@routes.get("/v2/manager/is_legacy_manager_ui")
+async def is_legacy_manager_ui(request):
+    return web.json_response(
+        {"is_legacy_manager_ui": args.enable_manager_legacy_ui},
+        content_type="application/json",
+        status=200,
+    )
+
+
 # freeze imported version
 startup_time_installed_node_packs = core.get_installed_node_packs()
 @routes.get("/v2/customnode/installed")
