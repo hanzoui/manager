@@ -13442,6 +13442,16 @@
             "description": "Generate random prompts easily."
         },
         {
+            "author": "tritant",
+            "title": "ComfyUI_Flux_Lora_Merger",
+            "reference": "https://github.com/tritant/ComfyUI_Flux_Lora_Merger",
+            "files": [
+                "https://github.com/tritant/ComfyUI_Flux_Lora_Merger"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node to merge up to 4 LoRA models into a Flux.1-Dev UNet"
+        },
+        {
             "author": "metncelik",
             "title": "comfyui_met_suite",
             "reference": "https://github.com/metncelik/comfyui_met_suite",
@@ -15641,6 +15651,16 @@
             "description": "Image to 3D using Hunyuan-3D-2"
         },
         {
+            "author": "niknah",
+            "title": "ComfyUI-InfiniteYou",
+            "reference": "https://github.com/niknah/ComfyUI-InfiniteYou",
+            "files": [
+                "https://github.com/niknah/ComfyUI-InfiniteYou"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom_node for ByteDance's InfiniteYou"
+        },
+        {
             "author": "daryltucker",
             "title": "ComfyUI-LoadFiles",
             "id": "LoadFiles",
@@ -17276,6 +17296,17 @@
             ],
             "install_type": "git-clone",
             "description": "Convert your workflows into node and chain them."
+        },
+        {
+            "author": "NumZ",
+            "title": "ComfyUI-Orpheus",
+            "id": "OrpheusNode",
+            "reference": "https://github.com/numz/Comfyui-Orpheus",
+            "files": [
+                "https://github.com/numz/Comfyui-Orpheus"
+            ],
+            "install_type": "git-clone",
+            "description": "TTS with emotional speech capabilities in 8 Languages 24 speakers."
         },
         {
             "author": "SozeInc",
@@ -23584,13 +23615,13 @@
         },
         {
             "author": "Temult",
-            "title": "Sigma Graph Node for ComfyUI",
-            "reference": "https://github.com/Temult/sigma-graph-node",
+            "title": "TWanSigmaGraph",
+            "reference": "https://github.com/Temult/TWanSigmaGraph",
             "files": [
-                "https://github.com/Temult/sigma-graph-node"
+                "https://github.com/Temult/TWanSigmaGraph"
             ],
             "install_type": "git-clone",
-            "description": "A ComfyUI node for interactively editing sigma schedules via graph and text."
+            "description": "Interactive sigma schedule editor with graph and text input."
         },
         {
             "author": "Raykosan",
@@ -23851,26 +23882,6 @@
             "description": "Provides recommended resolution presets specifically. Select a preset from the dropdown to easily output the corresponding width and height values for use with nodes like Empty Latent Image."
         },
         {
-            "author": "Temult",
-            "title": "TWanSigmaGraph",
-            "reference": "https://github.com/Temult/TWanSigmaGraph",
-            "files": [
-                "https://github.com/Temult/TWanSigmaGraph"
-            ],
-            "install_type": "git-clone",
-            "description": "Interactive sigma schedule editor with graph and text input."
-        },
-        {
-            "author": "niknah",
-            "title": "ComfyUI-InfiniteYou",
-            "reference": "https://github.com/niknah/ComfyUI-InfiniteYou",
-            "files": [
-                "https://github.com/niknah/ComfyUI-InfiniteYou"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom_node for ByteDance's InfiniteYou"
-        },
-        {
             "author": "hnmr293",
             "title": "ComfyUI-SaveMem",
             "reference": "https://github.com/hnmr293/comfyui-savemem",
@@ -23892,13 +23903,13 @@
         },
         {
             "author": "FunnyFinger",
-            "title": "Dynamic Slider Pack for ComfyUI",
-            "reference": "https://github.com/FunnyFinger/Dynamic-Sliders-ComfyUI",
+            "title": "Dynamic Sliders Stack",
+            "reference": "https://github.com/FunnyFinger/Dynamic_Sliders_stack",
             "files": [
-                "https://github.com/FunnyFinger/Dynamic-Sliders-ComfyUI"
+                "https://github.com/FunnyFinger/Dynamic_Sliders_stack"
             ],
             "install_type": "git-clone",
-            "description": "A specialized node for ComfyUI that provides balanced weight control across multiple elements in image generation workflows, helping prevent CFG burnout while maintaining proper relationships between weights."
+            "description": "A custom node for ComfyUI to have many sliders with interactive dynamic behavior. This repository includes all necessary code and assets for seamless integration."
         },
         {
             "author": "xLegende",
@@ -23922,26 +23933,6 @@
             "description": "Default 16GB VRAM UNO in context generation ComfyUI-node, using RED-UNO FT model"
         },
         {
-            "author": "tritant",
-            "title": "ComfyUI_Flux_Lora_Merger",
-            "reference": "https://github.com/tritant/ComfyUI_Flux_Lora_Merger",
-            "files": [
-                "https://github.com/tritant/ComfyUI_Flux_Lora_Merger"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node to merge up to 4 LoRA models into a Flux.1-Dev UNet"
-        },
-        {
-            "author": "chou18194766xx",
-            "title": "comfyui-EncryptSave",
-            "reference": "https://github.com/chou18194766xx/comfyui-EncryptSave",
-            "files": [
-                "https://github.com/chou18194766xx/comfyui-EncryptSave"
-            ],
-            "install_type": "git-clone",
-            "description": "comfyui image encrypt and save."
-        },
-        {
             "author": "Danteday",
             "title": "NoteManager",
             "reference": "https://github.com/Danteday/ComfyUI-NoteManager",
@@ -23961,16 +23952,6 @@
             ],
             "install_type": "git-clone",
             "description": "Automatic prompt translation to Chinese, custom prompt management, AI-based prompt expansion and translation, AI-generated image/video record management (file browser), and cloud storage upload management."
-        },
-        {
-            "author": "FunnyFinger",
-            "title": "Dynamic Sliders Stack",
-            "reference": "https://github.com/FunnyFinger/Dynamic_Sliders_stack",
-            "files": [
-                "https://github.com/FunnyFinger/Dynamic_Sliders_stack"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI to have many sliders with interactive dynamic behavior. This repository includes all necessary code and assets for seamless integration."
         },
         {
             "author": "nisaruj",
@@ -24441,17 +24422,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "NumZ",
-            "title": "ComfyUI-Orpheus",
-            "id": "OrpheusNode",
-            "reference": "https://github.com/numz/Comfyui-Orpheus",
-            "files": [
-                "https://github.com/numz/Comfyui-Orpheus"
-            ],
-            "install_type": "git-clone",
-            "description": "TTS with emotional speech capabilities in 8 Languages 24 speakers."
         }
     ]
 }

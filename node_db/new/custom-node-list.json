@@ -52,6 +52,17 @@
             "description": "A powerful extension for ComfyUI that enables adding notes to many node in your workflow. Keep track of important settings, reminders, and workflow documentation directly within your ComfyUI canvas."
         },
         {
+            "author": "NumZ",
+            "title": "ComfyUI-Orpheus",
+            "id": "OrpheusNode",
+            "reference": "https://github.com/numz/Comfyui-Orpheus",
+            "files": [
+                "https://github.com/numz/Comfyui-Orpheus"
+            ],
+            "install_type": "git-clone",
+            "description": "TTS with emotional speech capabilities in 8 Languages 24 speakers."
+        },
+        {
             "author": "zzw5516",
             "title": "ComfyUI-zw-tools",
             "id": "zzw5516",
@@ -156,13 +167,13 @@
         },
         {
             "author": "FunnyFinger",
-            "title": "Dynamic Slider Pack for ComfyUI",
-            "reference": "https://github.com/FunnyFinger/Dynamic-Sliders-ComfyUI",
+            "title": "Dynamic Sliders Stack",
+            "reference": "https://github.com/FunnyFinger/Dynamic_Sliders_stack",
             "files": [
-                "https://github.com/FunnyFinger/Dynamic-Sliders-ComfyUI"
+                "https://github.com/FunnyFinger/Dynamic_Sliders_stack"
             ],
             "install_type": "git-clone",
-            "description": "A specialized node for ComfyUI that provides balanced weight control across multiple elements in image generation workflows, helping prevent CFG burnout while maintaining proper relationships between weights."
+            "description": "A custom node for ComfyUI to have many sliders with interactive dynamic behavior. This repository includes all necessary code and assets for seamless integration."
         },
         {
             "author": "ryanontheinside",
@@ -552,16 +563,6 @@
             "description": "A node for ComfyUI that allows you to overlay text on an image in an area defined by a mask, with support for text rotation, custom fonts, line breaks and transparency."
         },
         {
-            "author": "chou18194766xx",
-            "title": "comfyui-EncryptSave",
-            "reference": "https://github.com/chou18194766xx/comfyui-EncryptSave",
-            "files": [
-                "https://github.com/chou18194766xx/comfyui-EncryptSave"
-            ],
-            "install_type": "git-clone",
-            "description": "comfyui image encrypt and save."
-        },
-        {
             "author": "KERRY-YUAN",
             "title": "NodeSimpleExecutor",
             "id": "NodeSimpleExecutor",
@@ -592,16 +593,6 @@
             ],
             "install_type": "git-clone",
             "description": "Send generated images or videos to any HTTP webhook with optional parameters such as prompt-id and metadata payload."
-        },
-        {
-            "author": "Temult",
-            "title": "Sigma Graph Node for ComfyUI",
-            "reference": "https://github.com/Temult/sigma-graph-node",
-            "files": [
-                "https://github.com/Temult/sigma-graph-node"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node for interactively editing sigma schedules via graph and text."
         },
         {
             "author": "ShmuelRonen",
