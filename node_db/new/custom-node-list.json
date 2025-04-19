@@ -11,6 +11,37 @@
         
         
         {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-Kimi-VL",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-Kimi-VL",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-Kimi-VL"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for Kimi-VL model."
+        },
+        {
+            "author": "Danteday",
+            "title": "NoteManager",
+            "reference": "https://github.com/Danteday/ComfyUI-NoteManager",
+            "files": [
+                "https://github.com/Danteday/ComfyUI-NoteManager"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful extension for ComfyUI that enables adding notes to many node in your workflow. Keep track of important settings, reminders, and workflow documentation directly within your ComfyUI canvas."
+        },
+        {
+            "author": "zzw5516",
+            "title": "ComfyUI-zw-tools",
+            "id": "zzw5516",
+            "reference": "https://github.com/zzw5516/ComfyUI-zw-tools",
+            "files": [
+                "https://github.com/zzw5516/ComfyUI-zw-tools"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatic prompt translation to Chinese, custom prompt management, AI-based prompt expansion and translation, AI-generated image/video record management (file browser), and cloud storage upload management."
+        },
+        {
             "author": "tritant",
             "title": "ComfyUI_Flux_Lora_Merger",
             "reference": "https://github.com/tritant/ComfyUI_Flux_Lora_Merger",
@@ -660,77 +691,6 @@
             ],
             "install_type": "git-clone",
             "description": "Connect to any Draw Things gRPC server"
-        },
-        {
-            "author": "iSuneast",
-            "title": "ComfyUI-WebhookNotifier",
-            "reference": "https://github.com/iSuneast/ComfyUI-WebhookNotifier",
-            "files": [
-                "https://github.com/iSuneast/ComfyUI-WebhookNotifier"
-            ],
-            "install_type": "git-clone",
-            "description": "The Webhook Notification plugin for ComfyUI, used to send webhook notifications when image generation is complete."
-        },
-        {
-            "author": "mobilehacker",
-            "title": "ComfyUI_format-lora-stack",
-            "reference": "https://github.com/mobilehacker/ComfyUI_format-lora-stack",
-            "files": [
-                "https://github.com/mobilehacker/ComfyUI_format-lora-stack"
-            ],
-            "install_type": "git-clone",
-            "description": "Simple node to convert lora_stack output into string to generate a1111-style lora strength output text, like <lora:name:0.69>. Used to include your Lora names from Lora Stack in text input-output nodes and so on."
-        },
-        {
-            "author": "ZhiHui6",
-            "title": "comfyui_zhihui_nodes",
-            "reference": "https://github.com/ZhiHui6/comfyui_zhihui_nodes",
-            "files": [
-                "https://github.com/ZhiHui6/comfyui_zhihui_nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Prompt Preset, Video Batch Loader, Video Combiner"
-        },
-        {
-            "author": "bvhari",
-            "title": "ComfyUI_CFGStar",
-            "reference": "https://github.com/bvhari/ComfyUI_CFGStar",
-            "files": [
-                "https://github.com/bvhari/ComfyUI_CFGStar"
-            ],
-            "install_type": "git-clone",
-            "description": "A per channel implementation of the scaled CFG from this paper: [a/https://arxiv.org/abs/2503.18886](https://arxiv.org/abs/2503.18886)"
-        },
-        {
-            "author": "Yuan-ManX",
-            "title": "ComfyUI-LayerAnimate",
-            "reference": "https://github.com/Yuan-ManX/ComfyUI-LayerAnimate",
-            "files": [
-                "https://github.com/Yuan-ManX/ComfyUI-LayerAnimate"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for LayerAnimate model."
-        },
-        {
-            "author": "CY-CHENYUE",
-            "title": "ComfyUI-GPT-API",
-            "id": "ComfyUI-GPT-API",
-            "reference": "https://github.com/CY-CHENYUE/ComfyUI-GPT-API",
-            "files": [
-               "https://github.com/CY-CHENYUE/ComfyUI-GPT-API"
-            ],
-            "description": "A custom node for ComfyUI to integrate GPT API.",
-            "install_type": "git-clone"
-        },
-        {
-            "author": "joeriben",
-            "title": "AI4ArtsEd Ollama Prompt Node",
-            "reference": "https://github.com/joeriben/ai4artsed_comfyui",
-            "files": [
-                "https://github.com/joeriben/ai4artsed_comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "Experimental nodes for ComfyUI. For more, see [a/https://kubi-meta.de/ai4artsed](https://kubi-meta.de/ai4artsed) A custom ComfyUI node for stylistic and cultural transformation of input text using local LLMs served via Ollama. This node allows you to combine a free-form prompt (e.g. translation, poetic recoding, genre shift) with externally supplied text in the ComfyUI graph. The result is processed via an Ollama-hosted model and returned as plain text."
         }
     ]
 }
