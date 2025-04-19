@@ -16601,6 +16601,16 @@
             "description": "Nodes for loading both Checkpoints and UNET/Diffussion models quantized to bitsandbytes NF4 or FP4 format.\nStill under development and some limitations such as using LoRA might apply still."
         },
         {
+            "author": "silveroxides",
+            "title": "ComfyUI-RR-JointTagger",
+            "reference": "https://github.com/silveroxides/ComfyUI-RR-JointTagger",
+            "files": [
+                "https://github.com/silveroxides/ComfyUI-RR-JointTagger"
+            ],
+            "install_type": "git-clone",
+            "description": "Tagger used to tag image of but not limited to furry art."
+        },
+        {
             "author": "turkyden",
             "title": "ComfyUI-SmartCrop",
             "reference": "https://github.com/turkyden/ComfyUI-SmartCrop",
@@ -18759,6 +18769,26 @@
             "description": "A node for ComfyUI that terminates the workflow processing if 'proceed' is set to False. More convenient than manually bypassing a bunch of nodes.\nThis is a restructured version of the 'SRL Conditional Interrupt' node from the [a/srl-nodes](https://github.com/seanlynch/srl-nodes) pack."
         },
         {
+            "author": "SparknightLLC",
+            "title": "ComfyUI-GPENO",
+            "reference": "https://github.com/SparknightLLC/ComfyUI-GPENO",
+            "files": [
+                "https://github.com/SparknightLLC/ComfyUI-GPENO"
+            ],
+            "install_type": "git-clone",
+            "description": "A node for ComfyUI that performs GPEN face restoration on the input image(s). Significantly faster than other implementations of GPEN."
+        },
+        {
+            "author": "SparknightLLC",
+            "title": "ComfyUI-ImageAutotone",
+            "reference": "https://github.com/SparknightLLC/ComfyUI-ImageAutotone",
+            "files": [
+                "https://github.com/SparknightLLC/ComfyUI-ImageAutotone"
+            ],
+            "install_type": "git-clone",
+            "description": "A node for ComfyUI that takes an input image and clips the color channels independently to increase contrast and alter color cast. This is a reinterpretation of PhotoShop's 'Auto Tone' algorithm."
+        },
+        {
             "author": "lightricks",
             "title": "ComfyUI-LTXVideo",
             "id": "comfyui-ltxvideo",
@@ -18993,6 +19023,16 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI nodes for Kimi-VL model."
+        },
+        {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-Cobra",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-Cobra",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-Cobra"
+            ],
+            "install_type": "git-clone",
+            "description": "Make Cobra avialbe in ComfyUI.\nCobra: Efficient Line Art COlorization with BRoAder References"
         },
         {
             "author": "Starnodes2024",
@@ -19465,6 +19505,16 @@
             ],
             "install_type": "git-clone",
             "description": "This is a UNO ComfyUI plugin implementation that can run the full version with 24GB VRAM, as well as quickly run the FP8 version."
+        },
+        {
+            "author": "HM-RunningHub",
+            "title": "ComfyUI_RH_FramePack",
+            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_FramePack",
+            "files": [
+                "https://github.com/HM-RunningHub/ComfyUI_RH_FramePack"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a ComfyUI plug-in for lllyasviel/FramePack, easy to use"
         },
         {
             "author": "sebord",
@@ -23239,16 +23289,6 @@
             "description": "Start and end frames video generation node that supports native ComfyUI."
         },
         {
-            "author": "ZenAI-Vietnam",
-            "title": "ComfyUI_InfiniteYou",
-            "reference": "https://github.com/ZenAI-Vietnam/ComfyUI_InfiniteYou",
-            "files": [
-                "https://github.com/ZenAI-Vietnam/ComfyUI_InfiniteYou"
-            ],
-            "install_type": "git-clone",
-            "description": "An implementation of InfiniteYou for ComfyUI. Native support for [a/InfiniteYou](https://github.com/bytedance/InfiniteYou) in ComfyUI, designed by the ZenAI team."
-        },
-        {
             "author": "Creepybits",
             "title": "ComfyUI-Creepy_nodes",
             "id": "Creepy_nodes",
@@ -23561,7 +23601,7 @@
                 "https://github.com/Siempreflaco/ComfyUI-NCNodes"
             ],
             "install_type": "git-clone",
-            "description": "NODES: NC Audio Recorder, NC Line Counter, NC Increment INT, NC Image Processor"
+            "description": "NODES: Audio Recorder, Line Counter, Increment INT, Image Processor, Load 3D Mesh From Outputs"
         },
         {
             "author": "livepeer",
@@ -23892,6 +23932,16 @@
             "description": "Save Image/Latent to Shared Memory"
         },
         {
+            "author": "hnmr293",
+            "title": "ComfyUI-latent-ops",
+            "reference": "https://github.com/hnmr293/ComfyUI-latent-ops",
+            "files": [
+                "https://github.com/hnmr293/ComfyUI-latent-ops"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of nodes for manipulating LATENT in ComfyUI."
+        },
+        {
             "author": "Reithan",
             "title": "Negative Rejection Steering",
             "reference": "https://github.com/Reithan/negative_rejection_steering",
@@ -23963,6 +24013,66 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom nodes for Diffusion Attentive Attribution Maps (DAAM)"
+        },
+        {
+            "author": "bytedance",
+            "title": "ComfyUI_InfiniteYou",
+            "reference": "https://github.com/bytedance/ComfyUI_InfiniteYou",
+            "files": [
+                "https://github.com/bytedance/ComfyUI_InfiniteYou"
+            ],
+            "install_type": "git-clone",
+            "description": "Official ComfyUI Support - InfiniteYou: Flexible Photo Recrafting While Preserving Your Identity"
+        },
+        {
+            "author": "AstroCorp",
+            "title": "ComfyUI AstroCorp Nodes",
+            "reference": "https://github.com/AstroCorp/ComfyUI-AstroCorp-Nodes",
+            "files": [
+                "https://github.com/AstroCorp/ComfyUI-AstroCorp-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of personal ComfyUI nodes designed to enhance and automate workflows."
+        },
+        {
+            "author": "stevenwg",
+            "title": "ComfyUI-VideoGrid",
+            "reference": "https://github.com/stevenwg/ComfyUI-VideoGrid",
+            "files": [
+                "https://github.com/stevenwg/ComfyUI-VideoGrid"
+            ],
+            "install_type": "git-clone",
+            "description": "Add vertical and horizontal video grid support"
+        },
+        {
+            "author": "avenstack",
+            "title": "ComfyUI-AV-MegaTTS3",
+            "reference": "https://github.com/avenstack/ComfyUI-AV-MegaTTS3",
+            "files": [
+                "https://github.com/avenstack/ComfyUI-AV-MegaTTS3"
+            ],
+            "install_type": "git-clone",
+            "description": "🎧Ultra High-Quality Voice Cloning, Chinese and English."
+        },
+        {
+            "author": "WarpedAnimation",
+            "title": "ComfyUI-WarpedToolset",
+            "reference": "https://github.com/WarpedAnimation/ComfyUI-WarpedToolset",
+            "files": [
+                "https://github.com/WarpedAnimation/ComfyUI-WarpedToolset"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom tool set mostly for Hunyuan Video, but includes some WAN Video nodes."
+        },
+        {
+            "author": "Jint8888",
+            "title": "Comfyui_JTnodes",
+            "reference": "https://github.com/Jint8888/Comfyui_JTnodes",
+            "files": [
+                "https://github.com/Jint8888/Comfyui_JTnodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This project contains some custom ComfyUI nodes for image processing, AI conversation, and utility tasks."
         },
 
 
