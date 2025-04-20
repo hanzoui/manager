@@ -13443,13 +13443,23 @@
         },
         {
             "author": "tritant",
-            "title": "ComfyUI_Flux_Lora_Merger",
+            "title": "Flux LoRA Merger",
             "reference": "https://github.com/tritant/ComfyUI_Flux_Lora_Merger",
             "files": [
                 "https://github.com/tritant/ComfyUI_Flux_Lora_Merger"
             ],
             "install_type": "git-clone",
-            "description": "A custom ComfyUI node to merge up to 4 LoRA models into a Flux.1-Dev UNet"
+            "description": "Advanced LoRA merging node for ComfyUI (additive, average, sequential)"
+        },
+        {
+            "author": "tritant",
+            "title": "Flux Block LoRA Merger",
+            "reference": "https://github.com/tritant/ComfyUI_Flux_Block_Lora_Merger",
+            "files": [
+                "https://github.com/tritant/ComfyUI_Flux_Block_Lora_Merger"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced Block LoRA merging node for ComfyUI (allows selective LoRA block merging)"
         },
         {
             "author": "metncelik",
@@ -14174,6 +14184,16 @@
             "description": "A collection of ComfyUI custom nodes for interacting with various cloud services. These nodes are designed to work with any ComfyUI instance, including cloud-hosted environments (such as MimicPC) where users may have limited system access."
         },
         {
+            "author": "EnragedAntelope",
+            "title": "ComfyUI-ReLight",
+            "reference": "https://github.com/EnragedAntelope/comfyui-relight",
+            "files": [
+                "https://github.com/EnragedAntelope/comfyui-relight"
+            ],
+            "install_type": "git-clone",
+            "description": "Transform your images with cinematic lighting effects in a single click! ReLight is a powerful ComfyUI node that adds professional-grade lighting capabilities including multiple light sources, rim lighting, and 3D lighting simulation."
+        },
+        {
             "author": "jn-jairo",
             "title": "JNComfy",
             "reference": "https://github.com/jn-jairo/jn_comfyui",
@@ -14305,7 +14325,7 @@
                 "https://github.com/MakkiShizu/comfyui_reimgsize"
             ],
             "install_type": "git-clone",
-            "description": "a simple reimgsize node(s) in comfyui."
+            "description": "a simple resize image node(s) in comfyui. This repository is not specific to the length and width values of an image, but focuses more on adjusting the total pixel count, side length specifications, and size ratios of the image."
         },
         {
             "author": "Makki_Shizu",
@@ -15844,7 +15864,7 @@
                 "https://github.com/sakura1bgx/ComfyUI_FlipStreamViewer"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI_FlipStreamViewer is a tool that provides a viewer interface for flipping images with frame interpolation, allowing you to watch high-fidelity pseudo-videos without needing AnimateDiff."
+            "description": "ComfyUI_FlipStreamViewer is a tool that provides a customizable viewer interface for flipping images with frame interpolation."
         },
         {
             "author": "ducido",
@@ -17842,7 +17862,7 @@
                 "https://github.com/raspie10032/ComfyUI_RS_NAI_Local_Prompt_converter"
             ],
             "install_type": "git-clone",
-            "description": "A custom node extension for ComfyUI that enables conversion between NovelAI and ComfyUI prompt formats, along with extraction of NovelAI metadata from PNG images."
+            "description": "A custom node extension for ComfyUI that enables conversion between different prompt formats: NovelAI V4, ComfyUI, and old NovelAI."
         },
         {
             "author": "Wakfull33",
@@ -20676,6 +20696,16 @@
             "description": "A custom node implementation for ComfyUI that integrates with venice.ai's Flux and SDXL image generation models. This project is adapted from [a/ComfyUI-FLUX-TOGETHER-API](https://github.com/BZcreativ/ComfyUI-FLUX-TOGETHER-API) to work with the venice.ai API."
         },
         {
+            "author": "DraconicDragon",
+            "title": "ComfyUI-RyuuNoodles",
+            "reference": "https://github.com/DraconicDragon/ComfyUI-RyuuNoodles",
+            "files": [
+                "https://github.com/DraconicDragon/ComfyUI-RyuuNoodles"
+            ],
+            "install_type": "git-clone",
+            "description": "Collection of one or more custom nodes for ComfyUI made mainly for personal use (GitHub README for more info). \nNodes: live Token Counter on any node, switch nodes with fallback functionality and FLOAT/INT nodes (and maybe more)."
+        },
+        {
             "author": "Wenaka2004",
             "title": "ComfyUI-TagClassifier",
             "reference": "https://github.com/Wenaka2004/ComfyUI-TagClassifier",
@@ -22305,6 +22335,16 @@
             "description": "Resize a batch of trajectories or images"
         },
         {
+            "author": "Pablerdo",
+            "title": "Stable Virtual Camera",
+            "reference": "https://github.com/Pablerdo/ComfyUI-StableVirtualCameraWrapper",
+            "files": [
+               "https://github.com/Pablerdo/ComfyUI-StableVirtualCameraWrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "Generative View Synthesis with Diffusion Models"
+        },
+        {
             "author": "orange90",
             "title": " ComfyUI-Regex-Runner",
             "id": "comfyui-regex-runner",
@@ -23327,7 +23367,7 @@
                 "https://github.com/yushan777/ComfyUI-Y7-SBS-2Dto3D"
             ],
             "install_type": "git-clone",
-            "description": "Convert 2D images or videos into 3D side-by-side (SBS) formats"
+            "description": "Convert 2D images and videos to 3D SBS (side-by-side) format"
         },
         {
             "author": "Yushan777",
@@ -24073,6 +24113,26 @@
             ],
             "install_type": "git-clone",
             "description": "This project contains some custom ComfyUI nodes for image processing, AI conversation, and utility tasks."
+        },
+        {
+            "author": "ichabodcole",
+            "title": "ComfyUI-Ichis-Pack",
+            "reference": "https://github.com/ichabodcole/ComfyUI-Ichis-Pack",
+            "files": [
+                "https://github.com/ichabodcole/ComfyUI-Ichis-Pack"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of ComfyUI Nodes, most to make dynamic prompting a bit easier."
+        },
+        {
+            "author": "SignalCha1n",
+            "title": "Snap Style Nodes for ComfyUI",
+            "reference": "https://github.com/SignalCha1n/comfyui-ComfySnap",
+            "files": [
+                "https://github.com/SignalCha1n/comfyui-ComfySnap"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI designed to replicate certain visual elements and effects reminiscent of Snap and early digital aesthetics. These nodes are ideal for image processing tasks and are fully compatible with ComfyUI."
         },
 
 

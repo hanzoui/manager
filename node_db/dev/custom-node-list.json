@@ -12,7 +12,46 @@
         
         
         
-        
+        {
+            "author": "jerryname2022",
+            "title": "ComfyUI-Real-ESRGAN [WIP]",
+            "reference": "https://github.com/jerryname2022/ComfyUI-Real-ESRGAN",
+            "files": [
+                "https://github.com/jerryname2022/ComfyUI-Real-ESRGAN"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Real-ESRGAN Model Loader, GFPGAN Model Loader, Real-ESRGAN Image Generator, GFPGAN Image Generator"
+        },
+        {
+            "author": "mm-akhtar",
+            "title": "comfyui-mask-selector-node",
+            "reference": "https://github.com/mm-akhtar/comfyui-mask-selector-node",
+            "files": [
+                "https://github.com/mm-akhtar/comfyui-mask-selector-node"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Mask Selector"
+        },
+        {
+            "author": "ryanontheinside",
+            "title": "ComfyUI-Livepeer [WIP]",
+            "reference": "https://github.com/ryanontheinside/ComfyUI-Livepeer",
+            "files": [
+                "https://github.com/ryanontheinside/ComfyUI-Livepeer"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI extension that provides integration with [a/Livepeer](https://livepeer.org/)'s AI services allowing for both sync and async generation."
+        },
+        {
+            "author": "newraina",
+            "title": "ComfyUI-Remote-Save-Image [UNSAFE]",
+            "reference": "https://github.com/newraina/ComfyUI-Remote-Save-Image",
+            "files": [
+               "https://github.com/newraina/ComfyUI-Remote-Save-Image"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that allows uploading generated images to any HTTP endpoint.[w/This node allows any users to send any locally stored image to a specified URL.]"
+        },
         {
             "author": "SXQBW",
             "title": "ComfyUI-Qwen-VLM [WIP]",
@@ -165,13 +204,13 @@
         },
         {
             "author": "gordon123",
-            "title": "ComfyUI_srt2speech",
+            "title": "ComfyUI_srt2speech [WIP]",
             "reference": "https://github.com/gordon123/ComfyUI_srt2speech",
             "files": [
                 "https://github.com/gordon123/ComfyUI_srt2speech"
             ],
             "install_type": "git-clone",
-            "description": "NODES: SRT to Speech"
+            "description": "ComfyUI_srt2speech"
         },
         {
             "author": "hnmr293",
@@ -182,16 +221,6 @@
             ],
             "install_type": "git-clone",
             "description": "This is a node that advances sampling by just one step in ComfyUI."
-        },
-        {
-            "author": "Davros666",
-            "title": "safetriggers",
-            "reference": "https://github.com/Davros666/safetriggers",
-            "files": [
-                "https://github.com/Davros666/safetriggers"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Nodes for READING TRIGGERS, TRIGGER-WORDS, TRIGGER-PHRASES FROM LoRAs"
         },
         {
             "author": "rphmeier",
@@ -481,7 +510,7 @@
                 "https://github.com/grokuku/ComfyUI-Holaf"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Neurogrid Overload, Tile Calculator, Slice Calculator, Save Image, Tiled KSampler, KSampler, Image Comparer, Upscale"
+            "description": "NODES: Neurogrid Overload, Tile Calculator, Slice Calculator, Save Image, Tiled KSampler, KSampler, Image Comparer, Upscale, Overlay, Resolution Preset, Benchmark Runner, Benchmark Plotter, Benchmark Loader"
         },
         {
             "author": "Burgstall-labs",
@@ -783,16 +812,6 @@
             ],
             "install_type": "git-clone",
             "description": "Custom nodes for basic actions."
-        },
-        {
-            "author": "thisiseddy-ab",
-            "title": "ComfyUI-Edins-Ultimate-Pack",
-            "reference": "https://github.com/thisiseddy-ab/ComfyUI-Edins-Ultimate-Pack",
-            "files": [
-                "https://github.com/thisiseddy-ab/ComfyUI-Edins-Ultimate-Pack"
-            ],
-            "install_type": "git-clone",
-            "description": "Well i needet a Tiled Ksampler that still works for Comfy UI there were none so i made one, in this Package i will put all Nodes i will develop for Comfy Ui still in beta alot will change.."
         },
         {
             "author": "longzoho",
@@ -1435,16 +1454,6 @@
             ],
             "install_type": "git-clone",
             "description": "Fetches URLs"
-        },
-        {
-            "author": "myAiLemon",
-            "title": "MagicAutomaticPicture [WIP]",
-            "reference": "https://github.com/myAiLemon/MagicAutomaticPicture",
-            "files": [
-                "https://github.com/myAiLemon/MagicAutomaticPicture"
-            ],
-            "install_type": "git-clone",
-            "description": "A comfyui node package that can generate pictures and automatically save positive prompts and eliminate unwanted prompts"
         },
         {
             "author": "neverbiasu",
