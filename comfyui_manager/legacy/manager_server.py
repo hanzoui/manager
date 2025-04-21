@@ -1042,6 +1042,12 @@ async def fetch_customnode_list(request):
     for v in node_packs.values():
         populate_markdown(v)
 
+    if 'comfyui-manager' in node_packs:
+        del node_packs['comfyui-manager']
+
+    if 'https://github.com/ltdrdata/ComfyUI-Manager' in node_packs:
+        del node_packs['https://github.com/ltdrdata/ComfyUI-Manager']
+
     if channel != 'local':
         found = 'custom'
 
