@@ -121,12 +121,11 @@ read_config()
 read_uv_mode()
 check_file_logging()
 
-cm_global.pip_overrides = {'numpy': 'numpy<2', 'ultralytics': 'ultralytics==8.3.40'}
+cm_global.pip_overrides = {'numpy': 'numpy<2'}
 if os.path.exists(manager_pip_overrides_path):
     with open(manager_pip_overrides_path, 'r', encoding="UTF-8", errors="ignore") as json_file:
         cm_global.pip_overrides = json.load(json_file)
         cm_global.pip_overrides['numpy'] = 'numpy<2'
-        cm_global.pip_overrides['ultralytics'] = 'ultralytics==8.3.40'  # for security
 
 
 if os.path.exists(manager_pip_blacklist_path):
