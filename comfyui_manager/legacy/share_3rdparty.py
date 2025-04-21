@@ -73,7 +73,7 @@ def get_openart_auth():
         with open(os.path.join(context.manager_files_path, ".openart_key"), "r") as f:
             openart_key = f.read().strip()
         return openart_key if openart_key else None
-    except:
+    except Exception:
         return None
 
 
@@ -91,7 +91,7 @@ def get_matrix_auth():
             "username": username,
             "password": password,
         }
-    except:
+    except Exception:
         return None
 
 
@@ -104,7 +104,7 @@ def get_comfyworkflows_auth():
             if not share_key.strip():
                 return None
         return share_key
-    except:
+    except Exception:
         return None
 
 
@@ -115,7 +115,7 @@ def get_youml_settings():
         with open(os.path.join(context.manager_files_path, ".youml"), "r") as f:
             youml_settings = f.read().strip()
         return youml_settings if youml_settings else None
-    except:
+    except Exception:
         return None
 
 
@@ -235,7 +235,7 @@ async def share_art(request):
 
     try:
         output_to_share = potential_outputs[int(selected_output_index)]
-    except:
+    except Exception:
         # for now, pick the first output
         output_to_share = potential_outputs[0]
 
@@ -352,7 +352,7 @@ async def share_art(request):
                 token = client.login(username=matrix_auth['username'], password=matrix_auth['password'])
                 if not token:
                     return web.json_response({"error": "Invalid Matrix credentials."}, content_type='application/json', status=400)
-            except:
+            except Exception:
                 return web.json_response({"error": "Invalid Matrix credentials."}, content_type='application/json', status=400)
 
             matrix = MatrixHttpApi(homeserver, token=token)
@@ -371,7 +371,7 @@ async def share_art(request):
             matrix.send_message(comfyui_share_room_id, text_content)
             matrix.send_content(comfyui_share_room_id, mxc_url, filename, 'm.image')
             matrix.send_content(comfyui_share_room_id, workflow_json_mxc_url, 'workflow.json', 'm.file')
-        except:
+        except Exception:
             import traceback
             traceback.print_exc()
             return web.json_response({"error": "An error occurred when sharing your art to Matrix."}, content_type='application/json', status=500)

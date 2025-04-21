@@ -112,7 +112,7 @@ async def _get_cnr_data(cache_mode=True, dont_wait=True):
         json_obj = await fetch_all()
         manager_util.save_to_cache(uri, json_obj)
         return json_obj['nodes']
-    except:
+    except Exception:
         res = {}
         print("Cannot connect to comfyregistry.")
     finally:
@@ -237,7 +237,7 @@ def generate_cnr_id(fullpath, cnr_id):
         if not os.path.exists(cnr_id_path):
             with open(cnr_id_path, "w") as f:
                 return f.write(cnr_id)
-    except:
+    except Exception:
         print(f"[ComfyUI Manager] unable to create file: {cnr_id_path}")
 
 
@@ -247,7 +247,7 @@ def read_cnr_id(fullpath):
         if os.path.exists(cnr_id_path):
             with open(cnr_id_path) as f:
                 return f.read().strip()
-    except:
+    except Exception:
         pass
 
     return None

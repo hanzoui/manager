@@ -69,7 +69,7 @@ def check_comfyui_hash():
         repo = git.Repo(comfy_path)
         core.comfy_ui_revision = len(list(repo.iter_commits('HEAD')))
         core.comfy_ui_commit_datetime = repo.head.commit.committed_datetime
-    except:
+    except Exception:
         print('[bold yellow]INFO: Frozen ComfyUI mode.[/bold yellow]')
         core.comfy_ui_revision = 0
         core.comfy_ui_commit_datetime = 0
@@ -93,7 +93,7 @@ def read_downgrade_blacklist():
             items = [x.strip() for x in items if x != '']
             cm_global.pip_downgrade_blacklist += items
             cm_global.pip_downgrade_blacklist = list(set(cm_global.pip_downgrade_blacklist))
-    except:
+    except Exception:
         pass
 
 
@@ -1225,7 +1225,7 @@ def install_deps(
         with open(deps, 'r', encoding="UTF-8", errors="ignore") as json_file:
             try:
                 json_obj = json.load(json_file)
-            except:
+            except Exception:
                 print(f"[bold red]Invalid json file: {deps}[/bold red]")
                 exit(1)
 

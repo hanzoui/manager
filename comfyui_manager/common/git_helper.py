@@ -156,27 +156,27 @@ def switch_to_default_branch(repo):
         default_branch = repo.git.symbolic_ref(f'refs/remotes/{remote_name}/HEAD').replace(f'refs/remotes/{remote_name}/', '')
         repo.git.checkout(default_branch)
         return True
-    except:
+    except Exception:
         # try checkout master
         # try checkout main if failed
         try:
             repo.git.checkout(repo.heads.master)
             return True
-        except:
+        except Exception:
             try:
                 if remote_name is not None:
                     repo.git.checkout('-b', 'master', f'{remote_name}/master')
                     return True
-            except:
+            except Exception:
                 try:
                     repo.git.checkout(repo.heads.main)
                     return True
-                except:
+                except Exception:
                     try:
                         if remote_name is not None:
                             repo.git.checkout('-b', 'main', f'{remote_name}/main')
                             return True
-                    except:
+                    except Exception:
                         pass
 
     print("[ComfyUI Manager] Failed to switch to the default branch")
@@ -447,7 +447,7 @@ def restore_pip_snapshot(pips, options):
         res = 1
         try:
             res = subprocess.check_call([sys.executable, '-m', 'pip', 'install'] + non_url)
-        except:
+        except Exception:
             pass
 
         # fallback
@@ -456,7 +456,7 @@ def restore_pip_snapshot(pips, options):
                 res = 1
                 try:
                     res = subprocess.check_call([sys.executable, '-m', 'pip', 'install', x])
-                except:
+                except Exception:
                     pass
 
                 if res != 0:
@@ -467,7 +467,7 @@ def restore_pip_snapshot(pips, options):
             res = 1
             try:
                 res = subprocess.check_call([sys.executable, '-m', 'pip', 'install', x])
-            except:
+            except Exception:
                 pass
 
             if res != 0:
@@ -478,7 +478,7 @@ def restore_pip_snapshot(pips, options):
             res = 1
             try:
                 res = subprocess.check_call([sys.executable, '-m', 'pip', 'install', x])
-            except:
+            except Exception:
                 pass
 
             if res != 0:

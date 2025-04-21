@@ -54,7 +54,7 @@ def make_pip_cmd(cmd):
 # DON'T USE StrictVersion - cannot handle pre_release version
 # try:
 #     from distutils.version import StrictVersion
-# except:
+# except Exception:
 #     print(f"[ComfyUI-Manager]  'distutils' package not found. Activating fallback mode for compatibility.")
 class StrictVersion:
     def __init__(self, version_string):
@@ -527,7 +527,7 @@ def robust_readlines(fullpath):
     try:
         with open(fullpath, "r") as f:
             return f.readlines()
-    except:
+    except Exception:
         encoding = None
         with open(fullpath, "rb") as f:
             raw_data = f.read()
