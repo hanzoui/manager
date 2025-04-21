@@ -11,6 +11,76 @@
         
         
         {
+            "author": "jax-explorer",
+            "title": "ComfyUI-InstantCharacter",
+            "reference": "https://github.com/jax-explorer/ComfyUI-InstantCharacter",
+            "files": [
+                "https://github.com/jax-explorer/ComfyUI-InstantCharacter"
+            ],
+            "install_type": "git-clone",
+            "description": "[a/InstantCharacter](https://github.com/Tencent/InstantCharacter) ComfyUI Warpper"
+        },
+        {
+            "author": "AngelCookies",
+            "title": "ComfyUI-Seed-Tracker",
+            "reference": "https://github.com/AngelCookies/ComfyUI-Seed-Tracker",
+            "files": [
+                "https://github.com/AngelCookies/ComfyUI-Seed-Tracker"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI extension that tracks random seeds throughout your image generation workflows"
+        },
+        {
+            "author": "jida-ai",
+            "title": "ComfyUI-VideoChatWrapper",
+            "reference": "https://github.com/lebrosoft/ComfyUI-VideoChatWrapper",
+            "files": [
+                "https://github.com/lebrosoft/ComfyUI-VideoChatWrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes related to video chat workflows"
+        },
+        {
+            "author": "Conor-Collins",
+            "title": "ComfyUI-CoCoTools_IO",
+            "reference": "https://github.com/Conor-Collins/ComfyUI-CoCoTools_IO",
+            "files": [
+                "https://github.com/Conor-Collins/ComfyUI-CoCoTools_IO"
+             ],
+             "install_type": "git-clone",
+             "description": "A streamlined set of custom nodes for ComfyUI focused on advanced image I/O operations, particularly for EXR file handling."
+        },
+        {
+            "author": "TiamaTiramisu",
+            "title": "RisuTools",
+            "reference": "https://github.com/TiamaTiramisu/risutools",
+            "files": [
+                "https://github.com/TiamaTiramisu/risutools"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for integration with RisuAI"
+        },
+        {
+            "author": "excelwong",
+            "title": "ComfyUI Prompt Composer",
+            "reference": "https://github.com/excelwong/ComfyUI-PromptComposer",
+            "files": [
+                "https://github.com/excelwong/ComfyUI-PromptComposer"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node plugin for assembling prompts. It allows you to generate positive and negative prompts by selecting different options."
+        },
+        {
+            "author": "VK",
+            "title": "VK Nodes",
+            "reference": "https://github.com/VK/vk-nodes",
+            "files": [
+                "https://github.com/VK/vk-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes to simplify my tiled render"
+        },
+        {
             "author": "EnragedAntelope",
             "title": "ComfyUI-ReLight",
             "reference": "https://github.com/EnragedAntelope/comfyui-relight",
@@ -620,87 +690,6 @@
             ],
             "install_type": "git-clone",
             "description": "Nodes that allow making the UI interactive, with selectors and switches, etc.. Enables selecting across multiple options with the click of a button to move a workflow forward."
-        },
-        {
-            "author": "Nikosis",
-            "title": "ComfyUI-Nikosis-Preprocessors",
-            "reference": "https://github.com/Nikosis/ComfyUI-Nikosis-Preprocessors",
-            "files": [
-                "https://github.com/Nikosis/ComfyUI-Nikosis-Preprocessors"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes: DepthAnything v2, LineArt, PyraCanny, Sketch"
-        },
-        {
-            "author": "mw",
-            "title": "MW-ComfyUI_MegaTTS3",
-            "reference": "https://github.com/billwuhao/ComfyUI_MegaTTS3",
-            "files": [
-                "https://github.com/billwuhao/ComfyUI_MegaTTS3"
-            ],
-            "install_type": "git-clone",
-            "description": "Lightweight and Efficient, 🎧Ultra High-Quality Voice Cloning, Chinese and English."
-        },
-        {
-            "author": "rickyars",
-            "title": "Tiled Image Generator for ComfyUI",
-            "reference": "https://github.com/rickyars/comfyui-llm-tile",
-            "files": [
-                "https://github.com/rickyars/comfyui-llm-tile"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node that generates tiled image compositions with overlapping regions. This approach creates coherent compositions by using the edges of each tile as seeds for neighboring tiles, resulting in seamless transitions."
-        },
-        {
-            "author": "zouyu",
-            "title": "ComfyUI-SaveImageS3",
-            "id": "comfyui-saveimages3",
-            "reference": "https://github.com/mrchipset/ComfyUI-SaveImageS3",
-            "files": [
-                "https://github.com/mrchipset/ComfyUI-SaveImageS3"
-            ],
-            "install_type": "git-clone",
-            "description": "This extension offers a custom node to save image to S3-compatible oss."
-        },
-        {
-            "author": "Burgstall-labs",
-            "title": "ComfyUI-BETA-Cropnodes",
-            "reference": "https://github.com/Burgstall-labs/ComfyUI-BETA-Cropnodes",
-            "files": [
-                "https://github.com/Burgstall-labs/ComfyUI-BETA-Cropnodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for ComfyUI designed for cropping and stitching video frames (image batches). Part of the 'Burgstall Enabling The Awesomeness' suite."
-        },
-        {
-            "author": "jax-explorer",
-            "title": "ComfyUI-VideoBasicLatentSync",
-            "reference": "https://github.com/jax-explorer/ComfyUI-VideoBasicLatentSync",
-            "files": [
-                "https://github.com/jax-explorer/ComfyUI-VideoBasicLatentSync"
-            ],
-            "install_type": "git-clone",
-            "description": "Optimize OOM issues based on ComfyUI-LatentSyncWrapper. [a/ShmuelRonen/ComfyUI-LatentSyncWrapper](https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper)\nVideBasic Optimize OOM Plan: [a/jax-explorer/ComfyUI-VideoBasic](https://github.com/jax-explorer/ComfyUI-VideoBasic)"
-        },
-        {
-            "author": "jax-explorer",
-            "title": "ComfyUI-VideoBasic",
-            "reference": "https://github.com/jax-explorer/ComfyUI-VideoBasic",
-            "files": [
-                "https://github.com/jax-explorer/ComfyUI-VideoBasic"
-            ],
-            "install_type": "git-clone",
-            "description": "Used to solve the OOM (Out Of Memory) issue caused by loading all frames of a video at once in ComfyUI. All nodes use streamingly, and no longer load all frames of the video into memory at once."
-        },
-        {
-            "author": "nako-nakoko",
-            "title": "ComfyUI_Mel_Nodes",
-            "reference": "https://github.com/nako-nakoko/ComfyUI_Mel_Nodes",
-            "files": [
-                "https://github.com/nako-nakoko/ComfyUI_Mel_Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes with split, random, and select functions for easy visual and management of multiple cumbersome prompts"
         }
     ]
 }

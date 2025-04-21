@@ -1407,6 +1407,7 @@
             "Seed-Nodes: ImageTransparencyCrop",
             "Seed-Nodes: LoadImage",
             "Seed-Nodes: LoadMultipleImages",
+            "Seed-Nodes: QwenVLAPI",
             "Seed-Nodes: SLICPixelator",
             "Seed-Nodes: SeedSaveAudio"
         ],
@@ -1630,6 +1631,17 @@
         ],
         {
             "title_aux": "ComfyUI-Ovis2"
+        }
+    ],
+    "https://github.com/AngelCookies/ComfyUI-Seed-Tracker": [
+        [
+            "GlobalSeedTracker",
+            "SeedExporter",
+            "SeedTracker",
+            "SeedTrackerBatch"
+        ],
+        {
+            "title_aux": "ComfyUI-Seed-Tracker"
         }
     ],
     "https://github.com/Anibaaal/ComfyUI-UX-Nodes": [
@@ -2677,6 +2689,7 @@
             "ConditioningAverageScheduler",
             "ConditioningBatch4",
             "ConditioningBatch8",
+            "ConditioningDownsample (T5)",
             "ConditioningMultiply",
             "ConditioningOrthoCollin",
             "ConditioningToBase64",
@@ -2861,6 +2874,26 @@
         ],
         {
             "title_aux": "ComfyUI-Simple-VFI"
+        }
+    ],
+    "https://github.com/Conor-Collins/ComfyUI-CoCoTools_IO": [
+        [
+            "ColorspaceNode",
+            "CryptomatteLayer",
+            "ImageLoader",
+            "LoadExr",
+            "LoadExrLayerByName",
+            "SaverNode",
+            "ZNormalizeNode",
+            "coco_loader",
+            "colorspace",
+            "load_exr",
+            "load_exr_layer_by_name",
+            "saver",
+            "shamble_cryptomatte"
+        ],
+        {
+            "title_aux": "ComfyUI-CoCoTools_IO"
         }
     ],
     "https://github.com/Conor-Collins/coco_tools": [
@@ -3411,6 +3444,7 @@
     ],
     "https://github.com/DraconicDragon/ComfyUI-RyuuNoodles": [
         [
+            "Ryuu_CleanStringAdvanced",
             "Ryuu_FallbackPassthrough",
             "Ryuu_FallbackSwitchAny",
             "Ryuu_FallbackSwitchImage",
@@ -5574,6 +5608,8 @@
         [
             "JTBrightness",
             "JTImagesavetopath",
+            "JTSaveTextToExcel",
+            "JTSaveTextToFile",
             "JTcounter",
             "SiliconflowFree"
         ],
@@ -6893,6 +6929,7 @@
             "CompareInt",
             "ConditionalTextOutput",
             "CountOccurrences",
+            "CustomCrop",
             "ExtractAndCombineLines",
             "ExtractBeforeAfter",
             "ExtractLinesByIndex",
@@ -6901,6 +6938,7 @@
             "ExtractSubstring",
             "ExtractSubstringByIndices",
             "FileCopyCutNode",
+            "FileDeleteNode",
             "FileListAndSuffix",
             "FilterLinesBySubstrings",
             "FilterLinesByWordCount",
@@ -7324,6 +7362,7 @@
             "ParametricMeshGen",
             "ParametricMeshGenV2",
             "ProjectFilePathNode",
+            "ProjectFolderPathNode",
             "PromptCleaner",
             "PromptCleanerV2",
             "PromptDupeRemover",
@@ -7374,6 +7413,8 @@
             "WaveletDecompose",
             "WinampViz",
             "WinampVizV2",
+            "ZenkaiControlPromptV1",
+            "ZenkaiDepthPrompt",
             "ZenkaiImagePromptV1",
             "ZenkaiImagePromptV2",
             "ZenkaiPoseMap",
@@ -7383,7 +7424,8 @@
             "ZenkaiPromptV4",
             "ZenkaiPromptV5",
             "ZenkaiWildcard",
-            "ZenkaiWildcardV2"
+            "ZenkaiWildcardV2",
+            "Zenkai_IMPv1"
         ],
         {
             "author": "DJZ-Nodes",
@@ -10762,6 +10804,17 @@
         ],
         {
             "title_aux": "ComfyUI-Unprompted"
+        }
+    ],
+    "https://github.com/TiamaTiramisu/risutools": [
+        [
+            "CheckFileNamePrefixExists",
+            "LoadImageFromText",
+            "LoadLastFileNamePrefix",
+            "UUIDGenerator"
+        ],
+        {
+            "title_aux": "RisuTools"
         }
     ],
     "https://github.com/TinyTerra/ComfyUI_tinyterraNodes": [
@@ -14651,6 +14704,133 @@
             "ACN_SparseCtrlWeightExtras",
             "ACN_TimestepKeyframeFromStrengthList",
             "ACN_TimestepKeyframeInterpolation",
+            "ADE_AdjustPEFullStretch",
+            "ADE_AdjustPEManual",
+            "ADE_AdjustPESweetspotStretch",
+            "ADE_AdjustWeightAllAdd",
+            "ADE_AdjustWeightAllMult",
+            "ADE_AdjustWeightIndivAdd",
+            "ADE_AdjustWeightIndivAttnAdd",
+            "ADE_AdjustWeightIndivAttnMult",
+            "ADE_AdjustWeightIndivMult",
+            "ADE_AnimateDiffCombine",
+            "ADE_AnimateDiffKeyframe",
+            "ADE_AnimateDiffLoRALoader",
+            "ADE_AnimateDiffLoaderGen1",
+            "ADE_AnimateDiffLoaderV1Advanced",
+            "ADE_AnimateDiffLoaderWithContext",
+            "ADE_AnimateDiffModelSettings",
+            "ADE_AnimateDiffModelSettingsAdvancedAttnStrengths",
+            "ADE_AnimateDiffModelSettingsSimple",
+            "ADE_AnimateDiffModelSettings_Release",
+            "ADE_AnimateDiffSamplingSettings",
+            "ADE_AnimateDiffSettings",
+            "ADE_AnimateDiffUniformContextOptions",
+            "ADE_AnimateDiffUnload",
+            "ADE_ApplyAnimateDiffModel",
+            "ADE_ApplyAnimateDiffModelSimple",
+            "ADE_ApplyAnimateDiffModelWithCameraCtrl",
+            "ADE_ApplyAnimateDiffModelWithPIA",
+            "ADE_ApplyAnimateLCMI2VModel",
+            "ADE_AttachLoraHookToCLIP",
+            "ADE_AttachLoraHookToConditioning",
+            "ADE_BatchedContextOptions",
+            "ADE_CFGExtrasPAG",
+            "ADE_CFGExtrasPAGSimple",
+            "ADE_CFGExtrasRescaleCFG",
+            "ADE_CFGExtrasRescaleCFGSimple",
+            "ADE_CameraCtrlAnimateDiffKeyframe",
+            "ADE_CameraManualPoseAppend",
+            "ADE_CameraPoseAdvanced",
+            "ADE_CameraPoseBasic",
+            "ADE_CameraPoseCombo",
+            "ADE_CombineLoraHooks",
+            "ADE_CombineLoraHooksEight",
+            "ADE_CombineLoraHooksFour",
+            "ADE_ConditioningCombine",
+            "ADE_ConditioningSetMask",
+            "ADE_ConditioningSetMaskAndCombine",
+            "ADE_ConditioningSetUnmaskedAndCombine",
+            "ADE_ContextExtras_ContextRef",
+            "ADE_ContextExtras_ContextRef_Keyframe",
+            "ADE_ContextExtras_ContextRef_KeyframeFromList",
+            "ADE_ContextExtras_ContextRef_KeyframeInterpolation",
+            "ADE_ContextExtras_ContextRef_ModeFirst",
+            "ADE_ContextExtras_ContextRef_ModeIndexes",
+            "ADE_ContextExtras_ContextRef_ModeSliding",
+            "ADE_ContextExtras_ContextRef_TuneAttn",
+            "ADE_ContextExtras_ContextRef_TuneAttnAdain",
+            "ADE_ContextExtras_NaiveReuse",
+            "ADE_ContextExtras_NaiveReuse_Keyframe",
+            "ADE_ContextExtras_NaiveReuse_KeyframeFromList",
+            "ADE_ContextExtras_NaiveReuse_KeyframeInterpolation",
+            "ADE_ContextExtras_Set",
+            "ADE_CustomCFG",
+            "ADE_CustomCFGKeyframe",
+            "ADE_CustomCFGKeyframeFromList",
+            "ADE_CustomCFGKeyframeInterpolation",
+            "ADE_CustomCFGKeyframeSimple",
+            "ADE_CustomCFGSimple",
+            "ADE_EmptyLatentImageLarge",
+            "ADE_InjectI2VIntoAnimateDiffModel",
+            "ADE_InjectPIAIntoAnimateDiffModel",
+            "ADE_InputPIA_Multival",
+            "ADE_InputPIA_PaperPresets",
+            "ADE_IterationOptsDefault",
+            "ADE_IterationOptsFreeInit",
+            "ADE_LoadAnimateDiffModel",
+            "ADE_LoadAnimateDiffModelWithCameraCtrl",
+            "ADE_LoadAnimateLCMI2VModel",
+            "ADE_LoadCameraPoses",
+            "ADE_LoadCameraPosesFromPath",
+            "ADE_LoopedUniformContextOptions",
+            "ADE_LoopedUniformViewOptions",
+            "ADE_LoraHookKeyframe",
+            "ADE_LoraHookKeyframeFromStrengthList",
+            "ADE_LoraHookKeyframeInterpolation",
+            "ADE_MultivalConvertToMask",
+            "ADE_MultivalDynamic",
+            "ADE_MultivalDynamicFloatInput",
+            "ADE_MultivalDynamicFloats",
+            "ADE_MultivalScaledMask",
+            "ADE_NoiseCalibration",
+            "ADE_NoiseLayerAdd",
+            "ADE_NoiseLayerAddWeighted",
+            "ADE_NoiseLayerNormalizedSum",
+            "ADE_NoiseLayerReplace",
+            "ADE_NoisedImageInjectOptions",
+            "ADE_NoisedImageInjection",
+            "ADE_PIA_AnimateDiffKeyframe",
+            "ADE_PairedConditioningCombine",
+            "ADE_PairedConditioningSetMask",
+            "ADE_PairedConditioningSetMaskAndCombine",
+            "ADE_PairedConditioningSetUnmaskedAndCombine",
+            "ADE_PerturbedAttentionGuidanceMultival",
+            "ADE_RawSigmaSchedule",
+            "ADE_RegisterLoraHook",
+            "ADE_RegisterLoraHookModelOnly",
+            "ADE_RegisterModelAsLoraHook",
+            "ADE_RegisterModelAsLoraHookModelOnly",
+            "ADE_ReplaceCameraParameters",
+            "ADE_ReplaceOriginalPoseAspectRatio",
+            "ADE_RescaleCFGMultival",
+            "ADE_SetLoraHookKeyframe",
+            "ADE_SigmaSchedule",
+            "ADE_SigmaScheduleSplitAndCombine",
+            "ADE_SigmaScheduleToSigmas",
+            "ADE_SigmaScheduleWeightedAverage",
+            "ADE_SigmaScheduleWeightedAverageInterp",
+            "ADE_StandardStaticContextOptions",
+            "ADE_StandardStaticViewOptions",
+            "ADE_StandardUniformContextOptions",
+            "ADE_StandardUniformViewOptions",
+            "ADE_TimestepsConditioning",
+            "ADE_UpscaleAndVAEEncode",
+            "ADE_UseEvolvedSampling",
+            "ADE_ViewsOnlyContextOptions",
+            "ADE_VisualizeContextOptionsK",
+            "ADE_VisualizeContextOptionsKAdv",
+            "ADE_VisualizeContextOptionsSCustom",
             "AD_DrawSchedule",
             "AD_InfiniteZoom",
             "AD_latent_keyframe",
@@ -14663,6 +14843,7 @@
             "AD_sch_prompt",
             "AD_sch_prompt_adv",
             "AD_slice_Condi",
+            "AnimateDiffLoaderV1",
             "Apply_AD_diff",
             "Apply_CN_union",
             "Apply_ControlNetStack",
@@ -14677,6 +14858,7 @@
             "Apply_textStack",
             "CN_preset1_Unpack",
             "CN_preset1_pack",
+            "CheckpointLoaderSimpleWithNoiseSelect",
             "ControlNetLoaderAdvanced",
             "CustomControlNetWeights",
             "CustomT2IAdapterWeights",
@@ -14745,6 +14927,7 @@
             "chx_mask_Mulcondi",
             "chx_prompt_Schedule",
             "chx_re_fluxguide",
+            "chx_vae_encode",
             "load_FLUX",
             "load_SD35",
             "load_basic",
@@ -16266,6 +16449,7 @@
             "CLIPTextEncode",
             "CLIPTextEncodeControlnet",
             "CLIPTextEncodeFlux",
+            "CLIPTextEncodeHiDream",
             "CLIPTextEncodeHunyuanDiT",
             "CLIPTextEncodeLumina2",
             "CLIPTextEncodePixArtAlpha",
@@ -18010,6 +18194,7 @@
             "LoadRandomImage",
             "Load_Embeddings_From_Folder",
             "MaskFromRGB_KMeans",
+            "MaskedRegionVideoExport",
             "ParallaxZoom",
             "Random_Style_Mixture",
             "SDAnyConverter",
@@ -18144,6 +18329,14 @@
         ],
         {
             "title_aux": "ComfyMath"
+        }
+    ],
+    "https://github.com/excelwong/ComfyUI-PromptComposer": [
+        [
+            "PromptComposer"
+        ],
+        {
+            "title_aux": "ComfyUI Prompt Composer"
         }
     ],
     "https://github.com/exdysa/comfyui-selector": [
@@ -18507,6 +18700,7 @@
             "FL_GeminiTextAPI",
             "FL_GeminiVideoCaptioner",
             "FL_Glitch",
+            "FL_GoogleCloudStorage",
             "FL_GoogleDriveDownloader",
             "FL_GoogleDriveImageDownloader",
             "FL_GradGenerator",
@@ -18580,6 +18774,7 @@
             "FL_SeparateMaskComponents",
             "FL_Shadertoy",
             "FL_SimpleGPTVision",
+            "FL_Switch",
             "FL_SystemCheck",
             "FL_TetrisGame",
             "FL_TextToPDF",
@@ -21239,6 +21434,15 @@
             "title_aux": "Painting Coder Utils"
         }
     ],
+    "https://github.com/jax-explorer/ComfyUI-InstantCharacter": [
+        [
+            "InstantCharacterGenerate",
+            "InstantCharacterLoadModel"
+        ],
+        {
+            "title_aux": "ComfyUI-InstantCharacter"
+        }
+    ],
     "https://github.com/jax-explorer/ComfyUI-VideoBasic": [
         [
             "VideoBasicLoadVideo",
@@ -22598,6 +22802,7 @@
             "INTConstant",
             "ImageAddMulti",
             "ImageAndMaskPreview",
+            "ImageBatchFilter",
             "ImageBatchMulti",
             "ImageBatchRepeatInterleaving",
             "ImageBatchTestPattern",
@@ -23296,6 +23501,16 @@
         ],
         {
             "title_aux": "Google Photos Loader - by PabloGFX"
+        }
+    ],
+    "https://github.com/lebrosoft/ComfyUI-VideoChatWrapper": [
+        [
+            "VCW_LoadVideo",
+            "VCW_ModelLoader",
+            "VCW_VideoSummary"
+        ],
+        {
+            "title_aux": "ComfyUI-VideoChatWrapper"
         }
     ],
     "https://github.com/leeguandong/ComfyUI_1Prompt1Story": [
@@ -25946,6 +26161,7 @@
     ],
     "https://github.com/nako-nakoko/ComfyUI_Mel_Nodes": [
         [
+            "AddFileNameonly",
             "ResolutionSwitcher",
             "Unet Selector_gguf",
             "mel_RandomIntNode",
@@ -26575,7 +26791,10 @@
             "IoNetVision",
             "orex IoNet Chat",
             "orex IoNet Vision",
-            "orex IoNet Vision Url"
+            "orex IoNet Vision Url",
+            "orex Load Image",
+            "orex Load Image Batch",
+            "orex Save Image"
         ],
         {
             "title_aux": "comfyui-OreX"
@@ -27321,8 +27540,10 @@
     "https://github.com/raspie10032/ComfyUI_RS_NAI_Local_Prompt_converter": [
         [
             "ComfyUIToNovelAIV4",
+            "ComfyUIToOldNAI",
             "NovelAIV4ToComfyUI",
             "NovelAIV4ToOldNAI",
+            "OldNAIToComfyUI",
             "OldNAIToNovelAIV4"
         ],
         {
@@ -27876,7 +28097,8 @@
     "https://github.com/ruucm/ruucm-comfy": [
         [
             "BatchAverageImage",
-            "LoadExternalLoraModelOnly"
+            "LoadExternalLoraModelOnly",
+            "RuucmShareScreen"
         ],
         {
             "nodename_pattern": " \\(ruucm\\)$",
@@ -32531,14 +32753,6 @@
         ],
         {
             "title_aux": "EasyCaptureNode for ComfyUI"
-        }
-    ],
-    "https://github.com/zhuanqianfish/TaesdDecoder": [
-        [
-            "TaesdVAEDecoder"
-        ],
-        {
-            "title_aux": "TaesdDecoder"
         }
     ],
     "https://github.com/zhulu111/ComfyUI_Bxb": [
