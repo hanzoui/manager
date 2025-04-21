@@ -4598,16 +4598,6 @@
             "description": "Capture window content from other programs, easyway combined with LCM for real-time painting"
         },
         {
-            "author": "zhuanqianfish",
-            "title": "TaesdDecoder",
-            "reference": "https://github.com/zhuanqianfish/TaesdDecoder",
-            "files": [
-                "https://github.com/zhuanqianfish/TaesdDecoder"
-            ],
-            "install_type": "git-clone",
-            "description": "use TAESD decoded image.you need donwload taesd_decoder.pth and taesdxl_decoder.pth to vae_approx folder first.\n It will result in a slight loss of image quality and a significant decrease in peak video memory during decoding."
-        },
-        {
             "author": "discopixel-studio",
             "title": "PhotoRoom Nodes by Discopixel",
             "reference": "https://github.com/discopixel-studio/comfyui-discopixel",
@@ -11547,6 +11537,16 @@
             "description": "Used to solve the OOM (Out Of Memory) issue caused by loading all frames of a video at once in ComfyUI. All nodes use streamingly, and no longer load all frames of the video into memory at once."
         },
         {
+            "author": "jax-explorer",
+            "title": "ComfyUI-InstantCharacter",
+            "reference": "https://github.com/jax-explorer/ComfyUI-InstantCharacter",
+            "files": [
+                "https://github.com/jax-explorer/ComfyUI-InstantCharacter"
+            ],
+            "install_type": "git-clone",
+            "description": "[a/InstantCharacter](https://github.com/Tencent/InstantCharacter) ComfyUI Warpper"
+        },
+        {
             "author": "sugarkwork",
             "title": "comfyui_cohere",
             "id": "cohere",
@@ -16782,6 +16782,28 @@
             "install_type": "git-clone"
         },
         {
+            "author": "CY-CHENYUE",
+            "title": "ComfyUI-Gemini-API",
+            "id": "ComfyUI-Gemini-API",
+            "reference": "https://github.com/CY-CHENYUE/ComfyUI-Gemini-API",
+            "files": [
+               "https://github.com/CY-CHENYUE/ComfyUI-Gemini-API"
+            ],
+            "description": "A custom node for ComfyUI to integrate Google Gemini API.",
+            "install_type": "git-clone"
+        },
+        {
+            "author": "CY-CHENYUE",
+            "title": "ComfyUI-GPT-API",
+            "id": "ComfyUI-GPT-API",
+            "reference": "https://github.com/CY-CHENYUE/ComfyUI-GPT-API",
+            "files": [
+               "https://github.com/CY-CHENYUE/ComfyUI-GPT-API"
+            ],
+            "description": "A custom node for ComfyUI to integrate GPT API.",
+            "install_type": "git-clone"
+        },
+        {
             "author": "codecringebinge",
             "title": "ComfyUI-Arrow-Key-Canvas-Navigation",
             "id": "codecringebinge.arrow.key.canvas.navigation",
@@ -21491,6 +21513,16 @@
              "description": "A set of custom nodes for ComfyUI providing advanced image processing, file handling, and utility functions."
         },
         {
+            "author": "Conor-Collins",
+            "title": "ComfyUI-CoCoTools_IO",
+            "reference": "https://github.com/Conor-Collins/ComfyUI-CoCoTools_IO",
+            "files": [
+                "https://github.com/Conor-Collins/ComfyUI-CoCoTools_IO"
+             ],
+             "install_type": "git-clone",
+             "description": "A streamlined set of custom nodes for ComfyUI focused on advanced image I/O operations, particularly for EXR file handling."
+        },
+        {
             "author": "852wa",
             "title": "ComfyUI-ColorshiftColor",
             "reference": "https://github.com/852wa/ComfyUI-ColorshiftColor",
@@ -22886,17 +22918,6 @@
             "description": "Custom nodes for various visual generation and editing tasks using ACE_Plus FFT Model."
         },
         {
-            "author": "CY-CHENYUE",
-            "title": "ComfyUI-Gemini-API",
-            "id": "ComfyUI-Gemini-API",
-            "reference": "https://github.com/CY-CHENYUE/ComfyUI-Gemini-API",
-            "files": [
-               "https://github.com/CY-CHENYUE/ComfyUI-Gemini-API"
-            ],
-            "description": "A custom node for ComfyUI to integrate Google Gemini API.",
-            "install_type": "git-clone"
-        },
-        {
             "author": "chri002",
             "title": "ComfyUI_depthMapOperation",
             "reference": "https://github.com/chri002/ComfyUI_depthMapOperation",
@@ -23389,17 +23410,6 @@
             ],
             "install_type": "git-clone",
             "description": "This node enables better performance for Stable Diffusion models, by leveraging AMD MIGraphX, on Navi3 and Navi4 GPUs."
-        },
-        {
-            "author": "CY-CHENYUE",
-            "title": "ComfyUI-GPT-API",
-            "id": "ComfyUI-GPT-API",
-            "reference": "https://github.com/CY-CHENYUE/ComfyUI-GPT-API",
-            "files": [
-               "https://github.com/CY-CHENYUE/ComfyUI-GPT-API"
-            ],
-            "description": "A custom node for ComfyUI to integrate GPT API.",
-            "install_type": "git-clone"
         },
         {
             "author": "zzubnik",
@@ -24133,6 +24143,56 @@
             ],
             "install_type": "git-clone",
             "description": "The unofficial implementation of ZIM in ComfyUI"
+        },
+        {
+            "author": "AngelCookies",
+            "title": "ComfyUI-Seed-Tracker",
+            "reference": "https://github.com/AngelCookies/ComfyUI-Seed-Tracker",
+            "files": [
+                "https://github.com/AngelCookies/ComfyUI-Seed-Tracker"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI extension that tracks random seeds throughout your image generation workflows"
+        },
+        {
+            "author": "TiamaTiramisu",
+            "title": "RisuTools",
+            "reference": "https://github.com/TiamaTiramisu/risutools",
+            "files": [
+                "https://github.com/TiamaTiramisu/risutools"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for integration with RisuAI"
+        },
+        {
+            "author": "excelwong",
+            "title": "ComfyUI Prompt Composer",
+            "reference": "https://github.com/excelwong/ComfyUI-PromptComposer",
+            "files": [
+                "https://github.com/excelwong/ComfyUI-PromptComposer"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node plugin for assembling prompts. It allows you to generate positive and negative prompts by selecting different options."
+        },
+        {
+            "author": "jida-ai",
+            "title": "ComfyUI-VideoChatWrapper",
+            "reference": "https://github.com/lebrosoft/ComfyUI-VideoChatWrapper",
+            "files": [
+                "https://github.com/lebrosoft/ComfyUI-VideoChatWrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes related to video chat workflows"
+        },
+        {
+            "author": "VK",
+            "title": "VK Nodes",
+            "reference": "https://github.com/VK/vk-nodes",
+            "files": [
+                "https://github.com/VK/vk-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes to simplify my tiled render"
         },
 
 
