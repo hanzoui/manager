@@ -43,8 +43,8 @@ import cnr_utils
 
 comfyui_manager_path = os.path.abspath(os.path.dirname(__file__))
 
-cm_global.pip_blacklist = {'torch', 'torchsde', 'torchvision'}
-cm_global.pip_downgrade_blacklist = ['torch', 'torchsde', 'torchvision', 'transformers', 'safetensors', 'kornia']
+cm_global.pip_blacklist = {'torch', 'torchaudio', 'torchsde', 'torchvision'}
+cm_global.pip_downgrade_blacklist = ['torch', 'torchaudio', 'torchsde', 'torchvision', 'transformers', 'safetensors', 'kornia']
 cm_global.pip_overrides = {'numpy': 'numpy<2'}
 
 if os.path.exists(os.path.join(manager_util.comfyui_manager_path, "pip_overrides.json")):

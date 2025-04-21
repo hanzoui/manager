@@ -40,8 +40,8 @@ else:
 
 security_check.security_check()
 
-cm_global.pip_blacklist = {'torch', 'torchsde', 'torchvision'}
-cm_global.pip_downgrade_blacklist = ['torch', 'torchsde', 'torchvision', 'transformers', 'safetensors', 'kornia']
+cm_global.pip_blacklist = {'torch', 'torchaudio', 'torchsde', 'torchvision'}
+cm_global.pip_downgrade_blacklist = ['torch', 'torchaudio', 'torchsde', 'torchvision', 'transformers', 'safetensors', 'kornia']
 
 
 def skip_pip_spam(x):
