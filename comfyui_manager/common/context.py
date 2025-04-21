@@ -14,7 +14,7 @@ if comfy_path is None:
     try:
         comfy_path = os.path.abspath(os.path.dirname(sys.modules['__main__'].__file__))
         os.environ['COMFYUI_PATH'] = comfy_path
-    except:
+    except Exception:
         logging.error("[ComfyUI-Manager] environment variable 'COMFYUI_PATH' is not specified.")
         exit(-1)
 
@@ -95,7 +95,7 @@ def get_current_comfyui_ver():
 
                 project = data.get('project', {})
                 return project.get('version')
-        except:
+        except Exception:
             return None
 
 
@@ -103,7 +103,7 @@ def get_comfyui_tag():
     try:
         with git.Repo(comfy_path) as repo:
             return repo.git.describe('--tags')
-    except:
+    except Exception:
         return None
 
 

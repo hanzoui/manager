@@ -63,7 +63,7 @@ def get_default_custom_nodes_path():
         try:
             import folder_paths
             default_custom_nodes_path = folder_paths.get_folder_paths("custom_nodes")[0]
-        except:
+        except Exception:
             default_custom_nodes_path = os.path.abspath(os.path.join(manager_util.comfyui_manager_path, '..'))
 
     return default_custom_nodes_path
@@ -73,7 +73,7 @@ def get_custom_nodes_paths():
         try:
             import folder_paths
             return folder_paths.get_folder_paths("custom_nodes")
-        except:
+        except Exception:
             custom_nodes_path = os.path.abspath(os.path.join(manager_util.comfyui_manager_path, '..'))
             return [custom_nodes_path]
 
@@ -110,11 +110,11 @@ def check_invalid_nodes():
 
     try:
         import folder_paths
-    except:
+    except Exception:
         try:
             sys.path.append(context.comfy_path)
             import folder_paths
-        except:
+        except Exception:
             raise Exception(f"Invalid COMFYUI_FOLDERS_BASE_PATH: {context.comfy_path}")
 
     def check(root):
@@ -702,7 +702,7 @@ class UnifiedManager:
                 if 'id' in x:
                     if x['id'] not in res:
                         res[x['id']] = (x, True)
-            except:
+            except Exception:
                 logging.error(f"[ComfyUI-Manager] broken item:{x}")
 
         return res
@@ -755,7 +755,7 @@ class UnifiedManager:
     def safe_version(ver_str):
         try:
             return version.parse(ver_str)
-        except:
+        except Exception:
             return version.parse("0.0.0")
 
     def execute_install_script(self, url, repo_path, instant_execution=False, lazy_mode=False, no_deps=False):
@@ -1422,7 +1422,7 @@ def identify_node_pack_from_path(fullpath):
         if github_id is None:
             try:
                 github_id = os.path.basename(repo_url)
-            except:
+            except Exception:
                 logging.warning(f"[ComfyUI-Manager] unexpected repo url: {repo_url}")
                 github_id = module_name
 
@@ -1647,27 +1647,27 @@ def switch_to_default_branch(repo):
         default_branch = repo.git.symbolic_ref(f'refs/remotes/{remote_name}/HEAD').replace(f'refs/remotes/{remote_name}/', '')
         repo.git.checkout(default_branch)
         return True
-    except:
+    except Exception:
         # try checkout master
         # try checkout main if failed
         try:
             repo.git.checkout(repo.heads.master)
             return True
-        except:
+        except Exception:
             try:
                 if remote_name is not None:
                     repo.git.checkout('-b', 'master', f'{remote_name}/master')
                     return True
-            except:
+            except Exception:
                 try:
                     repo.git.checkout(repo.heads.main)
                     return True
-                except:
+                except Exception:
                     try:
                         if remote_name is not None:
                             repo.git.checkout('-b', 'main', f'{remote_name}/main')
                             return True
-                    except:
+                    except Exception:
                         pass
 
     print("[ComfyUI Manager] Failed to switch to the default branch")
@@ -1718,7 +1718,7 @@ def try_install_script(url, repo_path, install_cmd, instant_execution=False):
                     print(f"[WARN] ComfyUI-Manager: Your ComfyUI version ({comfy_ui_revision})[{comfy_ui_commit_datetime.date()}] is too old. Please update to the latest version.")
                     print("[WARN] The extension installation feature may not work properly in the current installed ComfyUI version on Windows environment.")
                     print("###################################################################\n\n")
-            except:
+            except Exception:
                 pass
 
         if code != 0:
@@ -2336,7 +2336,7 @@ def update_to_stable_comfyui(repo_path):
         repo = git.Repo(repo_path)
         try:
             repo.git.checkout(repo.heads.master)
-        except:
+        except Exception:
             logging.error(f"[ComfyUI-Manager] Failed to checkout 'master' branch.\nrepo_path={repo_path}\nAvailable branches:")
             for branch in repo.branches:
                 logging.error('\t'+branch.name)
@@ -2359,7 +2359,7 @@ def update_to_stable_comfyui(repo_path):
             logging.info(f"[ComfyUI-Manager] Updating ComfyUI: {current_tag} -> {latest_tag}")
             repo.git.checkout(latest_tag)
             return 'updated', latest_tag
-    except:
+    except Exception:
         traceback.print_exc()
         return "fail", None
             
@@ -2557,7 +2557,7 @@ async def get_current_snapshot(custom_nodes_only = False):
                         commit_hash = git_utils.get_commit_hash(fullpath)
                         url = git_utils.git_url(fullpath)
                         git_custom_nodes[url] = dict(hash=commit_hash, disabled=is_disabled)
-                except:
+                except Exception:
                     print(f"Failed to extract snapshots for the custom node '{path}'.")
 
             elif path.endswith('.py'):
@@ -2615,7 +2615,7 @@ async def extract_nodes_from_workflow(filepath, mode='local', channel_url='defau
         with open(filepath, "r", encoding="UTF-8", errors="ignore") as json_file:
             try:
                 workflow = json.load(json_file)
-            except:
+            except Exception:
                 print(f"Invalid workflow file: {filepath}")
                 exit(-1)
 
@@ -2628,7 +2628,7 @@ async def extract_nodes_from_workflow(filepath, mode='local', channel_url='defau
             else:
                 try:
                     workflow = json.loads(img.info['workflow'])
-                except:
+                except Exception:
                     print(f"This is not a valid .png file containing a ComfyUI workflow: {filepath}")
                     exit(-1)
 
@@ -2899,7 +2899,7 @@ def populate_github_stats(node_packs, json_obj_github):
                 v['stars'] = -1
                 v['last_update'] = -1
                 v['trust'] = False
-        except:
+        except Exception:
             logging.error(f"[ComfyUI-Manager] DB item is broken:\n{v}")
 
 
@@ -3175,7 +3175,7 @@ def get_comfyui_versions(repo=None):
     try:
         remote = get_remote_name(repo)   
         repo.remotes[remote].fetch()    
-    except:
+    except Exception:
         logging.error("[ComfyUI-Manager] Failed to fetch ComfyUI")
 
     versions = [x.name for x in repo.tags if x.name.startswith('v')]
@@ -3244,5 +3244,5 @@ def repo_switch_commit(repo_path, commit_hash):
 
         repo.git.checkout(commit_hash)
         return True
-    except:
+    except Exception:
         return None

@@ -220,7 +220,7 @@ def print_comfyui_version():
         try:
             if not os.environ.get('__COMFYUI_DESKTOP_VERSION__') and core.comfy_ui_commit_datetime.date() < core.comfy_ui_required_commit_datetime.date():
                 logging.warning(f"\n\n## [WARN] ComfyUI-Manager: Your ComfyUI version ({core.comfy_ui_revision})[{core.comfy_ui_commit_datetime.date()}] is too old. Please update to the latest version. ##\n\n")
-        except:
+        except Exception:
             pass
 
         # process on_revision_detected -->
@@ -247,7 +247,7 @@ def print_comfyui_version():
                 logging.info(f"### ComfyUI Version: {comfyui_tag} on '{current_branch}' | Released on '{core.comfy_ui_commit_datetime.date()}'")
             else:
                 logging.info(f"### ComfyUI Revision: {core.comfy_ui_revision} on '{current_branch}' [{comfy_ui_hash[:8]}] | Released on '{core.comfy_ui_commit_datetime.date()}'")
-    except:
+    except Exception:
         if is_detached:
             logging.info(f"### ComfyUI Revision: {core.comfy_ui_revision} [{comfy_ui_hash[:8]}] *DETACHED | Released on '{core.comfy_ui_commit_datetime.date()}'")
         else:
@@ -896,7 +896,7 @@ async def fetch_updates(request):
             return web.Response(status=201)
 
         return web.Response(status=200)
-    except:
+    except Exception:
         traceback.print_exc()
         return web.Response(status=400)
 
@@ -1162,7 +1162,7 @@ async def remove_snapshot(request):
             os.remove(path)
 
         return web.Response(status=200)
-    except:
+    except Exception:
         return web.Response(status=400)
 
 
@@ -1188,7 +1188,7 @@ async def restore_snapshot(request):
 
         logging.error(f"Snapshot file not found: `{path}`")
         return web.Response(status=400)
-    except:
+    except Exception:
         return web.Response(status=400)
 
 
@@ -1196,7 +1196,7 @@ async def restore_snapshot(request):
 async def get_current_snapshot_api(request):
     try:
         return web.json_response(await core.get_current_snapshot(), content_type='application/json')
-    except:
+    except Exception:
         return web.Response(status=400)
 
 
@@ -1205,7 +1205,7 @@ async def save_snapshot(request):
     try:
         await core.save_snapshot_with_postfix('snapshot')
         return web.Response(status=200)
-    except:
+    except Exception:
         return web.Response(status=400)
 
 
@@ -1753,7 +1753,7 @@ async def get_notice(request):
                                 markdown_content = '<P style="text-align: center; color:red; background-color:white; font-weight:bold">Your ComfyUI isn\'t git repo.</P>' + markdown_content
                             elif core.comfy_ui_required_commit_datetime.date() > core.comfy_ui_commit_datetime.date():
                                 markdown_content = '<P style="text-align: center; color:red; background-color:white; font-weight:bold">Your ComfyUI is too OUTDATED!!!</P>' + markdown_content
-                    except:
+                    except Exception:
                         pass
 
                     return web.Response(text=markdown_content, status=200)
@@ -1832,7 +1832,7 @@ async def save_component(request):
         with open(filepath, 'w') as f:
             json.dump(components, f, indent=4, sort_keys=True)
         return web.Response(text=filepath, status=200)
-    except:
+    except Exception:
         return web.Response(status=400)
 
 

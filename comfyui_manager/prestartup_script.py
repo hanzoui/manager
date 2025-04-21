@@ -65,12 +65,8 @@ comfy_path = os.environ.get('COMFYUI_PATH')
 comfy_base_path = os.environ.get('COMFYUI_FOLDERS_BASE_PATH')
 
 if comfy_path is None:
-    try:
-        comfy_path = os.path.abspath(os.path.dirname(sys.modules['__main__'].__file__))
-        os.environ['COMFYUI_PATH'] = comfy_path
-    except:
-        print("[ComfyUI-Manager] environment variable 'COMFYUI_PATH' is not specified.")
-        exit(-1)
+    comfy_path = os.path.abspath(os.path.dirname(sys.modules['__main__'].__file__))
+    os.environ['COMFYUI_PATH'] = comfy_path
 
 if comfy_base_path is None:
     comfy_base_path = comfy_path
@@ -438,35 +434,6 @@ except Exception as e:
     print(f"[ComfyUI-Manager] Logging failed: {e}")
 
 
-def ensure_dependencies():
-    try:
-        import git     # noqa: F401
-        import toml    # noqa: F401
-        import rich    # noqa: F401
-        import chardet # noqa: F401
-    except ModuleNotFoundError:
-        my_path = os.path.dirname(__file__)
-        requirements_path = os.path.join(my_path, "requirements.txt")
-
-        print("## ComfyUI-Manager: installing dependencies. (GitPython)")
-        try:
-            subprocess.check_output(manager_util.make_pip_cmd(['install', '-r', requirements_path]))
-        except subprocess.CalledProcessError:
-            print("## [ERROR] ComfyUI-Manager: Attempting to reinstall dependencies using an alternative method.")
-            try:
-                subprocess.check_output(manager_util.make_pip_cmd(['install', '--user', '-r', requirements_path]))
-            except subprocess.CalledProcessError:
-                print("## [ERROR] ComfyUI-Manager: Failed to install the GitPython package in the correct Python environment. Please install it manually in the appropriate environment. (You can seek help at https://app.element.io/#/room/%23comfyui_space%3Amatrix.org)")
-
-    try:
-        print("## ComfyUI-Manager: installing dependencies done.")
-    except:
-        # maybe we should sys.exit() here? there is at least two screens worth of error messages still being pumped after our error messages
-        print("## [ERROR] ComfyUI-Manager: GitPython package seems to be installed, but failed to load somehow. Make sure you have a working git client installed")
-
-ensure_dependencies()
-
-
 print("** ComfyUI startup time:", current_timestamp())
 print("** Platform:", platform.system())
 print("** Python version:", sys.version)
@@ -490,7 +457,7 @@ def read_downgrade_blacklist():
             items = [x.strip() for x in items if x != '']
             cm_global.pip_downgrade_blacklist += items
             cm_global.pip_downgrade_blacklist = list(set(cm_global.pip_downgrade_blacklist))
-    except:
+    except Exception:
         pass
 
 
