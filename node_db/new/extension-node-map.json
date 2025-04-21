@@ -5229,6 +5229,7 @@
     "https://github.com/Isulion/ComfyUI_Isulion": [
         [
             "CustomTextNode",
+            "CustomTextNode \u2328\ufe0f",
             "DisplayImageFromURL",
             "IsuCollage_Node",
             "Isulion Civitai Image Display",
@@ -5264,7 +5265,8 @@
             "IsulionTimeOfDayGenerator",
             "IsulionVideoPromptGenerator",
             "IsulionWeatherGenerator",
-            "\ud83d\udca4 IsulionShutdown"
+            "\ud83d\udca4 IsulionShutdown",
+            "\ud83e\udde9 IsulionQRCode"
         ],
         {
             "title_aux": "ComfyUI_Isulion Random Prompt Generator"
@@ -14912,6 +14914,7 @@
             "chx_Ksampler_VisualStyle",
             "chx_Ksampler_adv",
             "chx_Ksampler_dual_area",
+            "chx_Ksampler_dual_paint",
             "chx_Ksampler_inpaint",
             "chx_Ksampler_mix",
             "chx_Ksampler_refine",
@@ -19061,18 +19064,6 @@
         {
             "nodename_pattern": "^FrankChiengEasyAnimate",
             "title_aux": "ComfyUI_llm_easyanimiate"
-        }
-    ],
-    "https://github.com/fredconex/ComfyUI-TripoSG": [
-        [
-            "TripoSGExportMesh",
-            "TripoSGImageToMesh",
-            "TripoSGMeshInfo",
-            "TripoSGModelLoader",
-            "TripoSGVAEDecoder"
-        ],
-        {
-            "title_aux": "TripoSG Nodes for ComfyUI"
         }
     ],
     "https://github.com/freelifehacker/ComfyUI-ImgMask2PNG": [
@@ -29066,6 +29057,24 @@
         ],
         {
             "title_aux": "ComfyUI Smart Helper Nodes"
+        }
+    ],
+    "https://github.com/slvslvslv/ComfyUI-SmartImageTools": [
+        [
+            "SmartBackgroundRemove",
+            "SmartGenerateImage",
+            "SmartImagePaletteConvert",
+            "SmartImagePoint",
+            "SmartImagePreviewScaled",
+            "SmartImageRegion",
+            "SmartImagesProcessor",
+            "SmartPoint",
+            "SmartPointSet",
+            "SmartPointSetMerge",
+            "SmartPreviewPalette"
+        ],
+        {
+            "title_aux": "ComfyUI-SmartImageTools"
         }
     ],
     "https://github.com/slyt/comfyui-ollama-nodes": [

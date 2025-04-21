@@ -21,6 +21,16 @@
             "description": "[a/InstantCharacter](https://github.com/Tencent/InstantCharacter) ComfyUI Warpper"
         },
         {
+            "author": "slvslvslv",
+            "title": "ComfyUI-SmartImageTools",
+            "reference": "https://github.com/slvslvslv/ComfyUI-SmartImageTools",
+            "files": [
+                "https://github.com/slvslvslv/ComfyUI-SmartImageTools"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Various nodes for image manipulation"
+        },
+        {
             "author": "AngelCookies",
             "title": "ComfyUI-Seed-Tracker",
             "reference": "https://github.com/AngelCookies/ComfyUI-Seed-Tracker",
@@ -679,17 +689,6 @@
             ],
             "install_type": "git-clone",
             "description": "This is a UNO ComfyUI plugin implementation that can run the full version with 24GB VRAM, as well as quickly run the FP8 version."
-        },
-        {
-            "author": "lquesada",
-            "title": "ComfyUI-Interactive",
-            "id": "comfyui-interactive",
-            "reference": "https://github.com/lquesada/ComfyUI-Interactive",
-            "files": [
-                "https://github.com/lquesada/ComfyUI-Interactive"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes that allow making the UI interactive, with selectors and switches, etc.. Enables selecting across multiple options with the click of a button to move a workflow forward."
         }
     ]
 }

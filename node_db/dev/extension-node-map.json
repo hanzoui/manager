@@ -531,11 +531,16 @@
             "SequentialTextReaderAuto",
             "TUZZI-Bypasser",
             "TUZZI-DirectoryImagePromptReader",
+            "TUZZI-GeminiFlash25",
             "TUZZI-ImageAudioToVideo",
             "TUZZI-ImageExtractorSaver",
             "TUZZI-LineCounter",
             "TUZZI-LinkSuppressor",
             "TUZZI-NumberLines",
+            "TUZZI-PlosArticleScraper",
+            "TUZZI-RangedSelectorText5",
+            "TUZZI-RangedSelectorTitleURL10",
+            "TUZZI-RangedSelectorTitleURL5",
             "TUZZI-RedditPostExtractor",
             "TUZZI-SaveVideo",
             "TUZZI-SequentialTextReader",
@@ -1263,6 +1268,17 @@
         ],
         {
             "title_aux": "ComfyUI-SaveImagePlus"
+        }
+    ],
+    "https://github.com/Jingwen-genies/comfyui-genies-nodes": [
+        [
+            "GeniesPoseEstimation",
+            "GeniesRGBToHSV",
+            "GeniesScaleFaceByKeypoints",
+            "GeniesSelectRGBByMask"
+        ],
+        {
+            "title_aux": "comfyui-genies-nodes"
         }
     ],
     "https://github.com/JissiChoi/ComfyUI-Jissi-List": [
@@ -2236,6 +2252,17 @@
             "title_aux": "ComfyUI-TSFNodes"
         }
     ],
+    "https://github.com/Tawbaware/ComfyUI-Tawbaware": [
+        [
+            "Example",
+            "LatentBlendGradient",
+            "ReverseLatentBatch",
+            "WanVideoReCamMasterGenerateOrbitCameraEx"
+        ],
+        {
+            "title_aux": "ComfyUI-Tawbaware [WIP]"
+        }
+    ],
     "https://github.com/Temult/TWanSigmaSampler": [
         [
             "TWanVideoSigmaSampler"
@@ -3117,6 +3144,7 @@
             "CLIPTextEncode",
             "CLIPTextEncodeControlnet",
             "CLIPTextEncodeFlux",
+            "CLIPTextEncodeHiDream",
             "CLIPTextEncodeHunyuanDiT",
             "CLIPTextEncodeLumina2",
             "CLIPTextEncodePixArtAlpha",
@@ -3769,14 +3797,6 @@
         ],
         {
             "title_aux": "comfyui-redux-style"
-        }
-    ],
-    "https://github.com/fredconex/ComfyUI-PaintTurbo": [
-        [
-            "Hunyuan3DTextureMesh"
-        ],
-        {
-            "title_aux": "ComfyUI-PaintTurbo"
         }
     ],
     "https://github.com/fritzprix/ComfyUI-LLM-Utils": [
@@ -4811,6 +4831,7 @@
             "WanVideoContextOptions",
             "WanVideoControlEmbeds",
             "WanVideoDecode",
+            "WanVideoDiffusionForcingSampler",
             "WanVideoEmptyEmbeds",
             "WanVideoEncode",
             "WanVideoEnhanceAVideo",
@@ -5042,6 +5063,19 @@
         ],
         {
             "title_aux": "ComfyUI-MidjourneyNode-leoleexh"
+        }
+    ],
+    "https://github.com/leon-etienne/ComfyUI_Scoring-Nodes": [
+        [
+            "AestheticScore",
+            "ImageSimilarity",
+            "MultiAestheticScore",
+            "MultiImageToTextSimilarity",
+            "MultiTextToImageSimilarity",
+            "TextSimilarity"
+        ],
+        {
+            "title_aux": "ComfyUI_Scoring-Nodes"
         }
     ],
     "https://github.com/lgldlk/ComfyUI-img-tiler": [
@@ -6457,6 +6491,14 @@
         ],
         {
             "title_aux": "ComfyUI-Rpg-Architect [WIP]"
+        }
+    ],
+    "https://github.com/tanmoy-it/comfyuiCustomNode": [
+        [
+            "DownloadImageDataUrl"
+        ],
+        {
+            "title_aux": "comfyuiCustomNode"
         }
     ],
     "https://github.com/tc888/ComfyUI_Save_Flux_Image": [
