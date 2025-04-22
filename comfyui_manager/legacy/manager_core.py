@@ -45,7 +45,7 @@ version_code = [4, 0]
 version_str = f"V{version_code[0]}.{version_code[1]}" + (f'.{version_code[2]}' if len(version_code) > 2 else '')
 
 
-DEFAULT_CHANNEL = "https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main"
+DEFAULT_CHANNEL = "https://raw.githubusercontent.com/Comfy-Org/ComfyUI-Manager/main"
 
 
 default_custom_nodes_path = None
@@ -1601,7 +1601,7 @@ def read_config():
             'model_download_by_agent': False,
             'downgrade_blacklist': '',
             'always_lazy_install': False,
-            'network_mode': NetworkMode.OFFLINE.value,
+            'network_mode': NetworkMode.PUBLIC.value,
             'security_level': SecurityLevel.NORMAL.value,
             'db_mode': DBMode.CACHE.value,
         }
