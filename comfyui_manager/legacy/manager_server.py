@@ -464,6 +464,8 @@ async def task_worker():
     global task_queue
     global tasks_in_progress
 
+    await core.unified_manager.reload('cache')
+
     async def do_install(item) -> str:
         ui_id, node_spec_str, channel, mode, skip_post_install = item
 
