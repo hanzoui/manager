@@ -36,9 +36,9 @@ logging.info("[ComfyUI-Manager] network_mode: " + network_mode_description)
 comfy_ui_hash = "-"
 comfyui_tag = None
 
-SECURITY_MESSAGE_MIDDLE_OR_BELOW = "ERROR: To use this action, a security_level of `middle or below` is required. Please contact the administrator.\nReference: https://github.com/ltdrdata/ComfyUI-Manager#security-policy"
-SECURITY_MESSAGE_NORMAL_MINUS = "ERROR: To use this feature, you must either set '--listen' to a local IP and set the security level to 'normal-' or lower, or set the security level to 'middle' or 'weak'. Please contact the administrator.\nReference: https://github.com/ltdrdata/ComfyUI-Manager#security-policy"
-SECURITY_MESSAGE_GENERAL = "ERROR: This installation is not allowed in this security_level. Please contact the administrator.\nReference: https://github.com/ltdrdata/ComfyUI-Manager#security-policy"
+SECURITY_MESSAGE_MIDDLE_OR_BELOW = "ERROR: To use this action, a security_level of `middle or below` is required. Please contact the administrator.\nReference: https://github.com/Comfy-Org/ComfyUI-Manager#security-policy"
+SECURITY_MESSAGE_NORMAL_MINUS = "ERROR: To use this feature, you must either set '--listen' to a local IP and set the security level to 'normal-' or lower, or set the security level to 'middle' or 'weak'. Please contact the administrator.\nReference: https://github.com/Comfy-Org/ComfyUI-Manager#security-policy"
+SECURITY_MESSAGE_GENERAL = "ERROR: This installation is not allowed in this security_level. Please contact the administrator.\nReference: https://github.com/Comfy-Org/ComfyUI-Manager#security-policy"
 SECURITY_MESSAGE_NORMAL_MINUS_MODEL = "ERROR: Downloading models that are not in '.safetensors' format is only allowed for models registered in the 'default' channel at this security level. If you want to download this model, set the security level to 'normal-' or lower."
 
 routes = PromptServer.instance.routes
@@ -108,7 +108,7 @@ def is_allowed_security_level(level):
 
 async def get_risky_level(files, pip_packages):
     json_data1 = await core.get_data_by_mode('local', 'custom-node-list.json')
-    json_data2 = await core.get_data_by_mode('cache', 'custom-node-list.json', channel_url='https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main')
+    json_data2 = await core.get_data_by_mode('cache', 'custom-node-list.json', channel_url='https://raw.githubusercontent.com/Comfy-Org/ComfyUI-Manager/main')
 
     all_urls = set()
     for x in json_data1['custom_nodes'] + json_data2['custom_nodes']:
@@ -1049,6 +1049,9 @@ async def fetch_customnode_list(request):
 
     if 'https://github.com/ltdrdata/ComfyUI-Manager' in node_packs:
         del node_packs['https://github.com/ltdrdata/ComfyUI-Manager']
+        
+    if 'https://github.com/Comfy-Org/ComfyUI-Manager' in node_packs:
+        del node_packs['https://github.com/Comfy-Org/ComfyUI-Manager']
 
     if channel != 'local':
         found = 'custom'
@@ -1918,7 +1921,7 @@ async def default_cache_update():
             logging.error(f"[ComfyUI-Manager] Failed to perform initial fetching '{filename}': {e}")
             traceback.print_exc()
 
-    if core.get_config()['network_mode'] != 'offline' and not manager_util.is_manager_pip_package():
+    if core.get_config()['network_mode'] != 'offline':
         a = get_cache("custom-node-list.json")
         b = get_cache("extension-node-map.json")
         c = get_cache("model-list.json")
