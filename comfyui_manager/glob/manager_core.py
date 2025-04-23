@@ -1678,7 +1678,7 @@ def read_config():
             'model_download_by_agent': False,
             'downgrade_blacklist': '',
             'always_lazy_install': False,
-            'network_mode': NetworkMode.OFFLINE.value,
+            'network_mode': NetworkMode.PUBLIC.value,
             'security_level': SecurityLevel.NORMAL.value,
             'db_mode': DBMode.CACHE.value,
         }
