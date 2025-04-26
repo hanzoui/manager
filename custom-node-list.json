@@ -706,14 +706,14 @@
         },
         {
             "author": "pythongosssss",
-            "title": "pythongosssss/ComfyUI-Custom-Scripts",
-            "id": "pygos-script",
+            "title": "ComfyUI-Custom-Scripts",
+            "id": "comfyui-custom-scripts",
             "reference": "https://github.com/pythongosssss/ComfyUI-Custom-Scripts",
             "files": [
                 "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
             ],
             "install_type": "git-clone",
-            "description": "This extension provides: Auto Arrange Graph, Workflow SVG, Favicon Status, Image Feed, Latent Upscale By, Lock Nodes & Groups, Lora Subfolders, Preset Text, Show Text, Touch Support, Link Render Mode, Locking, Node Finder, Quick Nodes, Show Image On Menu, Show Text, Workflow Managements, Custom Widget Default Values"
+            "description": "Enhancements & experiments for ComfyUI, mostly focusing on UI features"
         },
         {
             "author": "strimmlarn",
@@ -17149,7 +17149,7 @@
                 "https://github.com/yvann-ba/ComfyUI_Yvann-Nodes"
             ],
             "install_type": "git-clone",
-            "description": "Audio reactivity nodes for AI animations 🔊 Analyze audio, extract drums and vocals. Generate reactive masks and weights. Create audio-driven visuals. Produce weight graphs and audio masks. Compatible with IPAdapter, ControlNets and more. Features audio scheduling and waveform analysis. Tutorials to use this pack: [a/Yvann Youtube](https://www.youtube.com/@yvann.mp4)"
+            "description": "Audio Reactive nodes for AI animations 🔊 Analyze audio, extract drums, bass, vocals. Compatible with IPAdapter, ControlNets, AnimateDiff... Generate reactive masks and weights. Create audio-driven visuals. Produce weight graphs and audio masks. Ideal for music videos and reactive animations. Features audio scheduling and waveform analysis"
         },
         {
             "author": "Playbook",
@@ -20796,6 +20796,16 @@
             ],
             "install_type": "git-clone",
             "description": "A simple-as-possible custom node for ComfyUI to load LoRA models from a public URL."
+        },
+        {
+            "author": "a-und-b",
+            "title": "IC-Light V2 (fal.ai)",
+            "reference": "https://github.com/a-und-b/ComfyUI_IC-Light-v2_fal",
+            "files": [
+                "https://github.com/a-und-b/ComfyUI_IC-Light-v2_fal"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node using the fal.ai API for the IC-Light V2 model"
         },
         {
             "author": "r3dial",
