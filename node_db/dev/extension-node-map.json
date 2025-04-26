@@ -774,6 +774,14 @@
             "title_aux": "ComfyUI-BDXNodes [WIP]"
         }
     ],
+    "https://github.com/BobRandomNumber/ComfyUI-DiaTest": [
+        [
+            "DiaGenerate"
+        ],
+        {
+            "title_aux": "ComfyUI DiaTest TTS Node [WIP]"
+        }
+    ],
     "https://github.com/Brandelan/ComfyUI_bd_customNodes": [
         [
             "BD Random Range",
@@ -2192,10 +2200,14 @@
         [
             "InputAnalyzer",
             "LoadBase64Audio",
-            "PMSSendAudio"
+            "LoadImageBase64",
+            "LoadMaskBase64",
+            "PMSLoadText",
+            "PMSSendAudio",
+            "PMSSendImage"
         ],
         {
-            "title_aux": "PMSnodes"
+            "title_aux": "PMSnodes [WIP]"
         }
     ],
     "https://github.com/Sophylax/ComfyUI-ReferenceMerge": [
@@ -6685,6 +6697,16 @@
         ],
         {
             "title_aux": "MLXnodes [WIP]"
+        }
+    ],
+    "https://github.com/tighug/comfyui-rating-checker": [
+        [
+            "RatingCheckerGantMan",
+            "RatingCheckerMarqo",
+            "RatingCheckerNudeNet"
+        ],
+        {
+            "title_aux": "ComfyUI Rating Checker"
         }
     ],
     "https://github.com/tjorbogarden/my-useful-comfyui-custom-nodes": [

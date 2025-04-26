@@ -12476,7 +12476,11 @@
     ],
     "https://github.com/a-und-b/ComfyUI_MaskAreaCondition": [
         [
-            "MaskAreaCondition"
+            "GateImageForConditional",
+            "GateMaskForConditional",
+            "MaskAreaCondition",
+            "MaskAreaConditionGate",
+            "SelectData"
         ],
         {
             "title_aux": "ComfyUI Mask Area Condition"
@@ -16273,6 +16277,14 @@
         ],
         {
             "title_aux": "comfyui-EncryptSave"
+        }
+    ],
+    "https://github.com/chou18194766xx/comfyui_EncryptPreview": [
+        [
+            "EncryptPreviewImage"
+        ],
+        {
+            "title_aux": "comfyui_EncryptPreview"
         }
     ],
     "https://github.com/chri002/ComfyUI_depthMapOperation": [
