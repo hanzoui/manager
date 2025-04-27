@@ -87,9 +87,6 @@ manager_pip_blacklist_path = os.path.join(manager_files_path, "pip_blacklist.lis
 restore_snapshot_path = os.path.join(manager_files_path, "startup-scripts", "restore-snapshot.json")
 manager_config_path = os.path.join(manager_files_path, 'config.ini')
 
-cm_cli_path = os.path.join(comfyui_manager_path, "cm-cli.py")
-
-
 default_conf = {}
 
 def read_config():
@@ -563,7 +560,10 @@ if os.path.exists(restore_snapshot_path):
         if 'COMFYUI_FOLDERS_BASE_PATH' not in new_env:
             new_env["COMFYUI_FOLDERS_BASE_PATH"] = comfy_path
 
-        cmd_str = [sys.executable, cm_cli_path, 'restore-snapshot', restore_snapshot_path]
+        if 'COMFYUI_PATH' not in new_env:
+            new_env['COMFYUI_PATH'] = os.path.dirname(folder_paths.__file__)
+
+        cmd_str = [sys.executable, '-m', 'comfyui_manager.cm_cli', 'restore-snapshot', restore_snapshot_path]
         exit_code = process_wrap(cmd_str, custom_nodes_base_path, handler=msg_capture, env=new_env)
 
         if exit_code != 0:

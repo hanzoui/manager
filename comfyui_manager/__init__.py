@@ -1,6 +1,5 @@
 import os
 import logging
-from comfy.cli_args import args
 
 def prestartup():
     from . import prestartup_script  # noqa: F401
@@ -8,6 +7,8 @@ def prestartup():
 
 
 def start():
+    from comfy.cli_args import args
+
     logging.info('[START] ComfyUI-Manager')
     from .common import cm_global     # noqa: F401
 
@@ -32,6 +33,7 @@ def should_be_disabled(fullpath:str) -> bool:
     1. Disables the legacy ComfyUI-Manager.
     2. The blocklist can be expanded later based on policies.
     """
+    from comfy.cli_args import args
 
     if not args.disable_manager:
         # In cases where installation is done via a zip archive, the directory name may not be comfyui-manager, and it may not contain a git repository.
