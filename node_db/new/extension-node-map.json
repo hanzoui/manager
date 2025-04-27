@@ -1507,10 +1507,15 @@
     ],
     "https://github.com/Alexankharin/camera-comfyUI": [
         [
+            "CameraMotion",
             "DepthAwareInpainter",
+            "DepthRenormalizer",
             "DepthToPointCloud",
+            "LoadPointCloud",
+            "PointCloudUnion",
             "ProjectPointCloud",
             "ReprojectImage",
+            "SavePointCloud",
             "TransformPointCloud",
             "TransformToMatrix",
             "TransformToMatrixManual"
