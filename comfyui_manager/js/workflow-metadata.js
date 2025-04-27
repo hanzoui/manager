@@ -71,7 +71,7 @@ class WorkflowMetadataExtension {
         if (cnr_id) nodeProperties.cnr_id = cnr_id;
         else nodeProperties.aux_id = aux_id;
         if (ver) nodeProperties.ver = ver.trim();
-      } else if (["nodes", "comfy_extras"].includes(moduleType)) {
+      } else if (["nodes", "comfy_extras", "comfy_api_nodes"].includes(moduleType)) {
         nodeProperties.cnr_id = "comfy-core";
         nodeProperties.ver = this.comfyCoreVersion;
       }
