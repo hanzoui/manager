@@ -1213,7 +1213,9 @@
     ],
     "https://github.com/GACLove/ComfyUI-Lightx2vWrapper": [
         [
+            "Lightx2vTeaCache",
             "Lightx2vWanVideoClipVisionEncoderLoader",
+            "Lightx2vWanVideoEmptyEmbeds",
             "Lightx2vWanVideoImageEncoder",
             "Lightx2vWanVideoModelLoader",
             "Lightx2vWanVideoSampler",
@@ -2247,6 +2249,20 @@
             "title_aux": "ComfyUI-Hi3DGen"
         }
     ],
+    "https://github.com/StaffsGull/comfyui_scene_builder": [
+        [
+            "CharacterBuilderNode",
+            "ClothingItemNode",
+            "ClothingMergerNode",
+            "EnvironmentBuilderNode",
+            "MergeCharactersNode",
+            "PhotoStyleBuilderNode",
+            "SceneCombinerNode"
+        ],
+        {
+            "title_aux": "comfyui_scene_builder"
+        }
+    ],
     "https://github.com/StartHua/Comfyui_CSDMT_CXH": [
         [
             "CSD"
@@ -2310,6 +2326,7 @@
         [
             "Example",
             "FluxImageUpscaler",
+            "FluxLoadControlNetPreprocessor",
             "FluxLoader",
             "FluxSamplerParameters",
             "FluxTextPrompt"
@@ -3919,6 +3936,26 @@
         ],
         {
             "title_aux": "ComfyUI-LLM-Utils [WIP]"
+        }
+    ],
+    "https://github.com/ftechmax/ComfyUI-FTM-Pack": [
+        [
+            "CountTokens"
+        ],
+        {
+            "title_aux": "ComfyUI-FTM-Pack"
+        }
+    ],
+    "https://github.com/gagaprince/ComfyUI_gaga_utils": [
+        [
+            "GagaBatchStringReplace",
+            "GagaGetFileList",
+            "GagaGetStringListSize",
+            "GagaSplitStringToList",
+            "GagaTest"
+        ],
+        {
+            "title_aux": "ComfyUI_gaga_utils"
         }
     ],
     "https://github.com/galoreware/ComfyUI-GaloreNodes": [

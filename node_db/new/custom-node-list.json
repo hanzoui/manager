@@ -11,6 +11,76 @@
         
         
         {
+            "author": "hua(Kungfu)",
+            "title": "ComfyUI_to_webui",
+            "reference": "https://github.com/kungful/ComfyUI_to_webui",
+            "files": [
+                "https://github.com/kungful/ComfyUI_to_webui"
+            ],
+            "install_type": "git-clone",
+            "description": "Encapsulate the comfyui workflow as a gradio webui"
+        },
+        {
+            "author": "quank123wip",
+            "title": "ComfyUI-Step1X-Edit",
+            "reference": "https://github.com/quank123wip/ComfyUI-Step1X-Edit",
+            "files": [
+                "https://github.com/quank123wip/ComfyUI-Step1X-Edit"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Custom Node for [a/Step1X-Edit](https://github.com/stepfun-ai/Step1X-Edit/). Noted this node may consume large VRAMs!"
+        },
+        {
+            "author": "Jacky-MYQ",
+            "title": "RGB to CMYK for ComfyUI (Save as tif)",
+            "reference": "https://github.com/Jacky-MYQ/comfyui-rgb2cmyk",
+            "files": [
+                "https://github.com/Jacky-MYQ/comfyui-rgb2cmyk"
+            ],
+            "install_type": "git-clone",
+            "description": "RGB to CMYK (save as tif)"
+        },
+        {
+            "author": "lceric",
+            "title": "comfyui-gpt-image",
+            "reference": "https://github.com/lceric/comfyui-gpt-image",
+            "files": [
+                "https://github.com/lceric/comfyui-gpt-image"
+            ],
+            "install_type": "git-clone",
+            "description": "Ports the official ComfyUI GPT-API node, adding support for customizable api_base, auth_token, and model settings."
+        },
+        {
+            "author": "Alexankharin",
+            "title": "camera-comfyUI",
+            "reference": "https://github.com/Alexankharin/camera-comfyUI",
+            "files": [
+                "https://github.com/Alexankharin/camera-comfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for the different projection models and camera movements"
+        },
+        {
+            "author": "Xkipper",
+            "title": "ComfyUI_SkipperNodes",
+            "reference": "https://github.com/Xkipper/ComfyUI_SkipperNodes",
+            "files": [
+                "https://github.com/Xkipper/ComfyUI_SkipperNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Skipper Custom Nodes"
+        },
+        {
+            "author": "FewBox",
+            "title": "fewbox-outfit-comfyui",
+            "reference": "https://github.com/FewBox/fewbox-outfit-comfyui",
+            "files": [
+                "https://github.com/FewBox/fewbox-outfit-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Comfy Custom Node for Try-on."
+        },
+        {
             "author": "chou18194766xx",
             "title": "comfyui_EncryptPreview",
             "reference": "https://github.com/chou18194766xx/comfyui_EncryptPreview",
@@ -671,26 +741,6 @@
             ],
             "install_type": "git-clone",
             "description": "A node for ComfyUI that performs GPEN face restoration on the input image(s). Significantly faster than other implementations of GPEN."
-        },
-        {
-            "author": "SparknightLLC",
-            "title": "ComfyUI-ImageAutotone",
-            "reference": "https://github.com/SparknightLLC/ComfyUI-ImageAutotone",
-            "files": [
-                "https://github.com/SparknightLLC/ComfyUI-ImageAutotone"
-            ],
-            "install_type": "git-clone",
-            "description": "A node for ComfyUI that takes an input image and clips the color channels independently to increase contrast and alter color cast. This is a reinterpretation of PhotoShop's 'Auto Tone' algorithm."
-        },
-        {
-            "author": "hnmr293",
-            "title": "ComfyUI-latent-ops",
-            "reference": "https://github.com/hnmr293/ComfyUI-latent-ops",
-            "files": [
-                "https://github.com/hnmr293/ComfyUI-latent-ops"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of nodes for manipulating LATENT in ComfyUI."
         }
     ]
 }

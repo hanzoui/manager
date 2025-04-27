@@ -13420,14 +13420,14 @@
         },
         {
             "author": "MrSamSeen",
-            "title": "ComfyUI_SSStereoscope",
-            "id": "ssstereoscope",
+            "title": "SideBySide_Stereoscope",
+            "id": "comfyui_ssstereoscope_bysamseen",
             "reference": "https://github.com/MrSamSeen/ComfyUI_SSStereoscope",
             "files": [
                 "https://github.com/MrSamSeen/ComfyUI_SSStereoscope"
             ],
             "install_type": "git-clone",
-            "description": "Side by Side 3D Stereoscope generation node for ComfyUI by SamSeen."
+            "description": "Create immersive 3D stereoscopic images and videos! Transform your ComfyUI generations into stunning side-by-side 3D visuals for videos and image sequences. Powered by Depth-Anything-V2, no external depth maps needed. Perfect for VR, 3D displays, and cross-eyed viewing - no special glasses required!"
         },
         {
             "author": "jroc22",
@@ -20885,7 +20885,7 @@
                 "https://github.com/a-und-b/ComfyUI_MaskAreaCondition"
             ],
             "install_type": "git-clone",
-            "description": "A simple custom node for ComfyUI that analyzes the size (area) of a mask relative to the total image area. Its primary purpose is to enable conditional workflows, allowing you to run specific processes (like face detailing) only when needed based on the size of the detected object (e.g., a face mask)."
+            "description": "Calculates the percentage of a mask area compared to the total image size and outputs a boolean based on a defined threshold."
         },
         {
             "author": "r3dial",
@@ -24585,6 +24585,36 @@
             "description": "NODES: Item List, Template Input, Template Processor, Scene Queue Node, Trigger Passthrough Node"
         },
         {
+            "author": "quank123wip",
+            "title": "ComfyUI-Step1X-Edit",
+            "reference": "https://github.com/quank123wip/ComfyUI-Step1X-Edit",
+            "files": [
+                "https://github.com/quank123wip/ComfyUI-Step1X-Edit"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Custom Node for [a/Step1X-Edit](https://github.com/stepfun-ai/Step1X-Edit/). Noted this node may consume large VRAMs!"
+        },
+        {
+            "author": "Xkipper",
+            "title": "ComfyUI_SkipperNodes",
+            "reference": "https://github.com/Xkipper/ComfyUI_SkipperNodes",
+            "files": [
+                "https://github.com/Xkipper/ComfyUI_SkipperNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Skipper Custom Nodes"
+        },
+        {
+            "author": "FewBox",
+            "title": "fewbox-outfit-comfyui",
+            "reference": "https://github.com/FewBox/fewbox-outfit-comfyui",
+            "files": [
+                "https://github.com/FewBox/fewbox-outfit-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Comfy Custom Node for Try-on."
+        },
+        {
             "author": "hua(Kungfu)",
             "title": "ComfyUI_to_webui",
             "reference": "https://github.com/kungful/ComfyUI_to_webui",
@@ -24593,6 +24623,36 @@
             ],
             "install_type": "git-clone",
             "description": "Encapsulate the comfyui workflow as a gradio webui"
+        },
+        {
+            "author": "Jacky-MYQ",
+            "title": "RGB to CMYK for ComfyUI (Save as tif)",
+            "reference": "https://github.com/Jacky-MYQ/comfyui-rgb2cmyk",
+            "files": [
+                "https://github.com/Jacky-MYQ/comfyui-rgb2cmyk"
+            ],
+            "install_type": "git-clone",
+            "description": "RGB to CMYK (save as tif)"
+        },
+        {
+            "author": "lceric",
+            "title": "comfyui-gpt-image",
+            "reference": "https://github.com/lceric/comfyui-gpt-image",
+            "files": [
+                "https://github.com/lceric/comfyui-gpt-image"
+            ],
+            "install_type": "git-clone",
+            "description": "Ports the official ComfyUI GPT-API node, adding support for customizable api_base, auth_token, and model settings."
+        },
+        {
+            "author": "Alexankharin",
+            "title": "camera-comfyUI",
+            "reference": "https://github.com/Alexankharin/camera-comfyUI",
+            "files": [
+                "https://github.com/Alexankharin/camera-comfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for the different projection models and camera movements"
         },
 
 
