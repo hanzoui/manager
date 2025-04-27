@@ -15,7 +15,7 @@ import git
 import importlib
 
 
-from .common import manager_util
+from ..common import manager_util
 
 # read env vars
 # COMFYUI_FOLDERS_BASE_PATH is not required in cm-cli.py
@@ -35,11 +35,11 @@ if not os.path.exists(os.path.join(comfy_path, 'folder_paths.py')):
 
 
 import utils.extra_config
-from .common import cm_global
-from .glob import manager_core as core
-from .common import context
-from .glob.manager_core import unified_manager
-from .common import cnr_utils
+from ..common import cm_global
+from ..legacy import manager_core as core
+from ..common import context
+from ..legacy.manager_core import unified_manager
+from ..common import cnr_utils
 
 comfyui_manager_path = os.path.abspath(os.path.dirname(__file__))
 
@@ -108,7 +108,7 @@ class Ctx:
         self.no_deps = False
         self.mode = 'cache'
         self.user_directory = None
-        self.custom_nodes_paths = [os.path.join(core.comfy_base_path, 'custom_nodes')]
+        self.custom_nodes_paths = [os.path.join(context.comfy_base_path, 'custom_nodes')]
         self.manager_files_directory = os.path.dirname(__file__)
         
         if Ctx.folder_paths is None:
@@ -444,8 +444,11 @@ def show_list(kind, simple=False):
     flag = kind in ['all', 'cnr', 'installed', 'enabled']
     for k, v in unified_manager.active_nodes.items():
         if flag:
-            cnr = unified_manager.cnr_map[k]
-            processed[k] = "[    ENABLED    ] ", cnr['name'], k, cnr['publisher']['name'], v[0]
+            cnr = unified_manager.cnr_map.get(k)
+            if cnr:
+                processed[k] = "[    ENABLED    ] ", cnr['name'], k, cnr['publisher']['name'], v[0]
+            else:
+                processed[k] = None
         else:
             processed[k] = None
 
@@ -465,8 +468,11 @@ def show_list(kind, simple=False):
             continue
 
         if flag:
-            cnr = unified_manager.cnr_map[k]
-            processed[k] = "[    DISABLED   ] ", cnr['name'], k, cnr['publisher']['name'], ", ".join(list(v.keys()))
+            cnr = unified_manager.cnr_map.get(k)  # NOTE: can this be None if removed from CNR after installed
+            if cnr:
+                processed[k] = "[    DISABLED   ] ", cnr['name'], k, cnr['publisher']['name'], ", ".join(list(v.keys()))
+            else:
+                processed[k] = None
         else:
             processed[k] = None
 
@@ -475,8 +481,11 @@ def show_list(kind, simple=False):
             continue
 
         if flag:
-            cnr = unified_manager.cnr_map[k]
-            processed[k] = "[    DISABLED   ] ", cnr['name'], k, cnr['publisher']['name'], 'nightly'
+            cnr = unified_manager.cnr_map.get(k)
+            if cnr:
+                processed[k] = "[    DISABLED   ] ", cnr['name'], k, cnr['publisher']['name'], 'nightly'
+            else:
+                processed[k] = None
         else:
             processed[k] = None
 
@@ -496,9 +505,12 @@ def show_list(kind, simple=False):
             continue
 
         if flag:
-            cnr = unified_manager.cnr_map[k]
-            ver_spec = v['latest_version']['version'] if 'latest_version' in v else '0.0.0'
-            processed[k] = "[ NOT INSTALLED ] ", cnr['name'], k, cnr['publisher']['name'], ver_spec
+            cnr = unified_manager.cnr_map.get(k)
+            if cnr:
+                ver_spec = v['latest_version']['version'] if 'latest_version' in v else '0.0.0'
+                processed[k] = "[ NOT INSTALLED ] ", cnr['name'], k, cnr['publisher']['name'], ver_spec
+            else:
+                processed[k] = None
         else:
             processed[k] = None
 
@@ -1284,6 +1296,10 @@ def export_custom_node_ids(
 
                 if 'id' in x:
                     print(f"{x['id']}@unknown", file=output_file)
+
+
+def main():
+    app()
 
 
 if __name__ == '__main__':
