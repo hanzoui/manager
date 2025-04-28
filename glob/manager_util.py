@@ -307,6 +307,7 @@ def parse_requirement_line(line):
 
 
 torch_torchvision_torchaudio_version_map = {
+    '2.7.0': ('0.22.0', '2.7.0'),
     '2.6.0': ('0.21.0', '2.6.0'),
     '2.5.1': ('0.20.0', '2.5.0'),
     '2.5.0': ('0.20.0', '2.5.0'),
