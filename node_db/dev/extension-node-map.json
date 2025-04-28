@@ -164,6 +164,7 @@
             "FaceAlignPro",
             "FaceAlignProRestore",
             "SANMIN Adapt Coordinates",
+            "SanmiKSampler",
             "sanmi AddTextToImage",
             "sanmi Adjust Transparency By Mask",
             "sanmi AdjustHexBrightness",
@@ -236,7 +237,10 @@
     "https://github.com/7BEII/Comfyui_PDuse": [
         [
             "LoRALoader_path",
+            "Load_Images",
             "PDFile_FileName_refixer",
+            "PDIMAGE_LongerSize",
+            "PDIMAGE_Rename",
             "PDJSON_BatchJsonIncremental",
             "PDJSON_Group",
             "PD_GetImageSize",
@@ -1365,6 +1369,14 @@
             "title_aux": "comfy-consistency-vae"
         }
     ],
+    "https://github.com/Jpzz/ComfyUI-VirtualInteraction": [
+        [
+            "ExcelReaderNode"
+        ],
+        {
+            "title_aux": "ComfyUI-VirtualInteraction [UNSAFE]"
+        }
+    ],
     "https://github.com/Junst/ComfyUI-PNG2SVG2PNG": [
         [
             "PNG2SVG2PNG"
@@ -2325,8 +2337,11 @@
     "https://github.com/StoryWalker/comfyui_flux_collection_advanced": [
         [
             "Example",
+            "FluxControlNetApply",
+            "FluxControlNetApplyPreview",
+            "FluxControlNetLoader",
+            "FluxImagePreview",
             "FluxImageUpscaler",
-            "FluxLoadControlNetPreprocessor",
             "FluxLoader",
             "FluxSamplerParameters",
             "FluxTextPrompt"
@@ -3951,6 +3966,7 @@
             "GagaBatchStringReplace",
             "GagaGetFileList",
             "GagaGetStringListSize",
+            "GagaSaveImageWithInfo",
             "GagaSplitStringToList",
             "GagaTest"
         ],
@@ -6468,6 +6484,15 @@
         ],
         {
             "title_aux": "ComfyUI-SilentRain"
+        }
+    ],
+    "https://github.com/silveroxides/ComfyUI_ReduxEmbedToolkit": [
+        [
+            "LoadReduxEmb",
+            "SaveReduxEmb"
+        ],
+        {
+            "title_aux": "ComfyUI_ReduxEmbedToolkit"
         }
     ],
     "https://github.com/sizzlebop/comfyui-llm-prompt-enhancer": [

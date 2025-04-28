@@ -16513,7 +16513,7 @@
                 "https://github.com/NyaamZ/efficiency-nodes-ED"
             ],
             "install_type": "git-clone",
-            "description": "Expansion of Efficiency Nodes for ComfyUI. Significant UX improvements.[w/NOTE: This node requires [a/Efficiency Nodes for ComfyUI Version 2.0+](https://github.com/jags111/efficiency-nodes-comfyui) and [a/ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts). Also, this node makes changes to user.css.]"
+            "description": "Expansion of Efficiency Nodes for ComfyUI. Significant UX improvements.[w/NOTE: This node requires [a/efficiency-nodes-comfyui](https://github.com/jags111/efficiency-nodes-comfyui) and [a/ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts); it also requires start.bat to run.]"
         },
         {
             "author": "NyaamZ",
@@ -24553,6 +24553,16 @@
             ],
             "install_type": "git-clone",
             "description": "A node to pause execution of the workflow and select which input images should proceed to the output."
+        },
+        {
+            "author": "marklieberman",
+            "title": "ComfyUI-Liebs-Toast",
+            "reference": "https://github.com/marklieberman/ComfyUI-Liebs-Toast",
+            "files": [
+                "https://github.com/marklieberman/ComfyUI-Liebs-Toast"
+            ],
+            "install_type": "git-clone",
+            "description": "A node to display a toast notification. Use it to send a toast when your prompt is complete. Also pairs well with [a/ComfyUI-Liebs_Picker](https://github.com/marklieberman/ComfyUI-Liebs-Picker) and [a/cg-image-filter](https://github.com/chrisgoringe/cg-image-filter) to be notified when the picker is waiting."
         },
         {
             "author": "SXQBW",

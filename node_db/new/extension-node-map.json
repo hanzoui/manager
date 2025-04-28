@@ -3159,6 +3159,7 @@
             ", and the value is the function name in the right of the",
             "Black and white",
             "Image Judgment",
+            "Image Resize MM",
             "ImageMinusMask",
             "Light or Dark",
             "Load Random Images",
@@ -4977,6 +4978,7 @@
             "Prompt Combiner",
             "Prompt Styler",
             "Sampler Config",
+            "Save Image",
             "String Switch",
             "Text Box",
             "VAE Switch"
@@ -6383,8 +6385,7 @@
     "https://github.com/LAOGOU-666/Comfyui-LG_Relight": [
         [
             "LG_Relight",
-            "LG_Relight_Basic",
-            "LG_Relight_V2"
+            "LG_Relight_Basic"
         ],
         {
             "title_aux": "Comfyui-LG_Relight"
@@ -6414,8 +6415,11 @@
     "https://github.com/LaVie024/comfyui-lopi999-nodes": [
         [
             "AdvancedTextSwitch",
+            "Lopi999InputParameters",
+            "ModelParameters",
             "RandomNormalDistribution",
             "RandomSDXLLatentSize",
+            "SDXLEmptyLatentSizePicker_v2",
             "ZetaSchedulerNode",
             "ZipfSchedulerNode"
         ],
@@ -6941,6 +6945,7 @@
             "\ud83c\udff7\ufe0f LoRA Loader Prompt Tags",
             "\ud83d\udcbe Save Text File With Path",
             "\ud83d\udcc1 Get File Path",
+            "\ud83d\udcd0 Resolution Image Size Selector",
             "\ud83d\udd20 Tiktoken Tokenizer Info",
             "\ud83d\uddbc\ufe0f Download Image from URL",
             "\ud83e\uddf9 String Cleaning"
@@ -7145,9 +7150,11 @@
             "SaveImagEX",
             "SelectionParameter",
             "ShuffleTextLines",
+            "SimpleRandomSeed",
             "SimpleTextReplacer",
             "SingleTextInput",
             "SplitAndExtractText",
+            "SplitIntegers",
             "SplitStringByDelimiter",
             "TextConcatenation",
             "TextConcatenator",
@@ -14232,6 +14239,7 @@
             "AudioConcatenate",
             "AudioDenoising",
             "AudioRecorderAT",
+            "LoadAudioMW",
             "MinimalPauseNode",
             "MultiLinePromptAT",
             "RemoveSilence",
@@ -14284,6 +14292,7 @@
     "https://github.com/billwuhao/ComfyUI_MegaTTS3": [
         [
             "MegaTTS3Run",
+            "MegaTTS3SpeakersPreview",
             "MultiLinePromptMG"
         ],
         {
@@ -14323,6 +14332,7 @@
             "DetectCropFace",
             "IDPhotos",
             "ImageWatermark",
+            "LoadImageMW",
             "RMBG"
         ],
         {
@@ -19096,6 +19106,7 @@
             "FL_Dalle3",
             "FL_DirectoryCrawl",
             "FL_Dither",
+            "FL_Fal_Pixverse",
             "FL_FractalKSampler",
             "FL_GPT_Image1",
             "FL_GPT_Text",
@@ -19115,6 +19126,7 @@
             "FL_HalftonePattern",
             "FL_HexagonalPattern",
             "FL_HunyuanDelight",
+            "FL_ImageAddToBatch",
             "FL_ImageAdjuster",
             "FL_ImageBatchToGrid",
             "FL_ImageBatchToImageList",
@@ -25692,6 +25704,14 @@
         ],
         {
             "title_aux": "ComfyUI-Liebs-Picker"
+        }
+    ],
+    "https://github.com/marklieberman/ComfyUI-Liebs-Toast": [
+        [
+            "LiebsToast"
+        ],
+        {
+            "title_aux": "ComfyUI-Liebs-Toast"
         }
     ],
     "https://github.com/markuryy/ComfyUI-Flux-Prompt-Saver": [
