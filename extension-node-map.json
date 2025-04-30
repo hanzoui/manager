@@ -1209,7 +1209,8 @@
     ],
     "https://github.com/ALatentPlace/YANC_LMStudio": [
         [
-            "> LMStudio"
+            "> LMStudio",
+            "> Select LMS Model"
         ],
         {
             "title_aux": "YANC_LMStudio"
@@ -1442,10 +1443,12 @@
             "BillBum_Modified_Dalle_API_Node",
             "BillBum_Modified_DropoutToken_Node",
             "BillBum_Modified_Flux_API_Node",
+            "BillBum_Modified_GPTImage1_API_Node",
             "BillBum_Modified_Ideogram_API_Node",
             "BillBum_Modified_ImageSplit_Node",
             "BillBum_Modified_Image_API_Call_Node",
             "BillBum_Modified_LLM_API_Node",
+            "BillBum_Modified_LLM_ForceStream_Mode",
             "BillBum_Modified_Recraft_API_Node",
             "BillBum_Modified_RegText_Node",
             "BillBum_Modified_SD3_API_Node",
@@ -2456,6 +2459,7 @@
         [
             "BETACrop",
             "BETAStitch",
+            "LoadTextFromIndex",
             "SaveAudioAdvanced_BETA"
         ],
         {
@@ -2466,6 +2470,7 @@
         [
             "BETACrop",
             "BETAStitch",
+            "LoadTextFromIndex",
             "SaveAudioAdvanced_BETA"
         ],
         {
@@ -3090,6 +3095,7 @@
     "https://github.com/Creepybits/ComfyUI-Creepy_nodes": [
         [
             "ArgosTranslateNode",
+            "AudioKeywordExtractor",
             "CLIPSwitch",
             "CollectAndDistributeText",
             "CustomNodeManager",
@@ -3105,12 +3111,14 @@
             "EvaluaterNode",
             "FilterImages",
             "GeminiAPI",
+            "GeminiAudioAnalyzer",
             "GeminiTokenCounter",
             "KeywordExtractor",
             "LoadBatchImagesDir",
             "Modelswitch",
             "PeopleEvaluationNode",
             "PromptGenerator",
+            "RandomAudioSegment",
             "SanitizeFilename",
             "SummaryWriter",
             "SystemPromp",
@@ -4967,19 +4975,22 @@
             "Clip Switch",
             "Conditioning Switch",
             "Float Selector",
-            "Float to Int",
+            "Float to Integer",
             "Float to String",
             "Image Switch",
-            "Int Selector",
-            "Int to Float",
-            "Int to String",
+            "Integer Selector",
+            "Integer to Float",
+            "Integer to String",
             "Latent Switch",
+            "Math Operation",
             "Model Switch",
             "Prompt Combiner",
             "Prompt Styler",
             "Sampler Config",
             "Save Image",
             "String Switch",
+            "String to Float",
+            "String to Integer",
             "Text Box",
             "VAE Switch"
         ],
@@ -7115,6 +7126,7 @@
             "ConditionalTextOutput",
             "CountOccurrences",
             "CustomCrop",
+            "DecodePreview",
             "ExtractAndCombineLines",
             "ExtractBeforeAfter",
             "ExtractLinesByIndex",
@@ -7133,7 +7145,10 @@
             "FloatToInteger",
             "GenerateNumbers",
             "GenerateVideoPrompt",
+            "GenericImageLoader",
             "GetCurrentTime",
+            "GetFloatParam",
+            "GetIntParam",
             "GetRandomIntegerInRange",
             "ImageAdjuster",
             "LoadAndAdjustImage",
@@ -7154,7 +7169,6 @@
             "SimpleTextReplacer",
             "SingleTextInput",
             "SplitAndExtractText",
-            "SplitIntegers",
             "SplitStringByDelimiter",
             "TextConcatenation",
             "TextConcatenator",
@@ -7385,11 +7399,16 @@
     "https://github.com/MontagenAI/ComfyUI-Montagen": [
         [
             "MontagenAudioAdapter",
+            "MontagenAudioConvertResourceAdapter",
             "MontagenAudioListAdapter",
             "MontagenCreateTimeline",
+            "MontagenEdgeTTSNode",
+            "MontagenFishAudioCloneNode",
+            "MontagenFishAudioTTSNode",
             "MontagenImageAdapter",
             "MontagenImageListAdapter",
             "MontagenRenderTimeline",
+            "MontagenResourceConvertAudioAdapter",
             "MontagenSRTListParser",
             "MontagenStickerAdapter",
             "MontagenStickerListAdapter",
@@ -14243,6 +14262,7 @@
             "MinimalPauseNode",
             "MultiLinePromptAT",
             "RemoveSilence",
+            "SaveAudioMW",
             "StringEditorPersistentTempFileNode",
             "TrimAudio"
         ],
@@ -15964,7 +15984,8 @@
     "https://github.com/chenpipi0807/ComfyUI-Index-TTS": [
         [
             "AudioCleanupNode",
-            "IndexTTSNode"
+            "IndexTTSNode",
+            "TimbreAudioLoader"
         ],
         {
             "author": "ComfyUI-Index-TTS",
@@ -16815,11 +16836,14 @@
     ],
     "https://github.com/comfy-deploy/comfyui-llm-toolkit": [
         [
+            "ConfigGenerateImage",
             "Display_Text",
+            "GenerateImage",
             "LLMToolkitProviderSelector",
             "LLMToolkitTextGenerator",
             "LLMToolkitTextGeneratorStream",
-            "OpenAIProviderNode"
+            "OpenAIProviderNode",
+            "PromptManager"
         ],
         {
             "author": "ComfyDeploy",
@@ -16878,6 +16902,7 @@
             "ControlNetInpaintingAliMamaApply",
             "ControlNetLoader",
             "CosmosImageToVideoLatent",
+            "CreateVideo",
             "CropMask",
             "DiffControlNetLoader",
             "DifferentialDiffusion",
@@ -16905,6 +16930,7 @@
             "GITSScheduler",
             "GLIGENLoader",
             "GLIGENTextBoxApply",
+            "GetVideoComponents",
             "GrowMask",
             "Hunyuan3Dv2Conditioning",
             "Hunyuan3Dv2ConditioningMultiView",
@@ -16972,6 +16998,7 @@
             "LoadImageMask",
             "LoadImageOutput",
             "LoadLatent",
+            "LoadVideo",
             "LoraLoader",
             "LoraLoaderModelOnly",
             "LoraSave",
@@ -17058,6 +17085,7 @@
             "SaveImage",
             "SaveImageWebsocket",
             "SaveLatent",
+            "SaveVideo",
             "SaveWEBM",
             "SelfAttentionGuidance",
             "SetFirstSigma",
@@ -17661,7 +17689,6 @@
     ],
     "https://github.com/dadoirie/ComfyUI_Dados_Nodes": [
         [
-            "\"inactivePinterestImageNode\": inactivePinterestImageNode, TextConcatenatorNode",
             "DynamicTextLoaderNode",
             "PinterestFetch",
             "SmolVLMNode",
@@ -18603,6 +18630,7 @@
             "Load_Embeddings_From_Folder",
             "MaskFromRGB_KMeans",
             "MaskedRegionVideoExport",
+            "OrganicFillNode",
             "ParallaxZoom",
             "Random_Style_Mixture",
             "SDAnyConverter",
@@ -19193,6 +19221,7 @@
             "FL_Shadertoy",
             "FL_SimpleGPTVision",
             "FL_Switch",
+            "FL_Switch_Big",
             "FL_SystemCheck",
             "FL_TetrisGame",
             "FL_TextToPDF",
@@ -19259,6 +19288,7 @@
             "PortraitMaster",
             "PortraitMasterBaseCharacter",
             "PortraitMasterMakeup",
+            "PortraitMasterPromptStyler",
             "PortraitMasterSkinDetails",
             "PortraitMasterStylePose"
         ],
@@ -21923,7 +21953,8 @@
     "https://github.com/jax-explorer/ComfyUI-InstantCharacter": [
         [
             "InstantCharacterGenerate",
-            "InstantCharacterLoadModel"
+            "InstantCharacterLoadModel",
+            "InstantCharacterLoadModelFromLocal"
         ],
         {
             "title_aux": "ComfyUI-InstantCharacter"
@@ -22812,9 +22843,18 @@
     ],
     "https://github.com/kantsche/ComfyUI-MixMod": [
         [
+            "MixModBandFFTGuiderNode",
+            "MixModDepthGuiderNode",
+            "MixModDynamicMaskAlternativeGuiderNode",
+            "MixModDynamicMaskGuiderNode",
             "MixModFFTGuiderNode",
             "MixModGuiderComponentNode",
-            "MixModGuiderNode"
+            "MixModGuiderComponentPipelineNode",
+            "MixModGuiderNode",
+            "MixModOptionsMaskNode",
+            "MixModOptionsScaleNode",
+            "MixModOptionsSchedulerNode",
+            "MixModPipelineNode"
         ],
         {
             "author": "Kantsche",
@@ -26885,6 +26925,7 @@
     "https://github.com/niknah/ComfyUI-F5-TTS": [
         [
             "F5TTSAudio",
+            "F5TTSAudioAdvanced",
             "F5TTSAudioInputs"
         ],
         {
@@ -29495,7 +29536,9 @@
             "GetFloatFromImage",
             "GetIntFromImage",
             "GetNodesFromImage",
-            "GetStringFromImage"
+            "GetPromptFromImage",
+            "GetStringFromImage",
+            "GetWorkflowFromImage"
         ],
         {
             "author": "shinich39",
@@ -29740,7 +29783,10 @@
             "SmartPointSet",
             "SmartPointSetMerge",
             "SmartPreviewPalette",
-            "SmartSemiTransparenceRemove"
+            "SmartSaveAnimatedPNG",
+            "SmartSavePNG",
+            "SmartSemiTransparenceRemove",
+            "SmartVideoPreviewScaled"
         ],
         {
             "title_aux": "ComfyUI-SmartImageTools"
@@ -32016,8 +32062,10 @@
     "https://github.com/wjl0313/ComfyUI_KimNodes": [
         [
             "Add_ImageMetadata",
+            "BoundingBox_Cropper",
             "Crop_Paste",
             "Distribute_Icons",
+            "Edge_Element_Cropper",
             "ExtractDifferenceLora",
             "IconDistributeByGrid",
             "Icon_Position_Cropper",
@@ -32027,12 +32075,15 @@
             "KimHDR",
             "LoadImage_Metadata",
             "Manual_MetadataInput",
+            "Mask_White_Area_Ratio",
+            "Percentage_Cropper",
             "Prompt_Text",
             "Save_Image",
             "Seamless_Icon_Generator",
             "Split_Mask",
             "Text_Match",
             "Text_Processor",
+            "Transparent_Area_Cropper",
             "Whitening_Node",
             "YOLOWorld_Match",
             "YOLO_Crop",
@@ -32889,6 +32940,7 @@
             "easy whileLoopEnd",
             "easy whileLoopStart",
             "easy wildcards",
+            "easy wildcardsMatrix",
             "easy xyAny",
             "easy zero123Loader"
         ],
@@ -33082,11 +33134,12 @@
             "Y7Nodes_CLIP_TokenCounter",
             "Y7Nodes_CatchEditTextNodeDual",
             "Y7Nodes_Grid2Batch",
+            "Y7Nodes_ImageRow",
+            "Y7Nodes_ImageSizePresets",
             "Y7Nodes_PromptEnhancerFlux",
             "Y7Nodes_ShowAnything",
             "Y7Nodes_T5_TokenCounter",
-            "Y7Nodes_Text",
-            "Y7_ImageRow"
+            "Y7Nodes_Text"
         ],
         {
             "title_aux": "Y7Nodes for ComfyUI"

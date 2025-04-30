@@ -19404,17 +19404,6 @@
             "install_type": "git-clone"
         },
         {
-            "author": "magic-quill",
-            "title": "ComfyUI_MagicQuill",
-            "id": "MagicQuill",
-            "reference": "https://github.com/magic-quill/ComfyUI_MagicQuill",
-            "files": [
-                "https://github.com/magic-quill/ComfyUI_MagicQuill"
-            ],
-            "install_type": "git-clone",
-            "description": "Towards GPT-4 like large language and visual assistant."
-        },
-        {
             "author": "weilin9999",
             "title": "WeiLin-Comfyui-Tools",
             "id": "Comfyui-Tools",
@@ -23997,7 +23986,7 @@
                 "https://github.com/brantje/ComfyUI_MagicQuill"
             ],
             "install_type": "git-clone",
-            "description": "Fixed version of MagicQuill. Make sure you have atleast 25GB of free space."
+            "description": "Fixed version of the original [a/MagicQuill](https://github.com/magic-quill/ComfyUI_MagicQuill) node. Required nodes: ComfyUI-Brushnet and ComfyUI Controlnet AUX"
         },        
         {
             "author": "oshtz",
@@ -24675,18 +24664,17 @@
             "install_type": "git-clone",
             "description": "ComfyUI nodes for the different projection models and camera movements"
         },
-
-
-
-
-
-
-
-
-
-
-
-
+        {
+            "author": "somesomebody",
+            "title": "comfyui-lorainfo-sidebar",
+            "id": "somesomebody-lorainfo-sidebar",
+            "reference": "https://github.com/somesomebody/comfyui-lorainfo-sidebar",
+            "files": [
+                "https://github.com/somesomebody/comfyui-lorainfo-sidebar"
+            ],
+            "install_type": "git-clone",
+            "description": "Preview images of LoRA files and edit their associated JSON files."
+        },
 
 
 
@@ -25133,17 +25121,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "somesomebody",
-            "title": "comfyui-lorainfo-sidebar",
-            "id": "somesomebody-lorainfo-sidebar",
-            "reference": "https://github.com/somesomebody/comfyui-lorainfo-sidebar",
-            "files": [
-                "https://github.com/somesomebody/comfyui-lorainfo-sidebar"
-            ],
-            "install_type": "git-clone",
-            "description": "Preview images of LoRA files and edit their associated JSON files."
         }
     ]
 }
