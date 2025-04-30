@@ -633,17 +633,6 @@
             "title_aux": "ComfyUI_deepDeband [WIP]"
         }
     ],
-    "https://github.com/Apache0ne/ComfyUI-LantentCompose": [
-        [
-            "LatentCompose",
-            "LatentComposeMask",
-            "LatentComposeMuti",
-            "UnsamplerCustom"
-        ],
-        {
-            "title_aux": "ComfyUI-LantentCompose [WIP]"
-        }
-    ],
     "https://github.com/ArmandAlbert/Kwai_font_comfyui": [
         [
             "Kwaifont_Image_Cropper",
@@ -780,7 +769,8 @@
     ],
     "https://github.com/BobRandomNumber/ComfyUI-DiaTest": [
         [
-            "DiaGenerate"
+            "DiaGenerate",
+            "DiaLoader"
         ],
         {
             "title_aux": "ComfyUI DiaTest TTS Node [WIP]"
@@ -816,6 +806,17 @@
         ],
         {
             "title_aux": "ComfyUI-BS_FalAi-API-Video [WIP]"
+        }
+    ],
+    "https://github.com/CY-CHENYUE/ComfyUI-FramePack-HY": [
+        [
+            "CreateKeyframes_HY",
+            "FramePackBucketResize_HY",
+            "FramePackDiffusersSampler_HY",
+            "LoadFramePackDiffusersPipeline_HY"
+        ],
+        {
+            "title_aux": "ComfyUI-FramePack-HY"
         }
     ],
     "https://github.com/CeeVeeR/ComfyUi-Text-Tiler": [
@@ -1163,11 +1164,14 @@
     ],
     "https://github.com/FaberVS/MultiModel": [
         [
+            "ActiveModel",
             "DenoiseSelector",
-            "DualTextInput",
-            "ListSelectorNode",
-            "ModelParamsPipeNode",
-            "ParamsPipeUnpack"
+            "KSamplerPipe",
+            "ListSelector",
+            "ModelParamsPipe",
+            "MySwitchIndex",
+            "ParamsPipeUnpack",
+            "PromptBuilder"
         ],
         {
             "title_aux": "MultiModel"
@@ -1371,7 +1375,10 @@
     ],
     "https://github.com/Jpzz/ComfyUI-VirtualInteraction": [
         [
-            "ExcelReaderNode"
+            "JoinPromptNode",
+            "JsonParserNode",
+            "ShowTextNode",
+            "UnzipPromptNode"
         ],
         {
             "title_aux": "ComfyUI-VirtualInteraction [UNSAFE]"
@@ -1527,6 +1534,9 @@
     ],
     "https://github.com/LLMCoder2023/ComfyUI-LLMCoderNodes": [
         [
+            "DisplayLoraTriggersNode",
+            "LoraAndTriggerWordsLoader",
+            "MulticlipPromptCombinator",
             "TemplateInterpolation",
             "Variable",
             "WeightedAttributesFormatter"
@@ -1735,6 +1745,15 @@
         ],
         {
             "title_aux": "ComfyUI-MS_Tools [WIP]"
+        }
+    ],
+    "https://github.com/MicheleGuidi/comfyui-computer-vision": [
+        [
+            "Sam2BboxTiledSegmentation",
+            "Sam2TiledSegmentation"
+        ],
+        {
+            "title_aux": "comfyui-computer-vision [WIP]"
         }
     ],
     "https://github.com/MickeyJ/ComfyUI_mickster_nodes": [
@@ -2272,7 +2291,7 @@
             "SceneCombinerNode"
         ],
         {
-            "title_aux": "comfyui_scene_builder"
+            "title_aux": "comfyui_scene_builder [WIP]"
         }
     ],
     "https://github.com/StartHua/Comfyui_CSDMT_CXH": [
@@ -3300,6 +3319,7 @@
             "ControlNetInpaintingAliMamaApply",
             "ControlNetLoader",
             "CosmosImageToVideoLatent",
+            "CreateVideo",
             "CropMask",
             "DiffControlNetLoader",
             "DifferentialDiffusion",
@@ -3327,6 +3347,7 @@
             "GITSScheduler",
             "GLIGENLoader",
             "GLIGENTextBoxApply",
+            "GetVideoComponents",
             "GrowMask",
             "Hunyuan3Dv2Conditioning",
             "Hunyuan3Dv2ConditioningMultiView",
@@ -3394,6 +3415,7 @@
             "LoadImageMask",
             "LoadImageOutput",
             "LoadLatent",
+            "LoadVideo",
             "LoraLoader",
             "LoraLoaderModelOnly",
             "LoraSave",
@@ -3480,6 +3502,7 @@
             "SaveImage",
             "SaveImageWebsocket",
             "SaveLatent",
+            "SaveVideo",
             "SaveWEBM",
             "SelfAttentionGuidance",
             "SetFirstSigma",
@@ -3963,11 +3986,15 @@
     ],
     "https://github.com/gagaprince/ComfyUI_gaga_utils": [
         [
+            "GagaAddStringArray",
             "GagaBatchStringReplace",
             "GagaGetFileList",
+            "GagaGetStringArrayByIndex",
+            "GagaGetStringArraySize",
             "GagaGetStringListSize",
             "GagaSaveImageWithInfo",
             "GagaSplitStringToList",
+            "GagaStringListToArray",
             "GagaTest"
         ],
         {
@@ -4499,23 +4526,6 @@
             "title_aux": "ComfyUI PaintingCoderUtils Nodes [WIP]"
         }
     ],
-    "https://github.com/jax-explorer/ComfyUI-H-flow": [
-        [
-            "FluxProUltra",
-            "HFLowLoadImage",
-            "Hailuo01ImageToVideo",
-            "HiDreamI1",
-            "IdeogramV2Turbo",
-            "KlingImageToVideo",
-            "LLMTask",
-            "LumaRay2ImageToVideo",
-            "RunwayGen3ImageToVideo",
-            "Wan2ImageToVideo"
-        ],
-        {
-            "title_aux": "ComfyUI-H-flow"
-        }
-    ],
     "https://github.com/jcomeme/ComfyUI-AsunaroTools": [
         [
             "AsunaroAnd",
@@ -4673,6 +4683,7 @@
     "https://github.com/jonnydolake/ComfyUI-AIR-Nodes": [
         [
             "BrightnessContrastSaturation",
+            "CombinedInbetweenInputs",
             "CreateFilenameList",
             "DetectEvenNumberString",
             "DisplaceImageCPU",
@@ -4994,6 +5005,10 @@
     ],
     "https://github.com/kijai/ComfyUI-WanVideoWrapper": [
         [
+            "CreateCFGScheduleFloatList",
+            "DownloadAndLoadWav2VecModel",
+            "FantasyTalkingModelLoader",
+            "FantasyTalkingWav2VecEmbeds",
             "LoadWanVideoClipTextEncoder",
             "LoadWanVideoT5TextEncoder",
             "ReCamMasterPoseVisualizer",
@@ -5008,6 +5023,7 @@
             "WanVideoEnhanceAVideo",
             "WanVideoExperimentalArgs",
             "WanVideoFlowEdit",
+            "WanVideoFunCameraEmbeds",
             "WanVideoImageClipEncode",
             "WanVideoImageResizeToClosest",
             "WanVideoImageToVideoEncode",
@@ -6460,6 +6476,18 @@
         ],
         {
             "title_aux": "comfyui-hydit"
+        }
+    ],
+    "https://github.com/shinich39/comfyui-nothing-happened": [
+        [
+            "NothingHappened"
+        ],
+        {
+            "author": "shinich39",
+            "description": "Save image and keep metadata.",
+            "nickname": "comfyui-nothing-happened",
+            "title": "comfyui-nothing-happened",
+            "title_aux": "comfyui-nothing-happened"
         }
     ],
     "https://github.com/shirazdesigner/CLIPTextEncodeAndEnhancev4": [
