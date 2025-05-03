@@ -159,6 +159,19 @@
             "title_aux": "ComfyUI-1hewNodes [WIP]"
         }
     ],
+    "https://github.com/3dmindscapper/ComfyUI-PartField": [
+        [
+            "PartFieldClustering",
+            "PartFieldExportParts",
+            "PartFieldInference",
+            "PartFieldModelDownLoader",
+            "PartFieldSplitter",
+            "PartFieldViewer"
+        ],
+        {
+            "title_aux": "ComfyUI-PartField [WIP]"
+        }
+    ],
     "https://github.com/438443467/ComfyUI-SanMian-Nodes": [
         [
             "FaceAlignPro",
@@ -447,6 +460,14 @@
         {
             "nodename_pattern": "\\(BillBum\\)$",
             "title_aux": "ComfyUI-Upscayl"
+        }
+    ],
+    "https://github.com/AhBumm/ComfyUI_MangaLineExtraction-hf": [
+        [
+            "MangaLineExtraction-hf"
+        ],
+        {
+            "title_aux": "ComfyUI_MangaLineExtraction"
         }
     ],
     "https://github.com/AkiEvansDev/ComfyUI-Tools": [
@@ -900,6 +921,7 @@
             "DevToolsNodeWithSeedInput",
             "DevToolsNodeWithStringInput",
             "DevToolsNodeWithUnionInput",
+            "DevToolsNodeWithValidation",
             "DevToolsObjectPatchNode",
             "DevToolsRemoteWidgetNode",
             "DevToolsRemoteWidgetNodeWithControlAfterRefresh",
@@ -1465,17 +1487,6 @@
             "title_aux": "RK_Comfyui"
         }
     ],
-    "https://github.com/Kur0butiMegane/Comfyui-StringUtils": [
-        [
-            "ExtractMarkupValue",
-            "PromptNormalizer",
-            "StringSelector",
-            "StringSplitter"
-        ],
-        {
-            "title_aux": "Comfyui-StringUtils"
-        }
-    ],
     "https://github.com/KurtHokke/ComfyUI_KurtHokke_Nodes": [
         [
             "AIO_Tuner_Pipe",
@@ -1749,11 +1760,11 @@
     ],
     "https://github.com/MicheleGuidi/comfyui-computer-vision": [
         [
-            "Sam2BboxTiledSegmentation",
+            "Sam2ContextSegmentation",
             "Sam2TiledSegmentation"
         ],
         {
-            "title_aux": "comfyui-computer-vision [WIP]"
+            "title_aux": "ComfyUI-Computer-Vision [WIP]"
         }
     ],
     "https://github.com/MickeyJ/ComfyUI_mickster_nodes": [
@@ -2005,6 +2016,15 @@
             "title_aux": "ComfyUI-FeatureBank"
         }
     ],
+    "https://github.com/Raidez/comfyui-kuniklo-collection": [
+        [
+            "ApplySVG2Image",
+            "Properties"
+        ],
+        {
+            "title_aux": "Kuniklo Collection"
+        }
+    ],
     "https://github.com/RicherdLee/comfyui-oss-image-save": [
         [
             "SaveImageOSS"
@@ -2148,12 +2168,12 @@
             "MojenAnalyzeProcessor",
             "MojenAspectRatio",
             "MojenImageLoader",
-            "MojenLogPercent",
             "MojenNSFWClassifier",
             "MojenNSFWClassifierSave",
             "MojenStringLength",
             "MojenStyleExtractor",
-            "MojenTagProcessor"
+            "MojenTagProcessor",
+            "MojenTransparentBg"
         ],
         {
             "title_aux": "ComfyUI-Mojen-Nodeset"
@@ -2245,8 +2265,8 @@
     ],
     "https://github.com/Sophylax/ComfyUI-ReferenceMerge": [
         [
-            "CombineImagesAndMask",
-            "RestitchCrop"
+            "InpaintRegionRestitcher",
+            "ReferenceInpaintComposite"
         ],
         {
             "title_aux": "ComfyUI-ReferenceMerge"
@@ -2889,6 +2909,15 @@
             "title_aux": "Kaggle ComfyUI Local Save Node [WIP]"
         }
     ],
+    "https://github.com/benda1989/WaterMarkRemover_ComfyUI": [
+        [
+            "Remover",
+            "VideoRemover"
+        ],
+        {
+            "title_aux": "Comfyui lama remover [WIP]"
+        }
+    ],
     "https://github.com/benmizrahi/ComfyGCS": [
         [
             "LoadImageGCS",
@@ -3337,6 +3366,7 @@
             "EmptyMochiLatentVideo",
             "EmptySD3LatentImage",
             "ExponentialScheduler",
+            "ExtendIntermediateSigmas",
             "FeatherMask",
             "FlipSigmas",
             "FluxDisableGuidance",
@@ -3465,6 +3495,7 @@
             "PorterDuffImageComposite",
             "Preview3D",
             "Preview3DAnimation",
+            "PreviewAny",
             "PreviewAudio",
             "PreviewImage",
             "PrimitiveBoolean",
@@ -4101,6 +4132,7 @@
     "https://github.com/grinlau18/ComfyUI_XISER_Nodes": [
         [
             "CreatePointsString",
+            "XISER_Canvas",
             "XIS_CompositorProcessor",
             "XIS_CropImage",
             "XIS_DynamicBatchKSampler",
@@ -4119,6 +4151,7 @@
             "XIS_IfDataIsNone",
             "XIS_ImageMaskMirror",
             "XIS_ImageStitcher",
+            "XIS_ImagesToCanvas",
             "XIS_InvertMask",
             "XIS_IsThereAnyData",
             "XIS_KSamplerSettingsNode",
@@ -4217,6 +4250,7 @@
             "ACE_Integer",
             "ACE_MaskBlur",
             "ACE_OpenAI_GPT_Chat",
+            "ACE_OpenAI_GPT_IMAGE",
             "ACE_OpenAI_GPT_TTS",
             "ACE_Seed",
             "ACE_Text",
@@ -4794,6 +4828,18 @@
         ],
         {
             "title_aux": "ComfyUI-KG09 [WIP]"
+        }
+    ],
+    "https://github.com/kevin314/ComfyUI-FastVideo": [
+        [
+            "DITConfig",
+            "InferenceArgs",
+            "TextEncoderConfig",
+            "VAEConfig",
+            "VideoGenerator"
+        ],
+        {
+            "title_aux": "ComfyUI-FastVideo"
         }
     ],
     "https://github.com/kijai/ComfyUI-CV-VAE": [
@@ -6308,6 +6354,7 @@
     ],
     "https://github.com/rishipandey125/ComfyUI-FramePacking": [
         [
+            "Get Image Dimensions",
             "Pad Batch to 4n+1",
             "Resize Frame",
             "Threshold Image",
@@ -6340,6 +6387,15 @@
         ],
         {
             "title_aux": "ComfyUI Terminal Command Node [UNSAFE]"
+        }
+    ],
+    "https://github.com/ronaldstg/comfyui-plus-integrations": [
+        [
+            "ImagePassThrough",
+            "ImageToS3"
+        ],
+        {
+            "title_aux": "comfyui-plus-integrations [WIP]"
         }
     ],
     "https://github.com/rouxianmantou/comfyui-rxmt-nodes": [

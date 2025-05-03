@@ -7741,6 +7741,16 @@
             "description": "A custom node extension for ComfyUI that integrates Google's Veo 2 text-to-video generation capabilities."
         },
         {
+            "author": "ShmuelRonen",
+            "title": "ComfyUI-VideoUpscale_WithModel",
+            "reference": "https://github.com/ShmuelRonen/ComfyUI-VideoUpscale_WithModel",
+            "files": [
+                "https://github.com/ShmuelRonen/ComfyUI-VideoUpscale_WithModel"
+            ],
+            "install_type": "git-clone",
+            "description": "A memory-efficient implementation for upscaling videos in ComfyUI using non-diffusion upscaling models. This custom node is designed to handle large video frame sequences without memory bottlenecks."
+        },
+        {
             "author": "redhottensors",
             "title": "ComfyUI-Prediction",
             "id": "prediction",
@@ -7803,7 +7813,7 @@
                 "https://github.com/al-swaiti/ComfyUI-OllamaGemini"
             ],
             "install_type": "git-clone",
-            "description": "This extension integrates Google's Gemini API and Ollama into ComfyUI, allowing users to leverage these powerful language models directly within their ComfyUI workflows."
+            "description": "ComfyUI extension for Ollama, Gemini, OpenAI, Claude, and Qwen with video and audio support"
         },
         {
             "author": "mirabarukaso",
@@ -7834,7 +7844,7 @@
                 "https://github.com/1038lab/ComfyUI-RMBG"
             ],
             "install_type": "git-clone",
-            "description": "A ComfyUI node for removing image backgrounds using RMBG-2.0"
+            "description": "A sophisticated ComfyUI custom node engineered for advanced image background removal and precise segmentation of objects, faces, clothing, and fashion elements. This tool leverages a diverse array of models, including RMBG-2.0, INSPYRENET, BEN, BEN2, BiRefNet models, SAM, and GroundingDINO, while also incorporating a new feature for real-time background replacement and enhanced edge detection for improved accuracy."
         },
         {
             "author": "1038lab",
@@ -9161,7 +9171,7 @@
                 "https://github.com/zhangp365/ComfyUI-utils-nodes"
             ],
             "install_type": "git-clone",
-            "description": "Nodes:LoadImageWithSwitch, ImageBatchOneOrMore, ModifyTextGender, ImageCompositeMaskedWithSwitch, ColorCorrectOfUtils, SplitMask, MaskFastGrow, CheckpointLoaderSimpleWithSwitch, ImageResizeTo8x, MatchImageRatioToPreset etc."
+            "description": "Nodes:LoadImageWithSwitch, ImageBatchOneOrMore, ModifyTextGender, GenderControlOutput, ImageCompositeMaskedWithSwitch, ImageCompositeMaskedOneByOne, ColorCorrectOfUtils, SplitMask, MaskFastGrow, CheckpointLoaderSimpleWithSwitch, ImageResizeTo8x, MatchImageRatioToPreset, UpscaleImageWithModelIfNeed, MaskFromFaceModel, MaskCoverFourCorners, DetectorForNSFW, DeepfaceAnalyzeFaceAttributes etc."
         },
         {
             "author": "zhangp365",
@@ -14108,6 +14118,16 @@
             "description": "A set of nodes for interfacing with the FastSDCPU webserver."
         },
         {
+            "author": "BetaDoggo",
+            "title": "ComfyUI-Cloud-APIs",
+            "reference": "https://github.com/BetaDoggo/ComfyUI-Cloud-APIs",
+            "files": [
+                "https://github.com/BetaDoggo/ComfyUI-Cloud-APIs"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for using models from online providers. Flux, Auraflow, SoteDiffusion, etc."
+        },
+        {
             "author": "WX-NPS1598",
             "title": "Auto Crop By NPS",
             "id": "autocrop-nps",
@@ -14365,6 +14385,16 @@
             ],
             "install_type": "git-clone",
             "description": "This project provides a collection of custom nodes designed for enhanced audio effects in ComfyUI. With an intuitive pedalboard interface, users can easily integrate and manipulate various audio effects within their workflows."
+        },
+        {
+            "author": "MushroomFleet",
+            "title": "SVG Suite for ComfyUI",
+            "reference": "https://github.com/MushroomFleet/svg-suite",
+            "files": [
+                "https://github.com/MushroomFleet/svg-suite"
+            ],
+            "install_type": "git-clone",
+            "description": "SVG Suite is an advanced set of nodes for converting images to SVG in ComfyUI, expanding upon the functionality of ComfyUI-ToSVG."
         },
         {
             "author": "var1ableX",
@@ -15401,6 +15431,16 @@
             "description": "Control Freak gives you physical control over your ComfyUI workflows by mapping MIDI controllers, gamepads, and other input devices to any node parameter or UI element. Transform your image generation experience with tactile, responsive control. Ever heard of 'flow state'?"
         },
         {
+            "author": "ryanontheinside",
+            "title": "Deep Live Cam for ComfyUI",
+            "reference": "https://github.com/ryanontheinside/ComfyUI-DeepLiveCam",
+            "files": [
+                "https://github.com/ryanontheinside/ComfyUI-DeepLiveCam"
+            ],
+            "install_type": "git-clone",
+            "description": "This node integrates the face-swapping capabilities from Deep Live Cam into ComfyUI, allowing you to perform real-time face swapping on images and video streams."
+        },
+        {
             "author": "ControlAltAI",
             "title": "ControlAltAI Nodes",
             "id": "controlaltai",
@@ -16188,7 +16228,7 @@
                 "https://github.com/45uee/ComfyUI-Color_Transfer"
             ],
             "install_type": "git-clone",
-            "description": "Postprocessing nodes that implement color palette transfer for images."
+            "description": "Implementation of color transfer using KMeans algorithm"
         },
         {
             "author": "Phando",
@@ -18691,7 +18731,7 @@
                 "https://github.com/lodestone-rock/ComfyUI_FluxMod"
             ],
             "install_type": "git-clone",
-            "description": "A modulation layer addon for Flux that reduces model size to 8.8B parameters without significant quality loss."
+            "description": "Nodes for use of Chroma model and other prototype models"
         },
         {
             "author": "lth",
@@ -20338,7 +20378,7 @@
                 "https://github.com/Hullabalo/ComfyUI-Loop"
             ],
             "install_type": "git-clone",
-            "description": "A pair of nodes (Load Image and Save Image) to create a simple loop in your ComfyUI inpainting workflow, without the need of loading your last saved image"
+            "description": "A pair of nodes (Load Image and Save Image) to create a simple loop in your ComfyUI inpainting workflow, without the need of loading your last saved image, and a few others to cut and paste back the cutting into the source."
         },
         {
             "author": "hodanajan",
@@ -21718,7 +21758,7 @@
                 "https://github.com/agilly1989/ComfyUI_agilly1989_motorway"
             ],
             "install_type": "git-clone",
-            "description": "This my implemenation of a `pipe` in ComfyUI. Is it better or worse than others? No idea."
+            "description": "CURRENTLY IN ACTIVE DEVELOPMENT (BETA)! IF THINGS BREAK ITS BECAUSE I BROKE IT.... This my implemenation of a `pipe` in ComfyUI. Is it better or worse than others? No idea. (also has some utility nodes)"
         },
         {
             "author": "AiartvnTeam",
@@ -23687,7 +23727,7 @@
                 "https://github.com/LaVie024/comfyui-lopi999-nodes"
             ],
             "install_type": "git-clone",
-            "description": "A collection of some nodes I got Deepseek and ChatGPT to make. Mildly useful for some randomness and a scheduler."
+            "description": "Utility nodes for some randomness in your workflows, like random latent sizes. A few modifications to a few existing nodes, includes nodes for sampler and model parameters. Also includes two schedulers and four samplers that can be used with any KSampler node."
         },
         {
             "author": "dream-computing",
@@ -24793,6 +24833,79 @@
             "install_type": "git-clone",
             "description": "NODES: Save Image (JPG), Combine Conditionings (Weighted)"
         },
+        {
+            "author": "unicough",
+            "title": "OpenAI Image API with gpt-image-1",
+            "id": "comfy_openai_image_api",
+            "reference": "https://github.com/unicough/comfy_openai_image_api",
+            "files": [
+                "https://github.com/unicough/comfy_openai_image_api"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node uses OpenAI Image API to generate image (if no input image is provided) or edit image (if input image is provided) with the latest gpt-image-1 model. To use it, you will need to provide your OpenAI API key. This makes the node to be friendly for situations where ComfyUi serves as API server, because you don't have to login like the official OpenAI GPT Image 1 node does."
+        },
+        {
+            "author": "XieJunchen",
+            "title": "comfyUI_LLM",
+            "reference": "https://github.com/XieJunchen/comfyUI_LLM",
+            "files": [
+                "https://github.com/XieJunchen/comfyUI_LLM"
+            ],
+            "install_type": "git-clone",
+            "description": "comfyUI_LLM is the integration of a large language model into ComfyUI"
+        },
+        {
+            "author": "raykindle",
+            "title": "ComfyUI_Step1X-Edit",
+            "reference": "https://github.com/raykindle/ComfyUI_Step1X-Edit",
+            "files": [
+                "https://github.com/raykindle/ComfyUI_Step1X-Edit"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node integrates the [a/Step1X-Edit](https://github.com/stepfun-ai/Step1X-Edit) image editing model into ComfyUI. Step1X-Edit is a state-of-the-art image editing model that processes a reference image and user's editing instruction to generate a new image."
+        },
+        {
+            "author": "Vaporbook",
+            "title": "ComfyUI-SaveImage-PP",
+            "reference": "https://github.com/Vaporbook/ComfyUI-SaveImage-PP",
+            "files": [
+                "https://github.com/Vaporbook/ComfyUI-SaveImage-PP"
+            ],
+            "install_type": "git-clone",
+            "description": "A better SaveImage than SaveImage-Plus."
+        },
+        {
+            "author": "McKlinton2",
+            "title": "ComfyUI McKlinton Pack — Mask Node",
+            "reference": "https://github.com/McKlinton2/comfyui-mcklinton-pack",
+            "files": [
+                "https://github.com/McKlinton2/comfyui-mcklinton-pack"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI enables detailed segmentation of colored mask images into specific anatomical regions for male and female bodies."
+        },
+        {
+            "author": "kambara",
+            "title": "ComfyUI-PromptCheckList",
+            "reference": "https://github.com/kambara/ComfyUI-PromptCheckList",
+            "files": [
+                "https://github.com/kambara/ComfyUI-PromptCheckList"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a text editing extension for ComfyUI. It allows you to easily switch phrases for prompts using only the mouse."
+        },
+        {
+            "author": "MijnSpam",
+            "title": "ComfyUI_UploadToPushOver",
+            "reference": "https://github.com/MijnSpam/ComfyUI_UploadToWebhookPushOver",
+            "files": [
+                "https://github.com/MijnSpam/ComfyUI_UploadToWebhookPushOver"
+            ],
+            "install_type": "git-clone",
+            "description": "Send generated image to PushOver API webhook with optional parameters such as prompt-id and metadata payload."
+        },
+        
+
 
 
 
@@ -25239,17 +25352,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "unicough",
-            "title": "OpenAI Image API with gpt-image-1",
-            "id": "comfy_openai_image_api",
-            "reference": "https://github.com/unicough/comfy_openai_image_api",
-            "files": [
-                "https://github.com/unicough/comfy_openai_image_api"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node uses OpenAI Image API to generate image (if no input image is provided) or edit image (if input image is provided) with the latest gpt-image-1 model. To use it, you will need to provide your OpenAI API key. This makes the node to be friendly for situations where ComfyUi serves as API server, because you don't have to login like the official OpenAI GPT Image 1 node does."
         }
     ]
 }

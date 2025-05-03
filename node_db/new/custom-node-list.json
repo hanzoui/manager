@@ -11,6 +11,77 @@
         
         
         {
+            "author": "unicough",
+            "title": "OpenAI Image API with gpt-image-1",
+            "id": "comfy_openai_image_api",
+            "reference": "https://github.com/unicough/comfy_openai_image_api",
+            "files": [
+                "https://github.com/unicough/comfy_openai_image_api"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node uses OpenAI Image API to generate image (if no input image is provided) or edit image (if input image is provided) with the latest gpt-image-1 model. To use it, you will need to provide your OpenAI API key. This makes the node to be friendly for situations where ComfyUi serves as API server, because you don't have to login like the official OpenAI GPT Image 1 node does."
+        },
+        {
+            "author": "ShmuelRonen",
+            "title": "ComfyUI-VideoUpscale_WithModel",
+            "reference": "https://github.com/ShmuelRonen/ComfyUI-VideoUpscale_WithModel",
+            "files": [
+                "https://github.com/ShmuelRonen/ComfyUI-VideoUpscale_WithModel"
+            ],
+            "install_type": "git-clone",
+            "description": "A memory-efficient implementation for upscaling videos in ComfyUI using non-diffusion upscaling models. This custom node is designed to handle large video frame sequences without memory bottlenecks."
+        },
+        {
+            "author": "ryanontheinside",
+            "title": "Deep Live Cam for ComfyUI",
+            "reference": "https://github.com/ryanontheinside/ComfyUI-DeepLiveCam",
+            "files": [
+                "https://github.com/ryanontheinside/ComfyUI-DeepLiveCam"
+            ],
+            "install_type": "git-clone",
+            "description": "This node integrates the face-swapping capabilities from Deep Live Cam into ComfyUI, allowing you to perform real-time face swapping on images and video streams."
+        },
+        {
+            "author": "XieJunchen",
+            "title": "comfyUI_LLM",
+            "reference": "https://github.com/XieJunchen/comfyUI_LLM",
+            "files": [
+                "https://github.com/XieJunchen/comfyUI_LLM"
+            ],
+            "install_type": "git-clone",
+            "description": "comfyUI_LLM is the integration of a large language model into ComfyUI"
+        },
+        {
+            "author": "raykindle",
+            "title": "ComfyUI_Step1X-Edit",
+            "reference": "https://github.com/raykindle/ComfyUI_Step1X-Edit",
+            "files": [
+                "https://github.com/raykindle/ComfyUI_Step1X-Edit"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node integrates the [a/Step1X-Edit](https://github.com/stepfun-ai/Step1X-Edit) image editing model into ComfyUI. Step1X-Edit is a state-of-the-art image editing model that processes a reference image and user's editing instruction to generate a new image."
+        },
+        {
+            "author": "BetaDoggo",
+            "title": "ComfyUI-Cloud-APIs",
+            "reference": "https://github.com/BetaDoggo/ComfyUI-Cloud-APIs",
+            "files": [
+                "https://github.com/BetaDoggo/ComfyUI-Cloud-APIs"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for using models from online providers. Flux, Auraflow, SoteDiffusion, etc."
+        },
+        {
+            "author": "Vaporbook",
+            "title": "ComfyUI-SaveImage-PP",
+            "reference": "https://github.com/Vaporbook/ComfyUI-SaveImage-PP",
+            "files": [
+                "https://github.com/Vaporbook/ComfyUI-SaveImage-PP"
+            ],
+            "install_type": "git-clone",
+            "description": "A better SaveImage than SaveImage-Plus."
+        },
+        {
             "author": "Yuan-ManX",
             "title": "ComfyUI-Step1X-Edit",
             "reference": "https://github.com/Yuan-ManX/ComfyUI-Step1X-Edit",
@@ -19,6 +90,36 @@
             ],
             "install_type": "git-clone",
             "description": "Make Step1X-Edit avialbe in ComfyUI."
+        },
+        {
+            "author": "McKlinton2",
+            "title": "ComfyUI McKlinton Pack — Mask Node",
+            "reference": "https://github.com/McKlinton2/comfyui-mcklinton-pack",
+            "files": [
+                "https://github.com/McKlinton2/comfyui-mcklinton-pack"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI enables detailed segmentation of colored mask images into specific anatomical regions for male and female bodies."
+        },
+        {
+            "author": "kambara",
+            "title": "ComfyUI-PromptCheckList",
+            "reference": "https://github.com/kambara/ComfyUI-PromptCheckList",
+            "files": [
+                "https://github.com/kambara/ComfyUI-PromptCheckList"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a text editing extension for ComfyUI. It allows you to easily switch phrases for prompts using only the mouse."
+        },
+        {
+            "author": "MijnSpam",
+            "title": "ComfyUI_UploadToPushOver",
+            "reference": "https://github.com/MijnSpam/ComfyUI_UploadToWebhookPushOver",
+            "files": [
+                "https://github.com/MijnSpam/ComfyUI_UploadToWebhookPushOver"
+            ],
+            "install_type": "git-clone",
+            "description": "Send generated image to PushOver API webhook with optional parameters such as prompt-id and metadata payload."
         },
         {
             "author": "FaberVS",
@@ -590,106 +691,6 @@
             ],
             "install_type": "git-clone",
             "description": "modify the original node instruction of image vector, add ‘imagemagick’ which is the key base Python library of ‘wand’ library."
-        },
-        {
-            "author": "ThanaritKanjanametawatAU",
-            "title": "ComfyUI-MediaURLLoader",
-            "reference": "https://github.com/ThanaritKanjanametawatAU/ComfyUI-MediaURLLoader",
-            "files": [
-                "https://github.com/ThanaritKanjanametawatAU/ComfyUI-MediaURLLoader"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for loading and previewing media from URLs in ComfyUI."
-        },
-        {
-            "author": "n0neye",
-            "title": "A3D ComfyUI Integration",
-            "reference": "https://github.com/n0neye/A3D-comfyui-integration",
-            "files": [
-                "https://github.com/n0neye/A3D-comfyui-integration"
-            ],
-            "install_type": "git-clone",
-            "description": "[a/A3D](https://github.com/n0neye/A3D) is an AI x 3D hybrid tool that allows you to compose 3D scenes and render them with AI. This integration allows you to send the color & depth images to ComfyUI. You can use it as a pose controller, or scene composer for your ComfyUI workflows."
-        },
-        {
-            "author": "TTPlanetPig",
-            "title": "TTP_Comfyui_FramePack_SE",
-            "reference": "https://github.com/TTPlanetPig/TTP_Comfyui_FramePack_SE",
-            "files": [
-                "https://github.com/TTPlanetPig/TTP_Comfyui_FramePack_SE"
-            ],
-            "install_type": "git-clone",
-            "description": "Provide ComfyUI support for FramePack start-and-end image reference"
-        },
-        {
-            "author": "alessandroperilli",
-            "title": "apw_nodes",
-            "reference": "https://github.com/alessandroperilli/apw_nodes",
-            "files": [
-                "https://github.com/alessandroperilli/apw_nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node suite to augment the capabilities of the [a/AP Workflows for ComfyUI](https://perilli.com/ai/comfyui/)"
-        },
-        {
-            "author": "pupba",
-            "title": "ComfyForEach",
-            "reference": "https://github.com/pupba/Comfy_ForEach",
-            "files": [
-                "https://github.com/pupba/Comfy_ForEach"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of ComfyUI custom nodes designed for image batch processing, per-index image operations, and AWS integration using EventBridge."
-        },
-        {
-            "author": "judian17",
-            "title": "ComfyUI-Extract_Flux_Lora",
-            "reference": "https://github.com/judian17/ComfyUI-Extract_Flux_Lora",
-            "files": [
-                "https://github.com/judian17/ComfyUI-Extract_Flux_Lora"
-            ],
-            "install_type": "git-clone",
-            "description": "Extract LoRA from the original Fine-Tuned model."
-        },
-        {
-            "author": "MaruPelkar",
-            "title": "ComfyUI Conditioning Resizer",
-            "reference": "https://github.com/MaruPelkar/comfyui-conditioning-resizer",
-            "files": [
-                "https://github.com/MaruPelkar/comfyui-conditioning-resizer"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that allows resizing of conditioning tensors, particularly useful for fixing size mismatches between CLIP Text Encode and CLIP Vision Encode outputs in SD3 workflows."
-        },
-        {
-            "author": "SparknightLLC",
-            "title": "ComfyUI-WeightedRandomChoice",
-            "reference": "https://github.com/SparknightLLC/ComfyUI-WeightedRandomChoice",
-            "files": [
-                "https://github.com/SparknightLLC/ComfyUI-WeightedRandomChoice"
-            ],
-            "install_type": "git-clone",
-            "description": "A node for ComfyUI that picks from `input_a` and `input_b` based on the given `chance`."
-        },
-        {
-            "author": "FunnyFinger",
-            "title": "Radar Weights Node",
-            "reference": "https://github.com/FunnyFinger/ComfyUi-RadarWeightNode",
-            "files": [
-                "https://github.com/FunnyFinger/ComfyUi-RadarWeightNode"
-            ],
-            "install_type": "git-clone",
-            "description": "A Custom Node for ComfyUi to add an interactive Radar graph to visually control weights."
-        },
-        {
-            "author": "bablueza",
-            "title": "Vaja TextToSpeech Node for ComfyUI",
-            "reference": "https://github.com/bablueza/ComfyUI-Vaja-Ai4thai",
-            "files": [
-                "https://github.com/bablueza/ComfyUI-Vaja-Ai4thai"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Vaja Synthesis Api, ShowText"
         }
     ]
 }
