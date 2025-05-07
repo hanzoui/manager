@@ -934,18 +934,7 @@
             ],
             "install_type": "git-clone",
             "description": "This node allows downloading models directly within ComfyUI for easier use and integration."
-        },
-        {
-            "author": "ServiceStack",
-            "title": "ComfyUI Asset Downloader",
-            "id": "asset-downloader",
-            "reference": "https://github.com/ServiceStack/comfy-asset-downloader",
-            "files": [
-                "https://github.com/ServiceStack/comfy-asset-downloader"
-            ],
-            "install_type": "git-clone",
-            "description": "This node allows downloading models and other resources used within a ComfyUI workflow making it easier to resolve referenced assets and share workflows"
-        },        
+        },     
         {
             "author": "Suzie1",
             "title": "Comfyroll Studio",
@@ -8345,16 +8334,6 @@
             ],
             "install_type": "git-clone",
             "description": "This extension provides a node that allows you to overlay text on an image or a batch of images with support for custom fonts and styles."
-        },
-        {
-            "author": "holchan",
-            "title": "ComfyUI-ModelDownloader",
-            "reference": "https://github.com/holchan/ComfyUI-ModelDownloader",
-            "files": [
-                "https://github.com/holchan/ComfyUI-ModelDownloader"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node to download models(Checkpoints and LoRA) from external links and act as an output standalone node."
         },
         {
             "author": "CC-BryanOttho",
@@ -25167,6 +25146,17 @@
             ],
             "install_type": "git-clone",
             "description": "This custom node for ComfyUI provides integration with the BFL (Black Forest Labs) API to enhance and optimize image processing. It allows the use of Flux Pro directly within ComfyUI, offering advanced image processing capabilities."
+        },
+        {
+            "author": "ServiceStack",
+            "title": "ComfyUI Asset Downloader",
+            "id": "asset-downloader",
+            "reference": "https://github.com/ServiceStack/comfy-asset-downloader",
+            "files": [
+                "https://github.com/ServiceStack/comfy-asset-downloader"
+            ],
+            "install_type": "git-clone",
+            "description": "This node allows downloading models and other resources used within a ComfyUI workflow making it easier to resolve referenced assets and share workflows"
         },
         
 
