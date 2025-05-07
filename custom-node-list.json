@@ -17219,6 +17219,16 @@
             "install_type": "git-clone",
             "description": "This node is used to enhance image details. We can add a latent space image and introduce any amount of noise. Then, we can start denoising at any timestep. This allows us to add more details to the image while maintaining overall consistency as much as possible."
         },
+                {
+            "author": "SSsnap",
+            "title": "Comfyui_SSsnap_pose-Remapping",
+            "reference": "https://github.com/SS-snap/Comfyui_SSsnap_pose-Remapping",
+            "files": [
+                "https://github.com/SS-snap/Comfyui_SSsnap_pose-Remapping"
+            ],
+            "install_type": "git-clone",
+            "description": "A pose remapping node with support for joint locking."
+        },
         {
             "author": "RiceRound",
             "title": "ComfyUI Compression and Encryption Node",
