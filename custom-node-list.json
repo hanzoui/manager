@@ -24924,6 +24924,17 @@
             "install_type": "git-clone",
             "description": "Send generated image to PushOver API webhook with optional parameters such as prompt-id and metadata payload."
         },
+        {
+            "author": "wakattac",
+            "title": "ComfyUI-AbstractImaGen",
+            "id": "abstract-imagen",
+            "reference": "https://github.com/wakattac/ComfyUI-AbstractImaGen",
+            "files": [
+                "https://github.com/wakattac/ComfyUI-AbstractImaGen"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node that quickly generates randomized asbtract images to be used as latent images with VAE Encode"
+        },
         
 
 
@@ -25372,17 +25383,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "wakattac",
-            "title": "ComfyUI-AbstractImaGen",
-            "id": "abstract-imagen",
-            "reference": "https://github.com/wakattac/ComfyUI-AbstractImaGen",
-            "files": [
-                "https://github.com/wakattac/ComfyUI-AbstractImaGen"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI node that quickly generates randomized asbtract images to be used as latent images with VAE Encode"
         }
     ]
 }

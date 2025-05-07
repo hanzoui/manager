@@ -11,6 +11,17 @@
         
         
         {
+            "author": "wakattac",
+            "title": "ComfyUI-AbstractImaGen",
+            "id": "abstract-imagen",
+            "reference": "https://github.com/wakattac/ComfyUI-AbstractImaGen",
+            "files": [
+                "https://github.com/wakattac/ComfyUI-AbstractImaGen"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node that quickly generates randomized asbtract images to be used as latent images with VAE Encode"
+        },
+        {
             "author": "unicough",
             "title": "OpenAI Image API with gpt-image-1",
             "id": "comfy_openai_image_api",
@@ -681,16 +692,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Load llm, Generate Text with LLM, Inference Qwen2VL, Inference Qwen2"
-        },
-        {
-            "author": "Cyber-BCat",
-            "title": "Cyber-BlackCat",
-            "reference": "https://github.com/Cyber-BlackCat/ComfyUI-Image-Vector",
-            "files": [
-                "https://github.com/Cyber-BlackCat/ComfyUI-Image-Vector"
-            ],
-            "install_type": "git-clone",
-            "description": "modify the original node instruction of image vector, add ‘imagemagick’ which is the key base Python library of ‘wand’ library."
         }
     ]
 }
