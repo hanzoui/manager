@@ -33,6 +33,17 @@
             "install_type": "git-clone"
         },
         {
+            "author": "Irsalistic",
+            "title": "ComfyUI DAM Object Extractor",
+            "reference": "https://github.com/Irsalistic/comfyui-dam-object-extractor",
+            "files": [
+                "https://github.com/Irsalistic/comfyui-dam-object-extractor"
+            ],
+            "description": "Extract object names and descriptions from masked regions using NVIDIA's DAM model",
+            "tags": ["object recognition", "vision", "image analysis"],
+            "install_type": "git-clone"
+        },
+        {
             "author": "unicough",
             "title": "OpenAI Image API with gpt-image-1",
             "id": "comfy_openai_image_api",
@@ -683,26 +694,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Item List, Template Input, Template Processor, Scene Queue Node, Trigger Passthrough Node"
-        },
-        {
-            "author": "neverbiasu",
-            "title": "ComfyUI-ChatTTS",
-            "reference": "https://github.com/neverbiasu/ComfyUI-ChatTTS",
-            "files": [
-                "https://github.com/neverbiasu/ComfyUI-ChatTTS"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI integration for [a/ChatTTS](https://github.com/2noise/ChatTTS), enabling high-quality, controllable text-to-speech generation directly in your ComfyUI workflows."
-        },
-        {
-            "author": "hanyingcho",
-            "title": "ComfyUI LLM Promp",
-            "reference": "https://github.com/hanyingcho/comfyui-llmprompt",
-            "files": [
-                "https://github.com/hanyingcho/comfyui-llmprompt"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Load llm, Generate Text with LLM, Inference Qwen2VL, Inference Qwen2"
         }
     ]
 }

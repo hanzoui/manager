@@ -24946,6 +24946,17 @@
             "install_type": "git-clone",
             "description": "ComfyUI node that quickly generates randomized asbtract images to be used as latent images with VAE Encode"
         },
+        {
+            "author": "Irsalistic",
+            "title": "ComfyUI DAM Object Extractor",
+            "reference": "https://github.com/Irsalistic/comfyui-dam-object-extractor",
+            "files": [
+                "https://github.com/Irsalistic/comfyui-dam-object-extractor"
+            ],
+            "description": "Extract object names and descriptions from masked regions using NVIDIA's DAM model",
+            "tags": ["object recognition", "vision", "image analysis"],
+            "install_type": "git-clone"
+        },
         
 
 
@@ -25394,17 +25405,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Irsalistic",
-            "title": "ComfyUI DAM Object Extractor",
-            "reference": "https://github.com/Irsalistic/comfyui-dam-object-extractor",
-            "files": [
-                "https://github.com/Irsalistic/comfyui-dam-object-extractor"
-            ],
-            "description": "Extract object names and descriptions from masked regions using NVIDIA's DAM model",
-            "tags": ["object recognition", "vision", "image analysis"],
-            "install_type": "git-clone"
         }
     ]
 }
