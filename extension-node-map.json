@@ -638,6 +638,14 @@
             "title_aux": "ComfyUI_AutoDownloadModels"
         }
     ],
+    "https://github.com/AIExplorer25/ComfyUI_ChatGptHelper": [
+        [
+            "ChatGptHelper"
+        ],
+        {
+            "title_aux": "ComfyUI_ChatGptHelper"
+        }
+    ],
     "https://github.com/AIFSH/AniTalker-ComfyUI": [
         [
             "AniTalkerNode",
@@ -5288,8 +5296,14 @@
             "IG MotionPredictor",
             "IG Multiply",
             "IG Path Join",
+            "IG PointCloud From Cylindrical",
+            "IG PointCloud From Depth",
+            "IG Save PLY PointCloud",
+            "IG Stitch Depth Tiles",
+            "IG Stitch Images CV2",
             "IG String",
             "IG String List",
+            "IG Tile Image",
             "IG ZFill",
             "SM Video Base",
             "SM Video Base Control"
@@ -5313,6 +5327,14 @@
             "nickname": "IG Motion Video Search",
             "title": "IG Motion Video Search",
             "title_aux": "IG-Motion-Search"
+        }
+    ],
+    "https://github.com/IIs-fanta/ComfyUI-SnakeGameNode": [
+        [
+            "SnakeGameNode"
+        ],
+        {
+            "title_aux": "ComfyUI-SnakeGameNode"
         }
     ],
     "https://github.com/ITurchenko/ComfyUI-SizeFromArray": [
@@ -8094,6 +8116,14 @@
         ],
         {
             "title_aux": "ComfyUi-NoodleWebcam"
+        }
+    ],
+    "https://github.com/Njbx/ComfyUI-LTX13B-Blockswap": [
+        [
+            "LTXBlockswap"
+        ],
+        {
+            "title_aux": "ComfyUI-LTX13B-Blockswap"
         }
     ],
     "https://github.com/Nlar/ComfyUI_CartoonSegmentation": [
@@ -12725,6 +12755,19 @@
         ],
         {
             "title_aux": "ComfyUI-LiveCC"
+        }
+    ],
+    "https://github.com/Yuan-ManX/ComfyUI-Muyan-TTS": [
+        [
+            "Generate",
+            "InputText",
+            "LoadMuyanTTSModel",
+            "LoadRefAudio",
+            "PromptText",
+            "SaveMuyanTTSAudio"
+        ],
+        {
+            "title_aux": "ComfyUI-Muyan-TTS"
         }
     ],
     "https://github.com/Yuan-ManX/ComfyUI-OrpheusTTS": [
@@ -28819,19 +28862,6 @@
             "title_aux": "ComfyUI-MistralAI-API"
         }
     ],
-    "https://github.com/raspie10032/ComfyUI_RS_NAI_Local_Prompt_converter": [
-        [
-            "ComfyUIToNovelAIV4",
-            "ComfyUIToOldNAI",
-            "NovelAIV4ToComfyUI",
-            "NovelAIV4ToOldNAI",
-            "OldNAIToComfyUI",
-            "OldNAIToNovelAIV4"
-        ],
-        {
-            "title_aux": "ComfyUI NAI Prompt Converter"
-        }
-    ],
     "https://github.com/ratulrafsan/Comfyui-SAL-VTON": [
         [
             "SALVTON_Apply",
@@ -33430,6 +33460,14 @@
         ],
         {
             "title_aux": "Comfyui_Redux_Advanced"
+        }
+    ],
+    "https://github.com/yichengup/comfyui-face-liquify": [
+        [
+            "FaceLiquifyNode"
+        ],
+        {
+            "title_aux": "comfyui-face-liquify"
         }
     ],
     "https://github.com/yiwangsimple/ComfyUI_DW_Chat": [
