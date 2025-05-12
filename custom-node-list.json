@@ -25678,6 +25678,17 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "fpgaminer",
+            "title": "JoyCaption Nodes",
+            "id": "comfyui-joycaption",
+            "reference": "https://github.com/fpgaminer/joycaption_comfyui",
+            "files": [
+                "https://github.com/fpgaminer/joycaption_comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for running the JoyCaption image captioner VLM."
         }
     ]
 }
