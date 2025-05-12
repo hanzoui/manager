@@ -148,11 +148,20 @@
     ],
     "https://github.com/1hew/ComfyUI-1hewNodes": [
         [
+            "BatchMaskMathOps",
+            "BlendModes",
             "CoordinateExtractor",
-            "ImageConcatenate",
+            "CroppedImagePaste",
+            "ImageAddLabel",
+            "ImageBlendModesByCSS",
             "ImageCropWithBBox",
-            "ImagePaste",
+            "ImageDetailHLFreqSeparation",
+            "ImageEditStitch",
+            "ImagePlot",
             "LumaMatte",
+            "MaskBlend",
+            "MaskMathOps",
+            "SliderValueRangeMapping",
             "Solid"
         ],
         {
@@ -949,6 +958,7 @@
             "DevToolsNodeWithSeedInput",
             "DevToolsNodeWithStringInput",
             "DevToolsNodeWithUnionInput",
+            "DevToolsNodeWithV2ComboInput",
             "DevToolsNodeWithValidation",
             "DevToolsObjectPatchNode",
             "DevToolsRemoteWidgetNode",
@@ -1293,6 +1303,20 @@
         ],
         {
             "title_aux": "ComfyUI-Notifier"
+        }
+    ],
+    "https://github.com/George0726/ComfyUI-video-accessory": [
+        [
+            "VideoAcc_CameraTrajectoryRecam",
+            "VideoAcc_ImageResizeAdvanced",
+            "VideoAcc_ImageUpscaleVideo",
+            "VideoAcc_LoadImage",
+            "VideoAcc_LoadVideo",
+            "VideoAcc_SaveMP4",
+            "VideoAcc_imageSize"
+        ],
+        {
+            "title_aux": "ComfyUI-video-accessory [WIP]"
         }
     ],
     "https://github.com/Grant-CP/ComfyUI-LivePortraitKJ-MPS": [
@@ -1748,15 +1772,6 @@
             "title_aux": "comfy-tif-support"
         }
     ],
-    "https://github.com/MITCAP/OpenAI-ComfyUI": [
-        [
-            "OpenAIDalle3Node",
-            "OpenAIImageDescriptionNode"
-        ],
-        {
-            "title_aux": "ComfyUI OpenAI DALL-E 3 Node [WIP]"
-        }
-    ],
     "https://github.com/ManuShamil/ComfyUI_BodyEstimation_Nodes": [
         [
             "CogitareLabsPoseIDExtractor"
@@ -2165,6 +2180,7 @@
     "https://github.com/SanDiegoDude/ComfyUI-HiDream-Sampler": [
         [
             "HiDreamImg2Img",
+            "HiDreamResolutionSelect",
             "HiDreamSampler",
             "HiDreamSamplerAdvanced"
         ],
@@ -2463,6 +2479,34 @@
         ],
         {
             "title_aux": "TWanVideoSigmaSampler: EXPERIMENTAL [WIP]"
+        }
+    ],
+    "https://github.com/TheJorseman/IntrinsicCompositingClean-ComfyUI": [
+        [
+            "AlbedoHarmonizer",
+            "AlbedoModelLoader",
+            "CompleteRelighting",
+            "CompositeNormalsCalculator",
+            "DepthEstimator",
+            "DepthModelLoader",
+            "ExtractSmallBgShd",
+            "HarmonizedImageCreator",
+            "ImageResizer",
+            "ImageResizerNP",
+            "ImageResizerNPMASK",
+            "IntrinsicDecomposer",
+            "IntrinsicModelLoader",
+            "LightCoeffExtractor",
+            "LoadImagePIL",
+            "MaskApplier",
+            "MaskGenerator",
+            "NormalsExtractor",
+            "NormalsModelLoader",
+            "ReshadingModelLoader",
+            "ReshadingProcessor"
+        ],
+        {
+            "title_aux": "IntrinsicCompositingClean-ComfyUI"
         }
     ],
     "https://github.com/ThisModernDay/ComfyUI-InstructorOllama": [
@@ -2970,6 +3014,14 @@
         ],
         {
             "title_aux": "ComfyUI_BeySoft"
+        }
+    ],
+    "https://github.com/bheins/ComfyUI-glb-to-stl": [
+        [
+            "GLBToSTLNode"
+        ],
+        {
+            "title_aux": "ComfyUI-glb-to-stl [WIP]"
         }
     ],
     "https://github.com/birnam/ComfyUI-GenData-Pack": [
@@ -3629,7 +3681,7 @@
             "SaveImage",
             "SaveImageWebsocket",
             "SaveLatent",
-            "SaveSVG",
+            "SaveSVGNode",
             "SaveVideo",
             "SaveWEBM",
             "SelfAttentionGuidance",
@@ -4146,12 +4198,16 @@
         [
             "GagaAddStringArray",
             "GagaBatchStringReplace",
+            "GagaGetDirList",
             "GagaGetFileList",
             "GagaGetImageInfoByUpload",
             "GagaGetImageInfoWithUrl",
+            "GagaGetImageWithPath",
             "GagaGetStringArrayByIndex",
             "GagaGetStringArraySize",
             "GagaGetStringListSize",
+            "GagaPythonScript",
+            "GagaSaveImageToPath",
             "GagaSaveImageWithInfo",
             "GagaSaveImagesToGif",
             "GagaSplitStringToList",
@@ -4263,6 +4319,7 @@
         [
             "CreatePointsString",
             "XISER_Canvas",
+            "XIS_CanvasMaskProcessor",
             "XIS_CompositorProcessor",
             "XIS_CropImage",
             "XIS_DynamicBatchKSampler",
@@ -5094,6 +5151,8 @@
     "https://github.com/kijai/ComfyUI-HunyuanVideoWrapper": [
         [
             "DownloadAndLoadHyVideoTextEncoder",
+            "HunyuanVideoFresca",
+            "HunyuanVideoSLG",
             "HyVideoBlockSwap",
             "HyVideoCFG",
             "HyVideoContextOptions",
@@ -5673,6 +5732,7 @@
             "LF_SaveImageForCivitAI",
             "LF_SaveJSON",
             "LF_SaveMarkdown",
+            "LF_SaveText",
             "LF_SchedulerSelector",
             "LF_Sepia",
             "LF_SequentialSeedsGenerator",
@@ -5681,6 +5741,7 @@
             "LF_Something2Number",
             "LF_Something2String",
             "LF_SortJSONKeys",
+            "LF_SortTags",
             "LF_String",
             "LF_StringReplace",
             "LF_StringTemplate",
@@ -5808,6 +5869,17 @@
         ],
         {
             "title_aux": "ComfyUI-MMYolo"
+        }
+    ],
+    "https://github.com/maurorilla/ComfyUI-MisterMR-Nodes": [
+        [
+            "AddLogo",
+            "AddSingleObject",
+            "AddSingleText",
+            "ColorNode"
+        ],
+        {
+            "title_aux": "ComfyUI-glb-to-stl [WIP]"
         }
     ],
     "https://github.com/mehbebe/ComfyLoraGallery": [
@@ -6981,7 +7053,6 @@
             "CLIPTokenCounter",
             "GeminiNode",
             "KoboldCppApiNode",
-            "KoboldCppLauncherNode",
             "LoraStrengthXYPlot"
         ],
         {
@@ -7271,28 +7342,19 @@
     ],
     "https://github.com/xmarked-ai/ComfyUI_misc": [
         [
-            "AceColorFixX",
-            "AceFloatX",
-            "AceIntegerX",
             "BLIPMatcherX",
             "BlendLatentsX",
-            "CheckpointLoaderBNB_X",
-            "CheckpointLoaderNF4_X",
             "ColorCorrectionX",
             "ColorSpaceConversionX",
-            "ColorTransferNodeX",
             "CommonSourcesX",
             "ConstantColorX",
             "ConvexHullByMaskX",
-            "DeepSeekX",
             "DepthDisplaceX",
-            "DummyTestNodeX",
             "EmptyLatentX",
             "ExpressionsX",
             "FourCornerPinMaskX",
             "GaussianBlurX",
             "GaussianMaskBlurX",
-            "HiDreamAttentionScaleAllBlocksWithIPAdapterNode",
             "IfConditionX",
             "ImageCompositionX",
             "ImageTileSquare",
@@ -7301,18 +7363,12 @@
             "LoopCloseX",
             "LoopOpenX",
             "LoraBatchSamplerX",
-            "PixtralVisionX",
-            "PixtralX",
-            "RegionTesterNodeX",
             "RegionalPromptSamplerX",
             "RelightX",
             "RemoveBackgroundX",
             "SaveImageX",
-            "SelectiveDepthLoraBlocksX",
             "SimpleBlockerX",
-            "SimpleWD14TaggerX",
             "SplineImageMask",
-            "UnetLoaderBNB_X",
             "WhiteBalanceX"
         ],
         {
