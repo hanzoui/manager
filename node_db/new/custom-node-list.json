@@ -54,6 +54,17 @@
             "description": "Helps deciding different settings depending on the input string"
         },
         {
+            "author": "1hew",
+            "title": "ComfyUI 1hewNodes",
+            "id": "ComfyUI-1hewNodes",
+            "reference": "https://github.com/1hew/ComfyUI-1hewNodes",
+            "files": [
+                "https://github.com/1hew/ComfyUI-1hewNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node collection for ComfyUI that provides some utility nodes."
+        },
+        {
             "author": "yichengup",
             "title": "comfyui-face-liquify",
             "reference": "https://github.com/yichengup/comfyui-face-liquify",
@@ -678,116 +689,6 @@
             ],
             "install_type": "git-clone",
             "description": "Encapsulate the comfyui workflow as a gradio webui"
-        },
-        {
-            "author": "quank123wip",
-            "title": "ComfyUI-Step1X-Edit",
-            "reference": "https://github.com/quank123wip/ComfyUI-Step1X-Edit",
-            "files": [
-                "https://github.com/quank123wip/ComfyUI-Step1X-Edit"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Custom Node for [a/Step1X-Edit](https://github.com/stepfun-ai/Step1X-Edit/). Noted this node may consume large VRAMs!"
-        },
-        {
-            "author": "Jacky-MYQ",
-            "title": "RGB to CMYK for ComfyUI (Save as tif)",
-            "reference": "https://github.com/Jacky-MYQ/comfyui-rgb2cmyk",
-            "files": [
-                "https://github.com/Jacky-MYQ/comfyui-rgb2cmyk"
-            ],
-            "install_type": "git-clone",
-            "description": "RGB to CMYK (save as tif)"
-        },
-        {
-            "author": "lceric",
-            "title": "comfyui-gpt-image",
-            "reference": "https://github.com/lceric/comfyui-gpt-image",
-            "files": [
-                "https://github.com/lceric/comfyui-gpt-image"
-            ],
-            "install_type": "git-clone",
-            "description": "Ports the official ComfyUI GPT-API node, adding support for customizable api_base, auth_token, and model settings."
-        },
-        {
-            "author": "Alexankharin",
-            "title": "camera-comfyUI",
-            "reference": "https://github.com/Alexankharin/camera-comfyUI",
-            "files": [
-                "https://github.com/Alexankharin/camera-comfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for the different projection models and camera movements"
-        },
-        {
-            "author": "Xkipper",
-            "title": "ComfyUI_SkipperNodes",
-            "reference": "https://github.com/Xkipper/ComfyUI_SkipperNodes",
-            "files": [
-                "https://github.com/Xkipper/ComfyUI_SkipperNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Skipper Custom Nodes"
-        },
-        {
-            "author": "FewBox",
-            "title": "fewbox-outfit-comfyui",
-            "reference": "https://github.com/FewBox/fewbox-outfit-comfyui",
-            "files": [
-                "https://github.com/FewBox/fewbox-outfit-comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "Comfy Custom Node for Try-on."
-        },
-        {
-            "author": "chou18194766xx",
-            "title": "comfyui_EncryptPreview",
-            "reference": "https://github.com/chou18194766xx/comfyui_EncryptPreview",
-            "files": [
-                "https://github.com/chou18194766xx/comfyui_EncryptPreview"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI's non-persistent (in-memory) image preview feature"
-        },
-        {
-            "author": "bytedance",
-            "title": "ComfyUI-HyperLoRA",
-            "reference": "https://github.com/bytedance/ComfyUI-HyperLoRA",
-            "files": [
-                "https://github.com/bytedance/ComfyUI-HyperLoRA"
-            ],
-            "install_type": "git-clone",
-            "description": "Official implementation in ComfyUI of CVPR 2025 paper 'HyperLoRA: Parameter-Efficient Adaptive Generation for Portrait Synthesis'"
-        },
-        {
-            "author": "Yuan-ManX",
-            "title": "ComfyUI-LiveCC",
-            "reference": "https://github.com/Yuan-ManX/ComfyUI-LiveCC",
-            "files": [
-                "https://github.com/Yuan-ManX/ComfyUI-LiveCC"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for LiveCC model."
-        },
-        {
-            "author": "Yuan-ManX",
-            "title": "ComfyUI-Dia",
-            "reference": "https://github.com/Yuan-ManX/ComfyUI-Dia",
-            "files": [
-                "https://github.com/Yuan-ManX/ComfyUI-Dia"
-            ],
-            "install_type": "git-clone",
-            "description": "Make Dia avialbe in ComfyUI."
-        },
-        {
-            "author": "a-und-b",
-            "title": "IC-Light V2 (fal.ai)",
-            "reference": "https://github.com/a-und-b/ComfyUI_IC-Light-v2_fal",
-            "files": [
-                "https://github.com/a-und-b/ComfyUI_IC-Light-v2_fal"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node using the fal.ai API for the IC-Light V2 model"
         }
     ]
 }

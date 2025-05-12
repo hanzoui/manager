@@ -1,16 +1,5 @@
 {
     "custom_nodes": [
-		{
-            "author": "1hew",
-            "title": "ComfyUI 1hewNodes",
-            "id": "ComfyUI-1hewNodes",
-            "reference": "https://github.com/1hew/ComfyUI-1hewNodes",
-            "files": [
-                "https://github.com/1hew/ComfyUI-1hewNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a custom node collection for ComfyUI that provides some utility nodes."
-        },
         {
             "author": "Dr.Lt.Data",
             "title": "ComfyUI-Manager",
@@ -25251,6 +25240,17 @@
             ],
             "install_type": "git-clone",
             "description": "Nodes for running the JoyCaption image captioner VLM."
+        },
+        {
+            "author": "1hew",
+            "title": "ComfyUI 1hewNodes",
+            "id": "ComfyUI-1hewNodes",
+            "reference": "https://github.com/1hew/ComfyUI-1hewNodes",
+            "files": [
+                "https://github.com/1hew/ComfyUI-1hewNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node collection for ComfyUI that provides some utility nodes."
         },
         
 
