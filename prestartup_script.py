@@ -620,6 +620,7 @@ def execute_lazy_install_script(repo_path, executable):
         lines = manager_util.robust_readlines(requirements_path)
         for line in lines:
             package_name = remap_pip_package(line.strip())
+            package_name = package_name.split('#')[0].strip()
             if package_name and not is_installed(package_name):
                 if '--index-url' in package_name:
                     s = package_name.split('--index-url')
