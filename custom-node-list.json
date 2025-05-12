@@ -25667,6 +25667,17 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "Goshe-nite",
+            "title": "GPS' Supplements for ComfyUI",
+            "id": "GPSupps",
+            "reference": "https://github.com/Goshe-nite/comfyui-gps-supplements",
+            "files": [
+                "https://github.com/Goshe-nite/comfyui-gps-supplements"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes to make ComfyUI-Image-Saver and rgthree-comfy more compatible. Allowing Power Lora Loader node to be used with Image Saver node. Also adding nodes to extract Image Saver compatible strings to simplify workflows."
         }
     ]
 }
