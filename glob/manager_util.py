@@ -256,7 +256,7 @@ def get_installed_packages(renew=False):
                     pip_map[normalized_name] = y[1]
         except subprocess.CalledProcessError:
             logging.error("[ComfyUI-Manager] Failed to retrieve the information of installed pip packages.")
-            return set()
+            return {}
 
     return pip_map
 
