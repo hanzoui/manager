@@ -13,6 +13,50 @@
     },
 
     {
+      "name": "LTX-Video Spatial Upscaler v0.9.7",
+      "type": "checkpoint",
+      "base": "LTX-Video",
+      "save_path": "checkpoints/LTXV",
+      "description": "Spatial upscaler model for LTX-Video. This model enhances the spatial resolution of generated videos.",
+      "reference": "https://huggingface.co/Lightricks/LTX-Video",
+      "filename": "ltxv-spatial-upscaler-0.9.7.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-spatial-upscaler-0.9.7.safetensors",
+      "size": "505MB"
+    },
+    {
+      "name": "LTX-Video Temporal Upscaler v0.9.7",
+      "type": "checkpoint",
+      "base": "LTX-Video",
+      "save_path": "checkpoints/LTXV",
+      "description": "Temporal upscaler model for LTX-Video. This model enhances the temporal resolution and smoothness of generated videos.",
+      "reference": "https://huggingface.co/Lightricks/LTX-Video",
+      "filename": "ltxv-temporal-upscaler-0.9.7.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-temporal-upscaler-0.9.7.safetensors",
+      "size": "524MB"
+    },
+    {
+      "name": "LTX-Video 13B v0.9.7",
+      "type": "checkpoint",
+      "base": "LTX-Video",
+      "save_path": "checkpoints/LTXV",
+      "description": "High-resolution quality LTX-Video 13B model.",
+      "reference": "https://huggingface.co/Lightricks/LTX-Video",
+      "filename": "ltxv-13b-0.9.7-dev.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-13b-0.9.7-dev.safetensors",
+      "size": "28.6GB"
+    },
+    {
+      "name": "LTX-Video 13B FP8 v0.9.7",
+      "type": "checkpoint",
+      "base": "LTX-Video",
+      "save_path": "checkpoints/LTXV",
+      "description": "Quantized version of the LTX-Video 13B model, optimized for lower VRAM usage while maintaining high quality.",
+      "reference": "https://huggingface.co/Lightricks/LTX-Video",
+      "filename": "ltxv-13b-0.9.7-dev-fp8.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-13b-0.9.7-dev-fp8.safetensors",
+      "size": "15.7GB"
+    },
+    {
       "name": "Comfy-Org/Wan2.1 i2v 480p 14B (bf16)",
       "type": "diffusion_model",
       "base": "Wan2.1",
@@ -648,52 +692,6 @@
       "filename": "flux_dev_fp8_scaled_diffusion_model.safetensors",
       "url": "https://huggingface.co/comfyanonymous/flux_dev_scaled_fp8_test/resolve/main/flux_dev_fp8_scaled_diffusion_model.safetensors",
       "size": "11.9GB"
-    },
-    
-    {
-      "name": "kijai/MoGe_ViT_L_fp16.safetensors",
-      "type": "MoGe",
-      "base": "MoGe",
-      "save_path": "MoGe",
-      "description": "Safetensors versions of [a/https://github.com/microsoft/MoGe](https://github.com/microsoft/MoGe)",
-      "reference": "https://huggingface.co/Kijai/MoGe_safetensors",
-      "filename": "MoGe_ViT_L_fp16.safetensors",
-      "url": "https://huggingface.co/Kijai/MoGe_safetensors/resolve/main/MoGe_ViT_L_fp16.safetensors",
-      "size": "628MB"
-    },
-    {
-      "name": "kijai/MoGe_ViT_L_fp16.safetensors",
-      "type": "MoGe",
-      "base": "MoGe",
-      "save_path": "MoGe",
-      "description": "Safetensors versions of [a/https://github.com/microsoft/MoGe](https://github.com/microsoft/MoGe)",
-      "reference": "https://huggingface.co/Kijai/MoGe_safetensors",
-      "filename": "MoGe_ViT_L_fp16.safetensors",
-      "url": "https://huggingface.co/Kijai/MoGe_safetensors/resolve/main/MoGe_ViT_L_fp16.safetensors",
-      "size": "1.26GB"
-    },
-
-    {
-      "name": "pulid_flux_v0.9.1.safetensors",
-      "type": "PuLID",
-      "base": "FLUX",
-      "save_path": "pulid",
-      "description": "This is required for PuLID (FLUX)",
-      "reference": "https://huggingface.co/guozinan/PuLID",
-      "filename": "pulid_flux_v0.9.1.safetensors",
-      "url": "https://huggingface.co/guozinan/PuLID/resolve/main/pulid_flux_v0.9.1.safetensors",
-      "size": "1.14GB"
-    },
-    {
-      "name": "pulid_v1.1.safetensors",
-      "type": "PuLID",
-      "base": "SDXL",
-      "save_path": "pulid",
-      "description": "This is required for PuLID (SDXL)",
-      "reference": "https://huggingface.co/guozinan/PuLID",
-      "filename": "pulid_v1.1.safetensors",
-      "url": "https://huggingface.co/guozinan/PuLID/resolve/main/pulid_v1.1.safetensors",
-      "size": "984MB"
     }
   ]
 }
