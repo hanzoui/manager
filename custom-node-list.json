@@ -25198,6 +25198,16 @@
             "install_type": "git-clone",
             "description": "This is a top-tier Snake game node developed for ComfyUI. It lets you play a mini Snake game within the ComfyUI workflow, so you won’t get bored while waiting for image generation (or slacking off at work). Playing is not allowed by Han Cheng."
         },
+        {
+            "author": "pixible",
+            "title": "comfyui-customselector",
+            "reference": "https://github.com/gasparuff/CustomSelector",
+            "files": [
+                "https://github.com/gasparuff/CustomSelector"
+            ],
+            "install_type": "git-clone",
+            "description": "Helps deciding different settings depending on the input string"
+        },
         
 
 
@@ -25646,16 +25656,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "pixible",
-            "title": "comfyui-customselector",
-            "reference": "https://github.com/gasparuff/CustomSelector",
-            "files": [
-                "https://github.com/gasparuff/CustomSelector"
-            ],
-            "install_type": "git-clone",
-            "description": "Helps deciding different settings depending on the input string"
         }
     ]
 }
