@@ -4969,9 +4969,9 @@
 
     {
       "name": "LTX-Video Spatial Upscaler v0.9.7",
-      "type": "checkpoint",
-      "base": "LTX-Video",
-      "save_path": "checkpoints/LTXV",
+      "type": "upscale",
+      "base": "upscale",
+      "save_path": "default",
       "description": "Spatial upscaler model for LTX-Video. This model enhances the spatial resolution of generated videos.",
       "reference": "https://huggingface.co/Lightricks/LTX-Video",
       "filename": "ltxv-spatial-upscaler-0.9.7.safetensors",
@@ -4980,9 +4980,9 @@
     },
     {
       "name": "LTX-Video Temporal Upscaler v0.9.7",
-      "type": "checkpoint",
-      "base": "LTX-Video",
-      "save_path": "checkpoints/LTXV",
+      "type": "upscale",
+      "base": "upscale",
+      "save_path": "default",
       "description": "Temporal upscaler model for LTX-Video. This model enhances the temporal resolution and smoothness of generated videos.",
       "reference": "https://huggingface.co/Lightricks/LTX-Video",
       "filename": "ltxv-temporal-upscaler-0.9.7.safetensors",
