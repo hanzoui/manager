@@ -254,18 +254,20 @@
     ],
     "https://github.com/1hew/ComfyUI-1hewNodes": [
         [
-            "BatchMaskMathOps",
-            "BlendModes",
+            "BlendModesAlpha",
             "CoordinateExtractor",
-            "CroppedImagePaste",
             "ImageAddLabel",
+            "ImageBBoxCrop",
             "ImageBlendModesByCSS",
+            "ImageCropSquare",
             "ImageCropWithBBox",
+            "ImageCroppedPaste",
             "ImageDetailHLFreqSeparation",
             "ImageEditStitch",
             "ImagePlot",
             "LumaMatte",
-            "MaskBlend",
+            "MaskBBoxCrop",
+            "MaskBatchMathOps",
             "MaskMathOps",
             "SliderValueRangeMapping",
             "Solid"
@@ -345,7 +347,13 @@
     "https://github.com/45uee/ComfyUI-Color_Transfer": [
         [
             "ColorPalette",
-            "PaletteTransfer"
+            "ColorTransferReinhard",
+            "PaletteOptimalTransportTransfer",
+            "PaletteRbfTransfer",
+            "PaletteTransfer",
+            "PaletteTransferReinhard",
+            "PalleteTransferClustering",
+            "PalletteSoftTransfer"
         ],
         {
             "title_aux": "ComfyUI-Color_Transfer"
@@ -1574,6 +1582,7 @@
             "DepthToPointCloud",
             "FisheyeDepthEstimator",
             "LoadPointCloud",
+            "LoadTrajectory",
             "OutpaintAnyProjection",
             "PointCloudCleaner",
             "PointCloudUnion",
@@ -1583,6 +1592,7 @@
             "ReprojectDepth",
             "ReprojectImage",
             "SavePointCloud",
+            "SaveTrajectory",
             "TransformPointCloud",
             "TransformToMatrix",
             "TransformToMatrixManual",
@@ -2935,6 +2945,8 @@
             "ReFluxPatcherAdvanced",
             "ReHiDreamPatcher",
             "ReHiDreamPatcherAdvanced",
+            "ReLTXVPatcher",
+            "ReLTXVPatcherAdvanced",
             "ReSD35Patcher",
             "ReSD35PatcherAdvanced",
             "ReWanPatcher",
@@ -4915,7 +4927,8 @@
     ],
     "https://github.com/GrailGreg/images_base64": [
         [
-            "SaveImage64"
+            "SaveImage64",
+            "ShowText64"
         ],
         {
             "title_aux": "Image Saving and Base64 Encoding Script"
@@ -5247,9 +5260,12 @@
             "AdjustMojo",
             "LoadMaskMap",
             "MagicalSaveNode",
+            "MaskMapPrompt",
+            "MaskMapPromptMix",
             "MojoLoader",
             "MojoMaker",
             "SaveMojo",
+            "TEAce",
             "ThermalLatenator"
         ],
         {
@@ -5340,6 +5356,7 @@
             "IG Float",
             "IG Float List",
             "IG Folder",
+            "IG Image Crop",
             "IG Int",
             "IG Interpolate",
             "IG Load Image",
@@ -5350,6 +5367,7 @@
             "IG PointCloud From Cylindrical",
             "IG PointCloud From Depth",
             "IG Save PLY PointCloud",
+            "IG Simple Translate Stitcher",
             "IG Stitch Depth Tiles",
             "IG Stitch Images CV2",
             "IG String",
@@ -6561,7 +6579,8 @@
     "https://github.com/Ky11le/ygo_tools": [
         [
             "DetectInnerBox",
-            "PasteIntoFrame"
+            "PasteIntoFrame",
+            "TextBoxAutoWrap"
         ],
         {
             "title_aux": "ygo_tools"
@@ -6614,7 +6633,8 @@
     "https://github.com/LAOGOU-666/Comfyui-LG_Relight": [
         [
             "LG_Relight",
-            "LG_Relight_Basic"
+            "LG_Relight_Basic",
+            "LG_Relight_Ultra"
         ],
         {
             "title_aux": "Comfyui-LG_Relight"
@@ -13931,14 +13951,14 @@
             "GeminiImageGenerator",
             "GeminiSVGPreview",
             "GeminiSaveSVG",
+            "GeminiSaveText",
             "GeminiSmartPromptGenerator",
+            "GeminiTextSplitter",
             "ListAvailableModels",
             "OllamaAPI",
             "OpenAIAPI",
             "QwenAPI",
-            "SaveTextFile",
-            "TextSplitByDelimiter",
-            "menus"
+            "style_menus"
         ],
         {
             "title_aux": "GeminiOllama ComfyUI Extension"
@@ -14981,7 +15001,8 @@
             "MultiLinePromptAT",
             "RemoveSilence",
             "SaveAudioMW",
-            "StringEditorPersistentTempFileNode",
+            "StringDisplayNode",
+            "StringPauseGateNode",
             "TrimAudio"
         ],
         {
@@ -17514,6 +17535,7 @@
     ],
     "https://github.com/comfyanonymous/ComfyUI": [
         [
+            "APG",
             "AddNoise",
             "AlignYourStepsScheduler",
             "BasicGuider",
@@ -17541,6 +17563,7 @@
             "CLIPVisionEncode",
             "CLIPVisionLoader",
             "Canny",
+            "CaseConverter",
             "CheckpointLoader",
             "CheckpointLoaderSimple",
             "CheckpointSave",
@@ -17778,6 +17801,8 @@
             "RecraftTextToImageNode",
             "RecraftTextToVectorNode",
             "RecraftVectorizeImageNode",
+            "RegexExtract",
+            "RegexMatch",
             "RenormCFG",
             "RepeatImageBatch",
             "RepeatLatentBatch",
@@ -17801,6 +17826,8 @@
             "SaveAnimatedPNG",
             "SaveAnimatedWEBP",
             "SaveAudio",
+            "SaveAudioMP3",
+            "SaveAudioOpus",
             "SaveGLB",
             "SaveImage",
             "SaveImageWebsocket",
@@ -17829,6 +17856,13 @@
             "StableCascade_SuperResolutionControlnet",
             "StableZero123_Conditioning",
             "StableZero123_Conditioning_Batched",
+            "StringCompare",
+            "StringConcatenate",
+            "StringContains",
+            "StringLength",
+            "StringReplace",
+            "StringSubstring",
+            "StringTrim",
             "StubConstantImage",
             "StubFloat",
             "StubImage",
@@ -19621,6 +19655,8 @@
             "Alpha Crop and Position Image",
             "GenerateTimestamp",
             "GetMostCommonColors",
+            "OpenAI Image 2 Text",
+            "PadMask",
             "ReadImage",
             "RenderOpenStreetMapTile",
             "Shrink Image"
@@ -19975,7 +20011,6 @@
             "FL_SaveCSV",
             "FL_SaveImages",
             "FL_SaveWebPImage(SaveImage)",
-            "FL_SceneCut",
             "FL_SchedulerStrings",
             "FL_SendToDiscordWebhook",
             "FL_SeparateMaskComponents",
@@ -19990,8 +20025,11 @@
             "FL_UnloadAllModels",
             "FL_UnloadModel",
             "FL_UpscaleModel",
+            "FL_VideoCadence",
+            "FL_VideoCadenceCompile",
             "FL_VideoCaptionSaver",
             "FL_VideoCropMask",
+            "FL_VideoCut",
             "FL_VideoRecompose",
             "FL_VideoTrim",
             "FL_WF_Agent",
@@ -30264,7 +30302,7 @@
             "PersianText"
         ],
         {
-            "author": "ShahKoorosh",
+            "author": "shahkoorosh",
             "description": "A powerful ComfyUI node for rendering text with advanced styling options, including full support for Persian/Farsi and Arabic scripts.",
             "nickname": "PersianText",
             "title": "ComfyUI-PersianText",
