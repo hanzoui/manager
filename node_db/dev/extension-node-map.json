@@ -159,6 +159,7 @@
             "ImageDetailHLFreqSeparation",
             "ImageEditStitch",
             "ImagePlot",
+            "ImageResizeUniversal",
             "LumaMatte",
             "MaskBBoxCrop",
             "MaskBatchMathOps",
@@ -6295,6 +6296,7 @@
         [
             "ClusterBroadcastLoadedImage",
             "ClusterBroadcastTensor",
+            "ClusterEndSubgraph",
             "ClusterExecuteCurrentWorkflow",
             "ClusterExecuteWorkflow",
             "ClusterFanInImages",
@@ -6309,9 +6311,12 @@
             "ClusterGatherMasks",
             "ClusterGetInstanceWorkItemFromBatch",
             "ClusterInfo",
+            "ClusterInsertAtIndex",
             "ClusterListenTensorBroadcast",
             "ClusterSplitBatchToList",
-            "ClusterStridedReorder"
+            "ClusterStartSubgraph",
+            "ClusterStridedReorder",
+            "ClusterUseSubgraph"
         ],
         {
             "title_aux": "ComfyUI_Cluster [WIP]"
