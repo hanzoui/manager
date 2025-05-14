@@ -2949,6 +2949,7 @@
             "ReLTXVPatcherAdvanced",
             "ReSD35Patcher",
             "ReSD35PatcherAdvanced",
+            "ReSDPatcher",
             "ReWanPatcher",
             "ReWanPatcherAdvanced",
             "SD35Loader",
@@ -5828,6 +5829,14 @@
         ],
         {
             "title_aux": "ComfyUI-AI-Assistant"
+        }
+    ],
+    "https://github.com/Jacky-MYQ/comfyui-DataCleaning": [
+        [
+            "CleanData"
+        ],
+        {
+            "title_aux": "comfyui-DataCleaning"
         }
     ],
     "https://github.com/Jacky-MYQ/comfyui-rgb2cmyk": [
@@ -9274,6 +9283,14 @@
             "title_aux": "DeepFuze"
         }
     ],
+    "https://github.com/SanDiegoDude/ComfyUI-SaveAudioMP3": [
+        [
+            "SaveAudioMP3"
+        ],
+        {
+            "title_aux": "ComfyUI-SaveAudioMP3"
+        }
+    ],
     "https://github.com/SayanoAI/Comfy-RVC": [
         [
             "Any2ListNode",
@@ -10111,6 +10128,16 @@
             "title_aux": "ComfyUI_AnimationNodes"
         }
     ],
+    "https://github.com/Sinphaltimus/comfyui_fedcoms_node_pack": [
+        [
+            "EnhancedModelMetadataReader",
+            "ModelDataExtractor",
+            "ModelMetadataReader"
+        ],
+        {
+            "title_aux": "comfyui_fedcoms_node_pack"
+        }
+    ],
     "https://github.com/SirLatore/ComfyUI-IPAdapterWAN": [
         [
             "ApplyIPAdapterWAN",
@@ -10329,6 +10356,14 @@
         {
             "author": "yangxy (yangtao9009@gmail.com)",
             "title_aux": "ComfyUI-GPENO"
+        }
+    ],
+    "https://github.com/SparknightLLC/ComfyUI-ImageAutosize": [
+        [
+            "ImageAutosize"
+        ],
+        {
+            "title_aux": "ComfyUI-ImageAutosize"
         }
     ],
     "https://github.com/SparknightLLC/ComfyUI-ImageAutotone": [
@@ -12894,6 +12929,14 @@
         ],
         {
             "title_aux": "ComfyUI-LiveCC"
+        }
+    ],
+    "https://github.com/Yuan-ManX/ComfyUI-Multiverse": [
+        [
+            "PlayGame"
+        ],
+        {
+            "title_aux": "ComfyUI-Multiverse"
         }
     ],
     "https://github.com/Yuan-ManX/ComfyUI-Muyan-TTS": [
@@ -24713,6 +24756,14 @@
             "title_aux": "comfyui-jk-easy-nodes"
         }
     ],
+    "https://github.com/krmahil/comfyui-hollow-preserve": [
+        [
+            "RemoveEnclosedMaskedAreas"
+        ],
+        {
+            "title_aux": "comfyui-hollow-preserve"
+        }
+    ],
     "https://github.com/kukuo6666/ComfyUI-Equirect": [
         [
             "CubemapToEquirect",
@@ -25253,6 +25304,14 @@
         ],
         {
             "title_aux": "ComfyUI-TCD-Sampler"
+        }
+    ],
+    "https://github.com/lihaoyun6/ComfyUI-CSV-Random-Picker": [
+        [
+            "CSVRandomPicker"
+        ],
+        {
+            "title_aux": "ComfyUI-CSV-Random-Picker"
         }
     ],
     "https://github.com/lingha0h/comfyui_kj": [
@@ -26599,6 +26658,14 @@
             "title_aux": "ComfyUI-Liebs-Picker"
         }
     ],
+    "https://github.com/marklieberman/ComfyUI-Liebs-Title": [
+        [
+            "LiebsTitleVar"
+        ],
+        {
+            "title_aux": "ComfyUI-Liebs-Title"
+        }
+    ],
     "https://github.com/marklieberman/ComfyUI-Liebs-Toast": [
         [
             "LiebsToast"
@@ -27696,6 +27763,15 @@
             "title_aux": "comfyui-gimp-nodes"
         }
     ],
+    "https://github.com/neggo/comfyui-sambanova": [
+        [
+            "SambaNova API Node",
+            "SambaNovaNode"
+        ],
+        {
+            "title_aux": "comfyui-sambanova"
+        }
+    ],
     "https://github.com/neph1/comfyui-smooth-step-lora-loader": [
         [
             "Smooth_Step_Lora_Loader"
@@ -28016,6 +28092,21 @@
         ],
         {
             "title_aux": "Node_Fun_ComfyUI"
+        }
+    ],
+    "https://github.com/northumber/ComfyUI-northTools": [
+        [
+            "BooleanIndexesToString",
+            "ConcatHistoryString",
+            "ExtractMetadataByKey",
+            "ImageToTrue",
+            "LoadImagesFromDirByIndexBatch",
+            "LoadImagesFromDirByIndexList",
+            "LoadImagesFromDirList",
+            "SumIntegers"
+        ],
+        {
+            "title_aux": "ComfyUI-northTools"
         }
     ],
     "https://github.com/nosiu/comfyui-instantId-faceswap": [
@@ -31905,6 +31996,16 @@
             "title_aux": "comfyui_ssl_gemini_EXP"
         }
     ],
+    "https://github.com/tavyra/ComfyUI_Curves": [
+        [
+            "Curve Visualizer",
+            "RGB Curve Editor",
+            "RGBCurvesAdvanced"
+        ],
+        {
+            "title_aux": "ComfyUI_Curves"
+        }
+    ],
     "https://github.com/teward/ComfyUI-Helper-Nodes": [
         [
             "HelperNodes_CfgScale",
@@ -31975,6 +32076,16 @@
         ],
         {
             "title_aux": "ComfyUI Stable Video Diffusion"
+        }
+    ],
+    "https://github.com/theshubzworld/ComfyUI-FaceCalloutNode": [
+        [
+            "FaceCalloutEffect",
+            "IntegratedFaceComposite",
+            "IsolatedFaceCallout"
+        ],
+        {
+            "title_aux": "ComfyUI-FaceCalloutNode"
         }
     ],
     "https://github.com/theshubzworld/ComfyUI-SD3.5-Latent-Size-Picker": [
@@ -33589,6 +33700,15 @@
         ],
         {
             "title_aux": "ComfyUI-Stability-AI-API"
+        }
+    ],
+    "https://github.com/yichengup/ComfyUI-LinearTransition": [
+        [
+            "GradientTransition",
+            "LinearTransition"
+        ],
+        {
+            "title_aux": "ComfyUI-LinearTransition"
         }
     ],
     "https://github.com/yichengup/ComfyUI-VideoBlender": [

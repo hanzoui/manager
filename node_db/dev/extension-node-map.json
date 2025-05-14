@@ -148,18 +148,20 @@
     ],
     "https://github.com/1hew/ComfyUI-1hewNodes": [
         [
-            "BatchMaskMathOps",
-            "BlendModes",
+            "BlendModesAlpha",
             "CoordinateExtractor",
-            "CroppedImagePaste",
             "ImageAddLabel",
+            "ImageBBoxCrop",
             "ImageBlendModesByCSS",
+            "ImageCropSquare",
             "ImageCropWithBBox",
+            "ImageCroppedPaste",
             "ImageDetailHLFreqSeparation",
             "ImageEditStitch",
             "ImagePlot",
             "LumaMatte",
-            "MaskBlend",
+            "MaskBBoxCrop",
+            "MaskBatchMathOps",
             "MaskMathOps",
             "SliderValueRangeMapping",
             "Solid"
@@ -599,6 +601,7 @@
             "TUZZI-DataloungeScraper",
             "TUZZI-DirectoryImagePromptReader",
             "TUZZI-GeminiFlash25",
+            "TUZZI-GroqNode",
             "TUZZI-ImageAudioToVideo",
             "TUZZI-ImageExtractorSaver",
             "TUZZI-LineCounter",
@@ -849,7 +852,10 @@
         [
             "ConsoleOutput",
             "FilePathSelectorFromDirectory",
-            "StringProcessor"
+            "MostRecentFileSelector",
+            "RaftOpticalFlowNode",
+            "StringProcessor",
+            "TwoImageConcatenator"
         ],
         {
             "title_aux": "ComfyUI-Buff-Nodes [WIP]"
@@ -1307,6 +1313,7 @@
     ],
     "https://github.com/George0726/ComfyUI-video-accessory": [
         [
+            "VideoAcc_CameraTrajectoryAdvance",
             "VideoAcc_CameraTrajectoryRecam",
             "VideoAcc_ImageResizeAdvanced",
             "VideoAcc_ImageUpscaleVideo",
@@ -1772,6 +1779,19 @@
             "title_aux": "comfy-tif-support"
         }
     ],
+    "https://github.com/MakkiShizu/ComfyUI-MakkiTools": [
+        [
+            "GetImageNthCount",
+            "ImageChannelSeparate",
+            "ImageCountConcatenate",
+            "ImageHeigthStitch",
+            "ImageWidthStitch",
+            "MergeImageChannels"
+        ],
+        {
+            "title_aux": "ComfyUI-MakkiTools"
+        }
+    ],
     "https://github.com/ManuShamil/ComfyUI_BodyEstimation_Nodes": [
         [
             "CogitareLabsPoseIDExtractor"
@@ -1788,6 +1808,17 @@
         ],
         {
             "title_aux": "ComfyUI-MoviePy"
+        }
+    ],
+    "https://github.com/Maxed-Out-99/ComfyUI-MaxedOut": [
+        [
+            "Flux Empty Latent Image",
+            "SDXL Resolutions",
+            "Sd 1.5 Empty Latent Image",
+            "Sdxl Empty Latent Image"
+        ],
+        {
+            "title_aux": "ComfyUI-MaxedOut"
         }
     ],
     "https://github.com/Maxim-Dey/ComfyUI-MaksiTools": [
@@ -2113,6 +2144,14 @@
         ],
         {
             "title_aux": "ComfyUI-Folder-Images-Preview [UNSAFE]"
+        }
+    ],
+    "https://github.com/SKBv0/ComfyUI-RetroEngine": [
+        [
+            "RetroEngineNode"
+        ],
+        {
+            "title_aux": "Retro Engine Node for ComfyUI"
         }
     ],
     "https://github.com/SS-snap/ComfyUI-Snap_Processing": [
@@ -2547,6 +2586,15 @@
         ],
         {
             "title_aux": "comfy-latent-nodes [UNSAFE]"
+        }
+    ],
+    "https://github.com/VictorLopes643/ComfyUI-Video-Dataset-Tools": [
+        [
+            "VideoFrameExtractor",
+            "VideoFrameSaver"
+        ],
+        {
+            "title_aux": "ComfyUI-Video-Dataset-Tools [WIP]"
         }
     ],
     "https://github.com/Video3DGenResearch/comfyui-batch-input-node": [
@@ -3198,6 +3246,14 @@
             "title_aux": "Bmad Nodes [UNSAFE]"
         }
     ],
+    "https://github.com/brace-great/comfyui-eim": [
+        [
+            "EncryptImage"
+        ],
+        {
+            "title_aux": "comfyui-eim"
+        }
+    ],
     "https://github.com/bruce007lee/comfyui-cleaner": [
         [
             "cleaner"
@@ -3390,6 +3446,7 @@
     ],
     "https://github.com/comfyanonymous/ComfyUI": [
         [
+            "APG",
             "AddNoise",
             "AlignYourStepsScheduler",
             "BasicGuider",
@@ -3417,6 +3474,7 @@
             "CLIPVisionEncode",
             "CLIPVisionLoader",
             "Canny",
+            "CaseConverter",
             "CheckpointLoader",
             "CheckpointLoaderSimple",
             "CheckpointSave",
@@ -3654,6 +3712,8 @@
             "RecraftTextToImageNode",
             "RecraftTextToVectorNode",
             "RecraftVectorizeImageNode",
+            "RegexExtract",
+            "RegexMatch",
             "RenormCFG",
             "RepeatImageBatch",
             "RepeatLatentBatch",
@@ -3677,6 +3737,8 @@
             "SaveAnimatedPNG",
             "SaveAnimatedWEBP",
             "SaveAudio",
+            "SaveAudioMP3",
+            "SaveAudioOpus",
             "SaveGLB",
             "SaveImage",
             "SaveImageWebsocket",
@@ -3705,6 +3767,13 @@
             "StableCascade_SuperResolutionControlnet",
             "StableZero123_Conditioning",
             "StableZero123_Conditioning_Batched",
+            "StringCompare",
+            "StringConcatenate",
+            "StringContains",
+            "StringLength",
+            "StringReplace",
+            "StringSubstring",
+            "StringTrim",
             "StubConstantImage",
             "StubFloat",
             "StubImage",
@@ -4089,6 +4158,8 @@
             "Alpha Crop and Position Image",
             "GenerateTimestamp",
             "GetMostCommonColors",
+            "OpenAI Image 2 Text",
+            "PadMask",
             "ReadImage",
             "RenderOpenStreetMapTile",
             "Shrink Image"
@@ -4745,6 +4816,18 @@
         ],
         {
             "title_aux": "ComfyUI PaintingCoderUtils Nodes [WIP]"
+        }
+    ],
+    "https://github.com/jax-explorer/ComfyUI-DreamO": [
+        [
+            "BgRmModelLoad",
+            "DreamOGenerate",
+            "DreamOLoadModel",
+            "DreamOLoadModelFromLocal",
+            "FaceModelLoad"
+        ],
+        {
+            "title_aux": "ComfyUI-DreamO"
         }
     ],
     "https://github.com/jcomeme/ComfyUI-AsunaroTools": [
@@ -6289,6 +6372,15 @@
             "title_aux": "Kosmos2_BBox_Cutter Models"
         }
     ],
+    "https://github.com/p1atdev/comfyui-aesthetic-predictor": [
+        [
+            "LoadAestheticPredictorNode",
+            "PredictAestheticScore"
+        ],
+        {
+            "title_aux": "comfyui-aesthetic-predictor"
+        }
+    ],
     "https://github.com/pamparamm/ComfyUI-ppm": [
         [
             "AttentionCouplePPM",
@@ -6548,7 +6640,8 @@
     ],
     "https://github.com/rickyars/sd-cn-animation": [
         [
-            "SDCNAnimation"
+            "SDCNAnimation",
+            "SDCNAnimationAdvanced"
         ],
         {
             "title_aux": "sd-cn-animation"
@@ -6797,6 +6890,8 @@
     "https://github.com/silveroxides/ComfyUI_ReduxEmbedToolkit": [
         [
             "LoadReduxEmb",
+            "LoadT5XXLEmb",
+            "SaveCondsEmb",
             "SaveReduxEmb"
         ],
         {
