@@ -26049,6 +26049,17 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "TrophiHunter",
+            "title": "Photography Nodes",
+            "id": "comfyui-photography-nodes",
+            "reference": "https://www.trophihunter.com/software-plugins/comfyui_photography_nodes",
+            "files": [
+                "https://github.com/TrophiHunter/ComfyUI_Photography_Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "I wanted a way to batch add effects to images inside Comfyui so I made these nodes. Some of the effects should be ordered specifically so they stack and are effecting the image emulating camera effectsI made some workflows to show you the correct order."
         }
     ]
 }
