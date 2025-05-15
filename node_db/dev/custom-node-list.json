@@ -11,7 +11,36 @@
 
         
         
-        
+        {
+            "author": "virallover",
+            "title": "comfyui-virallover",
+            "reference": "https://github.com/maizerrr/comfyui-code-nodes",
+            "files": [
+                "https://github.com/maizerrr/comfyui-code-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: BBox Drawer, BBox Parser, Dummy Passthrough Node, Mask Editor, GhatGPT Node"
+        },
+        {
+            "author": "virallover",
+            "title": "comfyui-virallover",
+            "reference": "https://github.com/virallover/comfyui-virallover",
+            "files": [
+                "https://github.com/virallover/comfyui-virallover"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Download and Load Lora Model Only"
+        },
+        {
+            "author": "nobandegani",
+            "title": "Ino Custom Nodes",
+            "reference": "https://github.com/nobandegani/comfyui_ino_nodes",
+            "files": [
+                "https://github.com/nobandegani/comfyui_ino_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: BeDrive Save Image, BeDrive Save File, BeDrive Get Parent ID, Ino Parse File Path, Ino Not Boolean, Ino Count Files"
+        },
         {
             "author": "jax-explorer",
             "title": "ComfyUI-DreamO",
@@ -70,7 +99,7 @@
                 "https://github.com/barakapa/barakapa-nodes"
             ],
             "install_type": "git-clone",
-            "description": "Custom ComfyUI nodes, such as Save Workflow, Prompt Token Counter"
+            "description": "Compare and save unique workflows, count tokens in prompt, and other utility."
         },
         {
             "author": "Maxed-Out-99",
@@ -331,16 +360,6 @@
             ],
             "install_type": "git-clone",
             "description": "Custom nodes for managing, saving and loading of Redux/Style based embeddings."
-        },
-        {
-            "author": "Jpzz",
-            "title": "ComfyUI-VirtualInteraction [UNSAFE]",
-            "reference": "https://github.com/Jpzz/ComfyUI-VirtualInteraction",
-            "files": [
-                "https://github.com/Jpzz/ComfyUI-VirtualInteraction"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: virtual interaction custom node when using generative movie\n[w/This nodepack contains a node which is reading arbitrary excel file.]"
         },
         {
             "author": "StaffsGull",
@@ -1421,7 +1440,7 @@
                 "https://github.com/BuffMcBigHuge/ComfyUI-Buff-Nodes"
             ],
             "install_type": "git-clone",
-            "description": "Assorted Nodes by BuffMcBigHuge"
+            "description": "Several quality-of-life batch operation and string manipulation nodes."
         },
         {
             "author": "ritikvirus",

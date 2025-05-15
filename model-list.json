@@ -5043,6 +5043,17 @@
       "filename": "ltxv-13b-0.9.7-distilled-lora128.safetensors",
       "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-13b-0.9.7-distilled-lora128.safetensors",
       "size": "1.33GB"
+    },
+    {
+      "name": "Latent Bridge Matching for Image Relighting",
+      "type": "diffusion_model",
+      "base": "LBM",
+      "save_path": "diffusion_models/LBM",
+      "description": "Latent Bridge Matching (LBM) Relighting model",
+      "reference": "https://huggingface.co/jasperai/LBM_relighting",
+      "filename": "LBM_relighting.safetensors",
+      "url": "https://huggingface.co/jasperai/LBM_relighting/resolve/main/model.safetensors",
+      "size": "5.02GB"
     }
   ]
 }

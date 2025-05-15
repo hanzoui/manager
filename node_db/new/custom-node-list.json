@@ -12,6 +12,86 @@
         
         
         {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-Step1X-3D",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-Step1X-3D",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-Step1X-3D"
+            ],
+            "install_type": "git-clone",
+            "description": "Make Step1X-3D avialbe in ComfyUI."
+        },
+        {
+            "author": "AEmotionStudio",
+            "title": "ComfyUI-MagnifyGlass",
+            "reference": "https://github.com/AEmotionStudio/ComfyUI-MagnifyGlass",
+            "files": [
+                "https://github.com/AEmotionStudio/ComfyUI-MagnifyGlass"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-MagnifyGlass: A powerful & customizable magnifying glass for ComfyUI. Zoom into canvas details with smooth controls, configurable activation, custom styles (shape, size, border) & WebGL performance."
+        },
+        {
+            "author": "ratatule2",
+            "title": "ComfyUI-LBMWrapper",
+            "reference": "https://github.com/ratatule2/ComfyUI-LBMWrapper",
+            "files": [
+                "https://github.com/ratatule2/ComfyUI-LBMWrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-LBMWrapper is a user-friendly interface designed to simplify the integration of lightweight models into your projects. It streamlines workflows by providing essential tools for managing and deploying models with ease."
+        },
+        {
+            "author": "godmt",
+            "title": "ComfyUI-IP-Composer",
+            "reference": "https://github.com/godmt/ComfyUI-IP-Composer",
+            "files": [
+                "https://github.com/godmt/ComfyUI-IP-Composer"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI wrapper of IP-Composer"
+        },
+        {
+            "author": "Sayene",
+            "title": "comfyui-base64-to-image-size",
+            "reference": "https://github.com/Sayene/comfyui-base64-to-image-size",
+            "files": [
+                "https://github.com/Sayene/comfyui-base64-to-image-size"
+            ],
+            "install_type": "git-clone",
+            "description": "Loads an image and its transparency mask from a base64-encoded data URI. This is useful for API connections as you can transfer data directly rather than specify a file location."
+        },
+        {
+            "author": "magic-eraser-org",
+            "title": "ComfyUI-Unwatermark",
+            "reference": "https://github.com/magic-eraser-org/ComfyUI-Unwatermark",
+            "files": [
+                "https://github.com/magic-eraser-org/ComfyUI-Unwatermark"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-Unwatermark: A ComfyUI custom node to intelligently remove watermarks from images using the unwatermark.ai API.\nThis custom node for ComfyUI allows you to easily remove watermarks from your images by leveraging the power of the unwatermark.ai API."
+        },
+        {
+            "author": "mw",
+            "title": "ComfyUI_ACE-Step",
+            "reference": "https://github.com/billwuhao/ComfyUI_ACE-Step",
+            "files": [
+                "https://github.com/billwuhao/ComfyUI_ACE-Step"
+            ],
+            "install_type": "git-clone",
+            "description": "ACE-Step: A Step Towards Music Generation Foundation Model"
+        },
+        {
+            "author": "xuhongming251",
+            "title": "ComfyUI-Jimeng",
+            "reference": "https://github.com/xuhongming251/ComfyUI-Jimeng",
+            "files": [
+                "https://github.com/xuhongming251/ComfyUI-Jimeng"
+            ],
+            "install_type": "git-clone",
+            "description": "for use jimeng ai in comfyui"
+        },
+        {
             "author": "TrophiHunter",
             "title": "Photography Nodes",
             "id": "comfyui-photography-nodes",
@@ -318,13 +398,13 @@
         },
         {
             "author": "krmahil",
-            "title": "comfyui-hollow-preserve",
+            "title": "Hollow Preserve",
             "reference": "https://github.com/krmahil/comfyui-hollow-preserve",
             "files": [
                 "https://github.com/krmahil/comfyui-hollow-preserve"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI node to remove enclosed areas from masks for better inpainting"
+            "description": "A ComfyUI node that breaks closed loops in masks to prevent inpainting models from modifying enclosed regions"
         },
         {
             "author": "Yuan-ManX",
@@ -494,13 +574,13 @@
         },
         {
             "author": "IIs-fanta",
-            "title": "ComfyUI-SnakeGameNode",
-            "reference": "https://github.com/IIs-fanta/ComfyUI-SnakeGameNode",
+            "title": "ComfyUI-FANTA-GameBox",
+            "reference": "https://github.com/IIs-fanta/ComfyUI-FANTA-GameBox",
             "files": [
-                "https://github.com/IIs-fanta/ComfyUI-SnakeGameNode"
+                "https://github.com/IIs-fanta/ComfyUI-FANTA-GameBox"
             ],
             "install_type": "git-clone",
-            "description": "This is a top-tier Snake game node developed for ComfyUI. It lets you play a mini Snake game within the ComfyUI workflow, so you won’t get bored while waiting for image generation (or slacking off at work). Playing is not allowed by Han Cheng."
+            "description": "Nodes for playing mini-games with ComfyUI."
         },
         {
             "author": "Yuan-ManX",

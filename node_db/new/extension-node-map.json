@@ -1185,6 +1185,7 @@
     ],
     "https://github.com/AIWarper/ComfyUI-NormalCrafterWrapper": [
         [
+            "DetailTransfer",
             "NormalCrafterNode"
         ],
         {
@@ -2520,6 +2521,15 @@
         ],
         {
             "title_aux": "ComfyUI-DiaTTS"
+        }
+    ],
+    "https://github.com/BobsBlazed/Bobs_Latent_Optimizer/raw/refs/heads/main/Bobs_Latent_Optimizer.py": [
+        [
+            "BobsLatentNode",
+            "BobsLatentNodeAdvanced"
+        ],
+        {
+            "title_aux": "Bobs_Latent_Optimizer"
         }
     ],
     "https://github.com/BoyuanJiang/FitDiT-ComfyUI": [
@@ -4877,7 +4887,8 @@
         [
             "DiffusersImageOutpaint",
             "EncodeDiffusersOutpaintPrompt",
-            "LoadDiffusersOutpaintModels",
+            "LoadDiffuserControlnet",
+            "LoadDiffuserModel",
             "PadImageForDiffusersOutpaint"
         ],
         {
@@ -5480,7 +5491,7 @@
             "title_aux": "IG-Motion-Search"
         }
     ],
-    "https://github.com/IIs-fanta/ComfyUI-SnakeGameNode": [
+    "https://github.com/IIs-fanta/ComfyUI-FANTA-GameBox": [
         [
             "BilliardsGameNode",
             "BrickBreakerNode",
@@ -5488,7 +5499,7 @@
             "SnakeGameNode"
         ],
         {
-            "title_aux": "ComfyUI-SnakeGameNode"
+            "title_aux": "ComfyUI-FANTA-GameBox"
         }
     ],
     "https://github.com/ITurchenko/ComfyUI-SizeFromArray": [
@@ -7630,7 +7641,7 @@
             "UploadToPushOver"
         ],
         {
-            "title_aux": "ComfyUI_UploadToPushOver"
+            "title_aux": "Upload to PushOver"
         }
     ],
     "https://github.com/MilitantHitchhiker/MilitantHitchhiker-SwitchbladePack": [
@@ -9441,6 +9452,14 @@
         ],
         {
             "title_aux": "Comfy-RVC"
+        }
+    ],
+    "https://github.com/Sayene/comfyui-base64-to-image-size": [
+        [
+            "LoadImageFromBase64Size"
+        ],
+        {
+            "title_aux": "comfyui-base64-to-image-size"
         }
     ],
     "https://github.com/Scholar01/ComfyUI-Keyframe": [
@@ -12837,6 +12856,7 @@
     "https://github.com/XieJunchen/comfyUI_LLM": [
         [
             "ComfyUI_LLM_Ollama",
+            "DeepSeek_Online",
             "StringArrayFormatter",
             "StringArrayIndexer"
         ],
@@ -13177,6 +13197,23 @@
         ],
         {
             "title_aux": "ComfyUI-SoundHub"
+        }
+    ],
+    "https://github.com/Yuan-ManX/ComfyUI-Step1X-3D": [
+        [
+            "GeometryGeneration",
+            "GeometryLabelGeneration",
+            "LoadInputImage",
+            "LoadStep1X3DGeometryLabelModel",
+            "LoadStep1X3DGeometryModel",
+            "LoadStep1X3DTextureModel",
+            "LoadUntexturedMesh",
+            "SaveTexturedMesh",
+            "SaveUntexturedMesh",
+            "TexureSynthsis"
+        ],
+        {
+            "title_aux": "ComfyUI-Step1X-3D"
         }
     ],
     "https://github.com/Yuan-ManX/ComfyUI-StyleStudio": [
@@ -15238,6 +15275,23 @@
             "title_aux": "ComfyUI_TextAssets"
         }
     ],
+    "https://github.com/billwuhao/ComfyUI_ACE-Step": [
+        [
+            "ACELoRALoader",
+            "ACEModelLoader",
+            "ACEStepEdit",
+            "ACEStepExtend",
+            "ACEStepGen",
+            "ACEStepRepainting",
+            "GenerationParameters",
+            "LyricsLangSwitch",
+            "MultiLineLyrics",
+            "MultiLinePromptACES"
+        ],
+        {
+            "title_aux": "ComfyUI_ACE-Step"
+        }
+    ],
     "https://github.com/billwuhao/ComfyUI_AudioTools": [
         [
             "AddSubtitlesToVideo",
@@ -17223,9 +17277,12 @@
             "LayerUtility: JoyCaption2",
             "LayerUtility: JoyCaption2ExtraOptions",
             "LayerUtility: JoyCaption2Split",
+            "LayerUtility: JoyCaptionBeta1",
+            "LayerUtility: JoyCaptionBeta1ExtraOptions",
             "LayerUtility: LaMa",
             "LayerUtility: LlamaVision",
             "LayerUtility: LoadJoyCaption2Model",
+            "LayerUtility: LoadJoyCaptionBeta1Model",
             "LayerUtility: LoadPSD",
             "LayerUtility: LoadSmolLM2Model",
             "LayerUtility: LoadSmolVLMModel",
@@ -20906,6 +20963,18 @@
         ],
         {
             "title_aux": "nsfwrecog-comfyui"
+        }
+    ],
+    "https://github.com/godmt/ComfyUI-IP-Composer": [
+        [
+            "IPCompConceptMerge",
+            "IPCompConceptSubspace",
+            "IPCompLoadOpenCLIP",
+            "IPLoadConceptMatrix",
+            "IPSaveConceptMatrix"
+        ],
+        {
+            "title_aux": "ComfyUI-IP-Composer"
         }
     ],
     "https://github.com/godmt/ComfyUI-List-Utils": [
@@ -24980,7 +25049,7 @@
             "RemoveEnclosedMaskedAreas"
         ],
         {
-            "title_aux": "comfyui-hollow-preserve"
+            "title_aux": "Hollow Preserve"
         }
     ],
     "https://github.com/kukuo6666/ComfyUI-Equirect": [
@@ -26764,6 +26833,14 @@
         ],
         {
             "title_aux": "ComfyUI-V-Prediction-Node"
+        }
+    ],
+    "https://github.com/magic-eraser-org/ComfyUI-Unwatermark": [
+        [
+            "Remove Watermark"
+        ],
+        {
+            "title_aux": "ComfyUI-Unwatermark"
         }
     ],
     "https://github.com/mang01010/MangoNodePack": [
@@ -29398,6 +29475,15 @@
         ],
         {
             "title_aux": "ComfyUI-MistralAI-API"
+        }
+    ],
+    "https://github.com/ratatule2/ComfyUI-LBMWrapper": [
+        [
+            "LBMSampler",
+            "LoadLBMModel"
+        ],
+        {
+            "title_aux": "ComfyUI-LBMWrapper"
         }
     ],
     "https://github.com/ratulrafsan/Comfyui-SAL-VTON": [
@@ -33773,6 +33859,16 @@
         ],
         {
             "title_aux": "ComfyUI-GPEN"
+        }
+    ],
+    "https://github.com/xuhongming251/ComfyUI-Jimeng": [
+        [
+            "JimengAPIClient",
+            "JimengImage2Video",
+            "PreviewVideoFromUrl"
+        ],
+        {
+            "title_aux": "ComfyUI-Jimeng"
         }
     ],
     "https://github.com/xuhongming251/ComfyUI-MuseTalkUtils": [

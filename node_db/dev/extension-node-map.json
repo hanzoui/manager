@@ -1456,17 +1456,6 @@
             "title_aux": "comfy-consistency-vae"
         }
     ],
-    "https://github.com/Jpzz/ComfyUI-VirtualInteraction": [
-        [
-            "JoinPromptNode",
-            "JsonParserNode",
-            "ShowTextNode",
-            "UnzipPromptNode"
-        ],
-        {
-            "title_aux": "ComfyUI-VirtualInteraction [UNSAFE]"
-        }
-    ],
     "https://github.com/Junst/ComfyUI-PNG2SVG2PNG": [
         [
             "PNG2SVG2PNG"
@@ -5875,6 +5864,18 @@
             "title_aux": "comfyui-energycost"
         }
     ],
+    "https://github.com/maizerrr/comfyui-code-nodes": [
+        [
+            "BBoxDrawNode",
+            "BBoxParseNode",
+            "DummyNode",
+            "MaskEditorNode",
+            "OpenAIQueryNode"
+        ],
+        {
+            "title_aux": "comfyui-virallover"
+        }
+    ],
     "https://github.com/majorsauce/comfyui_indieTools": [
         [
             "IndCutByMask",
@@ -6290,6 +6291,19 @@
         ],
         {
             "title_aux": "ComfyUI-PromptUtilities"
+        }
+    ],
+    "https://github.com/nobandegani/comfyui_ino_nodes": [
+        [
+            "Ino_CountFiles",
+            "Ino_GetParentID",
+            "Ino_NotBoolean",
+            "Ino_ParseFilePath",
+            "Ino_SaveFile",
+            "Ino_SaveImage"
+        ],
+        {
+            "title_aux": "Ino Custom Nodes"
         }
     ],
     "https://github.com/nomcycle/ComfyUI_Cluster": [
@@ -7309,6 +7323,14 @@
         ],
         {
             "title_aux": "ComfyUI_Toolbox"
+        }
+    ],
+    "https://github.com/virallover/comfyui-virallover": [
+        [
+            "DownloadAndLoadLoraModelOnly"
+        ],
+        {
+            "title_aux": "comfyui-virallover"
         }
     ],
     "https://github.com/vladp0727/Comfyui-with-Furniture": [

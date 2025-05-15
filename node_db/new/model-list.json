@@ -1,6 +1,18 @@
 {
   "models": [
     {
+      "name": "Latent Bridge Matching for Image Relighting",
+      "type": "diffusion_model",
+      "base": "LBM",
+      "save_path": "diffusion_models/LBM",
+      "description": "Latent Bridge Matching (LBM) Relighting model",
+      "reference": "https://huggingface.co/jasperai/LBM_relighting",
+      "filename": "LBM_relighting.safetensors",
+      "url": "https://huggingface.co/jasperai/LBM_relighting/resolve/main/model.safetensors",
+      "size": "5.02GB"
+    },
+
+    {
       "name": "LTX-Video 13B Distilled v0.9.7",
       "type": "checkpoint",
       "base": "LTX-Video",
@@ -679,40 +691,6 @@
       "filename": "sigclip_vision_patch14_384.safetensors",
       "url": "https://huggingface.co/Comfy-Org/sigclip_vision_384/resolve/main/sigclip_vision_patch14_384.safetensors",
       "size": "857MB"
-    },
-
-    {
-      "name": "comfyanonymous/flux_text_encoders - t5xxl (fp16)",
-      "type": "clip",
-      "base": "t5",
-      "save_path": "text_encoders/t5",
-      "description": "Text Encoders for FLUX (fp16)",
-      "reference": "https://huggingface.co/comfyanonymous/flux_text_encoders",
-      "filename": "t5xxl_fp16.safetensors",
-      "url": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
-      "size": "9.79GB"
-    },
-    {
-      "name": "comfyanonymous/flux_text_encoders - t5xxl (fp8_e4m3fn)",
-      "type": "clip",
-      "base": "t5",
-      "save_path": "text_encoders/t5",
-      "description": "Text Encoders for FLUX (fp8_e4m3fn)",
-      "reference": "https://huggingface.co/comfyanonymous/flux_text_encoders",
-      "filename": "t5xxl_fp8_e4m3fn.safetensors",
-      "url": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors",
-      "size": "4.89GB"
-    },
-    {
-      "name": "comfyanonymous/flux_text_encoders - t5xxl (fp8_e4m3fn_scaled)",
-      "type": "clip",
-      "base": "t5",
-      "save_path": "text_encoders/t5",
-      "description": "Text Encoders for FLUX (fp16)",
-      "reference": "https://huggingface.co/comfyanonymous/flux_text_encoders",
-      "filename": "t5xxl_fp8_e4m3fn_scaled.safetensors",
-      "url": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn_scaled.safetensors",
-      "size": "5.16GB"
     }
   ]
 }
