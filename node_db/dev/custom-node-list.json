@@ -12,6 +12,46 @@
         
         
         {
+            "author": "yichengup",
+            "title": "ComfyUI-YCNodes_Advance",
+            "reference": "https://github.com/yichengup/ComfyUI-YCNodes_Advance",
+            "files": [
+                "https://github.com/yichengup/ComfyUI-YCNodes_Advance"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Color Match (YC)"
+        },
+        {
+            "author": "rakki194",
+            "title": "ComfyUI_WolfSigmas [UNSAFE]",
+            "reference": "https://github.com/rakki194/ComfyUI_WolfSigmas",
+            "files": [
+                "https://github.com/rakki194/ComfyUI_WolfSigmas"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node pack for ComfyUI provides a suite of tools for generating and manipulating sigma schedules for diffusion models. These nodes are particularly useful for fine-tuning the sampling process, experimenting with different step counts, and adapting schedules for specific models.[w/Security Warning: Remote Code Execution]"
+        },
+        {
+            "author": "xl0",
+            "title": "q_tools",
+            "reference": "https://github.com/xl0/q_tools",
+            "files": [
+                "https://github.com/xl0/q_tools"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: QLoadLatent, QLinearScheduler, QPreviewLatent, QGaussianLatent, QUniformLatent, QKSampler"
+        },
+        {
+            "author": "wTechArtist",
+            "title": "ComfyUI_WWL_Florence2SAM2",
+            "reference": "https://github.com/wTechArtist/ComfyUI_WWL_Florence2SAM2",
+            "files": [
+                "https://github.com/wTechArtist/ComfyUI_WWL_Florence2SAM2"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: WWL_Florence2SAM2"
+        },
+        {
             "author": "virallover",
             "title": "comfyui-virallover",
             "reference": "https://github.com/maizerrr/comfyui-code-nodes",
@@ -3631,16 +3671,6 @@
             "pip": ["openai", "numpy"],
             "install_type": "copy",
             "description": "This platform extension provides ZhipuAI nodes, enabling you to configure a workflow for online video generation."
-        },
-        {
-            "author": "mfg637",
-            "title": "ComfyUI-ScheduledGuider-Ext",
-            "reference": "https://github.com/mfg637/ComfyUI-ScheduledGuider-Ext",
-            "files": [
-                "https://github.com/mfg637/ComfyUI-ScheduledGuider-Ext"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES:SheduledCFGGuider, CosineScheduler, InvertSigmas, ConcatSigmas."
         },
         {
             "author": "netanelben",

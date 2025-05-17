@@ -678,6 +678,14 @@
             "title_aux": "ComfyUI_ChatGptHelper"
         }
     ],
+    "https://github.com/AIExplorer25/ComfyUI_ImageCaptioner": [
+        [
+            "ImageCaptioner"
+        ],
+        {
+            "title_aux": "ComfyUI_ImageCaptioner"
+        }
+    ],
     "https://github.com/AIFSH/AniTalker-ComfyUI": [
         [
             "AniTalkerNode",
@@ -1694,7 +1702,15 @@
     ],
     "https://github.com/Amorano/Jovimetrix": [
         [
-            "ADJUST (JOV) \ud83d\udd78\ufe0f",
+            "ADJUST: BLUR (JOV)",
+            "ADJUST: COLOR (JOV)",
+            "ADJUST: EDGE (JOV)",
+            "ADJUST: EMBOSS (JOV)",
+            "ADJUST: LEVELS (JOV)",
+            "ADJUST: LIGHT (JOV)",
+            "ADJUST: MORPHOLOGY (JOV)",
+            "ADJUST: PIXEL (JOV)",
+            "ADJUST: SHARPEN (JOV)",
             "AKASHIC (JOV) \ud83d\udcd3",
             "ARRAY (JOV) \ud83d\udcda",
             "BIT SPLIT (JOV) \u2b44",
@@ -1879,6 +1895,7 @@
             "HTDynamicPromptNode",
             "HTDynamicSwitchNode",
             "HTFlexibleNode",
+            "HTGeminiImageNode",
             "HTGeminiNode",
             "HTImageAdjusterNode",
             "HTInspectorNode",
@@ -9408,6 +9425,14 @@
             "title_aux": "DeepFuze"
         }
     ],
+    "https://github.com/San4itos/ComfyUI-Save-Images-as-Video": [
+        [
+            "SaveFramesToVideoFFmpeg_san4itos"
+        ],
+        {
+            "title_aux": "Save Images to Video (FFmpeg) for ComfyUI"
+        }
+    ],
     "https://github.com/SanDiegoDude/ComfyUI-SaveAudioMP3": [
         [
             "SaveAudioMP3"
@@ -10878,6 +10903,7 @@
             "Basic data handling: StringExpandtabs",
             "Basic data handling: StringFind",
             "Basic data handling: StringFormatMap",
+            "Basic data handling: StringIn",
             "Basic data handling: StringIsAlnum",
             "Basic data handling: StringIsAlpha",
             "Basic data handling: StringIsAscii",
@@ -12593,6 +12619,7 @@
     ],
     "https://github.com/WaddingtonHoldings/ComfyUI-InstaSD": [
         [
+            "GPTImage1Generate",
             "InstaCBoolean",
             "InstaCFloat",
             "InstaCInteger",
@@ -12789,6 +12816,16 @@
         ],
         {
             "title_aux": "ComfyUI Simply Nodes"
+        }
+    ],
+    "https://github.com/X-School-Academy/X-FluxAgent": [
+        [
+            "X-ComfyUI.OpenAIChatnNode",
+            "X-ComfyUI.RichTextNode",
+            "X-ComfyUI.SaveTextNode"
+        ],
+        {
+            "title_aux": "X-FluxAgent"
         }
     ],
     "https://github.com/X-T-E-R/ComfyUI-EasyCivitai-XTNodes": [
@@ -13622,6 +13659,7 @@
             "Dilation Module (Bending)",
             "Erosion Module (Bending)",
             "Gradient Module (Bending)",
+            "HSpace Bending",
             "Latent Operation (Add Noise)",
             "Latent Operation (Add Scalar)",
             "Latent Operation (Custom)",
@@ -13636,6 +13674,8 @@
             "Model Inspector",
             "Model VAE Bending",
             "Multiply Scalar Module (Bending)",
+            "NoiseVariations",
+            "PCAPrep",
             "Rotate Module (Bending)",
             "Scale Module (Bending)",
             "Sobel Module (Bending)",
@@ -14913,6 +14953,20 @@
             "title_aux": "Vaja TextToSpeech Node for ComfyUI"
         }
     ],
+    "https://github.com/babydjac/comfyui-smart-scaler": [
+        [
+            "AspectRatioAdjuster",
+            "BatchFrameProcessor",
+            "DynamicResolutionSelector",
+            "ImageMetadataExtractor",
+            "SizeParser",
+            "SmartAspectScaler",
+            "WanVideoFrameScaler"
+        ],
+        {
+            "title_aux": "ComfyUI Smart Scaler"
+        }
+    ],
     "https://github.com/badayvedat/ComfyUI-fal-Connector": [
         [
             "RemoteCheckpointLoader_fal",
@@ -15251,6 +15305,7 @@
             "CPackInputImage",
             "CPackInputInt",
             "CPackInputString",
+            "CPackOutputAudio",
             "CPackOutputFile",
             "CPackOutputImage",
             "CPackOutputZip"
@@ -18245,6 +18300,8 @@
             "VideoTriangleCFGGuidance",
             "VoxelToMesh",
             "VoxelToMeshBasic",
+            "WanCameraEmbedding",
+            "WanCameraImageToVideo",
             "WanFirstLastFrameToVideo",
             "WanFunControlToVideo",
             "WanFunInpaintToVideo",
@@ -21153,6 +21210,15 @@
             "nickname": "\ud83d\udc2f YFG Comical Nodes",
             "title": "\ud83d\udc2f YFG Comical Nodes",
             "title_aux": "\ud83d\ude38 YFG Comical Nodes"
+        }
+    ],
+    "https://github.com/gordon123/ComfyUI_DreamBoard": [
+        [
+            "PromptExtraNode",
+            "StoryboardNode"
+        ],
+        {
+            "title_aux": "ComfyUI_DreamBoard"
         }
     ],
     "https://github.com/gorillaframeai/GF_nodes": [
@@ -25794,11 +25860,13 @@
             "Blocks Mecha Hyper",
             "Float Mecha Hyper",
             "Lora Mecha Recipe",
+            "Mecha Converter",
             "Mecha Deserializer",
             "Mecha Merger",
             "Mecha Recipe List",
             "Mecha Serializer",
-            "Model Mecha Recipe"
+            "Model Mecha Recipe",
+            "String Mecha Hyper"
         ],
         {
             "title_aux": "Mecha Merge Node Pack"
@@ -26852,6 +26920,7 @@
             "KSamplerMango",
             "LatentImageMango",
             "LoraStackMango",
+            "MangoImageLoader",
             "MangoLoader",
             "MangoPromptLoad",
             "MangoTriggerExporter",
@@ -27372,15 +27441,22 @@
     ],
     "https://github.com/mfg637/ComfyUI-ScheduledGuider-Ext": [
         [
+            "ArctanScheduler",
             "ConcatSigmas",
             "CosineScheduler",
+            "CustomBaseLogarithm",
+            "CustomExponent",
             "GaussianScheduler",
             "InvertSigmas",
             "LogNormal Scheduler",
             "OffsetSigmas",
             "PerpNegScheduledCFGGuider",
+            "PredefinedExponent",
+            "PredefinedLogarithm",
             "ScheduledCFGGuider",
-            "SplitSigmasByValue"
+            "SigmasToPower",
+            "SplitSigmasByValue",
+            "k/x scheduler"
         ],
         {
             "title_aux": "ComfyUI-ScheduledGuider-Ext"
@@ -29126,7 +29202,7 @@
     ],
     "https://github.com/pnikolic-amd/ComfyUI_MIGraphX": [
         [
-            "CompileSD3MIGraphX"
+            "CompileDiffusersMIGraphX"
         ],
         {
             "title_aux": "MIGraphX Node for ComfyUI"
@@ -29288,6 +29364,15 @@
         ],
         {
             "title_aux": "ComfyForEach"
+        }
+    ],
+    "https://github.com/purewater2011/comfyui_color_detection": [
+        [
+            "IsYellowish",
+            "YellowHeatmap"
+        ],
+        {
+            "title_aux": "comfyui_color_detection"
         }
     ],
     "https://github.com/purpen/ComfyUI-AIRedoon": [
@@ -29822,6 +29907,7 @@
         [
             "BatchSlider",
             "BooleanToEnabled",
+            "CannySlider",
             "ConfigurableDrawText",
             "ControlNetSlider",
             "DenoiseSlider",
@@ -29832,16 +29918,19 @@
             "IPAdapterSlider",
             "ImageBatchBoolean",
             "ImpactControlBridgeFix",
+            "IntPass",
             "LatentPass",
             "MaxShiftSlider",
             "OutputGetString",
             "PipePass",
+            "ResolutionMultiplySlider",
             "ResolutionPicker",
             "SEGSPass",
             "SamplerParameterPacker",
             "SamplerParameterUnpacker",
             "SelectFromBatch",
             "SimpleTextTruncate",
+            "SplitVec2",
             "SplitVec3",
             "StepSlider",
             "TextVersions"
@@ -30235,6 +30324,7 @@
             "FeatureRenormalize",
             "FeatureScaler",
             "FeatureSmoothing",
+            "FeatureToFilteredList",
             "FeatureToFlexFloatParam",
             "FeatureToFlexIntParam",
             "FeatureToFloat",
@@ -30295,6 +30385,7 @@
             "ImageCASBatch",
             "ImageChunk",
             "ImageDifference",
+            "ImageIndexSelect",
             "ImageInterval",
             "ImageIntervalSelectPercentage",
             "ImageScaleToTarget",
@@ -34099,6 +34190,7 @@
             "ImageRotate",
             "ImageSelector",
             "ImageUpscaleTiled",
+            "IrregularToEllipseMask",
             "LoadImagesFromFolder",
             "MaskBatchComposite",
             "MaskBatchCopy",
@@ -34114,6 +34206,7 @@
             "TextBeforeKeyword",
             "YC Extract Number",
             "YC Text Index Switch",
+            "YCTextImageGenerator",
             "YC_Image_Save"
         ],
         {

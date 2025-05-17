@@ -10,7 +10,67 @@
 
         
         
-        
+        {
+            "author": "Kyron Mahan",
+            "title": "ComfyUI Smart Scaler",
+            "id": "smart-scaler",
+            "reference": "https://github.com/babydjac/comfyui-smart-scaler",
+            "files": [
+                "https://github.com/babydjac/comfyui-smart-scaler"
+            ],
+            "install_type": "git-clone",
+            "description": "A package for intelligent image scaling, aspect ratio adjustments, metadata extraction, and video frame processing for Wan 2.1 vid2vid/img2vid workflows with Pony/SDXL models."
+        },
+        {
+            "author": "purewater2011",
+            "title": "comfyui_color_detection",
+            "reference": "https://github.com/purewater2011/comfyui_color_detection",
+            "files": [
+                "https://github.com/purewater2011/comfyui_color_detection"
+            ],
+            "install_type": "git-clone",
+            "description": "This plugin adds functionality to ComfyUI for detecting yellow tones in images, making it particularly useful for skin tone analysis and image color evaluation."
+        },
+        {
+            "author": "AIExplorer25",
+            "title": "ComfyUI_ImageCaptioner",
+            "reference": "https://github.com/AIExplorer25/ComfyUI_ImageCaptioner",
+            "files": [
+                "https://github.com/AIExplorer25/ComfyUI_ImageCaptioner"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node helps to generate cation for images for lora training."
+        },
+        {
+            "author": "X-School-Academy",
+            "title": "X-FluxAgent",
+            "reference": "https://github.com/X-School-Academy/X-FluxAgent",
+            "files": [
+                "https://github.com/X-School-Academy/X-FluxAgent"
+            ],
+            "install_type": "git-clone",
+            "description": "X-FluxAgent turns ComfyUI into a smart, AI-powered agent capable of building software, automating tasks, and even managing your daily workflows — all with natural language prompts, no coding experience needed."
+        },
+        {
+            "author": "gordon123",
+            "title": "ComfyUI_DreamBoard",
+            "reference": "https://github.com/gordon123/ComfyUI_DreamBoard",
+            "files": [
+                "https://github.com/gordon123/ComfyUI_DreamBoard"
+            ],
+            "install_type": "git-clone",
+            "description": "a simple prompter for video"
+        },
+        {
+            "author": "San4itos",
+            "title": "Save Images to Video (FFmpeg) for ComfyUI",
+            "reference": "https://github.com/San4itos/ComfyUI-Save-Images-as-Video",
+            "files": [
+                "https://github.com/San4itos/ComfyUI-Save-Images-as-Video"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI to save image sequences as video files using FFmpeg. Supports various codecs, audio muxing, and in-node previews."
+        },
         {
             "author": "Yuan-ManX",
             "title": "ComfyUI-Step1X-3D",
@@ -19,7 +79,7 @@
                 "https://github.com/Yuan-ManX/ComfyUI-Step1X-3D"
             ],
             "install_type": "git-clone",
-            "description": "Make Step1X-3D avialbe in ComfyUI."
+            "description": "ComfyUI-Step1X-3D is now available in ComfyUI, delivering high-fidelity 3D asset generation with consistent geometry-texture alignment. It supports multi-style outputs: cartoon, sketch, and photorealistic."
         },
         {
             "author": "AEmotionStudio",
