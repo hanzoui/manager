@@ -1,6 +1,51 @@
 {
   "models": [
     {
+      "name": "Latent Bridge Matching for Image Relighting",
+      "type": "diffusion_model",
+      "base": "LBM",
+      "save_path": "diffusion_models/LBM",
+      "description": "Latent Bridge Matching (LBM) Relighting model",
+      "reference": "https://huggingface.co/jasperai/LBM_relighting",
+      "filename": "LBM_relighting.safetensors",
+      "url": "https://huggingface.co/jasperai/LBM_relighting/resolve/main/model.safetensors",
+      "size": "5.02GB"
+    },
+
+    {
+      "name": "LTX-Video 13B Distilled v0.9.7",
+      "type": "checkpoint",
+      "base": "LTX-Video",
+      "save_path": "checkpoints/LTXV",
+      "description": "Distilled version of the LTX-Video 13B model, providing improved efficiency while maintaining high-resolution quality.",
+      "reference": "https://huggingface.co/Lightricks/LTX-Video",
+      "filename": "ltxv-13b-0.9.7-distilled.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-13b-0.9.7-distilled.safetensors",
+      "size": "28.6GB"
+    },
+    {
+      "name": "LTX-Video 13B Distilled FP8 v0.9.7",
+      "type": "checkpoint",
+      "base": "LTX-Video",
+      "save_path": "checkpoints/LTXV",
+      "description": "Quantized distilled version of the LTX-Video 13B model, optimized for even lower VRAM usage while maintaining quality.",
+      "reference": "https://huggingface.co/Lightricks/LTX-Video",
+      "filename": "ltxv-13b-0.9.7-distilled-fp8.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-13b-0.9.7-distilled-fp8.safetensors",
+      "size": "15.7GB"
+    },
+    {
+      "name": "LTX-Video 13B Distilled LoRA v0.9.7",
+      "type": "lora",
+      "base": "LTX-Video",
+      "save_path": "loras",
+      "description": "A LoRA adapter that transforms the standard LTX-Video 13B model into a distilled version when loaded.",
+      "reference": "https://huggingface.co/Lightricks/LTX-Video",
+      "filename": "ltxv-13b-0.9.7-distilled-lora128.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-13b-0.9.7-distilled-lora128.safetensors",
+      "size": "1.33GB"
+    },
+    {
       "name": "lllyasviel/FramePackI2V_HY",
       "type": "FramePackI2V",
       "base": "FramePackI2V",
@@ -646,52 +691,6 @@
       "filename": "sigclip_vision_patch14_384.safetensors",
       "url": "https://huggingface.co/Comfy-Org/sigclip_vision_384/resolve/main/sigclip_vision_patch14_384.safetensors",
       "size": "857MB"
-    },
-
-    {
-      "name": "comfyanonymous/flux_text_encoders - t5xxl (fp16)",
-      "type": "clip",
-      "base": "t5",
-      "save_path": "text_encoders/t5",
-      "description": "Text Encoders for FLUX (fp16)",
-      "reference": "https://huggingface.co/comfyanonymous/flux_text_encoders",
-      "filename": "t5xxl_fp16.safetensors",
-      "url": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
-      "size": "9.79GB"
-    },
-    {
-      "name": "comfyanonymous/flux_text_encoders - t5xxl (fp8_e4m3fn)",
-      "type": "clip",
-      "base": "t5",
-      "save_path": "text_encoders/t5",
-      "description": "Text Encoders for FLUX (fp8_e4m3fn)",
-      "reference": "https://huggingface.co/comfyanonymous/flux_text_encoders",
-      "filename": "t5xxl_fp8_e4m3fn.safetensors",
-      "url": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors",
-      "size": "4.89GB"
-    },
-    {
-      "name": "comfyanonymous/flux_text_encoders - t5xxl (fp8_e4m3fn_scaled)",
-      "type": "clip",
-      "base": "t5",
-      "save_path": "text_encoders/t5",
-      "description": "Text Encoders for FLUX (fp16)",
-      "reference": "https://huggingface.co/comfyanonymous/flux_text_encoders",
-      "filename": "t5xxl_fp8_e4m3fn_scaled.safetensors",
-      "url": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn_scaled.safetensors",
-      "size": "5.16GB"
-    },
-
-    {
-      "name": "FLUX.1 [Dev] Diffusion model (scaled fp8)",
-      "type": "diffusion_model",
-      "base": "FLUX.1",
-      "save_path": "diffusion_models/FLUX1",
-      "description": "FLUX.1 [Dev] Diffusion model (scaled fp8)[w/Due to the large size of the model, it is recommended to download it through a browser if possible.]",
-      "reference": "https://huggingface.co/comfyanonymous/flux_dev_scaled_fp8_test",
-      "filename": "flux_dev_fp8_scaled_diffusion_model.safetensors",
-      "url": "https://huggingface.co/comfyanonymous/flux_dev_scaled_fp8_test/resolve/main/flux_dev_fp8_scaled_diffusion_model.safetensors",
-      "size": "11.9GB"
     }
   ]
 }

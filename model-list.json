@@ -749,8 +749,8 @@
       "save_path": "loras/HyperSD/SDXL",
       "description": "Hyper-SD LoRA (4steps) - SDXL",
       "reference": "https://huggingface.co/ByteDance/Hyper-SD",
-      "filename": "Hyper-SD15-4steps-lora.safetensors",
-      "url": "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SD15-4steps-lora.safetensors",
+      "filename": "Hyper-SDXL-4steps-lora.safetensors",
+      "url": "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SDXL-4steps-lora.safetensors",
       "size": "787MB"
     },
     {
@@ -4969,9 +4969,9 @@
 
     {
       "name": "LTX-Video Spatial Upscaler v0.9.7",
-      "type": "checkpoint",
-      "base": "LTX-Video",
-      "save_path": "checkpoints/LTXV",
+      "type": "upscale",
+      "base": "upscale",
+      "save_path": "default",
       "description": "Spatial upscaler model for LTX-Video. This model enhances the spatial resolution of generated videos.",
       "reference": "https://huggingface.co/Lightricks/LTX-Video",
       "filename": "ltxv-spatial-upscaler-0.9.7.safetensors",
@@ -4980,9 +4980,9 @@
     },
     {
       "name": "LTX-Video Temporal Upscaler v0.9.7",
-      "type": "checkpoint",
-      "base": "LTX-Video",
-      "save_path": "checkpoints/LTXV",
+      "type": "upscale",
+      "base": "upscale",
+      "save_path": "default",
       "description": "Temporal upscaler model for LTX-Video. This model enhances the temporal resolution and smoothness of generated videos.",
       "reference": "https://huggingface.co/Lightricks/LTX-Video",
       "filename": "ltxv-temporal-upscaler-0.9.7.safetensors",
@@ -5010,6 +5010,50 @@
       "filename": "ltxv-13b-0.9.7-dev-fp8.safetensors",
       "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-13b-0.9.7-dev-fp8.safetensors",
       "size": "15.7GB"
+    },
+    {
+      "name": "LTX-Video 13B Distilled v0.9.7",
+      "type": "checkpoint",
+      "base": "LTX-Video",
+      "save_path": "checkpoints/LTXV",
+      "description": "Distilled version of the LTX-Video 13B model, providing improved efficiency while maintaining high-resolution quality.",
+      "reference": "https://huggingface.co/Lightricks/LTX-Video",
+      "filename": "ltxv-13b-0.9.7-distilled.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-13b-0.9.7-distilled.safetensors",
+      "size": "28.6GB"
+    },
+    {
+      "name": "LTX-Video 13B Distilled FP8 v0.9.7",
+      "type": "checkpoint",
+      "base": "LTX-Video",
+      "save_path": "checkpoints/LTXV",
+      "description": "Quantized distilled version of the LTX-Video 13B model, optimized for even lower VRAM usage while maintaining quality.",
+      "reference": "https://huggingface.co/Lightricks/LTX-Video",
+      "filename": "ltxv-13b-0.9.7-distilled-fp8.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-13b-0.9.7-distilled-fp8.safetensors",
+      "size": "15.7GB"
+    },
+    {
+      "name": "LTX-Video 13B Distilled LoRA v0.9.7",
+      "type": "lora",
+      "base": "LTX-Video",
+      "save_path": "loras",
+      "description": "A LoRA adapter that transforms the standard LTX-Video 13B model into a distilled version when loaded.",
+      "reference": "https://huggingface.co/Lightricks/LTX-Video",
+      "filename": "ltxv-13b-0.9.7-distilled-lora128.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-13b-0.9.7-distilled-lora128.safetensors",
+      "size": "1.33GB"
+    },
+    {
+      "name": "Latent Bridge Matching for Image Relighting",
+      "type": "diffusion_model",
+      "base": "LBM",
+      "save_path": "diffusion_models/LBM",
+      "description": "Latent Bridge Matching (LBM) Relighting model",
+      "reference": "https://huggingface.co/jasperai/LBM_relighting",
+      "filename": "LBM_relighting.safetensors",
+      "url": "https://huggingface.co/jasperai/LBM_relighting/resolve/main/model.safetensors",
+      "size": "5.02GB"
     }
   ]
 }
