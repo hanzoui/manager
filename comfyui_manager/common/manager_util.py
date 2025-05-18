@@ -15,7 +15,7 @@ import re
 import logging
 import platform
 import shlex
-import cm_global
+from . import cm_global
 
 
 cache_lock = threading.Lock()
