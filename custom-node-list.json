@@ -24,16 +24,6 @@
             "preemptions":["SAMLoader"]
         },
         {
-            "author": "jqy-yo",
-            "title": "BBoxLowerMask2",
-            "reference": "https://github.com/jqy-yo/Comfyui-BBoxLowerMask2",
-            "files": [
-                "https://github.com/jqy-yo/Comfyui-BBoxLowerMask2"
-            ],
-            "install_type": "git-clone",
-            "description": "Create a mask to slice the image at specific coordinates"
-        },
-        {
             "author": "Dr.Lt.Data",
             "title": "ComfyUI Impact Subpack",
             "id": "comfyui-impact-subpack",
@@ -25781,6 +25771,27 @@
             "install_type": "git-clone",
             "description": "A collection of custom nodes for ComfyUI that enable the creation of various ASCII art effects, from static images to complex, colorized typing animations and video conversions."
         },
+        {
+            "author": "jqy-yo",
+            "title": "BBoxLowerMask2",
+            "reference": "https://github.com/jqy-yo/Comfyui-BBoxLowerMask2",
+            "files": [
+                "https://github.com/jqy-yo/Comfyui-BBoxLowerMask2"
+            ],
+            "install_type": "git-clone",
+            "description": "Create a mask to slice the image at specific coordinates"
+        },
+        {
+            "author": "ICAI Icelandic Center for Artificial Intelligence",
+            "title": "Sampler Scheduler Metrics Tester for ComfyUI",
+            "id": "SamplerSchedulerMetricsTester",
+            "reference": "https://github.com/IcelandicCenterArtificialIntelligence/ComfyUI-SamplerSchedulerMetricsTester",
+            "files": [
+                "https://github.com/IcelandicCenterArtificialIntelligence/ComfyUI-SamplerSchedulerMetricsTester"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI allows you to test combinations of samplers and schedulers. It generates a batch of generated images(latents), as well as RGB images, each one annotated with the specific combination used, performance timing, and several image quality metrics (Laplacian Variance, Gradient Mean, FFT-based sharpness) for our internal usage, but kept as they could may be useful for others to."        
+        },
         
         
         
@@ -26237,17 +26248,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {                    
-            "author": "ICAI Icelandic Center for Artificial Intelligence",
-            "title": "Sampler Scheduler Metrics Tester for ComfyUI",
-            "id": "SamplerSchedulerMetricsTester",
-            "reference": "https://github.com/IcelandicCenterArtificialIntelligence/ComfyUI-SamplerSchedulerMetricsTester",
-            "files": [
-                "https://github.com/IcelandicCenterArtificialIntelligence/ComfyUI-SamplerSchedulerMetricsTester"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node for ComfyUI allows you to test combinations of samplers and schedulers. It generates a batch of generated images(latents), as well as RGB images, each one annotated with the specific combination used, performance timing, and several image quality metrics (Laplacian Variance, Gradient Mean, FFT-based sharpness) for our internal usage, but kept as they could may be useful for others to."        
         }
     ]
 }

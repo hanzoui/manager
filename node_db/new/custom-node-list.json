@@ -32,6 +32,27 @@
             "description": "ComfyUI-MoviiGen is now available in ComfyUI, MoviiGen 1.1 is a cutting-edge video generation model that excels in cinematic aesthetics and visual quality."
         },
         {
+            "author": "jqy-yo",
+            "title": "BBoxLowerMask2",
+            "reference": "https://github.com/jqy-yo/Comfyui-BBoxLowerMask2",
+            "files": [
+                "https://github.com/jqy-yo/Comfyui-BBoxLowerMask2"
+            ],
+            "install_type": "git-clone",
+            "description": "Create a mask to slice the image at specific coordinates"
+        },
+        {
+            "author": "ICAI Icelandic Center for Artificial Intelligence",
+            "title": "Sampler Scheduler Metrics Tester for ComfyUI",
+            "id": "SamplerSchedulerMetricsTester",
+            "reference": "https://github.com/IcelandicCenterArtificialIntelligence/ComfyUI-SamplerSchedulerMetricsTester",
+            "files": [
+                "https://github.com/IcelandicCenterArtificialIntelligence/ComfyUI-SamplerSchedulerMetricsTester"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI allows you to test combinations of samplers and schedulers. It generates a batch of generated images(latents), as well as RGB images, each one annotated with the specific combination used, performance timing, and several image quality metrics (Laplacian Variance, Gradient Mean, FFT-based sharpness) for our internal usage, but kept as they could may be useful for others to."        
+        },
+        {
             "author": "ShmuelRonen",
             "title": "ComfyUI-FramePackWrapper_Plus",
             "reference": "https://github.com/ShmuelRonen/ComfyUI-FramePackWrapper_Plus",
