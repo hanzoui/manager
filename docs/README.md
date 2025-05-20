@@ -28,15 +28,6 @@ The documentation follows these standards:
 3. **Feature-focused Documentation**: Each major feature has its own documentation file
 4. **Updated with Releases**: Documentation is kept in sync with software releases
 
-## Usage in the Application
-
-The documentation serves multiple purposes:
-
-1. **User Guides**: Help users understand how to use ComfyUI-Manager features
-2. **Developer References**: Provide technical details for developers extending the manager
-3. **Troubleshooting**: Offer solutions to common issues
-4. **Feature Discovery**: Expose users to advanced features they might not discover on their own
-
 ## Contributing to Documentation
 
 When contributing new documentation:
@@ -46,16 +37,5 @@ When contributing new documentation:
 3. Include examples where helpful
 4. Consider adding screenshots or diagrams for complex features
 5. Maintain consistent formatting with existing documentation
-
-## Future Documentation
-
-As ComfyUI-Manager evolves, additional documentation will be added for:
-
-- Advanced security configuration
-- Custom channel creation
-- API reference for programmatic integration
-- Snapshot management best practices
-- Component system usage
-- Custom node development guidelines
 
 This documentation directory will continue to grow to support the expanding feature set of ComfyUI-Manager.
