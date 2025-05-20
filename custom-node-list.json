@@ -7937,6 +7937,16 @@
             "description": "ComfyUI-ReduxFineTune is a custom node for ComfyUI that enables advanced style fine-tuning using the Flux Redux approach. It offers multiple unified fusion modes for precise and consistent control over style transfer, allowing users to fine-tune image styles with high flexibility and detail."
         },
         {
+            "author": "1038lab",
+            "title": "ComfyUI-LBM",
+            "reference": "https://github.com/1038lab/ComfyUI-LBM",
+            "files": [
+                "https://github.com/1038lab/ComfyUI-LBM"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI implementation of Latent Bridge Matching (LBM) for efficient image relighting. This node utilizes the LBM algorithm to perform single-step image-to-image translation specifically for relighting tasks."
+        },
+        {
             "author": "Klinter",
             "title": "Klinter_nodes",
             "id": "klinter",
@@ -20764,6 +20774,16 @@
             "description": "ACE-Step: A Step Towards Music Generation Foundation Model"
         },
         {
+            "author": "mw",
+            "title": "ComfyUI_parakeet-tdt",
+            "reference": "https://github.com/billwuhao/ComfyUI_parakeet-tdt",
+            "files": [
+                "https://github.com/billwuhao/ComfyUI_parakeet-tdt"
+            ],
+            "install_type": "git-clone",
+            "description": "parakeet-tdt-0.6b-v2: Automatic speech recognition (ASR) model designed for high-quality English transcription, featuring support for punctuation, capitalization, and accurate timestamp prediction."
+        },
+        {
             "author": "umiyuki",
             "title": "ComfyUI Pad To Eight",
             "reference": "https://github.com/umiyuki/comfyui-pad-to-eight",
@@ -25793,15 +25813,55 @@
             "description": "This custom node for ComfyUI allows you to test combinations of samplers and schedulers. It generates a batch of generated images(latents), as well as RGB images, each one annotated with the specific combination used, performance timing, and several image quality metrics (Laplacian Variance, Gradient Mean, FFT-based sharpness) for our internal usage, but kept as they could may be useful for others to."        
         },
         {
-          "author": "2frames.app",
-          "title": "AQnodes for ComfyUI",
-          "id": "AQnodes",
-          "reference": "https://github.com/2frames/ComfyUI-AQnodes",
-          "files": [
-            "https://github.com/2frames/ComfyUI-AQnodes"
-          ],
-          "install_type": "git-clone",
-          "description": "Nodes for ComfyUI, mostly for llm calling and automatizing pulid multiface."
+            "author": "2frames.app",
+            "title": "AQnodes for ComfyUI",
+            "id": "AQnodes",
+            "reference": "https://github.com/2frames/ComfyUI-AQnodes",
+            "files": [
+                "https://github.com/2frames/ComfyUI-AQnodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for ComfyUI, mostly for llm calling and automatizing pulid multiface."
+        },
+        {
+            "author": "BigWhiteFly",
+            "title": "ComfyUI-ImageConcat",
+            "reference": "https://github.com/BigWhiteFly/ComfyUI-ImageConcat",
+            "files": [
+                "https://github.com/BigWhiteFly/ComfyUI-ImageConcat"
+            ],
+            "install_type": "git-clone",
+            "description": "concatenate all images in floders, concatenate caption txt files for trainning loras."
+        },
+        {
+            "author": "Jannled",
+            "title": "OWL-ViT ComfyUI",
+            "reference": "https://github.com/Jannled/owl-vit-comfyui",
+            "files": [
+                "https://github.com/Jannled/owl-vit-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Nodes for OWL-ViT / OWLv2 using the HuggingFace Transformers implementation"
+        },
+        {
+            "author": "thedivergentai",
+            "title": "Divergent Nodes",
+            "reference": "https://github.com/thedivergentai/divergent_nodes",
+            "files": [
+                "https://github.com/thedivergentai/divergent_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository contains a collection of custom nodes for ComfyUI designed to integrate external AI models, provide utilities, and enable advanced workflows."
+        },
+        {
+            "author": "skycoder",
+            "title": "Filename Tools",
+            "reference": "https://github.com/skycoder182/comfyui-filename-tools",
+            "files": [
+                "https://github.com/skycoder182/comfyui-filename-tools"
+            ],
+            "install_type": "git-clone",
+            "description": "A utility node for extracting and trimming filenames from file paths"
         },
         
         
