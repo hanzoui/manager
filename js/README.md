@@ -21,9 +21,9 @@ This directory contains the JavaScript frontend implementation for ComfyUI-Manag
 
 - **cm-api.js**: Client-side API wrapper for communication with the backend.
 - **common.js**: Shared utilities and helper functions used across the frontend.
-- **node_fixer.js**: Utilities for handling node metadata and dependencies.
+- **node_fixer.js**: Utilities for fixing disconnected links and repairing malformed nodes by recreating them while preserving connections.
 - **popover-helper.js**: UI component for popup tooltips and contextual information.
-- **turbogrid.esm.js**: Grid component library - https://github.com/visicode/TurboGrid
+- **turbogrid.esm.js**: Grid component library - https://github.com/cenfun/turbogrid
 - **workflow-metadata.js**: Handles workflow metadata parsing, validation and cross-repository compatibility including versioning, dependencies tracking, and resource management.
 
 ## Architecture
