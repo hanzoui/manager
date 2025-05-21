@@ -3804,6 +3804,7 @@
     "https://github.com/DraconicDragon/ComfyUI-RyuuNoodles": [
         [
             "Ryuu_CleanStringAdvanced",
+            "Ryuu_ExtractAndSaveLora",
             "Ryuu_FallbackPassthrough",
             "Ryuu_FallbackSwitchAny",
             "Ryuu_FallbackSwitchImage",
@@ -3812,6 +3813,7 @@
             "Ryuu_FloatPlainLarger",
             "Ryuu_FloatSlider",
             "Ryuu_IntSlider",
+            "Ryuu_TextEncoderDiffCheck",
             "Ryuu_TokenCountTextBox"
         ],
         {
@@ -5269,6 +5271,7 @@
     "https://github.com/HavocsCall/comfyui_HavocsCall_Custom_Nodes": [
         [
             "Clip Switch",
+            "Combine String",
             "Conditioning Switch",
             "Float Selector",
             "Float to Integer",
@@ -8113,6 +8116,7 @@
             "ConvertRawBytesToSVG",
             "SVGAdvancedPreview",
             "SVGArtGrid",
+            "SVGArtGridDimensionsCalculator",
             "SVGArtGridV2",
             "SVGArtGridV3",
             "SVGArtGridV4",
@@ -8910,13 +8914,15 @@
     ],
     "https://github.com/Pseudotools/Pseudocomfy": [
         [
-            "ApplyDenseDiffusion",
-            "ApplyIPAdaper",
-            "LoadJSONAuto",
+            "ApplyDenseDiffusionSDXL",
+            "ApplyIPAdaperSDXL",
+            "BlurMask",
+            "ConcatStrings",
+            "IPAdapterUnifiedLoaderClone",
             "LoadModelSnapshot",
-            "MakeMaskBatch",
             "PreviewEnvironmentalPrompts",
             "PreviewMaterialPrompts",
+            "PreviewStrings",
             "ProcessImagePrompt",
             "UnpackModelSnapshot"
         ],
@@ -11047,14 +11053,17 @@
             "StarEasyTextStorage",
             "StarFiveWildcards",
             "StarImageSwitch",
+            "StarImageSwitch2",
             "StarInfiniteYouApply",
             "StarInfiniteYouPatch",
             "StarInfiniteYouPatchCombine",
             "StarInfiniteYouSaver",
             "StarLatentSwitch",
+            "StarLatentSwitch2",
             "StarLoadSamplerSettings",
             "StarNewsScraper",
             "StarPSDSaver",
+            "StarPSDSaver2",
             "StarSaveSamplerSettings",
             "StarTextFilter",
             "StarTextInput",
@@ -12293,6 +12302,8 @@
     "https://github.com/VrchStudio/comfyui-web-viewer": [
         [
             "VrchAnyOSCControlNode",
+            "VrchAudioChannelLoaderNode",
+            "VrchAudioConcatNode",
             "VrchAudioGenresNode",
             "VrchAudioRecorderNode",
             "VrchAudioSaverNode",
@@ -12321,6 +12332,7 @@
             "VrchJsonUrlLoaderNode",
             "VrchJsonWebSocketChannelLoaderNode",
             "VrchJsonWebSocketSenderNode",
+            "VrchMicLoaderNode",
             "VrchMidiDeviceLoaderNode",
             "VrchModelWebViewerNode",
             "VrchOSCControlSettingsNode",
@@ -13135,6 +13147,17 @@
         ],
         {
             "title_aux": "MergeBlockWeighted_fo_ComfyUI"
+        }
+    ],
+    "https://github.com/Yuan-ManX/ComfyUI-AniSora": [
+        [
+            "AniSora",
+            "LoadAniSoraModel",
+            "Prompt",
+            "SaveAniSora"
+        ],
+        {
+            "title_aux": "ComfyUI-AniSora"
         }
     ],
     "https://github.com/Yuan-ManX/ComfyUI-AudioX": [
@@ -18539,6 +18562,15 @@
             "title_aux": "ComfyUI_DepthFlow"
         }
     ],
+    "https://github.com/craig-tanaka/comfyui_animeseg": [
+        [
+            "AdvancedAnimeSeg",
+            "SimpleAnimeSeg"
+        ],
+        {
+            "title_aux": "ComfyUI Anime Segmentation Nodes v1.1.0"
+        }
+    ],
     "https://github.com/crave33/RenesStuffDanboruTagGet": [
         [
             "DanbooruTagFetcher"
@@ -20433,6 +20465,7 @@
             "FL_HF_Character",
             "FL_HF_UploaderAbsolute",
             "FL_HalftonePattern",
+            "FL_Hedra_API",
             "FL_HexagonalPattern",
             "FL_HunyuanDelight",
             "FL_ImageAddToBatch",
@@ -20494,6 +20527,7 @@
             "FL_RandomNumber",
             "FL_RetroEffect",
             "FL_Ripple",
+            "FL_RunwayImageAPI",
             "FL_SDUltimate_Slices",
             "FL_SamplerStrings",
             "FL_SaveAndDisplayImage",
@@ -26534,6 +26568,15 @@
             "title_aux": "ComfyUI-Prompt-Combinator"
         }
     ],
+    "https://github.com/lrzjason/ComfyUI-Watermark-Detection": [
+        [
+            "WatermarkDetector",
+            "WatermarkDetectorLoader"
+        ],
+        {
+            "title_aux": "ComfyUI Watermark Detection Node"
+        }
+    ],
     "https://github.com/lrzjason/Comfyui-In-Context-Lora-Utils": [
         [
             "AddMaskForICLora",
@@ -31308,7 +31351,8 @@
     ],
     "https://github.com/skycoder182/comfyui-filename-tools": [
         [
-            "ExtractAndTrimFilename"
+            "ExtractAndTrimFilename",
+            "LoadImageWithFilename"
         ],
         {
             "title_aux": "Filename Tools"
@@ -31781,6 +31825,17 @@
             "title_aux": "ComfyUI_TRELLIS"
         }
     ],
+    "https://github.com/smthemex/ComfyUI_VisualCloze": [
+        [
+            "Img_Quadruple",
+            "VisualCloze_Aplly",
+            "VisualCloze_CLIPText",
+            "VisualCloze_KSampler"
+        ],
+        {
+            "title_aux": "ComfyUI_VisualCloze"
+        }
+    ],
     "https://github.com/smthemex/ComfyUI_YuE": [
         [
             "YUE_Stage_A_Loader",
@@ -31825,16 +31880,6 @@
         ],
         {
             "title_aux": "comfyui-snek-nodes"
-        }
-    ],
-    "https://github.com/solution9th/Comfyui_mobilesam": [
-        [
-            "MobileSamDetector",
-            "MobileSamModelLoader",
-            "MobileSamPredictor"
-        ],
-        {
-            "title_aux": "Comfyui_mobilesam"
         }
     ],
     "https://github.com/souki202/ComfyUI-LoadImage-Advanced": [
