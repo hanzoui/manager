@@ -69,6 +69,7 @@
     ],
     "https://github.com/1038lab/ComfyUI-LBM": [
         [
+            "LBM_DepthNormal",
             "LBM_Relighting"
         ],
         {
@@ -263,7 +264,7 @@
     "https://github.com/1hew/ComfyUI-1hewNodes": [
         [
             "BlendModesAlpha",
-            "CoordinateExtractor",
+            "CoordinateExtract",
             "ImageAddLabel",
             "ImageBBoxCrop",
             "ImageBlendModesByCSS",
@@ -280,6 +281,7 @@
             "MaskBatchMathOps",
             "MaskMathOps",
             "PathSelect",
+            "PromptExtract",
             "SliderValueRangeMapping",
             "Solid"
         ],
@@ -316,6 +318,7 @@
             "AQ_MasksAndImagesAsList",
             "AQ_Qwen",
             "AQ_QwenLoader",
+            "AQ_SendImageToAPI",
             "AQ_multiface_ApplyPulidFlux"
         ],
         {
@@ -555,6 +558,7 @@
             "Save_Image_To_Path",
             "SegmDetectorCombined_batch",
             "SelectBatch_paragraph",
+            "Select_Batch_v2",
             "Select_Images_Batch",
             "Split_Path",
             "Str_Append",
@@ -674,6 +678,15 @@
         ],
         {
             "title_aux": "Image-vector-for-ComfyUI"
+        }
+    ],
+    "https://github.com/AEmotionStudio/ComfyUI-ShaderNoiseKSampler": [
+        [
+            "ShaderNoiseKSampler",
+            "ShaderNoiseKSamplerDirect"
+        ],
+        {
+            "title_aux": "ComfyUI-ShaderNoiseKSampler"
         }
     ],
     "https://github.com/AIExplorer25/ComfyUI_AutoDownloadModels": [
@@ -1961,20 +1974,6 @@
             "title_aux": "HommageTools for ComfyUI"
         }
     ],
-    "https://github.com/ArtVentureX/comfyui-animatediff": [
-        [
-            "AnimateDiffCombine",
-            "AnimateDiffLoraLoader",
-            "AnimateDiffModuleLoader",
-            "AnimateDiffSampler",
-            "AnimateDiffSlidingWindowOptions",
-            "ImageSizeAndBatchSize",
-            "LoadVideo"
-        ],
-        {
-            "title_aux": "AnimateDiff"
-        }
-    ],
     "https://github.com/AshMartian/ComfyUI-DirGir": [
         [
             "Dir_Gir_Looper",
@@ -3182,7 +3181,6 @@
             "SaverNode",
             "ZNormalizeNode",
             "coco_loader",
-            "colorspace",
             "load_exr",
             "load_exr_layer_by_name",
             "saver",
@@ -7152,6 +7150,23 @@
             "title_aux": "ComfyUI-LTXVideo"
         }
     ],
+    "https://github.com/Limbicnation/ComfyUI-TransparencyBackgroundRemover": [
+        [
+            "TransparencyBackgroundRemover",
+            "TransparencyBackgroundRemoverBatch"
+        ],
+        {
+            "title_aux": "Transparency Background Remover"
+        }
+    ],
+    "https://github.com/Limbicnation/ComfyUIDepthEstimation": [
+        [
+            "DepthEstimationNode"
+        ],
+        {
+            "title_aux": "Depth Estimation Node"
+        }
+    ],
     "https://github.com/Limitex/ComfyUI-Calculation": [
         [
             "CenterCalculation",
@@ -8916,14 +8931,20 @@
         [
             "ApplyDenseDiffusionSDXL",
             "ApplyIPAdaperSDXL",
-            "BlurMask",
             "ConcatStrings",
             "IPAdapterUnifiedLoaderClone",
             "LoadModelSnapshot",
-            "PreviewEnvironmentalPrompts",
-            "PreviewMaterialPrompts",
+            "MaskAggregate",
+            "MaskBlur",
+            "MaskClamp",
+            "MaskInvert",
+            "MaskRemap",
+            "MaskReshape",
             "PreviewStrings",
+            "ProcessEnvironmentalPrompts",
             "ProcessImagePrompt",
+            "ProcessMaterialPrompts",
+            "SaveImageWithEmbeddedMasks",
             "UnpackModelSnapshot"
         ],
         {
@@ -10356,6 +10377,20 @@
         ],
         {
             "title_aux": "comfyui_fedcoms_node_pack"
+        }
+    ],
+    "https://github.com/SipherAGI/comfyui-animatediff": [
+        [
+            "AnimateDiffCombine",
+            "AnimateDiffLoraLoader",
+            "AnimateDiffModuleLoader",
+            "AnimateDiffSampler",
+            "AnimateDiffSlidingWindowOptions",
+            "ImageSizeAndBatchSize",
+            "LoadVideo"
+        ],
+        {
+            "title_aux": "AnimateDiff"
         }
     ],
     "https://github.com/SlackinJack/asyncdiff_comfyui": [
@@ -12080,7 +12115,7 @@
             "Halation",
             "Lens Dirt",
             "Lens Distortion",
-            "Levels",
+            "Levels Adjustment",
             "Lut",
             "Manga Toner",
             "Monitor Filter",
@@ -12091,12 +12126,12 @@
             "Pixel Art",
             "Saturation Vibrance",
             "Sensor Dust",
-            "Sharpen",
+            "Sharpen Simple",
             "Sharpen Unsharp Mask",
             "Tint",
             "VHS Chroma Smear",
             "VHS Degrade",
-            "Vignette",
+            "Vignette Effect",
             "Watermark"
         ],
         {
@@ -15604,6 +15639,14 @@
             "title_aux": "ComfyUI_parakeet-tdt"
         }
     ],
+    "https://github.com/billwuhao/Comfyui_HeyGem": [
+        [
+            "HeyGemRun"
+        ],
+        {
+            "title_aux": "Comfyui_HeyGem"
+        }
+    ],
     "https://github.com/bitaffinity/ComfyUI_HF_Inference": [
         [
             "Classification",
@@ -17999,6 +18042,15 @@
         ],
         {
             "title_aux": "ComfyUI-PromptWrapper"
+        }
+    ],
+    "https://github.com/cloudkoala/comfyui-koala": [
+        [
+            "AnotherKoalaNode",
+            "AspectRatioLatentNode"
+        ],
+        {
+            "title_aux": "comfyui-koala"
         }
     ],
     "https://github.com/cluny85/ComfyUI-Scripting-Tools": [
@@ -20474,6 +20526,7 @@
             "FL_ImageBatch",
             "FL_ImageBatchToGrid",
             "FL_ImageBatchToImageList",
+            "FL_ImageBlank",
             "FL_ImageCaptionLayout",
             "FL_ImageCaptionLayoutPDF",
             "FL_ImageCaptionSaver",
@@ -24361,6 +24414,19 @@
             "title_aux": "qq-nodes-comfyui"
         }
     ],
+    "https://github.com/kevin314/ComfyUI-FastVideo": [
+        [
+            "DITConfig",
+            "InferenceArgs",
+            "LoadImagePath",
+            "TextEncoderConfig",
+            "VAEConfig",
+            "VideoGenerator"
+        ],
+        {
+            "title_aux": "ComfyUI-FastVideo"
+        }
+    ],
     "https://github.com/kevinmcmahondev/comfyui-kmcdev-image-filter-adjustments": [
         [
             "ImageBlankAlpha",
@@ -24846,8 +24912,10 @@
             "TorchCompileCosmosModel",
             "TorchCompileLTXModel",
             "TorchCompileModelFluxAdvanced",
+            "TorchCompileModelFluxAdvancedV2",
             "TorchCompileModelHyVideo",
             "TorchCompileModelWanVideo",
+            "TorchCompileModelWanVideoV2",
             "TorchCompileVAE",
             "TransitionImagesInBatch",
             "TransitionImagesMulti",
@@ -25762,6 +25830,19 @@
             "title_aux": "ComfyUI-LLMs"
         }
     ],
+    "https://github.com/lepiai/ComfyUI-Minitools": [
+        [
+            "LP-CropTransparentEdges",
+            "LP-ImageToMaskWithAlpha",
+            "LP-TranslateToEN",
+            "LP-color2RGB",
+            "LP-hex2dec",
+            "NumericSlider"
+        ],
+        {
+            "title_aux": "ComfyUI-Minitools"
+        }
+    ],
     "https://github.com/lerignoux/ComfyUI-PechaKucha": [
         [
             "GeneratePowerpoint",
@@ -26017,6 +26098,7 @@
     ],
     "https://github.com/ljleb/comfy-mecha": [
         [
+            "Already Loaded Model Mecha Recipe",
             "Blocks Mecha Hyper",
             "Bool Mecha Hyper",
             "Float Mecha Hyper",
@@ -26067,7 +26149,7 @@
     ],
     "https://github.com/lldacing/ComfyUI_BEN_ll": [
         [
-            "BlurFusionForegroundEstimation",
+            "BlurFusionForegroundEstimationForBen",
             "GetMaskByBen",
             "LoadRembgByBenModel",
             "RembgByBen",
@@ -30186,6 +30268,7 @@
     ],
     "https://github.com/rookiepsi/comfyui-extended": [
         [
+            "ImageLiquify",
             "ImageSwitch",
             "MaskSwitch",
             "PreviewBoolean",
@@ -31137,18 +31220,6 @@
             "title_aux": "comfyui-no-one-above-me"
         }
     ],
-    "https://github.com/shinich39/comfyui-ramdom-node": [
-        [
-            "DynamicRoutes"
-        ],
-        {
-            "author": "shinich39",
-            "description": "Shuffle nodes after queue execution.",
-            "nickname": "comfyui-dynamic-routes",
-            "title": "comfyui-dynamic-routes",
-            "title_aux": "comfyui-random-node"
-        }
-    ],
     "https://github.com/shobhitic/ComfyUI-PlusMinusTextClip": [
         [
             "PlusMinusTextClip"
@@ -32014,6 +32085,7 @@
             "GameOfLife",
             "GuidedFilterAlpha",
             "GuidedFilterImage",
+            "Hunyuan3Dv2LatentUpscaleBy",
             "ImageConstant",
             "ImageConstantHSV",
             "InpaintConditionApply",
@@ -33651,6 +33723,16 @@
         ],
         {
             "title_aux": "ComfyUI-Openpose-Editor-Plus"
+        }
+    ],
+    "https://github.com/wildminder/ComfyUI-KEEP": [
+        [
+            "KEEP_FaceUpscaleImage",
+            "KEEP_ModelLoader",
+            "KEEP_ProcessImageSequence"
+        ],
+        {
+            "title_aux": "ComfyUI-KEEP"
         }
     ],
     "https://github.com/willchil/ComfyUI-Environment-Visualizer": [
@@ -35397,14 +35479,6 @@
         ],
         {
             "title_aux": "ComfyUIInvisibleWatermark"
-        }
-    ],
-    "https://raw.githubusercontent.com/Limbicnation/ComfyUIDepthEstimation/main/depth_estimation_node.py": [
-        [
-            "DepthEstimationNode"
-        ],
-        {
-            "title_aux": "ComfyUIDepthEstimation"
         }
     ],
     "https://raw.githubusercontent.com/NeuralNotW0rk/ComfyUI-Waveform-Extensions/main/EXT_AudioManipulation.py": [
