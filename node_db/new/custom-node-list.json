@@ -11,6 +11,27 @@
         
         
         {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-Bagel",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-Bagel",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-Bagel"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-Bagel is now available in ComfyUI, BAGEL is an open‑source multimodal foundation model with 7B active parameters (14B total) trained on large‑scale interleaved multimodal data."
+        },
+        {
+            "id": "ComfyUI-TkNodes",
+            "author": "TensorKaze",
+            "title": "ComfyUI-TkNodes",
+            "reference": "https://github.com/TensorKaze/ComfyUI-TkNodes",
+            "files": [
+                "https://github.com/TensorKaze/ComfyUI-TkNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for ComfyUI with advanced image scaling, latent manipulation, and Flux sampling"
+        },
+        {
             "author": "wildminder",
             "title": "ComfyUI-KEEP",
             "reference": "https://github.com/wildminder/ComfyUI-KEEP",
@@ -668,26 +689,6 @@
             ],
             "install_type": "git-clone",
             "description": "An extension to modify the browser tab title when running ComfyUI workflows."
-        },
-        {
-            "author": "neggo",
-            "title": "comfyui-sambanova",
-            "reference": "https://github.com/neggo/comfyui-sambanova",
-            "files": [
-                "https://github.com/neggo/comfyui-sambanova"
-            ],
-            "install_type": "git-clone",
-            "description": "This node pack provides a Python node that uses the SambaNova API to send prompts to a chat AI model (e.g., DeepSeek-V3-0324) and retrieve responses, intended for integration into node-based workflows like ComfyUI."
-        },
-        {
-            "author": "theshubzworld",
-            "title": "ComfyUI-FaceCalloutNode",
-            "reference": "https://github.com/theshubzworld/ComfyUI-FaceCalloutNode",
-            "files": [
-                "https://github.com/theshubzworld/ComfyUI-FaceCalloutNode"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for ComfyUI that provide advanced face callout, annotation, and compositing effects using OpenCV and PIL. These nodes are designed for image processing workflows that require face detection, annotation, and creative compositing."
         }
     ]
 }
