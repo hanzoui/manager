@@ -102,12 +102,8 @@ def extract_nodes(code_text):
 def scan_in_file(filename, is_builtin=False):
     global builtin_nodes
 
-    try:
-        with open(filename, encoding='utf-8') as file:
-            code = file.read()
-    except UnicodeDecodeError:
-        with open(filename, encoding='cp949') as file:
-            code = file.read()
+    with open(filename, encoding='utf-8', errors='ignore') as file:
+        code = file.read()
 
     pattern = r"_CLASS_MAPPINGS\s*=\s*{([^}]*)}"
     regex = re.compile(pattern, re.MULTILINE | re.DOTALL)

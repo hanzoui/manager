@@ -14,6 +14,39 @@
         
         
         
+        
+
+
+        {
+            "author": "Charonartist",
+            "title": "ComfyUI-send-eagle-pro [WIP]",
+            "reference": "https://github.com/Charonartist/ComfyUI-send-eagle-pro",
+            "files": [
+                "https://github.com/Charonartist/ComfyUI-send-eagle-pro"
+            ],
+            "install_type": "git-clone",
+            "description": "This is an extension node for ComfyUI that allows you to send generated images in webp format to [a/Eagle](https://en.eagle.cool/). This extension node is a re-implementation of the Eagle linkage functions of the previous [a/ComfyUI-send-Eagle](https://github.com/shingo1228/ComfyUI-send-eagle) node, focusing on the functions required for this node.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Mervent",
+            "title": "comfyui-yaml-prompt",
+            "reference": "https://github.com/Mervent/comfyui-yaml-prompt",
+            "files": [
+                "https://github.com/Mervent/comfyui-yaml-prompt"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: YAMLPromptParser"
+        },
+        {
+            "author": "dhpdong",
+            "title": "ComfyUI-IPAdapter-Flux-Repair",
+            "reference": "https://github.com/dhpdong/ComfyUI-IPAdapter-Flux-Repair",
+            "files": [
+                "https://github.com/dhpdong/ComfyUI-IPAdapter-Flux-Repair"
+            ],
+            "install_type": "git-clone",
+            "description": "The IPAdapter-Flux node may cause some GPU memory to not be properly released during multiple inferences or when alternating between two nodes, eventually leading to a memory overflow. This project addresses and fixes that issue."
+        },
         {
             "author": "usman2003",
             "title": "ComfyUI-RaceDetect",
@@ -215,16 +248,6 @@
             "description": "this node lists json files in the ComfyUI input folder[w/If this node pack is installed and the server is running with remote access enabled, it can read the contents of JSON files located in arbitrary paths.]"
         },
         {
-            "author": "silveroxides",
-            "title": "ComfyUI_EmbeddingToolkit",
-            "reference": "https://github.com/silveroxides/ComfyUI_EmbeddingToolkit",
-            "files": [
-                "https://github.com/silveroxides/ComfyUI_EmbeddingToolkit"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Save Token Embeddings, Save Weighted Embeddings, Save A1111-style Weighted Embeddings"
-        },
-        {
             "author": "yichengup",
             "title": "ComfyUI-YCNodes_Advance",
             "reference": "https://github.com/yichengup/ComfyUI-YCNodes_Advance",
@@ -281,7 +304,7 @@
                 "https://github.com/virallover/comfyui-virallover"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Download and Load Lora Model Only"
+            "description": "NODES: Download and Load Lora Model Only, Depth Fitter, Brightness Correction, Edge Noise, Feathered Sharpen"
         },
         {
             "author": "nobandegani",
@@ -671,7 +694,7 @@
                 "https://github.com/jtydhr88/ComfyUI_frontend_vue_basic"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI Frontend Vue Basic is custom node that demonstrate how to use vue as frontend framework along with primevue and vue-i18n, cooperating with ComfyUI API"
+            "description": "A demonstration custom node that showcases how to integrate Vue as a frontend framework within ComfyUI, complete with PrimeVue components and vue-i18n support."
         },
         {
             "author": "silent-rain",
