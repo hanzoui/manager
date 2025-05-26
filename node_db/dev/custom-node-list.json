@@ -17,15 +17,116 @@
         
 
 
+
         {
-            "author": "Charonartist",
-            "title": "ComfyUI-send-eagle-pro [WIP]",
-            "reference": "https://github.com/Charonartist/ComfyUI-send-eagle-pro",
+            "author": "LyazS",
+            "title": "ComfyUI-aznodes",
+            "reference": "https://github.com/LyazS/ComfyUI-aznodes",
             "files": [
-                "https://github.com/Charonartist/ComfyUI-send-eagle-pro"
+                "https://github.com/LyazS/ComfyUI-aznodes"
             ],
             "install_type": "git-clone",
-            "description": "This is an extension node for ComfyUI that allows you to send generated images in webp format to [a/Eagle](https://en.eagle.cool/). This extension node is a re-implementation of the Eagle linkage functions of the previous [a/ComfyUI-send-Eagle](https://github.com/shingo1228/ComfyUI-send-eagle) node, focusing on the functions required for this node.\nNOTE: The files in the repo are not organized."
+            "description": "NODES: CrossFadeImageSequence\nNOTE: invalid pyproject.toml"
+        },
+        {
+            "author": "TOM1063",
+            "title": "ComfyUI-SamuraiTools [WIP]",
+            "reference": "https://github.com/TOM1063/ComfyUI-SamuraiTools",
+            "files": [
+                "https://github.com/TOM1063/ComfyUI-SamuraiTools"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for switching integer values based on boolean conditions\nNOTE: invalid pyproject.toml"
+        },
+        {
+            "author": "truebillyblue",
+            "title": "lC.ComfyUI_epistemic_nodes [WIP]",
+            "reference": "https://github.com/truebillyblue/lC.ComfyUI_epistemic_nodes",
+            "files": [
+                "https://github.com/truebillyblue/lC.ComfyUI_epistemic_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: lC L1 Startle, lC L2 FrameClick, lC L3 KeymapClick, lC L4 AnchorClick, lC L5 FieldClick, lC L6 ReflectBoom, lC Epistemic Pipeline (L1-L7), Create PBI (lC), Query PBIs (lC), Update PBI (lC), lC API LLM Agent, lC Web LLM Agent, ...\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "aklevecz",
+            "title": "ComfyUI-AutoPrompt [WIP]",
+            "reference": "https://github.com/aklevecz/ComfyUI-AutoPrompt",
+            "files": [
+                "https://github.com/aklevecz/ComfyUI-AutoPrompt"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Ollama Prompt Generator, Ollama Model Lister, Ollama Chat, Text Display"
+        },
+        {
+            "author": "AlexYez",
+            "title": "ComfyUI Timesaver Nodes",
+            "reference": "https://github.com/AlexYez/comfyui-timesaver",
+            "files": [
+                "https://github.com/AlexYez/comfyui-timesaver"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes from [Timesaver](https://github.com/AlexYez/comfyui-timesaver)."
+        },
+        {
+            "author": "aa-parky",
+            "title": "pipemind-comfyui",
+            "reference": "https://github.com/aa-parky/pipemind-comfyui",
+            "files": [
+                "https://github.com/aa-parky/pipemind-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Random Line from File (Seeded), Keyword Prompt Composer, Simple Prompt Combiner (5x), Boolean Switch (Any), Select Line from TxT (Any)"
+        },
+        {
+            "author": "pacchikAI",
+            "title": "ImagePromptBatch [UNSAFE]",
+            "reference": "https://github.com/pacchikAI/ImagePromptBatch",
+            "files": [
+                "https://github.com/pacchikAI/ImagePromptBatch"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Load Image and Prompt[w/This includes a node that can read the contents of a `.csv` file from an arbitrary path.]"
+        },
+        {
+            "author": "papcorns",
+            "title": "ComfyUI-Papcorns-Node-UploadToGCS",
+            "reference": "https://github.com/papcorns/ComfyUI-Papcorns-Node-UploadToGCS",
+            "files": [
+                "https://github.com/papcorns/ComfyUI-Papcorns-Node-UploadToGCS"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Upload Image To GCS"
+        },
+        {
+            "author": "ZHO-ZHO-ZHO",
+            "title": "Qwen-2.5 in ComfyUI [NAME CONFLICT]",
+            "reference": "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Qwen",
+            "files": [
+                "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Qwen"
+            ],
+            "install_type": "git-clone",
+            "description": "Using Qwen-2.5 in ComfyUI"
+        },
+        {
+            "author": "Charonartist",
+            "title": "gabe-init [WIP]",
+            "reference": "https://github.com/gabe-init/ComfyUI-Repo-Eater",
+            "files": [
+                "https://github.com/gabe-init/ComfyUI-Repo-Eater"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that ingests GitHub repositories and outputs their content as text along with token count.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Charonartist",
+            "title": "ComfyUI-send-eagle-pro",
+            "reference": "https://github.com/Charonartist/ComfyUI-send-eagle-pro_2",
+            "files": [
+                "https://github.com/Charonartist/ComfyUI-send-eagle-pro_2"
+            ],
+            "install_type": "git-clone",
+            "description": "Eagle integration extension node for ComfyUI (Pro version)"
         },
         {
             "author": "Mervent",
@@ -79,13 +180,13 @@
         },
         {
             "author": "MuAIGC",
-            "title": "DMXAPI Nodes",
+            "title": "DMXAPI Nodes [WIP]",
             "reference": "https://github.com/MuAIGC/ComfyUI-DMXAPI_mmx",
             "files": [
                 "https://github.com/MuAIGC/ComfyUI-DMXAPI_mmx"
             ],
             "install_type": "git-clone",
-            "description": "DMXAPI integration for ComfyUI with Seedream-3.0 text-to-image model"
+            "description": "DMXAPI integration for ComfyUI with Seedream-3.0 text-to-image model\nNOTE: invalid pyproject.toml"
         },
         {
             "author": "Hapseleg",
@@ -717,16 +818,6 @@
             "description": "NODES: Linsoo Save Image, Linsoo Load Image (In development.. not working), Linsoo Empty Latent Image, Linsoo Multi Inputs, Linsoo Multi Outputs"
         },
         {
-            "author": "GACLove",
-            "title": "ComfyUI-Lightx2vWrapper",
-            "reference": "https://github.com/GACLove/ComfyUI-Lightx2vWrapper",
-            "files": [
-                "https://github.com/GACLove/ComfyUI-Lightx2vWrapper"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: LightX2V WAN T5 Encoder Loader, LightX2V WAN T5 Encoder, LightX2V WAN CLIP Vision Encoder Loader, LightX2V WAN CLIP Vision Encoder, LightX2V WAN VAE Loader, LightX2V WAN Image Encoder, LightX2V WAN VAE Decoder, LightX2V WAN Model Loader, LightX2V WAN Video Sampler, LightX2V WAN Tea Cache, LightX2V WAN Video Empty Embeds"
-        },
-        {
             "author": "facok",
             "title": "ComfyUI-FokToolset",
             "reference": "https://github.com/facok/ComfyUI-FokToolset",
@@ -1295,16 +1386,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Hy3DTools Render Specific View, Hy3DTools Back-Project Inpaint\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "gondar-software",
-            "title": "comfyui-custom-padding",
-            "reference": "https://github.com/gondar-software/comfyui-custom-padding",
-            "files": [
-                "https://github.com/gondar-software/comfyui-custom-padding"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Adaptive image padding, Adaptive image unpadding"
         },
         {
             "author": "grokuku",

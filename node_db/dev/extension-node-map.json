@@ -650,6 +650,24 @@
             "title_aux": "ComfyUI-OpenAINode"
         }
     ],
+    "https://github.com/AlexYez/comfyui-timesaver": [
+        [
+            "TS Cube to Equirectangular",
+            "TS Equirectangular to Cube",
+            "TS Files Downloader",
+            "TS Qwen2.5",
+            "TS Youtube Chapters",
+            "TSWhisper",
+            "TS_Free_Video_Memory",
+            "TS_ImageResize",
+            "TS_Qwen3",
+            "TS_VideoDepthNode",
+            "TS_Video_Upscale_With_Model"
+        ],
+        {
+            "title_aux": "ComfyUI Timesaver Nodes"
+        }
+    ],
     "https://github.com/AllenEdgarPoe/ComfyUI-Xorbis-nodes": [
         [
             "Add Human Styler",
@@ -927,17 +945,18 @@
             "title_aux": "ComfyUI-vts-nodes [WIP]"
         }
     ],
-    "https://github.com/Charonartist/ComfyUI-send-eagle-pro": [
+    "https://github.com/Charonartist/ComfyUI-send-eagle-pro_2": [
         [
             "Batch Send Media to Eagle",
             "Send Audio to Eagle",
             "Send Eagle with text",
             "Send Media to Eagle",
+            "Send Media to Eagle (Advanced)",
             "Send Video to Eagle",
             "Send Webp Image to Eagle"
         ],
         {
-            "title_aux": "ComfyUI-send-eagle-pro [WIP]"
+            "title_aux": "ComfyUI-send-eagle-pro"
         }
     ],
     "https://github.com/ChrisColeTech/ComfyUI-Get-Random-File": [
@@ -1331,23 +1350,6 @@
             "title_aux": "ComfyUI-Airtable [WIP]"
         }
     ],
-    "https://github.com/GACLove/ComfyUI-Lightx2vWrapper": [
-        [
-            "Lightx2vTeaCache",
-            "Lightx2vWanVideoClipVisionEncoderLoader",
-            "Lightx2vWanVideoEmptyEmbeds",
-            "Lightx2vWanVideoImageEncoder",
-            "Lightx2vWanVideoModelLoader",
-            "Lightx2vWanVideoSampler",
-            "Lightx2vWanVideoT5Encoder",
-            "Lightx2vWanVideoT5EncoderLoader",
-            "Lightx2vWanVideoVaeDecoder",
-            "Lightx2vWanVideoVaeLoader"
-        ],
-        {
-            "title_aux": "ComfyUI-Lightx2vWrapper"
-        }
-    ],
     "https://github.com/GentlemanHu/ComfyUI-Notifier": [
         [
             "GentlemanHu_Notifier"
@@ -1727,6 +1729,14 @@
             "title_aux": "ComfyUI simple ChatGPT completion [UNSAFE]"
         }
     ],
+    "https://github.com/LyazS/ComfyUI-aznodes": [
+        [
+            "CrossFadeImageSequence"
+        ],
+        {
+            "title_aux": "ComfyUI-aznodes"
+        }
+    ],
     "https://github.com/LykosAI/ComfyUI-Inference-Core-Nodes": [
         [
             "AIO_Preprocessor",
@@ -1962,11 +1972,13 @@
     "https://github.com/MuAIGC/ComfyUI-DMXAPI_mmx": [
         [
             "DMXAPIClient",
-            "DMXAPISaveImage",
-            "DMXAPITextToImage"
+            "ImageEdit",
+            "ImageMerge",
+            "PreviewImageFromUrl",
+            "TextToImage"
         ],
         {
-            "title_aux": "DMXAPI Nodes"
+            "title_aux": "DMXAPI Nodes [WIP]"
         }
     ],
     "https://github.com/MythicalChu/ComfyUI-APG_ImYourCFGNow": [
@@ -2577,6 +2589,14 @@
             "title_aux": "Comfyui-Sort-Files"
         }
     ],
+    "https://github.com/TOM1063/ComfyUI-SamuraiTools": [
+        [
+            "IntBoolSwitch"
+        ],
+        {
+            "title_aux": "ComfyUI-SamuraiTools [WIP]"
+        }
+    ],
     "https://github.com/TSFSean/ComfyUI-TSFNodes": [
         [
             "GyroOSC"
@@ -2881,6 +2901,18 @@
             "title_aux": "ComfyUI_Output_as_Input"
         }
     ],
+    "https://github.com/aa-parky/pipemind-comfyui": [
+        [
+            "BooleanSwitchAny",
+            "KeywordPromptComposer",
+            "RandomLineFromDropdown",
+            "SelectLineFromDropdown",
+            "SimplePromptCombiner"
+        ],
+        {
+            "title_aux": "pipemind-comfyui"
+        }
+    ],
     "https://github.com/aiden1020/ComfyUI_Artcoder": [
         [
             "ArtCoder"
@@ -2896,6 +2928,17 @@
         ],
         {
             "title_aux": "etm_comfyui_nodes"
+        }
+    ],
+    "https://github.com/aklevecz/ComfyUI-AutoPrompt": [
+        [
+            "OllamaChat",
+            "OllamaModelLister",
+            "OllamaPromptGenerator",
+            "TextDisplay"
+        ],
+        {
+            "title_aux": "ComfyUI-AutoPrompt [WIP]"
         }
     ],
     "https://github.com/alexgenovese/ComfyUI-Diffusion-4k": [
@@ -4393,6 +4436,14 @@
             "title_aux": "ComfyUI-FTM-Pack"
         }
     ],
+    "https://github.com/gabe-init/ComfyUI-Repo-Eater": [
+        [
+            "RepoEaterNode"
+        ],
+        {
+            "title_aux": "gabe-init [WIP]"
+        }
+    ],
     "https://github.com/gagaprince/ComfyUI_gaga_utils": [
         [
             "GagaAddStringArray",
@@ -5446,6 +5497,8 @@
             "WanVideoClipVisionEncode",
             "WanVideoContextOptions",
             "WanVideoControlEmbeds",
+            "WanVideoControlnet",
+            "WanVideoControlnetLoader",
             "WanVideoDecode",
             "WanVideoDiffusionForcingSampler",
             "WanVideoEmptyEmbeds",
@@ -5473,6 +5526,8 @@
             "WanVideoTextEncode",
             "WanVideoTinyVAELoader",
             "WanVideoTorchCompileSettings",
+            "WanVideoUni3C_ControlnetLoader",
+            "WanVideoUni3C_embeds",
             "WanVideoUniAnimateDWPoseDetector",
             "WanVideoUniAnimatePoseInput",
             "WanVideoVACEEncode",
@@ -6542,6 +6597,14 @@
             "title_aux": "comfyui-aesthetic-predictor"
         }
     ],
+    "https://github.com/pacchikAI/ImagePromptBatch": [
+        [
+            "LoadImageandPrompt"
+        ],
+        {
+            "title_aux": "ImagePromptBatch [UNSAFE]"
+        }
+    ],
     "https://github.com/pamparamm/ComfyUI-ppm": [
         [
             "AttentionCouplePPM",
@@ -6550,6 +6613,7 @@
             "CLIPMicroConditioning",
             "CLIPNegPip",
             "CLIPTextEncodeBREAK",
+            "CLIPTextEncodeInvertWeights",
             "CLIPTokenCounter",
             "ConditioningZeroOutCombine",
             "ConvertTimestepToSigma",
@@ -6569,6 +6633,14 @@
         ],
         {
             "title_aux": "ComfyUI-ppm"
+        }
+    ],
+    "https://github.com/papcorns/ComfyUI-Papcorns-Node-UploadToGCS": [
+        [
+            "UploadImageToGCS"
+        ],
+        {
+            "title_aux": "ComfyUI-Papcorns-Node-UploadToGCS"
         }
     ],
     "https://github.com/parmarjh/ComfyUI-MochiWrapper-I2V": [
@@ -7447,6 +7519,41 @@
         ],
         {
             "title_aux": "Albedo-Sampler-for-ComfyUI"
+        }
+    ],
+    "https://github.com/truebillyblue/lC.ComfyUI_epistemic_nodes": [
+        [
+            "AddApplicationNode",
+            "AddInterpretationNode",
+            "AddObservationNode",
+            "CreatePbiNode",
+            "CreateRDSOTMComponentNode",
+            "GetMadaObjectNode",
+            "InitiateOiaNode",
+            "InitiateRDSOTMCycleNode",
+            "LcAddCommentToPbiNode",
+            "LcAnchorClickNode",
+            "LcApiLlmAgentNode",
+            "LcApplyDoneNode",
+            "LcEpistemicPipelineNode",
+            "LcFieldClickNode",
+            "LcFrameClickNode",
+            "LcGetPbiDetailsNode",
+            "LcKeymapClickNode",
+            "LcLinkPbiNode",
+            "LcMemWriteNode",
+            "LcReflectBoomNode",
+            "LcStartleNode",
+            "LcWebLlmAgentNode",
+            "QueryPbisNode",
+            "ShowTextNode",
+            "StoreMadaObjectNode",
+            "UpdatePbiNode",
+            "ViewOiaCycleNode",
+            "ViewRDSOTMCycleDetailsNode"
+        ],
+        {
+            "title_aux": "lC.ComfyUI_epistemic_nodes [WIP]"
         }
     ],
     "https://github.com/tuckerdarby/ComfyUI-TDNodes": [
