@@ -16,8 +16,46 @@
         
         
 
-
-
+        {
+            "author": "EQXai",
+            "title": "ComfyUI_EQX",
+            "reference": "https://github.com/EQXai/ComfyUI_EQX",
+            "files": [
+                "https://github.com/EQXai/ComfyUI_EQX"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: SaveImage_EQX, File Image Selector, Load Prompt From File - EQX, LoraStackEQX_random, Extract Filename - EQX, Extract LORA name - EQX"
+        },
+        {
+            "author": "yincangshiwei",
+            "title": "ComfyUI-SEQLToolNode",
+            "reference": "https://github.com/yincangshiwei/ComfyUI-SEQLToolNode",
+            "files": [
+                "https://github.com/yincangshiwei/ComfyUI-SEQLToolNode"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: ImageCropAlphaNode (Image)"
+        },
+        {
+            "author": "gabe-init",
+            "title": "comfyui_ui_render [UNSAFE]",
+            "reference": "https://github.com/gabe-init/comfyui_ui_render",
+            "files": [
+                "https://github.com/gabe-init/comfyui_ui_render"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI HTML Renderer Node - Display rich HTML content within ComfyUI nodes[w/This nodepack contains nodes that potentially have XSS vulnerabilities.]"
+        },
+        {
+            "author": "gabe-init",
+            "title": "ComfyUI LM Studio Node [WIP]",
+            "reference": "https://github.com/gabe-init/ComfyUI-LM-Studio",
+            "files": [
+                "https://github.com/gabe-init/ComfyUI-LM-Studio"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful ComfyUI custom node that seamlessly integrates LM Studio's local language models into your ComfyUI workflows. This node supports both text-only and multimodal (text + image) inputs, making it perfect for complex AI-driven creative workflows.\nNOTE: The files in the repo are not organized."
+        },
         {
             "author": "LyazS",
             "title": "ComfyUI-aznodes",

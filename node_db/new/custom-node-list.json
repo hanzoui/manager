@@ -11,6 +11,76 @@
         
         
         {
+            "author": "dorpxam",
+            "title": "ComfyUI-FramePack-F1-T2V",
+            "reference": "https://github.com/dorpxam/ComfyUI-FramePack-F1-T2V",
+            "files": [
+                "https://github.com/dorpxam/ComfyUI-FramePack-F1-T2V"
+            ],
+            "install_type": "git-clone",
+            "description": "A set of custom nodes enabling Text-to-Video support for FramePack-F1"
+        },
+        {
+            "author": "gabe-init",
+            "title": "ComfyUI-11labs",
+            "reference": "https://github.com/gabe-init/ComfyUI-11labs",
+            "files": [
+                "https://github.com/gabe-init/ComfyUI-11labs"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI ElevenLabs TTS Node - Text-to-speech integration with advanced voice controls"
+        },
+        {
+            "author": "gabe-init",
+            "title": "ComfyUI-Google-Image-Search",
+            "reference": "https://github.com/gabe-init/ComfyUI-Google-Image-Search",
+            "files": [
+                "https://github.com/gabe-init/ComfyUI-Google-Image-Search"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Google Image Search Node - Search and retrieve images from Google"
+        },
+        {
+            "author": "gabe-init",
+            "title": "ComfyUI-String-Similarity",
+            "reference": "https://github.com/gabe-init/ComfyUI-String-Similarity",
+            "files": [
+                "https://github.com/gabe-init/ComfyUI-String-Similarity"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI String Similarity Node - Advanced text comparison with multiple algorithms"
+        },
+        {
+            "author": "SamTyurenkov",
+            "title": "comfyui_chatgpt",
+            "reference": "https://github.com/SamTyurenkov/comfyui_chatgpt",
+            "files": [
+                "https://github.com/SamTyurenkov/comfyui_chatgpt"
+            ],
+            "install_type": "git-clone",
+            "description": "Chat GPT Image Generation Chat Node for Comfy UI"
+        },
+        {
+            "author": "AIToldMeTo",
+            "title": "ComfyUI Cache Cleaner Node",
+            "reference": "https://github.com/AIToldMeTo/comfyui-cache-cleaner",
+            "files": [
+                "https://github.com/AIToldMeTo/comfyui-cache-cleaner"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that provides the ability to clear the cache directly from your workflow."
+        },
+        {
+            "author": "mittimi",
+            "title": "ComfyUI_mittimiDaisyChainText",
+            "reference": "https://github.com/mittimi/ComfyUI_mittimiDaisyChainText",
+            "files": [
+                "https://github.com/mittimi/ComfyUI_mittimiWidthHeight"
+            ],
+            "install_type": "git-clone",
+            "description": "It has the ability to concatenate text."
+        },
+        {
             "author": "openvino-dev-samples",
             "title": "ComfyUI-OpenVINO",
             "id": "comfyui-openvino",
@@ -464,7 +534,7 @@
                 "https://github.com/lum3on/ComfyUI-ModelQuantizer"
             ],
             "install_type": "git-clone",
-            "description": "This is a node to converts models into Fp8, bf16, fp16."
+            "description": "A comprehensive custom node pack for ComfyUI that provides advanced tools for quantizing model weights to lower precision formats like FP16, BF16, and true FP8 types, with specialized support for ControlNet models."
         },
         {
             "author": "Yuan-ManX",
