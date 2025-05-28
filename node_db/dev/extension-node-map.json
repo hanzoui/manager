@@ -2765,7 +2765,7 @@
     ],
     "https://github.com/Sephrael/comfyui_caption-around-image": [
         [
-            "CaptionBelowImage"
+            "CaptionAroundImageSmart"
         ],
         {
             "title_aux": "comfyui_caption-around-image [WIP]"
@@ -2906,6 +2906,106 @@
         ],
         {
             "title_aux": "ComfyUI-Hi3DGen"
+        }
+    ],
+    "https://github.com/StableDiffusionVN/SDVN_Comfy_node": [
+        [
+            "SDVM Image List Repeat",
+            "SDVN API chatbot",
+            "SDVN Any From List",
+            "SDVN Any Input Type",
+            "SDVN Any List",
+            "SDVN Any Repeat",
+            "SDVN Any Show",
+            "SDVN AnyDownload List",
+            "SDVN Apply Style Model",
+            "SDVN Auto Generate",
+            "SDVN AutoSwitch",
+            "SDVN Boolean",
+            "SDVN CLIP Download",
+            "SDVN CLIP Text Encode",
+            "SDVN CLIPVision Download",
+            "SDVN Checkpoint Download",
+            "SDVN Checkpoint Download List",
+            "SDVN ControlNet Download",
+            "SDVN Controlnet Apply",
+            "SDVN DALL-E Generate Image",
+            "SDVN Dall-E Generate Image 2",
+            "SDVN Dic Convert",
+            "SDVN DualCLIP Download",
+            "SDVN Easy IPAdapter weight",
+            "SDVN Exif check",
+            "SDVN Fill Background",
+            "SDVN Filter List",
+            "SDVN Flip Image",
+            "SDVN GPT Image",
+            "SDVN Gemini Flash 2 Image",
+            "SDVN Google Imagen",
+            "SDVN IC Lora Layout",
+            "SDVN IC Lora Layout Crop",
+            "SDVN IC-Light v2",
+            "SDVN IPAdapterModel Download",
+            "SDVN Image Adjust",
+            "SDVN Image Film Grain",
+            "SDVN Image HSL",
+            "SDVN Image Info",
+            "SDVN Image Layout",
+            "SDVN Image Repeat",
+            "SDVN Image Scraper",
+            "SDVN Image Size",
+            "SDVN Image White Balance",
+            "SDVN Inpaint",
+            "SDVN Inpaint Crop",
+            "SDVN InstantIDModel Download",
+            "SDVN Join Parameter",
+            "SDVN Joy Caption",
+            "SDVN KSampler",
+            "SDVN Load Checkpoint",
+            "SDVN Load Google Sheet",
+            "SDVN Load Image",
+            "SDVN Load Image Folder",
+            "SDVN Load Image From List",
+            "SDVN Load Image Ultimate",
+            "SDVN Load Image Url",
+            "SDVN Load Lora",
+            "SDVN Load Model",
+            "SDVN Load Text",
+            "SDVN LoadPinterest",
+            "SDVN Logic",
+            "SDVN Loop Inpaint Stitch",
+            "SDVN Lora Download",
+            "SDVN Lora info",
+            "SDVN Mask Regions",
+            "SDVN Menu Option",
+            "SDVN Merge Flux",
+            "SDVN Merge SD1",
+            "SDVN Merge SDXL",
+            "SDVN Metadata Check",
+            "SDVN Model Merge",
+            "SDVN Model info editor",
+            "SDVN Pipe In",
+            "SDVN Pipe Out",
+            "SDVN Pipe Out All",
+            "SDVN QuadrupleCLIP Download",
+            "SDVN Quick Menu",
+            "SDVN Run Python Code",
+            "SDVN Run Test",
+            "SDVN Save Text",
+            "SDVN Seed",
+            "SDVN Simple Any Input",
+            "SDVN StyleModel Download",
+            "SDVN Styles",
+            "SDVN Switch",
+            "SDVN Translate",
+            "SDVN UNET Download",
+            "SDVN UPscale Latent",
+            "SDVN Upscale Image",
+            "SDVN UpscaleModel Download",
+            "SDVN VAE Download",
+            "SDVN Yolo8 Seg"
+        ],
+        {
+            "title_aux": "SDVN Comfy node [UNSAFE]"
         }
     ],
     "https://github.com/StaffsGull/comfyui_scene_builder": [
@@ -3331,6 +3431,42 @@
         ],
         {
             "title_aux": "pipemind-comfyui"
+        }
+    ],
+    "https://github.com/abuzreq/ComfyUI-Model-Bending": [
+        [
+            "Add Noise Module (Bending)",
+            "Add Scalar Module (Bending)",
+            "ConditioningApplyOperation",
+            "Custom Code Module",
+            "Dilation Module (Bending)",
+            "Erosion Module (Bending)",
+            "Gradient Module (Bending)",
+            "HSpace Bending",
+            "Latent Operation (Add Noise)",
+            "Latent Operation (Add Scalar)",
+            "Latent Operation (Custom)",
+            "Latent Operation (Multiply Scalar)",
+            "Latent Operation (Rotate)",
+            "Latent Operation (Threshold)",
+            "Latent Operation To Module",
+            "LatentApplyOperationCFGToStep",
+            "LoRA Bending",
+            "Model Bending",
+            "Model Bending (SD Layers)",
+            "Model Inspector",
+            "Model VAE Bending",
+            "Multiply Scalar Module (Bending)",
+            "NoiseVariations",
+            "PCAPrep",
+            "Rotate Module (Bending)",
+            "Scale Module (Bending)",
+            "Sobel Module (Bending)",
+            "Threshold Module (Bending)",
+            "Visualize Feature Map"
+        ],
+        {
+            "title_aux": "ComfyUI Model Bending [UNSAFE]"
         }
     ],
     "https://github.com/aiden1020/ComfyUI_Artcoder": [
@@ -4509,7 +4645,8 @@
     ],
     "https://github.com/cyberhirsch/seb_nodes": [
         [
-            "SaveImageAdvanced"
+            "SaveImageSeb",
+            "SwitchMasksSeb"
         ],
         {
             "title_aux": "seb_nodes [WIP]"
@@ -6501,6 +6638,14 @@
             "title_aux": "comfyui_LLM_Polymath [WIP]"
         }
     ],
+    "https://github.com/lum3on/comfyui_RollingDepth": [
+        [
+            "RollingDepthNode"
+        ],
+        {
+            "title_aux": "comfyui_RollingDepth [WIP]"
+        }
+    ],
     "https://github.com/machinesarenotpeople/comfyui-energycost": [
         [
             "TimeCostEndNode",
@@ -8134,8 +8279,11 @@
     ],
     "https://github.com/wTechArtist/ComfyUI_WWL_Florence2SAM2": [
         [
+            "Mask2FormerPanoptic",
+            "SAM1AutoEverything",
             "VVL_Florence2SAM2",
             "VVL_GroundingDinoSAM2",
+            "VVL_MaskCleaner",
             "VVL_SAM2Loader"
         ],
         {
@@ -8273,14 +8421,18 @@
     "https://github.com/xl0/q_tools": [
         [
             "PreviewModelMetadata",
+            "QBlendLatent",
             "QConcatLatentBatch",
             "QGaussianLatent",
             "QImageSizeSetter",
             "QKSampler",
+            "QLatentOp",
             "QLatentToShape",
             "QLinearScheduler",
             "QLoadLatent",
             "QLoadLatentTimeline",
+            "QParamRandomizerRange",
+            "QParamaRandomizerList",
             "QPreviewLatent",
             "QReshapeLatent",
             "QSamplerCustom",
@@ -8484,6 +8636,7 @@
     ],
     "https://github.com/yincangshiwei/ComfyUI-SEQLToolNode": [
         [
+            "CanvasFusionNode",
             "ImageCropByAlpha"
         ],
         {

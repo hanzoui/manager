@@ -15,7 +15,37 @@
         
         
         
-
+        {
+            "author": "lum3on",
+            "title": "comfyui_RollingDepth [WIP]",
+            "reference": "https://github.com/lum3on/comfyui_RollingDepth",
+            "files": [
+                "https://github.com/lum3on/comfyui_RollingDepth"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyuI Needs longer to start the first time, because the mode gets downloaded.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "abuzreq",
+            "title": "ComfyUI Model Bending [UNSAFE]",
+            "reference": "https://github.com/abuzreq/ComfyUI-Model-Bending",
+            "files": [
+                "https://github.com/abuzreq/ComfyUI-Model-Bending"
+            ],
+            "install_type": "git-clone",
+            "description": "Use model bending to push your model beyond its visuals' limits. These nodes allow you to apply transformations to the intemediate densoising steps during sampling, e.g. add, multiplty, scale, rotate, dilate, erode ..etc.[w/This node pack contains a vulnerability that allows remote code execution.]"
+        },
+        {
+            "author": "Stable Diffusion VN",
+            "title": "SDVN Comfy node [UNSAFE]",
+            "id": "SDVN",
+            "reference": "https://github.com/StableDiffusionVN/SDVN_Comfy_node",
+            "files": [
+                "https://github.com/StableDiffusionVN/SDVN_Comfy_node"
+            ],
+            "install_type": "git-clone",
+            "description": "Update IC Lora Layout Support Node[w/This node pack contains a vulnerability that allows remote code execution.]"
+        },
         {
             "author": "Sephrael",
             "title": "comfyui_caption-around-image [WIP]",
@@ -44,7 +74,7 @@
                 "https://github.com/yincangshiwei/ComfyUI-SEQLToolNode"
             ],
             "install_type": "git-clone",
-            "description": "NODES: ImageCropAlphaNode (Image)"
+            "description": "NODES: ImageCropAlphaNode (Image), CanvasFusionNode (Image)"
         },
         {
             "author": "gabe-init",
