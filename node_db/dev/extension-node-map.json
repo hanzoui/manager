@@ -2530,6 +2530,7 @@
     ],
     "https://github.com/Poukpalaova/ComfyUI-FRED-Nodes": [
         [
+            "FRED_AutoCropImage_Native_Ratio_v5",
             "FRED_AutoCropImage_SDXL_Ratio_V3",
             "FRED_AutoCropImage_SDXL_Ratio_V4",
             "FRED_CropFace",
@@ -2545,12 +2546,14 @@
             "FRED_LoadImage_V3",
             "FRED_LoadImage_V4",
             "FRED_LoadImage_V5",
+            "FRED_LoadImage_V6",
             "FRED_LoadPathImagesPreview",
             "FRED_LoadPathImagesPreview_v2",
             "FRED_LoadRetinaFace",
             "FRED_LoraInfos",
             "FRED_PreviewOnly",
             "FRED_TextMultiline",
+            "FRED_Text_to_XMP",
             "FRED_photo_prompt"
         ],
         {
@@ -4225,6 +4228,8 @@
             "FlipSigmas",
             "FluxDisableGuidance",
             "FluxGuidance",
+            "FluxKontextMaxImageNode",
+            "FluxKontextProImageNode",
             "FluxProCannyNode",
             "FluxProDepthNode",
             "FluxProExpandNode",
@@ -4575,6 +4580,7 @@
             "WanFunControlToVideo",
             "WanFunInpaintToVideo",
             "WanImageToVideo",
+            "WanPhantomSubjectToVideo",
             "WanVaceToVideo",
             "WebcamCapture",
             "unCLIPCheckpointLoader",
@@ -7388,6 +7394,7 @@
             "Json2String",
             "Query_OpenAI",
             "RunPython",
+            "SpiderCrawl",
             "String2Json",
             "String_Attachment"
         ],
@@ -8123,6 +8130,8 @@
             "GetMadaObjectNode",
             "InitiateOiaNode",
             "InitiateRDSOTMCycleNode",
+            "LcADKConfigNode",
+            "LcADKGuiInteractionNode",
             "LcAddCommentToPbiNode",
             "LcAnchorClickNode",
             "LcApiLlmAgentNode",
@@ -8279,11 +8288,11 @@
     ],
     "https://github.com/wTechArtist/ComfyUI_WWL_Florence2SAM2": [
         [
-            "Mask2FormerPanoptic",
             "SAM1AutoEverything",
             "VVL_Florence2SAM2",
             "VVL_GroundingDinoSAM2",
             "VVL_MaskCleaner",
+            "VVL_SAM1Loader",
             "VVL_SAM2Loader"
         ],
         {

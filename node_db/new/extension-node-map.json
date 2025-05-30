@@ -694,7 +694,9 @@
         [
             "AdvancedImageComparer",
             "ShaderNoiseKSampler",
-            "ShaderNoiseKSamplerDirect"
+            "ShaderNoiseKSamplerDirect",
+            "Video Comparer",
+            "VideoComparer"
         ],
         {
             "title_aux": "ComfyUI-ShaderNoiseKSampler"
@@ -3050,6 +3052,7 @@
             "ReHiDreamPatcherAdvanced",
             "ReLTXVPatcher",
             "ReLTXVPatcherAdvanced",
+            "ReReduxPatcher",
             "ReSD35Patcher",
             "ReSD35PatcherAdvanced",
             "ReSDPatcher",
@@ -3136,7 +3139,7 @@
             "SigmasSchedulePreview",
             "StableCascade_StageB_Conditioning64",
             "StableCascade_StageC_VAEEncode_Exact",
-            "StyleModelApplyAdvanced_",
+            "StyleModelApplyStyle",
             "Tan Scheduler",
             "Tan Scheduler 2",
             "Tan Scheduler 2 Simple",
@@ -3678,6 +3681,7 @@
             "DP Five Lora Random",
             "DP Float Stepper",
             "DP Get Seed From Image",
+            "DP IF Int Condition",
             "DP Image And String Pairs Switch",
             "DP Image Color Analyzer",
             "DP Image Color Analyzer Small",
@@ -7065,6 +7069,8 @@
             "Convert String To Float [LP]",
             "Convert String To Int [LP]",
             "Convert String To Number [LP]",
+            "Count Objects [LP]",
+            "CountObjects|LP",
             "Delay [LP]",
             "Delay|LP",
             "Fast Checker Pattern [LP]",
@@ -7080,10 +7086,8 @@
             "HundredthsSimpleFloatSlider|LP",
             "Image Loader From Path [LP]",
             "Image Overlay [LP]",
-            "Image Remove Background [LP]",
             "ImageLoaderFromPath|LP",
             "ImageOverlay|LP",
-            "ImageRemoveBackground|LP",
             "IntToBool|LP",
             "IntToFloat|LP",
             "IntToString|LP",
@@ -7179,6 +7183,12 @@
         [
             "Autotagger [LP]",
             "Autotagger|LP",
+            "Image Remove Background (BiRefNet) [LP]",
+            "Image Remove Background (RMBG) [LP]",
+            "Image Remove Background (rembg) [LP]",
+            "ImageRemoveBackgroundBiRefNet|LP",
+            "ImageRemoveBackgroundRMBG|LP",
+            "ImageRemoveBackground|LP",
             "LLM Advanced [LP]",
             "LLM Loader [LP]",
             "LLM Sampler [LP]",
@@ -7197,6 +7207,8 @@
             "LLavaSamplerAdvanced|LP",
             "LLavaSamplerSimple|LP",
             "LLavaSimple|LP",
+            "Multimodal Generator Advanced [LP]",
+            "MultimodalGeneratorAdvanced|LP",
             "Recognize Anything (RAM) [LP]",
             "RecognizeAnything(RAM)|LP"
         ],
@@ -8051,7 +8063,8 @@
             "SingleCuttingVideo",
             "StitchingVideo",
             "Video2Frames",
-            "VideoFlip"
+            "VideoFlip",
+            "VideoTransition"
         ],
         {
             "title_aux": "ComfyUI-FFmpeg"
@@ -10930,13 +10943,16 @@
             "Basic data handling: DataListExtend",
             "Basic data handling: DataListFilter",
             "Basic data handling: DataListFilterSelect",
+            "Basic data handling: DataListFirst",
             "Basic data handling: DataListGetItem",
             "Basic data handling: DataListIndex",
             "Basic data handling: DataListInsert",
+            "Basic data handling: DataListLast",
             "Basic data handling: DataListLength",
             "Basic data handling: DataListMax",
             "Basic data handling: DataListMin",
             "Basic data handling: DataListPop",
+            "Basic data handling: DataListPopRandom",
             "Basic data handling: DataListRemove",
             "Basic data handling: DataListReverse",
             "Basic data handling: DataListSetItem",
@@ -10968,6 +10984,7 @@
             "Basic data handling: DictMerge",
             "Basic data handling: DictPop",
             "Basic data handling: DictPopItem",
+            "Basic data handling: DictPopRandom",
             "Basic data handling: DictRemove",
             "Basic data handling: DictSet",
             "Basic data handling: DictSetDefault",
@@ -11017,13 +11034,16 @@
             "Basic data handling: ListCreateFromInt",
             "Basic data handling: ListCreateFromString",
             "Basic data handling: ListExtend",
+            "Basic data handling: ListFirst",
             "Basic data handling: ListGetItem",
             "Basic data handling: ListIndex",
             "Basic data handling: ListInsert",
+            "Basic data handling: ListLast",
             "Basic data handling: ListLength",
             "Basic data handling: ListMax",
             "Basic data handling: ListMin",
             "Basic data handling: ListPop",
+            "Basic data handling: ListPopRandom",
             "Basic data handling: ListRemove",
             "Basic data handling: ListReverse",
             "Basic data handling: ListSetItem",
@@ -11097,6 +11117,7 @@
             "Basic data handling: SetIsSuperset",
             "Basic data handling: SetLength",
             "Basic data handling: SetPop",
+            "Basic data handling: SetPopRandom",
             "Basic data handling: SetRemove",
             "Basic data handling: SetSymmetricDifference",
             "Basic data handling: SetToDataList",
@@ -14578,6 +14599,7 @@
         [
             "caching_condition",
             "caching_controlnet",
+            "caching_from_combined_images",
             "caching_image",
             "caching_mask",
             "caching_text"
@@ -15687,7 +15709,7 @@
         [
             "CSMDialogRun",
             "CSMSpeakersPreview",
-            "MultiLinePromptCSM"
+            "MultiLineText"
         ],
         {
             "title_aux": "ComfyUI_CSM"
@@ -15800,7 +15822,8 @@
     ],
     "https://github.com/billwuhao/ComfyUI_gemmax": [
         [
-            "GemmaxRun"
+            "GemmaxRun",
+            "QuickMTRun"
         ],
         {
             "title_aux": "MW-ComfyUI_gemmax"
@@ -15912,6 +15935,7 @@
             "SamplerSonarEuler",
             "SamplerSonarEulerA",
             "SonarAdvanced1fNoise",
+            "SonarAdvancedCollatzNoise",
             "SonarAdvancedDistroNoise",
             "SonarAdvancedPowerLawNoise",
             "SonarAdvancedPyramidNoise",
@@ -18394,6 +18418,8 @@
             "FlipSigmas",
             "FluxDisableGuidance",
             "FluxGuidance",
+            "FluxKontextMaxImageNode",
+            "FluxKontextProImageNode",
             "FluxProCannyNode",
             "FluxProDepthNode",
             "FluxProExpandNode",
@@ -18744,6 +18770,7 @@
             "WanFunControlToVideo",
             "WanFunInpaintToVideo",
             "WanImageToVideo",
+            "WanPhantomSubjectToVideo",
             "WanVaceToVideo",
             "WebcamCapture",
             "unCLIPCheckpointLoader",
@@ -24083,6 +24110,7 @@
             "ai4artsed_random_artform_generator",
             "ai4artsed_random_instruction_generator",
             "ai4artsed_random_language_selector",
+            "ai4artsed_t5_clip_fusion",
             "ai4artsed_text_remix"
         ],
         {
@@ -35824,6 +35852,7 @@
             "MaskofCenter",
             "MatchImageRatioToPreset",
             "ModifyTextGender",
+            "NeedImageSizeAndCount",
             "SplitMask",
             "TextInputAutoSelector",
             "TextPreview",
