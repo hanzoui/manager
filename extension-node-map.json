@@ -7362,6 +7362,20 @@
             "title_aux": "ComfyUI-PixelResolutionCalculator"
         }
     ],
+    "https://github.com/LingSss9/comfyui-merge": [
+        [
+            "MergeLoRAsKohyaSSLike",
+            "OnlyLoadLoRAsModel",
+            "SaveLoRAModels"
+        ],
+        {
+            "author": "cyberblackcat",
+            "description": "This extension provides some nodes to support merge lora, adjust Lora Block Weight.",
+            "nickname": "CBC",
+            "title": "merge",
+            "title_aux": "Comfyui-Merge-LoRA"
+        }
+    ],
     "https://github.com/Loewen-Hob/rembg-comfyui-node-better": [
         [
             "Image Remove Background (rembg)"
@@ -9725,6 +9739,14 @@
             "title_aux": "ComfyUI-DeepStereo"
         }
     ],
+    "https://github.com/SanDiegoDude/ComfyUI-Kontext-API": [
+        [
+            "KontextAPINode"
+        ],
+        {
+            "title_aux": "ComfyUI-Kontext-API"
+        }
+    ],
     "https://github.com/SanDiegoDude/ComfyUI-SaveAudioMP3": [
         [
             "SaveAudioMP3"
@@ -11653,6 +11675,16 @@
             "title_aux": "Face Processor for ComfyUI"
         }
     ],
+    "https://github.com/T-Ph525/ComfyUI-Underage-Filter": [
+        [
+            "AgeCheckerNode",
+            "MultiTypeGateNode",
+            "UnderageFilterNode"
+        ],
+        {
+            "title_aux": "Underage Filter"
+        }
+    ],
     "https://github.com/TFL-TFL/ComfyUI_Text_Translation": [
         [
             "Get_Translator",
@@ -12230,6 +12262,16 @@
         ],
         {
             "title_aux": "ComfyUI-OllamaPromptsGeneratorTlant"
+        }
+    ],
+    "https://github.com/ToTheBeginning/ComfyUI-DreamO": [
+        [
+            "ApplyDreamO",
+            "DreamOProcessorLoader",
+            "DreamORefEncode"
+        ],
+        {
+            "title_aux": "DreamO Comfyui"
         }
     ],
     "https://github.com/Tr1dae/ComfyUI-Dequality": [
@@ -13153,6 +13195,26 @@
             "title_aux": "x-flux-comfyui"
         }
     ],
+    "https://github.com/XWAVEart/comfyui-xwave-xlitch-nodes": [
+        [
+            "XWAVEPixelate",
+            "XWaveChromaticAberration",
+            "XWaveColorChannelManipulation",
+            "XWaveColorFilter",
+            "XWaveColorShiftExpansion",
+            "XWaveCurvedHueShift",
+            "XWaveGaussianBlur",
+            "XWaveHistogramGlitch",
+            "XWaveJPEGArtifacts",
+            "XWaveNoiseEffect",
+            "XWavePosterize",
+            "XWaveRGBChannelShift",
+            "XWaveSharpen"
+        ],
+        {
+            "title_aux": "ComfyUI XWAVE Nodes"
+        }
+    ],
     "https://github.com/XchanBik/ComfyUI_SimpleBridgeNode": [
         [
             "LoraTextLoader",
@@ -13896,6 +13958,14 @@
         ],
         {
             "title_aux": "ComfyUI-Image-Resizing"
+        }
+    ],
+    "https://github.com/Zch6111/AI_Text_Comfyui": [
+        [
+            "AutoPromptGeneratorNode"
+        ],
+        {
+            "title_aux": "AI_Text_Comfyui"
         }
     ],
     "https://github.com/ZeDarkAdam/ComfyUI-Embeddings-Tools": [
@@ -15320,6 +15390,15 @@
         ],
         {
             "title_aux": "Vaja TextToSpeech Node for ComfyUI"
+        }
+    ],
+    "https://github.com/babydjac/comfyui-grok-prompts": [
+        [
+            "Flux",
+            "PonyXL"
+        ],
+        {
+            "title_aux": "ComfyUI Grok Prompts"
         }
     ],
     "https://github.com/babydjac/comfyui-smart-scaler": [
@@ -24319,6 +24398,20 @@
             "title_aux": "comfyui_fk_server"
         }
     ],
+    "https://github.com/juntaosun/ComfyUI_open_nodes": [
+        [
+            "OpenEmptyImageAndMask",
+            "OpenGetImageSizeAndCount",
+            "OpenGetMaskSizeAndCount",
+            "OpenImageBatch",
+            "OpenMaskBatch",
+            "OpenPadImageForOutpaint",
+            "OpenReplaceImageInBatch"
+        ],
+        {
+            "title_aux": "ComfyUI_open_nodes"
+        }
+    ],
     "https://github.com/jurdnisglobby/ComfyUI-Jurdns-Groq-Node": [
         [
             "JurdnsGroqAPIPromptEnhancer"
@@ -29703,6 +29796,18 @@
             "title_aux": "ComfyUI StoryCreater"
         }
     ],
+    "https://github.com/p1atdev/comfyui-timm-backbone": [
+        [
+            "TimmBackboneImageEncode",
+            "TimmBackboneImageNormalize",
+            "TimmBackboneLoader",
+            "TimmBackboneRGB2BGR",
+            "TimmEmbedsPrint"
+        ],
+        {
+            "title_aux": "comfyui-timm-backbone"
+        }
+    ],
     "https://github.com/palant/image-resize-comfyui": [
         [
             "ImageResize"
@@ -34368,6 +34473,25 @@
         ],
         {
             "title_aux": "ComfyUI-Openpose-Editor-Plus"
+        }
+    ],
+    "https://github.com/whmc76/ComfyUI-RemoveBackgroundSuite": [
+        [
+            "BiRefNetUltraV3_RBS",
+            "LoadBiRefNetModelV3_RBS",
+            "TransparentBackgroundUltra_RBS"
+        ],
+        {
+            "title_aux": "ComfyUI-RemoveBackgroundSuite"
+        }
+    ],
+    "https://github.com/wildminder/ComfyUI-Chatterbox": [
+        [
+            "ChatterboxTTS",
+            "ChatterboxVC"
+        ],
+        {
+            "title_aux": "ComfyUI-Chatterbox"
         }
     ],
     "https://github.com/wildminder/ComfyUI-KEEP": [

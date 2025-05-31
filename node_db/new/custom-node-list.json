@@ -64,6 +64,46 @@
             "description": "ComfyUI custom node for FramePack, supporting 1-frame inferences."
         },
         {
+            "author": "p1atdev",
+            "title": "comfyui-timm-backbone",
+             "reference": "https://github.com/p1atdev/comfyui-timm-backbone",
+             "files": [
+                 "https://github.com/p1atdev/comfyui-timm-backbone"
+            ],
+            "description": "ComfyUI Timm Backbone Nodes is a custom node set that enables you to load and use pre-trained models from the [a/timm](https://github.com/huggingface/pytorch-image-models) library within ComfyUI workflows.",
+            "install_type": "git-clone"
+        },
+        {
+            "author": "Zch6111",
+            "title": "AI_Text_Comfyui",
+             "reference": "https://github.com/Zch6111/AI_Text_Comfyui",
+             "files": [
+                 "https://github.com/Zch6111/AI_Text_Comfyui"
+            ],
+            "description": "AI_Text_Comfyui is a custom node for ComfyUI that connects to the OpenAI Chat API and automatically generates creative text prompts for AI workflows. This simplified version removes external dependencies like dotenv, requiring the OpenAI key to be set using a system environment variable.",
+            "install_type": "git-clone"
+        },
+        {
+            "author": "XWAVEart",
+            "title": "ComfyUI XWAVE Nodes",
+             "reference": "https://github.com/XWAVEart/comfyui-xwave-xlitch-nodes",
+             "files": [
+                 "https://github.com/XWAVEart/comfyui-xwave-xlitch-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of artistic glitch and image manipulation nodes for ComfyUI, featuring advanced noise effects, color manipulations, distortions, and more."
+        },
+        {
+            "author": "wildminder",
+            "title": "ComfyUI-Chatterbox",
+            "reference": "https://github.com/wildminder/ComfyUI-Chatterbox",
+            "files": [
+                "https://github.com/wildminder/ComfyUI-Chatterbox"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Chatterbox TTS & Voice Conversion Node"
+        },
+        {
             "author": "LingSss9",
             "title": "Comfyui-Merge-LoRA",
              "id": "comfyui-merge",
@@ -71,8 +111,58 @@
              "files": [
                  "https://github.com/LingSss9/comfyui-merge"
             ],
+            "description": "Merge up to 4 LoRA models with balanced, order-independent logic. Inspired by WebUI SuperMerger.",
+            "install_type": "git-clone"
+        },
+        {
+            "author": "whmc76",
+            "title": "ComfyUI-RemoveBackgroundSuite",
+            "reference": "https://github.com/whmc76/ComfyUI-RemoveBackgroundSuite",
+            "files": [
+                "https://github.com/whmc76/ComfyUI-RemoveBackgroundSuite"
+            ],
             "install_type": "git-clone",
-             "description": "Merge up to 4 LoRA models with balanced, order-independent logic. Inspired by WebUI SuperMerger."
+            "description": "A matting toolkit based on ComfyUI, supporting multiple matting models and detail processing methods."
+        },
+        {
+            "author": "mrcuddle",
+            "title": "Underage Filter",
+             "reference": "https://github.com/T-Ph525/ComfyUI-Underage-Filter",
+             "files": [
+                 "https://github.com/T-Ph525/ComfyUI-Underage-Filter"
+            ],
+            "description": "An implementation to detect underage subjects in images for ComfyUI.",
+            "install_type": "git-clone"
+        },
+        {
+            "author": "ToTheBeginning",
+            "title": "DreamO Comfyui",
+             "reference": "https://github.com/ToTheBeginning/ComfyUI-DreamO",
+             "files": [
+                 "https://github.com/ToTheBeginning/ComfyUI-DreamO"
+            ],
+            "description": "[a/DreamO](https://github.com/bytedance/DreamO) ComfyUI native implementation.",
+            "install_type": "git-clone"
+        },
+        {
+            "author": "SanDiegoDude",
+            "title": "ComfyUI-Kontext-API",
+            "reference": "https://github.com/SanDiegoDude/ComfyUI-Kontext-API",
+            "files": [
+                "https://github.com/SanDiegoDude/ComfyUI-Kontext-API"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node for integrating with the Fal Kontext API for advanced image editing and generation."
+        },
+        {
+            "author": "juntaosun",
+            "title": "ComfyUI_open_nodes",
+             "reference": "https://github.com/juntaosun/ComfyUI_open_nodes",
+             "files": [
+                 "https://github.com/juntaosun/ComfyUI_open_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI open nodes by juntaosun."
         },
         {
             "author": "angree",

@@ -3964,6 +3964,16 @@
             "description": "Nodes:Openpose Editor Plus"
         },
         {
+            "author": "whmc76",
+            "title": "ComfyUI-RemoveBackgroundSuite",
+            "reference": "https://github.com/whmc76/ComfyUI-RemoveBackgroundSuite",
+            "files": [
+                "https://github.com/whmc76/ComfyUI-RemoveBackgroundSuite"
+            ],
+            "install_type": "git-clone",
+            "description": "A matting toolkit based on ComfyUI, supporting multiple matting models and detail processing methods."
+        },
+        {
             "author": "martijnat",
             "title": "comfyui-previewlatent",
             "reference": "https://github.com/martijnat/comfyui-previewlatent",
@@ -25766,6 +25776,16 @@
             "description": "ComfyUI nodes for DeepStereo, an auto-autostereogram generator"
         },
         {
+            "author": "SanDiegoDude",
+            "title": "ComfyUI-Kontext-API",
+            "reference": "https://github.com/SanDiegoDude/ComfyUI-Kontext-API",
+            "files": [
+                "https://github.com/SanDiegoDude/ComfyUI-Kontext-API"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node for integrating with the Fal Kontext API for advanced image editing and generation."
+        },
+        {
             "author": "tavyra",
             "title": "ComfyUI_Curves",
             "reference": "https://github.com/tavyra/ComfyUI_Curves",
@@ -26172,6 +26192,16 @@
             "description": "ComfyUI-KEEP: Kalman-Inspired Feature Propagation for Video Face Super-Resolution in ComfyUI"
         },
         {
+            "author": "wildminder",
+            "title": "ComfyUI-Chatterbox",
+            "reference": "https://github.com/wildminder/ComfyUI-Chatterbox",
+            "files": [
+                "https://github.com/wildminder/ComfyUI-Chatterbox"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Chatterbox TTS & Voice Conversion Node"
+        },
+        {
             "author": "cloudkoala",
             "title": "comfyui-koala",
             "reference": "https://github.com/cloudkoala/comfyui-koala",
@@ -26533,8 +26563,8 @@
             "files": [
                 "https://github.com/babydjac/comfyui-grok-prompts"
             ],
-            "description": "Custom ComfyUI nodes for generating prompts using Grok AI, enhancing prompt creation for text-to-image workflows.",
-            "install_type": "git-clone"
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for generating prompts using Grok AI, enhancing prompt creation for text-to-image workflows."
         },
         {
             "author": "LingSss9",
@@ -26545,8 +26575,70 @@
                  "https://github.com/LingSss9/comfyui-merge"
             ],
             "install_type": "git-clone",
-             "description": "Merge up to 4 LoRA models with balanced, order-independent logic. Inspired by WebUI SuperMerger."
+            "description": "Merge up to 4 LoRA models with balanced, order-independent logic. Inspired by WebUI SuperMerger."
         },
+        {
+            "author": "p1atdev",
+            "title": "comfyui-timm-backbone",
+             "reference": "https://github.com/p1atdev/comfyui-timm-backbone",
+             "files": [
+                 "https://github.com/p1atdev/comfyui-timm-backbone"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Timm Backbone Nodes is a custom node set that enables you to load and use pre-trained models from the [a/timm](https://github.com/huggingface/pytorch-image-models) library within ComfyUI workflows."
+        },
+        {
+            "author": "Zch6111",
+            "title": "AI_Text_Comfyui",
+             "reference": "https://github.com/Zch6111/AI_Text_Comfyui",
+             "files": [
+                 "https://github.com/Zch6111/AI_Text_Comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "AI_Text_Comfyui is a custom node for ComfyUI that connects to the OpenAI Chat API and automatically generates creative text prompts for AI workflows. This simplified version removes external dependencies like dotenv, requiring the OpenAI key to be set using a system environment variable."
+        },
+        {
+            "author": "mrcuddle",
+            "title": "Underage Filter",
+             "reference": "https://github.com/T-Ph525/ComfyUI-Underage-Filter",
+             "files": [
+                 "https://github.com/T-Ph525/ComfyUI-Underage-Filter"
+            ],
+            "install_type": "git-clone",
+            "description": "An implementation to detect underage subjects in images for ComfyUI."
+        },
+        {
+            "author": "ToTheBeginning",
+            "title": "DreamO Comfyui",
+             "reference": "https://github.com/ToTheBeginning/ComfyUI-DreamO",
+             "files": [
+                 "https://github.com/ToTheBeginning/ComfyUI-DreamO"
+            ],
+            "install_type": "git-clone",
+            "description": "[a/DreamO](https://github.com/bytedance/DreamO) ComfyUI native implementation."
+        },
+        {
+            "author": "XWAVEart",
+            "title": "ComfyUI XWAVE Nodes",
+             "reference": "https://github.com/XWAVEart/comfyui-xwave-xlitch-nodes",
+             "files": [
+                 "https://github.com/XWAVEart/comfyui-xwave-xlitch-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of artistic glitch and image manipulation nodes for ComfyUI, featuring advanced noise effects, color manipulations, distortions, and more."
+        },
+        {
+            "author": "juntaosun",
+            "title": "ComfyUI_open_nodes",
+             "reference": "https://github.com/juntaosun/ComfyUI_open_nodes",
+             "files": [
+                 "https://github.com/juntaosun/ComfyUI_open_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI open nodes by juntaosun."
+        },
+
+
 
         
         
