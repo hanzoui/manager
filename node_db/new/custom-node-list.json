@@ -11,6 +11,69 @@
         
         
         {
+            "author": "smthemex",
+            "title": "ComfyUI_HunyuanAvatar_Sm",
+            "reference": "https://github.com/smthemex/ComfyUI_HunyuanAvatar_Sm",
+            "files": [
+                "https://github.com/smthemex/ComfyUI_HunyuanAvatar_Sm"
+            ],
+            "install_type": "git-clone",
+            "description": "HunyuanVideo-Avatar: High-Fidelity Audio-Driven Human Animation for Multiple Characters,try it in comfyUI ,if your VRAM >24G."
+        },
+        {
+            "author": "KERRY-YUAN",
+            "title": "ComfyUI_Spark_TTS",
+            "id": "ComfyUI_Spark_TTS",
+            "reference": "https://github.com/KERRY-YUAN/ComfyUI_Spark_TTS",
+            "files": [
+                "https://github.com/KERRY-YUAN/ComfyUI_Spark_TTS"
+            ],
+            "install_type": "git-clone",
+            "description": "Spark-TTS controllable synthesis and voice cloning."
+        },
+        {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-ChatterboxTTS",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-ChatterboxTTS",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-ChatterboxTTS"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-ChatterboxTTS is now available in ComfyUI, Chatterbox TTS is the first production-grade open-source TTS model."
+        },
+        {
+            "author": "babydjac",
+            "title": "ComfyUI Grok Prompts",
+            "id": "comfyui-grok-prompts",
+            "reference": "https://github.com/babydjac/comfyui-grok-prompts",
+            "files": [
+                "https://github.com/babydjac/comfyui-grok-prompts"
+            ],
+            "description": "Custom ComfyUI nodes for generating prompts using Grok AI, enhancing prompt creation for text-to-image workflows.",
+            "install_type": "git-clone"
+        },
+        {
+            "author": "xhiroga",
+            "title": "ComfyUI-FramePackWrapper_PlusOne",
+            "id": "comfyui-framepackwrapper-plusone",
+            "reference": "https://github.com/xhiroga/ComfyUI-FramePackWrapper_PlusOne",
+            "files": [
+                "https://github.com/xhiroga/ComfyUI-FramePackWrapper_PlusOne"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for FramePack, supporting 1-frame inferences."
+        },
+        {
+            "author": "angree",
+            "title": "Q Find Mask Size",
+            "reference": "https://github.com/angree/ComfyUI-Q_find-mask-size",
+            "files": [
+                "https://github.com/angree/ComfyUI-Q_find-mask-size"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for finding and analyzing mask sizes in images"
+        },
+        {
             "author": "Yuan-ManX",
             "title": "ComfyUI-HunyuanVideo-Avatar",
             "reference": "https://github.com/Yuan-ManX/ComfyUI-HunyuanVideo-Avatar",
@@ -19,6 +82,56 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI-HunyuanVideo-Avatar is now available in ComfyUI, HunyuanVideo-Avatar is a multimodal diffusion transformer (MM-DiT)-based model capable of simultaneously generating dynamic, emotion-controllable, and multi-character dialogue videos."
+        },
+        {
+            "author": "DragonDiffusionbyBoyo",
+            "title": "BoyoSupercoolWrapper",
+            "reference": "https://github.com/DragonDiffusionbyBoyo/BoyoSupercoolWrapper",
+            "files": [
+                "https://github.com/DragonDiffusionbyBoyo/BoyoSupercoolWrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a ComfyUI wrapper for Andrew DalPino's SuperCool upscaler, enabling its use directly within ComfyUI's node workflow. No extra dependencies required—just drop in the models and go."
+        },
+        {
+            "author": "filliptm",
+            "title": "ComfyUI_Fill-ChatterBox",
+            "reference": "https://github.com/filliptm/ComfyUI_Fill-ChatterBox",
+            "files": [
+                "https://github.com/filliptm/ComfyUI_Fill-ChatterBox"
+            ],
+            "install_type": "git-clone",
+            "description": "Voice Clone and TTS model."
+        },
+        {
+            "author": "MijnSpam",
+            "title": "Comfy swap and scale",
+            "reference": "https://github.com/MijnSpam/ComfyUI_SwapAndScale",
+            "files": [
+                "https://github.com/MijnSpam/ComfyUI_SwapAndScale"
+            ],
+            "install_type": "git-clone",
+            "description": "Do you want to easily swap width and heigth? Than this is for you. From portrait to Landscape. Is you images model trained on 1MP pictures, then you can easily scale those down. For best pictures width and heigth should be a factor of 32, say no more..."
+        },
+        {
+            "author": "narusas",
+            "title": "ComfyUI Logic Support",
+            "reference": "https://github.com/narusas/Comfyui-Logic-Support",
+            "files": [
+                "https://github.com/narusas/Comfyui-Logic-Support"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of logic and utility nodes for ComfyUI to enhance workflow capabilities."
+        },
+        {
+            "author": "wTechArtist",
+            "title": "ComfyUI VVL Video Camera Advanced",
+            "reference": "https://github.com/wTechArtist/ComfyUI_VVL_VideoCamera_Advanced",
+            "files": [
+                "https://github.com/wTechArtist/ComfyUI_VVL_VideoCamera_Advanced"
+            ],
+            "install_type": "git-clone",
+            "description": "A professional video camera parameter estimation toolkit based on the VGGT model."
         },
         {
             "author": "niknah",
@@ -585,117 +698,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI Mini Toolkit – Helps reduce node redundancy. Let’s see if there’s time to keep it updated regularly."
-        },
-        {
-            "author": "Yuan-ManX",
-            "title": "ComfyUI-AniSora",
-            "reference": "https://github.com/Yuan-ManX/ComfyUI-AniSora",
-            "files": [
-                "https://github.com/Yuan-ManX/ComfyUI-AniSora"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-AniSora is now available in ComfyUI, Index-AniSora is the most powerful open-source animated video generation model. It enables one-click creation of video shots across diverse anime styles including series episodes, Chinese original animations, manga adaptations, VTuber content, anime PVs, mad-style parodies, and more!"
-        },
-        {
-            "author": "smthemex",
-            "title": "ComfyUI_VisualCloze",
-            "reference": "https://github.com/smthemex/ComfyUI_VisualCloze",
-            "files": [
-                "https://github.com/smthemex/ComfyUI_VisualCloze"
-            ],
-            "install_type": "git-clone",
-            "description": "VisualCloze: A Universal Image Generation Framework via Visual In-Context Learning,you can use it in ComfyUI"
-        },
-        {
-            "author": "lrzjason",
-            "title": "ComfyUI Watermark Detection Node",
-            "reference": "https://github.com/lrzjason/ComfyUI-Watermark-Detection",
-            "files": [
-                "https://github.com/lrzjason/ComfyUI-Watermark-Detection"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node for ComfyUI provides watermark detection capabilities using a YOLO model trained by [a/fancyfeast](https://huggingface.co/fancyfeast), the creator of JoyCaption. The model is originally hosted at [a/Hugging Face Space](https://huggingface.co/spaces/fancyfeast/joycaption-watermark-detection)."
-        },
-        {
-            "author": "craig-tanaka",
-            "title": "ComfyUI Anime Segmentation Nodes v1.1.0",
-            "reference": "https://github.com/craig-tanaka/comfyui_animeseg",
-            "files": [
-                "https://github.com/craig-tanaka/comfyui_animeseg"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a set of custom nodes for ComfyUI that provide anime-style image segmentation using efficient pre-trained models."
-        },
-        {
-            "author": "lum3on",
-            "title": "ComfyUI Model Quantizer",
-            "id": "ModelQuantizer",
-            "reference": "https://github.com/lum3on/ComfyUI-ModelQuantizer",
-            "files": [
-                "https://github.com/lum3on/ComfyUI-ModelQuantizer"
-            ],
-            "install_type": "git-clone",
-            "description": "A comprehensive custom node pack for ComfyUI that provides advanced tools for quantizing model weights to lower precision formats like FP16, BF16, and true FP8 types, with specialized support for ControlNet models."
-        },
-        {
-            "author": "Yuan-ManX",
-            "title": "ComfyUI-MoviiGen",
-            "reference": "https://github.com/Yuan-ManX/ComfyUI-MoviiGen",
-            "files": [
-                "https://github.com/Yuan-ManX/ComfyUI-MoviiGen"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-MoviiGen is now available in ComfyUI, MoviiGen 1.1 is a cutting-edge video generation model that excels in cinematic aesthetics and visual quality."
-        },
-        {
-            "author": "Jannled",
-            "title": "OWL-ViT ComfyUI",
-            "reference": "https://github.com/Jannled/owl-vit-comfyui",
-            "files": [
-                "https://github.com/Jannled/owl-vit-comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Nodes for OWL-ViT / OWLv2 using the HuggingFace Transformers implementation"
-        },
-        {
-            "author": "1038lab",
-            "title": "ComfyUI-LBM",
-            "reference": "https://github.com/1038lab/ComfyUI-LBM",
-            "files": [
-                "https://github.com/1038lab/ComfyUI-LBM"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI implementation of Latent Bridge Matching (LBM) for efficient image relighting. This node utilizes the LBM algorithm to perform single-step image-to-image translation specifically for relighting tasks."
-        },
-        {
-            "author": "thedivergentai",
-            "title": "Divergent Nodes",
-            "reference": "https://github.com/thedivergentai/divergent_nodes",
-            "files": [
-                "https://github.com/thedivergentai/divergent_nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "This repository contains a collection of custom nodes for ComfyUI designed to integrate external AI models, provide utilities, and enable advanced workflows."
-        },
-        {
-            "author": "mw",
-            "title": "ComfyUI_parakeet-tdt",
-            "reference": "https://github.com/billwuhao/ComfyUI_parakeet-tdt",
-            "files": [
-                "https://github.com/billwuhao/ComfyUI_parakeet-tdt"
-            ],
-            "install_type": "git-clone",
-            "description": "parakeet-tdt-0.6b-v2: Automatic speech recognition (ASR) model designed for high-quality English transcription, featuring support for punctuation, capitalization, and accurate timestamp prediction."
-        },
-        {
-            "author": "jqy-yo",
-            "title": "BBoxLowerMask2",
-            "reference": "https://github.com/jqy-yo/Comfyui-BBoxLowerMask2",
-            "files": [
-                "https://github.com/jqy-yo/Comfyui-BBoxLowerMask2"
-            ],
-            "install_type": "git-clone",
-            "description": "Create a mask to slice the image at specific coordinates"
         }
     ]
 }

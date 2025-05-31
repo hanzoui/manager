@@ -3112,14 +3112,6 @@
             "title_aux": "Comfyui-Sort-Files"
         }
     ],
-    "https://github.com/TOM1063/ComfyUI-SamuraiTools": [
-        [
-            "IntBoolSwitch"
-        ],
-        {
-            "title_aux": "ComfyUI-SamuraiTools [WIP]"
-        }
-    ],
     "https://github.com/TSFSean/ComfyUI-TSFNodes": [
         [
             "GyroOSC"
@@ -3690,6 +3682,14 @@
             "title_aux": "ComfyUI_MoreComfy"
         }
     ],
+    "https://github.com/avocadori/ComfyUI-AudioAmplitudeConverter": [
+        [
+            "NormalizeAmpToFloatNode"
+        ],
+        {
+            "title_aux": "ComfyUI Audio Amplitude Converter [WIP]"
+        }
+    ],
     "https://github.com/ayaoayaoayaoaya/ComfyUI-KLUT-DeepSeek-API": [
         [
             "KLUTDeepSeekAPI"
@@ -3819,6 +3819,15 @@
         ],
         {
             "title_aux": "Gen Data Tester [WIP]"
+        }
+    ],
+    "https://github.com/blueraincoatli/ComfyUI-Model-Cleaner": [
+        [
+            "InteractiveModelCleanerNode",
+            "ModelScannerNode"
+        ],
+        {
+            "title_aux": "ComfyModelCleaner [WIP]"
         }
     ],
     "https://github.com/bmad4ever/comfyui_bmad_nodes": [
@@ -3961,6 +3970,14 @@
         ],
         {
             "title_aux": "comfyui-eim"
+        }
+    ],
+    "https://github.com/brace-great/comfyui-mc": [
+        [
+            "IncrementCounterOnMatch"
+        ],
+        {
+            "title_aux": "comfyui-mc [WIP]"
         }
     ],
     "https://github.com/bruce007lee/comfyui-cleaner": [
@@ -4431,6 +4448,7 @@
             "RecraftVectorizeImageNode",
             "RegexExtract",
             "RegexMatch",
+            "RegexReplace",
             "RenormCFG",
             "RepeatImageBatch",
             "RepeatLatentBatch",
@@ -6083,6 +6101,8 @@
             "LoadWanVideoClipTextEncoder",
             "LoadWanVideoT5TextEncoder",
             "ReCamMasterPoseVisualizer",
+            "WanVideoATITracks",
+            "WanVideoATITracksVisualize",
             "WanVideoBlockSwap",
             "WanVideoClipVisionEncode",
             "WanVideoContextOptions",
@@ -7289,6 +7309,14 @@
             "title_aux": "ComyUI-Tupham"
         }
     ],
+    "https://github.com/pictorialink/ComfyUI-static-resource": [
+        [
+            "StaticResource"
+        ],
+        {
+            "title_aux": "comfyui-static-resource[UNSAFE]"
+        }
+    ],
     "https://github.com/pixuai/ComfyUI-PixuAI": [
         [
             "PromptSearch"
@@ -8266,8 +8294,8 @@
     ],
     "https://github.com/virallover/comfyui-virallover": [
         [
-            "ApplyBrightnessFromGrayWithMask",
             "BrightnessCorrectionNode",
+            "ConcatHorizontalWithMask",
             "DepthFitter",
             "DownloadAndLoadLoraModelOnly",
             "EdgeNoise",
@@ -8284,6 +8312,24 @@
         ],
         {
             "title_aux": "ComfyUI Simple Image Tools [WIP]"
+        }
+    ],
+    "https://github.com/wTechArtist/ComfyUI_VVL_Segmentation": [
+        [
+            "Mask2FormerPanoptic",
+            "OneFormerPanoptic"
+        ],
+        {
+            "title_aux": "ComfyUI_VVL_Segmentation [WIP]"
+        }
+    ],
+    "https://github.com/wTechArtist/ComfyUI_VVL_VideoCamera": [
+        [
+            "VideoCameraEstimator",
+            "VideoFrameExtractor"
+        ],
+        {
+            "title_aux": "ComfyUI_VVL_VideoCamera"
         }
     ],
     "https://github.com/wTechArtist/ComfyUI_WWL_Florence2SAM2": [
