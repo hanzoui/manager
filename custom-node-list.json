@@ -26536,6 +26536,17 @@
             "description": "Custom ComfyUI nodes for generating prompts using Grok AI, enhancing prompt creation for text-to-image workflows.",
             "install_type": "git-clone"
         },
+        {
+            "author": "LingSss9",
+            "title": "Comfyui-Merge-LoRA",
+             "id": "comfyui-merge",
+             "reference": "https://github.com/LingSss9/comfyui-merge",
+             "files": [
+                 "https://github.com/LingSss9/comfyui-merge"
+            ],
+            "install_type": "git-clone",
+             "description": "Merge up to 4 LoRA models with balanced, order-independent logic. Inspired by WebUI SuperMerger."
+        },
 
         
         
@@ -26967,18 +26978,6 @@
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
         }
-        {
-            "author": "LingSss9",
-            "title": "Comfyui-Merge-LoRA",
-             "id": "comfyui-merge",
-             "reference": "https://github.com/LingSss9/comfyui-merge",
-             "files": [
-                 "https://github.com/LingSss9/comfyui-merge"
-            ],
-            "install_type": "git-clone",
-             "description": "Merge up to 4 LoRA models with balanced, order-independent logic. Inspired by WebUI SuperMerger."
-        }
-        
     ]
 }
 
