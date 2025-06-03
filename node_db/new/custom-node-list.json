@@ -21,6 +21,17 @@
             "description": "Addon for ComfyUI that adds 'Fix node (recreate + keep inputs)' context menu option"
         },
         {
+            "author": "violet0927",
+            "title": "Hugging Face LoRA Uploader",
+            "reference": "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader",
+            "id": "comfyui_huggingfacelorauploader", 
+            "files": [
+                "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader" 
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node to upload LoRA models to Hugging Face Hub."
+        },
+        {
             "author": "aimingfail",
             "title": "ComfyUI-LikeSpiderAI-SaveMP3",
             "id": "img2halftone",
@@ -680,26 +691,6 @@
             ],
             "install_type": "git-clone",
             "description": "A powerful ComfyUI custom node that brings Google's Gemini TTS capabilities directly to your workflow. Generate high-quality speech with 30+ voices supporting both free and paid tiers."
-        },
-        {
-            "author": "1038lab",
-            "title": "ComfyUI-JoyCaption",
-            "reference": "https://github.com/1038lab/ComfyUI-JoyCaption",
-            "files": [
-                "https://github.com/1038lab/ComfyUI-JoyCaption"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node powered by LLaVA VLM for advanced image captioning with customizable styles and memory-efficient inference."
-        },
-        {
-            "author": "thezveroboy",
-            "title": "ComfyUI-LUT",
-            "reference": "https://github.com/thezveroboy/ComfyUI-lut",
-            "files": [
-                "https://github.com/thezveroboy/ComfyUI-lut"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for ComfyUI for simple LUT file extraction from any image."
         }
     ]
 }

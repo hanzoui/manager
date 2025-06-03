@@ -22600,14 +22600,14 @@
         },
         {
             "author": "lum3on",
-            "title": "ComfyUI Model Quantizer",
+            "title": "ComfyUI-ModelQuantizer",
             "id": "ModelQuantizer",
             "reference": "https://github.com/lum3on/ComfyUI-ModelQuantizer",
             "files": [
                 "https://github.com/lum3on/ComfyUI-ModelQuantizer"
             ],
             "install_type": "git-clone",
-            "description": "A comprehensive custom node pack for ComfyUI that provides advanced tools for quantizing model weights to lower precision formats like FP16, BF16, and true FP8 types, with specialized support for ControlNet models."
+            "description": "This is a node to converts models into Fp8, bf16, fp16."
         },
         {
             "author": "austinbrown34",
@@ -26658,6 +26658,17 @@
             "install_type": "git-clone",
             "description": "A custom ComfyUI node that saves input AUDIO as .mp3 using ffmpeg."
         },
+        {
+            "author": "violet0927",
+            "title": "Hugging Face LoRA Uploader",
+            "reference": "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader",
+            "id": "comfyui_huggingfacelorauploader", 
+            "files": [
+                "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader" 
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node to upload LoRA models to Hugging Face Hub."
+        },
 
 
 
@@ -27090,17 +27101,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "violet0927",
-            "title": "Hugging Face LoRA Uploader",
-            "reference": "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader",
-            "id": "comfyui_huggingfacelorauploader", 
-            "files": [
-                "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader" 
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node to upload LoRA models to Hugging Face Hub."
         }
     ]
 }
