@@ -1587,6 +1587,7 @@
             "BillBum_Modified_Dalle_API_Node",
             "BillBum_Modified_DropoutToken_Node",
             "BillBum_Modified_Flux_API_Node",
+            "BillBum_Modified_Flux_API_with_imgInput",
             "BillBum_Modified_GPTImage1_API_Node",
             "BillBum_Modified_Ideogram_API_Node",
             "BillBum_Modified_ImageSplit_Node",
@@ -2949,6 +2950,19 @@
         ],
         {
             "title_aux": "ComfyUI-Line-counter"
+        }
+    ],
+    "https://github.com/Chrisvenator/ComfyUI-Painting-by-colors-generator": [
+        [
+            "EnhancedPaintByNumbersNode",
+            "HexStackNode",
+            "NumbersOverlayAdvancedNode",
+            "NumbersOverlayNode",
+            "PaintByNumbersNode",
+            "PaintByNumbersTemplateNode"
+        ],
+        {
+            "title_aux": "painting-by-colors-generator"
         }
     ],
     "https://github.com/ClownsharkBatwing/RES4LYF": [
@@ -8450,7 +8464,7 @@
             "title_aux": "ComfyUI-NS-ManySliders"
         }
     ],
-    "https://github.com/NakamuraShippo/ComfyUI-PromptList": [
+    "https://github.com/NakamuraShippo/ComfyUI-NS-PromptList": [
         [
             "NS-PromptList"
         ],
@@ -8997,6 +9011,14 @@
         ],
         {
             "title_aux": "ComfyUI_OpenCV"
+        }
+    ],
+    "https://github.com/Pigidiy/ComfyUI-LikeSpiderAI-SaveMP3": [
+        [
+            "SaveAudioAsMP3"
+        ],
+        {
+            "title_aux": "ComfyUI-LikeSpiderAI-SaveMP3"
         }
     ],
     "https://github.com/PixelFunAI/ComfyUI_PixelFun": [
@@ -10484,6 +10506,15 @@
         ],
         {
             "title_aux": "ComfyUI-WanVideoKsampler"
+        }
+    ],
+    "https://github.com/ShmuelRonen/ComfyUI_ChatterBox": [
+        [
+            "ChatterboxGenerate",
+            "ChatterboxModelLoader"
+        ],
+        {
+            "title_aux": "ComfyUI_ChatterBox"
         }
     ],
     "https://github.com/ShmuelRonen/ComfyUI_Flux_1.1_RAW_API": [
@@ -14742,6 +14773,14 @@
             "title_aux": "OpenPose Node"
         }
     ],
+    "https://github.com/alessandrozonta/ComfyUI-PoseDirection": [
+        [
+            "OpenPose - Get direction"
+        ],
+        {
+            "title_aux": "ComfyUI-PoseDirection"
+        }
+    ],
     "https://github.com/alessandrozonta/Comfyui-LoopLoader": [
         [
             "LoadLoopImagesFromDir"
@@ -15063,6 +15102,7 @@
             "Sage_ModelReport",
             "Sage_ModelShifts",
             "Sage_MultiModelPicker",
+            "Sage_OllamaLLMPrompt",
             "Sage_PonyPrefix",
             "Sage_PonyStyle",
             "Sage_SamplerInfo",
@@ -15313,6 +15353,18 @@
         ],
         {
             "title_aux": "ComfyUI-AV-MegaTTS3"
+        }
+    ],
+    "https://github.com/avocadori/ComfyUI-load-image-prompt-lora": [
+        [
+            "YAMLImageCycler",
+            "YAMLImageCyclerSimple",
+            "YAMLLoRAExtractor",
+            "YAMLLoRALoader",
+            "YAMLLoRASelector"
+        ],
+        {
+            "title_aux": "ComfyUI-load-image-prompt-lora"
         }
     ],
     "https://github.com/aws-samples/comfyui-llm-node-for-amazon-bedrock": [
@@ -15773,6 +15825,14 @@
         ],
         {
             "title_aux": "ComfyUI-ResolutionPresets"
+        }
+    ],
+    "https://github.com/bikiam/ComfyUI_WhisperSRT": [
+        [
+            "WhisperAudioToSRTText"
+        ],
+        {
+            "title_aux": "ComfyUI_WhisperSRT"
         }
     ],
     "https://github.com/bilal-arikan/ComfyUI_TextAssets": [
@@ -16316,6 +16376,14 @@
         ],
         {
             "title_aux": "ComfyUI-ntfy"
+        }
+    ],
+    "https://github.com/boricuapab/ComfyUI-Bori-JsonSetGetConverter": [
+        [
+            "Bori Json Get Set Convert"
+        ],
+        {
+            "title_aux": "ComfyUI-Bori-JsonSetGetConverter"
         }
     ],
     "https://github.com/bradsec/ComfyUI_ResolutionSelector": [
@@ -18585,6 +18653,7 @@
             "GLIGENTextBoxApply",
             "GeminiInputFiles",
             "GeminiNode",
+            "GetImageSize",
             "GetVideoComponents",
             "GrowMask",
             "Hunyuan3Dv2Conditioning",
@@ -26141,6 +26210,14 @@
             "title_aux": "Google Photos Loader - by PabloGFX"
         }
     ],
+    "https://github.com/lc03lc/Comfyui_OmniConsistency": [
+        [
+            "Comfyui_OmniConsistency"
+        ],
+        {
+            "title_aux": "ComfyUI OmniConsistency Nodes"
+        }
+    ],
     "https://github.com/lceric/comfyui-gpt-image": [
         [
             "GPTImage1Generate"
@@ -27674,7 +27751,7 @@
             "SaveAsSafeTensor"
         ],
         {
-            "title_aux": "ComfyUI Model Quantizer"
+            "title_aux": "ComfyUI-ModelQuantizer"
         }
     ],
     "https://github.com/lum3on/comfyui_LLM_Polymath": [
@@ -33422,6 +33499,16 @@
             "title_aux": "ComfyUI_Curves"
         }
     ],
+    "https://github.com/tetsuoo-online/comfyui-too-xmp-metadata": [
+        [
+            "ReadXMPMetadata",
+            "WriteXMPMetadataLossless",
+            "WriteXMPMetadataTensor"
+        ],
+        {
+            "title_aux": "comfyui-too-xmp-metadata"
+        }
+    ],
     "https://github.com/teward/ComfyUI-Helper-Nodes": [
         [
             "HelperNodes_CfgScale",
@@ -33440,6 +33527,14 @@
         ],
         {
             "title_aux": "ComfyUI-Helper-Nodes"
+        }
+    ],
+    "https://github.com/thalismind/ComfyUI-Blend-Nodes": [
+        [
+            "BlendImageNode"
+        ],
+        {
+            "title_aux": "ComfyUI Blend Image Nodes"
         }
     ],
     "https://github.com/theAdamColton/ComfyUI-texflow-extension": [
@@ -34254,6 +34349,14 @@
         ],
         {
             "title_aux": "comfyui-psd2png"
+        }
+    ],
+    "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader": [
+        [
+            "HuggingFaceLoraUploader"
+        ],
+        {
+            "title_aux": "Hugging Face LoRA Uploader"
         }
     ],
     "https://github.com/viperyl/ComfyUI-RGT": [
@@ -36132,6 +36235,7 @@
             "TextPreview",
             "TorchCompileModelAdvanced",
             "UpscaleImageWithModelIfNeed",
+            "VolcanoImageEditNode",
             "VolcanoOutpaintingNode"
         ],
         {

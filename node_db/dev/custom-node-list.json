@@ -14,6 +14,57 @@
         
         
         
+        
+        {
+            "author": "etng",
+            "title": "ComfyUI-Heartbeat [UNSAFE]",
+            "reference": "https://github.com/etng/ComfyUI-Heartbeat",
+            "files": [
+                "https://github.com/etng/ComfyUI-Heartbeat"
+            ],
+            "install_type": "git-clone",
+            "description": "A plugin for ComfyUI that sends periodic heartbeat requests to a configured gateway, including system information and node status."
+        },
+        {
+            "author": "Novavision0313",
+            "title": "ComfyUI-NVVS [WIP]",
+            "reference": "https://github.com/Novavision0313/ComfyUI-NVVS",
+            "files": [
+                "https://github.com/Novavision0313/ComfyUI-NVVS"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI plugin customized by NOVEVISION\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "zackabrams",
+            "title": "ComfyUI-KeySyncWrapper [WIP]",
+            "reference": "https://github.com/zackabrams/ComfyUI-KeySyncWrapper",
+            "files": [
+                "https://github.com/zackabrams/ComfyUI-KeySyncWrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "implementation of KeySync in ComfyUI"
+        },
+        {
+            "author": "godric8",
+            "title": "ComfyUI_Step1X-Edit [NAME CONFLICT]",
+            "reference": "https://github.com/godric8/ComfyUI_Step1X-Edit",
+            "files": [
+                "hhttps://github.com/godric8/ComfyUI_Step1X-Edit"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for Step1X-Edit"
+        },
+        {
+            "author": "violet0927",
+            "title": "ComfyUI-Direct3DS2 [WIP]",
+            "reference": "https://github.com/y4my4my4m/ComfyUI_Direct3DS2",
+            "files": [
+                "https://github.com/y4my4my4m/ComfyUI_Direct3DS2"
+            ],
+            "install_type": "git-clone",
+            "description": "Direct3D-S2 plugin for ComfyUI. [w/Doesn't work yet]"
+        },
         {
             "author": "gamtruliar",
             "title": "ComfyUI-N_SwapInput [UNSAFE]",
@@ -137,13 +188,13 @@
         },
         {
             "author": "Sephrael",
-            "title": "comfyui_caption-around-image [WIP]",
+            "title": "comfyui_caption-around-image",
             "reference": "https://github.com/Sephrael/comfyui_caption-around-image",
             "files": [
                 "https://github.com/Sephrael/comfyui_caption-around-image"
             ],
             "install_type": "git-clone",
-            "description": "NODES: A comfyUI node to create captions around a generated image with the ability to dynamically include generation parameters\nNOTE: The files in the repo are not organized."
+            "description": "NODES: A comfyUI node to create captions around a generated image with the ability to dynamically include generation parameters"
         },
         {
             "author": "EQXai",
@@ -193,7 +244,7 @@
                 "https://github.com/LyazS/ComfyUI-aznodes"
             ],
             "install_type": "git-clone",
-            "description": "NODES: CrossFadeImageSequence\nNOTE: invalid pyproject.toml"
+            "description": "NODES: CrossFadeImageSequence, SaveImageAZ"
         },
         {
             "author": "truebillyblue",
@@ -233,7 +284,7 @@
                 "https://github.com/aa-parky/pipemind-comfyui"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Random Line from File (Seeded), Keyword Prompt Composer, Simple Prompt Combiner (5x), Boolean Switch (Any), Select Line from TxT (Any)"
+            "description": "NODES: Random Line from File (Seeded), Keyword Prompt Composer, Simple Prompt Combiner (5x), Boolean Switch (Any), Select Line from TxT (Any), Multiline Text Input, Flux 2M Aspect Ratios"
         },
         {
             "author": "pacchikAI",
@@ -503,7 +554,7 @@
                 "https://github.com/yichengup/ComfyUI-YCNodes_Advance"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Color Match (YC)"
+            "description": "NODES: Face Detector Selector, YC Human Parts Ultra(Advance), Color Match (YC)"
         },
         {
             "author": "rakki194",

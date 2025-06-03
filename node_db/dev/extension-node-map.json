@@ -1816,7 +1816,6 @@
             "Show Prompt TnT",
             "Simple Ratio Selector (Hapse)",
             "Simple Ratio Selector TnT",
-            "Simple Seed Selector (Hapse)",
             "Simple Seed Selector TnT"
         ],
         {
@@ -2481,6 +2480,19 @@
             "title_aux": "ComfyUI_North_Noise [WIP]"
         }
     ],
+    "https://github.com/Novavision0313/ComfyUI-NVVS": [
+        [
+            "AllBlackMaskValidator",
+            "FullBodyDetection",
+            "HighlightIndexSelector",
+            "MaskCoverageAnalysis",
+            "StringSplit",
+            "StringStrip"
+        ],
+        {
+            "title_aux": "ComfyUI-NVVS [WIP]"
+        }
+    ],
     "https://github.com/OSAnimate/ComfyUI-SpriteSheetMaker": [
         [
             "SpriteSheetMaker"
@@ -2768,10 +2780,13 @@
     ],
     "https://github.com/Sephrael/comfyui_caption-around-image": [
         [
-            "CaptionAroundImageSmart"
+            "CaptionAroundImageSmart",
+            "PrintPromptValues",
+            "PromptProvider",
+            "TextboxReferenceNode"
         ],
         {
-            "title_aux": "comfyui_caption-around-image [WIP]"
+            "title_aux": "comfyui_caption-around-image"
         }
     ],
     "https://github.com/ShahFaisalWani/ComfyUI-Mojen-Nodeset": [
@@ -4280,6 +4295,7 @@
             "GLIGENTextBoxApply",
             "GeminiInputFiles",
             "GeminiNode",
+            "GetImageSize",
             "GetVideoComponents",
             "GrowMask",
             "Hunyuan3Dv2Conditioning",
@@ -5128,6 +5144,14 @@
         ],
         {
             "title_aux": "ComfyUI_stable_fast"
+        }
+    ],
+    "https://github.com/gamtruliar/ComfyUI-N_SwapInput": [
+        [
+            "N_SwapInput"
+        ],
+        {
+            "title_aux": "ComfyUI-N_SwapInput [UNSAFE]"
         }
     ],
     "https://github.com/githubYiheng/comfyui_median_filter": [
@@ -8316,10 +8340,12 @@
         [
             "BrightnessCorrectionNode",
             "ConcatHorizontalWithMask",
+            "DeHaloAlphaWithMaskTorch",
             "DepthFitter",
             "DownloadAndLoadLoraModelOnly",
             "EdgeNoise",
-            "FeatheredSharpen"
+            "FeatheredSharpen",
+            "IterativeDeHaloAlphaWithMaskTorch"
         ],
         {
             "title_aux": "comfyui-virallover"
@@ -8576,6 +8602,15 @@
             "title_aux": "honey_nodes [WIP]"
         }
     ],
+    "https://github.com/y4my4my4m/ComfyUI_Direct3DS2": [
+        [
+            "Direct3DS2ModelDownloader",
+            "Direct3DS2Node"
+        ],
+        {
+            "title_aux": "ComfyUI-Direct3DS2 [WIP]"
+        }
+    ],
     "https://github.com/yanhuifair/ComfyUI-FairLab": [
         [
             "AppendTagsNode",
@@ -8731,6 +8766,14 @@
         ],
         {
             "title_aux": "ComfyUI-Dropbox-API [WIP]"
+        }
+    ],
+    "https://github.com/zackabrams/ComfyUI-KeySyncWrapper": [
+        [
+            "KeySyncWrapper"
+        ],
+        {
+            "title_aux": "ComfyUI-KeySyncWrapper [WIP]"
         }
     ],
     "https://github.com/zhaorishuai/ComfyUI-StoryboardDistributor": [
