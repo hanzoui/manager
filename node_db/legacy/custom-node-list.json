@@ -12,6 +12,18 @@
         
 
         {
+            "author": "WASasquatch",
+            "title": "WAS Node Suite [DEPRECATED]",
+            "id": "was",
+            "reference": "https://github.com/WASasquatch/was-node-suite-comfyui",
+            "pip": ["numba"],
+            "files": [
+                "https://github.com/WASasquatch/was-node-suite-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "A node suite for ComfyUI with many new nodes, such as image processing, text processing, and more."
+        },
+        {
             "author": "TOM1063",
             "title": "ComfyUI-SamuraiTools [REMOVED]",
             "reference": "https://github.com/TOM1063/ComfyUI-SamuraiTools",

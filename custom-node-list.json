@@ -59,6 +59,17 @@
             "description": "This is a helper extension for ComfyUI that assists with node connections."
         },
         {
+            "author": "WASasquatch",
+            "title": "WAS Node Suite (Revised)",
+            "id": "was-ns",
+            "reference": "https://github.com/ltdrdata/was-node-suite-comfyui",
+            "files": [
+                "https://github.com/ltdrdata/was-node-suite-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "A massive node pack consisting of over 200 nodes, including image processing, masking, text handling, and arithmetic operations.\nNOTE: A replacement node pack provided for existing users following the retirement of the original author of the widely used WAS Node Suite."
+        },
+        {
             "author": "comfyanonymous",
             "title": "ComfyUI_experiments",
             "id": "comfy-exp",
@@ -332,18 +343,6 @@
                 "cargo"
             ],
             "description": "CLIPTextEncodeBLIP: This custom node provides a CLIP Encoder that is capable of receiving images as input."
-        },
-        {
-            "author": "WASasquatch",
-            "title": "WAS Node Suite",
-            "id": "was",
-            "reference": "https://github.com/WASasquatch/was-node-suite-comfyui",
-            "pip": ["numba"],
-            "files": [
-                "https://github.com/WASasquatch/was-node-suite-comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "A node suite for ComfyUI with many new nodes, such as image processing, text processing, and more."
         },
         {
             "author": "WASasquatch",
