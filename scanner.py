@@ -293,7 +293,7 @@ def update_custom_nodes():
             pass
 
         def is_rate_limit_exceeded():
-            return g.rate_limiting[0] <= 11
+            return g.rate_limiting[0] <= 20
 
         if is_rate_limit_exceeded():
             print(f"GitHub API Rate Limit Exceeded: remained - {(g.rate_limiting_resettime - datetime.datetime.now().timestamp())/60:.2f} min")

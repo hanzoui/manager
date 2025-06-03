@@ -26392,7 +26392,7 @@
                 "https://github.com/openvino-dev-samples/comfyui_openvino"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI nodes for OpenVINO."
+            "description": "OpenVINO node is designed for optimizing the performance of model inference in ComfyUI by leveraging Intel OpenVINO toolkits. It can support running model on Intel CPU, GPU and NPU device."
         },
         {
             "author": "coiichan",
@@ -26636,6 +26636,16 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI open nodes by juntaosun."
+        },
+        {
+            "author": "vivi-gomez",
+            "title": "ComfyUI Fix Node Translate",
+            "reference": "https://github.com/vivi-gomez/ComfyUI-fixnodetranslate",
+            "files": [
+                "https://github.com/vivi-gomez/ComfyUI-fixnodetranslate"
+            ],
+            "install_type": "git-clone",
+            "description": "Addon for ComfyUI that adds 'Fix node (recreate + keep inputs)' context menu option"
         },
 
 
@@ -27069,16 +27079,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "vivi-gomez",
-            "title": "ComfyUI Fix Node Translate",
-            "reference": "https://github.com/vivi-gomez/ComfyUI-fixnodetranslate",
-            "files": [
-                "https://github.com/vivi-gomez/ComfyUI-fixnodetranslate"
-            ],
-            "install_type": "git-clone",
-            "description": "Addon for ComfyUI that adds 'Fix node (recreate + keep inputs)' context menu option"
         }
     ]
 }

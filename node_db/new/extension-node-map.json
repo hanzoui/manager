@@ -106,8 +106,11 @@
     ],
     "https://github.com/1038lab/ComfyUI-RMBG": [
         [
+            "AILab_ColorInput",
+            "AILab_CropObject",
             "AILab_ICLoRAConcat",
             "AILab_ImageCombiner",
+            "AILab_ImageCompare",
             "AILab_ImageCrop",
             "AILab_ImageMaskConvert",
             "AILab_ImagePreview",
@@ -125,7 +128,8 @@
             "FashionSegmentAccessories",
             "FashionSegmentClothing",
             "RMBG",
-            "Segment"
+            "Segment",
+            "SegmentV2"
         ],
         {
             "title_aux": "ComfyUI-RMBG"
@@ -15142,6 +15146,7 @@
             "PCLazyTextEncode",
             "PCLazyTextEncodeAdvanced",
             "PCLoraHooksFromText",
+            "PCMacroExpand",
             "PCSaveExpandedWorkflow",
             "PCSetLogLevel",
             "PCSetPCTextEncodeSettings",
@@ -15855,8 +15860,9 @@
     ],
     "https://github.com/billwuhao/ComfyUI_KokoroTTS_MW": [
         [
-            "Kokoro Run",
-            "Kokoro ZH Run"
+            "KokoroRun",
+            "KokoroZHRun",
+            "MultiLinePromptKK"
         ],
         {
             "title_aux": "ComfyUI_KokoroTTS_MW"
@@ -16058,11 +16064,14 @@
             "SonarGuidanceConfig",
             "SonarGuidedNoise",
             "SonarModulatedNoise",
+            "SonarNoiseImage",
+            "SonarPatternBreakNoise",
             "SonarQuantileFilteredNoise",
             "SonarRandomNoise",
             "SonarRepeatedNoise",
             "SonarResizedNoise",
             "SonarScheduledNoise",
+            "SonarShuffledNoise",
             "SonarWaveletFilteredNoise"
         ],
         {
@@ -18412,7 +18421,28 @@
     ],
     "https://github.com/clouddreamfly/ComfyUI-PromptWrapper": [
         [
-            "PromptTranslation"
+            "CombinePrompt",
+            "CustomPrompt",
+            "DrawStylePrompt",
+            "GeneratePrompt",
+            "InputPrompt",
+            "LightPrompt",
+            "MultiCombinePrompt",
+            "MultiReplacePrompt",
+            "NegativePrompt",
+            "PortraitCosmeticPrompt",
+            "PortraitFashionPrompt",
+            "PortraitPosePrompt",
+            "PortraitPrompt",
+            "PortraitSkinPrompt",
+            "PreviewPrompt",
+            "PromptTranslation",
+            "RandomLinePrompt",
+            "RandomsPrompt",
+            "RandomsWeightPrompt",
+            "ReplacePrompt",
+            "SavePrompt",
+            "SceneryPrompt"
         ],
         {
             "title_aux": "ComfyUI-PromptWrapper"
@@ -18583,6 +18613,7 @@
             "ImageScaleBy",
             "ImageScaleToTotalPixels",
             "ImageSharpen",
+            "ImageStitch",
             "ImageToMask",
             "ImageUpscaleWithModel",
             "ImageYUVToRGB",
@@ -19437,7 +19468,10 @@
     ],
     "https://github.com/dadoirie/ComfyUI_Dados_Nodes": [
         [
+            "DadosJoyTaggerNode",
+            "DadosMultilineString",
             "DynamicTextLoaderNode",
+            "MiaoshouAITaggerNode",
             "PinterestFetch",
             "SmolVLMNode",
             "TextConcatenatorNode",
@@ -19446,7 +19480,7 @@
         ],
         {
             "author": "Dado",
-            "description": "A node with dynamic text inputs for concatenation",
+            "description": "Node with dynamic text inputs for concatenation",
             "title": "Text Concatenator",
             "title_aux": "ComfyUI_Dados_Nodes"
         }
@@ -23656,6 +23690,7 @@
             "Latent Upscale Parameters Extract JK",
             "Load Image With Alpha JK",
             "Load Image With Metadata JK",
+            "Load String List From JSON JK",
             "Make Image Grid JK",
             "Metadata Pipe Extract JK",
             "Metadata Pipe JK",
@@ -23729,6 +23764,7 @@
             "Sampler Loader JK",
             "Save Image with Metadata Flow JK",
             "Save Image with Metadata JK",
+            "Save String List To JSON JK",
             "Scale To Resolution JK",
             "Split Image Grid JK",
             "String To Combo JK",
@@ -24406,7 +24442,8 @@
             "OpenImageBatch",
             "OpenMaskBatch",
             "OpenPadImageForOutpaint",
-            "OpenReplaceImageInBatch"
+            "OpenReplaceImageInBatch",
+            "OpenWanVideoVACEStartToEndFrame"
         ],
         {
             "title_aux": "ComfyUI_open_nodes"
@@ -26645,13 +26682,17 @@
             "Blocks Mecha Hyper",
             "Bool Mecha Hyper",
             "Float Mecha Hyper",
+            "Int Mecha Hyper",
             "Lora Mecha Recipe",
             "Mecha Converter",
             "Mecha Deserializer",
             "Mecha Merger",
             "Mecha Recipe List",
+            "Mecha Regex Weights",
             "Mecha Serializer",
             "Model Mecha Recipe",
+            "SD1-LDM Mecha Blocks Parameters",
+            "SDXL-SGM Mecha Blocks Parameters",
             "String Mecha Hyper"
         ],
         {
@@ -28487,9 +28528,11 @@
             "NunchakuDepthPreprocessor",
             "NunchakuFluxDiTLoader",
             "NunchakuFluxLoraLoader",
+            "NunchakuModelMerger",
             "NunchakuPulidApply",
             "NunchakuPulidLoader",
-            "NunchakuTextEncoderLoader"
+            "NunchakuTextEncoderLoader",
+            "NunchakuTextEncoderLoaderV2"
         ],
         {
             "title_aux": "ComfyUI-nunchaku"
@@ -32394,6 +32437,7 @@
     ],
     "https://github.com/smthemex/ComfyUI_HunyuanAvatar_Sm": [
         [
+            "HY_Avatar_EncoderLoader",
             "HY_Avatar_Loader",
             "HY_Avatar_PreData",
             "HY_Avatar_Sampler"
@@ -35227,6 +35271,7 @@
     ],
     "https://github.com/yichengup/ComfyUI-YCNodes": [
         [
+            "AdvancedImageSelector",
             "DynamicThreshold",
             "ImageBatchSelector",
             "ImageBlendResize",
@@ -35673,12 +35718,12 @@
     ],
     "https://github.com/yorkane/ComfyUI-KYNode": [
         [
-            "AdvancedLyingSigmaSampler",
             "KY_AnyByIndex",
             "KY_AnyToList",
             "KY_FilePathAnalyzer-",
             "KY_FileSequenceAnalyzer",
             "KY_JoinToString",
+            "KY_LoadImageFrom",
             "KY_LoadImagesFromFolder",
             "KY_MathExpression",
             "KY_OpenAICaptionImage",

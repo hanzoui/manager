@@ -11,6 +11,16 @@
         
         
         {
+            "author": "vivi-gomez",
+            "title": "ComfyUI Fix Node Translate",
+            "reference": "https://github.com/vivi-gomez/ComfyUI-fixnodetranslate",
+            "files": [
+                "https://github.com/vivi-gomez/ComfyUI-fixnodetranslate"
+            ],
+            "install_type": "git-clone",
+            "description": "Addon for ComfyUI that adds 'Fix node (recreate + keep inputs)' context menu option"
+        },        
+        {
             "author": "smthemex",
             "title": "ComfyUI_HunyuanAvatar_Sm",
             "reference": "https://github.com/smthemex/ComfyUI_HunyuanAvatar_Sm",
@@ -404,7 +414,7 @@
                 "https://github.com/openvino-dev-samples/comfyui_openvino"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI nodes for OpenVINO."
+            "description": "OpenVINO node is designed for optimizing the performance of model inference in ComfyUI by leveraging Intel OpenVINO toolkits. It can support running model on Intel CPU, GPU and NPU device."
         },
         {
             "author": "coiichan",
@@ -679,126 +689,6 @@
             ],
             "install_type": "git-clone",
             "description": "Custom nodes for ComfyUI for simple LUT file extraction from any image."
-        },
-        {
-            "author": "TFL-TFL",
-            "title": "ComfyUI_Text_Translation",
-            "reference": "https://github.com/TFL-TFL/ComfyUI_Text_Translation",
-            "files": [
-                "https://github.com/TFL-TFL/ComfyUI_Text_Translation"
-            ],
-            "install_type": "git-clone",
-            "description": "Text translation node for ComfyUI: No need to apply for a translation API key, just use it. Currently supports more than thirty translation platforms."
-        },
-        {
-            "author": "shinich39",
-            "title": "comfyui-break-workflow",
-            "reference": "https://github.com/shinich39/comfyui-break-workflow",
-            "files": [
-                "https://github.com/shinich39/comfyui-break-workflow"
-            ],
-            "install_type": "git-clone",
-            "description": "Break the execution, save the incompleted image then continue later."
-        },
-        {
-            "author": "Charonartist",
-            "title": "ComfyUI-EagleExporter",
-            "reference": "https://github.com/Charonartist/ComfyUI-EagleExporter",
-            "files": [
-                "https://github.com/Charonartist/ComfyUI-EagleExporter"
-            ],
-            "install_type": "git-clone",
-            "description": "This is an extension that automatically saves video files generated with ComfyUI's 'video combine' extension to the Eagle library."
-        },
-        {
-            "author": "Charonartist",
-            "title": "Comfyui_gemini_tts_node",
-            "reference": "https://github.com/Charonartist/Comfyui_gemini_tts_node",
-            "files": [
-                "https://github.com/Charonartist/Comfyui_gemini_tts_node"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node is a ComfyUI node for generating speech from text using the Gemini 2.5 Flash Preview TTS API."
-        },
-        {
-            "author": "babe-and-spencer-enterprises",
-            "title": "ComfyUI Upload to BASE Node",
-            "reference": "https://github.com/babe-and-spencer-enterprises/base-comfyui-node",
-            "files": [
-                "https://github.com/babe-and-spencer-enterprises/base-comfyui-node"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node that lets you upload generated images directly to your [a/BASE](https://getbase.app/) account — no manual downloads or re-uploads needed."
-        },
-        {
-            "author": "wildminder",
-            "title": "ComfyUI-KEEP",
-            "reference": "https://github.com/wildminder/ComfyUI-KEEP",
-            "files": [
-                "https://github.com/wildminder/ComfyUI-KEEP"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-KEEP: Kalman-Inspired Feature Propagation for Video Face Super-Resolution in ComfyUI"
-        },
-        {
-            "author": "mw",
-            "title": "Comfyui_HeyGem",
-            "reference": "https://github.com/billwuhao/Comfyui_HeyGem",
-            "files": [
-                "https://github.com/billwuhao/Comfyui_HeyGem"
-            ],
-            "install_type": "git-clone",
-            "description": "HeyGem AI avatar."
-        },
-        {
-            "author": "Limbicnation",
-            "title": "Transparency Background Remover",
-            "reference": "https://github.com/Limbicnation/ComfyUI-TransparencyBackgroundRemover",
-            "files": [
-                "https://github.com/Limbicnation/ComfyUI-TransparencyBackgroundRemover"
-            ],
-            "install_type": "git-clone",
-            "description": "Automatic background removal and transparency generation for ComfyUI"
-        },
-        {
-            "author": "kevin314",
-            "title": "ComfyUI-FastVideo",
-            "reference": "https://github.com/kevin314/ComfyUI-FastVideo",
-            "files": [
-                "https://github.com/kevin314/ComfyUI-FastVideo"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node suite for ComfyUI that provides accelerated video generation using [a/FastVideo](https://github.com/hao-ai-labs/FastVideo). See the [a/blog post](https://hao-ai-lab.github.io/blogs/fastvideo/) about FastVideo V1 to learn more."
-        },
-        {
-            "author": "AEmotionStudio",
-            "title": "ComfyUI-ShaderNoiseKSampler",
-            "reference": "https://github.com/AEmotionStudio/ComfyUI-ShaderNoiseKSampler",
-            "files": [
-                "https://github.com/AEmotionStudio/ComfyUI-ShaderNoiseKSampler"
-            ],
-            "install_type": "git-clone",
-            "description": "Transform AI image generation from random exploration into deliberate artistic navigation. This advanced KSampler replacement blends traditional noise with shader noise. Navigate latent space with intention using adjustable noise parameters, shape masks, and colors transformations."
-        },
-        {
-            "author": "cloudkoala",
-            "title": "comfyui-koala",
-            "reference": "https://github.com/cloudkoala/comfyui-koala",
-            "files": [
-                "https://github.com/cloudkoala/comfyui-koala"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for ComfyUI focused on aspect ratio management and other utilities."
-        },
-        {
-            "author": "lepiai",
-            "title": "ComfyUI-Minitools",
-            "reference": "https://github.com/lepiai/ComfyUI-Minitools",
-            "files": [
-                "https://github.com/lepiai/ComfyUI-Minitools"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Mini Toolkit – Helps reduce node redundancy. Let’s see if there’s time to keep it updated regularly."
         }
     ]
 }
