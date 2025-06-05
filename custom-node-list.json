@@ -26768,6 +26768,17 @@
             "install_type": "git-clone",
             "description": "Custom nodes for ComfyUI that allow you to read and write XMP metadata to images"
         },
+        {
+            "author": "e-tier-newbie",
+            "title": "ComfyUI-E-Tier-TextSaver",
+            "id": "e-tier-text-saver",
+            "reference": "https://github.com/e-tier-newbie/ComfyUI-E-Tier-TextSaver",
+            "files": [
+                "https://github.com/e-tier-newbie/ComfyUI-E-Tier-TextSaver"
+            ],
+            "install_type": "git-clone",
+            "description": "A node for saving cleaned text outputs, useful for LoRA training. Removes unwanted tokens like <pad> and saves to .txt."
+        },
 
 
 
@@ -27202,17 +27213,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "e-tier-newbie",
-            "title": "ComfyUI-E-Tier-TextSaver",
-            "id": "e-tier-text-saver",
-            "reference": "https://github.com/e-tier-newbie/ComfyUI-E-Tier-TextSaver",
-            "files": [
-                "https://github.com/e-tier-newbie/ComfyUI-E-Tier-TextSaver"
-            ],
-            "install_type": "git-clone",
-            "description": "A node for saving cleaned text outputs, useful for LoRA training. Removes unwanted tokens like <pad> and saves to .txt."
         }
     ]
 }

@@ -12,6 +12,17 @@
         
 
         {
+            "author": "e-tier-newbie",
+            "title": "ComfyUI-E-Tier-TextSaver",
+            "id": "e-tier-text-saver",
+            "reference": "https://github.com/e-tier-newbie/ComfyUI-E-Tier-TextSaver",
+            "files": [
+                "https://github.com/e-tier-newbie/ComfyUI-E-Tier-TextSaver"
+            ],
+            "install_type": "git-clone",
+            "description": "A node for saving cleaned text outputs, useful for LoRA training. Removes unwanted tokens like <pad> and saves to .txt."
+        },
+        {
             "author": "violet0927",
             "title": "ComfyUI OmniConsistency Nodes",
             "reference": "https://github.com/lc03lc/Comfyui_OmniConsistency",
@@ -691,117 +702,6 @@
             ],
             "install_type": "git-clone",
             "description": "A powerful task monitoring extension for ComfyUI that provides real-time progress tracking, workflow statistics, and execution monitoring."
-        },
-        {
-            "author": "karthikg-09",
-            "title": "ComfyUI-Vton-Mask",
-            "reference": "https://github.com/karthikg-09/ComfyUI-Vton-Mask",
-            "files": [
-                "https://github.com/karthikg-09/ComfyUI-Vton-Mask"
-            ],
-            "install_type": "git-clone",
-            "description": "A lightweight ComfyUI custom node for generating high-quality masks and pose detection for virtual try-on applications. This node extracts only the essential masking functionality from FitDiT without requiring heavy diffusion models."
-        },
-        {
-            "author": "KAVVATARE",
-            "title": "RightEyeDisparity",
-            "reference": "https://github.com/KAVVATARE/ComfyUI_RightEyeDisparity",
-            "files": [
-                "https://github.com/KAVVATARE/ComfyUI_RightEyeDisparity"
-            ],
-            "install_type": "git-clone",
-            "description": "A simple ComfyUI node for generating right eye disparity for VR videos"
-        },
-        {
-            "author": "jaimitoes",
-            "title": "ComfyUI_Wan2_1_lora_trainer",
-            "reference": "https://github.com/jaimitoes/ComfyUI_Wan2_1_lora_trainer",
-            "files": [
-                "https://github.com/jaimitoes/ComfyUI_Wan2_1_lora_trainer"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI interface adaptation of the musubi-tunner library to train Wan 2.1 loras."
-        },
-        {
-            "author": "angree",
-            "title": "ComfyUI-Q_GLB_Material_Modifier",
-            "reference": "https://github.com/angree/ComfyUI-Q_GLB_Material_Modifier",
-            "files": [
-                "https://github.com/angree/ComfyUI-Q_GLB_Material_Modifier"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node for enhancing GLB 3D models generated with Hunyuan 3D 2.0. This module helps solve the common 'plastic look' problem by adding realistic materials and smart emissive elements."
-        },
-        {
-            "author": "R5-Revo",
-            "title": "Universal LLM Node for ComfyUI",
-            "reference": "https://github.com/R5-Revo/llm-node-comfyui",
-            "files": [
-                "https://github.com/R5-Revo/llm-node-comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "UniversalLLMNode is a custom node for ComfyUI that provides a unified interface to use multiple major LLM APIs, including OpenAI, Anthropic (Claude), Google Gemini, Groq, and Mistral. It is ideal for tasks such as automatically generating high-quality SDXL prompts for image generation."
-        },
-        {
-            "author": "ComfyAssets",
-            "title": "ComfyUI Prompt Manager",
-            "reference": "https://github.com/ComfyAssets/ComfyUI_PromptManager",
-            "files": [
-                "https://github.com/ComfyAssets/ComfyUI_PromptManager"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful ComfyUI custom node that extends the standard text encoder with persistent prompt storage, advanced search capabilities, and an automatic image gallery system using SQLite."
-        },
-        {
-            "author": "silveroxides",
-            "title": "ComfyUI_EmbeddingToolkit",
-            "reference": "https://github.com/silveroxides/ComfyUI_EmbeddingToolkit",
-            "files": [
-                "https://github.com/silveroxides/ComfyUI_EmbeddingToolkit"
-            ],
-            "install_type": "git-clone",
-            "description": "Toolkit for creating embeddings for various models in ComfyUI."
-        },
-        {
-            "author": "LevelPixel",
-            "title": "ComfyUI_LevelPixel_Advanced",
-            "id": "levelpixel_advanced",
-            "reference": "https://github.com/LevelPixel/ComfyUI-LevelPixel-Advanced",
-            "files": [
-                "https://github.com/LevelPixel/ComfyUI-LevelPixel-Advanced"
-            ],
-            "install_type": "git-clone",
-            "description": "Advanced nodes of the Level Pixel company. Includes convenient advanced nodes for working with LLM и VLM models (LLaVa) with GGUF format. Qwen2.5-VL and Qwen2.5 supported. Also included is a node for the RAM model. Nodes have the ability to automatically unload models from VRAM."
-        },
-        {
-            "author": "SanDiegoDude",
-            "title": "ComfyUI-DeepStereo",
-            "reference": "https://github.com/SanDiegoDude/ComfyUI-DeepStereo",
-            "files": [
-                "https://github.com/SanDiegoDude/ComfyUI-DeepStereo"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for DeepStereo, an auto-autostereogram generator"
-        },
-        {
-            "author": "ptmaster",
-            "title": "ComfyUI-audio-speed",
-            "reference": "https://github.com/ptmaster/comfyui-audio-speed",
-            "files": [
-                "https://github.com/ptmaster/comfyui-audio-speed"
-            ],
-            "install_type": "git-clone",
-            "description": "This node pack is designed to adjust audio playback speed within ComfyUI, particularly to sync audio with models like FantasyTalking (WAN) that require specific frame rates. It can also be used for general-purpose audio speed control."
-        },
-        {
-            "author": "ShmuelRonen",
-            "title": "ComfyUI-Gemini_TTS",
-            "reference": "https://github.com/ShmuelRonen/ComfyUI-Gemini_TTS",
-            "files": [
-                "https://github.com/ShmuelRonen/ComfyUI-Gemini_TTS"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful ComfyUI custom node that brings Google's Gemini TTS capabilities directly to your workflow. Generate high-quality speech with 30+ voices supporting both free and paid tiers."
         }
     ]
 }
