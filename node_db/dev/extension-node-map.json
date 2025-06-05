@@ -658,6 +658,7 @@
             "TS Qwen2.5",
             "TS Youtube Chapters",
             "TSWhisper",
+            "TS_FilePathLoader",
             "TS_Free_Video_Memory",
             "TS_ImageResize",
             "TS_Qwen3",
@@ -2142,6 +2143,7 @@
     "https://github.com/LyazS/ComfyUI-aznodes": [
         [
             "CrossFadeImageSequence",
+            "ImageGrayscaleAZ",
             "SaveImageAZ"
         ],
         {
@@ -2406,6 +2408,7 @@
             "AudioDurationNode",
             "AudioPathToAudioNode",
             "CategorizeNode",
+            "CountFilesFromFolderNode",
             "Data_handle_Node",
             "DeepSeek_Node",
             "Delay_node",
@@ -2417,6 +2420,7 @@
             "Downloader",
             "FileMoveNode",
             "FolderIteratorNODE",
+            "GetImageListFromFloderNode",
             "Get_cookies_Node",
             "Get_json_value_Node",
             "Get_video_Node",
@@ -3437,6 +3441,8 @@
             "KeywordPromptComposer",
             "PipemindFlux2MAspectRatio",
             "PipemindMultilineTextInput",
+            "PipemindRoomNode",
+            "PipemindSDXL15AspectRatio",
             "RandomLineFromDropdown",
             "SelectLineFromDropdown",
             "SimplePromptCombiner"
@@ -4967,10 +4973,11 @@
             "Alpha Crop and Position Image",
             "GenerateTimestamp",
             "GetMostCommonColors",
+            "ImageCompositeAbsoluteByContainer",
+            "LoadImageFromUrl",
             "OpenAI Image 2 Text",
             "PadMask",
             "ReadImage",
-            "RenderOpenStreetMapTile",
             "Shrink Image"
         ],
         {
@@ -5184,6 +5191,14 @@
         ],
         {
             "title_aux": "ComfyUI-Tools-Video-Combine [WIP]"
+        }
+    ],
+    "https://github.com/godric8/ComfyUI_Step1X-Edit": [
+        [
+            "Step1XEdit"
+        ],
+        {
+            "title_aux": "ComfyUI_Step1X-Edit [NAME CONFLICT]"
         }
     ],
     "https://github.com/gold24park/loki-comfyui-node": [
@@ -5997,6 +6012,7 @@
             "FramePackFindNearestBucket",
             "FramePackLoraSelect",
             "FramePackSampler",
+            "FramePackSingleFrameSampler",
             "FramePackTorchCompileSettings",
             "LoadFramePackModel"
         ],
@@ -6172,6 +6188,7 @@
             "WanVideoReCamMasterCameraEmbed",
             "WanVideoReCamMasterDefaultCamera",
             "WanVideoReCamMasterGenerateOrbitCamera",
+            "WanVideoRealisDanceLatents",
             "WanVideoSLG",
             "WanVideoSampler",
             "WanVideoSetBlockSwap",
@@ -7464,8 +7481,11 @@
             "Image_Attachment",
             "JSON_Attachment",
             "Json2String",
+            "LoadSpiderData",
+            "PNGtoImage",
             "Query_OpenAI",
             "RunPython",
+            "SaveSpiderData",
             "SpiderCrawl",
             "String2Json",
             "String_Attachment"
@@ -7625,6 +7645,7 @@
     ],
     "https://github.com/rishipandey125/ComfyUI-FramePacking": [
         [
+            "Batch Keyframes",
             "Get Image Dimensions",
             "Pad Batch to 4n+1",
             "Resize Frame",
