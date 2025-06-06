@@ -27478,6 +27478,16 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "xmarre",
+            "title": "LoRA-Safe TorchCompile",
+            "reference": "https://github.com/xmarre/TorchCompileModel_LoRASafe",
+            "files": [
+                "https://github.com/xmarre/TorchCompileModel_LoRASafe"
+            ],
+            "install_type": "git-clone",
+            "description": "Drop-in TorchCompile node that preserves LoRA patches."
         }
     ]
 }
