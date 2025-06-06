@@ -10,7 +10,37 @@
 
         
         
-
+        
+        {
+            "author": "xmarre",
+            "title": "LoRA-Safe TorchCompile",
+            "reference": "https://github.com/xmarre/TorchCompileModel_LoRASafe",
+            "files": [
+                "https://github.com/xmarre/TorchCompileModel_LoRASafe"
+            ],
+            "install_type": "git-clone",
+            "description": "Drop-in TorchCompile node that preserves LoRA patches."
+        },
+        {
+            "author": "xiaogui8dangjia",
+            "title": "Comfyui-imagetoSTL",
+            "reference": "https://github.com/xiaogui8dangjia/Comfyui-imagetoSTL",
+            "files": [
+                "https://github.com/xiaogui8dangjia/Comfyui-imagetoSTL"
+            ],
+            "install_type": "git-clone",
+            "description": "comfyui_imagetostl is a simple node for ComfyUI that converts grayscale images to STL."
+        },
+        {
+            "author": "NeonLightning",
+            "title": "neonllama",
+            "reference": "https://github.com/NeonLightning/neonllama",
+            "files": [
+                "https://github.com/NeonLightning/neonllama"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom ComfyUI node transforms a core idea into a richly detailed positive prompt using a local [a/Ollama](https://ollama.com) LLM."
+        },
         {
             "author": "laksjdjf",
             "title": "ComfyUI-Imatrix",
@@ -668,36 +698,6 @@
             ],
             "install_type": "git-clone",
             "description": "General audio nodes.  Mix, Bass/Treble, Concatenate, Pitch, Add/remove silence, Speed"
-        },
-        {
-            "author": "avenstack",
-            "title": "ComfyUI-AV-LatentSync",
-            "reference": "https://github.com/avenstack/ComfyUI-AV-LatentSync",
-            "files": [
-                "https://github.com/avenstack/ComfyUI-AV-LatentSync"
-            ],
-            "install_type": "git-clone",
-            "description": "LatentSync 1.5 wrapper for ComfyUI"
-        },
-        {
-            "author": "LAOGOU-666",
-            "title": "Comfyui_LG_Tools",
-            "reference": "https://github.com/LAOGOU-666/Comfyui_LG_Tools",
-            "files": [
-                "https://github.com/LAOGOU-666/Comfyui_LG_Tools"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a toolset designed for ComfyUI by LAOGOU-666, providing a series of practical image processing and operation nodes, making our operation more intuitive and convenient"
-        },
-        {
-            "author": "skycoder",
-            "title": "Skycoder Tools",
-            "reference": "https://github.com/skycoder182/comfyui-skycoder-tools",
-            "files": [
-                "https://github.com/skycoder182/comfyui-skycoder-tools"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of useful custom nodes for ComfyUI workflows"
         }
     ]
 }

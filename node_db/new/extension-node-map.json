@@ -69,6 +69,8 @@
     ],
     "https://github.com/1038lab/ComfyUI-JoyCaption": [
         [
+            "CaptionSaver",
+            "ImageBatchPath",
             "JC",
             "JC_ExtraOptions",
             "JC_adv"
@@ -1275,7 +1277,9 @@
     ],
     "https://github.com/AIWarper/ComfyUI-WarperNodes": [
         [
-            "DWPoseScalerNode_Warper"
+            "DWPoseScalerNode_Warper",
+            "FacialPartMaskFromPose_Warper",
+            "MouthMaskFromPose_Warper"
         ],
         {
             "title_aux": "ComfyUI-WarperNodes"
@@ -2361,6 +2365,7 @@
             "ComfyUIDeployExternalNumber",
             "ComfyUIDeployExternalNumberInt",
             "ComfyUIDeployExternalNumberSlider",
+            "ComfyUIDeployExternalNumberSliderInt",
             "ComfyUIDeployExternalSeed",
             "ComfyUIDeployExternalText",
             "ComfyUIDeployExternalTextAny",
@@ -3102,6 +3107,7 @@
             "Linear Quadratic Advanced",
             "Mask Bounding Box Aspect Ratio",
             "Mask Sketch",
+            "MaskFloatToBoolean",
             "MaskToggle",
             "Masks From Color Swatches",
             "Masks From Colors",
@@ -3231,7 +3237,8 @@
             "TorchCompileModelSD35",
             "TorchCompileModels",
             "UNetSave",
-            "VAEEncodeAdvanced"
+            "VAEEncodeAdvanced",
+            "VAEStyleTransferLatent"
         ],
         {
             "title_aux": "RES4LYF"
@@ -8586,6 +8593,14 @@
         ],
         {
             "title_aux": "ComfyUI - NeoGriever"
+        }
+    ],
+    "https://github.com/NeonLightning/neonllama": [
+        [
+            "OllamaPromptFromIdea"
+        ],
+        {
+            "title_aux": "neonllama"
         }
     ],
     "https://github.com/NeuralSamurAI/ComfyUI-Dimensional-Latent-Perlin": [
@@ -14934,7 +14949,8 @@
             "Sage_KSamplerAudioDecoder",
             "Sage_KSamplerDecoder",
             "Sage_KSamplerTiledDecoder",
-            "Sage_LMStudioLLMPrompt",
+            "Sage_LMStudioLLMPromptText",
+            "Sage_LMStudioLLMPromptVision",
             "Sage_LastLoraInfo",
             "Sage_LoadImage",
             "Sage_LogicalSwitch",
@@ -14946,7 +14962,6 @@
             "Sage_ModelReport",
             "Sage_ModelShifts",
             "Sage_MultiModelPicker",
-            "Sage_OllamaAdvancedOptions",
             "Sage_OllamaLLMPromptText",
             "Sage_OllamaLLMPromptVision",
             "Sage_PonyPrefix",
@@ -18383,6 +18398,7 @@
     "https://github.com/cloudkoala/comfyui-koala": [
         [
             "AspectRatioLatentNode",
+            "SaveImageAnywhere",
             "SaveMeshAnywhere"
         ],
         {
@@ -35291,6 +35307,14 @@
             "title_aux": "ComfyUI-FramePackWrapper_PlusOne"
         }
     ],
+    "https://github.com/xiaogui8dangjia/Comfyui-imagetoSTL": [
+        [
+            "ImageToSTLNode"
+        ],
+        {
+            "title_aux": "Comfyui-imagetoSTL"
+        }
+    ],
     "https://github.com/xiaoxiaodesha/hd_node": [
         [
             "Combine HDMasks",
@@ -35316,24 +35340,18 @@
     ],
     "https://github.com/xl0/latent-tools": [
         [
-            "PreviewModelMetadata",
-            "QBlendLatent",
-            "QConcatLatentBatch",
-            "QGaussianLatent",
-            "QImageSizeSetter",
-            "QKSampler",
-            "QLatentOp",
-            "QLatentToShape",
-            "QLinearScheduler",
-            "QLoadLatent",
-            "QLoadLatentTimeline",
-            "QParamRandomizerRange",
-            "QParamaRandomizerList",
-            "QPreviewLatent",
-            "QReshapeLatent",
-            "QSamplerCustom",
-            "QSamplerEulerAncestral",
-            "QUniformLatent"
+            "LTBlendLatent",
+            "LTGaussianLatent",
+            "LTKSampler",
+            "LTLatentLoad",
+            "LTLatentOp",
+            "LTLatentToShape",
+            "LTLatentsConcatenate",
+            "LTParamRandomizerGaussian",
+            "LTParamRandomizerRange",
+            "LTPreviewLatent",
+            "LTReshapeLatent",
+            "LTUniformLatent"
         ],
         {
             "title_aux": "latent-tools"
@@ -35376,6 +35394,14 @@
         ],
         {
             "title_aux": "ComfyUI_SendDiscord"
+        }
+    ],
+    "https://github.com/xmarre/TorchCompileModel_LoRASafe": [
+        [
+            "TorchCompileModel_LoRASafe"
+        ],
+        {
+            "title_aux": "LoRA-Safe TorchCompile"
         }
     ],
     "https://github.com/xobiomesh/ComfyUI_xObiomesh": [
