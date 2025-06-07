@@ -599,7 +599,7 @@
     ],
     "https://github.com/Alazuaka/comfyui-lora-stack-node": [
         [
-            "EsCheckpointSet",
+            "AlazukaCheckpoint",
             "EsLoraSet"
         ],
         {
@@ -5311,8 +5311,10 @@
             "HolafBenchmarkLoader",
             "HolafBenchmarkPlotter",
             "HolafBenchmarkRunner",
+            "HolafColorMatcher",
             "HolafImageComparer",
             "HolafInstagramResize",
+            "HolafInteractiveImageEditor",
             "HolafKSampler",
             "HolafNeurogridOverload",
             "HolafOverlayNode",
@@ -8647,6 +8649,7 @@
             "RegionalPromptSamplerX",
             "RelightX",
             "RemoveBackgroundX",
+            "SamplersTestX",
             "SaveImageX",
             "SelectiveDepthLoraBlocksX",
             "SimpleBlockerX",

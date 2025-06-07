@@ -3549,7 +3549,15 @@
             "title_aux": "ComfyUi Random Manage Cyan"
         }
     ],
-    "https://github.com/Cyber-Blacat/ComfyUI-Yuan": [
+    "https://github.com/Cyber-BlackCat/ComfyUI-Image-Vector": [
+        [
+            "Vector"
+        ],
+        {
+            "title_aux": "Cyber-BlackCat"
+        }
+    ],
+    "https://github.com/Cyber-BlackCat/ComfyUI-MoneyMaker": [
         [
             ", and the value is the function name in the right of the",
             "Black and white",
@@ -3567,14 +3575,6 @@
         ],
         {
             "title_aux": "ComfyUI-Yuan"
-        }
-    ],
-    "https://github.com/Cyber-BlackCat/ComfyUI-Image-Vector": [
-        [
-            "Vector"
-        ],
-        {
-            "title_aux": "Cyber-BlackCat"
         }
     ],
     "https://github.com/Cyber-BlackCat/ComfyUI_Auto_Caption": [
@@ -7678,8 +7678,13 @@
             "LoraTagLoader",
             "ResolutionSelector",
             "StringCleaning",
+            "StringTextExtractor",
+            "StringTextSplitter",
             "TiktokenTokenizer",
+            "WildcardProcessor",
             "\u26d4 Generate Negative Prompt",
+            "\u2702\ufe0f String Text Extractor",
+            "\u2702\ufe0f String Text Splitter",
             "\u2728\ud83c\udf10 Groq ALM API - Translate [EN only]",
             "\u2728\ud83d\udcac Groq LLM API",
             "\u2728\ud83d\udcdd Groq ALM API - Transcribe",
@@ -7688,6 +7693,7 @@
             "\ud83d\udcbe Save Text File With Path",
             "\ud83d\udcc1 Get File Path",
             "\ud83d\udcd0 Resolution Image Size Selector",
+            "\ud83d\udcdd Wildcard Processor",
             "\ud83d\udd20 Tiktoken Tokenizer Info",
             "\ud83d\uddbc\ufe0f Download Image from URL",
             "\ud83e\uddf9 String Cleaning"
@@ -9927,7 +9933,8 @@
     ],
     "https://github.com/Santodan/santodan-custom-nodes-comfyui": [
         [
-            "RandomLoRACustom"
+            "RandomLoRACustom",
+            "RandomLoRAFolder"
         ],
         {
             "title_aux": "Santodan Random LoRA Node"
@@ -11319,6 +11326,7 @@
             "Basic data handling: PathListDir",
             "Basic data handling: PathNormalize",
             "Basic data handling: PathRelative",
+            "Basic data handling: PathSetExtension",
             "Basic data handling: PathSplit",
             "Basic data handling: PathSplitExt",
             "Basic data handling: RegexFindallDataList",
@@ -13210,13 +13218,13 @@
     ],
     "https://github.com/XieJunchen/comfyUI_LLM": [
         [
+            "CloudImageUploadNode",
+            "CloudImagesToVideoAndUpload",
+            "CloudVideoUploadNode",
             "ComfyUI_LLM_Ollama",
             "DeepSeek_Online",
-            "ImagesToVideoAndUpload",
             "LoadGifFromLocal",
-            "LoadImageFromUrl",
-            "QiniuImageUploadNode",
-            "QiniuVideoUploadNode",
+            "LoadImgFromUrl",
             "StringArrayFormatter",
             "StringArrayIndexer"
         ],
@@ -19045,7 +19053,7 @@
             "title_aux": "ComfyUI Anime Segmentation Nodes v1.1.0"
         }
     ],
-    "https://github.com/crave33/RenesStuffDanboruTagGet": [
+    "https://github.com/crave33/RenesStuffDanbooruTagGet": [
         [
             "DanbooruTagFetcher"
         ],
@@ -20197,32 +20205,6 @@
         ],
         {
             "title_aux": "ComfyUI_Dragos_Nodes"
-        }
-    ],
-    "https://github.com/dream-computing/syntax-nodes": [
-        [
-            "CyberpunkMagnifyNode",
-            "CyberpunkWindowNode",
-            "DepthToLidarEffectNode",
-            "EdgeMeasurementOverlayNode",
-            "EdgeTracingNode",
-            "FrequencyBeatSyncNode",
-            "FrequencyBeatSyncNodeAdvanced",
-            "GhostingNode",
-            "ImageBatchToImageList",
-            "ImageListToImageBatch",
-            "JigsawPuzzleNode",
-            "LowPolyNode",
-            "LuminanceParticleNode",
-            "PaperCraftNode",
-            "PointillismNode",
-            "RGBStreakNode",
-            "RegionBoundaryNode",
-            "VariableLineWidthEffectNode",
-            "VoxelNode"
-        ],
-        {
-            "title_aux": "SyntaxNodes - Image Processing Effects for ComfyUI"
         }
     ],
     "https://github.com/dreamhartley/ComfyUI_show_seed": [
@@ -24285,6 +24267,7 @@
             "ai4artsed_random_artform_generator",
             "ai4artsed_random_instruction_generator",
             "ai4artsed_random_language_selector",
+            "ai4artsed_stabilitai_key",
             "ai4artsed_t5_clip_fusion",
             "ai4artsed_text_remix"
         ],
@@ -24859,14 +24842,6 @@
         ],
         {
             "title_aux": "ComfyUI-text-file-util"
-        }
-    ],
-    "https://github.com/kambara/ComfyUI-PromptCheckList": [
-        [
-            "PromptPalette"
-        ],
-        {
-            "title_aux": "ComfyUI-PromptCheckList"
         }
     ],
     "https://github.com/kambara/ComfyUI-PromptPalette": [
@@ -28298,16 +28273,7 @@
             "TextExtractorNode"
         ],
         {
-            "title_aux": "ComfyUI Image Watermarking Node"
-        }
-    ],
-    "https://github.com/meanin2/comfyui-watermarking": [
-        [
-            "ImageWatermarkNode",
-            "TextExtractorNode"
-        ],
-        {
-            "title_aux": "ComfyUI Watermark Image Node"
+            "title_aux": "comfyui-MGnodes"
         }
     ],
     "https://github.com/meap158/ComfyUI-Background-Replacement": [
