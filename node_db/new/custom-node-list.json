@@ -12,6 +12,17 @@
         
         
         {
+            "author": "Pigidiy",
+            "title": "ComfyUI-LikeSpiderAI-UI",
+            "id": "like_spider_ui",
+            "reference": "https://github.com/Pigidiy/ComfyUI-LikeSpiderAI-UI",
+            "files": [
+                "https://github.com/Pigidiy/ComfyUI-LikeSpiderAI-UI"
+            ],
+            "install_type": "git-clone",
+            "description": "Declarative UI Framework for ComfyUI Nodes. Minimalistic base class for creating UI-based audio/text/image nodes."
+        },
+        {
             "author": "xmarre",
             "title": "LoRA-Safe TorchCompile",
             "reference": "https://github.com/xmarre/TorchCompileModel_LoRASafe",
@@ -678,26 +689,6 @@
             ],
             "install_type": "git-clone",
             "description": "A collection of logic and utility nodes for ComfyUI to enhance workflow capabilities."
-        },
-        {
-            "author": "wTechArtist",
-            "title": "ComfyUI VVL Video Camera Advanced",
-            "reference": "https://github.com/wTechArtist/ComfyUI_VVL_VideoCamera_Advanced",
-            "files": [
-                "https://github.com/wTechArtist/ComfyUI_VVL_VideoCamera_Advanced"
-            ],
-            "install_type": "git-clone",
-            "description": "A professional video camera parameter estimation toolkit based on the VGGT model."
-        },
-        {
-            "author": "niknah",
-            "title": "Audio General",
-            "reference": "https://github.com/niknah/audio-general-ComfyUI",
-            "files": [
-                "https://github.com/niknah/audio-general-ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "General audio nodes.  Mix, Bass/Treble, Concatenate, Pitch, Add/remove silence, Speed"
         }
     ]
 }

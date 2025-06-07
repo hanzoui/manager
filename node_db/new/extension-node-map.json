@@ -256,10 +256,12 @@
             "ALLty",
             "EGRWGL",
             "EGRYDZQHNode",
+            "EGSEED",
             "GroupSwitchNode",
             "GroupSwitchNodee",
             "GroupSwitchNodeee",
             "GroupSwitchNodeeee",
+            "GroupSwitchNodi",
             "hulue",
             "jinyong"
         ],
@@ -330,10 +332,19 @@
     ],
     "https://github.com/2frames/ComfyUI-AQnodes": [
         [
+            "AQ_BlendImages",
+            "AQ_CLIPSetLastLayer",
             "AQ_Gemini",
+            "AQ_ImageMaskSwitch",
+            "AQ_Image_DetailTransfer",
+            "AQ_Image_Pad",
+            "AQ_Increment",
+            "AQ_LoadImageBase64",
             "AQ_MasksAndImagesAsList",
             "AQ_Qwen",
             "AQ_QwenLoader",
+            "AQ_Random",
+            "AQ_SaveImageWebpReturnBase64",
             "AQ_SendImageToAPI",
             "AQ_multiface_ApplyPulidFlux"
         ],
@@ -3472,6 +3483,7 @@
             "Categorizer",
             "CollectAndDistributeText",
             "Coloring",
+            "ConditionalLoRAApplierCreepybits",
             "CustomNodeManager",
             "DelayNode",
             "DelayTextNode",
@@ -7013,6 +7025,7 @@
             "ImageSizeAdjustment",
             "InspyrenetRembgLoader",
             "InspyrenetRembgProcess",
+            "LG_LatentBatchToList",
             "LG_LoadImage",
             "LG_Noise",
             "LazySwitch1way",
@@ -13180,6 +13193,8 @@
         [
             "ComfyUI_LLM_Ollama",
             "DeepSeek_Online",
+            "LoadGifFromLocal",
+            "LoadImageFromUrl",
             "QiniuImageUploadNode",
             "QiniuVideoUploadNode",
             "StringArrayFormatter",
@@ -25997,6 +26012,7 @@
     "https://github.com/laksjdjf/ComfyUI-Imatrix": [
         [
             "ImatrixUNETLoader",
+            "LoRAdiff",
             "SaveImatrix"
         ],
         {
@@ -31703,7 +31719,10 @@
     ],
     "https://github.com/s9roll7/comfyui_cotracker_node": [
         [
-            "CoTrackerNode"
+            "CoTrackerNode",
+            "GridPointGeneratorNode",
+            "PerlinCoordinateRandomizerNode",
+            "XYMotionAmplifierNode"
         ],
         {
             "title_aux": "Comfyui CoTracker Node"
@@ -33224,7 +33243,12 @@
     ],
     "https://github.com/spawner1145/CUI-Lumina2-TeaCache": [
         [
-            "TeaCache_Lumina2"
+            "LPIPS_Model_Loader",
+            "Store_Baseline_Image",
+            "TeaCache_LPIPS_Evaluator",
+            "TeaCache_Lumina2",
+            "TeaCache_Patcher",
+            "TeaCache_Result_Collector"
         ],
         {
             "title_aux": "CUI-Lumina2-TeaCache"
@@ -35347,8 +35371,8 @@
             "LTLatentOp",
             "LTLatentToShape",
             "LTLatentsConcatenate",
-            "LTParamRandomizerGaussian",
-            "LTParamRandomizerRange",
+            "LTNumberRangeGaussian",
+            "LTNumberRangeUniform",
             "LTPreviewLatent",
             "LTReshapeLatent",
             "LTUniformLatent"
@@ -36383,7 +36407,6 @@
             "DCI_BinaryFileLoader",
             "DCI_BinaryFileSaver",
             "DCI_BinaryFileUploader",
-            "DCI_FileLoader",
             "DCI_FileNode",
             "DCI_Image",
             "DCI_ImageExporter",
