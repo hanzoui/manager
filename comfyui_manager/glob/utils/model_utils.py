@@ -3,6 +3,7 @@ import logging
 import folder_paths
 
 from comfyui_manager.glob import manager_core as core
+from comfyui_manager.glob.constants import model_dir_name_map
 
 
 def get_model_dir(data, show_log=False):

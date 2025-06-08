@@ -3,7 +3,7 @@ import git
 import logging
 import traceback
 
-from comfyui_manager.common import context, manager_util
+from comfyui_manager.common import context
 import folder_paths
 from comfy.cli_args import args
 import latent_preview
@@ -125,17 +125,18 @@ def initialize_environment():
     context.comfy_path = os.path.dirname(folder_paths.__file__)
     core.js_path = os.path.join(context.comfy_path, "web", "extensions")
 
-    local_db_model = os.path.join(manager_util.comfyui_manager_path, "model-list.json")
-    local_db_alter = os.path.join(manager_util.comfyui_manager_path, "alter-list.json")
-    local_db_custom_node_list = os.path.join(
-        manager_util.comfyui_manager_path, "custom-node-list.json"
-    )
-    local_db_extension_node_mappings = os.path.join(
-        manager_util.comfyui_manager_path, "extension-node-map.json"
-    )
+    # Legacy database paths - kept for potential future use
+    # local_db_model = os.path.join(manager_util.comfyui_manager_path, "model-list.json")
+    # local_db_alter = os.path.join(manager_util.comfyui_manager_path, "alter-list.json")
+    # local_db_custom_node_list = os.path.join(
+    #     manager_util.comfyui_manager_path, "custom-node-list.json"
+    # )
+    # local_db_extension_node_mappings = os.path.join(
+    #     manager_util.comfyui_manager_path, "extension-node-map.json"
+    # )
 
     set_preview_method(core.get_config()["preview_method"])
-    environment_utils.print_comfyui_version()
+    print_comfyui_version()
     setup_environment()
 
     core.check_invalid_nodes()

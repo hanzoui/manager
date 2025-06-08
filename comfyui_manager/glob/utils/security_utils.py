@@ -1,7 +1,18 @@
 from comfyui_manager.glob import manager_core as core
+from comfy.cli_args import args
+
+
+def is_loopback(address):
+    import ipaddress
+    try:
+        return ipaddress.ip_address(address).is_loopback
+    except ValueError:
+        return False
 
 
 def is_allowed_security_level(level):
+    is_local_mode = is_loopback(args.listen)
+    
     if level == "block":
         return False
     elif level == "high":
