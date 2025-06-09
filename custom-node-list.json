@@ -27202,6 +27202,16 @@
             "install_type": "git_clone",
             "description": "Bridge nodes for ComfyUI that send messages through WhatsApp (Twilio) and Discord when a workflow completes."
         },
+        {
+            "author": "Erehr",
+            "title": "ComfyUI-EreNodes",
+            "reference": "https://github.com/Erehr/ComfyUI-EreNodes",
+            "files": [
+                "https://github.com/Erehr/ComfyUI-EreNodes"
+            ],
+            "install_type": "copy",
+            "description": "A collection of personal nodes mainly for prompt management."
+        },
 
 
 
@@ -27649,16 +27659,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Erehr",
-            "title": "ComfyUI-EreNodes",
-            "reference": "https://github.com/Erehr/ComfyUI-EreNodes",
-            "files": [
-                "https://github.com/Erehr/ComfyUI-EreNodes"
-            ],
-            "install_type": "copy",
-            "description": "A collection of personal nodes mainly for prompt management."
         }
     ]
 }
