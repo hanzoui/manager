@@ -1572,6 +1572,7 @@
     ],
     "https://github.com/DraconicDragon/ComfyUI_e621_booru_toolkit": [
         [
+            "GetAnyBooruPostAdv",
             "GetBooruPost",
             "TagWikiFetch"
         ],
@@ -2979,6 +2980,7 @@
             "SDVN Checkpoint Download List",
             "SDVN ControlNet Download",
             "SDVN Controlnet Apply",
+            "SDVN Crop By Ratio",
             "SDVN DALL-E Generate Image",
             "SDVN Dall-E Generate Image 2",
             "SDVN Dic Convert",
@@ -5044,7 +5046,8 @@
             "HtmlPreview",
             "LoadHtml",
             "SaveHtml",
-            "SingleImageToBase64"
+            "SingleImageToBase64",
+            "SingleImageToBase64KeepMetadata"
         ],
         {
             "title_aux": "ComfyUI_html [UNSAFE]"
@@ -5358,7 +5361,6 @@
             "HolafLutGenerator",
             "HolafLutLoader",
             "HolafLutSaver",
-            "HolafNeurogridOverload",
             "HolafOverlayNode",
             "HolafResolutionPreset",
             "HolafSaveImage",
@@ -6237,6 +6239,7 @@
             "ReCamMasterPoseVisualizer",
             "WanVideoATITracks",
             "WanVideoATITracksVisualize",
+            "WanVideoATI_comfy",
             "WanVideoBlockSwap",
             "WanVideoClipVisionEncode",
             "WanVideoContextOptions",
@@ -8501,8 +8504,7 @@
     ],
     "https://github.com/wTechArtist/ComfyUI_VVL_VideoCamera": [
         [
-            "VideoCameraEstimator",
-            "VideoFrameExtractor"
+            "ImageSequenceCameraEstimator"
         ],
         {
             "title_aux": "ComfyUI_VVL_VideoCamera"
