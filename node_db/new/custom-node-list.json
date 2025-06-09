@@ -30,7 +30,18 @@
             ],
             "install_type": "git-clone",
             "description": "A comprehensive ComfyUI theme plugin with stunning cyberpunk aesthetics and powerful customization features"
-        },        
+        },
+        {
+            "author": "keit",
+            "title": "ComfyUI-keitNodes",
+            "id": "comfyui-image-toolkit",
+            "reference": "https://github.com/keit0728/ComfyUI-keitNodes",
+            "files": [
+                "https://github.com/keit0728/ComfyUI-keitNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This is keit's utility nodes."
+        },
         {
             "author": "xiaowc",
             "title": "Comfyui-Dynamic-Params",
@@ -680,57 +691,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom node for FramePack, supporting 1-frame inferences."
-        },
-        {
-            "author": "p1atdev",
-            "title": "comfyui-timm-backbone",
-             "reference": "https://github.com/p1atdev/comfyui-timm-backbone",
-             "files": [
-                 "https://github.com/p1atdev/comfyui-timm-backbone"
-            ],
-            "description": "ComfyUI Timm Backbone Nodes is a custom node set that enables you to load and use pre-trained models from the [a/timm](https://github.com/huggingface/pytorch-image-models) library within ComfyUI workflows.",
-            "install_type": "git-clone"
-        },
-        {
-            "author": "Zch6111",
-            "title": "AI_Text_Comfyui",
-             "reference": "https://github.com/Zch6111/AI_Text_Comfyui",
-             "files": [
-                 "https://github.com/Zch6111/AI_Text_Comfyui"
-            ],
-            "description": "AI_Text_Comfyui is a custom node for ComfyUI that connects to the OpenAI Chat API and automatically generates creative text prompts for AI workflows. This simplified version removes external dependencies like dotenv, requiring the OpenAI key to be set using a system environment variable.",
-            "install_type": "git-clone"
-        },
-        {
-            "author": "XWAVEart",
-            "title": "ComfyUI XWAVE Nodes",
-             "reference": "https://github.com/XWAVEart/comfyui-xwave-xlitch-nodes",
-             "files": [
-                 "https://github.com/XWAVEart/comfyui-xwave-xlitch-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of artistic glitch and image manipulation nodes for ComfyUI, featuring advanced noise effects, color manipulations, distortions, and more."
-        },
-        {
-            "author": "wildminder",
-            "title": "ComfyUI-Chatterbox",
-            "reference": "https://github.com/wildminder/ComfyUI-Chatterbox",
-            "files": [
-                "https://github.com/wildminder/ComfyUI-Chatterbox"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Chatterbox TTS & Voice Conversion Node"
-        },
-        {
-            "author": "LingSss9",
-            "title": "Comfyui-Merge-LoRA",
-             "id": "comfyui-merge",
-             "reference": "https://github.com/LingSss9/comfyui-merge",
-             "files": [
-                 "https://github.com/LingSss9/comfyui-merge"
-            ],
-            "description": "Merge up to 4 LoRA models with balanced, order-independent logic. Inspired by WebUI SuperMerger.",
-            "install_type": "git-clone"
         }
     ]
 }
