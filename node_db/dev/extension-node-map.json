@@ -1198,6 +1198,8 @@
             "Donut Detailer XL Blocks",
             "DonutApplyLoRAStack",
             "DonutClipEncode",
+            "DonutFillerClip",
+            "DonutFillerModel",
             "DonutLoRAStack",
             "DonutWidenMergeCLIP",
             "DonutWidenMergeUNet",
@@ -2300,7 +2302,8 @@
             "ImageCountConcatenate",
             "ImageHeigthStitch",
             "ImageWidthStitch",
-            "MergeImageChannels"
+            "MergeImageChannels",
+            "translators"
         ],
         {
             "title_aux": "ComfyUI-MakkiTools"
@@ -2327,6 +2330,7 @@
     "https://github.com/Maxed-Out-99/ComfyUI-MaxedOut": [
         [
             "Flux Empty Latent Image",
+            "Flux Image Scale To Total Pixels (Flux Safe)",
             "Image Scale To Total Pixels (SDXL Safe)",
             "SDXL Resolutions",
             "Sd 1.5 Empty Latent Image",
@@ -5368,15 +5372,14 @@
             "HolafBenchmarkLoader",
             "HolafBenchmarkPlotter",
             "HolafBenchmarkRunner",
-            "HolafColorMatcher",
             "HolafImageComparer",
             "HolafInstagramResize",
-            "HolafInteractiveImageEditor",
             "HolafKSampler",
             "HolafLutApplier",
             "HolafLutGenerator",
             "HolafLutLoader",
             "HolafLutSaver",
+            "HolafMaskToBoolean",
             "HolafOverlayNode",
             "HolafResolutionPreset",
             "HolafSaveImage",
@@ -8522,8 +8525,10 @@
             "SAM1AutoEverything",
             "VVL_DetectionScaler",
             "VVL_Florence2SAM2",
+            "VVL_GroundingDinoLoader",
             "VVL_GroundingDinoSAM2",
             "VVL_MaskCleaner",
+            "VVL_MaskToBBox",
             "VVL_SAM1Loader",
             "VVL_SAM2Loader"
         ],

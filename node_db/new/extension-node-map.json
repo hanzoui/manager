@@ -684,6 +684,28 @@
             "title_aux": "ComfyUI-ColorshiftColor"
         }
     ],
+    "https://github.com/A043-studios/comfyui-deforum-x-flux-nodes": [
+        [
+            "DeforumAnimParamsNode",
+            "DeforumBaseParamsNode",
+            "DeforumCacheLatentNode",
+            "DeforumConditioningBlendNode",
+            "DeforumDepthWarping",
+            "DeforumDiffusionParamsNode",
+            "DeforumFluxSampler",
+            "DeforumGetCachedLatentNode",
+            "DeforumInterpolation",
+            "DeforumIteratorNode",
+            "DeforumPromptNode",
+            "DeforumRenderer",
+            "DeforumTranslationParamsNode",
+            "DeforumVideoInput",
+            "DeforumVideoOutput"
+        ],
+        {
+            "title_aux": "ComfyUI Deforum-X-Flux Nodes"
+        }
+    ],
     "https://github.com/A043-studios/comfyui-pixel3dmm": [
         [
             "FLAMEOptimizer",
@@ -10783,7 +10805,8 @@
     ],
     "https://github.com/ShmuelRonen/FluxKontextCreator": [
         [
-            "FluxKontextCreator"
+            "FluxKontextCreator",
+            "FluxKontextCreatorExperimental"
         ],
         {
             "title_aux": "Flux Kontext Creator for ComfyUI"
@@ -11059,6 +11082,7 @@
             "CSV Reader",
             "CSV Reader X Checkpoint",
             "CSV Writer",
+            "Checkpoint File Loader",
             "Empty Images",
             "Get Most Common Image Colors",
             "Image Batch Process Switch",
@@ -13940,6 +13964,14 @@
             "title_aux": "ZZX Nodes"
         }
     ],
+    "https://github.com/Zachary116699/ComfyUI-LoadImageWithMetaDataEx": [
+        [
+            "ZLoadImageWithMetaDataFP"
+        ],
+        {
+            "title_aux": "ComfyUI_LoadImageWithMetaDataEx"
+        }
+    ],
     "https://github.com/ZaneA/ComfyUI-ImageReward": [
         [
             "ImageRewardLoader",
@@ -14310,6 +14342,7 @@
             "CurvePresetNode",
             "CurvePreviewNode",
             "PhotoshopCurveNode",
+            "PhotoshopHSLNode",
             "PhotoshopHistogramNode"
         ],
         {
@@ -15954,6 +15987,14 @@
         ],
         {
             "title_aux": "MW-ComfyUI_PortraitTools"
+        }
+    ],
+    "https://github.com/billwuhao/ComfyUI_SOME": [
+        [
+            "SomeSing2Midi"
+        ],
+        {
+            "title_aux": "ComfyUI_SOME"
         }
     ],
     "https://github.com/billwuhao/ComfyUI_SparkTTS": [
@@ -20327,8 +20368,6 @@
             "ListItemExtract",
             "ListItemSelector",
             "LoadAudioPlus",
-            "MarkdownInteractive",
-            "MarkdownRender",
             "MiniCPMVNode",
             "MusicGen",
             "NormalizeAudio",
@@ -24392,24 +24431,6 @@
             "title_aux": "ComfyUI_HuggingFace_Downloader"
         }
     ],
-    "https://github.com/joeriben/ai4artsed_comfyui": [
-        [
-            "ai4artsed_ollama",
-            "ai4artsed_ollama_imageanalysis",
-            "ai4artsed_openrouter",
-            "ai4artsed_openrouter_imageanalysis",
-            "ai4artsed_openrouter_key",
-            "ai4artsed_random_artform_generator",
-            "ai4artsed_random_instruction_generator",
-            "ai4artsed_random_language_selector",
-            "ai4artsed_stabilitai_key",
-            "ai4artsed_t5_clip_fusion",
-            "ai4artsed_text_remix"
-        ],
-        {
-            "title_aux": "AI4ArtsEd Ollama Prompt Node"
-        }
-    ],
     "https://github.com/john-mnz/ComfyUI-Inspyrenet-Rembg": [
         [
             "InspyrenetRembg",
@@ -25103,7 +25124,8 @@
     ],
     "https://github.com/keit0728/ComfyUI-keitNodes": [
         [
-            "M2MTranslator"
+            "M2MTranslator",
+            "WanVideoOptimalResizer"
         ],
         {
             "title_aux": "ComfyUI-keitNodes"
@@ -30003,6 +30025,15 @@
             "title_aux": "ComfyUI-Counter"
         }
     ],
+    "https://github.com/olivv-cs/ComfyUI-FunPack": [
+        [
+            "FunPackCLIPLoader",
+            "FunPackImg2LatentInterpolation"
+        ],
+        {
+            "title_aux": "ComfyUI-FunPack"
+        }
+    ],
     "https://github.com/omar92/ComfyUI-QualityOfLifeSuit_Omar92": [
         [
             "CLIPStringEncode _O",
@@ -30143,6 +30174,20 @@
         ],
         {
             "title_aux": "ComfyUI-Image-Effects"
+        }
+    ],
+    "https://github.com/orion4d/ComfyUI_pdf_nodes": [
+        [
+            "PDFExtractTextFromPages",
+            "PDFGetPageCount",
+            "PDFLoad",
+            "PDFMerge",
+            "PDFRotatePages",
+            "PDFSave",
+            "PDFSelectPageAndExtractText"
+        ],
+        {
+            "title_aux": "ComfyUI PDF Nodes"
         }
     ],
     "https://github.com/orssorbit/ComfyUI-wanBlockswap": [
@@ -35116,7 +35161,10 @@
     ],
     "https://github.com/whmc76/ComfyUI-UniversalToolkit": [
         [
+            "DepthMapBlur_UTK",
             "EmptyUnitGenerator_UTK",
+            "ImageConcatenateMulti_UTK",
+            "ImageConcatenate_UTK",
             "ImageRatioDetector_UTK",
             "PreviewMask_UTK",
             "ShowFloat_UTK",
@@ -36624,12 +36672,28 @@
     ],
     "https://github.com/zccrs/comfyui-dci": [
         [
+            "Base64Decoder",
+            "Base64Encoder",
+            "BinaryFileLoader",
+            "BinaryFileSaver",
+            "DCIAnalysis",
+            "DCIFileNode",
+            "DCIFileSaver",
+            "DCIImage",
+            "DCIImagePreview",
+            "DCIPreviewNode",
+            "DCISampleImage",
+            "DCI_Analysis",
+            "DCI_Base64Decoder",
+            "DCI_Base64Encoder",
             "DCI_BinaryFileLoader",
             "DCI_BinaryFileSaver",
             "DCI_FileNode",
+            "DCI_FileSaver",
             "DCI_Image",
-            "DCI_ImageDebug",
-            "DCI_PreviewNode"
+            "DCI_ImagePreview",
+            "DCI_PreviewNode",
+            "DCI_SampleImage"
         ],
         {
             "title_aux": "ComfyUI DCI"

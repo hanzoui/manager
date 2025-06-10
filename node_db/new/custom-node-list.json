@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "mw",
+            "title": "ComfyUI_SOME",
+            "reference": "https://github.com/billwuhao/ComfyUI_SOME",
+            "files": [
+                "https://github.com/billwuhao/ComfyUI_SOME"
+            ],
+            "install_type": "git-clone",
+            "description": "Sing to Midi 🎶"
+        },
+        {
+            "author": "A043-studios",
+            "title": "ComfyUI Deforum-X-Flux Nodes",
+            "reference": "https://github.com/A043-studios/comfyui-deforum-x-flux-nodes",
+            "files": [
+                "https://github.com/A043-studios/comfyui-deforum-x-flux-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional video animation nodes for ComfyUI based on Deforum-X-Flux research"
+        },
+        {
+            "author": "AgencyMind",
+            "title": "ComfyUI-GPU-Preprocessor-Wrapper",
+            "reference": "https://github.com/AgencyMind/ComfyUI-GPU-Preprocessor-Wrapper",
+            "files": [
+                "https://github.com/AgencyMind/ComfyUI-GPU-Preprocessor-Wrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node extension that solves multi-GPU device conflicts for ControlNet preprocessors."
+        },
+        {
+            "author": "orion4d",
+            "title": "ComfyUI PDF Nodes",
+            "reference": "https://github.com/orion4d/ComfyUI_pdf_nodes",
+            "files": [
+                "https://github.com/orion4d/ComfyUI_pdf_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository contains a set of custom nodes for ComfyUI that allow you to load, manipulate, extract information from, and preview PDF files directly within your workflows."
+        },
+        {
+            "author": "olivv-cs",
+            "title": "ComfyUI-FunPack",
+            "reference": "https://github.com/olivv-cs/ComfyUI-FunPack",
+            "files": [
+                "https://github.com/olivv-cs/ComfyUI-FunPack"
+            ],
+            "install_type": "git-clone",
+            "description": "A set of custom nodes designed for experiments with video diffusion models."
+        },
+        {
+            "author": "Zachary116699",
+            "title": "ComfyUI_LoadImageWithMetaDataEx",
+            "reference": "https://github.com/Zachary116699/ComfyUI-LoadImageWithMetaDataEx",
+            "files": [
+                "https://github.com/Zachary116699/ComfyUI-LoadImageWithMetaDataEx"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node for ComfyUI. It can read metadata from the image filepath, and filepath can be provided as a connected input, which allows it to batch read image metadata in a loop."
+        },
+        {
             "author": "bytedance",
             "title": "comfyui-lumi-batcher",
             "reference": "https://github.com/bytedance/comfyui-lumi-batcher",
@@ -58,7 +118,7 @@
                 "https://github.com/Yuan-ManX/ComfyUI-Direct3D-S2"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI-Direct3D‑S2 is now available in ComfyUI, [a/Direct3D‑S2](https://github.com/DreamTechAI/Direct3D-S2) - Gigascale 3D Generation Made Easy with Spatial Sparse Attention. Direct3D‑S2 is a scalable 3D generation framework based on sparse volumes that achieves superior output quality with dramatically reduced training costs."
+            "description": "ComfyUI-Direct3D‑S2 is now available in ComfyUI, Direct3D‑S2 - Gigascale 3D Generation Made Easy with Spatial Sparse Attention. Direct3D‑S2 is a scalable 3D generation framework based on sparse volumes that achieves superior output quality with dramatically reduced training costs."
         },
         {
             "author": "lum3on",
