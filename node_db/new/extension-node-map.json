@@ -684,6 +684,19 @@
             "title_aux": "ComfyUI-ColorshiftColor"
         }
     ],
+    "https://github.com/A043-studios/comfyui-pixel3dmm": [
+        [
+            "FLAMEOptimizer",
+            "FaceReconstructor3D",
+            "MeshExporter",
+            "NormalPredictor",
+            "Pixel3DMMLoader",
+            "UVPredictor"
+        ],
+        {
+            "title_aux": "Pixel3DMM ComfyUI Nodes"
+        }
+    ],
     "https://github.com/A4P7J1N7M05OT/ComfyUI-AutoColorGimp": [
         [
             "AutoColorGimp"
@@ -1290,9 +1303,14 @@
     ],
     "https://github.com/AIWarper/ComfyUI-WarperNodes": [
         [
+            "ConditionalLoopInputSwitch_Warper",
             "DWPoseScalerNode_Warper",
             "FacialPartMaskFromPose_Warper",
-            "MouthMaskFromPose_Warper"
+            "GetBatchByIndex_Warper",
+            "IterativeLoopFeedback_Warper",
+            "IterativeLoopSetup_Warper",
+            "MouthMaskFromPose_Warper",
+            "SmartVideoBatcher_Warper"
         ],
         {
             "title_aux": "ComfyUI-WarperNodes"
@@ -10763,6 +10781,14 @@
             "title_aux": "DJ_VideoAudioMixer"
         }
     ],
+    "https://github.com/ShmuelRonen/FluxKontextCreator": [
+        [
+            "FluxKontextCreator"
+        ],
+        {
+            "title_aux": "Flux Kontext Creator for ComfyUI"
+        }
+    ],
     "https://github.com/ShmuelRonen/comfyui-openai_fm": [
         [
             "OpenAIFMNode"
@@ -11031,6 +11057,7 @@
         [
             "Alpha Crop and Position Image",
             "CSV Reader",
+            "CSV Reader X Checkpoint",
             "CSV Writer",
             "Empty Images",
             "Get Most Common Image Colors",
@@ -11044,6 +11071,7 @@
             "Lora File Loader",
             "Multiline Concatenate Strings",
             "Output Filename",
+            "Pad Mask",
             "Prompt Cache",
             "Prompt X Lora",
             "Range(Num Steps) - Float",
@@ -13490,6 +13518,17 @@
         ],
         {
             "title_aux": "ComfyUI-Dia"
+        }
+    ],
+    "https://github.com/Yuan-ManX/ComfyUI-Direct3D-S2": [
+        [
+            "Direct3DS2",
+            "LoadDirect3DS2Image",
+            "LoadDirect3DS2Model",
+            "SaveDirect3DS2Mesh"
+        ],
+        {
+            "title_aux": "ComfyUI-Direct3D-S2"
         }
     ],
     "https://github.com/Yuan-ManX/ComfyUI-HiDream-I1": [
@@ -21412,6 +21451,25 @@
             "title_aux": "ComfyUI_llm_easyanimiate"
         }
     ],
+    "https://github.com/fredconex/ComfyUI_SoundFlow": [
+        [
+            "SoundFlow_Concatenator",
+            "SoundFlow_DuckCompressor",
+            "SoundFlow_Equalizer",
+            "SoundFlow_Fade",
+            "SoundFlow_GainPitchControl",
+            "SoundFlow_GetLength",
+            "SoundFlow_Mixer",
+            "SoundFlow_PreviewAudio",
+            "SoundFlow_SetLength",
+            "SoundFlow_SilenceTrimmer",
+            "SoundFlow_SimpleCompressor",
+            "SoundFlow_TrimAudio"
+        ],
+        {
+            "title_aux": "ComfyUI_SoundFlow"
+        }
+    ],
     "https://github.com/freelifehacker/ComfyUI-ImgMask2PNG": [
         [
             "ImageMask2PNG"
@@ -25043,6 +25101,14 @@
             "title_aux": "ComfyUI-Image-Toolkit"
         }
     ],
+    "https://github.com/keit0728/ComfyUI-keitNodes": [
+        [
+            "M2MTranslator"
+        ],
+        {
+            "title_aux": "ComfyUI-keitNodes"
+        }
+    ],
     "https://github.com/kenjiqq/qq-nodes-comfyui": [
         [
             "Any List",
@@ -27980,6 +28046,16 @@
             "title_aux": "ComfyUI-CatvtonFluxWrapper"
         }
     ],
+    "https://github.com/lum3on/ComfyUI-FrameUtilitys": [
+        [
+            "FrameExtender",
+            "FrameExtenderAdvanced",
+            "FrameReplacer"
+        ],
+        {
+            "title_aux": "ComfyUI-FrameUtilitys"
+        }
+    ],
     "https://github.com/lum3on/ComfyUI-ModelQuantizer": [
         [
             "ControlNetFP8QuantizeNode",
@@ -29892,6 +29968,14 @@
         ],
         {
             "title_aux": "Olm Resolution Picker for ComfyUI"
+        }
+    ],
+    "https://github.com/o-l-l-i/ComfyUI-OlmLUT": [
+        [
+            "OlmLUT"
+        ],
+        {
+            "title_aux": "Olm LUT Node for ComfyUI"
         }
     ],
     "https://github.com/okgo4/ComfyUI-Mosaic-Mask": [
@@ -35462,6 +35546,14 @@
         ],
         {
             "title_aux": "Comfyui-imagetoSTL"
+        }
+    ],
+    "https://github.com/xiaowc-lib/comfyui-dynamic-params": [
+        [
+            "DynamicParams"
+        ],
+        {
+            "title_aux": "Comfyui-Dynamic-Params"
         }
     ],
     "https://github.com/xiaoxiaodesha/hd_node": [

@@ -957,6 +957,7 @@
             "VTS Conditioning Set Batch Mask",
             "VTS Count Characters",
             "VTS Create Character Mask",
+            "VTS Fix Image Tags",
             "VTS Images Crop From Masks",
             "VTS Images Scale",
             "VTS Images Scale To Min",
@@ -1594,7 +1595,8 @@
             "Extract LORA name - EQX",
             "File Image Selector",
             "Load Prompt From File - EQX",
-            "LoraStackEQX_random"
+            "LoraStackEQX_random",
+            "SaveImage_EQX"
         ],
         {
             "title_aux": "ComfyUI_EQX"
@@ -1880,6 +1882,19 @@
         ],
         {
             "title_aux": "ComfyUI-igTools"
+        }
+    ],
+    "https://github.com/IsItDanOrAi/ComfyUI-exLoadout": [
+        [
+            "dropdowns",
+            "exCheckpointLoader",
+            "exLoadoutEditCell",
+            "exLoadoutReadColumn",
+            "exSeg",
+            "exSeg2"
+        ],
+        {
+            "title_aux": "ComfyUI-exLoadout [WIP]"
         }
     ],
     "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-2_6-int4": [
@@ -3464,6 +3479,7 @@
             "PipemindSaveImageWTxt",
             "PipemindShowText",
             "PipemindTokenCounter",
+            "PipemindWordninjaClipper",
             "RandomLineFromDropdown",
             "SelectLineFromDropdown",
             "SimplePromptCombiner"
@@ -7557,6 +7573,7 @@
             "DoLogin",
             "HttpRequest",
             "Image_Attachment",
+            "IncludeInSpiderData",
             "JSON_Attachment",
             "Json2String",
             "LoadSpiderData",
@@ -7567,7 +7584,8 @@
             "SpiderCrawl",
             "SpiderSplit",
             "String2Json",
-            "String_Attachment"
+            "String_Attachment",
+            "TextMultiSave"
         ],
         {
             "title_aux": "ComfyUI-AI_Tools [UNSAFE]"
@@ -7734,6 +7752,7 @@
         [
             "Batch Keyframes",
             "Get Image Dimensions",
+            "Image Mix RGB",
             "Pad Batch to 4n+1",
             "Resize Frame",
             "Slot Frame",
@@ -8071,6 +8090,16 @@
         ],
         {
             "title_aux": "comfyui-sourceful-official"
+        }
+    ],
+    "https://github.com/spawner1145/comfyui-spawner-nodes": [
+        [
+            "ImageMetadataReader",
+            "TextEncoderDecoder",
+            "json_process"
+        ],
+        {
+            "title_aux": "comfyui-spawner-nodes"
         }
     ],
     "https://github.com/sswink/comfyui-lingshang": [
@@ -8434,6 +8463,15 @@
             "title_aux": "ComfyUI-RaceDetect"
         }
     ],
+    "https://github.com/usrname0/ComfyUI-AllergicPack": [
+        [
+            "FolderFileCounter_Allergic",
+            "IncrementorPlus"
+        ],
+        {
+            "title_aux": "ComfyUI-AllergicPack [WIP]"
+        }
+    ],
     "https://github.com/var1ableX/ComfyUI_Accessories": [
         [
             "ACC_AnyCast",
@@ -8504,7 +8542,8 @@
     ],
     "https://github.com/wTechArtist/ComfyUI_VVL_VideoCamera": [
         [
-            "ImageSequenceCameraEstimator"
+            "ImageSequenceCameraEstimator",
+            "ImageSequenceDepthEstimator"
         ],
         {
             "title_aux": "ComfyUI_VVL_VideoCamera"
@@ -8572,6 +8611,20 @@
         ],
         {
             "title_aux": "FindBrightestSpot [WIP]"
+        }
+    ],
+    "https://github.com/whmc76/ComfyUI-LongTextTTSSuite": [
+        [
+            "AudioConcatenateFree",
+            "CombineAudioFromList",
+            "IndexSelectFromList",
+            "ListLength",
+            "LongTextSplitter",
+            "MakeAudioBatch",
+            "SubtitleFileLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-LongTextTTSSuite [WIP]"
         }
     ],
     "https://github.com/willblaschko/ComfyUI-Unload-Models": [
