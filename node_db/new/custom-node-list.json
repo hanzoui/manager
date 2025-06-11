@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "Isi-dev",
+            "title": "ComfyUI-Animation_Nodes_and_Workflows",
+            "reference": "https://github.com/Isi-dev/ComfyUI_Animation_Nodes_and_Workflows",
+            "files": [
+                "https://github.com/Isi-dev/ComfyUI_Animation_Nodes_and_Workflows"
+            ],
+            "install_type": "git-clone",
+            "description": "These are nodes and workflows that can facilitate the creation of animations and video compilations."
+        },
+        {
+            "author": "NeoDroleDeGueule",
+            "title": "comfyui-image-mixer",
+            "reference": "https://github.com/NeoDroleDeGueule/comfyui-image-mixer",
+            "files": [
+                "https://github.com/NeoDroleDeGueule/comfyui-image-mixer"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that blends two images in latent space using a mix factor slider."
+        },
+        {
+            "author": "orion4d",
+            "title": "ComfyUI_extract_imag",
+            "reference": "https://github.com/orion4d/ComfyUI_extract_imag",
+            "files": [
+                "https://github.com/orion4d/ComfyUI_extract_imag"
+            ],
+            "install_type": "git-clone",
+            "description": "This ComfyUI node allows you to extract all images found in various types of documents and save them to disk. It also provides a preview of the first extracted image."
+        },
+        {
             "author": "xuhuan2048",
             "title": "ExtractStoryboards",
             "id": "xuhuan2048_ExtractStoryboards",
@@ -667,76 +697,6 @@
             ],
             "install_type": "git-clone",
             "description": "This is a custom node for ComfyUI that retrieves detailed information about an image, including its name, format (extension), DPI, dimensions, long side, short side, file size, and EXIF data. It also supports image saving "
-        },
-        {
-            "author": "violet0927",
-            "title": "ComfyUI OmniConsistency Nodes",
-            "reference": "https://github.com/lc03lc/Comfyui_OmniConsistency",
-            "files": [
-                "https://github.com/lc03lc/Comfyui_OmniConsistency" 
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI OmniConsistency Nodes is a collection of nodes for ComfyUI that allows you to load and use OmniConsistency models."
-        },
-        {
-            "author": "ShmuelRonen",
-            "title": "ComfyUI_ChatterBox",
-            "reference": "https://github.com/ShmuelRonen/ComfyUI_ChatterBox",
-            "files": [
-                "https://github.com/ShmuelRonen/ComfyUI_ChatterBox"
-            ],
-            "install_type": "git-clone",
-            "description": "An unofficial ComfyUI custom node integration for [a/Resemble AI's ChatterBox](https://github.com/resemble-ai/chatterbox) - a state-of-the-art open-source Text-to-Speech (TTS) model with voice cloning capabilities."
-        },
-        {
-            "author": "bikiam",
-            "title": "ComfyUI_WhisperSRT",
-            "reference": "https://github.com/bikiam/ComfyUI_WhisperSRT",
-            "files": [
-                "https://github.com/bikiam/ComfyUI_WhisperSRT" 
-            ],
-            "install_type": "git-clone",
-            "description": "This is custom node for audio transcribe with SRT."
-        },
-        {
-            "author": "Chrisvenator",
-            "title": "painting-by-colors-generator",
-            "reference": "https://github.com/Chrisvenator/ComfyUI-Painting-by-colors-generator",
-            "files": [
-                "https://github.com/Chrisvenator/ComfyUI-Painting-by-colors-generator" 
-            ],
-            "install_type": "git-clone",
-            "description": "Create a painting by colors image from an image"
-        },
-        {
-            "author": "wildminder",
-            "title": "ComfyUI-Optim",
-            "reference": "https://github.com/wildminder/000_ComfyUI-Optim",
-            "files": [
-                "https://github.com/wildminder/000_ComfyUI-Optim"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI startup optimizer and patcher"
-        },
-        {
-            "author": "Chrisvenator",
-            "title": "ComfyUI Image Processing Nodes",
-            "reference": "https://github.com/chaunceyyann/comfyui-image-processing-nodes",
-            "files": [
-                "https://github.com/chaunceyyann/comfyui-image-processing-nodes" 
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for ComfyUI focused on image processing operations."
-        },
-        {
-            "author": "tetsuoo-online",
-            "title": "comfyui-too-xmp-metadata",
-            "reference": "https://github.com/tetsuoo-online/comfyui-too-xmp-metadata",
-            "files": [
-                "https://github.com/tetsuoo-online/comfyui-too-xmp-metadata" 
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for ComfyUI that allow you to read and write XMP metadata to images"
         }
     ]
 }

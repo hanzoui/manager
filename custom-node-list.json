@@ -15508,14 +15508,24 @@
         },
         {
             "author": "Isi-dev",
-            "title": "UniAnimate Nodes for ComfyUI",
+            "title": "ComfyUI-UniAnimate-W",
             "id": "comfyuiunianimatenodes",
             "reference": "https://github.com/Isi-dev/ComfyUI-UniAnimate-W",
             "files": [
                 "https://github.com/Isi-dev/ComfyUI-UniAnimate-W"
             ],
             "install_type": "git-clone",
-            "description": "These are nodes to animate an image with a reference video using UniAnimate. [w/Name conflict with AIFSH/ComfyUI-UniAnimate. Cannot install simulatenously.]"
+            "description": "These are nodes to animate an image with a reference video using UniAnimate."
+        },
+        {
+            "author": "Isi-dev",
+            "title": "ComfyUI-Animation_Nodes_and_Workflows",
+            "reference": "https://github.com/Isi-dev/ComfyUI_Animation_Nodes_and_Workflows",
+            "files": [
+                "https://github.com/Isi-dev/ComfyUI_Animation_Nodes_and_Workflows"
+            ],
+            "install_type": "git-clone",
+            "description": "These are nodes and workflows that can facilitate the creation of animations and video compilations."
         },
         {
             "author": "XLabs-AI",
@@ -26726,6 +26736,16 @@
             "description": "This repository contains a set of custom nodes for ComfyUI that allow you to load, manipulate, extract information from, and preview PDF files directly within your workflows."
         },
         {
+            "author": "orion4d",
+            "title": "ComfyUI_extract_imag",
+            "reference": "https://github.com/orion4d/ComfyUI_extract_imag",
+            "files": [
+                "https://github.com/orion4d/ComfyUI_extract_imag"
+            ],
+            "install_type": "git-clone",
+            "description": "This ComfyUI node allows you to extract all images found in various types of documents and save them to disk. It also provides a preview of the first extracted image."
+        },
+        {
             "author": "aiaiaikkk",
             "title": "ComfyUI-Curve",
             "reference": "https://github.com/aiaiaikkk/ComfyUI-Curve",
@@ -27414,6 +27434,16 @@
             ],
             "install_type": "git-clone",
             "description": "A simple ComfyUI custom node that sends webhook notifications when images are generated. Perfect for integrating your image generation workflow with external services or your own backend."
+        },
+        {
+            "author": "NeoDroleDeGueule",
+            "title": "comfyui-image-mixer",
+            "reference": "https://github.com/NeoDroleDeGueule/comfyui-image-mixer",
+            "files": [
+                "https://github.com/NeoDroleDeGueule/comfyui-image-mixer"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that blends two images in latent space using a mix factor slider."
         },
 
 
