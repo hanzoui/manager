@@ -696,58 +696,6 @@
             ],
             "install_type": "git-clone",
             "description": "Custom nodes for ComfyUI that allow you to read and write XMP metadata to images"
-        },
-        {
-            "author": "alessandrozonta",
-            "title": "ComfyUI-PoseDirection",
-            "reference": "https://github.com/alessandrozonta/ComfyUI-PoseDirection",
-            "files": [
-                "https://github.com/alessandrozonta/ComfyUI-PoseDirection"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node for ComfyUI analyzes OpenPose keypoints to determine if a person in an image is facing forward, showing their left side, or their right side."
-        },
-        {
-            "author": "avocadori",
-            "title": "ComfyUI-load-image-prompt-lora",
-            "reference": "https://github.com/avocadori/ComfyUI-load-image-prompt-lora",
-            "files": [
-                "https://github.com/avocadori/ComfyUI-load-image-prompt-lora" 
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: YAML Image Cycler (Full), YAML Image Cycler (Simple), YAML LoRA Extractor, YAML LoRA Loader, YAML LoRA Selector"
-        },
-        {
-            "author": "vivi-gomez",
-            "title": "ComfyUI Fix Node Translate",
-            "reference": "https://github.com/vivi-gomez/ComfyUI-fixnodetranslate",
-            "files": [
-                "https://github.com/vivi-gomez/ComfyUI-fixnodetranslate"
-            ],
-            "install_type": "git-clone",
-            "description": "Addon for ComfyUI that adds 'Fix node (recreate + keep inputs)' context menu option"
-        },
-        {
-            "author": "violet0927",
-            "title": "Hugging Face LoRA Uploader",
-            "reference": "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader",
-            "id": "comfyui_huggingfacelorauploader", 
-            "files": [
-                "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader" 
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node to upload LoRA models to Hugging Face Hub."
-        },
-        {
-            "author": "aimingfail",
-            "title": "ComfyUI-LikeSpiderAI-SaveMP3",
-            "id": "img2halftone",
-            "reference": "https://github.com/Pigidiy/ComfyUI-LikeSpiderAI-SaveMP3",
-            "files": [
-                "https://github.com/Pigidiy/ComfyUI-LikeSpiderAI-SaveMP3"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node that saves input AUDIO as .mp3 using ffmpeg."
         }
     ]
 }
