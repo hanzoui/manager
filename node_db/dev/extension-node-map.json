@@ -2332,8 +2332,6 @@
             "Flux Empty Latent Image",
             "Flux Image Scale To Total Pixels (Flux Safe)",
             "Image Scale To Total Pixels (SDXL Safe)",
-            "SDXL Resolutions",
-            "Sd 1.5 Empty Latent Image",
             "Sdxl Empty Latent Image"
         ],
         {
@@ -8557,7 +8555,7 @@
     "https://github.com/wTechArtist/ComfyUI_VVL_VideoCamera": [
         [
             "ImageSequenceCameraEstimator",
-            "ImageSequenceDepthEstimator"
+            "VVLColmapMVSDepthNode"
         ],
         {
             "title_aux": "ComfyUI_VVL_VideoCamera"

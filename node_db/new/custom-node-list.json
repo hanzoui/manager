@@ -1,6 +1,47 @@
 {
     "custom_nodes": [
         {
+            "author": "xuhuan2048",
+            "title": "ExtractStoryboards",
+            "id": "xuhuan2048_ExtractStoryboards",
+            "reference": "https://github.com/gitadmini/comfyui_extractstoryboards",
+            "files": [
+                "https://github.com/gitadmini/comfyui_extractstoryboards"
+            ],
+            "install_type": "git-clone",
+            "description": "A tool for decomposing video storyboards, which can obtain storyboards and keyframes"
+        },
+        {
+            "author": "sugarkwork",
+            "title": "comfyui-trtupscaler",
+            "reference": "https://github.com/sugarkwork/comfyui-trtupscaler",
+            "files": [
+                "https://github.com/sugarkwork/comfyui-trtupscaler"
+            ],
+            "install_type": "git-clone",
+            "description": "TensorRT Upscaler for ComfyUI"
+        },
+        {
+            "author": "YMC",
+            "title": "ymc_node_joy",
+            "reference": "https://github.com/YMC-GitHub/ymc_node_joy",
+            "files": [
+                "https://github.com/YMC-GitHub/ymc_node_joy"
+            ],
+            "install_type": "git-clone",
+            "description": "comfyui custom nodes to caption image with joy"
+        },
+        {
+            "author": "pawelmal0101",
+            "title": "ComfyUI Webhook Notifier",
+            "reference": "https://github.com/pawelmal0101/ComfyUI-Webhook",
+            "files": [
+                "https://github.com/pawelmal0101/ComfyUI-Webhook"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple ComfyUI custom node that sends webhook notifications when images are generated. Perfect for integrating your image generation workflow with external services or your own backend."
+        },
+        {
             "author": "mw",
             "title": "ComfyUI_SOME",
             "reference": "https://github.com/billwuhao/ComfyUI_SOME",

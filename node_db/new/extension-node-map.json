@@ -14521,6 +14521,7 @@
             "ComflyJimengVideoApi",
             "ComflySeededit",
             "Comfly_Flux_Kontext",
+            "Comfly_Flux_Kontext_Edit",
             "Comfly_Mj",
             "Comfly_Mju",
             "Comfly_Mjv",
@@ -21758,6 +21759,17 @@
             "title_aux": "foxpack"
         }
     ],
+    "https://github.com/gitadmini/comfyui_extractstoryboards": [
+        [
+            "Example",
+            "ExtractStoryboards_xuhuan1024",
+            "IntBatchSize_xuhuan1024",
+            "IntBatch_xuhuan1024"
+        ],
+        {
+            "title_aux": "ExtractStoryboards"
+        }
+    ],
     "https://github.com/githubYiheng/ComfyUI_Change_IMAGE_BOREDER": [
         [
             "ChangeImageBorder"
@@ -27463,6 +27475,7 @@
             "CombineRegionalPrompts",
             "CoreMLDetailerHookProvider",
             "CustomNoiseDetailerHookProvider",
+            "CustomSamplerDetailerHookProvider",
             "DenoiseScheduleHookProvider",
             "DenoiseSchedulerDetailerHookProvider",
             "DetailerForEach",
@@ -30423,6 +30436,14 @@
             "title_aux": "comfy_clip_blip_node"
         }
     ],
+    "https://github.com/pawelmal0101/ComfyUI-Webhook": [
+        [
+            "Webhook"
+        ],
+        {
+            "title_aux": "ComfyUI Webhook Notifier"
+        }
+    ],
     "https://github.com/pbpbpb2705/ComfyUI-LyraVSIH": [
         [
             "MultiObjectMask"
@@ -32504,49 +32525,6 @@
             "title_aux": "comfy-easy-grids"
         }
     ],
-    "https://github.com/siliconflow/BizyAir": [
-        [
-            "BizyAirBAE_NormalMapPreprocessor",
-            "BizyAirBinaryPreprocessor",
-            "BizyAirCannyEdgePreprocessor",
-            "BizyAirColorPreprocessor",
-            "BizyAirDWPreprocessor",
-            "BizyAirDepthAnythingV2Preprocessor",
-            "BizyAirFakeScribblePreprocessor",
-            "BizyAirGenerateLightningImage",
-            "BizyAirHEDPreprocessor",
-            "BizyAirJoyCaption",
-            "BizyAirJoyCaption2",
-            "BizyAirJoyCaption3",
-            "BizyAirLeReS_DepthMapPreprocessor",
-            "BizyAirLineArtPreprocessor",
-            "BizyAirM_LSDPreprocessor",
-            "BizyAirMetric3D_DepthMapPreprocessor",
-            "BizyAirMetric3D_NormalMapPreprocessor",
-            "BizyAirMiDaS_DepthMapPreprocessor",
-            "BizyAirMiDaS_NormalMapPreprocessor",
-            "BizyAirOneFormer_ADE20K_SemSegPreprocessor",
-            "BizyAirOneFormer_COCO_SemSegPreprocessor",
-            "BizyAirOpenposePreprocessor",
-            "BizyAirPiDiNetPreprocessor",
-            "BizyAirRemoveBackground",
-            "BizyAirSAMPreprocessor",
-            "BizyAirScribblePreprocessor",
-            "BizyAirSegmentAnythingPointBox",
-            "BizyAirSegmentAnythingText",
-            "BizyAirSiliconCloudLLMAPI",
-            "BizyAirSiliconCloudVLMAPI",
-            "BizyAirTilePreprocessor",
-            "BizyAirUniFormer_SemSegPreprocessor",
-            "BizyAirZoe_DepthMapPreprocessor",
-            "BizyAir_MinusZoneChatGLM3TextEncode",
-            "LayerMask: SegmentAnythingUltra V2",
-            "StableDiffusionXLControlNetUnionPipeline"
-        ],
-        {
-            "title_aux": "\u2601\ufe0fBizyAir Nodes"
-        }
-    ],
     "https://github.com/silveroxides/ComfyUI-ModelUtils": [
         [
             "CLIPMetaKeys",
@@ -33718,6 +33696,14 @@
         ],
         {
             "title_aux": "ComfyUI_AspectRatioToSize"
+        }
+    ],
+    "https://github.com/sugarkwork/comfyui-trtupscaler": [
+        [
+            "TRTUpscaler"
+        ],
+        {
+            "title_aux": "comfyui-trtupscaler"
         }
     ],
     "https://github.com/sugarkwork/comfyui_cohere": [
@@ -35730,6 +35716,7 @@
     "https://github.com/xuhongming251/ComfyUI-Jimeng": [
         [
             "JimengAPIClient",
+            "JimengFirstLastFrame2Video",
             "JimengImage2Video",
             "PreviewVideoFromUrl"
         ],
@@ -36690,12 +36677,18 @@
             "DCI_Base64Encoder",
             "DCI_BinaryFileLoader",
             "DCI_BinaryFileSaver",
+            "DCI_DebLoader",
+            "DCI_DebPackager",
+            "DCI_DirectoryLoader",
             "DCI_FileNode",
             "DCI_FileSaver",
             "DCI_Image",
             "DCI_ImagePreview",
             "DCI_PreviewNode",
-            "DCI_SampleImage"
+            "DCI_SampleImage",
+            "DebLoader",
+            "DebPackager",
+            "DirectoryLoader"
         ],
         {
             "title_aux": "ComfyUI DCI"

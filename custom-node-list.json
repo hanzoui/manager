@@ -3423,6 +3423,16 @@
         },
         {
             "author": "YMC",
+            "title": "ymc_node_joy",
+            "reference": "https://github.com/YMC-GitHub/ymc_node_joy",
+            "files": [
+                "https://github.com/YMC-GitHub/ymc_node_joy"
+            ],
+            "install_type": "git-clone",
+            "description": "comfyui custom nodes to caption image with joy"
+        },
+        {
+            "author": "YMC",
             "title": "ymc-node-as-x-type",
             "reference": "https://github.com/YMC-GitHub/ymc-node-as-x-type",
             "files": [
@@ -11309,6 +11319,16 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node that calculates width and height while maintaining aspect ratio, making it easier to determine image resolutions with specified aspect ratios and longer side values."
+        },
+        {
+            "author": "sugarkwork",
+            "title": "comfyui-trtupscaler",
+            "reference": "https://github.com/sugarkwork/comfyui-trtupscaler",
+            "files": [
+                "https://github.com/sugarkwork/comfyui-trtupscaler"
+            ],
+            "install_type": "git-clone",
+            "description": "TensorRT Upscaler for ComfyUI"
         },
         {
             "author": "Intersection98",
@@ -27374,6 +27394,27 @@
             "install_type": "git-clone",
             "description": "A set of custom nodes designed for experiments with video diffusion models."
         },
+        {
+            "author": "xuhuan2048",
+            "title": "ExtractStoryboards",
+            "id": "xuhuan2048_ExtractStoryboards",
+            "reference": "https://github.com/gitadmini/comfyui_extractstoryboards",
+            "files": [
+                "https://github.com/gitadmini/comfyui_extractstoryboards"
+            ],
+            "install_type": "git-clone",
+            "description": "A tool for decomposing video storyboards, which can obtain storyboards and keyframes"
+        },
+        {
+            "author": "pawelmal0101",
+            "title": "ComfyUI Webhook Notifier",
+            "reference": "https://github.com/pawelmal0101/ComfyUI-Webhook",
+            "files": [
+                "https://github.com/pawelmal0101/ComfyUI-Webhook"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple ComfyUI custom node that sends webhook notifications when images are generated. Perfect for integrating your image generation workflow with external services or your own backend."
+        },
 
 
 
@@ -27821,17 +27862,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "xuhuan2048",
-            "title": "ExtractStoryboards",
-            "id": "xuhuan2048_ExtractStoryboards",
-            "reference": "https://github.com/gitadmini/comfyui_extractstoryboards",
-            "files": [
-                "https://github.com/gitadmini/comfyui_extractstoryboards"
-            ],
-            "install_type": "git-clone",
-            "description": "A tool for decomposing video storyboards, which can obtain storyboards and keyframes"
         }
     ]
 }
