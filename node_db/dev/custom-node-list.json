@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "LargeModGames",
+            "title": "ComfyUI LoRA Auto Downloader [NAME CONFLICT]",
+            "reference": "https://github.com/LargeModGames/comfyui-lora-auto-downloader",
+            "files": [
+                "https://github.com/LargeModGames/comfyui-lora-auto-downloader"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatically download missing LoRAs from CivitAI and detect missing LoRAs in workflows. Features smart directory detection and easy installation."
+        },
+        {
             "author": "wildminder",
             "title": "ComfyUI-MagCache [WIP]",
             "reference": "https://github.com/wildminder/ComfyUI-MagCache",
