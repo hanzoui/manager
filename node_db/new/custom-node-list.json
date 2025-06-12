@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "hassan-sd",
+            "title": "ComfyUI Image & Prompt Loader",
+            "id": "hassanprompt",
+            "reference": "https://github.com/hassan-sd/comfyui-image-prompt-loader",
+            "files": [
+                "https://github.com/hassan-sd/comfyui-image-prompt-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Load images with automatic prompt extraction from Civitai URLs, caption files, or EXIF metadata. Features smart dataset detection and dynamic preview updates."
+        },
+        {
             "author": "Isi-dev",
             "title": "ComfyUI-Animation_Nodes_and_Workflows",
             "reference": "https://github.com/Isi-dev/ComfyUI_Animation_Nodes_and_Workflows",
