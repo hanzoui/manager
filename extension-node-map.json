@@ -686,6 +686,15 @@
             "title_aux": "ComfyUI-ColorshiftColor"
         }
     ],
+    "https://github.com/A043-studios/ComfyUI-ASDF-Pixel-Sort-Nodes": [
+        [
+            "PixelSortAdvancedNode",
+            "PixelSortNode"
+        ],
+        {
+            "title_aux": "ComfyUI ASDF Pixel Sort Nodes"
+        }
+    ],
     "https://github.com/A043-studios/comfyui-deforum-x-flux-nodes": [
         [
             "DeforumAnimParamsNode",
@@ -1334,6 +1343,7 @@
             "IterativeLoopFeedback_Warper",
             "IterativeLoopSetup_Warper",
             "MouthMaskFromPose_Warper",
+            "SmartOverlappingBatcher_Warper",
             "SmartVideoBatcher_Warper"
         ],
         {
@@ -15835,6 +15845,14 @@
             "title_aux": "GKK\u00b7Sonic"
         }
     ],
+    "https://github.com/benjamin-bertram/Comfyui_OIDN_Denoiser": [
+        [
+            "OIDNDenoiser"
+        ],
+        {
+            "title_aux": "ComfyUI OIDN Denoiser"
+        }
+    ],
     "https://github.com/benjiyaya/ComfyUI-HunyuanVideoImagesGuider": [
         [
             "Hunyuan Video Image To Guider"
@@ -16191,7 +16209,8 @@
             "SonarResizedNoise",
             "SonarScheduledNoise",
             "SonarShuffledNoise",
-            "SonarWaveletFilteredNoise"
+            "SonarWaveletFilteredNoise",
+            "SonarWaveletNoise"
         ],
         {
             "title_aux": "ComfyUI-sonar"
@@ -16541,8 +16560,8 @@
     ],
     "https://github.com/budihartono/comfyui-aspect-ratio-presets": [
         [
-            "CAS Empty Latent Aspect Ratio by Axis",
-            "CAS Empty Latent Aspect Ratio from Preset"
+            "CAS Empty Latent Aspect Ratio Axis",
+            "CAS Empty Latent Aspect Ratio Preset"
         ],
         {
             "title_aux": "CAS Aspect Ratio Presets Node for ComfyUI"
@@ -20402,6 +20421,7 @@
             "DrawText",
             "DreambaitFolderOpener",
             "DynamicDictionary",
+            "DynamicStringConcatenate",
             "ImageFrameBlend",
             "ImageResizeFaceAware",
             "ListItemExtract",
@@ -23566,18 +23586,6 @@
         ],
         {
             "title_aux": "ComfyUI Neural Network Toolkit NNT "
-        }
-    ],
-    "https://github.com/inyourdreams-studio/comfyui-rblm": [
-        [
-            "ImageLevelsNode",
-            "MaskDilateNode",
-            "MaskFillHolesNode",
-            "ReplaceNode",
-            "ThresholdToAlphaNode"
-        ],
-        {
-            "title_aux": "ComfyUI-RBLM"
         }
     ],
     "https://github.com/irreveloper/ComfyUI-DSD": [
@@ -30116,7 +30124,8 @@
     "https://github.com/olivv-cs/ComfyUI-FunPack": [
         [
             "FunPackCLIPLoader",
-            "FunPackImg2LatentInterpolation"
+            "FunPackImg2LatentInterpolation",
+            "FunPackPromptEnhancer"
         ],
         {
             "title_aux": "ComfyUI-FunPack"

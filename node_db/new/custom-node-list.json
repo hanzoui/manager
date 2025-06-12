@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "benjamin-bertram",
+            "title": "ComfyUI OIDN Denoiser",
+            "reference": "https://github.com/benjamin-bertram/Comfyui_OIDN_Denoiser",
+            "files": [
+                "https://github.com/benjamin-bertram/Comfyui_OIDN_Denoiser"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI provides a wrapper for Intel's Open Image Denoise (OIDN) library, allowing you to denoise images directly within your ComfyUI workflow."
+        },
+        {
             "author": "Yuan-ManX",
             "title": "ComfyUI-Vui",
             "reference": "https://github.com/Yuan-ManX/ComfyUI-Vui",
@@ -30,16 +40,6 @@
             ],
             "install_type": "git-clone",
             "description": "Load images with automatic prompt extraction from Civitai URLs, caption files, or EXIF metadata. Features smart dataset detection and dynamic preview updates."
-        },
-        {
-            "author": "inyourdreams-studio",
-            "title": "ComfyUI-RBLM",
-            "reference": "https://github.com/inyourdreams-studio/comfyui-rblm",
-            "files": [
-                "https://github.com/inyourdreams-studio/comfyui-rblm"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node pack for ComfyUI that provides text manipulation nodes."
         },
         {
             "author": "Isi-dev",
