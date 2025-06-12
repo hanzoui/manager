@@ -1,7 +1,17 @@
 {
     "custom_nodes": [
         {
-            "author": "wildminder",
+            "author": "yichengup",
+            "title": "ComfyUI-Transition",
+            "reference": "https://github.com/yichengup/ComfyUI-Transition",
+            "files": [
+                "https://github.com/yichengup/ComfyUI-Transition"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Linear Transition, Gradient Transition, Dual Line Transition, Sequence Transition, Circular Transition, Circular Sequence Transition"
+        },
+        {
+            "author": "Malloc-pix",
             "title": "comfyui_qwen2.4_vl_node [WIP]",
             "reference": "https://github.com/Malloc-pix/comfyui_qwen2.4_vl_node",
             "files": [
@@ -9,16 +19,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: CogVLM2 Captioner, CLIP Dynamic Text Encode(cy)"
-        },
-        {
-            "author": "LargeModGames",
-            "title": "ComfyUI LoRA Auto Downloader [NAME CONFLICT]",
-            "reference": "https://github.com/LargeModGames/comfyui-lora-auto-downloader",
-            "files": [
-                "https://github.com/LargeModGames/comfyui-lora-auto-downloader"
-            ],
-            "install_type": "git-clone",
-            "description": "Automatically download missing LoRAs from CivitAI and detect missing LoRAs in workflows. Features smart directory detection and easy installation."
         },
         {
             "author": "wildminder",

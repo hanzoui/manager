@@ -148,27 +148,29 @@
     ],
     "https://github.com/1hew/ComfyUI-1hewNodes": [
         [
-            "BlendModesAlpha",
             "CoordinateExtract",
             "ImageAddLabel",
             "ImageBBoxCrop",
+            "ImageBBoxPaste",
+            "ImageBlendModesByAlpha",
             "ImageBlendModesByCSS",
             "ImageCropEdge",
             "ImageCropSquare",
             "ImageCropWithBBox",
-            "ImageCroppedPaste",
             "ImageDetailHLFreqSeparation",
             "ImageEditStitch",
+            "ImageLumaMatte",
             "ImagePlot",
             "ImageResizeUniversal",
-            "LumaMatte",
+            "ImageSolid",
+            "ImageTileMerge",
+            "ImageTileSplit",
             "MaskBBoxCrop",
             "MaskBatchMathOps",
             "MaskMathOps",
             "PathSelect",
             "PromptExtract",
-            "SliderValueRangeMapping",
-            "Solid"
+            "SliderValueRangeMapping"
         ],
         {
             "title_aux": "ComfyUI-1hewNodes [WIP]"
@@ -2128,15 +2130,6 @@
             "title_aux": "ComfyUI-Text"
         }
     ],
-    "https://github.com/LargeModGames/comfyui-lora-auto-downloader": [
-        [
-            "LoRAAutoDownloader",
-            "WorkflowLoRAScanner"
-        ],
-        {
-            "title_aux": "ComfyUI LoRA Auto Downloader [NAME CONFLICT]"
-        }
-    ],
     "https://github.com/LarryJane491/ComfyUI-ModelUnloader": [
         [
             "Model Unloader"
@@ -2321,7 +2314,7 @@
     "https://github.com/Malloc-pix/comfyui_qwen2.4_vl_node": [
         [
             "CLIPDynamicTextEncode",
-            "CogVLM2Captioner"
+            "Qwen2Captioner"
         ],
         {
             "title_aux": "comfyui_qwen2.4_vl_node [WIP]"
@@ -8935,6 +8928,19 @@
         ],
         {
             "title_aux": "ComfyUI_Lam"
+        }
+    ],
+    "https://github.com/yichengup/ComfyUI-Transition": [
+        [
+            "CircularSequenceTransition",
+            "CircularTransition",
+            "DualLineTransition",
+            "GradientTransition",
+            "LinearTransition",
+            "SequenceTransition"
+        ],
+        {
+            "title_aux": "ComfyUI-Transition"
         }
     ],
     "https://github.com/yichengup/ComfyUI-YCNodes_Advance": [

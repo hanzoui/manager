@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-Vui",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-Vui",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-Vui"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-Vui is now available in ComfyUI, Vui is a llama based transformer that predicts audio tokens."
+        },
+        {
+            "author": "LargeModGames",
+            "title": "ComfyUI LoRA Auto Downloader",
+            "reference": "https://github.com/LargeModGames/comfyui-smart-lora-downloader",
+            "files": [
+                "https://github.com/LargeModGames/comfyui-smart-lora-downloader"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatically download missing LoRAs from CivitAI and detect missing LoRAs in workflows. Features smart directory detection and easy installation."
+        },
+        {
             "author": "hassan-sd",
             "title": "ComfyUI Image & Prompt Loader",
             "id": "hassanprompt",
@@ -10,6 +30,16 @@
             ],
             "install_type": "git-clone",
             "description": "Load images with automatic prompt extraction from Civitai URLs, caption files, or EXIF metadata. Features smart dataset detection and dynamic preview updates."
+        },
+        {
+            "author": "inyourdreams-studio",
+            "title": "ComfyUI-RBLM",
+            "reference": "https://github.com/inyourdreams-studio/comfyui-rblm",
+            "files": [
+                "https://github.com/inyourdreams-studio/comfyui-rblm"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node pack for ComfyUI that provides text manipulation nodes."
         },
         {
             "author": "Isi-dev",
@@ -658,56 +688,6 @@
             ],
             "install_type": "git-clone",
             "description": "face detection nodes for comfyui"
-        },
-        {
-            "author": "Aljnk",
-            "title": "ComfyUI-JNK-Tiny-Nodes",
-            "reference": "https://github.com/Aljnk/ComfyUI-JNK-Tiny-Nodes",
-            "files": [
-                "https://github.com/Aljnk/ComfyUI-JNK-Tiny-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of useful custom nodes for ComfyUI - image processing, text manipulation, and workflow automation."
-        },
-        {
-            "author": "sugarkwork",
-            "title": "ComfyUI_AspectRatioToSize",
-            "reference": "https://github.com/sugarkwork/ComfyUI_AspectRatioToSize",
-            "files": [
-                "https://github.com/sugarkwork/ComfyUI_AspectRatioToSize"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node that calculates width and height while maintaining aspect ratio, making it easier to determine image resolutions with specified aspect ratios and longer side values."
-        },
-        {
-            "author": "AEmotionStudio",
-            "title": "ComfyUI-DiscordSend",
-            "reference": "https://github.com/AEmotionStudio/ComfyUI-DiscordSend",
-            "files": [
-                "https://github.com/AEmotionStudio/ComfyUI-DiscordSend"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI extension that enables seamless sharing of AI-generated images and videos directly to Discord."
-        },
-        {
-            "author": "shiertier",
-            "title": "ComfyUI-TeaCache-Lumina",
-            "reference": "https://github.com/shiertier/ComfyUI-TeaCache-lumina2",
-            "files": [
-                "https://github.com/shiertier/ComfyUI-TeaCache-lumina2"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Node Implementation: TeaCache Acceleration Specifically Designed for the Lumina Model"
-        },
-        {
-            "author": "sjh00",
-            "title": "ComfyUI LoadImageWithInfo",
-            "reference": "https://github.com/sjh00/ComfyUI-LoadImageWithInfo",
-            "files": [
-                "https://github.com/sjh00/ComfyUI-LoadImageWithInfo"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a custom node for ComfyUI that retrieves detailed information about an image, including its name, format (extension), DPI, dimensions, long side, short side, file size, and EXIF data. It also supports image saving "
         }
     ]
 }

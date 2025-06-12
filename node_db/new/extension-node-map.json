@@ -281,27 +281,29 @@
     ],
     "https://github.com/1hew/ComfyUI-1hewNodes": [
         [
-            "BlendModesAlpha",
             "CoordinateExtract",
             "ImageAddLabel",
             "ImageBBoxCrop",
+            "ImageBBoxPaste",
+            "ImageBlendModesByAlpha",
             "ImageBlendModesByCSS",
             "ImageCropEdge",
             "ImageCropSquare",
             "ImageCropWithBBox",
-            "ImageCroppedPaste",
             "ImageDetailHLFreqSeparation",
             "ImageEditStitch",
+            "ImageLumaMatte",
             "ImagePlot",
             "ImageResizeUniversal",
-            "LumaMatte",
+            "ImageSolid",
+            "ImageTileMerge",
+            "ImageTileSplit",
             "MaskBBoxCrop",
             "MaskBatchMathOps",
             "MaskMathOps",
             "PathSelect",
             "PromptExtract",
-            "SliderValueRangeMapping",
-            "Solid"
+            "SliderValueRangeMapping"
         ],
         {
             "title_aux": "ComfyUI 1hewNodes"
@@ -7132,6 +7134,15 @@
             "title_aux": "ComfyUI ASCII Art Nodes"
         }
     ],
+    "https://github.com/LargeModGames/comfyui-smart-lora-downloader": [
+        [
+            "LoRAAutoDownloader",
+            "WorkflowLoRAScanner"
+        ],
+        {
+            "title_aux": "ComfyUI LoRA Auto Downloader"
+        }
+    ],
     "https://github.com/LarryJane491/Image-Captioning-in-ComfyUI": [
         [
             "LoRA Caption Load",
@@ -13766,6 +13777,17 @@
             "title_aux": "ComfyUI-UNO"
         }
     ],
+    "https://github.com/Yuan-ManX/ComfyUI-Vui": [
+        [
+            "LoadVuiModel",
+            "LoadVuiPrompt",
+            "SaveVui",
+            "Vui"
+        ],
+        {
+            "title_aux": "ComfyUI-Vui"
+        }
+    ],
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-APISR": [
         [
             "APISR_Lterative_Zho",
@@ -15092,7 +15114,6 @@
             "Sage_CheckpointSelector",
             "Sage_CleanText",
             "Sage_CollectKeywordsFromLoraStack",
-            "Sage_ConditioningRngOut",
             "Sage_ConditioningZeroOut",
             "Sage_ConstructLLMPrompt",
             "Sage_ConstructLLMPromptExtra",
@@ -15127,18 +15148,13 @@
             "Sage_PonyStyle",
             "Sage_SamplerInfo",
             "Sage_SaveImageWithMetadata",
-            "Sage_SetBool",
-            "Sage_SetFloat",
-            "Sage_SetInteger",
             "Sage_SetText",
-            "Sage_TextCompare",
             "Sage_TextWeight",
             "Sage_TilingInfo",
             "Sage_TripleJoinText",
             "Sage_TripleLoraStack",
             "Sage_UNETLoader",
-            "Sage_ViewAnything",
-            "Sage_ViewText"
+            "Sage_ViewAnything"
         ],
         {
             "title_aux": "Sage Utils"
@@ -23552,6 +23568,18 @@
             "title_aux": "ComfyUI Neural Network Toolkit NNT "
         }
     ],
+    "https://github.com/inyourdreams-studio/comfyui-rblm": [
+        [
+            "ImageLevelsNode",
+            "MaskDilateNode",
+            "MaskFillHolesNode",
+            "ReplaceNode",
+            "ThresholdToAlphaNode"
+        ],
+        {
+            "title_aux": "ComfyUI-RBLM"
+        }
+    ],
     "https://github.com/irreveloper/ComfyUI-DSD": [
         [
             "DSDGeminiPromptEnhancer",
@@ -25184,7 +25212,7 @@
     "https://github.com/keit0728/ComfyUI-keitNodes": [
         [
             "M2MTranslator",
-            "WanVideoOptimalResizer"
+            "PixelLimitResizer"
         ],
         {
             "title_aux": "ComfyUI-keitNodes"
