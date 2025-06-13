@@ -221,6 +221,7 @@ class TaskQueue:
             history=self.get_history(),
             running_queue=self.get_current_queue()[0],
             pending_queue=self.get_current_queue()[1],
+            installed_packs=core.get_installed_node_packs(),
         )
 
     @staticmethod
@@ -262,7 +263,7 @@ class TaskQueue:
         )
         self.batch_start_time = datetime.now().isoformat()
         self.batch_state_before = self._capture_system_state()
-        logging.info(f"[ComfyUI-Manager] Started new batch: {self.batch_id}")
+        logging.info("[ComfyUI-Manager] Started new batch: %s", self.batch_id)
 
     def get(
         self, timeout: Optional[float] = None
