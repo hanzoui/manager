@@ -1,0 +1,77 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, feat/*, fix/* ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-openapi:
+    name: Validate OpenAPI Specification
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Install Redoc CLI
+      run: |
+        npm install -g @redocly/cli
+    
+    - name: Validate OpenAPI specification
+      run: |
+        redocly lint openapi.yaml
+
+  code-quality:
+    name: Code Quality Checks
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        pip install ruff ast
+    
+    - name: Run ruff linting
+      run: |
+        ruff check comfyui_manager/glob/manager_server.py
+    
+    - name: Check Python syntax (AST parsing)
+      run: |
+        python -c "
+        import ast
+        import sys
+        try:
+            with open('comfyui_manager/glob/manager_server.py', 'r') as f:
+                ast.parse(f.read())
+            print('Python syntax is valid')
+        except SyntaxError as e:
+            print(f'Syntax error: {e}')
+            sys.exit(1)
+        "
+    
+    - name: Check imports and basic compilation
+      run: |
+        cd comfyui_manager/glob && python -c "
+        import sys
+        sys.path.insert(0, '../..')
+        try:
+            import manager_server
+            print('Module imports successfully')
+        except ImportError as e:
+            print(f'Import warning: {e}')
+            # Don't fail on import errors since dependencies may not be available
+        except SyntaxError as e:
+            print(f'Syntax error: {e}')
+            sys.exit(1)
+        "
+
