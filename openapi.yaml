@@ -103,7 +103,12 @@ components:
           items:
             $ref: '#/components/schemas/QueueTaskItem'
           description: Tasks waiting to be executed
-      required: [history, running_queue, pending_queue]
+        installed_packs:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/ManagerPackInstalled'
+          description: Map of currently installed node packages by name
+      required: [history, running_queue, pending_queue, installed_packs]
 
     # WebSocket Message Models
     ManagerMessageName:
