@@ -289,7 +289,7 @@ class TaskQueue:
             )
             return item, task_index
 
-    def task_done(
+    async def task_done(
         self,
         item: QueueTaskItem,
         task_index: int,
@@ -327,19 +327,29 @@ class TaskQueue:
                 status=pydantic_status,
             )
 
-            # Send WebSocket message indicating task is complete
-            TaskQueue.send_queue_state_update(
-                ManagerMessageName.cm_task_completed.value,
-                MessageTaskDone(
-                    ui_id=item.ui_id,
-                    result=result_msg,
-                    kind=item.kind,
-                    status=pydantic_status,
-                    timestamp=datetime.fromisoformat(timestamp),
-                    state=self.get_current_state(),
-                ),
-                client_id=item.client_id,  # Send completion only to the client that requested it
-            )
+        # Force cache refresh for successful pack-modifying operations
+        pack_modifying_tasks = {"install", "uninstall", "enable", "disable"}
+        if (item.kind in pack_modifying_tasks and 
+            status and status.status_str == "success"):
+            try:
+                # Force unified_manager to refresh its installed packages cache
+                await core.unified_manager.reload("cache", dont_wait=True, update_cnr_map=False)
+            except Exception as e:
+                logging.warning(f"[ComfyUI-Manager] Failed to refresh cache after {item.kind}: {e}")
+
+        # Send WebSocket message indicating task is complete
+        TaskQueue.send_queue_state_update(
+            ManagerMessageName.cm_task_completed.value,
+            MessageTaskDone(
+                ui_id=item.ui_id,
+                result=result_msg,
+                kind=item.kind,
+                status=pydantic_status,
+                timestamp=datetime.fromisoformat(timestamp),
+                state=self.get_current_state(),
+            ),
+            client_id=item.client_id,  # Send completion only to the client that requested it
+        )
 
     def get_current_queue(self) -> tuple[list[QueueTaskItem], list[QueueTaskItem]]:
         """Get current running and remaining tasks"""
@@ -858,7 +868,7 @@ async def task_worker():
                 msg = "Unexpected kind: " + kind
         except Exception:
             msg = f"Exception: {(kind, item)}"
-            task_queue.task_done(
+            await task_queue.task_done(
                 item, task_index, msg, TaskQueue.ExecutionStatus("error", True, [msg])
             )
             return
@@ -877,7 +887,7 @@ async def task_worker():
         else:
             status = TaskQueue.ExecutionStatus("error", True, [result_msg])
 
-        task_queue.task_done(item, task_index, result_msg, status)
+        await task_queue.task_done(item, task_index, result_msg, status)
 
 
 @routes.post("/v2/manager/queue/task")
