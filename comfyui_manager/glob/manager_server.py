@@ -1,28 +1,36 @@
-import traceback
+"""
+ComfyUI Manager Server
 
-import folder_paths
-import locale
-import subprocess  # don't remove this
+Main server implementation providing REST API endpoints for ComfyUI Manager functionality.
+Handles task queue management, custom node operations, model installation, and system configuration.
+"""
+
+import asyncio
 import concurrent
-import nodes
+import copy
+import heapq
+import json
+import logging
 import os
-import sys
-import threading
 import platform
 import re
 import shutil
-import uuid
-from datetime import datetime
-import heapq
-import copy
-from typing import NamedTuple, List, Literal, Optional
-from pydantic import ValidationError
-from comfy.cli_args import args
-import latent_preview
-from aiohttp import web
-import json
-import zipfile
+import subprocess  # don't remove this
+import sys
+import threading
+import traceback
 import urllib.request
+import uuid
+import zipfile
+from datetime import datetime
+from typing import Any, Dict, List, Literal, NamedTuple, Optional
+
+import folder_paths
+import latent_preview
+import nodes
+from aiohttp import web
+from comfy.cli_args import args
+from pydantic import ValidationError
 
 from comfyui_manager.glob.utils import (
     formatting_utils,
@@ -34,8 +42,6 @@ from comfyui_manager.glob.utils import (
 
 
 from server import PromptServer
-import logging
-import asyncio
 
 from . import manager_core as core
 from ..common import manager_util
@@ -48,6 +54,7 @@ from ..data_models import (
     QueueTaskItem,
     TaskHistoryItem,
     TaskStateMessage,
+    TaskExecutionStatus,
     MessageTaskDone,
     MessageTaskStarted,
     MessageUpdate,
@@ -56,28 +63,22 @@ from ..data_models import (
     ComfyUISystemState,
     BatchOperation,
     InstalledNodeInfo,
-    InstalledModelInfo,
     ComfyUIVersionInfo,
     InstallPackParams,
+    UpdatePackParams,
+    UpdateAllPacksParams,
+    UpdateComfyUIParams,
+    FixPackParams,
+    UninstallPackParams,
+    DisablePackParams,
+    EnablePackParams,
     ModelMetadata,
 )
 
 from .constants import (
     model_dir_name_map,
     SECURITY_MESSAGE_MIDDLE_OR_BELOW,
-    SECURITY_MESSAGE_NORMAL_MINUS_MODEL,
-    SECURITY_MESSAGE_GENERAL,
-    SECURITY_MESSAGE_NORMAL_MINUS,
 )
-
-# For legacy compatibility - these may need to be implemented in the new structure
-temp_queue_batch = []
-task_worker_lock = threading.RLock()
-
-def finalize_temp_queue_batch():
-    """Temporary compatibility function - to be implemented with new queue system"""
-    pass
-
 
 if not manager_util.is_manager_pip_package():
     network_mode_description = "offline"
@@ -85,37 +86,63 @@ else:
     network_mode_description = core.get_config()["network_mode"]
 logging.info("[ComfyUI-Manager] network_mode: " + network_mode_description)
 
-comfy_ui_hash = "-"
-comfyui_tag = None
 
 MAXIMUM_HISTORY_SIZE = 10000
 routes = PromptServer.instance.routes
 
-def handle_stream(stream, prefix):
-    stream.reconfigure(encoding=locale.getpreferredencoding(), errors='replace')
-    for msg in stream:
-        if prefix == '[!]' and ('it/s]' in msg or 's/it]' in msg) and ('%|' in msg or 'it [' in msg):
-            if msg.startswith('100%'):
-                print('\r' + msg, end="", file=sys.stderr),
-            else:
-                print('\r' + msg[:-1], end="", file=sys.stderr),
-        else:
-            if prefix == '[!]':
-                print(prefix, msg, end="", file=sys.stderr)
-            else:
-                print(prefix, msg, end="")
 
 def is_loopback(address):
     import ipaddress
+
     try:
         return ipaddress.ip_address(address).is_loopback
     except ValueError:
         return False
 
+
 is_local_mode = is_loopback(args.listen)
 
 
-# Code quality checks have been completed
+def validate_required_params(request: web.Request, required_params: List[str]) -> Optional[web.Response]:
+    """Validate that all required query parameters are present.
+    
+    Args:
+        request: The aiohttp request object
+        required_params: List of required parameter names
+        
+    Returns:
+        web.Response with 400 status if validation fails, None if validation passes
+    """
+    missing_params = []
+    for param in required_params:
+        if param not in request.rel_url.query:
+            missing_params.append(param)
+    
+    if missing_params:
+        missing_str = ", ".join(missing_params)
+        return web.Response(
+            status=400, 
+            text=f"Missing required parameter(s): {missing_str}"
+        )
+    return None
+
+
+def error_response(status: int, message: str, error_type: Optional[str] = None) -> web.Response:
+    """Create a standardized error response.
+    
+    Args:
+        status: HTTP status code
+        message: Error message
+        error_type: Optional error type/category
+        
+    Returns:
+        web.Response with JSON error body
+    """
+    error_data = {"error": message}
+    if error_type:
+        error_data["error_type"] = error_type
+        
+    return web.json_response(error_data, status=status)
 
 
 class ManagerFuncsInComfyUI(core.ManagerFuncs):
@@ -183,8 +210,7 @@ class TaskQueue:
         self.batch_id = None
         self.batch_start_time = None
         self.batch_state_before = None
-        # Client tracking implemented - see client_id support in QueueTaskItem and TaskHistoryItem
-        # Batch history serialization implemented - see finalize() method
+
     class ExecutionStatus(NamedTuple):
         status_str: Literal["success", "error", "skip"]
         completed: bool
@@ -209,25 +235,31 @@ class TaskQueue:
             client_id: Optional client ID. If None, broadcasts to all clients.
                       If provided, sends only to that specific client.
         """
-        PromptServer.instance.send_sync(msg, update.model_dump(), client_id)
+        PromptServer.instance.send_sync(msg, update.model_dump(mode='json'), client_id)
 
     def put(self, item) -> None:
         """Add a task to the queue. Item can be a dict or QueueTaskItem model."""
         with self.mutex:
             # Start a new batch if this is the first task after queue was empty
-            if self.batch_id is None and len(self.pending_tasks) == 0 and len(self.running_tasks) == 0:
+            if (
+                self.batch_id is None
+                and len(self.pending_tasks) == 0
+                and len(self.running_tasks) == 0
+            ):
                 self._start_new_batch()
-            
-            # Convert to dict if it's a Pydantic model
-            if hasattr(item, 'model_dump'):
-                item = item.model_dump()
-            
+
+            # Convert to Pydantic model if it's a dict
+            if isinstance(item, dict):
+                item = QueueTaskItem(**item)
+
             heapq.heappush(self.pending_tasks, item)
             self.not_empty.notify()
-    
+
     def _start_new_batch(self) -> None:
         """Start a new batch session for tracking operations."""
-        self.batch_id = f"batch_{datetime.now().strftime('%Y%m%d_%H%M%S')}_{uuid.uuid4().hex[:8]}"
+        self.batch_id = (
+            f"batch_{datetime.now().strftime('%Y%m%d_%H%M%S')}_{uuid.uuid4().hex[:8]}"
+        )
         self.batch_start_time = datetime.now().isoformat()
         self.batch_state_before = self._capture_system_state()
         logging.info(f"[ComfyUI-Manager] Started new batch: {self.batch_id}")
@@ -245,22 +277,21 @@ class TaskQueue:
             self.running_tasks[task_index] = copy.deepcopy(item)
             self.task_counter += 1
             TaskQueue.send_queue_state_update(
-                ManagerMessageName.TASK_STARTED.value,
+                ManagerMessageName.cm_task_started.value,
                 MessageTaskStarted(
-                    ui_id=item["ui_id"],
-                    kind=item["kind"],
-                    timestamp=datetime.now().isoformat(),
+                    ui_id=item.ui_id,
+                    kind=item.kind,
+                    timestamp=datetime.now(),
                     state=self.get_current_state(),
                 ),
-                client_id=item[
-                    "client_id"
-                ],  # Send task started only to the client that requested it
+                client_id=item.client_id,  # Send task started only to the client that requested it
             )
             return item, task_index
 
     def task_done(
         self,
         item: QueueTaskItem,
+        task_index: int,
         result_msg: str,
         status: Optional["TaskQueue.ExecutionStatus"] = None,
     ) -> None:
@@ -269,38 +300,44 @@ class TaskQueue:
         with self.mutex:
             timestamp = datetime.now().isoformat()
 
+            # Remove task from running_tasks using the task_index
+            self.running_tasks.pop(task_index, None)
+
             # Manage history size
             if len(self.history_tasks) > MAXIMUM_HISTORY_SIZE:
                 self.history_tasks.pop(next(iter(self.history_tasks)))
 
-            status_dict: Optional[dict] = None
+            # Convert TaskQueue.ExecutionStatus to TaskExecutionStatus Pydantic model
+            pydantic_status: Optional[TaskExecutionStatus] = None
             if status is not None:
-                status_dict = status._asdict()
+                pydantic_status = TaskExecutionStatus(
+                    status_str=status.status_str,
+                    completed=status.completed,
+                    messages=status.messages
+                )
 
             # Update history
-            self.history_tasks[item["ui_id"]] = TaskHistoryItem(
-                ui_id=item["ui_id"],
-                client_id=item["client_id"],
-                timestamp=timestamp,
+            self.history_tasks[item.ui_id] = TaskHistoryItem(
+                ui_id=item.ui_id,
+                client_id=item.client_id,
+                timestamp=datetime.fromisoformat(timestamp),
                 result=result_msg,
-                kind=item["kind"],
-                status=status_dict,
+                kind=item.kind,
+                status=pydantic_status,
             )
 
             # Send WebSocket message indicating task is complete
             TaskQueue.send_queue_state_update(
-                ManagerMessageName.TASK_DONE.value,
+                ManagerMessageName.cm_task_completed.value,
                 MessageTaskDone(
-                    ui_id=item["ui_id"],
+                    ui_id=item.ui_id,
                     result=result_msg,
-                    kind=item["kind"],
-                    status=status_dict,
-                    timestamp=timestamp,
+                    kind=item.kind,
+                    status=pydantic_status,
+                    timestamp=datetime.fromisoformat(timestamp),
                     state=self.get_current_state(),
                 ),
-                client_id=item[
-                    "client_id"
-                ],  # Send completion only to the client that requested it
+                client_id=item.client_id,  # Send completion only to the client that requested it
             )
 
     def get_current_queue(self) -> tuple[list[QueueTaskItem], list[QueueTaskItem]]:
@@ -389,12 +426,12 @@ class TaskQueue:
             batch_path = os.path.join(
                 context.manager_batch_history_path, self.batch_id + ".json"
             )
-            
+
             try:
                 end_time = datetime.now().isoformat()
                 state_after = self._capture_system_state()
                 operations = self._extract_batch_operations()
-                
+
                 batch_record = BatchExecutionRecord(
                     batch_id=self.batch_id,
                     start_time=self.batch_start_time,
@@ -403,22 +440,30 @@ class TaskQueue:
                     state_after=state_after,
                     operations=operations,
                     total_operations=len(operations),
-                    successful_operations=len([op for op in operations if op.result == "success"]),
-                    failed_operations=len([op for op in operations if op.result == "failed"]),
-                    skipped_operations=len([op for op in operations if op.result == "skipped"])
+                    successful_operations=len(
+                        [op for op in operations if op.result == "success"]
+                    ),
+                    failed_operations=len(
+                        [op for op in operations if op.result == "failed"]
+                    ),
+                    skipped_operations=len(
+                        [op for op in operations if op.result == "skipped"]
+                    ),
                 )
-                
+
                 # Save to disk
                 with open(batch_path, "w", encoding="utf-8") as json_file:
-                    json.dump(batch_record.model_dump(), json_file, indent=4, default=str)
-                
+                    json.dump(
+                        batch_record.model_dump(), json_file, indent=4, default=str
+                    )
+
                 logging.info(f"[ComfyUI-Manager] Batch history saved: {batch_path}")
-                
+
                 # Reset batch tracking
                 self.batch_id = None
                 self.batch_start_time = None
                 self.batch_state_before = None
-                
+
             except Exception as e:
                 logging.error(f"[ComfyUI-Manager] Failed to save batch history: {e}")
 
@@ -430,9 +475,8 @@ class TaskQueue:
             python_version=platform.python_version(),
             platform_info=f"{platform.system()} {platform.release()} ({platform.machine()})",
             installed_nodes=self._get_installed_nodes(),
-            installed_models=self._get_installed_models()
         )
-    
+
     def _get_comfyui_version_info(self) -> ComfyUIVersionInfo:
         """Get ComfyUI version information."""
         try:
@@ -441,11 +485,11 @@ class TaskQueue:
             return ComfyUIVersionInfo(version=current_version)
         except Exception:
             return ComfyUIVersionInfo(version="unknown")
-    
+
     def _get_installed_nodes(self) -> dict[str, InstalledNodeInfo]:
         """Get information about installed node packages."""
         installed_nodes = {}
-        
+
         try:
             node_packs = core.get_installed_node_packs()
             for pack_name, pack_info in node_packs.items():
@@ -453,46 +497,17 @@ class TaskQueue:
                     name=pack_name,
                     version=pack_info.get("ver", "unknown"),
                     install_method="unknown",
-                    enabled=pack_info.get("enabled", True)
+                    enabled=pack_info.get("enabled", True),
                 )
         except Exception as e:
             logging.warning(f"[ComfyUI-Manager] Failed to get installed nodes: {e}")
-        
+
         return installed_nodes
-    
-    def _get_installed_models(self) -> dict[str, InstalledModelInfo]:
-        """Get information about installed models."""
-        installed_models = {}
-        
-        try:
-            model_dirs = ["checkpoints", "loras", "vae", "embeddings", "controlnet", "upscale_models"]
-            
-            for model_type in model_dirs:
-                try:
-                    files = folder_paths.get_filename_list(model_type)
-                    for filename in files:
-                        model_paths = folder_paths.get_folder_paths(model_type)
-                        if model_paths:
-                            full_path = os.path.join(model_paths[0], filename)
-                            if os.path.exists(full_path):
-                                installed_models[filename] = InstalledModelInfo(
-                                    name=filename,
-                                    path=full_path,
-                                    type=model_type,
-                                    size_bytes=os.path.getsize(full_path)
-                                )
-                except Exception:
-                    continue
-                    
-        except Exception as e:
-            logging.warning(f"[ComfyUI-Manager] Failed to get installed models: {e}")
-        
-        return installed_models
-    
+
     def _extract_batch_operations(self) -> list[BatchOperation]:
         """Extract operations from completed task history for this batch."""
         operations = []
-        
+
         try:
             for ui_id, task in self.history_tasks.items():
                 result_status = "success"
@@ -502,19 +517,21 @@ class TaskQueue:
                         result_status = "failed"
                     elif status_str == "skip":
                         result_status = "skipped"
-                
+
                 operation = BatchOperation(
                     operation_id=ui_id,
                     operation_type=task.kind,
                     target=f"task_{ui_id}",
                     result=result_status,
                     start_time=task.timestamp,
-                    client_id=task.client_id
+                    client_id=task.client_id,
                 )
                 operations.append(operation)
         except Exception as e:
-            logging.warning(f"[ComfyUI-Manager] Failed to extract batch operations: {e}")
-        
+            logging.warning(
+                f"[ComfyUI-Manager] Failed to extract batch operations: {e}"
+            )
+
         return operations
 
 
@@ -530,76 +547,19 @@ else:
 task_worker_thread = None
 task_worker_lock = threading.Lock()
 
-def get_model_dir(data, show_log=False):
-    if 'download_model_base' in folder_paths.folder_names_and_paths:
-        models_base = folder_paths.folder_names_and_paths['download_model_base'][0][0]
-    else:
-        models_base = folder_paths.models_dir
 
-    # NOTE: Validate to prevent path traversal.
-    if any(char in data['filename'] for char in {'/', '\\', ':'}):
-        return None
-
-    def resolve_custom_node(save_path):
-        save_path = save_path[13:] # remove 'custom_nodes/'
-
-        # NOTE: Validate to prevent path traversal.
-        if save_path.startswith(os.path.sep) or ':' in save_path:
-            return None
-
-        repo_name = save_path.replace('\\','/').split('/')[0] # get custom node repo name
-
-        # NOTE: The creation of files within the custom node path should be removed in the future.
-        repo_path = core.lookup_installed_custom_nodes_legacy(repo_name)
-        if repo_path is not None and repo_path[0]:
-            # Returns the retargeted path based on the actually installed repository
-            return os.path.join(os.path.dirname(repo_path[1]), save_path)
-        else:
-            return None
-
-    if data['save_path'] != 'default':
-        if '..' in data['save_path'] or data['save_path'].startswith('/'):
-            if show_log:
-                logging.info(f"[WARN] '{data['save_path']}' is not allowed path. So it will be saved into 'models/etc'.")
-            base_model = os.path.join(models_base, "etc")
-        else:
-            if data['save_path'].startswith("custom_nodes"):
-                base_model = resolve_custom_node(data['save_path'])
-                if base_model is None:
-                    if show_log:
-                        logging.info(f"[ComfyUI-Manager] The target custom node for model download is not installed: {data['save_path']}")
-                    return None
-            else:
-                base_model = os.path.join(models_base, data['save_path'])
-    else:
-        model_dir_name = model_dir_name_map.get(data['type'].lower())
-        if model_dir_name is not None:
-            base_model = folder_paths.folder_names_and_paths[model_dir_name][0][0]
-        else:
-            base_model = os.path.join(models_base, "etc")
-
-    return base_model
-
-def get_model_path(data, show_log=False):
-    base_model = get_model_dir(data, show_log)
-    if base_model is None:
-        return None
-    else:
-        if data['filename'] == '<huggingface>':
-            return os.path.join(base_model, os.path.basename(data['url']))
-        else:
-            return os.path.join(base_model, data['filename'])
+# Note: Model path utilities moved to model_utils.py to avoid duplication
 
 
 async def task_worker():
     await core.unified_manager.reload("cache")
 
-    async def do_install(item) -> str:
-        node_id = item.get("id")
-        node_version = item.get("selected_version")
-        channel = item.get("channel")
-        mode = item.get("mode")
-        skip_post_install = item.get("skip_post_install")
+    async def do_install(params: InstallPackParams) -> str:
+        node_id = params.id
+        node_version = params.selected_version
+        channel = params.channel
+        mode = params.mode
+        skip_post_install = params.skip_post_install
 
         try:
             node_spec = core.unified_manager.resolve_node_spec(
@@ -639,14 +599,14 @@ async def task_worker():
             traceback.print_exc()
             return "Installation failed"
 
-    async def do_enable(item) -> str:
-        cnr_id = item.get("cnr_id")
+    async def do_enable(params: EnablePackParams) -> str:
+        cnr_id = params.cnr_id
         core.unified_manager.unified_enable(cnr_id)
         return "success"
 
-    async def do_update(item):
-        node_name = item.get("node_name")
-        node_ver = item.get("node_ver")
+    async def do_update(params: UpdatePackParams) -> str:
+        node_name = params.node_name
+        node_ver = params.node_ver
 
         try:
             res = core.unified_manager.unified_update(node_name, node_ver)
@@ -686,37 +646,47 @@ async def task_worker():
 
         return {"msg": f"An error occurred while updating '{node_name}'."}
 
-    async def do_update_comfyui(is_stable) -> str:
+    async def do_update_comfyui(params: UpdateComfyUIParams) -> str:
         try:
             repo_path = os.path.dirname(folder_paths.__file__)
-            latest_tag = None
-            if is_stable:
-                res, latest_tag = core.update_to_stable_comfyui(repo_path)
+            
+            # Check if this is a version switch operation
+            if params.target_version:
+                # Switch to specific version
+                logging.info(f"Switching ComfyUI to version: {params.target_version}")
+                core.switch_comfyui(params.target_version)
+                return f"success-switched-{params.target_version}"
             else:
-                res = core.update_path(repo_path)
-
-            if res == "fail":
-                logging.error("ComfyUI update failed")
-                return "fail"
-            elif res == "updated":
+                # Regular update operation
+                is_stable = params.is_stable if params.is_stable is not None else True
+                latest_tag = None
                 if is_stable:
-                    logging.info("ComfyUI is updated to latest stable version.")
-                    return "success-stable-" + latest_tag
+                    res, latest_tag = core.update_to_stable_comfyui(repo_path)
                 else:
-                    logging.info("ComfyUI is updated to latest nightly version.")
-                    return "success-nightly"
-            else:  # skipped
-                logging.info("ComfyUI is up-to-date.")
-                return "skip"
+                    res = core.update_path(repo_path)
+
+                if res == "fail":
+                    logging.error("ComfyUI update failed")
+                    return "fail"
+                elif res == "updated":
+                    if is_stable:
+                        logging.info("ComfyUI is updated to latest stable version.")
+                        return "success-stable-" + latest_tag
+                    else:
+                        logging.info("ComfyUI is updated to latest nightly version.")
+                        return "success-nightly"
+                else:  # skipped
+                    logging.info("ComfyUI is up-to-date.")
+                    return "skip"
 
         except Exception:
             traceback.print_exc()
 
         return "An error occurred while updating 'comfyui'."
 
-    async def do_fix(item) -> str:
-        node_name = item.get("node_name")
-        node_ver = item.get("node_ver")
+    async def do_fix(params: FixPackParams) -> str:
+        node_name = params.node_name
+        node_ver = params.node_ver
 
         try:
             res = core.unified_manager.unified_fix(node_name, node_ver)
@@ -734,9 +704,9 @@ async def task_worker():
 
         return f"An error occurred while fixing '{node_name}@{node_ver}'."
 
-    async def do_uninstall(item) -> str:
-        node_name = item.get("node_name")
-        is_unknown = item.get("is_unknown")
+    async def do_uninstall(params: UninstallPackParams) -> str:
+        node_name = params.node_name
+        is_unknown = params.is_unknown
 
         try:
             res = core.unified_manager.unified_uninstall(node_name, is_unknown)
@@ -752,11 +722,11 @@ async def task_worker():
 
         return f"An error occurred while uninstalling '{node_name}'."
 
-    async def do_disable(item) -> str:
-        node_name = item.get("node_name")
+    async def do_disable(params: DisablePackParams) -> str:
+        node_name = params.node_name
         try:
             res = core.unified_manager.unified_disable(
-                node_name, item.get("is_unknown")
+                node_name, params.is_unknown
             )
 
             if res:
@@ -767,8 +737,8 @@ async def task_worker():
 
         return f"Failed to disable: '{node_name}'"
 
-    async def do_install_model(item) -> str:
-        json_data = item.get("json_data")
+    async def do_install_model(params: ModelMetadata) -> str:
+        json_data = params.model_dump()
 
         model_path = model_utils.get_model_path(json_data)
         model_url = json_data.get("url")
@@ -830,9 +800,11 @@ async def task_worker():
 
         return f"Model installation error: {model_url}"
 
-    async def do_update_all(item):
-        res = await _update_all(item["mode"])
-        return res
+
+    async def do_update_all(params: UpdateAllPacksParams):
+        # For update-all tasks, we need client info from the original task
+        # This should not be called anymore since update_all now creates individual tasks
+        return "error: update_all should create individual tasks, not use task worker"
 
     while True:
         timeout = 4096
@@ -841,13 +813,13 @@ async def task_worker():
             # Check if queue is truly empty (no pending or running tasks)
             if task_queue.total_count() == 0 and len(task_queue.running_tasks) == 0:
                 logging.info("\n[ComfyUI-Manager] All tasks are completed.")
-                
+
                 # Trigger batch history serialization if there are completed tasks
                 if task_queue.done_count() > 0:
                     logging.info("[ComfyUI-Manager] Finalizing batch history...")
                     task_queue.finalize()
                     logging.info("[ComfyUI-Manager] Batch history saved.")
-                
+
                 logging.info("\nAfter restarting ComfyUI, please refresh the browser.")
 
                 res = {"status": "all-done"}
@@ -858,38 +830,37 @@ async def task_worker():
             return
 
         item, task_index = task
-        kind = item["kind"]
+        kind = item.kind
 
         print(f"Processing task: {kind} with item: {item} at index: {task_index}")
 
         try:
             if kind == "install":
-                msg = await do_install(item)
+                msg = await do_install(item.params)
             elif kind == "enable":
-                msg = await do_enable(item)
+                msg = await do_enable(item.params)
             elif kind == "install-model":
-                msg = await do_install_model(item)
+                msg = await do_install_model(item.params)
             elif kind == "update":
-                msg = await do_update(item)
-            elif kind == "update-all":
-                msg = await do_update_all(item)
+                msg = await do_update(item.params)
             elif kind == "update-main":
-                msg = await do_update(item)
+                msg = await do_update(item.params)
             elif kind == "update-comfyui":
-                msg = await do_update_comfyui(item[1])
+                msg = await do_update_comfyui(item.params)
             elif kind == "fix":
-                msg = await do_fix(item)
+                msg = await do_fix(item.params)
             elif kind == "uninstall":
-                msg = await do_uninstall(item)
+                msg = await do_uninstall(item.params)
             elif kind == "disable":
-                msg = await do_disable(item)
+                msg = await do_disable(item.params)
             else:
                 msg = "Unexpected kind: " + kind
         except Exception:
             msg = f"Exception: {(kind, item)}"
             task_queue.task_done(
-                item, msg, TaskQueue.ExecutionStatus("error", True, [msg])
+                item, task_index, msg, TaskQueue.ExecutionStatus("error", True, [msg])
             )
+            return
 
         # Determine status and message for task completion
         if isinstance(msg, dict) and "msg" in msg:
@@ -905,7 +876,7 @@ async def task_worker():
         else:
             status = TaskQueue.ExecutionStatus("error", True, [result_msg])
 
-        task_queue.task_done(item, msg, status)
+        task_queue.task_done(item, task_index, result_msg, status)
 
 
 @routes.post("/v2/manager/queue/task")
@@ -1062,58 +1033,50 @@ async def fetch_customnode_mappings(request):
 
 @routes.get("/v2/customnode/fetch_updates")
 async def fetch_updates(request):
-    try:
-        if request.rel_url.query["mode"] == "local":
-            channel = "local"
-        else:
-            channel = core.get_config()["channel_url"]
-
-        await core.unified_manager.reload(request.rel_url.query["mode"])
-        await core.unified_manager.get_custom_nodes(
-            channel, request.rel_url.query["mode"]
-        )
-
-        res = core.unified_manager.fetch_or_pull_git_repo(is_pull=False)
-
-        for x in res["failed"]:
-            logging.error(f"FETCH FAILED: {x}")
-
-        logging.info("\nDone.")
-
-        if len(res["updated"]) > 0:
-            return web.Response(status=201)
-
-        return web.Response(status=200)
-    except Exception:
-        traceback.print_exc()
-        return web.Response(status=400)
+    """
+    DEPRECATED: This endpoint is no longer supported.
+    
+    Repository fetching has been removed from the API.
+    Updates should be performed through the queue system using update operations.
+    """
+    return web.json_response(
+        {
+            "error": "This endpoint has been deprecated",
+            "message": "Repository fetching is no longer supported. Please use the update operations through the queue system.",
+            "deprecated": True
+        },
+        status=410  # 410 Gone
+    )
 
 
 @routes.get("/v2/manager/queue/update_all")
-async def update_all(request):
+async def update_all(request: web.Request) -> web.Response:
+    # Validate required query parameters
+    validation_error = validate_required_params(request, ["client_id", "ui_id"])
+    if validation_error:
+        return validation_error
+    
     json_data = dict(request.rel_url.query)
     return await _update_all(json_data)
 
 
-async def _update_all(json_data):
+async def _update_all(json_data: Dict[str, Any]) -> web.Response:
     if not security_utils.is_allowed_security_level("middle"):
         logging.error(SECURITY_MESSAGE_MIDDLE_OR_BELOW)
         return web.Response(status=403)
 
-    with task_worker_lock:
-        is_processing = task_worker_thread is not None and task_worker_thread.is_alive()
-        if is_processing:
-            return web.Response(status=401)
+    # Extract client info
+    base_ui_id = json_data["ui_id"]
+    client_id = json_data["client_id"]
+    mode = json_data.get("mode", "remote")
 
-    await core.save_snapshot_with_postfix("autosave")
-
-    if json_data["mode"] == "local":
+    if mode == "local":
         channel = "local"
     else:
         channel = core.get_config()["channel_url"]
 
-    await core.unified_manager.reload(json_data["mode"])
-    await core.unified_manager.get_custom_nodes(channel, json_data["mode"])
+    await core.unified_manager.reload(mode)
+    await core.unified_manager.get_custom_nodes(channel, mode)
 
     for k, v in core.unified_manager.active_nodes.items():
         if k == "comfyui-manager":
@@ -1121,8 +1084,13 @@ async def _update_all(json_data):
             if os.environ.get("__COMFYUI_DESKTOP_VERSION__"):
                 continue
 
-        update_item = k, k, v[0]
-        temp_queue_batch.append(("update-main", update_item))
+        update_task = QueueTaskItem(
+            kind="update", 
+            ui_id=f"{base_ui_id}_{k}",  # Use client's base ui_id + node name
+            client_id=client_id,
+            params=UpdatePackParams(node_name=k, node_ver=v[0])
+        )
+        task_queue.put(update_task)
 
     for k, v in core.unified_manager.unknown_active_nodes.items():
         if k == "comfyui-manager":
@@ -1130,48 +1098,15 @@ async def _update_all(json_data):
             if os.environ.get("__COMFYUI_DESKTOP_VERSION__"):
                 continue
 
-        update_item = k, k, "unknown"
-        temp_queue_batch.append(("update-main", update_item))
+        update_task = QueueTaskItem(
+            kind="update", 
+            ui_id=f"{base_ui_id}_{k}",  # Use client's base ui_id + node name
+            client_id=client_id,
+            params=UpdatePackParams(node_name=k, node_ver="unknown")
+        )
+        task_queue.put(update_task)
 
     return web.Response(status=200)
-
-
-def convert_markdown_to_html(input_text):
-    pattern_a = re.compile(r"\[a/([^]]+)]\(([^)]+)\)")
-    pattern_w = re.compile(r"\[w/([^]]+)]")
-    pattern_i = re.compile(r"\[i/([^]]+)]")
-    pattern_bold = re.compile(r"\*\*([^*]+)\*\*")
-    pattern_white = re.compile(r"%%([^*]+)%%")
-
-    def replace_a(match):
-        return f"<a href='{match.group(2)}' target='blank'>{match.group(1)}</a>"
-
-    def replace_w(match):
-        return f"<p class='cm-warn-note'>{match.group(1)}</p>"
-
-    def replace_i(match):
-        return f"<p class='cm-info-note'>{match.group(1)}</p>"
-
-    def replace_bold(match):
-        return f"<B>{match.group(1)}</B>"
-
-    def replace_white(match):
-        return f"<font color='white'>{match.group(1)}</font>"
-
-    input_text = (
-        input_text.replace("\\[", "&#91;")
-        .replace("\\]", "&#93;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-    )
-
-    result_text = re.sub(pattern_a, replace_a, input_text)
-    result_text = re.sub(pattern_w, replace_w, result_text)
-    result_text = re.sub(pattern_i, replace_i, result_text)
-    result_text = re.sub(pattern_bold, replace_bold, result_text)
-    result_text = re.sub(pattern_white, replace_white, result_text)
-
-    return result_text.replace("\n", "<BR>")
 
 
 @routes.get("/v2/manager/is_legacy_manager_ui")
@@ -1384,13 +1319,15 @@ def unzip_install(files):
 async def import_fail_info(request):
     try:
         json_data = await request.json()
-        
+
         # Basic validation - ensure we have either cnr_id or url
         if not isinstance(json_data, dict):
             return web.Response(status=400, text="Request body must be a JSON object")
-        
+
         if "cnr_id" not in json_data and "url" not in json_data:
-            return web.Response(status=400, text="Either 'cnr_id' or 'url' field is required")
+            return web.Response(
+                status=400, text="Either 'cnr_id' or 'url' field is required"
+            )
 
         if "cnr_id" in json_data:
             if not isinstance(json_data["cnr_id"], str):
@@ -1412,23 +1349,6 @@ async def import_fail_info(request):
         return web.Response(status=500, text="Internal server error")
 
 
-@routes.post("/v2/manager/queue/reinstall")
-async def reinstall_custom_node(request):
-    try:
-        json_data = await request.json()
-        # Validate input using Pydantic model
-        pack_data = InstallPackParams.model_validate(json_data)
-        validated_data = pack_data.model_dump()
-        await _uninstall_custom_node(validated_data)
-        await _install_custom_node(validated_data)
-        return web.Response(status=200)
-    except ValidationError as e:
-        logging.error(f"[ComfyUI-Manager] Invalid pack data: {e}")
-        return web.Response(status=400, text=f"Invalid pack data: {e}")
-    except Exception as e:
-        logging.error(f"[ComfyUI-Manager] Error processing reinstall: {e}")
-        return web.Response(status=500, text="Internal server error")
-
 
 @routes.get("/v2/manager/queue/reset")
 async def reset_queue(request):
@@ -1436,11 +1356,6 @@ async def reset_queue(request):
     return web.Response(status=200)
 
 
-@routes.get("/v2/manager/queue/abort_current")
-async def abort_queue(request):
-    # task_queue.abort()  # Method not implemented yet
-    task_queue.wipe_queue()
-    return web.Response(status=200)
 
 
 @routes.get("/v2/manager/queue/status")
@@ -1460,12 +1375,12 @@ async def queue_count(request):
         running_client_tasks = [
             task
             for task in task_queue.running_tasks.values()
-            if task.get("client_id") == client_id
+            if task.client_id == client_id
         ]
         pending_client_tasks = [
             task
             for task in task_queue.pending_tasks
-            if task.get("client_id") == client_id
+            if task.client_id == client_id
         ]
         history_client_tasks = {
             ui_id: task
@@ -1498,96 +1413,13 @@ async def queue_count(request):
         )
 
 
-async def _install_custom_node(json_data):
-    if not security_utils.is_allowed_security_level("middle"):
-        logging.error(SECURITY_MESSAGE_MIDDLE_OR_BELOW)
-        return web.Response(
-            status=403,
-            text="A security error has occurred. Please check the terminal logs",
-        )
-
-    # non-nightly cnr is safe
-    risky_level = None
-    cnr_id = json_data.get("id")
-    skip_post_install = json_data.get("skip_post_install")
-
-    git_url = None
-
-    selected_version = json_data.get("selected_version")
-    if json_data["version"] != "unknown" and selected_version != "unknown":
-        if skip_post_install:
-            if (
-                cnr_id in core.unified_manager.nightly_inactive_nodes
-                or cnr_id in core.unified_manager.cnr_inactive_nodes
-            ):
-                enable_item = str(uuid.uuid4()), cnr_id
-                temp_queue_batch.append(("enable", enable_item))
-                return web.Response(status=200)
-
-        elif selected_version is None:
-            selected_version = "latest"
-
-        if selected_version != "nightly":
-            risky_level = "low"
-            node_spec_str = f"{cnr_id}@{selected_version}"
-        else:
-            node_spec_str = f"{cnr_id}@nightly"
-            git_url = [json_data.get("repository")]
-            if git_url is None:
-                logging.error(
-                    f"[ComfyUI-Manager] Following node pack doesn't provide `nightly` version: ${git_url}"
-                )
-                return web.Response(
-                    status=404,
-                    text=f"Following node pack doesn't provide `nightly` version: ${git_url}",
-                )
-
-    elif json_data["version"] != "unknown" and selected_version == "unknown":
-        logging.error(f"[ComfyUI-Manager] Invalid installation request: {json_data}")
-        return web.Response(status=400, text="Invalid installation request")
-
-    else:
-        # unknown
-        unknown_name = os.path.basename(json_data["files"][0])
-        node_spec_str = f"{unknown_name}@unknown"
-        git_url = json_data.get("files")
-
-    # apply security policy if not cnr node (nightly isn't regarded as cnr node)
-    if risky_level is None:
-        if git_url is not None:
-            risky_level = await security_utils.get_risky_level(git_url, json_data.get("pip", []))
-        else:
-            return web.Response(
-                status=404,
-                text=f"Following node pack doesn't provide `nightly` version: ${git_url}",
-            )
-
-    if not security_utils.is_allowed_security_level(risky_level):
-        logging.error(SECURITY_MESSAGE_GENERAL)
-        return web.Response(
-            status=404,
-            text="A security error has occurred. Please check the terminal logs",
-        )
-
-    install_item = (
-        json_data.get("ui_id"),
-        node_spec_str,
-        json_data["channel"],
-        json_data["mode"],
-        skip_post_install,
-    )
-    temp_queue_batch.append(("install", install_item))
-
-    return web.Response(status=200)
-
-
 task_worker_thread: threading.Thread = None
 
 
 @routes.get("/v2/manager/queue/start")
 async def queue_start(request):
     with task_worker_lock:
-        finalize_temp_queue_batch()
+        # finalize_temp_queue_batch()
         return _queue_start()
 
 
@@ -1603,111 +1435,27 @@ def _queue_start():
     return web.Response(status=200)
 
 
-# Duplicate queue_start function removed - using the earlier one with proper implementation
-
-
-async def _fix_custom_node(json_data):
-    if not security_utils.is_allowed_security_level("middle"):
-        logging.error(SECURITY_MESSAGE_GENERAL)
-        return web.Response(
-            status=403,
-            text="A security error has occurred. Please check the terminal logs",
-        )
-
-    node_id = json_data.get("id")
-    node_ver = json_data["version"]
-    if node_ver != "unknown":
-        node_name = node_id
-    else:
-        # unknown
-        node_name = os.path.basename(json_data["files"][0])
-
-    update_item = json_data.get("ui_id"), node_name, json_data["version"]
-    temp_queue_batch.append(("fix", update_item))
-
-    return web.Response(status=200)
-
-
-@routes.post("/v2/customnode/install/git_url")
-async def install_custom_node_git_url(request):
-    if not security_utils.is_allowed_security_level("high"):
-        logging.error(SECURITY_MESSAGE_NORMAL_MINUS)
-        return web.Response(status=403)
-
-    url = await request.text()
-    res = await core.gitclone_install(url)
-
-    if res.action == "skip":
-        logging.info(f"\nAlready installed: '{res.target}'")
-        return web.Response(status=200)
-    elif res.result:
-        logging.info("\nAfter restarting ComfyUI, please refresh the browser.")
-        return web.Response(status=200)
-
-    logging.error(res.msg)
-    return web.Response(status=400)
-
-
-@routes.post("/v2/customnode/install/pip")
-async def install_custom_node_pip(request):
-    if not security_utils.is_allowed_security_level("high"):
-        logging.error(SECURITY_MESSAGE_NORMAL_MINUS)
-        return web.Response(status=403)
-
-    packages = await request.text()
-    core.pip_install(packages.split(" "))
-
-    return web.Response(status=200)
-
-
-async def _uninstall_custom_node(json_data):
-    if not security_utils.is_allowed_security_level("middle"):
-        logging.error(SECURITY_MESSAGE_MIDDLE_OR_BELOW)
-        return web.Response(
-            status=403,
-            text="A security error has occurred. Please check the terminal logs",
-        )
-
-    node_id = json_data.get("id")
-    if json_data["version"] != "unknown":
-        is_unknown = False
-        node_name = node_id
-    else:
-        # unknown
-        is_unknown = True
-        node_name = os.path.basename(json_data["files"][0])
-
-    uninstall_item = json_data.get("ui_id"), node_name, is_unknown
-    temp_queue_batch.append(("uninstall", uninstall_item))
-
-    return web.Response(status=200)
-
-
-async def _update_custom_node(json_data):
-    if not security_utils.is_allowed_security_level("middle"):
-        logging.error(SECURITY_MESSAGE_MIDDLE_OR_BELOW)
-        return web.Response(
-            status=403,
-            text="A security error has occurred. Please check the terminal logs",
-        )
-
-    node_id = json_data.get("id")
-    if json_data["version"] != "unknown":
-        node_name = node_id
-    else:
-        # unknown
-        node_name = os.path.basename(json_data["files"][0])
-
-    update_item = json_data.get("ui_id"), node_name, json_data["version"]
-    temp_queue_batch.append(("update", update_item))
-
-    return web.Response(status=200)
-
-
 @routes.get("/v2/manager/queue/update_comfyui")
 async def update_comfyui(request):
+    """Queue a ComfyUI update based on the configured update policy."""
+    # Validate required query parameters
+    validation_error = validate_required_params(request, ["client_id", "ui_id"])
+    if validation_error:
+        return validation_error
+    
     is_stable = core.get_config()["update_policy"] != "nightly-comfyui"
-    temp_queue_batch.append(("update-comfyui", ("comfyui", is_stable)))
+    client_id = request.rel_url.query["client_id"]
+    ui_id = request.rel_url.query["ui_id"]
+    
+    # Create update-comfyui task
+    task = QueueTaskItem(
+        ui_id=ui_id,
+        client_id=client_id,
+        kind="update-comfyui",
+        params=UpdateComfyUIParams(is_stable=is_stable)
+    )
+    
+    task_queue.put(task)
     return web.Response(status=200)
 
 
@@ -1729,28 +1477,28 @@ async def comfyui_versions(request):
 @routes.get("/v2/comfyui_manager/comfyui_switch_version")
 async def comfyui_switch_version(request):
     try:
-        if "ver" in request.rel_url.query:
-            core.switch_comfyui(request.rel_url.query["ver"])
-
+        # Validate required query parameters
+        validation_error = validate_required_params(request, ["ver", "client_id", "ui_id"])
+        if validation_error:
+            return validation_error
+            
+        target_version = request.rel_url.query["ver"]
+        client_id = request.rel_url.query["client_id"]
+        ui_id = request.rel_url.query["ui_id"]
+        
+        # Create update-comfyui task with target version
+        task = QueueTaskItem(
+            ui_id=ui_id,
+            client_id=client_id,
+            kind="update-comfyui",
+            params=UpdateComfyUIParams(target_version=target_version)
+        )
+        
+        task_queue.put(task)
         return web.Response(status=200)
     except Exception as e:
-        logging.error(f"ComfyUI update fail: {e}", file=sys.stderr)
-
-    return web.Response(status=400)
-
-
-async def _disable_node(json_data):
-    node_id = json_data.get("id")
-    if json_data["version"] != "unknown":
-        is_unknown = False
-        node_name = node_id
-    else:
-        # unknown
-        is_unknown = True
-        node_name = os.path.basename(json_data["files"][0])
-
-    update_item = json_data.get("ui_id"), node_name, is_unknown
-    temp_queue_batch.append(("disable", update_item))
+        logging.error(f"ComfyUI version switch fail: {e}", file=sys.stderr)
+        return web.Response(status=400)
 
 
 async def check_whitelist_for_model(item):
@@ -1781,69 +1529,32 @@ async def check_whitelist_for_model(item):
 async def install_model(request):
     try:
         json_data = await request.json()
-        # Validate input using Pydantic model
+        
+        # Validate required fields
+        if 'client_id' not in json_data:
+            return web.Response(status=400, text="Missing required field: client_id")
+        if 'ui_id' not in json_data:
+            return web.Response(status=400, text="Missing required field: ui_id")
+            
+        # Validate model metadata
         model_data = ModelMetadata.model_validate(json_data)
-        return await _install_model(model_data.model_dump())
+        
+        # Create install-model task with client-provided IDs
+        task = QueueTaskItem(
+            ui_id=json_data['ui_id'],
+            client_id=json_data['client_id'],
+            kind="install-model",
+            params=model_data
+        )
+        
+        task_queue.put(task)
+        return web.Response(status=200)
     except ValidationError as e:
         logging.error(f"[ComfyUI-Manager] Invalid model data: {e}")
         return web.Response(status=400, text=f"Invalid model data: {e}")
     except Exception as e:
         logging.error(f"[ComfyUI-Manager] Error processing model install: {e}")
         return web.Response(status=500, text="Internal server error")
-
-
-async def _install_model(json_data):
-    if not security_utils.is_allowed_security_level("middle"):
-        logging.error(SECURITY_MESSAGE_MIDDLE_OR_BELOW)
-        return web.Response(
-            status=403,
-            text="A security error has occurred. Please check the terminal logs",
-        )
-
-    # validate request
-    if not await check_whitelist_for_model(json_data):
-        logging.error(
-            f"[ComfyUI-Manager] Invalid model install request is detected: {json_data}"
-        )
-        return web.Response(
-            status=400, text="Invalid model install request is detected"
-        )
-
-    if not json_data["filename"].endswith(
-        ".safetensors"
-    ) and not security_utils.is_allowed_security_level("high"):
-        models_json = await core.get_data_by_mode("cache", "model-list.json", "default")
-
-        is_belongs_to_whitelist = False
-        for x in models_json["models"]:
-            if x.get("url") == json_data["url"]:
-                is_belongs_to_whitelist = True
-                break
-
-        if not is_belongs_to_whitelist:
-            logging.error(SECURITY_MESSAGE_NORMAL_MINUS_MODEL)
-            return web.Response(
-                status=403,
-                text="A security error has occurred. Please check the terminal logs",
-            )
-
-    install_item = json_data.get("ui_id"), json_data
-    temp_queue_batch.append(("install-model", install_item))
-
-    return web.Response(status=200)
-
-
-@routes.get("/v2/manager/preview_method")
-async def preview_method(request):
-    if "value" in request.rel_url.query:
-        environment_utils.set_preview_method(request.rel_url.query["value"])
-        core.write_config()
-    else:
-        return web.Response(
-            text=core.manager_funcs.get_current_preview_method(), status=200
-        )
-
-    return web.Response(status=200)
 
 
 @routes.get("/v2/manager/db_mode")

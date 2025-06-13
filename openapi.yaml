@@ -32,7 +32,18 @@ components:
           type: string
           description: Type of task being performed
           enum: [install, uninstall, update, update-all, update-comfyui, fix, disable, enable, install-model]
-      required: [ui_id, client_id, kind]
+        params:
+          oneOf:
+            - $ref: '#/components/schemas/InstallPackParams'
+            - $ref: '#/components/schemas/UpdatePackParams'
+            - $ref: '#/components/schemas/UpdateAllPacksParams'
+            - $ref: '#/components/schemas/UpdateComfyUIParams'
+            - $ref: '#/components/schemas/FixPackParams'
+            - $ref: '#/components/schemas/UninstallPackParams'
+            - $ref: '#/components/schemas/DisablePackParams'
+            - $ref: '#/components/schemas/EnablePackParams'
+            - $ref: '#/components/schemas/ModelMetadata'
+      required: [ui_id, client_id, kind, params]
 
     TaskHistoryItem:
       type: object
@@ -308,6 +319,74 @@ components:
         ui_id:
           type: string
           description: Task ID - generated internally
+
+    UpdatePackParams:
+      type: object
+      properties:
+        node_name:
+          type: string
+          description: Name of the node package to update
+        node_ver:
+          type: string
+          description: Current version of the node package
+          nullable: true
+      required: [node_name]
+
+    UpdateComfyUIParams:
+      type: object
+      properties:
+        is_stable:
+          type: boolean
+          description: Whether to update to stable version (true) or nightly (false)
+          default: true
+        target_version:
+          type: string
+          description: Specific version to switch to (for version switching operations)
+          nullable: true
+      required: []
+
+    FixPackParams:
+      type: object
+      properties:
+        node_name:
+          type: string
+          description: Name of the node package to fix
+        node_ver:
+          type: string
+          description: Version of the node package
+      required: [node_name, node_ver]
+
+    UninstallPackParams:
+      type: object
+      properties:
+        node_name:
+          type: string
+          description: Name of the node package to uninstall
+        is_unknown:
+          type: boolean
+          description: Whether this is an unknown/unregistered package
+          default: false
+      required: [node_name]
+
+    DisablePackParams:
+      type: object
+      properties:
+        node_name:
+          type: string
+          description: Name of the node package to disable
+        is_unknown:
+          type: boolean
+          description: Whether this is an unknown/unregistered package
+          default: false
+      required: [node_name]
+
+    EnablePackParams:
+      type: object
+      properties:
+        cnr_id:
+          type: string
+          description: ComfyUI Node Registry ID of the package to enable
+      required: [cnr_id]
 
     # Queue Status Models
     QueueStatus:
@@ -689,6 +768,22 @@ components:
       schema:
         type: string
 
+    clientIdRequiredParam:
+      name: client_id
+      in: query
+      required: true
+      description: Required client ID that initiated the request
+      schema:
+        type: string
+
+    uiIdRequiredParam:
+      name: ui_id
+      in: query
+      required: true
+      description: Required unique task identifier
+      schema:
+        type: string
+
     maxItemsParam:
       name: max_items
       in: query
@@ -718,9 +813,99 @@ paths:
           application/json:
             schema:
               $ref: '#/components/schemas/QueueTaskItem'
+            examples:
+              install:
+                summary: Install a custom node
+                value:
+                  ui_id: "task_123"
+                  client_id: "client_abc"
+                  kind: "install"
+                  params:
+                    id: "pythongosssss/ComfyUI-Custom-Scripts"
+                    version: "latest"
+                    selected_version: "latest"
+                    mode: "remote"
+                    channel: "default"
+              update:
+                summary: Update a custom node
+                value:
+                  ui_id: "task_124"
+                  client_id: "client_abc"
+                  kind: "update"
+                  params:
+                    node_name: "ComfyUI-Custom-Scripts"
+                    node_ver: "1.0.0"
+              update-all:
+                summary: Update all custom nodes
+                value:
+                  ui_id: "task_125"
+                  client_id: "client_abc"
+                  kind: "update-all"
+                  params:
+                    mode: "remote"
+              update-comfyui:
+                summary: Update ComfyUI itself
+                value:
+                  ui_id: "task_126"
+                  client_id: "client_abc"
+                  kind: "update-comfyui"
+                  params:
+                    is_stable: true
+              fix:
+                summary: Fix a custom node
+                value:
+                  ui_id: "task_127"
+                  client_id: "client_abc"
+                  kind: "fix"
+                  params:
+                    node_name: "ComfyUI-Impact-Pack"
+                    node_ver: "2.0.0"
+              uninstall:
+                summary: Uninstall a custom node
+                value:
+                  ui_id: "task_128"
+                  client_id: "client_abc"
+                  kind: "uninstall"
+                  params:
+                    node_name: "ComfyUI-AnimateDiff-Evolved"
+                    is_unknown: false
+              disable:
+                summary: Disable a custom node
+                value:
+                  ui_id: "task_129"
+                  client_id: "client_abc"
+                  kind: "disable"
+                  params:
+                    node_name: "ComfyUI-Manager"
+                    is_unknown: false
+              enable:
+                summary: Enable a custom node
+                value:
+                  ui_id: "task_130"
+                  client_id: "client_abc"
+                  kind: "enable"
+                  params:
+                    cnr_id: "comfyui-manager"
+              install-model:
+                summary: Install a model
+                value:
+                  ui_id: "task_131"
+                  client_id: "client_abc"
+                  kind: "install-model"
+                  params:
+                    name: "SD 1.5 Base Model"
+                    type: "checkpoint"
+                    base: "SD1.x"
+                    save_path: "default"
+                    url: "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned.safetensors"
+                    filename: "v1-5-pruned.safetensors"
       responses:
         '200':
           description: Task queued successfully
+        '400':
+          description: Invalid task data
+        '500':
+          description: Internal server error
 
   /v2/manager/queue/status:
     get:
@@ -776,28 +961,6 @@ paths:
         '400':
           description: Error retrieving history list
 
-  /v2/manager/queue/batch/{batch_id}:
-    get:
-      summary: Get batch execution record
-      description: Returns detailed execution record for a specific batch including before/after state snapshots and all operations performed
-      parameters:
-        - name: batch_id
-          in: path
-          required: true
-          description: Unique batch identifier
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Batch record retrieved successfully
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/BatchExecutionRecord'
-        '404':
-          description: Batch not found
-        '400':
-          description: Error retrieving batch record
 
   /v2/manager/queue/start:
     get:
@@ -825,9 +988,13 @@ paths:
         - securityLevel: []
       parameters:
         - $ref: '#/components/parameters/modeParam'
+        - $ref: '#/components/parameters/clientIdRequiredParam'
+        - $ref: '#/components/parameters/uiIdRequiredParam'
       responses:
         '200':
           description: Update queued successfully
+        '400':
+          description: Missing required parameters
         '401':
           description: Processing already in progress
         '403':
@@ -837,9 +1004,14 @@ paths:
     get:
       summary: Update ComfyUI
       description: Queues an update operation for ComfyUI itself
+      parameters:
+        - $ref: '#/components/parameters/clientIdRequiredParam'
+        - $ref: '#/components/parameters/uiIdRequiredParam'
       responses:
         '200':
           description: Update queued successfully
+        '400':
+          description: Missing required parameters
 
   /v2/manager/queue/install_model:
     post:
@@ -930,43 +1102,7 @@ paths:
         '400':
           description: No information available
 
-  /v2/customnode/install/git_url:
-    post:
-      summary: Install custom node via Git URL
-      description: Installs a custom node from a Git repository URL
-      security:
-        - securityLevel: []
-      requestBody:
-        required: true
-        content:
-          text/plain:
-            schema:
-              type: string
-      responses:
-        '200':
-          description: Installation successful or already installed
-        '400':
-          description: Installation failed
-        '403':
-          description: Security policy violation
 
-  /v2/customnode/install/pip:
-    post:
-      summary: Install custom node dependencies via pip
-      description: Installs Python package dependencies for custom nodes
-      security:
-        - securityLevel: []
-      requestBody:
-        required: true
-        content:
-          text/plain:
-            schema:
-              type: string
-      responses:
-        '200':
-          description: Installation successful
-        '403':
-          description: Security policy violation
 
   # Snapshot Management Endpoints (v2)
   /v2/snapshot/getlist:
@@ -1071,35 +1207,19 @@ paths:
       parameters:
         - name: ver
           in: query
+          required: true
           description: Target version
           schema:
             type: string
+        - $ref: '#/components/parameters/clientIdRequiredParam'
+        - $ref: '#/components/parameters/uiIdRequiredParam'
       responses:
         '200':
-          description: Version switch successful
+          description: Version switch queued successfully
         '400':
-          description: Error switching version
+          description: Missing required parameters or error switching version
 
   # Configuration Endpoints (v2)
-  /v2/manager/preview_method:
-    get:
-      summary: Get or set preview method
-      description: Gets or sets the latent preview method
-      parameters:
-        - name: value
-          in: query
-          required: false
-          description: New preview method
-          schema:
-            type: string
-            enum: [auto, latent2rgb, taesd, none]
-      responses:
-        '200':
-          description: Setting updated or current value returned
-          content:
-            text/plain:
-              schema:
-                type: string
 
   /v2/manager/db_mode:
     get:
