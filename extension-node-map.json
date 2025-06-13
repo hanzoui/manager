@@ -14094,6 +14094,15 @@
             "title_aux": "ComfyUI-Embeddings-Tools"
         }
     ],
+    "https://github.com/Zehong-Ma/ComfyUI-MagCache": [
+        [
+            "CompileModel",
+            "MagCache"
+        ],
+        {
+            "title_aux": "ComfyUI-MagCache"
+        }
+    ],
     "https://github.com/Zeks/comfyui-rapidfire": [
         [
             "CachedCheckpoint",
@@ -14589,6 +14598,7 @@
             "ComflySeededit",
             "Comfly_Flux_Kontext",
             "Comfly_Flux_Kontext_Edit",
+            "Comfly_Flux_Kontext_bfl",
             "Comfly_Mj",
             "Comfly_Mju",
             "Comfly_Mjv",
@@ -35272,11 +35282,13 @@
     ],
     "https://github.com/whmc76/ComfyUI-UniversalToolkit": [
         [
+            "AudioCropProcessUTK",
             "DepthMapBlur_UTK",
             "EmptyUnitGenerator_UTK",
             "ImageConcatenateMulti_UTK",
             "ImageConcatenate_UTK",
             "ImageRatioDetector_UTK",
+            "LoadAudioPlusFromPath_UTK",
             "PreviewMask_UTK",
             "ShowFloat_UTK",
             "ShowInt_UTK",

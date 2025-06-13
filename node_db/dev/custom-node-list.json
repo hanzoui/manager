@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "moonwhaler",
+            "title": "comfyui-moonpack",
+            "reference": "https://github.com/moonwhaler/comfyui-moonpack",
+            "files": [
+                "https://github.com/moonwhaler/comfyui-moonpack"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Proportional Dimension, Simple String Replace, Regex String Replace, VACE Looper Frame Scheduler"
+        },
+        {
             "author": "DreamsInAutumn",
             "title": "ComfyUI-Autumn-LLM-Nodes",
             "reference": "https://github.com/DreamsInAutumn/ComfyUI-Autumn-LLM-Nodes",
@@ -9,16 +19,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Gemini-Image-To-Prompt, Gemini-Prompt-Builder, LLM-Prompt-Builder"
-        },
-        {
-            "author": "alexgenovese",
-            "title": "ComfyUI-Reica",
-            "reference": "https://github.com/yichengup/ComfyUI-YCNodes_Advance",
-            "files": [
-                "https://github.com/yichengup/ComfyUI-YCNodes_Advance"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: 'Reica GCP: Read Image', 'Reica GCP: Write Image & Get URL', 'Reica Text Image Display', 'Reica Read Image URL', 'Reica URL Image Loader Filename', 'Reica API: Send HTTP Notification', 'Insert Anything'"
         },
         {
             "author": "alexgenovese",
@@ -42,13 +42,13 @@
         },
         {
             "author": "wildminder",
-            "title": "ComfyUI-MagCache [WIP]",
+            "title": "ComfyUI-MagCache [NAME CONFLICT|WIP]",
             "reference": "https://github.com/wildminder/ComfyUI-MagCache",
             "files": [
                 "https://github.com/wildminder/ComfyUI-MagCache"
             ],
             "install_type": "git-clone",
-            "description": "Magnitude-Aware Cache"
+            "description": "official implementation of [zehong-ma/MagCache](https://github.com/zehong-ma/MagCache) for ComfyUI"
         },
         {
             "author": "laubsauger",

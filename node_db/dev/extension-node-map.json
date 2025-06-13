@@ -3078,6 +3078,8 @@
             "SDVN Save Text",
             "SDVN Seed",
             "SDVN Simple Any Input",
+            "SDVN Slider 1",
+            "SDVN Slider 100",
             "SDVN StyleModel Download",
             "SDVN Styles",
             "SDVN Switch",
@@ -6304,6 +6306,7 @@
             "WanVideoLoopArgs",
             "WanVideoLoraBlockEdit",
             "WanVideoLoraSelect",
+            "WanVideoMagCache",
             "WanVideoModelLoader",
             "WanVideoPhantomEmbeds",
             "WanVideoReCamMasterCameraEmbed",
@@ -7098,6 +7101,17 @@
         ],
         {
             "title_aux": "comfy-url-fetcher [WIP]"
+        }
+    ],
+    "https://github.com/moonwhaler/comfyui-moonpack": [
+        [
+            "ProportionalDimension",
+            "RegexStringReplace",
+            "SimpleStringReplace",
+            "VACELooperFrameScheduler"
+        ],
+        {
+            "title_aux": "comfyui-moonpack"
         }
     ],
     "https://github.com/mr-krak3n/ComfyUI-Qwen": [
@@ -8667,7 +8681,7 @@
             "MagCache"
         ],
         {
-            "title_aux": "ComfyUI-MagCache [WIP]"
+            "title_aux": "ComfyUI-MagCache [NAME CONFLICT|WIP]"
         }
     ],
     "https://github.com/willblaschko/ComfyUI-Unload-Models": [
