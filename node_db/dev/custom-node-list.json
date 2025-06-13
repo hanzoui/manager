@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "DreamsInAutumn",
+            "title": "ComfyUI-Autumn-LLM-Nodes",
+            "reference": "https://github.com/DreamsInAutumn/ComfyUI-Autumn-LLM-Nodes",
+            "files": [
+                "https://github.com/DreamsInAutumn/ComfyUI-Autumn-LLM-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Gemini-Image-To-Prompt, Gemini-Prompt-Builder, LLM-Prompt-Builder"
+        },
+        {
             "author": "alexgenovese",
             "title": "ComfyUI-Reica",
             "reference": "https://github.com/yichengup/ComfyUI-YCNodes_Advance",
@@ -29,16 +39,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Linear Transition, Gradient Transition, Dual Line Transition, Sequence Transition, Circular Transition, Circular Sequence Transition"
-        },
-        {
-            "author": "Malloc-pix",
-            "title": "comfyui_qwen2.4_vl_node [WIP]",
-            "reference": "https://github.com/Malloc-pix/comfyui_qwen2.4_vl_node",
-            "files": [
-                "https://github.com/Malloc-pix/comfyui_qwen2.4_vl_node"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: CogVLM2 Captioner, CLIP Dynamic Text Encode(cy)"
         },
         {
             "author": "wildminder",

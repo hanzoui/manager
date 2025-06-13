@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "kiko9",
+            "title": "ComfyUI_Selectors",
+            "reference": "https://github.com/ComfyAssets/ComfyUI_Selectors",
+            "files": [
+                "https://github.com/ComfyAssets/ComfyUI_Selectors"
+            ],
+            "install_type": "git-clone",
+            "description": "A modern ComfyUI custom node package that provides essential UI controls for image generation workflows. These nodes allow you to centralize commonly shared parameters (scheduler, sampler, dimensions, seeds) and link them to multiple nodes in your workflow, eliminating redundancy while maintaining JSON metadata compatibility."
+        },
+        {
             "author": "benjamin-bertram",
             "title": "ComfyUI OIDN Denoiser",
             "reference": "https://github.com/benjamin-bertram/Comfyui_OIDN_Denoiser",
@@ -9,6 +19,16 @@
             ],
             "install_type": "git-clone",
             "description": "This custom node for ComfyUI provides a wrapper for Intel's Open Image Denoise (OIDN) library, allowing you to denoise images directly within your ComfyUI workflow."
+        },
+        {
+            "author": "domenecmiralles",
+            "title": "obobo_nodes",
+            "reference": "https://github.com/domenecmiralles/obobo_nodes",
+            "files": [
+                "https://github.com/domenecmiralles/obobo_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI that provide various input and output capabilities."
         },
         {
             "author": "Yuan-ManX",
@@ -668,26 +688,6 @@
             ],
             "install_type": "git-clone",
             "description": "This is a node that outputs tracking results of a grid or specified points using CoTracker. It can be directly connected to the WanVideo ATI Tracks Node."
-        },
-        {
-            "author": "MoonHugo",
-            "title": "ComfyUI-BAGEL-Hugo",
-            "reference": "https://github.com/MoonHugo/ComfyUI-BAGEL-Hugo",
-            "files": [
-                "https://github.com/MoonHugo/ComfyUI-BAGEL-Hugo"
-            ],
-            "install_type": "git-clone",
-            "description": "This repository encapsulates the BAGEL model as ComfyUI nodes for use, including image editing and image inversion features, but it does not include text-to-image functionality."
-        },
-        {
-            "author": "sm079",
-            "title": "ComfyUI-Face-Detection",
-            "reference": "https://github.com/sm079/ComfyUI-Face-Detection",
-            "files": [
-                "https://github.com/sm079/ComfyUI-Face-Detection"
-            ],
-            "install_type": "git-clone",
-            "description": "face detection nodes for comfyui"
         }
     ]
 }

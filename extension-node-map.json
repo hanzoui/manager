@@ -3358,6 +3358,19 @@
             "title_aux": "ComfyUI_PromptManager"
         }
     ],
+    "https://github.com/ComfyAssets/ComfyUI_Selectors": [
+        [
+            "HeightNode",
+            "SamplerSelector",
+            "SchedulerSelector",
+            "SeedHistory",
+            "WidthHeightNode",
+            "WidthNode"
+        ],
+        {
+            "title_aux": "ComfyUI_Selectors"
+        }
+    ],
     "https://github.com/ComfyUI-JH/ComfyUI-JH-Misc-Nodes": [
         [
             "JHDaisyChainableStringConstantNode",
@@ -15879,6 +15892,7 @@
             "CPackOutputAudio",
             "CPackOutputFile",
             "CPackOutputImage",
+            "CPackOutputVideo",
             "CPackOutputZip"
         ],
         {
@@ -20354,6 +20368,22 @@
         ],
         {
             "title_aux": "ComfyUI-Keyframed"
+        }
+    ],
+    "https://github.com/domenecmiralles/obobo_nodes": [
+        [
+            "OboboInputAudio",
+            "OboboInputImage",
+            "OboboInputLora",
+            "OboboInputNumber",
+            "OboboInputText",
+            "OboboInputVector2",
+            "OboboInputVideo",
+            "OboboOutput",
+            "OboboPathLoader"
+        ],
+        {
+            "title_aux": "obobo_nodes"
         }
     ],
     "https://github.com/dorpxam/ComfyUI-FramePack-F1-T2V": [
@@ -28198,6 +28228,7 @@
             "polymath_helper",
             "polymath_scraper",
             "polymath_settings",
+            "polymath_template",
             "polymath_text_mask"
         ],
         {

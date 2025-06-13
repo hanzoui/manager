@@ -676,6 +676,8 @@
             "Add Human Styler",
             "ConcaveHullImage",
             "Convert Monochrome",
+            "ImageBWPostprocessor",
+            "ImageBWPreprocessor",
             "Inpaint Crop Xo",
             "LoadData",
             "Mask Aligned bbox for ConcaveHull",
@@ -1585,6 +1587,16 @@
             "title_aux": "ComfyUI e621 booru Toolkit"
         }
     ],
+    "https://github.com/DreamsInAutumn/ComfyUI-Autumn-LLM-Nodes": [
+        [
+            "GeminiImageToPrompt",
+            "GeminiPromptBuilder",
+            "LLMPromptBuilder"
+        ],
+        {
+            "title_aux": "ComfyUI-Autumn-LLM-Nodes"
+        }
+    ],
     "https://github.com/Dreamshot-io/ComfyUI-Extend-Resolution": [
         [
             "ResolutionPadding"
@@ -2309,15 +2321,6 @@
         ],
         {
             "title_aux": "ComfyUI-MakkiTools"
-        }
-    ],
-    "https://github.com/Malloc-pix/comfyui_qwen2.4_vl_node": [
-        [
-            "CLIPDynamicTextEncode",
-            "Qwen2Captioner"
-        ],
-        {
-            "title_aux": "comfyui_qwen2.4_vl_node [WIP]"
         }
     ],
     "https://github.com/ManuShamil/ComfyUI_BodyEstimation_Nodes": [
@@ -6848,6 +6851,7 @@
             "polymath_helper",
             "polymath_scraper",
             "polymath_settings",
+            "polymath_template",
             "polymath_text_mask"
         ],
         {
@@ -7597,6 +7601,7 @@
             "CreateListJSON",
             "CreateListString",
             "DoLogin",
+            "FixLinksAndRevLinks",
             "HttpRequest",
             "Image_Attachment",
             "IncludeInSpiderData",
@@ -7605,6 +7610,7 @@
             "LoadSpiderData",
             "PNGtoImage",
             "Query_OpenAI",
+            "RemoveCircularReferences",
             "RunPython",
             "RunPythonGriptapeTool",
             "SaveSpiderData",

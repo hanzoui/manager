@@ -26554,6 +26554,16 @@
             "description": "A powerful ComfyUI custom node that extends the standard text encoder with persistent prompt storage, advanced search capabilities, and an automatic image gallery system using SQLite."
         },
         {
+            "author": "kiko9",
+            "title": "ComfyUI_Selectors",
+            "reference": "https://github.com/ComfyAssets/ComfyUI_Selectors",
+            "files": [
+                "https://github.com/ComfyAssets/ComfyUI_Selectors"
+            ],
+            "install_type": "git-clone",
+            "description": "A modern ComfyUI custom node package that provides essential UI controls for image generation workflows. These nodes allow you to centralize commonly shared parameters (scheduler, sampler, dimensions, seeds) and link them to multiple nodes in your workflow, eliminating redundancy while maintaining JSON metadata compatibility."
+        },
+        {
             "author": "TFL-TFL",
             "title": "ComfyUI_Text_Translation",
             "reference": "https://github.com/TFL-TFL/ComfyUI_Text_Translation",
@@ -27495,6 +27505,16 @@
             ],
             "install_type": "git-clone",
             "description": "This custom node for ComfyUI provides a wrapper for Intel's Open Image Denoise (OIDN) library, allowing you to denoise images directly within your ComfyUI workflow."
+        },
+        {
+            "author": "domenecmiralles",
+            "title": "obobo_nodes",
+            "reference": "https://github.com/domenecmiralles/obobo_nodes",
+            "files": [
+                "https://github.com/domenecmiralles/obobo_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI that provide various input and output capabilities."
         },
 
 
