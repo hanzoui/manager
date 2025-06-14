@@ -275,7 +275,7 @@ class TaskQueue:
         )
         self.batch_start_time = datetime.now().isoformat()
         self.batch_state_before = self._capture_system_state()
-        logging.info("[ComfyUI-Manager] Started new batch: %s", self.batch_id)
+        logging.debug("[ComfyUI-Manager] Started new batch: %s", self.batch_id)
 
     def get(
         self, timeout: Optional[float] = None
@@ -472,7 +472,7 @@ class TaskQueue:
                         batch_record.model_dump(), json_file, indent=4, default=str
                     )
 
-                logging.info(f"[ComfyUI-Manager] Batch history saved: {batch_path}")
+                logging.debug(f"[ComfyUI-Manager] Batch history saved: {batch_path}")
 
                 # Reset batch tracking
                 self.batch_id = None
@@ -823,13 +823,13 @@ async def task_worker():
         if task is None:
             # Check if queue is truly empty (no pending or running tasks)
             if task_queue.total_count() == 0 and len(task_queue.running_tasks) == 0:
-                logging.info("\n[ComfyUI-Manager] All tasks are completed.")
+                logging.debug("\n[ComfyUI-Manager] All tasks are completed.")
 
                 # Trigger batch history serialization if there are completed tasks
                 if task_queue.done_count() > 0:
-                    logging.info("[ComfyUI-Manager] Finalizing batch history...")
+                    logging.debug("[ComfyUI-Manager] Finalizing batch history...")
                     task_queue.finalize()
-                    logging.info("[ComfyUI-Manager] Batch history saved.")
+                    logging.debug("[ComfyUI-Manager] Batch history saved.")
 
                 logging.info("\nAfter restarting ComfyUI, please refresh the browser.")
 
@@ -843,7 +843,7 @@ async def task_worker():
         item, task_index = task
         kind = item.kind
 
-        print(f"Processing task: {kind} with item: {item} at index: {task_index}")
+        logging.debug(f"Processing task: {kind} with item: {item} at index: {task_index}")
 
         try:
             if kind == "install":
@@ -1692,7 +1692,7 @@ async def default_cache_update():
             with manager_util.cache_lock:
                 with open(cache_uri, "w", encoding="utf-8") as file:
                     json.dump(json_obj, file, indent=4, sort_keys=True)
-                    logging.info(f"[ComfyUI-Manager] default cache updated: {uri}")
+                    logging.debug(f"[ComfyUI-Manager] default cache updated: {uri}")
         except Exception as e:
             logging.error(
                 f"[ComfyUI-Manager] Failed to perform initial fetching '{filename}': {e}"
