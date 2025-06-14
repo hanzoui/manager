@@ -216,25 +216,17 @@ class TaskQueue:
         """Check if the queue is currently processing tasks"""
         return (
             self._worker_task is not None 
-            and not self._worker_task.done() 
-            and (len(self.running_tasks) > 0 or len(self.pending_tasks) > 0)
+            and self._worker_task.is_alive()
         )
     
-    async def start_worker(self) -> bool:
+    def start_worker(self) -> bool:
         """Start the task worker if not already running. Returns True if started, False if already running."""
-        if self._worker_task is not None and not self._worker_task.done():
+        if self._worker_task is not None and self._worker_task.is_alive():
             return False  # Already running
         
-        self._worker_task = asyncio.create_task(self._worker())
+        self._worker_task = threading.Thread(target=lambda: asyncio.run(task_worker()))
+        self._worker_task.start()
         return True
-    
-    async def _worker(self):
-        """Internal worker that processes the task queue"""
-        try:
-            await task_worker()
-        finally:
-            # Clean up worker reference when done
-            self._worker_task = None
 
     def get_current_state(self) -> TaskStateMessage:
         return TaskStateMessage(
@@ -1435,7 +1427,7 @@ async def queue_count(request):
 @routes.get("/v2/manager/queue/start")
 async def queue_start(request):
     # finalize_temp_queue_batch()
-    started = await task_queue.start_worker()
+    started = task_queue.start_worker()
     
     if started:
         return web.Response(status=200)  # Started successfully
