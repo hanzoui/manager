@@ -11587,6 +11587,7 @@
     ],
     "https://github.com/Starnodes2024/ComfyUI_StarNodes": [
         [
+            "AdaptiveDetailEnhancement",
             "DetailStarDaemon",
             "FluxFillSampler",
             "FluxStartSettings",
@@ -11626,8 +11627,10 @@
             "StarTextInput",
             "StarWildcardsAdvanced",
             "Star_Image2Latent",
+            "Star_Show_Last_Frame",
             "Starnodes_Aspect_Ratio",
             "Starnodes_Aspect_Ratio_Advanced",
+            "Starnodes_Aspect_Video_Ratio",
             "Starupscale"
         ],
         {
@@ -18878,11 +18881,14 @@
             "LoadImage",
             "LoadImageMask",
             "LoadImageOutput",
+            "LoadImageSetFromFolderNode",
             "LoadLatent",
             "LoadVideo",
             "LoraLoader",
             "LoraLoaderModelOnly",
+            "LoraModelLoader",
             "LoraSave",
+            "LossGraphNode",
             "LotusConditioning",
             "LumaConceptsNode",
             "LumaImageModifyNode",
@@ -19019,6 +19025,7 @@
             "SaveImage",
             "SaveImageWebsocket",
             "SaveLatent",
+            "SaveLoRANode",
             "SaveSVGNode",
             "SaveVideo",
             "SaveWEBM",
@@ -19094,6 +19101,7 @@
             "ThresholdMask",
             "TomePatchModel",
             "TorchCompileModel",
+            "TrainLoraNode",
             "TrimVideoLatent",
             "TripleCLIPLoader",
             "TripoConversionNode",
@@ -25814,6 +25822,15 @@
             "title_aux": "ComfyUI-KwaiKolorsWrapper"
         }
     ],
+    "https://github.com/kijai/ComfyUI-LBMWrapper": [
+        [
+            "LBMSampler",
+            "LoadLBMModel"
+        ],
+        {
+            "title_aux": "ComfyUI-LBMWrapper"
+        }
+    ],
     "https://github.com/kijai/ComfyUI-LLaVA-OneVision": [
         [
             "DownloadAndLoadLLaVAOneVisionModel",
@@ -31180,15 +31197,6 @@
             "title_aux": "ComfyUI-MistralAI-API"
         }
     ],
-    "https://github.com/ratatule2/ComfyUI-LBMWrapper": [
-        [
-            "LBMSampler",
-            "LoadLBMModel"
-        ],
-        {
-            "title_aux": "ComfyUI-LBMWrapper"
-        }
-    ],
     "https://github.com/ratulrafsan/Comfyui-SAL-VTON": [
         [
             "SALVTON_Apply",
@@ -34172,21 +34180,6 @@
         ],
         {
             "title_aux": "ComfyUI-texflow-extension"
-        }
-    ],
-    "https://github.com/theUpsider/ComfyUI-Logic": [
-        [
-            "Bool-\ud83d\udd2c",
-            "Compare-\ud83d\udd2c",
-            "DebugPrint-\ud83d\udd2c",
-            "Float-\ud83d\udd2c",
-            "If ANY execute A else B-\ud83d\udd2c",
-            "If ANY return A else B-\ud83d\udd2c",
-            "Int-\ud83d\udd2c",
-            "String-\ud83d\udd2c"
-        ],
-        {
-            "title_aux": "ComfyUI-Logic"
         }
     ],
     "https://github.com/theUpsider/ComfyUI-Styles_CSV_Loader": [

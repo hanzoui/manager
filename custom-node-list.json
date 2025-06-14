@@ -1694,17 +1694,6 @@
             "description": "This extension allows users to load styles from a CSV file, primarily for migration purposes from the automatic1111 Stable Diffusion web UI."
         },
         {
-            "author": "theUpsider",
-            "title": "ComfyUI-Logic",
-            "id": "comfy-logic",
-            "reference": "https://github.com/theUpsider/ComfyUI-Logic",
-            "files": [
-                "https://github.com/theUpsider/ComfyUI-Logic"
-            ],
-            "install_type": "git-clone",
-            "description": "An extension to ComfyUI that introduces logic nodes and conditional rendering capabilities."
-        },
-        {
             "author": "M1kep",
             "title": "Comfy_KepListStuff",
             "id": "keplist",
@@ -3256,6 +3245,16 @@
             ],
             "install_type": "git-clone",
             "description": "This node allows using Hugginface remote server for latent decoding. Currently supported models: SD, SDXL, Flux, HunyuanVideo"
+        },
+        {
+            "author": "kijai",
+            "title": "ComfyUI-LBMWrapper",
+            "reference": "https://github.com/kijai/ComfyUI-LBMWrapper",
+            "files": [
+                "https://github.com/kijai/ComfyUI-LBMWrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI wrapper nodes for [a/Latent Bridge Matching (LBM)](https://github.com/gojasper/LBM)"
         },
         {
             "author": "hhhzzyang",
@@ -26198,16 +26197,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI-Unwatermark: A ComfyUI custom node to intelligently remove watermarks from images using the unwatermark.ai API.\nThis custom node for ComfyUI allows you to easily remove watermarks from your images by leveraging the power of the unwatermark.ai API."
-        },
-        {
-            "author": "ratatule2",
-            "title": "ComfyUI-LBMWrapper",
-            "reference": "https://github.com/ratatule2/ComfyUI-LBMWrapper",
-            "files": [
-                "https://github.com/ratatule2/ComfyUI-LBMWrapper"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-LBMWrapper is a user-friendly interface designed to simplify the integration of lightweight models into your projects. It streamlines workflows by providing essential tools for managing and deploying models with ease."
         },
         {
             "author": "Sayene",

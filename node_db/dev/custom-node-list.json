@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "gilons",
+            "title": "ComfyUI-GoogleDrive-Downloader [UNSAFE]",
+            "reference": "https://github.com/gilons/ComfyUI-GoogleDrive-Downloader",
+            "files": [
+                "https://github.com/gilons/ComfyUI-GoogleDrive-Downloader"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for downloading files from Google Drive.[w/There is a vulnerability that allows saving a remote file to an arbitrary local path.]"
+        },
+        {
+            "author": "moonwhaler",
+            "title": "ComfyUI-FileBrowserAPI [UNSAFE]",
+            "reference": "https://github.com/GalactusX31/ComfyUI-FileBrowserAPI",
+            "files": [
+                "https://github.com/GalactusX31/ComfyUI-FileBrowserAPI"
+            ],
+            "install_type": "git-clone",
+            "description": "A general-purpose, dependency-free File and Folder Browser API for ComfyUI custom nodes.[w/path traversal vulnerability]"
+        },
+        {
             "author": "moonwhaler",
             "title": "comfyui-moonpack",
             "reference": "https://github.com/moonwhaler/comfyui-moonpack",

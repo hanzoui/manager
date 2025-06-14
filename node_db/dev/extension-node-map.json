@@ -1807,6 +1807,14 @@
             "title_aux": "ComfyUI-Airtable [WIP]"
         }
     ],
+    "https://github.com/GalactusX31/ComfyUI-FileBrowserAPI": [
+        [
+            "PathSelectorNode"
+        ],
+        {
+            "title_aux": "ComfyUI-FileBrowserAPI [UNSAFE]"
+        }
+    ],
     "https://github.com/GentlemanHu/ComfyUI-Notifier": [
         [
             "GentlemanHu_Notifier"
@@ -4454,11 +4462,14 @@
             "LoadImage",
             "LoadImageMask",
             "LoadImageOutput",
+            "LoadImageSetFromFolderNode",
             "LoadLatent",
             "LoadVideo",
             "LoraLoader",
             "LoraLoaderModelOnly",
+            "LoraModelLoader",
             "LoraSave",
+            "LossGraphNode",
             "LotusConditioning",
             "LumaConceptsNode",
             "LumaImageModifyNode",
@@ -4595,6 +4606,7 @@
             "SaveImage",
             "SaveImageWebsocket",
             "SaveLatent",
+            "SaveLoRANode",
             "SaveSVGNode",
             "SaveVideo",
             "SaveWEBM",
@@ -4670,6 +4682,7 @@
             "ThresholdMask",
             "TomePatchModel",
             "TorchCompileModel",
+            "TrainLoraNode",
             "TrimVideoLatent",
             "TripleCLIPLoader",
             "TripoConversionNode",
@@ -5236,6 +5249,14 @@
         ],
         {
             "title_aux": "ComfyUI-N_SwapInput [UNSAFE]"
+        }
+    ],
+    "https://github.com/gilons/ComfyUI-GoogleDrive-Downloader": [
+        [
+            "custom_nodes"
+        ],
+        {
+            "title_aux": "ComfyUI-GoogleDrive-Downloader [UNSAFE]"
         }
     ],
     "https://github.com/gitadmini/comfyui_extractstoryboards": [
@@ -6175,6 +6196,7 @@
             "Hy3DUploadMesh",
             "Hy3DVAEDecode",
             "Hy3DVAELoader",
+            "Hy3D_2_1SimpleMeshGen",
             "MESHToTrimesh",
             "TrimeshToMESH"
         ],
@@ -7542,6 +7564,7 @@
     ],
     "https://github.com/pomelyu/cy-prompt-tools": [
         [
+            "CY_LLM",
             "CY_LoadPrompt",
             "CY_LoadPrompt4",
             "CY_LoadPromptPro",
