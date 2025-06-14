@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "adamreading",
+            "title": "ComfyUI-AjoNodes",
+            "reference": "https://github.com/AJO-reading/ComfyUI-AjoNodes",
+            "files": [
+                "https://github.com/AJO-reading/ComfyUI-AjoNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes designed for ComfyUI from the AJO-reading organization. This repository currently includes the Audio Collect & Concat node, which collects multiple audio segments and concatenates them into a single audio stream."
+        },
+        {
             "author": "Zehong-Ma",
             "title": "ComfyUI-MagCache",
             "reference": "https://github.com/Zehong-Ma/ComfyUI-MagCache",
@@ -678,16 +688,6 @@
             ],
             "install_type": "git-clone",
             "description": "This node uses the Translators library for translation."
-        },
-        {
-            "author": "vovler",
-            "title": "ComfyUI Civitai Helper Extension",
-            "reference": "https://github.com/vovler/comfyui-civitaihelper",
-            "files": [
-                "https://github.com/vovler/comfyui-civitaihelper"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI extension for parsing Civitai PNG workflows and automatically downloading missing models"
         }
     ]
 }
