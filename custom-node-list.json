@@ -27576,6 +27576,27 @@
             "install_type": "git-clone",
             "description": "A custom node set for ComfyUI that provides nodes for encoding and decoding images using Tiny AutoEncoders for Stable Diffusion (TAESD) models."
         },
+        {
+            "author": "havvk",
+            "title": "ComfyUI_AIIA",
+            "reference": "https://github.com/havvk/ComfyUI_AIIA",
+            "files": [
+                "https://github.com/havvk/ComfyUI_AIIA"
+            ],
+            "install_type": "git-clone",
+            "description": "AIIA Nodes for ComfyUI is a comprehensive suite of advanced nodes designed to streamline and supercharge your video and audio generation workflows. It centrally addresses the critical Out-Of-Memory (OOM) issues encountered when processing long sequences by intelligently handling frames on disk. The suite includes: a powerful Video Combiner with an extensible format system; memory-efficient FLOAT Talking Head Animator nodes with both in-memory (for speed) and on-disk (for stability) modes; and a sophisticated Speaker Diarization toolkit powered by NeMo for identifying who spoke when. Utility nodes like the OOM-safe Image Sequence Concatenator are also included to create comparison or multi-panel videos effortlessly."
+        },
+        {
+            "author": "dseditor",
+            "title": "ComfyUI-Thread",
+            "reference": "https://github.com/dseditor/ComfyUI-Thread",
+            "files": [
+                "https://github.com/dseditor/ComfyUI-Thread"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node package for seamless integration with Threads (Meta's social platform). This package allows you to publish posts, manage images, and retrieve post history directly from your ComfyUI workflows."
+        },
+
 
 
 

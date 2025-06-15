@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "havvk",
+            "title": "ComfyUI_AIIA",
+            "reference": "https://github.com/havvk/ComfyUI_AIIA",
+            "files": [
+                "https://github.com/havvk/ComfyUI_AIIA"
+            ],
+            "install_type": "git-clone",
+            "description": "AIIA Nodes for ComfyUI is a comprehensive suite of advanced nodes designed to streamline and supercharge your video and audio generation workflows. It centrally addresses the critical Out-Of-Memory (OOM) issues encountered when processing long sequences by intelligently handling frames on disk. The suite includes: a powerful Video Combiner with an extensible format system; memory-efficient FLOAT Talking Head Animator nodes with both in-memory (for speed) and on-disk (for stability) modes; and a sophisticated Speaker Diarization toolkit powered by NeMo for identifying who spoke when. Utility nodes like the OOM-safe Image Sequence Concatenator are also included to create comparison or multi-panel videos effortlessly."
+        },
+        {
+            "author": "dseditor",
+            "title": "ComfyUI-Thread",
+            "reference": "https://github.com/dseditor/ComfyUI-Thread",
+            "files": [
+                "https://github.com/dseditor/ComfyUI-Thread"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node package for seamless integration with Threads (Meta's social platform). This package allows you to publish posts, manage images, and retrieve post history directly from your ComfyUI workflows."
+        },
+        {
             "author": "flamacore",
             "title": "ComfyUI YouTube Uploader",
             "id": "comfyui-youtubeuploader",
@@ -669,66 +689,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node that randomly selects a (Sampler, Scheduler, Steps) combination from user-defined presets."
-        },
-        {
-            "author": "o-l-l-i",
-            "title": "Olm Resolution Picker for ComfyUI",
-            "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-Resolution-Picker",
-            "files": [
-                "https://github.com/o-l-l-i/ComfyUI-Olm-Resolution-Picker"
-            ],
-            "install_type": "git-clone",
-            "description": "A smart, customizable resolution selector node with live aspect ratio preview, image overlays, and checkerboard support — cleanly parsed from a human-readable text file."
-        },
-        {
-            "author": "synthetai",
-            "title": "ComfyUI-JM-MiniMax-API",
-            "reference": "https://github.com/synthetai/ComfyUI-JM-MiniMax-API",
-            "files": [
-                "https://github.com/synthetai/ComfyUI-JM-MiniMax-API"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of ComfyUI custom nodes that integrate with MiniMax API services."
-        },
-        {
-            "author": "Santodan",
-            "title": "Santodan Random LoRA Node",
-            "reference": "https://github.com/Santodan/santodan-custom-nodes-comfyui",
-            "files": [
-                "https://github.com/Santodan/santodan-custom-nodes-comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "Randomizes selected LoRAs and strengths. Includes trigger word output and support for exclusive/random selection."
-        },
-        {
-            "author": "PenguinTeo",
-            "title": "Comfyui-TextEditor-Penguin",
-            "reference": "https://github.com/PenguinTeo/Comfyui-TextEditor-Penguin",
-            "files": [
-                "https://github.com/PenguinTeo/Comfyui-TextEditor-Penguin"
-            ],
-            "install_type": "git-clone",
-            "description": "A text overlay node for ComfyUI that supports rich effects such as gradients, outlines, and shadows. It is suitable for adding highly customizable text content to images."
-        },
-        {
-            "author": "mo230761",
-            "title": "ComfyUI-Text-Translation",
-            "reference": "https://github.com/mo230761/InsertAnything-ComfyUI-official",
-            "files": [
-                "https://github.com/mo230761/InsertAnything-ComfyUI-official"
-            ],
-            "install_type": "git-clone",
-            "description": "This repository provides the official ComfyUI workflow for [a/Insert Anything](https://github.com/song-wensong/insert-anything)."
-        },
-        {
-            "author": "pictorialink",
-            "title": "ComfyUI-Text-Translation",
-            "reference": "https://github.com/pictorialink/ComfyUI-Text-Translation",
-            "files": [
-                "https://github.com/pictorialink/ComfyUI-Text-Translation"
-            ],
-            "install_type": "git-clone",
-            "description": "This node uses the Translators library for translation."
         }
     ]
 }
