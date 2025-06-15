@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "A4P7J1N7M05OT",
+            "title": "ComfyUI-VAELoaderSDXLmod",
+            "reference": "https://github.com/A4P7J1N7M05OT/ComfyUI-VAELoaderSDXLmod",
+            "files": [
+                "https://github.com/A4P7J1N7M05OT/ComfyUI-VAELoaderSDXLmod"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Modified SDXL VAE Loader, Empty Latent Image Variable"
+        },
+        {
+            "author": "xzuyn",
+            "title": "xzuynodes-ComfyUI",
+            "reference": "https://github.com/xzuyn/ComfyUI-xzuynodes",
+            "files": [
+                "https://github.com/xzuyn/ComfyUI-xzuynodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Last Frame Extractor"
+        },
+        {
             "author": "gilons",
             "title": "ComfyUI-GoogleDrive-Downloader [UNSAFE]",
             "reference": "https://github.com/gilons/ComfyUI-GoogleDrive-Downloader",
@@ -79,16 +99,6 @@
             ],
             "install_type": "git-clone",
             "description": "This custom node for ComfyUI provides a markdown renderer to display formatted text and notes within your workflow."
-        },
-        {
-            "author": "flamacore",
-            "title": "YouTube Uploader Nodes for ComfyUI",
-            "reference": "https://github.com/flamacore/ComfyUI-YouTubeUploader",
-            "files": [
-                "https://github.com/flamacore/ComfyUI-YouTubeUploader"
-            ],
-            "install_type": "git-clone",
-            "description": "Upload videos directly to YouTube from your ComfyUI workflows!"
         },
         {
             "author": "IsItDanOrAi",
@@ -439,7 +449,7 @@
                 "https://github.com/EQXai/ComfyUI_EQX"
             ],
             "install_type": "git-clone",
-            "description": "NODES: SaveImage_EQX, File Image Selector, Load Prompt From File - EQX, LoraStackEQX_random, Extract Filename - EQX, Extract LORA name - EQX"
+            "description": "NODES: SaveImage_EQX, File Image Selector, Load Prompt From File - EQX, LoraStackEQX_random, Extract Filename - EQX, Extract LORA name - EQX, NSFW Detector EQX, NSFW Detector Advanced EQX"
         },
         {
             "author": "yincangshiwei",

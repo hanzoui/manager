@@ -3359,6 +3359,18 @@
             "title_aux": "ComfyUI-Depth-Visualization-advanced"
         }
     ],
+    "https://github.com/ComfyAssets/ComfyUI-KikoTools": [
+        [
+            "ResolutionCalculator",
+            "SamplerCombo",
+            "SamplerComboCompact",
+            "SeedHistory",
+            "WidthHeightSelector"
+        ],
+        {
+            "title_aux": "ComfyUI-KikoTools"
+        }
+    ],
     "https://github.com/ComfyAssets/ComfyUI_PromptManager": [
         [
             "PromptManager",
@@ -4067,10 +4079,10 @@
         [
             "CharCountTextBox",
             "GenerateImage_VENICE",
+            "GenerateSpeech_VENICE",
             "GenerateTextAdvanced_VENICE",
             "GenerateText_VENICE",
-            "InpaintImage_VENICE",
-            "UpscaleImage_VENICE"
+            "I2IEnhanceUpscale_VENICE"
         ],
         {
             "title_aux": "ComfyUI-Venice-API"
@@ -5782,6 +5794,15 @@
         ],
         {
             "title_aux": "ComfyUI-FANTA-GameBox"
+        }
+    ],
+    "https://github.com/INuBq8/ComfyUI-NotificationBridge": [
+        [
+            "DiscordNotifyNode",
+            "WhatsAppNotifyNodeTwilio"
+        ],
+        {
+            "title_aux": "Notification Bridge"
         }
     ],
     "https://github.com/ITurchenko/ComfyUI-SizeFromArray": [
@@ -11169,7 +11190,7 @@
             "Range(Step) - Float",
             "Range(Step) - Int",
             "Shrink Image",
-            "String Replacer",
+            "Special Character Replacer",
             "Text Contains (Return Bool)",
             "Text Contains (Return String)",
             "Variable Image Builder",
@@ -12251,6 +12272,16 @@
         ],
         {
             "title_aux": "Comfyui_JC2"
+        }
+    ],
+    "https://github.com/TTPlanetPig/Comfyui_Object_Detect_QWen_VL": [
+        [
+            "BBoxesToSAM2",
+            "DownloadAndLoadQwenModel",
+            "QwenVLDetection"
+        ],
+        {
+            "title_aux": "ComfyUI Qwen2.5-VL Object Detection Node"
         }
     ],
     "https://github.com/TTPlanetPig/Comfyui_Object_Migration": [
@@ -14429,7 +14460,6 @@
     "https://github.com/aiaiaikkk/ComfyUI-Curve": [
         [
             "CurvePresetNode",
-            "CurvePreviewNode",
             "PhotoshopCurveNode",
             "PhotoshopHSLNode",
             "PhotoshopHistogramNode"
@@ -18765,6 +18795,7 @@
             "ControlNetInpaintingAliMamaApply",
             "ControlNetLoader",
             "CosmosImageToVideoLatent",
+            "CosmosPredict2ImageToVideoLatent",
             "CreateVideo",
             "CropMask",
             "DiffControlNetLoader",
@@ -20491,6 +20522,7 @@
             "NumberPlusPlus",
             "NumberRemap",
             "Qwen2AudioInstruct",
+            "ShotHistory",
             "StringToDict",
             "SwitchDuo",
             "TextBoxStyle",
@@ -21325,6 +21357,15 @@
         ],
         {
             "title_aux": "ComfyUI_Fill-Nodes"
+        }
+    ],
+    "https://github.com/flamacore/ComfyUI-YouTubeUploader": [
+        [
+            "YouTubeAuthNode",
+            "YouTubeUploaderNode"
+        ],
+        {
+            "title_aux": "ComfyUI YouTube Uploader"
         }
     ],
     "https://github.com/florestefano1975/ComfyUI-Advanced-Sequence-Seed": [
@@ -29616,6 +29657,17 @@
             "title_aux": "comfyui-sambanova"
         }
     ],
+    "https://github.com/neocrz/comfyui-usetaesd": [
+        [
+            "DecodeTAESD",
+            "DecodeTAESDTiled",
+            "EncodeTAESD",
+            "EncodeTAESDTiled"
+        ],
+        {
+            "title_aux": "comfyui-usetaesd"
+        }
+    ],
     "https://github.com/neph1/comfyui-smooth-step-lora-loader": [
         [
             "Smooth_Step_Lora_Loader"
@@ -30526,6 +30578,7 @@
     ],
     "https://github.com/pamparamm/sd-perturbed-attention": [
         [
+            "NormalizedAttentionGuidance",
             "PerturbedAttention",
             "Pladis",
             "SlidingWindowGuidanceAdvanced",
@@ -31163,7 +31216,8 @@
     "https://github.com/rainlizard/ComfyUI-Raffle": [
         [
             "PreviewHistory",
-            "Raffle"
+            "Raffle",
+            "TagCategoryStrength"
         ],
         {
             "title_aux": "Raffle"

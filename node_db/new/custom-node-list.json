@@ -1,6 +1,47 @@
 {
     "custom_nodes": [
         {
+            "author": "flamacore",
+            "title": "ComfyUI YouTube Uploader",
+            "id": "comfyui-youtubeuploader",
+            "reference": "https://github.com/flamacore/ComfyUI-YouTubeUploader",
+            "files": [
+                "https://github.com/flamacore/ComfyUI-YouTubeUploader"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node for uploading generated content to YouTube. [a/Buy me a coffee](https://buymeacoffee.com/chao.k)"
+        },
+        {
+            "author": "kiko9",
+            "title": "ComfyUI-KikoTools",
+            "reference": "https://github.com/ComfyAssets/ComfyUI-KikoTools",
+            "files": [
+                "https://github.com/ComfyAssets/ComfyUI-KikoTools"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-KikoTools provides carefully crafted, production-ready nodes grouped under the 'ComfyAssets' category. Each tool is designed with clean interfaces, comprehensive testing, and optimized performance for SDXL and FLUX workflows."
+        },
+        {
+            "author": "TTPlanetPig",
+            "title": "ComfyUI Qwen2.5-VL Object Detection Node",
+            "reference": "https://github.com/TTPlanetPig/Comfyui_Object_Detect_QWen_VL",
+            "files": [
+                "https://github.com/TTPlanetPig/Comfyui_Object_Detect_QWen_VL"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository provides a custom ComfyUI node for running object detection with the [a/Qwen 2.5 VL](https://github.com/QwenLM/Qwen2.5-VL) model. The node downloads the selected model on demand, runs a detection prompt and outputs bounding boxes that can be used with segmentation nodes such as [a/SAM2](https://github.com/kijai/ComfyUI-segment-anything-2)."
+        },
+        {
+            "author": "neocrz",
+            "title": "comfyui-usetaesd",
+            "reference": "https://github.com/neocrz/comfyui-usetaesd",
+            "files": [
+                "https://github.com/neocrz/comfyui-usetaesd"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node set for ComfyUI that provides nodes for encoding and decoding images using Tiny AutoEncoders for Stable Diffusion (TAESD) models."
+        },
+        {
             "author": "adamreading",
             "title": "ComfyUI-AjoNodes",
             "reference": "https://github.com/AJO-reading/ComfyUI-AjoNodes",
@@ -299,7 +340,7 @@
             "files": [
                         "https://github.com/INuBq8/ComfyUI-NotificationBridge"
             ],
-            "install_type": "git_clone",
+            "install_type": "git-clone",
             "description": "Bridge nodes for ComfyUI that send messages through WhatsApp (Twilio) and Discord when a workflow completes."
         },
         {
@@ -309,8 +350,8 @@
             "files": [
                 "https://github.com/Erehr/ComfyUI-EreNodes"
             ],
-            "install_type": "copy",
-            "description": "A collection of personal nodes mainly for prompt management."
+            "install_type": "git-clone",
+            "description": "A collection of prompt managent nodes with advanced tag parsing. Prompt tag cloud, mutiselect, toggle list, randomizer, filter, autocompete."
         },
         {
             "author": "11dogzi",

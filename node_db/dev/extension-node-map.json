@@ -284,22 +284,30 @@
     "https://github.com/7BEII/Comfyui_PDuse": [
         [
             "Empty_Line",
-            "LoRALoader_path",
+            "ImageBlendText",
+            "ImageBlendV1",
+            "ImageRatioCrop",
             "Load_Images",
-            "PDFile_FileName_refixer",
+            "PDFile_name_fix",
+            "PDIMAGE_ImageCombine",
             "PDIMAGE_LongerSize",
             "PDIMAGE_Rename",
+            "PDImageConcante",
             "PDJSON_BatchJsonIncremental",
             "PDJSON_Group",
+            "PD_CustomImageProcessor",
             "PD_GetImageSize",
-            "PD_ImageMergerWithText",
+            "PD_ImageBatchSplitter",
+            "PD_ImageInfo",
             "PD_Image_Crop_Location",
             "PD_Image_centerCrop",
             "PD_MASK_SELECTION",
             "PD_RemoveColorWords",
+            "PD_SimpleTest",
             "PD_Text Overlay Node",
+            "PD_imagesave_path",
             "PDstring_Save",
-            "ReadTxtFiles"
+            "mask_edge_selector"
         ],
         {
             "title_aux": "comfyui-promptbymood [WIP]"
@@ -311,6 +319,15 @@
         ],
         {
             "title_aux": "ComfyUI-ManualSigma"
+        }
+    ],
+    "https://github.com/A4P7J1N7M05OT/ComfyUI-VAELoaderSDXLmod": [
+        [
+            "EmptyLatentImageVariable",
+            "ModifiedSDXLVAELoader"
+        ],
+        {
+            "title_aux": "ComfyUI-VAELoaderSDXLmod"
         }
     ],
     "https://github.com/A719689614/ComfyUI_AC_FUNV8Beta1": [
@@ -956,6 +973,7 @@
             "VTS Images Scale",
             "VTS Images Scale To Min",
             "VTS Merge Delimited Text",
+            "VTS Merge Text",
             "VTS Merge Text Lists",
             "VTS Reduce Batch Size",
             "VTS Render People Kps",
@@ -1602,6 +1620,7 @@
             "File Image Selector",
             "Load Prompt From File - EQX",
             "LoraStackEQX_random",
+            "NSFW Detector EQX",
             "SaveImage_EQX"
         ],
         {
@@ -2705,6 +2724,7 @@
     ],
     "https://github.com/RobeSantoro/ComfyUI-RobeNodes": [
         [
+            "AudioWeights to FadeMask \ud83d\udc24",
             "Boolean Primitive \ud83d\udc24",
             "Image Input Switch \ud83d\udc24",
             "Indices Generator \ud83d\udc24",
@@ -3489,6 +3509,7 @@
             "BatchImageLoad",
             "BooleanSwitchAny",
             "KeywordPromptComposer",
+            "LoadTxtFile",
             "PipemindDisplayAny",
             "PipemindFlux2MAspectRatio",
             "PipemindLoraLoader",
@@ -3497,7 +3518,6 @@
             "PipemindSaveImageWTxt",
             "PipemindShowText",
             "PipemindTokenCounter",
-            "PipemindWordninjaClipper",
             "RandomLineFromDropdown",
             "SelectLineFromDropdown",
             "SimplePromptCombiner"
@@ -4326,6 +4346,7 @@
             "ControlNetInpaintingAliMamaApply",
             "ControlNetLoader",
             "CosmosImageToVideoLatent",
+            "CosmosPredict2ImageToVideoLatent",
             "CreateVideo",
             "CropMask",
             "DiffControlNetLoader",
@@ -5091,15 +5112,6 @@
         ],
         {
             "title_aux": "ComfyUI_html [UNSAFE]"
-        }
-    ],
-    "https://github.com/flamacore/ComfyUI-YouTubeUploader": [
-        [
-            "YouTubeAuthNode",
-            "YouTubeUploaderNode"
-        ],
-        {
-            "title_aux": "YouTube Uploader Nodes for ComfyUI"
         }
     ],
     "https://github.com/flowtyone/comfyui-flowty-lcm": [
@@ -8843,6 +8855,14 @@
         ],
         {
             "title_aux": "honey_nodes [WIP]"
+        }
+    ],
+    "https://github.com/xzuyn/ComfyUI-xzuynodes": [
+        [
+            "LastFrameNode"
+        ],
+        {
+            "title_aux": "xzuynodes-ComfyUI"
         }
     ],
     "https://github.com/y4my4my4m/ComfyUI_Direct3DS2": [
