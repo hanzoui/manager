@@ -182,6 +182,14 @@
             "title_aux": "Jigsaw Puzzle Effect Plugin"
         }
     ],
+    "https://github.com/11dogzi/CYBERPUNK-STYLE-DIY": [
+        [
+            "CYBERPUNKHT"
+        ],
+        {
+            "title_aux": "CYBERPUNK-STYLE-DIY"
+        }
+    ],
     "https://github.com/11dogzi/ComfUI-EGAdapterMadAssistant": [
         [
             "EGIPAdapter_Mad_Assistant",
@@ -3182,6 +3190,8 @@
             "Linear Quadratic Advanced",
             "Mask Bounding Box Aspect Ratio",
             "Mask Sketch",
+            "MaskEdge",
+            "MaskEdgeRatio",
             "MaskFloatToBoolean",
             "MaskToggle",
             "Masks From Color Swatches",
@@ -7811,6 +7821,7 @@
             "MasteringChainNode",
             "NoiseDecayScheduler_Custom",
             "PingPongSampler_Custom",
+            "PingPongSampler_Custom_FBG",
             "SceneGeniusAutocreator"
         ],
         {
@@ -10069,6 +10080,7 @@
     ],
     "https://github.com/SanDiegoDude/ComfyUI-Kontext-API": [
         [
+            "FalKontextMaxMultiImageNode",
             "KontextAPINode"
         ],
         {
@@ -11331,6 +11343,7 @@
             "Basic data handling: CastToSet",
             "Basic data handling: CastToString",
             "Basic data handling: CompareLength",
+            "Basic data handling: ContinueFlow",
             "Basic data handling: DataListAll",
             "Basic data handling: DataListAny",
             "Basic data handling: DataListAppend",
@@ -11394,7 +11407,6 @@
             "Basic data handling: DictSetDefault",
             "Basic data handling: DictUpdate",
             "Basic data handling: DictValues",
-            "Basic data handling: DisableFlow",
             "Basic data handling: Equal",
             "Basic data handling: ExecutionOrder",
             "Basic data handling: FloatAdd",
@@ -23912,6 +23924,9 @@
             "CM_ComposeVec2 JK",
             "CM_ComposeVec3 JK",
             "CM_ComposeVec4 JK",
+            "CM_FillVec2 JK",
+            "CM_FillVec3 JK",
+            "CM_FillVec4 JK",
             "CM_FloatBinaryCondition JK",
             "CM_FloatBinaryOperation JK",
             "CM_FloatToInt JK",
@@ -23979,7 +23994,6 @@
             "CR Multi-ControlNet Param Stack JK",
             "CR Multi-ControlNet Stack JK",
             "CR Noise Input Switch JK",
-            "CR Obit Pose Input Switch JK",
             "CR Orbit Pose Input Switch JK",
             "CR Pipe Input Switch JK",
             "CR Ply Input Switch JK",
@@ -24041,6 +24055,7 @@
             "IPAdapterUnifiedLoaderFaceID",
             "IPAdapterWeights",
             "IPAdapterWeightsFromStrategy",
+            "Image Crop By Mask Resolution Grp JK",
             "Image Crop by Mask Params JK",
             "Image Crop by Mask Resolution JK",
             "Image Remove Alpha JK",
@@ -24074,6 +24089,7 @@
             "Refine Model Parameters JK",
             "Refine Pipe Extract JK",
             "Refine Pipe JK",
+            "Remove Input JK",
             "Reroute Ckpt JK",
             "Reroute List JK",
             "Reroute Resize JK",
@@ -25874,6 +25890,7 @@
             "VRAM_Debug",
             "Wan21BlockLoraSelect",
             "WanVideoEnhanceAVideoKJ",
+            "WanVideoNAG",
             "WanVideoTeaCacheKJ",
             "WebcamCaptureCV2",
             "WeightScheduleConvert",
@@ -31730,7 +31747,9 @@
             "UtilityExpression",
             "UtilityImageDimensions",
             "UtilitySwitch",
-            "rookiepsi_ConstructMask"
+            "rookiepsi_BlurMask",
+            "rookiepsi_ConstructMask",
+            "rookiepsi_CropImageToMask"
         ],
         {
             "title_aux": "ComfyUI Extended"

@@ -670,6 +670,7 @@
             "TS_FilePathLoader",
             "TS_Free_Video_Memory",
             "TS_ImageResize",
+            "TS_MarianTranslator",
             "TS_Qwen3",
             "TS_VideoDepthNode",
             "TS_Video_Upscale_With_Model"
@@ -960,6 +961,7 @@
     ],
     "https://github.com/Chargeuk/ComfyUI-vts-nodes": [
         [
+            "VTS Add Text To list",
             "VTS Clean Text",
             "VTS Clean Text List",
             "VTS Clear Ram",
@@ -3506,7 +3508,8 @@
     ],
     "https://github.com/aa-parky/pipemind-comfyui": [
         [
-            "BatchImageLoad",
+            "BatchImageLoadInput",
+            "BatchImageLoadOutput",
             "BooleanSwitchAny",
             "KeywordPromptComposer",
             "LoadTxtFile",
@@ -5093,6 +5096,19 @@
             "title_aux": "ComfyUI-SenseVoice [WIP]"
         }
     ],
+    "https://github.com/fangg2000/ComfyUI-StableAudioFG": [
+        [
+            "LoadStableAudioModel",
+            "StableAudioFG"
+        ],
+        {
+            "author": "lks-ai",
+            "description": "A Simple integration of Stable Audio Diffusion with knobs and stuff!",
+            "nickname": "stableaudio",
+            "title": "StableAudioSampler",
+            "title_aux": "ComfyUI-StableAudioFG [WIP]"
+        }
+    ],
     "https://github.com/fangziheng2321/comfyuinode_chopmask": [
         [
             "cus_chopmask"
@@ -5537,6 +5553,18 @@
         ],
         {
             "title_aux": "ComfyUI_pxtool [WIP]"
+        }
+    ],
+    "https://github.com/hdfhssg/comfyui_EvoSearch": [
+        [
+            "EvoSearch_FLUX",
+            "EvoSearch_SD21",
+            "EvoSearch_WAN",
+            "EvolutionScheduleGenerator",
+            "GuidanceRewardsGenerator"
+        ],
+        {
+            "title_aux": "comfyui_EvoSearch [WIP]"
         }
     ],
     "https://github.com/hiusdev/ComfyUI_Lah_Toffee": [
@@ -8072,6 +8100,20 @@
         ],
         {
             "title_aux": "ComfyUI_ReduxEmbedToolkit"
+        }
+    ],
+    "https://github.com/simonjaq/ComfyUI-sjnodes": [
+        [
+            "CrossFadeVideo",
+            "InpaintCropImprovedGPU",
+            "InpaintStitchImprovedGPU",
+            "LoadStitcherFromFile",
+            "SaveStitcherToFile",
+            "SmoothTemporalMask",
+            "WanVideoVACEExtend"
+        ],
+        {
+            "title_aux": "ComfyUI-sjnodes"
         }
     ],
     "https://github.com/smthemex/ComfyUI_GPT_SoVITS_Lite": [
