@@ -1,6 +1,37 @@
 {
     "custom_nodes": [
         {
+            "author": "theUpsider",
+            "title": "ComfyUI-Logic [DEPRECATED]",
+            "id": "comfy-logic",
+            "reference": "https://github.com/theUpsider/ComfyUI-Logic",
+            "files": [
+                "https://github.com/theUpsider/ComfyUI-Logic"
+            ],
+            "install_type": "git-clone",
+            "description": "An extension to ComfyUI that introduces logic nodes and conditional rendering capabilities."
+        },
+        {
+            "author": "Malloc-pix",
+            "title": "comfyui_qwen2.4_vl_node [REMOVED]",
+            "reference": "https://github.com/Malloc-pix/comfyui_qwen2.4_vl_node",
+            "files": [
+                "https://github.com/Malloc-pix/comfyui_qwen2.4_vl_node"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: CogVLM2 Captioner, CLIP Dynamic Text Encode(cy)"
+        },
+        {
+            "author": "inyourdreams-studio",
+            "title": "ComfyUI-RBLM [REMOVED]",
+            "reference": "https://github.com/inyourdreams-studio/comfyui-rblm",
+            "files": [
+                "https://github.com/inyourdreams-studio/comfyui-rblm"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node pack for ComfyUI that provides text manipulation nodes."
+        },
+        {
             "author": "dream-computing",
             "title": "SyntaxNodes - Image Processing Effects for ComfyUI [REMOVED]",
             "reference": "https://github.com/dream-computing/syntax-nodes",

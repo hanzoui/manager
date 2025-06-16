@@ -1,6 +1,206 @@
 {
     "custom_nodes": [
         {
+            "author": "franky519",
+            "title": "ComfyUI Face Four Image Matcher [WIP]",
+            "reference": "https://github.com/franky519/comfyui_fnckc_Face_analysis",
+            "files": [
+                "https://github.com/franky519/comfyui_fnckc_Face_analysis"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for four face image matching and face swap control\nNOTE: Invalid pyproject.toml"
+        },
+        {
+            "author": "bleash-dev",
+            "title": "Comfyui-Iddle-Checker",
+            "reference": "https://github.com/bleash-dev/Comfyui-Iddle-Checker",
+            "files": [
+                "https://github.com/bleash-dev/Comfyui-Iddle-Checker"
+            ],
+            "install_type": "git-clone",
+            "description": "front extension for idle checker"
+        },
+        {
+            "author": "fangg2000",
+            "title": "ComfyUI-StableAudioFG [WIP]",
+            "reference": "https://github.com/fangg2000/ComfyUI-StableAudioFG",
+            "files": [
+                "https://github.com/fangg2000/ComfyUI-StableAudioFG"
+            ],
+            "install_type": "git-clone",
+            "description": "The ComfyUI plugin for stable-audio (supports offline use)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "hdfhssg",
+            "title": "comfyui_EvoSearch [WIP]",
+            "reference": "https://github.com/hdfhssg/comfyui_EvoSearch",
+            "files": [
+                "https://github.com/hdfhssg/comfyui_EvoSearch"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: EvoSearch_FLUX, EvoSearch_SD21, EvoSearch_WAN, EvolutionScheduleGenerator, GuidanceRewardsGenerator"
+        },
+        {
+            "author": "simonjaq",
+            "title": "ComfyUI-sjnodes",
+            "reference": "https://github.com/simonjaq/ComfyUI-sjnodes",
+            "files": [
+                "https://github.com/simonjaq/ComfyUI-sjnodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Some modified ComfyUI custom nodes"
+        },
+        {
+            "author": "A4P7J1N7M05OT",
+            "title": "ComfyUI-VAELoaderSDXLmod",
+            "reference": "https://github.com/A4P7J1N7M05OT/ComfyUI-VAELoaderSDXLmod",
+            "files": [
+                "https://github.com/A4P7J1N7M05OT/ComfyUI-VAELoaderSDXLmod"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Modified SDXL VAE Loader, Empty Latent Image Variable"
+        },
+        {
+            "author": "xzuyn",
+            "title": "xzuynodes-ComfyUI",
+            "reference": "https://github.com/xzuyn/ComfyUI-xzuynodes",
+            "files": [
+                "https://github.com/xzuyn/ComfyUI-xzuynodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Last Frame Extractor"
+        },
+        {
+            "author": "gilons",
+            "title": "ComfyUI-GoogleDrive-Downloader [UNSAFE]",
+            "reference": "https://github.com/gilons/ComfyUI-GoogleDrive-Downloader",
+            "files": [
+                "https://github.com/gilons/ComfyUI-GoogleDrive-Downloader"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for downloading files from Google Drive.[w/There is a vulnerability that allows saving a remote file to an arbitrary local path.]"
+        },
+        {
+            "author": "moonwhaler",
+            "title": "ComfyUI-FileBrowserAPI [UNSAFE]",
+            "reference": "https://github.com/GalactusX31/ComfyUI-FileBrowserAPI",
+            "files": [
+                "https://github.com/GalactusX31/ComfyUI-FileBrowserAPI"
+            ],
+            "install_type": "git-clone",
+            "description": "A general-purpose, dependency-free File and Folder Browser API for ComfyUI custom nodes.[w/path traversal vulnerability]"
+        },
+        {
+            "author": "moonwhaler",
+            "title": "comfyui-moonpack",
+            "reference": "https://github.com/moonwhaler/comfyui-moonpack",
+            "files": [
+                "https://github.com/moonwhaler/comfyui-moonpack"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Proportional Dimension, Simple String Replace, Regex String Replace, VACE Looper Frame Scheduler"
+        },
+        {
+            "author": "DreamsInAutumn",
+            "title": "ComfyUI-Autumn-LLM-Nodes",
+            "reference": "https://github.com/DreamsInAutumn/ComfyUI-Autumn-LLM-Nodes",
+            "files": [
+                "https://github.com/DreamsInAutumn/ComfyUI-Autumn-LLM-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Gemini-Image-To-Prompt, Gemini-Prompt-Builder, LLM-Prompt-Builder"
+        },
+        {
+            "author": "alexgenovese",
+            "title": "ComfyUI-Reica",
+            "reference": "https://github.com/alexgenovese/ComfyUI-Reica",
+            "files": [
+                "https://github.com/alexgenovese/ComfyUI-Reica"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: 'Reica GCP: Read Image', 'Reica GCP: Write Image & Get URL', 'Reica Text Image Display', 'Reica Read Image URL', 'Reica URL Image Loader Filename', 'Reica API: Send HTTP Notification', 'Insert Anything'"
+        },
+        {
+            "author": "yichengup",
+            "title": "ComfyUI-Transition",
+            "reference": "https://github.com/yichengup/ComfyUI-Transition",
+            "files": [
+                "https://github.com/yichengup/ComfyUI-Transition"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Linear Transition, Gradient Transition, Dual Line Transition, Sequence Transition, Circular Transition, Circular Sequence Transition"
+        },
+        {
+            "author": "wildminder",
+            "title": "ComfyUI-MagCache [NAME CONFLICT|WIP]",
+            "reference": "https://github.com/wildminder/ComfyUI-MagCache",
+            "files": [
+                "https://github.com/wildminder/ComfyUI-MagCache"
+            ],
+            "install_type": "git-clone",
+            "description": "official implementation of [zehong-ma/MagCache](https://github.com/zehong-ma/MagCache) for ComfyUI"
+        },
+        {
+            "author": "laubsauger",
+            "title": "ComfyUI Storyboard [WIP]",
+            "reference": "https://github.com/laubsauger/comfyui-storyboard",
+            "files": [
+                "https://github.com/laubsauger/comfyui-storyboard"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI provides a markdown renderer to display formatted text and notes within your workflow."
+        },
+        {
+            "author": "IsItDanOrAi",
+            "title": "ComfyUI-exLoadout [WIP]",
+            "reference": "https://github.com/IsItDanOrAi/ComfyUI-exLoadout",
+            "files": [
+                "https://github.com/IsItDanOrAi/ComfyUI-exLoadout"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: exLoadoutCheckpointLoader, exLoadout Selector, exLoadoutA, exLoadoutG, exLoadoutReadColumn, exLoadoutEditCell\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "grokuku",
+            "title": "ComfyUI-Holaf-Terminal [UNSAFE]",
+            "reference": "https://github.com/grokuku/ComfyUI-Holaf-Utilities",
+            "files": [
+                "https://github.com/grokuku/ComfyUI-Holaf-Utilities"
+            ],
+            "install_type": "git-clone",
+            "description": "Interactive Terminal in a node for ComfyUI[w/This custom extension provides a remote web-based shell (terminal) interface to the machine running the ComfyUI server. By installing and using this extension, you are opening a direct, powerful, and potentially dangerous access point to your system.]"
+        },
+        {
+            "author": "whmc76",
+            "title": "ComfyUI-LongTextTTSSuite [WIP]",
+            "reference": "https://github.com/whmc76/ComfyUI-LongTextTTSSuite",
+            "files": [
+                "https://github.com/whmc76/ComfyUI-LongTextTTSSuite"
+            ],
+            "install_type": "git-clone",
+            "description": "This plugin can cut txt or srt files, hand them over to TTS for speech slicing generation, and synthesize long speech\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "usrname0",
+            "title": "ComfyUI-AllergicPack [WIP]",
+            "reference": "https://github.com/usrname0/ComfyUI-AllergicPack",
+            "files": [
+                "https://github.com/usrname0/ComfyUI-AllergicPack"
+            ],
+            "install_type": "git-clone",
+            "description": "This package is not ready for primetime but I'm making it public anyway. If I'm using the node then I'm putting it here. Might make it more official later. Use at your own risk."
+        },
+        {
+            "author": "spawner",
+            "title": "comfyui-spawner-nodes",
+            "reference": "https://github.com/spawner1145/comfyui-spawner-nodes",
+            "files": [
+                "https://github.com/spawner1145/comfyui-spawner-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Read Image Metadata, JSON process, Text Encoder/Decoder"
+        },
+        {
             "author": "cesilk10",
             "title": "cesilk-comfyui-nodes",
             "reference": "https://github.com/cesilk10/cesilk-comfyui-nodes",
@@ -299,7 +499,7 @@
                 "https://github.com/EQXai/ComfyUI_EQX"
             ],
             "install_type": "git-clone",
-            "description": "NODES: SaveImage_EQX, File Image Selector, Load Prompt From File - EQX, LoraStackEQX_random, Extract Filename - EQX, Extract LORA name - EQX"
+            "description": "NODES: SaveImage_EQX, File Image Selector, Load Prompt From File - EQX, LoraStackEQX_random, Extract Filename - EQX, Extract LORA name - EQX, NSFW Detector EQX, NSFW Detector Advanced EQX"
         },
         {
             "author": "yincangshiwei",
@@ -1329,16 +1529,6 @@
             ],
             "install_type": "git-clone",
             "description": "A custom ComfyUI node for generating images using the HiDream AI model.\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "AJO-reading",
-            "title": "ComfyUI-AjoNodes [WIP]",
-            "reference": "https://github.com/AJO-reading/ComfyUI-AjoNodes",
-            "files": [
-                "https://github.com/AJO-reading/ComfyUI-AjoNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes designed for ComfyUI from the AJO-reading organization. This repository currently includes the Audio Collect & Concat node, which collects multiple audio segments and concatenates them into a single audio stream.\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "ZenAI-Vietnam",
