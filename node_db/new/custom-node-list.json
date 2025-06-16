@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "christian-byrne",
+            "title": "Claude Code ComfyUI Nodes",
+            "reference": "https://github.com/christian-byrne/claude-code-comfyui-nodes",
+            "files": [
+                "https://github.com/christian-byrne/claude-code-comfyui-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for integrating Claude Code SDK - enables AI-powered code generation, analysis, and assistance within ComfyUI workflows"
+        },
+        {
             "author": "coiichan",
             "title": "comfyui-every-person-seg-coii",
             "reference": "https://github.com/CoiiChan/comfyui-every-person-seg-coii",
@@ -679,26 +689,6 @@
             ],
             "install_type": "git-clone",
             "description": "A collection of custom nodes for ComfyUI focused on image processing operations."
-        },
-        {
-            "author": "r-vage",
-            "title": "ComfyUI-RvTools_v2",
-            "reference": "https://github.com/r-vage/ComfyUI-RvTools_v2",
-            "files": [
-                "https://github.com/r-vage/ComfyUI-RvTools_v2"
-            ],
-            "install_type": "git-clone",
-            "description": "this node contains a lot of small little helpers like switches, passers and selectors that i use a lot to build my workflows."
-        },
-        {
-            "author": "hvppycoding",
-            "title": "RandomSamplerSchedulerSteps for ComfyUI",
-            "reference": "https://github.com/hvppycoding/comfyui-random-sampler-scheduler-steps",
-            "files": [
-                "https://github.com/hvppycoding/comfyui-random-sampler-scheduler-steps"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node that randomly selects a (Sampler, Scheduler, Steps) combination from user-defined presets."
         }
     ]
 }

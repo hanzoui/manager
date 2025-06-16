@@ -1617,10 +1617,12 @@
     ],
     "https://github.com/EQXai/ComfyUI_EQX": [
         [
+            "CountFaces_EQX",
             "Extract Filename - EQX",
             "Extract LORA name - EQX",
             "File Image Selector",
             "Load Prompt From File - EQX",
+            "LoadRetinaFace_EQX",
             "LoraStackEQX_random",
             "NSFW Detector EQX",
             "SaveImage_EQX"
@@ -5166,6 +5168,15 @@
         ],
         {
             "title_aux": "comfyui-redux-style"
+        }
+    ],
+    "https://github.com/franky519/comfyui_fnckc_Face_analysis": [
+        [
+            "FaceAnalysisModels",
+            "FaceFourImageMatcher"
+        ],
+        {
+            "title_aux": "ComfyUI Face Four Image Matcher [WIP]"
         }
     ],
     "https://github.com/fritzprix/ComfyUI-LLM-Utils": [
