@@ -431,7 +431,7 @@ class PIPFixer:
                     if np is not None:
                         if StrictVersion(np) >= StrictVersion('2'):
                             cmd = make_pip_cmd(['install', "numpy<2"])
-                            subprocess.check_output(cmd , universal_newlines=True)
+                                subprocess.check_output(cmd , universal_newlines=True)
 
                             logging.info("[ComfyUI-Manager] 'numpy' dependency were fixed")
             except Exception as e:

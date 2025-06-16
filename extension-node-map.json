@@ -3330,6 +3330,18 @@
             "title_aux": "RES4LYF"
         }
     ],
+    "https://github.com/Clybius/ComfyUI-ClybsChromaNodes": [
+        [
+            "ChromaNAG",
+            "ClybGuidance",
+            "InverseSquaredScheduler",
+            "PrintSigmas",
+            "SamplerClyb_BDF"
+        ],
+        {
+            "title_aux": "ComfyUI-ClybsChromaNodes"
+        }
+    ],
     "https://github.com/Clybius/ComfyUI-Extra-Samplers": [
         [
             "GeometricCFGGuider",
@@ -4064,6 +4076,17 @@
         ],
         {
             "title_aux": "ComfyUI Color Detection Nodes"
+        }
+    ],
+    "https://github.com/DrStone71/ComfyUI-Prompt-Translator": [
+        [
+            "CLIP Text Encode (Translate)",
+            "Language Package Manager",
+            "Prompt Text (Translate)",
+            "Text Translate"
+        ],
+        {
+            "title_aux": "ComfyUI-Prompt-Translator"
         }
     ],
     "https://github.com/DraconicDragon/ComfyUI-RyuuNoodles": [
@@ -14963,6 +14986,15 @@
             "title_aux": "Qwen2-VL wrapper for ComfyUI"
         }
     ],
+    "https://github.com/alexgenovese/ComfyUI-UNO-Flux": [
+        [
+            "UNOGenerate",
+            "UNOModelLoader"
+        ],
+        {
+            "title_aux": "ComfyUI UNO Nodes"
+        }
+    ],
     "https://github.com/alexgenovese/ComfyUI_HF_Servelress_Inference": [
         [
             "HF_QuestionAnswer",
@@ -21411,15 +21443,6 @@
             "title_aux": "ComfyUI_Fill-Nodes"
         }
     ],
-    "https://github.com/flamacore/ComfyUI-YouTubeUploader": [
-        [
-            "YouTubeAuthNode",
-            "YouTubeUploaderNode"
-        ],
-        {
-            "title_aux": "ComfyUI YouTube Uploader"
-        }
-    ],
     "https://github.com/florestefano1975/ComfyUI-Advanced-Sequence-Seed": [
         [
             "AdvancedSequenceSeedNode"
@@ -21698,6 +21721,14 @@
         {
             "nodename_pattern": "^FrankChiengEasyAnimate",
             "title_aux": "ComfyUI_llm_easyanimiate"
+        }
+    ],
+    "https://github.com/fredconex/ComfyUI-SyncEdit": [
+        [
+            "SyncTextEditor"
+        ],
+        {
+            "title_aux": "Sync Edit"
         }
     ],
     "https://github.com/fredconex/ComfyUI_SoundFlow": [
@@ -24864,6 +24895,16 @@
         ],
         {
             "title_aux": "ComfyUI_open_nodes"
+        }
+    ],
+    "https://github.com/jurdnf/ComfyUI-JurdnsModelSculptor": [
+        [
+            "ModelSculptorFlux",
+            "ModelSculptorSD3",
+            "ModelSculptorSDXL"
+        ],
+        {
+            "title_aux": "ComfyUI-JurdnsModelSculptor"
         }
     ],
     "https://github.com/jurdnisglobby/ComfyUI-Jurdns-Groq-Node": [
@@ -28442,7 +28483,7 @@
     ],
     "https://github.com/m-sokes/ComfyUI-Sokes-Nodes": [
         [
-            "Current Date | sokes \ud83e\uddac",
+            "Current Date & Time | sokes \ud83e\uddac",
             "Hex to Color Name | sokes \ud83e\uddac",
             "Latent Switch x9 | sokes \ud83e\uddac",
             "Load Random Image | sokes \ud83e\uddac",

@@ -964,6 +964,7 @@
     "https://github.com/Chargeuk/ComfyUI-vts-nodes": [
         [
             "VTS Add Text To list",
+            "VTS Calculate Upscale Amount",
             "VTS Clean Text",
             "VTS Clean Text List",
             "VTS Clear Ram",
@@ -973,6 +974,7 @@
             "VTS Count Characters",
             "VTS Create Character Mask",
             "VTS Fix Image Tags",
+            "VTS Image Upscale With Model",
             "VTS Images Crop From Masks",
             "VTS Images Scale",
             "VTS Images Scale To Min",
@@ -1622,12 +1624,14 @@
             "CountFaces_EQX",
             "Extract Filename - EQX",
             "Extract LORA name - EQX",
+            "FaceDetectOut",
             "File Image Selector",
             "Load Prompt From File - EQX",
             "LoadRetinaFace_EQX",
             "LoraStackEQX_random",
             "NSFW Detector EQX",
-            "SaveImage_EQX"
+            "SaveImage_EQX",
+            "WorkFlow Check"
         ],
         {
             "title_aux": "ComfyUI_EQX"

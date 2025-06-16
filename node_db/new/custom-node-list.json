@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "jurdnf",
+            "title": "ComfyUI-JurdnsModelSculptor",
+            "reference": "https://github.com/jurdnf/ComfyUI-JurdnsModelSculptor",
+            "files": [
+                "https://github.com/jurdnf/ComfyUI-JurdnsModelSculptor"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node package for seamless integration with Threads (Meta's social platform). This package allows you to publish posts, manage images, and retrieve post history directly from your ComfyUI workflows."
+        },
+        {
+            "author": "Alex Genovese",
+            "title": "ComfyUI UNO Nodes",
+            "reference": "https://github.com/alexgenovese/ComfyUI-UNO-Flux",
+            "files": [
+                "https://github.com/alexgenovese/ComfyUI-UNO-Flux"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI UNO Nodes is a collection of nodes for ComfyUI that allows you to load and use UNO models."
+        },
+        {
+            "author": "fredconex",
+            "title": "Sync Edit",
+            "reference": "https://github.com/fredconex/ComfyUI-SyncEdit",
+            "files": [
+                "https://github.com/fredconex/ComfyUI-SyncEdit"
+            ],
+            "install_type": "git-clone",
+            "description": "This node allow to intercept changes on the input string and choose between use the current one or sync with incoming new one."
+        },
+        {
+            "author": "Clybius",
+            "title": "ComfyUI-ClybsChromaNodes",
+            "reference": "https://github.com/Clybius/ComfyUI-ClybsChromaNodes",
+            "files": [
+                "https://github.com/Clybius/ComfyUI-ClybsChromaNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A small collection of nodes intended for use with Lodestone Rock's Chroma model, for ComfyUI."
+        },
+        {
+            "author": "DrStone71",
+            "title": "ComfyUI-Prompt-Translator",
+            "reference": "https://github.com/DrStone71/ComfyUI-Prompt-Translator",
+            "files": [
+                "https://github.com/DrStone71/ComfyUI-Prompt-Translator"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI allows you to translate your prompt directly into the language used by your LLM"
+        },
+        {
             "author": "Yuan-ManX",
             "title": "ComfyUI-Hunyuan3D-2.1",
             "reference": "https://github.com/Yuan-ManX/ComfyUI-Hunyuan3D-2.1",
@@ -651,48 +701,6 @@
             ],
             "install_type": "git-clone",
             "description": "This is an experimental node for generating an *imatrix* file to reduce quantization errors in GGUF files used with ComfyUI-GGUF."
-        },
-        {
-            "author": "MDMAchine",
-            "title": "MD Nodes",
-            "id": "comfyuimdnodes",
-            "reference": "https://github.com/MDMAchine/ComfyUI_MD_Nodes",
-            "files": [
-                "https://github.com/MDMAchine/ComfyUI_MD_Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A wild collection of custom nodes for ComfyUI including noise schedulers, samplers, audio preview, latent visualizers, and more — built for maximal creative chaos."
-        },
-        {
-            "author": "spawner",
-            "title": "CUI-Lumina2-TeaCache",
-            "reference": "https://github.com/spawner1145/CUI-Lumina2-TeaCache",
-            "files": [
-                "https://github.com/spawner1145/CUI-Lumina2-TeaCache"
-            ],
-            "install_type": "git-clone",
-            "description": "comfy extension for lumina2 TeaCache"
-        },
-        {
-            "author": "e-tier-newbie",
-            "title": "ComfyUI-E-Tier-TextSaver",
-            "id": "e-tier-text-saver",
-            "reference": "https://github.com/e-tier-newbie/ComfyUI-E-Tier-TextSaver",
-            "files": [
-                "https://github.com/e-tier-newbie/ComfyUI-E-Tier-TextSaver"
-            ],
-            "install_type": "git-clone",
-            "description": "A node for saving cleaned text outputs, useful for LoRA training. Removes unwanted tokens like <pad> and saves to .txt."
-        },
-        {
-            "author": "ARZUMATA",
-            "title": "ComfyUI-ARZUMATA-PixelIt",
-            "reference": "https://github.com/ARZUMATA/ComfyUI-ARZUMATA-PixelIt",
-            "files": [
-                "https://github.com/ARZUMATA/ComfyUI-ARZUMATA-PixelIt"
-            ],
-            "install_type": "git-clone",
-            "description": "A python port of pixelit by giventofly."
         }
     ]
 }
