@@ -1392,7 +1392,8 @@
         [
             "AJO_AudioCollectAndConcat",
             "AJO_PreviewAudio",
-            "AJO_SaveAudio"
+            "AJO_SaveAudio",
+            "AJO_VfiSkipListCalculator"
         ],
         {
             "title_aux": "ComfyUI-AjoNodes"
@@ -9787,6 +9788,7 @@
             "Runware Image Inference",
             "Runware Image Masking",
             "Runware Image Upscaler",
+            "Runware Imagen Inference",
             "Runware Kontext Inference",
             "Runware Lora Combine",
             "Runware Lora Search",
@@ -13677,6 +13679,17 @@
             "title_aux": "ComfyUI-HiDream-I1"
         }
     ],
+    "https://github.com/Yuan-ManX/ComfyUI-Hunyuan3D-2.1": [
+        [
+            "Hunyuan3DShapeGeneration",
+            "Hunyuan3DTexureSynthsis",
+            "LoadHunyuan3DImage",
+            "LoadHunyuan3DModel"
+        ],
+        {
+            "title_aux": "ComfyUI-Hunyuan3D-2.1"
+        }
+    ],
     "https://github.com/Yuan-ManX/ComfyUI-HunyuanPortrait": [
         [
             "HunyuanPortrait",
@@ -14153,7 +14166,8 @@
     "https://github.com/Zehong-Ma/ComfyUI-MagCache": [
         [
             "CompileModel",
-            "MagCache"
+            "MagCache",
+            "MagCacheCalibration"
         ],
         {
             "title_aux": "ComfyUI-MagCache"
@@ -18400,7 +18414,13 @@
     ],
     "https://github.com/christian-byrne/claude-code-comfyui-nodes": [
         [
-            "Example"
+            "ClaudeCodeArguments",
+            "ClaudeCodeContext",
+            "ClaudeCodeExecute",
+            "ClaudeCodeMCP",
+            "ClaudeCodeMemory",
+            "ClaudeCodeReader",
+            "ClaudeCodeTools"
         ],
         {
             "title_aux": "Claude Code ComfyUI Nodes"
@@ -26434,6 +26454,25 @@
             "title_aux": "ComfyUI-Azure-Blob-Storage"
         }
     ],
+    "https://github.com/l3ony2k/comfyui-leon-nodes": [
+        [
+            "Leon_Flux_Image_API_Node",
+            "Leon_Flux_Kontext_API_Node",
+            "Leon_Google_Image_API_Node",
+            "Leon_Hypr_Upload_Node",
+            "Leon_Image_Split_4Grid_Node",
+            "Leon_ImgBB_Upload_Node",
+            "Leon_Luma_AI_Image_API_Node",
+            "Leon_Midjourney_Describe_API_Node",
+            "Leon_Midjourney_Proxy_API_Node",
+            "Leon_Midjourney_Upload_API_Node",
+            "Leon_String_Combine_Node"
+        ],
+        {
+            "nodename_pattern": "^\ud83e\udd16 Leon",
+            "title_aux": "Leon's Utility and API Integration Nodes"
+        }
+    ],
     "https://github.com/laksjdjf/Batch-Condition-ComfyUI": [
         [
             "Batch String",
@@ -28344,6 +28383,15 @@
             "title_aux": "ComfyUI-ModelQuantizer"
         }
     ],
+    "https://github.com/lum3on/comfyui_EdgeTAM": [
+        [
+            "EdgeTAMVideoTracker",
+            "InteractiveMaskEditor"
+        ],
+        {
+            "title_aux": "comfyui_EdgeTAM"
+        }
+    ],
     "https://github.com/lum3on/comfyui_LLM_Polymath": [
         [
             "ConceptEraserNode",
@@ -29180,15 +29228,6 @@
         ],
         {
             "title_aux": "MLTask_ComfyUI"
-        }
-    ],
-    "https://github.com/mit-han-lab/ComfyUI-nunchaku": [
-        [
-            "NunchakuFluxDiTLoader",
-            "NunchakuFluxLoraLoader"
-        ],
-        {
-            "title_aux": "ComfyUI-nunchaku"
         }
     ],
     "https://github.com/mittimi/ComfyUI_mittimiLoadPreset2": [
@@ -35396,6 +35435,9 @@
             "ImageConcatenate_UTK",
             "ImageRatioDetector_UTK",
             "LoadAudioPlusFromPath_UTK",
+            "MaskAdd_UTK",
+            "MaskAnd_UTK",
+            "MaskSub_UTK",
             "PreviewMask_UTK",
             "ShowFloat_UTK",
             "ShowInt_UTK",

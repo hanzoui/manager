@@ -22838,6 +22838,16 @@
             "description": "Professional-grade frame manipulation tools for ComfyUI, providing advanced video editing capabilities with native IMAGE tensor support."
         },
         {
+            "author": "lum3on",
+            "title": "comfyui_EdgeTAM",
+            "reference": "https://github.com/lum3on/comfyui_EdgeTAM",
+            "files": [
+                "https://github.com/lum3on/comfyui_EdgeTAM"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node implementation of EdgeTAM (On-Device Track Anything Model) for efficient, interactive video object tracking."
+        },
+        {
             "author": "austinbrown34",
             "title": "ComfyUI-IO-Helpers",
             "reference": "https://github.com/austinbrown34/ComfyUI-IO-Helpers",
@@ -27626,6 +27636,40 @@
             "install_type": "git-clone",
             "description": "A ComfyUI custom node package for seamless integration with Threads (Meta's social platform). This package allows you to publish posts, manage images, and retrieve post history directly from your ComfyUI workflows."
         },
+        {
+            "author": "Leon",
+            "title": "Leon's Utility and API Integration Nodes",
+            "id": "leon",
+            "reference": "https://github.com/l3ony2k/comfyui-leon-nodes",
+            "files": [
+                "https://github.com/l3ony2k/comfyui-leon-nodes"
+            ],
+            "nodename_pattern": "^🤖 Leon",
+            "install_type": "git-clone",
+            "description": "A comprehensive collection of utility and API integration nodes for ComfyUI. Includes image manipulation (4-grid split), string utilities, and multiple API integrations: ImgBB upload, HyprLab upload, Google Image API, Luma AI, FLUX Image API, FLUX Kontext API, and Midjourney proxy integration. Features include image/video hosting, AI image generation, and image description capabilities.",
+            "pip": [
+                "Pillow",
+                "torch",
+                "numpy",
+                "requests",
+                "tenacity"
+            ],
+            "tags": [
+                "image",
+                "utility",
+                "api",
+                "upload",
+                "generation",
+                "split",
+                "string",
+                "imgbb",
+                "hypr",
+                "google",
+                "luma",
+                "flux",
+                "midjourney"
+            ]
+        },
 
 
 
@@ -28064,40 +28108,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Leon",
-            "title": "Leon's Utility and API Integration Nodes",
-            "id": "leon",
-            "reference": "https://github.com/l3ony2k/comfyui-leon-nodes",
-            "files": [
-                "https://github.com/l3ony2k/comfyui-leon-nodes"
-            ],
-            "nodename_pattern": "^🤖 Leon",
-            "install_type": "git-clone",
-            "description": "A comprehensive collection of utility and API integration nodes for ComfyUI. Includes image manipulation (4-grid split), string utilities, and multiple API integrations: ImgBB upload, HyprLab upload, Google Image API, Luma AI, FLUX Image API, FLUX Kontext API, and Midjourney proxy integration. Features include image/video hosting, AI image generation, and image description capabilities.",
-            "pip": [
-                "Pillow",
-                "torch",
-                "numpy",
-                "requests",
-                "tenacity"
-            ],
-            "tags": [
-                "image",
-                "utility",
-                "api",
-                "upload",
-                "generation",
-                "split",
-                "string",
-                "imgbb",
-                "hypr",
-                "google",
-                "luma",
-                "flux",
-                "midjourney"
-            ]
         }
     ]
 }

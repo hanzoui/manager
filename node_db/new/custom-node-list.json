@@ -1,6 +1,60 @@
 {
     "custom_nodes": [
         {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-Hunyuan3D-2.1",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-Hunyuan3D-2.1",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-Hunyuan3D-2.1"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-Hunyuan3D-2.1 is now available in ComfyUI, Hunyuan3D-2.1 is a scalable 3D asset creation system that advances state-of-the-art 3D generation through two pivotal innovations: Fully Open-Source Framework and Physically-Based Rendering (PBR) Texture Synthesis."
+        },
+        {
+            "author": "Leon",
+            "title": "Leon's Utility and API Integration Nodes",
+            "id": "leon",
+            "reference": "https://github.com/l3ony2k/comfyui-leon-nodes",
+            "files": [
+                "https://github.com/l3ony2k/comfyui-leon-nodes"
+            ],
+            "nodename_pattern": "^🤖 Leon",
+            "install_type": "git-clone",
+            "description": "A comprehensive collection of utility and API integration nodes for ComfyUI. Includes image manipulation (4-grid split), string utilities, and multiple API integrations: ImgBB upload, HyprLab upload, Google Image API, Luma AI, FLUX Image API, FLUX Kontext API, and Midjourney proxy integration. Features include image/video hosting, AI image generation, and image description capabilities.",
+            "pip": [
+                "Pillow",
+                "torch",
+                "numpy",
+                "requests",
+                "tenacity"
+            ],
+            "tags": [
+                "image",
+                "utility",
+                "api",
+                "upload",
+                "generation",
+                "split",
+                "string",
+                "imgbb",
+                "hypr",
+                "google",
+                "luma",
+                "flux",
+                "midjourney"
+            ]
+        },
+        {
+            "author": "lum3on",
+            "title": "comfyui_EdgeTAM",
+            "reference": "https://github.com/lum3on/comfyui_EdgeTAM",
+            "files": [
+                "https://github.com/lum3on/comfyui_EdgeTAM"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node implementation of EdgeTAM (On-Device Track Anything Model) for efficient, interactive video object tracking."
+        },
+        {
             "author": "christian-byrne",
             "title": "Claude Code ComfyUI Nodes",
             "reference": "https://github.com/christian-byrne/claude-code-comfyui-nodes",
@@ -639,56 +693,6 @@
             ],
             "install_type": "git-clone",
             "description": "A python port of pixelit by giventofly."
-        },
-        {
-            "author": "s9roll7",
-            "title": "Audio Batch",
-            "reference": "https://github.com/set-soft/ComfyUI-AudioBatch",
-            "files": [
-                "https://github.com/set-soft/ComfyUI-AudioBatch"
-            ],
-            "install_type": "git-clone",
-            "description": "Audio batch creation, extraction, resample, mono and stereo conversion."
-        },
-        {
-            "author": "jack-liu",
-            "title": "Pillar_For_ComfyUI",
-            "reference": "https://github.com/aicoder-max/Pillar_For_ComfyUI",
-            "files": [
-                "https://github.com/aicoder-max/Pillar_For_ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "Pillar is an extension plugin for ComfyUI, providing the ability to call local distributed services for ComfyUI. Currently, it integrates the llama-joycaption-beta-one-hf-llava model and offers a distributed deployment solution to solve the problem that the model occupies too many resources and affects the image generation efficiency."
-        },
-        {
-            "author": "scraed",
-            "title": "LanPaint",
-            "reference": "https://github.com/scraed/LanPaint",
-            "files": [
-                "https://github.com/scraed/LanPaint"
-            ],
-            "install_type": "git-clone",
-            "description": "Achieve seamless inpainting results without needing a specialized inpainting model."
-        },
-        {
-            "author": "xl0",
-            "title": "latent-tools",
-            "reference": "https://github.com/xl0/latent-tools",
-            "files": [
-                "https://github.com/xl0/latent-tools"
-            ],
-            "install_type": "git-clone",
-            "description": "Visualize and manipulate the latent space in ComfyUI"
-        },
-        {
-            "author": "chaunceyyann",
-            "title": "ComfyUI Image Processing Nodes",
-            "reference": "https://github.com/chaunceyyann/comfyui-image-processing-nodes",
-            "files": [
-                "https://github.com/chaunceyyann/comfyui-image-processing-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for ComfyUI focused on image processing operations."
         }
     ]
 }
