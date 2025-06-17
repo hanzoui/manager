@@ -13566,11 +13566,13 @@
     ],
     "https://github.com/Yanick112/ComfyUI-ToSVG": [
         [
-            "ConvertRasterToVectorBW",
-            "ConvertRasterToVectorColor",
-            "ConvertVectorToRaster",
-            "SVGPreview",
-            "SaveSVG"
+            "TS_ImageToSVGStringBW",
+            "TS_ImageToSVGStringColor",
+            "TS_SVGBytesIOToString",
+            "TS_SVGStringPreview",
+            "TS_SVGStringToImage",
+            "TS_SVGStringToSVGBytesIO",
+            "TS_SaveSVGString"
         ],
         {
             "title_aux": "ComfyUI-ToSVG"
@@ -24554,6 +24556,20 @@
             "title_aux": "ComfyUI Prompt Expander Node"
         }
     ],
+    "https://github.com/jinchanz/ComfyUI-ADIC": [
+        [
+            "ADIC_COMMON_API",
+            "ImageTranslateAPI",
+            "ImageTranslateParamsBuilder",
+            "ImageTranslateResultExtractor",
+            "LoadImagesFromUrls",
+            "PythonCodeExecutor",
+            "StringToJsonArray"
+        ],
+        {
+            "title_aux": "ComfyUI-ADIC"
+        }
+    ],
     "https://github.com/jitcoder/lora-info": [
         [
             "ImageFromURL",
@@ -27719,6 +27735,18 @@
             "title_aux": "comfyui-mask-util"
         }
     ],
+    "https://github.com/lord-lethris/ComfyUI-RPG-Characters": [
+        [
+            "PromptConcatenatorNode",
+            "PromptConditioningConverter",
+            "PromptSelectorNode",
+            "RPGArtStyleSelector",
+            "RPGCharacterSelector"
+        ],
+        {
+            "title_aux": "ComfyUI-RPG-Characters"
+        }
+    ],
     "https://github.com/lordgasmic/comfyui_save_image_with_options": [
         [
             "SaveImageWithOptions"
@@ -27946,6 +27974,7 @@
             "IterativeLatentUpscale",
             "KSamplerAdvancedProvider",
             "KSamplerProvider",
+            "LamaRemoverDetailerHookProvider",
             "LatentPixelScale",
             "LatentReceiver",
             "LatentSender",

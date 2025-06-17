@@ -27740,6 +27740,27 @@
             "install_type": "git-clone",
             "description": "This is a node to load an image from local path or url."
         },
+        {
+            "author": "jinchanz",
+            "title": "ComfyUI-ADIC",
+            "reference": "https://github.com/jinchanz/ComfyUI-ADIC",
+            "files": [
+                "https://github.com/jinchanz/ComfyUI-ADIC"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a set of custom nodes for calling an image translation API within ComfyUI."
+        },
+        {
+            "author": "Lord Lethris",
+            "title": "ComfyUI-RPG-Characters",
+            "id": "rpg-characters",
+            "reference": "https://github.com/lord-lethris/ComfyUI-RPG-Characters",
+            "files": [
+                "https://github.com/lord-lethris/ComfyUI-RPG-Characters"
+            ],
+            "install_type": "git-clone",
+            "description": "Stylized RPG character prompt generator for ComfyUI. Supports standard and Ollama-based prompts, works with SD, SDXL, Flux, and more."
+        },
 
 
 
@@ -28180,17 +28201,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Lord Lethris",
-            "title": "ComfyUI-RPG-Characters",
-            "id": "rpg-characters",
-            "reference": "https://github.com/lord-lethris/ComfyUI-RPG-Characters",
-            "files": [
-                "https://github.com/lord-lethris/ComfyUI-RPG-Characters"
-            ],
-            "install_type": "git-clone",
-            "description": "Stylized RPG character prompt generator for ComfyUI. Supports standard and Ollama-based prompts, works with SD, SDXL, Flux, and more."
         }
     ]
 }

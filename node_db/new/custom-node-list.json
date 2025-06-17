@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "Lord Lethris",
+            "title": "ComfyUI-RPG-Characters",
+            "id": "rpg-characters",
+            "reference": "https://github.com/lord-lethris/ComfyUI-RPG-Characters",
+            "files": [
+                "https://github.com/lord-lethris/ComfyUI-RPG-Characters"
+            ],
+            "install_type": "git-clone",
+            "description": "Stylized RPG character prompt generator for ComfyUI. Supports standard and Ollama-based prompts, works with SD, SDXL, Flux, and more."
+        },
+        {
             "author": "Phospholipids",
             "title": "PPWildCard",
             "reference": "https://github.com/kohs100/comfyui-ppwc",
@@ -40,6 +51,16 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node package for seamless integration with Threads (Meta's social platform). This package allows you to publish posts, manage images, and retrieve post history directly from your ComfyUI workflows."
+        },
+        {
+            "author": "jinchanz",
+            "title": "ComfyUI-ADIC",
+            "reference": "https://github.com/jinchanz/ComfyUI-ADIC",
+            "files": [
+                "https://github.com/jinchanz/ComfyUI-ADIC"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a set of custom nodes for calling an image translation API within ComfyUI."
         },
         {
             "author": "Alex Genovese",
@@ -672,26 +693,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI Node to save and load prompts from a library."
-        },
-        {
-            "author": "judian17",
-            "title": "ComfyUI-UniWorld-jd17",
-            "reference": "https://github.com/judian17/ComfyUI-UniWorld-jd17",
-            "files": [
-                "https://github.com/judian17/ComfyUI-UniWorld-jd17"
-            ],
-            "install_type": "git-clone",
-            "description": "Unofficial ComfyUI implementation of [a/UniWorld-V1](https://github.com/PKU-YuanGroup/UniWorld-V1)."
-        },
-        {
-            "author": "whmc76",
-            "title": "ComfyUI-UniversalToolkit",
-            "reference": "https://github.com/whmc76/ComfyUI-UniversalToolkit",
-            "files": [
-                "https://github.com/whmc76/ComfyUI-UniversalToolkit"
-            ],
-            "install_type": "git-clone",
-            "description": "This plugin provides general-purpose utility nodes for ComfyUI. Currently, it implements a 'Blank Cell Generator' node, which can batch-generate images, masks, and latents with specified resolution and color."
         }
     ]
 }
