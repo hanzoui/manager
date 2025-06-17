@@ -28180,6 +28180,17 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "Lord Lethris",
+            "title": "ComfyUI-RPG-Characters",
+            "id": "rpg-characters",
+            "reference": "https://github.com/lord-lethris/ComfyUI-RPG-Characters",
+            "files": [
+                "https://github.com/lord-lethris/ComfyUI-RPG-Characters"
+            ],
+            "install_type": "git-clone",
+            "description": "Stylized RPG character prompt generator for ComfyUI. Supports standard and Ollama-based prompts, works with SD, SDXL, Flux, and more."
         }
     ]
 }
