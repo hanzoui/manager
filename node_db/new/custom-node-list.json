@@ -1,6 +1,37 @@
 {
     "custom_nodes": [
         {
+            "author": "Phospholipids",
+            "title": "PPWildCard",
+            "reference": "https://github.com/kohs100/comfyui-ppwc",
+            "files": [
+                "https://github.com/kohs100/comfyui-ppwc"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension offers wildcard prompting works solely in workflow."
+        },
+        {
+            "author": "linjian-ufo",
+            "title": "DeepSeek Chat Node for ComfyUI",
+            "reference": "https://github.com/linjian-ufo/comfyui_deepseek_lj257_update",
+            "files": [
+                "https://github.com/linjian-ufo/comfyui_deepseek_lj257_update"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node for ComfyUI that calls the DeepSeek Chat API to process text input and return text output."
+        },
+        {
+            "author": "jkhayiying",
+            "title": "ImageLoadFromLocalOrUrl Node for ComfyUI",
+            "id": "JkhaImageLoaderPathOrUrl",
+            "reference": "https://gitee.com/yyh915/jkha-load-img",
+            "files": [
+                "https://gitee.com/yyh915/jkha-load-img"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a node to load an image from local path or url."
+        },
+        {
             "author": "jurdnf",
             "title": "ComfyUI-JurdnsModelSculptor",
             "reference": "https://github.com/jurdnf/ComfyUI-JurdnsModelSculptor",
@@ -661,46 +692,6 @@
             ],
             "install_type": "git-clone",
             "description": "This plugin provides general-purpose utility nodes for ComfyUI. Currently, it implements a 'Blank Cell Generator' node, which can batch-generate images, masks, and latents with specified resolution and color."
-        },
-        {
-            "author": "xmarre",
-            "title": "LoRA-Safe TorchCompile",
-            "reference": "https://github.com/xmarre/TorchCompileModel_LoRASafe",
-            "files": [
-                "https://github.com/xmarre/TorchCompileModel_LoRASafe"
-            ],
-            "install_type": "git-clone",
-            "description": "Drop-in TorchCompile node that preserves LoRA patches."
-        },
-        {
-            "author": "xiaogui8dangjia",
-            "title": "Comfyui-imagetoSTL",
-            "reference": "https://github.com/xiaogui8dangjia/Comfyui-imagetoSTL",
-            "files": [
-                "https://github.com/xiaogui8dangjia/Comfyui-imagetoSTL"
-            ],
-            "install_type": "git-clone",
-            "description": "comfyui_imagetostl is a simple node for ComfyUI that converts grayscale images to STL."
-        },
-        {
-            "author": "NeonLightning",
-            "title": "neonllama",
-            "reference": "https://github.com/NeonLightning/neonllama",
-            "files": [
-                "https://github.com/NeonLightning/neonllama"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom ComfyUI node transforms a core idea into a richly detailed positive prompt using a local [a/Ollama](https://ollama.com) LLM."
-        },
-        {
-            "author": "laksjdjf",
-            "title": "ComfyUI-Imatrix",
-            "reference": "https://github.com/laksjdjf/ComfyUI-Imatrix",
-            "files": [
-                "https://github.com/laksjdjf/ComfyUI-Imatrix"
-            ],
-            "install_type": "git-clone",
-            "description": "This is an experimental node for generating an *imatrix* file to reduce quantization errors in GGUF files used with ComfyUI-GGUF."
         }
     ]
 }
