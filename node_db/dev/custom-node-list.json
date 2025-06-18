@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "ftf001-tech",
+            "title": "ComfyUI-Lucian [WIP]",
+            "reference": "https://github.com/ftf001-tech/ComfyUI-ExternalLLMDetector",
+            "files": [
+                "https://github.com/ftf001-tech/ComfyUI-ExternalLLMDetector"
+            ],
+            "install_type": "git-clone",
+            "description": "These nodes allow you to configure LLM API connections, send images with custom prompts, and convert the LLM's JSON bounding box responses into a format compatible with segmentation nodes like SAM2\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "bento234",
+            "title": "ComfyUI-bento-toolbox",
+            "reference": "https://github.com/bento234/ComfyUI-bento-toolbox",
+            "files": [
+                "https://github.com/bento234/ComfyUI-bento-toolbox"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Tile Prompt Distributor"
+        },
+        {
+            "author": "LucianGnn",
+            "title": "ComfyUI-Lucian [WIP]",
+            "reference": "https://github.com/LucianGnn/ComfyUI-Lucian",
+            "files": [
+                "https://github.com/LucianGnn/ComfyUI-Lucian"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Audio Duration Calculator\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "akatz-ai",
+            "title": "ComfyUI-Execution-Inversion",
+            "reference": "https://github.com/akatz-ai/ComfyUI-Execution-Inversion",
+            "files": [
+                "https://github.com/akatz-ai/ComfyUI-Execution-Inversion"
+            ],
+            "install_type": "git-clone",
+            "description": "Contains nodes related to the new execution inversion engine in ComfyUI. Node pack originally from [a/https://github.com/BadCafeCode/execution-inversion-demo-comfyui](https://github.com/BadCafeCode/execution-inversion-demo-comfyui)"
+        },
+        {
             "author": "mamorett",
             "title": "comfyui_minicpm_vision",
             "reference": "https://github.com/mamorett/comfyui_minicpm_vision",

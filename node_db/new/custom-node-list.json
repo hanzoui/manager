@@ -1,6 +1,29 @@
 {
     "custom_nodes": [
         {
+            "author": "dseditor",
+            "title": "ComfyUI-ScheduledTask",
+            "reference": "https://github.com/dseditor/ComfyUI-ScheduledTask",
+            "files": [
+                "https://github.com/dseditor/ComfyUI-ScheduledTask"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful workflow scheduling extension for ComfyUI that enables automated daily execution of workflows with an intuitive web interface."
+        },
+        {
+            "author": "😈 CasterPollux",
+            "title": "MiniMax Video Object Remover Suite",
+            "reference": "https://github.com/casterpollux/MiniMax-bmo",
+            "files": [
+                "https://github.com/casterpollux/MiniMax-bmo"
+            ],
+            "nodename_pattern":  "MiniMax.*BMO|BMO.*MiniMax",
+            "pip":  ["segment-anything"],
+            "tags": ["video", "inpainting", "object-removal", "suite", "professional", "BMO"],
+            "install_type": "git-clone",
+            "description": "Professional video object removal suite using MiniMax optimization. Includes BMO-enhanced nodes with VAE normalization, temporal preservation, and 6-step inference. Complete video inpainting solution for ComfyUI."
+        },
+        {
             "author": "ialhabbal",
             "title": "OcclusionMask",
             "reference": "https://github.com/ialhabbal/OcclusionMask",
@@ -672,36 +695,6 @@
             ],
             "install_type": "git-clone",
             "description": "Quickly create empty latents in common resolutions and aspect ratios for SD 1.5, SDXL, Flux, Chroma, and HiDream. Choose from curated presets or generate by axis and aspect ratio. Appears in the 'latent' node group."
-        },
-        {
-            "author": "spawner",
-            "title": "comfyui-aichat",
-            "reference": "https://github.com/spawner1145/comfyui-aichat",
-            "files": [
-                "https://github.com/spawner1145/comfyui-aichat"
-            ],
-            "install_type": "git-clone",
-            "description": "gemini and openai in comfyui"
-        },
-        {
-            "author": "swhsiang",
-            "title": "comfyui-3d-gs-renderer",
-            "reference": "https://github.com/swhsiang/comfyui-3d-gs-renderer",
-            "files": [
-                "https://github.com/swhsiang/comfyui-3d-gs-renderer"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node to support 3D GS rendering"
-        },
-        {
-            "author": "sLKbabawhsiang",
-            "title": "ComfyUI-TuZi-Flux-Kontext",
-            "reference": "https://github.com/LKbaba/ComfyUI-TuZi-Flux-Kontext",
-            "files": [
-                "https://github.com/LKbaba/ComfyUI-TuZi-Flux-Kontext"
-            ],
-            "install_type": "git-clone",
-            "description": " Powerful Flux-Kontext image generation custom node for ComfyUI, using the official RabbitAI API. Supports text-to-image, image-to-image, and multi-image-to-image generation. Supports concurrent generation."
         }
     ]
 }

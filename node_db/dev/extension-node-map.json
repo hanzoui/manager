@@ -2233,6 +2233,14 @@
             "title_aux": "ComfyUI simple ChatGPT completion [UNSAFE]"
         }
     ],
+    "https://github.com/LucianGnn/ComfyUI-Lucian": [
+        [
+            "AudioDurationCalculator"
+        ],
+        {
+            "title_aux": "ComfyUI-Lucian [WIP]"
+        }
+    ],
     "https://github.com/LyazS/ComfyUI-aznodes": [
         [
             "CrossFadeImageSequence",
@@ -3599,6 +3607,36 @@
             "title_aux": "etm_comfyui_nodes"
         }
     ],
+    "https://github.com/akatz-ai/ComfyUI-Execution-Inversion": [
+        [
+            "AccumulateNode",
+            "AccumulationGetItemNode",
+            "AccumulationGetLengthNode",
+            "AccumulationHeadNode",
+            "AccumulationSetItemNode",
+            "AccumulationTailNode",
+            "AccumulationToListNode",
+            "DebugPrint",
+            "ExecutionBlocker",
+            "ForLoopClose",
+            "ForLoopOpen",
+            "GetFloatFromList",
+            "GetIntFromList",
+            "IntegerListGeneratorNode",
+            "LazyConditional",
+            "LazyIndexSwitch",
+            "LazyMixImages",
+            "LazySwitch",
+            "ListToAccumulationNode",
+            "MakeListNode",
+            "WhileLoopClose",
+            "WhileLoopOpen",
+            "_ForLoopCounter"
+        ],
+        {
+            "title_aux": "ComfyUI-Execution-Inversion"
+        }
+    ],
     "https://github.com/aklevecz/ComfyUI-AutoPrompt": [
         [
             "OllamaChat",
@@ -3891,6 +3929,18 @@
         ],
         {
             "title_aux": "ComfyGCS [WIP]"
+        }
+    ],
+    "https://github.com/bento234/ComfyUI-bento-toolbox": [
+        [
+            "BendrealityLoadImage",
+            "BendrealitySaveImage",
+            "TilePromptAssigner",
+            "TilePromptDistributor",
+            "TilePromptProcessor"
+        ],
+        {
+            "title_aux": "ComfyUI-bento-toolbox"
         }
     ],
     "https://github.com/beyastard/ComfyUI_BeySoft": [
@@ -5221,6 +5271,16 @@
         ],
         {
             "title_aux": "ComfyUI-NovaKit-Pack"
+        }
+    ],
+    "https://github.com/ftf001-tech/ComfyUI-ExternalLLMDetector": [
+        [
+            "ExternalLLMDetectorBboxesConvert",
+            "ExternalLLMDetectorMainProcess",
+            "ExternalLLMDetectorSettings"
+        ],
+        {
+            "title_aux": "ComfyUI-Lucian [WIP]"
         }
     ],
     "https://github.com/gabe-init/ComfyUI-LM-Studio": [
