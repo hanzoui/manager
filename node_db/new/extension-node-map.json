@@ -4114,6 +4114,7 @@
             "Ryuu_FloatPlainLarger",
             "Ryuu_FloatSlider",
             "Ryuu_IntSlider",
+            "Ryuu_ScaleToMultipleAdvanced",
             "Ryuu_TextEncoderDiffCheck",
             "Ryuu_TokenCountTextBox"
         ],
@@ -13566,9 +13567,12 @@
     ],
     "https://github.com/Yanick112/ComfyUI-ToSVG": [
         [
-            "TS_ImageToSVGStringBW",
-            "TS_ImageToSVGStringColor",
+            "TS_ImageQuantize",
+            "TS_ImageToSVGStringBW_Potracer",
+            "TS_ImageToSVGStringBW_Vtracer",
+            "TS_ImageToSVGStringColor_Vtracer",
             "TS_SVGBytesIOToString",
+            "TS_SVGPathSimplify",
             "TS_SVGStringPreview",
             "TS_SVGStringToImage",
             "TS_SVGStringToSVGBytesIO",
@@ -16021,7 +16025,8 @@
             "CPackOutputFile",
             "CPackOutputImage",
             "CPackOutputVideo",
-            "CPackOutputZip"
+            "CPackOutputZip",
+            "CPackOutputZipSwitch"
         ],
         {
             "title_aux": "Comfy-Pack"
@@ -30200,6 +30205,7 @@
     "https://github.com/nofunstudio/Node_Fun_ComfyUI": [
         [
             "DynamicQueueCounter",
+            "FalAPI_kling_video",
             "FalAPI_recraft_upscale",
             "Fun KSampler",
             "IframeView",
