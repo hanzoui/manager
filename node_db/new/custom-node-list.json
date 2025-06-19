@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "azazeal04",
+            "title": "anime_character_selector",
+            "reference": "https://github.com/azazeal04/Azazeal_Anime_Characters_ComfyUI",
+            "files": [
+                "https://github.com/azazeal04/Azazeal_Anime_Characters_ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "character nodes for characters from various anime shows and comics"
+        },
+        {
+            "author": "drphero",
+            "title": "ComfyUI-PromptTester",
+            "reference": "https://github.com/drphero/comfyui_prompttester",
+            "files": [
+                "https://github.com/drphero/comfyui_prompttester"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatically tests the impact of each phrase in a prompt by generating images with one phrase omitted at a time."
+        },
+        {
             "author": "dseditor",
             "title": "ComfyUI-ScheduledTask",
             "reference": "https://github.com/dseditor/ComfyUI-ScheduledTask",

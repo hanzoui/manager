@@ -20646,6 +20646,14 @@
             "title_aux": "comfyui-dreambait-nodes"
         }
     ],
+    "https://github.com/drphero/comfyui_prompttester": [
+        [
+            "PromptTester"
+        ],
+        {
+            "title_aux": "ComfyUI-PromptTester"
+        }
+    ],
     "https://github.com/drustan-hawk/primitive-types": [
         [
             "float",
@@ -27805,6 +27813,7 @@
     ],
     "https://github.com/lord-lethris/ComfyUI-RPG-Characters": [
         [
+            "ModelLikenessSwitch",
             "PromptConcatenatorNode",
             "PromptConditioningConverter",
             "PromptSelectorNode",
@@ -31863,6 +31872,7 @@
             "BooleanToEnabled",
             "CannySlider",
             "ConfigurableDrawText",
+            "ConfigurableModelRouter",
             "ControlNetSlider",
             "DenoiseSlider",
             "DrawTextConfig",

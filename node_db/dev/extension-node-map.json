@@ -7096,7 +7096,9 @@
     ],
     "https://github.com/markuryy/comfyui-spiritparticle": [
         [
-            "FolderImageSelector"
+            "FolderImageSelector",
+            "RandomCheckpointLoader",
+            "RandomLoRALoader"
         ],
         {
             "title_aux": "ComfyUI Spiritparticle Nodes [WIP]"
@@ -8428,6 +8430,14 @@
         ],
         {
             "title_aux": "ComfyUI-Rpg-Architect [WIP]"
+        }
+    ],
+    "https://github.com/tankenyuen-ola/comfyui-env-variable-reader": [
+        [
+            "EnvironmentVariableNode"
+        ],
+        {
+            "title_aux": "comfyui-env-variable-reader [UNSAFE]"
         }
     ],
     "https://github.com/tanmoy-it/comfyuiCustomNode": [
