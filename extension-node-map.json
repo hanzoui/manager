@@ -12266,6 +12266,7 @@
             "tri3d_NSFWFilter",
             "tri3d_NarrowfyImage",
             "tri3d_Remove_Small_Mask_Islands",
+            "tri3d_SaveFlattenedPoseKpsAsJsonFile",
             "tri3d_SaveImage_absolute",
             "tri3d_SaveText_absolute",
             "tri3d_Skip_HeadMask",
@@ -21496,6 +21497,15 @@
             "title_aux": "ComfyUI_Fill-Nodes"
         }
     ],
+    "https://github.com/flamacore/ComfyUI-YouTubeUploader": [
+        [
+            "YouTubeAuthNode",
+            "YouTubeUploaderNode"
+        ],
+        {
+            "title_aux": "ComfyUI YouTube Uploader"
+        }
+    ],
     "https://github.com/florestefano1975/ComfyUI-Advanced-Sequence-Seed": [
         [
             "AdvancedSequenceSeedNode"
@@ -24610,6 +24620,7 @@
             "ImageTranslateParamsBuilder",
             "ImageTranslateResultExtractor",
             "LoadImagesFromUrls",
+            "MarketImageGenerateWithPolling",
             "PythonCodeExecutor",
             "StringToJsonArray"
         ],
@@ -28567,6 +28578,28 @@
             "title_aux": "ComfyUI-ModelQuantizer"
         }
     ],
+    "https://github.com/lum3on/ComfyUI-StableAudioX": [
+        [
+            "AudioXAdvancedVolumeControl",
+            "AudioXAudioProcessor",
+            "AudioXEnhancedTextToAudio",
+            "AudioXEnhancedTextToMusic",
+            "AudioXEnhancedVideoToAudio",
+            "AudioXModelLoader",
+            "AudioXMultiModalGeneration",
+            "AudioXPromptHelper",
+            "AudioXTextToAudio",
+            "AudioXTextToMusic",
+            "AudioXVideoAudioCombiner",
+            "AudioXVideoMuter",
+            "AudioXVideoToAudio",
+            "AudioXVideoToMusic",
+            "AudioXVolumeControl"
+        ],
+        {
+            "title_aux": "ComfyUI-AudioX"
+        }
+    ],
     "https://github.com/lum3on/comfyui_EdgeTAM": [
         [
             "EdgeTAMVideoTracker",
@@ -29240,13 +29273,13 @@
             "title_aux": "ComfyUI-Miaoshouai-Tagger"
         }
     ],
-    "https://github.com/michaelgold/ComfyUI-Hal-Dot-Fun-Model-Downloader": [
+    "https://github.com/michaelgold/ComfyUI-HF-Model-Downloader": [
         [
             "DownloadModel",
             "ModelDownloader"
         ],
         {
-            "title_aux": "Hal.fun Hugging Face Model Downloader"
+            "title_aux": "ComfyUI-HF-Model-Downloader"
         }
     ],
     "https://github.com/microbote/ComfyUI-StyledCLIPTextEncode": [
@@ -31145,19 +31178,34 @@
             "Boolean Transform",
             "CRT Post-Process Suite",
             "CRTPostProcess",
+            "CRT_UpscaleModelAdv",
+            "ClearStyleModelCache",
+            "FaceEnhancementPipeline",
+            "FaceEnhancementPipelineWithInjection",
             "FancyNoteNode",
+            "FluxAIO_CRT",
+            "FluxControlnetSampler",
+            "FluxControlnetSamplerWithInjection",
             "FluxLoraBlocksPatcher",
             "FluxTiledSamplerCustomAdvanced",
+            "LatentNoiseInjectionSampler",
             "Lora Loader Str",
+            "PonyFaceEnhancementPipelineWithInjection",
+            "PonyUpscaleSamplerWithInjection",
             "Remove Trailing Comma",
+            "Resolution",
+            "SimpleKnobNode",
+            "SimpleToggleNode",
+            "SmartStyleModelApply",
             "Toggle Lora Unet Blocks L1",
             "Toggle Lora Unet Blocks L2",
             "Video Duration Calculator"
         ],
         {
-            "author": "CRT",
-            "description": "Set of nodes for ComfyUI",
-            "title": "CRT-Nodes",
+            "author": "chflame",
+            "description": "A set of nodes for ComfyUI that can composite layer and mask to achieve Photoshop like functionality.",
+            "nickname": "LayerStyle",
+            "title": "LayerStyle",
             "title_aux": "CRT-Nodes"
         }
     ],
@@ -33538,6 +33586,15 @@
         ],
         {
             "title_aux": "ComfyUI_ParlerTTS"
+        }
+    ],
+    "https://github.com/smthemex/ComfyUI_PartPacker": [
+        [
+            "PartPacker_Loader",
+            "PartPacker_Sampler"
+        ],
+        {
+            "title_aux": "ComfyUI_PartPacker"
         }
     ],
     "https://github.com/smthemex/ComfyUI_Personalize_Anything": [

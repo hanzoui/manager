@@ -3704,6 +3704,7 @@
             "author": "shadowcz007",
             "title": "comfyui-try-on",
             "reference": "https://github.com/shadowcz007/comfyui-try-on",
+            "reference2": "https://github.com/MixLabPro/comfyui-try-on",
             "files": [
                 "https://github.com/shadowcz007/comfyui-try-on"
             ],
@@ -10965,6 +10966,16 @@
             "description": "HunyuanVideo-Avatar: High-Fidelity Audio-Driven Human Animation for Multiple Characters,try it in comfyUI ,if your VRAM >24G."
         },
         {
+            "author": "smthemex",
+            "title": "ComfyUI_PartPacker",
+            "reference": "https://github.com/smthemex/ComfyUI_PartPacker",
+            "files": [
+                "https://github.com/smthemex/ComfyUI_PartPacker"
+            ],
+            "install_type": "git-clone",
+            "description": "This is the comfyui implementation of [a/PartPacker](https://github.com/NVlabs/PartPacker): Efficient Part-level 3D Object Generation via Dual Volume Packing.Max varm12G"
+        },
+        {
             "author": "choey",
             "title": "Comfy-Topaz",
             "id": "topaz",
@@ -16971,6 +16982,7 @@
             "title": "Image to Painting and Inspyrenet Assistant Nodes",
             "id": "ComfyUI-Img2PaintingAssistant",
             "reference": "https://github.com/Isi-dev/ComfyUI-Img2PaintingAssistant",
+            "reference2": "https://github.com/Isi-dev/ComfyUI_Img2PaintingAssistant",
             "files": [
                 "https://github.com/Isi-dev/ComfyUI-Img2PaintingAssistant"
             ],
@@ -22300,6 +22312,7 @@
             "author": "oxysoft",
             "title": "ComfyUI-gowiththeflow",
             "reference": "https://github.com/oxysoft/ComfyUI-gowiththeflow-loopback",
+            "reference2": "https://github.com/oxysoft/ComfyUI-gowiththeflow",
             "files": [
                 "https://github.com/oxysoft/ComfyUI-gowiththeflow"
              ],
@@ -22858,6 +22871,16 @@
             "description": "A ComfyUI custom node implementation of EdgeTAM (On-Device Track Anything Model) for efficient, interactive video object tracking."
         },
         {
+            "author": "lum3on",
+            "title": "ComfyUI-AudioX",
+            "reference": "https://github.com/lum3on/ComfyUI-StableAudioX",
+            "files": [
+                "https://github.com/lum3on/ComfyUI-StableAudioX"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful audio generation extension for ComfyUI that integrates AudioX models for high-quality audio synthesis from text and video inputs."
+        },
+        {
             "author": "austinbrown34",
             "title": "ComfyUI-IO-Helpers",
             "reference": "https://github.com/austinbrown34/ComfyUI-IO-Helpers",
@@ -23186,7 +23209,7 @@
         {
             "author": "crave33",
             "title": "RenesStuffDanboruTagGet",
-            "reference":  "https://github.com/crave33/RenesStuffDanbooruTagGet",
+            "reference": "https://github.com/crave33/RenesStuffDanbooruTagGet",
             "files": [
                 "https://github.com/crave33/RenesStuffDanbooruTagGet"
             ],
@@ -24532,11 +24555,10 @@
         },
         {
             "author": "Michael Gold",
-            "title": "Hal.fun Hugging Face Model Downloader",
-            "id": "hal-dot-fun-model-downloader",
-            "reference": "https://github.com/michaelgold/ComfyUI-Hal-Dot-Fun-Model-Downloader",
+            "title": "ComfyUI-HF-Model-Downloader",
+            "reference": "https://github.com/michaelgold/ComfyUI-HF-Model-Downloader",
             "files": [
-              "https://github.com/michaelgold/ComfyUI-Hal-Dot-Fun-Model-Downloader"
+              "https://github.com/michaelgold/ComfyUI-HF-Model-Downloader"
             ],
             "install_type": "git-clone",
             "description": "Easily download and install 2D to 3D and Flux models from Hugging Face."
@@ -25355,7 +25377,7 @@
             "description": "[a/A3D](https://github.com/n0neye/A3D) is an AI x 3D hybrid tool that allows you to compose 3D scenes and render them with AI. This integration allows you to send the color & depth images to ComfyUI. You can use it as a pose controller, or scene composer for your ComfyUI workflows."
         },
         {
-            "author": "alessandroperilli",
+            "author": "perilli",
             "title": "apw_nodes",
             "reference": "https://github.com/alessandroperilli/apw_nodes",
             "files": [
@@ -25576,11 +25598,10 @@
         },
         {
             "author": "somesomebody",
-            "title": "comfyui-lorainfo-sidebar",
-            "id": "somesomebody-lorainfo-sidebar",
-            "reference": "https://github.com/somesomebody/comfyui-lorainfo-sidebar",
+            "title": "lorainfo-sidebar",
+            "reference": "https://github.com/somesomebody/lorainfo-sidebar",
             "files": [
-                "https://github.com/somesomebody/comfyui-lorainfo-sidebar"
+                "https://github.com/somesomebody/lorainfo-sidebar"
             ],
             "install_type": "git-clone",
             "description": "Preview images of LoRA files and edit their associated JSON files."
@@ -27813,6 +27834,17 @@
             ],
             "install_type": "git-clone",
             "description": "character nodes for characters from various anime shows and comics"
+        },
+        {
+            "author": "flamacore",
+            "title": "ComfyUI YouTube Uploader",
+            "id": "comfyui-youtubeuploader",
+            "reference": "https://github.com/flamacore/ComfyUI-YouTubeUploader",
+            "files": [
+                "https://github.com/flamacore/ComfyUI-YouTubeUploader"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node for uploading generated content to YouTube. [a/Buy me a coffee](https://buymeacoffee.com/chao.k)"
         },
 
 
