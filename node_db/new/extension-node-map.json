@@ -3402,6 +3402,7 @@
     ],
     "https://github.com/ComfyAssets/ComfyUI-KikoTools": [
         [
+            "EmptyLatentBatch",
             "ResolutionCalculator",
             "SamplerCombo",
             "SamplerComboCompact",
@@ -7569,6 +7570,8 @@
             "LTXVBaseSampler",
             "LTXVFilmGrain",
             "LTXVLatentUpsampler",
+            "LTXVPatcherVAE",
+            "LTXVPreprocessMasks",
             "LTXVPromptEnhancer",
             "LTXVPromptEnhancerLoader",
             "LTXVRecurrentKSampler",
@@ -15308,6 +15311,7 @@
             "Sage_OllamaLLMPromptVisionRefine",
             "Sage_PonyPrefix",
             "Sage_PonyStyle",
+            "Sage_QuickResPicker",
             "Sage_SamplerInfo",
             "Sage_SaveImageWithMetadata",
             "Sage_SetText",
@@ -20668,6 +20672,7 @@
     ],
     "https://github.com/dseditor/ComfyUI-ScheduledTask": [
         [
+            "DailyPromptScheduler",
             "TimeToSeedList"
         ],
         {
@@ -23480,6 +23485,7 @@
     ],
     "https://github.com/ialhabbal/OcclusionMask": [
         [
+            "BatchLoadImages",
             "ImageOcclusion"
         ],
         {
@@ -31176,26 +31182,36 @@
     "https://github.com/plugcrypt/CRT-Nodes": [
         [
             "Boolean Transform",
+            "CLIPTextEncodeFluxMerged",
             "CRT Post-Process Suite",
             "CRTPostProcess",
             "CRT_UpscaleModelAdv",
+            "ClearPreprocessorCache",
             "ClearStyleModelCache",
             "FaceEnhancementPipeline",
             "FaceEnhancementPipelineWithInjection",
             "FancyNoteNode",
+            "FileLoaderCrawl",
             "FluxAIO_CRT",
             "FluxControlnetSampler",
             "FluxControlnetSamplerWithInjection",
             "FluxLoraBlocksPatcher",
+            "FluxSemanticEncoder",
             "FluxTiledSamplerCustomAdvanced",
+            "ImageLoaderCrawl",
             "LatentNoiseInjectionSampler",
             "Lora Loader Str",
+            "MaskEmptyFloatNode",
+            "MaskPassOrPlaceholder",
             "PonyFaceEnhancementPipelineWithInjection",
             "PonyUpscaleSamplerWithInjection",
             "Remove Trailing Comma",
             "Resolution",
+            "SamplerSchedulerSelector",
+            "SimpleFluxShiftNode",
             "SimpleKnobNode",
             "SimpleToggleNode",
+            "SmartControlNetApply",
             "SmartStyleModelApply",
             "Toggle Lora Unet Blocks L1",
             "Toggle Lora Unet Blocks L2",
@@ -34613,6 +34629,7 @@
             "GeminiNode",
             "KoboldCppApiNode",
             "LoraStrengthXYPlot",
+            "MusiQNode",
             "SaveImageEnhancedNode"
         ],
         {
