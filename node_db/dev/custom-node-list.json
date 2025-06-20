@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "iacoposk8",
+            "title": "ComfyUI XOR Pickle Nodes",
+            "reference": "https://github.com/iacoposk8/xor_pickle_nodes",
+            "files": [
+                "https://github.com/iacoposk8/xor_pickle_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Two custom nodes for ComfyUI that allow you to encrypt and decrypt Python objects using simple XOR encryption with pickle."
+        },
+        {
+            "author": "Aryan185",
+            "title": "ComfyUI-ReplicateFluxKontext",
+            "reference": "https://github.com/Aryan185/ComfyUI-ReplicateFluxKontext",
+            "files": [
+                "https://github.com/Aryan185/ComfyUI-ReplicateFluxKontext"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for Flux Kontext Pro and Max models from Replicate"
+        },
+        {
+            "author": "yamanacn",
+            "title": "comfyui_qwen_object [WIP]",
+            "reference": "https://github.com/yamanacn/comfyui_qwen_object",
+            "files": [
+                "https://github.com/yamanacn/comfyui_qwen_object"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node for ComfyUI that integrates the Qwen vision model for tasks such as object detection.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "neverbiasu",
             "title": "ComfyUI-Show-o [WIP]",
             "reference": "https://github.com/neverbiasu/ComfyUI-Show-o",
@@ -49,16 +79,6 @@
             ],
             "install_type": "git-clone",
             "description": "These nodes allow you to configure LLM API connections, send images with custom prompts, and convert the LLM's JSON bounding box responses into a format compatible with segmentation nodes like SAM2\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "bento234",
-            "title": "ComfyUI-bento-toolbox",
-            "reference": "https://github.com/bento234/ComfyUI-bento-toolbox",
-            "files": [
-                "https://github.com/bento234/ComfyUI-bento-toolbox"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Tile Prompt Distributor"
         },
         {
             "author": "LucianGnn",

@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "834t",
+            "title": "Scene Composer for ComfyUI",
+            "reference": "https://github.com/834t/ComfyUI_834t_scene_composer",
+            "files": [
+                "https://github.com/834t/ComfyUI_834t_scene_composer"
+            ],
+            "install_type": "git-clone",
+            "description": "An intuitive, all-in-one node for ComfyUI that brings a powerful, layer-based regional prompting workflow directly into your graph. Say goodbye to managing countless Conditioning (Set Area) nodes and hello to drawing your creative vision."
+        },
+        {
+            "author": "Kartel-ai",
+            "title": "ComfyUI-8iPlayer",
+            "reference": "https://github.com/Kartel-ai/ComfyUI-8iPlayer",
+            "files": [
+                "https://github.com/Kartel-ai/ComfyUI-8iPlayer"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for interactive 8i volumetric video playback and frame capture."
+        },
+        {
+            "author": "quasiblob",
+            "title": "ComfyUI-EsesImageAdjustments",
+            "reference": "https://github.com/quasiblob/ComfyUI-EsesImageAdjustments",
+            "files": [
+                "https://github.com/quasiblob/ComfyUI-EsesImageAdjustments"
+            ],
+            "install_type": "git-clone",
+            "description": "Image Adjustments node for ComfyUI with minimal requirements, uses PyTorch for image manipulation operations."
+        },
+        {
+            "author": "coiichan",
+            "title": "ComfyUI-FuncAsTexture-CoiiNode",
+            "reference": "https://github.com/CoiiChan/ComfyUI-FuncAsTexture-CoiiNode",
+            "files": [
+                "https://github.com/CoiiChan/ComfyUI-FuncAsTexture-CoiiNode"
+            ],
+            "install_type": "git-clone",
+            "description": "This allows for mathematical operations on input images and precise manipulation of channels through NumPy formulas, making it suitable for ComfyUI users with programming experience."
+        },
+        {
+            "author": "impactframes",
+            "title": "ComfyUI-WanResolutionSelector",
+            "reference": "https://github.com/if-ai/ComfyUI-WanResolutionSelector",
+            "files": [
+                "https://github.com/if-ai/ComfyUI-WanResolutionSelector"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that automatically selects appropriate video resolution dimensions based on generation mode, aspect ratio, and quality settings. Designed to work seamlessly with video generation models and KJNodes image resize nodes."
+        },
+        {
+            "author": "TheLustriVA",
+            "title": "ComfyUI Image Size Tool",
+            "reference": "https://github.com/TheLustriVA/ComfyUI-Image-Size-Tool",
+            "files": [
+                "https://github.com/TheLustriVA/ComfyUI-Image-Size-Tool"
+            ],
+            "install_type": "git-clone",
+            "description": "Resolution calculator nodes for ComfyUI with model-specific constraints and optimal bucket resolutions"
+        },
+        {
             "author": "highdoping",
             "title": "ComfyUI-ASSSSA",
             "reference": "https://github.com/HighDoping/ComfyUI_ASSSSA",
@@ -641,99 +701,6 @@
             ],
             "install_type": "git-clone",
             "description": "The Olm LUT is a custom node for ComfyUI that allows you to apply .cube LUT (Look-Up Table) files to images within your generative workflows. It supports creative workflows including film emulation, color grading, and aesthetic stylization using LUTs."
-        },
-        {
-            "author": "Yuan-ManX",
-            "title": "ComfyUI-Direct3D-S2",
-            "reference": "https://github.com/Yuan-ManX/ComfyUI-Direct3D-S2",
-            "files": [
-                "https://github.com/Yuan-ManX/ComfyUI-Direct3D-S2"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-Direct3D‑S2 is now available in ComfyUI, Direct3D‑S2 - Gigascale 3D Generation Made Easy with Spatial Sparse Attention. Direct3D‑S2 is a scalable 3D generation framework based on sparse volumes that achieves superior output quality with dramatically reduced training costs."
-        },
-        {
-            "author": "lum3on",
-            "title": "ComfyUI-FrameUtilitys",
-            "reference": "https://github.com/lum3on/ComfyUI-FrameUtilitys",
-            "files": [
-                "https://github.com/lum3on/ComfyUI-FrameUtilitys"
-            ],
-            "install_type": "git-clone",
-            "description": "Professional-grade frame manipulation tools for ComfyUI, providing advanced video editing capabilities with native IMAGE tensor support."
-        },
-        {
-            "author": "INuBq8",
-            "title": "Notification Bridge",
-            "reference": "https://github.com/INuBq8/ComfyUI-NotificationBridge",
-            "files": [
-                        "https://github.com/INuBq8/ComfyUI-NotificationBridge"
-            ],
-            "install_type": "git-clone",
-            "description": "Bridge nodes for ComfyUI that send messages through WhatsApp (Twilio) and Discord when a workflow completes."
-        },
-        {
-            "author": "Erehr",
-            "title": "ComfyUI-EreNodes",
-            "reference": "https://github.com/Erehr/ComfyUI-EreNodes",
-            "files": [
-                "https://github.com/Erehr/ComfyUI-EreNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of prompt managent nodes with advanced tag parsing. Prompt tag cloud, mutiselect, toggle list, randomizer, filter, autocompete."
-        },
-        {
-            "author": "11dogzi",
-            "title": "CYBERPUNK-STYLE-DIY",
-            "id": "CYBERPUNK-STYLE-DIY",
-            "reference": "https://github.com/11dogzi/CYBERPUNK-STYLE-DIY",
-            "files": [
-                "https://github.com/11dogzi/CYBERPUNK-STYLE-DIY"
-            ],
-            "install_type": "git-clone",
-            "description": "A comprehensive ComfyUI theme plugin with stunning cyberpunk aesthetics and powerful customization features"
-        },
-        {
-            "author": "keit",
-            "title": "ComfyUI-keitNodes",
-            "id": "comfyui-image-toolkit",
-            "reference": "https://github.com/keit0728/ComfyUI-keitNodes",
-            "files": [
-                "https://github.com/keit0728/ComfyUI-keitNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "This is keit's utility nodes."
-        },
-        {
-            "author": "xiaowc",
-            "title": "Comfyui-Dynamic-Params",
-            "reference": "https://github.com/xiaowc-lib/comfyui-dynamic-params",
-            "files": [
-                "https://github.com/xiaowc-lib/comfyui-dynamic-params"
-            ],
-            "install_type": "git-clone",
-            "description": "Comfyui custom nodes that support dynamic parameter addition and deletion."
-        },
-        {
-            "author": "avenstack",
-            "title": "ComfyUI-AV-FunASR",
-            "reference": "https://github.com/avenstack/ComfyUI-AV-FunASR",
-            "files": [
-                "https://github.com/avenstack/ComfyUI-AV-FunASR"
-            ],
-            "install_type": "git-clone",
-            "description": "FunASR wrapper for ComfyUI"
-        },
-        {
-            "author": "burnsbert",
-            "title": "EBU Workflow",
-            "id": "ebu-workflow",
-            "reference": "https://github.com/burnsbert/ComfyUI-EBU-Workflow",
-            "files": [
-                "https://github.com/burnsbert/ComfyUI-EBU-Workflow"
-             ],
-             "install_type": "git-clone",
-             "description": "Custom nodes for general workflow quality of life including resolutions sorted by aspect ratio, upscaling helps, and unique file names"
         }
     ]
 }

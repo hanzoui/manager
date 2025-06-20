@@ -297,7 +297,6 @@
     ],
     "https://github.com/1hew/ComfyUI-1hewNodes": [
         [
-            "CoordinateExtract",
             "ImageAddLabel",
             "ImageBBoxCrop",
             "ImageBBoxPaste",
@@ -308,6 +307,7 @@
             "ImageCropWithBBox",
             "ImageDetailHLFreqSeparation",
             "ImageEditStitch",
+            "ImageListAppend",
             "ImageLumaMatte",
             "ImagePlot",
             "ImageResizeUniversal",
@@ -317,9 +317,10 @@
             "MaskBBoxCrop",
             "MaskBatchMathOps",
             "MaskMathOps",
-            "PathSelect",
-            "PromptExtract",
-            "SliderValueRangeMapping"
+            "PathBuild",
+            "RangeMapping",
+            "TextCustomExtract",
+            "TextCustomList"
         ],
         {
             "title_aux": "ComfyUI 1hewNodes"
@@ -682,6 +683,14 @@
         ],
         {
             "title_aux": "ComfyUI-Static-Primitives"
+        }
+    ],
+    "https://github.com/834t/ComfyUI_834t_scene_composer": [
+        [
+            "B34tSceneComposerNode"
+        ],
+        {
+            "title_aux": "Scene Composer for ComfyUI"
         }
     ],
     "https://github.com/852wa/ComfyUI-AAP": [
@@ -3398,6 +3407,40 @@
         ],
         {
             "title_aux": "ComfyUI-Depth-Visualization-advanced"
+        }
+    ],
+    "https://github.com/CoiiChan/ComfyUI-FuncAsTexture-CoiiNode": [
+        [
+            "Add",
+            "Ceil",
+            "Chroma_Key_Alpha",
+            "Clamp",
+            "Contant3Vector",
+            "CustomScriptNumpy",
+            "DDX",
+            "Desaturation",
+            "Distance",
+            "Divided",
+            "Dot",
+            "HueShift",
+            "InverseUVMapGenerator",
+            "Lerp",
+            "Max",
+            "Min",
+            "Multiply",
+            "Oneminus",
+            "Outline",
+            "Panner",
+            "Power",
+            "Rotator",
+            "Sine",
+            "Subtraction",
+            "TextureSampler",
+            "UVCoordinateGen",
+            "ifFunction"
+        ],
+        {
+            "title_aux": "ComfyUI-FuncAsTexture-CoiiNode"
         }
     ],
     "https://github.com/ComfyAssets/ComfyUI-KikoTools": [
@@ -6710,6 +6753,14 @@
             "title_aux": "ComfyUI-Paint-by-Example"
         }
     ],
+    "https://github.com/Kartel-ai/ComfyUI-8iPlayer": [
+        [
+            "3DImage"
+        ],
+        {
+            "title_aux": "ComfyUI-8iPlayer"
+        }
+    ],
     "https://github.com/Kayarte/AudioDriven-Latent-Space-Tools-for-ComfyUI": [
         [
             "AdvancedNoisePatterns",
@@ -7589,6 +7640,7 @@
             "LTXVPreprocessMasks",
             "LTXVPromptEnhancer",
             "LTXVPromptEnhancerLoader",
+            "LTXVQ8LoraModelLoader",
             "LTXVRecurrentKSampler",
             "LTXVSelectLatents",
             "LTXVSetVideoLatentNoiseMasks",
@@ -12600,6 +12652,17 @@
             "title_aux": "comfyui-upscale-by-model"
         }
     ],
+    "https://github.com/TheLustriVA/ComfyUI-Image-Size-Tool": [
+        [
+            "FluxResolutionNode",
+            "ImageSizeDetectorNode",
+            "SD15ResolutionNode",
+            "SDXLResolutionNode"
+        ],
+        {
+            "title_aux": "ComfyUI Image Size Tool"
+        }
+    ],
     "https://github.com/TheMistoAI/ComfyUI-Anyline": [
         [
             "AnyLinePreprocessor"
@@ -12855,7 +12918,11 @@
             "TripoAnimateRetargetNode",
             "TripoAnimateRigNode",
             "TripoConvertNode",
+            "TripoMeshCompletion",
+            "TripoMeshSegmentation",
             "TripoRefineModel",
+            "TripoSmartLowPoly",
+            "TripoStylizeModel",
             "TripoTextureModel"
         ],
         {
@@ -21104,6 +21171,7 @@
             "EZ_Find_Replace",
             "EZ_Input",
             "EZ_Prompt_Loader",
+            "EZ_Switch",
             "EZ_Tag_Loader",
             "EZ_Test",
             "EZ_Text_Concat",
@@ -22333,6 +22401,7 @@
             "Hidreamfull_fal",
             "HunyuanVideoLoraTrainer_fal",
             "Ideogramv3_fal",
+            "Imagen4Preview_fal",
             "KlingMaster_fal",
             "KlingPro10_fal",
             "KlingPro16_fal",
@@ -22347,9 +22416,12 @@
             "Recraft_fal",
             "RunwayGen3_fal",
             "Sana_fal",
+            "SeedanceImageToVideo_fal",
+            "SeedanceTextToVideo_fal",
             "Upscaler_fal",
             "VLM_fal",
             "Veo2ImageToVideo_fal",
+            "Veo3_fal",
             "VideoUpscaler_fal",
             "WanLoraTrainer_fal",
             "WanPro_fal"
@@ -23713,6 +23785,14 @@
         ],
         {
             "title_aux": "IF_VideoPrompts"
+        }
+    ],
+    "https://github.com/if-ai/ComfyUI-WanResolutionSelector": [
+        [
+            "VideoResolutionSelector"
+        ],
+        {
+            "title_aux": "ComfyUI-WanResolutionSelector"
         }
     ],
     "https://github.com/if-ai/ComfyUI_IF_AI_LoadImages": [
@@ -25591,8 +25671,11 @@
     ],
     "https://github.com/keit0728/ComfyUI-keitNodes": [
         [
+            "AspectRatioResolutionFinder",
             "M2MTranslator",
-            "PixelLimitResizer"
+            "PixelLimitResizer",
+            "WanVideoOptimalResizer",
+            "WanVideoResolutionFinder"
         ],
         {
             "title_aux": "ComfyUI-keitNodes"
@@ -31543,6 +31626,14 @@
             "title_aux": "ComfyUI-Step1X-Edit"
         }
     ],
+    "https://github.com/quasiblob/ComfyUI-EsesImageAdjustments": [
+        [
+            "EsesImageAdjustments2"
+        ],
+        {
+            "title_aux": "ComfyUI-EsesImageAdjustments"
+        }
+    ],
     "https://github.com/qwixiwp/queuetools": [
         [
             "load images (queue tools)"
@@ -34949,8 +35040,48 @@
     ],
     "https://github.com/traugdor/ComfyUI-quadMoons-nodes": [
         [
+            "AnimateDiff Script",
+            "Apply ControlNet Stack",
+            "Control Net Stacker",
+            "Eff. Loader SDXL",
+            "Efficient Loader",
+            "HighRes-Fix Script",
+            "Image Overlay",
+            "Join XY Inputs of Same Type",
+            "KSampler (Efficient)",
+            "KSampler Adv. (Efficient)",
+            "KSampler SDXL (Eff.)",
+            "LatentUpscaler",
+            "LoRA Stack to String converter",
+            "LoRA Stacker",
+            "Manual XY Entry Info",
+            "NNLatentUpscale",
+            "Noise Control Script",
+            "Pack SDXL Tuple",
+            "Tiled Upscaler Script",
+            "Unpack SDXL Tuple",
+            "XY Input: Add/Return Noise",
+            "XY Input: Aesthetic Score",
+            "XY Input: CFG Scale",
+            "XY Input: Checkpoint",
+            "XY Input: Clip Skip",
+            "XY Input: Control Net",
+            "XY Input: Control Net Plot",
+            "XY Input: Denoise",
+            "XY Input: LoRA",
+            "XY Input: LoRA Plot",
+            "XY Input: LoRA Stacks",
+            "XY Input: Manual XY Entry",
+            "XY Input: Prompt S/R",
+            "XY Input: Refiner On/Off",
+            "XY Input: Sampler/Scheduler",
+            "XY Input: Seeds++ Batch",
+            "XY Input: Steps",
+            "XY Input: VAE",
+            "XY Plot",
             "quadmoonBatchFromLatent",
             "quadmoonCLIPTextEncode",
+            "quadmoonCLIPTextEncode2",
             "quadmoonChangeBackground",
             "quadmoonConvertBoolToString",
             "quadmoonConvertFloatToString",
