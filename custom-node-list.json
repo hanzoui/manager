@@ -17402,13 +17402,12 @@
         {
             "author": "ez-af",
             "title": "ComfyUI-EZ-AF-Nodes",
-            "id": "ez-af",
             "reference": "https://github.com/ez-af/ComfyUI-EZ-AF-Nodes",
             "files": [
                 "https://github.com/ez-af/ComfyUI-EZ-AF-Nodes"
             ],
             "install_type": "git-clone",
-            "description": "This pack helps to conveniently control text in complex prompt-builder type workflows. Load/Read Prompts from .CSV; Concatenate large amounts of text; Use string input as ANY type. Requires pythongosssss custom scripts"
+            "description": "Conveniently control parts of text prompts with custom UI. Pack includes loaders from txt and csv files, dynamic text concatenation tool and easy-to-use input node"
         },
         {
             "author": "danbochman",
@@ -27845,6 +27844,36 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI node for uploading generated content to YouTube. [a/Buy me a coffee](https://buymeacoffee.com/chao.k)"
+        },
+        {
+            "author": "robin-collins",
+            "title": "ComfyUI-TechsToolz",
+            "reference": "https://github.com/robin-collins/ComfyUI-TechsToolz",
+            "files": [
+                "https://github.com/robin-collins/ComfyUI-TechsToolz"
+            ],
+            "install_type": "git-clone",
+            "description": "A modular collection of ComfyUI custom nodes with advanced dependency management and ComfyUI Manager integration."
+        },
+        {
+            "author": "highdoping",
+            "title": "ComfyUI-ASSSSA",
+            "reference": "https://github.com/HighDoping/ComfyUI_ASSSSA",
+            "files": [
+                "https://github.com/HighDoping/ComfyUI_ASSSSA"
+            ],
+            "install_type": "git-clone",
+            "description": "Add ASS/SSA subtitle to video using ffmpeg."
+        },
+        {
+            "author": "highdoping",
+            "title": "lama_with_refiner",
+            "reference": "https://github.com/fplu/comfyui_lama_with_refiner",
+            "files": [
+                "https://github.com/fplu/comfyui_lama_with_refiner"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for lama+refiner inpainting with ComfyUI."
         },
 
 

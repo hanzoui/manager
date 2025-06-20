@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "highdoping",
+            "title": "ComfyUI-ASSSSA",
+            "reference": "https://github.com/HighDoping/ComfyUI_ASSSSA",
+            "files": [
+                "https://github.com/HighDoping/ComfyUI_ASSSSA"
+            ],
+            "install_type": "git-clone",
+            "description": "Add ASS/SSA subtitle to video using ffmpeg."
+        },
+        {
+            "author": "highdoping",
+            "title": "lama_with_refiner",
+            "reference": "https://github.com/fplu/comfyui_lama_with_refiner",
+            "files": [
+                "https://github.com/fplu/comfyui_lama_with_refiner"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for lama+refiner inpainting with ComfyUI."
+        },
+        {
+            "author": "robin-collins",
+            "title": "ComfyUI-TechsToolz",
+            "reference": "https://github.com/robin-collins/ComfyUI-TechsToolz",
+            "files": [
+                "https://github.com/robin-collins/ComfyUI-TechsToolz"
+            ],
+            "install_type": "git-clone",
+            "description": "A modular collection of ComfyUI custom nodes with advanced dependency management and ComfyUI Manager integration."
+        },
+        {
             "author": "lum3on",
             "title": "ComfyUI-AudioX",
             "reference": "https://github.com/lum3on/ComfyUI-StableAudioX",

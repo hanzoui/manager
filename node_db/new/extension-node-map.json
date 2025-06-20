@@ -4434,7 +4434,8 @@
     ],
     "https://github.com/Extraltodeus/DistanceSampler": [
         [
-            "SamplerDistance"
+            "SamplerDistance",
+            "SamplerDistanceAdvanced"
         ],
         {
             "title_aux": "DistanceSampler"
@@ -5702,6 +5703,20 @@
             "nickname": "HNodes",
             "title": "Hiero-Nodes",
             "title_aux": "Hiero-Nodes"
+        }
+    ],
+    "https://github.com/HighDoping/ComfyUI_ASSSSA": [
+        [
+            "ASSSubtitleCache",
+            "ASSSubtitleReader",
+            "FFMpegSettings",
+            "MultilineTextInput",
+            "SubtitleEmbedding",
+            "SubtitleExtraction",
+            "VideoTranscoding"
+        ],
+        {
+            "title_aux": "ComfyUI-ASSSSA"
         }
     ],
     "https://github.com/Holasyb918/Ghost2_Comfyui": [
@@ -13247,6 +13262,10 @@
     ],
     "https://github.com/WaveSpeedAI/wavespeed-comfyui": [
         [
+            "WaveSpeedAI BytedanceSeedanceLiteI2VNode",
+            "WaveSpeedAI BytedanceSeedanceLiteT2VNode",
+            "WaveSpeedAI BytedanceSeedanceProI2VNode",
+            "WaveSpeedAI BytedanceSeedanceProT2VNode",
             "WaveSpeedAI Client",
             "WaveSpeedAI DiaTTSNode",
             "WaveSpeedAI Flux Image2Image",
@@ -13298,6 +13317,7 @@
             "WaveSpeedAI Wan Image2Video",
             "WaveSpeedAI Wan Loras",
             "WaveSpeedAI Wan Text2Video",
+            "WaveSpeedAI Wan2114BVaceNode",
             "WaveSpeedAI Wan21I2V480pLoraNode",
             "WaveSpeedAI Wan21I2V480pLoraUltraFastNode",
             "WaveSpeedAI Wan21I2V480pNode",
@@ -17871,9 +17891,13 @@
     ],
     "https://github.com/chaunceyyann/comfyui-image-processing-nodes": [
         [
+            "CharacterLoaderNode",
             "ImagePreviewCompare",
             "ImageSizeProcessor",
+            "LoraAndTextCombiner",
             "RandomPersonPhoto",
+            "ToggleLoraStackNode",
+            "ToggleTextNode",
             "VideoThumbnailExtractor",
             "YouTubeThumbnailExtractor"
         ],
@@ -21075,9 +21099,15 @@
     ],
     "https://github.com/ez-af/ComfyUI-EZ-AF-Nodes": [
         [
-            "EZ Concatenate Text",
-            "EZ Load from CSV",
-            "EZ String"
+            "EZ_CSV_Loader",
+            "EZ_Extract_Prompt",
+            "EZ_Find_Replace",
+            "EZ_Input",
+            "EZ_Prompt_Loader",
+            "EZ_Tag_Loader",
+            "EZ_Test",
+            "EZ_Text_Concat",
+            "EZ_Text_to_Size"
         ],
         {
             "title_aux": "ComfyUI-EZ-AF-Nodes"
@@ -21759,6 +21789,15 @@
         ],
         {
             "title_aux": "JoyCaption Nodes"
+        }
+    ],
+    "https://github.com/fplu/comfyui_lama_with_refiner": [
+        [
+            "INPAINT_InpaintWithLaMaRefinerModel",
+            "INPAINT_LoadInpaintLaMaModel"
+        ],
+        {
+            "title_aux": "lama_with_refiner"
         }
     ],
     "https://github.com/frankchieng/ComfyUI_Aniportrait": [
