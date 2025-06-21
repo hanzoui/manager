@@ -1,6 +1,57 @@
 {
     "custom_nodes": [
         {
+            "author": "DriftJohnson",
+            "title": "DJZ-Nodes [REMOVED]",
+            "id": "DJZ-Nodes",
+            "reference": "https://github.com/MushroomFleet/DJZ-Nodes",
+            "files": [
+                "https://github.com/MushroomFleet/DJZ-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "AspectSize and other nodes"
+        },
+        {
+            "author": "DriftJohnson",
+            "title": "KokoroTTS Node [REMOVED]",
+            "reference": "https://github.com/MushroomFleet/DJZ-KokoroTTS",
+            "files": [
+                "https://github.com/MushroomFleet/DJZ-KokoroTTS"
+            ],
+            "install_type": "git-clone",
+            "description": "This node provides advanced text-to-speech functionality powered by KokoroTTS. Follow the instructions below to install, configure, and use the node within your portable ComfyUI installation."
+        },
+        {
+            "author": "MushroomFleet",
+            "title": "DJZ-Pedalboard [REMOVED]",
+            "reference": "https://github.com/MushroomFleet/DJZ-Pedalboard",
+            "files": [
+                "https://github.com/MushroomFleet/DJZ-Pedalboard"
+            ],
+            "install_type": "git-clone",
+            "description": "This project provides a collection of custom nodes designed for enhanced audio effects in ComfyUI. With an intuitive pedalboard interface, users can easily integrate and manipulate various audio effects within their workflows."
+        },
+        {
+            "author": "MushroomFleet",
+            "title": "SVG Suite for ComfyUI [REMOVED]",
+            "reference": "https://github.com/MushroomFleet/svg-suite",
+            "files": [
+                "https://github.com/MushroomFleet/svg-suite"
+            ],
+            "install_type": "git-clone",
+            "description": "SVG Suite is an advanced set of nodes for converting images to SVG in ComfyUI, expanding upon the functionality of ComfyUI-ToSVG."
+        },
+        {
+            "author": "joeriben",
+            "title": "AI4ArtsEd Ollama Prompt Node [DEPRECATED]",
+            "reference": "https://github.com/joeriben/ai4artsed_comfyui",
+            "files": [
+                "https://github.com/joeriben/ai4artsed_comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Experimental nodes for ComfyUI. For more, see [a/https://kubi-meta.de/ai4artsed](https://kubi-meta.de/ai4artsed) A custom ComfyUI node for stylistic and cultural transformation of input text using local LLMs served via Ollama. This node allows you to combine a free-form prompt (e.g. translation, poetic recoding, genre shift) with externally supplied text in the ComfyUI graph. The result is processed via an Ollama-hosted model and returned as plain text."
+        },
+        {
             "author": "bento234",
             "title": "ComfyUI-bento-toolbox [REMOVED]",
             "reference": "https://github.com/bento234/ComfyUI-bento-toolbox",

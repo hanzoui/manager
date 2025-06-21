@@ -3855,6 +3855,20 @@
             "title_aux": "Pipeline Parallel ComfyUI"
         }
     ],
+    "https://github.com/DebugPadawan/DebugPadawans-ComfyUI-Essentials": [
+        [
+            "DebugPadawan_ConditionalString",
+            "DebugPadawan_DebugPrint",
+            "DebugPadawan_ListInfo",
+            "DebugPadawan_TextJoiner",
+            "DebugPadawan_TextSplitter",
+            "DebugPadawan_TextToJSON",
+            "DebugPadawan_WaitNode"
+        ],
+        {
+            "title_aux": "DebugPadawan's ComfyUI Essentials"
+        }
+    ],
     "https://github.com/Deep-Neko/ComfyUI_ascii_art": [
         [
             "AsciiGenerator"
@@ -4380,6 +4394,19 @@
         ],
         {
             "title_aux": "ComfyUI-ReLight"
+        }
+    ],
+    "https://github.com/Erehr/ComfyUI-EreNodes": [
+        [
+            "ErePromptCloud",
+            "ErePromptFilter",
+            "ErePromptMultiSelect",
+            "ErePromptMultiline",
+            "ErePromptRandomizer",
+            "ErePromptToggle"
+        ],
+        {
+            "title_aux": "ComfyUI-EreNodes"
         }
     ],
     "https://github.com/EvilBT/ComfyUI_SLK_joy_caption_two": [
@@ -5750,8 +5777,8 @@
     ],
     "https://github.com/HighDoping/ComfyUI_ASSSSA": [
         [
-            "ASSSubtitleCache",
             "ASSSubtitleReader",
+            "ASSSubtitleSave",
             "FFMpegSettings",
             "MultilineTextInput",
             "SubtitleEmbedding",
@@ -6751,14 +6778,6 @@
         ],
         {
             "title_aux": "ComfyUI-Paint-by-Example"
-        }
-    ],
-    "https://github.com/Kartel-ai/ComfyUI-8iPlayer": [
-        [
-            "3DImage"
-        ],
-        {
-            "title_aux": "ComfyUI-8iPlayer"
         }
     ],
     "https://github.com/Kayarte/AudioDriven-Latent-Space-Tools-for-ComfyUI": [
@@ -8099,6 +8118,18 @@
             "title_aux": "ComfyUI Secure API Call"
         }
     ],
+    "https://github.com/Maxed-Out-99/ComfyUI-MaxedOut": [
+        [
+            "Flux Empty Latent Image",
+            "Flux Image Scale To Total Pixels (Flux Safe)",
+            "Image Scale To Total Pixels (SDXL Safe)",
+            "Prompt With Guidance (Flux)",
+            "Sdxl Empty Latent Image"
+        ],
+        {
+            "title_aux": "ComfyUI-MaxedOut"
+        }
+    ],
     "https://github.com/McKlinton2/comfyui-mcklinton-pack": [
         [
             "ColormaskNode",
@@ -8541,205 +8572,6 @@
         ],
         {
             "title_aux": "ComfyUI-TextOverlay"
-        }
-    ],
-    "https://github.com/MushroomFleet/DJZ-KokoroTTS": [
-        [
-            "KokoroTTS_LoadVoice_v1",
-            "KokoroTTS_SaveVoice_v1",
-            "KokoroTTS_v1",
-            "KokoroTTS_v2",
-            "KokoroTTS_v3",
-            "KokoroTTS_v4",
-            "KokoroTTS_v5"
-        ],
-        {
-            "title_aux": "KokoroTTS Node"
-        }
-    ],
-    "https://github.com/MushroomFleet/DJZ-Nodes": [
-        [
-            "AnamorphicEffect",
-            "AspectSize",
-            "AspectSizeV2",
-            "BatchAlphaComposite",
-            "BatchOffset",
-            "BatchRangeInsert",
-            "BatchRangeSwap",
-            "BatchThief",
-            "BlackBarsV1",
-            "BlackBarsV2",
-            "BlackBarsV3",
-            "BorderCompositeAlpha",
-            "BracketCleaner",
-            "CRT_Effect_v1",
-            "CathodeRayEffect",
-            "ClassicFilmEffect",
-            "CombineAudio",
-            "DJZ-LoadLatent",
-            "DJZ-LoadLatentV2",
-            "DJZDatamosh",
-            "DJZDatamoshV2",
-            "DatasetWordcloud",
-            "DeadPixelEffect",
-            "DepthBasedPixelization",
-            "DinskyPlus",
-            "DinskyPlusV2",
-            "DjzDatabendingV1",
-            "DjzDatamoshV3",
-            "DjzDatamoshV4",
-            "DjzDatamoshV5",
-            "DjzDatamoshV6",
-            "DjzDatamoshV7",
-            "DjzDatamoshV8",
-            "FilmGateWeave",
-            "FilmGrainEffect",
-            "FilmGrainEffect_v2",
-            "FishEyeEffect",
-            "FishEyeV2",
-            "FractalGenerator",
-            "FractalGeneratorV2",
-            "FractalGeneratorV3",
-            "GSL_Filter_V1",
-            "HalationBloom",
-            "ImageInterleavedUpscaler",
-            "ImageInterleavedUpscalerV2",
-            "ImageSizeAdjuster",
-            "ImageSizeAdjusterV2",
-            "ImageSizeAdjusterV3",
-            "JitterEffect",
-            "KeyframeBasedUpscalerV1",
-            "KinescopeEffectV1",
-            "LensLeaks",
-            "LoadTextDirectory",
-            "LoadVideoDirectory",
-            "LoadVideoDirectoryV2",
-            "MotionBlending",
-            "NoiseFactory",
-            "NoiseFactoryV2",
-            "NoiseFactoryV3",
-            "NonSquarePixelsV1",
-            "PanavisionLensV2",
-            "ParametricMeshGen",
-            "ParametricMeshGenV2",
-            "ProjectFilePathNode",
-            "ProjectFolderPathNode",
-            "PromptCleaner",
-            "PromptCleanerV2",
-            "PromptDupeRemover",
-            "PromptDupeRemoverV2",
-            "PromptInject",
-            "PromptInjectV2",
-            "PromptSwap",
-            "RetroVideoText",
-            "ScreensaverGenerator",
-            "ScreensaverGeneratorV2",
-            "ScreensaverGeneratorV3",
-            "SequentialNumberGenerator",
-            "StringChaos",
-            "StringWeights",
-            "Technicolor3Strip_v1",
-            "Technicolor3Strip_v2",
-            "ThinkSeeker",
-            "ThreeToneStyler",
-            "TrianglesPlus",
-            "TrianglesPlusV2",
-            "UncleanSpeech",
-            "VGA_Effect_v1",
-            "VHS_Effect_V3",
-            "VHS_Effect_v1",
-            "VHS_Effect_v2",
-            "VideoBitClamp",
-            "VideoChromaticAberration",
-            "VideoCorridorV1",
-            "VideoCubeV1",
-            "VideoFilmDamage",
-            "VideoInterlaceFastV4",
-            "VideoInterlaceGANV3",
-            "VideoInterlaced",
-            "VideoInterlacedV2",
-            "VideoMazeV1",
-            "VideoMazeV2",
-            "VideoNoiseFactory",
-            "VideoPyramidV1",
-            "VideoRingPainter",
-            "VideoTemperatureV1",
-            "VideoText",
-            "VideoTextV2",
-            "VideoTimecode",
-            "VideoTrails",
-            "VideoTrailsV2",
-            "VideoVignettingV1",
-            "VoiceEffects",
-            "VoiceEffects2",
-            "WaveletCompose",
-            "WaveletDecompose",
-            "WinampViz",
-            "WinampVizV2",
-            "ZenkaiControlPromptV1",
-            "ZenkaiDepthPrompt",
-            "ZenkaiImagePromptV1",
-            "ZenkaiImagePromptV2",
-            "ZenkaiPoseMap",
-            "ZenkaiPrompt",
-            "ZenkaiPromptV2",
-            "ZenkaiPromptV3",
-            "ZenkaiPromptV4",
-            "ZenkaiPromptV5",
-            "ZenkaiWildcard",
-            "ZenkaiWildcardV2",
-            "Zenkai_IMPv1",
-            "djzTiling",
-            "djzTilingV2"
-        ],
-        {
-            "author": "DJZ-Nodes",
-            "title_aux": "DJZ-Nodes"
-        }
-    ],
-    "https://github.com/MushroomFleet/DJZ-Pedalboard": [
-        [
-            "DJZ_Pedalboard"
-        ],
-        {
-            "title_aux": "DJZ-Pedalboard"
-        }
-    ],
-    "https://github.com/MushroomFleet/svg-suite": [
-        [
-            "ConvertImageFileToSVG",
-            "ConvertRasterToVectorAdvanced",
-            "ConvertRawBytesToSVG",
-            "SVGAdvancedPreview",
-            "SVGArtGrid",
-            "SVGArtGridDimensionsCalculator",
-            "SVGArtGridV2",
-            "SVGArtGridV3",
-            "SVGArtGridV4",
-            "SVGAttributeManipulation",
-            "SVGBatchColorReplacer",
-            "SVGColorExtractor",
-            "SVGColorManipulation",
-            "SVGColorReplacer",
-            "SVGCompressAdvanced",
-            "SVGCreateStyle",
-            "SVGDefs",
-            "SVGElementManipulator",
-            "SVGElementSelector",
-            "SVGElementStyler",
-            "SVGOptimizePresets",
-            "SVGPathManipulation",
-            "SVGScourOptimize",
-            "SVGStringReplace",
-            "SVGStyler",
-            "SVGStylesManager",
-            "SVGThemeColorizer",
-            "SVGViewBox",
-            "SaveSVGAdvanced",
-            "ZenkaiSVG_V1"
-        ],
-        {
-            "title_aux": "SVG Suite for ComfyUI"
         }
     ],
     "https://github.com/MuziekMagie/ComfyUI-Matchering": [
@@ -12657,7 +12489,9 @@
             "FluxResolutionNode",
             "ImageSizeDetectorNode",
             "SD15ResolutionNode",
-            "SDXLResolutionNode"
+            "SDXLResolutionNode",
+            "WAN21AdvancedResolutionNode",
+            "WAN21ResolutionNode"
         ],
         {
             "title_aux": "ComfyUI Image Size Tool"
@@ -12764,11 +12598,14 @@
     ],
     "https://github.com/Tlant/ComfyUI-OllamaPromptsGeneratorTlant": [
         [
+            "LoadImageAndExtractMetadataTlant",
             "LoadRandomTxtFileTlant",
             "LoadRandomTxtFileTlantV2",
             "LoadRandomTxtFileTlantV3",
             "OllamaPromptsGeneratorTlant",
-            "OllamaSimpleTextGeneratorTlant"
+            "OllamaSimpleTextGeneratorTlant",
+            "RandomImageLoaderTlant",
+            "ReasoningLLMOutputCleaner"
         ],
         {
             "title_aux": "ComfyUI-OllamaPromptsGeneratorTlant"
@@ -13895,6 +13732,17 @@
         ],
         {
             "title_aux": "ComfyUI-Muyan-TTS"
+        }
+    ],
+    "https://github.com/Yuan-ManX/ComfyUI-OmniGen2": [
+        [
+            "LoadOmniGen2Image",
+            "LoadOmniGen2Model",
+            "OmniGen2",
+            "SaveOmniGen2Image"
+        ],
+        {
+            "title_aux": "ComfyUI-OmniGen2"
         }
     ],
     "https://github.com/Yuan-ManX/ComfyUI-OrpheusTTS": [
@@ -15037,6 +14885,14 @@
             "title_aux": "Caching to not Waste"
         }
     ],
+    "https://github.com/aleolidev/comfy_kaizen_package": [
+        [
+            "KaizenImageComposite"
+        ],
+        {
+            "title_aux": "Kaizen Package"
+        }
+    ],
     "https://github.com/alessandroperilli/apw_nodes": [
         [
             "APW_CloudImageSize",
@@ -15356,6 +15212,7 @@
     ],
     "https://github.com/arcum42/ComfyUI_SageUtils": [
         [
+            "SageSetWildcardText",
             "Sage_AdvSamplerInfo",
             "Sage_CacheMaintenance",
             "Sage_CheckLorasForUpdates",
@@ -15369,10 +15226,12 @@
             "Sage_ConstructLLMPromptExtra",
             "Sage_ConstructMetadata",
             "Sage_ConstructMetadataLite",
+            "Sage_CubiqImageResize",
             "Sage_DualCLIPTextEncode",
             "Sage_DualCLIPTextEncodeLumina2",
             "Sage_EmptyLatentImagePassthrough",
             "Sage_GetFileHash",
+            "Sage_GuessResolutionByRatio",
             "Sage_HiDreamE1_Instruction",
             "Sage_JoinText",
             "Sage_KSampler",
@@ -15401,6 +15260,7 @@
             "Sage_QuickResPicker",
             "Sage_SamplerInfo",
             "Sage_SaveImageWithMetadata",
+            "Sage_SaveText",
             "Sage_SetText",
             "Sage_TextWeight",
             "Sage_TilingInfo",
@@ -20761,6 +20621,22 @@
             "title_aux": "primitive-types"
         }
     ],
+    "https://github.com/dseditor/ComfyUI-ListHelper": [
+        [
+            "AudioListCombine",
+            "AudioListGenerator",
+            "AudioToFrameCount",
+            "CeilDivide",
+            "LoadVideoPath",
+            "MergeVideoFilename",
+            "NumberListGenerator",
+            "PromptListGenerator",
+            "SaveVideoPath"
+        ],
+        {
+            "title_aux": "ComfyUI-ListHelper"
+        }
+    ],
     "https://github.com/dseditor/ComfyUI-ScheduledTask": [
         [
             "DailyPromptScheduler",
@@ -24939,6 +24815,21 @@
             "title_aux": "ComfyUI_HuggingFace_Downloader"
         }
     ],
+    "https://github.com/joeriben/ai4artsed_comfyui_nodes": [
+        [
+            "ai4artsed_openrouter_key",
+            "ai4artsed_prompt_interception",
+            "ai4artsed_random_artform_generator",
+            "ai4artsed_random_instruction_generator",
+            "ai4artsed_random_language_selector",
+            "ai4artsed_stabilitai_key",
+            "ai4artsed_t5_clip_fusion",
+            "ai4artsed_text_remix"
+        ],
+        {
+            "title_aux": "AI4ArtsEd Nodes"
+        }
+    ],
     "https://github.com/john-mnz/ComfyUI-Inspyrenet-Rembg": [
         [
             "InspyrenetRembg",
@@ -28672,6 +28563,14 @@
             "title_aux": "ComfyUI CrewAI"
         }
     ],
+    "https://github.com/lucak5s/comfyui_gfpgan": [
+        [
+            "GFPGANRestorer"
+        ],
+        {
+            "title_aux": "ComfyUI GFPGAN"
+        }
+    ],
     "https://github.com/lujiazho/ComfyUI-CatvtonFluxWrapper": [
         [
             "CatvtonFluxSampler",
@@ -30591,6 +30490,14 @@
             "title_aux": "ComfyUI-FlowChain"
         }
     ],
+    "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler": [
+        [
+            "SeedVR2"
+        ],
+        {
+            "title_aux": "ComfyUI-SeedVR2_VideoUpscaler"
+        }
+    ],
     "https://github.com/numz/Comfyui-Orpheus": [
         [
             "orpheus",
@@ -31303,6 +31210,7 @@
     ],
     "https://github.com/plugcrypt/CRT-Nodes": [
         [
+            "AutopromptProcessor",
             "Boolean Transform",
             "CLIPTextEncodeFluxMerged",
             "CRT Post-Process Suite",
@@ -31310,6 +31218,7 @@
             "CRT_UpscaleModelAdv",
             "ClearPreprocessorCache",
             "ClearStyleModelCache",
+            "ClearStyleModelDualCache",
             "FaceEnhancementPipeline",
             "FaceEnhancementPipelineWithInjection",
             "FancyNoteNode",
@@ -31322,6 +31231,7 @@
             "FluxTiledSamplerCustomAdvanced",
             "ImageLoaderCrawl",
             "LatentNoiseInjectionSampler",
+            "LoadImageResize",
             "Lora Loader Str",
             "MaskEmptyFloatNode",
             "MaskPassOrPlaceholder",
@@ -31335,6 +31245,8 @@
             "SimpleToggleNode",
             "SmartControlNetApply",
             "SmartStyleModelApply",
+            "SmartStyleModelApplyDual",
+            "SmartStyleModelApplyWithVision",
             "Toggle Lora Unet Blocks L1",
             "Toggle Lora Unet Blocks L2",
             "Video Duration Calculator"
@@ -32157,6 +32069,14 @@
             "title_aux": "ComfyUIFlexiLoRALoader"
         }
     ],
+    "https://github.com/rookiepsi/comfypsi_blur_mask": [
+        [
+            "comfypsi_blur_mask"
+        ],
+        {
+            "title_aux": "Blur Mask"
+        }
+    ],
     "https://github.com/rookiepsi/comfyui-extended": [
         [
             "ImageLiquify",
@@ -32726,7 +32646,9 @@
         [
             "LanPaint_KSampler",
             "LanPaint_KSamplerAdvanced",
-            "LanPaint_MaskBlend"
+            "LanPaint_MaskBlend",
+            "LanPaint_SamplerCustom",
+            "LanPaint_SamplerCustomAdvanced"
         ],
         {
             "title_aux": "LanPaint"
@@ -33805,6 +33727,16 @@
         ],
         {
             "title_aux": "ComfyUI_Sapiens"
+        }
+    ],
+    "https://github.com/smthemex/ComfyUI_SongGeneration": [
+        [
+            "SongGeneration_Sampler",
+            "SongGeneration_Stage1",
+            "SongGeneration_Stage2"
+        ],
+        {
+            "title_aux": "ComfyUI_SongGeneration"
         }
     ],
     "https://github.com/smthemex/ComfyUI_Sonic": [

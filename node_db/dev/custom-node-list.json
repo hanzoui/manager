@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "stalkervr",
+            "title": "comfyui-custom-path-nodes [UNSAFE]",
+            "reference": "https://github.com/stalkervr/comfyui-custom-path-nodes",
+            "files": [
+                "https://github.com/stalkervr/comfyui-custom-path-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for path handling and image cropping.[w/This nodepack has a vulnerability that allows remote access to arbitrary file paths.]"
+        },
+        {
+            "author": "vovler",
+            "title": "comfyui-vovlertools",
+            "reference": "https://github.com/vovler/ComfyUI-vovlerTools",
+            "files": [
+                "https://github.com/vovler/ComfyUI-vovlerTools"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced ComfyUI nodes for WD14 tagging, image filtering, and CLIP to TensorRT conversion"
+        },
+        {
+            "author": "ELiZswe",
+            "title": "ComfyUI-ELiZTools",
+            "reference": "https://github.com/ELiZswe/ComfyUI-ELiZTools",
+            "files": [
+                "https://github.com/ELiZswe/ComfyUI-ELiZTools"
+            ],
+            "install_type": "git-clone",
+            "description": "ELIZ Tools"
+        },
+        {
+            "author": "yamanacn",
+            "title": "comfyui_qwenbbox",
+            "reference": "https://github.com/yamanacn/comfyui_qwenbbox",
+            "files": [
+                "https://github.com/yamanacn/comfyui_qwenbbox"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Load Qwen Model (v2), Qwen Bbox Detection, Prepare BBox for SAM (v2)"
+        },
+        {
+            "author": "mikheys",
+            "title": "ComfyUI-mikheys",
+            "reference": "https://github.com/mikheys/ComfyUI-mikheys",
+            "files": [
+                "https://github.com/mikheys/ComfyUI-mikheys"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: WAN Optimal Resolution Selector, WAN Show Image Dimensions"
+        },
+        {
             "author": "iacoposk8",
             "title": "ComfyUI XOR Pickle Nodes",
             "reference": "https://github.com/iacoposk8/xor_pickle_nodes",

@@ -1637,6 +1637,14 @@
             "title_aux": "ComfyUI-Extend-Resolution"
         }
     ],
+    "https://github.com/ELiZswe/ComfyUI-ELiZTools": [
+        [
+            "ELiZMeshUVWrap"
+        ],
+        {
+            "title_aux": "ComfyUI-ELiZTools"
+        }
+    ],
     "https://github.com/EQXai/ComfyUI_EQX": [
         [
             "CountFaces_EQX",
@@ -3555,6 +3563,7 @@
             "PipemindSDXL15AspectRatio",
             "PipemindSaveImageWTxt",
             "PipemindShowText",
+            "PipemindShowTextFind",
             "PipemindTokenCounter",
             "RandomLineFromDropdown",
             "SelectLineFromDropdown",
@@ -3673,7 +3682,8 @@
             "ReicaGCPWriteImageNode",
             "ReicaHTTPNotification",
             "ReicaInsertAnythingNode",
-            "ReicaReadImageUrl",
+            "ReicaLoadLoopImagesFromURLs",
+            "ReicaLoadLoopImagesFromURLsSkipErrors",
             "ReicaTextImageDisplay",
             "ReicaTryOffDiffGenerator",
             "ReicaTryOffDiffLoader",
@@ -7203,6 +7213,16 @@
             "title_aux": "LaserCutterFull and Deptherize Nodes"
         }
     ],
+    "https://github.com/mikheys/ComfyUI-mikheys": [
+        [
+            "WanImageDimensions",
+            "WanOptimalResolution",
+            "\u0418\u043c\u044f\u0414\u043b\u044fComfyUI"
+        ],
+        {
+            "title_aux": "ComfyUI-mikheys"
+        }
+    ],
     "https://github.com/minhtuannhn/comfyui-gemini-studio": [
         [
             "GetFileNameFromURL"
@@ -8371,6 +8391,25 @@
             "title_aux": "comfyui-lingshang"
         }
     ],
+    "https://github.com/stalkervr/comfyui-custom-path-nodes": [
+        [
+            "BatchImageCrop",
+            "ContextPipeIn",
+            "ContextPipeOut",
+            "ContextPipeReroute",
+            "ImageGridCropper",
+            "PathPipeIn",
+            "PathPipeOut",
+            "PathPipeReroute",
+            "PromptPartConcatenation",
+            "PromptPartJoin",
+            "SavePath",
+            "StringConcatenation"
+        ],
+        {
+            "title_aux": "comfyui-custom-path-nodes [UNSAFE]"
+        }
+    ],
     "https://github.com/steelan9199/ComfyUI-Teeth": [
         [
             "teeth FindContours",
@@ -8793,6 +8832,20 @@
             "title_aux": "ComfyUI Simple Image Tools [WIP]"
         }
     ],
+    "https://github.com/vovler/ComfyUI-vovlerTools": [
+        [
+            "DualCLIPTensorRTLoader",
+            "DualCLIPTensorRTTextEncode",
+            "DualCLIPToTensorRT",
+            "WD14BlackListLoader",
+            "WD14TaggerAndImageFilterer",
+            "WD14TensorRTModelLoader",
+            "WDTaggerONNXtoTENSORRT"
+        ],
+        {
+            "title_aux": "comfyui-vovlertools"
+        }
+    ],
     "https://github.com/wTechArtist/ComfyUI_VVL_SAM2": [
         [
             "SAM1AutoEverything",
@@ -9066,7 +9119,10 @@
             "CLIPLoaderXZ",
             "CLIPTextEncodeXZ",
             "ImageResizeKJ",
-            "LastFrameXZ"
+            "ImageResizeXZ",
+            "LastFrameXZ",
+            "TripleCLIPLoaderXZ",
+            "WanImageToVideoXZ"
         ],
         {
             "title_aux": "xzuynodes-ComfyUI"
@@ -9090,6 +9146,16 @@
         ],
         {
             "title_aux": "comfyui_qwen_object [WIP]"
+        }
+    ],
+    "https://github.com/yamanacn/comfyui_qwenbbox": [
+        [
+            "BBoxToSAM_v2",
+            "LoadQwenModel_v2",
+            "QwenBbox"
+        ],
+        {
+            "title_aux": "comfyui_qwenbbox"
         }
     ],
     "https://github.com/yanhuifair/ComfyUI-FairLab": [
@@ -9266,6 +9332,7 @@
     ],
     "https://github.com/zackabrams/ComfyUI-KeySyncWrapper": [
         [
+            "KeySyncAdvanced",
             "KeySyncWrapper"
         ],
         {
