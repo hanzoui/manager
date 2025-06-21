@@ -11,6 +11,17 @@
             "description": "Face restoration with GFPGAN."
         },
         {
+            "author": "NumZ",
+            "title": "ComfyUI-SeedVR2_VideoUpscaler",
+            "id": "SeedVR2_VideoUpscaler",
+            "reference": "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler",
+            "files": [
+                "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler"
+            ],
+            "install_type": "git-clone",
+            "description": "Upscale your videos with this SeedVR2"
+        },
+        {
             "author": "Yuan-ManX",
             "title": "ComfyUI-OmniGen2",
             "reference": "https://github.com/Yuan-ManX/ComfyUI-OmniGen2",
@@ -90,16 +101,6 @@
             ],
             "install_type": "git-clone",
             "description": "[a/SongGeneration](https://github.com/tencent-ailab/SongGeneration):High-Quality Song Generation with Multi-Preference Alignment (SOTA),you can try VRAM>12G"
-        },
-        {
-            "author": "NumZ",
-            "title": "ComfyUI-SeedVR2_VideoUpscaler",
-            "reference": "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler",
-            "files": [
-                "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler"
-            ],
-            "install_type": "git-clone",
-            "description": "A Non official custom nodes for ComfyUI that enables Upscale Video generation using [a/SeedVR2](https://github.com/ByteDance-Seed/SeedVR)."
         },
         {
             "author": "834t",
@@ -692,106 +693,6 @@
             ],
             "install_type": "git-clone",
             "description": "Sing to Midi 🎶"
-        },
-        {
-            "author": "A043-studios",
-            "title": "ComfyUI Deforum-X-Flux Nodes",
-            "reference": "https://github.com/A043-studios/comfyui-deforum-x-flux-nodes",
-            "files": [
-                "https://github.com/A043-studios/comfyui-deforum-x-flux-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Professional video animation nodes for ComfyUI based on Deforum-X-Flux research"
-        },
-        {
-            "author": "AgencyMind",
-            "title": "ComfyUI-GPU-Preprocessor-Wrapper",
-            "reference": "https://github.com/AgencyMind/ComfyUI-GPU-Preprocessor-Wrapper",
-            "files": [
-                "https://github.com/AgencyMind/ComfyUI-GPU-Preprocessor-Wrapper"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node extension that solves multi-GPU device conflicts for ControlNet preprocessors."
-        },
-        {
-            "author": "orion4d",
-            "title": "ComfyUI PDF Nodes",
-            "reference": "https://github.com/orion4d/ComfyUI_pdf_nodes",
-            "files": [
-                "https://github.com/orion4d/ComfyUI_pdf_nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "This repository contains a set of custom nodes for ComfyUI that allow you to load, manipulate, extract information from, and preview PDF files directly within your workflows."
-        },
-        {
-            "author": "olivv-cs",
-            "title": "ComfyUI-FunPack",
-            "reference": "https://github.com/olivv-cs/ComfyUI-FunPack",
-            "files": [
-                "https://github.com/olivv-cs/ComfyUI-FunPack"
-            ],
-            "install_type": "git-clone",
-            "description": "A set of custom nodes designed for experiments with video diffusion models."
-        },
-        {
-            "author": "Zachary116699",
-            "title": "ComfyUI_LoadImageWithMetaDataEx",
-            "reference": "https://github.com/Zachary116699/ComfyUI-LoadImageWithMetaDataEx",
-            "files": [
-                "https://github.com/Zachary116699/ComfyUI-LoadImageWithMetaDataEx"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom node for ComfyUI. It can read metadata from the image filepath, and filepath can be provided as a connected input, which allows it to batch read image metadata in a loop."
-        },
-        {
-            "author": "bytedance",
-            "title": "comfyui-lumi-batcher",
-            "reference": "https://github.com/bytedance/comfyui-lumi-batcher",
-            "files": [
-                "https://github.com/bytedance/comfyui-lumi-batcher"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Lumi Batcher is a batch processing extension plugin designed for ComfyUI, aiming to improve workflow debugging efficiency. Traditional debugging methods require adjusting parameters one by one, while this tool significantly enhances work efficiency through batch processing capabilities."
-        },
-        {
-            "author": "fredconex",
-            "title": "ComfyUI_SoundFlow",
-            "reference": "https://github.com/fredconex/ComfyUI_SoundFlow",
-            "files": [
-                "https://github.com/fredconex/ComfyUI_SoundFlow"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a bunch of nodes for ComfyUI to help with sound work."
-        },
-        {
-            "author": "A043-studios",
-            "title": "Pixel3DMM ComfyUI Nodes",
-            "reference": "https://github.com/A043-studios/comfyui-pixel3dmm",
-            "files": [
-                "https://github.com/A043-studios/comfyui-pixel3dmm"
-            ],
-            "install_type": "git-clone",
-            "description": "Professional 3D face reconstruction for ComfyUI using the Pixel3DMM method"
-        },
-        {
-            "author": "ShmuelRonen",
-            "title": "Flux Kontext Creator for ComfyUI",
-            "reference": "https://github.com/ShmuelRonen/FluxKontextCreator",
-            "files": [
-                "https://github.com/ShmuelRonen/FluxKontextCreator"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful ComfyUI custom node for text-based image editing using Black Forest Labs' Flux Kontext API. Transform your images with simple text instructions while maintaining character consistency and quality."
-        },
-        {
-            "author": "o-l-l-i",
-            "title": "Olm LUT Node for ComfyUI",
-            "reference": "https://github.com/o-l-l-i/ComfyUI-OlmLUT",
-            "files": [
-                "https://github.com/o-l-l-i/ComfyUI-OlmLUT"
-            ],
-            "install_type": "git-clone",
-            "description": "The Olm LUT is a custom node for ComfyUI that allows you to apply .cube LUT (Look-Up Table) files to images within your generative workflows. It supports creative workflows including film emulation, color grading, and aesthetic stylization using LUTs."
         }
     ]
 }
