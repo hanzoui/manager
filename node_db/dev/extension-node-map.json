@@ -2378,6 +2378,7 @@
             "ImageHeigthStitch",
             "ImageWidthStitch",
             "MergeImageChannels",
+            "random_any",
             "translator_m2m100",
             "translators"
         ],
@@ -3408,6 +3409,16 @@
         ],
         {
             "title_aux": "visuallabs_comfyui_nodes"
+        }
+    ],
+    "https://github.com/WozStudios/ComfyUI-WozNodes": [
+        [
+            "CreateImageBatch",
+            "ImageBatchSelectByMask",
+            "ImageBatchTrim"
+        ],
+        {
+            "title_aux": "ComfyUI-WozNodes"
         }
     ],
     "https://github.com/Yeonri/ComfyUI_LLM_Are_You_Listening": [
@@ -7103,20 +7114,6 @@
             "nickname": "marduk191 workflow settings",
             "title": "marduk191 workflow settings",
             "title_aux": "comfyui-marnodes"
-        }
-    ],
-    "https://github.com/markuryy/comfyui-spiritparticle": [
-        [
-            "FolderImageSelector",
-            "HighPassFilter",
-            "ImageBlender",
-            "PromptsFileLoader",
-            "RandomCheckpointLoader",
-            "RandomLoRALoader",
-            "ShowText"
-        ],
-        {
-            "title_aux": "ComfyUI Spiritparticle Nodes [WIP]"
         }
     ],
     "https://github.com/maruhidd/ComfyUI_Transparent-Background": [

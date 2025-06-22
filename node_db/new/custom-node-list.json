@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "o-l-l-i",
+            "title": "Olm Curve Editor for ComfyUI",
+            "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-CurveEditor",
+            "files": [
+                "https://github.com/o-l-l-i/ComfyUI-Olm-CurveEditor"
+            ],
+            "install_type": "git-clone",
+            "description": "A single-purpose, multi-channel curve editor for ComfyUI, providing precise color control over R, G, B, and Luma channels directly within the node graph. It’s a focused, lightweight, and standalone solution built specifically for one task: applying color curves cleanly and efficiently."
+        },
+        {
+            "author": "TashaSkyUp",
+            "title": "EternalKernel PyTorch Nodes",
+            "reference": "https://github.com/TashaSkyUp/EternalKernelPytorchNodes",
+            "files": [
+                "https://github.com/TashaSkyUp/EternalKernelPytorchNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Comprehensive PyTorch nodes for ComfyUI - Neural network training, inference, and ML workflows"
+        },
+        {
+            "author": "quasiblob",
+            "title": "ComfyUI-EsesCompositionGuides",
+            "reference": "https://github.com/quasiblob/ComfyUI-EsesCompositionGuides",
+            "files": [
+                "https://github.com/quasiblob/ComfyUI-EsesCompositionGuides"
+            ],
+            "install_type": "git-clone",
+            "description": "Non-destructive visual image composition helper tool node for ComfyUI with minimal requirements, works with larger images too."
+        },
+        {
             "author": "ChenDarYen",
             "title": "ComfyUI-NAG",
             "reference": "https://github.com/ChenDarYen/ComfyUI-NAG",
@@ -662,37 +692,6 @@
             ],
             "install_type": "git-clone",
             "description": "These are nodes and workflows that can facilitate the creation of animations and video compilations."
-        },
-        {
-            "author": "NeoDroleDeGueule",
-            "title": "comfyui-image-mixer",
-            "reference": "https://github.com/NeoDroleDeGueule/comfyui-image-mixer",
-            "files": [
-                "https://github.com/NeoDroleDeGueule/comfyui-image-mixer"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node that blends two images in latent space using a mix factor slider."
-        },
-        {
-            "author": "orion4d",
-            "title": "ComfyUI_extract_imag",
-            "reference": "https://github.com/orion4d/ComfyUI_extract_imag",
-            "files": [
-                "https://github.com/orion4d/ComfyUI_extract_imag"
-            ],
-            "install_type": "git-clone",
-            "description": "This ComfyUI node allows you to extract all images found in various types of documents and save them to disk. It also provides a preview of the first extracted image."
-        },
-        {
-            "author": "xuhuan2048",
-            "title": "ExtractStoryboards",
-            "id": "xuhuan2048_ExtractStoryboards",
-            "reference": "https://github.com/gitadmini/comfyui_extractstoryboards",
-            "files": [
-                "https://github.com/gitadmini/comfyui_extractstoryboards"
-            ],
-            "install_type": "git-clone",
-            "description": "A tool for decomposing video storyboards, which can obtain storyboards and keyframes"
         }
     ]
 }

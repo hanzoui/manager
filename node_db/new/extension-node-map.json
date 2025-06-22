@@ -11161,14 +11161,6 @@
             "title_aux": "Quality of Life Nodes for ComfyUI"
         }
     ],
-    "https://github.com/SpaceKendo/ComfyUI-svd_txt2vid": [
-        [
-            "SVD_txt2vid_ConditioningwithLatent"
-        ],
-        {
-            "title_aux": "Text to video for Stable Video Diffusion in ComfyUI"
-        }
-    ],
     "https://github.com/SparknightLLC/ComfyUI-ConditionalInterrupt": [
         [
             "Conditional Interrupt"
@@ -15798,7 +15790,11 @@
         [
             "BatchCreativeInterpolation",
             "IpaConfiguration",
-            "RemoveAndInterpolateFrames"
+            "RemoveAndInterpolateFrames",
+            "VideoContinuationGenerator",
+            "VideoFrameExtractorAndMaskGenerator",
+            "WanInputFrameNumber",
+            "WanVideoBlender"
         ],
         {
             "title_aux": "Steerable Motion"
@@ -24479,6 +24475,7 @@
     "https://github.com/jax-explorer/ComfyUI-VideoBasic": [
         [
             "VideoBasicLoadVideo",
+            "VideoBasicMergeVideo",
             "VideoBasicVideoSave",
             "VideoBasicVideoUpscaleWithModel"
         ],
@@ -30577,6 +30574,14 @@
             "title_aux": "ComfyUI_NetDist_Plus"
         }
     ],
+    "https://github.com/o-l-l-i/ComfyUI-Olm-CurveEditor": [
+        [
+            "OlmCurveEditor"
+        ],
+        {
+            "title_aux": "Olm Curve Editor for ComfyUI"
+        }
+    ],
     "https://github.com/o-l-l-i/ComfyUI-Olm-Resolution-Picker": [
         [
             "OlmResolutionPicker"
@@ -31586,6 +31591,14 @@
         ],
         {
             "title_aux": "ComfyUI-Step1X-Edit"
+        }
+    ],
+    "https://github.com/quasiblob/ComfyUI-EsesCompositionGuides": [
+        [
+            "EsesCompositionGuides"
+        ],
+        {
+            "title_aux": "ComfyUI-EsesCompositionGuides"
         }
     ],
     "https://github.com/quasiblob/ComfyUI-EsesImageAdjustments": [

@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "WozStudios",
+            "title": "ComfyUI-WozNodes",
+            "reference": "https://github.com/WozStudios/ComfyUI-WozNodes",
+            "files": [
+                "https://github.com/WozStudios/ComfyUI-WozNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Trim Image Batch, Create Image Batch, Select Image Batch by Mask"
+        },
+        {
             "author": "DDDDEEP",
             "title": "ComfyUI-DDDDEEP",
             "reference": "https://github.com/DDDDEEP/ComfyUI-DDDDEEP",
@@ -2200,16 +2210,6 @@
             ],
             "install_type": "git-clone",
             "description": "A lightweight node pack for ComfyUI that adds a few handy nodes that I use in my workflows"
-        },
-        {
-            "author": "markuryy",
-            "title": "ComfyUI Spiritparticle Nodes [WIP]",
-            "reference": "https://github.com/markuryy/comfyui-spiritparticle",
-            "files": [
-                "https://github.com/markuryy/comfyui-spiritparticle"
-            ],
-            "install_type": "git-clone",
-            "description": "A node pack by spiritparticle."
         },
         {
             "author": "CeeVeeR",

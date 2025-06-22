@@ -1,6 +1,27 @@
 {
     "custom_nodes": [
         {
+            "author": "markuryy",
+            "title": "ComfyUI Spiritparticle Nodes [REMOVED]",
+            "reference": "https://github.com/markuryy/comfyui-spiritparticle",
+            "files": [
+                "https://github.com/markuryy/comfyui-spiritparticle"
+            ],
+            "install_type": "git-clone",
+            "description": "A node pack by spiritparticle."
+        },
+        {
+            "author": "SpaceKendo",
+            "title": "Text to video for Stable Video Diffusion in ComfyUI [REMOVED]",
+            "id": "svd-txt2vid",
+            "reference": "https://github.com/SpaceKendo/ComfyUI-svd_txt2vid",
+            "files": [
+                "https://github.com/SpaceKendo/ComfyUI-svd_txt2vid"
+            ],
+            "install_type": "git-clone",
+            "description": "This is node replaces the init_image conditioning for the [a/Stable Video Diffusion](https://github.com/Stability-AI/generative-models) image to video model with text embeds, together with a conditioning frame. The conditioning frame is a set of latents."
+        },
+        {
             "author": "vovler",
             "title": "ComfyUI Civitai Helper Extension [REMOVED]",
             "reference": "https://github.com/vovler/comfyui-civitaihelper",
