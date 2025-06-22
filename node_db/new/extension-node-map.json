@@ -3084,6 +3084,14 @@
             "title_aux": "ComfyUI Auto LoRA"
         }
     ],
+    "https://github.com/ChenDarYen/ComfyUI-NAG": [
+        [
+            "NAGCFGGuider"
+        ],
+        {
+            "title_aux": "ComfyUI-NAG"
+        }
+    ],
     "https://github.com/ChenDarYen/ComfyUI-TimestepShiftModel": [
         [
             "Timestep Shift Model"
@@ -3215,6 +3223,7 @@
             "LatentPhaseMagnitudeOffset",
             "LatentPhaseMagnitudePower",
             "LatentUpscaleWithVAE",
+            "LayerPatcher",
             "Linear Quadratic Advanced",
             "Mask Bounding Box Aspect Ratio",
             "Mask Sketch",
@@ -14456,8 +14465,10 @@
     ],
     "https://github.com/aiaiaikkk/ComfyUI-Curve": [
         [
+            "CameraRawEnhanceNode",
             "ColorGradingNode",
             "CurvePresetNode",
+            "GaussianBlurNode",
             "HistogramAnalysisNode",
             "PhotoshopCurveNode",
             "PhotoshopHSLNode",
@@ -18798,6 +18809,14 @@
             "title_aux": "ComfyUI-Scripting-Tools"
         }
     ],
+    "https://github.com/cmdicely/simple_image_to_palette": [
+        [
+            "Example"
+        ],
+        {
+            "title_aux": "Simple Image To Palette"
+        }
+    ],
     "https://github.com/codeprimate/ComfyUI-MaskContourProcessor": [
         [
             "MaskContourProcessor"
@@ -19779,6 +19798,7 @@
             "D2 Regex Replace",
             "D2 Regex Switcher",
             "D2 Resize Calculator",
+            "D2 Save Image",
             "D2 Size Slector",
             "D2 Token Counter",
             "D2 XY Annotation",
@@ -21790,15 +21810,7 @@
             "title_aux": "ComfyUI_llm_easyanimiate"
         }
     ],
-    "https://github.com/fredconex/ComfyUI-SyncEdit": [
-        [
-            "SyncTextEditor"
-        ],
-        {
-            "title_aux": "Sync Edit"
-        }
-    ],
-    "https://github.com/fredconex/ComfyUI_SoundFlow": [
+    "https://github.com/fredconex/ComfyUI-SoundFlow": [
         [
             "SoundFlow_Concatenator",
             "SoundFlow_DuckCompressor",
@@ -21814,7 +21826,15 @@
             "SoundFlow_TrimAudio"
         ],
         {
-            "title_aux": "ComfyUI_SoundFlow"
+            "title_aux": "ComfyUI-SoundFlow"
+        }
+    ],
+    "https://github.com/fredconex/ComfyUI-SyncEdit": [
+        [
+            "SyncTextEditor"
+        ],
+        {
+            "title_aux": "Sync Edit"
         }
     ],
     "https://github.com/freelifehacker/ComfyUI-ImgMask2PNG": [
@@ -30772,6 +30792,20 @@
             "title_aux": "ComfyUI PDF Nodes"
         }
     ],
+    "https://github.com/orion4d/illusion_node": [
+        [
+            "AdvancedAutostereogramNode",
+            "AutostereogramNode",
+            "CheckerboardNode",
+            "ColorImageNode",
+            "PatternGeneratorNode",
+            "TessellationNode",
+            "TileImageRepeaterNode"
+        ],
+        {
+            "title_aux": "ComfyUI Illusion & Pattern Nodes"
+        }
+    ],
     "https://github.com/orssorbit/ComfyUI-wanBlockswap": [
         [
             "wanBlockSwap"
@@ -35177,41 +35211,35 @@
     ],
     "https://github.com/tusharbhutt/Endless-Nodes": [
         [
-            "ESS Aesthetic Scoring",
-            "ESS Combo Parameterizer",
-            "ESS Combo Parameterizer & Prompts",
-            "ESS Eight Input Text Switch",
-            "ESS Float to Integer",
-            "ESS Float to Number",
-            "ESS Float to String",
-            "ESS Float to X",
-            "ESS Image Reward",
-            "ESS Image Saver with JSON",
-            "ESS Integer to Float",
-            "ESS Integer to Number",
-            "ESS Integer to String",
-            "ESS Integer to X",
-            "ESS Number to Float",
-            "ESS Number to Integer",
-            "ESS Number to String",
-            "ESS Number to X",
-            "ESS Parameterizer",
-            "ESS Parameterizer & Prompts",
-            "ESS Six Float Output",
-            "ESS Six Input Text Switch",
-            "ESS Six Integer IO Switch",
-            "ESS Six Integer IO Widget",
-            "ESS String to Float",
-            "ESS String to Integer",
-            "ESS String to Num",
-            "ESS String to X",
-            "\u267e\ufe0f\ud83c\udf0a\u2728 Image Saver with JSON"
+            "BatchNegativePrompts",
+            "Eight_Input_Int_Switch",
+            "Eight_Input_Int_Switch_Widget",
+            "Eight_Input_Text_Switch",
+            "EndlessNode_BatchNegativePrompts",
+            "EndlessNode_FluxBatchPrompts",
+            "EndlessNode_PromptCounter",
+            "EndlessNode_SDXLBatchPrompts",
+            "EndlessNode_SimpleBatchPrompts",
+            "FluxBatchPrompts",
+            "Four_Input_Int_Switch",
+            "Four_Input_Int_Switch_Widget",
+            "Four_Input_Text_Switch",
+            "ImageComplexityScorer",
+            "ImageNoveltyScorer",
+            "Image_saver",
+            "PromptCounter",
+            "Random_Prompt_Multipicker",
+            "Random_Prompt_Selector",
+            "Randomzier_Chaos",
+            "Randomzier_Mayhem",
+            "Randomzier_Pandemonium",
+            "SDXLBatchPrompts",
+            "SimpleBatchPrompts",
+            "Six_Input_Int_Switch",
+            "Six_Input_Int_Switch_Widget",
+            "Six_Input_Text_Switch"
         ],
         {
-            "author": "BiffMunky",
-            "description": "A small set of nodes I created for various numerical and text inputs.  Features image saver with ability to have JSON saved to separate folder, parameter collection nodes, two aesthetic scoring models, switches for text and numbers, and conversion of string to numeric and vice versa.",
-            "nickname": "\u267e\ufe0f\ud83c\udf0a\u2728",
-            "title": "Endless \ufe0f\ud83c\udf0a\u2728 Nodes",
             "title_aux": "Endless \ufe0f\ud83c\udf0a\u2728 Nodes"
         }
     ],
@@ -35574,14 +35602,6 @@
         ],
         {
             "title_aux": "ComfyUI_BishaNodes"
-        }
-    ],
-    "https://github.com/vovler/comfyui-civitaihelper": [
-        [
-            "\ud83c\udfaf Civitai Helper"
-        ],
-        {
-            "title_aux": "ComfyUI Civitai Helper Extension"
         }
     ],
     "https://github.com/vsevolod-oparin/comfyui-kandinsky22": [

@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "ChenDarYen",
+            "title": "ComfyUI-NAG",
+            "reference": "https://github.com/ChenDarYen/ComfyUI-NAG",
+            "files": [
+                "https://github.com/ChenDarYen/ComfyUI-NAG"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI implemtation for NAG"
+        },
+        {
+            "author": "cmdicely",
+            "title": "Simple Image To Palette",
+            "reference": "https://github.com/cmdicely/simple_image_to_palette",
+            "files": [
+                "https://github.com/cmdicely/simple_image_to_palette"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node to extract the colors in an image as a palette for use with ComfyUI-PixelArt-Detector"
+        },
+        {
+            "author": "orion4d",
+            "title": "ComfyUI Illusion & Pattern Nodes",
+            "reference": "https://github.com/orion4d/illusion_node",
+            "files": [
+                "https://github.com/orion4d/illusion_node"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository contains a collection of custom nodes for ComfyUI, designed for generating various patterns, optical illusions, and performing related image manipulations. All nodes are categorized under 'illusion' in the ComfyUI menu."
+        },
+        {
             "author": "lucak5s",
             "title": "ComfyUI GFPGAN",
             "reference": "https://github.com/lucak5s/comfyui_gfpgan",
@@ -663,46 +693,6 @@
             ],
             "install_type": "git-clone",
             "description": "A tool for decomposing video storyboards, which can obtain storyboards and keyframes"
-        },
-        {
-            "author": "sugarkwork",
-            "title": "comfyui-trtupscaler",
-            "reference": "https://github.com/sugarkwork/comfyui-trtupscaler",
-            "files": [
-                "https://github.com/sugarkwork/comfyui-trtupscaler"
-            ],
-            "install_type": "git-clone",
-            "description": "TensorRT Upscaler for ComfyUI"
-        },
-        {
-            "author": "YMC",
-            "title": "ymc_node_joy",
-            "reference": "https://github.com/YMC-GitHub/ymc_node_joy",
-            "files": [
-                "https://github.com/YMC-GitHub/ymc_node_joy"
-            ],
-            "install_type": "git-clone",
-            "description": "comfyui custom nodes to caption image with joy"
-        },
-        {
-            "author": "pawelmal0101",
-            "title": "ComfyUI Webhook Notifier",
-            "reference": "https://github.com/pawelmal0101/ComfyUI-Webhook",
-            "files": [
-                "https://github.com/pawelmal0101/ComfyUI-Webhook"
-            ],
-            "install_type": "git-clone",
-            "description": "A simple ComfyUI custom node that sends webhook notifications when images are generated. Perfect for integrating your image generation workflow with external services or your own backend."
-        },
-        {
-            "author": "mw",
-            "title": "ComfyUI_SOME",
-            "reference": "https://github.com/billwuhao/ComfyUI_SOME",
-            "files": [
-                "https://github.com/billwuhao/ComfyUI_SOME"
-            ],
-            "install_type": "git-clone",
-            "description": "Sing to Midi 🎶"
         }
     ]
 }
