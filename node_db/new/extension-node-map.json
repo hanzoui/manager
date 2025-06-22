@@ -19130,6 +19130,7 @@
             "RepeatImageBatch",
             "RepeatLatentBatch",
             "RescaleCFG",
+            "ResizeAndPadImage",
             "Rodin3D_Detail",
             "Rodin3D_Regular",
             "Rodin3D_Sketch",
@@ -25033,6 +25034,14 @@
         ],
         {
             "title_aux": "ComfyUI_open_nodes"
+        }
+    ],
+    "https://github.com/jurdnf/ComfyUI-JurdnsIterativeNoiseKSampler": [
+        [
+            "KSamplerIterativeNoise"
+        ],
+        {
+            "title_aux": "ComfyUI-JurdnsIterativeNoiseKsampler"
         }
     ],
     "https://github.com/jurdnf/ComfyUI-JurdnsModelSculptor": [
