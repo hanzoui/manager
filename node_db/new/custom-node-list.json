@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "cmdicely",
+            "title": "GrsAI api in ComfyUI",
+            "reference": "https://github.com/31702160136/ComfyUI-GrsAI",
+            "files": [
+                "https://github.com/31702160136/ComfyUI-GrsAI"
+            ],
+            "install_type": "git-clone",
+            "description": "GrsAI API node supports models: Flux-Pro-1.1 (¥ 0.03), Flux-Ultra-1.1 (¥ 0.04), Flux Kontext Pro (¥ 0.035), Flux Kontext Max (¥ 0.07), GPT Image (¥ 0.02). Support text generated images, image generated images, and multi image fusion."
+        },
+        {
             "author": "Limbicnation", 
             "title": "ComfyUI Face Detection Node",
             "id": "comfyui-face-detection-node",
@@ -683,16 +693,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI-Vui is now available in ComfyUI, Vui is a llama based transformer that predicts audio tokens."
-        },
-        {
-            "author": "LargeModGames",
-            "title": "ComfyUI LoRA Auto Downloader",
-            "reference": "https://github.com/LargeModGames/comfyui-smart-lora-downloader",
-            "files": [
-                "https://github.com/LargeModGames/comfyui-smart-lora-downloader"
-            ],
-            "install_type": "git-clone",
-            "description": "Automatically download missing LoRAs from CivitAI and detect missing LoRAs in workflows. Features smart directory detection and easy installation."
         }
     ]
 }

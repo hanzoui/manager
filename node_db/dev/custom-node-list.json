@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "OgreLemonSoup",
+            "title": "ComfyUI-Notes-manager",
+            "reference": "https://github.com/OgreLemonSoup/ComfyUI-Notes-manager",
+            "files": [
+                "https://github.com/OgreLemonSoup/ComfyUI-Notes-manager"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension provides the note feature."
+        },
+        {
             "author": "WozStudios",
             "title": "ComfyUI-WozNodes",
             "reference": "https://github.com/WozStudios/ComfyUI-WozNodes",
@@ -268,7 +278,7 @@
                 "https://github.com/xzuyn/ComfyUI-xzuynodes"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Last Frame Extractor"
+            "description": "NODES: First/Last Frame (XZ), Resize Image (Original KJ), Resize Image (XZ), CLIP Text Encode (XZ), Load CLIP (XZ), TripleCLIPLoader (XZ), WanImageToVideo (XZ)"
         },
         {
             "author": "gilons",
@@ -4207,8 +4217,8 @@
             "files": [
                "https://github.com/suncat2ps/ComfyUI-SaveImgNextcloud"
             ],
-            "description": "NODES:Save Image to Nextcloud",
-            "install_type": "git-clone"
+            "install_type": "git-clone",
+            "description": "NODES: Save Image to Nextcloud"
         },
         {
             "author": "KoreTeknology",

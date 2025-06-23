@@ -149,29 +149,36 @@
     "https://github.com/1hew/ComfyUI-1hewNodes": [
         [
             "ImageAddLabel",
-            "ImageBBoxCrop",
-            "ImageBBoxPaste",
+            "ImageBBoxMaskCrop",
+            "ImageBBoxMaskPaste",
+            "ImageBatchToList",
             "ImageBlendModesByAlpha",
             "ImageBlendModesByCSS",
             "ImageCropEdge",
             "ImageCropSquare",
-            "ImageCropWithBBox",
+            "ImageCropWithBBoxMask",
             "ImageDetailHLFreqSeparation",
             "ImageEditStitch",
             "ImageListAppend",
+            "ImageListToBatch",
             "ImageLumaMatte",
             "ImagePlot",
             "ImageResizeUniversal",
             "ImageSolid",
             "ImageTileMerge",
             "ImageTileSplit",
-            "MaskBBoxCrop",
+            "ListCustomFloat",
+            "ListCustomInt",
+            "ListCustomString",
+            "MaskBBoxMaskCrop",
             "MaskBatchMathOps",
+            "MaskBatchToList",
+            "MaskListToBatch",
             "MaskMathOps",
             "PathBuild",
             "RangeMapping",
-            "TextCustomExtract",
-            "TextCustomList"
+            "StringCoordinateToBBoxes",
+            "TextCustomExtract"
         ],
         {
             "title_aux": "ComfyUI-1hewNodes [WIP]"
@@ -669,7 +676,10 @@
             "TS Files Downloader",
             "TS Qwen2.5",
             "TS Youtube Chapters",
+            "TSCropToMask",
+            "TSRestoreFromCrop",
             "TSWhisper",
+            "TS_DeflickerNode",
             "TS_FilePathLoader",
             "TS_Free_Video_Memory",
             "TS_ImageResize",
@@ -2370,6 +2380,7 @@
     ],
     "https://github.com/MakkiShizu/ComfyUI-MakkiTools": [
         [
+            "AnyImageStitch",
             "AutoLoop_create_pseudo_loop_video",
             "Environment_INFO",
             "GetImageNthCount",
@@ -8799,6 +8810,7 @@
     "https://github.com/visualbruno/ComfyUI-Hunyuan3d-2-1": [
         [
             "Hy3D21CameraConfig",
+            "Hy3D21LoadImageWithTransparency",
             "Hy3D21ResizeImages",
             "Hy3D21VAEConfig",
             "Hy3D21VAEDecode",
@@ -9104,9 +9116,9 @@
         [
             "CLIPLoaderXZ",
             "CLIPTextEncodeXZ",
+            "FirstLastFrameXZ",
             "ImageResizeKJ",
             "ImageResizeXZ",
-            "LastFrameXZ",
             "TripleCLIPLoaderXZ",
             "WanImageToVideoXZ"
         ],
