@@ -298,11 +298,10 @@
     "https://github.com/1hew/ComfyUI-1hewNodes": [
         [
             "ImageAddLabel",
-            "ImageBBoxMaskCrop",
-            "ImageBBoxMaskPaste",
             "ImageBatchToList",
             "ImageBlendModesByAlpha",
             "ImageBlendModesByCSS",
+            "ImageCropByMaskAlpha",
             "ImageCropEdge",
             "ImageCropSquare",
             "ImageCropWithBBoxMask",
@@ -311,6 +310,7 @@
             "ImageListAppend",
             "ImageListToBatch",
             "ImageLumaMatte",
+            "ImagePasteByBBoxMask",
             "ImagePlot",
             "ImageResizeUniversal",
             "ImageSolid",
@@ -319,13 +319,14 @@
             "ListCustomFloat",
             "ListCustomInt",
             "ListCustomString",
-            "MaskBBoxMaskCrop",
             "MaskBatchMathOps",
             "MaskBatchToList",
+            "MaskCropByBBoxMask",
             "MaskListToBatch",
             "MaskMathOps",
             "PathBuild",
             "RangeMapping",
+            "StringCoordinateToBBoxMask",
             "StringCoordinateToBBoxes",
             "TextCustomExtract"
         ],
@@ -10560,6 +10561,15 @@
             "title_aux": "ComfyUI-Image-Inpainting"
         }
     ],
+    "https://github.com/Shiba-2-shiba/ComfyUI-Magcache-for-SDXL": [
+        [
+            "MagCacheSDXL",
+            "MagCacheSDXLCalibration"
+        ],
+        {
+            "title_aux": "ComfyUI-Magcache-for-SDXL"
+        }
+    ],
     "https://github.com/Shiba-2-shiba/ComfyUI_DiffusionModel_fp8_converter": [
         [
             "ClipFP8ConverterNode",
@@ -13804,8 +13814,7 @@
         [
             "LoadOmniGen2Image",
             "LoadOmniGen2Model",
-            "OmniGen2",
-            "SaveOmniGen2Image"
+            "OmniGen2"
         ],
         {
             "title_aux": "ComfyUI-OmniGen2"
@@ -19099,6 +19108,8 @@
             "ModelMergeBlocks",
             "ModelMergeCosmos14B",
             "ModelMergeCosmos7B",
+            "ModelMergeCosmosPredict2_14B",
+            "ModelMergeCosmosPredict2_2B",
             "ModelMergeFlux1",
             "ModelMergeLTXV",
             "ModelMergeMochiPreview",
@@ -27170,6 +27181,14 @@
             "title_aux": "ComfyUI-LLMs"
         }
     ],
+    "https://github.com/leonardomiramondi/flux-context-comfyui": [
+        [
+            "FluxContextNode"
+        ],
+        {
+            "title_aux": "Flux Context ComfyUI Node"
+        }
+    ],
     "https://github.com/lepiai/ComfyUI-Minitools": [
         [
             "LP-CropTransparentEdges",
@@ -28790,9 +28809,12 @@
     "https://github.com/m-sokes/ComfyUI-Sokes-Nodes": [
         [
             "Current Date & Time | sokes \ud83e\uddac",
+            "Generate Random Background | sokes \ud83e\uddac",
+            "Hex Color Swatch | sokes \ud83e\uddac",
             "Hex to Color Name | sokes \ud83e\uddac",
             "Latent Switch x9 | sokes \ud83e\uddac",
             "Load Random Image | sokes \ud83e\uddac",
+            "Random Hex Color | sokes \ud83e\uddac",
             "Random Number | sokes \ud83e\uddac",
             "Replace Text with RegEx | sokes \ud83e\uddac"
         ],
@@ -30449,7 +30471,8 @@
             "LayeredInfiniteZoom",
             "Replicate flux 1.1 pro ultra",
             "ReplicateAPI_flux_1_1_pro_ultra",
-            "ReplicateAPI_flux_fill_pro"
+            "ReplicateAPI_flux_fill_pro",
+            "StringLower"
         ],
         {
             "title_aux": "Node_Fun_ComfyUI"
@@ -31051,7 +31074,8 @@
             "SlidingWindowGuidanceAdvanced",
             "SmoothedEnergyGuidanceAdvanced",
             "TRTAttachPag",
-            "TRTPerturbedAttention"
+            "TRTPerturbedAttention",
+            "TokenPerturbationGuidance"
         ],
         {
             "title_aux": "sd-perturbed-attention"
@@ -31536,6 +31560,7 @@
     ],
     "https://github.com/ptmaster/comfyui-audio-speed": [
         [
+            "PT48KHZ",
             "PTAudioSpeed"
         ],
         {
@@ -34594,6 +34619,14 @@
             "title_aux": "ComfyUI-JM-MiniMax-API"
         }
     ],
+    "https://github.com/synthetai/ComfyUI-JM-Volcengine-API": [
+        [
+            "volcengine-seedream-v3"
+        ],
+        {
+            "title_aux": "ComfyUI-JM-Volcengine-API"
+        }
+    ],
     "https://github.com/synthetai/ComfyUI-ToolBox": [
         [
             "AutoDLDownload",
@@ -35315,9 +35348,9 @@
             "PromptCounter",
             "Random_Prompt_Multipicker",
             "Random_Prompt_Selector",
-            "Randomzier_Chaos",
-            "Randomzier_Mayhem",
-            "Randomzier_Pandemonium",
+            "Randomizer_Chaos",
+            "Randomizer_Mayhem",
+            "Randomizer_Pandemonium",
             "SDXLBatchPrompts",
             "SimpleBatchPrompts",
             "Six_Input_Int_Switch",
@@ -35913,187 +35946,36 @@
     "https://github.com/whmc76/ComfyUI-UniversalToolkit": [
         [
             "AudioCropProcessUTK",
+            "CheckMask_UTK",
+            "CropByMask_UTK",
             "DepthMapBlur_UTK",
             "EmptyUnitGenerator_UTK",
             "FillMaskedArea_UTK",
             "ImageAndMaskPreview_UTK",
+            "ImageCombineAlpha_UTK",
             "ImageConcatenateMulti_UTK",
             "ImageConcatenate_UTK",
+            "ImageMaskScaleAs_UTK",
             "ImagePadForOutpaintMasked_UTK",
             "ImageRatioDetector_UTK",
+            "ImageRemoveAlpha_UTK",
+            "ImageScaleByAspectRatio_UTK",
+            "ImageScaleRestore_UTK",
             "ImitationHueNode_UTK",
-            "LayerColor: AutoAdjust",
-            "LayerColor: AutoAdjustV2",
-            "LayerColor: AutoBrightness",
-            "LayerColor: Brightness & Contrast",
-            "LayerColor: BrightnessContrastV2",
-            "LayerColor: Color of Shadow & Highlight",
-            "LayerColor: ColorAdapter",
-            "LayerColor: ColorBalance",
-            "LayerColor: ColorTemperature",
-            "LayerColor: ColorofShadowHighlightV2",
-            "LayerColor: Exposure",
-            "LayerColor: Gamma",
-            "LayerColor: HSV",
-            "LayerColor: LAB",
-            "LayerColor: LUT Apply",
-            "LayerColor: Levels",
-            "LayerColor: RGB",
-            "LayerColor: YUV",
-            "LayerFilter: AddGrain",
-            "LayerFilter: ChannelShake",
-            "LayerFilter: ColorMap",
-            "LayerFilter: Film",
-            "LayerFilter: FilmV2",
-            "LayerFilter: GaussianBlur",
-            "LayerFilter: GaussianBlurV2",
-            "LayerFilter: HDREffects",
-            "LayerFilter: HalfTone",
-            "LayerFilter: LightLeak",
-            "LayerFilter: MotionBlur",
-            "LayerFilter: Sharp & Soft",
-            "LayerFilter: SkinBeauty",
-            "LayerFilter: SoftLight",
-            "LayerFilter: WaterColor",
-            "LayerMask: BlendIf Mask",
-            "LayerMask: CreateGradientMask",
-            "LayerMask: ImageToMask",
-            "LayerMask: LoadSegformerModel",
-            "LayerMask: MaskBoxDetect",
-            "LayerMask: MaskByColor",
-            "LayerMask: MaskEdgeShrink",
-            "LayerMask: MaskEdgeUltraDetail",
-            "LayerMask: MaskEdgeUltraDetail V2",
-            "LayerMask: MaskGradient",
-            "LayerMask: MaskGrain",
-            "LayerMask: MaskGrow",
-            "LayerMask: MaskInvert",
-            "LayerMask: MaskMotionBlur",
-            "LayerMask: MaskPreview",
-            "LayerMask: MaskStroke",
-            "LayerMask: PixelSpread",
-            "LayerMask: RemBgUltra",
-            "LayerMask: RmBgUltra V2",
-            "LayerMask: SegformerB2ClothesUltra",
-            "LayerMask: SegformerClothesPipelineLoader",
-            "LayerMask: SegformerClothesSetting",
-            "LayerMask: SegformerFashionPipelineLoader",
-            "LayerMask: SegformerFashionSetting",
-            "LayerMask: SegformerUltraV2",
-            "LayerMask: SegformerUltraV3",
-            "LayerMask: Shadow & Highlight Mask",
-            "LayerMask: ShadowHighlightMaskV2",
-            "LayerStyle: ColorOverlay",
-            "LayerStyle: ColorOverlay V2",
-            "LayerStyle: DropShadow",
-            "LayerStyle: DropShadow V2",
-            "LayerStyle: DropShadow V3",
-            "LayerStyle: Gradient Map",
-            "LayerStyle: GradientOverlay",
-            "LayerStyle: GradientOverlay V2",
-            "LayerStyle: InnerGlow",
-            "LayerStyle: InnerGlow V2",
-            "LayerStyle: InnerShadow",
-            "LayerStyle: InnerShadow V2",
-            "LayerStyle: OuterGlow",
-            "LayerStyle: OuterGlow V2",
-            "LayerStyle: Stroke",
-            "LayerStyle: Stroke V2",
-            "LayerUtility: AnyRerouter",
-            "LayerUtility: BatchSelector",
-            "LayerUtility: Boolean",
-            "LayerUtility: BooleanOperator",
-            "LayerUtility: BooleanOperatorV2",
-            "LayerUtility: CheckMask",
-            "LayerUtility: CheckMaskV2",
-            "LayerUtility: ChoiceTextPreset",
-            "LayerUtility: ColorImage",
-            "LayerUtility: ColorImage V2",
-            "LayerUtility: ColorName",
-            "LayerUtility: ColorPicker",
-            "LayerUtility: CropBoxResolve",
-            "LayerUtility: CropByMask",
-            "LayerUtility: CropByMask V2",
-            "LayerUtility: CropByMask V3",
-            "LayerUtility: ExtendCanvas",
-            "LayerUtility: ExtendCanvasV2",
-            "LayerUtility: Float",
-            "LayerUtility: GetImageSize",
-            "LayerUtility: GetMainColors",
-            "LayerUtility: GetMainColorsV2",
-            "LayerUtility: GradientImage",
-            "LayerUtility: GradientImage V2",
-            "LayerUtility: GrayValue",
-            "LayerUtility: HLFrequencyDetailRestore",
-            "LayerUtility: HSV Value",
-            "LayerUtility: ICMask",
-            "LayerUtility: ICMaskCropBack",
-            "LayerUtility: If",
-            "LayerUtility: ImageBlend",
-            "LayerUtility: ImageBlend V2",
-            "LayerUtility: ImageBlendAdvance",
-            "LayerUtility: ImageBlendAdvance V2",
-            "LayerUtility: ImageBlendAdvance V3",
-            "LayerUtility: ImageChannelMerge",
-            "LayerUtility: ImageChannelSplit",
-            "LayerUtility: ImageCombineAlpha",
-            "LayerUtility: ImageHub",
-            "LayerUtility: ImageMaskScaleAs",
-            "LayerUtility: ImageMaskScaleAsV2",
-            "LayerUtility: ImageOpacity",
-            "LayerUtility: ImageReel",
-            "LayerUtility: ImageReelComposit",
-            "LayerUtility: ImageRemoveAlpha",
-            "LayerUtility: ImageScaleByAspectRatio",
-            "LayerUtility: ImageScaleByAspectRatio V2",
-            "LayerUtility: ImageScaleRestore",
-            "LayerUtility: ImageScaleRestore V2",
-            "LayerUtility: ImageShift",
-            "LayerUtility: ImageTaggerSave",
-            "LayerUtility: Integer",
-            "LayerUtility: LayerImageTransform",
-            "LayerUtility: LayerMaskTransform",
-            "LayerUtility: LoadVQAModel",
-            "LayerUtility: NameToColor",
-            "LayerUtility: NumberCalculator",
-            "LayerUtility: NumberCalculatorV2",
-            "LayerUtility: PrintInfo",
-            "LayerUtility: PurgeVRAM",
-            "LayerUtility: PurgeVRAM V2",
-            "LayerUtility: QueueStop",
-            "LayerUtility: RGB Value",
-            "LayerUtility: RandomGenerator",
-            "LayerUtility: RandomGeneratorV2",
-            "LayerUtility: RestoreCropBox",
-            "LayerUtility: RoundedRectangle",
-            "LayerUtility: Seed",
-            "LayerUtility: SimpleTextImage",
-            "LayerUtility: String",
-            "LayerUtility: StringCondition",
-            "LayerUtility: SwitchCase",
-            "LayerUtility: TextBox",
-            "LayerUtility: TextImage",
-            "LayerUtility: TextImage V2",
-            "LayerUtility: TextJoin",
-            "LayerUtility: TextJoinV2",
-            "LayerUtility: TextPreseter",
-            "LayerUtility: VQAPrompt",
-            "LayerUtility: XY to Percent",
             "LoadAudioPlusFromPath_UTK",
             "MaskAdd_UTK",
             "MaskAnd_UTK",
             "MaskSub_UTK",
             "PreviewMask_UTK",
+            "PurgeVRAM_UTK",
+            "RestoreCropBox_UTK",
             "ShowFloat_UTK",
             "ShowInt_UTK",
             "ShowList_UTK",
-            "ShowText_UTK"
+            "ShowText_UTK",
+            "Show_UTK"
         ],
         {
-            "author": "chflame",
-            "description": "A set of nodes for ComfyUI that can composite layer and mask to achieve Photoshop like functionality.",
-            "nickname": "LayerStyle",
-            "title": "LayerStyle",
             "title_aux": "ComfyUI-UniversalToolkit"
         }
     ],

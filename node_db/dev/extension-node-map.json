@@ -149,11 +149,10 @@
     "https://github.com/1hew/ComfyUI-1hewNodes": [
         [
             "ImageAddLabel",
-            "ImageBBoxMaskCrop",
-            "ImageBBoxMaskPaste",
             "ImageBatchToList",
             "ImageBlendModesByAlpha",
             "ImageBlendModesByCSS",
+            "ImageCropByMaskAlpha",
             "ImageCropEdge",
             "ImageCropSquare",
             "ImageCropWithBBoxMask",
@@ -162,6 +161,7 @@
             "ImageListAppend",
             "ImageListToBatch",
             "ImageLumaMatte",
+            "ImagePasteByBBoxMask",
             "ImagePlot",
             "ImageResizeUniversal",
             "ImageSolid",
@@ -170,13 +170,14 @@
             "ListCustomFloat",
             "ListCustomInt",
             "ListCustomString",
-            "MaskBBoxMaskCrop",
             "MaskBatchMathOps",
             "MaskBatchToList",
+            "MaskCropByBBoxMask",
             "MaskListToBatch",
             "MaskMathOps",
             "PathBuild",
             "RangeMapping",
+            "StringCoordinateToBBoxMask",
             "StringCoordinateToBBoxes",
             "TextCustomExtract"
         ],
@@ -1931,7 +1932,7 @@
             "title_aux": "This n that (Hapse)"
         }
     ],
-    "https://github.com/HuangYuChuh/ComfyUI-DeepSeek-Toolkit": [
+    "https://github.com/HuangYuChuh/ComfyUI-LLMs-Toolkit": [
         [
             "DeepSeekImageAnalyst",
             "DeepSeekImageGeneration",
@@ -1942,7 +1943,7 @@
             "VideoFileUploader"
         ],
         {
-            "title_aux": "ComfyUI-DeepSeek-Toolkit [WIP]"
+            "title_aux": "ComfyUI-LLMs-Toolkit [WIP]"
         }
     ],
     "https://github.com/IfnotFr/ComfyUI-Ifnot-Pack": [
@@ -2395,6 +2396,15 @@
         ],
         {
             "title_aux": "ComfyUI-MakkiTools"
+        }
+    ],
+    "https://github.com/Malloc-pix/comfyui-QwenVL": [
+        [
+            "Qwen2.5",
+            "Qwen2.5VL"
+        ],
+        {
+            "title_aux": "comfyui-QwenVL"
         }
     ],
     "https://github.com/ManuShamil/ComfyUI_BodyEstimation_Nodes": [
@@ -3136,6 +3146,7 @@
             "SDVN Pipe Out All",
             "SDVN QuadrupleCLIP Download",
             "SDVN Quick Menu",
+            "SDVN RGBA to RGB",
             "SDVN Run Python Code",
             "SDVN Run Test",
             "SDVN Save Text",
@@ -3835,16 +3846,6 @@
         ],
         {
             "title_aux": "ComfyUI-camietagger-onnx"
-        }
-    ],
-    "https://github.com/armandgw84/comfyui-custom-v6": [
-        [
-            "ResizeWithPadding",
-            "Wan21PromptCrafter",
-            "Wan21TransitionPrompter"
-        ],
-        {
-            "title_aux": "comfyui-custom-v6"
         }
     ],
     "https://github.com/artem-konevskikh/comfyui-split-merge-video": [
@@ -4618,6 +4619,8 @@
             "ModelMergeBlocks",
             "ModelMergeCosmos14B",
             "ModelMergeCosmos7B",
+            "ModelMergeCosmosPredict2_14B",
+            "ModelMergeCosmosPredict2_2B",
             "ModelMergeFlux1",
             "ModelMergeLTXV",
             "ModelMergeMochiPreview",

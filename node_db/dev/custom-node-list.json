@@ -1,14 +1,24 @@
 {
     "custom_nodes": [
         {
-            "author": "armandgw84",
-            "title": "comfyui-custom-v6",
-            "reference": "https://github.com/armandgw84/comfyui-custom-v6",
+            "author": "diogod",
+            "title": "Comfy Inpainting Works [WIP]",
+            "reference": "https://github.com/diodiogod/Comfy-Inpainting-Works",
             "files": [
-                "https://github.com/armandgw84/comfyui-custom-v6"
+                "https://github.com/diodiogod/Comfy-Inpainting-Works"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Resize With Padding, Wan 2.1 Transition Prompter, Wan Prompt Crafter"
+            "description": "Go to the top menu>Workflow>Browse Templates. This is a collection of my Inpainting workflows for Flux (expanded and COMPACT) + others. Previously called: 'Proper Flux Control-Net inpainting and/or outpainting with batch size - Alimama or Flux Fill'. By installing this 'node' you can always keep them up to date by updating on the manager. This is not a new custom node. You will still need to install all other custom nodes used on the workflows. You will also find my 'Flux LoRA Block Weights Preset Tester' here as well.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Malloc-pix",
+            "title": "comfyui-QwenVL",
+            "reference": "https://github.com/Malloc-pix/comfyui-QwenVL",
+            "files": [
+                "https://github.com/Malloc-pix/comfyui-QwenVL"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Qwen2.5VL, Qwen2.5"
         },
         {
             "author": "artifyfun",
@@ -3045,13 +3055,13 @@
         },
         {
             "author": "HuangYuChuh",
-            "title": "ComfyUI-DeepSeek-Toolkit [WIP]",
-            "reference": "https://github.com/HuangYuChuh/ComfyUI-DeepSeek-Toolkit",
+            "title": "ComfyUI-LLMs-Toolkit [WIP]",
+            "reference": "https://github.com/HuangYuChuh/ComfyUI-LLMs-Toolkit",
             "files": [
-                "https://github.com/HuangYuChuh/ComfyUI-DeepSeek-Toolkit"
+                "https://github.com/HuangYuChuh/ComfyUI-LLMs-Toolkit"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI-DeepSeek-Toolkit is a deep learning toolkit for ComfyUI that integrates the DeepSeek Janus model, offering functionalities for image generation and image understanding.\nNOTE: The files in the repo are not organized."
+            "description": "Enhance your ComfyUI workflows with powerful LLMs! This custom node suite integrates DeepSeek, Qwen, and other leading Chinese LLMs directly into your ComfyUI environment. Create innovative AI-powered applications with a range of useful nodes designed to leverage the advanced capabilities of these LLMs for image generation, understanding, and more.\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "comfyuiblog",
