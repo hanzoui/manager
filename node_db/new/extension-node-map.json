@@ -1381,12 +1381,13 @@
     ],
     "https://github.com/AIWarper/ComfyUI-WarperNodes": [
         [
-            "ConditionalLoopInputSwitch_Warper",
             "DWPoseScalerNode_Warper",
             "FacialPartMaskFromPose_Warper",
+            "FlowConfig_Warper",
+            "FlowGetFlow_Warper",
+            "FlowVisualizerNode_Warper",
             "GetBatchByIndex_Warper",
-            "IterativeLoopFeedback_Warper",
-            "IterativeLoopSetup_Warper",
+            "GetRaftFlow_Warper",
             "MouthMaskFromPose_Warper",
             "SmartOverlappingBatcher_Warper",
             "SmartVideoBatcher_Warper"
@@ -14518,7 +14519,6 @@
         [
             "CameraRawEnhanceNode",
             "ColorGradingNode",
-            "CurvePresetNode",
             "GaussianBlurNode",
             "HistogramAnalysisNode",
             "PhotoshopCurveNode",
