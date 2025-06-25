@@ -1,6 +1,67 @@
 {
     "custom_nodes": [
         {
+            "author": "Ambrosinus",
+            "title": "ComfyUI-ATk-Nodes",
+            "reference": "https://github.com/lucianoambrosini/ComfyUI-ATk-Nodes",
+            "files": [
+                "https://github.com/lucianoambrosini/ComfyUI-ATk-Nodes"
+            ],
+            "install_type": "git-clone", 
+            "description": "Ambrosinus ToolKit - Streamlined workflow export with transparent backgrounds, professional themes, and smart scaling. Perfect for creating clean, high-resolution workflow documentation and sharing.",
+            "category": "Utils"
+        },
+        {
+            "author": "AgencyMind",
+            "title": "ComfyUI-Satori",
+            "reference": "https://github.com/AgencyMind/ComfyUI-Satori",
+            "files": [
+                "https://github.com/AgencyMind/ComfyUI-Satori"
+            ],
+            "install_type": "git-clone",
+            "description": "When your workflow starts acting weird and you need to know what's actually happening to your data - not just guess from looking at the output."
+        },
+        {
+            "author": "fotobudka-team",
+            "title": "ComfyUI AI Faces - Photo Verification Node",
+            "reference": "https://github.com/fotobudka-team/comfyui-ai-faces",
+            "files": [
+                "https://github.com/fotobudka-team/comfyui-ai-faces"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for automated face verification, designed to check if a person is clearly visible and suitable for passport-style photos. This node performs comprehensive facial analysis to ensure photo quality meets identification document standards."
+        },
+        {
+            "author": "A043-studios",
+            "title": "ComfyUI ASCII Generator Node",
+            "reference": "https://github.com/A043-studios/Comfyui-ascii-generator",
+            "files": [
+                "https://github.com/A043-studios/Comfyui-ascii-generator"
+            ],
+            "install_type": "git-clone",
+            "description": "ASCII art generator for ComfyUI with multi-language character set support"
+        },
+        {
+            "author": "Gary-yeh",
+            "title": "comfyui-super-captioner",
+            "reference": "https://github.com/Gary-yeh/comfyui-super-captioner",
+            "files": [
+                "https://github.com/Gary-yeh/comfyui-super-captioner"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful multi-model image captioning node that supports both local BLIP models and the cloud-based Google Gemini API, specifically designed for ComfyUI."
+        },
+        {
+            "author": "kpsss34",
+            "title": "ComfyUI Sana Custom Node",
+            "reference": "https://github.com/kpsss34/ComfyUI-kpsss34-Sana",
+            "files": [
+                "https://github.com/kpsss34/ComfyUI-kpsss34-Sana"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that supports Sana text-to-image models (600M/1.6B parameters) with advanced features including LoRA support, PAG (Perturbed-Attention Guidance), and optimized VRAM usage."
+        },
+        {
             "author": "itsjustregi",
             "title": "Easy Color Correction",
             "reference": "https://github.com/regiellis/ComfyUI-EasyColorCorrector",
@@ -632,77 +693,6 @@
             ],
             "install_type": "git-clone",
             "description": "AIIA Nodes for ComfyUI is a comprehensive suite of advanced nodes designed to streamline and supercharge your video and audio generation workflows. It centrally addresses the critical Out-Of-Memory (OOM) issues encountered when processing long sequences by intelligently handling frames on disk. The suite includes: a powerful Video Combiner with an extensible format system; memory-efficient FLOAT Talking Head Animator nodes with both in-memory (for speed) and on-disk (for stability) modes; and a sophisticated Speaker Diarization toolkit powered by NeMo for identifying who spoke when. Utility nodes like the OOM-safe Image Sequence Concatenator are also included to create comparison or multi-panel videos effortlessly."
-        },
-        {
-            "author": "dseditor",
-            "title": "ComfyUI-Thread",
-            "reference": "https://github.com/dseditor/ComfyUI-Thread",
-            "files": [
-                "https://github.com/dseditor/ComfyUI-Thread"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node package for seamless integration with Threads (Meta's social platform). This package allows you to publish posts, manage images, and retrieve post history directly from your ComfyUI workflows."
-        },
-        {
-            "author": "flamacore",
-            "title": "ComfyUI YouTube Uploader",
-            "id": "comfyui-youtubeuploader",
-            "reference": "https://github.com/flamacore/ComfyUI-YouTubeUploader",
-            "files": [
-                "https://github.com/flamacore/ComfyUI-YouTubeUploader"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node for uploading generated content to YouTube. [a/Buy me a coffee](https://buymeacoffee.com/chao.k)"
-        },
-        {
-            "author": "kiko9",
-            "title": "ComfyUI-KikoTools",
-            "reference": "https://github.com/ComfyAssets/ComfyUI-KikoTools",
-            "files": [
-                "https://github.com/ComfyAssets/ComfyUI-KikoTools"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-KikoTools provides carefully crafted, production-ready nodes grouped under the 'ComfyAssets' category. Each tool is designed with clean interfaces, comprehensive testing, and optimized performance for SDXL and FLUX workflows."
-        },
-        {
-            "author": "TTPlanetPig",
-            "title": "ComfyUI Qwen2.5-VL Object Detection Node",
-            "reference": "https://github.com/TTPlanetPig/Comfyui_Object_Detect_QWen_VL",
-            "files": [
-                "https://github.com/TTPlanetPig/Comfyui_Object_Detect_QWen_VL"
-            ],
-            "install_type": "git-clone",
-            "description": "This repository provides a custom ComfyUI node for running object detection with the [a/Qwen 2.5 VL](https://github.com/QwenLM/Qwen2.5-VL) model. The node downloads the selected model on demand, runs a detection prompt and outputs bounding boxes that can be used with segmentation nodes such as [a/SAM2](https://github.com/kijai/ComfyUI-segment-anything-2)."
-        },
-        {
-            "author": "neocrz",
-            "title": "comfyui-usetaesd",
-            "reference": "https://github.com/neocrz/comfyui-usetaesd",
-            "files": [
-                "https://github.com/neocrz/comfyui-usetaesd"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node set for ComfyUI that provides nodes for encoding and decoding images using Tiny AutoEncoders for Stable Diffusion (TAESD) models."
-        },
-        {
-            "author": "adamreading",
-            "title": "ComfyUI-AjoNodes",
-            "reference": "https://github.com/AJO-reading/ComfyUI-AjoNodes",
-            "files": [
-                "https://github.com/AJO-reading/ComfyUI-AjoNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes designed for ComfyUI from the AJO-reading organization. This repository currently includes the Audio Collect & Concat node, which collects multiple audio segments and concatenates them into a single audio stream."
-        },
-        {
-            "author": "Zehong-Ma",
-            "title": "ComfyUI-MagCache",
-            "reference": "https://github.com/Zehong-Ma/ComfyUI-MagCache",
-            "files": [
-                "https://github.com/Zehong-Ma/ComfyUI-MagCache"
-            ],
-            "install_type": "git-clone",
-            "description": "official implementation of [zehong-ma/MagCache](https://github.com/zehong-ma/MagCache) for ComfyUI"
         }
     ]
 }

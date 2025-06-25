@@ -3437,7 +3437,8 @@
         [
             "CreateImageBatch",
             "ImageBatchSelectByMask",
-            "ImageBatchTrim"
+            "ImageBatchTrim",
+            "ImageBatcherByIndexProV2"
         ],
         {
             "title_aux": "ComfyUI-WozNodes"
@@ -8849,7 +8850,11 @@
     "https://github.com/visualbruno/ComfyUI-Hunyuan3d-2-1": [
         [
             "Hy3D21CameraConfig",
+            "Hy3D21ExportMesh",
             "Hy3D21LoadImageWithTransparency",
+            "Hy3D21LoadMesh",
+            "Hy3D21MeshUVWrap",
+            "Hy3D21PostprocessMesh",
             "Hy3D21ResizeImages",
             "Hy3D21VAEConfig",
             "Hy3D21VAEDecode",
@@ -8881,22 +8886,6 @@
         ],
         {
             "title_aux": "comfyui-vovlertools"
-        }
-    ],
-    "https://github.com/wTechArtist/ComfyUI_VVL_SAM2": [
-        [
-            "SAM1AutoEverything",
-            "VVL_DetectionScaler",
-            "VVL_Florence2SAM2",
-            "VVL_GroundingDinoLoader",
-            "VVL_GroundingDinoSAM2",
-            "VVL_MaskCleaner",
-            "VVL_MaskToBBox",
-            "VVL_SAM1Loader",
-            "VVL_SAM2Loader"
-        ],
-        {
-            "title_aux": "ComfyUI_WWL_Florence2SAM2"
         }
     ],
     "https://github.com/wTechArtist/ComfyUI_VVL_Segmentation": [
@@ -9327,6 +9316,7 @@
             "HumanPartsUltra",
             "YC Color Match",
             "YCFaceAlignToCanvas",
+            "YCFaceAlignToCanvasV2",
             "YCFaceAnalysisModels"
         ],
         {

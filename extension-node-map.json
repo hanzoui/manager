@@ -740,6 +740,14 @@
             "title_aux": "ComfyUI ASDF Pixel Sort Nodes"
         }
     ],
+    "https://github.com/A043-studios/Comfyui-ascii-generator": [
+        [
+            "ASCIIGeneratorNode"
+        ],
+        {
+            "title_aux": "ComfyUI ASCII Generator Node"
+        }
+    ],
     "https://github.com/A043-studios/comfyui-deforum-x-flux-nodes": [
         [
             "DeforumAnimParamsNode",
@@ -1742,6 +1750,14 @@
         ],
         {
             "title_aux": "ComfyUI-Seed-Nodes"
+        }
+    ],
+    "https://github.com/AgencyMind/ComfyUI-Satori": [
+        [
+            "WhyDidItBreak"
+        ],
+        {
+            "title_aux": "ComfyUI-Satori"
         }
     ],
     "https://github.com/AhBumm/ComfyUI_BillBum_APIset_Nodes": [
@@ -5336,6 +5352,14 @@
         ],
         {
             "title_aux": "Daves Nodes"
+        }
+    ],
+    "https://github.com/Gary-yeh/comfyui-super-captioner": [
+        [
+            "SuperCaptioner"
+        ],
+        {
+            "title_aux": "comfyui-super-captioner"
         }
     ],
     "https://github.com/GavChap/ComfyUI-SD3LatentSelectRes": [
@@ -9704,9 +9728,7 @@
     "https://github.com/Rinsanga1/comfyui-florence2xy": [
         [
             "Florence2toCoordinatesButxy",
-            "LoadImageWithName",
-            "LoadPhi35VisionModel",
-            "Phi35VisionRun"
+            "LoadImageWithName"
         ],
         {
             "title_aux": "comfyui-florence2xy"
@@ -14153,7 +14175,7 @@
         [
             "ImageBatchLoader",
             "ImageBatchSaver",
-            "ImageListLoader",
+            "LoraBatchLoader",
             "SimpleImageTagger",
             "TXTBatchLoader",
             "TextModifyTool"
@@ -14169,8 +14191,11 @@
             "CalculateUpscaleRounds",
             "ExtendCanvasByPercentage",
             "ExtendCanvasByPercentage (ZX)",
+            "ImageAspectRatioExtractor",
             "ImageCropByPercentage",
-            "MaskCropByPercentage"
+            "ImageResolutionExtractor",
+            "MaskCropByPercentage",
+            "ResizeToMultiple"
         ],
         {
             "title_aux": "ComfyUI-Image-Resizing"
@@ -14971,7 +14996,7 @@
             "title_aux": "Kaizen Package"
         }
     ],
-    "https://github.com/alessandroperilli/apw_nodes": [
+    "https://github.com/alessandroperilli/APW_Nodes": [
         [
             "APW_CloudImageSize",
             "APW_ImageListFilter",
@@ -21449,6 +21474,7 @@
             "FL_Dalle3",
             "FL_DirectoryCrawl",
             "FL_Dither",
+            "FL_Fal_Kontext",
             "FL_Fal_Pixverse",
             "FL_Float",
             "FL_FractalKSampler",
@@ -21786,6 +21812,14 @@
         ],
         {
             "title_aux": "Self-Guidance nodes"
+        }
+    ],
+    "https://github.com/fotobudka-team/comfyui-ai-faces": [
+        [
+            "PhotoVerification"
+        ],
+        {
+            "title_aux": "ComfyUI AI Faces - Photo Verification Node"
         }
     ],
     "https://github.com/foxtrot-roger/comfyui-rf-nodes": [
@@ -24134,6 +24168,7 @@
         [
             "MusubiCompileSettings",
             "MusubiMemorySettings",
+            "MusubiSamplingSettings",
             "WanCacheLatents",
             "WanCacheTextEncoder",
             "WanDatasetConfig",
@@ -26653,6 +26688,16 @@
             "title_aux": "comfyui-jk-easy-nodes"
         }
     ],
+    "https://github.com/kpsss34/ComfyUI-kpsss34-Sana": [
+        [
+            "SanaLoRALoader",
+            "SanaModelLoader",
+            "SanaSampler"
+        ],
+        {
+            "title_aux": "ComfyUI Sana Custom Node"
+        }
+    ],
     "https://github.com/krmahil/comfyui-hollow-preserve": [
         [
             "RemoveEnclosedMaskedAreas"
@@ -27184,7 +27229,7 @@
     ],
     "https://github.com/leonardomiramondi/flux-context-comfyui": [
         [
-            "FluxContextNode"
+            "FluxKontextNode"
         ],
         {
             "title_aux": "Flux Context ComfyUI Node"
@@ -30470,6 +30515,7 @@
             "IframeView",
             "IndexedStringSelector",
             "LayeredInfiniteZoom",
+            "MultiAlphaComposite",
             "Replicate flux 1.1 pro ultra",
             "ReplicateAPI_flux_1_1_pro_ultra",
             "ReplicateAPI_flux_fill_pro",
