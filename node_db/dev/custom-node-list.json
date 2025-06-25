@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "bleash-dev",
+            "title": "ComfyUI-Auth-Manager",
+            "reference": "https://github.com/bleash-dev/ComfyUI-Auth-Manager",
+            "files": [
+                "https://github.com/bleash-dev/ComfyUI-Auth-Manager"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node that provides email/password authentication for ComfyUI pods with a beautiful modal interface."
+        },
+        {
             "author": "robertvoy",
             "title": "ComfyUI-Distributed [WIP]",
             "reference": "https://github.com/robertvoy/ComfyUI-Distributed",
