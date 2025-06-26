@@ -303,6 +303,7 @@
             "PDIMAGE_Rename",
             "PDImageConcante",
             "PDImageResize",
+            "PDImageResizeV2",
             "PDJSON_BatchJsonIncremental",
             "PDJSON_Group",
             "PD_CustomImageProcessor",
@@ -317,6 +318,7 @@
             "PD_SimpleTest",
             "PD_Text Overlay Node",
             "PD_imagesave_path",
+            "PD_random_prompt",
             "PDstring_Save",
             "mask_edge_selector"
         ],
@@ -3490,6 +3492,25 @@
             "title_aux": "ComfyUI-BiRefNet-ZHO [BROKEN]"
         }
     ],
+    "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Gemini": [
+        [
+            "ConcatText_Zho",
+            "DisplayText_Zho",
+            "Gemini_15P_API_S_Advance_Zho",
+            "Gemini_15P_API_S_Chat_Advance_Zho",
+            "Gemini_API_Chat_Zho",
+            "Gemini_API_S_Chat_Zho",
+            "Gemini_API_S_Vsion_ImgURL_Zho",
+            "Gemini_API_S_Zho",
+            "Gemini_API_Vsion_ImgURL_Zho",
+            "Gemini_API_Zho",
+            "Gemini_FileUpload_API_S_Zho",
+            "Gemini_File_API_S_Zho"
+        ],
+        {
+            "title_aux": "ComfyUI-Gemini [NAME CONFLICT]"
+        }
+    ],
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-PuLID-ZHO": [
         [
             "PuLID_Zho"
@@ -4508,6 +4529,7 @@
             "FlipSigmas",
             "FluxDisableGuidance",
             "FluxGuidance",
+            "FluxKontextImageScale",
             "FluxKontextMaxImageNode",
             "FluxKontextProImageNode",
             "FluxProCannyNode",

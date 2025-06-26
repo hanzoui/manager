@@ -12967,6 +12967,25 @@
             "title_aux": "VEnhancer ComfyUI Extension"
         }
     ],
+    "https://github.com/Visionatrix/ComfyUI-Gemini": [
+        [
+            "ConcatText_Zho",
+            "DisplayText_Zho",
+            "Gemini_15P_API_S_Advance_Zho",
+            "Gemini_15P_API_S_Chat_Advance_Zho",
+            "Gemini_API_Chat_Zho",
+            "Gemini_API_S_Chat_Zho",
+            "Gemini_API_S_Vsion_ImgURL_Zho",
+            "Gemini_API_S_Zho",
+            "Gemini_API_Vsion_ImgURL_Zho",
+            "Gemini_API_Zho",
+            "Gemini_FileUpload_API_S_Zho",
+            "Gemini_File_API_S_Zho"
+        ],
+        {
+            "title_aux": "ComfyUI-Gemini"
+        }
+    ],
     "https://github.com/Visionatrix/ComfyUI-RemoteVAE": [
         [
             "RemoteVAEDecode"
@@ -14023,25 +14042,6 @@
         ],
         {
             "title_aux": "DepthFM IN COMFYUI"
-        }
-    ],
-    "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Gemini": [
-        [
-            "ConcatText_Zho",
-            "DisplayText_Zho",
-            "Gemini_15P_API_S_Advance_Zho",
-            "Gemini_15P_API_S_Chat_Advance_Zho",
-            "Gemini_API_Chat_Zho",
-            "Gemini_API_S_Chat_Zho",
-            "Gemini_API_S_Vsion_ImgURL_Zho",
-            "Gemini_API_S_Zho",
-            "Gemini_API_Vsion_ImgURL_Zho",
-            "Gemini_API_Zho",
-            "Gemini_FileUpload_API_S_Zho",
-            "Gemini_File_API_S_Zho"
-        ],
-        {
-            "title_aux": "ComfyUI-Gemini"
         }
     ],
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-InstantID": [
@@ -19036,6 +19036,7 @@
             "FlipSigmas",
             "FluxDisableGuidance",
             "FluxGuidance",
+            "FluxKontextImageScale",
             "FluxKontextMaxImageNode",
             "FluxKontextProImageNode",
             "FluxProCannyNode",
@@ -26621,7 +26622,6 @@
     ],
     "https://github.com/kohs100/comfyui-ppwc": [
         [
-            "PPWCBlock",
             "PPWCReplace"
         ],
         {
@@ -32012,6 +32012,7 @@
         [
             "BatchColorCorrection",
             "ColorCorrectionViewer",
+            "ColorPaletteExtractor",
             "EasyColorCorrection",
             "RawImageProcessor"
         ],
