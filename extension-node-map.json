@@ -1754,6 +1754,7 @@
     ],
     "https://github.com/AgencyMind/ComfyUI-Satori": [
         [
+            "TemporalInvestigator",
             "WhyDidItBreak"
         ],
         {
@@ -2880,6 +2881,8 @@
             "IndexedLoRALoader_BETA",
             "LoadTextFromIndex",
             "SaveAudioAdvanced_BETA",
+            "SelectSharpestFrames",
+            "SharpestFrameClipper",
             "TextLineCount"
         ],
         {
@@ -2893,6 +2896,8 @@
             "IndexedLoRALoader_BETA",
             "LoadTextFromIndex",
             "SaveAudioAdvanced_BETA",
+            "SelectSharpestFrames",
+            "SharpestFrameClipper",
             "TextLineCount"
         ],
         {
@@ -5352,6 +5357,15 @@
         ],
         {
             "title_aux": "Daves Nodes"
+        }
+    ],
+    "https://github.com/Gary-yeh/ComfyUI-WebPrompter": [
+        [
+            "ContentFetcher (WebPrompter)",
+            "LLMNewsScriptGenerator (WebPrompter)"
+        ],
+        {
+            "title_aux": "ComfyUI-WebPrompter"
         }
     ],
     "https://github.com/Gary-yeh/comfyui-super-captioner": [
@@ -13604,8 +13618,12 @@
             "RemoveBackgroundNode",
             "SaveCaptionsImages",
             "SaveImageAdvance",
+            "StitchImages",
+            "StitchImagesAndMask",
             "TextFieldNode",
             "TileCheckpointPatchNode",
+            "UnstitchImages",
+            "UnstitchImagesAndMask",
             "UpscaleImageWithModel",
             "VTracerImageVectorizerNode",
             "VacePatchLoader"
@@ -13859,6 +13877,19 @@
         ],
         {
             "title_aux": "ComfyUI-PhotoDoodle"
+        }
+    ],
+    "https://github.com/Yuan-ManX/ComfyUI-PosterCraft": [
+        [
+            "LoadCustomTransformer",
+            "LoadPipeline",
+            "LoadPosterCraftPrompt",
+            "LoadQwenModel",
+            "PosterCraft",
+            "SavePosterCraft"
+        ],
+        {
+            "title_aux": "ComfyUI-PosterCraft"
         }
     ],
     "https://github.com/Yuan-ManX/ComfyUI-SkyReels-A2": [
@@ -23400,6 +23431,7 @@
             "BiRefNet",
             "ControlImagePreprocessor",
             "ControlNetModelLoader",
+            "CustomLoraModelLoader",
             "DiffusersMVModelMakeup",
             "DiffusersMVPipelineLoader",
             "DiffusersMVSampler",
@@ -23408,7 +23440,6 @@
             "ImagePreprocessor",
             "LdmPipelineLoader",
             "LdmVaeLoader",
-            "LoraModelLoader",
             "ViewSelector"
         ],
         {
@@ -25129,22 +25160,6 @@
         ],
         {
             "title_aux": "comfyui_fk_server"
-        }
-    ],
-    "https://github.com/juntaosun/ComfyUI_open_nodes": [
-        [
-            "OpenEmptyImageAndMask",
-            "OpenGetImageSizeAndCount",
-            "OpenGetMaskSizeAndCount",
-            "OpenImageBatch",
-            "OpenImageCombiner",
-            "OpenMaskBatch",
-            "OpenPadImageForOutpaint",
-            "OpenReplaceImageInBatch",
-            "OpenWanVideoVACEStartToEndFrame"
-        ],
-        {
-            "title_aux": "ComfyUI_open_nodes"
         }
     ],
     "https://github.com/jurdnf/ComfyUI-JurdnsIterativeNoiseKSampler": [
@@ -31755,6 +31770,14 @@
             "title_aux": "ComfyUI-EsesImageAdjustments"
         }
     ],
+    "https://github.com/quasiblob/ComfyUI-EsesImageOffset": [
+        [
+            "EsesImageOffset"
+        ],
+        {
+            "title_aux": "ComfyUI-EsesImageOffset"
+        }
+    ],
     "https://github.com/qwixiwp/queuetools": [
         [
             "load images (queue tools)"
@@ -36451,6 +36474,7 @@
             "FramePackLoraSelect",
             "FramePackSampler",
             "FramePackSampler_F1",
+            "FramePackSingleFrameResizeSampler",
             "FramePackSingleFrameSampler",
             "FramePackTimestampedTextEncode",
             "FramePackTorchCompileSettings",
