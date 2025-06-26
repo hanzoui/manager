@@ -2508,6 +2508,7 @@
     ],
     "https://github.com/BennyKok/comfyui-deploy": [
         [
+            "ComfyDeployOutputEXR",
             "ComfyDeployOutputImage",
             "ComfyDeployOutputText",
             "ComfyDeployWebscoketImageInput",
@@ -6702,6 +6703,7 @@
             "DrawThingsLoRA",
             "DrawThingsNegative",
             "DrawThingsPositive",
+            "DrawThingsPrompt",
             "DrawThingsRefiner",
             "DrawThingsSampler",
             "DrawThingsUpscaler"
@@ -9943,6 +9945,7 @@
             "LensFlare",
             "MultiFloat",
             "MultiTextNode",
+            "PaintPro",
             "SKB_AnySwitch",
             "SeamlessTexture",
             "TextBox",
@@ -24794,12 +24797,15 @@
     "https://github.com/jinchanz/ComfyUI-ADIC": [
         [
             "ADIC_COMMON_API",
+            "FluxKontextImageScale",
+            "ImageStitch",
             "ImageTranslateAPI",
             "ImageTranslateParamsBuilder",
             "ImageTranslateResultExtractor",
             "LoadImagesFromUrls",
             "MarketImageGenerateWithPolling",
             "PythonCodeExecutor",
+            "ReferenceLatent",
             "StringToJsonArray"
         ],
         {
@@ -24994,6 +25000,7 @@
     ],
     "https://github.com/joeriben/ai4artsed_comfyui_nodes": [
         [
+            "ai4artsed_image_analysis",
             "ai4artsed_openrouter_key",
             "ai4artsed_prompt_interception",
             "ai4artsed_random_artform_generator",
