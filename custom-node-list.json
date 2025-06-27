@@ -28228,6 +28228,26 @@
             "install_type": "git-clone",
             "description": "Simple REST API interfaces for ComfyUI with dynamic parameter replacement and output management"
         },
+        {
+            "author": "bobsblazed",
+            "title": "Bobs_Latent_Optimizer",
+            "reference": "https://github.com/BobsBlazed/Bobs_Latent_Optimizer",
+            "files": [
+                "https://github.com/BobsBlazed/Bobs_Latent_Optimizer"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI is designed to optimize latent generation for use with FLUX, SDXL and SD3. It provides flexible control over aspect ratios, megapixel sizes, and upscale factors, allowing users to dynamically create latents that fit specific tiling and resolution needs."
+        },
+        {
+            "author": "bobsblazed",
+            "title": "Bobs_LoRA_Loader",
+            "reference": "https://github.com/BobsBlazed/Bobs-Lora-Loader",
+            "files": [
+                "https://github.com/BobsBlazed/Bobs-Lora-Loader"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom LoRA loader node for ComfyUI with advanced block-weighting controls for both SDXL and FLUX models. Features presets for common use-cases like 'Character' and 'Style', and a 'Custom' mode for fine-grained control over individual model blocks."
+        },
 
 
 
@@ -28572,16 +28592,6 @@
             ],
             "install_type": "copy",
             "description": "This repository contains a custom node for ComfyUI that allows searching for a keyword in the first column of a CSV file and returning a value from a specified column in that row. The node is designed to be modular and fit within the node-based workflow of ComfyUI."
-        },
-        {
-            "author": "bobsblazed",
-            "title": "Bobs_Latent_Optimizer",
-            "reference": "https://github.com/BobsBlazed/Bobs_Latent_Optimizer",
-            "files": [
-                "https://github.com/BobsBlazed/Bobs_Latent_Optimizer/raw/refs/heads/main/Bobs_Latent_Optimizer.py"
-            ],
-            "install_type": "copy",
-            "description": "This custom node for ComfyUI is designed to optimize latent generation for use with FLUX, SDXL and SD3. It provides flexible control over aspect ratios, megapixel sizes, and upscale factors, allowing users to dynamically create latents that fit specific tiling and resolution needs."
         },
         {
             "author": "SimonHeese",

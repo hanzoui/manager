@@ -2825,7 +2825,16 @@
             "title_aux": "ComfyUI-DiaTTS"
         }
     ],
-    "https://github.com/BobsBlazed/Bobs_Latent_Optimizer/raw/refs/heads/main/Bobs_Latent_Optimizer.py": [
+    "https://github.com/BobsBlazed/Bobs-Lora-Loader": [
+        [
+            "BobsLoraLoaderFlux",
+            "BobsLoraLoaderSdxl"
+        ],
+        {
+            "title_aux": "Bobs_LoRA_Loader"
+        }
+    ],
+    "https://github.com/BobsBlazed/Bobs_Latent_Optimizer": [
         [
             "BobsLatentNode",
             "BobsLatentNodeAdvanced"
@@ -24803,6 +24812,7 @@
             "ImageTranslateParamsBuilder",
             "ImageTranslateResultExtractor",
             "LoadImagesFromUrls",
+            "MaletteImageConcatFromBatch",
             "MarketImageGenerateWithPolling",
             "PythonCodeExecutor",
             "ReferenceLatent",
@@ -28878,6 +28888,7 @@
     ],
     "https://github.com/m-sokes/ComfyUI-Sokes-Nodes": [
         [
+            "ComfyUI Folder Paths | sokes \ud83e\uddac",
             "Current Date & Time | sokes \ud83e\uddac",
             "Generate Random Background | sokes \ud83e\uddac",
             "Hex Color Swatch | sokes \ud83e\uddac",

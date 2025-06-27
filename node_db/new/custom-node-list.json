@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "bobsblazed",
+            "title": "Bobs_LoRA_Loader",
+            "reference": "https://github.com/BobsBlazed/Bobs-Lora-Loader",
+            "files": [
+                "https://github.com/BobsBlazed/Bobs-Lora-Loader"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom LoRA loader node for ComfyUI with advanced block-weighting controls for both SDXL and FLUX models. Features presets for common use-cases like 'Character' and 'Style', and a 'Custom' mode for fine-grained control over individual model blocks."
+        },
+        {
             "author": "Yuan-ManX",
             "title": "ComfyUI-PosterCraft",
             "reference": "https://github.com/Yuan-ManX/ComfyUI-PosterCraft",
