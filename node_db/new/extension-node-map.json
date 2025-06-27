@@ -106,6 +106,18 @@
             "title_aux": "ComfyUI-MegaTTS"
         }
     ],
+    "https://github.com/1038lab/ComfyUI-MiniMax-Remover": [
+        [
+            "ImageSizeAdjuster",
+            "MinimaxImageRemover",
+            "MinimaxModelLoader",
+            "MinimaxVideoLoader",
+            "MinimaxVideoRemover"
+        ],
+        {
+            "title_aux": "ComfyUI-MiniMax-Remover"
+        }
+    ],
     "https://github.com/1038lab/ComfyUI-OmniGen": [
         [
             "ailab_OmniGen"
@@ -1606,6 +1618,16 @@
         ],
         {
             "title_aux": "Comfy-Photoshop-SD"
+        }
+    ],
+    "https://github.com/AbstractEyes/comfyui-lycoris": [
+        [
+            "ABS_ConcatPrompts",
+            "ABS_PromptNode",
+            "LycorisLoaderNode"
+        ],
+        {
+            "title_aux": "comfyui-lycoris"
         }
     ],
     "https://github.com/AbyssBadger0/ComfyUI_BadgerTools": [
@@ -9907,22 +9929,6 @@
             "title_aux": "comfyui_io_helpers"
         }
     ],
-    "https://github.com/S4MUEL-404/ComfyUI-Image-Position-Blend": [
-        [
-            "ImagePositionBlend"
-        ],
-        {
-            "title_aux": "Image Position Blend"
-        }
-    ],
-    "https://github.com/S4MUEL-404/ComfyUI-Prompts-Selector": [
-        [
-            "PromptSelector"
-        ],
-        {
-            "title_aux": "ComfyUI-Prompts-Selector"
-        }
-    ],
     "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image-Overlay": [
         [
             "ImageBlendWithAlpha",
@@ -9932,14 +9938,6 @@
         ],
         {
             "title_aux": "ComfyUI-S4Tool-Image-Overlay"
-        }
-    ],
-    "https://github.com/S4MUEL-404/ComfyUI-Text-On-Image": [
-        [
-            "TextOnImage"
-        ],
-        {
-            "title_aux": "ComfyUI-Text-On-Image"
         }
     ],
     "https://github.com/SEkINVR/ComfyUI-SaveAs": [
@@ -14350,6 +14348,14 @@
             "title_aux": "ComfyUI-AudioScheduler"
         }
     ],
+    "https://github.com/aassas2/ComfyUI-EsesImageEffectBloom": [
+        [
+            "EsesImageEffectBloom"
+        ],
+        {
+            "title_aux": "ComfyUI-EsesImageEffectBloom"
+        }
+    ],
     "https://github.com/abdozmantar/ComfyUI-DeepExtract": [
         [
             "VocalAndSoundRemoverNode"
@@ -15034,6 +15040,17 @@
         ],
         {
             "title_aux": "Caching to not Waste"
+        }
+    ],
+    "https://github.com/alchemine/comfyui-alchemine-pack": [
+        [
+            "ProcessTags",
+            "RemoveSubtags",
+            "RemoveTags",
+            "RemoveUnderscores"
+        ],
+        {
+            "title_aux": "ComfyUI-Alchemine-Pack"
         }
     ],
     "https://github.com/aleolidev/comfy_kaizen_package": [
@@ -31799,6 +31816,14 @@
             "title_aux": "ComfyUI-EsesImageAdjustments"
         }
     ],
+    "https://github.com/quasiblob/ComfyUI-EsesImageLensEffects": [
+        [
+            "EsesImageLensEffects"
+        ],
+        {
+            "title_aux": "ComfyUI-EsesImageLensEffects"
+        }
+    ],
     "https://github.com/quasiblob/ComfyUI-EsesImageOffset": [
         [
             "EsesImageOffset"
@@ -32934,6 +32959,14 @@
         ],
         {
             "title_aux": "SDFXBridgeForComfyUI - ComfyUI Custom Node for SDFX Integration"
+        }
+    ],
+    "https://github.com/sdtana/ComfyUI-FDG": [
+        [
+            "FDGNode"
+        ],
+        {
+            "title_aux": "ComfyUI-FDG"
         }
     ],
     "https://github.com/seanlynch/comfyui-optical-flow": [

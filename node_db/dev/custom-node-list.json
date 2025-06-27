@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "PeterMikhai",
+            "title": "DoomFLUX Nodes [WIP]",
+            "reference": "https://github.com/PeterMikhai/Doom_Flux_NodePack",
+            "files": [
+                "https://github.com/PeterMikhai/Doom_Flux_NodePack"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for FLUX models, including a loader and specialized samplers for standard and inpaint generation.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "maque",
+            "title": "comfyui_video_BC [WIP]",
+            "reference": "https://github.com/JioJe/comfyui_video_BC",
+            "files": [
+                "https://github.com/JioJe/comfyui_video_BC"
+            ],
+            "install_type": "git-clone",
+            "description": "Batch load video nodes and save videos in custom paths\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "RedmondAI",
             "title": "comfyui-tools [UNSAFE/NAME CONFLICT]",
             "reference": "https://github.com/RedmondAI/comfyui-tools",
