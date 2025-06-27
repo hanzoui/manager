@@ -2,7 +2,7 @@
     "custom_nodes": [
         {
             "author": "RedmondAI",
-            "title": "comfyui-tools [UNSAFE]",
+            "title": "comfyui-tools [UNSAFE/NAME CONFLICT]",
             "reference": "https://github.com/RedmondAI/comfyui-tools",
             "files": [
                 "https://github.com/RedmondAI/comfyui-tools"
@@ -80,16 +80,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI plugin to simplify loading and managing custom nodes with a sidebar interface."
-        },
-        {
-            "author": "armandgw84",
-            "title": "comfyui-custom-v8",
-            "reference": "https://github.com/armandgw84/comfyui-custom-v8",
-            "files": [
-                "https://github.com/armandgw84/comfyui-custom-v8"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Resize With Padding, Wan 2.1 Transition Prompter, Wan Prompt Crafter"
         },
         {
             "author": "diogod",
@@ -2481,16 +2471,6 @@
             ],
             "install_type": "git-clone",
             "description": "Wrapper for the Sa2VA model"
-        },
-        {
-            "author": "S4MUEL-404",
-            "title": "ComfyUI-Folder-Images-Preview [UNSAFE]",
-            "reference": "https://github.com/S4MUEL-404/ComfyUI-Folder-Images-Preview",
-            "files": [
-                "https://github.com/S4MUEL-404/ComfyUI-Folder-Images-Preview"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI nodes , Generate a picture and quickly preview the pictures in the folder and the picture file name\n[w/This custom node has a path traversal vulnerability.]"
         },
         {
             "author": "aria1th",

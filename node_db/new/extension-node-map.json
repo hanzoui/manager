@@ -2893,7 +2893,8 @@
             "SaveAudioAdvanced_BETA",
             "SelectSharpestFrames",
             "SharpestFrameClipper",
-            "TextLineCount"
+            "TextLineCount",
+            "WANResolutionCalculator"
         ],
         {
             "title_aux": "ComfyUI-BETA-Cropnodes"
@@ -2908,7 +2909,8 @@
             "SaveAudioAdvanced_BETA",
             "SelectSharpestFrames",
             "SharpestFrameClipper",
-            "TextLineCount"
+            "TextLineCount",
+            "WANResolutionCalculator"
         ],
         {
             "title_aux": "ComfyUI-BETA-Helpernodes"
@@ -3801,6 +3803,7 @@
             "Light or Dark",
             "Load Random Images",
             "Mask Preprocess Morphology",
+            "Mask To Gray",
             "Number",
             "PhotoShop Transfer",
             "SomethingShow",
@@ -7375,6 +7378,7 @@
             "LG_LatentBatchToList",
             "LG_LoadImage",
             "LG_Noise",
+            "LG_SaveImage",
             "LazySwitch1way",
             "LazySwitch2way",
             "MuterSwitcher"
@@ -16451,6 +16455,7 @@
             "SonarAdvancedDistroNoise",
             "SonarAdvancedPowerLawNoise",
             "SonarAdvancedPyramidNoise",
+            "SonarApplyLatentOperationCFG",
             "SonarBlendedNoise",
             "SonarChannelNoise",
             "SonarCompositeNoise",
@@ -16458,6 +16463,7 @@
             "SonarCustomNoiseAdv",
             "SonarGuidanceConfig",
             "SonarGuidedNoise",
+            "SonarLatentOperationQuantileFilter",
             "SonarModulatedNoise",
             "SonarNoiseImage",
             "SonarPatternBreakNoise",
@@ -16465,6 +16471,7 @@
             "SonarRandomNoise",
             "SonarRepeatedNoise",
             "SonarResizedNoise",
+            "SonarRippleFilteredNoise",
             "SonarScheduledNoise",
             "SonarShuffledNoise",
             "SonarWaveletFilteredNoise",
@@ -18954,6 +18961,7 @@
     ],
     "https://github.com/comfy-deploy/comfyui-llm-toolkit": [
         [
+            "CheckImageEmpty",
             "ConfigGenerateImage",
             "Display_Text",
             "GenerateImage",
@@ -18962,7 +18970,8 @@
             "LLMToolkitTextGeneratorStream",
             "LocalTransformersProviderNode",
             "OpenAIProviderNode",
-            "PromptManager"
+            "PromptManager",
+            "SwitchAny"
         ],
         {
             "author": "ComfyDeploy",
@@ -24806,16 +24815,16 @@
     "https://github.com/jinchanz/ComfyUI-ADIC": [
         [
             "ADIC_COMMON_API",
-            "FluxKontextImageScale",
-            "ImageStitch",
             "ImageTranslateAPI",
             "ImageTranslateParamsBuilder",
             "ImageTranslateResultExtractor",
             "LoadImagesFromUrls",
+            "MaletteFluxKontextImageScale",
             "MaletteImageConcatFromBatch",
+            "MaletteImageStitch",
+            "MaletteReferenceLatent",
             "MarketImageGenerateWithPolling",
             "PythonCodeExecutor",
-            "ReferenceLatent",
             "StringToJsonArray"
         ],
         {
@@ -28893,6 +28902,7 @@
             "Generate Random Background | sokes \ud83e\uddac",
             "Hex Color Swatch | sokes \ud83e\uddac",
             "Hex to Color Name | sokes \ud83e\uddac",
+            "Image Picker | sokes \ud83e\uddac",
             "Latent Switch x9 | sokes \ud83e\uddac",
             "Load Random Image | sokes \ud83e\uddac",
             "Random Hex Color | sokes \ud83e\uddac",
@@ -31704,6 +31714,7 @@
     ],
     "https://github.com/pxl-pshr/GlitchNodes": [
         [
+            "ASCII",
             "Corruptor",
             "DataBend",
             "DitherMe",
@@ -31844,6 +31855,7 @@
     ],
     "https://github.com/rainlizard/ComfyUI-Raffle": [
         [
+            "ConditioningRepeat",
             "PreviewHistory",
             "Raffle",
             "TagCategoryStrength"
@@ -36236,6 +36248,7 @@
             "Image_Resize",
             "KimFilter",
             "KimHDR",
+            "LoRA_Metadata_Reader",
             "LoadImage_Metadata",
             "Manual_MetadataInput",
             "Mask_Noise_Cleaner",
@@ -37721,7 +37734,9 @@
             "ImageMaskColorAverage",
             "ImageResizeTo8x",
             "ImageTransition",
+            "ImageTransitionBottomToTop",
             "ImageTransitionLeftToRight",
+            "ImageTransitionRightToLeft",
             "ImageTransitionTopToBottom",
             "ImagesConcanateToGrid",
             "IntMultipleAddLiteral",

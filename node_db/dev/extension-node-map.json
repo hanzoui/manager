@@ -777,7 +777,8 @@
     "https://github.com/Aryan185/ComfyUI-ReplicateFluxKontext": [
         [
             "FluxKontextMaxNode",
-            "FluxKontextProNode"
+            "FluxKontextProNode",
+            "GeminiChatNode"
         ],
         {
             "title_aux": "ComfyUI-ReplicateFluxKontext"
@@ -2384,6 +2385,7 @@
     "https://github.com/MakkiShizu/ComfyUI-MakkiTools": [
         [
             "AnyImageStitch",
+            "AnyImagetoConditioning_flux_kontext",
             "AutoLoop_create_pseudo_loop_video",
             "Environment_INFO",
             "GetImageNthCount",
@@ -2781,7 +2783,7 @@
     ],
     "https://github.com/RedmondAI/comfyui-tools": [
         [
-            "AutoWrite"
+            "AutoName"
         ],
         {
             "title_aux": "comfyui-tools [UNSAFE]"
@@ -2816,14 +2818,6 @@
         ],
         {
             "title_aux": "Miscomfy Nodes [WIP]"
-        }
-    ],
-    "https://github.com/S4MUEL-404/ComfyUI-Folder-Images-Preview": [
-        [
-            "FolderImagesPreview"
-        ],
-        {
-            "title_aux": "ComfyUI-Folder-Images-Preview [UNSAFE]"
         }
     ],
     "https://github.com/SKBv0/ComfyUI-RetroEngine": [
@@ -3886,16 +3880,6 @@
             "title_aux": "ComfyUI-camietagger-onnx"
         }
     ],
-    "https://github.com/armandgw84/comfyui-custom-v8": [
-        [
-            "ResizeWithPadding",
-            "Wan21PromptCrafter",
-            "Wan21TransitionPrompter"
-        ],
-        {
-            "title_aux": "comfyui-custom-v8"
-        }
-    ],
     "https://github.com/artem-konevskikh/comfyui-split-merge-video": [
         [
             "VideoMerger",
@@ -4459,15 +4443,6 @@
         ],
         {
             "title_aux": "ComfyUI-AppGen [UNSAFE]"
-        }
-    ],
-    "https://github.com/coVISIONSld/ComfyUI-OmniGen2": [
-        [
-            "OmniGen2ModelLoader",
-            "OmniGen2Sampler"
-        ],
-        {
-            "title_aux": "ComfyUI-OmniGen2 [NAME CONFLICT]"
         }
     ],
     "https://github.com/comfyanonymous/ComfyUI": [
@@ -9202,6 +9177,7 @@
         [
             "CLIPLoaderXZ",
             "CLIPTextEncodeXZ",
+            "DualCLIPLoaderXZ",
             "FirstLastFrameXZ",
             "ImageResizeKJ",
             "ImageResizeXZ",
