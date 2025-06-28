@@ -1354,6 +1354,7 @@
             "OpenPoseMediaPipeFace",
             "PreviewAudio",
             "SaveAudioBL",
+            "SaveModel",
             "\u5b58\u50a8",
             "\u5bfc\u5165",
             "\u622a\u56fe",
@@ -3560,6 +3561,7 @@
     "https://github.com/ComfyAssets/ComfyUI-KikoTools": [
         [
             "EmptyLatentBatch",
+            "KikoSaveImage",
             "ResolutionCalculator",
             "SamplerCombo",
             "SamplerComboCompact",
@@ -5735,6 +5737,14 @@
         ],
         {
             "title_aux": "ComfyUI_RH_UNO"
+        }
+    ],
+    "https://github.com/HMG-Fiverr/ComfyUI-RandomNumberButton": [
+        [
+            "RandomNumberButton"
+        ],
+        {
+            "title_aux": "Random Number Button"
         }
     ],
     "https://github.com/Haiper-ai/ComfyUI-HaiperAI-API": [
@@ -15044,10 +15054,10 @@
     ],
     "https://github.com/alchemine/comfyui-alchemine-pack": [
         [
+            "FilterSubtags",
+            "FilterTags",
             "ProcessTags",
-            "RemoveSubtags",
-            "RemoveTags",
-            "RemoveUnderscores"
+            "ReplaceUnderscores"
         ],
         {
             "title_aux": "ComfyUI-Alchemine-Pack"
@@ -27375,6 +27385,17 @@
             "title_aux": "ComfyUI-TCD-Sampler"
         }
     ],
+    "https://github.com/lihaoyun6/ComfyUI-BlindWatermark": [
+        [
+            "ApplyBlindWatermark",
+            "ApplyBlindWatermarkAdvanced",
+            "DecodeBlindWatermark",
+            "DecodeBlindWatermarkAdvanced"
+        ],
+        {
+            "title_aux": "ComfyUI-BlindWatermark"
+        }
+    ],
     "https://github.com/lihaoyun6/ComfyUI-CSV-Random-Picker": [
         [
             "CSVRandomPicker"
@@ -36288,6 +36309,7 @@
             "Mask_White_Area_Ratio",
             "MaxLength_ImageListSelector",
             "Percentage_Cropper",
+            "Pixelate_Filter",
             "Prompt_Text",
             "Save_Image",
             "Seamless_Icon_Generator",

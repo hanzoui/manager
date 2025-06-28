@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "pixixai",
+            "title": "ComfyUI_Pixix-Tools [UNSAFE/WIP]",
+            "reference": "https://github.com/pixixai/ComfyUI_Pixix-Tools",
+            "files": [
+                "https://github.com/pixixai/ComfyUI_Pixix-Tools"
+            ],
+            "install_type": "git-clone",
+            "description": "Load Text (from folder)\nNOTE: The files in the repo are not organized.[w/The contents of files from arbitrary paths can be read remotely through this node.]"
+        },
+        {
             "author": "PeterMikhai",
             "title": "DoomFLUX Nodes [WIP]",
             "reference": "https://github.com/PeterMikhai/Doom_Flux_NodePack",

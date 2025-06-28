@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "lihaoyun6",
+            "title": "ComfyUI-BlindWatermark",
+            "reference": "https://github.com/lihaoyun6/ComfyUI-BlindWatermark",
+            "files": [
+                "https://github.com/lihaoyun6/ComfyUI-BlindWatermark"
+            ],
+            "install_type": "git-clone",
+            "description": "Embeds an invisible watermark in the input image"
+        },
+        {
+            "author": "HMG-Fiverr",
+            "title": "Random Number Button",
+            "reference": "https://github.com/HMG-Fiverr/ComfyUI-RandomNumberButton",
+            "files": [
+                "https://github.com/HMG-Fiverr/ComfyUI-RandomNumberButton"
+            ],
+            "install_type": "git-clone",
+            "description": "This node provides a button that, when clicked, triggers the execution of the node and generates a new random integer between 0 and 1000. The generated number is available as an output."
+        },
+        {
             "author": "sdtana",
             "title": "ComfyUI-FDG",
             "reference": "https://github.com/sdtana/ComfyUI-FDG",
@@ -668,27 +688,6 @@
             ],
             "install_type": "git-clone",
             "description": "This is a custom node for ComfyUI that calls the DeepSeek Chat API to process text input and return text output."
-        },
-        {
-            "author": "jkhayiying",
-            "title": "ImageLoadFromLocalOrUrl Node for ComfyUI",
-            "id": "JkhaImageLoaderPathOrUrl",
-            "reference": "https://gitee.com/yyh915/jkha-load-img",
-            "files": [
-                "https://gitee.com/yyh915/jkha-load-img"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a node to load an image from local path or url."
-        },
-        {
-            "author": "jurdnf",
-            "title": "ComfyUI-JurdnsModelSculptor",
-            "reference": "https://github.com/jurdnf/ComfyUI-JurdnsModelSculptor",
-            "files": [
-                "https://github.com/jurdnf/ComfyUI-JurdnsModelSculptor"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node package for seamless integration with Threads (Meta's social platform). This package allows you to publish posts, manage images, and retrieve post history directly from your ComfyUI workflows."
         }
     ]
 }
