@@ -1865,6 +1865,7 @@
             "CameraTrajectoryNode",
             "CombineDepthsNode",
             "DepthEstimatorNode",
+            "DepthFramesToVideo",
             "DepthRenormalizer",
             "DepthToImageNode",
             "DepthToPointCloud",
@@ -1884,6 +1885,8 @@
             "TransformPointCloud",
             "TransformToMatrix",
             "TransformToMatrixManual",
+            "VideoCameraMotionSequence",
+            "VideoMetricDepthEstimate",
             "ZDepthToRayDepthNode"
         ],
         {
@@ -4518,6 +4521,7 @@
         [
             "ErePromptCloud",
             "ErePromptFilter",
+            "ErePromptGallery",
             "ErePromptMultiSelect",
             "ErePromptMultiline",
             "ErePromptRandomizer",
@@ -8152,7 +8156,8 @@
         [
             "BatchImageLoaderToLocalFiles",
             "DownloadAndLoadQwen2_5_VLModel",
-            "Qwen2_5_VL_Run"
+            "Qwen2_5_VL_Run",
+            "Qwen2_5_VL_Run_Advanced"
         ],
         {
             "title_aux": "ComfyUI-Qwen2_5-VL"
@@ -15410,8 +15415,10 @@
             "Sage_DualCLIPTextEncode",
             "Sage_DualCLIPTextEncodeLumina2",
             "Sage_EmptyLatentImagePassthrough",
+            "Sage_FreeMemory",
             "Sage_GetFileHash",
             "Sage_GuessResolutionByRatio",
+            "Sage_Halt",
             "Sage_HiDreamE1_Instruction",
             "Sage_JoinText",
             "Sage_KSampler",
@@ -19853,8 +19860,10 @@
     ],
     "https://github.com/cyberhirsch/seb_nodes": [
         [
+            "AspectRatioSeb",
             "SaveImageSeb",
-            "SwitchMasksSeb"
+            "SwitchMasksSeb",
+            "UnifiedPrompterSeb"
         ],
         {
             "title_aux": "Seb Nodes"
@@ -21054,6 +21063,31 @@
         ],
         {
             "title_aux": "ComfyUI-Load-DirectoryFiles"
+        }
+    ],
+    "https://github.com/eg0pr0xy/comfyui_noisegen": [
+        [
+            "AudioAnalyzer",
+            "AudioMixer",
+            "AudioSave",
+            "BandLimitedNoise",
+            "ChaosNoiseMix",
+            "ConvolutionReverb",
+            "FeedbackProcessor",
+            "GranularProcessor",
+            "GranularSequencer",
+            "HarshFilter",
+            "MicrosoundSculptor",
+            "ModulationMatrix",
+            "MultiDistortion",
+            "NoiseGenerator",
+            "PerlinNoise",
+            "SpectralProcessor",
+            "SpectrumAnalyzer",
+            "TrueChaos"
+        ],
+        {
+            "title_aux": "ComfyUI-NoiseGen"
         }
     ],
     "https://github.com/emojiiii/ComfyUI_Emojiiii_Custom_Nodes": [
@@ -30816,6 +30850,14 @@
             "title_aux": "Olm Resolution Picker for ComfyUI"
         }
     ],
+    "https://github.com/o-l-l-i/ComfyUI-Olm-Sketch": [
+        [
+            "OlmSketch"
+        ],
+        {
+            "title_aux": "Olm Sketch for ComfyUI"
+        }
+    ],
     "https://github.com/o-l-l-i/ComfyUI-OlmLUT": [
         [
             "OlmLUT"
@@ -35516,6 +35558,8 @@
             "ImageComplexityScorer",
             "ImageNoveltyScorer",
             "Image_saver",
+            "LatentReplicator",
+            "LatentReplicatorPrompts",
             "PromptCounter",
             "Random_Prompt_Multipicker",
             "Random_Prompt_Selector",

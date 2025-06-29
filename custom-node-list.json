@@ -2609,7 +2609,7 @@
                 "https://github.com/tusharbhutt/Endless-Nodes"
             ],
             "install_type": "git-clone",
-            "description": "A small set of nodes I created for various numerical and text inputs.  Features image saver with ability to have JSON saved to separate folder, parameter collection nodes, two aesthetic scoring models, switches for text and numbers, and conversion of string to numeric and vice versa."
+            "description": "A small set of nodes I created for myself. Features multiple simultaneous prompts in batches, an image saver with ability to have JSON saved to separate folder, image analysis nodes, switches for text and numbers, and more."
         },
         {
             "author": "spacepxl",
@@ -17940,7 +17940,7 @@
                 "https://github.com/robertvoy/ComfyUI-Flux-Continuum"
             ],
             "install_type": "git-clone",
-            "description": "Set of custom nodes to use with the ComfyUI Flux Continuum: Modular Interface. NODES: Text Versions, Image64 Display, Tabs, Step Slider, Denoise Slider, Guidance Slider, Batch Slider, Max Shift Slider, ControlNet Slider"
+            "description": "Set of custom nodes to use with the ComfyUI Flux Continuum: Modular Interface. NODES: Text Versions, Image64 Display, Tabs, Step Slider, Denoise Slider, Guidance Slider, Batch Slider, Max Shift Slider, ControlNet Slider and more"
         },
         {
             "author": "Lam Yan",
@@ -27390,6 +27390,16 @@
             "description": "A single-purpose, multi-channel curve editor for ComfyUI, providing precise color control over R, G, B, and Luma channels directly within the node graph. It’s a focused, lightweight, and standalone solution built specifically for one task: applying color curves cleanly and efficiently."
         },
         {
+            "author": "o-l-l-i",
+            "title": "Olm Sketch for ComfyUI",
+            "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-Sketch",
+            "files": [
+                "https://github.com/o-l-l-i/ComfyUI-Olm-Sketch"
+            ],
+            "install_type": "git-clone",
+            "description": "An interactive sketching and drawing node for ComfyUI with stylus/pen support – built for fast, intuitive scribbling directly inside your workflows, geared towards ControlNet-style workflows which utilize scribbles and line art."
+        },
+        {
             "author": "xiaogui8dangjia",
             "title": "Comfyui-imagetoSTL",
             "reference": "https://github.com/xiaogui8dangjia/Comfyui-imagetoSTL",
@@ -28305,6 +28315,17 @@
             "install_type": "git-clone",
             "description": "Expose your workflows into HTTP endpoints directly from ComfyUI itself."
         },
+        {
+            "author": "eg0pr0xy",
+            "title": "ComfyUI-NoiseGen",
+            "reference": "https://github.com/eg0pr0xy/comfyui_noisegen",
+            "files": [
+                "https://github.com/eg0pr0xy/comfyui_noisegen"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional noise generation nodes for ComfyUI"
+        },
+        
         
         
 

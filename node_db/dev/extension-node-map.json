@@ -2405,6 +2405,7 @@
             "ImageWidthStitch",
             "MergeImageChannels",
             "random_any",
+            "show_type",
             "translator_m2m100",
             "translators"
         ],
@@ -2799,14 +2800,6 @@
         ],
         {
             "title_aux": "Kuniklo Collection"
-        }
-    ],
-    "https://github.com/RedmondAI/comfyui-tools": [
-        [
-            "AutoName"
-        ],
-        {
-            "title_aux": "comfyui-tools [UNSAFE/NAME CONFLICT]"
         }
     ],
     "https://github.com/RicherdLee/comfyui-oss-image-save": [
@@ -4986,8 +4979,10 @@
     ],
     "https://github.com/cyberhirsch/seb_nodes": [
         [
+            "AspectRatioSeb",
             "SaveImageSeb",
-            "SwitchMasksSeb"
+            "SwitchMasksSeb",
+            "UnifiedPrompterSeb"
         ],
         {
             "title_aux": "seb_nodes [WIP]"
@@ -5641,13 +5636,14 @@
             "HolafBenchmarkRunner",
             "HolafImageComparer",
             "HolafInstagramResize",
+            "HolafInternalSampler",
             "HolafKSampler",
-            "HolafLutApplier",
             "HolafLutGenerator",
-            "HolafLutLoader",
             "HolafLutSaver",
             "HolafMaskToBoolean",
+            "HolafOrchestratorConfig",
             "HolafOverlayNode",
+            "HolafRatioCalculator",
             "HolafResolutionPreset",
             "HolafSaveImage",
             "HolafSliceCalculator",
@@ -6152,7 +6148,8 @@
             "BailianAPIPoll",
             "BailianAPISubmit",
             "MaletteJSONExtractor",
-            "MaletteJSONModifier"
+            "MaletteJSONModifier",
+            "MaletteVirtualTryOn"
         ],
         {
             "title_aux": "ComfyUI-AliCloud-Bailian [WIP]"

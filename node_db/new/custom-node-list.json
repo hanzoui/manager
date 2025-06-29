@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "eg0pr0xy",
+            "title": "ComfyUI-NoiseGen",
+            "reference": "https://github.com/eg0pr0xy/comfyui_noisegen",
+            "files": [
+                "https://github.com/eg0pr0xy/comfyui_noisegen"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional noise generation nodes for ComfyUI"
+        },
+        {
+            "author": "o-l-l-i",
+            "title": "Olm Sketch for ComfyUI",
+            "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-Sketch",
+            "files": [
+                "https://github.com/o-l-l-i/ComfyUI-Olm-Sketch"
+            ],
+            "install_type": "git-clone",
+            "description": "An interactive sketching and drawing node for ComfyUI with stylus/pen support – built for fast, intuitive scribbling directly inside your workflows, geared towards ControlNet-style workflows which utilize scribbles and line art."
+        },
+        {
             "author": "Good-Dream-Studio",
             "title": "ComfyUI-Connect",
             "reference": "https://github.com/Good-Dream-Studio/ComfyUI-Connect",
@@ -688,16 +708,6 @@
             ],
             "install_type": "git-clone",
             "description": "This extension offers wildcard prompting works solely in workflow."
-        },
-        {
-            "author": "linjian-ufo",
-            "title": "DeepSeek Chat Node for ComfyUI",
-            "reference": "https://github.com/linjian-ufo/comfyui_deepseek_lj257_update",
-            "files": [
-                "https://github.com/linjian-ufo/comfyui_deepseek_lj257_update"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a custom node for ComfyUI that calls the DeepSeek Chat API to process text input and return text output."
         }
     ]
 }
