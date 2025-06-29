@@ -1,17 +1,6 @@
 {
     "custom_nodes": [
         {
-            "author": "S4MUEL404",
-            "title": "ComfyUI S4Tool Image",
-            "id": "comfyui-s4tool-image",
-            "reference": "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image",
-            "files": [
-                "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node package for image processing in ComfyUI, for automating image processing within the ComfyUI workflow."
-        },
-        {
             "author": "Dr.Lt.Data",
             "title": "ComfyUI-Manager",
             "id": "manager",
@@ -26944,6 +26933,16 @@
             "description": "This ComfyUI node allows you to extract all images found in various types of documents and save them to disk. It also provides a preview of the first extracted image."
         },
         {
+            "author": "orion4d",
+            "title": "CalculatorPro - Node Suite for ComfyUI",
+            "reference": "https://github.com/orion4d/Calculator_Pro",
+            "files": [
+                "https://github.com/orion4d/Calculator_Pro"
+            ],
+            "install_type": "git-clone",
+            "description": "utilitaires pour ComfyUI, conçue pour effectuer des calculs et des conversions"
+        },
+        {
             "author": "aiaiaikkk",
             "title": "ComfyUI-Curve",
             "reference": "https://github.com/aiaiaikkk/ComfyUI-Curve",
@@ -28287,16 +28286,6 @@
             "description": "A properly implemented lycoris loader for comfyui."
         },
         {
-            "author": "aassas2",
-            "title": "ComfyUI-EsesImageEffectBloom",
-            "reference": "https://github.com/aassas2/ComfyUI-EsesImageEffectBloom",
-            "files": [
-                "https://github.com/aassas2/ComfyUI-EsesImageEffectBloom"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-EsesImageEffectBloom provides a powerful bloom image post-processing effect for Comfy. This tool leverages GPU capabilities to deliver optimized blur effect calculations, enhancing your images with a stunning glow. Whether you’re a developer or a digital artist, this effect can elevate your visuals effortlessly."
-        },
-        {
             "author": "alchemine",
             "title": "ComfyUI-Alchemine-Pack",
             "reference": "https://github.com/alchemine/comfyui-alchemine-pack",
@@ -28337,6 +28326,66 @@
             "description": "Professional noise generation nodes for ComfyUI"
         },
         {
+            "author": "aoliao",
+            "title": "ComfyUI ElevenLabs API integration",
+            "reference": "https://github.com/sysL-padawan/comfyui-elevenlabs-integration",
+            "files": [
+                "https://github.com/sysL-padawan/comfyui-elevenlabs-integration"
+            ],
+            "install_type": "git-clone",
+            "description": "This project integrates the ElevenLabs Text-to-Speech API as a custom node for ComfyUI. It enables seamless text-to-speech conversion directly within ComfyUI, providing the generated audio as a PyTorch tensor for immediate playback or further processing. Ideal for workflows requiring high-quality speech synthesis"
+        },
+        {
+            "author": "Windecay",
+            "title": "ComfyUI-ReservedVRAM",
+            "reference": "https://github.com/Windecay/ComfyUI-ReservedVRAM",
+            "files": [
+                "https://github.com/Windecay/ComfyUI-ReservedVRAM"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple node that can dynamically adjust the reserved memory of a workflow in real-time, used to avoid the utilization of shared memory."
+        },
+        {
+            "author": "kaaskoek232",
+            "title": "ComfyUI-MemoryManagement",
+            "reference": "https://github.com/kaaskoek232/ComfyUI-MemoryManagement",
+            "files": [
+                "https://github.com/kaaskoek232/ComfyUI-MemoryManagement"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced memory management custom nodes for ComfyUI"
+        },
+        {
+            "author": "LK-168",
+            "title": "comfyui_imgutils",
+            "reference": "https://github.com/LK-168/comfyui_imgutils",
+            "files": [
+                "https://github.com/LK-168/comfyui_imgutils"
+            ],
+            "install_type": "git-clone",
+            "description": "Image tool kit for comfyui with dghs-imgutils"
+        },
+        {
+            "author": "Icyman86",
+            "title": "ComfyUI_AnimeCharacterSelect",
+            "reference": "https://github.com/Icyman86/ComfyUI_AnimeCharacterSelect",
+            "files": [
+                "https://github.com/Icyman86/ComfyUI_AnimeCharacterSelect"
+            ],
+            "install_type": "git-clone",
+            "description": "WAI's Character select ported to ComfyUI with a few tweaks"
+        },
+        {
+            "author": "Cyrus-Hei",
+            "title": "comfyui-prompt-bank",
+            "reference": "https://github.com/Cyrus-Hei/comfyui-prompt-bank",
+            "files": [
+                "https://github.com/Cyrus-Hei/comfyui-prompt-bank"
+            ],
+            "install_type": "git-clone",
+            "description": "A prompt manager on the sidebar for ComfyUI, allowing easy saving and copying of prompts. "
+        },
+        {
             "author": "KarmaSwint",
             "title": "KarmaNodes",
             "reference": "https://github.com/KarmaSwint/ComfyUI-KarmaNodes",
@@ -28346,7 +28395,18 @@
             "install_type": "git-clone",
             "description": "Custom cycling KSampler with progressive upscale and more. Professional post-processing nodes."
         },
-        
+        {
+            "author": "S4MUEL404",
+            "title": "ComfyUI S4Tool Image",
+            "id": "comfyui-s4tool-image",
+            "reference": "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image",
+            "files": [
+                "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node package for image processing in ComfyUI, for automating image processing within the ComfyUI workflow."
+        },
+
         
 
 

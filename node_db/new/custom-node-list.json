@@ -1,6 +1,97 @@
 {
     "custom_nodes": [
         {
+            "author": "KarmaSwint",
+            "title": "KarmaNodes",
+            "reference": "https://github.com/KarmaSwint/ComfyUI-KarmaNodes",
+            "files": [
+                "https://github.com/KarmaSwint/ComfyUI-KarmaNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom cycling KSampler with progressive upscale and more. Professional post-processing nodes."
+        },
+        {
+            "author": "S4MUEL404",
+            "title": "ComfyUI S4Tool Image",
+            "id": "comfyui-s4tool-image",
+            "reference": "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image",
+            "files": [
+                "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node package for image processing in ComfyUI, for automating image processing within the ComfyUI workflow."
+        },
+        {
+            "author": "orion4d",
+            "title": "CalculatorPro - Node Suite for ComfyUI",
+            "reference": "https://github.com/orion4d/Calculator_Pro",
+            "files": [
+                "https://github.com/orion4d/Calculator_Pro"
+            ],
+            "install_type": "git-clone",
+            "description": "utilitaires pour ComfyUI, conçue pour effectuer des calculs et des conversions"
+        },
+        {
+            "author": "aoliao",
+            "title": "ComfyUI ElevenLabs API integration",
+            "reference": "https://github.com/sysL-padawan/comfyui-elevenlabs-integration",
+            "files": [
+                "https://github.com/sysL-padawan/comfyui-elevenlabs-integration"
+            ],
+            "install_type": "git-clone",
+            "description": "This project integrates the ElevenLabs Text-to-Speech API as a custom node for ComfyUI. It enables seamless text-to-speech conversion directly within ComfyUI, providing the generated audio as a PyTorch tensor for immediate playback or further processing. Ideal for workflows requiring high-quality speech synthesis"
+        },
+        {
+            "author": "Icyman86",
+            "title": "ComfyUI_AnimeCharacterSelect",
+            "reference": "https://github.com/Icyman86/ComfyUI_AnimeCharacterSelect",
+            "files": [
+                "https://github.com/Icyman86/ComfyUI_AnimeCharacterSelect"
+            ],
+            "install_type": "git-clone",
+            "description": "WAI's Character select ported to ComfyUI with a few tweaks"
+        },
+        {
+            "author": "LK-168",
+            "title": "comfyui_imgutils",
+            "reference": "https://github.com/LK-168/comfyui_imgutils",
+            "files": [
+                "https://github.com/LK-168/comfyui_imgutils"
+            ],
+            "install_type": "git-clone",
+            "description": "Image tool kit for comfyui with dghs-imgutils"
+        },
+        {
+            "author": "Cyrus-Hei",
+            "title": "comfyui-prompt-bank",
+            "reference": "https://github.com/Cyrus-Hei/comfyui-prompt-bank",
+            "files": [
+                "https://github.com/Cyrus-Hei/comfyui-prompt-bank"
+            ],
+            "install_type": "git-clone",
+            "description": "A prompt manager on the sidebar for ComfyUI, allowing easy saving and copying of prompts. "
+        },
+        {
+            "author": "Windecay",
+            "title": "ComfyUI-ReservedVRAM",
+            "reference": "https://github.com/Windecay/ComfyUI-ReservedVRAM",
+            "files": [
+                "https://github.com/Windecay/ComfyUI-ReservedVRAM"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple node that can dynamically adjust the reserved memory of a workflow in real-time, used to avoid the utilization of shared memory."
+        },
+        {
+            "author": "kaaskoek232",
+            "title": "ComfyUI-MemoryManagement",
+            "reference": "https://github.com/kaaskoek232/ComfyUI-MemoryManagement",
+            "files": [
+                "https://github.com/kaaskoek232/ComfyUI-MemoryManagement"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced memory management custom nodes for ComfyUI"
+        },
+        {
             "author": "eg0pr0xy",
             "title": "ComfyUI-NoiseGen",
             "reference": "https://github.com/eg0pr0xy/comfyui_noisegen",
@@ -69,16 +160,6 @@
             ],
             "install_type": "git-clone",
             "description": "The 'Eses Image Lens Effects' node is a multipurpose node for ComfyUI designed to simulate a variety of lens characteristics. It combines several typical effects into a single, convenient node, allowing to add realistic or stylistic lens distortion, chromatic aberration, post-process scaling, and a highly configurable vignette."
-        },
-        {
-            "author": "aassas2",
-            "title": "ComfyUI-EsesImageEffectBloom",
-            "reference": "https://github.com/aassas2/ComfyUI-EsesImageEffectBloom",
-            "files": [
-                "https://github.com/aassas2/ComfyUI-EsesImageEffectBloom"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-EsesImageEffectBloom provides a powerful bloom image post-processing effect for Comfy. This tool leverages GPU capabilities to deliver optimized blur effect calculations, enhancing your images with a stunning glow. Whether you’re a developer or a digital artist, this effect can elevate your visuals effortlessly."
         },
         {
             "author": "1038lab",
@@ -624,90 +705,6 @@
             ],
             "install_type": "git-clone",
             "description": "Automatically tests the impact of each phrase in a prompt by generating images with one phrase omitted at a time."
-        },
-        {
-            "author": "dseditor",
-            "title": "ComfyUI-ScheduledTask",
-            "reference": "https://github.com/dseditor/ComfyUI-ScheduledTask",
-            "files": [
-                "https://github.com/dseditor/ComfyUI-ScheduledTask"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful workflow scheduling extension for ComfyUI that enables automated daily execution of workflows with an intuitive web interface."
-        },
-        {
-            "author": "😈 CasterPollux",
-            "title": "MiniMax Video Object Remover Suite",
-            "reference": "https://github.com/casterpollux/MiniMax-bmo",
-            "files": [
-                "https://github.com/casterpollux/MiniMax-bmo"
-            ],
-            "nodename_pattern":  "MiniMax.*BMO|BMO.*MiniMax",
-            "pip":  ["segment-anything"],
-            "tags": ["video", "inpainting", "object-removal", "suite", "professional", "BMO"],
-            "install_type": "git-clone",
-            "description": "Professional video object removal suite using MiniMax optimization. Includes BMO-enhanced nodes with VAE normalization, temporal preservation, and 6-step inference. Complete video inpainting solution for ComfyUI."
-        },
-        {
-            "author": "ialhabbal",
-            "title": "OcclusionMask",
-            "reference": "https://github.com/ialhabbal/OcclusionMask",
-            "files": [
-                "https://github.com/ialhabbal/OcclusionMask"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful ComfyUI custom node for advanced face occlusion, segmentation, and masking, leveraging state-of-the-art face detection (insightface buffalo models) for robust and accurate results."
-        },
-        {
-            "author": "Charonartist",
-            "title": "ComfyUI Auto LoRA",
-            "reference": "https://github.com/Charonartist/comfyui-auto-lora-v2",
-            "files": [
-                "https://github.com/Charonartist/comfyui-auto-lora-v2"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a ComfyUI custom node that automatically detects trigger words from text prompts and applies the corresponding LoRA models."
-        },
-        {
-            "author": "akatz-ai",
-            "title": "ComfyUI-Basic-Math",
-            "reference": "https://github.com/akatz-ai/ComfyUI-Basic-Math",
-            "files": [
-                "https://github.com/akatz-ai/ComfyUI-Basic-Math"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for performing basic math operations"
-        },
-        {
-            "author": "kael558",
-            "title": "ComfyUI-GGUF-FantasyTalking",
-            "reference": "https://github.com/kael558/ComfyUI-GGUF-FantasyTalking",
-            "files": [
-                "https://github.com/kael558/ComfyUI-GGUF-FantasyTalking"
-            ],
-            "install_type": "git-clone",
-            "description": "GGUF Quantization support for native ComfyUI models with FantasyTalking."
-        },
-        {
-            "author": "Lord Lethris",
-            "title": "ComfyUI-RPG-Characters",
-            "id": "rpg-characters",
-            "reference": "https://github.com/lord-lethris/ComfyUI-RPG-Characters",
-            "files": [
-                "https://github.com/lord-lethris/ComfyUI-RPG-Characters"
-            ],
-            "install_type": "git-clone",
-            "description": "Stylized RPG character prompt generator for ComfyUI. Supports standard and Ollama-based prompts, works with SD, SDXL, Flux, and more."
-        },
-        {
-            "author": "Phospholipids",
-            "title": "PPWildCard",
-            "reference": "https://github.com/kohs100/comfyui-ppwc",
-            "files": [
-                "https://github.com/kohs100/comfyui-ppwc"
-            ],
-            "install_type": "git-clone",
-            "description": "This extension offers wildcard prompting works solely in workflow."
         }
     ]
 }

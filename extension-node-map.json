@@ -6096,6 +6096,15 @@
             "title_aux": "Sampler Scheduler Metrics Tester for ComfyUI"
         }
     ],
+    "https://github.com/Icyman86/ComfyUI_AnimeCharacterSelect": [
+        [
+            "EnhancedCharacterPromptNode",
+            "MinimalCharacterActionPrompt"
+        ],
+        {
+            "title_aux": "ComfyUI_AnimeCharacterSelect"
+        }
+    ],
     "https://github.com/IgalOgonov/ComfyUI_Simple_String_Repository": [
         [
             "SimpleStringRepository",
@@ -6928,6 +6937,18 @@
             "title_aux": "ComfyUI-Paint-by-Example"
         }
     ],
+    "https://github.com/KarmaSwint/ComfyUI-KarmaNodes": [
+        [
+            "Karma-Film-Grain",
+            "Karma-KSampler-Cycle",
+            "Karma-Kolors",
+            "Karma_Film_Grain",
+            "Karma_Kolors"
+        ],
+        {
+            "title_aux": "KarmaNodes"
+        }
+    ],
     "https://github.com/Kayarte/AudioDriven-Latent-Space-Tools-for-ComfyUI": [
         [
             "AdvancedNoisePatterns",
@@ -7434,6 +7455,28 @@
         ],
         {
             "title_aux": "ImagesGrid"
+        }
+    ],
+    "https://github.com/LK-168/comfyui_imgutils": [
+        [
+            "BBoxFilter",
+            "BBoxToMaskNode",
+            "CensorWithMask",
+            "ImgutilsAutoSegmenter",
+            "ImgutilsBBoxSegmenter",
+            "ImgutilsGenericDetector",
+            "MaskAttributeNodeLK",
+            "MaskCombineNodeLK",
+            "MaskEdgeNodeLK",
+            "MaskHelperLK",
+            "MaskInfoNodeLK",
+            "MaskMorphologyNodeLK",
+            "MaskToBBoxNode",
+            "SAMLoaderLK",
+            "SAMPredictorNode"
+        ],
+        {
+            "title_aux": "comfyui_imgutils"
         }
     ],
     "https://github.com/LKbaba/ComfyUI-TuZi-Flux-Kontext": [
@@ -9943,6 +9986,25 @@
         ],
         {
             "title_aux": "comfyui_io_helpers"
+        }
+    ],
+    "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image": [
+        [
+            "ImageBlendWithAlpha",
+            "ImageColor",
+            "ImageCombine",
+            "ImageCropToFit",
+            "ImageFromBase64",
+            "ImageMaskExpand",
+            "ImageOverlay",
+            "ImagePalette",
+            "ImagePalette631",
+            "ImagePrimaryColor",
+            "ImageTilingPattern",
+            "ImageToBase64"
+        ],
+        {
+            "title_aux": "ComfyUI S4Tool Image"
         }
     ],
     "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image-Overlay": [
@@ -13435,6 +13497,14 @@
             "title_aux": "ComfyUI Simply Nodes"
         }
     ],
+    "https://github.com/Windecay/ComfyUI-ReservedVRAM": [
+        [
+            "ReservedVRAMSetter"
+        ],
+        {
+            "title_aux": "ComfyUI-ReservedVRAM"
+        }
+    ],
     "https://github.com/X-School-Academy/X-FluxAgent": [
         [
             "X-FluxAgent.AICodeGenNode",
@@ -13531,13 +13601,19 @@
     ],
     "https://github.com/XieJunchen/comfyUI_LLM": [
         [
+            "AppendImagesToBatch",
             "CloudImageUploadNode",
             "CloudImagesToVideoAndUpload",
             "CloudVideoUploadNode",
             "ComfyUI_LLM_Ollama",
+            "CreateEmptyImageBatch",
             "DeepSeek_Online",
+            "GetFirstImageFromBatch",
+            "GetVideoClipByIndex",
             "LoadGifFromLocal",
             "LoadImgFromUrl",
+            "RemoveFirstOrLastImageFromBatch",
+            "SplitVideoByFrames",
             "StringArrayFormatter",
             "StringArrayIndexer"
         ],
@@ -14362,14 +14438,6 @@
         ],
         {
             "title_aux": "ComfyUI-AudioScheduler"
-        }
-    ],
-    "https://github.com/aassas2/ComfyUI-EsesImageEffectBloom": [
-        [
-            "EsesImageEffectBloom"
-        ],
-        {
-            "title_aux": "ComfyUI-EsesImageEffectBloom"
         }
     ],
     "https://github.com/abdozmantar/ComfyUI-DeepExtract": [
@@ -25516,6 +25584,20 @@
             "title_aux": "Extended Image Formats for ComfyUI"
         }
     ],
+    "https://github.com/kaaskoek232/ComfyUI-MemoryManagement": [
+        [
+            "AutoMemoryCleanup",
+            "MemoryCleanup",
+            "MemoryLeakDetector",
+            "MemoryMonitor",
+            "SmartMemoryManager",
+            "VRAMOptimizer",
+            "VRAMUnload"
+        ],
+        {
+            "title_aux": "ComfyUI-MemoryManagement"
+        }
+    ],
     "https://github.com/kadirnar/ComfyUI-Transformers": [
         [
             "DepthEstimationInference",
@@ -31004,6 +31086,21 @@
             "title_aux": "comfyui-OreX"
         }
     ],
+    "https://github.com/orion4d/Calculator_Pro": [
+        [
+            "DataConverter",
+            "LengthConverter",
+            "ManualRateConverter",
+            "MassConverter",
+            "ScientificCalculatorTri",
+            "TimeConverter",
+            "UniversalConverter",
+            "VolumeConverter"
+        ],
+        {
+            "title_aux": "CalculatorPro - Node Suite for ComfyUI"
+        }
+    ],
     "https://github.com/orion4d/ComfyUI-Image-Effects": [
         [
             "AsciiArtNode",
@@ -34870,6 +34967,14 @@
             "title_aux": "ComfyUI_PromptBatcher"
         }
     ],
+    "https://github.com/sysL-padawan/comfyui-elevenlabs-integration": [
+        [
+            "ElevenlabsRequestNode"
+        ],
+        {
+            "title_aux": "ComfyUI ElevenLabs API integration"
+        }
+    ],
     "https://github.com/szhublox/ambw_comfyui": [
         [
             "Auto Merge Block Weighted",
@@ -37261,6 +37366,7 @@
             "easy preSamplingNoiseIn",
             "easy preSamplingSdTurbo",
             "easy prompt",
+            "easy promptAwait",
             "easy promptConcat",
             "easy promptLine",
             "easy promptList",
