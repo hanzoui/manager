@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "quasiblob",
+            "title": "ComfyUI-EsesImageEffectBloom",
+            "reference": "https://github.com/quasiblob/ComfyUI-EsesImageEffectBloom",
+            "files": [
+                "https://github.com/quasiblob/ComfyUI-EsesImageEffectBloom"
+            ],
+            "install_type": "git-clone",
+            "description": "'Eses Image Effect Bloom' image post processing effect for ComfyUI, it uses GPU and has optimized blur effect calculations. Minimal dependencies, simple and easy to use UI."
+        },
+        {
             "author": "KarmaSwint",
             "title": "KarmaNodes",
             "reference": "https://github.com/KarmaSwint/ComfyUI-KarmaNodes",
@@ -685,26 +695,6 @@
             ],
             "install_type": "git-clone",
             "description": "This is the comfyui implementation of [a/PartPacker](https://github.com/NVlabs/PartPacker): Efficient Part-level 3D Object Generation via Dual Volume Packing.Max varm12G"
-        },
-        {
-            "author": "azazeal04",
-            "title": "anime_character_selector",
-            "reference": "https://github.com/azazeal04/Azazeal_Anime_Characters_ComfyUI",
-            "files": [
-                "https://github.com/azazeal04/Azazeal_Anime_Characters_ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "character nodes for characters from various anime shows and comics"
-        },
-        {
-            "author": "drphero",
-            "title": "ComfyUI-PromptTester",
-            "reference": "https://github.com/drphero/comfyui_prompttester",
-            "files": [
-                "https://github.com/drphero/comfyui_prompttester"
-            ],
-            "install_type": "git-clone",
-            "description": "Automatically tests the impact of each phrase in a prompt by generating images with one phrase omitted at a time."
         }
     ]
 }

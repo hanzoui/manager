@@ -18707,16 +18707,6 @@
             "description": "Custom nodes for ComfyUI by Comflowy."
         },
         {
-            "author": "akspa0",
-            "title": "ComfyUI-FapMixPlus",
-            "reference": "https://github.com/akspa0/ComfyUI-FapMixPlus",
-            "files": [
-                "https://github.com/akspa0/ComfyUI-FapMixPlus"
-            ],
-            "install_type": "git-clone",
-            "description": "This is an audio processing script that applies soft limiting, optional loudness normalization, and optional slicing for transcription. It can also produce stereo-mixed outputs with optional audio appended to the end. The script organizes processed files into structured folders with sanitized filenames and retains original timestamps for continuity."
-        },
-        {
             "author": "troyxmccall",
             "title": "ComfyUI-ScaleToTargetMegapixels",
             "reference": "https://github.com/troyxmccall/ComfyUI-ScaleToTargetMegapixels",
@@ -23569,16 +23559,6 @@
             "description": "GlitchNodes is a collection of image processing nodes designed for ComfyUI that specializes in creating glitch art and retro effects."
         },
         {
-            "author": "S4MUEL-404",
-            "title": "ComfyUI-S4Tool-Image-Overlay",
-            "reference": "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image-Overlay",
-            "files": [
-                "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image-Overlay"
-            ],
-            "install_type": "git-clone",
-            "description": "Quickly set up image overlay effects"
-        },
-        {
             "author": "ZYK-AI",
             "title": "ComfyUI-YK Line loading",
             "id": "ComfyUI-YK_Line loading",
@@ -28052,6 +28032,16 @@
             ],
             "install_type": "git-clone",
             "description": "The 'Eses Image Lens Effects' node is a multipurpose node for ComfyUI designed to simulate a variety of lens characteristics. It combines several typical effects into a single, convenient node, allowing to add realistic or stylistic lens distortion, chromatic aberration, post-process scaling, and a highly configurable vignette."
+        },
+        {
+            "author": "quasiblob",
+            "title": "ComfyUI-EsesImageEffectBloom",
+            "reference": "https://github.com/quasiblob/ComfyUI-EsesImageEffectBloom",
+            "files": [
+                "https://github.com/quasiblob/ComfyUI-EsesImageEffectBloom"
+            ],
+            "install_type": "git-clone",
+            "description": "'Eses Image Effect Bloom' image post processing effect for ComfyUI, it uses GPU and has optimized blur effect calculations. Minimal dependencies, simple and easy to use UI."
         },
         {
             "author": "TheLustriVA",
