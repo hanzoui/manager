@@ -18641,8 +18641,8 @@
            "files": [
               "https://github.com/morino-kumasan/comfyui-toml-prompt"
            ],
-           "description": "Encode Prompt in TOML for ComfyUI.",
-           "install_type": "git-clone"
+           "install_type": "git-clone",
+           "description": "Encode Prompt in TOML for ComfyUI."
        },
        {
            "author": "wentao-uw",
@@ -28436,6 +28436,27 @@
             "install_type": "git-clone",
             "description": "ComfyUI nodes that allow the user to control the generation of diffusion models to increase and decrease level of detail. The model patch has no trainable parameters and can be applied to theoretically any diffusion model in existence. whether or not the implementation currently works for every diffusion model in existence is unknown."
         },
+        {
+            "author": "facefusion",
+            "title": "FaceFusion ComfyUI",
+            "reference": "https://github.com/facefusion/facefusion-comfyui",
+            "files": [
+                "https://github.com/facefusion/facefusion-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Industry leading face manipulation platform"
+        },
+        {
+            "author": "pmarmotte2",
+            "title": "ComfyUI-Speaker-Isolation",
+            "reference": "https://github.com/pmarmotte2/ComfyUI-Speaker-Isolation",
+            "files": [
+                "https://github.com/pmarmotte2/ComfyUI-Speaker-Isolation"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that performs speaker diarization to isolate individual speaker audio tracks from a single audio source."
+        },
+
 
         
 

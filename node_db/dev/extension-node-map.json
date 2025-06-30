@@ -2718,7 +2718,8 @@
         [
             "DoomFluxInpaintSampler",
             "DoomFluxLoader",
-            "DoomFluxSampler"
+            "DoomFluxSampler",
+            "DoomFluxSamplerAdvanced"
         ],
         {
             "title_aux": "DoomFLUX Nodes [WIP]"
@@ -4491,15 +4492,6 @@
             "title_aux": "ComfyUI-AppGen [UNSAFE]"
         }
     ],
-    "https://github.com/coVISIONSld/ComfyUI-OmniGen2": [
-        [
-            "OmniGen2ModelLoader",
-            "OmniGen2Sampler"
-        ],
-        {
-            "title_aux": "ComfyUI-OmniGen2 [NAME CONFLICT]"
-        }
-    ],
     "https://github.com/comfyanonymous/ComfyUI": [
         [
             "APG",
@@ -5415,6 +5407,14 @@
         ],
         {
             "title_aux": "ComfyUI-Lucian [WIP]"
+        }
+    ],
+    "https://github.com/fylrid2/comfyui_lock_previous_value": [
+        [
+            "Lock"
+        ],
+        {
+            "title_aux": "lockValue"
         }
     ],
     "https://github.com/gabe-init/ComfyUI-LM-Studio": [

@@ -19057,6 +19057,7 @@
     ],
     "https://github.com/comfy-deploy/comfyui-llm-toolkit": [
         [
+            "BFLProviderNode",
             "CheckImageEmpty",
             "ConfigGenerateImage",
             "Display_Text",
@@ -23445,8 +23446,9 @@
     ],
     "https://github.com/hexxacubic/ComfyUI-Prompt_Library": [
         [
+            "Double_Prompt_Encode",
+            "Prompt_Extender",
             "Prompt_Library",
-            "Random_Project",
             "Simple_Prompt_Library"
         ],
         {
@@ -29970,6 +29972,7 @@
             "MultipleLoraTagLoader",
             "PromptLoader",
             "StringConcat",
+            "StringPicker",
             "StringSelector",
             "StringSub",
             "StringViewer",
@@ -31693,6 +31696,14 @@
             "title_aux": "CRT-Nodes"
         }
     ],
+    "https://github.com/pmarmotte2/ComfyUI-Speaker-Isolation": [
+        [
+            "SpeakerDiarizer"
+        ],
+        {
+            "title_aux": "ComfyUI-Speaker-Isolation"
+        }
+    ],
     "https://github.com/pnikolic-amd/ComfyUI_MIGraphX": [
         [
             "CompileDiffusersMIGraphX"
@@ -32259,7 +32270,9 @@
             "ColorCorrectionViewer",
             "ColorPaletteExtractor",
             "EasyColorCorrection",
-            "RawImageProcessor"
+            "FilmEmulation",
+            "RawImageProcessor",
+            "VAEColorCorrector"
         ],
         {
             "title_aux": "Easy Color Correction"

@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "pmarmotte2",
+            "title": "ComfyUI-Speaker-Isolation",
+            "reference": "https://github.com/pmarmotte2/ComfyUI-Speaker-Isolation",
+            "files": [
+                "https://github.com/pmarmotte2/ComfyUI-Speaker-Isolation"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that performs speaker diarization to isolate individual speaker audio tracks from a single audio source."
+        },
+        {
+            "author": "facefusion",
+            "title": "FaceFusion ComfyUI",
+            "reference": "https://github.com/facefusion/facefusion-comfyui",
+            "files": [
+                "https://github.com/facefusion/facefusion-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Industry leading face manipulation platform"
+        },
+        {
             "author": "Yo1up",
             "title": "Diffusion-Model-Detailer",
             "reference": "https://github.com/Yo1up/Diffusion-Model-Detailer",
@@ -675,56 +695,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node that automatically selects appropriate video resolution dimensions based on generation mode, aspect ratio, and quality settings. Designed to work seamlessly with video generation models and KJNodes image resize nodes."
-        },
-        {
-            "author": "TheLustriVA",
-            "title": "ComfyUI Image Size Tool",
-            "reference": "https://github.com/TheLustriVA/ComfyUI-Image-Size-Tool",
-            "files": [
-                "https://github.com/TheLustriVA/ComfyUI-Image-Size-Tool"
-            ],
-            "install_type": "git-clone",
-            "description": "Resolution calculator nodes for ComfyUI with model-specific constraints and optimal bucket resolutions"
-        },
-        {
-            "author": "highdoping",
-            "title": "ComfyUI-ASSSSA",
-            "reference": "https://github.com/HighDoping/ComfyUI_ASSSSA",
-            "files": [
-                "https://github.com/HighDoping/ComfyUI_ASSSSA"
-            ],
-            "install_type": "git-clone",
-            "description": "Add ASS/SSA subtitle to video using ffmpeg."
-        },
-        {
-            "author": "highdoping",
-            "title": "lama_with_refiner",
-            "reference": "https://github.com/fplu/comfyui_lama_with_refiner",
-            "files": [
-                "https://github.com/fplu/comfyui_lama_with_refiner"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes for lama+refiner inpainting with ComfyUI."
-        },
-        {
-            "author": "robin-collins",
-            "title": "ComfyUI-TechsToolz",
-            "reference": "https://github.com/robin-collins/ComfyUI-TechsToolz",
-            "files": [
-                "https://github.com/robin-collins/ComfyUI-TechsToolz"
-            ],
-            "install_type": "git-clone",
-            "description": "A modular collection of ComfyUI custom nodes with advanced dependency management and ComfyUI Manager integration."
-        },
-        {
-            "author": "lum3on",
-            "title": "ComfyUI-AudioX",
-            "reference": "https://github.com/lum3on/ComfyUI-StableAudioX",
-            "files": [
-                "https://github.com/lum3on/ComfyUI-StableAudioX"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful audio generation extension for ComfyUI that integrates AudioX models for high-quality audio synthesis from text and video inputs."
         }
     ]
 }
