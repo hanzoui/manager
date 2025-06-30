@@ -13754,6 +13754,15 @@
             "title_aux": "MergeBlockWeighted_fo_ComfyUI"
         }
     ],
+    "https://github.com/Yo1up/Diffusion-Model-Detailer": [
+        [
+            "DetailModelUnwrapperNode",
+            "DetailModelWrapperNode"
+        ],
+        {
+            "title_aux": "Diffusion-Model-Detailer"
+        }
+    ],
     "https://github.com/Yuan-ManX/ComfyUI-AniSora": [
         [
             "AniSora",
@@ -14669,6 +14678,7 @@
     "https://github.com/aiaiaikkk/ComfyUI-Curve": [
         [
             "CameraRawEnhanceNode",
+            "CameraRawToneCurveNode",
             "ColorGradingNode",
             "CurvePresetNode",
             "GaussianBlurNode",
@@ -14855,6 +14865,7 @@
             "Comfly_Flux_Kontext",
             "Comfly_Flux_Kontext_Edit",
             "Comfly_Flux_Kontext_bfl",
+            "Comfly_Googel_Veo3",
             "Comfly_Mj",
             "Comfly_Mju",
             "Comfly_Mjv",
@@ -21476,6 +21487,14 @@
             "title_aux": "wanvideo - seamless flow"
         }
     ],
+    "https://github.com/fchangjun/Comfyui_MultiSaveImage": [
+        [
+            "MultiSaveImage"
+        ],
+        {
+            "title_aux": "MultiSaveImage Node"
+        }
+    ],
     "https://github.com/fearnworks/ComfyUI_FearnworksNodes": [
         [
             "Count Files in Directory (FW)",
@@ -27869,6 +27888,7 @@
             "MaskToBase64",
             "MaskToBase64Image",
             "MaskToRle",
+            "NodeListToList",
             "NoneNode",
             "ReadTextFromLocalFile",
             "RleToMask",
@@ -31458,6 +31478,18 @@
             "title_aux": "ComfyUI-HunyuanImageLatentToVideoLatent"
         }
     ],
+    "https://github.com/philipy1219/ComfyUI-CloudStorage": [
+        [
+            "LoadImageFromCloud",
+            "LoadMaskFromCloud",
+            "LoadVideoFromCloud",
+            "SaveImageToCloud",
+            "UploadFileToCloud"
+        ],
+        {
+            "title_aux": "ComfyUI-CloudStorage"
+        }
+    ],
     "https://github.com/philipy1219/ComfyUI-TaylorSeer": [
         [
             "FluxBlockSwap",
@@ -31982,6 +32014,14 @@
             "title_aux": "ComfyUI-EsesImageOffset"
         }
     ],
+    "https://github.com/quasiblob/EsesCompositionGoldenRatio": [
+        [
+            "EsesCompositionGoldenRatio"
+        ],
+        {
+            "title_aux": "EsesCompositionGoldenRatio"
+        }
+    ],
     "https://github.com/qwixiwp/queuetools": [
         [
             "load images (queue tools)"
@@ -32026,17 +32066,6 @@
         ],
         {
             "title_aux": "ComfyUI_SD3_Flowedit"
-        }
-    ],
-    "https://github.com/rainlizard/ComfyUI-Raffle": [
-        [
-            "ConditioningRepeat",
-            "PreviewHistory",
-            "Raffle",
-            "TagCategoryStrength"
-        ],
-        {
-            "title_aux": "Raffle"
         }
     ],
     "https://github.com/ramesh-x90/ComfyUI_pyannote": [

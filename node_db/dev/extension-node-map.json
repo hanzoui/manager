@@ -1174,6 +1174,26 @@
             "title_aux": "ComfyUI Node Switcher"
         }
     ],
+    "https://github.com/DiffusionWave-YT/DiffusionWave_PickResolution": [
+        [
+            "Blacklist_String_DiffusionWave \ud83c\udf0a",
+            "ImageBatchMulti_DiffusionWave",
+            "ImageSimpleSaver_DiffusionWave",
+            "Int_PickResolution_DiffusionWave \ud83c\udf0a",
+            "LoadImagesFromFolder_DiffusionWave",
+            "MergeImages_DiffusionWave",
+            "Order_String_Tags_DiffusionWave \ud83c\udf0a",
+            "OverlayImages_DiffusionWave",
+            "PickResolution_DiffusionWave \ud83c\udf0a",
+            "PromptExpression_DiffusionWave \ud83c\udf0a",
+            "RemoveBackgroundByColor_DiffusionWave",
+            "ResizeLongestSide_DiffusionWave",
+            "Seed__DiffusionWave \ud83c\udf0a"
+        ],
+        {
+            "title_aux": "DiffusionWave_PickResolution [WIP]"
+        }
+    ],
     "https://github.com/DoctorDiffusion/ComfyUI-Flashback": [
         [
             "LatentExport",
@@ -3100,6 +3120,7 @@
             "SDVN Any Repeat",
             "SDVN Any Show",
             "SDVN AnyDownload List",
+            "SDVN Apply Kontext Reference",
             "SDVN Apply Style Model",
             "SDVN Auto Generate",
             "SDVN AutoSwitch",
@@ -3117,6 +3138,7 @@
             "SDVN Dic Convert",
             "SDVN DualCLIP Download",
             "SDVN Easy IPAdapter weight",
+            "SDVN Empty Latent Ratio",
             "SDVN Exif check",
             "SDVN Fill Background",
             "SDVN Filter List",
@@ -3467,6 +3489,15 @@
         ],
         {
             "title_aux": "ComfyUI-WozNodes"
+        }
+    ],
+    "https://github.com/XiaoHeiziGGG/ComfyUI-GeminiTranslator": [
+        [
+            "GeminiBatchTranslator",
+            "GeminiTranslator"
+        ],
+        {
+            "title_aux": "ComfyUI Gemini Translator [WIP]"
         }
     ],
     "https://github.com/Yeonri/ComfyUI_LLM_Are_You_Listening": [
@@ -6499,7 +6530,7 @@
             "MMAudioVoCoderLoader"
         ],
         {
-            "title_aux": "ComfyUI-MMAudio"
+            "title_aux": "ComfyUI-MMAudio [WIP]"
         }
     ],
     "https://github.com/kijai/ComfyUI-MochiWrapper": [

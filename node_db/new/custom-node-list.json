@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "Yo1up",
+            "title": "Diffusion-Model-Detailer",
+            "reference": "https://github.com/Yo1up/Diffusion-Model-Detailer",
+            "files": [
+                "https://github.com/Yo1up/Diffusion-Model-Detailer"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes that allow the user to control the generation of diffusion models to increase and decrease level of detail. The model patch has no trainable parameters and can be applied to theoretically any diffusion model in existence. whether or not the implementation currently works for every diffusion model in existence is unknown."
+        },
+        {
+            "author": "philipy1219",
+            "title": "ComfyUI-CloudStorage",
+            "reference": "https://github.com/philipy1219/ComfyUI-CloudStorage",
+            "files": [
+                "https://github.com/philipy1219/ComfyUI-CloudStorage"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension adds cloud storage support to ComfyUI, allowing you to save and load images, masks, and videos directly from cloud storage services. Currently supports Aliyun OSS and AWS S3."
+        },
+        {
+            "author": "quasiblob",
+            "title": "EsesCompositionGoldenRatio",
+            "reference": "https://github.com/quasiblob/EsesCompositionGoldenRatio",
+            "files": [
+                "https://github.com/quasiblob/EsesCompositionGoldenRatio"
+            ],
+            "install_type": "git-clone",
+            "description": "'Real-time golden ratio pattern composition evaluation tool node for ComfyUI. This does nothing else - but you can move, rotate and scale then pattern to find new things and structures in your images."
+        },
+        {
+            "author": "fchangjun",
+            "title": "MultiSaveImage Node",
+            "reference": "https://github.com/fchangjun/Comfyui_MultiSaveImage",
+            "files": [
+                "https://github.com/fchangjun/Comfyui_MultiSaveImage"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for saving multiple images simultaneously with batch processing and resizing capabilities."
+        },
+        {
             "author": "quasiblob",
             "title": "ComfyUI-EsesImageEffectBloom",
             "reference": "https://github.com/quasiblob/ComfyUI-EsesImageEffectBloom",
@@ -685,16 +725,6 @@
             ],
             "install_type": "git-clone",
             "description": "A powerful audio generation extension for ComfyUI that integrates AudioX models for high-quality audio synthesis from text and video inputs."
-        },
-        {
-            "author": "smthemex",
-            "title": "ComfyUI_PartPacker",
-            "reference": "https://github.com/smthemex/ComfyUI_PartPacker",
-            "files": [
-                "https://github.com/smthemex/ComfyUI_PartPacker"
-            ],
-            "install_type": "git-clone",
-            "description": "This is the comfyui implementation of [a/PartPacker](https://github.com/NVlabs/PartPacker): Efficient Part-level 3D Object Generation via Dual Volume Packing.Max varm12G"
         }
     ]
 }
