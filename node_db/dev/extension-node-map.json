@@ -302,11 +302,14 @@
             "PDIMAGE_ImageCombine",
             "PDIMAGE_LongerSize",
             "PDIMAGE_Rename",
+            "PDIMAGE_SAVE_PATH_V2",
             "PDImageConcante",
             "PDImageResize",
             "PDImageResizeV2",
             "PDJSON_BatchJsonIncremental",
             "PDJSON_Group",
+            "PDStringConcate",
+            "PDStringInput",
             "PD_CustomImageProcessor",
             "PD_GetImageSize",
             "PD_ImageBatchSplitter",
@@ -320,6 +323,7 @@
             "PD_Text Overlay Node",
             "PD_imagesave_path",
             "PD_random_prompt",
+            "PDimage_corp_v1",
             "PDstring_Save",
             "mask_edge_selector"
         ],
@@ -1020,6 +1024,7 @@
             "VTS Render People Kps",
             "VTS Repeat Text As List",
             "VTS Replace Text In List",
+            "VTS Sharpen",
             "VTS To Text",
             "VTS_Load_Pose_Keypoints",
             "Vts Text To Batch Prompt"
@@ -4813,6 +4818,7 @@
             "SamplerDPMPP_2S_Ancestral",
             "SamplerDPMPP_3M_SDE",
             "SamplerDPMPP_SDE",
+            "SamplerER_SDE",
             "SamplerEulerAncestral",
             "SamplerEulerAncestralCFGPP",
             "SamplerEulerCFGpp",
@@ -4867,6 +4873,7 @@
             "StyleModelApply",
             "StyleModelLoader",
             "T5TokenizerOptions",
+            "TCFG",
             "TestAccumulateNode",
             "TestAccumulationGetItemNode",
             "TestAccumulationGetLengthNode",
@@ -5015,6 +5022,7 @@
             "AspectRatioSeb",
             "SaveImageSeb",
             "SwitchMasksSeb",
+            "SwitchSeb",
             "UnifiedPrompterSeb"
         ],
         {
@@ -8216,6 +8224,7 @@
     "https://github.com/rouxianmantou/comfyui-rxmt-nodes": [
         [
             "CheckValueTypeNode",
+            "ConvertStrToIntNode",
             "TextCombineWithCommaNode",
             "WhyPromptTextNode"
         ],
