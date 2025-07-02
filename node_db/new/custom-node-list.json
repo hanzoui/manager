@@ -1,6 +1,37 @@
 {
     "custom_nodes": [
         {
+            "author": "set-soft",
+            "title": "Audio Separation",
+            "reference": "https://github.com/set-soft/AudioSeparation",
+            "files": [
+                "https://github.com/set-soft/AudioSeparation"
+            ],
+            "install_type": "git-clone",
+            "description": "Audio separation (demixing) using AI. Separating Voices, Instruments, Bass, Drums, etc. CLI and ComfyUI"
+        },
+        {
+          "author": "sunx.ai",
+          "title": "SunxAI Custom Nodes for ComfyUI",
+          "id": "comfyui_sun_nodes",
+          "reference": "https://github.com/upseem/comfyui_sun_nodes",
+          "files": [
+            "https://github.com/upseem/comfyui_sun_nodes"
+          ],
+          "install_type": "git-clone",
+          "description": "A set of custom nodes developed by SunxAI for ComfyUI, including image loop processing and more. "
+        },
+        {
+            "author": "risunobushi",
+            "title": "ComfyUI_sm4ll-Wrapper",
+            "reference": "https://github.com/risunobushi/ComfyUI_sm4ll-Wrapper",
+            "files": [
+                "https://github.com/risunobushi/ComfyUI_sm4ll-Wrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that integrates with the sm4ll-VTON API for virtual try-on functionality."
+        },
+        {
             "author": "DiffusionLight",
             "title": "DiffusionLight-ComfyUI",
             "reference": "https://github.com/DiffusionLight/DiffusionLight-ComfyUI",
@@ -160,6 +191,16 @@
             ],
             "install_type": "git-clone",
             "description": "utilitaires pour ComfyUI, conçue pour effectuer des calculs et des conversions"
+        },
+        {
+            "author": "orion4d",
+            "title": "ComfyUI Illusion & Pattern Nodes",
+            "reference": "https://github.com/orion4d/illusion_node",
+            "files": [
+                "https://github.com/orion4d/illusion_node"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository contains a collection of custom nodes for ComfyUI, designed for generating various patterns, optical illusions, and performing related image manipulations. All nodes are categorized under 'illusion' in the ComfyUI menu."
         },
         {
             "author": "aoliao",
@@ -595,16 +636,6 @@
             "description": "Custom node to extract the colors in an image as a palette for use with ComfyUI-PixelArt-Detector"
         },
         {
-            "author": "orion4d",
-            "title": "ComfyUI Illusion & Pattern Nodes",
-            "reference": "https://github.com/orion4d/illusion_node",
-            "files": [
-                "https://github.com/orion4d/illusion_node"
-            ],
-            "install_type": "git-clone",
-            "description": "This repository contains a collection of custom nodes for ComfyUI, designed for generating various patterns, optical illusions, and performing related image manipulations. All nodes are categorized under 'illusion' in the ComfyUI menu."
-        },
-        {
             "author": "lucak5s",
             "title": "ComfyUI GFPGAN",
             "reference": "https://github.com/lucak5s/comfyui_gfpgan",
@@ -665,36 +696,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI nodes for the project AI for Arts Education"
-        },
-        {
-            "author": "DebugPadawan",
-            "title": "DebugPadawan's ComfyUI Essentials",
-            "reference": "https://github.com/DebugPadawan/DebugPadawans-ComfyUI-Essentials",
-            "files": [
-                "https://github.com/DebugPadawan/DebugPadawans-ComfyUI-Essentials"
-            ],
-            "install_type": "git-clone",
-            "description": "Essential custom nodes for ComfyUI workflows"
-        },
-        {
-            "author": "rookiepsi",
-            "title": "Blur Mask",
-            "reference": "https://github.com/rookiepsi/comfypsi_blur_mask",
-            "files": [
-                "https://github.com/rookiepsi/comfypsi_blur_mask"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that applies a Gaussian blur to a mask."
-        },
-        {
-            "author": "dseditor",
-            "title": "ComfyUI-ListHelper",
-            "reference": "https://github.com/dseditor/ComfyUI-ListHelper",
-            "files": [
-                "https://github.com/dseditor/ComfyUI-ListHelper"
-            ],
-            "install_type": "git-clone",
-            "description": "The ListHelper collection is a comprehensive set of custom nodes for ComfyUI that provides powerful list manipulation capabilities. This collection includes audio processing, text splitting, and number generation tools for enhanced workflow automation."
         }
     ]
 }

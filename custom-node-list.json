@@ -13103,6 +13103,16 @@
              "description": "NODES: Extract Displacement Map Node, Displace Logo"
         },
         {
+            "author": "risunobushi",
+            "title": "ComfyUI_sm4ll-Wrapper",
+            "reference": "https://github.com/risunobushi/ComfyUI_sm4ll-Wrapper",
+            "files": [
+                "https://github.com/risunobushi/ComfyUI_sm4ll-Wrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that integrates with the sm4ll-VTON API for virtual try-on functionality."
+        },
+        {
             "author": "zohac",
             "title": "ComfyUI_ZC_DrawShape",
             "id": "drawshape",
@@ -28516,6 +28526,27 @@
             "install_type": "git-clone",
             "description": "DiffusionLight (Turbo) implemented in ComfyUI"
         },
+        {
+          "author": "sunx.ai",
+          "title": "SunxAI Custom Nodes for ComfyUI",
+          "id": "comfyui_sun_nodes",
+          "reference": "https://github.com/upseem/comfyui_sun_nodes",
+          "files": [
+            "https://github.com/upseem/comfyui_sun_nodes"
+          ],
+          "install_type": "git-clone",
+          "description": "A set of custom nodes developed by SunxAI for ComfyUI, including image loop processing and more. "
+        },
+        {
+            "author": "set-soft",
+            "title": "Audio Separation",
+            "reference": "https://github.com/set-soft/AudioSeparation",
+            "files": [
+                "https://github.com/set-soft/AudioSeparation"
+            ],
+            "install_type": "git-clone",
+            "description": "Audio separation (demixing) using AI. Separating Voices, Instruments, Bass, Drums, etc. CLI and ComfyUI"
+        },
 
 
 
@@ -28936,17 +28967,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-          "author": "sunx.ai",
-          "title": "SunxAI Custom Nodes for ComfyUI",
-          "id": "comfyui_sun_nodes",
-          "reference": "https://github.com/upseem/comfyui_sun_nodes",
-          "files": [
-            "https://github.com/upseem/comfyui_sun_nodes"
-          ],
-          "install_type": "git-clone",
-          "description": "A set of custom nodes developed by SunxAI for ComfyUI, including image loop processing and more. "
         }
     ]
 }

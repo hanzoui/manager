@@ -3951,7 +3951,8 @@
     ],
     "https://github.com/artifyfun/ComfyUI-JS": [
         [
-            "JavascriptExecutor"
+            "JavascriptExecutor",
+            "JavascriptExecutorMultiOutput"
         ],
         {
             "title_aux": "ComfyUI-JS [UNSAFE]"
@@ -4336,7 +4337,7 @@
     "https://github.com/bulldog68/ComfyUI_FMJ": [
         [
             "FMJCreaPrompt",
-            "FMJKontex"
+            "FMJKontext"
         ],
         {
             "title_aux": "ComfyUI_FMJ [WIP]"
@@ -6718,6 +6719,15 @@
             "title_aux": "KayTool"
         }
     ],
+    "https://github.com/kongds1999/ComfyUI_was_image": [
+        [
+            "ConvertGrayToImage",
+            "Replace Color By Palette"
+        ],
+        {
+            "title_aux": "DiffusionWave_PickResolution [WIP]"
+        }
+    ],
     "https://github.com/krich-cto/ComfyUI-Flow-Control": [
         [
             "CLIPLoaderGGUF",
@@ -7695,6 +7705,14 @@
         ],
         {
             "title_aux": "ComfyUI_Cluster [WIP]"
+        }
+    ],
+    "https://github.com/orion4d/ComfyUI_unified_list_selector": [
+        [
+            "UnifiedListSelector"
+        ],
+        {
+            "title_aux": "Unified List Selector for ComfyUI [UNSAFE]"
         }
     ],
     "https://github.com/osuiso-depot/comfyui-keshigom_custom": [
@@ -9543,6 +9561,14 @@
         ],
         {
             "title_aux": "comfyui_MetalFX [WIP]"
+        }
+    ],
+    "https://github.com/zl9739379/comfyui-qwen-vl-api": [
+        [
+            "VL_QwenDescribeImage"
+        ],
+        {
+            "title_aux": "ComfyUI Qwen Vision Language API Node [NAME CONFLICT]"
         }
     ],
     "https://github.com/zyd232/ComfyUI-zyd232-Nodes": [

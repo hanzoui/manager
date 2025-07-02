@@ -135,12 +135,15 @@
             "AILab_ImageCompare",
             "AILab_ImageCrop",
             "AILab_ImageMaskConvert",
+            "AILab_ImageMaskResize",
             "AILab_ImagePreview",
             "AILab_ImageStitch",
+            "AILab_LamaRemover",
             "AILab_LoadImage",
             "AILab_MaskCombiner",
             "AILab_MaskEnhancer",
             "AILab_MaskExtractor",
+            "AILab_MaskOverlay",
             "AILab_MaskPreview",
             "AILab_Preview",
             "BiRefNetRMBG",
@@ -601,6 +604,7 @@
             "Accurate_mask_clipping",
             "Any_Pipe",
             "ApplyEasyOCR_batch",
+            "AudioDuration_wan",
             "Batch_Average",
             "Bilateral_Filter",
             "ColorData_HSV_Capture",
@@ -622,7 +626,6 @@
             "Determine_Type",
             "Folder_Operations_CH",
             "Graphics_Detection_Reference",
-            "ImageChannelBus",
             "ImageCompositeMask_Adv",
             "ListMerger",
             "Load_Image_Adv",
@@ -630,6 +633,7 @@
             "Mask_Detection",
             "PrimitiveNode",
             "Random_Select_Prompt",
+            "Robust_Imager_Merge",
             "Run_BEN_v2",
             "Run_torchvision_model",
             "Sam2AutoSegmentation_data",
@@ -643,7 +647,6 @@
             "Select_Images_Batch",
             "Split_Path",
             "Str_Append",
-            "ToImageListData",
             "Video_Fade",
             "Video_MaskBasedSplit",
             "Video_OverlappingSeparation_test",
@@ -21641,7 +21644,8 @@
     ],
     "https://github.com/fchangjun/Comfyui_MultiSaveImage": [
         [
-            "MultiSaveImage"
+            "MultiSaveImage",
+            "SimpleLLMNode"
         ],
         {
             "title_aux": "MultiSaveImage Node"
@@ -27071,6 +27075,7 @@
         [
             "BarcodeGeneratorNode",
             "Barcode_seed",
+            "DeepseekNode",
             "Go_to_image",
             "GradioInputImage",
             "GradioTextBad",
@@ -29807,9 +29812,11 @@
             "InvertSigmas",
             "LogNormal Scheduler",
             "OffsetSigmas",
+            "Parametric Peak #1",
             "PerpNegScheduledCFGGuider",
             "PredefinedExponent",
             "PredefinedLogarithm",
+            "ScaleToRange",
             "ScheduledCFGGuider",
             "SigmasToPower",
             "SplitSigmasByValue",
@@ -32624,6 +32631,14 @@
         ],
         {
             "title_aux": "ComfyUI_DisplacementMapTools"
+        }
+    ],
+    "https://github.com/risunobushi/ComfyUI_sm4ll-Wrapper": [
+        [
+            "VTONAPINode"
+        ],
+        {
+            "title_aux": "ComfyUI_sm4ll-Wrapper"
         }
     ],
     "https://github.com/risunobushi/comfyUI_FrequencySeparation_RGB-HSV": [
@@ -36012,6 +36027,15 @@
         ],
         {
             "title_aux": "unwdef-nodes"
+        }
+    ],
+    "https://github.com/upseem/comfyui_sun_nodes": [
+        [
+            "SunxAI_BatchImageLoopCloseChen",
+            "SunxAI_BatchImageLoopOpenChen"
+        ],
+        {
+            "title_aux": "SunxAI Custom Nodes for ComfyUI"
         }
     ],
     "https://github.com/usrname0/comfyui-holdup": [

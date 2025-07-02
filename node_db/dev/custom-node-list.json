@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "orion4d",
+            "title": "Unified List Selector for ComfyUI [UNSAFE]",
+            "reference": "https://github.com/orion4d/ComfyUI_unified_list_selector",
+            "files": [
+                "https://github.com/orion4d/ComfyUI_unified_list_selector"
+            ],
+            "install_type": "git-clone",
+            "description": "This project is a custom node for ComfyUI that allows you to dynamically load lists from text (.txt) or CSV (.csv) files and select an item to use in your workflow. It features a manual selection mode (via a dropdown list) and a random selection mode, as well as the ability to add prefixes and suffixes to the selected text.[w/This node pack contains a node with a vulnerability that allows reading files from arbitrary paths.]"
+        },
+        {
+            "author": "DiffusionWave-YT",
+            "title": "DiffusionWave_PickResolution [WIP]",
+            "reference": "https://github.com/kongds1999/ComfyUI_was_image",
+            "files": [
+                "https://github.com/kongds1999/ComfyUI_was_image"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Replace Color By Palette, ConvertGrayToImage\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "zl9739379",
+            "title": "ComfyUI Qwen Vision Language API Node [NAME CONFLICT]",
+            "reference": "https://github.com/zl9739379/comfyui-qwen-vl-api",
+            "files": [
+                "https://github.com/zl9739379/comfyui-qwen-vl-api" 
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for describing images using Qwen Vision Language models through OpenAI-compatible APIs."
+        },
+        {
             "author": "bikiam",
             "title": "ComfyUi_WhisperGTranslate",
             "reference": "https://github.com/bikiam/ComfyUi_WhisperGTranslate",
