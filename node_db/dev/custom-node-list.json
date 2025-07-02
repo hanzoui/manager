@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "bikiam",
+            "title": "ComfyUi_WhisperGTranslate",
+            "reference": "https://github.com/bikiam/ComfyUi_WhisperGTranslate",
+            "files": [
+                "https://github.com/bikiam/ComfyUi_WhisperGTranslate" 
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Whisper + AudioTranslate, Google Translate Node"
+        },
+        {
             "author": "edgerunner",
             "title": "ComfyUI Queue Manager [WIP]",
             "reference": "https://github.com/QuietNoise/ComfyUI-Queue-Manager",
@@ -4589,7 +4599,7 @@
                 "https://github.com/rouxianmantou/comfyui-rxmt-nodes"
             ],
             "install_type": "git-clone",
-            "description": "NODES:Check Value Type, Why Prompt Text"
+            "description": "NODES: Check Value Type, Why Prompt Text"
         },
         {
             "author": "SirVeggie",

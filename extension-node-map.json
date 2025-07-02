@@ -3944,6 +3944,25 @@
             "title_aux": "Prompt Injection Node for ComfyUI"
         }
     ],
+    "https://github.com/DavidPiazza/network_bending": [
+        [
+            "AudioFeatureExtractor",
+            "AudioLatentBlend",
+            "AudioLatentGuidance",
+            "AudioLatentInterpolate",
+            "AudioLatentManipulator",
+            "AudioReferenceEncoder",
+            "AudioStyleTransfer",
+            "AudioVAEDecode",
+            "AudioVAEEncode",
+            "ModelMixer",
+            "NetworkBending",
+            "NetworkBendingAdvanced"
+        ],
+        {
+            "title_aux": "Network Bending for ComfyUI"
+        }
+    ],
     "https://github.com/Dayuppy/ComfyUI-DiscordWebhook": [
         [
             "DiscordPostViaWebhook",
@@ -4137,6 +4156,20 @@
         ],
         {
             "title_aux": "Comfyui SDAPI Request / NovelAI"
+        }
+    ],
+    "https://github.com/DiffusionLight/DiffusionLight-ComfyUI": [
+        [
+            "DiffusionLightBall2Envmap",
+            "DiffusionLightChromeballMask",
+            "DiffusionLightExposure2HDR",
+            "DiffusionLightExposureBracket",
+            "DiffusionLightPadBlackBorder",
+            "DiffusionLightPercentileToPixelValueTonemap",
+            "DiffusionLightSaveHDR"
+        ],
+        {
+            "title_aux": "DiffusionLight-ComfyUI"
         }
     ],
     "https://github.com/Diohim/ComfyUI-Unusual-Tools": [
@@ -6047,6 +6080,18 @@
             "nickname": "IG Motion Video Search",
             "title": "IG Motion Video Search",
             "title_aux": "IG-Motion-Search"
+        }
+    ],
+    "https://github.com/IIEleven11/ComfyUI-FairyTaler": [
+        [
+            "FairyTalerStoryboard",
+            "SceneParser",
+            "SceneToConditioning",
+            "StoryboardCompositor",
+            "ThreeSceneGenerator"
+        ],
+        {
+            "title_aux": "ComfyUI-FairyTaler"
         }
     ],
     "https://github.com/IIs-fanta/ComfyUI-FANTA-GameBox": [
@@ -7988,6 +8033,100 @@
         ],
         {
             "title_aux": "COMFYUI-ReplacePartOfImage"
+        }
+    ],
+    "https://github.com/Ltamann/ComfyUI-TBG-ETUR": [
+        [
+            "AIO_Preprocessor",
+            "AddFluxFlow",
+            "AnimeFace_SemSegPreprocessor",
+            "AnimeLineArtPreprocessor",
+            "AnyLineArtPreprocessor_aux",
+            "ApplyFluxRaveAttention",
+            "ApplyRefFlux",
+            "ApplyRegionalConds",
+            "BAE-NormalMapPreprocessor",
+            "BinaryPreprocessor",
+            "CannyEdgePreprocessor",
+            "ColorPreprocessor",
+            "ConfigureModifiedFlux",
+            "ControlNetAuxSimpleAddText",
+            "ControlNetPreprocessorSelector",
+            "CreateRegionalCond",
+            "DSINE-NormalMapPreprocessor",
+            "DepthAnythingPreprocessor",
+            "DepthAnythingV2Preprocessor",
+            "DiffusionEdge_Preprocessor",
+            "ExecuteAllControlNetPreprocessors",
+            "FakeScribblePreprocessor",
+            "FlowEditForwardSampler",
+            "FlowEditGuider",
+            "FlowEditReverseSampler",
+            "FlowEditSampler",
+            "FluxAttnOverride",
+            "FluxDeGuidance",
+            "FluxForwardODESampler",
+            "FluxInverseSampler",
+            "FluxNoiseMixer",
+            "FluxReverseODESampler",
+            "HEDPreprocessor",
+            "HintImageEnchance",
+            "ImageGenResolutionFromImage",
+            "ImageGenResolutionFromLatent",
+            "ImageIntensityDetector",
+            "ImageLuminanceDetector",
+            "InFluxFlipSigmas",
+            "InFluxModelSamplingPred",
+            "InpaintPreprocessor",
+            "JanusImageGeneration",
+            "JanusImageUnderstanding",
+            "JanusModelLoader",
+            "LeReS-DepthMapPreprocessor",
+            "LineArtPreprocessor",
+            "LineartStandardPreprocessor",
+            "M-LSDPreprocessor",
+            "Manga2Anime_LineArt_Preprocessor",
+            "MaskOptFlow",
+            "MediaPipe-FaceMeshPreprocessor",
+            "MeshGraphormer+ImpactDetector-DepthMapPreprocessor",
+            "MeshGraphormer-DepthMapPreprocessor",
+            "Metric3D-DepthMapPreprocessor",
+            "Metric3D-NormalMapPreprocessor",
+            "Metric_DepthAnythingV2Preprocessor",
+            "MiDaS-DepthMapPreprocessor",
+            "MiDaS-NormalMapPreprocessor",
+            "OneFormer-ADE20K-SemSegPreprocessor",
+            "OneFormer-COCO-SemSegPreprocessor",
+            "OpenposePreprocessor",
+            "OutFluxModelSamplingPred",
+            "PAGAttention",
+            "PatreonStatusCheck",
+            "PiDiNetPreprocessor",
+            "PixelPerfectResolution",
+            "PrepareAttnBank",
+            "PyraCannyPreprocessor",
+            "RFDoubleBlocksOverride",
+            "RFSingleBlocksOverride",
+            "RegionalStyleModelApply",
+            "SAMPreprocessor",
+            "SEGAttention",
+            "ScribblePreprocessor",
+            "Scribble_PiDiNet_Preprocessor",
+            "Scribble_XDoG_Preprocessor",
+            "SemSegPreprocessor",
+            "ShufflePreprocessor",
+            "TEEDPreprocessor",
+            "TTPlanet_TileGF_Preprocessor",
+            "TTPlanet_TileSimple_Preprocessor",
+            "TilePreprocessor",
+            "UniFormer-SemSegPreprocessor",
+            "Unimatch_OptFlowPreprocessor",
+            "UnloadOneModel",
+            "Zoe-DepthMapPreprocessor",
+            "Zoe_DepthAnythingPreprocessor"
+        ],
+        {
+            "title_aux": "TBG_Enhanced Tiled Upscaler & Refiner FLUX PRO"
         }
     ],
     "https://github.com/LucipherDev/ComfyUI-AniDoc": [
@@ -23196,6 +23335,16 @@
             "title_aux": "ComfyUI-ReplenishNodes"
         }
     ],
+    "https://github.com/heheok/comfyui_wan2.1_vace_infinite_helpers": [
+        [
+            "CyclicCharacterAndBackgroundPrompt",
+            "LatestVideoFromFolder",
+            "PrepareControlVideo"
+        ],
+        {
+            "title_aux": "comfyui_wan2.1_vace_infinite_helpers"
+        }
+    ],
     "https://github.com/hekmon/comfyui-checkpoint-extract": [
         [
             "CLIPModelSaver",
@@ -29149,6 +29298,16 @@
         ],
         {
             "title_aux": "ComfyUI-Mango-Random"
+        }
+    ],
+    "https://github.com/manifestations/comfyui-indian-outfit": [
+        [
+            "OllamaPromptEnhancer",
+            "WizDroid Indian Clothing Generator",
+            "WizDroid Indonesian Clothing Generator (ID)"
+        ],
+        {
+            "title_aux": "ComfyUI Ethnic Outfit & Prompt Enhancer Nodes"
         }
     ],
     "https://github.com/mape/ComfyUI-mape-Helpers": [

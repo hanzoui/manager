@@ -4091,6 +4091,15 @@
             "title_aux": "ComfyUI-glb-to-stl [WIP]"
         }
     ],
+    "https://github.com/bikiam/ComfyUi_WhisperGTranslate": [
+        [
+            "GoogleTranslateNode",
+            "WhisperAudioTranslateNode"
+        ],
+        {
+            "title_aux": "ComfyUi_WhisperGTranslate"
+        }
+    ],
     "https://github.com/birnam/ComfyUI-GenData-Pack": [
         [
             "Checkpoint From String \ud83d\udc69\u200d\ud83d\udcbb",
@@ -4326,7 +4335,8 @@
     ],
     "https://github.com/bulldog68/ComfyUI_FMJ": [
         [
-            "FMJCreaPrompt"
+            "FMJCreaPrompt",
+            "FMJKontex"
         ],
         {
             "title_aux": "ComfyUI_FMJ [WIP]"
