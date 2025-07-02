@@ -3783,6 +3783,14 @@
             "title_aux": "ComfyUI-Creepy_nodes"
         }
     ],
+    "https://github.com/Creepybits/ComfyUI-Save_To_GDrive": [
+        [
+            "SaveImageToGoogleDrive"
+        ],
+        {
+            "title_aux": "Save Image To Google Drive"
+        }
+    ],
     "https://github.com/Cryptyox/anaglyphTool-Comfyui": [
         [
             "AnaglyphTool",
@@ -5871,6 +5879,20 @@
         ],
         {
             "title_aux": "ComfyUI Better Strings"
+        }
+    ],
+    "https://github.com/Hazukiaoi/ComfyUI-LM_Studio_Tools": [
+        [
+            "LMS_APIConfig",
+            "LMS_GetAssistantMessage",
+            "LMS_Request",
+            "LMS_SelectModel",
+            "LMS_SystemPrompt",
+            "LMS_UnloadModel",
+            "LMS_UserPrompt"
+        ],
+        {
+            "title_aux": "LM Studio Tools for ComfyUI"
         }
     ],
     "https://github.com/HeadshotPro/ComfyUI-HeadshotPro": [
@@ -22248,7 +22270,6 @@
     ],
     "https://github.com/fredconex/ComfyUI-SongBloom": [
         [
-            "SongBloomDecoder",
             "SongBloomGenerate",
             "SongBloomModelLoader"
         ],
@@ -25318,6 +25339,7 @@
     ],
     "https://github.com/joeriben/ai4artsed_comfyui_nodes": [
         [
+            "ai4artsed_conditioning_fusion",
             "ai4artsed_image_analysis",
             "ai4artsed_openrouter_key",
             "ai4artsed_prompt_interception",
@@ -29305,14 +29327,16 @@
             "title_aux": "ComfyUI-Mango-Random"
         }
     ],
-    "https://github.com/manifestations/comfyui-indian-outfit": [
+    "https://github.com/manifestations/comfyui-outfits": [
         [
-            "OllamaPromptEnhancer",
-            "WizDroid Indian Clothing Generator",
-            "WizDroid Indonesian Clothing Generator (ID)"
+            "ChineseOutfitNode",
+            "IndianOutfitNode",
+            "IndonesianOutfitNode",
+            "JapaneseOutfitNode",
+            "OllamaPrompter"
         ],
         {
-            "title_aux": "ComfyUI Ethnic Outfit & Prompt Enhancer Nodes"
+            "title_aux": "ComfyUI Ethnic Outfits Custom Nodes"
         }
     ],
     "https://github.com/mape/ComfyUI-mape-Helpers": [
@@ -35197,7 +35221,8 @@
     ],
     "https://github.com/sysL-padawan/comfyui-elevenlabs-integration": [
         [
-            "ElevenlabsRequestNode"
+            "ElevenlabsTextToEffect",
+            "ElevenlabsTextToVoice"
         ],
         {
             "title_aux": "ComfyUI ElevenLabs API integration"

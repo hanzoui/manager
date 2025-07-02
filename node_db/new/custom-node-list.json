@@ -1,6 +1,37 @@
 {
     "custom_nodes": [
         {
+            "author": "Hazukiaoi",
+            "title": "LM Studio Tools for ComfyUI",
+            "reference": "https://github.com/Hazukiaoi/ComfyUI-LM_Studio_Tools",
+            "files": [
+                "https://github.com/Hazukiaoi/ComfyUI-LM_Studio_Tools"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node pack designed for ComfyUI that seamlessly integrates the powerful LM Studio into your workflow, enabling you to perform a variety of tasks such as text generation and image understanding (Vision) using locally run LLMs."
+        },
+        {
+            "author": "manifestations",
+            "title": "ComfyUI Ethnic Outfits Custom Nodes",
+            "reference": "https://github.com/manifestations/comfyui-outfits",
+            "files": [
+                "https://github.com/manifestations/comfyui-outfits"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for generating outfit prompts representing diverse ethnicities, cultures, and regions. Uses extensible JSON data for clothing, accessories, and poses, with “random/disabled” dropdowns for flexibility. Advanced prompt engineering is supported via Ollama LLM integration. Easily add new regions, ethnicities, or cultures by updating data files and creating lightweight node wrappers. Designed for artists, researchers, and developers seeking culturally rich, customizable prompt generation in ComfyUI workflows."
+        },
+        {
+            "author": "creepybits",
+            "title": "Save Image To Google Drive",
+            "id": "creepybits",
+            "reference": "https://github.com/Creepybits/ComfyUI-Save_To_GDrive",
+            "files": [
+                "https://github.com/Creepybits/ComfyUI-Save_To_GDrive"
+            ],
+            "install_type": "git-clone",
+            "description": "This ComfyUI node will save images directly to Google Drive by using Google's free API service."
+        },
+        {
             "author": "set-soft",
             "title": "Audio Separation",
             "reference": "https://github.com/set-soft/AudioSeparation",
@@ -80,16 +111,6 @@
             ],
             "install_type": "git-clone",
             "description": "This collection of custom nodes for ComfyUI is specifically designed to automate and streamline the process of creating infinite videos with WAN2.1 VACE."
-        },
-        {
-            "author": "manifestations",
-            "title": "ComfyUI Ethnic Outfit & Prompt Enhancer Nodes",
-            "reference": "https://github.com/manifestations/comfyui-indian-outfit",
-            "files": [
-                "https://github.com/manifestations/comfyui-indian-outfit"
-            ],
-            "install_type": "git-clone",
-            "description": "Features:\n* Extensive options for Indian, Indonesian, and international clothing, jewelry, accessories, and styles\n* Multiple jewelry and accessory fields (with material support: gold, diamond, silver, leather, beads, etc.)\n* Support for tattoos, henna, hair styles, poses, shot types, lighting, and photography genres\n* Seamless prompt expansion using your own Ollama LLM instance\n* Modular, extensible JSON data files for easy customization"
         },
         {
             "author": "pmarmotte2",
