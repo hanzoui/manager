@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "BuffMcBigHuge",
+            "title": "ComfyUI-Google-AI-Studio",
+            "reference": "https://github.com/BuffMcBigHuge/ComfyUI-Google-AI-Studio",
+            "files": [
+                "https://github.com/BuffMcBigHuge/ComfyUI-Google-AI-Studio"
+            ],
+            "install_type": "git-clone",
+            "description": "Google AI Studio by BuffMcBigHuge"
+        },
+        {
             "author": "Hazukiaoi",
             "title": "LM Studio Tools for ComfyUI",
             "reference": "https://github.com/Hazukiaoi/ComfyUI-LM_Studio_Tools",
@@ -686,37 +696,6 @@
             ],
             "install_type": "git-clone",
             "description": "Upscale your videos with this SeedVR2"
-        },
-        {
-            "author": "Yuan-ManX",
-            "title": "ComfyUI-OmniGen2",
-            "reference": "https://github.com/Yuan-ManX/ComfyUI-OmniGen2",
-            "files": [
-                "https://github.com/Yuan-ManX/ComfyUI-OmniGen2"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-OmniGen2 is now available in ComfyUI, OmniGen2 is a powerful and efficient unified multimodal model. Its architecture is composed of two key components: a 3B Vision-Language Model (VLM) and a 4B diffusion model."
-        },
-        {
-            "author": "aleolidev",
-            "title": "Kaizen Package",
-            "id": "kaizen_package",
-            "reference": "https://github.com/aleolidev/comfy_kaizen_package",
-            "files": [
-                "https://github.com/aleolidev/comfy_kaizen_package"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom image processing nodes for ComfyUI"
-        },
-        {
-            "author": "joeriben",
-            "title": "AI4ArtsEd Nodes",
-            "reference": "https://github.com/joeriben/ai4artsed_comfyui_nodes",
-            "files": [
-                "https://github.com/joeriben/ai4artsed_comfyui_nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for the project AI for Arts Education"
         }
     ]
 }
