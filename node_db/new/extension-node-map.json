@@ -338,6 +338,7 @@
             "MaskBatchMathOps",
             "MaskBatchToList",
             "MaskCropByBBoxMask",
+            "MaskFillHole",
             "MaskListToBatch",
             "MaskMathOps",
             "PathBuild",
@@ -3395,6 +3396,7 @@
             "Sigmas CollatzIteration",
             "Sigmas Concat",
             "Sigmas ConwaySequence",
+            "Sigmas Count",
             "Sigmas CrossProduct",
             "Sigmas DeleteBelowFloor",
             "Sigmas DeleteDuplicates",
@@ -3977,9 +3979,14 @@
             "AudioStyleTransfer",
             "AudioVAEDecode",
             "AudioVAEEncode",
+            "LatentFormatConverter",
             "ModelMixer",
             "NetworkBending",
-            "NetworkBendingAdvanced"
+            "NetworkBendingAdvanced",
+            "VAEChannelManipulator",
+            "VAELatentBending",
+            "VAEMixer",
+            "VAENetworkBending"
         ],
         {
             "title_aux": "Network Bending for ComfyUI"
@@ -4165,6 +4172,17 @@
         ],
         {
             "title_aux": "ComfyUI-Desert-Pixel-Nodes"
+        }
+    ],
+    "https://github.com/DesertPixelAi/comfyui-dp-them-styler": [
+        [
+            "DP_Add_Logo_Banner",
+            "DP_Advanced_Sampler_Modified",
+            "DP_Dynamic_Random_Styler",
+            "DP_Gender_Age_Detector"
+        ],
+        {
+            "title_aux": "ComfyUI DP Dynamic Random Styler"
         }
     ],
     "https://github.com/DiaoDaiaChan/ComfyUI_API_Request": [
@@ -5851,6 +5869,21 @@
         ],
         {
             "title_aux": "ComfyUI ReSharpen"
+        }
+    ],
+    "https://github.com/HappyXY/ComfyUI-AmazonBedrock": [
+        [
+            "Amazon Bedrock - Nova Canvas Background Prompt Replace",
+            "Amazon Bedrock - Nova Canvas Generate Image",
+            "Amazon Bedrock - Nova Canvas Generate Variations",
+            "Amazon Bedrock - Nova Reel Video",
+            "Bedrock - Claude",
+            "Bedrock - Claude Multimodal",
+            "Bedrock - Nova",
+            "Bedrock - SDXL"
+        ],
+        {
+            "title_aux": "ComfyUI-AmazonBedrock"
         }
     ],
     "https://github.com/HavocsCall/comfyui_HavocsCall_Custom_Nodes": [
@@ -8714,6 +8747,14 @@
         ],
         {
             "title_aux": "ComfyUI-FBCNN"
+        }
+    ],
+    "https://github.com/MitoshiroPJ/comfyui_focal_sampler": [
+        [
+            "FocalSamplerSegs"
+        ],
+        {
+            "title_aux": "comfyui_focal_sampler"
         }
     ],
     "https://github.com/MitoshiroPJ/comfyui_slothful_attention": [
@@ -15174,7 +15215,6 @@
             "DepthflowEffectVignette",
             "DepthflowMotionArc",
             "DepthflowMotionCosine",
-            "DepthflowMotionExponential",
             "DepthflowMotionLinear",
             "DepthflowMotionPresetCircle",
             "DepthflowMotionPresetDolly",
@@ -15183,7 +15223,8 @@
             "DepthflowMotionPresetVertical",
             "DepthflowMotionPresetZoom",
             "DepthflowMotionSetTarget",
-            "DepthflowMotionSine"
+            "DepthflowMotionSine",
+            "DepthflowMotionTriangle"
         ],
         {
             "author": "akatz",
@@ -15634,6 +15675,8 @@
         [
             "SageSetWildcardText",
             "Sage_AdvSamplerInfo",
+            "Sage_CLIPLoaderFromInfo",
+            "Sage_CLIPSelector",
             "Sage_CacheMaintenance",
             "Sage_CheckLorasForUpdates",
             "Sage_CheckpointLoaderRecent",
@@ -15647,6 +15690,7 @@
             "Sage_ConstructMetadata",
             "Sage_ConstructMetadataLite",
             "Sage_CubiqImageResize",
+            "Sage_DualCLIPSelector",
             "Sage_DualCLIPTextEncode",
             "Sage_DualCLIPTextEncodeLumina2",
             "Sage_EmptyLatentImagePassthrough",
@@ -15664,6 +15708,7 @@
             "Sage_LMStudioLLMPromptVision",
             "Sage_LMStudioLLMPromptVisionRefine",
             "Sage_LastLoraInfo",
+            "Sage_LoadCheckpointFromModelInfo",
             "Sage_LoadImage",
             "Sage_LogicalSwitch",
             "Sage_LoraStack",
@@ -15679,16 +15724,24 @@
             "Sage_OllamaLLMPromptVisionRefine",
             "Sage_PonyPrefix",
             "Sage_PonyStyle",
+            "Sage_QuadCLIPSelector",
             "Sage_QuickResPicker",
+            "Sage_ReferenceImage",
             "Sage_SamplerInfo",
             "Sage_SaveImageWithMetadata",
             "Sage_SaveText",
             "Sage_SetText",
             "Sage_TextWeight",
             "Sage_TilingInfo",
+            "Sage_TripleCLIPSelector",
             "Sage_TripleJoinText",
             "Sage_TripleLoraStack",
             "Sage_UNETLoader",
+            "Sage_UNETLoaderFromInfo",
+            "Sage_UNETSelector",
+            "Sage_UnetClipVaeToModelInfo",
+            "Sage_VAELoaderFromInfo",
+            "Sage_VAESelector",
             "Sage_ViewAnything",
             "Sage_ViewNotes"
         ],
@@ -17492,6 +17545,7 @@
             "chx_IPA_faceID",
             "chx_IPA_faceID_adv",
             "chx_IPA_region_combine",
+            "chx_Ksampler_Kontext",
             "chx_Ksampler_VisualStyle",
             "chx_Ksampler_dual_area",
             "chx_Ksampler_dual_paint",
@@ -19240,6 +19294,7 @@
     ],
     "https://github.com/comfy-deploy/comfyui-llm-toolkit": [
         [
+            "AudioDurationFrames",
             "BFLProviderNode",
             "CheckImageEmpty",
             "ConfigGenerateImage",
@@ -22500,6 +22555,14 @@
         ],
         {
             "title_aux": "geocine-comfyui"
+        }
+    ],
+    "https://github.com/georgitsenov/ComfyUI-R2": [
+        [
+            "S3SaveNode"
+        ],
+        {
+            "title_aux": "ComfyUI S3 Save Node"
         }
     ],
     "https://github.com/ggarra13/ComfyUI-mrv2": [
@@ -29339,6 +29402,15 @@
             "title_aux": "ComfyUI-Mango-Random"
         }
     ],
+    "https://github.com/manifestations/comfyui-globetrotter": [
+        [
+            "OllamaLLMNode",
+            "TextCombinerNode"
+        ],
+        {
+            "title_aux": "ComfyUI Globetrotter Nodes"
+        }
+    ],
     "https://github.com/manifestations/comfyui-outfits": [
         [
             "ChineseOutfitNode",
@@ -32239,6 +32311,14 @@
         ],
         {
             "title_aux": "ComfyUI-EsesImageOffset"
+        }
+    ],
+    "https://github.com/quasiblob/ComfyUI-EsesImageResize": [
+        [
+            "EsesImageResize"
+        ],
+        {
+            "title_aux": "EsesImageResize"
         }
     ],
     "https://github.com/quasiblob/EsesCompositionGoldenRatio": [
@@ -36435,6 +36515,14 @@
         ],
         {
             "title_aux": "wlsh_nodes"
+        }
+    ],
+    "https://github.com/wasilone11/comfyui-pvm-node": [
+        [
+            "SyncPVMessengerNode"
+        ],
+        {
+            "title_aux": "ComfyUI Sync PVM Node"
         }
     ],
     "https://github.com/wasilone11/comfyui-sync-lipsync-node": [

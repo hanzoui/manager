@@ -174,6 +174,7 @@
             "MaskBatchMathOps",
             "MaskBatchToList",
             "MaskCropByBBoxMask",
+            "MaskFillHole",
             "MaskListToBatch",
             "MaskMathOps",
             "PathBuild",
@@ -947,6 +948,19 @@
         ],
         {
             "title_aux": "ComfyUI_bd_customNodes"
+        }
+    ],
+    "https://github.com/BrettMedia/comfyui-bhtools": [
+        [
+            "CinematicSceneDirectorBHTools",
+            "CinematicSceneDirector|BHTools",
+            "EndOfWorkflowClearingNodeBHTools",
+            "EndOfWorkflowClearingNodeBHTools|BHTools",
+            "PromptInferenceBHTools",
+            "PromptInferenceBHTools|BHTools"
+        ],
+        {
+            "title_aux": "comfyui-bhtools [WIP]"
         }
     ],
     "https://github.com/BuffMcBigHuge/ComfyUI-Buff-Nodes": [
@@ -4001,9 +4015,11 @@
     "https://github.com/ashllay/ComfyUI_MoreComfy": [
         [
             "MC Alter Seed",
+            "MC Get Image Min Max",
             "MC Get Image Size",
             "MC Multi Concat",
             "MC Multi Concat(Advanced)",
+            "MC Noise",
             "MC Set Tile Size",
             "MC Switch Image",
             "MC Switch Latent",
@@ -5545,6 +5561,17 @@
         ],
         {
             "title_aux": "ComfyUI-N_SwapInput [UNSAFE]"
+        }
+    ],
+    "https://github.com/gaowei-space/ComfyUI-Doubao-LLM": [
+        [
+            "DoubaoAPI",
+            "DoubaoConfig",
+            "DoubaoTextChat",
+            "DoubaoVisionChat"
+        ],
+        {
+            "title_aux": "ComfyUI Doubao LLM [WIP]"
         }
     ],
     "https://github.com/gilons/ComfyUI-GoogleDrive-Downloader": [
@@ -9108,6 +9135,14 @@
         ],
         {
             "title_aux": "Shank-Tools"
+        }
+    ],
+    "https://github.com/wasilone11/comfyui-sync-translate-node": [
+        [
+            "SyncTranslateNode"
+        ],
+        {
+            "title_aux": "comfyui-sync-translate-node"
         }
     ],
     "https://github.com/watarika/ComfyUI-Text-Utility": [

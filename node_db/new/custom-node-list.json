@@ -1,6 +1,76 @@
 {
     "custom_nodes": [
         {
+            "author": "MitoshiroPJ",
+            "title": "comfyui_focal_sampler",
+            "reference": "https://github.com/MitoshiroPJ/comfyui_focal_sampler",
+            "files": [
+                "https://github.com/MitoshiroPJ/comfyui_focal_sampler"
+            ],
+            "install_type": "git-clone",
+            "description": "Apply additional sampling to specific area"
+        },
+        {
+            "author": "wasilone11",
+            "title": "ComfyUI Sync PVM Node",
+            "reference": "https://github.com/wasilone11/comfyui-pvm-node",
+            "files": [
+                "https://github.com/wasilone11/comfyui-pvm-node"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node allows you to generate personalized video messages (PVM) using audio, video, and multilingual text prompts inside ComfyUI."
+        },
+        {
+            "author": "quasiblob",
+            "title": "EsesImageResize",
+            "reference": "https://github.com/quasiblob/ComfyUI-EsesImageResize",
+            "files": [
+                "https://github.com/quasiblob/ComfyUI-EsesImageResize"
+            ],
+            "install_type": "git-clone",
+            "description": "The 'Eses Image Resize' node offers comprehensive image resizing capabilities within ComfyUI. It supports various scaling modes including scaling by a specific ratio, target megapixels, or directly to fixed dimensions. The node provides framing options to handle aspect ratio changes, allowing users to 'Crop to Fit' (fill) the target frame or 'Fit to Frame' (letterbox) the image with a customizable fill color. It also generates and outputs a corresponding mask, with control over the letterbox area's color (black or white) within the mask."
+        },
+        {
+            "author": "manifestations",
+            "title": "ComfyUI Globetrotter Nodes",
+            "reference": "https://github.com/manifestations/comfyui-globetrotter",
+            "files": [
+                "https://github.com/manifestations/comfyui-globetrotter"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom ComfyUI nodes and utilities for generating AI image prompts representing the diverse attire, cultures, regions, and appearances of the world. This project is designed for easy extension to new countries, cultures, and body parts, using a modular JSON-based data structure and dynamic node generation."
+        },
+        {
+            "author": "DesertPixelAi",
+            "title": "ComfyUI DP Dynamic Random Styler",
+            "reference": "https://github.com/DesertPixelAi/comfyui-dp-them-styler",
+            "files": [
+                "https://github.com/DesertPixelAi/comfyui-dp-them-styler"
+            ],
+            "install_type": "git-clone",
+            "description": "A dynamic theme-based prompt generator for ComfyUI that creates versatile, random prompts optimized for face swap workflows."
+        },
+        {
+            "author": "georgitsenov",
+            "title": "ComfyUI S3 Save Node",
+            "reference": "https://github.com/georgitsenov/ComfyUI-R2",
+            "files": [
+                "https://github.com/georgitsenov/ComfyUI-R2"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node for saving generated images directly to Cloudflare R2 (or S3-compatible) buckets using boto3, with secure random filename generation and public URL return."
+        },
+        {
+            "author": "HappyXY",
+            "title": "ComfyUI-AmazonBedrock",
+            "reference": "https://github.com/HappyXY/ComfyUI-AmazonBedrock",
+            "files": [
+                "https://github.com/HappyXY/ComfyUI-AmazonBedrock"
+            ],
+            "install_type": "git-clone",
+            "description": "use case of llm, image, video models on amazon bedrock"
+        },
+        {
             "author": "BuffMcBigHuge",
             "title": "ComfyUI-Google-AI-Studio",
             "reference": "https://github.com/BuffMcBigHuge/ComfyUI-Google-AI-Studio",
