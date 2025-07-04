@@ -2,13 +2,73 @@
     "custom_nodes": [
         {
             "author": "MitoshiroPJ",
-            "title": "comfyui_focal_sampler",
-            "reference": "https://github.com/MitoshiroPJ/comfyui_focal_sampler",
+            "title": "ComfyUI Nearsighted Attention",
+            "reference": "https://github.com/MitoshiroPJ/comfyui_nearsighted_attention",
             "files": [
-                "https://github.com/MitoshiroPJ/comfyui_focal_sampler"
+                "https://github.com/MitoshiroPJ/comfyui_nearsighted_attention"
             ],
             "install_type": "git-clone",
-            "description": "Apply additional sampling to specific area"
+            "description": "This node splits its self-attention Q to focus on nearby samples."
+        },
+        {
+            "author": "MitoshiroPJ",
+            "title": "ComfyUI SaveImage SDLI",
+            "reference": "https://github.com/MitoshiroPJ/ComfyUI_save_image_sdli",
+            "files": [
+                "https://github.com/MitoshiroPJ/ComfyUI_save_image_sdli"
+            ],
+            "install_type": "git-clone",
+            "description": "SDLI (Stable Diffusion Latents in Imagefile) is file format, that contains latents and lossy (decoded) image. Detailed format is written at [a/SDLI Tools](https://github.com/MitoshiroPJ/sdli_tools)."
+        },
+        {
+            "author": "BigStationW",
+            "title": "ComfyUi-Load-Image-And-Display-Prompt-Metadata",
+            "reference": "https://github.com/BigStationW/ComfyUi-Load-Image-And-Display-Prompt-Metadata",
+            "files": [
+                "https://github.com/BigStationW/ComfyUi-Load-Image-And-Display-Prompt-Metadata"
+            ],
+            "install_type": "git-clone",
+            "description": "This node displays the positive and negative prompts of a loaded ComfyUi image."
+        },
+        {
+            "author": "pvlprk",
+            "title": "ComfyUI Assistant Node",
+            "reference": "https://github.com/pvlprk/comfyui-pvl-api-nodes",
+            "files": [
+                "https://github.com/pvlprk/comfyui-pvl-api-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that integrates with the OpenAI Assistants API."
+        },
+        {
+            "author": "danTheMonk",
+            "title": "ComfyUI Int and Float Conversion Nodes",
+            "reference": "https://github.com/danTheMonk/comfyui-int-and-float",
+            "files": [
+                "https://github.com/danTheMonk/comfyui-int-and-float"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple ComfyUI custom node extension that provides utility nodes for converting between integer and float values."
+        },
+        {
+            "author": "RamonGuthrie",
+            "title": "ComfyUI-RBG-ImageStitchPlus",
+            "reference": "https://github.com/RamonGuthrie/ComfyUI-RBG-ImageStitchPlus",
+            "files": [
+                "https://github.com/RamonGuthrie/ComfyUI-RBG-ImageStitchPlus"
+            ],
+            "install_type": "git-clone",
+            "description": "An advanced image stitching node for ComfyUI."
+        },
+        {
+            "author": "kaipard",
+            "title": "Auto Aspect Latent Generator",
+            "reference": "https://github.com/kaipard/comfyui-auto-latent-size",
+            "files": [
+                "https://github.com/kaipard/comfyui-auto-latent-size"
+            ],
+            "install_type": "git-clone",
+            "description": "Add presets for latent and adjust the image size."
         },
         {
             "author": "wasilone11",
@@ -633,139 +693,6 @@
             ],
             "install_type": "git-clone",
             "description": "volcengine comfyui api"
-        },
-        {
-            "author": "fredconex",
-            "title": "SongBloom",
-            "reference": "https://github.com/fredconex/ComfyUI-SongBloom",
-            "files": [
-                "https://github.com/fredconex/ComfyUI-SongBloom"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Nodes for SongBloom"
-        },
-        {
-            "author": "AKharytonchyk",
-            "title": "ComfyUI-telegram-bot-node",
-            "reference": "https://github.com/AKharytonchyk/ComfyUI-telegram-bot-node",
-            "files": [
-                "https://github.com/AKharytonchyk/ComfyUI-telegram-bot-node"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom nodes for Telegram bot integration"
-        },
-        {
-            "author": "cmdicely",
-            "title": "GrsAI api in ComfyUI",
-            "reference": "https://github.com/31702160136/ComfyUI-GrsAI",
-            "files": [
-                "https://github.com/31702160136/ComfyUI-GrsAI"
-            ],
-            "install_type": "git-clone",
-            "description": "GrsAI API node supports models: Flux-Pro-1.1 (¥ 0.03), Flux-Ultra-1.1 (¥ 0.04), Flux Kontext Pro (¥ 0.035), Flux Kontext Max (¥ 0.07), GPT Image (¥ 0.02). Support text generated images, image generated images, and multi image fusion."
-        },
-        {
-            "author": "Limbicnation", 
-            "title": "ComfyUI Face Detection Node",
-            "id": "comfyui-face-detection-node",
-            "reference": "https://github.com/Limbicnation/ComfyUI_FaceDetectionNode",
-            "files": [
-                "https://github.com/Limbicnation/ComfyUI_FaceDetectionNode"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node for face detection and cropping using OpenCV Haar cascades, with full ComfyUI v3 schema support and backward compatibility. Features adjustable detection threshold, minimum face size, padding, and multiple classifier options.",
-            "nodename_pattern": "FaceDetectionNode"
-        },
-        {
-            "author": "jurdnf",
-            "title": "ComfyUI-JurdnsIterativeNoiseKsampler",
-            "reference": "https://github.com/jurdnf/ComfyUI-JurdnsIterativeNoiseKSampler",
-            "files": [
-                "https://github.com/jurdnf/ComfyUI-JurdnsIterativeNoiseKSampler"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node that adds controlled noise injection during the sampling process for enhanced image generation quality and detail."
-        },
-        {
-            "author": "o-l-l-i",
-            "title": "Olm Curve Editor for ComfyUI",
-            "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-CurveEditor",
-            "files": [
-                "https://github.com/o-l-l-i/ComfyUI-Olm-CurveEditor"
-            ],
-            "install_type": "git-clone",
-            "description": "A single-purpose, multi-channel curve editor for ComfyUI, providing precise color control over R, G, B, and Luma channels directly within the node graph. It’s a focused, lightweight, and standalone solution built specifically for one task: applying color curves cleanly and efficiently."
-        },
-        {
-            "author": "TashaSkyUp",
-            "title": "EternalKernel PyTorch Nodes",
-            "reference": "https://github.com/TashaSkyUp/EternalKernelPytorchNodes",
-            "files": [
-                "https://github.com/TashaSkyUp/EternalKernelPytorchNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Comprehensive PyTorch nodes for ComfyUI - Neural network training, inference, and ML workflows"
-        },
-        {
-            "author": "quasiblob",
-            "title": "ComfyUI-EsesCompositionGuides",
-            "reference": "https://github.com/quasiblob/ComfyUI-EsesCompositionGuides",
-            "files": [
-                "https://github.com/quasiblob/ComfyUI-EsesCompositionGuides"
-            ],
-            "install_type": "git-clone",
-            "description": "Non-destructive visual image composition helper tool node for ComfyUI with minimal requirements, works with larger images too."
-        },
-        {
-            "author": "ChenDarYen",
-            "title": "ComfyUI-NAG",
-            "reference": "https://github.com/ChenDarYen/ComfyUI-NAG",
-            "files": [
-                "https://github.com/ChenDarYen/ComfyUI-NAG"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI implemtation for NAG"
-        },
-        {
-            "author": "cmdicely",
-            "title": "Simple Image To Palette",
-            "reference": "https://github.com/cmdicely/simple_image_to_palette",
-            "files": [
-                "https://github.com/cmdicely/simple_image_to_palette"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom node to extract the colors in an image as a palette for use with ComfyUI-PixelArt-Detector"
-        },
-        {
-            "author": "lucak5s",
-            "title": "ComfyUI GFPGAN",
-            "reference": "https://github.com/lucak5s/comfyui_gfpgan",
-            "files": [
-                "https://github.com/lucak5s/comfyui_gfpgan"
-            ],
-            "install_type": "git-clone",
-            "description": "Face restoration with GFPGAN."
-        },
-        {
-            "author": "kiko9",
-            "title": "ComfyUI-KikoStats",
-            "reference": "https://github.com/ComfyAssets/ComfyUI-KikoStats",
-            "files": [
-                "https://github.com/ComfyAssets/ComfyUI-KikoStats"
-            ],
-            "install_type": "git-clone",
-            "description": "Real-time monitoring and statistics for ComfyUI"
-        },
-        {
-            "author": "NumZ",
-            "title": "ComfyUI-SeedVR2_VideoUpscaler",
-            "id": "SeedVR2_VideoUpscaler",
-            "reference": "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler",
-            "files": [
-                "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler"
-            ],
-            "install_type": "git-clone",
-            "description": "Upscale your videos with this SeedVR2"
         }
     ]
 }

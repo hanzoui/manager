@@ -2671,6 +2671,14 @@
             "title_aux": "LLM Node for ComfyUI"
         }
     ],
+    "https://github.com/BigStationW/ComfyUi-Load-Image-And-Display-Prompt-Metadata": [
+        [
+            "LoadImageX"
+        ],
+        {
+            "title_aux": "ComfyUi-Load-Image-And-Display-Prompt-Metadata"
+        }
+    ],
     "https://github.com/BigStationW/ComfyUi-RescaleCFGAdvanced": [
         [
             "RescaleCFGAdvanced"
@@ -8749,15 +8757,16 @@
             "title_aux": "ComfyUI-FBCNN"
         }
     ],
-    "https://github.com/MitoshiroPJ/comfyui_focal_sampler": [
+    "https://github.com/MitoshiroPJ/ComfyUI_save_image_sdli": [
         [
-            "FocalSamplerSegs"
+            "PreviewSdlImage",
+            "SaveSdlImage"
         ],
         {
-            "title_aux": "comfyui_focal_sampler"
+            "title_aux": "ComfyUI SaveImage SDLI"
         }
     ],
-    "https://github.com/MitoshiroPJ/comfyui_slothful_attention": [
+    "https://github.com/MitoshiroPJ/comfyui_nearsighted_attention": [
         [
             "NearSightedAttention",
             "NearSightedAttentionSimple",
@@ -8765,7 +8774,7 @@
             "SlothfulAttention"
         ],
         {
-            "title_aux": "ComfyUI Slothful Attention"
+            "title_aux": "ComfyUI Nearsighted Attention"
         }
     ],
     "https://github.com/Miyuutsu/comfyui-save-vpred": [
@@ -9905,6 +9914,14 @@
         ],
         {
             "title_aux": "LatentGC Aggressive"
+        }
+    ],
+    "https://github.com/RamonGuthrie/ComfyUI-RBG-ImageStitchPlus": [
+        [
+            "RBGImageStitchPlus"
+        ],
+        {
+            "title_aux": "ComfyUI-RBG-ImageStitchPlus"
         }
     ],
     "https://github.com/Ravenmelt/ComfyUI-Rodin": [
@@ -15211,7 +15228,9 @@
     "https://github.com/akatz-ai/ComfyUI-Depthflow-Nodes": [
         [
             "Depthflow",
+            "DepthflowEffectColor",
             "DepthflowEffectDOF",
+            "DepthflowEffectInpaint",
             "DepthflowEffectVignette",
             "DepthflowMotionArc",
             "DepthflowMotionCosine",
@@ -17426,7 +17445,6 @@
             "AD_font2img",
             "AD_pingpong_vedio",
             "AD_sch_IPA",
-            "AD_sch_adv_CN",
             "AD_sch_image_merge",
             "AD_sch_latent",
             "AD_sch_mask",
@@ -17453,10 +17471,6 @@
             "Apply_textStack",
             "CN_preset1_Unpack",
             "CN_preset1_pack",
-            "Create_Mask_Rectangles",
-            "Create_Mask_lay_X",
-            "Create_Mask_lay_Y",
-            "Create_Mask_sole",
             "Data_Highway",
             "Data_basic",
             "Data_bus_chx",
@@ -17477,6 +17491,7 @@
             "IO_inputbasic",
             "IO_load_anyimage",
             "IO_save_image",
+            "IO_video_encode",
             "IPA_XL_PromptInjection",
             "IPA_clip_vision",
             "IPA_dapterSD3LOAD",
@@ -17560,7 +17575,6 @@
             "chx_ksampler_Deforum_sch",
             "chx_ksampler_tile",
             "chx_latent_adjust",
-            "chx_vae_encode_tile",
             "color_OneColor_keep",
             "color_OneColor_replace",
             "color_adjust_HDR",
@@ -17575,6 +17589,10 @@
             "creat_mask_batch",
             "creat_mask_batch_input",
             "create_AD_mask",
+            "create_Mask_Rectangles",
+            "create_Mask_lay_X",
+            "create_Mask_lay_Y",
+            "create_Mask_sole",
             "create_RadialGradient",
             "create_lineGradient",
             "create_mulcolor_img",
@@ -20372,6 +20390,15 @@
         ],
         {
             "title_aux": "SDXL Auto Prompter"
+        }
+    ],
+    "https://github.com/danTheMonk/comfyui-int-and-float": [
+        [
+            "FloatToInt",
+            "IntToFloat"
+        ],
+        {
+            "title_aux": "ComfyUI Int and Float Conversion Nodes"
         }
     ],
     "https://github.com/danger-electrodes/ComfyUI_Fawfluencer_Nodes": [
@@ -23709,6 +23736,7 @@
     "https://github.com/hexxacubic/ComfyUI-Prompt_Library": [
         [
             "Double_Prompt_Encode",
+            "Multi_Wildcard_Loader",
             "Prompt_Extender",
             "Prompt_Library",
             "Simple_Prompt_Library"
@@ -25932,6 +25960,14 @@
         ],
         {
             "title_aux": "Advanced Reflux control"
+        }
+    ],
+    "https://github.com/kaipard/comfyui-auto-latent-size": [
+        [
+            "AutoAspectLatent"
+        ],
+        {
+            "title_aux": "Auto Aspect Latent Generator"
         }
     ],
     "https://github.com/kale4eat/ComfyUI-path-util": [
@@ -32204,6 +32240,15 @@
             "title_aux": "ComfyUI-ImageTagger"
         }
     ],
+    "https://github.com/pvlprk/comfyui-pvl-api-nodes": [
+        [
+            "Call OpenAI Assistant",
+            "ComfyDeploy API Caller"
+        ],
+        {
+            "title_aux": "ComfyUI Assistant Node"
+        }
+    ],
     "https://github.com/pxl-pshr/GlitchNodes": [
         [
             "ASCII",
@@ -35277,6 +35322,8 @@
     ],
     "https://github.com/synthetai/ComfyUI-JM-Volcengine-API": [
         [
+            "VolcengineI2VS2Pro",
+            "volcengine-i2v-s2pro",
             "volcengine-seedream-v3"
         ],
         {
@@ -36658,14 +36705,13 @@
             "MaskAdd_UTK",
             "MaskAnd_UTK",
             "MaskSub_UTK",
-            "PreviewMask_UTK",
+            "MathExpression_UTK",
             "PurgeVRAM_UTK",
             "RestoreCropBox_UTK",
-            "ShowFloat_UTK",
-            "ShowInt_UTK",
-            "ShowList_UTK",
-            "ShowText_UTK",
-            "Show_UTK"
+            "Show_UTK",
+            "TextBoxNode_UTK",
+            "TextConcatenate_UTK",
+            "ThinkRemover_UTK"
         ],
         {
             "title_aux": "ComfyUI-UniversalToolkit"
@@ -37279,8 +37325,11 @@
             "LamLoadImageBase64",
             "LamLoadPathImage",
             "LamLoadVideo",
+            "LamReadFileList",
             "LamSamplerName",
+            "LamSaveAudio",
             "LamSaveOnly",
+            "LamSaveVideo",
             "LamScheduler",
             "LamSwitcherCase",
             "LoadDirImgPaths",
@@ -37290,6 +37339,8 @@
             "MultiGLIGENTextBoxApply",
             "MultiIPAdapterRegional",
             "MultiIntFormula",
+            "MultiMergeAudio",
+            "MultiMergeVideos",
             "MultiParamFormula",
             "MultiTextConcatenate",
             "MultiTextEncode",
@@ -37620,7 +37671,6 @@
             "easy detailerFix",
             "easy float",
             "easy fluxLoader",
-            "easy fluxPromptGenAPI",
             "easy forLoopEnd",
             "easy forLoopStart",
             "easy fullCascadeKSampler",
@@ -37684,6 +37734,7 @@
             "easy isSDXL",
             "easy joinImageBatch",
             "easy joyCaption2API",
+            "easy joyCaption3API",
             "easy kSampler",
             "easy kSamplerCustom",
             "easy kSamplerDownscaleUnet",

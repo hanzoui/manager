@@ -786,6 +786,7 @@
         [
             "FluxKontextMaxNode",
             "FluxKontextProNode",
+            "GPTImageEditNode",
             "GeminiChatNode"
         ],
         {
@@ -2975,6 +2976,14 @@
             "title_aux": "HiDreamSampler for ComfyUI [WIP]"
         }
     ],
+    "https://github.com/SaulQiu/comfyui-saul-plugin": [
+        [
+            "Cutting Video"
+        ],
+        {
+            "title_aux": "comfyui-saul-plugin [WIP]"
+        }
+    ],
     "https://github.com/Scaryplasmon/ComfTrellis": [
         [
             "LoadTrellisModel",
@@ -3651,7 +3660,9 @@
             "BlenderAlphaOver",
             "BlenderBlackbody",
             "BlenderBokehImage",
+            "BlenderBrickTexture",
             "BlenderBrightnessContrast",
+            "BlenderCheckerTexture",
             "BlenderClamp",
             "BlenderCombineColor",
             "BlenderCombineXYZ",
@@ -3661,15 +3672,19 @@
             "BlenderDisplace",
             "BlenderExposure",
             "BlenderFlip",
+            "BlenderGaborTexture",
             "BlenderGamma",
+            "BlenderGradientTexture",
             "BlenderHueSaturationValue",
             "BlenderInvertColor",
             "BlenderLensDistortion",
+            "BlenderMagicTexture",
             "BlenderMapRange",
             "BlenderMapUV",
             "BlenderMath",
             "BlenderMix",
             "BlenderMovieDistortion",
+            "BlenderNoiseTexture",
             "BlenderRGB",
             "BlenderRGBtoBW",
             "BlenderRotate",
@@ -3683,7 +3698,10 @@
             "BlenderUV",
             "BlenderValue",
             "BlenderVectorMath",
+            "BlenderVoronoiTexture",
+            "BlenderWaveTexture",
             "BlenderWavelength",
+            "BlenderWhiteNoiseTexture",
             "BlenderZCombine"
         ],
         {
@@ -6659,10 +6677,13 @@
         [
             "CreateCFGScheduleFloatList",
             "DownloadAndLoadWav2VecModel",
+            "ExtractStartFramesForContinuations",
             "FantasyTalkingModelLoader",
             "FantasyTalkingWav2VecEmbeds",
             "LoadWanVideoClipTextEncoder",
             "LoadWanVideoT5TextEncoder",
+            "MultiTalkModelLoader",
+            "MultiTalkWav2VecEmbeds",
             "ReCamMasterPoseVisualizer",
             "WanVideoATITracks",
             "WanVideoATITracksVisualize",
@@ -6685,6 +6706,7 @@
             "WanVideoImageClipEncode",
             "WanVideoImageResizeToClosest",
             "WanVideoImageToVideoEncode",
+            "WanVideoImageToVideoMultiTalk",
             "WanVideoLoopArgs",
             "WanVideoLoraBlockEdit",
             "WanVideoLoraSelect",
@@ -9464,8 +9486,11 @@
             "LamLoadImageBase64",
             "LamLoadPathImage",
             "LamLoadVideo",
+            "LamReadFileList",
             "LamSamplerName",
+            "LamSaveAudio",
             "LamSaveOnly",
+            "LamSaveVideo",
             "LamScheduler",
             "LamSwitcherCase",
             "LoadDirImgPaths",
@@ -9475,6 +9500,8 @@
             "MultiGLIGENTextBoxApply",
             "MultiIPAdapterRegional",
             "MultiIntFormula",
+            "MultiMergeAudio",
+            "MultiMergeVideos",
             "MultiParamFormula",
             "MultiTextConcatenate",
             "MultiTextEncode",
