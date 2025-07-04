@@ -43,7 +43,7 @@ import manager_downloader
 from node_package import InstalledNodePackage
 
 
-version_code = [3, 33, 5]
+version_code = [3, 33, 6]
 version_str = f"V{version_code[0]}.{version_code[1]}" + (f'.{version_code[2]}' if len(version_code) > 2 else '')
 
 
@@ -1739,7 +1739,7 @@ def read_config():
 
     except Exception:
         import importlib.util
-        manager_util.use_uv = importlib.util.find_spec("uv")
+        manager_util.use_uv = importlib.util.find_spec("uv") is not None
         
         return {
             'http_channel_enabled': False,
