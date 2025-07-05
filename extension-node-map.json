@@ -439,9 +439,13 @@
     "https://github.com/42lux/ComfyUI-42lux": [
         [
             "FluxEmptyLatentSizePicker",
-            "FluxHighresFixScaler",
             "ModelSamplingFluxNormalized",
-            "PromptWithTokenCounter"
+            "SoulSampler",
+            "SoulSamplerAdvanced",
+            "SoulSamplerDPM",
+            "SoulSamplerDPMAdvanced",
+            "SoulSamplerHybrid",
+            "SoulSamplerHybridAdvanced"
         ],
         {
             "title_aux": "Just a bunch of QOL nodes by 42lux"
@@ -4402,6 +4406,7 @@
     ],
     "https://github.com/Duanyll/duanyll_nodepack": [
         [
+            "ImageDifferenceCmap",
             "PhotoDoddleConditioning"
         ],
         {
@@ -6161,13 +6166,17 @@
     ],
     "https://github.com/IIEleven11/ComfyUI-FairyTaler": [
         [
-            "FairyTalerStoryboard",
-            "SceneParser",
-            "SceneToConditioning",
-            "StoryboardCompositor",
-            "ThreeSceneGenerator"
+            "FairyTaler Storyboard",
+            "Scene Parser (FairyTaler)",
+            "Scene to Conditioning (FairyTaler)",
+            "Storyboard Compositor (FairyTaler)",
+            "Three Scene Generator (FairyTaler)"
         ],
         {
+            "author": "Eleven",
+            "description": "Turn your AI roleplay into AI generated scenes from every response. Visualize what you read!",
+            "nickname": "ComfyUI FairyTaler",
+            "title": "ComfyUI FairyTaler Storyboard Nodes",
             "title_aux": "ComfyUI-FairyTaler"
         }
     ],
@@ -7556,9 +7565,11 @@
             "ImageSizeAdjustment",
             "InspyrenetRembgLoader",
             "InspyrenetRembgProcess",
+            "LG_InstallDependencies",
             "LG_LatentBatchToList",
             "LG_LoadImage",
             "LG_Noise",
+            "LG_PipManager",
             "LG_SaveImage",
             "LazySwitch1way",
             "LazySwitch2way",
@@ -15199,21 +15210,22 @@
             "BooleanUnary",
             "FloatComparison",
             "FloatInput",
-            "FloatToType",
             "IntMath",
-            "IntToType",
             "IntegerComparison",
             "IntegerInput",
             "MathConstants",
             "NumberClamp",
             "NumberComparison",
+            "NumberInRange",
             "NumberLerp",
-            "NumberRange",
             "NumberRound",
             "PreciseFloatInput",
             "StringComparison",
             "StringInput",
             "ToBool",
+            "ToFloat",
+            "ToInt",
+            "ToString",
             "UnaryMath"
         ],
         {
@@ -16795,6 +16807,8 @@
     ],
     "https://github.com/blepping/ComfyUI-sonar": [
         [
+            "FreeUExtreme",
+            "FreeUExtremeConfig",
             "NoisyLatentLike",
             "SONAR_CUSTOM_NOISE to NOISE",
             "SamplerConfigOverride",
@@ -16814,17 +16828,29 @@
             "SonarCustomNoiseAdv",
             "SonarGuidanceConfig",
             "SonarGuidedNoise",
+            "SonarLatentOperationAdvanced",
+            "SonarLatentOperationFilteredNoise",
+            "SonarLatentOperationNoise",
             "SonarLatentOperationQuantileFilter",
+            "SonarLatentOperationSetSeed",
             "SonarModulatedNoise",
             "SonarNoiseImage",
+            "SonarNormalizeNoiseToScale",
             "SonarPatternBreakNoise",
+            "SonarPerDimNoise",
+            "SonarPowerFilter",
+            "SonarPowerFilterNoise",
+            "SonarPowerNoise",
+            "SonarPreviewFilter",
             "SonarQuantileFilteredNoise",
             "SonarRandomNoise",
             "SonarRepeatedNoise",
             "SonarResizedNoise",
             "SonarRippleFilteredNoise",
+            "SonarScatternetFilteredNoise",
             "SonarScheduledNoise",
             "SonarShuffledNoise",
+            "SonarSplitNoiseChain",
             "SonarWaveletFilteredNoise",
             "SonarWaveletNoise"
         ],
@@ -17487,12 +17513,6 @@
             "Data_preset_save",
             "Data_sampleData",
             "Data_select",
-            "GPT_ChineseToEnglish",
-            "GPT_EnglishToChinese",
-            "GPT_Janus_generate_img",
-            "GPT_Janus_img_2_text",
-            "GPT_MiniCPM",
-            "GPT_deepseek_api_text",
             "IO_adjust_image",
             "IO_clear_cache",
             "IO_input_any",
@@ -17624,9 +17644,9 @@
             "lay_compare_img",
             "lay_edge_cut",
             "lay_fill_inpaint",
-            "lay_iamges_free_layout",
             "lay_image_grid_note",
             "lay_image_match_W_and_H",
+            "lay_images_free_layout",
             "lay_text_sum",
             "lay_texture_Offset",
             "list_ListGetByIndex",
@@ -21182,11 +21202,13 @@
             "AudioListGenerator",
             "AudioToFrameCount",
             "CeilDivide",
+            "ChineseConverterNode",
             "LoadVideoPath",
             "MergeVideoFilename",
             "NumberListGenerator",
             "PromptListGenerator",
-            "SaveVideoPath"
+            "SaveVideoPath",
+            "TimestampToLrcNode"
         ],
         {
             "title_aux": "ComfyUI-ListHelper"
@@ -33456,6 +33478,8 @@
             "FlipStreamGetPreviewRoi",
             "FlipStreamImageSize",
             "FlipStreamInputBox",
+            "FlipStreamLogBox",
+            "FlipStreamParseJson",
             "FlipStreamPreviewBox",
             "FlipStreamRembg",
             "FlipStreamScreenGrabber",
