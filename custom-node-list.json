@@ -22178,6 +22178,16 @@
              "description": "editing activations in wanvideo"
         },
         {
+            "author": "fblissjr",
+            "title": "Shrug-Prompter: Unified VLM Integration for ComfyUI",
+            "reference": "https://github.com/fblissjr/shrug-prompter",
+            "files": [
+                "https://github.com/fblissjr/shrug-prompter"
+             ],
+             "install_type": "git-clone",
+             "description": "A comprehensive Vision-Language Model (VLM) integration system for ComfyUI with more intelligent prompt optimization, object detection, template support, and performance optimizations. Optimized for Wan2.1, Flux Kontext, and general purpose. Goes well with my other project, an MLX/llama.cpp server with hot swappable models and ollama api compatibility, (heylookitsanllm)[a/https://github.com/fblissjr/heylookitsanllm](https://github.com/fblissjr/heylookitsanllm)"
+        },
+        {
             "author": "vincentfs",
             "title": "ComfyUI-ArchiGraph",
             "id": "archigraph",
@@ -25450,6 +25460,16 @@
             "description": "A custom node suite to augment the capabilities of the [a/AP Workflows for ComfyUI](https://perilli.com/ai/comfyui/)"
         },
         {
+            "author": "alessandroperilli",
+            "title": "Open Creative Studio Nodes",
+            "reference": "https://github.com/alessandroperilli/OCS_Nodes",
+            "files": [
+                "https://github.com/alessandroperilli/OCS_Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node suite to augment the capabilities of the [a/Open Creative Studio for ComfyUI](https://oc.studio/)."
+        },
+        {
             "author": "rkfg",
             "title": "Dia realistic TTS",
             "reference": "https://github.com/rkfg/ComfyUI-Dia_tts",
@@ -27010,6 +27030,16 @@
             ],
             "install_type": "git-clone",
             "description": "utilitaires pour ComfyUI, conçue pour effectuer des calculs et des conversions"
+        },
+        {
+            "author": "orion4d",
+            "title": "ComfyUI Colormaster Nodes",
+            "reference": "https://github.com/orion4d/ComfyUI_colormaster",
+            "files": [
+                "https://github.com/orion4d/ComfyUI_colormaster"
+            ],
+            "install_type": "git-clone",
+            "description": "This project offers a collection of custom nodes for ComfyUI, dedicated to creating hexadecimal color palettes"
         },
         {
             "author": "aiaiaikkk",
@@ -28808,7 +28838,36 @@
             "install_type": "git-clone",
             "description": "This plugin includes two core nodes designed to handle proportion optimization tasks of varying complexity"
         },
-
+        {
+            "author": "yamanacn",
+            "title": "ComfyUI Kontext Duo Image Analyzer",
+            "reference": "https://github.com/yamanacn/comfyui_kontext_Analyze",
+            "files": [
+                "https://github.com/yamanacn/comfyui_kontext_Analyze"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node designed for ComfyUI that leverages the multimodal large model Doubao from Volcengine Ark to intelligently compare two input images. You can provide two images and a custom text prompt. The node will send this information to the large model and return a detailed textual description of the similarities and differences between the two images."
+        },
+        {
+            "author": "weekii",
+            "title": "comfyui-save-image-pro",
+            "reference": "https://github.com/weekii/comfyui-save-image-pro",
+            "files": [
+                "https://github.com/weekii/comfyui-save-image-pro"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional-grade ComfyUI image saving plugin with support for multiple formats, custom naming, and advanced features."
+        },
+        {
+            "author": "bbaudio",
+            "title": "ComfyUI-SuperUltimateVaceTools",
+            "reference": "https://github.com/bbaudio-2025/ComfyUI-SuperUltimateVaceTools",
+            "files": [
+                "https://github.com/bbaudio-2025/ComfyUI-SuperUltimateVaceTools"
+            ],
+            "install_type": "git-clone",
+            "description": "powerful nodes for wan2.1 vace"
+        },
 
 
 
