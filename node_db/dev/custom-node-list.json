@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "bikiam",
+            "title": "Comfyui_AudioRecoder",
+            "reference": "https://github.com/bikiam/Comfyui_AudioRecoder",
+            "files": [
+                "https://github.com/bikiam/Comfyui_AudioRecoder"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: AUDIO Recorder"
+        },
+        {
             "author": "SaulQiu",
             "title": "comfyui-saul-plugin [WIP]",
             "reference": "https://github.com/SaulQiu/comfyui-saul-plugin",
@@ -360,16 +370,6 @@
             ],
             "install_type": "git-clone",
             "description": "Two custom nodes for ComfyUI that allow you to encrypt and decrypt Python objects using simple XOR encryption with pickle."
-        },
-        {
-            "author": "Aryan185",
-            "title": "ComfyUI-ReplicateFluxKontext",
-            "reference": "https://github.com/Aryan185/ComfyUI-ReplicateFluxKontext",
-            "files": [
-                "https://github.com/Aryan185/ComfyUI-ReplicateFluxKontext"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI node for Flux Kontext Pro and Max models from Replicate"
         },
         {
             "author": "yamanacn",

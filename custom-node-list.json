@@ -3286,7 +3286,7 @@
                 "https://github.com/audioscavenger/save-image-extended-comfyui"
             ],
             "install_type": "git-clone",
-            "description": "Upgrade the Save File node: customize subfolders, file names with checkpoint names, or any sampler attribute your want! [w/NOTE: This node is a fork from @thedyze, since the [a/original repository](https://github.com/thedyze/save-image-extended-comfyui) is no longer maintained. Simply *uninstall* the original version and **REINSTALL** this one.]"
+            "description": "Save as AVIF, WebP, JPEG, customize the folder, sub-folders, and filenames of your images!"
         },
         {
             "author": "audioscavenger",
@@ -4361,14 +4361,13 @@
         },
         {
             "author": "42lux",
-            "title": "Just a bunch of QOL nodes by 42lux",
-            "id": "comfyui-42lux",
+            "title": "ComfyUI-42lux",
             "reference": "https://github.com/42lux/ComfyUI-42lux",
             "files": [
                 "https://github.com/42lux/ComfyUI-42lux"
             ],
             "install_type": "git-clone",
-            "description": "Just a bunch of QOL nodes. Normalized Flux Sampling, High Res Latent Picker, Textbox with Token Counter."
+            "description": "A collection of custom nodes for ComfyUI focused on enhanced sampling, model optimization, and quality improvements."
         },
         {
             "author": "sergekatzmann",
@@ -8056,6 +8055,16 @@
             "description": "ComfyUI-MiniMax-Remover is a custom node for ComfyUI that enables fast and efficient object removal using minimax optimization. It works in two stages: first, it trains a remover with a simplified DiT model; then it distills a robust version using CFG guidance and fewer inference steps."
         },
         {
+            "author": "1038lab",
+            "title": "ComfyUI-Mosaic",
+            "reference": "https://github.com/1038lab/ComfyUI-Mosaic",
+            "files": [
+                "https://github.com/1038lab/ComfyUI-Mosaic"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for mosaic detection and creation."
+        },
+        {
             "author": "Klinter",
             "title": "Klinter_nodes",
             "id": "klinter",
@@ -9322,6 +9331,17 @@
             ],
             "install_type": "git-clone",
             "description": "Plays youtube videos in comfy. Use this node to share tutorials or renders. Youtube Playlists mode is also in Future Development in which you can add multiple youtube links and form a playlist which would be ideal for chained tutorials or lisitening and sharing songs playlists with others."
+        },
+        {
+            "author": "Seedsa",
+            "title": "ComfyUI Fooocus Nodes",
+            "id": "fooocus-nodes",
+            "reference": "https://github.com/Seedsa/Fooocus_Nodes",
+            "files": [
+                "https://github.com/Seedsa/Fooocus_Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension provides image generation features based on Fooocus."
         },
         {
             "author": "zhangp365",
@@ -22148,6 +22168,16 @@
              "description": "experimental wanvideo comfyui node with a singular goal - visually seamless transitions between context windows"
         },
         {
+            "author": "fblissjr",
+            "title": "ComfyUI-WanActivationEditor",
+            "reference": "https://github.com/fblissjr/ComfyUI-WanActivationEditor",
+            "files": [
+                "https://github.com/fblissjr/ComfyUI-WanActivationEditor"
+             ],
+             "install_type": "git-clone",
+             "description": "editing activations in wanvideo"
+        },
+        {
             "author": "vincentfs",
             "title": "ComfyUI-ArchiGraph",
             "id": "archigraph",
@@ -26769,6 +26799,16 @@
             "description": "This node pack is designed to adjust audio playback speed within ComfyUI, particularly to sync audio with models like FantasyTalking (WAN) that require specific frame rates. It can also be used for general-purpose audio speed control."
         },
         {
+            "author": "ptmaster",
+            "title": "Comfyui-PT-Keyframe-Camera",
+            "reference": "https://github.com/ptmaster/Comfyui-PT-Keyframe-Camera",
+            "files": [
+                "https://github.com/ptmaster/Comfyui-PT-Keyframe-Camera"
+            ],
+            "install_type": "git-clone",
+            "description": "PT Keyframe Camera"
+        },
+        {
             "author": "doubletwisted",
             "title": "ComfyUI Deadline Submission",
             "reference": "https://github.com/doubletwisted/ComfyUI-Deadline-Plugin",
@@ -27317,6 +27357,16 @@
             ],
             "install_type": "git-clone",
             "description": "This project is a custom node plugin for ComfyUI that provides a form node for configuring and saving parameters related to LLMs (such as OpenAI, Kimi, DeepSeek). Users can input information such as API Key, Base, Version, and Model through the node. The node will automatically save the configuration to a local file and set it as environment variables, making it convenient for subsequent use."
+        },
+        {
+            "author": "pictorialink",
+            "title": "ComfyUI-Qwen3-llama.cpp",
+            "reference": "https://github.com/pictorialink/ComfyUI-Qwen3-llama.cpp",
+            "files": [
+                "https://github.com/pictorialink/ComfyUI-Qwen3-llama.cpp"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for ComfyUI QWen3 8b running based on llama.cpp, which only support the CUDA framework and do not support MPS."
         },
         {
             "author": "mo230761",
@@ -28707,6 +28757,46 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node package for the OmniGen2 multimodal generation model."
+        },
+        {
+            "author": "lonelyowl13",
+            "title": "Artist tag randomizer for comfyui",
+            "reference": "https://github.com/lonelyowl13/artist_randomizer",
+            "files": [
+                "https://github.com/lonelyowl13/artist_randomizer"
+            ],
+            "install_type": "git-clone",
+            "description": "A node for including random artists usernames to a prompt."
+        },
+        {
+            "author": "Aryan185",
+            "title": "ComfyUI-ExternalAPI-Helpers",
+            "reference": "https://github.com/Aryan185/ComfyUI-ExternalAPI-Helpers",
+            "files": [
+                "https://github.com/Aryan185/ComfyUI-ExternalAPI-Helpers"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for Flux Kontext Pro and Max models from Replicate"
+        },
+        {
+            "author": "iacoposk8",
+            "title": "ComfyUI Fooocus Inpaint Wrapper",
+            "reference": "https://github.com/iacoposk8/ComfyUI-Fooocus-Inpaint-Wrapper",
+            "files": [
+                "https://github.com/iacoposk8/ComfyUI-Fooocus-Inpaint-Wrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple wrapper for Fooocus's inpainting code, designed to replicate its outstanding results. Future improvements for a more refined and lightweight version are planned."
+        },
+        {
+            "author": "FaraamFide",
+            "title": "ComfyUI-ParamNodes",
+            "reference": "https://github.com/FaraamFide/ComfyUI-ParamNodes",
+            "files": [
+                "https://github.com/FaraamFide/ComfyUI-ParamNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-ParamNodes is a lightweight, dependency-free collection of custom nodes for ComfyUI, designed to parameterize your workflows for API-driven generation. It provides a clean set of input nodes to control strings, numbers, booleans, and model/LoRA selections, along with a simple logic switch for conditional execution."
         },
 
 

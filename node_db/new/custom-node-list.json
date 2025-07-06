@@ -1,6 +1,86 @@
 {
     "custom_nodes": [
         {
+            "author": "1038lab",
+            "title": "ComfyUI-Mosaic",
+            "reference": "https://github.com/1038lab/ComfyUI-Mosaic",
+            "files": [
+                "https://github.com/1038lab/ComfyUI-Mosaic"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for mosaic detection and creation."
+        },
+        {
+            "author": "fblissjr",
+            "title": "ComfyUI-WanActivationEditor",
+            "reference": "https://github.com/fblissjr/ComfyUI-WanActivationEditor",
+            "files": [
+                "https://github.com/fblissjr/ComfyUI-WanActivationEditor"
+             ],
+             "install_type": "git-clone",
+             "description": "editing activations in wanvideo"
+        },
+        {
+            "author": "Aryan185",
+            "title": "ComfyUI-ExternalAPI-Helpers",
+            "reference": "https://github.com/Aryan185/ComfyUI-ExternalAPI-Helpers",
+            "files": [
+                "https://github.com/Aryan185/ComfyUI-ExternalAPI-Helpers"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for Flux Kontext Pro and Max models from Replicate"
+        },
+        {
+            "author": "ptmaster",
+            "title": "Comfyui-PT-Keyframe-Camera",
+            "reference": "https://github.com/ptmaster/Comfyui-PT-Keyframe-Camera",
+            "files": [
+                "https://github.com/ptmaster/Comfyui-PT-Keyframe-Camera"
+            ],
+            "install_type": "git-clone",
+            "description": "PT Keyframe Camera"
+        },
+        {
+            "author": "lonelyowl13",
+            "title": "Artist tag randomizer for comfyui",
+            "reference": "https://github.com/lonelyowl13/artist_randomizer",
+            "files": [
+                "https://github.com/lonelyowl13/artist_randomizer"
+            ],
+            "install_type": "git-clone",
+            "description": "A node for including random artists usernames to a prompt."
+        },
+        {
+            "author": "pictorialink",
+            "title": "ComfyUI-Qwen3-llama.cpp",
+            "reference": "https://github.com/pictorialink/ComfyUI-Qwen3-llama.cpp",
+            "files": [
+                "https://github.com/pictorialink/ComfyUI-Qwen3-llama.cpp"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for ComfyUI QWen3 8b running based on llama.cpp, which only support the CUDA framework and do not support MPS."
+        },
+        {
+            "author": "iacoposk8",
+            "title": "ComfyUI Fooocus Inpaint Wrapper",
+            "reference": "https://github.com/iacoposk8/ComfyUI-Fooocus-Inpaint-Wrapper",
+            "files": [
+                "https://github.com/iacoposk8/ComfyUI-Fooocus-Inpaint-Wrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple wrapper for Fooocus's inpainting code, designed to replicate its outstanding results. Future improvements for a more refined and lightweight version are planned."
+        },
+        {
+            "author": "FaraamFide",
+            "title": "ComfyUI-ParamNodes",
+            "reference": "https://github.com/FaraamFide/ComfyUI-ParamNodes",
+            "files": [
+                "https://github.com/FaraamFide/ComfyUI-ParamNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-ParamNodes is a lightweight, dependency-free collection of custom nodes for ComfyUI, designed to parameterize your workflows for API-driven generation. It provides a clean set of input nodes to control strings, numbers, booleans, and model/LoRA selections, along with a simple logic switch for conditional execution."
+        },
+        {
             "author": "namtb96",
             "title": "OmniGen2 Simple Node",
             "reference": "https://github.com/namtb96/OmniGen2-Simple-Node",
@@ -614,76 +694,6 @@
             "install_type": "git-clone", 
             "description": "Ambrosinus ToolKit - Streamlined workflow export with transparent backgrounds, professional themes, and smart scaling. Perfect for creating clean, high-resolution workflow documentation and sharing.",
             "category": "Utils"
-        },
-        {
-            "author": "wasilone11",
-            "title": "ComfyUI Sync Lipsync Node",
-            "reference": "https://github.com/wasilone11/comfyui-sync-lipsync-node",
-            "files": [
-                "https://github.com/wasilone11/comfyui-sync-lipsync-node"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node allows you to perform audio-video lip synchronization inside ComfyUI using a simple interface."
-        },
-        {
-            "author": "AgencyMind",
-            "title": "ComfyUI-Satori",
-            "reference": "https://github.com/AgencyMind/ComfyUI-Satori",
-            "files": [
-                "https://github.com/AgencyMind/ComfyUI-Satori"
-            ],
-            "install_type": "git-clone",
-            "description": "When your workflow starts acting weird and you need to know what's actually happening to your data - not just guess from looking at the output."
-        },
-        {
-            "author": "fotobudka-team",
-            "title": "ComfyUI AI Faces - Photo Verification Node",
-            "reference": "https://github.com/fotobudka-team/comfyui-ai-faces",
-            "files": [
-                "https://github.com/fotobudka-team/comfyui-ai-faces"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node for automated face verification, designed to check if a person is clearly visible and suitable for passport-style photos. This node performs comprehensive facial analysis to ensure photo quality meets identification document standards."
-        },
-        {
-            "author": "A043-studios",
-            "title": "ComfyUI ASCII Generator Node",
-            "reference": "https://github.com/A043-studios/Comfyui-ascii-generator",
-            "files": [
-                "https://github.com/A043-studios/Comfyui-ascii-generator"
-            ],
-            "install_type": "git-clone",
-            "description": "ASCII art generator for ComfyUI with multi-language character set support"
-        },
-        {
-            "author": "Gary-yeh",
-            "title": "comfyui-super-captioner",
-            "reference": "https://github.com/Gary-yeh/comfyui-super-captioner",
-            "files": [
-                "https://github.com/Gary-yeh/comfyui-super-captioner"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful multi-model image captioning node that supports both local BLIP models and the cloud-based Google Gemini API, specifically designed for ComfyUI."
-        },
-        {
-            "author": "kpsss34",
-            "title": "ComfyUI Sana Custom Node",
-            "reference": "https://github.com/kpsss34/ComfyUI-kpsss34-Sana",
-            "files": [
-                "https://github.com/kpsss34/ComfyUI-kpsss34-Sana"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that supports Sana text-to-image models (600M/1.6B parameters) with advanced features including LoRA support, PAG (Perturbed-Attention Guidance), and optimized VRAM usage."
-        },
-        {
-            "author": "itsjustregi",
-            "title": "Easy Color Correction",
-            "reference": "https://github.com/regiellis/ComfyUI-EasyColorCorrector",
-            "files": [
-                "https://github.com/regiellis/ComfyUI-EasyColorCorrector"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node for flexible and efficient image color correction and post-processing."
         }
     ]
 }
