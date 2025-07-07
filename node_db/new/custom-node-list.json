@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "quasiblob",
+            "title": "ComfyUI-EsesImageEffectCurves",
+            "reference": "https://github.com/quasiblob/ComfyUI-EsesImageEffectCurves",
+            "files": [
+                "https://github.com/quasiblob/ComfyUI-EsesImageEffectCurves"
+            ],
+            "install_type": "git-clone",
+            "description": "Channel curves custom node for ComfyUI. RGB, R, G and B, luma and saturation curves adjustments. Save and load presets. Real-time curves adjustment tool directly within the user interface. Precise, interactive control over the tonal range of both image channels and masks, using a GPU-accelerated PyTorch backend for instant feedback."
+        },
+        {
             "author": "FortunaCournot",
             "title": "Stereoscopic",
             "id": "stereoscopic",
