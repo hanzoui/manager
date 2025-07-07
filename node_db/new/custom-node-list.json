@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "orion4d",
+            "title": "Display Image with Mask for ComfyUI",
+            "reference": "https://github.com/orion4d/ComfyUI_image-display",
+            "files": [
+                "https://github.com/orion4d/ComfyUI_image-display"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository contains a versatile custom node for ComfyUI, Display Image with Mask, designed to offer advanced image viewing, masking, and saving capabilities directly within your workflow."
+        },
+        {
+            "author": "lum3on",
+            "title": "ComfyUI Midjourney Scraper Node",
+            "reference": "https://github.com/lum3on/ComfyUI_MJ-Scraper",
+            "files": [
+                "https://github.com/lum3on/ComfyUI_MJ-Scraper"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI allows you to scrape and download images and videos from the Midjourney showcase pages. It uses undetected_chromedriver to bypass anti-scraping measures, but requires session cookies from a logged-in browser session to function correctly."
+        },
+        {
             "author": "fblissjr",
             "title": "Shrug-Prompter: Unified VLM Integration for ComfyUI",
             "reference": "https://github.com/fblissjr/shrug-prompter",

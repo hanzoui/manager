@@ -3235,7 +3235,10 @@
     "https://github.com/ChenDarYen/ComfyUI-NAG": [
         [
             "KSamplerWithNAG",
-            "NAGCFGGuider"
+            "KSamplerWithNAG (Advanced)",
+            "NAGCFGGuider",
+            "NAGGuider",
+            "SamplerCustomWithNAG"
         ],
         {
             "title_aux": "ComfyUI-NAG"
@@ -19429,6 +19432,7 @@
             "OpenAIProviderNode",
             "PreviewOutputs",
             "PromptManager",
+            "ResolutionSelector",
             "SunoProviderSelector",
             "SwitchAny"
         ],
@@ -21280,13 +21284,12 @@
             "AudioListGenerator",
             "AudioToFrameCount",
             "CeilDivide",
-            "ChineseConverterNode",
+            "FrameMatch",
             "LoadVideoPath",
             "MergeVideoFilename",
             "NumberListGenerator",
             "PromptListGenerator",
-            "SaveVideoPath",
-            "TimestampToLrcNode"
+            "SaveVideoPath"
         ],
         {
             "title_aux": "ComfyUI-ListHelper"
@@ -21879,6 +21882,7 @@
     ],
     "https://github.com/fblissjr/shrug-prompter": [
         [
+            "JSONStringToList",
             "PromptTemplateLoader_Shrug",
             "ShrugMaskUtilities",
             "ShrugPrompter",
@@ -29587,6 +29591,14 @@
             "title_aux": "ComfyUI-AudioX"
         }
     ],
+    "https://github.com/lum3on/ComfyUI_MJ-Scraper": [
+        [
+            "MJScraper"
+        ],
+        {
+            "title_aux": "ComfyUI Midjourney Scraper Node"
+        }
+    ],
     "https://github.com/lum3on/comfyui_EdgeTAM": [
         [
             "EdgeTAMVideoTracker",
@@ -31783,6 +31795,14 @@
         ],
         {
             "title_aux": "ComfyUI_extract_imag"
+        }
+    ],
+    "https://github.com/orion4d/ComfyUI_image-display": [
+        [
+            "DisplayImageWithMask"
+        ],
+        {
+            "title_aux": "Display Image with Mask for ComfyUI"
         }
     ],
     "https://github.com/orion4d/ComfyUI_pdf_nodes": [
