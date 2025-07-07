@@ -22371,7 +22371,7 @@
                 "https://github.com/burnsbert/ComfyUI-EBU-LMStudio"
              ],
              "install_type": "git-clone",
-             "description": "Custom nodes for integrating LM Studio's LLM functionality into ComfyUI. Includes EBU-LMStudio-Load, EBU-LMStudio-Unload, and EBU-LMStudio-Request."
+             "description": "This ComfyUI extension provides custom nodes for integrating with LM Studio, allowing for loading, managing, and making requests of LLM models through the LMStudio local server and command-line interface."
         },
         {
             "author": "burnsbert",
@@ -28888,6 +28888,17 @@
             "install_type": "git-clone",
             "description": "A custom node extension for ComfyUI that enables distributed image generation across multiple GPUs through a master-worker architecture."
         },
+        {
+            "author": "FortunaCournot",
+            "title": "Stereoscopic",
+            "id": "stereoscopic",
+            "reference": "https://github.com/FortunaCournot/comfyui_stereoscopic",
+            "files": [
+                "https://github.com/FortunaCournot/comfyui_stereoscopic"
+            ],
+            "install_type": "git-clone",
+            "description": "Contains ImageSBSConverter node to convert an image into a side-by-side image."
+        },
 
 
 
@@ -29308,17 +29319,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "FortunaCournot",
-            "title": "Stereoscopic",
-            "id": "stereoscopic",
-            "reference": "https://github.com/FortunaCournot/comfyui_stereoscopic",
-            "files": [
-                "https://github.com/FortunaCournot/comfyui_stereoscopic"
-            ],
-            "install_type": "git-clone",
-            "description": "Contains ImageSBSConverter node to convert an image into a side-by-side image."
         }
     ]
 }

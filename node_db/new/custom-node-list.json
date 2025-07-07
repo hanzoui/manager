@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "FortunaCournot",
+            "title": "Stereoscopic",
+            "id": "stereoscopic",
+            "reference": "https://github.com/FortunaCournot/comfyui_stereoscopic",
+            "files": [
+                "https://github.com/FortunaCournot/comfyui_stereoscopic"
+            ],
+            "install_type": "git-clone",
+            "description": "Contains ImageSBSConverter node to convert an image into a side-by-side image."
+        },
+        {
             "author": "robertvoy",
             "title": "ComfyUI-Distributed",
             "reference": "https://github.com/robertvoy/ComfyUI-Distributed",

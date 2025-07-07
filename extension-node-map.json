@@ -11590,8 +11590,10 @@
             "Alpha Crop and Position Image",
             "CSV Reader",
             "CSV Reader X Checkpoint",
+            "CSV Reader X Lora",
             "CSV Writer",
             "Checkpoint File Loader",
+            "ComfyDeploy API Node Image-Prompt 2 Image",
             "Empty Images",
             "Get Most Common Image Colors",
             "Image Batch Process Switch",
@@ -11606,7 +11608,6 @@
             "Output Filename",
             "Pad Mask",
             "Prompt Cache",
-            "Prompt X Lora",
             "Range(Num Steps) - Float",
             "Range(Num Steps) - Int",
             "Range(Step) - Float",
@@ -17331,7 +17332,8 @@
         [
             "EbuLMStudioLoadModel",
             "EbuLMStudioMakeRequest",
-            "EbuLMStudioUnload"
+            "EbuLMStudioUnload",
+            "EbuLMStudioUnloadGuider"
         ],
         {
             "title_aux": "EBU LMStudio LLM Integration"
@@ -17339,6 +17341,8 @@
     ],
     "https://github.com/burnsbert/ComfyUI-EBU-PromptHelper": [
         [
+            "EbuPromptHelperCharacterDescriberFemale",
+            "EbuPromptHelperCharacterDescriberMale",
             "EbuPromptHelperCombineTwoStrings",
             "EbuPromptHelperConsumeListItem",
             "EbuPromptHelperCurrentDateTime",
@@ -17356,7 +17360,12 @@
     ],
     "https://github.com/burnsbert/ComfyUI-EBU-Workflow": [
         [
+            "EbuAppendToFile",
+            "EbuDecodeNewLines",
+            "EbuEncodeNewLines",
+            "EbuFileListCache",
             "EbuGetImageAspectRatio",
+            "EbuReadFromFile",
             "EbuScalingResolution",
             "EbuScalingTile",
             "EbuUniqueFileName"
@@ -19432,11 +19441,13 @@
             "LLMToolkitTextGeneratorStream",
             "LocalTransformersProviderNode",
             "OpenAIProviderNode",
+            "PlayRandomSound",
             "PreviewOutputs",
             "PromptManager",
             "ResolutionSelector",
             "SunoProviderSelector",
-            "SwitchAny"
+            "SwitchAny",
+            "SwitchAnyRoute"
         ],
         {
             "author": "ComfyDeploy",
@@ -28921,9 +28932,7 @@
             "AnyPipeToBasic",
             "BasicPipeToDetailerPipe",
             "BasicPipeToDetailerPipeSDXL",
-            "BboxDetectorCombined",
             "BboxDetectorCombined_v2",
-            "BboxDetectorForEach",
             "BboxDetectorSEGS",
             "BitwiseAndMask",
             "BitwiseAndMaskForEach",
@@ -29052,11 +29061,8 @@
             "LatentReceiver",
             "LatentSender",
             "LatentSwitch",
-            "MMDetDetectorProvider",
-            "MMDetLoader",
             "MaskDetailerPipe",
             "MaskListToMaskBatch",
-            "MaskPainter",
             "MaskRectArea",
             "MaskRectAreaAdvanced",
             "MaskToSEGS",
@@ -29097,13 +29103,10 @@
             "SEGSToImageList",
             "SEGSUpscaler",
             "SEGSUpscalerPipe",
-            "SegmDetectorCombined",
             "SegmDetectorCombined_v2",
-            "SegmDetectorForEach",
             "SegmDetectorSEGS",
             "Segs  Mask",
             "Segs  Mask ForEach",
-            "SegsMaskCombine",
             "SegsToCombinedMask",
             "SetDefaultImageForSEGS",
             "StepsScheduleHookProvider",
@@ -29550,8 +29553,10 @@
     ],
     "https://github.com/lum3on/ComfyUI-FrameUtilitys": [
         [
+            "FrameClipper",
             "FrameExtender",
             "FrameExtenderAdvanced",
+            "FrameRepeater",
             "FrameReplacer"
         ],
         {
@@ -30582,11 +30587,17 @@
     ],
     "https://github.com/morino-kumasan/comfyui-toml-prompt": [
         [
+            "CheckPointLoaderSimpleFromString",
             "IntSelector",
+            "JsonExtractFloat",
+            "JsonExtractInt",
+            "JsonExtractString",
+            "KSamplerFromJsonInfo",
             "LatentSelector",
             "MultipartCLIPTextEncode",
             "MultipleLoraTagLoader",
             "PromptLoader",
+            "SeedGenerator",
             "StringConcat",
             "StringPicker",
             "StringSelector",
@@ -36397,12 +36408,9 @@
             "Eight_Input_Int_Switch",
             "Eight_Input_Int_Switch_Widget",
             "Eight_Input_Text_Switch",
-            "EndlessNode_BatchNegativePrompts",
-            "EndlessNode_FluxBatchPrompts",
-            "EndlessNode_PromptCounter",
-            "EndlessNode_SDXLBatchPrompts",
-            "EndlessNode_SimpleBatchPrompts",
+            "EndlessReplicateLatents",
             "FluxBatchPrompts",
+            "FluxKontextBatchPrompts",
             "Four_Input_Int_Switch",
             "Four_Input_Int_Switch_Widget",
             "Four_Input_Text_Switch",
