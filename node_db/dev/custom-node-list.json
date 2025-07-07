@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "subnet99",
+            "title": "ComfyUI-URLLoader",
+            "reference": "https://github.com/subnet99/ComfyUI-URLLoader",
+            "files": [
+                "https://github.com/subnet99/ComfyUI-URLLoader"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI plugin for downloading and loading media files from URLs."
+        },
+        {
             "author": "bikiam",
             "title": "Comfyui_AudioRecoder",
             "reference": "https://github.com/bikiam/Comfyui_AudioRecoder",
@@ -91,14 +101,14 @@
             "description": "This project is a custom node for ComfyUI that allows you to dynamically load lists from text (.txt) or CSV (.csv) files and select an item to use in your workflow. It features a manual selection mode (via a dropdown list) and a random selection mode, as well as the ability to add prefixes and suffixes to the selected text.[w/This node pack contains a node with a vulnerability that allows reading files from arbitrary paths.]"
         },
         {
-            "author": "DiffusionWave-YT",
-            "title": "DiffusionWave_PickResolution [WIP]",
+            "author": "kongds1999",
+            "title": "ComfyUI_was_image",
             "reference": "https://github.com/kongds1999/ComfyUI_was_image",
             "files": [
                 "https://github.com/kongds1999/ComfyUI_was_image"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Replace Color By Palette, ConvertGrayToImage\nNOTE: The files in the repo are not organized."
+            "description": "NODES: Replace Color By Palette, ConvertGrayToImage"
         },
         {
             "author": "zl9739379",
@@ -232,16 +242,6 @@
             "description": "A custom node that provides email/password authentication for ComfyUI pods with a beautiful modal interface."
         },
         {
-            "author": "robertvoy",
-            "title": "ComfyUI-Distributed [WIP]",
-            "reference": "https://github.com/robertvoy/ComfyUI-Distributed",
-            "files": [
-                "https://github.com/robertvoy/ComfyUI-Distributed"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node extension for ComfyUI that enables distributed image generation across multiple GPUs through a master-worker architecture."
-        },
-        {
             "author": "filliptm",
             "title": "ComfyUI_Fill-Node-Loader [WIP]",
             "reference": "https://github.com/filliptm/ComfyUI_Fill-Node-Loader",
@@ -300,16 +300,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Trim Image Batch, Create Image Batch, Select Image Batch by Mask, Advanced Batch Creator"
-        },
-        {
-            "author": "DDDDEEP",
-            "title": "ComfyUI-DDDDEEP",
-            "reference": "https://github.com/DDDDEEP/ComfyUI-DDDDEEP",
-            "files": [
-                "https://github.com/DDDDEEP/ComfyUI-DDDDEEP"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: AutoWidthHeight, ReturnIntSeed, OppositeBool, PromptItemCollection"
         },
         {
             "author": "stalkervr",

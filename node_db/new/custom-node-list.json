@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "robertvoy",
+            "title": "ComfyUI-Distributed",
+            "reference": "https://github.com/robertvoy/ComfyUI-Distributed",
+            "files": [
+                "https://github.com/robertvoy/ComfyUI-Distributed"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node extension for ComfyUI that enables distributed image generation across multiple GPUs through a master-worker architecture."
+        },
+        {
             "author": "orion4d",
             "title": "Display Image with Mask for ComfyUI",
             "reference": "https://github.com/orion4d/ComfyUI_image-display",

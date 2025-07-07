@@ -28626,16 +28626,6 @@
             "description": "This package provides ComfyUI nodes for creating 3-scene storyboards from Ollama text output."
         },
         {
-            "author": "manifestations",
-            "title": "ComfyUI Ethnic Outfits Custom Nodes",
-            "reference": "https://github.com/manifestations/comfyui-outfits",
-            "files": [
-                "https://github.com/manifestations/comfyui-outfits"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI nodes for generating outfit prompts representing diverse ethnicities, cultures, and regions. Uses extensible JSON data for clothing, accessories, and poses, with “random/disabled” dropdowns for flexibility. Advanced prompt engineering is supported via Ollama LLM integration. Easily add new regions, ethnicities, or cultures by updating data files and creating lightweight node wrappers. Designed for artists, researchers, and developers seeking culturally rich, customizable prompt generation in ComfyUI workflows."
-        },
-        {
             "author": "heheok",
             "title": "comfyui_wan2.1_vace_infinite_helpers",
             "reference": "https://github.com/heheok/comfyui_wan2.1_vace_infinite_helpers",
@@ -28887,6 +28877,16 @@
             ],
             "install_type": "git-clone",
             "description": "powerful nodes for wan2.1 vace"
+        },
+        {
+            "author": "robertvoy",
+            "title": "ComfyUI-Distributed",
+            "reference": "https://github.com/robertvoy/ComfyUI-Distributed",
+            "files": [
+                "https://github.com/robertvoy/ComfyUI-Distributed"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node extension for ComfyUI that enables distributed image generation across multiple GPUs through a master-worker architecture."
         },
 
 

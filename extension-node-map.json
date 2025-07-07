@@ -8407,7 +8407,8 @@
             "NoiseDecayScheduler_Custom",
             "PingPongSampler_Custom",
             "PingPongSampler_Custom_FBG",
-            "SceneGeniusAutocreator"
+            "SceneGeniusAutocreator",
+            "SeedSaver"
         ],
         {
             "title_aux": "MD Nodes"
@@ -16703,7 +16704,8 @@
         [
             "LoadImageAndPromptFromURL",
             "LoadImageFromURL",
-            "LoadPrompt"
+            "LoadPrompt",
+            "StringEditNodeOBP"
         ],
         {
             "title_aux": "MW-ComfyUI_OneButtonPrompt"
@@ -29741,23 +29743,13 @@
     ],
     "https://github.com/manifestations/comfyui-globetrotter": [
         [
+            "LoRATrainerNode",
             "OllamaLLMNode",
+            "OllamaVisionNode",
             "TextCombinerNode"
         ],
         {
             "title_aux": "ComfyUI Globetrotter Nodes"
-        }
-    ],
-    "https://github.com/manifestations/comfyui-outfits": [
-        [
-            "ChineseOutfitNode",
-            "IndianOutfitNode",
-            "IndonesianOutfitNode",
-            "JapaneseOutfitNode",
-            "OllamaPrompter"
-        ],
-        {
-            "title_aux": "ComfyUI Ethnic Outfits Custom Nodes"
         }
     ],
     "https://github.com/mape/ComfyUI-mape-Helpers": [
@@ -33168,6 +33160,16 @@
         ],
         {
             "title_aux": "Dia realistic TTS"
+        }
+    ],
+    "https://github.com/robertvoy/ComfyUI-Distributed": [
+        [
+            "DistributedCollector",
+            "DistributedSeed",
+            "UltimateSDUpscaleDistributed"
+        ],
+        {
+            "title_aux": "ComfyUI-Distributed"
         }
     ],
     "https://github.com/robertvoy/ComfyUI-Flux-Continuum": [

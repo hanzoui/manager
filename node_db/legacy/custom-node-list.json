@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "DDDDEEP",
+            "title": "ComfyUI-DDDDEEP [REMOVED]",
+            "reference": "https://github.com/DDDDEEP/ComfyUI-DDDDEEP",
+            "files": [
+                "https://github.com/DDDDEEP/ComfyUI-DDDDEEP"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: AutoWidthHeight, ReturnIntSeed, OppositeBool, PromptItemCollection"
+        },
+        {
+            "author": "manifestations",
+            "title": "ComfyUI Ethnic Outfits Custom Nodes [REMOVED]",
+            "reference": "https://github.com/manifestations/comfyui-outfits",
+            "files": [
+                "https://github.com/manifestations/comfyui-outfits"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for generating outfit prompts representing diverse ethnicities, cultures, and regions. Uses extensible JSON data for clothing, accessories, and poses, with “random/disabled” dropdowns for flexibility. Advanced prompt engineering is supported via Ollama LLM integration. Easily add new regions, ethnicities, or cultures by updating data files and creating lightweight node wrappers. Designed for artists, researchers, and developers seeking culturally rich, customizable prompt generation in ComfyUI workflows."
+        },
+        {
             "author": "MitoshiroPJ",
             "title": "ComfyUI Slothful Attention [REMOVED]",
             "reference": "https://github.com/MitoshiroPJ/comfyui_slothful_attention",
