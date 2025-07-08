@@ -346,6 +346,7 @@
             "ImageTileSplit",
             "ListCustomFloat",
             "ListCustomInt",
+            "ListCustomSeed",
             "ListCustomString",
             "MaskBatchMathOps",
             "MaskBatchToList",
@@ -1916,6 +1917,7 @@
     "https://github.com/Aljnk/ComfyUI-JNK-Tiny-Nodes": [
         [
             "Add Layer Overlay JNK",
+            "Ask Google Gemini JNK",
             "Bridge All JNK",
             "Create Folder JNK",
             "Create RGBA Image JNK",
@@ -5304,6 +5306,7 @@
     ],
     "https://github.com/FortunaCournot/comfyui_stereoscopic": [
         [
+            "GetResolutionForDepth",
             "ImageSBSConverter"
         ],
         {
@@ -7614,6 +7617,7 @@
             "ImageSizeAdjustment",
             "InspyrenetRembgLoader",
             "InspyrenetRembgProcess",
+            "LG_FloatRange",
             "LG_InstallDependencies",
             "LG_LatentBatchToList",
             "LG_LoadImage",
@@ -8019,6 +8023,7 @@
     "https://github.com/Lightricks/ComfyUI-LTXVideo": [
         [
             "AddLatentGuide",
+            "ImageToCPU",
             "LTXAttentioOverride",
             "LTXAttentionBank",
             "LTXAttnOverride",
@@ -8036,18 +8041,21 @@
             "LTXVAddGuideAdvanced",
             "LTXVApplySTG",
             "LTXVBaseSampler",
+            "LTXVExtendSampler",
             "LTXVFilmGrain",
+            "LTXVInContextSampler",
             "LTXVLatentUpsampler",
+            "LTXVLinearOverlapLatentTransition",
+            "LTXVLoopingSampler",
+            "LTXVMultiPromptProvider",
             "LTXVPatcherVAE",
             "LTXVPreprocessMasks",
             "LTXVPromptEnhancer",
             "LTXVPromptEnhancerLoader",
             "LTXVQ8LoraModelLoader",
-            "LTXVRecurrentKSampler",
             "LTXVSelectLatents",
             "LTXVSetVideoLatentNoiseMasks",
             "LTXVTiledSampler",
-            "LinearOverlapLatentTransition",
             "ModifyLTXModel",
             "STGAdvancedPresets",
             "STGGuiderAdvanced",
@@ -9599,6 +9607,17 @@
         ],
         {
             "title_aux": "ComfyUI-CSV-Loader"
+        }
+    ],
+    "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes": [
+        [
+            "AdvancedEmptyLatentImage",
+            "AdvancedLoaderMultiple",
+            "AdvancedLoaderSingle",
+            "AdvancedPromptSaver"
+        ],
+        {
+            "title_aux": "ComfyUI-PD19Anime-Nodes"
         }
     ],
     "https://github.com/Pablerdo/ComfyUI-MultiCutAndDrag": [
@@ -16581,6 +16600,14 @@
             "title_aux": "ComfyUI-KokoroTTS"
         }
     ],
+    "https://github.com/benstaniford/comfy-contact-sheet-image-loader": [
+        [
+            "ContactSheetImageLoader"
+        ],
+        {
+            "title_aux": "Comfy Contact Sheet Image Loader"
+        }
+    ],
     "https://github.com/benstaniford/comfy-load-last-image": [
         [
             "LoadMostRecentImage"
@@ -19725,6 +19752,9 @@
             "ModelSamplingSD3",
             "ModelSamplingStableCascade",
             "ModelSave",
+            "MoonvalleyImg2VideoNode",
+            "MoonvalleyTxt2VideoNode",
+            "MoonvalleyVideo2VideoNode",
             "Morphology",
             "OpenAIChatConfig",
             "OpenAIChatNode",
@@ -19815,6 +19845,7 @@
             "SamplerEulerCFGpp",
             "SamplerLCMUpscale",
             "SamplerLMS",
+            "SamplerSASolver",
             "SaveAnimatedPNG",
             "SaveAnimatedWEBP",
             "SaveAudio",
@@ -25795,7 +25826,8 @@
             "ai4artsed_random_language_selector",
             "ai4artsed_stabilitai_key",
             "ai4artsed_t5_clip_fusion",
-            "ai4artsed_text_remix"
+            "ai4artsed_text_remix",
+            "ai4artsed_vector_dimension_eliminator"
         ],
         {
             "title_aux": "AI4ArtsEd Nodes"
@@ -31620,6 +31652,14 @@
             "title_aux": "Olm Curve Editor for ComfyUI"
         }
     ],
+    "https://github.com/o-l-l-i/ComfyUI-Olm-DragCrop": [
+        [
+            "OlmDragCrop"
+        ],
+        {
+            "title_aux": "Olm DragCrop for ComfyUI"
+        }
+    ],
     "https://github.com/o-l-l-i/ComfyUI-Olm-Resolution-Picker": [
         [
             "OlmResolutionPicker"
@@ -35634,17 +35674,6 @@
         ],
         {
             "title_aux": "comfyui_tag_filter"
-        }
-    ],
-    "https://github.com/sunra-ai/comfyui-sunra": [
-        [
-            "SunraFluxContext",
-            "SunraImageEdit",
-            "SunraQueueStatus",
-            "SunraSeedance"
-        ],
-        {
-            "title_aux": "ComfyUI Sunra.ai Plugin"
         }
     ],
     "https://github.com/superyoman/comfyui_lumaAPI": [

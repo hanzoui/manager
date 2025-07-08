@@ -173,6 +173,7 @@
             "ImageTileSplit",
             "ListCustomFloat",
             "ListCustomInt",
+            "ListCustomSeed",
             "ListCustomString",
             "MaskBatchMathOps",
             "MaskBatchToList",
@@ -1297,6 +1298,8 @@
             "DonutFillerModel",
             "DonutHotReload",
             "DonutLoRAStack",
+            "DonutSDXLTeaCacheBase",
+            "DonutSDXLTeaCacheBaseStats",
             "DonutWidenMergeCLIP",
             "DonutWidenMergeUNet",
             "DualCFGGuider",
@@ -3448,6 +3451,16 @@
             "title_aux": "ComfyUI Instructor Ollama"
         }
     ],
+    "https://github.com/Tr1dae/ComfyUI-CustomNodes-MVM": [
+        [
+            "LoadImageFromFolderMVM",
+            "LoadImagesFromFolderRandomMVM",
+            "LoadTextFromFolderMVM"
+        ],
+        {
+            "title_aux": "ComfyUI-CustomNodes-MVM"
+        }
+    ],
     "https://github.com/Velour-Fog/comfy-latent-nodes": [
         [
             "CustomLoadLatent",
@@ -3484,6 +3497,15 @@
         ],
         {
             "title_aux": "ve_custom_comfyui_nodes"
+        }
+    ],
+    "https://github.com/Vkabuto23/comfyui_openrouter": [
+        [
+            "OpenRouterNode",
+            "OpenRouterVisionNode"
+        ],
+        {
+            "title_aux": "comfyui_openrouter [UNSAFE]"
         }
     ],
     "https://github.com/WASasquatch/ASTERR": [
@@ -4808,6 +4830,9 @@
             "ModelSamplingSD3",
             "ModelSamplingStableCascade",
             "ModelSave",
+            "MoonvalleyImg2VideoNode",
+            "MoonvalleyTxt2VideoNode",
+            "MoonvalleyVideo2VideoNode",
             "Morphology",
             "OpenAIChatConfig",
             "OpenAIChatNode",
@@ -4898,6 +4923,7 @@
             "SamplerEulerCFGpp",
             "SamplerLCMUpscale",
             "SamplerLMS",
+            "SamplerSASolver",
             "SaveAnimatedPNG",
             "SaveAnimatedWEBP",
             "SaveAudio",
@@ -6708,6 +6734,7 @@
             "WanVideoEnhanceAVideo",
             "WanVideoExperimentalArgs",
             "WanVideoFlowEdit",
+            "WanVideoFreeInitArgs",
             "WanVideoFunCameraEmbeds",
             "WanVideoImageClipEncode",
             "WanVideoImageResizeToClosest",

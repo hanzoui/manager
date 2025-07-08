@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "o-l-l-i",
+            "title": "Olm DragCrop for ComfyUI",
+            "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-DragCrop",
+            "files": [
+                "https://github.com/o-l-l-i/ComfyUI-Olm-DragCrop"
+            ],
+            "install_type": "git-clone",
+            "description": "An interactive image cropping node for ComfyUI, allowing precise visual selection of crop areas directly within your workflow. This node is designed to streamline the process of preparing images for various tasks, ensuring immediate visual feedback and control over your image dimensions."
+        },
+        {
+            "author": "PD19 Anime",
+            "title": "ComfyUI-PD19Anime-Nodes",
+            "reference": "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes",
+            "files": [
+                "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful suite of nodes for ComfyUI to dynamically load prompts and images. This pack is especially focused on   batch processing from a directory and includes two main nodes: Advanced Prompt & Image Loader (Multiple) and   Advanced Prompt & Image Loader (single)."
+        },
+        {
+            "author": "Ben Staniford",
+            "title": "Comfy Contact Sheet Image Loader",
+            "reference": "https://github.com/benstaniford/comfy-contact-sheet-image-loader",
+            "files": [
+                "https://github.com/benstaniford/comfy-contact-sheet-image-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for loading images from a contact sheet of recent files"
+        },
+        {
             "author": "quasiblob",
             "title": "ComfyUI-EsesImageEffectCurves",
             "reference": "https://github.com/quasiblob/ComfyUI-EsesImageEffectCurves",
@@ -664,36 +694,6 @@
             ],
             "install_type": "git-clone",
             "description": "WAI's Character select ported to ComfyUI with a few tweaks"
-        },
-        {
-            "author": "LK-168",
-            "title": "comfyui_imgutils",
-            "reference": "https://github.com/LK-168/comfyui_imgutils",
-            "files": [
-                "https://github.com/LK-168/comfyui_imgutils"
-            ],
-            "install_type": "git-clone",
-            "description": "Image tool kit for comfyui with dghs-imgutils"
-        },
-        {
-            "author": "Cyrus-Hei",
-            "title": "comfyui-prompt-bank",
-            "reference": "https://github.com/Cyrus-Hei/comfyui-prompt-bank",
-            "files": [
-                "https://github.com/Cyrus-Hei/comfyui-prompt-bank"
-            ],
-            "install_type": "git-clone",
-            "description": "A prompt manager on the sidebar for ComfyUI, allowing easy saving and copying of prompts. "
-        },
-        {
-            "author": "Windecay",
-            "title": "ComfyUI-ReservedVRAM",
-            "reference": "https://github.com/Windecay/ComfyUI-ReservedVRAM",
-            "files": [
-                "https://github.com/Windecay/ComfyUI-ReservedVRAM"
-            ],
-            "install_type": "git-clone",
-            "description": "A simple node that can dynamically adjust the reserved memory of a workflow in real-time, used to avoid the utilization of shared memory."
         }
     ]
 }

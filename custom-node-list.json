@@ -27549,6 +27549,16 @@
             "description": "An interactive sketching and drawing node for ComfyUI with stylus/pen support – built for fast, intuitive scribbling directly inside your workflows, geared towards ControlNet-style workflows which utilize scribbles and line art."
         },
         {
+            "author": "o-l-l-i",
+            "title": "Olm DragCrop for ComfyUI",
+            "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-DragCrop",
+            "files": [
+                "https://github.com/o-l-l-i/ComfyUI-Olm-DragCrop"
+            ],
+            "install_type": "git-clone",
+            "description": "An interactive image cropping node for ComfyUI, allowing precise visual selection of crop areas directly within your workflow. This node is designed to streamline the process of preparing images for various tasks, ensuring immediate visual feedback and control over your image dimensions."
+        },
+        {
             "author": "xiaogui8dangjia",
             "title": "Comfyui-imagetoSTL",
             "reference": "https://github.com/xiaogui8dangjia/Comfyui-imagetoSTL",
@@ -28960,6 +28970,16 @@
             "description": "A ComfyUI node designed to load the most recent image in a folder"
         },
         {
+            "author": "Ben Staniford",
+            "title": "Comfy Contact Sheet Image Loader",
+            "reference": "https://github.com/benstaniford/comfy-contact-sheet-image-loader",
+            "files": [
+                "https://github.com/benstaniford/comfy-contact-sheet-image-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for loading images from a contact sheet of recent files"
+        },
+        {
             "author": "xxxxxxxxxxxc",
             "title": "flux-kontext-diff-merge",
             "reference": "https://github.com/xxxxxxxxxxxc/flux-kontext-diff-merge",
@@ -28968,6 +28988,16 @@
             ],
             "install_type": "git-clone",
             "description": "Preserve image quality with flux-kontext-diff-merge. This ComfyUI node merges only changed areas from AI edits, ensuring clarity and detail."
+        },
+        {
+            "author": "PD19 Anime",
+            "title": "ComfyUI-PD19Anime-Nodes",
+            "reference": "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes",
+            "files": [
+                "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful suite of nodes for ComfyUI to dynamically load prompts and images. This pack is especially focused on   batch processing from a directory and includes two main nodes: Advanced Prompt & Image Loader (Multiple) and   Advanced Prompt & Image Loader (single)."
         },
 
 
@@ -29390,16 +29420,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },    
-        {
-            "author": "PD19 Anime",
-            "title": "ComfyUI-PD19Anime-Nodes",
-            "reference": "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes",
-            "files": [
-                "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful suite of nodes for ComfyUI to dynamically load prompts and images. This pack is especially focused on   batch processing from a directory and includes two main nodes: Advanced Prompt & Image Loader (Multiple) and   Advanced Prompt & Image Loader (single)."
         }
     ]
 }
