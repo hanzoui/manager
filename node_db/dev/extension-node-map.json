@@ -157,8 +157,11 @@
             "ImageCropEdge",
             "ImageCropSquare",
             "ImageCropWithBBoxMask",
-            "ImageDetailHLFreqSeparation",
             "ImageEditStitch",
+            "ImageGetSize",
+            "ImageHLFreqCombine",
+            "ImageHLFreqSeparate",
+            "ImageHLFreqTransform",
             "ImageListAppend",
             "ImageListToBatch",
             "ImageLumaMatte",
@@ -5626,6 +5629,7 @@
     "https://github.com/gmorks/ComfyUI-Animagine-Prompt": [
         [
             "AnimaginePrompt",
+            "MultiWildcardLoader",
             "MultilineTextInput",
             "TextFileLoader"
         ],

@@ -330,8 +330,11 @@
             "ImageCropEdge",
             "ImageCropSquare",
             "ImageCropWithBBoxMask",
-            "ImageDetailHLFreqSeparation",
             "ImageEditStitch",
+            "ImageGetSize",
+            "ImageHLFreqCombine",
+            "ImageHLFreqSeparate",
+            "ImageHLFreqTransform",
             "ImageListAppend",
             "ImageListToBatch",
             "ImageLumaMatte",
@@ -5299,6 +5302,14 @@
             "title_aux": "ComfyUI-Mana-Nodes"
         }
     ],
+    "https://github.com/FortunaCournot/comfyui_stereoscopic": [
+        [
+            "ImageSBSConverter"
+        ],
+        {
+            "title_aux": "Stereoscopic"
+        }
+    ],
     "https://github.com/Franck-Demongin/NX_HuggingFace_Flux": [
         [
             "HFFlux"
@@ -8253,6 +8264,19 @@
         ],
         {
             "title_aux": "TBG_Enhanced Tiled Upscaler & Refiner FLUX PRO"
+        }
+    ],
+    "https://github.com/Ltamann/ComfyUI-TBG-Takeaways": [
+        [
+            "BasicSchedulerNormalized",
+            "LogSigmaSamplerNode",
+            "LogSigmaStepSamplerNode",
+            "ModelSamplingFluxGradual",
+            "PolyExponentialSigmaAdder",
+            "TBG_FluxKontextStabilizer"
+        ],
+        {
+            "title_aux": "TBG\u2019s ComfyUI Development Takeaways"
         }
     ],
     "https://github.com/LucipherDev/ComfyUI-AniDoc": [
@@ -15816,17 +15840,22 @@
             "Sage_PonyPrefix",
             "Sage_PonyStyle",
             "Sage_QuadCLIPSelector",
+            "Sage_QuickLoraStack",
+            "Sage_QuickNineLoraStack",
             "Sage_QuickResPicker",
+            "Sage_QuickSixLoraStack",
             "Sage_ReferenceImage",
             "Sage_SamplerInfo",
             "Sage_SaveImageWithMetadata",
             "Sage_SaveText",
             "Sage_SetText",
+            "Sage_SixLoraStack",
             "Sage_TextWeight",
             "Sage_TilingInfo",
             "Sage_TripleCLIPSelector",
             "Sage_TripleJoinText",
             "Sage_TripleLoraStack",
+            "Sage_TripleQuickLoraStack",
             "Sage_UNETLoader",
             "Sage_UNETLoaderFromInfo",
             "Sage_UNETSelector",
@@ -16550,6 +16579,14 @@
         ],
         {
             "title_aux": "ComfyUI-KokoroTTS"
+        }
+    ],
+    "https://github.com/benstaniford/comfy-load-last-image": [
+        [
+            "LoadMostRecentImage"
+        ],
+        {
+            "title_aux": "ComfyUI Load Most Recent Image Node"
         }
     ],
     "https://github.com/bentoml/comfy-pack": [
@@ -22920,6 +22957,17 @@
         ],
         {
             "title_aux": "String Converter"
+        }
+    ],
+    "https://github.com/gmorks/ComfyUI-Animagine-Prompt": [
+        [
+            "AnimaginePrompt",
+            "MultiWildcardLoader",
+            "MultilineTextInput",
+            "TextFileLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-Animagine-Prompt"
         }
     ],
     "https://github.com/gmorks/ComfyUI-SendToDiscord": [
@@ -30993,6 +31041,14 @@
             "title_aux": "comfyui-gimp-nodes"
         }
     ],
+    "https://github.com/negaga53/comfyui-imgloader": [
+        [
+            "ImageLoader"
+        ],
+        {
+            "title_aux": "ComfyUI Universal Image Loader"
+        }
+    ],
     "https://github.com/neggo/comfyui-sambanova": [
         [
             "SambaNova API Node",
@@ -32691,6 +32747,14 @@
         ],
         {
             "title_aux": "ComfyUI-EsesImageEffectBloom"
+        }
+    ],
+    "https://github.com/quasiblob/ComfyUI-EsesImageEffectCurves": [
+        [
+            "EsesImageEffectCurves"
+        ],
+        {
+            "title_aux": "ComfyUI-EsesImageEffectCurves"
         }
     ],
     "https://github.com/quasiblob/ComfyUI-EsesImageLensEffects": [
@@ -35572,6 +35636,17 @@
             "title_aux": "comfyui_tag_filter"
         }
     ],
+    "https://github.com/sunra-ai/comfyui-sunra": [
+        [
+            "SunraFluxContext",
+            "SunraImageEdit",
+            "SunraQueueStatus",
+            "SunraSeedance"
+        ],
+        {
+            "title_aux": "ComfyUI Sunra.ai Plugin"
+        }
+    ],
     "https://github.com/superyoman/comfyui_lumaAPI": [
         [
             "LUMA_API_YoC",
@@ -37665,6 +37740,14 @@
         ],
         {
             "title_aux": "ComfyUI_Camera"
+        }
+    ],
+    "https://github.com/xxxxxxxxxxxc/flux-kontext-diff-merge": [
+        [
+            "FluxKontextDiffMerge"
+        ],
+        {
+            "title_aux": "flux-kontext-diff-merge"
         }
     ],
     "https://github.com/yamanacn/comfyui_kontext_Analyze": [

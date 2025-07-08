@@ -22,6 +22,66 @@
             "description": "Contains ImageSBSConverter node to convert an image into a side-by-side image."
         },
         {
+            "author": "Ltamann",
+            "title": "TBG’s ComfyUI Development Takeaways",
+            "reference": "https://github.com/Ltamann/ComfyUI-TBG-Takeaways",
+            "files": [
+                "https://github.com/Ltamann/ComfyUI-TBG-Takeaways"
+            ],
+            "install_type": "git-clone",
+            "description": "A curated collection of reusable ComfyUI nodes developed by TGB. These sidecodes encapsulate key breakthroughs in model sampling, noise scheduling, and image refinement for enhanced stable diffusion workflows."
+        },
+        {
+            "author": "gmorks",
+            "title": "ComfyUI-Animagine-Prompt",
+            "reference": "https://github.com/gmorks/ComfyUI-Animagine-Prompt",
+            "files": [
+                "https://github.com/gmorks/ComfyUI-Animagine-Prompt"
+             ],
+             "install_type": "git-clone",
+             "description": "Comfy UI node to prompt build for https://huggingface.co/cagliostrolab/animagine-xl-4.0 model"
+        },
+        {
+            "author": "xxxxxxxxxxxc",
+            "title": "flux-kontext-diff-merge",
+            "reference": "https://github.com/xxxxxxxxxxxc/flux-kontext-diff-merge",
+            "files": [
+                "https://github.com/xxxxxxxxxxxc/flux-kontext-diff-merge"
+            ],
+            "install_type": "git-clone",
+            "description": "Preserve image quality with flux-kontext-diff-merge. This ComfyUI node merges only changed areas from AI edits, ensuring clarity and detail."
+        },
+        {
+            "author": "Ben Staniford",
+            "title": "ComfyUI Load Most Recent Image Node",
+            "reference": "https://github.com/benstaniford/comfy-load-last-image",
+            "files": [
+                "https://github.com/benstaniford/comfy-load-last-image"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node designed to load the most recent image in a folder"
+        },
+        {
+            "author": "negaga53",
+            "title": "ComfyUI Universal Image Loader",
+            "reference": "https://github.com/negaga53/comfyui-imgloader",
+            "files": [
+                "https://github.com/negaga53/comfyui-imgloader"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful and versatile custom node for ComfyUI that provides multiple ways to load images into your workflows."
+        },
+        {
+            "author": "sunra-ai",
+            "title": "ComfyUI Sunra.ai Plugin",
+            "reference": "https://github.com/sunra-ai/comfyui-sunra",
+            "files": [
+                "https://github.com/sunra-ai/comfyui-sunra"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional ComfyUI plugin for Sunra.ai's FLUX.1 Kontext and Seedance models with enhanced UI"
+        },
+        {
             "author": "robertvoy",
             "title": "ComfyUI-Distributed",
             "reference": "https://github.com/robertvoy/ComfyUI-Distributed",
@@ -159,7 +219,7 @@
                 "https://github.com/ptmaster/Comfyui-PT-Keyframe-Camera"
             ],
             "install_type": "git-clone",
-            "description": "PT Keyframe Camera"
+            "description": "The Comfyui-PT-Keyframe-Camera is a powerful tool designed to streamline the process of creating animations with keyframe cameras. It integrates seamlessly with existing workflows, allowing you to focus on your creativity without getting bogged down by technical details. This tool is perfect for animators, filmmakers, and anyone looking to add depth to their projects."
         },
         {
             "author": "lonelyowl13",
@@ -634,116 +694,6 @@
             ],
             "install_type": "git-clone",
             "description": "A simple node that can dynamically adjust the reserved memory of a workflow in real-time, used to avoid the utilization of shared memory."
-        },
-        {
-            "author": "kaaskoek232",
-            "title": "ComfyUI-MemoryManagement",
-            "reference": "https://github.com/kaaskoek232/ComfyUI-MemoryManagement",
-            "files": [
-                "https://github.com/kaaskoek232/ComfyUI-MemoryManagement"
-            ],
-            "install_type": "git-clone",
-            "description": "Advanced memory management custom nodes for ComfyUI"
-        },
-        {
-            "author": "eg0pr0xy",
-            "title": "ComfyUI-NoiseGen",
-            "reference": "https://github.com/eg0pr0xy/comfyui_noisegen",
-            "files": [
-                "https://github.com/eg0pr0xy/comfyui_noisegen"
-            ],
-            "install_type": "git-clone",
-            "description": "Professional noise generation nodes for ComfyUI"
-        },
-        {
-            "author": "o-l-l-i",
-            "title": "Olm Sketch for ComfyUI",
-            "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-Sketch",
-            "files": [
-                "https://github.com/o-l-l-i/ComfyUI-Olm-Sketch"
-            ],
-            "install_type": "git-clone",
-            "description": "An interactive sketching and drawing node for ComfyUI with stylus/pen support – built for fast, intuitive scribbling directly inside your workflows, geared towards ControlNet-style workflows which utilize scribbles and line art."
-        },
-        {
-            "author": "Good-Dream-Studio",
-            "title": "ComfyUI-Connect",
-            "reference": "https://github.com/Good-Dream-Studio/ComfyUI-Connect",
-            "files": [
-                "https://github.com/Good-Dream-Studio/ComfyUI-Connect"
-            ],
-            "install_type": "git-clone",
-            "description": "Expose your workflows into HTTP endpoints directly from ComfyUI itself."
-        },
-        {
-            "author": "lihaoyun6",
-            "title": "ComfyUI-BlindWatermark",
-            "reference": "https://github.com/lihaoyun6/ComfyUI-BlindWatermark",
-            "files": [
-                "https://github.com/lihaoyun6/ComfyUI-BlindWatermark"
-            ],
-            "install_type": "git-clone",
-            "description": "Embeds an invisible watermark in the input image"
-        },
-        {
-            "author": "HMG-Fiverr",
-            "title": "Random Number Button",
-            "reference": "https://github.com/HMG-Fiverr/ComfyUI-RandomNumberButton",
-            "files": [
-                "https://github.com/HMG-Fiverr/ComfyUI-RandomNumberButton"
-            ],
-            "install_type": "git-clone",
-            "description": "This node provides a button that, when clicked, triggers the execution of the node and generates a new random integer between 0 and 1000. The generated number is available as an output."
-        },
-        {
-            "author": "sdtana",
-            "title": "ComfyUI-FDG",
-            "reference": "https://github.com/sdtana/ComfyUI-FDG",
-            "files": [
-                "https://github.com/sdtana/ComfyUI-FDG"
-            ],
-            "install_type": "git-clone",
-            "description": "Implementation of [a/Guidance in the Frequency Domain Enables High-Fidelity Sampling at Low CFG Scales](https://arxiv.org/abs/2506.19713) for ComfyUI."
-        },
-        {
-            "author": "quasiblob",
-            "title": "ComfyUI-EsesImageLensEffects",
-            "reference": "https://github.com/quasiblob/ComfyUI-EsesImageLensEffects",
-            "files": [
-                "https://github.com/quasiblob/ComfyUI-EsesImageLensEffects"
-            ],
-            "install_type": "git-clone",
-            "description": "The 'Eses Image Lens Effects' node is a multipurpose node for ComfyUI designed to simulate a variety of lens characteristics. It combines several typical effects into a single, convenient node, allowing to add realistic or stylistic lens distortion, chromatic aberration, post-process scaling, and a highly configurable vignette."
-        },
-        {
-            "author": "1038lab",
-            "title": "ComfyUI-MiniMax-Remover",
-            "reference": "https://github.com/1038lab/ComfyUI-MiniMax-Remover",
-            "files": [
-                "https://github.com/1038lab/ComfyUI-MiniMax-Remover"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-MiniMax-Remover is a custom node for ComfyUI that enables fast and efficient object removal using minimax optimization. It works in two stages: first, it trains a remover with a simplified DiT model; then it distills a robust version using CFG guidance and fewer inference steps."
-        },
-        {
-            "author": "alchemine",
-            "title": "ComfyUI-Alchemine-Pack",
-            "reference": "https://github.com/alchemine/comfyui-alchemine-pack",
-            "files": [
-                "https://github.com/alchemine/comfyui-alchemine-pack"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes pack for ComfyUI"
-        },
-        {
-            "author": "AbstractEyes",
-            "title": "comfyui-lycoris",
-            "reference": "https://github.com/AbstractEyes/comfyui-lycoris",
-            "files": [
-                "https://github.com/AbstractEyes/comfyui-lycoris"
-            ],
-            "install_type": "git-clone",
-            "description": "A properly implemented lycoris loader for comfyui."
         }
     ]
 }
