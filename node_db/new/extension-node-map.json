@@ -13744,6 +13744,7 @@
             "WaveSpeedAI Flux Text2Image",
             "WaveSpeedAI FluxControlLoraCannyNode",
             "WaveSpeedAI FluxControlLoraDepthNode",
+            "WaveSpeedAI FluxControlnetUnionPro2_0Node",
             "WaveSpeedAI FluxDevFillNode",
             "WaveSpeedAI FluxDevLoraNode",
             "WaveSpeedAI FluxDevLoraUltraFastNode",
@@ -14720,10 +14721,19 @@
     ],
     "https://github.com/Zeks/comfyui-rapidfire": [
         [
+            "BracketEscaper",
             "CachedCheckpoint",
             "CsvWriterNode",
             "ImmatureImageCounter",
-            "ImmatureImageDataLoader"
+            "ImmatureImageDataLoader",
+            "MultiModelAdvancedKsampler",
+            "MultiModelCheckpointIterator",
+            "MultiModelPromptSaver",
+            "MultiModelPromptSaverIterative",
+            "Ranbooru",
+            "RandomCharacterSelector",
+            "RapidSchedulerCombo",
+            "RapidSchedulerSelector"
         ],
         {
             "title_aux": "comfyui-rapidfire"
@@ -19520,6 +19530,9 @@
             "BlankImage",
             "CheckImageEmpty",
             "ConfigGenerateImage",
+            "ConfigGenerateImageBFL",
+            "ConfigGenerateImageGemini",
+            "ConfigGenerateImageOpenAI",
             "ConfigGenerateMusic",
             "ConfigGenerateSpeech",
             "ConfigGenerateVideo",
@@ -21999,8 +22012,13 @@
     ],
     "https://github.com/fblissjr/shrug-prompter": [
         [
+            "AutomatedDirector",
+            "AutomatedDirectorImageBatcher",
             "JSONStringToList",
             "PromptTemplateLoader_Shrug",
+            "ScreenplayAccumulator",
+            "ScreenplayDirector",
+            "ScreenplayFormatter",
             "ShrugMaskUtilities",
             "ShrugPrompter",
             "ShrugProviderSelector",
@@ -31643,7 +31661,8 @@
     ],
     "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler": [
         [
-            "SeedVR2"
+            "SeedVR2",
+            "SeedVR2BlockSwap"
         ],
         {
             "title_aux": "ComfyUI-SeedVR2_VideoUpscaler"
@@ -32883,6 +32902,14 @@
         ],
         {
             "title_aux": "EsesImageResize"
+        }
+    ],
+    "https://github.com/quasiblob/ComfyUI-EsesImageTransform": [
+        [
+            "EsesImageTransform"
+        ],
+        {
+            "title_aux": "ComfyUI-EsesImageTransform"
         }
     ],
     "https://github.com/quasiblob/EsesCompositionGoldenRatio": [
@@ -37833,14 +37860,6 @@
         ],
         {
             "title_aux": "ComfyUI_Camera"
-        }
-    ],
-    "https://github.com/xxxxxxxxxxxc/flux-kontext-diff-merge": [
-        [
-            "FluxKontextDiffMerge"
-        ],
-        {
-            "title_aux": "flux-kontext-diff-merge"
         }
     ],
     "https://github.com/yamanacn/comfyui_kontext_Analyze": [
