@@ -2893,6 +2893,14 @@
             "title_aux": "ComfyUI-DiaTTS"
         }
     ],
+    "https://github.com/BobRandomNumber/ComfyUI-KyutaiTTS": [
+        [
+            "KyutaiTTS"
+        ],
+        {
+            "title_aux": "ComfyUI-KyutaiTTS"
+        }
+    ],
     "https://github.com/BobsBlazed/Bobs-Lora-Loader": [
         [
             "BobsLoraLoaderFlux",
@@ -3526,7 +3534,6 @@
     ],
     "https://github.com/Clybius/ComfyUI-ClybsChromaNodes": [
         [
-            "ChromaNAG",
             "ClybGuidance",
             "InverseSquaredScheduler",
             "PrintSigmas",
@@ -6890,6 +6897,7 @@
             "Comfy3DPacktoTD",
             "Hy3DtoTD",
             "ImagetoTD",
+            "ImagetoTD(JPEG)",
             "LoadTDImage",
             "Tripo3DtoTD",
             "TripoSRtoTD",
@@ -9269,6 +9277,17 @@
             "title_aux": "SuperPrompter Node for ComfyUI"
         }
     ],
+    "https://github.com/NeuroSenko/ComfyUI_LLM_SDXL_Adapter": [
+        [
+            "ApplyLLMToSDXLAdapter",
+            "LLMAdapterLoader",
+            "LLMModelLoader",
+            "LLMTextEncoder"
+        ],
+        {
+            "title_aux": "ComfyUI LLM SDXL Adapter"
+        }
+    ],
     "https://github.com/NguynHungNguyen/Segment-Bedroom-Interior": [
         [
             "BedroomFurnitureMask"
@@ -9568,6 +9587,22 @@
         ],
         {
             "title_aux": "ComfyUI-off-suite"
+        }
+    ],
+    "https://github.com/OneThingAI/ComfyUI_Onething_CV": [
+        [
+            "OneThingAI ImageToText"
+        ],
+        {
+            "title_aux": "ComfyUI OneThing CV Node"
+        }
+    ],
+    "https://github.com/OneThingAI/ComfyUI_Onething_Image": [
+        [
+            "OneThingAILoader"
+        ],
+        {
+            "title_aux": "ComfyUI OneThing AI Node"
         }
     ],
     "https://github.com/OpalSky-AI/OpalSky_Nodes": [
@@ -16598,6 +16633,14 @@
             "title_aux": "ComfyUI Load Most Recent Image Node"
         }
     ],
+    "https://github.com/benstaniford/comfy-lora-loader-with-triggerdb": [
+        [
+            "LoRaLoaderWithTriggerDB"
+        ],
+        {
+            "title_aux": "LoRa Loader with Trigger Database"
+        }
+    ],
     "https://github.com/bentoml/comfy-pack": [
         [
             "CPackInputAny",
@@ -19478,22 +19521,32 @@
             "CheckImageEmpty",
             "ConfigGenerateImage",
             "ConfigGenerateMusic",
+            "ConfigGenerateSpeech",
+            "ConfigGenerateVideo",
             "Display_Text",
+            "GeminiProviderNode",
             "GenerateImage",
             "GenerateLyrics",
             "GenerateMusic",
+            "GenerateSpeech",
+            "GenerateVideo",
             "LLMToolkitProviderSelector",
             "LLMToolkitTextGenerator",
             "LLMToolkitTextGeneratorStream",
+            "LoadAudioFromPath",
+            "LoadVideoFromPath",
             "LocalTransformersProviderNode",
             "OpenAIProviderNode",
             "PlayRandomSound",
+            "PreviewImageLogic",
             "PreviewOutputs",
             "PromptManager",
             "ResolutionSelector",
             "SunoProviderSelector",
             "SwitchAny",
-            "SwitchAnyRoute"
+            "SwitchAnyRoute",
+            "SwitchAnyRoute_wANY",
+            "SwitchAny_wANY"
         ],
         {
             "author": "ComfyDeploy",
@@ -19685,6 +19738,7 @@
             "LoadImageMask",
             "LoadImageOutput",
             "LoadImageSetFromFolderNode",
+            "LoadImageTextSetFromFolderNode",
             "LoadLatent",
             "LoadVideo",
             "LoraLoader",
@@ -28190,6 +28244,15 @@
             "title_aux": "comfyui_kj"
         }
     ],
+    "https://github.com/linjian-ufo/ComfyUI_GLM4V_voltspark": [
+        [
+            "Glm4vBatchNode",
+            "Glm4vNode"
+        ],
+        {
+            "title_aux": "GLM-4V Image Descriptor"
+        }
+    ],
     "https://github.com/linjian-ufo/comfyui_deepseek_lj257_update": [
         [
             "DeepSeekChatNode"
@@ -30002,7 +30065,10 @@
         [
             "Expo Lmstudio Image To Text",
             "Expo Lmstudio Text Generation",
-            "Expo Lmstudio Unified"
+            "Expo Lmstudio Unified",
+            "ExpoLmstudioImageToText",
+            "ExpoLmstudioTextGeneration",
+            "ExpoLmstudioUnified"
         ],
         {
             "author": "Matt John Powell",
@@ -32278,7 +32344,8 @@
     ],
     "https://github.com/pictorialink/ComfyUI-Qwen3-llama.cpp": [
         [
-            "Qwen3_GGUF"
+            "Qwen25_VL",
+            "Qwen3"
         ],
         {
             "title_aux": "ComfyUI-Qwen3-llama.cpp"
@@ -32389,12 +32456,16 @@
     ],
     "https://github.com/plugcrypt/CRT-Nodes": [
         [
+            "AdvancedStringReplace",
             "AudioCompressor",
             "AudioPreviewer",
             "AutopromptProcessor",
             "Boolean Transform",
             "CLIPTextEncodeFluxMerged",
             "CRT Post-Process Suite",
+            "CRTChromaKeyOverlay",
+            "CRTFirstLastFrameSelector",
+            "CRTPctCropCalculator",
             "CRTPostProcess",
             "CRT_UpscaleModelAdv",
             "ClearStyleModelCache",
@@ -32412,14 +32483,17 @@
             "ImageLoaderCrawl",
             "LatentNoiseInjectionSampler",
             "LoadImageResize",
+            "LoadVideoForVCaptioning",
             "Lora Loader Str",
             "MaskEmptyFloatNode",
             "MaskPassOrPlaceholder",
+            "ParametricEQNode",
             "PonyFaceEnhancementPipelineWithInjection",
             "PonyUpscaleSamplerWithInjection",
             "Remove Trailing Comma",
             "Resolution",
             "SamplerSchedulerSelector",
+            "SeamlessLoopBlender",
             "SimpleFluxShiftNode",
             "SimpleKnobNode",
             "SimpleToggleNode",
@@ -32777,6 +32851,14 @@
         ],
         {
             "title_aux": "ComfyUI-EsesImageEffectCurves"
+        }
+    ],
+    "https://github.com/quasiblob/ComfyUI-EsesImageEffectLevels": [
+        [
+            "EsesImageEffectLevels"
+        ],
+        {
+            "title_aux": "ComfyUI-EsesImageEffectLevels"
         }
     ],
     "https://github.com/quasiblob/ComfyUI-EsesImageLensEffects": [

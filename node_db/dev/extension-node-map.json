@@ -2246,22 +2246,6 @@
             "title_aux": "ComfyUI-VLMStudio"
         }
     ],
-    "https://github.com/LLMCoder2023/ComfyUI-LLMCoder2023Nodes": [
-        [
-            "DeviceCheckpointLoader",
-            "DeviceCheckpointLoaderAdvanced",
-            "DisplayLoraTriggersNode",
-            "FiveImageToggleSwitcher",
-            "LoraAndTriggerWordsLoader",
-            "MulticlipPromptCombinator",
-            "TemplateInterpolation",
-            "Variable",
-            "WeightedAttributesFormatter"
-        ],
-        {
-            "title_aux": "ComfyUI-LLMCoderNodes"
-        }
-    ],
     "https://github.com/LZpenguin/ComfyUI-Text": [
         [
             "Add_text_by_mask"
@@ -3740,6 +3724,7 @@
             "BatchImageLoadInput",
             "BatchImageLoadOutput",
             "BooleanSwitchAny",
+            "EnhancedKeywordPromptComposer",
             "KeywordPromptComposer",
             "LoadTxtFile",
             "PipemindDisplayAny",
@@ -4781,6 +4766,7 @@
             "LoadImageMask",
             "LoadImageOutput",
             "LoadImageSetFromFolderNode",
+            "LoadImageTextSetFromFolderNode",
             "LoadLatent",
             "LoadVideo",
             "LoraLoader",
