@@ -21,6 +21,17 @@
             "description": "The 'Eses Image Effect Levels' is a ComfyUI custom node that provides a real-time levels adjustment tool directly within the user interface. It allows for interactive control over the tonal range of both images and masks, using a GPU-accelerated PyTorch backend for near instant feedback."
         },
         {
+            "author": "voltans-voice-coach",
+            "description": "Displays up to 64 recent images from a folder as numbered thumbnails in a grid contact sheet format, allowing you to select and load one for post-processing",
+            "files": [
+                "https://github.com/benstaniford/comfy-contact-sheet-image-loader"
+            ],
+            "id": "comfy-contact-sheet-image-loader",
+            "install_type": "git-clone",
+            "reference": "https://github.com/benstaniford/comfy-contact-sheet-image-loader",
+            "title": "Comfy Contact Sheet Image Loader"
+        },
+        {
             "author": "BobRandomNumber",
             "title": "ComfyUI-KyutaiTTS",
             "reference": "https://github.com/BobRandomNumber/ComfyUI-KyutaiTTS",
@@ -683,16 +694,6 @@
             ],
             "install_type": "git-clone",
             "description": "'Real-time golden ratio pattern composition evaluation tool node for ComfyUI. This does nothing else - but you can move, rotate and scale then pattern to find new things and structures in your images."
-        },
-        {
-            "author": "fchangjun",
-            "title": "MultiSaveImage Node",
-            "reference": "https://github.com/fchangjun/Comfyui_MultiSaveImage",
-            "files": [
-                "https://github.com/fchangjun/Comfyui_MultiSaveImage"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for saving multiple images simultaneously with batch processing and resizing capabilities."
         }
     ]
 }
