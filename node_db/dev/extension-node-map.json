@@ -2775,6 +2775,19 @@
             "title_aux": "comfyui-giraffe-test-panel"
         }
     ],
+    "https://github.com/PaleBloodq/ComfyUI-HFTransformers": [
+        [
+            "HFTCaptioner",
+            "HFTClassificationSelector",
+            "HFTClassifier",
+            "HFTDepthEstimator",
+            "HFTLoader",
+            "HFTObjectDetector"
+        ],
+        {
+            "title_aux": "ComfyUI-HFTransformers"
+        }
+    ],
     "https://github.com/PeterMikhai/Doom_Flux_NodePack": [
         [
             "DoomFluxInpaintSampler",
@@ -3009,8 +3022,10 @@
     "https://github.com/SaulQiu/comfyui-saul-plugin": [
         [
             "Cutting Video",
+            "Extract the First Frame",
             "Fuse People and Cigarette",
             "Get Pose",
+            "Path Pose to People",
             "Smoking Auto Label"
         ],
         {
@@ -3490,7 +3505,9 @@
             "Incrementer",
             "Indexed Entry",
             "List Count",
-            "Random Entry"
+            "Process Path Name",
+            "Random Entry",
+            "Randomize List"
         ],
         {
             "title_aux": "ComfyUI-TinyBee"
@@ -3545,13 +3562,15 @@
             "title_aux": "ve_custom_comfyui_nodes"
         }
     ],
-    "https://github.com/Vkabuto23/comfyui_openrouter": [
+    "https://github.com/Vkabuto23/comfyui_openrouter_ollama": [
         [
+            "OllamaNode",
+            "OllamaVisionNode",
             "OpenRouterNode",
             "OpenRouterVisionNode"
         ],
         {
-            "title_aux": "comfyui_openrouter [UNSAFE]"
+            "title_aux": "ComfyUI Custom Nodes: OpenRouter & Ollama [UNSAFE]"
         }
     ],
     "https://github.com/WASasquatch/ASTERR": [
@@ -9307,9 +9326,29 @@
             "title_aux": "FindBrightestSpot [WIP]"
         }
     ],
+    "https://github.com/whmc76/ComfyUI-AudioSuiteAdvanced": [
+        [
+            "AudioConcatenateFree",
+            "AudioSeparation",
+            "CharacterVocalExtractor",
+            "CharacterVocalExtractorMultiTrack",
+            "CombineAudioFromList",
+            "IndexSelectFromList",
+            "ListLength",
+            "LongTextSplitter",
+            "MakeAudioBatch",
+            "SubtitleFileLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-AudioSuiteAdvanced [WIP]"
+        }
+    ],
     "https://github.com/whmc76/ComfyUI-LongTextTTSSuite": [
         [
             "AudioConcatenateFree",
+            "AudioSeparation",
+            "CharacterVocalExtractor",
+            "CharacterVocalExtractorMultiTrack",
             "CombineAudioFromList",
             "IndexSelectFromList",
             "ListLength",

@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "silveroxides",
+            "title": "ComfyUI Power Shift Scheduler",
+            "reference": "https://github.com/silveroxides/ComfyUI_PowerShiftScheduler",
+            "files": [
+                "https://github.com/silveroxides/ComfyUI_PowerShiftScheduler"
+            ],
+            "install_type": "git-clone",
+            "description": "Highly customizable Scheduler for ComfyUI."
+        },
+        {
             "author": "IsItDanOrAi",
             "title": "exLoadout: Excel-Based Model & Settings Loader",
             "id": "comfyui-exloadout",
@@ -10,6 +20,16 @@
                 ],
                 "install_type": "copy",
                 "description": "Excel spreadsheet-driven ComfyUI nodes that let you load models, values, and workflows based on saved rows in Excel. Great for organizing and switching between CLIPs, VAEs, LoRAs, and more."
+        },
+        {
+            "author": "company8",
+            "title": "ComfyUI_LLM_Hub",
+            "reference": "https://github.com/company8/ComfyUI_LLM_Hub",
+            "files": [
+                "https://github.com/company8/ComfyUI_LLM_Hub"
+            ],
+            "install_type": "git-clone",
+            "description": "A prompt-generator for ComfyUI, utilizing the power of a language model to turn a provided text-to-image prompt into a more detailed and improved prompt."
         },
         {
             "author": "XmYx",

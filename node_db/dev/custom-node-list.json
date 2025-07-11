@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "PaleBloodq",
+            "title": "ComfyUI-HFTransformers",
+            "reference": "https://github.com/PaleBloodq/ComfyUI-HFTransformers",
+            "files": [
+                "https://github.com/PaleBloodq/ComfyUI-HFTransformers"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: HFT Pipeline Loader, HFT Classifier, HFT Classification Selector, HFT Object Detector, HFT Image to Text, HFT Depth Estimator"
+        },
+        {
+            "author": "whmc76",
+            "title": "ComfyUI-AudioSuiteAdvanced [WIP]",
+            "reference": "https://github.com/whmc76/ComfyUI-AudioSuiteAdvanced",
+            "files": [
+                "https://github.com/whmc76/ComfyUI-AudioSuiteAdvanced"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI plugin for processing long text files and generating speech, supporting features such as audio separation, text segmentation, and audio merging.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "Letz-AI",
             "title": "ComfyUI-LetzAI [UNSAFE]",
             "reference": "https://github.com/Letz-AI/ComfyUI-LetzAI",
@@ -52,13 +72,13 @@
         },
         {
             "author": "Vkabuto23",
-            "title": "comfyui_openrouter [UNSAFE]",
-            "reference": "https://github.com/Vkabuto23/comfyui_openrouter",
+            "title": "ComfyUI Custom Nodes: OpenRouter & Ollama [UNSAFE]",
+            "reference": "https://github.com/Vkabuto23/comfyui_openrouter_ollama",
             "files": [
-                "https://github.com/Vkabuto23/comfyui_openrouter"
+                "https://github.com/Vkabuto23/comfyui_openrouter_ollama"
             ],
             "install_type": "git-clone",
-            "description": "comfyui openrouter nodes[w/The API key is embedded in the workflow.]"
+            "description": "ComfyUI Custom Nodes: OpenRouter & Ollama[w/The API key is embedded in the workflow.]"
         },
         {
             "author": "subnet99",
