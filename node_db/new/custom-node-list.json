@@ -1,6 +1,58 @@
 {
     "custom_nodes": [
         {
+            "author": "IsItDanOrAi",
+            "title": "exLoadout: Excel-Based Model & Settings Loader",
+            "id": "comfyui-exloadout",
+            "reference": "https://github.com/IsItDanOrAi/ComfyUI-exLoadout",
+            "files": [
+                   "https://github.com/IsItDanOrAi/ComfyUI-exLoadout.git"
+                ],
+                "install_type": "copy",
+                "description": "Excel spreadsheet-driven ComfyUI nodes that let you load models, values, and workflows based on saved rows in Excel. Great for organizing and switching between CLIPs, VAEs, LoRAs, and more."
+        },
+        {
+            "author": "XmYx",
+            "title": "ComfyUI-SmolLM3",
+            "reference": "https://github.com/XmYx/ComfyUI-SmolLM3",
+            "files": [
+                "https://github.com/XmYx/ComfyUI-SmolLM3"
+            ],
+            "install_type": "git-clone",
+            "description": "Welcome to ComfyUI-SmolLM3, where we bring the magic of Hugging Face's SmolLM3 language models into your ComfyUI workflow! Whether you're crafting stories, generating ideas, or building AI-powered creativity tools, this node pack makes it delightfully simple."
+        },
+        {
+            "author": "reallusion",
+            "title": "Reallusion ComfyUI Custom Nodes",
+            "reference": "https://github.com/reallusion/ComfyUI-Reallusion",
+            "files": [
+                "https://github.com/reallusion/ComfyUI-Reallusion"
+            ],
+            "install_type": "git-clone",
+            "description": "This nodepack contains custom nodes for ComfyUI designed specifically for handling Reallusion-related assets such as Character Creator and iClone image and video files. These nodes are intended to be used as backend components that communicate and operate through the AI Render Plugin interface of iClone or Character Creator, enabling a seamless integration between ComfyUI's powerful image/video generation capabilities and Reallusion’s animation tools. By bridging ComfyUI with iClone/Character Creator’s AI Render Plugin, these nodes facilitate workflows where AI-assisted content generation can be controlled, customized, and rendered directly from within Reallusion software environments."
+        },
+        {
+            "author": "Ben Staniford",
+            "title": "Comfy Contact Sheet Image Loader",
+            "id": "comfy-contact-sheet-image-loader",
+            "reference": "https://github.com/benstaniford/comfy-contact-sheet-image-loader",
+            "files": [
+                "https://github.com/benstaniford/comfy-contact-sheet-image-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Displays up to 64 recent images from a folder as numbered thumbnails in a grid contact sheet format, allowing you to select and load one for post-processing"
+        },
+        {
+            "author": "Ben Staniford",
+            "title": "Prompt Database for ComfyUI",
+            "reference": "https://github.com/benstaniford/comfy-prompt-db",
+            "files": [
+                "https://github.com/benstaniford/comfy-prompt-db"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that provides a database-driven prompt management system. Store, organize, and edit prompts in categories with persistent JSON storage."
+        },
+        {
             "author": "quasiblob",
             "title": "ComfyUI-EsesImageTransform",
             "reference": "https://github.com/quasiblob/ComfyUI-EsesImageTransform",
@@ -9,6 +61,36 @@
             ],
             "install_type": "git-clone",
             "description": "Apply 2D transformations to images and masks within ComfyUI. Zoom, position, scale, flip, rotate, squash and stretch the input content. Tile images to create patterns (supports alpha channels). Fill options for managing canvas areas exposed by transformations. Apply masks to RGB images and invert mask inputs or outputs. No extra dependencies."
+        },
+        {
+            "author": "MovieLabs",
+            "title": "MovieLabs ComfyUI Nodes for Publishing Workflow",
+            "reference": "https://github.com/MovieLabs/comfyui-movielabs-util",
+            "files": [
+                "https://github.com/MovieLabs/comfyui-movielabs-util"
+            ],
+            "install_type": "git-clone",
+            "description": "An extension set of validation checks, automatic versioning numbering, automatic directory creation, and naming conventions are implemented to ensure that the file system is kept in sync with ShotGrid."
+        },
+        {
+            "author": "manifestations",
+            "title": "ComfyUI Outfit Nodes",
+            "reference": "https://github.com/manifestations/comfyui-outfit",
+            "files": [
+                "https://github.com/manifestations/comfyui-outfit"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced, professional outfit and makeup generation nodes for ComfyUI, with dynamic UI and AI-powered prompt formatting."
+        },
+        {
+            "author": "glitchinthemetrix16",
+            "title": "ComfyUI Roop Custom Nodes",
+            "reference": "https://github.com/glitchinthemetrix16/ComfyUI-Roop",
+            "files": [
+                "https://github.com/glitchinthemetrix16/ComfyUI-Roop"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for ComfyUI to enable face swapping using the Roop library."
         },
         {
             "author": "quasiblob",

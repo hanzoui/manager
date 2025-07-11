@@ -167,6 +167,7 @@
             "ImageLumaMatte",
             "ImagePasteByBBoxMask",
             "ImagePlot",
+            "ImageResizeFluxKontext",
             "ImageResizeUniversal",
             "ImageSolid",
             "ImageTileMerge",
@@ -2020,8 +2021,12 @@
         [
             "dropdowns",
             "exCheckpointLoader",
+            "exLoadoutCheckpointLoader",
             "exLoadoutEditCell",
             "exLoadoutReadColumn",
+            "exLoadoutSeg",
+            "exLoadoutSeg2",
+            "exLoadoutSelector",
             "exSeg",
             "exSeg2"
         ],
@@ -2246,6 +2251,40 @@
             "title_aux": "ComfyUI-VLMStudio"
         }
     ],
+    "https://github.com/LK-168/comfyui_LK_selfuse": [
+        [
+            "Adv Scheduler",
+            "Artist Add Prefix",
+            "CaompareDebug",
+            "EasyUse_XYPlot_Lora_Folder",
+            "Efficient_XYplot_LoRA_Batch",
+            "InspectModelArchitecture",
+            "LK_MaskToSEGS",
+            "LK_SegsAdjust",
+            "Mask Connected Remove",
+            "Mask Diff",
+            "Mask Filter with Rate",
+            "Mask Get Max",
+            "Pick From String",
+            "Print Sigma",
+            "Random Choice",
+            "Read Text File",
+            "SaveImageTensor",
+            "SaveMaskTensor",
+            "String Filter",
+            "String Filter v2",
+            "String Modify",
+            "String Modify Simple",
+            "String Remove Duplicate",
+            "String Replace 10",
+            "String Switch",
+            "String To Save",
+            "XYplot_Lora_lk"
+        ],
+        {
+            "title_aux": "comfyui_LK_selfuse"
+        }
+    ],
     "https://github.com/LZpenguin/ComfyUI-Text": [
         [
             "Add_text_by_mask"
@@ -2268,6 +2307,14 @@
         ],
         {
             "title_aux": "ComfyUI-align-pose"
+        }
+    ],
+    "https://github.com/Letz-AI/ComfyUI-LetzAI": [
+        [
+            "LetzAI Generator"
+        ],
+        {
+            "title_aux": "ComfyUI-LetzAI [UNSAFE]"
         }
     ],
     "https://github.com/Lilien86/Comfyui_Latent_Interpolation": [
@@ -2962,7 +3009,9 @@
     "https://github.com/SaulQiu/comfyui-saul-plugin": [
         [
             "Cutting Video",
-            "Get Pose"
+            "Fuse People and Cigarette",
+            "Get Pose",
+            "Smoking Auto Label"
         ],
         {
             "title_aux": "comfyui-saul-plugin [WIP]"
@@ -4981,6 +5030,14 @@
             "TestAccumulationSetItemNode",
             "TestAccumulationTailNode",
             "TestAccumulationToListNode",
+            "TestAsyncBatchProcessing",
+            "TestAsyncConcurrentLimit",
+            "TestAsyncError",
+            "TestAsyncLazyCheck",
+            "TestAsyncResourceUser",
+            "TestAsyncTimeout",
+            "TestAsyncValidation",
+            "TestAsyncValidationError",
             "TestBoolOperationNode",
             "TestCustomIsChanged",
             "TestCustomValidation1",
@@ -4988,6 +5045,7 @@
             "TestCustomValidation3",
             "TestCustomValidation4",
             "TestCustomValidation5",
+            "TestDynamicAsyncGeneration",
             "TestDynamicDependencyCycle",
             "TestExecutionBlocker",
             "TestFloatConditions",
@@ -5000,7 +5058,11 @@
             "TestListToAccumulationNode",
             "TestMakeListNode",
             "TestMixedExpansionReturns",
+            "TestParallelSleep",
+            "TestSamplingInExpansion",
+            "TestSleep",
             "TestStringConditions",
+            "TestSyncError",
             "TestToBoolNode",
             "TestVariadicAverage",
             "TestWhileLoopClose",
@@ -6440,6 +6502,15 @@
             "title_aux": "ComfyUI Frontend Vue Basic [WIP]"
         }
     ],
+    "https://github.com/junhe421/comfyui_batch_image_processor": [
+        [
+            "BatchImageDifferenceToPromptFiles",
+            "custom_nodes"
+        ],
+        {
+            "title_aux": "comfyui_batch_image_processor [WIP]"
+        }
+    ],
     "https://github.com/kadirnar/ComfyUI-Adapter": [
         [
             "GarmentSegLoader"
@@ -7773,6 +7844,7 @@
             "Ino_CalculateLoraConfig",
             "Ino_CountFiles",
             "Ino_DateTimeAsString",
+            "Ino_GetFolderBatchID",
             "Ino_GetParentID",
             "Ino_IntEqual",
             "Ino_NotBoolean",
@@ -8733,8 +8805,8 @@
     ],
     "https://github.com/subnet99/ComfyUI-URLLoader": [
         [
-            "AudioLoader",
-            "ImageLoader"
+            "URLAudioDownloader",
+            "URLImageDownloader"
         ],
         {
             "title_aux": "ComfyUI-URLLoader"
@@ -9110,6 +9182,7 @@
             "Hy3D21LoadImageWithTransparency",
             "Hy3D21LoadMesh",
             "Hy3D21MeshUVWrap",
+            "Hy3D21MultiViewsMeshGenerator",
             "Hy3D21PostprocessMesh",
             "Hy3D21ResizeImages",
             "Hy3D21VAEConfig",

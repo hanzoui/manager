@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "Letz-AI",
+            "title": "ComfyUI-LetzAI [UNSAFE]",
+            "reference": "https://github.com/Letz-AI/ComfyUI-LetzAI",
+            "files": [
+                "https://github.com/Letz-AI/ComfyUI-LetzAI"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI Node for LetzAI Image Generation[w/The API key is embedded in the workflow.]"
+        },
+        {
+            "author": "ZhouNLP",
+            "title": "comfyui_LK_selfuse",
+            "reference": "https://github.com/LK-168/comfyui_LK_selfuse",
+            "files": [
+                "https://github.com/LK-168/comfyui_LK_selfuse"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Mask Diff, Mask Connected Remove, Mask Get Max, Mask Filter with Rate, InspectModelArchitecture, Print Sigma, Adv Scheduler, LK_MaskToSEGS, LK_SegsAdjust, String Filter, String Remove Duplicate, String Modify, ... \nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "junhe421",
+            "title": "comfyui_batch_image_processor [WIP]",
+            "reference": "https://github.com/junhe421/comfyui_batch_image_processor",
+            "files": [
+                "https://github.com/junhe421/comfyui_batch_image_processor"
+            ],
+            "install_type": "git-clone",
+            "description": "A Kontext Bench-style ComfyUI image difference analysis node that supports instruction-based prompt generation and batch TXT editing.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "TinyBeeman",
             "title": "ComfyUI-TinyBee",
             "reference": "https://github.com/TinyBeeman/ComfyUI-TinyBee",
@@ -249,7 +279,7 @@
                 "https://github.com/No-22-Github/ComfyUI_SaveImageCustom"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Fish-Speech Loader, Fish-Speech TTS, Fish-Speech Audio Preview"
+            "description": "Easy save image with dir+name"
         },
         {
             "author": "jiafuzeng",
@@ -259,7 +289,7 @@
                 "https://github.com/jiafuzeng/comfyui-fishSpeech"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Save Image (Dir + Name)"
+            "description": "NODES: Fish-Speech Loader, Fish-Speech TTS, Fish-Speech Audio Preview"
         },
         {
             "author": "bleash-dev",
