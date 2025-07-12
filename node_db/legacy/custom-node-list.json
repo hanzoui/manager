@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "spacepxl",
+            "title": "ComfyUI-Florence-2 [DEPRECATED]",
+            "id": "florence2-spacepxl",
+            "reference": "https://github.com/spacepxl/ComfyUI-Florence-2",
+            "files": [
+                "https://github.com/spacepxl/ComfyUI-Florence-2"
+            ],
+            "install_type": "git-clone",
+            "description": "[a/https://huggingface.co/microsoft/Florence-2-large-ft](https://huggingface.co/microsoft/Florence-2-large-ft)\nLarge or base model, support for captioning and bbox task modes, more coming soon."
+        },
+        {
             "author": "xxxxxxxxxxxc",
             "title": "flux-kontext-diff-merge [REMOVED]",
             "reference": "https://github.com/xxxxxxxxxxxc/flux-kontext-diff-merge",
