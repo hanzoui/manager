@@ -3251,6 +3251,14 @@
             "title_aux": "ComfyUI Auto LoRA"
         }
     ],
+    "https://github.com/CheNing233/ComfyUI_Image_Pin": [
+        [
+            "ImagePin"
+        ],
+        {
+            "title_aux": "ComfyUI_Image_Pin"
+        }
+    ],
     "https://github.com/ChenDarYen/ComfyUI-NAG": [
         [
             "KSamplerWithNAG",
@@ -6441,6 +6449,23 @@
         ],
         {
             "title_aux": "ComfyUI-Stereopsis"
+        }
+    ],
+    "https://github.com/IsItDanOrAi/ComfyUI-exLoadout": [
+        [
+            "dropdowns",
+            "exCheckpointLoader",
+            "exLoadoutCheckpointLoader",
+            "exLoadoutEditCell",
+            "exLoadoutReadColumn",
+            "exLoadoutSeg",
+            "exLoadoutSeg2",
+            "exLoadoutSelector",
+            "exSeg",
+            "exSeg2"
+        ],
+        {
+            "title_aux": "exLoadout: Excel-Based Model & Settings Loader"
         }
     ],
     "https://github.com/Isi-dev/ComfyUI-Animation_Nodes_and_Workflows": [
@@ -14455,6 +14480,17 @@
             "title_aux": "ComfyUI-StyleStudio"
         }
     ],
+    "https://github.com/Yuan-ManX/ComfyUI-ThinkSound": [
+        [
+            "LoadCaption",
+            "LoadCoTDescription",
+            "LoadOThinkSoundVideo",
+            "ThinkSound"
+        ],
+        {
+            "title_aux": "ComfyUI-ThinkSound"
+        }
+    ],
     "https://github.com/Yuan-ManX/ComfyUI-UNO": [
         [
             "ConfigSave",
@@ -19460,6 +19496,16 @@
             "title_aux": "Civitai Comfy Nodes"
         }
     ],
+    "https://github.com/claptrap0/ComfyUI_LLM_Hub": [
+        [
+            "Generated_Output",
+            "LLM_Hub",
+            "LLM_Settings"
+        ],
+        {
+            "title_aux": "ComfyUI_LLM_Hub"
+        }
+    ],
     "https://github.com/claussteinmassl/ComfyUI-CS-CustomNodes": [
         [
             "CS Transform"
@@ -20132,16 +20178,6 @@
         ],
         {
             "title_aux": "ComfyUI_experiments"
-        }
-    ],
-    "https://github.com/company8/ComfyUI_LLM_Hub": [
-        [
-            "Generated_Output",
-            "LLM_Hub",
-            "LLM_Settings"
-        ],
-        {
-            "title_aux": "ComfyUI_LLM_Hub"
         }
     ],
     "https://github.com/concarne000/ConCarneNode": [
@@ -25985,6 +26021,7 @@
             "ai4artsed_random_instruction_generator",
             "ai4artsed_random_language_selector",
             "ai4artsed_stabilitai_key",
+            "ai4artsed_switch_promptsafety",
             "ai4artsed_t5_clip_fusion",
             "ai4artsed_text_remix",
             "ai4artsed_vector_dimension_eliminator"
@@ -32883,8 +32920,10 @@
     ],
     "https://github.com/pvlprk/comfyui-pvl-api-nodes": [
         [
-            "Call OpenAI Assistant",
-            "ComfyDeploy API Caller"
+            "PVL Call OpenAI Assistant",
+            "PVL ComfyDeploy API Caller",
+            "PVL KONTEXT MAX",
+            "PvlKontextMax"
         ],
         {
             "title_aux": "ComfyUI Assistant Node"
@@ -32975,6 +33014,14 @@
         ],
         {
             "title_aux": "ComfyUI-EsesImageAdjustments"
+        }
+    ],
+    "https://github.com/quasiblob/ComfyUI-EsesImageCompare": [
+        [
+            "EsesImageCompare"
+        ],
+        {
+            "title_aux": "ComfyUI-EsesImageCompare"
         }
     ],
     "https://github.com/quasiblob/ComfyUI-EsesImageEffectBloom": [
