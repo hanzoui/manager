@@ -29180,6 +29180,17 @@
             "install_type": "git-clone",
             "description": "Allows you to pin images to the JSON of your workflow, migrate with JSON, or embed in image's metadata. supports image compression."
         },
+        {
+            "author": "LaoMaoBoss",
+            "title": "ComfyUI-WBLESS",
+            "id": "LaoMaoBoss",
+            "reference": "https://github.com/LaoMaoBoss/ComfyUI-WBLESS",
+            "files": [
+                "https://github.com/LaoMaoBoss/ComfyUI-WBLESS"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI's custom node package. This custom node has many practical functions, including global variables and process flow control."
+        },
 
 
 
@@ -29603,17 +29614,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "LaoMaoBoss",
-            "title": "ComfyUI-WBLESS",
-            "id": "LaoMaoBoss",
-            "reference": "https://github.com/LaoMaoBoss/ComfyUI-WBLESS",
-            "files": [
-                "https://github.com/LaoMaoBoss/ComfyUI-WBLESS"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI's custom node package. This custom node has many practical functions, including global variables and process flow control."
         }
     ]
 }
