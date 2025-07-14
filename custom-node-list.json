@@ -29144,9 +29144,9 @@
             "id": "comfyui-exloadout",
             "reference": "https://github.com/IsItDanOrAi/ComfyUI-exLoadout",
             "files": [
-                   "https://github.com/IsItDanOrAi/ComfyUI-exLoadout.git"
+                   "https://github.com/IsItDanOrAi/ComfyUI-exLoadout"
                 ],
-                "install_type": "copy",
+                "install_type": "git-clone",
                 "description": "Excel spreadsheet-driven ComfyUI nodes that let you load models, values, and workflows based on saved rows in Excel. Great for organizing and switching between CLIPs, VAEs, LoRAs, and more."
         },
         {
@@ -29169,6 +29169,17 @@
             "install_type": "git-clone",
             "description": "Utilize the power of an LLM into ComfyUI to transform your text-to-image and text-to-video ideas into highly detailed prompts for generation while giving you full control."
         },
+        {
+            "author": "xChenNing",
+            "title": "ComfyUI_Image_Pin",
+            "id": "comfyui-image-pin",
+            "reference": "https://github.com/CheNing233/ComfyUI_Image_Pin",
+            "files": [
+                "https://github.com/CheNing233/ComfyUI_Image_Pin"
+            ],
+            "install_type": "git-clone",
+            "description": "Allows you to pin images to the JSON of your workflow, migrate with JSON, or embed in image's metadata. supports image compression."
+        },
 
 
 
@@ -29192,7 +29203,7 @@
 
 
 
-        
+
         {
             "author": "Ser-Hilary",
             "title": "SDXL_sizing",
@@ -29492,17 +29503,6 @@
             ],
             "install_type": "copy",
             "description": "A ComfyUI custom node for face comparison. This node utilizes Face++'s facial recognition and comparison algorithms by directly calling the Face++ API. Its usage in the workflow is as follows:"
-        },
-        {
-            "author": "xChenNing",
-            "title": "ComfyUI_Image_Pin",
-            "id": "comfyui-image-pin",
-            "reference": "https://github.com/CheNing233/ComfyUI_Image_Pin",
-            "files": [
-                "https://github.com/CheNing233/ComfyUI_Image_Pin"
-            ],
-            "install_type": "git-clone",
-            "description": "Allows you to pin images to the JSON of your workflow, migrate with JSON, or embed in image's metadata. supports image compression."
         },
         {
             "author": "folkghost",
