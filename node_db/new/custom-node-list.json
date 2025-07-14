@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "quasiblob",
+            "title": "ComfyUI-EsesImageCompare",
+            "reference": "https://github.com/quasiblob/ComfyUI-EsesImageCompare",
+            "files": [
+                "https://github.com/quasiblob/ComfyUI-EsesImageCompare"
+            ],
+            "install_type": "git-clone",
+            "description": "Interactive A/B image comparison node with a draggable slider to reveal one image over another. Includes difference and other blend modes for more detailed analysis, allowing one to spot changes in similar images. Node also outputs a passthrough image of input A, and a grayscale difference mask."
+        },
+        {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-ThinkSound",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-ThinkSound",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-ThinkSound"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-ThinkSound is now available in ComfyUI, ThinkSound is a unified Any2Audio generation framework with flow matching guided by Chain-of-Thought (CoT) reasoning."
+        },
+        {
             "author": "silveroxides",
             "title": "ComfyUI Power Shift Scheduler",
             "reference": "https://github.com/silveroxides/ComfyUI_PowerShiftScheduler",
@@ -22,14 +42,14 @@
                 "description": "Excel spreadsheet-driven ComfyUI nodes that let you load models, values, and workflows based on saved rows in Excel. Great for organizing and switching between CLIPs, VAEs, LoRAs, and more."
         },
         {
-            "author": "company8",
+            "author": "claptrap0",
             "title": "ComfyUI_LLM_Hub",
-            "reference": "https://github.com/company8/ComfyUI_LLM_Hub",
+            "reference": "https://github.com/claptrap0/ComfyUI_LLM_Hub",
             "files": [
-                "https://github.com/company8/ComfyUI_LLM_Hub"
+                "https://github.com/claptrap0/ComfyUI_LLM_Hub"
             ],
             "install_type": "git-clone",
-            "description": "A prompt-generator for ComfyUI, utilizing the power of a language model to turn a provided text-to-image prompt into a more detailed and improved prompt."
+            "description": "Utilize the power of an LLM into ComfyUI to transform your text-to-image and text-to-video ideas into highly detailed prompts for generation while giving you full control."
         },
         {
             "author": "XmYx",

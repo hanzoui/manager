@@ -359,7 +359,9 @@
             "RangeMapping",
             "StringCoordinateToBBoxMask",
             "StringCoordinateToBBoxes",
-            "TextCustomExtract"
+            "TextCustomExtract",
+            "TextFormat",
+            "TextLoadLocal"
         ],
         {
             "title_aux": "ComfyUI 1hewNodes"
@@ -1923,6 +1925,8 @@
             "Create Folder JNK",
             "Create RGBA Image JNK",
             "Get All Alpha Layers JNK",
+            "Get Gemini Keys JNK",
+            "Get Gemini Models JNK",
             "Get Models JNK",
             "Get One Alpha Layer JNK",
             "Get Substring JNK",
@@ -4398,6 +4402,7 @@
             "Ryuu_IsMultipleOf",
             "Ryuu_ScaleToMultiple",
             "Ryuu_ScaleToMultipleAdvanced",
+            "Ryuu_ScaleToMultipleLatentSizePicker",
             "Ryuu_TestNode",
             "Ryuu_TextEncoderDiffCheck",
             "Ryuu_TokenCountTextBox"
@@ -9664,7 +9669,9 @@
             "AdvancedEmptyLatentImage",
             "AdvancedLoaderMultiple",
             "AdvancedLoaderSingle",
-            "AdvancedPromptSaver"
+            "AdvancedModelLoader",
+            "AdvancedPromptSaver",
+            "AdvancedRandomNoise"
         ],
         {
             "title_aux": "ComfyUI-PD19Anime-Nodes"
@@ -13169,7 +13176,8 @@
             "OllamaPromptsGeneratorTlant",
             "OllamaSimpleTextGeneratorTlant",
             "RandomImageLoaderTlant",
-            "ReasoningLLMOutputCleaner"
+            "ReasoningLLMOutputCleaner",
+            "SaveImagePairForKontext"
         ],
         {
             "title_aux": "ComfyUI-OllamaPromptsGeneratorTlant"
@@ -13796,6 +13804,8 @@
             "WaveSpeedAI SDXLLoraNode",
             "WaveSpeedAI SDXLNode",
             "WaveSpeedAI Save Audio",
+            "WaveSpeedAI SeedEditV3Node",
+            "WaveSpeedAI SeedreamV3Node",
             "WaveSpeedAI SkyReelsV1Node",
             "WaveSpeedAI Step1xEditNode",
             "WaveSpeedAI UnoNode",
@@ -17697,7 +17707,6 @@
             "Amp_drive_String",
             "Amp_drive_mask",
             "Amp_drive_value",
-            "Apply_AD_diff",
             "Apply_CN_union",
             "Apply_ControlNetStack",
             "Apply_IPA",
@@ -17781,7 +17790,6 @@
             "basicIn_int",
             "basicIn_string",
             "basic_Ksampler_adv",
-            "basic_Ksampler_batch",
             "basic_Ksampler_custom",
             "basic_Ksampler_full",
             "basic_Ksampler_mid",
@@ -17801,6 +17809,7 @@
             "chx_IPA_region_combine",
             "chx_Ksampler_Kontext",
             "chx_Ksampler_Kontext_adv",
+            "chx_Ksampler_Kontext_inpaint",
             "chx_Ksampler_VisualStyle",
             "chx_Ksampler_dual_area",
             "chx_Ksampler_dual_paint",
@@ -17811,7 +17820,6 @@
             "chx_StyleModelApply",
             "chx_Style_Redux",
             "chx_YC_LG_Redux",
-            "chx_ksampler_Deforum_math",
             "chx_ksampler_Deforum_sch",
             "chx_ksampler_tile",
             "chx_latent_adjust",
@@ -17895,7 +17903,6 @@
             "sampler_InpaintCrop",
             "sampler_InpaintStitch",
             "sampler_enhance",
-            "stack_AD_diff",
             "stack_sum_pack",
             "sum_create_chx",
             "sum_editor",
@@ -19602,6 +19609,7 @@
             "LoadAudioFromPath",
             "LoadVideoFromPath",
             "LocalTransformersProviderNode",
+            "LocalVLLMProviderNode",
             "OpenAIProviderNode",
             "PlayRandomSound",
             "PreviewImageLogic",
@@ -20504,6 +20512,7 @@
     "https://github.com/cyberhirsch/seb_nodes": [
         [
             "AspectRatioSeb",
+            "DepthInpaintSeb",
             "SaveImageSeb",
             "SwitchMasksSeb",
             "SwitchSeb",
@@ -28219,7 +28228,10 @@
     ],
     "https://github.com/lenskikh/ComfyUI-Prompt-Worker": [
         [
-            "Prompt Worker"
+            "Prompt Body",
+            "Prompt Clothes",
+            "Prompt Worker",
+            "Prompt \u0421onstructor"
         ],
         {
             "title_aux": "Propmt Worker"
@@ -30001,7 +30013,6 @@
     "https://github.com/manifestations/comfyui-outfit": [
         [
             "OllamaLLMNode",
-            "OllamaVisionNode",
             "SimpleOllamaNode"
         ],
         {
@@ -31614,9 +31625,11 @@
             "DynamicQueueCounter",
             "FalAPI_kling_video",
             "FalAPI_recraft_upscale",
+            "FluxKontextInpaintingConditioning",
             "Fun KSampler",
             "IframeView",
             "IndexedStringSelector",
+            "Kontext Inpainting Conditioning",
             "LayeredInfiniteZoom",
             "MultiAlphaComposite",
             "Replicate flux 1.1 pro ultra",
@@ -34759,6 +34772,7 @@
             "LoadImageFromUrl",
             "LoadJsonFromText",
             "LoadJsonFromUrl",
+            "LoadLaMaModel",
             "MergeModels",
             "NumberScaler",
             "OverlayInpaintedImage",
@@ -38000,6 +38014,7 @@
         [
             "AppParams",
             "AspectRatio",
+            "AutioInfo",
             "AutioPath",
             "DoWhileEnd",
             "DoWhileStart",
@@ -38019,6 +38034,21 @@
             "ImageCropFaces",
             "ImageLama",
             "ImageToMasks",
+            "JyAnimationGroup",
+            "JyAnimationIn",
+            "JyAnimationOut",
+            "JyAudio2CaptionsGroup",
+            "JyAudioNative",
+            "JyCaptionsNative",
+            "JyEffectNative",
+            "JyMediaAnimation",
+            "JyMediaNative",
+            "JyMultiAudioGroup",
+            "JyMultiCaptionsGroup",
+            "JyMultiEffectGroup",
+            "JyMultiMediaGroup",
+            "JySaveDraft",
+            "JyTransition",
             "LAM.OpenPoseEditorPlus",
             "LamCommonHidden",
             "LamCommonNames",
@@ -38038,6 +38068,8 @@
             "LamSaveVideo",
             "LamScheduler",
             "LamSwitcherCase",
+            "LamViewVideo",
+            "LamViewVideoOut",
             "LoadDirImgPaths",
             "LoadReplaceImage",
             "LongTextToList",
