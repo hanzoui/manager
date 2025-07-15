@@ -3154,6 +3154,21 @@
             "title_aux": "ComfyUI-CustomNodes-MVM"
         }
     ],
+    "https://github.com/UmutGuzel/tryvariantai-comfyui": [
+        [
+            "DebugMaskNode",
+            "FillTransparencyNode",
+            "MaskExpandBorder",
+            "MaskExpandBorderAdvanced",
+            "MaskFromContoursOpenCV",
+            "MaskToTransparentNode",
+            "SimpleWhiteDetectorNode",
+            "WhiteToTransparentNode"
+        ],
+        {
+            "title_aux": "ComfyUI-yolov5-face [WIP]"
+        }
+    ],
     "https://github.com/Velour-Fog/comfy-latent-nodes": [
         [
             "CustomLoadLatent",
@@ -6975,15 +6990,14 @@
     "https://github.com/lum3on/comfyui_LLM_Polymath": [
         [
             "ConceptEraserNode",
+            "flux_context_preset",
             "polymath_SaveAbsolute",
             "polymath_StringListPicker",
             "polymath_TextSplitter",
             "polymath_chat",
-            "polymath_concept_eraser",
             "polymath_helper",
             "polymath_scraper",
             "polymath_settings",
-            "polymath_template",
             "polymath_text_mask"
         ],
         {
@@ -7765,9 +7779,13 @@
             "przewodo CompareNumbersToCombo",
             "przewodo ImageScaleFactor",
             "przewodo ImageSizer",
+            "przewodo IsInputDisabled",
             "przewodo SwapAnyComparison",
             "przewodo SwapAnyCondition",
-            "przewodo WanGetMaxImageResolutionByAspectRatio"
+            "przewodo SwapImageComparison",
+            "przewodo WanFirstLastFirstFrameToVideo",
+            "przewodo WanGetMaxImageResolutionByAspectRatio",
+            "przewodo WanImageToVideoAdvancedSampler"
         ],
         {
             "title_aux": "ComfyUI-Przewodo-Utils [WIP]"
@@ -8223,7 +8241,8 @@
     ],
     "https://github.com/silent-rain/ComfyUI-SilentRain": [
         [
-            "Example"
+            "Example",
+            "LoadKontextPresets"
         ],
         {
             "title_aux": "ComfyUI-SilentRain"

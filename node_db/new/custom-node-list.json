@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "skayka",
+            "title": "ComfyUI-DreamFit",
+            "reference": "https://github.com/skayka/ComfyUI-DreamFit",
+            "files": [
+                "https://github.com/skayka/ComfyUI-DreamFit"
+            ],
+            "install_type": "git-clone",
+            "description": "Garment-centric human generation nodes for ComfyUI using DreamFit with Flux.\nDreamFit is a powerful adapter system that enhances Flux models with garment-aware generation capabilities, enabling high-quality fashion and clothing generation."
+        },
+        {
+            "author": "Creepybits",
+            "title": "Comfyui-Save_To_OneDrive",
+            "reference": "https://github.com/Creepybits/ComfyUI-Save_To_OneDrive",
+            "files": [
+                "https://github.com/Creepybits/ComfyUI-Save_To_OneDrive"
+            ],
+            "install_type": "git-clone",
+            "description": "Saves images directly to OneDrive using Microsoft's free API service."
+        },
+        {
             "author": "1H-hobit",
             "title": "ComfyUI_InternVL3",
             "reference": "https://github.com/1H-hobit/ComfyUI_InternVL3",
