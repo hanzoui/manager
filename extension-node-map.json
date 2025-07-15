@@ -319,6 +319,20 @@
             "title_aux": "Comfyui-ergouzi-samplers"
         }
     ],
+    "https://github.com/1H-hobit/ComfyUI_InternVL3": [
+        [
+            "DynamicPreprocess",
+            "InternVLHFInference",
+            "InternVLModelLoader"
+        ],
+        {
+            "author": "chflame",
+            "description": "A set of nodes for ComfyUI that can composite layer and mask to achieve Photoshop like functionality.",
+            "nickname": "LayerStyle",
+            "title": "LayerStyle",
+            "title_aux": "ComfyUI_InternVL3"
+        }
+    ],
     "https://github.com/1hew/ComfyUI-1hewNodes": [
         [
             "ImageAddLabel",
@@ -5955,14 +5969,6 @@
             "title_aux": "Floodgate"
         }
     ],
-    "https://github.com/Haoming02/comfyui-resharpen": [
-        [
-            "Resharpen"
-        ],
-        {
-            "title_aux": "ComfyUI ReSharpen"
-        }
-    ],
     "https://github.com/HappyXY/ComfyUI-AmazonBedrock": [
         [
             "Amazon Bedrock - Nova Canvas Background Prompt Replace",
@@ -11350,6 +11356,16 @@
             "title_aux": "ComfyUI-SVDResizer"
         }
     ],
+    "https://github.com/ShmuelRonen/ComfyUI-ThinkSound_Wrapper": [
+        [
+            "ThinkSoundFeatureUtilsLoader",
+            "ThinkSoundModelLoader",
+            "ThinkSoundSampler"
+        ],
+        {
+            "title_aux": "ComfyUI-ThinkSound_Wrapper"
+        }
+    ],
     "https://github.com/ShmuelRonen/ComfyUI-Veo2-Experimental": [
         [
             "VeoTextToVideo",
@@ -14525,6 +14541,14 @@
             "title_aux": "ComfyUI-Vui"
         }
     ],
+    "https://github.com/Yukinoshita-Yukinoe/ComfyUI-Qwen-Node": [
+        [
+            "QwenAPILLMNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Qwen-Node"
+        }
+    ],
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-APISR": [
         [
             "APISR_Lterative_Zho",
@@ -14714,6 +14738,24 @@
         ],
         {
             "title_aux": "comfyui-portrait-master-zh-cn"
+        }
+    ],
+    "https://github.com/ZXL-Xinram/ComfyUI-AutoFlow": [
+        [
+            "AutoFlowPathJoiner",
+            "AutoFlowPathParser",
+            "AutoFlowPathValidator",
+            "AutoFlowStringCase",
+            "AutoFlowStringConcat",
+            "AutoFlowStringFormat",
+            "AutoFlowStringMultiConcat",
+            "AutoFlowStringReplace",
+            "AutoFlowStringSplit",
+            "AutoFlowTimestampFormatter",
+            "AutoFlowTimestampGenerator"
+        ],
+        {
+            "title_aux": "ComfyUI-AutoFlow"
         }
     ],
     "https://github.com/ZZXYWQ/ComfyUI-ZZXYWQ": [
@@ -15953,7 +15995,9 @@
             "Sage_LMStudioLLMPromptVisionRefine",
             "Sage_LastLoraInfo",
             "Sage_LoadImage",
+            "Sage_LoadImageTextSetFromFolderNode",
             "Sage_LoadModelFromInfo",
+            "Sage_Load_Dataset_From_Folder",
             "Sage_LogicalSwitch",
             "Sage_LoraStack",
             "Sage_LoraStackLoader",
@@ -15981,6 +16025,7 @@
             "Sage_SixLoraStack",
             "Sage_TextWeight",
             "Sage_TilingInfo",
+            "Sage_TrainingCaptionsToConditioning",
             "Sage_TripleCLIPSelector",
             "Sage_TripleJoinText",
             "Sage_TripleLoraStack",
@@ -27222,6 +27267,7 @@
             "ImageAddMulti",
             "ImageAndMaskPreview",
             "ImageBatchFilter",
+            "ImageBatchJoinWithTransition",
             "ImageBatchMulti",
             "ImageBatchRepeatInterleaving",
             "ImageBatchTestPattern",
@@ -27516,6 +27562,77 @@
         ],
         {
             "title_aux": "ComfyUI-StableXWrapper"
+        }
+    ],
+    "https://github.com/kijai/ComfyUI-WanVideoWrapper": [
+        [
+            "CreateCFGScheduleFloatList",
+            "DownloadAndLoadWav2VecModel",
+            "ExtractStartFramesForContinuations",
+            "FantasyTalkingModelLoader",
+            "FantasyTalkingWav2VecEmbeds",
+            "LoadWanVideoClipTextEncoder",
+            "LoadWanVideoT5TextEncoder",
+            "MultiTalkModelLoader",
+            "MultiTalkWav2VecEmbeds",
+            "ReCamMasterPoseVisualizer",
+            "WanVideoATITracks",
+            "WanVideoATITracksVisualize",
+            "WanVideoATI_comfy",
+            "WanVideoApplyNAG",
+            "WanVideoBlockSwap",
+            "WanVideoClipVisionEncode",
+            "WanVideoContextOptions",
+            "WanVideoControlEmbeds",
+            "WanVideoControlnet",
+            "WanVideoControlnetLoader",
+            "WanVideoDecode",
+            "WanVideoDiffusionForcingSampler",
+            "WanVideoEasyCache",
+            "WanVideoEmptyEmbeds",
+            "WanVideoEncode",
+            "WanVideoEnhanceAVideo",
+            "WanVideoExperimentalArgs",
+            "WanVideoFlowEdit",
+            "WanVideoFreeInitArgs",
+            "WanVideoFunCameraEmbeds",
+            "WanVideoImageClipEncode",
+            "WanVideoImageResizeToClosest",
+            "WanVideoImageToVideoEncode",
+            "WanVideoImageToVideoMultiTalk",
+            "WanVideoLoopArgs",
+            "WanVideoLoraBlockEdit",
+            "WanVideoLoraSelect",
+            "WanVideoLoraSelectMulti",
+            "WanVideoMagCache",
+            "WanVideoMiniMaxRemoverEmbeds",
+            "WanVideoModelLoader",
+            "WanVideoPhantomEmbeds",
+            "WanVideoReCamMasterCameraEmbed",
+            "WanVideoReCamMasterDefaultCamera",
+            "WanVideoReCamMasterGenerateOrbitCamera",
+            "WanVideoRealisDanceLatents",
+            "WanVideoSLG",
+            "WanVideoSampler",
+            "WanVideoSetBlockSwap",
+            "WanVideoTeaCache",
+            "WanVideoTextEmbedBridge",
+            "WanVideoTextEncode",
+            "WanVideoTextEncodeSingle",
+            "WanVideoTinyVAELoader",
+            "WanVideoTorchCompileSettings",
+            "WanVideoUni3C_ControlnetLoader",
+            "WanVideoUni3C_embeds",
+            "WanVideoUniAnimateDWPoseDetector",
+            "WanVideoUniAnimatePoseInput",
+            "WanVideoVACEEncode",
+            "WanVideoVACEModelSelect",
+            "WanVideoVACEStartToEndFrame",
+            "WanVideoVAELoader",
+            "WanVideoVRAMManagement"
+        ],
+        {
+            "title_aux": "ComfyUI-WanVideoWrapper"
         }
     ],
     "https://github.com/kijai/ComfyUI-depth-fm": [
@@ -28277,6 +28394,7 @@
         [
             "Prompt Body",
             "Prompt Clothes",
+            "Prompt Merger",
             "Prompt Worker",
             "Prompt \u0421onstructor"
         ],
@@ -31895,6 +32013,14 @@
             "title_aux": "Olm DragCrop for ComfyUI"
         }
     ],
+    "https://github.com/o-l-l-i/ComfyUI-Olm-ImageAdjust": [
+        [
+            "OlmImageAdjust"
+        ],
+        {
+            "title_aux": "Olm Image Adjust for ComfyUI"
+        }
+    ],
     "https://github.com/o-l-l-i/ComfyUI-Olm-Resolution-Picker": [
         [
             "OlmResolutionPicker"
@@ -32652,10 +32778,11 @@
             "CRT Post-Process Suite",
             "CRTChromaKeyOverlay",
             "CRTFirstLastFrameSelector",
+            "CRTLoadLastMedia",
+            "CRTLoadLastVideo",
             "CRTPctCropCalculator",
             "CRTPostProcess",
             "CRT_UpscaleModelAdv",
-            "ClearStyleModelCache",
             "ClearStyleModelDualCache",
             "FaceEnhancementPipeline",
             "FaceEnhancementPipelineWithInjection",
@@ -32680,18 +32807,20 @@
             "Remove Trailing Comma",
             "Resolution",
             "SamplerSchedulerSelector",
+            "SaveImageWithPath",
+            "SaveTextWithPath",
+            "SaveVideoWithPath",
             "SeamlessLoopBlender",
             "SimpleFluxShiftNode",
             "SimpleKnobNode",
             "SimpleToggleNode",
             "SmartControlNetApply",
             "SmartPreprocessor",
-            "SmartStyleModelApply",
             "SmartStyleModelApplyDual",
-            "SmartStyleModelApplyWithVision",
             "Toggle Lora Unet Blocks L1",
             "Toggle Lora Unet Blocks L2",
-            "Video Duration Calculator"
+            "Video Duration Calculator",
+            "VideoLoaderCrawl"
         ],
         {
             "author": "chflame",
@@ -36685,7 +36814,7 @@
             "PhotoFilmGrain"
         ],
         {
-            "title_aux": "ComfyUI-Advanced-Photo-Grain"
+            "title_aux": "Advanced Photo Grain"
         }
     ],
     "https://github.com/tritant/ComfyUI_CreaPrompt": [
@@ -36716,6 +36845,14 @@
         ],
         {
             "title_aux": "Flux LoRA Merger"
+        }
+    ],
+    "https://github.com/tritant/ComfyUI_Remove_Banding_Artifacts": [
+        [
+            "ResampleBandingFix"
+        ],
+        {
+            "title_aux": "Remove Banding Artifacts"
         }
     ],
     "https://github.com/trojblue/trNodes": [

@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "Haoming02",
+            "title": "ComfyUI ReSharpen [WIP]",
+            "reference": "https://github.com/Haoming02/comfyui-resharpen",
+            "files": [
+                "https://github.com/Haoming02/comfyui-resharpen"
+            ],
+            "install_type": "git-clone",
+            "description": "Manipulate the details of generations.[w/Installing this node pack causes all workflow executions to fail.]"
+        },
+        {
+            "author": "visualbruno",
+            "title": "ComfyUI-QRemeshify",
+            "reference": "https://github.com/visualbruno/ComfyUI-QRemeshify",
+            "files": [
+                "https://github.com/visualbruno/ComfyUI-QRemeshify"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: QRemeshify"
+        },
+        {
+            "author": "jisenhua",
+            "title": "ComfyUI-yolov5-face [WIP]",
+            "reference": "https://github.com/JiSenHua/ComfyUI-yolov5-face",
+            "files": [
+                "https://github.com/JiSenHua/ComfyUI-yolov5-face"
+            ],
+            "install_type": "git-clone",
+            "description": "A YOLOv5 face detection project for ComfyUI.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "zopieux",
+            "title": "ComfyUI-zopi [UNSAFE]",
+            "reference": "https://github.com/zopieux/ComfyUI-zopi",
+            "files": [
+                "https://github.com/zopieux/ComfyUI-zopi"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Eval Python, Load TensortRT + checkpoint + CLIP + VAE [w/This node pack contains a vulnerability that allows remote code execution.]"
+        },
+        {
+            "author": "przewodo",
+            "title": "ComfyUI-Przewodo-Utils [WIP]",
+            "reference": "https://github.com/przewodo/ComfyUI-Przewodo-Utils",
+            "files": [
+                "https://github.com/przewodo/ComfyUI-Przewodo-Utils"
+            ],
+            "install_type": "git-clone",
+            "description": "Utilities to make it easy to develop advanced Workflows without having to use a lot of nodes for simple stuff.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "hulipanpan",
             "title": "Comfyui_tuteng [WIP]",
             "reference": "https://github.com/hulipanpan/Comfyui_tuteng",
@@ -1819,7 +1869,7 @@
                 "https://github.com/silent-rain/ComfyUI-SilentRain"
             ],
             "install_type": "git-clone",
-            "description": "An attempt to implement ComfyUI custom nodes using the Rust programming language."
+            "description": "Ecological extension of comfyui using Rust language."
         },
         {
             "author": "Linsoo",
@@ -2851,16 +2901,6 @@
             ],
             "install_type": "git-clone",
             "description": "It’s estimated that ComfyUI itself will support it soon, so go ahead and give it a try!"
-        },
-        {
-            "author": "kijai",
-            "title": "ComfyUI-WanVideoWrapper [WIP]",
-            "reference": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
-            "files": [
-               "https://github.com/kijai/ComfyUI-WanVideoWrapper"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI diffusers wrapper nodes for WanVideo"
         },
         {
             "author": "ltdrdata",
