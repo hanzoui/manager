@@ -5516,17 +5516,14 @@
     ],
     "https://github.com/GACLove/ComfyUI-Lightx2vWrapper": [
         [
-            "Lightx2vTeaCache",
-            "Lightx2vWanVideoClipVisionEncoderLoader",
-            "Lightx2vWanVideoEmptyEmbeds",
-            "Lightx2vWanVideoImageEncoder",
-            "Lightx2vWanVideoModelDir",
-            "Lightx2vWanVideoModelLoader",
-            "Lightx2vWanVideoSampler",
-            "Lightx2vWanVideoT5Encoder",
-            "Lightx2vWanVideoT5EncoderLoader",
-            "Lightx2vWanVideoVaeDecoder",
-            "Lightx2vWanVideoVaeLoader"
+            "LightX2VConfigCombiner",
+            "LightX2VInferenceConfig",
+            "LightX2VLightweightVAE",
+            "LightX2VLoRALoader",
+            "LightX2VMemoryOptimization",
+            "LightX2VModularInference",
+            "LightX2VQuantization",
+            "LightX2VTeaCache"
         ],
         {
             "title_aux": "ComfyUI-Lightx2vWrapper"
@@ -8134,6 +8131,7 @@
             "LTXVSelectLatents",
             "LTXVSetVideoLatentNoiseMasks",
             "LTXVTiledSampler",
+            "LTXVTiledVAEDecode",
             "ModifyLTXModel",
             "STGAdvancedPresets",
             "STGGuiderAdvanced",
@@ -8708,9 +8706,9 @@
     ],
     "https://github.com/Maxed-Out-99/ComfyUI-MaxedOut": [
         [
-            "Dummy Negative Prompt",
             "Flux Empty Latent Image",
             "Flux Image Scale To Total Pixels (Flux Safe)",
+            "FluxResolutionMatcher",
             "Image Scale To Total Pixels (SDXL Safe)",
             "Prompt With Guidance (Flux)",
             "Sdxl Empty Latent Image"
@@ -13790,9 +13788,11 @@
     ],
     "https://github.com/WarpedAnimation/ComfyUI-WarpedToolset": [
         [
+            "WarpedAdvancedSamplerBatch",
             "WarpedBundleAllVideoImages",
             "WarpedBundleVideoImages",
             "WarpedCLIPVisionLoader",
+            "WarpedCheckpointLoader",
             "WarpedCreateEmptyImageBatch",
             "WarpedCreateEmptyLatentBatch",
             "WarpedCreateSpecialImageBatch",
@@ -13800,7 +13800,11 @@
             "WarpedDualEncoder",
             "WarpedFramepackLoraSelectBatch",
             "WarpedFramepackMultiLoraSelect",
+            "WarpedFramepackMultiLoraSelectExt",
             "WarpedFramepackSampler",
+            "WarpedGetImageFromVideo",
+            "WarpedGetTwoImagesFromVideo",
+            "WarpedHunyuanImageToVideo",
             "WarpedHunyuanLoraAvgMerge",
             "WarpedHunyuanLoraBatchMerge",
             "WarpedHunyuanLoraConvert",
@@ -13811,20 +13815,23 @@
             "WarpedHunyuanMultiLoraMerge",
             "WarpedHunyuanMultiLoraMixer",
             "WarpedHunyuanMultiLoraMixerExt",
+            "WarpedHunyuanMultiLoraMixerExt2",
             "WarpedHunyuanVideoLoraLoader",
             "WarpedImageNoiseAugmentation",
             "WarpedImageResize",
-            "WarpedImageResizeKJStyle",
             "WarpedImageScaleToSide",
             "WarpedLeapfusionHunyuanI2V",
             "WarpedLoadFramePackModel",
             "WarpedLoadLorasBatchByPrefix",
             "WarpedLoadVideosBatch",
             "WarpedLoraKeysAndMetadataReader",
+            "WarpedLoraReSave",
+            "WarpedMultiLoraLoader",
+            "WarpedNumericalConversion",
+            "WarpedReverseImageBatch",
             "WarpedSamplerCustomAdv",
             "WarpedSamplerCustomAdvLatent",
             "WarpedSaveAnimatedPng",
-            "WarpedTeaCache",
             "WarpedUpscaleWithModel",
             "WarpedVAELoader",
             "WarpedWanImageToVideo",
@@ -15408,7 +15415,6 @@
             "Comfly_gpt_image_1_edit",
             "Comfly_kling_image2video",
             "Comfly_kling_text2video",
-            "Comfly_kling_videoPreview",
             "Comfly_lip_sync",
             "Comfly_mjstyle",
             "Comfly_upload",
@@ -16701,7 +16707,12 @@
     "https://github.com/bbaudio-2025/ComfyUI-SuperUltimateVaceTools": [
         [
             "CustomCropArea",
-            "SuperUltimateVACEUpscale"
+            "RegionalBatchPrompt",
+            "SuperUltimateVACEUpscale",
+            "VACEControlImageCombine",
+            "VACEPromptCheckTotalFrame",
+            "VACEPromptCombine",
+            "VaceLongVideo"
         ],
         {
             "title_aux": "ComfyUI-SuperUltimateVaceTools"
@@ -18077,6 +18088,7 @@
             "type_Mask_List2Batch",
             "type_text_2_UTF8",
             "type_text_list2batch",
+            "unpack_Mask_color",
             "unpack_box2",
             "view_Data",
             "view_GetLength",
@@ -27367,6 +27379,7 @@
             "LoadAndResizeImage",
             "LoadImagesFromFolderKJ",
             "LoadResAdapterNormalization",
+            "LoraExtractKJ",
             "MaskBatchMulti",
             "MaskOrImageToWeight",
             "MergeImageChannels",
@@ -35086,6 +35099,7 @@
             "DreamFitKSamplerV3",
             "DreamFitModelValidator",
             "DreamFitSamplerAdvanced",
+            "DreamFitSamplerV4",
             "DreamFitSimple",
             "DreamFitUnified",
             "DreamFitUnifiedV2"
@@ -38352,6 +38366,7 @@
             "JyMultiEffectGroup",
             "JyMultiMediaGroup",
             "JySaveDraft",
+            "JySaveOutDraft",
             "JyTransition",
             "LAM.OpenPoseEditorPlus",
             "LamCommonHidden",

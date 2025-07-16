@@ -2362,13 +2362,8 @@
     ],
     "https://github.com/PATATAJEC/Patatajec-Nodes": [
         [
-            "FilePrefixSwitcher",
-            "HyvidSwitcher",
-            "ImageSequenceFromBatch",
-            "MidiReader",
-            "MidiToFrameSequences",
-            "VideoCounter",
-            "VideoSequencer"
+            "ColorMatchFalloff",
+            "PathTool"
         ],
         {
             "title_aux": "Patatajec-Nodes [WIP]"
@@ -3200,9 +3195,13 @@
     "https://github.com/Vkabuto23/comfyui_openrouter_ollama": [
         [
             "OllamaNode",
+            "OllamaNodeExperimental",
             "OllamaVisionNode",
+            "OllamaVisionNodeExperimental",
             "OpenRouterNode",
-            "OpenRouterVisionNode"
+            "OpenRouterNodeExperimental",
+            "OpenRouterVisionNode",
+            "OpenRouterVisionNodeExperimental"
         ],
         {
             "title_aux": "ComfyUI Custom Nodes: OpenRouter & Ollama [UNSAFE]"
@@ -7766,6 +7765,7 @@
     ],
     "https://github.com/przewodo/ComfyUI-Przewodo-Utils": [
         [
+            "przewodo BatchImagesFromPath",
             "przewodo CompareNumbersToCombo",
             "przewodo FloatIfElse",
             "przewodo HasInputvalue",
@@ -8233,8 +8233,7 @@
     ],
     "https://github.com/silent-rain/ComfyUI-SilentRain": [
         [
-            "Example",
-            "LoadKontextPresets"
+            "Example"
         ],
         {
             "title_aux": "ComfyUI-SilentRain"
@@ -8243,6 +8242,7 @@
     "https://github.com/silveroxides/ComfyUI_ReduxEmbedToolkit": [
         [
             "LoadReduxEmb",
+            "LoadT5XXLConds",
             "LoadT5XXLEmb",
             "SaveCondsEmb",
             "SaveReduxEmb"
@@ -8813,9 +8813,11 @@
         [
             "Hy3D21CameraConfig",
             "Hy3D21ExportMesh",
+            "Hy3D21GenerateMultiViewsBatch",
             "Hy3D21IMRemesh",
             "Hy3D21LoadImageWithTransparency",
             "Hy3D21LoadMesh",
+            "Hy3D21MeshGenerationBatch",
             "Hy3D21MeshUVWrap",
             "Hy3D21MeshlibDecimate",
             "Hy3D21MultiViewsMeshGenerator",
@@ -9246,6 +9248,7 @@
             "JyMultiEffectGroup",
             "JyMultiMediaGroup",
             "JySaveDraft",
+            "JySaveOutDraft",
             "JyTransition",
             "LAM.OpenPoseEditorPlus",
             "LamCommonHidden",
