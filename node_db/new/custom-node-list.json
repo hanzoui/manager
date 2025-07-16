@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "NyaFuP",
+            "title": "NF Preview Selector",
+            "reference": "https://github.com/NyaFuP/ComfyUI_Preview_Selector",
+            "files": [
+                "https://github.com/NyaFuP/ComfyUI_Preview_Selector"
+            ],
+            "install_type": "git-clone",
+            "description": "A floating dialog-based image preview and selection system for ComfyUI."
+        },
+        {
             "author": "aiaiaikkk",
             "title": "kontext-super-prompt",
             "reference": "https://github.com/aiaiaikkk/kontext-super-prompt",
@@ -685,77 +695,6 @@
             ],
             "install_type": "git-clone",
             "description": "A simple wrapper for Fooocus's inpainting code, designed to replicate its outstanding results. Future improvements for a more refined and lightweight version are planned."
-        },
-        {
-            "author": "FaraamFide",
-            "title": "ComfyUI-ParamNodes",
-            "reference": "https://github.com/FaraamFide/ComfyUI-ParamNodes",
-            "files": [
-                "https://github.com/FaraamFide/ComfyUI-ParamNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-ParamNodes is a lightweight, dependency-free collection of custom nodes for ComfyUI, designed to parameterize your workflows for API-driven generation. It provides a clean set of input nodes to control strings, numbers, booleans, and model/LoRA selections, along with a simple logic switch for conditional execution."
-        },
-        {
-            "author": "namtb96",
-            "title": "OmniGen2 Simple Node",
-            "reference": "https://github.com/namtb96/OmniGen2-Simple-Node",
-            "files": [
-                "https://github.com/namtb96/OmniGen2-Simple-Node"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node package for the OmniGen2 multimodal generation model."
-        },
-        {
-          "author": "vrgamegirl19",
-          "title": "VRGameDevGirl Video Enhancement Nodes",
-          "id": "vrgamedev_video_nodes",
-          "reference": "https://github.com/vrgamegirl19/comfyui-vrgamedevgirl",
-          "files": [
-              "https://github.com/vrgamegirl19/comfyui-vrgamedevgirl"
-          ],
-          "install_type": "git-clone",
-          "description": "Film grain and color match nodes designed for high-quality frame-by-frame video enhancement in ComfyUI."
-        },
-        {
-            "author": "MitoshiroPJ",
-            "title": "ComfyUI Nearsighted Attention",
-            "reference": "https://github.com/MitoshiroPJ/comfyui_nearsighted_attention",
-            "files": [
-                "https://github.com/MitoshiroPJ/comfyui_nearsighted_attention"
-            ],
-            "install_type": "git-clone",
-            "description": "This node splits its self-attention Q to focus on nearby samples."
-        },
-        {
-            "author": "MitoshiroPJ",
-            "title": "ComfyUI SaveImage SDLI",
-            "reference": "https://github.com/MitoshiroPJ/ComfyUI_save_image_sdli",
-            "files": [
-                "https://github.com/MitoshiroPJ/ComfyUI_save_image_sdli"
-            ],
-            "install_type": "git-clone",
-            "description": "SDLI (Stable Diffusion Latents in Imagefile) is file format, that contains latents and lossy (decoded) image. Detailed format is written at [a/SDLI Tools](https://github.com/MitoshiroPJ/sdli_tools)."
-        },
-        {
-            "author": "BigStationW",
-            "title": "ComfyUi-Load-Image-And-Display-Prompt-Metadata",
-            "reference": "https://github.com/BigStationW/ComfyUi-Load-Image-And-Display-Prompt-Metadata",
-            "files": [
-                "https://github.com/BigStationW/ComfyUi-Load-Image-And-Display-Prompt-Metadata"
-            ],
-            "install_type": "git-clone",
-            "description": "This node displays the positive and negative prompts of a loaded ComfyUi image."
-        },
-        {
-            "author": "pvlprk",
-            "title": "ComfyUI Assistant Node",
-            "reference": "https://github.com/pvlprk/comfyui-pvl-api-nodes",
-            "files": [
-                "https://github.com/pvlprk/comfyui-pvl-api-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node that integrates with the OpenAI Assistants API."
         }
     ]
 }

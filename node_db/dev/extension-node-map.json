@@ -951,12 +951,10 @@
     ],
     "https://github.com/BrettMedia/comfyui-bhtools": [
         [
-            "CinematicSceneDirectorBHTools",
-            "CinematicSceneDirector|BHTools",
-            "EndOfWorkflowClearingNodeBHTools",
-            "EndOfWorkflowClearingNodeBHTools|BHTools",
+            "CinematicSceneDirectorTools",
+            "EndOfWorkflowClearingBHTools",
             "PromptInferenceBHTools",
-            "PromptInferenceBHTools|BHTools"
+            "SaveImageVideoBHTools"
         ],
         {
             "title_aux": "comfyui-bhtools [WIP]"
@@ -1577,14 +1575,6 @@
         ],
         {
             "title_aux": "GH Tools for ComfyUI"
-        }
-    ],
-    "https://github.com/Haoming02/comfyui-resharpen": [
-        [
-            "Resharpen"
-        ],
-        {
-            "title_aux": "ComfyUI ReSharpen [WIP]"
         }
     ],
     "https://github.com/Hapseleg/ComfyUI-This-n-That": [
@@ -7777,6 +7767,8 @@
     "https://github.com/przewodo/ComfyUI-Przewodo-Utils": [
         [
             "przewodo CompareNumbersToCombo",
+            "przewodo FloatIfElse",
+            "przewodo HasInputvalue",
             "przewodo ImageScaleFactor",
             "przewodo ImageSizer",
             "przewodo IsInputDisabled",
@@ -8974,23 +8966,6 @@
         ],
         {
             "title_aux": "ComfyUI-AudioSuiteAdvanced [WIP]"
-        }
-    ],
-    "https://github.com/whmc76/ComfyUI-LongTextTTSSuite": [
-        [
-            "AudioConcatenateFree",
-            "AudioSeparation",
-            "CharacterVocalExtractor",
-            "CharacterVocalExtractorMultiTrack",
-            "CombineAudioFromList",
-            "IndexSelectFromList",
-            "ListLength",
-            "LongTextSplitter",
-            "MakeAudioBatch",
-            "SubtitleFileLoader"
-        ],
-        {
-            "title_aux": "ComfyUI-LongTextTTSSuite [WIP]"
         }
     ],
     "https://github.com/wildminder/ComfyUI-MagCache": [
