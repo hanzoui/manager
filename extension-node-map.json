@@ -328,9 +328,9 @@
             "ImageBlendModesByAlpha",
             "ImageBlendModesByCSS",
             "ImageCropByMaskAlpha",
-            "ImageCropEdge",
             "ImageCropSquare",
             "ImageCropWithBBoxMask",
+            "ImageEdgeCropPad",
             "ImageEditStitch",
             "ImageGetSize",
             "ImageHLFreqCombine",
@@ -362,6 +362,7 @@
             "StringCoordinateToBBoxes",
             "TextCustomExtract",
             "TextFormat",
+            "TextJoinMulti",
             "TextLoadLocal"
         ],
         {
@@ -4468,6 +4469,12 @@
     "https://github.com/Duanyll/duanyll_nodepack": [
         [
             "FluxKontextTrue3DPE",
+            "HfCheckpointLoader",
+            "HfDiffusionModelLoader",
+            "HfDualClipLoader",
+            "HfLoraLoader",
+            "HfLoraLoaderModelOnly",
+            "HfVaeLoader",
             "ImageDifferenceCmap",
             "PhotoDoddleConditioning"
         ],
@@ -12202,7 +12209,17 @@
             "Basic data handling: StringUnescape",
             "Basic data handling: StringUpper",
             "Basic data handling: StringZfill",
-            "Basic data handling: SwitchCase"
+            "Basic data handling: SwitchCase",
+            "Basic data handling: TimeAddDelta",
+            "Basic data handling: TimeDelta",
+            "Basic data handling: TimeDifference",
+            "Basic data handling: TimeExtract",
+            "Basic data handling: TimeFormat",
+            "Basic data handling: TimeNow",
+            "Basic data handling: TimeParse",
+            "Basic data handling: TimeSubtractDelta",
+            "Basic data handling: TimeToUnix",
+            "Basic data handling: UnixToTime"
         ],
         {
             "title_aux": "Basic data handling"
@@ -19832,6 +19849,7 @@
             "BasicScheduler",
             "BetaSamplingScheduler",
             "CFGGuider",
+            "CFGNorm",
             "CFGZeroStar",
             "CLIPAttentionMultiply",
             "CLIPLoader",

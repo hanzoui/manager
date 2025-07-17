@@ -27000,6 +27000,16 @@
             "description": "A ComfyUI custom node that allows you to load images directly from URLs or local file paths. This node provides a convenient way to import images into your ComfyUI workflows without manually downloading them first."
         },
         {
+            "author": "papcorns",
+            "title": "Papcorns ComfyUI Custom Nodes",
+            "reference": "https://github.com/papcorns/Papcorns-Comfyui-Custom-Nodes",
+            "files": [
+                "https://github.com/papcorns/Papcorns-Comfyui-Custom-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI that enhances image processing and cloud storage capabilities."
+        },
+        {
             "author": "gabe-init",
             "title": "ComfyUI OpenRouter Node",
             "reference": "https://github.com/gabe-init/ComfyUI-Openrouter_node",
@@ -27765,7 +27775,7 @@
                 "https://github.com/Erehr/ComfyUI-Eagle-Autosend"
             ],
             "install_type": "git-clone",
-            "description": "Tired of manually saving and organizing your generated images? This custom node for ComfyUI automates the entire process. Any image saved during your workflow is instantly sent to your Eagle library, intelligently tagged and annotated for effortless organization."
+            "description": "A seamless, node-independent way to automatically send your ComfyUI generations to Eagle, complete with full metadata annotation and tags."
         },
         {
             "author": "xiaowc",
@@ -29422,14 +29432,14 @@
             "description": "A Wrapper and a set of Custom Nodes for using RenderFormer as a 3d Environment in ComfyUI."
         },
         {
-            "author": "Rocky-Lee-001",
-            "title": "ComfyUI_SZtools",
-            "reference": "https://github.com/Rocky-Lee-001/ComfyUI_SZtools",
+            "author": "Aero-Ex",
+            "title": "ComfyUI Vision LLM Analyzer Node",
+            "reference": "https://github.com/Aero-Ex/ComfyUI-Vision-LLM-Analyzer",
             "files": [
-                "https://github.com/Rocky-Lee-001/ComfyUI_SZtools"
+                "https://github.com/Aero-Ex/ComfyUI-Vision-LLM-Analyzer"
             ],
             "install_type": "git-clone",
-            "description": "This project is the comfyui implementation of ComfyUI_SZtools, a labeling and naming tool developed for Kontext's local training package T2ITrainer."
+            "description": "This repository contains a powerful and versatile custom node for ComfyUI that seamlessly integrates with OpenAI-compatible Large Language Models (LLMs), including multimodal (vision-enabled) models like GPT-4o.\nThis single node allows you to perform both text generation and image analysis, making it an essential tool for advanced prompt engineering and creative automation."
         },
 
 
@@ -29852,16 +29862,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Erehr",
-            "title": "ComfyUI-Eagle-Autosend",
-            "reference": "https://github.com/Erehr/ComfyUI-Eagle-Autosend",
-            "files": [
-                "https://github.com/Erehr/ComfyUI-Eagle-Autosend"
-            ],
-            "install_type": "git-clone",
-            "description": "A seamless, node-independent way to automatically send your ComfyUI generations to Eagle, complete with full metadata annotation and tags."
         }
     ]
 }

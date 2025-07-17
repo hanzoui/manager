@@ -154,9 +154,9 @@
             "ImageBlendModesByAlpha",
             "ImageBlendModesByCSS",
             "ImageCropByMaskAlpha",
-            "ImageCropEdge",
             "ImageCropSquare",
             "ImageCropWithBBoxMask",
+            "ImageEdgeCropPad",
             "ImageEditStitch",
             "ImageGetSize",
             "ImageHLFreqCombine",
@@ -188,6 +188,7 @@
             "StringCoordinateToBBoxes",
             "TextCustomExtract",
             "TextFormat",
+            "TextJoinMulti",
             "TextLoadLocal"
         ],
         {
@@ -4250,6 +4251,7 @@
     ],
     "https://github.com/chetusangolgi/Comfyui-supabase": [
         [
+            "SupabaseAudioUploader",
             "SupabaseImageUploader",
             "SupabaseTableWatcherNode"
         ],
@@ -4320,6 +4322,7 @@
             "BasicScheduler",
             "BetaSamplingScheduler",
             "CFGGuider",
+            "CFGNorm",
             "CFGZeroStar",
             "CLIPAttentionMultiply",
             "CLIPLoader",
@@ -7775,6 +7778,7 @@
     ],
     "https://github.com/przewodo/ComfyUI-Przewodo-Utils": [
         [
+            "przewodo AppendToAnyList",
             "przewodo BatchImagesFromPath",
             "przewodo CompareNumbersToCombo",
             "przewodo FloatIfElse",
