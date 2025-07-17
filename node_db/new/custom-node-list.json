@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "Rocky-Lee-001",
+            "title": "ComfyUI_SZtools",
+            "reference": "https://github.com/Rocky-Lee-001/ComfyUI_SZtools",
+            "files": [
+                "https://github.com/Rocky-Lee-001/ComfyUI_SZtools"
+            ],
+            "install_type": "git-clone",
+            "description": "This project is the comfyui implementation of ComfyUI_SZtools, a labeling and naming tool developed for Kontext's local training package T2ITrainer."
+        },
+        {
+            "author": "paulh4x",
+            "title": "ComfyUI_PHRenderFormerWrapper",
+            "reference": "https://github.com/paulh4x/ComfyUI_PHRenderFormerWrapper",
+            "files": [
+                "https://github.com/paulh4x/ComfyUI_PHRenderFormerWrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "A Wrapper and a set of Custom Nodes for using RenderFormer as a 3d Environment in ComfyUI."
+        },
+        {
+            "author": "seanjang990",
+            "title": "ComfyUI Document Auto Crop Node",
+            "reference": "https://github.com/seanjang990/comfyui-document-auto-crop",
+            "files": [
+                "https://github.com/seanjang990/comfyui-document-auto-crop"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI automatically crops a document by detecting edges, rotates it based on face orientation using MediaPipe, and adjusts it to a target aspect ratio (default 11:14)."
+        },
+        {
+            "author": "Assistant",
+            "title": "ComfyUI-NS-ManySliders",
+            "reference": "https://github.com/NakamuraShippo/ComfyUI-NS-Util",
+            "files": [
+                "https://github.com/NakamuraShippo/ComfyUI-NS-Util"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of nodes for ComfyUI. ex:A node for batch managing int, float, and string parameters with presets"
+        },
+        {
+            "author": "cjj198909",
+            "title": "OpenAI/Azure OpenAI Image API",
+            "reference": "https://github.com/cjj198909/comfy_openai_image_api_azure",
+            "files": [
+                "https://github.com/cjj198909/comfy_openai_image_api_azure"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node that provides access to OpenAI's image generation and editing capabilities, including support for gpt-image-1 model with both OpenAI and Azure OpenAI providers."
+        },
+        {
             "author": "NyaFuP",
             "title": "NF Preview Selector",
             "reference": "https://github.com/NyaFuP/ComfyUI_Preview_Selector",
@@ -655,46 +705,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI node for Flux Kontext Pro and Max models from Replicate"
-        },
-        {
-            "author": "ptmaster",
-            "title": "Comfyui-PT-Keyframe-Camera",
-            "reference": "https://github.com/ptmaster/Comfyui-PT-Keyframe-Camera",
-            "files": [
-                "https://github.com/ptmaster/Comfyui-PT-Keyframe-Camera"
-            ],
-            "install_type": "git-clone",
-            "description": "The Comfyui-PT-Keyframe-Camera is a powerful tool designed to streamline the process of creating animations with keyframe cameras. It integrates seamlessly with existing workflows, allowing you to focus on your creativity without getting bogged down by technical details. This tool is perfect for animators, filmmakers, and anyone looking to add depth to their projects."
-        },
-        {
-            "author": "lonelyowl13",
-            "title": "Artist tag randomizer for comfyui",
-            "reference": "https://github.com/lonelyowl13/artist_randomizer",
-            "files": [
-                "https://github.com/lonelyowl13/artist_randomizer"
-            ],
-            "install_type": "git-clone",
-            "description": "A node for including random artists usernames to a prompt."
-        },
-        {
-            "author": "pictorialink",
-            "title": "ComfyUI-Qwen3-llama.cpp",
-            "reference": "https://github.com/pictorialink/ComfyUI-Qwen3-llama.cpp",
-            "files": [
-                "https://github.com/pictorialink/ComfyUI-Qwen3-llama.cpp"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for ComfyUI QWen3 8b running based on llama.cpp, which only support the CUDA framework and do not support MPS."
-        },
-        {
-            "author": "iacoposk8",
-            "title": "ComfyUI Fooocus Inpaint Wrapper",
-            "reference": "https://github.com/iacoposk8/ComfyUI-Fooocus-Inpaint-Wrapper",
-            "files": [
-                "https://github.com/iacoposk8/ComfyUI-Fooocus-Inpaint-Wrapper"
-            ],
-            "install_type": "git-clone",
-            "description": "A simple wrapper for Fooocus's inpainting code, designed to replicate its outstanding results. Future improvements for a more refined and lightweight version are planned."
         }
     ]
 }
