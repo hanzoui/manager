@@ -7270,9 +7270,9 @@
     ],
     "https://github.com/mr-krak3n/ComfyUI-Qwen": [
         [
-            "DeepSeekResponseParser",
-            "QwenLoader",
-            "QwenSampler"
+            "Qwen2_Chat_Zho",
+            "Qwen2_ModelLoader_Zho",
+            "Qwen2_Zho"
         ],
         {
             "title_aux": "ComfyUI-Qwen [CONFLICT]"
@@ -7758,9 +7758,9 @@
         ],
         {
             "author": "prabinpebam",
-            "description": "This node can take any input and use that to run a python script in ComfyUI",
-            "nickname": "AnyPython",
-            "title": "AnyPython v0.1",
+            "description": "This node can execute Python operations with user-confirmed risk management",
+            "nickname": "anyPython",
+            "title": "anyPython v0.0.3",
             "title_aux": "anyPython [UNSAFE]"
         }
     ],
