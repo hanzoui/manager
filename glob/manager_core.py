@@ -43,7 +43,7 @@ import manager_downloader
 from node_package import InstalledNodePackage
 
 
-version_code = [3, 34]
+version_code = [3, 34, 1]
 version_str = f"V{version_code[0]}.{version_code[1]}" + (f'.{version_code[2]}' if len(version_code) > 2 else '')
 
 
@@ -3111,6 +3111,11 @@ async def restore_snapshot(snapshot_path, git_helper_extras=None):
             info = yaml.load(snapshot_file, Loader=yaml.SafeLoader)
             info = info['custom_nodes']
 
+        if 'pips' in info and info['pips']:
+            pips = info['pips']
+        else:
+            pips = {}
+
         # for cnr restore
         cnr_info = info.get('cnr_custom_nodes')
         if cnr_info is not None:
@@ -3316,6 +3321,8 @@ async def restore_snapshot(snapshot_path, git_helper_extras=None):
         to_path = os.path.join(get_default_custom_nodes_path(), repo_name)
         unified_manager.repo_install(repo_url, to_path, instant_execution=True, no_deps=False, return_postinstall=False)
         cloned_repos.append(repo_name)
+
+    manager_util.restore_pip_snapshot(pips, git_helper_extras)
 
     # print summary
     for x in cloned_repos:
