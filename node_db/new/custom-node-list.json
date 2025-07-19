@@ -1,6 +1,19 @@
 {
     "custom_nodes": [
         {
+            "author": "StrawberryFist",
+            "title": "StrawberryFist VRAM Optimizer",
+            "reference": "https://github.com/strawberryPunch/vram_optimizer",
+            "files": [
+                "https://github.com/strawberryPunch/vram_optimizer"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive VRAM management tool for ComfyUI. Includes automatic cleanup and GPU monitoring.",
+            "nodename_pattern": "StFist",
+            "pip": ["GPUtil>=1.4.0"],
+            "tags": ["vram", "gpu", "optimizer", "monitoring"]
+        },
+        {
             "author": "Aero-Ex",
             "title": "ComfyUI Vision LLM Analyzer Node",
             "reference": "https://github.com/Aero-Ex/ComfyUI-Vision-LLM-Analyzer",
