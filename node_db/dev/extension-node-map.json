@@ -1288,6 +1288,14 @@
             "title_aux": "ComfyUI e621 booru Toolkit"
         }
     ],
+    "https://github.com/Dream-Pixels-Forge/ComfyUI-Mzikart-Player": [
+        [
+            "MzikartPlayerNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Mzikart-Player [WIP]"
+        }
+    ],
     "https://github.com/DreamsInAutumn/ComfyUI-Autumn-LLM-Nodes": [
         [
             "GeminiImageToPrompt",
@@ -2552,6 +2560,23 @@
             "title_aux": "Comfy UI Robe Nodes [UNSAFE]"
         }
     ],
+    "https://github.com/Rocky-Lee-001/ComfyUI_SZtools": [
+        [
+            "RSZImageTaggerSave",
+            "ShanZhuDepthVAEEncode",
+            "ShanZhuLoadImagesFromDirList",
+            "ShanZhuTextJoin",
+            "ShanZhuTextSaver",
+            "ShanzhuDepthVAEDecoder",
+            "ShanzhuLujingTIFSaver",
+            "ShanzhuTifSaver",
+            "ShanzhuVAEDecodeSmooth",
+            "TSZImageTaggerSave"
+        ],
+        {
+            "title_aux": "ComfyUI_SZtools"
+        }
+    ],
     "https://github.com/RoyKillington/miscomfy-nodes": [
         [
             "VeniceUpscale"
@@ -2869,6 +2894,7 @@
             "SDVN Flip Image",
             "SDVN GPT Image",
             "SDVN Gemini Flash 2 Image",
+            "SDVN Get Mask Size",
             "SDVN Google Imagen",
             "SDVN IC Lora Layout",
             "SDVN IC Lora Layout Crop",
@@ -2905,6 +2931,7 @@
             "SDVN Lora Download",
             "SDVN Lora info",
             "SDVN Mask Regions",
+            "SDVN Mask To Transparent Color",
             "SDVN Menu Option",
             "SDVN Merge Flux",
             "SDVN Merge SD1",
@@ -2912,6 +2939,8 @@
             "SDVN Metadata Check",
             "SDVN Model Merge",
             "SDVN Model info editor",
+            "SDVN Overlay Images",
+            "SDVN Overlay Mask Color Image",
             "SDVN Pipe In",
             "SDVN Pipe Out",
             "SDVN Pipe Out All",
@@ -3797,6 +3826,14 @@
             "title_aux": "ComfyUI-KLUT-DeepSeek-API [WIP]"
         }
     ],
+    "https://github.com/babydjac/comfyui-grok-ponyxl": [
+        [
+            "GrokPonyXLPrompter"
+        ],
+        {
+            "title_aux": "comfyui-grok-ponyxl [WIP]"
+        }
+    ],
     "https://github.com/backearth1/Comfyui-MiniMax-Video": [
         [
             "ImageToPrompt",
@@ -4191,8 +4228,11 @@
     ],
     "https://github.com/cesilk10/cesilk-comfyui-nodes": [
         [
-            "SaveAndUploadToS3",
-            "SdxlImageSizes"
+            "CESILK_OpenAIChat",
+            "CESILK_OpenAIImageBatchGenerator",
+            "CESILK_OpenAIImageDescriptionToTextfile",
+            "CESILK_SaveAndUploadToS3",
+            "CESILK_SdxlImageSizes"
         ],
         {
             "title_aux": "cesilk-comfyui-nodes"
@@ -4640,6 +4680,7 @@
             "SamplerLCMUpscale",
             "SamplerLMS",
             "SamplerSASolver",
+            "SamplingPercentToSigma",
             "SaveAnimatedPNG",
             "SaveAnimatedWEBP",
             "SaveAudio",
@@ -5059,6 +5100,20 @@
             "title_aux": "ComfyUI-augmentation"
         }
     ],
+    "https://github.com/enlo/ComfyUI-CheckpointSettings": [
+        [
+            "CheckPointSettingsListMerger",
+            "CheckPointSettingsPack",
+            "CheckPointSettingsRandomSelector",
+            "CheckPointSettingsTie",
+            "CheckPointSettingsToFilename",
+            "CheckPointSettingsUnpack",
+            "RandomChoiceNumber"
+        ],
+        {
+            "title_aux": "ComfyUI-CheckpointSettings"
+        }
+    ],
     "https://github.com/ericbeyer/guidance_interval": [
         [
             "Guidance Interval"
@@ -5461,6 +5516,14 @@
         ],
         {
             "title_aux": "ComfyUI_srt2speech [WIP]"
+        }
+    ],
+    "https://github.com/gorillaframeai/GF_pixtral_node": [
+        [
+            "GF_MistralPixtralNode"
+        ],
+        {
+            "title_aux": "GF_pixtral_node [WIP]"
         }
     ],
     "https://github.com/grimli333/ComfyUI_Grim": [
@@ -7791,7 +7854,8 @@
             "przewodo SwapImageComparison",
             "przewodo WanFirstLastFirstFrameToVideo",
             "przewodo WanGetMaxImageResolutionByAspectRatio",
-            "przewodo WanImageToVideoAdvancedSampler"
+            "przewodo WanImageToVideoAdvancedSampler",
+            "przewodo WanModelTypeSelector"
         ],
         {
             "title_aux": "ComfyUI-Przewodo-Utils [WIP]"
@@ -8176,6 +8240,27 @@
             "title_aux": "comfyui-creative-nodes"
         }
     ],
+    "https://github.com/sh570655308/Comfyui-RayNodes": [
+        [
+            "BorderMask",
+            "BracketedTagIndexMerger",
+            "Florence2TagProcessor",
+            "GrabberTagProcessor",
+            "ImageListConverter",
+            "ImageResizer",
+            "ImageSelector",
+            "MaskApplierAndCombiner",
+            "MaskBlackener",
+            "MaskProcessor",
+            "SaturationAdjuster",
+            "SaveImageWebsocket",
+            "TagArrayToLines",
+            "TagIndexMerger"
+        ],
+        {
+            "title_aux": "Comfyui-RayNodes [WIP]"
+        }
+    ],
     "https://github.com/shadowcz007/ComfyUI-PuLID-Test": [
         [
             "ApplyPulid",
@@ -8420,6 +8505,7 @@
             "ContextPipeIn",
             "ContextPipeOut",
             "ContextPipeReroute",
+            "DataFileLoader",
             "ImageGridCropper",
             "PathPipeIn",
             "PathPipeOut",
@@ -8948,6 +9034,7 @@
     ],
     "https://github.com/wasilone11/comfyui-sync-translate-node": [
         [
+            "SyncTranslateInputNode",
             "SyncTranslateNode"
         ],
         {
@@ -8995,6 +9082,7 @@
             "ListLength",
             "LongTextSplitter",
             "MakeAudioBatch",
+            "MultiSpeakerSpeechToText",
             "SubtitleFileLoader"
         ],
         {
