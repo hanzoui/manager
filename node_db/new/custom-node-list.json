@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "cedarconnor",
+            "title": "ComfyUI LatLong - Equirectangular Image Processing Nodes",
+            "reference": "https://github.com/cedarconnor/comfyui-LatLong",
+            "files": [
+                "https://github.com/cedarconnor/comfyui-LatLong"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced equirectangular (360°) image processing nodes for ComfyUI, enabling precise rotation, horizon adjustment, and specialized cropping operations for panoramic images."
+        },
+        {
+            "author": "BiffMunky",
+            "title": "Endless 🌊✨ Buttons",
+            "reference": "https://github.com/tusharbhutt/Endless-Buttons",
+            "files": [
+                "https://github.com/tusharbhutt/Endless-Buttons"
+            ],
+            "install_type": "git-clone",
+            "description": "A small set of JavaScript files I created for myself. The scripts provide Quality of Life enhancements to the ComfyUI interface, such as changing fonts and font sizes."
+        },
+        {
+            "author": "thalismind",
+            "title": "ComfyUI LoadImageWithFilename",
+            "reference": "https://github.com/thalismind/ComfyUI-LoadImageWithFilename",
+            "files": [
+                "https://github.com/thalismind/ComfyUI-LoadImageWithFilename" 
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node extends ComfyUI's image loading functionality with filename output and folder loading capabilities."
+        },
+        {
             "author": "Edoardo Carmignani",
             "title": "ComfyUI-ExtraLinks",
             "id": "extralinks",
@@ -660,36 +690,6 @@
             ],
             "install_type": "git-clone",
             "description": "A curated collection of reusable ComfyUI nodes developed by TGB. These sidecodes encapsulate key breakthroughs in model sampling, noise scheduling, and image refinement for enhanced stable diffusion workflows."
-        },
-        {
-            "author": "gmorks",
-            "title": "ComfyUI-Animagine-Prompt",
-            "reference": "https://github.com/gmorks/ComfyUI-Animagine-Prompt",
-            "files": [
-                "https://github.com/gmorks/ComfyUI-Animagine-Prompt"
-             ],
-             "install_type": "git-clone",
-             "description": "Comfy UI node to prompt build for https://huggingface.co/cagliostrolab/animagine-xl-4.0 model"
-        },
-        {
-            "author": "Ben Staniford",
-            "title": "ComfyUI Load Most Recent Image Node",
-            "reference": "https://github.com/benstaniford/comfy-load-last-image",
-            "files": [
-                "https://github.com/benstaniford/comfy-load-last-image"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node designed to load the most recent image in a folder"
-        },
-        {
-            "author": "negaga53",
-            "title": "ComfyUI Universal Image Loader",
-            "reference": "https://github.com/negaga53/comfyui-imgloader",
-            "files": [
-                "https://github.com/negaga53/comfyui-imgloader"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful and versatile custom node for ComfyUI that provides multiple ways to load images into your workflows."
         }
     ]
 }

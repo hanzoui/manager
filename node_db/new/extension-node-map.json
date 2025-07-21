@@ -16168,6 +16168,9 @@
             "Sage_SetText",
             "Sage_SixLoraStack",
             "Sage_TextRandomLine",
+            "Sage_TextSelectLine",
+            "Sage_TextSubstitution",
+            "Sage_TextSwitch",
             "Sage_TextWeight",
             "Sage_TilingInfo",
             "Sage_TrainingCaptionsToConditioning",
@@ -17647,6 +17650,16 @@
             "title_aux": "comfyui-fitsize"
         }
     ],
+    "https://github.com/brucew4yn3rp/ComfyUI_SelectiveMetadata": [
+        [
+            "Multiline String",
+            "Save Image (Selective Metadata)",
+            "SaveImage"
+        ],
+        {
+            "title_aux": "Save Image with Selective Metadata"
+        }
+    ],
     "https://github.com/bruefire/ComfyUI-SeqImageLoader": [
         [
             "VFrame Loader With Mask Editor",
@@ -18258,6 +18271,17 @@
         ],
         {
             "title_aux": "Text Node With Comments (@cdxoo)"
+        }
+    ],
+    "https://github.com/cedarconnor/comfyui-LatLong": [
+        [
+            "Equirectangular Crop 180",
+            "Equirectangular Crop Square",
+            "Equirectangular Processor",
+            "Equirectangular Rotate"
+        ],
+        {
+            "title_aux": "ComfyUI LatLong - Equirectangular Image Processing Nodes"
         }
     ],
     "https://github.com/celoron/ComfyUI-VisualQueryTemplate": [
@@ -35027,8 +35051,7 @@
     ],
     "https://github.com/shingo1228/ComfyUI-send-eagle-slim": [
         [
-            "Send Eagle with text",
-            "Send Webp Image to Eagle"
+            "Send Image to Eagle"
         ],
         {
             "title_aux": "ComfyUI-send-Eagle(slim)"
@@ -35992,71 +36015,6 @@
             "title_aux": "ComfyUI-HQ-Image-Save"
         }
     ],
-    "https://github.com/spacepxl/ComfyUI-Image-Filters": [
-        [
-            "AdainFilterLatent",
-            "AdainImage",
-            "AdainLatent",
-            "AlphaClean",
-            "AlphaMatte",
-            "BatchAlign",
-            "BatchAverageImage",
-            "BatchAverageUnJittered",
-            "BatchNormalizeImage",
-            "BatchNormalizeLatent",
-            "BetterFilmGrain",
-            "BilateralFilterImage",
-            "BlurImageFast",
-            "BlurMaskFast",
-            "ClampImage",
-            "ClampOutliers",
-            "ColorMatchImage",
-            "ConditioningSubtract",
-            "ConvertNormals",
-            "CustomNoise",
-            "DepthToNormals",
-            "DifferenceChecker",
-            "DilateErodeMask",
-            "EnhanceDetail",
-            "ExposureAdjust",
-            "ExtractNFrames",
-            "FrequencyCombine",
-            "FrequencySeparate",
-            "GameOfLife",
-            "GuidedFilterAlpha",
-            "GuidedFilterImage",
-            "Hunyuan3Dv2LatentUpscaleBy",
-            "ImageConstant",
-            "ImageConstantHSV",
-            "InpaintConditionApply",
-            "InpaintConditionEncode",
-            "InstructPixToPixConditioningAdvanced",
-            "JitterImage",
-            "Keyer",
-            "LatentNormalizeShuffle",
-            "LatentStats",
-            "MedianFilterImage",
-            "MergeFramesByIndex",
-            "ModelTest",
-            "NormalMapSimple",
-            "OffsetLatentImage",
-            "PackVideoMask",
-            "PrintSigmas",
-            "RandnLikeLatent",
-            "RelightSimple",
-            "RemapRange",
-            "RestoreDetail",
-            "SharpenFilterLatent",
-            "ShuffleChannels",
-            "Tonemap",
-            "UnJitterImage",
-            "UnTonemap",
-            "VisualizeLatents"
-        ],
-        {
-            "title_aux": "ComfyUI-Image-Filters"
-        }
-    ],
     "https://github.com/spacepxl/ComfyUI-LossTesting": [
         [
             "Measure Timestep Loss"
@@ -36712,6 +36670,16 @@
         ],
         {
             "title_aux": "ComfyUI Blend Image Nodes"
+        }
+    ],
+    "https://github.com/thalismind/ComfyUI-LoadImageWithFilename": [
+        [
+            "LoadImageFolder",
+            "LoadImageWithFilename",
+            "SaveImageWithFilename"
+        ],
+        {
+            "title_aux": "ComfyUI LoadImageWithFilename"
         }
     ],
     "https://github.com/theAdamColton/ComfyUI-texflow-extension": [

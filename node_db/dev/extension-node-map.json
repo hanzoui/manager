@@ -312,6 +312,7 @@
             "PDIMAGE_LongerSize",
             "PDIMAGE_Rename",
             "PDIMAGE_SAVE_PATH_V2",
+            "PDIMAGE_SAVE_PATH_V3",
             "PDImageConcante",
             "PDImageResize",
             "PDImageResizeV2",
@@ -319,21 +320,24 @@
             "PDJSON_Group",
             "PDStringConcate",
             "PDStringInput",
-            "PD_CustomImageProcessor",
+            "PDTEXT_SAVE_PATH_V1",
+            "PDTEXT_SAVE_PATH_V2",
+            "PDTEXT_SAVE_PATH_V3",
+            "PD_BatchCropBlackBorder",
+            "PD_CropBorder",
+            "PD_GetImageRatio",
             "PD_GetImageSize",
-            "PD_ImageBatchSplitter",
-            "PD_ImageInfo",
             "PD_Image_Crop_Location",
             "PD_Image_Rotate_v1",
             "PD_Image_centerCrop",
             "PD_MASK_SELECTION",
             "PD_RemoveColorWords",
-            "PD_SimpleTest",
+            "PD_ShowText",
             "PD_Text Overlay Node",
             "PD_imagesave_path",
             "PD_random_prompt",
             "PDimage_corp_v1",
-            "PDstring_Save",
+            "PDimage_corp_v2",
             "mask_edge_selector"
         ],
         {
@@ -1253,6 +1257,7 @@
             "DonutFillerModel",
             "DonutHotReload",
             "DonutLoRAStack",
+            "DonutMultiModelSampler",
             "DonutSDXLTeaCache",
             "DonutSDXLTeaCacheStats",
             "DonutSampler",
@@ -2666,7 +2671,7 @@
             "title_aux": "HiDreamSampler for ComfyUI [WIP]"
         }
     ],
-    "https://github.com/SaulQiu/comfyui-saul-plugin": [
+    "https://github.com/SaulQcy/comfy_saul_plugin": [
         [
             "Blend Images",
             "Compute Keypoints Similarity",
@@ -4117,6 +4122,14 @@
             "title_aux": "Bmad Nodes [UNSAFE]"
         }
     ],
+    "https://github.com/boricuapab/ComfyUI-Bori-KontextPresets": [
+        [
+            "Bori Kontext Presets"
+        ],
+        {
+            "title_aux": "ComfyUI-Bori-KontextPresets [WIP]"
+        }
+    ],
     "https://github.com/brace-great/comfyui-eim": [
         [
             "EncryptImage"
@@ -4867,6 +4880,19 @@
         ],
         {
             "title_aux": "deepseek_prompt_generator_comfyui [WIP]"
+        }
+    ],
+    "https://github.com/concarne000/ComfyUI-Stacker": [
+        [
+            "StackPopImage",
+            "StackPopInt",
+            "StackPopString",
+            "StackPushImage",
+            "StackPushInt",
+            "StackPushString"
+        ],
+        {
+            "title_aux": "ComfyUI-Stacker [WIP]"
         }
     ],
     "https://github.com/corbin-hayden13/ComfyUI-Better-Dimensions": [
@@ -7844,6 +7870,7 @@
             "przewodo AppendToAnyList",
             "przewodo BatchImagesFromPath",
             "przewodo CompareNumbersToCombo",
+            "przewodo DebugLatentShapes",
             "przewodo FloatIfElse",
             "przewodo HasInputvalue",
             "przewodo ImageScaleFactor",
@@ -7855,7 +7882,8 @@
             "przewodo WanFirstLastFirstFrameToVideo",
             "przewodo WanGetMaxImageResolutionByAspectRatio",
             "przewodo WanImageToVideoAdvancedSampler",
-            "przewodo WanModelTypeSelector"
+            "przewodo WanModelTypeSelector",
+            "przewodo WanVideoEnhanceAVideo"
         ],
         {
             "title_aux": "ComfyUI-Przewodo-Utils [WIP]"
@@ -8940,6 +8968,7 @@
             "Hy3D21MultiViewsMeshGenerator",
             "Hy3D21PostprocessMesh",
             "Hy3D21ResizeImages",
+            "Hy3D21UseMultiViews",
             "Hy3D21VAEConfig",
             "Hy3D21VAEDecode",
             "Hy3D21VAELoader",
@@ -9420,6 +9449,7 @@
             "Text2AutioEdgeTts",
             "TextListSelelct",
             "VideoAddAudio",
+            "VideoExtractAudio",
             "VideoFaceFusion",
             "VideoPath",
             "WaitImagSelector",
