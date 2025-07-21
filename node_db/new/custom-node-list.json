@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "vaishnav-vn",
+            "title": "va1",
+            "name": "Pad Image by Aspect",
+            "reference": "https://github.com/vaishnav-vn/va1",
+            "files": [
+                "https://github.com/vaishnav-vn/va1"
+            ],
+            "install_type": "git-clone",
+            "description": "repo has Custon node designed to expand, pad, and mask images to fixed or randomized aspect ratios with precise spatial and scale control — engineered for outpainting, compositional layout, and creative canvas expansion. "
+        },
+        {
             "author": "cedarconnor",
             "title": "ComfyUI LatLong - Equirectangular Image Processing Nodes",
             "reference": "https://github.com/cedarconnor/comfyui-LatLong",
@@ -680,16 +691,6 @@
             ],
             "install_type": "git-clone",
             "description": "Contains ImageSBSConverter node to convert an image into a side-by-side image."
-        },
-        {
-            "author": "Ltamann",
-            "title": "TBG’s ComfyUI Development Takeaways",
-            "reference": "https://github.com/Ltamann/ComfyUI-TBG-Takeaways",
-            "files": [
-                "https://github.com/Ltamann/ComfyUI-TBG-Takeaways"
-            ],
-            "install_type": "git-clone",
-            "description": "A curated collection of reusable ComfyUI nodes developed by TGB. These sidecodes encapsulate key breakthroughs in model sampling, noise scheduling, and image refinement for enhanced stable diffusion workflows."
         }
     ]
 }

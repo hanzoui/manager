@@ -6344,6 +6344,9 @@
     ],
     "https://github.com/Icyman86/ComfyUI_AnimeCharacterSelect": [
         [
+            "ActionPromptNode",
+            "CharacterPromptNode",
+            "CombinePromptStringsNode",
             "EnhancedCharacterPromptNode",
             "MinimalCharacterActionPrompt"
         ],
@@ -13625,10 +13628,13 @@
             "VrchAudioGenresNode",
             "VrchAudioRecorderNode",
             "VrchAudioSaverNode",
+            "VrchAudioVisualizerNode",
             "VrchAudioWebViewerNode",
+            "VrchBPMDetectorNode",
             "VrchBooleanKeyControlNode",
             "VrchChannelOSCControlNode",
             "VrchChannelX4OSCControlNode",
+            "VrchDelayNode",
             "VrchDelayOSCControlNode",
             "VrchFloatKeyControlNode",
             "VrchFloatOSCControlNode",
@@ -13641,6 +13647,8 @@
             "VrchImageSaverNode",
             "VrchImageSwitchOSCControlNode",
             "VrchImageWebSocketChannelLoaderNode",
+            "VrchImageWebSocketSettingsNode",
+            "VrchImageWebSocketSimpleWebViewerNode",
             "VrchImageWebSocketWebViewerNode",
             "VrchImageWebViewerNode",
             "VrchInstantQueueKeyControlNode",
@@ -13654,6 +13662,7 @@
             "VrchMidiDeviceLoaderNode",
             "VrchModelWebViewerNode",
             "VrchOSCControlSettingsNode",
+            "VrchQRCodeNode",
             "VrchSwitchOSCControlNode",
             "VrchTextConcatOSCControlNode",
             "VrchTextKeyControlNode",
@@ -15420,6 +15429,7 @@
             "CogVideoXFunT2VSampler",
             "CogVideoXFunV2VSampler",
             "CreateTrajectoryBasedOnKJNodes",
+            "FunCompile",
             "FunRiflex",
             "FunTextBox",
             "ImageMaximumNode",
@@ -16801,6 +16811,7 @@
     "https://github.com/bbaudio-2025/ComfyUI-SuperUltimateVaceTools": [
         [
             "CustomCropArea",
+            "CustomRefineOption",
             "RegionalBatchPrompt",
             "SuperUltimateVACEUpscale",
             "VACEControlImageCombine",
@@ -27847,6 +27858,7 @@
             "WanVideoSLG",
             "WanVideoSampler",
             "WanVideoSetBlockSwap",
+            "WanVideoSetLoRAs",
             "WanVideoSetRadialAttention",
             "WanVideoTeaCache",
             "WanVideoTextEmbedBridge",
@@ -33329,6 +33341,7 @@
             "PVL Call OpenAI Assistant",
             "PVL ComfyDeploy API Caller",
             "PVL KONTEXT MAX",
+            "PVLCheckIfConnected",
             "PvlKontextMax"
         ],
         {
@@ -36065,16 +36078,16 @@
     ],
     "https://github.com/spawner1145/comfyui-aichat": [
         [
-            "GeminiApiLoader_Zho",
-            "GeminiChat_Zho",
-            "GeminiFileUploader_Zho",
-            "GeminiImageEncoder_Zho",
-            "GeminiTextBlock_Zho",
-            "OpenAIApiLoader_Zho",
-            "OpenAIChat_Zho",
-            "OpenAIFileUploader_Zho",
-            "OpenAIImageEncoder_Zho",
-            "OpenAITextBlock_Zho"
+            "GeminiApiLoader",
+            "GeminiChat",
+            "GeminiFileUploader",
+            "GeminiImageEncoder",
+            "GeminiTextBlock",
+            "OpenAIApiLoader",
+            "OpenAIChat",
+            "OpenAIFileUploader",
+            "OpenAIImageEncoder",
+            "OpenAITextBlock"
         ],
         {
             "title_aux": "comfyui-aichat"
@@ -36674,6 +36687,7 @@
     ],
     "https://github.com/thalismind/ComfyUI-LoadImageWithFilename": [
         [
+            "CropImageByMask",
             "LoadImageFolder",
             "LoadImageWithFilename",
             "SaveImageWithFilename"
@@ -37405,6 +37419,14 @@
         ],
         {
             "title_aux": "ComfyUI-ExtendIPAdapterClipVision"
+        }
+    ],
+    "https://github.com/vaishnav-vn/va1": [
+        [
+            "RandomAspectRatioMask"
+        ],
+        {
+            "title_aux": "va1"
         }
     ],
     "https://github.com/valofey/Openrouter-Node": [
