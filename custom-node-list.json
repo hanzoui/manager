@@ -13895,6 +13895,16 @@
             "description": "Fix banding artifacts by re-sampling the latent with a low denoise strength."
         },
         {
+            "author": "tritant",
+            "title": "Layers System",
+            "reference": "https://github.com/tritant/ComfyUI_Layers_Utility",
+            "files": [
+                "https://github.com/tritant/ComfyUI_Layers_Utility"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI provides a powerful and flexible dynamic layering system, similar to what you would find in image editing software like Photoshop."
+        },
+        {
             "author": "metncelik",
             "title": "comfyui_met_suite",
             "reference": "https://github.com/metncelik/comfyui_met_suite",
@@ -23175,7 +23185,7 @@
                 "https://github.com/BlueprintCoding/ComfyUI_AIDocsClinicalTools"
             ],
             "install_type": "git-clone",
-            "description": "Nodes: Multi Int and Multi Text; allows for the creation of multiple int and multiple string storage and output from a single node. Multi Float coming soon."
+            "description": "Nodes: Multi Int and Multi Text; allows for the creation of multiple int, floats and string storage and output from a single node."
         },
         {
             "author": "Mohammadreza Mohseni",
@@ -27527,11 +27537,21 @@
             "description": "This is a node that outputs tracking results of a grid or specified points using CoTracker. It can be directly connected to the WanVideo ATI Tracks Node."
         },
         {
-            "author": "s9roll7",
+            "author": "set-soft",
             "title": "Audio Batch",
             "reference": "https://github.com/set-soft/ComfyUI-AudioBatch",
             "files": [
                 "https://github.com/set-soft/ComfyUI-AudioBatch"
+            ],
+            "install_type": "git-clone",
+            "description": "Audio batch creation, extraction, information, resample, mono and stereo conversion.\nAlso cut, concatenate, blend (mix) and de/normalize. Join/split channels (stereo).\nSignal generator (`sine`, `square`, `sawtooth`, `triangle`, `sweep`, `noise`).\nMusical note to frequency.\nAudio downloader for quick workflows which downloads its example data."
+        },
+        {
+            "author": "set-soft",
+            "title": "Image Misc",
+            "reference": "https://github.com/set-soft/ComfyUI-ImageMisc",
+            "files": [
+                "https://github.com/set-soft/ComfyUI-ImageMisc"
             ],
             "install_type": "git-clone",
             "description": "Audio batch creation, extraction, resample, mono and stereo conversion."
@@ -29392,6 +29412,16 @@
             "description": "QoL nodes for semi-automatic calculation of the best (most optimal) sampling resolution \n• compatible with ANY model (from now or the future), \n• accounting for upscale... \n• ...and pixel-step."
         },
         {
+            "author": "lex-drl",
+            "title": "String Constructor (Text-Formatting)",
+            "reference": "https://github.com/Lex-DRL/ComfyUI-StringConstructor",
+            "files": [
+                "https://github.com/Lex-DRL/ComfyUI-StringConstructor"
+            ],
+            "install_type": "git-clone",
+            "description": "Composing prompt variants from the same text pieces with ease:\n• Build your \"library\" (dictionary) of named text chunks (sub-strings) to use it across the entire workflow.\n• Compile these snippets into different prompts in-place - with just one string formatting node.\n• Freely update the dictionary down the line - get different prompts.\n• Reference text chunks within each other to build dependent hierarchies of less/more detailed descriptions.\n• A real life-saver for regional prompting (aka area composition)."
+        },
+        {
             "author": "baikong",
             "title": "blender-in-comfyui",
             "reference": "https://github.com/JayLyu/blender-in-comfyui",
@@ -29616,6 +29646,26 @@
             ],
             "install_type": "git-clone",
             "description": "repo has Custon node designed to expand, pad, and mask images to fixed or randomized aspect ratios with precise spatial and scale control — engineered for outpainting, compositional layout, and creative canvas expansion. "
+        },
+        {
+            "author": "wawahuy",
+            "title": "ComfyUI HTTP - REST API Nodes",
+            "reference": "https://github.com/wawahuy/ComfyUI-HTTP",
+            "files": [
+                "https://github.com/wawahuy/ComfyUI-HTTP"
+            ],
+            "install_type": "git-clone",
+            "description": "Powerful REST API nodes for ComfyUI that enable seamless HTTP/REST integration into your workflows."
+        },
+        {
+            "author": "watarika",
+            "title": "ComfyUI-SendToEagle-w-Metadata",
+            "reference": "https://github.com/watarika/ComfyUI-SendToEagle-w-Metadata",
+            "files": [
+                "https://github.com/watarika/ComfyUI-SendToEagle-w-Metadata"
+            ],
+            "install_type": "git-clone",
+            "description": "Sends images with metadata (PNGInfo) obtained from the input values of each node to Eagle. You can customize the tags to be registered in Eagle."
         },
 
 

@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "set-soft",
+            "title": "Image Misc",
+            "reference": "https://github.com/set-soft/ComfyUI-ImageMisc",
+            "files": [
+                "https://github.com/set-soft/ComfyUI-ImageMisc"
+            ],
+            "install_type": "git-clone",
+            "description": "Audio batch creation, extraction, resample, mono and stereo conversion."
+        },
+        {
+            "author": "tritant",
+            "title": "Layers System",
+            "reference": "https://github.com/tritant/ComfyUI_Layers_Utility",
+            "files": [
+                "https://github.com/tritant/ComfyUI_Layers_Utility"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI provides a powerful and flexible dynamic layering system, similar to what you would find in image editing software like Photoshop."
+        },
+        {
+            "author": "lex-drl",
+            "title": "String Constructor (Text-Formatting)",
+            "reference": "https://github.com/Lex-DRL/ComfyUI-StringConstructor",
+            "files": [
+                "https://github.com/Lex-DRL/ComfyUI-StringConstructor"
+            ],
+            "install_type": "git-clone",
+            "description": "Composing prompt variants from the same text pieces with ease:\n• Build your \"library\" (dictionary) of named text chunks (sub-strings) to use it across the entire workflow.\n• Compile these snippets into different prompts in-place - with just one string formatting node.\n• Freely update the dictionary down the line - get different prompts.\n• Reference text chunks within each other to build dependent hierarchies of less/more detailed descriptions.\n• A real life-saver for regional prompting (aka area composition)."
+        },
+        {
             "author": "vaishnav-vn",
             "title": "va1",
             "name": "Pad Image by Aspect",
@@ -10,6 +40,16 @@
             ],
             "install_type": "git-clone",
             "description": "repo has Custon node designed to expand, pad, and mask images to fixed or randomized aspect ratios with precise spatial and scale control — engineered for outpainting, compositional layout, and creative canvas expansion. "
+        },
+        {
+            "author": "wawahuy",
+            "title": "ComfyUI HTTP - REST API Nodes",
+            "reference": "https://github.com/wawahuy/ComfyUI-HTTP",
+            "files": [
+                "https://github.com/wawahuy/ComfyUI-HTTP"
+            ],
+            "install_type": "git-clone",
+            "description": "Powerful REST API nodes for ComfyUI that enable seamless HTTP/REST integration into your workflows."
         },
         {
             "author": "cedarconnor",
@@ -650,47 +690,6 @@
             ],
             "install_type": "git-clone",
             "description": "An interactive image cropping node for ComfyUI, allowing precise visual selection of crop areas directly within your workflow. This node is designed to streamline the process of preparing images for various tasks, ensuring immediate visual feedback and control over your image dimensions."
-        },
-        {
-            "author": "PD19 Anime",
-            "title": "ComfyUI-PD19Anime-Nodes",
-            "reference": "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes",
-            "files": [
-                "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful suite of nodes for ComfyUI to dynamically load prompts and images. This pack is especially focused on batch processing from a directory and includes two main nodes: Advanced Prompt & Image Loader (Multiple) and Advanced Prompt & Image Loader (single)."
-        },
-        {
-            "author": "Ben Staniford",
-            "title": "Comfy Contact Sheet Image Loader",
-            "reference": "https://github.com/benstaniford/comfy-contact-sheet-image-loader",
-            "files": [
-                "https://github.com/benstaniford/comfy-contact-sheet-image-loader"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node for loading images from a contact sheet of recent files"
-        },
-        {
-            "author": "quasiblob",
-            "title": "ComfyUI-EsesImageEffectCurves",
-            "reference": "https://github.com/quasiblob/ComfyUI-EsesImageEffectCurves",
-            "files": [
-                "https://github.com/quasiblob/ComfyUI-EsesImageEffectCurves"
-            ],
-            "install_type": "git-clone",
-            "description": "Channel curves custom node for ComfyUI. RGB, R, G and B, luma and saturation curves adjustments. Save and load presets. Real-time curves adjustment tool directly within the user interface. Precise, interactive control over the tonal range of both image channels and masks, using a GPU-accelerated PyTorch backend for instant feedback."
-        },
-        {
-            "author": "FortunaCournot",
-            "title": "Stereoscopic",
-            "id": "stereoscopic",
-            "reference": "https://github.com/FortunaCournot/comfyui_stereoscopic",
-            "files": [
-                "https://github.com/FortunaCournot/comfyui_stereoscopic"
-            ],
-            "install_type": "git-clone",
-            "description": "Contains ImageSBSConverter node to convert an image into a side-by-side image."
         }
     ]
 }
