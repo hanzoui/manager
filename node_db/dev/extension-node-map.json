@@ -6627,6 +6627,7 @@
     "https://github.com/kongds1999/ComfyUI_was_image": [
         [
             "ConvertGrayToImage",
+            "Generate Color Palette",
             "Replace Color By Palette"
         ],
         {
@@ -7799,6 +7800,9 @@
     ],
     "https://github.com/pixixai/ComfyUI_Pixix-Tools": [
         [
+            "BaiduTranslateNode",
+            "ChatGLM4TranslateTextNode",
+            "ColorPicker",
             "LoadTextFromFolderNode"
         ],
         {
@@ -7961,9 +7965,14 @@
         [
             "rakete.BuildString",
             "rakete.GetWidgetValue",
-            "rakete.GpuGarbageCollector"
+            "rakete.GpuGarbageCollector",
+            "rakete.JoinStrings"
         ],
         {
+            "author": "Rakete",
+            "description": "Rakete Comfy Custom Nodes",
+            "nickname": "Rakete Nodes",
+            "title": "Rakete Nodes",
             "title_aux": "comfyui-rakete"
         }
     ],
@@ -8533,7 +8542,13 @@
     ],
     "https://github.com/spawner1145/comfyui-spawner-nodes": [
         [
+            "ConditioningCrossAttention",
+            "ConditioningInspector",
+            "ConditioningPacker",
             "ImageMetadataReader",
+            "SaveTrainingDataPair",
+            "TensorInspector",
+            "TensorShapeAdapter",
             "TextEncoderDecoder",
             "json_process"
         ],

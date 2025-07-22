@@ -19928,6 +19928,7 @@
             "GenerateMusic",
             "GenerateSpeech",
             "GenerateVideo",
+            "GroqProviderNode",
             "JoinStringsMulti",
             "LLMToolkitProviderSelector",
             "LLMToolkitTextGenerator",
@@ -28138,7 +28139,8 @@
         [
             "SanaLoRALoader",
             "SanaModelLoader",
-            "SanaSampler"
+            "SanaSampler",
+            "i2iFlash"
         ],
         {
             "title_aux": "ComfyUI Sana Custom Node"
@@ -32749,6 +32751,8 @@
     "https://github.com/papcorns/Papcorns-Comfyui-Custom-Nodes": [
         [
             "PapcornsAspectResize",
+            "PapcornsAudioTrimAndSave",
+            "PapcornsAudioTrimmer",
             "UploadImageToGCS"
         ],
         {
@@ -33525,6 +33529,15 @@
         ],
         {
             "title_aux": "queuetools"
+        }
+    ],
+    "https://github.com/r-vage/ComfyUI-RvTools_v2": [
+        [
+            "CombineVideoClips",
+            "WanVideoVaceSeamlessJoin"
+        ],
+        {
+            "title_aux": "ComfyUI-RvTools_v2"
         }
     ],
     "https://github.com/r3dial/redial-discomphy": [
@@ -37821,8 +37834,18 @@
     ],
     "https://github.com/wawahuy/ComfyUI-HTTP": [
         [
+            "Base64ToImageNode",
+            "HTTPFormDataConcatNode",
+            "HTTPFormDataNode",
+            "HTTPFormFileItemNode",
+            "HTTPFormImageItemNode",
+            "HTTPFormTextItemNode",
             "HTTPGetJSONFieldNode",
-            "HTTPGetNode"
+            "HTTPGetNode",
+            "HTTPPostFormDataNode",
+            "HTTPPostJSONNode",
+            "HTTPPostRawNode",
+            "ImageToBase64Node"
         ],
         {
             "title_aux": "ComfyUI HTTP - REST API Nodes"

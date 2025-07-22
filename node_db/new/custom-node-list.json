@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "Azornes",
+            "title": "Comfyui-LayerForge",
+            "id": "layerforge",
+            "reference": "https://github.com/Azornes/Comfyui-LayerForge",
+            "files": [
+                "https://github.com/Azornes/Comfyui-LayerForge"
+            ],
+            "install_type": "git-clone",
+            "description": "Photoshop-like layered canvas editor to your ComfyUI workflow. This node is perfect for complex compositing, inpainting, and outpainting, featuring multi-layer support, masking, blend modes, and precise transformations. Includes optional AI-powered background removal for streamlined image editing."
+        },
+        {
             "author": "cedarconnor",
             "title": "ComfyUI Upsampler Nodes",
             "reference": "https://github.com/cedarconnor/upsampler",
