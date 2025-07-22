@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "cedarconnor",
+            "title": "ComfyUI Upsampler Nodes",
+            "reference": "https://github.com/cedarconnor/upsampler",
+            "files": [
+                "https://github.com/cedarconnor/upsampler"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for integrating with the Upsampler API to enhance and upscale images using AI."
+        },
+        {
             "author": "set-soft",
             "title": "Image Misc",
             "reference": "https://github.com/set-soft/ComfyUI-ImageMisc",
@@ -680,16 +690,6 @@
             ],
             "install_type": "git-clone",
             "description": "Professional AI Image Description Generator\nBased on Zhipu AI GLM-4V multimodal model, batch generate accurate and detailed descriptions for images in Chinese and English"
-        },
-        {
-            "author": "o-l-l-i",
-            "title": "Olm DragCrop for ComfyUI",
-            "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-DragCrop",
-            "files": [
-                "https://github.com/o-l-l-i/ComfyUI-Olm-DragCrop"
-            ],
-            "install_type": "git-clone",
-            "description": "An interactive image cropping node for ComfyUI, allowing precise visual selection of crop areas directly within your workflow. This node is designed to streamline the process of preparing images for various tasks, ensuring immediate visual feedback and control over your image dimensions."
         }
     ]
 }

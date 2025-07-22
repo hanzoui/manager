@@ -8742,11 +8742,13 @@
     ],
     "https://github.com/Maxed-Out-99/ComfyUI-MaxedOut": [
         [
+            "Crop Image By Mask",
             "Flux Empty Latent Image",
             "Flux Image Scale To Total Pixels (Flux Safe)",
             "FluxResolutionMatcher",
             "Image Scale To Total Pixels (SDXL Safe)",
             "LatentHalfMasks",
+            "Place Image By Mask",
             "Prompt With Guidance (Flux)",
             "Sdxl Empty Latent Image"
         ],
@@ -18293,6 +18295,16 @@
         ],
         {
             "title_aux": "ComfyUI LatLong - Equirectangular Image Processing Nodes"
+        }
+    ],
+    "https://github.com/cedarconnor/upsampler": [
+        [
+            "Upsampler Dynamic Upscale",
+            "Upsampler Precise Upscale",
+            "Upsampler Smart Upscale"
+        ],
+        {
+            "title_aux": "ComfyUI Upsampler Nodes"
         }
     ],
     "https://github.com/celoron/ComfyUI-VisualQueryTemplate": [
@@ -36354,6 +36366,8 @@
             "TagComparator",
             "TagEnhance",
             "TagFilter",
+            "TagFlag",
+            "TagFlagImage",
             "TagIf",
             "TagMerger",
             "TagMerger4",
@@ -37131,6 +37145,14 @@
             "title_aux": "Flux LoRA Merger"
         }
     ],
+    "https://github.com/tritant/ComfyUI_Layers_Utility": [
+        [
+            "LayerSystem"
+        ],
+        {
+            "title_aux": "Layers System"
+        }
+    ],
     "https://github.com/tritant/ComfyUI_Remove_Banding_Artifacts": [
         [
             "ResampleBandingFix"
@@ -37785,6 +37807,25 @@
         ],
         {
             "title_aux": "ComfyUI Sync Lipsync Node"
+        }
+    ],
+    "https://github.com/watarika/ComfyUI-SendToEagle-w-Metadata": [
+        [
+            "CreateExtraMetadata",
+            "SendToEagleWithMetadata",
+            "SendToEagleWithMetadataSimple"
+        ],
+        {
+            "title_aux": "ComfyUI-SendToEagle-w-Metadata"
+        }
+    ],
+    "https://github.com/wawahuy/ComfyUI-HTTP": [
+        [
+            "HTTPGetJSONFieldNode",
+            "HTTPGetNode"
+        ],
+        {
+            "title_aux": "ComfyUI HTTP - REST API Nodes"
         }
     ],
     "https://github.com/web3nomad/ComfyUI_Invisible_Watermark": [

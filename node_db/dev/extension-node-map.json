@@ -1744,6 +1744,18 @@
             "title_aux": "comfy-consistency-vae"
         }
     ],
+    "https://github.com/Jpzz/comfyui-ixiworks": [
+        [
+            "BuildCharacterPromptNode",
+            "BuildPromptNode",
+            "JsonParserNode",
+            "MergeStringsNode",
+            "SelectIndexNode"
+        ],
+        {
+            "title_aux": "IxiWorks StoryBoard Nodes [WIP]"
+        }
+    ],
     "https://github.com/Junst/ComfyUI-PNG2SVG2PNG": [
         [
             "PNG2SVG2PNG"
@@ -7883,7 +7895,8 @@
             "przewodo WanGetMaxImageResolutionByAspectRatio",
             "przewodo WanImageToVideoAdvancedSampler",
             "przewodo WanModelTypeSelector",
-            "przewodo WanVideoEnhanceAVideo"
+            "przewodo WanVideoEnhanceAVideo",
+            "przewodo WanVideoGenerationModeSelector"
         ],
         {
             "title_aux": "ComfyUI-Przewodo-Utils [WIP]"
@@ -7942,6 +7955,16 @@
             "nickname": "ai_tools",
             "title": "AI_Tools",
             "title_aux": "ComfyUI-AI_Tools [UNSAFE]"
+        }
+    ],
+    "https://github.com/rakete/comfyui-rakete": [
+        [
+            "rakete.BuildString",
+            "rakete.GetWidgetValue",
+            "rakete.GpuGarbageCollector"
+        ],
+        {
+            "title_aux": "comfyui-rakete"
         }
     ],
     "https://github.com/rakki194/ComfyUI_WolfSigmas": [
@@ -8408,6 +8431,14 @@
         ],
         {
             "title_aux": "ComfyUI-sjnodes"
+        }
+    ],
+    "https://github.com/siyonomicon/ComfyUI-Pin": [
+        [
+            "PinGridNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Pin"
         }
     ],
     "https://github.com/smthemex/ComfyUI_GPT_SoVITS_Lite": [
@@ -8965,14 +8996,18 @@
             "Hy3D21MeshGenerationBatch",
             "Hy3D21MeshUVWrap",
             "Hy3D21MeshlibDecimate",
+            "Hy3D21MultiViewsGeneratorWithMetaData",
             "Hy3D21MultiViewsMeshGenerator",
             "Hy3D21PostprocessMesh",
             "Hy3D21ResizeImages",
             "Hy3D21UseMultiViews",
+            "Hy3D21UseMultiViewsFromMetaData",
             "Hy3D21VAEConfig",
             "Hy3D21VAEDecode",
             "Hy3D21VAELoader",
             "Hy3DBakeMultiViews",
+            "Hy3DBakeMultiViewsWithMetaData",
+            "Hy3DHighPolyToLowPolyBakeMultiViewsWithMetaData",
             "Hy3DInPaint",
             "Hy3DMeshGenerator",
             "Hy3DMultiViewsGenerator"

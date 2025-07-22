@@ -26782,7 +26782,7 @@
                 "https://github.com/Limbicnation/ComfyUI_FaceDetectionNode"
             ],
             "install_type": "git-clone",
-            "description": "A ComfyUI custom node for face detection and cropping using OpenCV Haar cascades, with full ComfyUI v3 schema support and backward compatibility. Features adjustable detection threshold, minimum face size, padding, and multiple classifier options.",
+            "description": "A ComfyUI custom node for face detection and cropping using OpenCV Haar cascades, with full ComfyUI v3 schema support and backward compatibility.",
             "nodename_pattern": "FaceDetectionNode"
         },
         {
@@ -29635,6 +29635,16 @@
             ],
             "install_type": "git-clone",
             "description": "Advanced equirectangular (360°) image processing nodes for ComfyUI, enabling precise rotation, horizon adjustment, and specialized cropping operations for panoramic images."
+        },
+        {
+            "author": "cedarconnor",
+            "title": "ComfyUI Upsampler Nodes",
+            "reference": "https://github.com/cedarconnor/upsampler",
+            "files": [
+                "https://github.com/cedarconnor/upsampler"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for integrating with the Upsampler API to enhance and upscale images using AI."
         },
         {
             "author": "vaishnav-vn",
