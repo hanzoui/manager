@@ -796,6 +796,14 @@
             "title_aux": "comfyui-face-remap [WIP]"
         }
     ],
+    "https://github.com/BAIS1C/ComfyUI_BASICDancePoser": [
+        [
+            "ComfyUI_BASICDancePoser"
+        ],
+        {
+            "title_aux": "ComfyUI-AudioDuration [WIP]"
+        }
+    ],
     "https://github.com/BadCafeCode/execution-inversion-demo-comfyui": [
         [
             "AccumulateNode",
@@ -840,6 +848,18 @@
         ],
         {
             "title_aux": "ComfyUI-FileOps [UNSAFE]"
+        }
+    ],
+    "https://github.com/Baverne/comfyUI-TiledWan": [
+        [
+            "TiledWanImageStatistics",
+            "TiledWanImageToMask",
+            "TiledWanMaskStatistics",
+            "TiledWanVideoSLGSimple",
+            "TiledWanVideoSamplerSimple"
+        ],
+        {
+            "title_aux": "TiledWan ComfyUI Node Set [WIP]"
         }
     ],
     "https://github.com/BenjaMITM/ComfyUI_On_The_Fly_Wildcards": [
@@ -1450,6 +1470,15 @@
         ],
         {
             "title_aux": "Comfy-Metadata-System [WIP]"
+        }
+    ],
+    "https://github.com/Estanislao-Oviedo/ComfyUI-CustomNodes": [
+        [
+            "LoadImageFolder",
+            "MakeBatchFromSingleImage"
+        ],
+        {
+            "title_aux": "ComfyUI-CustomNodes [NAME CONFLICT]"
         }
     ],
     "https://github.com/ExponentialML/ComfyUI_LiveDirector": [
@@ -2350,6 +2379,15 @@
             "title_aux": "ComfyUI-Save_Image"
         }
     ],
+    "https://github.com/NicholasKao1029/comfyui-pixxio": [
+        [
+            "AutoUploadImageToPixxioCollection",
+            "LoadImageFromPixxioAPI"
+        ],
+        {
+            "title_aux": "comfyui-pixxio"
+        }
+    ],
     "https://github.com/No-22-Github/ComfyUI_SaveImageCustom": [
         [
             "SaveUtility: SaveImageCustom"
@@ -2552,6 +2590,14 @@
         ],
         {
             "title_aux": "Kuniklo Collection"
+        }
+    ],
+    "https://github.com/RamonGuthrie/ComfyUI-RBG-LoraConverter": [
+        [
+            "RBGLoraKeyConverterNode"
+        ],
+        {
+            "title_aux": "ComfyUI-RBG-LoRA-Converter [UNSAFE]"
         }
     ],
     "https://github.com/RicherdLee/comfyui-oss-image-save": [
@@ -2837,6 +2883,15 @@
         ],
         {
             "title_aux": "PMSnodes [WIP]"
+        }
+    ],
+    "https://github.com/Soliton80/ComfyUI-Watermark-Detection-YOLO": [
+        [
+            "WatermarkDetector",
+            "WatermarkDetectorLoader"
+        ],
+        {
+            "title_aux": "Watermark Detection YOLO Custom Node [WIP]"
         }
     ],
     "https://github.com/Sophylax/ComfyUI-ReferenceMerge": [
@@ -4915,6 +4970,15 @@
         ],
         {
             "title_aux": "ComfyUI-Better-Dimensions"
+        }
+    ],
+    "https://github.com/ctf05/ComfyUI-AudioDuration": [
+        [
+            "SimpleAudioDuration",
+            "SimpleAudioOverlay"
+        ],
+        {
+            "title_aux": "ComfyUI-AudioDuration"
         }
     ],
     "https://github.com/cwebbi1/VoidCustomNodes": [
@@ -7900,7 +7964,8 @@
             "przewodo WanImageToVideoAdvancedSampler",
             "przewodo WanModelTypeSelector",
             "przewodo WanVideoEnhanceAVideo",
-            "przewodo WanVideoGenerationModeSelector"
+            "przewodo WanVideoGenerationModeSelector",
+            "przewodo WanVideoVaeDecode"
         ],
         {
             "title_aux": "ComfyUI-Przewodo-Utils [WIP]"

@@ -2359,6 +2359,22 @@
             "title_aux": "ComfyUI-ImageCropper"
         }
     ],
+    "https://github.com/Azornes/Comfyui-LayerForge": [
+        [
+            "CanvasNode"
+        ],
+        {
+            "title_aux": "Comfyui-LayerForge"
+        }
+    ],
+    "https://github.com/BAIS1C/ComfyUI_BASICSAdvancedDancePoser": [
+        [
+            "ComfyUI_BASICSAdvancedDancePoser"
+        ],
+        {
+            "title_aux": "ComfyUI_BASICSAdvancedDancePoser"
+        }
+    ],
     "https://github.com/BAIS1C/ComfyUI_RSS_Feed_Reader": [
         [
             "RSSFeedNode"
@@ -3718,7 +3734,8 @@
             "load_exr",
             "load_exr_layer_by_name",
             "saver",
-            "shamble_cryptomatte"
+            "shamble_cryptomatte",
+            "znormalize"
         ],
         {
             "title_aux": "ComfyUI-CoCoTools_IO"
@@ -10659,6 +10676,14 @@
         ],
         {
             "title_aux": "DeepFuze"
+        }
+    ],
+    "https://github.com/SamTyurenkov/comfyui-vace-preprocessors": [
+        [
+            "VideoLayoutTrackAnnotatorNode"
+        ],
+        {
+            "title_aux": "comfyui_vace_preprocessors"
         }
     ],
     "https://github.com/SamTyurenkov/comfyui_chatgpt": [
@@ -18027,8 +18052,8 @@
             "Image_transform_sum",
             "Mask_Detect_label",
             "Mask_Remove_bg",
-            "Mask_combine_crop",
-            "Mask_combine_sum",
+            "Mask_combine_High",
+            "Mask_combine_Width",
             "Mask_face_detect",
             "Mask_image2mask",
             "Mask_inpaint_light",
@@ -18113,6 +18138,7 @@
             "create_Mask_lay_X",
             "create_Mask_lay_Y",
             "create_Mask_location",
+            "create_Mask_match_shape",
             "create_Mask_sole",
             "create_Mask_visual_tag",
             "create_RadialGradient",
@@ -18185,6 +18211,7 @@
             "sch_mask",
             "sch_split_text",
             "sch_text",
+            "stack_Mask2color",
             "stack_sum_pack",
             "sum_create_chx",
             "sum_editor",
@@ -18213,7 +18240,6 @@
             "type_ListToBatch",
             "type_Mask_Batch2List",
             "type_Mask_List2Batch",
-            "type_text_2_UTF8",
             "type_text_list2batch",
             "unpack_box2",
             "view_Data",
@@ -18284,6 +18310,17 @@
         ],
         {
             "title_aux": "Text Node With Comments (@cdxoo)"
+        }
+    ],
+    "https://github.com/cedarconnor/comfyui-BatchNameLoop": [
+        [
+            "Batch Image Iterator",
+            "Batch Image Loader",
+            "Batch Image Saver",
+            "Batch Image Single Saver"
+        ],
+        {
+            "title_aux": "ComfyUI Batch Name Loop"
         }
     ],
     "https://github.com/cedarconnor/comfyui-LatLong": [
@@ -22070,6 +22107,21 @@
         ],
         {
             "title_aux": "ComfyUI-NoiseGen"
+        }
+    ],
+    "https://github.com/einhorn13/ComfyUI-ImageProcessUtilities": [
+        [
+            "CombineCoords",
+            "CropByCoords",
+            "ImageTiler",
+            "ImageUntiler",
+            "PasteByCoords",
+            "ReorderBatch",
+            "SplitCoords",
+            "StringToIntegers"
+        ],
+        {
+            "title_aux": "ComfyUI-ImageProcessUtilities"
         }
     ],
     "https://github.com/emojiiii/ComfyUI_Emojiiii_Custom_Nodes": [
@@ -27156,6 +27208,21 @@
             "title_aux": "Knodes"
         }
     ],
+    "https://github.com/khanhlvg/vertex-ai-comfyui-nodes": [
+        [
+            "Gemini",
+            "Imagen_Product_Recontext",
+            "Imagen_T2I",
+            "PreviewVideo",
+            "Veo",
+            "Veo2",
+            "Veo_Prompt_Writer",
+            "Virtual_Try_On"
+        ],
+        {
+            "title_aux": "[Unofficial] Vertex AI Custom Nodes for ComfyUI"
+        }
+    ],
     "https://github.com/kijai/ComfyUI-ADMotionDirector": [
         [
             "ADMD_AdditionalModelSelect",
@@ -28135,7 +28202,7 @@
             "title_aux": "comfyui-jk-easy-nodes"
         }
     ],
-    "https://github.com/kpsss34/ComfyUI-kpsss34-Sana": [
+    "https://github.com/kpsss34/ComfyUI-kpsss34": [
         [
             "SanaLoRALoader",
             "SanaModelLoader",
@@ -28143,7 +28210,7 @@
             "i2iFlash"
         ],
         {
-            "title_aux": "ComfyUI Sana Custom Node"
+            "title_aux": "ComfyUI kpsss34 Custom Node"
         }
     ],
     "https://github.com/krmahil/comfyui-hollow-preserve": [
@@ -28264,10 +28331,14 @@
             "Leon_Hypr_Upload_Node",
             "Leon_Image_Split_4Grid_Node",
             "Leon_ImgBB_Upload_Node",
+            "Leon_LLM_Chat_API_Node",
+            "Leon_LLM_JSON_API_Node",
             "Leon_Luma_AI_Image_API_Node",
             "Leon_Midjourney_Describe_API_Node",
             "Leon_Midjourney_Proxy_API_Node",
             "Leon_Midjourney_Upload_API_Node",
+            "Leon_Model_Config_Loader_Node",
+            "Leon_Model_Selector_Node",
             "Leon_String_Combine_Node"
         ],
         {
@@ -33533,8 +33604,8 @@
     ],
     "https://github.com/r-vage/ComfyUI-RvTools_v2": [
         [
-            "CombineVideoClips",
-            "WanVideoVaceSeamlessJoin"
+            "Combine Video Clips",
+            "WanVideo Vace Seamless Join"
         ],
         {
             "title_aux": "ComfyUI-RvTools_v2"
