@@ -73,8 +73,8 @@ https://blog.comfy.org/comfyui-statement-on-the-ultralytics-crypto-miner-situati
     detected = set()
     try:
         anthropic_info = subprocess.check_output(manager_util.make_pip_cmd(["show", "anthropic"]), text=True, stderr=subprocess.DEVNULL)
-        anthropic_reqs = [x for x in anthropic_info.split('\n') if x.startswith("Requires")][0].split(': ')[1]
-        if "pycrypto" in anthropic_reqs:
+        anthropic_reqs = [x for x in anthropic_info.split('\n') if x.startswith("Requires")][0].split(': ')
+        if anthropic_reqs and "pycrypto" in anthropic_reqs[1]:
             location = [x for x in anthropic_info.split('\n') if x.startswith("Location")][0].split(': ')[1]
             for fi in os.listdir(location):
                 if fi.startswith("anthropic"):
