@@ -1477,8 +1477,13 @@
     ],
     "https://github.com/Estanislao-Oviedo/ComfyUI-CustomNodes": [
         [
+            "Attention couple",
+            "AttentionCouple",
             "LoadImageFolder",
-            "MakeBatchFromSingleImage"
+            "MakeBatchFromSingleImage",
+            "RegionConditionMerge",
+            "RegionConditionSpecPct",
+            "RegionConditionSpecPx"
         ],
         {
             "title_aux": "ComfyUI-CustomNodes [NAME CONFLICT]"
