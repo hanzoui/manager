@@ -3984,6 +3984,21 @@
             "title_aux": "ComfyUI Checkpoint Loader Config"
         }
     ],
+    "https://github.com/Cyrostar/ComfyUI-Artha-Gemini": [
+        [
+            "GeminiCondense",
+            "GeminiInstruct",
+            "GeminiMotion",
+            "GeminiPrompter",
+            "GeminiQuestion",
+            "GeminiResponse",
+            "GeminiTranslate",
+            "GeminiVision"
+        ],
+        {
+            "title_aux": "ComfyUI-Artha-Gemini"
+        }
+    ],
     "https://github.com/DJ-Tribefull/Comfyui_FOCUS_nodes": [
         [
             "Control Pipe (Focus Nodes)",
@@ -14466,6 +14481,19 @@
             "title_aux": "ComfyUI-HiDream-I1"
         }
     ],
+    "https://github.com/Yuan-ManX/ComfyUI-HiggsAudio": [
+        [
+            "HiggsAudio",
+            "LoadHiggsAudioModel",
+            "LoadHiggsAudioPrompt",
+            "LoadHiggsAudioSystemPrompt",
+            "LoadHiggsAudioTokenizer",
+            "SaveHiggsAudio"
+        ],
+        {
+            "title_aux": "ComfyUI-HiggsAudio"
+        }
+    ],
     "https://github.com/Yuan-ManX/ComfyUI-Hunyuan3D-2.1": [
         [
             "Hunyuan3DShapeGeneration",
@@ -20510,6 +20538,24 @@
         ],
         {
             "title_aux": "ComfyUI_experiments"
+        }
+    ],
+    "https://github.com/comnote-max/builmenlabo": [
+        [
+            "GeminiPoseAnalyzer",
+            "LlamaCppAIO",
+            "LlamaCppCompleteUnload",
+            "LlamaCppGenerate",
+            "LlamaCppLoader",
+            "LlamaCppMemoryInfo",
+            "LlamaCppSafeUnload",
+            "LlamaCppUnload",
+            "MultiControlNetLoader",
+            "PromptTranslator"
+        ],
+        {
+            "nodename_pattern": "BuimenLabo",
+            "title_aux": "ComfyUI BuimenLabo - Unified Package"
         }
     ],
     "https://github.com/concarne000/ConCarneNode": [

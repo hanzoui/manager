@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "Cyrostar",
+            "title": "ComfyUI-Artha-Gemini",
+            "id": "comfyui-artha-gemini",
+            "reference": "https://github.com/Cyrostar/ComfyUI-Artha-Gemini",
+            "files": [
+                "https://github.com/Cyrostar/ComfyUI-Artha-Gemini"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for interacting with the Gemini api for image and video generation prompting."
+        },
+        {
             "author": "BuimenLabo",
             "title": "ComfyUI BuimenLabo - Unified Package",
             "id": "builmenlabo",
@@ -683,16 +694,6 @@
             ],
             "install_type": "git-clone",
             "description": "Displays up to 64 recent images from a folder as numbered thumbnails in a grid contact sheet format, allowing you to select and load one for post-processing"
-        },
-        {
-            "author": "Ben Staniford",
-            "title": "Prompt Database for ComfyUI",
-            "reference": "https://github.com/benstaniford/comfy-prompt-db",
-            "files": [
-                "https://github.com/benstaniford/comfy-prompt-db"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node that provides a database-driven prompt management system. Store, organize, and edit prompts in categories with persistent JSON storage."
         }
     ]
 }
