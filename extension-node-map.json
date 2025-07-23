@@ -5945,6 +5945,14 @@
             "title_aux": "ComfyUI_RH_OminiControl"
         }
     ],
+    "https://github.com/HM-RunningHub/ComfyUI_RH_SeedXPro": [
+        [
+            "RunningHub SeedXPro Translator"
+        ],
+        {
+            "title_aux": "ComfyUI SeedXPro Translation Node"
+        }
+    ],
     "https://github.com/HM-RunningHub/ComfyUI_RH_Step1XEdit": [
         [
             "RunningHub_Step1XEdit"
@@ -8312,6 +8320,7 @@
             "DepthAnythingPreprocessor",
             "DepthAnythingV2Preprocessor",
             "DiffusionEdge_Preprocessor",
+            "EdgePadNode",
             "ExecuteAllControlNetPreprocessors",
             "FakeScribblePreprocessor",
             "FlowEditForwardSampler",
@@ -8370,6 +8379,7 @@
             "Scribble_XDoG_Preprocessor",
             "SemSegPreprocessor",
             "ShufflePreprocessor",
+            "TBG_masked_attention",
             "TEEDPreprocessor",
             "TTPlanet_TileGF_Preprocessor",
             "TTPlanet_TileSimple_Preprocessor",
@@ -10680,6 +10690,7 @@
     ],
     "https://github.com/SamTyurenkov/comfyui-vace-preprocessors": [
         [
+            "CombineLayoutTracksNode",
             "VideoLayoutTrackAnnotatorNode"
         ],
         {
@@ -15524,6 +15535,7 @@
             "Comfly_kling_image2video",
             "Comfly_kling_text2video",
             "Comfly_lip_sync",
+            "Comfly_mj_video",
             "Comfly_mjstyle",
             "Comfly_upload",
             "Comfly_video_extend"
@@ -20622,6 +20634,16 @@
             "title_aux": "Crystools"
         }
     ],
+    "https://github.com/cuban044/ComfyUI-Veo3-Experimental": [
+        [
+            "Veo3TextToVideo",
+            "Veo3ToVHS",
+            "Veo3VideoPreview"
+        ],
+        {
+            "title_aux": "[Unofficial] ComfyUI-Veo3-Experimental"
+        }
+    ],
     "https://github.com/cubiq/Block_Patcher_ComfyUI": [
         [
             "FluxBlockPatcherSampler",
@@ -22478,6 +22500,7 @@
             "AdvancedVLMSampler",
             "AnyTypePassthrough",
             "AutoMemoryManager",
+            "GlobalMemoryCleanup",
             "ImageToAny",
             "LoopAwareResponseIterator",
             "LoopAwareVLMAccumulator",
@@ -28204,9 +28227,6 @@
     ],
     "https://github.com/kpsss34/ComfyUI-kpsss34": [
         [
-            "SanaLoRALoader",
-            "SanaModelLoader",
-            "SanaSampler",
             "i2iFlash"
         ],
         {
@@ -32328,6 +32348,14 @@
         ],
         {
             "title_aux": "ComfyUI_NetDist_Plus"
+        }
+    ],
+    "https://github.com/o-l-l-i/ComfyUI-Olm-ChannelMixer": [
+        [
+            "OlmChannelMixer"
+        ],
+        {
+            "title_aux": "Olm Channel Mixer for ComfyUI"
         }
     ],
     "https://github.com/o-l-l-i/ComfyUI-Olm-CurveEditor": [
@@ -36578,7 +36606,9 @@
     "https://github.com/synthetai/ComfyUI-JM-Volcengine-API": [
         [
             "VolcengineI2VS2Pro",
+            "VolcengineImgEditV3",
             "volcengine-i2v-s2pro",
+            "volcengine-img-edit-v3",
             "volcengine-seedream-v3"
         ],
         {

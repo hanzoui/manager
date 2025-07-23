@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "blepping",
+            "title": "ComfyUI 'dum' samplers [WIP]",
+            "reference": "https://github.com/blepping/comfyui_dum_samplers",
+            "files": [
+                  "https://github.com/blepping/comfyui_dum_samplers"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of random, experimental (and most likely 'dum') samplers for ComfyUI."
+        },
+        {
+            "author": "crimro-se",
+            "title": "ComfyUI-CascadedGaze",
+            "reference": "https://github.com/crimro-se/ComfyUI-CascadedGaze",
+            "files": [
+                "https://github.com/crimro-se/ComfyUI-CascadedGaze"
+            ],
+            "install_type": "git-clone",
+            "description": "Two custom nodes that bring the CascadedGaze image denoising model architecture to ComfyUI."
+        },
+        {
             "author": "RamonGuthrie",
             "title": "ComfyUI-RBG-LoRA-Converter [UNSAFE]",
             "reference": "https://github.com/RamonGuthrie/ComfyUI-RBG-LoraConverter",

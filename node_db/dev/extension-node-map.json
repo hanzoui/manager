@@ -852,11 +852,14 @@
     ],
     "https://github.com/Baverne/comfyUI-TiledWan": [
         [
+            "TileAndStitchBack",
             "TiledWanImageStatistics",
             "TiledWanImageToMask",
             "TiledWanMaskStatistics",
             "TiledWanVideoSLGSimple",
-            "TiledWanVideoSamplerSimple"
+            "TiledWanVideoSamplerSimple",
+            "TiledWanVideoVACEpipe",
+            "WanVideoVACEpipe"
         ],
         {
             "title_aux": "TiledWan ComfyUI Node Set [WIP]"
@@ -4046,6 +4049,19 @@
             "title_aux": "Gen Data Tester [WIP]"
         }
     ],
+    "https://github.com/blepping/comfyui_dum_samplers": [
+        [
+            "BatchMergeSampler",
+            "CacheAwareEulerSampler",
+            "CyclePaddingSampler",
+            "HistorySampler",
+            "SimilarityAncestralEulerSampler",
+            "SimilarityClampEulerSampler"
+        ],
+        {
+            "title_aux": "ComfyUI 'dum' samplers [WIP]"
+        }
+    ],
     "https://github.com/blueraincoatli/ComfyUI-Model-Cleaner": [
         [
             "InteractiveModelCleanerNode",
@@ -4970,6 +4986,15 @@
         ],
         {
             "title_aux": "ComfyUI-Better-Dimensions"
+        }
+    ],
+    "https://github.com/crimro-se/ComfyUI-CascadedGaze": [
+        [
+            "CGDenoiseImage",
+            "CGDenoiseModelLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-CascadedGaze"
         }
     ],
     "https://github.com/ctf05/ComfyUI-AudioDuration": [
@@ -6191,6 +6216,7 @@
     ],
     "https://github.com/jiafuzeng/comfyui-fishSpeech": [
         [
+            "FishSpeechAudioDurationNode",
             "FishSpeechAudioPreview",
             "FishSpeechLoader",
             "FishSpeechTTS"
@@ -7631,7 +7657,6 @@
     ],
     "https://github.com/nobandegani/comfyui_ino_nodes": [
         [
-            "CR_GetCaptcha",
             "Ino_BranchImage",
             "Ino_CalculateLoraConfig",
             "Ino_CountFiles",
@@ -9437,6 +9462,7 @@
     "https://github.com/yanhuifair/ComfyUI-FairLab": [
         [
             "AppendTagsNode",
+            "Base64ToImageNode",
             "BlacklistTagsNode",
             "CLIPTranslatedNode",
             "DownloadImageNode",
@@ -9444,6 +9470,7 @@
             "FixUTF8StringNode",
             "FloatNode",
             "ImageResizeNode",
+            "ImageToBase64Node",
             "ImageToVideoNode",
             "IntNode",
             "LoadImageFromDirectoryNode",
