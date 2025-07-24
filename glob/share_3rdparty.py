@@ -335,8 +335,7 @@ async def share_art(request):
         content_type = assetFileType
 
         try:
-            from nio import AsyncClient, LoginResponse, RoomSendResponse, UploadResponse, RoomMessageText, RoomMessageMedia
-            import asyncio
+            from nio import AsyncClient, LoginResponse, UploadResponse
 
             homeserver = 'matrix.org'
             if matrix_auth:
