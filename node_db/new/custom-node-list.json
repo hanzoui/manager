@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "smthemex",
+            "title": "ComfyUI_ObjectClear",
+            "reference": "https://github.com/smthemex/ComfyUI_ObjectClear",
+            "files": [
+                "https://github.com/smthemex/ComfyUI_ObjectClear"
+            ],
+            "install_type": "git-clone",
+            "description": "ObjectClear:Complete Object Removal via Object-Effect Attention,you can try it in ComfyUI"
+        },
+        {
             "author": "Cyrostar",
             "title": "ComfyUI-Artha-Gemini",
             "id": "comfyui-artha-gemini",
@@ -683,17 +693,6 @@
             ],
             "install_type": "git-clone",
             "description": "This nodepack contains custom nodes for ComfyUI designed specifically for handling Reallusion-related assets such as Character Creator and iClone image and video files. These nodes are intended to be used as backend components that communicate and operate through the AI Render Plugin interface of iClone or Character Creator, enabling a seamless integration between ComfyUI's powerful image/video generation capabilities and Reallusion’s animation tools. By bridging ComfyUI with iClone/Character Creator’s AI Render Plugin, these nodes facilitate workflows where AI-assisted content generation can be controlled, customized, and rendered directly from within Reallusion software environments."
-        },
-        {
-            "author": "Ben Staniford",
-            "title": "Comfy Contact Sheet Image Loader",
-            "id": "comfy-contact-sheet-image-loader",
-            "reference": "https://github.com/benstaniford/comfy-contact-sheet-image-loader",
-            "files": [
-                "https://github.com/benstaniford/comfy-contact-sheet-image-loader"
-            ],
-            "install_type": "git-clone",
-            "description": "Displays up to 64 recent images from a folder as numbered thumbnails in a grid contact sheet format, allowing you to select and load one for post-processing"
         }
     ]
 }
