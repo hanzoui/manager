@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "GACLove",
+            "title": "ComfyUI-VFI",
+            "reference": "https://github.com/GACLove/ComfyUI-VFI",
+            "files": [
+                "https://github.com/GACLove/ComfyUI-VFI"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-RIFE is an inference wrapper for RIFE designed for use with ComfyUI."
+        },
+        {
+            "author": "g0kuvonlange",
+            "title": "ComfyUI Load From URL",
+            "reference": "https://github.com/g0kuvonlange/ComfyUI-Load-From-URL",
+            "files": [
+                "https://github.com/g0kuvonlange/ComfyUI-Load-From-URL"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple custom node for ComfyUI to load LoRAs and videos directly from a URL. Ideal for users hosting files on a server with publicly accessible URLs."
+        },
+        {
             "author": "concarne000",
             "title": "ComfyUI-Stacker",
             "reference": "https://github.com/concarne000/ComfyUI-Stacker",

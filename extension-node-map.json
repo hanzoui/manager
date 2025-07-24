@@ -5577,6 +5577,14 @@
             "title_aux": "ComfyUI-Lightx2vWrapper"
         }
     ],
+    "https://github.com/GACLove/ComfyUI-VFI": [
+        [
+            "RIFEInterpolation"
+        ],
+        {
+            "title_aux": "ComfyUI-VFI"
+        }
+    ],
     "https://github.com/GHOSTLXH/ComfyUI-Counternodes": [
         [
             "AlternatingOutput",
@@ -13935,16 +13943,32 @@
     ],
     "https://github.com/WarpedAnimation/ComfyUI-WarpedToolset": [
         [
-            "WarpedAdvancedSamplerBatch",
+            "ClipLoaderGGUF",
+            "DualClipLoaderGGUF",
+            "GGUFRun",
+            "GGUFSave",
+            "GGUFUndo",
+            "LoaderGGUF",
+            "LoaderGGUFAdvanced",
+            "QuadrupleClipLoaderGGUF",
+            "TENSORBoost",
+            "TENSORCut",
+            "TripleClipLoaderGGUF",
+            "VaeGGUF",
+            "WarpedBasicGuider",
             "WarpedBundleAllVideoImages",
             "WarpedBundleVideoImages",
+            "WarpedCLIPLoader",
             "WarpedCLIPVisionLoader",
             "WarpedCheckpointLoader",
+            "WarpedClipLoaderGGUF",
             "WarpedCreateEmptyImageBatch",
             "WarpedCreateEmptyLatentBatch",
             "WarpedCreateSpecialImageBatch",
             "WarpedDualCLIPLoader",
+            "WarpedDualClipLoaderGGUF",
             "WarpedDualEncoder",
+            "WarpedDualGuider",
             "WarpedFramepackLoraSelectBatch",
             "WarpedFramepackMultiLoraSelect",
             "WarpedFramepackMultiLoraSelectExt",
@@ -13962,15 +13986,14 @@
             "WarpedHunyuanMultiLoraMerge",
             "WarpedHunyuanMultiLoraMixer",
             "WarpedHunyuanMultiLoraMixerExt",
-            "WarpedHunyuanMultiLoraMixerExt2",
             "WarpedHunyuanVideoLoraLoader",
             "WarpedImageNoiseAugmentation",
-            "WarpedImageResize",
             "WarpedImageScaleToSide",
             "WarpedLeapfusionHunyuanI2V",
             "WarpedLoadFramePackModel",
             "WarpedLoadLorasBatchByPrefix",
             "WarpedLoadVideosBatch",
+            "WarpedLoaderGGUF",
             "WarpedLoraKeysAndMetadataReader",
             "WarpedLoraReSave",
             "WarpedMultiLoraLoader",
@@ -13978,6 +14001,8 @@
             "WarpedReverseImageBatch",
             "WarpedSamplerCustomAdv",
             "WarpedSamplerCustomAdvLatent",
+            "WarpedSamplerCustomBatch",
+            "WarpedSamplerCustomScripted",
             "WarpedSaveAnimatedPng",
             "WarpedUpscaleWithModel",
             "WarpedVAELoader",
@@ -23357,6 +23382,15 @@
         ],
         {
             "title_aux": "comfyui-mosaic-blur"
+        }
+    ],
+    "https://github.com/g0kuvonlange/ComfyUI-Load-From-URL": [
+        [
+            "Load LoRA From URL",
+            "Load Video From URL"
+        ],
+        {
+            "title_aux": "ComfyUI Load From URL"
         }
     ],
     "https://github.com/gabe-init/ComfyUI-11labs": [
