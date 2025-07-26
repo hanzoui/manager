@@ -11,6 +11,17 @@
             "description": "An implementation of the DAViD tooling, a method for extracting depth, normals, and masks from an input image."
         },
         {
+            "author": "ComfyUI Studio",
+            "title": "ComfyUI-Studio-nodes",
+            "reference": "https://github.com/comfyuistudio/ComfyUI-Studio-nodes",
+            "files": [
+                "https://github.com/comfyuistudio/ComfyUI-Studio-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "🧩 Aspect Ratio Image Size Calculator, 🖼️ Aspect Ratio Resizer, and 📄 Markdown Link Generator for ComfyUI.",
+            "tags": ["image", "resize", "aspect-ratio", "markdown", "utils"]
+        },
+        {
             "author": "visualbruno",
             "title": "ComfyUI-Hunyuan3d-2-1",
             "reference": "https://github.com/visualbruno/ComfyUI-Hunyuan3d-2-1",
@@ -682,56 +693,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI's custom node package. This custom node has many practical functions, including global variables and process flow control."
-        },
-        {
-            "author": "Android zhang",
-            "title": "Comfyui-Distill-Any-Depth",
-            "reference": "https://github.com/zade23/Comfyui-Distill-Any-Depth",
-            "files": [
-                "https://github.com/zade23/Comfyui-Distill-Any-Depth"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes to use Distill-Any-Depth prediction."
-        },
-        {
-            "author": "tritant",
-            "title": "Advanced Photo Grain",
-            "reference": "https://github.com/tritant/ComfyUI-Advanced-Photo-Grain",
-            "files": [
-                "https://github.com/tritant/ComfyUI-Advanced-Photo-Grain"
-            ],
-            "install_type": "git-clone",
-            "description": "Adds realistic film grain, vignette and RGB aberration to photos"
-        },
-        {
-            "author": "zeeoale",
-            "title": "PromptCreatorNodetraumakom Prompt Generator",
-            "reference": "https://github.com/zeeoale/PromptCreatorNode",
-            "files": [
-                "https://github.com/zeeoale/PromptCreatorNode"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful custom node for ComfyUI that generates rich, dynamic prompts based on modular JSON worlds — with color realm control (RGB / CMYK), LoRA triggers, and optional AI-based prompt enhancement."
-        },
-        {
-            "author": "Erehr",
-            "title": "ComfyUI-Eagle-Autosend",
-            "reference": "https://github.com/Erehr/ComfyUI-Eagle-Autosend",
-            "files": [
-                "https://github.com/Erehr/ComfyUI-Eagle-Autosend"
-            ],
-            "install_type": "git-clone",
-            "description": "A seamless, node-independent way to automatically send your ComfyUI generations to Eagle, complete with full metadata annotation and tags."
-        },
-        {
-            "author": "silveroxides",
-            "title": "ComfyUI Power Shift Scheduler",
-            "reference": "https://github.com/silveroxides/ComfyUI_PowerShiftScheduler",
-            "files": [
-                "https://github.com/silveroxides/ComfyUI_PowerShiftScheduler"
-            ],
-            "install_type": "git-clone",
-            "description": "Highly customizable Scheduler for ComfyUI."
         }
     ]
 }

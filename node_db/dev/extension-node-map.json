@@ -468,16 +468,6 @@
             "title_aux": "UtilNodes-ComfyUI [WIP]"
         }
     ],
-    "https://github.com/AIWarper/ComfyUI-DAViD": [
-        [
-            "DAViDDepthVisualizer",
-            "DAViDMultiTask",
-            "DAViDNormalToLight"
-        ],
-        {
-            "title_aux": "ComfyUI-DAViD [WIP]"
-        }
-    ],
     "https://github.com/ALatentPlace/ComfyUI_yanc": [
         [
             "> Bloom",
@@ -2392,15 +2382,6 @@
             "title_aux": "ComfyUI-Save_Image"
         }
     ],
-    "https://github.com/NicholasKao1029/comfyui-pixxio": [
-        [
-            "AutoUploadImageToPixxioCollection",
-            "LoadImageFromPixxioAPI"
-        ],
-        {
-            "title_aux": "comfyui-pixxio"
-        }
-    ],
     "https://github.com/No-22-Github/ComfyUI_SaveImageCustom": [
         [
             "SaveUtility: SaveImageCustom"
@@ -2681,9 +2662,10 @@
     ],
     "https://github.com/SS-snap/Comfyui_SSsnap_pose-Remapping": [
         [
-            "ApplyPoseDiff",
-            "CalcScaledPoseDiff",
-            "PoseDiffCalculator"
+            "ApplyPoseScalesToFrames",
+            "CalculatePoseScales",
+            "ConvertPoseToStandardFormat",
+            "RenderKps"
         ],
         {
             "title_aux": "Comfyui_SSsnap_pose-Remapping"
@@ -5291,6 +5273,7 @@
     ],
     "https://github.com/fablestudio/ComfyUI-Showrunner-Utils": [
         [
+            "AdjustBottomAlphaDistance",
             "AlignFace",
             "Alpha Crop and Position Image",
             "GenerateTimestamp",
@@ -9086,37 +9069,6 @@
         ],
         {
             "title_aux": "comfyui-virallover"
-        }
-    ],
-    "https://github.com/visualbruno/ComfyUI-Hunyuan3d-2-1": [
-        [
-            "Hy3D21CameraConfig",
-            "Hy3D21ExportMesh",
-            "Hy3D21GenerateMultiViewsBatch",
-            "Hy3D21IMRemesh",
-            "Hy3D21LoadImageWithTransparency",
-            "Hy3D21LoadMesh",
-            "Hy3D21MeshGenerationBatch",
-            "Hy3D21MeshUVWrap",
-            "Hy3D21MeshlibDecimate",
-            "Hy3D21MultiViewsGeneratorWithMetaData",
-            "Hy3D21MultiViewsMeshGenerator",
-            "Hy3D21PostprocessMesh",
-            "Hy3D21ResizeImages",
-            "Hy3D21UseMultiViews",
-            "Hy3D21UseMultiViewsFromMetaData",
-            "Hy3D21VAEConfig",
-            "Hy3D21VAEDecode",
-            "Hy3D21VAELoader",
-            "Hy3DBakeMultiViews",
-            "Hy3DBakeMultiViewsWithMetaData",
-            "Hy3DHighPolyToLowPolyBakeMultiViewsWithMetaData",
-            "Hy3DInPaint",
-            "Hy3DMeshGenerator",
-            "Hy3DMultiViewsGenerator"
-        ],
-        {
-            "title_aux": "ComfyUI-Hunyuan3d-2-1"
         }
     ],
     "https://github.com/visualbruno/ComfyUI-QRemeshify": [
