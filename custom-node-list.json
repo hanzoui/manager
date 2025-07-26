@@ -18318,6 +18318,16 @@
             "description": "This repository is a quick port of [a/Resynthesizer](https://github.com/bootchk/resynthesizer) to ComfyUI.\nResynthesizer is the open-source implementation of a texture generation technique proposed by Paul Harrison in 2005, especially useful for removing an object from an image (inpainting), which is most likely close to what Photoshop uses to for the content aware fill feature. Note that this is not using a diffusion model to inpaint, as opposed to many techniques of today, which makes it very fast and predictable, but sometimes yields worse results."
         },
         {
+            "author": "brayevalerien",
+            "title": "ComfyUI-splitstring",
+            "reference": "https://github.com/brayevalerien/ComfyUI-SplitString",
+            "files": [
+                "https://github.com/brayevalerien/ComfyUI-SplitString"
+            ],
+            "install_type": "git-clone",
+            "description": "Very specific node for spliting a string with 12 lines into 12 individual strings.k"
+        },
+        {
             "author": "BZcreativ",
             "title": "ComfyUI-FLUX-TOGETHER-API",
             "reference": "https://github.com/BZcreativ/ComfyUI-FLUX-TOGETHER-API",
@@ -23387,6 +23397,16 @@
             ],
             "install_type": "git-clone",
             "description": "A wrapper of [a/CosyVoice2](https://github.com/FunAudioLLM/CosyVoice/)'s ComfyUI custom_nodes"
+        },
+        {
+            "author": "HJH-AILab",
+            "title": "ComfyUI_Facefusion",
+            "reference": "https://github.com/HJH-AILab/ComfyUI_Facefusion",
+            "files": [
+                "https://github.com/HJH-AILab/ComfyUI_Facefusion"
+            ],
+            "install_type": "git-clone",
+            "description": "a [a/Facefusion](https://github.com/facefusion/facefusion)'s wrapper for ComfyUI custom node."
         },
         {
             "author": "Easymode-ai",
@@ -29911,6 +29931,26 @@
             "install_type": "git-clone",
             "description": "🧩 Aspect Ratio Image Size Calculator, 🖼️ Aspect Ratio Resizer, and 📄 Markdown Link Generator for ComfyUI.",
             "tags": ["image", "resize", "aspect-ratio", "markdown", "utils"]
+        },
+        {
+            "author": "synchronicity-labs",
+            "title": "ComfyUI Sync Lipsync Node",
+            "reference": "https://github.com/synchronicity-labs/sync-comfyui",
+            "files": [
+                "https://github.com/synchronicity-labs/sync-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node allows you to perform audio-video lip synchronization inside ComfyUI using a simple interface."
+        },
+        {
+            "author": "jenn",
+            "title": "BookCoverFinder",
+            "reference": "https://github.com/weberjc/book-cover-finder-comfy",
+            "files": [
+                "https://github.com/weberjc/book-cover-finder-comfy"
+            ],
+            "install_type": "git-clone",
+            "description": "Book Cover Finder tool that wraps openlibrary.org"
         },
 
 
