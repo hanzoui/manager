@@ -4534,6 +4534,8 @@
             "HfDualClipLoader",
             "HfLoraLoader",
             "HfLoraLoaderModelOnly",
+            "HfQuadrupleClipLoader",
+            "HfTripleClipLoader",
             "HfVaeLoader",
             "ImageDifferenceCmap",
             "PhotoDoddleConditioning"
@@ -16030,6 +16032,7 @@
             "BlenderInputSeed",
             "BlenderInputString",
             "BlenderInputStringMultiline",
+            "BlenderOutputDownload3D",
             "BlenderOutputSaveImage"
         ],
         {
@@ -27338,6 +27341,14 @@
             "title_aux": "ComfyUI-keitNodes"
         }
     ],
+    "https://github.com/keit0728/ComfyUI-musubi-tuner": [
+        [
+            "MusubiTunerWanGenerateVideo"
+        ],
+        {
+            "title_aux": "ComfyUI-musubi-tuner"
+        }
+    ],
     "https://github.com/kenjiqq/qq-nodes-comfyui": [
         [
             "Any List",
@@ -32539,6 +32550,14 @@
             "title_aux": "Olm Channel Mixer for ComfyUI"
         }
     ],
+    "https://github.com/o-l-l-i/ComfyUI-Olm-ColorBalance": [
+        [
+            "OlmColorBalance"
+        ],
+        {
+            "title_aux": "Olm Color Balance for ComfyUI"
+        }
+    ],
     "https://github.com/o-l-l-i/ComfyUI-Olm-CurveEditor": [
         [
             "OlmCurveEditor"
@@ -34278,6 +34297,20 @@
         ],
         {
             "title_aux": "Dia realistic TTS"
+        }
+    ],
+    "https://github.com/rndnanthu/ComfyUI-RndNanthu": [
+        [
+            "AutoGradePro",
+            "ColorAnalysisPlotNode",
+            "ColorSpaceSim",
+            "ConvertToLogImage",
+            "FilmGrain",
+            "ProColorGrading",
+            "PromptGenerator"
+        ],
+        {
+            "title_aux": "ComfyUI-RndNanthu"
         }
     ],
     "https://github.com/robertvoy/ComfyUI-Distributed": [
@@ -36819,6 +36852,7 @@
         [
             "VolcengineI2VS2Pro",
             "VolcengineImgEditV3",
+            "volcengine-doubao-seedance",
             "volcengine-i2v-s2pro",
             "volcengine-img-edit-v3",
             "volcengine-seedream-v3"
@@ -39431,8 +39465,10 @@
             "easy loadImageBase64",
             "easy loadImagesForLoop",
             "easy loraNames",
+            "easy loraPromptApply",
             "easy loraStack",
             "easy loraStackApply",
+            "easy loraSwitcher",
             "easy makeImageForICLora",
             "easy mathFloat",
             "easy mathInt",

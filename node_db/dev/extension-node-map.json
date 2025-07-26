@@ -7047,6 +7047,14 @@
             "title_aux": "xcpNodes [WIP]"
         }
     ],
+    "https://github.com/love2hina-net/ComfyUI-Local-Translator": [
+        [
+            "LocalTranslator"
+        ],
+        {
+            "title_aux": "ComfyUI-Local-Translator"
+        }
+    ],
     "https://github.com/lrzjason/Comfyui-Condition-Utils": [
         [
             "LoadCondition",
@@ -8018,6 +8026,7 @@
             "przewodo WanModelTypeSelector",
             "przewodo WanVideoEnhanceAVideo",
             "przewodo WanVideoGenerationModeSelector",
+            "przewodo WanVideoLoraStack",
             "przewodo WanVideoVaeDecode"
         ],
         {
@@ -8868,6 +8877,20 @@
             "title_aux": "ComfyUI-CacheImageNode"
         }
     ],
+    "https://github.com/thavocado/comfyui-danbooru-lookup": [
+        [
+            "DanbooruFAISSLookup",
+            "DanbooruFAISSLookupAdvanced",
+            "WD14ToConditioning"
+        ],
+        {
+            "author": "ComfyUI Danbooru Lookup",
+            "description": "ComfyUI node that performs FAISS cosine similarity lookup on Danbooru embeddings using CLIP conditioning inputs.",
+            "nickname": "Danbooru Lookup",
+            "title": "Danbooru FAISS Lookup",
+            "title_aux": "comfyui-danbooru-lookup"
+        }
+    ],
     "https://github.com/thderoo/ComfyUI-_topfun_s_nodes": [
         [
             "ConditioningPerturbation",
@@ -9473,6 +9496,7 @@
             "LoadImageFromDirectoryNode",
             "LoadImageFromURLNode",
             "LoadStringFromDirectoryNode",
+            "OllamaVisionNode",
             "OutputIsListNode",
             "OutputIsNonListNode",
             "PrependTagsNode",

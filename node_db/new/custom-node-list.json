@@ -1,6 +1,37 @@
 {
     "custom_nodes": [
         {
+            "author": "RndNanthu",
+            "title": "ComfyUI-RndNanthu",
+            "id": "ComfyUI-RndNanthu",
+            "reference": "https://github.com/rndnanthu/ComfyUI-RndNanthu",
+            "files": [
+                "https://github.com/rndnanthu/ComfyUI-RndNanthu"
+            ],
+            "install_type": "git-clone",
+            "description": "Film Grain simulation, Log Color Conversions, Color Scopes (RGB Parade, Vectorscope, Gamut Warnings), False Color, and more."
+        },
+        {
+            "author": "keit",
+            "title": "ComfyUI-musubi-tuner",
+            "reference": "https://github.com/keit0728/ComfyUI-musubi-tuner",
+            "files": [
+                "https://github.com/keit0728/ComfyUI-musubi-tuner"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node that allows you to run musubi-tuner from ComfyUI."
+        },
+        {
+            "author": "guill",
+            "title": "ComfyUI Droopy Noodles",
+            "reference": "https://github.com/guill/comfyui-droopy-noodles",
+            "files": [
+                "https://github.com/guill/comfyui-droopy-noodles"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI extension that makes your node connections delightfully droopy. (Disclaimer: despite what it may look like, this extension will not make your monitor taste like spaghetti.)"
+        },
+        {
             "author": "AIWarper",
             "title": "ComfyUI-DAViD",
             "reference": "https://github.com/AIWarper/ComfyUI-DAViD",

@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "thavocado",
+            "title": "comfyui-danbooru-lookup",
+            "reference": "https://github.com/thavocado/comfyui-danbooru-lookup",
+            "files": [
+                "https://github.com/thavocado/comfyui-danbooru-lookup"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that performs FAISS cosine similarity lookup on Danbooru embeddings using multiple input modes: CLIP conditioning, images with WD14 tagging, or text tags.[w/This node pack installs its dependencies automatically during execution.]"
+        },
+        {
+            "author": "love2hina-net",
+            "title": "ComfyUI-Local-Translator",
+            "reference": "https://github.com/love2hina-net/ComfyUI-Local-Translator",
+            "files": [
+                "https://github.com/love2hina-net/ComfyUI-Local-Translator"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Local Translator"
+        },
+        {
             "author": "DenRakEiw",
             "title": "Denrakeiw Nodes [WIP]",
             "reference": "https://github.com/DenRakEiw/DenRakEiw_Nodes",
