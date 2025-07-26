@@ -3728,14 +3728,9 @@
             "ImageLoader",
             "LoadExr",
             "LoadExrLayerByName",
+            "LoadExrSequence",
             "SaverNode",
-            "ZNormalizeNode",
-            "coco_loader",
-            "load_exr",
-            "load_exr_layer_by_name",
-            "saver",
-            "shamble_cryptomatte",
-            "znormalize"
+            "ZNormalizeNode"
         ],
         {
             "title_aux": "ComfyUI-CoCoTools_IO"
@@ -9338,18 +9333,22 @@
     ],
     "https://github.com/NVIDIAGameWorks/ComfyUI-RTX-Remix": [
         [
+            "RTXRemixCloseProject",
             "RTXRemixCreateLayer",
             "RTXRemixDefineLayerId",
             "RTXRemixDeleteFile",
             "RTXRemixEndContext",
+            "RTXRemixGetDefaultDirectory",
             "RTXRemixGetEditTarget",
             "RTXRemixGetLayers",
+            "RTXRemixGetLoadedProject",
             "RTXRemixGetTextures",
             "RTXRemixIngestTexture",
             "RTXRemixInvertBool",
             "RTXRemixLayerType",
             "RTXRemixLayerTypes",
             "RTXRemixMuteLayer",
+            "RTXRemixOpenProject",
             "RTXRemixRemoveLayer",
             "RTXRemixRestAPIDetails",
             "RTXRemixSaveLayer",
@@ -10677,9 +10676,10 @@
     ],
     "https://github.com/SS-snap/Comfyui_SSsnap_pose-Remapping": [
         [
-            "ApplyPoseDiff",
-            "CalcScaledPoseDiff",
-            "PoseDiffCalculator"
+            "ApplyPoseScalesToFrames",
+            "CalculatePoseScales",
+            "ConvertPoseToStandardFormat",
+            "RenderKps"
         ],
         {
             "title_aux": "Comfyui_SSsnap_pose-Remapping"
@@ -13859,7 +13859,8 @@
         [
             "FUSEGenericKSampler",
             "FUSEKSampler",
-            "FUSESamplerMaskOptions"
+            "FUSESamplerMaskOptions",
+            "FUSEYOLOSettings"
         ],
         {
             "title_aux": "FUSE Face Enhancer"
@@ -22485,6 +22486,7 @@
     ],
     "https://github.com/fablestudio/ComfyUI-Showrunner-Utils": [
         [
+            "AdjustBottomAlphaDistance",
             "AlignFace",
             "Alpha Crop and Position Image",
             "GenerateTimestamp",
@@ -30593,7 +30595,8 @@
             "Load Random Image | sokes \ud83e\uddac",
             "Random Hex Color | sokes \ud83e\uddac",
             "Random Number | sokes \ud83e\uddac",
-            "Replace Text with RegEx | sokes \ud83e\uddac"
+            "Replace Text with RegEx | sokes \ud83e\uddac",
+            "Street View Loader | sokes \ud83e\uddac"
         ],
         {
             "title_aux": "ComfyUI Sokes Nodes \ud83e\uddac"
@@ -34224,7 +34227,8 @@
     ],
     "https://github.com/risunobushi/ComfyUI_sm4ll-Wrapper": [
         [
-            "VTONAPINode"
+            "VTONAPINode",
+            "VTONAPIPaidNode"
         ],
         {
             "title_aux": "ComfyUI_sm4ll-Wrapper"
@@ -38245,7 +38249,7 @@
     ],
     "https://github.com/whmc76/ComfyUI-RemoveBackgroundSuite": [
         [
-            "BiRefNetUltraV3_RBS",
+            "BiRefNetUltra_RBS",
             "MaskProcessDetails_RBS",
             "TransparentBackgroundUltra_RBS"
         ],
@@ -38281,7 +38285,6 @@
             "MathExpression_UTK",
             "PurgeVRAM_UTK",
             "RestoreCropBox_UTK",
-            "Show_UTK",
             "TextBoxNode_UTK",
             "TextConcatenate_UTK",
             "ThinkRemover_UTK"
