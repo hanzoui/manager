@@ -11640,17 +11640,6 @@
         {
             "author": "lquesada",
             "title": "ComfyUI-Interactive",
-            "id": "interactive",
-            "reference": "https://github.com/lquesada/ComfyUI-Interactive",
-            "files": [
-                "https://github.com/lquesada/ComfyUI-Interactive"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes that allow making the UI interactive, with selectors and switches. Enables selecting across multiple options with the click of a button to move a workflow forward."
-        },
-        {
-            "author": "lquesada",
-            "title": "ComfyUI-Interactive",
             "id": "comfyui-interactive",
             "reference": "https://github.com/lquesada/ComfyUI-Interactive",
             "files": [
@@ -15704,9 +15693,10 @@
         {
             "author": "Isi-dev",
             "title": "ComfyUI-Animation_Nodes_and_Workflows",
-            "reference": "https://github.com/Isi-dev/ComfyUI_Animation_Nodes_and_Workflows",
+            "id": "ComfyUI-Animation_Nodes_and_Workflows",
+            "reference": "https://github.com/Isi-dev/ComfyUI-Animation_Nodes_and_Workflows",
             "files": [
-                "https://github.com/Isi-dev/ComfyUI_Animation_Nodes_and_Workflows"
+                "https://github.com/Isi-dev/ComfyUI-Animation_Nodes_and_Workflows"
             ],
             "install_type": "git-clone",
             "description": "These are nodes and workflows that can facilitate the creation of animations and video compilations."
@@ -16349,7 +16339,7 @@
         },
         {
             "author": "Assistant",
-            "title": "ComfyUI-NS-ManySliders",
+            "title": "ComfyUI-NS-Util",
             "reference": "https://github.com/NakamuraShippo/ComfyUI-NS-Util",
             "files": [
                 "https://github.com/NakamuraShippo/ComfyUI-NS-Util"
@@ -17005,8 +16995,8 @@
             "description": "This is a collection of nodes created to aid when managing area conditionings."
         },
         {
-            "author": "Cyber-BCat",
-            "title": "Cyber-BlackCat",
+            "author": "Cyber-BlackCat",
+            "title": "ComfyUI_Auto_Caption",
             "reference": "https://github.com/Cyber-BlackCat/ComfyUI_Auto_Caption",
             "files": [
                 "https://github.com/Cyber-BlackCat/ComfyUI_Auto_Caption"
@@ -17015,8 +17005,8 @@
             "description": "Using LLM and Joy tag pipeline to tag your image(s folder), it's suitable for train FLUX LoRA and also sdxl. Load images in order!"
         },
         {
-            "author": "Cyber-BCat",
-            "title": "Cyber-BlackCat",
+            "author": "Cyber-BlackCat",
+            "title": "ComfyUI-Image-Vector",
             "reference": "https://github.com/Cyber-BlackCat/ComfyUI-Image-Vector",
             "files": [
                 "https://github.com/Cyber-BlackCat/ComfyUI-Image-Vector"
@@ -18921,17 +18911,6 @@
             ],
             "install_type": "git-clone",
             "description": "The PonySwitch node is a custom node for ComfyUI that modifies prompts based on a toggle switch and adds configurable pony tags."
-        },
-        {
-            "author": "Isi-dev",
-            "title": "ComfyUI-Animation_Nodes_and_Workflows",
-            "id": "ComfyUI-Animation_Nodes_and_Workflows",
-            "reference": "https://github.com/Isi-dev/ComfyUI-Animation_Nodes_and_Workflows",
-            "files": [
-                "https://github.com/Isi-dev/ComfyUI-Animation_Nodes_and_Workflows"
-            ],
-            "install_type": "git-clone",
-            "description": "These are nodes and workflows that can facilitate the creation of animations and video compilations."
         },
         {
             "author": "LatentSpaceDirective",
@@ -24986,17 +24965,6 @@
             "description": "Send generated images or videos to any HTTP webhook with optional parameters such as prompt-id and metadata payload."
         },
         {
-            "author": "zouyu",
-            "title": "ComfyUI-SaveImageS3",
-            "id": "comfyui-saveimages3",
-            "reference": "https://github.com/mrchipset/ComfyUI-SaveImageS3",
-            "files": [
-                "https://github.com/mrchipset/ComfyUI-SaveImageS3"
-            ],
-            "install_type": "git-clone",
-            "description": "This extension offers a custom node to save image to S3-compatible oss."
-        },
-        {
             "author": "CGAnimitta",
             "title": "ComfyUI_CGAnimittaTools",
             "reference": "https://github.com/cganimitta/ComfyUI_CGAnimittaTools",
@@ -25105,16 +25073,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI's non-persistent (in-memory) image preview feature"
-        },
-        {
-            "author": "yanlang0123",
-            "title": "ComfyUI_Lam",
-            "reference": "https://github.com/yanlang0123/ComfyUI_Lam",
-            "files": [
-                "https://github.com/yanlang0123/ComfyUI_Lam"
-            ],
-            "install_type": "git-clone",
-            "description": "This extension has some useful nodes, loops, wechat public number +AI chat drawing, distributed cluster."
         },
         {
             "author": "KERRY-YUAN",
@@ -27707,7 +27665,7 @@
         },
         {
             "author": "mo230761",
-            "title": "ComfyUI-Text-Translation",
+            "title": "InsertAnything-ComfyUI-official",
             "reference": "https://github.com/mo230761/InsertAnything-ComfyUI-official",
             "files": [
                 "https://github.com/mo230761/InsertAnything-ComfyUI-official"
@@ -27999,7 +27957,6 @@
         {
             "author": "keit",
             "title": "ComfyUI-keitNodes",
-            "id": "comfyui-image-toolkit",
             "reference": "https://github.com/keit0728/ComfyUI-keitNodes",
             "files": [
                 "https://github.com/keit0728/ComfyUI-keitNodes"
@@ -29345,17 +29302,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node that provides a LoRa loader with persistent trigger word storage. Automatically saves and loads trigger words for each LoRa model, making your workflow more efficient."
-        },
-        {
-            "author": "Ben Staniford",
-            "title": "Comfy Contact Sheet Image Loader",
-            "id": "comfy-contact-sheet-image-loader",
-            "reference": "https://github.com/benstaniford/comfy-contact-sheet-image-loader",
-            "files": [
-                "https://github.com/benstaniford/comfy-contact-sheet-image-loader"
-            ],
-            "install_type": "git-clone",
-            "description": "Displays up to 64 recent images from a folder as numbered thumbnails in a grid contact sheet format, allowing you to select and load one for post-processing"
         },
         {
             "author": "Ben Staniford",
