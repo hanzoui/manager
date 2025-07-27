@@ -3891,7 +3891,7 @@
                 "https://github.com/idrirap/ComfyUI-Lora-Auto-Trigger-Words"
             ],
             "install_type": "git-clone",
-            "description": "This project is a fork of [a/https://github.com/Extraltodeus/LoadLoraWithTags](https://github.com/Extraltodeus/LoadLoraWithTags) The aim of these custom nodes is to get an easy access to the tags used to trigger a lora."
+            "description": "The aim of these custom nodes is to get an easy access to the tags used to trigger a lora / lycoris. Extract the tags from civitai or from the safetensors metadatas when available."
         },
         {
             "author": "aianimation55",
@@ -29950,6 +29950,17 @@
             "install_type": "git-clone",
             "description": "Film Grain simulation, Log Color Conversions, Color Scopes (RGB Parade, Vectorscope, Gamut Warnings), False Color, and more."
         },
+        {
+            "author": "Pun0110",
+            "title": "CSV Styler",
+            "reference": "https://github.com/Pun0110/ComfyUI-CSV-Styler",
+            "files": [
+                "https://github.com/Pun0110/ComfyUI-CSV-Styler"
+            ],
+            "install_type": "git-clone",
+            "description": "Repository contains CSV Styler - custom node for ComfyUI. It loads styles from styles.csv file (Automatic1111 Web-Ui styles.csv format) and combine them with provided positive and negative prompt.\nNOTE: 'styles.csv' should be placed in ComfyUI root directory (near main.py)."
+        },
+
 
 
 

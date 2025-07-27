@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "ShmuelRonen",
+            "title": "ComfyUI-HiggsAudio_Wrapper",
+            "id": "higgs-audio-wrapper",
+            "reference": "https://github.com/ShmuelRonen/ComfyUI-HiggsAudio_Wrapper",
+            "files": [
+                "https://github.com/ShmuelRonen/ComfyUI-HiggsAudio_Wrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive ComfyUI wrapper for HiggsAudio v2, enabling high-quality text-to-speech generation with advanced voice cloning capabilities. Supports multiple voice presets and custom reference audio for voice cloning. Requires transformers==4.45.2 for compatibility."
+        },
+        {
             "author": "RndNanthu",
             "title": "ComfyUI-RndNanthu",
             "id": "ComfyUI-RndNanthu",
@@ -682,88 +693,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI wrapper implementation of ThinkSound - an advanced AI model for generating high-quality audio from text descriptions and video content using Chain-of-Thought (CoT) reasoning."
-        },
-        {
-            "author": "baikong",
-            "title": "blender-in-comfyui",
-            "reference": "https://github.com/JayLyu/blender-in-comfyui",
-            "files": [
-                "https://github.com/JayLyu/blender-in-comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "Combine multiple 3D models into a single Blender file and render in ComfyUI."
-        },
-        {
-            "author": "ZXL-Xinram",
-            "title": "ComfyUI-AutoFlow",
-            "reference": "https://github.com/ZXL-Xinram/ComfyUI-AutoFlow",
-            "files": [
-                "https://github.com/ZXL-Xinram/ComfyUI-AutoFlow"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of utility nodes for ComfyUI focused on path processing and string operations."
-        },
-        {
-            "author": "MithrilMan",
-            "title": "Mithril-Nodes for ComfyUI",
-            "reference": "https://github.com/MithrilMan/ComfyUI-MithrilNodes",
-            "files": [
-                "https://github.com/MithrilMan/ComfyUI-MithrilNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Mithril-Nodes is a collection of custom nodes for ComfyUI that enhance workflow modularity, data routing, and configuration management. These nodes help you build more dynamic, organized, and reusable pipelines for generative AI workflows."
-        },
-        {
-            "author": "swisscore-py",
-            "title": "ComfyUI Telegram Suite",
-            "reference": "https://github.com/SwissCore92/comfyui-telegram-suite",
-            "files": [
-                "https://github.com/SwissCore92/comfyui-telegram-suite"
-            ],
-            "install_type": "git-clone",
-            "description": "Implement Telegram into your ComfyUI workflows."
-        },
-        {
-            "author": "quasiblob",
-            "title": "ComfyUI-EsesImageCompare",
-            "reference": "https://github.com/quasiblob/ComfyUI-EsesImageCompare",
-            "files": [
-                "https://github.com/quasiblob/ComfyUI-EsesImageCompare"
-            ],
-            "install_type": "git-clone",
-            "description": "Interactive A/B image comparison node with a draggable slider to reveal one image over another. Includes difference and other blend modes for more detailed analysis, allowing one to spot changes in similar images. Node also outputs a passthrough image of input A, and a grayscale difference mask."
-        },
-        {
-            "author": "Yuan-ManX",
-            "title": "ComfyUI-ThinkSound",
-            "reference": "https://github.com/Yuan-ManX/ComfyUI-ThinkSound",
-            "files": [
-                "https://github.com/Yuan-ManX/ComfyUI-ThinkSound"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-ThinkSound is now available in ComfyUI, ThinkSound is a unified Any2Audio generation framework with flow matching guided by Chain-of-Thought (CoT) reasoning."
-        },
-        {
-            "author": "xChenNing",
-            "title": "ComfyUI_Image_Pin",
-            "id": "comfyui-image-pin",
-            "reference": "https://github.com/CheNing233/ComfyUI_Image_Pin",
-            "files": [
-                "https://github.com/CheNing233/ComfyUI_Image_Pin"
-            ],
-            "install_type": "git-clone",
-            "description": "Allows you to pin images to the JSON of your workflow, migrate with JSON, or embed in image's metadata. supports image compression."
-        },
-        {
-            "author": "LaoMaoBoss",
-            "title": "ComfyUI-WBLESS",
-            "id": "LaoMaoBoss",
-            "reference": "https://github.com/LaoMaoBoss/ComfyUI-WBLESS",
-            "files": [
-                "https://github.com/LaoMaoBoss/ComfyUI-WBLESS"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI's custom node package. This custom node has many practical functions, including global variables and process flow control."
         }
     ]
 }

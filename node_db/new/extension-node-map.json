@@ -4400,10 +4400,10 @@
     "https://github.com/Dontdrunk/ComfyUI-DD-Nodes": [
         [
             "DD-AdvancedFusion",
-            "DD-ColorBackgroundGenerator",
             "DD-ConditionSwitcher",
             "DD-DimensionCalculator",
             "DD-ImageSizeLimiter",
+            "DD-ImageStroke",
             "DD-ImageToVideo",
             "DD-ImageUniformSize",
             "DD-LatentSwitcher",
@@ -10180,6 +10180,14 @@
             "title_aux": "Pseudocomfy"
         }
     ],
+    "https://github.com/Pun0110/ComfyUI-CSV-Styler": [
+        [
+            "PT.CSV Styler"
+        ],
+        {
+            "title_aux": "CSV Styler"
+        }
+    ],
     "https://github.com/Q-Bug4/Comfyui-Qb-DateNodes": [
         [
             "DateTimeFormatterNode"
@@ -11426,6 +11434,18 @@
         ],
         {
             "title_aux": "ComfyUI-Gemini_TTS"
+        }
+    ],
+    "https://github.com/ShmuelRonen/ComfyUI-HiggsAudio_Wrapper": [
+        [
+            "HiggsAudio",
+            "LoadHiggsAudioModel",
+            "LoadHiggsAudioPrompt",
+            "LoadHiggsAudioSystemPrompt",
+            "LoadHiggsAudioTokenizer"
+        ],
+        {
+            "title_aux": "ComfyUI-HiggsAudio_Wrapper"
         }
     ],
     "https://github.com/ShmuelRonen/ComfyUI-HunyuanVideoSamplerSave": [
@@ -22503,13 +22523,19 @@
             "AdjustBottomAlphaDistance",
             "AlignFace",
             "Alpha Crop and Position Image",
+            "CreateOutlineMask",
             "GenerateTimestamp",
             "GetMostCommonColors",
             "ImageCompositeAbsoluteByContainer",
             "LoadImageFromUrl",
+            "LoraLoaderModelWithNameOnly",
+            "LoraLoaderWithName",
+            "MaskMorphologyNode",
             "OpenAI Image 2 Text",
             "PadMask",
             "ReadImage",
+            "ShowrunnerFilename",
+            "ShowrunnerSeed",
             "Shrink Image"
         ],
         {
@@ -22621,8 +22647,25 @@
     "https://github.com/fblissjr/ComfyUI-WanActivationEditor": [
         [
             "WanVideoActivationEditor",
-            "WanVideoActivationScheduler",
-            "WanVideoBlockActivationBuilder"
+            "WanVideoAdvancedActivationEditor",
+            "WanVideoBlockActivationBuilder",
+            "WanVideoBlockActivationViewer",
+            "WanVideoBlockStrengthBuilder",
+            "WanVideoDirectInjector",
+            "WanVideoEmbeddingAmplifier",
+            "WanVideoEmbeddingAnalyzer",
+            "WanVideoEmbeddingDatabase",
+            "WanVideoGuidanceController",
+            "WanVideoInjectionTester",
+            "WanVideoLatentEncoder",
+            "WanVideoLatentInjector",
+            "WanVideoNoiseController",
+            "WanVideoProjectionBooster",
+            "WanVideoSequentialMixer",
+            "WanVideoStrengthVisualizer",
+            "WanVideoVectorArithmetic",
+            "WanVideoVectorDifference",
+            "WanVideoVectorInterpolation"
         ],
         {
             "title_aux": "ComfyUI-WanActivationEditor"
