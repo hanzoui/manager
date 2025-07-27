@@ -149,6 +149,8 @@
             "AILab_ImageStitch",
             "AILab_LamaRemover",
             "AILab_LoadImage",
+            "AILab_LoadImageAdvanced",
+            "AILab_LoadImageSimple",
             "AILab_MaskCombiner",
             "AILab_MaskEnhancer",
             "AILab_MaskExtractor",
@@ -20072,6 +20074,45 @@
             "title_aux": "Simple Image To Palette"
         }
     ],
+    "https://github.com/cnnmmd/comfyui_xoxxox_cnnmmd": [
+        [
+            "Xoxxox_CnvDat",
+            "Xoxxox_CnvSen",
+            "Xoxxox_CnvTxt",
+            "Xoxxox_CnvVce",
+            "Xoxxox_DlyGet",
+            "Xoxxox_DlySet",
+            "Xoxxox_GenImg",
+            "Xoxxox_GenTxt",
+            "Xoxxox_GetAud",
+            "Xoxxox_GetDir",
+            "Xoxxox_GetDis",
+            "Xoxxox_GetImg",
+            "Xoxxox_GetMem",
+            "Xoxxox_GetTxt",
+            "Xoxxox_IniFlw",
+            "Xoxxox_LogNum",
+            "Xoxxox_LogTxt",
+            "Xoxxox_PutTxt",
+            "Xoxxox_RcvVce",
+            "Xoxxox_RepTxt",
+            "Xoxxox_RunFlw",
+            "Xoxxox_SenTxt",
+            "Xoxxox_SetAud",
+            "Xoxxox_SetDir",
+            "Xoxxox_SetDis",
+            "Xoxxox_SetImg",
+            "Xoxxox_SetMem",
+            "Xoxxox_SetNil",
+            "Xoxxox_SetTxt",
+            "Xoxxox_SndVce",
+            "Xoxxox_SwtImg",
+            "Xoxxox_TrnBak"
+        ],
+        {
+            "title_aux": "cnnmmd: comfyui_xoxxox_cnnmmd"
+        }
+    ],
     "https://github.com/codeprimate/ComfyUI-MaskContourProcessor": [
         [
             "MaskContourProcessor"
@@ -37172,6 +37213,7 @@
     ],
     "https://github.com/theshubzworld/ComfyUI-SD3.5-Latent-Size-Picker": [
         [
+            "FluxEmptyLatent",
             "SD3_5EmptyLatent"
         ],
         {
@@ -38019,6 +38061,7 @@
             "Hy3D21MultiViewsMeshGenerator",
             "Hy3D21PostprocessMesh",
             "Hy3D21ResizeImages",
+            "Hy3D21SimpleMeshlibDecimate",
             "Hy3D21UseMultiViews",
             "Hy3D21UseMultiViewsFromMetaData",
             "Hy3D21VAEConfig",
