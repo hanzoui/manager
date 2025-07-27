@@ -2077,6 +2077,7 @@
             "ADJUST: SHARPEN (JOV)",
             "AKASHIC (JOV) \ud83d\udcd3",
             "ARRAY (JOV) \ud83d\udcda",
+            "BATCH TO LIST (JOV)",
             "BIT SPLIT (JOV) \u2b44",
             "BLEND (JOV) \u2697\ufe0f",
             "COLOR BLIND (JOV) \ud83d\udc41\u200d\ud83d\udde8",
@@ -15908,12 +15909,15 @@
     "https://github.com/alchemine/comfyui-alchemine-pack": [
         [
             "CustomProcessor",
-            "DanbooruRetriever",
+            "DanbooruPopularPostsTagsRetriever",
+            "DanbooruPostTagsRetriever",
+            "DanbooruRelatedTagsRetriever",
             "FilterSubtags",
             "FilterTags",
             "ProcessTags",
             "ReplaceUnderscores",
-            "TokenAnalyzer"
+            "TokenAnalyzer",
+            "WidthHeight"
         ],
         {
             "title_aux": "ComfyUI-Alchemine-Pack"
