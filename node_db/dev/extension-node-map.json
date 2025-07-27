@@ -1557,6 +1557,15 @@
             "title_aux": "ComfyUI-AppIO"
         }
     ],
+    "https://github.com/Filexor/File_x_dynamic_prompt2": [
+        [
+            "File_x_DynamicPrompt2",
+            "File_x_DynamicPrompt2 with States IO"
+        ],
+        {
+            "title_aux": "File_x_dynamic_prompt2"
+        }
+    ],
     "https://github.com/FinetunersAI/comfyui-fast-group-link": [
         [
             "FastGroupLink"
@@ -4075,12 +4084,23 @@
             "title_aux": "Gen Data Tester [WIP]"
         }
     ],
+    "https://github.com/bleash-dev/Comfyui-FileSytem-Manager": [
+        [
+            "custom_nodes",
+            "web_extensions"
+        ],
+        {
+            "title_aux": "Comfyui-FileSytem-Manager"
+        }
+    ],
     "https://github.com/blepping/comfyui_dum_samplers": [
         [
             "BatchMergeSampler",
             "CacheAwareEulerSampler",
             "CyclePaddingSampler",
             "HistorySampler",
+            "PingPongSampler",
+            "RestlessScheduler",
             "SimilarityAncestralEulerSampler",
             "SimilarityClampEulerSampler"
         ],
@@ -9742,6 +9762,29 @@
         ],
         {
             "title_aux": "Comfyui_image2prompt"
+        }
+    ],
+    "https://github.com/zhuanvi/ComfyUI-ZVNodes": [
+        [
+            "ImageCounterNodeZV",
+            "JoinListZV",
+            "JsonListIndexerZV",
+            "JsonListLengthZV",
+            "JsonListNodeZV",
+            "JsonListSlicerZV",
+            "JsonListToMaskZV",
+            "JsonReaderZV",
+            "LoadImageFromDirZV",
+            "LoadTxtFromDirZV",
+            "RandomSelectListZV",
+            "SaveImageToPathZV",
+            "SaveTxtToPathZV",
+            "TriangleCharacterLayoutZV",
+            "VideoSceneDetectorZV",
+            "VideoSpeedZV"
+        ],
+        {
+            "title_aux": "ComfyUI-ZVNodes [WIP]"
         }
     ],
     "https://github.com/zjkhurry/comfyui_MetalFX": [
