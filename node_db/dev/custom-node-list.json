@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "system-out-cho",
+            "title": "displayHistory [WIP]",
+            "reference": "https://github.com/system-out-cho/displayHistory_ComfyUI",
+            "files": [
+                "https://github.com/system-out-cho/displayHistory_ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "A node that displays any node's history\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "lazybuttalented",
+            "title": "ComfyUI_LBT [WIP]",
+            "reference": "https://github.com/lazybuttalented/ComfyUI_LBT",
+            "files": [
+                "https://github.com/lazybuttalented/ComfyUI_LBT"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node to program the image & text processing flows.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "xgfone",
+            "title": "ComfyUI_PromptLogoCleaner",
+            "reference": "https://github.com/xgfone/ComfyUI_PromptLogoCleaner",
+            "files": [
+                "https://github.com/xgfone/ComfyUI_PromptLogoCleaner"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Prompt Cleaner (Remove Logo Words)"
+        },
+        {
+            "author": "dexintenebri",
+            "title": "comfyui_voxel_nodes [WIP]",
+            "reference": "https://github.com/dexintenebri/comfyui_voxel_nodes",
+            "files": [
+                "https://github.com/dexintenebri/comfyui_voxel_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Extracts RGB and depthmap from image to create 3D Voxels, for integration into MagicaVoxel and Unity Engine\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "1H-hobit",
+            "title": "ComfyComfyUI_InternVL3 [WIP]",
+            "reference": "https://github.com/1H-hobit/ComfyUI_InternVL3",
+            "files": [
+                "https://github.com/1H-hobit/ComfyUI_InternVL3"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes to use InternVL3"
+        },
+        {
             "author": "LucianoCirino",
             "title": "ComfyUI-invAIder-Nodes",
             "reference": "https://github.com/LucianoCirino/ComfyUI-invAIder-Nodes",
@@ -58,7 +108,7 @@
                 "https://github.com/love2hina-net/ComfyUI-Local-Translator"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Local Translator"
+            "description": "This is a text translation node using a local SLM (Microsoft Phi-4) for ComfyUI."
         },
         {
             "author": "DenRakEiw",
