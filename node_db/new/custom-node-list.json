@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "rainlizard",
+            "title": "Whirlpool Upscaler",
+            "reference": "https://github.com/rainlizard/ComfyUI-WhirlpoolUpscaler",
+            "files": [
+                "https://github.com/rainlizard/ComfyUI-WhirlpoolUpscaler"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a modified implementation of impact-pack's iterative upscaler. It leans in on the idea that giving too much attention to computation at high resolutions isn't a good idea."
+        },
+        {
             "author": "Android zhang",
             "title": "ComfyUI-MoGe2",
             "reference": "https://github.com/zade23/Comfyui-MoGe2",
@@ -673,36 +683,6 @@
             ],
             "install_type": "git-clone",
             "description": "A collection of nodes for ComfyUI. ex:A node for batch managing int, float, and string parameters with presets"
-        },
-        {
-            "author": "cjj198909",
-            "title": "OpenAI/Azure OpenAI Image API",
-            "reference": "https://github.com/cjj198909/comfy_openai_image_api_azure",
-            "files": [
-                "https://github.com/cjj198909/comfy_openai_image_api_azure"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node that provides access to OpenAI's image generation and editing capabilities, including support for gpt-image-1 model with both OpenAI and Azure OpenAI providers."
-        },
-        {
-            "author": "NyaFuP",
-            "title": "NF Preview Selector",
-            "reference": "https://github.com/NyaFuP/ComfyUI_Preview_Selector",
-            "files": [
-                "https://github.com/NyaFuP/ComfyUI_Preview_Selector"
-            ],
-            "install_type": "git-clone",
-            "description": "A floating dialog-based image preview and selection system for ComfyUI."
-        },
-        {
-            "author": "aiaiaikkk",
-            "title": "kontext-super-prompt",
-            "reference": "https://github.com/aiaiaikkk/kontext-super-prompt",
-            "files": [
-                "https://github.com/aiaiaikkk/kontext-super-prompt"
-            ],
-            "install_type": "git-clone",
-            "description": "Super Prompt System Powered by Flux Kontext Leveraging visual annotations and AI-enhanced control, this system enables precise, multimodal image editing. Users simply select a region and describe it—structured prompts are auto-generated to guide the Kontext model in smart local or global edits."
         }
     ]
 }
