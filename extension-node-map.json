@@ -7309,6 +7309,14 @@
             "title_aux": "AudioDriven-Latent-Space-Tools-for-ComfyUI"
         }
     ],
+    "https://github.com/Kayarte/GeoNodes/raw/refs/heads/main/GISDetectionNode.py": [
+        [
+            "GISDetectionNode"
+        ],
+        {
+            "title_aux": "GeoNodes"
+        }
+    ],
     "https://github.com/Kesin11/ComfyUI-list-filter": [
         [
             "list_filter_FilterImageListByIndexList",
@@ -11738,6 +11746,14 @@
         ],
         {
             "title_aux": "ComfyUI-Prompt-History"
+        }
+    ],
+    "https://github.com/SimonHeese/ComfyUI_AnimationNodes/raw/refs/heads/main/animated_offset_pad.py": [
+        [
+            "AnimatedOffsetPadding"
+        ],
+        {
+            "title_aux": "ComfyUI_AnimationNodes"
         }
     ],
     "https://github.com/Sinphaltimus/comfyui_fedcoms_node_pack": [
@@ -22142,6 +22158,14 @@
             "title_aux": "ObjectFusion_ComfyUI_nodes"
         }
     ],
+    "https://github.com/duskfallcrew/Comfyui_EmbeddingMerge_Node/raw/refs/heads/main/merge_embed.py": [
+        [
+            "EmbeddingMerger"
+        ],
+        {
+            "title_aux": "Embedding Merge for ComfyUI"
+        }
+    ],
     "https://github.com/dymokomi/comfyui_dygen": [
         [
             "AdaptiveColorCircles",
@@ -22207,11 +22231,14 @@
     ],
     "https://github.com/ebrinz/ComfyUI-MusicGen-HF": [
         [
+            "AudioOutputToConditioningQueue",
             "BPMDurationInput",
+            "ConditioningQueueManager",
             "HuggingFaceMusicGen",
             "LoadAudioStandalone",
             "LoopingAudioPreview",
             "MusicGenAudioToFile",
+            "ProfessionalLoopTransition",
             "SaveAudioStandalone",
             "SmoothAudioQueue",
             "custom_nodes"
@@ -35787,29 +35814,6 @@
         ],
         {
             "title_aux": "ComfyUI LoadImageWithInfo"
-        }
-    ],
-    "https://github.com/skayka/ComfyUI-DreamFit": [
-        [
-            "DreamFitAdapterInfo",
-            "DreamFitCheckpointLoader",
-            "DreamFitConditioningInfo",
-            "DreamFitEncode",
-            "DreamFitFluxAdapter",
-            "DreamFitFluxAdapterV2",
-            "DreamFitFluxAdapterV3",
-            "DreamFitKSampler",
-            "DreamFitKSamplerV2",
-            "DreamFitKSamplerV3",
-            "DreamFitModelValidator",
-            "DreamFitSamplerAdvanced",
-            "DreamFitSamplerV4",
-            "DreamFitSimple",
-            "DreamFitUnified",
-            "DreamFitUnifiedV2"
-        ],
-        {
-            "title_aux": "ComfyUI-DreamFit"
         }
     ],
     "https://github.com/skfoo/ComfyUI-Coziness": [
