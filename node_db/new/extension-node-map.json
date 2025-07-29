@@ -4002,14 +4002,23 @@
     ],
     "https://github.com/Cyrostar/ComfyUI-Artha-Gemini": [
         [
-            "GeminiCondense",
-            "GeminiInstruct",
-            "GeminiMotion",
-            "GeminiPrompter",
-            "GeminiQuestion",
-            "GeminiResponse",
-            "GeminiTranslate",
-            "GeminiVision"
+            "Gemini Backdrop",
+            "Gemini Body",
+            "Gemini Cloth",
+            "Gemini Condense",
+            "Gemini Face",
+            "Gemini Form",
+            "Gemini Instruct",
+            "Gemini Makeup",
+            "Gemini Markdown",
+            "Gemini Motion",
+            "Gemini Operation",
+            "Gemini Portrait",
+            "Gemini Prompter",
+            "Gemini Question",
+            "Gemini Response",
+            "Gemini Translate",
+            "Gemini Vision"
         ],
         {
             "title_aux": "ComfyUI-Artha-Gemini"
@@ -15669,6 +15678,7 @@
             "Comfly_gpt_image_1",
             "Comfly_gpt_image_1_edit",
             "Comfly_kling_image2video",
+            "Comfly_kling_multi_image2video",
             "Comfly_kling_text2video",
             "Comfly_lip_sync",
             "Comfly_mj_video",
@@ -22602,6 +22612,7 @@
             "AdjustBottomAlphaDistance",
             "AlignFace",
             "Alpha Crop and Position Image",
+            "ComfyDeployAPINode",
             "CreateOutlineMask",
             "GenerateTimestamp",
             "GetMostCommonColors",
@@ -26019,6 +26030,7 @@
             "Get Size JK",
             "Guidance Default JK",
             "HintImageEnchance JK",
+            "Hy3D Cam Config 20to21 JK",
             "IPAAdapterFaceIDBatch",
             "IPAdapter",
             "IPAdapterAdvanced",
@@ -34483,6 +34495,7 @@
         [
             "DistributedCollector",
             "DistributedSeed",
+            "ImageBatchDivider",
             "UltimateSDUpscaleDistributed"
         ],
         {
@@ -40054,6 +40067,14 @@
         ],
         {
             "title_aux": "Comfyui-Distill-Any-Depth"
+        }
+    ],
+    "https://github.com/zade23/Comfyui-MoGe2": [
+        [
+            "RunMoGe2Process"
+        ],
+        {
+            "title_aux": "ComfyUI-MoGe2"
         }
     ],
     "https://github.com/zaheenrahman/ComfyUI-ColorCorrection": [

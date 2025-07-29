@@ -205,6 +205,16 @@
             "title_aux": "ComfyUI-1hewNodes [WIP]"
         }
     ],
+    "https://github.com/206811/ComfyUI_ZhipuAIO": [
+        [
+            "ZhipuAIOConfigNode",
+            "ZhipuAIO_VisionNode",
+            "ZhipuTranslateNode"
+        ],
+        {
+            "title_aux": "ComfyUI_ZhipuAIO"
+        }
+    ],
     "https://github.com/3dmindscapper/ComfyUI-PartField": [
         [
             "PartFieldClustering",
@@ -548,6 +558,14 @@
             "nickname": "ComfyUI Text Tools",
             "title": "ComfyUI APZmedia Text Tools",
             "title_aux": "comfyui-textools [WIP]"
+        }
+    ],
+    "https://github.com/Aero-Ex/comfyui_diffswap": [
+        [
+            "DiffSwapNode"
+        ],
+        {
+            "title_aux": "comfyui_diffswap"
         }
     ],
     "https://github.com/AhBumm/ComfyUI-Upscayl": [
@@ -1683,6 +1701,14 @@
         ],
         {
             "title_aux": "ComfyUI-LLMs-Toolkit [WIP]"
+        }
+    ],
+    "https://github.com/Huangcj2005/comfyui-HandDetect": [
+        [
+            "HandMaskGenerator"
+        ],
+        {
+            "title_aux": "comfyui-HandDetect"
         }
     ],
     "https://github.com/IfnotFr/ComfyUI-Ifnot-Pack": [
@@ -3686,6 +3712,14 @@
             "title_aux": "json-creator [WIP]"
         }
     ],
+    "https://github.com/ahmedbana/upload-to-azure": [
+        [
+            "AzureBlobUploader"
+        ],
+        {
+            "title_aux": "upload-to-azure"
+        }
+    ],
     "https://github.com/aiden1020/ComfyUI_Artcoder": [
         [
             "ArtCoder"
@@ -5157,6 +5191,7 @@
             "OptimizedVoxelizationNode",
             "ProceduralChunkedWFC3DTerrain",
             "ShapeCompletionNode",
+            "VoxelExportNode",
             "VoxelModelLoader",
             "VoxelPreview",
             "VoxelPreviewNode",
@@ -5413,6 +5448,7 @@
             "AdjustBottomAlphaDistance",
             "AlignFace",
             "Alpha Crop and Position Image",
+            "ComfyDeployAPINode",
             "CreateOutlineMask",
             "GenerateTimestamp",
             "GetMostCommonColors",
@@ -9616,13 +9652,13 @@
             "LoadImageFromDirectoryNode",
             "LoadImageFromURLNode",
             "LoadStringFromDirectoryNode",
+            "LoadStringNode",
             "OllamaClientNode",
             "OllamaNode",
-            "OutputIsListNode",
-            "OutputIsNonListNode",
             "PrependTagsNode",
             "PrintAnyNode",
             "PrintImageNode",
+            "RemoveDuplicateTagsNode",
             "SaveImageToDirectoryNode",
             "SaveStringToDirectoryNode",
             "SequenceStringListNode",
