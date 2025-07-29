@@ -8841,12 +8841,14 @@
             "Crop Image By Mask",
             "Flux Empty Latent Image",
             "Flux Image Scale To Total Pixels (Flux Safe)",
+            "Flux Resolution Selector",
             "FluxResolutionMatcher",
             "Image Scale To Total Pixels (SDXL Safe)",
             "LatentHalfMasks",
             "Place Image By Mask",
             "Prompt With Guidance (Flux)",
-            "Sdxl Empty Latent Image"
+            "Sdxl Empty Latent Image",
+            "Sdxl Resolution Selector"
         ],
         {
             "title_aux": "ComfyUI-MaxedOut"
@@ -28245,6 +28247,7 @@
         [
             "CreateCFGScheduleFloatList",
             "DownloadAndLoadWav2VecModel",
+            "DummyComfyWanModelObject",
             "ExtractStartFramesForContinuations",
             "FantasyTalkingModelLoader",
             "FantasyTalkingWav2VecEmbeds",
@@ -31121,6 +31124,7 @@
     "https://github.com/mcDandy/more_math": [
         [
             "mrmth_ConditioningMathNode",
+            "mrmth_FloatMathNode",
             "mrmth_FloatToInt",
             "mrmth_ImageMathNode",
             "mrmth_IntToFloat",
@@ -40025,6 +40029,7 @@
     ],
     "https://github.com/yuvraj108c/ComfyUI-YoloNasPose-Tensorrt": [
         [
+            "YoloNasPoseEngineBuilder",
             "YoloNasPoseTensorrt"
         ],
         {
