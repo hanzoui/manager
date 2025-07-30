@@ -1942,6 +1942,16 @@
             "title_aux": "camera-comfyUI"
         }
     ],
+    "https://github.com/AlfredClark/ComfyUI-ModelSpec": [
+        [
+            "ModelMetadataNode",
+            "ModelSpecEditNode",
+            "SelectModelNode"
+        ],
+        {
+            "title_aux": "ComfyUI-ModelSpec"
+        }
+    ],
     "https://github.com/Aljnk/ComfyUI-JNK-Tiny-Nodes": [
         [
             "Add Layer Overlay JNK",
@@ -4020,6 +4030,7 @@
             "Gemini Prompter",
             "Gemini Question",
             "Gemini Response",
+            "Gemini Scenery",
             "Gemini Translate",
             "Gemini Vision"
         ],
@@ -9882,19 +9893,6 @@
             "title_aux": "ComfyUI-CSV-Loader"
         }
     ],
-    "https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes": [
-        [
-            "AdvancedEmptyLatentImage",
-            "AdvancedLoaderMultiple",
-            "AdvancedLoaderSingle",
-            "AdvancedModelLoader",
-            "AdvancedPromptSaver",
-            "AdvancedRandomNoise"
-        ],
-        {
-            "title_aux": "ComfyUI-PD19Anime-Nodes"
-        }
-    ],
     "https://github.com/Pablerdo/ComfyUI-MultiCutAndDrag": [
         [
             "BatchImageToMask",
@@ -14760,6 +14758,22 @@
         ],
         {
             "title_aux": "ComfyUI-SkyReels-A2"
+        }
+    ],
+    "https://github.com/Yuan-ManX/ComfyUI-SkyworkUniPic": [
+        [
+            "Image2Text",
+            "ImageEditing",
+            "LoadSkyworkUniPicCheckpoint",
+            "LoadSkyworkUniPicConfig",
+            "LoadSkyworkUniPicImage",
+            "LoadSkyworkUniPicPrompt",
+            "SaveSkyworkUniPicEditImage",
+            "SaveSkyworkUniPicImage",
+            "Text2Image"
+        ],
+        {
+            "title_aux": "ComfyUI-SkyworkUniPic"
         }
     ],
     "https://github.com/Yuan-ManX/ComfyUI-SoundHub": [
@@ -30047,6 +30061,7 @@
             "BboxDetectorSEGS",
             "BitwiseAndMask",
             "BitwiseAndMaskForEach",
+            "BlackPatchRetryHookProvider",
             "CLIPSegDetectorProvider",
             "CfgScheduleHookProvider",
             "CombineRegionalPrompts",
@@ -30056,6 +30071,7 @@
             "DenoiseScheduleHookProvider",
             "DenoiseSchedulerDetailerHookProvider",
             "DetailerForEach",
+            "DetailerForEachAutoRetry",
             "DetailerForEachDebug",
             "DetailerForEachDebugPipe",
             "DetailerForEachPipe",
@@ -40364,6 +40380,14 @@
         ],
         {
             "title_aux": "comfyui-deepseek-r1"
+        }
+    ],
+    "https://github.com/zl9739379/ComfyUI-ArkVideoGenerate": [
+        [
+            "ArkVideoGenerate"
+        ],
+        {
+            "title_aux": "ComfyUI-ArkVideoGenerate"
         }
     ],
     "https://github.com/zmwv823/ComfyUI_Anytext": [

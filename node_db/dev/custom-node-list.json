@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "lggcfx2020",
+            "title": "ComfyUI-LGGCFX-Tools",
+            "reference": "https://github.com/lggcfx2020/ComfyUI-LGGCFX-Tools",
+            "files": [
+                "https://github.com/lggcfx2020/ComfyUI-LGGCFX-Tools"
+            ],
+            "install_type": "git-clone",
+            "description": "A small tool for calculating the frame number and total frames of a video. Originally required four nodes, but has been merged into a single node for convenience. Includes quick resolution selection and landscape mode switching."
+        },
+        {
             "author": "206811",
             "title": "ComfyUI_ZhipuAIO",
             "reference": "https://github.com/206811/ComfyUI_ZhipuAIO",

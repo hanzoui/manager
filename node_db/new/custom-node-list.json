@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-SkyworkUniPic",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-SkyworkUniPic",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-SkyworkUniPic"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-SkyworkUniPic is now available in ComfyUI, Skywork-UniPic is a unified autoregressive multimodal model with 1.5 billion parameters that natively integrates image understanding, text-to-image generation, and image editing capabilities within a single architecture."
+        },
+        {
+            "author": "zl9739379",
+            "title": "ComfyUI-ArkVideoGenerate",
+            "reference": "https://github.com/zl9739379/ComfyUI-ArkVideoGenerate",
+            "files": [
+                "https://github.com/zl9739379/ComfyUI-ArkVideoGenerate"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that integrates ByteDance Volcano Engine's video generation AI model, supporting both text-to-video and image-to-video generation."
+        },
+        {
+            "author": "AlfredClark",
+            "title": "ComfyUI-ModelSpec",
+            "reference": "https://github.com/AlfredClark/ComfyUI-ModelSpec",
+            "files": [
+                "https://github.com/AlfredClark/ComfyUI-ModelSpec"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI model metadata editing nodes."
+        },
+        {
             "author": "rainlizard",
             "title": "Whirlpool Upscaler",
             "reference": "https://github.com/rainlizard/ComfyUI-WhirlpoolUpscaler",
@@ -663,26 +693,6 @@
             ],
             "install_type": "git-clone",
             "description": "A Wrapper and a set of Custom Nodes for using RenderFormer as a 3d Environment in ComfyUI."
-        },
-        {
-            "author": "seanjang990",
-            "title": "ComfyUI Document Auto Crop Node",
-            "reference": "https://github.com/seanjang990/comfyui-document-auto-crop",
-            "files": [
-                "https://github.com/seanjang990/comfyui-document-auto-crop"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node for ComfyUI automatically crops a document by detecting edges, rotates it based on face orientation using MediaPipe, and adjusts it to a target aspect ratio (default 11:14)."
-        },
-        {
-            "author": "Assistant",
-            "title": "ComfyUI-NS-ManySliders",
-            "reference": "https://github.com/NakamuraShippo/ComfyUI-NS-Util",
-            "files": [
-                "https://github.com/NakamuraShippo/ComfyUI-NS-Util"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of nodes for ComfyUI. ex:A node for batch managing int, float, and string parameters with presets"
         }
     ]
 }
