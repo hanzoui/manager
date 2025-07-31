@@ -30060,6 +30060,47 @@
             "install_type": "git-clone",
             "description": "A custom node for ComfyUI that integrates ByteDance Volcano Engine's video generation AI model, supporting both text-to-video and image-to-video generation."
         },
+        {
+            "author": "YaserJaradeh",
+            "title": "Yaser-nodes for ComfyUI",
+            "reference": "https://github.com/YaserJaradeh/comfyui-yaser-nodes",
+            "files": [
+                "https://github.com/YaserJaradeh/comfyui-yaser-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI that provide dynamic input selection and intelligent upscaling functionality."
+        },
+        {
+            "author": "gvfarns",
+            "title": "comfyui_gvf",
+            "reference": "https://github.com/gvfarns/comfyui_gvf",
+            "files": [
+                "https://github.com/gvfarns/comfyui_gvf"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom convenience nodes: Cropping images to a given aspect ratio, Cropping images to a max/min aspect ratio, If/else logic with provided float (rather than using a float node)"
+        },
+        {
+            "author": "mikeshuangyan",
+            "title": "ComfyUI_MqUtils",
+            "reference": "https://github.com/mikeshuangyan/ComfyUI_MqUtils",
+            "files": [
+                "https://github.com/mikeshuangyan/ComfyUI_MqUtils"
+            ],
+            "install_type": "git-clone",
+            "description": "MQ util nodes for ComfyUI"
+        },
+        {
+            "author": "Franklyc",
+            "title": "ComfyUI LoRA adaLN Patcher Node",
+            "reference": "https://github.com/Franklyc/comfyui-lora-adain-patcher-node",
+            "files": [
+                "https://github.com/Franklyc/comfyui-lora-adain-patcher-node"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple but powerful custom node for ComfyUI that patches LoRA models by adding dummy adaLN_modulation_1 weights. This solves compatibility errors when using LoRAs with newer model architectures that expect these keys to be present in the final_layer."
+        },
+
 
 
 

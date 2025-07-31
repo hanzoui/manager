@@ -5480,6 +5480,14 @@
             "title_aux": "NX_Translator"
         }
     ],
+    "https://github.com/Franklyc/comfyui-lora-adain-patcher-node": [
+        [
+            "LoraAdaLNPatcher"
+        ],
+        {
+            "title_aux": "ComfyUI LoRA adaLN Patcher Node"
+        }
+    ],
     "https://github.com/FunnyFinger/ComfyUi-RadarWeightNode": [
         [
             "RadarWeightsNode"
@@ -7991,14 +7999,18 @@
     ],
     "https://github.com/LevelPixel/ComfyUI-LevelPixel": [
         [
+            "AnyToText|LP",
             "BoolToInt|LP",
             "BoolToString|LP",
             "CLIP Text Encode Translate [LP]",
             "CLIPTextEncodeTranslate|LP",
             "Calculate Target Size By Mask [LP]",
             "CalculateTargetSizeByMask|LP",
+            "ComboToText|LP",
+            "Convert Any To Text [LP]",
             "Convert Bool To Int [LP]",
             "Convert Bool To String [LP]",
+            "Convert Combo To Text [LP]",
             "Convert Float To Int [LP]",
             "Convert Float To String [LP]",
             "Convert Int To Bool [LP]",
@@ -8031,14 +8043,23 @@
             "FindValueFromFile|LP",
             "FloatToInt|LP",
             "FloatToString|LP",
+            "Get ComfyUI Folder Path [LP]",
+            "Get ComfyUI HTTP Folder Path [LP]",
+            "Get Filename By Index In Folder [LP]",
+            "Get Iterator Data From Image Folders [LP]",
+            "Get Iterator Data From Videos [LP]",
             "GetComfyUIFolderPath|LP",
             "GetComfyUIHttpFolderPath|LP",
             "GetFilenameByIndexInFolder|LP",
+            "GetIteratorDataImageFolders|LP",
+            "GetIteratorDataVideos|LP",
             "Hard Model Unloader [LP]",
             "HardModelUnloader|LP",
             "HundredthsSimpleFloatSlider|LP",
+            "Image Data Iterator [LP]",
             "Image Loader From Path [LP]",
             "Image Overlay [LP]",
+            "ImageDataIterator|LP",
             "ImageLoaderFromPath|LP",
             "ImageOverlay|LP",
             "Inpaint Crop [LP]",
@@ -8048,6 +8069,8 @@
             "IntToBool|LP",
             "IntToFloat|LP",
             "IntToString|LP",
+            "Iterator [LP]",
+            "Iterator|LP",
             "Keep Only English Tags [LP]",
             "Keep Only English Words [LP]",
             "KeepOnlyEnglishTags|LP",
@@ -14465,6 +14488,15 @@
             "title_aux": "ComfyUI-NeuralMedia"
         }
     ],
+    "https://github.com/YaserJaradeh/comfyui-yaser-nodes": [
+        [
+            "ConditionalSelectionNode",
+            "IterativeUpscaleWithModelsNode"
+        ],
+        {
+            "title_aux": "Yaser-nodes for ComfyUI"
+        }
+    ],
     "https://github.com/YinBailiang/MergeBlockWeighted_fo_ComfyUI": [
         [
             "MergeBlockWeighted"
@@ -20652,6 +20684,7 @@
             "TestListToAccumulationNode",
             "TestMakeListNode",
             "TestMixedExpansionReturns",
+            "TestOutputNodeWithSocketOutput",
             "TestParallelSleep",
             "TestSamplingInExpansion",
             "TestSleep",
@@ -24386,6 +24419,19 @@
         ],
         {
             "title_aux": "guy-nodes-comfyui"
+        }
+    ],
+    "https://github.com/gvfarns/comfyui_gvf": [
+        [
+            "CheckpointLoaderWithName",
+            "CropToAspectRatio",
+            "CropToAspectRatioMinMax",
+            "IfElseFloat",
+            "IfElseInt",
+            "StringContains"
+        ],
+        {
+            "title_aux": "comfyui_gvf"
         }
     ],
     "https://github.com/hackkhai/ComfyUI-Image-Matting": [
@@ -31480,6 +31526,17 @@
         ],
         {
             "title_aux": "Transparent-background-comfyUI"
+        }
+    ],
+    "https://github.com/mikeshuangyan/ComfyUI_MqUtils": [
+        [
+            "MqCheckFP4Support",
+            "MqIntSwitch",
+            "MqIntToString",
+            "MqTextSplitter"
+        ],
+        {
+            "title_aux": "ComfyUI_MqUtils"
         }
     ],
     "https://github.com/mikkel/ComfyUI-text-overlay": [
