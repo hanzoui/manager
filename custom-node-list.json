@@ -14285,6 +14285,17 @@
             "description": "Nodes to use Florence2 VLM for image tagging and captioning"
         },
         {
+            "author": "MiaoshouAI",
+            "title": "ComfyUI Video Segmentation Node",
+            "id": "miaoshouai-tagger",
+            "reference": "https://github.com/miaoshouai/ComfyUI-Video-Segmentation",
+            "files": [
+                "https://github.com/miaoshouai/ComfyUI-Video-Segmentation"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for automatic video scene segmentation using TransNetV2."
+        },
+        {
             "author": "Patricio Gonzalez Vivo",
             "title": "GLSL Nodes",
             "reference": "https://github.com/patriciogonzalezvivo/comfyui_glslnodes",

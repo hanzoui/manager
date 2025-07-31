@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "MiaoshouAI",
+            "title": "ComfyUI Video Segmentation Node",
+            "id": "miaoshouai-tagger",
+            "reference": "https://github.com/miaoshouai/ComfyUI-Video-Segmentation",
+            "files": [
+                "https://github.com/miaoshouai/ComfyUI-Video-Segmentation"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for automatic video scene segmentation using TransNetV2."
+        },
+        {
             "author": "Simlym",
             "title": "ComfyUI Prompt Helper",
             "id": "prompt-helper",

@@ -1272,7 +1272,27 @@
     ],
     "https://github.com/DenRakEiw/DenRakEiw_Nodes": [
         [
-            "ColorGeneratorNode"
+            "ColorGeneratorNode",
+            "ConditioningInspector",
+            "EmptyLatentTransparent",
+            "FluxLayerDiffuseConditioningFix",
+            "FluxLayerDiffuseDecoder",
+            "FluxLayerDiffuseDecoderSimple",
+            "FluxLayerDiffuseEmptyConditioning",
+            "FluxLayerDiffuseI2I",
+            "FluxLayerDiffuseI2IAdvanced",
+            "FluxLayerDiffuseInfo",
+            "FluxLayerDiffuseModelManager",
+            "FluxLayerDiffuseSampler",
+            "FluxLayerDiffuseStandaloneLoader",
+            "FluxLayerDiffuseT2I",
+            "FluxLayerDiffuseT2IAdvanced",
+            "FluxLayerDiffuseTroubleshooter",
+            "FluxLayerDiffuseVAELoader",
+            "FluxLayerDiffuseWorkflowHelper",
+            "PreviewTransparentImage",
+            "SaveTransparentImage",
+            "TransparentImageInfo"
         ],
         {
             "title_aux": "Denrakeiw Nodes [WIP]"
@@ -5314,7 +5334,9 @@
         [
             "Cosmos1ForwardRenderer",
             "Cosmos1InverseRenderer",
-            "LoadDiffusionRendererModel"
+            "EnvironmentMapCacheManager",
+            "LoadDiffusionRendererModel",
+            "PreprocessEnvironmentMap"
         ],
         {
             "title_aux": "DiffusionRenderer-ComfyUI [WIP]"
@@ -9134,6 +9156,14 @@
         ],
         {
             "title_aux": "Albedo-Sampler-for-ComfyUI"
+        }
+    ],
+    "https://github.com/trashkollector/TKVideoZoom": [
+        [
+            "TKVideoZoom"
+        ],
+        {
+            "title_aux": "ComfyUI-TKVideoZoom [WIP]"
         }
     ],
     "https://github.com/truebillyblue/lC.ComfyUI_epistemic_nodes": [

@@ -1452,6 +1452,7 @@
     ],
     "https://github.com/AIWarper/ComfyUI-WarperNodes": [
         [
+            "CropAndRestore_Warper",
             "DWPoseScalerNode_Warper",
             "FacialPartMaskFromPose_Warper",
             "FlowConfig_Warper",
@@ -1460,6 +1461,7 @@
             "GetBatchByIndex_Warper",
             "GetRaftFlow_Warper",
             "MouthMaskFromPose_Warper",
+            "PreprocessForTarget_Warper",
             "SmartOverlappingBatcher_Warper",
             "SmartVideoBatcher_Warper"
         ],
@@ -31213,7 +31215,8 @@
             "mrmth_FloatToInt",
             "mrmth_ImageMathNode",
             "mrmth_IntToFloat",
-            "mrmth_LatentMathNode"
+            "mrmth_LatentMathNode",
+            "mrmth_NoiseMathNode"
         ],
         {
             "title_aux": "More Math"
