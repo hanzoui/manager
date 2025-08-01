@@ -701,8 +701,10 @@
             "crop_data_edit",
             "filter_DensePose_color",
             "get_image_data",
+            "get_image_ratio",
             "image_math",
             "image_math_value",
+            "image_scale_pixel_v2",
             "invert_channel_adv",
             "load_BEN_model",
             "load_ColorName_config",
@@ -3712,9 +3714,18 @@
     ],
     "https://github.com/ComfyAssets/ComfyUI-KikoTools": [
         [
+            "DisplayAny",
             "EmptyLatentBatch",
+            "GeminiPrompt",
+            "GlifConsistencyDecoder",
+            "GlifPatchConsistencyDecoderTiled",
+            "GlifVariable",
+            "HFHubEmbeddingLoader",
+            "HFHubLoraLoader",
+            "ImageToMultipleOf",
             "KikoSaveImage",
             "ResolutionCalculator",
+            "SDXLAspectRatio",
             "SamplerCombo",
             "SamplerComboCompact",
             "SeedHistory",
@@ -4571,6 +4582,8 @@
     ],
     "https://github.com/Duanyll/duanyll_nodepack": [
         [
+            "AdvancedMorphology",
+            "CoverWordsWithRectangles",
             "CreateBoundingBoxesMaskQwen",
             "DrawBoundingBoxesQwen",
             "FluxKontextTrue3DPE",
@@ -4583,7 +4596,9 @@
             "HfQuadrupleClipLoader",
             "HfTripleClipLoader",
             "HfVaeLoader",
+            "ImageCropFromPadded",
             "ImageDifferenceCmap",
+            "ImagePadToResolution",
             "PhotoDoddleConditioning"
         ],
         {
@@ -10487,6 +10502,21 @@
             "title_aux": "comfyui-florence2xy"
         }
     ],
+    "https://github.com/Rizzlord/ComfyUI-RizzNodes": [
+        [
+            "RizzAnything",
+            "RizzBatchImageLoader",
+            "RizzClean",
+            "RizzDynamicPromptGenerator",
+            "RizzLoadLatestImage",
+            "RizzLoadLatestMesh",
+            "RizzModelBatchLoader",
+            "RizzUpscaleImageBatch"
+        ],
+        {
+            "title_aux": "ComfyUI-RizzNodes"
+        }
+    ],
     "https://github.com/RodrigoSKohl/ComfyUI-Panoramic-ImgStitcher": [
         [
             "Image Stitching Node"
@@ -11730,6 +11760,15 @@
         ],
         {
             "title_aux": "Google Moogle"
+        }
+    ],
+    "https://github.com/ShmuelRonen/multi-lora-stack": [
+        [
+            "MultiLoRAStack",
+            "MultiLoRAStackModelOnly"
+        ],
+        {
+            "title_aux": "multi-lora-stack"
         }
     ],
     "https://github.com/Shraknard/ComfyUI-Remover": [
@@ -14527,8 +14566,12 @@
     ],
     "https://github.com/YaserJaradeh/comfyui-yaser-nodes": [
         [
-            "ConditionalSelectionNode",
-            "IterativeUpscaleWithModelsNode"
+            "Float",
+            "GeneralSwitch",
+            "ImageColorMatch",
+            "ImageSizeBySide",
+            "IterativeUpscaleWithModelsNode",
+            "LoraLoaderStack"
         ],
         {
             "title_aux": "Yaser-nodes for ComfyUI"
@@ -16414,6 +16457,7 @@
             "Sage_ConstructLLMPrompt",
             "Sage_ConstructLLMPromptExtra",
             "Sage_ConstructMetadata",
+            "Sage_ConstructMetadataFlexible",
             "Sage_ConstructMetadataLite",
             "Sage_CropImage",
             "Sage_CubiqImageResize",
@@ -18435,7 +18479,6 @@
             "lay_edge_cut",
             "lay_fill_inpaint",
             "lay_image_grid_note",
-            "lay_image_match_W_and_H",
             "lay_images_free_layout",
             "lay_imgCanvas",
             "lay_text_sum",
@@ -18578,6 +18621,30 @@
         ],
         {
             "title_aux": "Text Node With Comments (@cdxoo)"
+        }
+    ],
+    "https://github.com/cedarconnor/HunyuanWorld": [
+        [
+            "FluxCLIPLoader",
+            "FluxModelCombiner",
+            "FluxModelDecombiner",
+            "FluxModelLoader",
+            "FluxTransformerLoader",
+            "FluxVAELoader",
+            "HunyuanWorldImageToPanorama",
+            "HunyuanWorldLoRALoader",
+            "HunyuanWorldSceneGenerator",
+            "HunyuanWorldTextToPanorama",
+            "RealESRGANLoader",
+            "RealESRGANUpscaler",
+            "ShowText",
+            "ZIMMaskToBbox",
+            "ZIMMaskToPoints",
+            "ZIMModelLoader",
+            "ZIMSegmenter"
+        ],
+        {
+            "title_aux": "HunyuanWorld"
         }
     ],
     "https://github.com/cedarconnor/comfyui-BatchNameLoop": [
@@ -19171,6 +19238,14 @@
         ],
         {
             "title_aux": "Chaosaiart-Nodes"
+        }
+    ],
+    "https://github.com/charlyad142/ComfyUI_Charly_FitToAspectNode": [
+        [
+            "Charly FitToAspectNode"
+        ],
+        {
+            "title_aux": "ComfyUI Charly FitToAspectNode"
         }
     ],
     "https://github.com/charlyad142/ComfyUI_bfl_api_pro_nodes": [
@@ -28389,6 +28464,7 @@
             "WanVideoTeaCache",
             "WanVideoTextEmbedBridge",
             "WanVideoTextEncode",
+            "WanVideoTextEncodeCached",
             "WanVideoTextEncodeSingle",
             "WanVideoTinyVAELoader",
             "WanVideoTorchCompileSettings",
@@ -28661,8 +28737,8 @@
     ],
     "https://github.com/kpsss34/ComfyUI-kpsss34": [
         [
-            "SD35PlusImageEnhancer",
-            "SD35PlusLoader"
+            "SD35SLoader",
+            "SD35S_Img2Img"
         ],
         {
             "title_aux": "ComfyUI kpsss34 Custom Node"
@@ -33351,6 +33427,8 @@
             "PapcornsAspectResize",
             "PapcornsAudioTrimAndSave",
             "PapcornsAudioTrimmer",
+            "PapcornsMemoryManager",
+            "PapcornsSimpleMemoryManager",
             "UploadImageToGCS"
         ],
         {

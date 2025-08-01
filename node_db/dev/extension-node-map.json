@@ -902,10 +902,7 @@
             "TiledWanInpaintCropImproved",
             "TiledWanInpaintStitchImproved",
             "TiledWanMaskStatistics",
-            "TiledWanVideoSLGSimple",
-            "TiledWanVideoSamplerSimple",
-            "TiledWanVideoVACEpipe",
-            "WanVideoVACEpipe"
+            "TiledWanVideoVACEpipe"
         ],
         {
             "title_aux": "TiledWan ComfyUI Node Set [WIP]"
@@ -2397,6 +2394,7 @@
             "mb KSampler",
             "mb Select",
             "mb String",
+            "mb Submit",
             "mb Text",
             "mb Text or File",
             "mb Text to File",
@@ -2615,6 +2613,7 @@
     ],
     "https://github.com/Poukpalaova/ComfyUI-FRED-Nodes": [
         [
+            "FRED_Advanced_multi_parameters_panel_v1",
             "FRED_AutoCropImage_Native_Ratio_v5",
             "FRED_AutoCropImage_SDXL_Ratio_V3",
             "FRED_AutoCropImage_SDXL_Ratio_V4",
@@ -2627,17 +2626,22 @@
             "FRED_ImageBrowser_Hair_Color",
             "FRED_ImageBrowser_Hair_Style",
             "FRED_ImageBrowser_Top",
+            "FRED_ImageQualityInspector",
+            "FRED_ImageUncropFromBBox",
             "FRED_JoinImages",
             "FRED_LoadImage_V2",
             "FRED_LoadImage_V3",
             "FRED_LoadImage_V4",
             "FRED_LoadImage_V5",
             "FRED_LoadImage_V6",
+            "FRED_LoadImage_V7",
+            "FRED_LoadImage_V8",
             "FRED_LoadPathImagesPreview",
             "FRED_LoadPathImagesPreview_v2",
             "FRED_LoadRetinaFace",
             "FRED_LoraInfos",
             "FRED_PreviewOnly",
+            "FRED_Simplified_Parameters_Panel",
             "FRED_TextMultiline",
             "FRED_Text_to_XMP",
             "FRED_photo_prompt"
@@ -2854,6 +2858,7 @@
     "https://github.com/SaulQcy/comfy_saul_plugin": [
         [
             "Blend Images",
+            "Change the camera pose of config file",
             "Compute Keypoints Similarity",
             "Cutting Video",
             "End Node",
@@ -3848,6 +3853,14 @@
         ],
         {
             "title_aux": "alexisrolland/ComfyUI-AuraSR"
+        }
+    ],
+    "https://github.com/alistairallan/ComfyUI-skin-retouch": [
+        [
+            "SkinRetouching"
+        ],
+        {
+            "title_aux": "ComfyUI-skin-retouch"
         }
     ],
     "https://github.com/alt-key-project/comfyui-dream-painter": [
@@ -5334,9 +5347,8 @@
         [
             "Cosmos1ForwardRenderer",
             "Cosmos1InverseRenderer",
-            "EnvironmentMapCacheManager",
             "LoadDiffusionRendererModel",
-            "PreprocessEnvironmentMap"
+            "LoadHDRImage"
         ],
         {
             "title_aux": "DiffusionRenderer-ComfyUI [WIP]"
@@ -8845,6 +8857,16 @@
             "title_aux": "comfyui-sourceful-official"
         }
     ],
+    "https://github.com/sprited-ai/sprited-comfyui-nodes": [
+        [
+            "Example",
+            "VideoDownloader",
+            "VideoShotSplitter"
+        ],
+        {
+            "title_aux": "Sprited ComfyUI Nodes [WIP]"
+        }
+    ],
     "https://github.com/sswink/comfyui-lingshang": [
         [
             "LS_ALY_Seg_Body_Utils",
@@ -9686,7 +9708,6 @@
             "AppendTagsNode",
             "Base64ToImageNode",
             "BlacklistTagsNode",
-            "CLIPTranslatedNode",
             "DownloadImageNode",
             "FillAlphaNode",
             "FixUTF8StringNode",
@@ -9711,7 +9732,7 @@
             "ShowStringNode",
             "StringCombineNode",
             "StringNode",
-            "TranslateStringNode",
+            "StringTranslateNode",
             "VideoToImageNode"
         ],
         {

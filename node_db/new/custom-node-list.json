@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "cedarconnor",
+            "title": "HunyuanWorld",
+            "reference": "https://github.com/cedarconnor/HunyuanWorld",
+            "files": [
+                "https://github.com/cedarconnor/HunyuanWorld"
+            ],
+            "install_type": "git-clone",
+            "description": "Transform text and images into immersive 360° 3D worlds using Tencent's HunyuanWorld-1.0 in ComfyUI with native FLUX architecture integration."
+        },
+        {
+            "author": "charlyad142",
+            "title": "ComfyUI Charly FitToAspectNode",
+            "reference": "https://github.com/charlyad142/ComfyUI_Charly_FitToAspectNode",
+            "files": [
+                "https://github.com/charlyad142/ComfyUI_Charly_FitToAspectNode"
+            ],
+            "install_type": "git-clone",
+            "description": "Un nodo personalizado para ComfyUI que ajusta imágenes a diferentes relaciones de aspecto manteniendo las proporciones originales."
+        },
+        {
+            "author": "Rizzlord",
+            "title": "ComfyUI-RizzNodes",
+            "reference": "https://github.com/Rizzlord/ComfyUI-RizzNodes",
+            "files": [
+                "https://github.com/Rizzlord/ComfyUI-RizzNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "RizzNodes for ComfyUI Welcome to RizzNodes, a collection of custom nodes for ComfyUI designed to streamline various workflows, from loading images and models in batches to dynamic prompt generation and memory management."
+        },
+        {
+            "author": "ShmuelRonen",
+            "title": "multi-lora-stack",
+            "reference": "https://github.com/ShmuelRonen/multi-lora-stack",
+            "files": [
+                "https://github.com/ShmuelRonen/multi-lora-stack"
+            ],
+            "install_type": "git-clone",
+            "description": "A complete replacement for rgthree's Power Lora Loader with zero dependencies and two specialized versions to fit any workflow."
+        },
+        {
             "author": "MiaoshouAI",
             "title": "ComfyUI Video Segmentation Node",
             "id": "miaoshouai-tagger",
@@ -650,68 +690,6 @@
             ],
             "install_type": "git-clone",
             "description": "A small set of JavaScript files I created for myself. The scripts provide Quality of Life enhancements to the ComfyUI interface, such as changing fonts and font sizes."
-        },
-        {
-            "author": "thalismind",
-            "title": "ComfyUI LoadImageWithFilename",
-            "reference": "https://github.com/thalismind/ComfyUI-LoadImageWithFilename",
-            "files": [
-                "https://github.com/thalismind/ComfyUI-LoadImageWithFilename" 
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node extends ComfyUI's image loading functionality with filename output and folder loading capabilities."
-        },
-        {
-            "author": "Edoardo Carmignani",
-            "title": "ComfyUI-ExtraLinks",
-            "id": "extralinks",
-            "reference": "https://github.com/edoardocarmignani/extralinks",
-            "files": [
-                "https://github.com/edoardocarmignani/extralinks"
-            ],
-            "install_type": "git-clone",
-            "description": "A one-click collection of alternate connection styles for ComfyUI."
-        },
-        {
-            "author": "WASasquatch",
-            "title": "FUSE Face Enhancer",
-            "reference": "https://github.com/WASasquatch/face-upscaling-and-seamless-embedding",
-            "files": [
-                "https://github.com/WASasquatch/face-upscaling-and-seamless-embedding"
-            ],
-            "install_type": "git-clone",
-            "description": "All-in-One Face Fix KSampler for ComfyUI with YOLO detection and SAM segmentation"
-        },
-        {
-            "author": "brucew4yn3rp",
-            "title": "Save Image with Selective Metadata",
-            "id": "SaveImageSelectiveMetadata",
-            "reference": "https://github.com/brucew4yn3rp/ComfyUI_SelectiveMetadata",
-            "files": [
-                "https://github.com/brucew4yn3rp/ComfyUI_SelectiveMetadata"
-            ],
-            "install_type": "copy",
-            "description": "This custom node allows users to selectively choose what to add to the generated image's metadata."
-        },
-        {
-            "author": "silveroxides",
-            "title": "ComfyUI_FDGuidance",
-            "reference": "https://github.com/silveroxides/ComfyUI_FDGuidance",
-            "files": [
-                "https://github.com/silveroxides/ComfyUI_FDGuidance"
-            ],
-            "install_type": "git-clone",
-            "description": "An implementation of Frequency-Decoupled Guidance (FDG) in pure Pytorch."
-        },
-        {
-            "author": "Edoardo Carmignani",
-            "title": "VAE Decode Switch for ComfyUI",
-            "reference": "https://github.com/MasterDenis/VAE-Decode-Switch",
-            "files": [
-                "https://github.com/MasterDenis/VAE-Decode-Switch"
-            ],
-            "install_type": "git-clone",
-            "description": "Node for ComfyUI designed for more neatly switching between tiled and default VAE Decode Nodes."
         }
     ]
 }
