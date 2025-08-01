@@ -5459,8 +5459,8 @@
     ],
     "https://github.com/FortunaCournot/comfyui_stereoscopic": [
         [
-            "GetResolutionForDepth",
-            "ImageSBSConverter"
+            "GetResolutionForVR",
+            "ImageVRConverter"
         ],
         {
             "title_aux": "Stereoscopic"
@@ -23099,6 +23099,7 @@
             "FL_ImageCaptionLayoutPDF",
             "FL_ImageCaptionSaver",
             "FL_ImageCollage",
+            "FL_ImageCrop",
             "FL_ImageDimensionDisplay",
             "FL_ImageListToImageBatch",
             "FL_ImageNotes",
@@ -23148,6 +23149,7 @@
             "FL_RandomNumber",
             "FL_RetroEffect",
             "FL_Ripple",
+            "FL_RunwayAct2",
             "FL_RunwayImageAPI",
             "FL_SDUltimate_Slices",
             "FL_SamplerStrings",
@@ -23175,6 +23177,7 @@
             "FL_VideoCadenceCompile",
             "FL_VideoCaptionSaver",
             "FL_VideoCropMask",
+            "FL_VideoCrossfade",
             "FL_VideoCut",
             "FL_VideoRecompose",
             "FL_VideoTrim",
@@ -31542,6 +31545,16 @@
             "title_aux": "ComfyUI-Miaoshouai-Tagger"
         }
     ],
+    "https://github.com/miaoshouai/ComfyUI-Video-Segmentation": [
+        [
+            "DownloadAndLoadTransNetModel",
+            "SelectVideo",
+            "TransNetV2_Run"
+        ],
+        {
+            "title_aux": "ComfyUI Video Segmentation Node"
+        }
+    ],
     "https://github.com/michaelgold/ComfyUI-HF-Model-Downloader": [
         [
             "DownloadModel",
@@ -33654,6 +33667,7 @@
             "AudioPreviewer",
             "AutopromptProcessor",
             "Boolean Transform",
+            "BooleanInvert",
             "CLIPTextEncodeFluxMerged",
             "CRT Post-Process Suite",
             "CRTChromaKeyOverlay",
@@ -33664,6 +33678,7 @@
             "CRTPostProcess",
             "CRT_UpscaleModelAdv",
             "ClearStyleModelDualCache",
+            "EnableLatent",
             "FaceEnhancementPipeline",
             "FaceEnhancementPipelineWithInjection",
             "FancyNoteNode",
@@ -33677,6 +33692,7 @@
             "ImageLoaderCrawl",
             "LatentNoiseInjectionSampler",
             "LoadImageResize",
+            "LoadLastLatent",
             "LoadVideoForVCaptioning",
             "Lora Loader Str",
             "MaskEmptyFloatNode",
@@ -33688,6 +33704,7 @@
             "Resolution",
             "SamplerSchedulerSelector",
             "SaveImageWithPath",
+            "SaveLatentWithPath",
             "SaveTextWithPath",
             "SaveVideoWithPath",
             "SeamlessLoopBlender",
@@ -34782,6 +34799,15 @@
         ],
         {
             "title_aux": "ComfyUI-TranscriptionTools"
+        }
+    ],
+    "https://github.com/rubenvillarreal/ComfyUI_PoseAlign": [
+        [
+            "PoseAlignTwoToOne",
+            "PoseViewer"
+        ],
+        {
+            "title_aux": "ComfyUI_PoseAlign"
         }
     ],
     "https://github.com/rubi-du/ComfyUI-BiRefNet-Super": [
