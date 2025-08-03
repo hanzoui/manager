@@ -368,6 +368,7 @@
             "MaskMathOps",
             "PathBuild",
             "RangeMapping",
+            "StepSplit",
             "StringCoordinateToBBoxMask",
             "StringCoordinateToBBoxes",
             "TextCustomExtract",
@@ -704,7 +705,9 @@
             "get_image_ratio",
             "image_math",
             "image_math_value",
+            "image_scale_pixel_option",
             "image_scale_pixel_v2",
+            "image_url_download",
             "invert_channel_adv",
             "load_BEN_model",
             "load_ColorName_config",
@@ -3715,6 +3718,7 @@
     "https://github.com/ComfyAssets/ComfyUI-KikoTools": [
         [
             "DisplayAny",
+            "DisplayText",
             "EmptyLatentBatch",
             "GeminiPrompt",
             "GlifConsistencyDecoder",
@@ -4559,6 +4563,7 @@
             "BoyoAudioEval",
             "BoyoFramePackLoRA",
             "BoyoLoadImageList",
+            "BoyoPairedSaver",
             "BoyoSaver",
             "BoyoVAEDecode",
             "Boyolatent",
@@ -13854,6 +13859,7 @@
             "VrchAudioChannelLoaderNode",
             "VrchAudioConcatNode",
             "VrchAudioGenresNode",
+            "VrchAudioMusic2EmotionNode",
             "VrchAudioRecorderNode",
             "VrchAudioSaverNode",
             "VrchAudioVisualizerNode",
@@ -14587,8 +14593,7 @@
     ],
     "https://github.com/Yo1up/Diffusion-Model-Detailer": [
         [
-            "DetailModelUnwrapperNode",
-            "DetailModelWrapperNode"
+            "Detailer"
         ],
         {
             "title_aux": "Diffusion-Model-Detailer"
@@ -15267,16 +15272,28 @@
             "BracketEscaper",
             "CachedCheckpoint",
             "CsvWriterNode",
+            "HyperTile //Inspire",
             "ImmatureImageCounter",
             "ImmatureImageDataLoader",
+            "KSampler //Inspire",
+            "KSamplerAdvanced //Inspire",
+            "KSamplerAdvancedPipe //Inspire",
+            "KSamplerAdvancedProgress //Inspire",
+            "KSamplerPipe //Inspire",
+            "KSamplerProgress //Inspire",
             "MultiModelAdvancedKsampler",
             "MultiModelCheckpointIterator",
             "MultiModelPromptSaver",
             "MultiModelPromptSaverIterative",
+            "MultiModelPromptSaverIterativeFirst",
             "Ranbooru",
             "RandomCharacterSelector",
+            "RandomNoise //Inspire",
             "RapidSchedulerCombo",
-            "RapidSchedulerSelector"
+            "RapidSchedulerSelector",
+            "ScheduledCFGGuider //Inspire",
+            "ScheduledPerpNegCFGGuider //Inspire",
+            "StringHasher"
         ],
         {
             "title_aux": "comfyui-rapidfire"
@@ -23248,6 +23265,7 @@
             "FL_UnloadAllModels",
             "FL_UnloadModel",
             "FL_UpscaleModel",
+            "FL_VideoBatchSplitter",
             "FL_VideoCadence",
             "FL_VideoCadenceCompile",
             "FL_VideoCaptionSaver",
@@ -24729,6 +24747,7 @@
             "Preview Image-JPEG",
             "Reference Resize",
             "Seed Output",
+            "To JPEG",
             "To RGB"
         ],
         {
@@ -28418,6 +28437,7 @@
             "LoadWanVideoT5TextEncoder",
             "MultiTalkModelLoader",
             "MultiTalkWav2VecEmbeds",
+            "QwenLoader",
             "ReCamMasterPoseVisualizer",
             "WanVideoATITracks",
             "WanVideoATITracksVisualize",
@@ -28452,6 +28472,8 @@
             "WanVideoMiniMaxRemoverEmbeds",
             "WanVideoModelLoader",
             "WanVideoPhantomEmbeds",
+            "WanVideoPromptExtender",
+            "WanVideoPromptExtenderSelect",
             "WanVideoReCamMasterCameraEmbed",
             "WanVideoReCamMasterDefaultCamera",
             "WanVideoReCamMasterGenerateOrbitCamera",
@@ -28733,15 +28755,6 @@
         ],
         {
             "title_aux": "comfyui-jk-easy-nodes"
-        }
-    ],
-    "https://github.com/kpsss34/ComfyUI-kpsss34": [
-        [
-            "SD35SLoader",
-            "SD35S_Img2Img"
-        ],
-        {
-            "title_aux": "ComfyUI kpsss34 Custom Node"
         }
     ],
     "https://github.com/krmahil/comfyui-hollow-preserve": [
