@@ -797,6 +797,29 @@
             "title_aux": "ComfyUI ASDF Pixel Sort Nodes"
         }
     ],
+    "https://github.com/A043-studios/ComfyUI-OmniSVG": [
+        [
+            "OmniSVG Image to SVG",
+            "OmniSVG Model Loader",
+            "OmniSVG Text to SVG",
+            "SVG Saver",
+            "SVG to Image"
+        ],
+        {
+            "title_aux": "ComfyUI OmniSVG Nodes"
+        }
+    ],
+    "https://github.com/A043-studios/ComfyUI_HunyuanWorldnode": [
+        [
+            "HunyuanWorldHybridNode",
+            "HunyuanWorldImageTo3D",
+            "HunyuanWorldModelLoader",
+            "HunyuanWorldSimplifiedWrapper"
+        ],
+        {
+            "title_aux": "ComfyUI HunyuanWorld - Complete 3D Generation Suite"
+        }
+    ],
     "https://github.com/A043-studios/Comfyui-ascii-generator": [
         [
             "ASCIIGeneratorNode"
@@ -2408,14 +2431,6 @@
             "title_aux": "Comfyui-LayerForge"
         }
     ],
-    "https://github.com/BAIS1C/ComfyUI_BASICSAdvancedDancePoser": [
-        [
-            "ComfyUI_BASICSAdvancedDancePoser"
-        ],
-        {
-            "title_aux": "ComfyUI_BASICSAdvancedDancePoser"
-        }
-    ],
     "https://github.com/BAIS1C/ComfyUI_RSS_Feed_Reader": [
         [
             "RSSFeedNode"
@@ -3001,6 +3016,16 @@
         ],
         {
             "title_aux": "FitDiT[official] - High-fidelity Virtual Try-on"
+        }
+    ],
+    "https://github.com/Brekel/ComfyUI-Brekel": [
+        [
+            "BrekelAutoPromptGenerator",
+            "BrekelEnhancePrompt",
+            "BrekelPromptChooser"
+        ],
+        {
+            "title_aux": "ComfyUI-Brekel"
         }
     ],
     "https://github.com/Bria-AI/ComfyUI-BRIA-API": [
@@ -4038,7 +4063,7 @@
             "title_aux": "ComfyUI Checkpoint Loader Config"
         }
     ],
-    "https://github.com/Cyrostar/ComfyUI-Artha-Gemini": [
+    "https://github.com/Cyrostar/Artha-Gemini": [
         [
             "Gemini Backdrop",
             "Gemini Body",
@@ -4060,7 +4085,7 @@
             "Gemini Vision"
         ],
         {
-            "title_aux": "ComfyUI-Artha-Gemini"
+            "title_aux": "Artha-Gemini"
         }
     ],
     "https://github.com/DJ-Tribefull/Comfyui_FOCUS_nodes": [
@@ -17277,6 +17302,15 @@
             "title_aux": "Comfy Contact Sheet Image Loader"
         }
     ],
+    "https://github.com/benstaniford/comfy-image-switch": [
+        [
+            "ImageSwitchNode",
+            "SwitchAnyValid"
+        ],
+        {
+            "title_aux": "ComfyUI Image Switch Node"
+        }
+    ],
     "https://github.com/benstaniford/comfy-load-last-image": [
         [
             "LoadMostRecentImage"
@@ -18638,30 +18672,6 @@
         ],
         {
             "title_aux": "Text Node With Comments (@cdxoo)"
-        }
-    ],
-    "https://github.com/cedarconnor/HunyuanWorld": [
-        [
-            "FluxCLIPLoader",
-            "FluxModelCombiner",
-            "FluxModelDecombiner",
-            "FluxModelLoader",
-            "FluxTransformerLoader",
-            "FluxVAELoader",
-            "HunyuanWorldImageToPanorama",
-            "HunyuanWorldLoRALoader",
-            "HunyuanWorldSceneGenerator",
-            "HunyuanWorldTextToPanorama",
-            "RealESRGANLoader",
-            "RealESRGANUpscaler",
-            "ShowText",
-            "ZIMMaskToBbox",
-            "ZIMMaskToPoints",
-            "ZIMModelLoader",
-            "ZIMSegmenter"
-        ],
-        {
-            "title_aux": "HunyuanWorld"
         }
     ],
     "https://github.com/cedarconnor/comfyui-BatchNameLoop": [
@@ -27037,12 +27047,32 @@
             "title_aux": "ComfyUI LayerDivider"
         }
     ],
+    "https://github.com/juddisjudd/ComfyUI-BawkNodes": [
+        [
+            "BawkSampler",
+            "DiffusionModelLoader",
+            "FluxImageSaver",
+            "FluxWildcardEncode"
+        ],
+        {
+            "title_aux": "Bawk Nodes Collection"
+        }
+    ],
     "https://github.com/judian17/ComfyUI-Extract_Flux_Lora": [
         [
             "ExtractFluxLoRA"
         ],
         {
             "title_aux": "ComfyUI-Extract_Flux_Lora"
+        }
+    ],
+    "https://github.com/judian17/ComfyUI-JoyCaption-beta-one-hf-llava-Prompt_node": [
+        [
+            "JoyCaptionOllamaExtraOptions",
+            "JoyCaptionOllamaPrompter"
+        ],
+        {
+            "title_aux": "ComfyUI-JoyCaption-beta-one-hf-llava-Prompt_node"
         }
     ],
     "https://github.com/judian17/ComfyUI-UniWorld-jd17": [
@@ -29331,6 +29361,16 @@
         ],
         {
             "title_aux": "ComfyUI-PechaKucha"
+        }
+    ],
+    "https://github.com/lerignoux/ComfyUI-Stable3DGen": [
+        [
+            "Stable3DGenerate3D",
+            "Stable3DLoadModels",
+            "Stable3DPreprocessImage"
+        ],
+        {
+            "title_aux": "ComfyUI Stable3DGen"
         }
     ],
     "https://github.com/lgldlk/ComfyUI-PC-ding-dong": [
@@ -36947,6 +36987,22 @@
             "title_aux": "ComfyUI Ollama"
         }
     ],
+    "https://github.com/stduhpf/ComfyUI--WanImageToVideoTiled": [
+        [
+            "Wan22ImageToVideoLatentTiledVAE",
+            "WanCameraImageToVideoTiledVAE",
+            "WanFirstLastFrameToVideoTiledVAE",
+            "WanFunControlToVideoTiledVAE",
+            "WanFunInpaintToVideoTiledVAE",
+            "WanImageToVideoTiledVAE",
+            "WanPhantomSubjectToVideoTiledVAE",
+            "WanTrackToVideoTiledVAE",
+            "WanVaceToVideoTiledVAE"
+        ],
+        {
+            "title_aux": "WanImageToVideoTiledVAE for ComfyUI"
+        }
+    ],
     "https://github.com/stepfun-ai/ComfyUI-StepVideo": [
         [
             "TI2V",
@@ -37416,6 +37472,25 @@
         ],
         {
             "title_aux": "ComfyUI_Curves"
+        }
+    ],
+    "https://github.com/tercumantanumut/ComfyUI-Omini-Kontext": [
+        [
+            "OminiKontextImageEncoder",
+            "OminiKontextImageScale",
+            "OminiKontextLatentCombiner",
+            "OminiKontextLatentDecoder",
+            "OminiKontextLatentVisualizer",
+            "OminiKontextLoRALoader",
+            "OminiKontextLoRAMerge",
+            "OminiKontextLoRAUnload",
+            "OminiKontextPipeline",
+            "OminiKontextPipelineLoader",
+            "OminiKontextReferenceEncoder",
+            "OminiKontextTextEncoder"
+        ],
+        {
+            "title_aux": "ComfyUI-Omini-Kontext"
         }
     ],
     "https://github.com/tetsuoo-online/comfyui-too-xmp-metadata": [
@@ -37909,6 +37984,14 @@
         ],
         {
             "title_aux": "Layers System"
+        }
+    ],
+    "https://github.com/tritant/ComfyUI_Relight_Img": [
+        [
+            "RelightNode"
+        ],
+        {
+            "title_aux": "Advanced_Relight_Img"
         }
     ],
     "https://github.com/tritant/ComfyUI_Remove_Banding_Artifacts": [

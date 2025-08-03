@@ -194,6 +194,7 @@
             "MaskMathOps",
             "PathBuild",
             "RangeMapping",
+            "StepSplit",
             "StringCoordinateToBBoxMask",
             "StringCoordinateToBBoxes",
             "TextCustomExtract",
@@ -2374,6 +2375,8 @@
             "mb CLIP Text Encoder",
             "mb Debug",
             "mb Demux",
+            "mb Device Transfer",
+            "mb Display",
             "mb Empty Latent Image",
             "mb Eval",
             "mb Exec",
@@ -3137,6 +3140,7 @@
             "SDVN Merge SD1",
             "SDVN Merge SDXL",
             "SDVN Metadata Check",
+            "SDVN Model Export",
             "SDVN Model Merge",
             "SDVN Model info editor",
             "SDVN Overlay Images",
@@ -3734,6 +3738,22 @@
         ],
         {
             "title_aux": "ComfyUI Model Bending [UNSAFE]"
+        }
+    ],
+    "https://github.com/adithis197/ComfyUI-Caption_to_audio": [
+        [
+            "TextToMusicGenAudio"
+        ],
+        {
+            "title_aux": "ComfyUI-Caption_to_audio [WIP]"
+        }
+    ],
+    "https://github.com/adithis197/ComfyUI-multimodal-CaptionToVideoGen": [
+        [
+            "CaptionToMusicPromptLLM"
+        ],
+        {
+            "title_aux": "ComfyUI-multimodal-CaptionToVideoGen [WIP]"
         }
     ],
     "https://github.com/ahmedbana/File-Rename": [
@@ -6531,6 +6551,14 @@
             "title_aux": "jn_node_suite_comfyui [WIP]"
         }
     ],
+    "https://github.com/jonathan-bryant/ComfyUI-ImageStraightener": [
+        [
+            "AutoStraightenImage"
+        ],
+        {
+            "title_aux": "ComfyUI-ImageStraightener [WIP]"
+        }
+    ],
     "https://github.com/jordancoult/ComfyUI_HelpfulNodes": [
         [
             "JCo_CropAroundKPS"
@@ -7463,6 +7491,15 @@
         ],
         {
             "title_aux": "comfyui_indieTools [WIP]"
+        }
+    ],
+    "https://github.com/mamamia1110/comfyui-boggerrr-nodes": [
+        [
+            "SeedEdit3",
+            "Seedream3"
+        ],
+        {
+            "title_aux": "Boggerrr Nodes [WIP]"
         }
     ],
     "https://github.com/mamorett/ComfyUI-SmolVLM": [
@@ -8767,6 +8804,24 @@
             "title_aux": "ComfyUI-Pin"
         }
     ],
+    "https://github.com/slezica/comfyui-personal": [
+        [
+            "GenerateImage",
+            "OwlDetector",
+            "UpscaleImage",
+            "UseCheckpoint",
+            "UseControlNet",
+            "UseIPAdapter",
+            "UseImage",
+            "UseInfiniteYou",
+            "UseInstantID",
+            "UseLora",
+            "UseStyleModel"
+        ],
+        {
+            "title_aux": "slezica/ComfyUI Personal Nodes"
+        }
+    ],
     "https://github.com/smthemex/ComfyUI_GPT_SoVITS_Lite": [
         [
             "GPT_SoVITS_LoadModel",
@@ -8859,7 +8914,9 @@
     ],
     "https://github.com/sprited-ai/sprited-comfyui-nodes": [
         [
-            "Example",
+            "LoopTrimNode",
+            "SliceBatch",
+            "SliceLatents",
             "VideoDownloader",
             "VideoShotSplitter"
         ],

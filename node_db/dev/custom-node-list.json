@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "slezica",
+            "title": "slezica/ComfyUI Personal Nodes",
+            "reference": "https://github.com/slezica/comfyui-personal",
+            "files": [
+                "https://github.com/slezica/comfyui-personal"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node collection for ComfyUI containing simplified workflow nodes and enhanced UI features for my personal use."
+        },
+        {
+            "author": "boggerrr1110",
+            "title": "Boggerrr Nodes [WIP]",
+            "reference": "https://github.com/mamamia1110/comfyui-boggerrr-nodes",
+            "files": [
+                "https://github.com/mamamia1110/comfyui-boggerrr-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A node for comfyui to use seedream3.0 and seededit3.0\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "jonathan-bryant",
+            "title": "ComfyUI-ImageStraightener [WIP]",
+            "reference": "https://github.com/jonathan-bryant/ComfyUI-ImageStraightener",
+            "files": [
+                "https://github.com/jonathan-bryant/ComfyUI-ImageStraightener"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that automatically detects and corrects image tilt/rotation to straighten images. This node uses computer vision techniques to detect lines in the image and calculate the optimal rotation angle to straighten the image.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "adithis197",
+            "title": "ComfyUI-multimodal-CaptionToVideoGen [WIP]",
+            "reference": "https://github.com/adithis197/ComfyUI-multimodal-CaptionToVideoGen",
+            "files": [
+                "https://github.com/adithis197/ComfyUI-multimodal-CaptionToVideoGen"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for video generation using a music prompt to generate audio.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "adithis197",
+            "title": "ComfyUI-Caption_to_audio [WIP]",
+            "reference": "https://github.com/adithis197/ComfyUI-Caption_to_audio",
+            "files": [
+                "https://github.com/adithis197/ComfyUI-Caption_to_audio"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node that converts image description to an appropriate prompt for music generation.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "alistairallan",
             "title": "ComfyUI-skin-retouch",
             "reference": "https://github.com/alistairallan/ComfyUI-skin-retouch",
