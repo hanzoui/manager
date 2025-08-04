@@ -1,6 +1,27 @@
 {
     "custom_nodes": [
         {
+            "author": "jqy-yo",
+            "title": "ComfyUI Gemini Nodes",
+            "id": "gemini-nodes-jqy",
+            "reference": "https://github.com/jqy-yo/comfyui-gemini-nodes",
+            "files": [
+                "https://github.com/jqy-yo/comfyui-gemini-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for integrating Google Gemini API with ComfyUI, providing powerful AI capabilities for text generation, image generation, and video analysis. Nodes: Gemini Text API, Gemini Image Editor, Gemini Image Gen Advanced, Gemini Video Captioner."
+        },
+        {
+            "author": "stduhpf",
+            "title": "Wan22FirstLastFrameToVideoLatent for ComfyUI",
+            "reference": "https://github.com/stduhpf/ComfyUI--Wan22FirstLastFrameToVideoLatent",
+            "files": [
+                "https://github.com/stduhpf/ComfyUI--Wan22FirstLastFrameToVideoLatent"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node for ComfyUI that can be used to generate videos from either a starting frame, an end frame or both; with the Wan2.2 5B model (which uses the new Wan2.2 VAE, unlike Wan 2.2 A14B model wich uses the old Wan2.1 VAE)."
+        },
+        {
             "author": "Novice_Chen",
             "title": "ComfyUI-XingLiu",
             "reference": "https://github.com/NewNoviceChen/ComfyUI-XingLiu",
@@ -19,6 +40,27 @@
             ],
             "install_type": "git-clone",
             "description": "Audio Mixing node for ComfyUI"
+        },
+        {
+            "author": "GeekyGhost",
+            "title": "ComfyUI-Geeky-LatentSyncWrapper 1.5",
+            "reference": "https://github.com/GeekyGhost/ComfyUI-Geeky-LatentSyncWrapper",
+            "files": [
+                "https://github.com/GeekyGhost/ComfyUI-Geeky-LatentSyncWrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "Unofficial optimized and enhanced fork of [a/LatentSync 1.5](https://github.com/bytedance/LatentSync) implementation for ComfyUI on Windows and WSL 2.0."
+        },
+        {
+            "author": "Cyrostar",
+            "title": "Artha-Projekt",
+            "id": "artha-projekt",
+            "reference": "https://github.com/Cyrostar/Artha-Projekt",
+            "files": [
+                "https://github.com/Cyrostar/Artha-Projekt"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for project management."
         },
         {
             "author": "kanibus",
@@ -151,6 +193,36 @@
             ],
             "install_type": "git-clone",
             "description": "This is a set of custom nodes for ComfyUI that replaces nodes like WanImageToVideo but using a Tiled VAE approach to reduce VRAM requirements."
+        },
+        {
+            "author": "SaturMars",
+            "title": "ComfyUI-NVVFR",
+            "reference": "https://github.com/SaturMars/ComfyUI-NVVFR",
+            "files": [
+                "https://github.com/SaturMars/ComfyUI-NVVFR"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for video super-resolution and frame interpolation using [a/NVEncC](https://github.com/rigaya/NVEnc)."
+        },
+        {
+            "author": "ranska",
+            "title": "pixel_palette_art",
+            "reference": "https://github.com/ranska/pixel_palette_art",
+            "files": [
+                "https://github.com/ranska/pixel_palette_art"
+            ],
+            "install_type": "git-clone",
+            "description": "Comfyui custom node: Set of tools for pixel art palette."
+        },
+        {
+            "author": "chuchu114514",
+            "title": "comfyui_text_list_stepper",
+            "reference": "https://github.com/chuchu114514/comfyui_text_list_stepper",
+            "files": [
+                "https://github.com/chuchu114514/comfyui_text_list_stepper"
+            ],
+            "install_type": "git-clone",
+            "description": "Used for batch extraction of prompt words."
         },
         {
             "author": "comfyui-wiki",
@@ -670,36 +742,6 @@
             ],
             "install_type": "git-clone",
             "description": "An interactive, classic channel mixer color adjustment node for ComfyUI, with realtime preview and a responsive editing interface."
-        },
-        {
-            "author": "cuban044",
-            "title": "[Unofficial] ComfyUI-Veo3-Experimental",
-            "reference": "https://github.com/cuban044/ComfyUI-Veo3-Experimental",
-            "files": [
-                "https://github.com/cuban044/ComfyUI-Veo3-Experimental"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node extension for ComfyUI that integrates Google's Veo 3 text-to-video generation capabilities."
-        },
-        {
-            "author": "shahkoorosh",
-            "title": "ComfyUI SeedXPro Translation Node",
-            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_SeedXPro",
-            "files": [
-                "https://github.com/HM-RunningHub/ComfyUI_RH_SeedXPro"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a Seed-X-PPO-7B ComfyUI plugin. Easy to use"
-        },
-        {
-            "author": "cedarconnor",
-            "title": "ComfyUI Batch Name Loop",
-            "reference": "https://github.com/cedarconnor/comfyui-BatchNameLoop",
-            "files": [
-                "https://github.com/cedarconnor/comfyui-BatchNameLoop"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node package for batch image processing with filename preservation."
         }
     ]
 }

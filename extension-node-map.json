@@ -3598,12 +3598,14 @@
             "Sigmas Quotient",
             "Sigmas ReactionDiffusion",
             "Sigmas Recast",
+            "Sigmas Resample",
             "Sigmas Rescale",
             "Sigmas RiemannianFlow",
             "Sigmas SetFloor",
             "Sigmas Sigmoid",
             "Sigmas SmoothStep",
             "Sigmas Split",
+            "Sigmas Split Value",
             "Sigmas SquareRoot",
             "Sigmas Start",
             "Sigmas StepwiseMultirate",
@@ -4086,6 +4088,16 @@
         ],
         {
             "title_aux": "Artha-Gemini"
+        }
+    ],
+    "https://github.com/Cyrostar/Artha-Projekt": [
+        [
+            "Project Prefix",
+            "Project Seed",
+            "Project Setup"
+        ],
+        {
+            "title_aux": "Artha-Projekt"
         }
     ],
     "https://github.com/DJ-Tribefull/Comfyui_FOCUS_nodes": [
@@ -5785,12 +5797,29 @@
             "title_aux": "ComfyUI-Geeky-Kokoro-TTS"
         }
     ],
+    "https://github.com/GeekyGhost/ComfyUI-Geeky-LatentSyncWrapper": [
+        [
+            "GeekyLatentSyncNode",
+            "GeekyVideoLengthAdjuster"
+        ],
+        {
+            "title_aux": "ComfyUI-Geeky-LatentSyncWrapper 1.5"
+        }
+    ],
     "https://github.com/GeekyGhost/ComfyUI-GeekyRemB": [
         [
             "GeekyRemB"
         ],
         {
             "title_aux": "ComfyUI-GeekyRemB"
+        }
+    ],
+    "https://github.com/GeekyGhost/ComfyUI_Geeky_AudioMixer": [
+        [
+            "GeekyAudioMixer"
+        ],
+        {
+            "title_aux": "ComfyUI Geeky AudioMixer"
         }
     ],
     "https://github.com/GentlemanHu/ComfyUI-SunoAI": [
@@ -9608,6 +9637,26 @@
             "title_aux": "ComfyUI LLM SDXL Adapter"
         }
     ],
+    "https://github.com/NewNoviceChen/ComfyUI-XingLiu": [
+        [
+            "Image2ImageByAlpha",
+            "Image2ImageCustom",
+            "Image2ImageCustomAlpha",
+            "MakeAuth",
+            "MakeControlNet",
+            "MakeHiResFix",
+            "MakeLora",
+            "MergeControlNet",
+            "MergeLora",
+            "Text2ImageByAlpha",
+            "Text2ImageCustom",
+            "Text2ImageCustomAlpha",
+            "UploadLibLib"
+        ],
+        {
+            "title_aux": "ComfyUI-XingLiu"
+        }
+    ],
     "https://github.com/NguynHungNguyen/Segment-Bedroom-Interior": [
         [
             "BedroomFurnitureMask"
@@ -10936,6 +10985,14 @@
         ],
         {
             "title_aux": "Santodan Random LoRA Node"
+        }
+    ],
+    "https://github.com/SaturMars/ComfyUI-NVVFR": [
+        [
+            "NVVFR"
+        ],
+        {
+            "title_aux": "ComfyUI-NVVFR"
         }
     ],
     "https://github.com/SayanoAI/Comfy-RVC": [
@@ -19973,6 +20030,14 @@
             "title_aux": "comfyui_proportion_solver"
         }
     ],
+    "https://github.com/chuchu114514/comfyui_text_list_stepper": [
+        [
+            "TextListProcessor_Gemini"
+        ],
+        {
+            "title_aux": "comfyui_text_list_stepper"
+        }
+    ],
     "https://github.com/ciga2011/ComfyUI-MarkItDown": [
         [
             "WIZ_AUDIO2MARKDOWN",
@@ -26994,6 +27059,17 @@
         ],
         {
             "title_aux": "BBoxLowerMask2"
+        }
+    ],
+    "https://github.com/jqy-yo/comfyui-gemini-nodes": [
+        [
+            "GeminiImageEditor",
+            "GeminiImageGenADV",
+            "GeminiTextAPI",
+            "GeminiVideoCaptioner"
+        ],
+        {
+            "title_aux": "ComfyUI Gemini Nodes"
         }
     ],
     "https://github.com/jroc22/ComfyUI-CSV-prompt-builder": [
@@ -34398,6 +34474,14 @@
             "title_aux": "ComfyUI-MistralAI-API"
         }
     ],
+    "https://github.com/ranska/pixel_palette_art": [
+        [
+            "PixelPaletteExtractor"
+        ],
+        {
+            "title_aux": "pixel_palette_art"
+        }
+    ],
     "https://github.com/ratulrafsan/Comfyui-SAL-VTON": [
         [
             "SALVTON_Apply",
@@ -37016,6 +37100,15 @@
         ],
         {
             "title_aux": "ComfyUI Ollama"
+        }
+    ],
+    "https://github.com/stduhpf/ComfyUI--Wan22FirstLastFrameToVideoLatent": [
+        [
+            "Wan22FirstLastFrameToVideoLatent",
+            "Wan22FirstLastFrameToVideoLatentTiledVAE"
+        ],
+        {
+            "title_aux": "Wan22FirstLastFrameToVideoLatent for ComfyUI"
         }
     ],
     "https://github.com/stduhpf/ComfyUI--WanImageToVideoTiled": [

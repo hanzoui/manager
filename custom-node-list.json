@@ -15270,6 +15270,16 @@
             "description": "Audio Mixing node for ComfyUI"
         },
         {
+            "author": "GeekyGhost",
+            "title": "ComfyUI-Geeky-LatentSyncWrapper 1.5",
+            "reference": "https://github.com/GeekyGhost/ComfyUI-Geeky-LatentSyncWrapper",
+            "files": [
+                "https://github.com/GeekyGhost/ComfyUI-Geeky-LatentSyncWrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "Unofficial optimized and enhanced fork of [a/LatentSync 1.5](https://github.com/bytedance/LatentSync) implementation for ComfyUI on Windows and WSL 2.0."
+        },
+        {
             "author": "Dobidop",
             "title": "Dobidop ComfyStereo",
             "id": "simple-stereoscopic",
@@ -29941,6 +29951,17 @@
             "description": "ComfyUI custom nodes for interacting with the Gemini api for image and video generation prompting."
         },
         {
+            "author": "Cyrostar",
+            "title": "Artha-Projekt",
+            "id": "artha-projekt",
+            "reference": "https://github.com/Cyrostar/Artha-Projekt",
+            "files": [
+                "https://github.com/Cyrostar/Artha-Projekt"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for project management."
+        },
+        {
             "author": "GeraldWie",
             "title": "ComfyUI-I2I-slim",
             "reference": "https://github.com/GeraldWie/ComfyUI-I2I-slim",
@@ -30346,6 +30367,16 @@
             "description": "This is a set of custom nodes for ComfyUI that replaces nodes like WanImageToVideo but using a Tiled VAE approach to reduce VRAM requirements."
         },
         {
+            "author": "stduhpf",
+            "title": "Wan22FirstLastFrameToVideoLatent for ComfyUI",
+            "reference": "https://github.com/stduhpf/ComfyUI--Wan22FirstLastFrameToVideoLatent",
+            "files": [
+                "https://github.com/stduhpf/ComfyUI--Wan22FirstLastFrameToVideoLatent"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node for ComfyUI that can be used to generate videos from either a starting frame, an end frame or both; with the Wan2.2 5B model (which uses the new Wan2.2 VAE, unlike Wan 2.2 A14B model wich uses the old Wan2.1 VAE)."
+        },
+        {
             "author": "kanibus",
             "title": "KANIBUS - Advanced Eye Tracking ControlNet System",
             "reference": "https://github.com/kanibus/kanibus",
@@ -30365,6 +30396,48 @@
             "install_type": "git-clone",
             "description": "A ComfyUI node that integrates LibLib's text-to-image and image-to-image generation capabilities, with customizable ControlNet and Lora support."
         },
+        {
+            "author": "chuchu114514",
+            "title": "comfyui_text_list_stepper",
+            "reference": "https://github.com/chuchu114514/comfyui_text_list_stepper",
+            "files": [
+                "https://github.com/chuchu114514/comfyui_text_list_stepper"
+            ],
+            "install_type": "git-clone",
+            "description": "Used for batch extraction of prompt words."
+        },
+        {
+            "author": "ranska",
+            "title": "pixel_palette_art",
+            "reference": "https://github.com/ranska/pixel_palette_art",
+            "files": [
+                "https://github.com/ranska/pixel_palette_art"
+            ],
+            "install_type": "git-clone",
+            "description": "Comfyui custom node: Set of tools for pixel art palette."
+        },
+        {
+            "author": "SaturMars",
+            "title": "ComfyUI-NVVFR",
+            "reference": "https://github.com/SaturMars/ComfyUI-NVVFR",
+            "files": [
+                "https://github.com/SaturMars/ComfyUI-NVVFR"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for video super-resolution and frame interpolation using [a/NVEncC](https://github.com/rigaya/NVEnc)."
+        },
+        {
+            "author": "jqy-yo",
+            "title": "ComfyUI Gemini Nodes",
+            "id": "gemini-nodes-jqy",
+            "reference": "https://github.com/jqy-yo/comfyui-gemini-nodes",
+            "files": [
+                "https://github.com/jqy-yo/comfyui-gemini-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for integrating Google Gemini API with ComfyUI, providing powerful AI capabilities for text generation, image generation, and video analysis. Nodes: Gemini Text API, Gemini Image Editor, Gemini Image Gen Advanced, Gemini Video Captioner."
+        },
+
 
 
 
@@ -30794,28 +30867,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Cyrostar",
-            "title": "Artha-Projekt",
-            "id": "artha-projekt",
-            "reference": "https://github.com/Cyrostar/Artha-Projekt",
-            "files": [
-                "https://github.com/Cyrostar/Artha-Projekt"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom nodes for project management."
-        },
-        {
-            "author": "jqy-yo",
-            "title": "ComfyUI Gemini Nodes",
-            "id": "gemini-nodes-jqy",
-            "reference": "https://github.com/jqy-yo/comfyui-gemini-nodes",
-            "files": [
-                "https://github.com/jqy-yo/comfyui-gemini-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for integrating Google Gemini API with ComfyUI, providing powerful AI capabilities for text generation, image generation, and video analysis. Nodes: Gemini Text API, Gemini Image Editor, Gemini Image Gen Advanced, Gemini Video Captioner."
         }
     ]
 }
