@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "Novice_Chen",
+            "title": "ComfyUI-XingLiu",
+            "reference": "https://github.com/NewNoviceChen/ComfyUI-XingLiu",
+            "files": [
+                "https://github.com/NewNoviceChen/ComfyUI-XingLiu"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node that integrates LibLib's text-to-image and image-to-image generation capabilities, with customizable ControlNet and Lora support."
+        },
+        {
+            "author": "GeekyGhost",
+            "title": "ComfyUI Geeky AudioMixer",
+            "reference": "https://github.com/GeekyGhost/ComfyUI_Geeky_AudioMixer",
+            "files": [
+                "https://github.com/GeekyGhost/ComfyUI_Geeky_AudioMixer"
+            ],
+            "install_type": "git-clone",
+            "description": "Audio Mixing node for ComfyUI"
+        },
+        {
             "author": "kanibus",
             "title": "KANIBUS - Advanced Eye Tracking ControlNet System",
             "reference": "https://github.com/kanibus/kanibus",
@@ -680,26 +700,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node package for batch image processing with filename preservation."
-        },
-        {
-            "author": "SamTyurenkov",
-            "title": "comfyui_vace_preprocessors",
-            "reference": "https://github.com/SamTyurenkov/comfyui-vace-preprocessors",
-            "files": [
-                "https://github.com/SamTyurenkov/comfyui-vace-preprocessors"
-            ],
-            "install_type": "git-clone",
-            "description": "Some nodes to create a preprocessed videos"
-        },
-        {
-            "author": "einhorn13",
-            "title": "ComfyUI-ImageProcessUtilities",
-            "reference": "https://github.com/einhorn13/ComfyUI-ImageProcessUtilities",
-            "files": [
-                "https://github.com/einhorn13/ComfyUI-ImageProcessUtilities"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for ComfyUI designed to enhance image processing workflows. Especially useful for high-resolution rendering, complex inpainting, tiling, and batch manipulation. This allows you to perform processing that would otherwise exceed your VRAM limits."
         }
     ]
 }
