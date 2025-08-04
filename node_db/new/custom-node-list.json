@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "BobRandomNumber",
+            "title": "ComfyUI-TLBVFI",
+            "reference": "https://github.com/BobRandomNumber/ComfyUI-TLBVFI",
+            "files": [
+                "https://github.com/BobRandomNumber/ComfyUI-TLBVFI"
+            ],
+            "install_type": "git-clone",
+            "description": "wrapper for the TLB-VFI: Temporal-Aware Latent Brownian Bridge Diffusion for Video Frame Interpolation project"
+        },
+        {
+            "author": "11dogzi",
+            "title": "Qwen-Image ComfyUI",
+            "reference": "https://github.com/11dogzi/Comfyui-Qwen-Image",
+            "files": [
+                "https://github.com/11dogzi/Comfyui-Qwen-Image"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node package that integrates the Qwen-Image model into ComfyUI."
+        },
+        {
             "author": "alFrame",
             "title": "AF - Edit Generated Prompt",
             "reference": "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt",
@@ -668,16 +688,6 @@
             ],
             "install_type": "git-clone",
             "description": "A lightweight version of the custom nodes originally developed by [a/ManglerFTW](https://github.com/ManglerFTW/ComfyI2I) for performing image-to-image tasks in ComfyUI."
-        },
-        {
-            "author": "tauraloke",
-            "title": "ComfyUI-Unfake-Pixels",
-            "reference": "https://github.com/tauraloke/ComfyUI-Unfake-Pixels",
-            "files": [
-                "https://github.com/tauraloke/ComfyUI-Unfake-Pixels"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node for pixel art scaling. Automatically detects the pixel scale using an edge-aware method (Sobel filter + voting on tiles) and downscales the image to that pixel size, reducing color palette."
         }
     ]
 }
