@@ -3753,6 +3753,7 @@
             "GlifVariable",
             "HFHubEmbeddingLoader",
             "HFHubLoraLoader",
+            "ImageScaleDownBy",
             "ImageToMultipleOf",
             "KikoSaveImage",
             "ResolutionCalculator",
@@ -12122,13 +12123,15 @@
             "CSV Reader X Lora",
             "CSV Writer",
             "Checkpoint File Loader",
-            "ComfyDeploy API Node Image-Prompt 2 Image",
+            "ComfyDeploy API Node",
+            "ElevenLabs Voice Retriever",
             "Empty Images",
             "Get Most Common Image Colors",
             "Image Batch Process Switch",
             "Image List Loader",
             "Image Overlay",
             "Is Input In List",
+            "Is String Empty",
             "Load Image",
             "Load Image From URL",
             "Load Images From Folder",
@@ -16140,6 +16143,14 @@
             "title_aux": "GeminiOllama ComfyUI Extension"
         }
     ],
+    "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt": [
+        [
+            "AF_Edit_Generated_Prompt"
+        ],
+        {
+            "title_aux": "AF - Edit Generated Prompt"
+        }
+    ],
     "https://github.com/alanhuang67/ComfyUI-FAI-Node": [
         [
             "FAIDynamicMask",
@@ -19622,9 +19633,11 @@
             "LayerUtility: ImageScaleRestore V2",
             "LayerUtility: ImageShift",
             "LayerUtility: ImageTaggerSave",
+            "LayerUtility: ImageTaggerSaveV2",
             "LayerUtility: Integer",
             "LayerUtility: LayerImageTransform",
             "LayerUtility: LayerMaskTransform",
+            "LayerUtility: LoadImagesFromPath",
             "LayerUtility: LoadVQAModel",
             "LayerUtility: NameToColor",
             "LayerUtility: NumberCalculator",
@@ -28569,6 +28582,7 @@
             "WanVideoATITracks",
             "WanVideoATITracksVisualize",
             "WanVideoATI_comfy",
+            "WanVideoAddExtraLatent",
             "WanVideoApplyNAG",
             "WanVideoBlockList",
             "WanVideoBlockSwap",
@@ -37375,16 +37389,6 @@
             "title_aux": "Vid2vid"
         }
     ],
-    "https://github.com/synchronicity-labs/sync-comfyui": [
-        [
-            "SyncLipsyncInputNode",
-            "SyncLipsyncMainNode",
-            "SyncLipsyncOutputNode"
-        ],
-        {
-            "title_aux": "ComfyUI Sync Lipsync Node"
-        }
-    ],
     "https://github.com/synthetai/ComfyUI-JM-KLing-API": [
         [
             "JM-KLingAI-API/api-key",
@@ -37611,6 +37615,7 @@
             "OminiKontextPipeline",
             "OminiKontextPipelineLoader",
             "OminiKontextReferenceEncoder",
+            "OminiKontextSplitPipelineLoader",
             "OminiKontextTextEncoder"
         ],
         {
@@ -40255,6 +40260,7 @@
         [
             "KY_AnyByIndex",
             "KY_AnyToList",
+            "KY_BBoxesToSAM2",
             "KY_FilePathAnalyzer-",
             "KY_FileSequenceAnalyzer",
             "KY_JoinToString",
@@ -40267,7 +40273,8 @@
             "KY_ReadImage",
             "KY_RegexExtractor",
             "KY_RegexReplace",
-            "KY_SaveImageToPath"
+            "KY_SaveImageToPath",
+            "KY_isNone"
         ],
         {
             "title_aux": "ComfyUI-KYNode"
