@@ -30437,6 +30437,16 @@
             "install_type": "git-clone",
             "description": "A collection of custom nodes for integrating Google Gemini API with ComfyUI, providing powerful AI capabilities for text generation, image generation, and video analysis. Nodes: Gemini Text API, Gemini Image Editor, Gemini Image Gen Advanced, Gemini Video Captioner."
         },
+        {
+            "author": "alFrame",
+            "title": "AF - Edit Generated Prompt",
+            "reference": "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt",
+            "files": [
+                "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually. Or you can use the lower input field like any regular text input filed. The content of the lower text field will always dominate the output of the node."
+        },
 
 
 
@@ -30867,13 +30877,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "title": "AF - Edit Generated Prompt",
-            "reference": "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt",
-            "files": ["https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt"],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually. Or you can use the lower input field like any regular text input filed. The content of the lower text field will always dominate the output of the node."
         }
     ]
 }
