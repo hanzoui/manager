@@ -247,17 +247,6 @@
             "title_aux": "HYPIR ComfyUI Plugin"
         }
     ],
-    "https://github.com/11dogzi/Comfyui-Qwen-Image": [
-        [
-            "QwenImageAspectRatio",
-            "QwenImageGenerator",
-            "QwenImageLoader",
-            "QwenImagePromptEnhancer"
-        ],
-        {
-            "title_aux": "Qwen-Image ComfyUI"
-        }
-    ],
     "https://github.com/11dogzi/Comfyui-ergouzi-Nodes": [
         [
             "EG-YSZT-ZT",
@@ -10051,6 +10040,14 @@
             "title_aux": "ComfyUI-CSV-Loader"
         }
     ],
+    "https://github.com/PICOPON/ComfyUI-API-OpenAI-Node": [
+        [
+            "OpenAINode"
+        ],
+        {
+            "title_aux": "ComfyUI OpenAI Node"
+        }
+    ],
     "https://github.com/Pablerdo/ComfyUI-MultiCutAndDrag": [
         [
             "BatchImageToMask",
@@ -15889,6 +15886,8 @@
             "ImageMaximumNode",
             "LoadCogVideoXFunLora",
             "LoadCogVideoXFunModel",
+            "LoadWan2_2Lora",
+            "LoadWan2_2Model",
             "LoadWanFunLora",
             "LoadWanFunModel",
             "LoadWanLora",
@@ -15896,6 +15895,8 @@
             "VideoToCanny",
             "VideoToDepth",
             "VideoToOpenpose",
+            "Wan2_2I2VSampler",
+            "Wan2_2T2VSampler",
             "WanFunInpaintSampler",
             "WanFunT2VSampler",
             "WanFunV2VSampler",
@@ -20981,6 +20982,7 @@
             "VAELoader",
             "VAESave",
             "VPScheduler",
+            "Veo3VideoGenerationNode",
             "VeoVideoGenerationNode",
             "VideoLinearCFGGuidance",
             "VideoTriangleCFGGuidance",
@@ -23224,6 +23226,14 @@
             "title_aux": "ComfyUI-Classifier"
         }
     ],
+    "https://github.com/fidecastro/comfyui-llamacpp-client": [
+        [
+            "LlamaCppClient"
+        ],
+        {
+            "title_aux": "comfyui-llamacpp-client"
+        }
+    ],
     "https://github.com/filipemeneses/comfy_pixelization": [
         [
             "Pixelization"
@@ -23838,6 +23848,7 @@
     "https://github.com/g0kuvonlange/ComfyUI-Load-From-URL": [
         [
             "Load LoRA From URL",
+            "Load LoRAs from JSON",
             "Load Video From URL"
         ],
         {
@@ -28396,6 +28407,7 @@
             "TorchCompileModelFluxAdvanced",
             "TorchCompileModelFluxAdvancedV2",
             "TorchCompileModelHyVideo",
+            "TorchCompileModelQwenImage",
             "TorchCompileModelWanVideo",
             "TorchCompileModelWanVideoV2",
             "TorchCompileVAE",
@@ -28932,6 +28944,14 @@
         ],
         {
             "title_aux": "comfyui-jk-easy-nodes"
+        }
+    ],
+    "https://github.com/kpsss34/ComfyUI-kpsss34": [
+        [
+            "SD35sLoaderSampler"
+        ],
+        {
+            "title_aux": "ComfyUI kpsss34 Custom Node"
         }
     ],
     "https://github.com/krmahil/comfyui-hollow-preserve": [
@@ -31480,6 +31500,16 @@
             "title_aux": "Facerestore CF (Code Former)"
         }
     ],
+    "https://github.com/max-dingsda/OllamaTools": [
+        [
+            "OllamaPicDescriber",
+            "OllamaPromptBooster",
+            "PromptStylist"
+        ],
+        {
+            "title_aux": "OllamaTools for ComfyUI"
+        }
+    ],
     "https://github.com/mbrostami/ComfyUI-HF": [
         [
             "GPT2Node"
@@ -33637,6 +33667,7 @@
             "PapcornsAspectResize",
             "PapcornsAudioTrimAndSave",
             "PapcornsAudioTrimmer",
+            "PapcornsFpsCalculator",
             "PapcornsMemoryManager",
             "PapcornsSimpleMemoryManager",
             "UploadImageToGCS"
@@ -34527,10 +34558,11 @@
     ],
     "https://github.com/ranska/pixel_palette_art": [
         [
+            "GimpPaletteLoader",
             "PixelPaletteExtractor"
         ],
         {
-            "title_aux": "pixel_palette_art"
+            "title_aux": "Pixel Palette Art"
         }
     ],
     "https://github.com/ratulrafsan/Comfyui-SAL-VTON": [
@@ -36894,6 +36926,14 @@
             "title_aux": "comfyui-snek-nodes"
         }
     ],
+    "https://github.com/snomiao/ComfyUI-Video-Crop": [
+        [
+            "VideoCropNode"
+        ],
+        {
+            "title_aux": "ComfyUI Video Crop"
+        }
+    ],
     "https://github.com/souki202/ComfyUI-LoadImage-Advanced": [
         [
             "ColorAdjustment",
@@ -37834,6 +37874,14 @@
             "title_aux": "ComfyUI_ACE-Step-zveroboy"
         }
     ],
+    "https://github.com/thezveroboy/comfyui-RandomPromptsZveroboy": [
+        [
+            "RandomPromptsZveroboy"
+        ],
+        {
+            "title_aux": "comfyui-RandomPromptsZveroboy"
+        }
+    ],
     "https://github.com/thezveroboy/comfyui-random-image-loader": [
         [
             "LoadRandomImage"
@@ -38418,10 +38466,19 @@
     ],
     "https://github.com/upseem/comfyui_sunxAI_facetools": [
         [
+            "ApplyInstantID",
+            "ColorAdjustNew(FaceParsing)",
             "CropFaces",
             "DetectFaces",
             "Example",
+            "InstantIDFaceAnalysis",
+            "InstantIDModelLoader",
+            "LoadFaceEmbeds",
+            "SaveFaceEmbeds",
+            "SaveImageWebsocketNew",
             "SelectFloatByBool",
+            "VAEDecodeNew",
+            "VAEEncodeNew",
             "WarpFacesBack"
         ],
         {
@@ -38579,6 +38636,19 @@
         ],
         {
             "title_aux": "Simple Flux.1 Merger for ComfyUI"
+        }
+    ],
+    "https://github.com/verIdyia/ComfyUI-Qwen-Image-DF11": [
+        [
+            "DFloat11QwenImageLoader",
+            "QwenImageAspectRatio",
+            "QwenImageDecode",
+            "QwenImagePresetSampler",
+            "QwenImageSampler",
+            "QwenImageTextEncode"
+        ],
+        {
+            "title_aux": "ComfyUI Qwen-Image DFloat11 Nodes"
         }
     ],
     "https://github.com/victorchall/comfyui_webcamcapture": [

@@ -321,6 +321,16 @@
             "title_aux": "ComfyUI-Prompt-Plus [WIP]"
         }
     ],
+    "https://github.com/77oussam/Aio77-Comfyui": [
+        [
+            "LoadImages-77",
+            "LoadImages-77-Simple",
+            "Outline-77"
+        ],
+        {
+            "title_aux": "Alo77 - ComfyUI Custom Nodes Collection [WIP]"
+        }
+    ],
     "https://github.com/7BEII/Comfyui_PDuse": [
         [
             "Empty_Line",
@@ -1381,6 +1391,30 @@
             "title_aux": "ComfyUI-Mzikart-Player [WIP]"
         }
     ],
+    "https://github.com/Dream-Pixels-Forge/ComfyUI-Mzikart-Vocal": [
+        [
+            "MasteringCombinerNode",
+            "VocalCompressorNode",
+            "VocalDeesserNode",
+            "VocalDoublerNode",
+            "VocalEQNode",
+            "VocalLimiterNode",
+            "VocalProcessorNode",
+            "VocalReverbNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Mzikart-Vocal [WIP]"
+        }
+    ],
+    "https://github.com/Dream-Pixels-Forge/ComfyUI-RendArt-Nodes": [
+        [
+            "RendArtNode",
+            "RendArtUltimateNode"
+        ],
+        {
+            "title_aux": "ComfyUI-RendArt-Nodes"
+        }
+    ],
     "https://github.com/DreamsInAutumn/ComfyUI-Autumn-LLM-Nodes": [
         [
             "GeminiImageToPrompt",
@@ -1794,7 +1828,7 @@
     ],
     "https://github.com/JasonW146/ComfyUI-Manual-Openpose": [
         [
-            "Manual Openpose Node"
+            "Manual Openpose Setter"
         ],
         {
             "title_aux": "JasonW146"
@@ -1897,6 +1931,14 @@
         ],
         {
             "title_aux": "Python_Executor [UNSAFE]"
+        }
+    ],
+    "https://github.com/Karniverse/ComfyUI-Randomselector": [
+        [
+            "DynamicMultiSelector"
+        ],
+        {
+            "title_aux": "ComfyUI-Randomselector"
         }
     ],
     "https://github.com/Kayarte/Time-Series-Nodes-for-ComfyUI": [
@@ -4420,6 +4462,20 @@
             "title_aux": "comfyui-mc [WIP]"
         }
     ],
+    "https://github.com/brandonkish/comfyUI-extractable-text": [
+        [
+            "Get Larger Of Two Numbers",
+            "Get Smaller Of Two Numbers",
+            "LoRA Name Generator",
+            "LoRA Testing Node",
+            "Load Image With Description",
+            "Save Image To Folder",
+            "Save Image With Description"
+        ],
+        {
+            "title_aux": "comfyUI-extractable-text [WIP]"
+        }
+    ],
     "https://github.com/broumbroum/comfyui-time-system": [
         [
             "DayTimeNode",
@@ -5111,6 +5167,7 @@
             "VAELoader",
             "VAESave",
             "VPScheduler",
+            "Veo3VideoGenerationNode",
             "VeoVideoGenerationNode",
             "VideoLinearCFGGuidance",
             "VideoTriangleCFGGuidance",
@@ -9144,6 +9201,14 @@
             "title_aux": "ComfyUI-CacheImageNode"
         }
     ],
+    "https://github.com/thaakeno/comfyui-universal-asset-downloader": [
+        [
+            "UniversalAssetDownloader"
+        ],
+        {
+            "title_aux": "comfyui-universal-asset-downloader [UNSAFE/WIP]"
+        }
+    ],
     "https://github.com/thavocado/comfyui-danbooru-lookup": [
         [
             "DanbooruFAISSLookup",
@@ -9606,6 +9671,14 @@
             "title_aux": "comfyui-wormley-nodes"
         }
     ],
+    "https://github.com/xgfone/ComfyUI_FaceToMask": [
+        [
+            "FaceToMaskCopy"
+        ],
+        {
+            "title_aux": "ComfyUI_FaceToMask"
+        }
+    ],
     "https://github.com/xgfone/ComfyUI_PromptLogoCleaner": [
         [
             "PromptLogoCleaner"
@@ -9779,8 +9852,11 @@
             "LoadImageFromURLNode",
             "LoadStringFromDirectoryNode",
             "LoadStringNode",
+            "MaxNode",
+            "MinNode",
             "OllamaClientNode",
             "OllamaNode",
+            "OutpaintingPadNode",
             "PrependTagsNode",
             "PrintAnyNode",
             "PrintImageNode",

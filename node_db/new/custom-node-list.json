@@ -1,6 +1,76 @@
 {
     "custom_nodes": [
         {
+            "author": "snomiao",
+            "title": "ComfyUI Video Crop",
+            "reference": "https://github.com/snomiao/ComfyUI-Video-Crop",
+            "files": [
+                "https://github.com/snomiao/ComfyUI-Video-Crop"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for cropping videos using FFmpeg with pixel-precise control."
+        },
+        {
+            "author": "max-dingsda",
+            "title": "OllamaTools for ComfyUI",
+            "reference": "https://github.com/max-dingsda/OllamaTools",
+            "files": [
+                "https://github.com/max-dingsda/OllamaTools"
+            ],
+            "install_type": "git-clone",
+            "description": "This project makes local LLMs easy to use for prompt enhancement and image captioning –No API keys. No external tools. No headache."
+        },
+        {
+            "author": "fidecastro",
+            "title": "comfyui-llamacpp-client",
+            "reference": "https://github.com/fidecastro/comfyui-llamacpp-client",
+            "files": [
+                "https://github.com/fidecastro/comfyui-llamacpp-client"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive ComfyUI custom node that provides complete client functionality for llama-server from [a/llama.cpp](https://github.com/ggml-org/llama.cpp). This node acts as a bridge between ComfyUI workflows and llama-server instances, supporting every single parameter and endpoint that llama-server offers."
+        },
+        {
+            "author": "verIdyia",
+            "title": "ComfyUI Qwen-Image DFloat11 Nodes",
+            "reference": "https://github.com/verIdyia/ComfyUI-Qwen-Image-DF11",
+            "files": [
+                "https://github.com/verIdyia/ComfyUI-Qwen-Image-DF11"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for the DFloat11 compressed Qwen-Image model. This package provides efficient image generation with reduced memory usage through DFloat11 compression technology."
+        },
+        {
+            "author": "ranska",
+            "title": "Pixel Palette Art",
+            "reference": "https://github.com/ranska/pixel_palette_art",
+            "files": [
+                "https://github.com/ranska/pixel_palette_art"
+            ],
+            "install_type": "git-clone",
+            "description": "Comfyui custom node: Set of tools for pixel art palette."
+        },
+        {
+            "author": "thezveroboy",
+            "title": "comfyui-RandomPromptsZveroboy",
+            "reference": "https://github.com/thezveroboy/comfyui-RandomPromptsZveroboy",
+            "files": [
+                "https://github.com/thezveroboy/comfyui-RandomPromptsZveroboy"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node for ComfyUI that fixes an existing node [a/comfyui-dynamicprompts](https://github.com/adieyal/comfyui-dynamicprompts)."
+        },
+        {
+            "author": "PICOPON",
+            "title": "ComfyUI OpenAI Node",
+            "reference": "https://github.com/PICOPON/ComfyUI-API-OpenAI-Node",
+            "files": [
+                "https://github.com/PICOPON/ComfyUI-API-OpenAI-Node"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that integrates OpenAI-compatible APIs for prompt generation and enhancement, specifically designed for Stable Diffusion workflows."
+        },
+        {
             "author": "HM-RunningHub",
             "title": "ComfyUI Qwen-Image Node",
             "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_Qwen-Image",
@@ -618,86 +688,6 @@
             "install_type": "git-clone",
             "description": "🧩 Aspect Ratio Image Size Calculator, 🖼️ Aspect Ratio Resizer, and 📄 Markdown Link Generator for ComfyUI.",
             "tags": ["image", "resize", "aspect-ratio", "markdown", "utils"]
-        },
-        {
-            "author": "HJH-AILab",
-            "title": "ComfyUI_Facefusion",
-            "reference": "https://github.com/HJH-AILab/ComfyUI_Facefusion",
-            "files": [
-                "https://github.com/HJH-AILab/ComfyUI_Facefusion"
-            ],
-            "install_type": "git-clone",
-            "description": "a [a/Facefusion](https://github.com/facefusion/facefusion)'s wrapper for ComfyUI custom node."
-        },
-        {
-            "author": "visualbruno",
-            "title": "ComfyUI-Hunyuan3d-2-1",
-            "reference": "https://github.com/visualbruno/ComfyUI-Hunyuan3d-2-1",
-            "files": [
-                "https://github.com/visualbruno/ComfyUI-Hunyuan3d-2-1"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Wrapper for [a/Hunyuan3D v2.1](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1) - From Images to High-Fidelity 3D Assets with Production-Ready PBR Material"
-        },
-        {
-            "author": "brayevalerien",
-            "title": "ComfyUI-splitstring",
-            "reference": "https://github.com/brayevalerien/ComfyUI-SplitString",
-            "files": [
-                "https://github.com/brayevalerien/ComfyUI-SplitString"
-            ],
-            "install_type": "git-clone",
-            "description": "Very specific node for spliting a string with 12 lines into 12 individual strings.k"
-        },
-        {
-            "author": "jenn",
-            "title": "BookCoverFinder",
-            "reference": "https://github.com/weberjc/book-cover-finder-comfy",
-            "files": [
-                "https://github.com/weberjc/book-cover-finder-comfy"
-            ],
-            "install_type": "git-clone",
-            "description": "Book Cover Finder tool that wraps openlibrary.org"
-        },
-        {
-            "author": "GACLove",
-            "title": "ComfyUI-VFI",
-            "reference": "https://github.com/GACLove/ComfyUI-VFI",
-            "files": [
-                "https://github.com/GACLove/ComfyUI-VFI"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-RIFE is an inference wrapper for RIFE designed for use with ComfyUI."
-        },
-        {
-            "author": "g0kuvonlange",
-            "title": "ComfyUI Load From URL",
-            "reference": "https://github.com/g0kuvonlange/ComfyUI-Load-From-URL",
-            "files": [
-                "https://github.com/g0kuvonlange/ComfyUI-Load-From-URL"
-            ],
-            "install_type": "git-clone",
-            "description": "A simple custom node for ComfyUI to load LoRAs and videos directly from a URL. Ideal for users hosting files on a server with publicly accessible URLs."
-        },
-        {
-            "author": "concarne000",
-            "title": "ComfyUI-Stacker",
-            "reference": "https://github.com/concarne000/ComfyUI-Stacker",
-            "files": [
-                "https://github.com/concarne000/ComfyUI-Stacker"
-            ],
-            "install_type": "git-clone",
-            "description": "Simple stack push/pop style nodes for images, strings, integers and generic objects (image batches, latents, face models etc)"
-        },
-        {
-            "author": "GeraldWie",
-            "title": "ComfyUI-I2I-slim",
-            "reference": "https://github.com/GeraldWie/ComfyUI-I2I-slim",
-            "files": [
-                "https://github.com/GeraldWie/ComfyUI-I2I-slim"
-            ],
-            "install_type": "git-clone",
-            "description": "A lightweight version of the custom nodes originally developed by [a/ManglerFTW](https://github.com/ManglerFTW/ComfyI2I) for performing image-to-image tasks in ComfyUI."
         }
     ]
 }
