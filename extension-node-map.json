@@ -247,6 +247,17 @@
             "title_aux": "HYPIR ComfyUI Plugin"
         }
     ],
+    "https://github.com/11dogzi/Comfyui-Qwen-Image": [
+        [
+            "QwenImageAspectRatio",
+            "QwenImageGenerator",
+            "QwenImageLoader",
+            "QwenImagePromptEnhancer"
+        ],
+        {
+            "title_aux": "Qwen-Image ComfyUI"
+        }
+    ],
     "https://github.com/11dogzi/Comfyui-ergouzi-Nodes": [
         [
             "EG-YSZT-ZT",
@@ -2988,6 +2999,14 @@
         ],
         {
             "title_aux": "ComfyUI-KyutaiTTS"
+        }
+    ],
+    "https://github.com/BobRandomNumber/ComfyUI-TLBVFI": [
+        [
+            "TLBVFI_VFI"
+        ],
+        {
+            "title_aux": "ComfyUI-TLBVFI"
         }
     ],
     "https://github.com/BobsBlazed/Bobs-Lora-Loader": [
@@ -6132,6 +6151,16 @@
         ],
         {
             "title_aux": "ComfyUI_RH_OminiControl"
+        }
+    ],
+    "https://github.com/HM-RunningHub/ComfyUI_RH_Qwen-Image": [
+        [
+            "QwenImageModelLoader",
+            "RH_QwenImageGenerator",
+            "RH_QwenImagePromptEnhancer"
+        ],
+        {
+            "title_aux": "ComfyUI Qwen-Image Node"
         }
     ],
     "https://github.com/HM-RunningHub/ComfyUI_RH_SeedXPro": [
@@ -10281,6 +10310,8 @@
     ],
     "https://github.com/ProGamerGov/ComfyUI_pytorch360convert": [
         [
+            "Apply Circular Padding Model",
+            "Apply Circular Padding VAE",
             "Crop 360 to 180 Equirectangular",
             "Crop Image with Coords",
             "Crop Stereo to Monoscopic",
@@ -13943,6 +13974,7 @@
             "VrchAnyOSCControlNode",
             "VrchAudioChannelLoaderNode",
             "VrchAudioConcatNode",
+            "VrchAudioFrequencyBandAnalyzerNode",
             "VrchAudioGenresNode",
             "VrchAudioMusic2EmotionNode",
             "VrchAudioRecorderNode",
@@ -13977,6 +14009,8 @@
             "VrchJsonUrlLoaderNode",
             "VrchJsonWebSocketChannelLoaderNode",
             "VrchJsonWebSocketSenderNode",
+            "VrchLatentWebSocketChannelLoaderNode",
+            "VrchLatentWebSocketSenderNode",
             "VrchMicLoaderNode",
             "VrchMidiDeviceLoaderNode",
             "VrchModelWebViewerNode",
@@ -33968,6 +34002,7 @@
             "SmartControlNetApply",
             "SmartPreprocessor",
             "SmartStyleModelApplyDual",
+            "Strength To Steps",
             "Toggle Lora Unet Blocks L1",
             "Toggle Lora Unet Blocks L2",
             "Video Duration Calculator",
@@ -38379,6 +38414,18 @@
         ],
         {
             "title_aux": "SunxAI Custom Nodes for ComfyUI"
+        }
+    ],
+    "https://github.com/upseem/comfyui_sunxAI_facetools": [
+        [
+            "CropFaces",
+            "DetectFaces",
+            "Example",
+            "SelectFloatByBool",
+            "WarpFacesBack"
+        ],
+        {
+            "title_aux": "ComfyUI Gemini Nodes"
         }
     ],
     "https://github.com/usrname0/comfyui-holdup": [

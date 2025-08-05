@@ -9461,7 +9461,7 @@
                 "https://github.com/zhangp365/ComfyUI-utils-nodes"
             ],
             "install_type": "git-clone",
-            "description": "Nodes:LoadImageWithSwitch, ImageBatchOneOrMore, ModifyTextGender, GenderControlOutput, ImageCompositeMaskedWithSwitch, ImageCompositeMaskedOneByOne, ColorCorrectOfUtils, SplitMask, MaskFastGrow, CheckpointLoaderSimpleWithSwitch, ImageResizeTo8x, MatchImageRatioToPreset, UpscaleImageWithModelIfNeed, MaskFromFaceModel, MaskCoverFourCorners, DetectorForNSFW, DeepfaceAnalyzeFaceAttributes etc."
+            "description": "Nodes:LoadImageWithSwitch, ImageBatchOneOrMore, ModifyTextGender, GenderControlOutput, ImageCompositeMaskedWithSwitch, ImageCompositeMaskedOneByOne, ColorCorrectOfUtils, SplitMask, MaskFastGrow, CheckpointLoaderSimpleWithSwitch, ImageResizeTo8x, MatchImageRatioToPreset, MaskFromFaceModel, MaskCoverFourCorners, DetectorForNSFW, DeepfaceAnalyzeFaceAttributes, VolcanoOutpainting, VolcanoImageEdit, etc."
         },
         {
             "author": "zhangp365",
@@ -20585,6 +20585,16 @@
             "description": "This is a ComfyUI custom node implementation for image editing using the Step-1 model architecture, specifically adapted for reference-based image editing guided by text prompts."
         },
         {
+            "author": "HM-RunningHub",
+            "title": "ComfyUI Qwen-Image Node",
+            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_Qwen-Image",
+            "files": [
+                "https://github.com/HM-RunningHub/ComfyUI_RH_Qwen-Image"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that integrates Alibaba's Qwen-Image model for high-quality image generation with exceptional text rendering capabilities."
+        },
+        {
             "author": "sebord",
             "title": "ComfyUI-LMCQ",
             "reference": "https://github.com/sebord/ComfyUI-LMCQ",
@@ -29140,6 +29150,16 @@
           ],
           "install_type": "git-clone",
           "description": "A set of custom nodes developed by SunxAI for ComfyUI, including image loop processing and more. "
+        },
+        {
+            "author": "sunx.ai",
+            "title": "ComfyUI Gemini Nodes",
+            "reference": "https://github.com/upseem/comfyui_sunxAI_facetools",
+            "files": [
+                "https://github.com/upseem/comfyui_sunxAI_facetools"
+            ],
+            "install_type": "git-clone",
+            "description": "Face detection & restoration tools for ComfyUI by Sunx.ai"
         },
         {
             "author": "set-soft",
