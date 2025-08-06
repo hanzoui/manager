@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "switzerswish",
+            "title": "LoRA Visualizer",
+            "reference": "https://github.com/oliverswitzer/ComfyUI-Lora-Visualizer",
+            "files": [
+                "https://github.com/oliverswitzer/ComfyUI-Lora-Visualizer"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that parses prompt text for LoRA tags and visualizes their metadata, including trigger words, strength values, thumbnail previews, and example images."
+        },
+        {
+            "author": "HWDigi",
+            "title": "Factory Prompt Generator",
+            "reference": "https://github.com/HWDigi/Factory-Prompts_comfyui",
+            "files": [
+                "https://github.com/HWDigi/Factory-Prompts_comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive ComfyUI custom node suite for advanced Safe for Work prompt generation across all checkpoint types (Pony, SDXL, SD1.5, and more). This SFW edition is specifically designed for professional workflows, educational environments, and GitHub hosting compliance."
+        },
+        {
+            "author": "BitWalker",
+            "title": "FlowCV",
+            "reference": "https://github.com/Koren-cy/FlowCV",
+            "files": [
+                "https://github.com/Koren-cy/FlowCV"
+            ],
+            "install_type": "git-clone",
+            "description": "Visual opencv node package based on comfy ui"
+        },
+        {
+            "author": "fblissjr",
+            "title": "ComfyUI-QwenImageWanBridge",
+            "reference": "https://github.com/fblissjr/ComfyUI-QwenImageWanBridge",
+            "files": [
+                "https://github.com/fblissjr/ComfyUI-QwenImageWanBridge"
+             ],
+             "install_type": "git-clone",
+             "description": "Custom nodes for bridging Qwen-Image and WAN video models in ComfyUI."
+        },
+        {
             "author": "jtydhr88",
             "title": "ComfyUI-OpenCut",
             "reference": "https://github.com/jtydhr88/ComfyUI-OpenCut",

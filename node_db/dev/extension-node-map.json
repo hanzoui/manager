@@ -899,7 +899,6 @@
     ],
     "https://github.com/Baverne/comfyUI-TiledWan": [
         [
-            "TileAndStitchBack",
             "TiledWanImageStatistics",
             "TiledWanImageToMask",
             "TiledWanInpaintCropImproved",
@@ -1736,6 +1735,18 @@
             "title_aux": "GH Tools for ComfyUI"
         }
     ],
+    "https://github.com/HWDigi/Camera_Factory_Station_comfyui": [
+        [
+            "FactoryCameraOperator",
+            "FactoryColorHarmonist",
+            "FactoryLightingStudio",
+            "FactoryProductPhotographer",
+            "FactorySizeOptimizer"
+        ],
+        {
+            "title_aux": "Camera Factory Station [WIP]"
+        }
+    ],
     "https://github.com/Hapseleg/ComfyUI-This-n-That": [
         [
             "Show Prompt (Hapse)",
@@ -1931,6 +1942,19 @@
         ],
         {
             "title_aux": "Python_Executor [UNSAFE]"
+        }
+    ],
+    "https://github.com/KY-2000/comfyui-ksampler-tester-loop": [
+        [
+            "AllParametersLoop",
+            "FloatRangeLoop",
+            "ParametersRangeLoop",
+            "SamplerLoop",
+            "SamplerSchedulerLoop",
+            "SchedulerLoop"
+        ],
+        {
+            "title_aux": "ComfyUI-Sampler-Scheduler-Loop"
         }
     ],
     "https://github.com/Karniverse/ComfyUI-Randomselector": [
@@ -4465,13 +4489,14 @@
     ],
     "https://github.com/brandonkish/comfyUI-extractable-text": [
         [
-            "Get Larger Of Two Numbers",
-            "Get Smaller Of Two Numbers",
             "LoRA Name Generator",
             "LoRA Testing Node",
-            "Load Image With Description",
-            "Save Image To Folder",
-            "Save Image With Description"
+            "Load Image Easy",
+            "Save Image Easy",
+            "Save\\Overwrite Image",
+            "Save\\Overwrite Text File",
+            "Saveverwrite Image",
+            "Saveverwrite Text File"
         ],
         {
             "title_aux": "comfyUI-extractable-text [WIP]"
@@ -4926,6 +4951,7 @@
             "ModelMergeFlux1",
             "ModelMergeLTXV",
             "ModelMergeMochiPreview",
+            "ModelMergeQwenImage",
             "ModelMergeSD1",
             "ModelMergeSD2",
             "ModelMergeSD35_Large",
@@ -8992,6 +9018,22 @@
             "title_aux": "Sprited ComfyUI Nodes [WIP]"
         }
     ],
+    "https://github.com/sschleis/sschl-comfyui-notes": [
+        [
+            "AddNumbers",
+            "Character",
+            "CombineStrings",
+            "Connector",
+            "FloatToStr",
+            "InputText",
+            "SSchlTextEncoder",
+            "ShowText",
+            "TextAppender"
+        ],
+        {
+            "title_aux": "sschl-comfyui-notes"
+        }
+    ],
     "https://github.com/sswink/comfyui-lingshang": [
         [
             "LS_ALY_Seg_Body_Utils",
@@ -9696,6 +9738,14 @@
             "title_aux": "ComfyUI_PromptLogoCleaner"
         }
     ],
+    "https://github.com/xgfone/ComfyUI_RasterCardMaker": [
+        [
+            "RasterCardMaker"
+        ],
+        {
+            "title_aux": "ComfyUI_RasterCardMaker"
+        }
+    ],
     "https://github.com/xiaoyumu/ComfyUI-XYNodes": [
         [
             "AdjustImageColor",
@@ -9854,6 +9904,7 @@
             "FixUTF8StringNode",
             "FloatNode",
             "ImageResizeNode",
+            "ImageSizeNode",
             "ImageToBase64Node",
             "ImageToVideoNode",
             "IntNode",

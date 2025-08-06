@@ -669,6 +669,7 @@
             "Load_Image_From_Path",
             "Mask_Detection",
             "PrimitiveNode",
+            "QwenImage_ratio",
             "Random_Select_Prompt",
             "Robust_Imager_Merge",
             "Run_BEN_v2",
@@ -722,6 +723,7 @@
             "mask_crop_square",
             "mask_line_mapping",
             "mask_select_mask",
+            "ratio_selector",
             "run_yolo_bboxs",
             "run_yolo_bboxs_v2",
             "sort_images_batch"
@@ -4640,6 +4642,7 @@
             "FluxKontextTrue3DPE",
             "FluxTextLoraLoader",
             "HfCheckpointLoader",
+            "HfClipLoader",
             "HfDiffusionModelLoader",
             "HfDualClipLoader",
             "HfLoraLoader",
@@ -6187,6 +6190,17 @@
             "title_aux": "Random Number Button"
         }
     ],
+    "https://github.com/HWDigi/Factory-Prompts_comfyui": [
+        [
+            "FactoryPromptsNegative",
+            "FactoryPromptsNegativeCategorized",
+            "FactoryPromptsNegativeToggle",
+            "FactoryPromptsPositive"
+        ],
+        {
+            "title_aux": "Factory Prompt Generator"
+        }
+    ],
     "https://github.com/Haiper-ai/ComfyUI-HaiperAI-API": [
         [
             "HaiperImage2Video",
@@ -7531,6 +7545,14 @@
         ],
         {
             "title_aux": "ComfyUI Universal Styler"
+        }
+    ],
+    "https://github.com/Koren-cy/FlowCV": [
+        [
+            "Example"
+        ],
+        {
+            "title_aux": "FlowCV"
         }
     ],
     "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet": [
@@ -16351,6 +16373,7 @@
             "BlenderInputString",
             "BlenderInputStringMultiline",
             "BlenderOutputDownload3D",
+            "BlenderOutputSaveGlb",
             "BlenderOutputSaveImage"
         ],
         {
@@ -18554,6 +18577,7 @@
             "Stack_condi",
             "Stack_latent",
             "Stack_pre_Mark",
+            "Stack_sample_data",
             "Stack_text",
             "basicIn_Sampler",
             "basicIn_Scheduler",
@@ -18609,13 +18633,11 @@
             "creat_mask_batch",
             "creat_mask_batch_input",
             "create_AD_mask",
-            "create_Mask_Rectangles",
-            "create_Mask_lay_X",
-            "create_Mask_lay_Y",
             "create_Mask_match_shape",
             "create_Mask_visual_tag",
             "create_RadialGradient",
             "create_lineGradient",
+            "create_mask_array",
             "create_mask_solo",
             "create_mulcolor_img",
             "excel_Prompter",
@@ -18693,7 +18715,6 @@
             "sum_stack_Wan",
             "sum_stack_all",
             "sum_stack_image",
-            "text_CSV_load",
             "text_SuperPrompter",
             "text_free_wildcards",
             "text_mul_Join",
@@ -19396,22 +19417,6 @@
         ],
         {
             "title_aux": "ComfyUI BFL API Pro Nodes"
-        }
-    ],
-    "https://github.com/chaunceyyann/comfyui-image-processing-nodes": [
-        [
-            "CharacterLoaderNode",
-            "ImagePreviewCompare",
-            "ImageSizeProcessor",
-            "LoraAndTextCombiner",
-            "RandomPersonPhoto",
-            "ToggleLoraStackNode",
-            "ToggleTextNode",
-            "VideoThumbnailExtractor",
-            "YouTubeThumbnailExtractor"
-        ],
-        {
-            "title_aux": "ComfyUI Image Processing Nodes"
         }
     ],
     "https://github.com/checkbins/checkbin-comfy": [
@@ -20746,6 +20751,7 @@
             "ModelMergeFlux1",
             "ModelMergeLTXV",
             "ModelMergeMochiPreview",
+            "ModelMergeQwenImage",
             "ModelMergeSD1",
             "ModelMergeSD2",
             "ModelMergeSD35_Large",
@@ -22342,6 +22348,7 @@
     ],
     "https://github.com/doubletwisted/ComfyUI-Deadline-Plugin": [
         [
+            "DeadlineSeed",
             "DeadlineSubmit"
         ],
         {
@@ -23025,6 +23032,21 @@
         ],
         {
             "title_aux": "ComfyUI-EmbeddingPipelineAnalytics"
+        }
+    ],
+    "https://github.com/fblissjr/ComfyUI-QwenImageWanBridge": [
+        [
+            "LatentAnalyzer",
+            "LatentMixer",
+            "LatentPCA",
+            "LatentWalk",
+            "QwenWANBridge",
+            "SemanticDirectionFinder",
+            "StyleContentSeparator",
+            "VAEDiagnosticNode"
+        ],
+        {
+            "title_aux": "ComfyUI-QwenImageWanBridge"
         }
     ],
     "https://github.com/fblissjr/ComfyUI-WanActivationEditor": [
@@ -28300,6 +28322,7 @@
             "DiTBlockLoraLoader",
             "DifferentialDiffusionAdvanced",
             "DiffusionModelLoaderKJ",
+            "DiffusionModelSelector",
             "DownloadAndLoadCLIPSeg",
             "DrawInstanceDiffusionTracking",
             "DummyOut",
@@ -28667,6 +28690,7 @@
             "WanVideoImageResizeToClosest",
             "WanVideoImageToVideoEncode",
             "WanVideoImageToVideoMultiTalk",
+            "WanVideoLatentReScale",
             "WanVideoLoopArgs",
             "WanVideoLoraBlockEdit",
             "WanVideoLoraSelect",
@@ -28852,6 +28876,7 @@
     "https://github.com/kmlbdh/ComfyUI_LocalLLMNodes": [
         [
             "AddUserLocalKontextPreset",
+            "ArabicProductDescriptionGenerator",
             "LocalKontextPromptGenerator",
             "RemoveUserLocalKontextPreset",
             "SetLocalLLMServiceConnector"
@@ -29085,6 +29110,7 @@
             "Leon_Flux_Image_API_Node",
             "Leon_Flux_Kontext_API_Node",
             "Leon_GPT_Image_API_Node",
+            "Leon_GPT_OSS_API_Node",
             "Leon_Google_Image_API_Node",
             "Leon_Hypr_Upload_Node",
             "Leon_Ideogram_Image_API_Node",
@@ -29097,6 +29123,7 @@
             "Leon_Midjourney_Proxy_API_Node",
             "Leon_Midjourney_Upload_API_Node",
             "Leon_Model_Selector_Node",
+            "Leon_Qwen_Image_API_Node",
             "Leon_Recraft_Image_API_Node",
             "Leon_StableDiffusion_35_API_Node",
             "Leon_StableDiffusion_3_Ultra_API_Node",
@@ -33258,6 +33285,14 @@
             "title_aux": "ComfyUI-Counter"
         }
     ],
+    "https://github.com/oliverswitzer/ComfyUI-Lora-Visualizer": [
+        [
+            "LoRAVisualizer"
+        ],
+        {
+            "title_aux": "LoRA Visualizer"
+        }
+    ],
     "https://github.com/olivv-cs/ComfyUI-FunPack": [
         [
             "FunPackCLIPLoader",
@@ -34573,6 +34608,7 @@
     "https://github.com/ranska/pixel_palette_art": [
         [
             "GimpPaletteLoader",
+            "PaletteFormatter",
             "PixelPaletteExtractor"
         ],
         {

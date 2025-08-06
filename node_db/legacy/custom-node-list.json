@@ -1,6 +1,27 @@
 {
     "custom_nodes": [
         {
+            "author": "chaunceyyann",
+            "title": "ComfyUI Image Processing Nodes [REMOVED]",
+            "reference": "https://github.com/chaunceyyann/comfyui-image-processing-nodes",
+            "files": [
+                "https://github.com/chaunceyyann/comfyui-image-processing-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI focused on image processing operations."
+        },
+        {
+            "author": "OgreLemonSoup",
+            "title": "Gallery&Tabs [DEPRECATED]",
+            "id": "LoadImageGallery",
+            "reference": "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery",
+            "files": [
+                "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery"
+            ],
+            "install_type": "git-clone",
+            "description": "Adds a gallery to the Load Image node and tabs for Load Checkpoint/Lora/etc nodes"
+        },
+        {
             "author": "11dogzi",
             "title": "Qwen-Image ComfyUI [REMOVED]",
             "reference": "https://github.com/11dogzi/Comfyui-Qwen-Image",
