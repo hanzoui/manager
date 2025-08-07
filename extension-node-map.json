@@ -3194,6 +3194,14 @@
             "title_aux": "ComfyUI-Gemini-API"
         }
     ],
+    "https://github.com/CY-CHENYUE/ComfyUI-ImageCompositionCy.git": [
+        [
+            "ImageCompositor"
+        ],
+        {
+            "title_aux": "ComfyUI-ImageCompositionCy"
+        }
+    ],
     "https://github.com/CY-CHENYUE/ComfyUI-InpaintEasy": [
         [
             "CropByMask",
@@ -3757,6 +3765,7 @@
             "DisplayAny",
             "DisplayText",
             "EmptyLatentBatch",
+            "FluxSamplerParams",
             "GeminiPrompt",
             "GlifConsistencyDecoder",
             "GlifPatchConsistencyDecoderTiled",
@@ -3766,11 +3775,16 @@
             "ImageScaleDownBy",
             "ImageToMultipleOf",
             "KikoSaveImage",
+            "LoRAFolderBatch",
+            "PlotParameters+",
             "ResolutionCalculator",
             "SDXLAspectRatio",
             "SamplerCombo",
             "SamplerComboCompact",
+            "SamplerSelectHelper",
+            "SchedulerSelectHelper",
             "SeedHistory",
+            "TextEncodeSamplerParams",
             "WidthHeightSelector"
         ],
         {
@@ -6865,6 +6879,17 @@
             "title_aux": "ComfyUI_MiniCPM-V-2_6-int4"
         }
     ],
+    "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-4": [
+        [
+            "DisplayText",
+            "MiniCPM_VQA",
+            "MiniCPM_VQA_Polished",
+            "MultipleImagesInput"
+        ],
+        {
+            "title_aux": "ComfyUI_MiniCPM-V-2_6-int4"
+        }
+    ],
     "https://github.com/IuvenisSapiens/ComfyUI_Qwen2-Audio-7B-Instruct-Int4": [
         [
             "AudioLoader",
@@ -6875,7 +6900,7 @@
             "title_aux": "ComfyUI_Qwen2-Audio-7B-Instruct-Int4"
         }
     ],
-    "https://github.com/IuvenisSapiens/ComfyUI_Qwen2-VL-Instruct": [
+    "https://github.com/IuvenisSapiens/ComfyUI_Qwen2_5-VL-Instruct": [
         [
             "ImageLoader",
             "MultiplePathsInput",
@@ -8818,6 +8843,7 @@
             "\ud83c\udff7\ufe0f LoRA Loader Prompt Tags",
             "\ud83d\udcbe Save Text File With Path",
             "\ud83d\udcc1 Get File Path",
+            "\ud83d\udcc5 Format Date Time",
             "\ud83d\udcd0 Resolution Image Size Selector",
             "\ud83d\udcdd Wildcard Processor",
             "\ud83d\udd20 Tiktoken Tokenizer Info",
@@ -20509,6 +20535,7 @@
             "GenerateSpeech",
             "GenerateVideo",
             "GroqProviderNode",
+            "ImageComparer",
             "JoinStringsMulti",
             "LLMToolkitProviderSelector",
             "LLMToolkitTextGenerator",
@@ -23125,7 +23152,9 @@
             "LoopAwareVLMAccumulator",
             "LoopSafeAccumulator",
             "PromptTemplateLoader",
+            "RemoteTextEncoder",
             "RobustImageRangeExtractor",
+            "SeedPromptGenerator",
             "ShrugPrompter",
             "SmartImageRangeExtractor",
             "TextCleanup",
@@ -23344,6 +23373,7 @@
             "FL_Dither",
             "FL_Fal_Kontext",
             "FL_Fal_Pixverse",
+            "FL_Fal_Seedance_i2v",
             "FL_Float",
             "FL_FractalKSampler",
             "FL_GPT_Image1",
@@ -23462,6 +23492,7 @@
             "FL_VideoRecompose",
             "FL_VideoTrim",
             "FL_WF_Agent",
+            "FL_WanFirstLastFrameToVideo",
             "FL_ZipDirectory",
             "FL_ZipSave",
             "GradientImageGenerator",
@@ -23896,6 +23927,16 @@
         ],
         {
             "title_aux": "comfyui-mosaic-blur"
+        }
+    ],
+    "https://github.com/fwack/ComfyUI_API_Manager_Pro": [
+        [
+            "APIRequestNode",
+            "PostImageToAPI",
+            "TextPromptCombinerNode"
+        ],
+        {
+            "title_aux": "ComfyUI_API_Manager"
         }
     ],
     "https://github.com/g0kuvonlange/ComfyUI-Load-From-URL": [
@@ -31136,11 +31177,10 @@
     ],
     "https://github.com/lum3on/ComfyUI-FrameUtilitys": [
         [
-            "FrameClipper",
             "FrameExtender",
             "FrameExtenderAdvanced",
-            "FrameRepeater",
-            "FrameReplacer"
+            "FrameReplacer",
+            "GitInstaller"
         ],
         {
             "title_aux": "ComfyUI-FrameUtilitys"
