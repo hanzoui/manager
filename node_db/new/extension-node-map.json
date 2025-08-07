@@ -6879,7 +6879,8 @@
         [
             "ImageLoader",
             "MultiplePathsInput",
-            "Qwen2_VQA"
+            "Qwen2_VQA",
+            "VideoLoader"
         ],
         {
             "title_aux": "ComfyUI_Qwen2-VL-Instruct"
@@ -21591,6 +21592,8 @@
             "D2 Regex Switcher",
             "D2 Resize Calculator",
             "D2 Save Image",
+            "D2 Save Image Eagle",
+            "D2 Send File Eagle",
             "D2 Size Slector",
             "D2 Token Counter",
             "D2 XY Annotation",
@@ -34053,7 +34056,9 @@
     ],
     "https://github.com/plugcrypt/CRT-Nodes": [
         [
+            "AdvancedBloomFX",
             "AdvancedStringReplace",
+            "ArcaneBloomFX",
             "AudioCompressor",
             "AudioPreviewer",
             "AutopromptProcessor",
@@ -34068,12 +34073,17 @@
             "CRTPctCropCalculator",
             "CRTPostProcess",
             "CRT_UpscaleModelAdv",
+            "ClarityFX",
             "ClearStyleModelDualCache",
+            "ColorIsolationFX",
+            "ColourfulnessFX",
+            "ContourFX",
             "EnableLatent",
             "FaceEnhancementPipeline",
             "FaceEnhancementPipelineWithInjection",
             "FancyNoteNode",
             "FileLoaderCrawl",
+            "FilmGrainFX",
             "FluxAIO_CRT",
             "FluxControlnetSampler",
             "FluxControlnetSamplerWithInjection",
@@ -34082,6 +34092,8 @@
             "FluxTiledSamplerCustomAdvanced",
             "ImageLoaderCrawl",
             "LatentNoiseInjectionSampler",
+            "LensDistortFX",
+            "LensFX",
             "LoadImageResize",
             "LoadLastLatent",
             "LoadVideoForVCaptioning",
@@ -34103,9 +34115,11 @@
             "SimpleKnobNode",
             "SimpleToggleNode",
             "SmartControlNetApply",
+            "SmartDeNoiseFX",
             "SmartPreprocessor",
             "SmartStyleModelApplyDual",
             "Strength To Steps",
+            "Technicolor2FX",
             "Toggle Lora Unet Blocks L1",
             "Toggle Lora Unet Blocks L2",
             "Video Duration Calculator",

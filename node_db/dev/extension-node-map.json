@@ -707,10 +707,12 @@
         [
             "LinkSuppressor",
             "SequentialTextReaderAuto",
+            "TUZZI-AppendToMasterVideo",
             "TUZZI-Bypasser",
             "TUZZI-DataloungeScraper",
             "TUZZI-DirectoryImagePromptReader",
-            "TUZZI-GeminiFlash25",
+            "TUZZI-ElevenLabsTTS",
+            "TUZZI-GeminiNode",
             "TUZZI-GroqNode",
             "TUZZI-ImageAudioToVideo",
             "TUZZI-ImageExtractorSaver",
@@ -4487,14 +4489,15 @@
     ],
     "https://github.com/brandonkish/comfyUI-extractable-text": [
         [
-            "LoRA Name Generator",
             "LoRA Testing Node",
             "Load Image Easy",
+            "Ollama Connectivity Data",
             "Save Image Easy",
             "Save\\Overwrite Image",
             "Save\\Overwrite Text File",
             "Saveverwrite Image",
-            "Saveverwrite Text File"
+            "Saveverwrite Text File",
+            "Single LoRA Test Node"
         ],
         {
             "title_aux": "comfyUI-extractable-text [WIP]"
@@ -10163,6 +10166,8 @@
     ],
     "https://github.com/zhuanvi/ComfyUI-ZVNodes": [
         [
+            "DesaturateNodeZV",
+            "GrayToDisplacementMapNodeZV",
             "ImageCounterNodeZV",
             "JoinListZV",
             "JsonListIndexerZV",
@@ -10173,6 +10178,8 @@
             "JsonReaderZV",
             "LoadImageFromDirZV",
             "LoadTxtFromDirZV",
+            "PatternFillNodeZV",
+            "ProductionDisplacementMapNodeZV",
             "RandomSelectListZV",
             "SaveImageToPathZV",
             "SaveTxtToPathZV",

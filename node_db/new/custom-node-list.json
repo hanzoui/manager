@@ -1,6 +1,27 @@
 {
     "custom_nodes": [
         {
+            "author": "CY-CHENYUE",
+            "title": "ComfyUI-ImageCompositionCy",
+            "id": "ComfyUI-ImageCompositionCy",
+            "reference": "https://github.com/CY-CHENYUE/ComfyUI-ImageCompositionCy",
+            "files": [
+               "https://github.com/CY-CHENYUE/ComfyUI-ImageCompositionCy.git"
+            ],
+            "description": "A powerful ComfyUI multi-image composition node that supports real-time adjustment of image position, size, and rotation angle on an interactive Canvas, with freehand drawing capabilities and real-time preview of composition effects.",
+            "install_type": "git-clone"
+        },
+        {
+            "author": "fwack",
+            "title": "ComfyUI_API_Manager",
+            "reference": "https://github.com/fwack/ComfyUI_API_Manager_Pro",
+            "files": [
+                "https://github.com/fwack/ComfyUI_API_Manager_Pro"
+            ],
+            "install_type": "git-clone",
+            "description": "This package provides three custom nodes designed to streamline workflows involving API requests, dynamic text manipulation based on API responses, and image posting to APIs. These nodes are particularly useful for automating interactions with APIs, enhancing text-based workflows with dynamic data, and facilitating image uploads."
+        },
+        {
             "author": "diogod",
             "title": "TTS Audio Suite",
             "reference": "https://github.com/diodiogod/TTS-Audio-Suite",
