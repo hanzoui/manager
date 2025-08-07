@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "diogod",
+            "title": "TTS Audio Suite",
+            "reference": "https://github.com/diodiogod/TTS-Audio-Suite",
+            "files": [
+                "https://github.com/diodiogod/TTS-Audio-Suite"
+            ],
+            "install_type": "git-clone",
+            "description": "TTS Audio Suite - Universal multi-engine TTS extension for ComfyUI with unified architecture supporting ChatterBox, F5-TTS, and future engines like RVC. Features modular engine adapters, character voice management, comprehensive SRT subtitle support, and advanced audio processing capabilities."
+        },
+        {
             "author": "switzerswish",
             "title": "LoRA Visualizer",
             "reference": "https://github.com/oliverswitzer/ComfyUI-Lora-Visualizer",
@@ -686,58 +696,6 @@
             ],
             "install_type": "git-clone",
             "description": "A comprehensive ComfyUI wrapper for HiggsAudio v2, enabling high-quality text-to-speech generation with advanced voice cloning capabilities. Supports multiple voice presets and custom reference audio for voice cloning. Requires transformers==4.45.2 for compatibility."
-        },
-        {
-            "author": "RndNanthu",
-            "title": "ComfyUI-RndNanthu",
-            "id": "ComfyUI-RndNanthu",
-            "reference": "https://github.com/rndnanthu/ComfyUI-RndNanthu",
-            "files": [
-                "https://github.com/rndnanthu/ComfyUI-RndNanthu"
-            ],
-            "install_type": "git-clone",
-            "description": "Film Grain simulation, Log Color Conversions, Color Scopes (RGB Parade, Vectorscope, Gamut Warnings), False Color, and more."
-        },
-        {
-            "author": "keit",
-            "title": "ComfyUI-musubi-tuner",
-            "reference": "https://github.com/keit0728/ComfyUI-musubi-tuner",
-            "files": [
-                "https://github.com/keit0728/ComfyUI-musubi-tuner"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a custom node that allows you to run musubi-tuner from ComfyUI."
-        },
-        {
-            "author": "guill",
-            "title": "ComfyUI Droopy Noodles",
-            "reference": "https://github.com/guill/comfyui-droopy-noodles",
-            "files": [
-                "https://github.com/guill/comfyui-droopy-noodles"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI extension that makes your node connections delightfully droopy. (Disclaimer: despite what it may look like, this extension will not make your monitor taste like spaghetti.)"
-        },
-        {
-            "author": "AIWarper",
-            "title": "ComfyUI-DAViD",
-            "reference": "https://github.com/AIWarper/ComfyUI-DAViD",
-            "files": [
-                "https://github.com/AIWarper/ComfyUI-DAViD"
-            ],
-            "install_type": "git-clone",
-            "description": "An implementation of the DAViD tooling, a method for extracting depth, normals, and masks from an input image."
-        },
-        {
-            "author": "ComfyUI Studio",
-            "title": "ComfyUI-Studio-nodes",
-            "reference": "https://github.com/comfyuistudio/ComfyUI-Studio-nodes",
-            "files": [
-                "https://github.com/comfyuistudio/ComfyUI-Studio-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "🧩 Aspect Ratio Image Size Calculator, 🖼️ Aspect Ratio Resizer, and 📄 Markdown Link Generator for ComfyUI.",
-            "tags": ["image", "resize", "aspect-ratio", "markdown", "utils"]
         }
     ]
 }

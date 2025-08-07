@@ -1819,11 +1819,9 @@
     "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-2_6-int4": [
         [
             "DisplayText",
-            "LoadVideo",
             "MiniCPM_VQA",
             "MiniCPM_VQA_Polished",
-            "MultipleImagesInput",
-            "PreviewVideo"
+            "MultipleImagesInput"
         ],
         {
             "title_aux": "ComfyUI_MiniCPM-V-2_6-int4"
@@ -6368,6 +6366,14 @@
         ],
         {
             "title_aux": "ComfyUI XOR Pickle Nodes"
+        }
+    ],
+    "https://github.com/idoru/ComfyUI-SKCFI-NetworkFileIO": [
+        [
+            "FilestashUploadNode"
+        ],
+        {
+            "title_aux": "Filestash Upload Node [UNSAFE]"
         }
     ],
     "https://github.com/if-ai/ComfyUI-IF_Zonos": [

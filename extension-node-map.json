@@ -6857,11 +6857,9 @@
     "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-2_6-int4": [
         [
             "DisplayText",
-            "LoadVideo",
             "MiniCPM_VQA",
             "MiniCPM_VQA_Polished",
-            "MultipleImagesInput",
-            "PreviewVideo"
+            "MultipleImagesInput"
         ],
         {
             "title_aux": "ComfyUI_MiniCPM-V-2_6-int4"
@@ -9190,6 +9188,9 @@
     "https://github.com/MilitantHitchhiker/MilitantHitchhiker-SwitchbladePack": [
         [
             "FluxModelSave_v2",
+            "FluxQuantNode",
+            "GODARCScheduler",
+            "GroqAPIPromptEnhancer",
             "IntegratedRandomPromptGenerator",
             "ModelAnalyserNode",
             "TextAppender_v2"
@@ -15981,6 +15982,7 @@
             "Comfly_mj_video",
             "Comfly_mj_video_extend",
             "Comfly_mjstyle",
+            "Comfly_qwen_image",
             "Comfly_upload",
             "Comfly_video_extend"
         ],
@@ -16621,6 +16623,7 @@
             "Sage_CheckpointLoaderRecent",
             "Sage_CheckpointLoaderSimple",
             "Sage_CheckpointSelector",
+            "Sage_ChromaCLIPLoaderFromInfo",
             "Sage_CleanText",
             "Sage_CollectKeywordsFromLoraStack",
             "Sage_ConditioningZeroOut",
@@ -16636,6 +16639,7 @@
             "Sage_DualCLIPTextEncodeLumina2",
             "Sage_EmptyLatentImagePassthrough",
             "Sage_FreeMemory",
+            "Sage_FreeU2",
             "Sage_GetFileHash",
             "Sage_GuessResolutionByRatio",
             "Sage_Halt",
@@ -16662,6 +16666,7 @@
             "Sage_ModelInfoDisplay",
             "Sage_ModelLoraStackLoader",
             "Sage_ModelReport",
+            "Sage_ModelShiftOnly",
             "Sage_ModelShifts",
             "Sage_MultiModelPicker",
             "Sage_OllamaLLMPromptText",
@@ -16691,6 +16696,7 @@
             "Sage_TripleJoinText",
             "Sage_TripleLoraStack",
             "Sage_TripleQuickLoraStack",
+            "Sage_UNETLoRALoader",
             "Sage_UNETLoader",
             "Sage_UNETLoaderFromInfo",
             "Sage_UNETSelector",
@@ -22154,6 +22160,22 @@
         ],
         {
             "title_aux": "ComfyUI PixelArt Detector"
+        }
+    ],
+    "https://github.com/diodiogod/TTS-Audio-Suite": [
+        [
+            "AudioAnalyzerNode",
+            "AudioAnalyzerOptionsNode",
+            "CharacterVoicesNode",
+            "ChatterBoxEngineNode",
+            "ChatterBoxF5TTSEditOptions",
+            "F5TTSEngineNode",
+            "UnifiedTTSSRTNode",
+            "UnifiedTTSTextNode",
+            "UnifiedVoiceChangerNode"
+        ],
+        {
+            "title_aux": "TTS Audio Suite"
         }
     ],
     "https://github.com/diontimmer/ComfyUI-Vextra-Nodes": [
@@ -31417,7 +31439,8 @@
     ],
     "https://github.com/marklieberman/ComfyUI-Liebs-Picker": [
         [
-            "LiebsPicker"
+            "LiebsPicker",
+            "LiebsPickerSEGS"
         ],
         {
             "title_aux": "ComfyUI-Liebs-Picker"
