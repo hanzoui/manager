@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "jtydhr88",
+            "title": "ComfyUI-StableStudio [WIP]",
+            "reference": "https://github.com/jtydhr88/ComfyUI-StableStudio",
+            "files": [
+                "https://github.com/jtydhr88/ComfyUI-StableStudio"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a ComfyUI plugin that provides a user interface of StableStudio, originally developed by Stability-AI [a/StableStudio](https://github.com/Stability-AI/StableStudio)"
+        },
+        {
+            "author": "Charonartist",
+            "title": "ComfyUI LoRA Random Selector [WIP]",
+            "reference": "https://github.com/Charonartist/comfyui-lora-random-selector",
+            "files": [
+                "https://github.com/Charonartist/comfyui-lora-random-selector"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that randomly selects LoRA files by category and automatically applies corresponding trigger words.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "AcademiaSD",
             "title": "comfyui_AcademiaSD",
             "reference": "https://github.com/AcademiaSD/comfyui_AcademiaSD",

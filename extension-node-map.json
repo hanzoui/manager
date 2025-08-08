@@ -1637,9 +1637,11 @@
     ],
     "https://github.com/APZmedia/ComfyUI-APZmedia-cleanName-from-string": [
         [
+            "APZmediaGenerateFilePath",
+            "APZmediaImageFilename",
+            "APZmediaPrimitive",
             "APZmediaStandardFilenameBuilder",
-            "CleanFileNameNode",
-            "GenerateFilePathNode"
+            "CleanFileNameNode"
         ],
         {
             "title_aux": "APZmedia Clean Name"
@@ -15940,6 +15942,8 @@
             "ImageMaximumNode",
             "LoadCogVideoXFunLora",
             "LoadCogVideoXFunModel",
+            "LoadWan2_2FunLora",
+            "LoadWan2_2FunModel",
             "LoadWan2_2Lora",
             "LoadWan2_2Model",
             "LoadWanFunLora",
@@ -15949,6 +15953,9 @@
             "VideoToCanny",
             "VideoToDepth",
             "VideoToOpenpose",
+            "Wan2_2FunInpaintSampler",
+            "Wan2_2FunT2VSampler",
+            "Wan2_2FunV2VSampler",
             "Wan2_2I2VSampler",
             "Wan2_2T2VSampler",
             "WanFunInpaintSampler",
@@ -18837,6 +18844,31 @@
         ],
         {
             "title_aux": "Text Node With Comments (@cdxoo)"
+        }
+    ],
+    "https://github.com/cedarconnor/ComfyUI_HunyuanWorld": [
+        [
+            "HYW_Config",
+            "HYW_MeshAnalyzer",
+            "HYW_MeshExport",
+            "HYW_MeshProcessor",
+            "HYW_MetadataManager",
+            "HYW_ModelLoader",
+            "HYW_PanoGen",
+            "HYW_PanoGenBatch",
+            "HYW_PanoInpaint_Advanced",
+            "HYW_PanoInpaint_Scene",
+            "HYW_PanoInpaint_Sky",
+            "HYW_PanoramaValidator",
+            "HYW_SeamlessWrap360",
+            "HYW_SettingsLoader",
+            "HYW_SkyMaskGenerator",
+            "HYW_TextureBaker",
+            "HYW_Thumbnailer",
+            "HYW_WorldReconstructor"
+        ],
+        {
+            "title_aux": "ComfyUI HunyuanWorld - Professional 3D World Generation"
         }
     ],
     "https://github.com/cedarconnor/comfyui-BatchNameLoop": [
@@ -34408,6 +34440,12 @@
             "PVL ComfyDeploy API Caller",
             "PVL KONTEXT MAX",
             "PVLCheckIfConnected",
+            "PVL_fal_FluxDev_API",
+            "PVL_fal_FluxGeneral_API",
+            "PVL_fal_FluxWithLora_API",
+            "PVL_fal_KontextDevInpaint_API",
+            "PVL_fal_KontextMaxMulti_API",
+            "PVL_fal_KontextMaxSingle_API",
             "PvlKontextMax"
         ],
         {
@@ -39671,7 +39709,10 @@
             "FramePackSingleFrameSampler",
             "FramePackTimestampedTextEncode",
             "FramePackTorchCompileSettings",
-            "LoadFramePackModel"
+            "LoadFramePackModel",
+            "ReferenceEmbedsList",
+            "ReferenceLatentList",
+            "ReferenceMaskList"
         ],
         {
             "title_aux": "ComfyUI-FramePackWrapper_PlusOne"
