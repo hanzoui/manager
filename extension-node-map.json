@@ -4670,6 +4670,7 @@
             "ImageCropFromPadded",
             "ImageDifferenceCmap",
             "ImagePadToResolution",
+            "InsightFaceSimilarity",
             "PhotoDoddleConditioning"
         ],
         {
@@ -5406,6 +5407,15 @@
         {
             "nodename_pattern": "^Feidorian_",
             "title_aux": "feidorian-ComfyNodes"
+        }
+    ],
+    "https://github.com/Ferocit/comfyui-feroccustomnodes": [
+        [
+            "LoadDescriptionNode",
+            "RandomLineFromText"
+        ],
+        {
+            "title_aux": "comfyui-feroccustomnodes"
         }
     ],
     "https://github.com/FewBox/fewbox-outfit-comfyui": [
@@ -31571,6 +31581,7 @@
         [
             "PreviewLatent",
             "PreviewLatentAdvanced",
+            "PreviewLatentFlux",
             "PreviewLatentXL"
         ],
         {
