@@ -3777,7 +3777,6 @@
             "HFHubLoraLoader",
             "ImageScaleDownBy",
             "ImageToMultipleOf",
-            "KikoEmbeddingAutocomplete",
             "KikoFilmGrain",
             "KikoSaveImage",
             "LoRAFolderBatch",
@@ -8570,6 +8569,14 @@
         ],
         {
             "title_aux": "COMFYUI-ReplacePartOfImage"
+        }
+    ],
+    "https://github.com/Lovzu/ComfyUI-KittenTTS": [
+        [
+            "KittenTTS"
+        ],
+        {
+            "title_aux": "KittenTTS Node for Voice Generation"
         }
     ],
     "https://github.com/Ltamann/ComfyUI-TBG-ETUR": [
@@ -18556,6 +18563,8 @@
             "AD_sch_prompt_stack",
             "AD_sch_value",
             "AD_slice_Condi",
+            "AI_GLM4",
+            "AI_Ollama",
             "Amp_audio_Normalized",
             "Amp_drive_String",
             "Amp_drive_mask",
@@ -18580,6 +18589,10 @@
             "Data_preset_save",
             "Data_sampleData",
             "Data_select",
+            "DoubaoAPI",
+            "DoubaoConfig",
+            "DoubaoTextChat",
+            "DoubaoVisionChat",
             "IO_adjust_image",
             "IO_clear_cache",
             "IO_input_any",
@@ -18699,6 +18712,7 @@
             "excel_Prompter",
             "excel_column_diff",
             "excel_insert_image",
+            "excel_qwen_font",
             "excel_read",
             "excel_row_diff",
             "excel_search_data",
@@ -25327,12 +25341,14 @@
         [
             "WWAA-BuildString",
             "WWAA-LineCount",
+            "WWAA_AdvancedGridLayoutNode",
             "WWAA_AdvancedTextFileReader",
             "WWAA_DitherNode",
             "WWAA_GBCamera",
             "WWAA_GridLayoutNode",
             "WWAA_ImageLoader",
             "WWAA_ImageToTextFile",
+            "WWAA_IndexGridLayoutNode",
             "WWAA_NestedLoopCounter",
             "WWAA_PromptWriter",
             "WWAA_SearchReplaceText",
@@ -39849,7 +39865,8 @@
     "https://github.com/xs315431/Comfyui_Get_promptId": [
         [
             "GetPromptId",
-            "SuccessCallback"
+            "SuccessCallback",
+            "UploadVideo"
         ],
         {
             "title_aux": "Comfyui_Get_promptId"

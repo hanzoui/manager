@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Lovzu",
+            "title": "KittenTTS Node for Voice Generation",
+            "reference": "https://github.com/Lovzu/ComfyUI-KittenTTS",
+            "files": [
+                "https://github.com/Lovzu/ComfyUI-KittenTTS"
+            ],
+            "install_type": "git-clone",
+            "description": "Ultra-lightweight text-to-speech model with just 15 million parameters"
+        },
+        {
             "author": "drozbay",
             "title": "ComfyUI-WanVaceAdvanced",
             "reference": "https://github.com/drozbay/ComfyUI-WanVaceAdvanced",
@@ -686,16 +696,6 @@
             ],
             "install_type": "git-clone",
             "description": "A custom node pack for ComfyUI that allows you to run Large Language Models (LLMs) locally and use them for prompt generation and other text tasks directly within your ComfyUI workflows."
-        },
-        {
-            "author": "fcanfora",
-            "title": "comfyui-camera-tools",
-            "reference": "https://github.com/fcanfora/comfyui-camera-tools",
-            "files": [
-                "https://github.com/fcanfora/comfyui-camera-tools"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Load Camera From File, Load 3D, Load 3D - Animation, Preview 3D, Preview 3D - Animation"
         }
     ]
 }
