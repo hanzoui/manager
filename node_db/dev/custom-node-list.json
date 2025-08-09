@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "MatthewClayHarrison",
+            "title": "MetaMan - Universal AI Image Metadata Manager [UNSAFE]",
+            "reference": "https://github.com/MatthewClayHarrison/ComfyUI-MetaMan",
+            "files": [
+                "https://github.com/MatthewClayHarrison/ComfyUI-MetaMan"
+            ],
+            "install_type": "git-clone",
+            "description": "First universal metadata system for AI image generation, with template-driven architecture allowing easy extension to new services; comprehensive dependency tracking with automatic download resolution; lossless conversion between platform formats where possible; future-proof design with extensible schema and validation system.[w/This nodepack has a vulnerability that allows remote access to arbitrary file paths.]"
+        },
+        {
+            "author": "Charonartist",
+            "title": "ComfyUI LoRA Random Selector",
+            "reference": "https://github.com/Charonartist/comfyui-lora-random-selector",
+            "files": [
+                "https://github.com/Charonartist/comfyui-lora-random-selector"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: WanMoeKSampler, WanMoeKSamplerAdvanced"
+        },
+        {
             "author": "jtydhr88",
             "title": "ComfyUI-StableStudio [WIP]",
             "reference": "https://github.com/jtydhr88/ComfyUI-StableStudio",

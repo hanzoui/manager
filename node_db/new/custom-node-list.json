@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "drozbay",
+            "title": "ComfyUI-WanVaceAdvanced",
+            "reference": "https://github.com/drozbay/ComfyUI-WanVaceAdvanced",
+            "files": [
+                "https://github.com/drozbay/ComfyUI-WanVaceAdvanced"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced/Experimental VACE nodes for WAN video models in ComfyUI."
+        },
+        {
             "author": "Ferocit",
             "title": "comfyui-feroccustomnodes",
             "reference": "https://github.com/Ferocit/comfyui-feroccustomnodes",
@@ -686,16 +696,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Load Camera From File, Load 3D, Load 3D - Animation, Preview 3D, Preview 3D - Animation"
-        },
-        {
-            "author": "lokinou",
-            "title": "ComfyUI-Offload-Models",
-            "reference": "https://github.com/lokinou/comfyui-offload-models",
-            "files": [
-                "https://github.com/lokinou/comfyui-offload-models"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes to offload and rapatriate models from cpu."
         }
     ]
 }

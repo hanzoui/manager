@@ -472,6 +472,7 @@
             "HighResFixConditioningDuplicator",
             "HighResFixModelInjection",
             "ModelSamplingFluxNormalized",
+            "STORKSamplerSelect",
             "SoulSampler",
             "SoulSamplerAdvanced",
             "SoulSamplerDPM",
@@ -3776,6 +3777,7 @@
             "HFHubLoraLoader",
             "ImageScaleDownBy",
             "ImageToMultipleOf",
+            "KikoEmbeddingAutocomplete",
             "KikoFilmGrain",
             "KikoSaveImage",
             "LoRAFolderBatch",
@@ -14414,7 +14416,9 @@
             "WaveSpeedAI SkyReelsV1Node",
             "WaveSpeedAI Step1xEditNode",
             "WaveSpeedAI UnoNode",
+            "WaveSpeedAI Upload Audio",
             "WaveSpeedAI Upload Image",
+            "WaveSpeedAI Upload Video",
             "WaveSpeedAI Veo2I2vNode",
             "WaveSpeedAI Veo2T2vNode",
             "WaveSpeedAI ViduImageToVideo20Node",
@@ -22512,6 +22516,17 @@
             "title_aux": "comfyui-dreambait-nodes"
         }
     ],
+    "https://github.com/drozbay/ComfyUI-WanVaceAdvanced": [
+        [
+            "VaceAdvancedModelPatch",
+            "VaceStrengthTester",
+            "WanVacePhantomExperimental",
+            "WanVaceToVideoLatent"
+        ],
+        {
+            "title_aux": "ComfyUI-WanVaceAdvanced"
+        }
+    ],
     "https://github.com/drphero/comfyui_prompttester": [
         [
             "PromptTester"
@@ -25315,6 +25330,7 @@
             "WWAA_AdvancedTextFileReader",
             "WWAA_DitherNode",
             "WWAA_GBCamera",
+            "WWAA_GridLayoutNode",
             "WWAA_ImageLoader",
             "WWAA_ImageToTextFile",
             "WWAA_NestedLoopCounter",
