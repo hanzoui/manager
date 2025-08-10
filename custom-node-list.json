@@ -24325,8 +24325,18 @@
             "files": [
                "https://github.com/pixelworldai/ComfyUI-AlphaFlatten"
             ],
-            "description": "This node takes a batch of images with alpha channels (RGBA format) and combines them into a single image, respecting the transparency of each layer. It's particularly useful for compositing multiple masked elements (like faces) into a single image.",
-            "install_type": "git-clone"
+            "install_type": "git-clone",
+            "description": "This node takes a batch of images with alpha channels (RGBA format) and combines them into a single image, respecting the transparency of each layer. It's particularly useful for compositing multiple masked elements (like faces) into a single image."
+        },
+        {
+            "author": "pixelworldai",
+            "title": "ComfyUI-WorkflowGraphics",
+            "reference": "https://github.com/pixelworldai/ComfyUI-WorkflowGraphics",
+            "files": [
+               "https://github.com/pixelworldai/ComfyUI-WorkflowGraphics"
+            ],
+            "install_type": "git-clone",
+            "description": "Embed images directly in your workflow JSONs"
         },
         {
             "author": "CozyMantis (+ Curt-Park)",
@@ -29092,6 +29102,16 @@
             "description": "A custom node package for image processing in ComfyUI, for automating image processing within the ComfyUI workflow."
         },
         {
+            "author": "S4MUEL404",
+            "title": "ComfyUI-S4Motion Nodes",
+            "reference": "https://github.com/S4MUEL-404/ComfyUI-S4Motion",
+            "files": [
+                "https://github.com/S4MUEL-404/ComfyUI-S4Motion"
+            ],
+            "install_type": "git-clone",
+            "description": "A set of ComfyUI nodes for animating a foreground layer over a background, with unified timing and high-quality composition. It includes effectors for rotation, position, path-following position, scale, opacity, distortion, and masking, plus a core node that composes frames and exports APNG/WEBP and a frame sequence."
+        },
+        {
             "author": "fchangjun",
             "title": "MultiSaveImage Node",
             "reference": "https://github.com/fchangjun/Comfyui_MultiSaveImage",
@@ -30728,6 +30748,17 @@
             "install_type": "git-clone",
             "description": "ExoticArts custom nodes for ComfyUI (EA Power LoRA, etc.)"
         },
+        {
+            "author": "squirrel765",
+            "title": "lorasubdirectory",
+            "reference": "https://github.com/andrewsthomasj/lorasubdirectory",
+            "files": [
+                "https://github.com/andrewsthomasj/lorasubdirectory"
+            ],
+            "install_type": "git-clone",
+            "description": "only show dropdown of loras ina a given subdirectory"
+        },
+
 
 
 
