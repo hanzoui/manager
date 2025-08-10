@@ -30687,6 +30687,17 @@
             "install_type": "git-clone",
             "description": "A custom ComfyUI node that splits text into multiple outputs for feeding complex multi-scene renders. This node allows you to dynamically control the number of splits and use custom separators."
         },
+        {
+            "author": "eric183",
+            "title": "ComfyUI-Only",
+            "id": "comfyui-only",
+            "reference": "https://github.com/eric183/ComfyUI-Only",
+            "files": [
+                "https://github.com/eric183/ComfyUI-Only"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI, originally focused on workflow parsing, now expanded to provide advanced file loading features like 'Load Latent (Advanced)' for drag-and-drop latent file uploads and 'WorkflowImageFileLoader' for parsing prompts from image metadata. It also adds a js extension for a better UI experience."
+        },
 
 
 
@@ -31118,17 +31129,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "eric183",
-            "title": "ComfyUI-Only",
-            "id": "comfyui-only",
-            "reference": "https://github.com/eric183/ComfyUI-Only",
-            "files": [
-                "https://github.com/eric183/ComfyUI-Only"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for ComfyUI, originally focused on workflow parsing, now expanded to provide advanced file loading features like 'Load Latent (Advanced)' for drag-and-drop latent file uploads and 'WorkflowImageFileLoader' for parsing prompts from image metadata. It also adds a js extension for a better UI experience."
         }
     ]
 }

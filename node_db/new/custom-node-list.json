@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "eric183",
+            "title": "ComfyUI-Only",
+            "id": "comfyui-only",
+            "reference": "https://github.com/eric183/ComfyUI-Only",
+            "files": [
+                "https://github.com/eric183/ComfyUI-Only"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI, originally focused on workflow parsing, now expanded to provide advanced file loading features like 'Load Latent (Advanced)' for drag-and-drop latent file uploads and 'WorkflowImageFileLoader' for parsing prompts from image metadata. It also adds a js extension for a better UI experience."
+        },
+        {
             "author": "o-l-l-i",
             "title": "Olm Histogram for ComfyUI",
             "reference": "https://github.com/o-l-l-i/ComfyUI-Olm-Histogram",
@@ -676,76 +687,6 @@
             ],
             "install_type": "git-clone",
             "description": "A custom node for ComfyUI that integrates ByteDance Volcano Engine's video generation AI model, supporting both text-to-video and image-to-video generation."
-        },
-        {
-            "author": "AlfredClark",
-            "title": "ComfyUI-ModelSpec",
-            "reference": "https://github.com/AlfredClark/ComfyUI-ModelSpec",
-            "files": [
-                "https://github.com/AlfredClark/ComfyUI-ModelSpec"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI model metadata editing nodes."
-        },
-        {
-            "author": "rainlizard",
-            "title": "Whirlpool Upscaler",
-            "reference": "https://github.com/rainlizard/ComfyUI-WhirlpoolUpscaler",
-            "files": [
-                "https://github.com/rainlizard/ComfyUI-WhirlpoolUpscaler"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a modified implementation of impact-pack's iterative upscaler. It leans in on the idea that giving too much attention to computation at high resolutions isn't a good idea."
-        },
-        {
-            "author": "Android zhang",
-            "title": "ComfyUI-MoGe2",
-            "reference": "https://github.com/zade23/Comfyui-MoGe2",
-            "files": [
-                "https://github.com/zade23/Comfyui-MoGe2"
-            ],
-            "install_type": "git-clone",
-            "description": "Runs the MoGe2 model on the input image. \n v1: Ruicheng/moge-vitl \n v2: Ruicheng/moge-2-vitl-normal"
-        },
-        {
-            "author": "mcDandy",
-            "title": "More Math",
-            "reference": "https://github.com/mcDandy/more_math",
-            "files": [
-                "https://github.com/mcDandy/more_math"
-            ],
-            "install_type": "git-clone",
-            "description": "Adds math nodes for numbers and types which do not need it."
-        },
-        {
-            "author": "ebrinz",
-            "title": "ComfyUI-MusicGen-HF",
-            "reference": "https://github.com/ebrinz/ComfyUI-MusicGen-HF",
-            "files": [
-                "https://github.com/ebrinz/ComfyUI-MusicGen-HF"
-            ],
-            "install_type": "git-clone",
-            "description": "A standalone ComfyUI custom node package for Facebook's MusicGen using Hugging Face Transformers. Generate high-quality music from text prompts with full support for CUDA, MPS (Apple Silicon), and CPU."
-        },
-        {
-            "author": "joosthel",
-            "title": "ComfyUI-CVOverlay",
-            "reference": "https://github.com/joosthel/ComfyUI-CVOverlay",
-            "files": [
-                "https://github.com/joosthel/ComfyUI-CVOverlay"
-            ],
-            "install_type": "git-clone",
-            "description": "TouchDesigner-style blob tracking and computer vision effects for ComfyUI. Simple nodes for bright spot detection, plexus connections, and technical aesthetics in video workflows."
-        },
-        {
-            "author": "kmlbdh",
-            "title": "ComfyUI_LocalLLMNodes",
-            "reference": "https://github.com/kmlbdh/ComfyUI_LocalLLMNodes",
-            "files": [
-                "https://github.com/kmlbdh/ComfyUI_LocalLLMNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node pack for ComfyUI that allows you to run Large Language Models (LLMs) locally and use them for prompt generation and other text tasks directly within your ComfyUI workflows."
         }
     ]
 }
