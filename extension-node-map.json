@@ -4098,11 +4098,15 @@
         [
             "Gemini Backdrop",
             "Gemini Body",
+            "Gemini Camera",
             "Gemini Cloth",
+            "Gemini Compose",
             "Gemini Condense",
             "Gemini Face",
             "Gemini Form",
+            "Gemini Imagen",
             "Gemini Instruct",
+            "Gemini Light",
             "Gemini Makeup",
             "Gemini Markdown",
             "Gemini Motion",
@@ -4112,6 +4116,7 @@
             "Gemini Question",
             "Gemini Response",
             "Gemini Scenery",
+            "Gemini Style",
             "Gemini Translate",
             "Gemini Vision"
         ],
@@ -10289,6 +10294,21 @@
             "title_aux": "ComfyUI-LikeSpiderAI-UI"
         }
     ],
+    "https://github.com/Pirog17000/Pirogs-Nodes": [
+        [
+            "DSLRNoise",
+            "ImageScalePro",
+            "KSamplerMultiSeed",
+            "KSamplerMultiSeedPlus",
+            "PromptRandomizer",
+            "StringCombine",
+            "TestResetButton",
+            "Watermark"
+        ],
+        {
+            "title_aux": "Pirog's Nodes for ComfyUI"
+        }
+    ],
     "https://github.com/PixelFunAI/ComfyUI_PixelFun": [
         [
             "HunyuanLoadAndEditLoraBlocks",
@@ -11097,6 +11117,14 @@
         ],
         {
             "title_aux": "ComfyUI-NVVFR"
+        }
+    ],
+    "https://github.com/SaturMars/ComfyUI-QwenImageLoraConverter": [
+        [
+            "QwenLoraConverterNode"
+        ],
+        {
+            "title_aux": "ComfyUI Qwen LoRA Converter Node"
         }
     ],
     "https://github.com/SayanoAI/Comfy-RVC": [
@@ -17817,6 +17845,7 @@
         [
             "BlehBlockCFG",
             "BlehBlockOps",
+            "BlehCFGInitSampler",
             "BlehCast",
             "BlehDeepShrink",
             "BlehDisableNoise",
@@ -17825,11 +17854,14 @@
             "BlehForceSeedSampler",
             "BlehGlobalSageAttention",
             "BlehHyperTile",
+            "BlehImageAsLatent",
             "BlehInsaneChainSampler",
+            "BlehLatentAsImage",
             "BlehLatentBlend",
             "BlehLatentOps",
             "BlehLatentScaleBy",
             "BlehModelPatchConditional",
+            "BlehModelPatchFastTerminate",
             "BlehPlug",
             "BlehRefinerAfter",
             "BlehSageAttentionSampler",
@@ -17921,6 +17953,8 @@
     ],
     "https://github.com/blepping/comfyui_overly_complicated_sampling": [
         [
+            "OCS ApplyFilterImage",
+            "OCS ApplyFilterLatent",
             "OCS Group",
             "OCS ModelSetMaxSigma",
             "OCS MultiParam",
@@ -17928,6 +17962,10 @@
             "OCS Sampler",
             "OCS SimpleRestartSchedule",
             "OCS Substeps",
+            "OCSNoise Conditioning",
+            "OCSNoise ExpressionFilteredNoise",
+            "OCSNoise ImmiscibleReference",
+            "OCSNoise OverrideSamplerNoise",
             "OCSNoise PerlinAdvanced",
             "OCSNoise PerlinSimple",
             "OCSNoise to SONAR_CUSTOM_NOISE"
@@ -19662,6 +19700,7 @@
             "LayerColor: LAB",
             "LayerColor: LUT Apply",
             "LayerColor: Levels",
+            "LayerColor: Negative",
             "LayerColor: RGB",
             "LayerColor: YUV",
             "LayerFilter: AddGrain",
@@ -19684,6 +19723,7 @@
             "LayerMask: ImageToMask",
             "LayerMask: LoadSegformerModel",
             "LayerMask: MaskBoxDetect",
+            "LayerMask: MaskBoxExtend",
             "LayerMask: MaskByColor",
             "LayerMask: MaskEdgeShrink",
             "LayerMask: MaskEdgeUltraDetail",
@@ -19742,6 +19782,7 @@
             "LayerUtility: ExtendCanvas",
             "LayerUtility: ExtendCanvasV2",
             "LayerUtility: Float",
+            "LayerUtility: FluxKontextImageScale",
             "LayerUtility: GetImageSize",
             "LayerUtility: GetMainColors",
             "LayerUtility: GetMainColorsV2",
@@ -19865,6 +19906,7 @@
             "LayerUtility: ImageAutoCrop V2",
             "LayerUtility: ImageAutoCrop V3",
             "LayerUtility: ImageRewardFilter",
+            "LayerUtility: JimengI2IAPI",
             "LayerUtility: JoyCaption2",
             "LayerUtility: JoyCaption2ExtraOptions",
             "LayerUtility: JoyCaption2Split",
@@ -33371,12 +33413,28 @@
             "title_aux": "Olm DragCrop for ComfyUI"
         }
     ],
+    "https://github.com/o-l-l-i/ComfyUI-Olm-Histogram": [
+        [
+            "OlmHistogram"
+        ],
+        {
+            "title_aux": "Olm Histogram for ComfyUI"
+        }
+    ],
     "https://github.com/o-l-l-i/ComfyUI-Olm-ImageAdjust": [
         [
             "OlmImageAdjust"
         ],
         {
             "title_aux": "Olm Image Adjust for ComfyUI"
+        }
+    ],
+    "https://github.com/o-l-l-i/ComfyUI-Olm-LGG": [
+        [
+            "OlmLGG"
+        ],
+        {
+            "title_aux": "Olm LGG (Lift, Gamma, Gain) for ComfyUI"
         }
     ],
     "https://github.com/o-l-l-i/ComfyUI-Olm-Resolution-Picker": [
@@ -38999,6 +39057,14 @@
         ],
         {
             "title_aux": "VRGameDevGirl Video Enhancement Nodes"
+        }
+    ],
+    "https://github.com/vsaan212/Comfy-ui-textsplit": [
+        [
+            "TextSplit"
+        ],
+        {
+            "title_aux": "ComfyUI Text Split Node"
         }
     ],
     "https://github.com/vsevolod-oparin/comfyui-kandinsky22": [
