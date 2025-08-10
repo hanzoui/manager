@@ -27624,6 +27624,16 @@
             "description": "This is a custom node for ComfyUI that takes in a file path full of json's and finds the mape variable nodes in them and converts them to the kjnode set and get nodes."
         },
         {
+            "author": "boricuapab",
+            "title": "ComfyUI-Bori-JsonSetGetConverter",
+            "reference": "https://github.com/boricuapab/ComfyUI-Bori-QwenImageResolutions",
+            "files": [
+                "https://github.com/boricuapab/ComfyUI-Bori-QwenImageResolutions" 
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node for ComfyUI that provides the user with a dropdown which contains the recommended resolutions for the Qwen Image Model."
+        },
+        {
             "author": "avocadori",
             "title": "ComfyUI-load-image-prompt-lora",
             "reference": "https://github.com/avocadori/ComfyUI-load-image-prompt-lora",
@@ -30698,6 +30708,27 @@
             "install_type": "git-clone",
             "description": "A collection of custom nodes for ComfyUI, originally focused on workflow parsing, now expanded to provide advanced file loading features like 'Load Latent (Advanced)' for drag-and-drop latent file uploads and 'WorkflowImageFileLoader' for parsing prompts from image metadata. It also adds a js extension for a better UI experience."
         },
+        {
+            "author": "squirrel765",
+            "title": "ComfyUI-LLM-VLM-Node",
+            "reference": "https://github.com/squirrel765/ComfyUI-LLM-VLM-Node",
+            "files": [
+                "https://github.com/squirrel765/ComfyUI-LLM-VLM-Node"
+            ],
+            "install_type": "git-clone",
+            "description": "A unified ComfyUI node for both LLM (text-only) and VLM (image-to-text) generation using GGUF models.."
+        },
+        {
+            "author": "squirrel765",
+            "title": "comfyui-ea-nodes",
+            "reference": "https://github.com/ExoticArts/comfyui-ea-nodes",
+            "files": [
+                "https://github.com/ExoticArts/comfyui-ea-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ExoticArts custom nodes for ComfyUI (EA Power LoRA, etc.)"
+        },
+
 
 
 

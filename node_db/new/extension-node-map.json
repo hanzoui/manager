@@ -4926,6 +4926,17 @@
             "title_aux": "ComfyUI-Lumina-Next-SFT-DiffusersWrapper"
         }
     ],
+    "https://github.com/ExoticArts/comfyui-ea-nodes": [
+        [
+            "EA_FilenameCombine",
+            "EA_PowerLora",
+            "EA_TrimFrames",
+            "EA_TrimImagesStartEnd"
+        ],
+        {
+            "title_aux": "comfyui-ea-nodes"
+        }
+    ],
     "https://github.com/ExponentialML/ComfyUI_ModelScopeT2V": [
         [
             "ModelScopeT2VLoader"
@@ -9645,6 +9656,8 @@
     "https://github.com/NakamuraShippo/ComfyUI-NS-Util": [
         [
             "NS-FlexPreset",
+            "NS-ManySliders",
+            "NS-PromptList",
             "NS-ToonFilter"
         ],
         {
@@ -12716,6 +12729,7 @@
     "https://github.com/Starnodes2024/ComfyUI_StarBetaNodes": [
         [
             "StarFrameFromVideo",
+            "StarIconExporter",
             "StarImageLoader1by1",
             "StarRandomImageLoader",
             "StarSavePanoramaJPEG"
@@ -18194,6 +18208,14 @@
             "title_aux": "ComfyUI-Bori-JsonSetGetConverter"
         }
     ],
+    "https://github.com/boricuapab/ComfyUI-Bori-QwenImageResolutions": [
+        [
+            "Bori Qwen Image Resolution"
+        ],
+        {
+            "title_aux": "ComfyUI-Bori-JsonSetGetConverter"
+        }
+    ],
     "https://github.com/bradsec/ComfyUI_ResolutionSelector": [
         [
             "ResolutionSelector"
@@ -18927,8 +18949,11 @@
             "HYW_PanoInpaint_Scene",
             "HYW_PanoInpaint_Sky",
             "HYW_PanoramaValidator",
+            "HYW_PerspectiveToPanoramaMask",
+            "HYW_RuntimeFromStock",
             "HYW_SeamlessWrap360",
             "HYW_SettingsLoader",
+            "HYW_ShiftPanorama",
             "HYW_SkyMaskGenerator",
             "HYW_TextureBaker",
             "HYW_Thumbnailer",
@@ -32103,7 +32128,8 @@
         [
             "DownloadAndLoadTransNetModel",
             "SelectVideo",
-            "TransNetV2_Run"
+            "TransNetV2_Run",
+            "ZipCompress"
         ],
         {
             "title_aux": "ComfyUI Video Segmentation Node"
@@ -33876,7 +33902,8 @@
             "MaskCompositePPM",
             "PPMSamplerSelect",
             "RenormCFGPost",
-            "RescaleCFGPost"
+            "RescaleCFGPost",
+            "SamplerGradientEstimation"
         ],
         {
             "title_aux": "ComfyUI-ppm"
@@ -37392,6 +37419,14 @@
         ],
         {
             "title_aux": "Latent Mirror node for ComfyUI"
+        }
+    ],
+    "https://github.com/squirrel765/ComfyUI-LLM-VLM-Node": [
+        [
+            "UnifiedGenerator|LP"
+        ],
+        {
+            "title_aux": "ComfyUI-LLM-VLM-Node"
         }
     ],
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale": [
