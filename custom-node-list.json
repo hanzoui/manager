@@ -1,28 +1,6 @@
 {
     "custom_nodes": [
         {
-            "author": "S4MUEL404",
-            "title": "ComfyUI S4Motion",
-            "id": "comfyui-s4motion",
-            "reference": "https://github.com/S4MUEL-404/ComfyUI-S4Motion",
-            "files": [
-                "https://github.com/S4MUEL-404/ComfyUI-S4Motion"
-            ],
-            "install_type": "git-clone",
-            "description": "A set of ComfyUI nodes for animating a foreground layer over a background, with unified timing and high-quality composition. It includes effectors for rotation, position, path-following position, scale, opacity, distortion, and masking, plus a core node that composes frames and exports APNG/WEBP and a frame sequence."
-        },
-        {
-            "author": "S4MUEL404",
-            "title": "ComfyUI S4Tool Image",
-            "id": "comfyui-s4tool-image",
-            "reference": "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image",
-            "files": [
-                "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node package for image processing in ComfyUI, for automating image processing within the ComfyUI workflow."
-        },
-        {
             "author": "Dr.Lt.Data",
             "title": "ComfyUI-Manager",
             "id": "manager",
@@ -2085,28 +2063,6 @@
             ],
             "install_type": "git-clone",
             "description": "All the tools you need to save images with their generation metadata on ComfyUI. Compatible with Civitai & Prompthero geninfo auto-detection. Works with png, jpeg and webp."
-        },
-        {
-            "author": "shingo1228",
-            "title": "ComfyUI-send-Eagle(slim)",
-            "id": "send-eagle",
-            "reference": "https://github.com/shingo1228/ComfyUI-send-eagle-slim",
-            "files": [
-                "https://github.com/shingo1228/ComfyUI-send-eagle-slim"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes:Send Webp Image to Eagle. This is an extension node for ComfyUI that allows you to send generated images in webp format to Eagle. This extension node is a re-implementation of the Eagle linkage functions of the previous ComfyUI-send-Eagle node, focusing on the functions required for this node."
-        },
-        {
-            "author": "shingo1228",
-            "title": "ComfyUI-SDXL-EmptyLatentImage",
-            "id": "sdxl-emptylatent",
-            "reference": "https://github.com/shingo1228/ComfyUI-SDXL-EmptyLatentImage",
-            "files": [
-                "https://github.com/shingo1228/ComfyUI-SDXL-EmptyLatentImage"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes:SDXL Empty Latent Image. An extension node for ComfyUI that allows you to select a resolution from the pre-defined json files and output a Latent Image."
         },
         {
             "author": "laksjdjf",
@@ -29114,6 +29070,17 @@
         },
         {
             "author": "S4MUEL404",
+            "title": "ComfyUI S4Motion",
+            "id": "comfyui-s4motion",
+            "reference": "https://github.com/S4MUEL-404/ComfyUI-S4Motion",
+            "files": [
+                "https://github.com/S4MUEL-404/ComfyUI-S4Motion"
+            ],
+            "install_type": "git-clone",
+            "description": "A set of ComfyUI nodes for animating a foreground layer over a background, with unified timing and high-quality composition. It includes effectors for rotation, position, path-following position, scale, opacity, distortion, and masking, plus a core node that composes frames and exports APNG/WEBP and a frame sequence."
+        },
+        {
+            "author": "S4MUEL404",
             "title": "ComfyUI S4Tool Image",
             "id": "comfyui-s4tool-image",
             "reference": "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image",
@@ -29122,16 +29089,6 @@
             ],
             "install_type": "git-clone",
             "description": "A custom node package for image processing in ComfyUI, for automating image processing within the ComfyUI workflow."
-        },
-        {
-            "author": "S4MUEL404",
-            "title": "ComfyUI-S4Motion Nodes",
-            "reference": "https://github.com/S4MUEL-404/ComfyUI-S4Motion",
-            "files": [
-                "https://github.com/S4MUEL-404/ComfyUI-S4Motion"
-            ],
-            "install_type": "git-clone",
-            "description": "A set of ComfyUI nodes for animating a foreground layer over a background, with unified timing and high-quality composition. It includes effectors for rotation, position, path-following position, scale, opacity, distortion, and masking, plus a core node that composes frames and exports APNG/WEBP and a frame sequence."
         },
         {
             "author": "fchangjun",
