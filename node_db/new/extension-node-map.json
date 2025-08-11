@@ -372,9 +372,11 @@
             "StringCoordinateToBBoxMask",
             "StringCoordinateToBBoxes",
             "TextCustomExtract",
-            "TextFormat",
+            "TextFilterComment",
+            "TextJoinByTextList",
             "TextJoinMulti",
-            "TextLoadLocal"
+            "TextLoadLocal",
+            "TextPrefixSuffix"
         ],
         {
             "title_aux": "ComfyUI 1hewNodes"
@@ -4930,11 +4932,16 @@
     ],
     "https://github.com/ExoticArts/comfyui-ea-nodes": [
         [
+            "EA_AutoTrimPingPong",
             "EA_FilenameCombine",
+            "EA_ListVideos",
+            "EA_ManifestIndex",
+            "EA_PingPong",
             "EA_PowerLora",
             "EA_PowerLora_CLIP",
             "EA_PowerLora_WanVideo",
-            "EA_TrimFrames"
+            "EA_TrimFrames",
+            "EA_VideoLoad"
         ],
         {
             "title_aux": "comfyui-ea-nodes"
@@ -6235,6 +6242,14 @@
         ],
         {
             "title_aux": "Random Number Button"
+        }
+    ],
+    "https://github.com/HSDHCdev/ComfyUI-AI-Pixel-Art-Enhancer": [
+        [
+            "AIPixelArtEnhancer"
+        ],
+        {
+            "title_aux": "AI Pixel Art Enhancer for ComfyUI"
         }
     ],
     "https://github.com/HWDigi/Factory-Prompts_comfyui": [
@@ -10922,18 +10937,25 @@
     ],
     "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image": [
         [
+            "CombineImageBatch",
+            "GetImageBatch",
+            "ImageAdjustment",
             "ImageBlendWithAlpha",
+            "ImageBoard",
             "ImageColor",
             "ImageCombine",
             "ImageCropToFit",
             "ImageFromBase64",
+            "ImageGetColor",
             "ImageMaskExpand",
             "ImageOverlay",
             "ImagePalette",
             "ImagePalette631",
             "ImagePrimaryColor",
+            "ImageResize",
             "ImageTilingPattern",
-            "ImageToBase64"
+            "ImageToBase64",
+            "SetImageBatch"
         ],
         {
             "title_aux": "ComfyUI S4Tool Image"
@@ -12768,11 +12790,8 @@
     ],
     "https://github.com/Starnodes2024/ComfyUI_StarBetaNodes": [
         [
-            "StarFrameFromVideo",
-            "StarIconExporter",
-            "StarImageLoader1by1",
-            "StarRandomImageLoader",
-            "StarSavePanoramaJPEG"
+            "StarApplyOverlayDepth",
+            "StarQwenImageRatio"
         ],
         {
             "title_aux": "ComfyUI_StarBetaNodes"
@@ -16707,15 +16726,6 @@
         ],
         {
             "title_aux": "CLIP Directional Prompt Attention"
-        }
-    ],
-    "https://github.com/andrewsthomasj/lorasubdirectory": [
-        [
-            "LoraModelOnlySubdirectory",
-            "LoraSubdirectory"
-        ],
-        {
-            "title_aux": "lorasubdirectory"
         }
     ],
     "https://github.com/andygill/comfyui-sunflower-nodes": [
@@ -33586,7 +33596,8 @@
     ],
     "https://github.com/oliverswitzer/ComfyUI-Lora-Visualizer": [
         [
-            "LoRAVisualizer"
+            "LoRAVisualizer",
+            "PromptSplitter"
         ],
         {
             "title_aux": "LoRA Visualizer"
@@ -35924,6 +35935,14 @@
             "title_aux": "ComfyUI_SuperResolution"
         }
     ],
+    "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker": [
+        [
+            "QwenImageSize"
+        ],
+        {
+            "title_aux": "ComfyUI-Qwen-Image-Size-Picker"
+        }
+    ],
     "https://github.com/s9roll7/comfyui_cotracker_node": [
         [
             "CoTrackerNode",
@@ -37575,6 +37594,15 @@
         ],
         {
             "title_aux": "WanImageToVideoTiledVAE for ComfyUI"
+        }
+    ],
+    "https://github.com/stduhpf/ComfyUI-WanMoeKSampler": [
+        [
+            "WanMoeKSampler",
+            "WanMoeKSamplerAdvanced"
+        ],
+        {
+            "title_aux": "KSampler for Wan 2.2 MoE for ComfyUI"
         }
     ],
     "https://github.com/stepfun-ai/ComfyUI-StepVideo": [

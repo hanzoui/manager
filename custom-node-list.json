@@ -9657,6 +9657,16 @@
             "description": "Break the execution, save the incompleted image then continue later."
         },
         {
+            "author": "shinich39",
+            "title": "comfyui-global-prompts",
+            "reference": "https://github.com/shinich39/comfyui-global-prompts",
+            "files": [
+                "https://github.com/shinich39/comfyui-global-prompts"
+            ],
+            "install_type": "git-clone",
+            "description": "Set global prompts using note node."
+        },
+        {
             "author": "wei30172",
             "title": "comfygen",
             "reference": "https://github.com/wei30172/comfygen",
@@ -29625,7 +29635,7 @@
                 "https://github.com/LaoMaoBoss/ComfyUI-WBLESS"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI's custom node package. This custom node has many practical functions, including global variables and process flow control."
+            "description": "ComfyUI custom node package. This custom node features multiple practical functions, including global variables, flow control, obtaining image or mask dimensions, and Dominant Axis Scale."
         },
         {
             "author": "zeeoale",
@@ -30456,6 +30466,16 @@
             "description": "This is a custom node for ComfyUI that can be used to generate videos from either a starting frame, an end frame or both; with the Wan2.2 5B model (which uses the new Wan2.2 VAE, unlike Wan 2.2 A14B model wich uses the old Wan2.1 VAE)."
         },
         {
+            "author": "stduhpf",
+            "title": "KSampler for Wan 2.2 MoE for ComfyUI",
+            "reference": "https://github.com/stduhpf/ComfyUI-WanMoeKSampler",
+            "files": [
+                "https://github.com/stduhpf/ComfyUI-WanMoeKSampler"
+            ],
+            "install_type": "git-clone",
+            "description": "These nodes are made to support 'Mixture of Expert' Flow models with the architecture of Wan2.2 A14B (With a high noise expert and low noise expert). Instead of guessing the denoising step at which to swap from tyhe high noise model to the low noise model, this node automatically chanage to the low noise model when we reach the diffusion timestep at which the signal to noise ratio is supposed to be 1:1."
+        },
+        {
             "author": "kanibus",
             "title": "KANIBUS - Advanced Eye Tracking ControlNet System",
             "reference": "https://github.com/kanibus/kanibus",
@@ -30728,14 +30748,24 @@
             "description": "ExoticArts custom nodes for ComfyUI (EA Power LoRA, etc.)"
         },
         {
-            "author": "squirrel765",
-            "title": "lorasubdirectory",
-            "reference": "https://github.com/andrewsthomasj/lorasubdirectory",
+            "author": "HSDHCdev",
+            "title": "AI Pixel Art Enhancer for ComfyUI",
+            "reference": "https://github.com/HSDHCdev/ComfyUI-AI-Pixel-Art-Enhancer",
             "files": [
-                "https://github.com/andrewsthomasj/lorasubdirectory"
+                "https://github.com/HSDHCdev/ComfyUI-AI-Pixel-Art-Enhancer"
             ],
             "install_type": "git-clone",
-            "description": "only show dropdown of loras ina a given subdirectory"
+            "description": "Pixel art Enhancement Node for ComfyUI"
+        },
+        {
+            "author": "Rzgar Espo",
+            "title": "ComfyUI-Qwen-Image-Size-Picker",
+            "reference": "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker",
+            "files": [
+                "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker"
+            ],
+            "install_type": "git-clone",
+            "description": "A universal node for generating empty latent tensors with support for Qwen Image, SDXL and Flux models. Features extended aspect ratio support, batch processing, and flexible dimension overrides."
         },
 
 

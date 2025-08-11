@@ -198,9 +198,11 @@
             "StringCoordinateToBBoxMask",
             "StringCoordinateToBBoxes",
             "TextCustomExtract",
-            "TextFormat",
+            "TextFilterComment",
+            "TextJoinByTextList",
             "TextJoinMulti",
-            "TextLoadLocal"
+            "TextLoadLocal",
+            "TextPrefixSuffix"
         ],
         {
             "title_aux": "ComfyUI-1hewNodes [WIP]"
@@ -2461,6 +2463,7 @@
         [
             "mb Barcode",
             "mb CLIP Text Encoder",
+            "mb Color Mask",
             "mb Data Type Converter",
             "mb Debug",
             "mb Demux",
@@ -4330,9 +4333,11 @@
     "https://github.com/blepping/comfyui_dum_samplers": [
         [
             "BatchMergeSampler",
+            "ButcherTableauSampler",
             "CacheAwareEulerSampler",
             "CyclePaddingSampler",
             "HistorySampler",
+            "LetMeHelpYouSampler",
             "PingPongSampler",
             "RestlessScheduler",
             "SimilarityAncestralEulerSampler",
@@ -5471,6 +5476,18 @@
         ],
         {
             "title_aux": "ComfyUI_BWiZ_Nodes [WIP]"
+        }
+    ],
+    "https://github.com/duckmartians/Duck_Nodes": [
+        [
+            "Duck_LoadExcelRow",
+            "Duck_LoadGoogleDocLine",
+            "Duck_LoadGoogleSheetOneRow",
+            "Duck_LoadWordLine",
+            "Duck_PromptLoader"
+        ],
+        {
+            "title_aux": "Duck_Nodes [UNSAFE]"
         }
     ],
     "https://github.com/eggsbenedicto/DiffusionRenderer-ComfyUI": [
@@ -9533,8 +9550,7 @@
     "https://github.com/usrname0/ComfyUI-AllergicPack": [
         [
             "FolderFileCounter_Allergic",
-            "IncrementorPlus",
-            "WanVideoVACEContextManager"
+            "IncrementorPlus"
         ],
         {
             "title_aux": "ComfyUI-AllergicPack [WIP]"
@@ -9891,6 +9907,14 @@
         ],
         {
             "title_aux": "honey_nodes [WIP]"
+        }
+    ],
+    "https://github.com/xsai-collab/ComfyUI-CombineVideoAndSubtitle": [
+        [
+            "CombineVideosFromFolder"
+        ],
+        {
+            "title_aux": "ComfyUI-CombineVideoAndSubtitle"
         }
     ],
     "https://github.com/xzuyn/ComfyUI-xzuynodes": [

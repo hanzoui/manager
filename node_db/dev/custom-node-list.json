@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "duckmartians",
+            "title": "Duck_Nodes [UNSAFE]",
+            "reference": "https://github.com/duckmartians/Duck_Nodes",
+            "files": [
+                "https://github.com/duckmartians/Duck_Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Load data from Google Sheets, Google Docs, Excel, Word, and TXT with built-in login system for ComfyUI.[w/This node pack contains a node with a vulnerability that allows reading files from arbitrary paths.]"
+        },
+        {
+            "author": "xsai-collab",
+            "title": "ComfyUI-CombineVideoAndSubtitle",
+            "reference": "https://github.com/xsai-collab/ComfyUI-CombineVideoAndSubtitle",
+            "files": [
+                "https://github.com/xsai-collab/ComfyUI-CombineVideoAndSubtitle"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Combine Video and Subtitle"
+        },
+        {
             "author": "Lovzu",
             "title": "ComfyUI-Qwen [NAME CONFLICT]",
             "reference": "https://github.com/Lovzu/ComfyUI-Qwen",
