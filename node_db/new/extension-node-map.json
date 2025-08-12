@@ -165,6 +165,7 @@
             "FashionSegmentAccessories",
             "FashionSegmentClothing",
             "RMBG",
+            "SAM2Segment",
             "Segment",
             "SegmentV2"
         ],
@@ -1642,12 +1643,12 @@
         [
             "APZmediaGenerateFilePath",
             "APZmediaImageFilename",
-            "APZmediaPrimitive",
+            "APZmediaReadWidget",
             "APZmediaStandardFilenameBuilder",
             "CleanFileNameNode"
         ],
         {
-            "title_aux": "APZmedia Clean Name"
+            "title_aux": "APZmedia Naming Tools"
         }
     ],
     "https://github.com/ARZUMATA/ComfyUI-ARZUMATA": [
@@ -4640,6 +4641,7 @@
             "BoyoLoadImageList",
             "BoyoPairedSaver",
             "BoyoSaver",
+            "BoyoTiledVAEDecode",
             "BoyoVAEDecode",
             "Boyolatent",
             "MandelbrotVideo"
@@ -4664,6 +4666,7 @@
         [
             "AdvancedMorphology",
             "CoverWordsWithRectangles",
+            "CreateArkClient",
             "CreateBoundingBoxesMaskQwen",
             "DrawBoundingBoxesQwen",
             "FluxKontextTrue3DPE",
@@ -4681,7 +4684,8 @@
             "ImageDifferenceCmap",
             "ImagePadToResolution",
             "InsightFaceSimilarity",
-            "PhotoDoddleConditioning"
+            "PhotoDoddleConditioning",
+            "SeedEditNode"
         ],
         {
             "title_aux": "Duanyll Nodepack"
@@ -8905,6 +8909,8 @@
             "\ud83d\udcdd Wildcard Processor",
             "\ud83d\udd20 Tiktoken Tokenizer Info",
             "\ud83d\uddbc\ufe0f Download Image from URL",
+            "\ud83d\uddbc\ufe0f+\ud83d\udcdd Load Text-Image Pairs",
+            "\ud83d\uddbc\ufe0f\ud83d\udcca Metadata Extractor",
             "\ud83e\uddf9 String Cleaning"
         ],
         {
@@ -10353,6 +10359,7 @@
             "ImageScalePro",
             "KSamplerMultiSeed",
             "KSamplerMultiSeedPlus",
+            "LensSimulatedBloom",
             "PromptRandomizer",
             "StringCombine",
             "TestResetButton",
@@ -14608,6 +14615,14 @@
             "title_aux": "ComfyUI-ReservedVRAM"
         }
     ],
+    "https://github.com/Windecay/ComfyUI-SDupcaleTiledSize": [
+        [
+            "SDupscaleTiledSize"
+        ],
+        {
+            "title_aux": "ComfyUI-SDupcaleTiledSize"
+        }
+    ],
     "https://github.com/X-School-Academy/X-FluxAgent": [
         [
             "X-FluxAgent.AICodeGenNode",
@@ -16368,14 +16383,6 @@
         ],
         {
             "title_aux": "GeminiOllama ComfyUI Extension"
-        }
-    ],
-    "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt": [
-        [
-            "AF_Edit_Generated_Prompt"
-        ],
-        {
-            "title_aux": "AF - Edit Generated Prompt"
         }
     ],
     "https://github.com/alanhuang67/ComfyUI-FAI-Node": [
@@ -22948,6 +22955,14 @@
             "title_aux": "ComfyUI-Load-DirectoryFiles"
         }
     ],
+    "https://github.com/educator-art/ComfyUI-gpt-oss-PromptDesigner": [
+        [
+            "Load gpt-oss Prompt Designer"
+        ],
+        {
+            "title_aux": "ComfyUI-gpt-oss-PromptDesigner"
+        }
+    ],
     "https://github.com/eg0pr0xy/comfyui_noisegen": [
         [
             "AudioAnalyzer",
@@ -23030,7 +23045,6 @@
         [
             "LatentLoaderAdvanced",
             "WorkflowImageFileLoader",
-            "WorkflowImageLoader",
             "WorkflowJSONParser"
         ],
         {
@@ -33597,6 +33611,7 @@
     "https://github.com/oliverswitzer/ComfyUI-Lora-Visualizer": [
         [
             "LoRAVisualizer",
+            "PromptComposer",
             "PromptSplitter"
         ],
         {
@@ -34651,6 +34666,7 @@
             "PVL ComfyDeploy API Caller",
             "PVL KONTEXT MAX",
             "PVLCheckIfConnected",
+            "PVL_Switch_Huge",
             "PVL_fal_FluxDev_API",
             "PVL_fal_FluxGeneral_API",
             "PVL_fal_FluxWithLora_API",

@@ -2653,7 +2653,10 @@
     "https://github.com/PATATAJEC/ComfyUI-PatatajecNodes": [
         [
             "ColorMatchFalloff",
-            "PathTool"
+            "ColorPicker",
+            "PathTool",
+            "SequenceBlend",
+            "SequenceContentZoom"
         ],
         {
             "title_aux": "Patatajec-Nodes [WIP]"
@@ -4150,8 +4153,12 @@
             "MC Switch Image",
             "MC Switch Latent",
             "MC Switch Model",
+            "MC Switch Noise",
             "MC Switch Seed",
-            "MC Switch String"
+            "MC Switch String",
+            "MC Swtich Latent(Multi)",
+            "MC Swtich Sampler(Multi)",
+            "MC Swtich Sigmas(Multi)"
         ],
         {
             "title_aux": "ComfyUI_MoreComfy"

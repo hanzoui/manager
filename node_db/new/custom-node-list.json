@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "Windecay",
+            "title": "ComfyUI-SDupcaleTiledSize",
+            "reference": "https://github.com/Windecay/ComfyUI-SDupcaleTiledSize",
+            "files": [
+                "https://github.com/Windecay/ComfyUI-SDupcaleTiledSize"
+            ],
+            "install_type": "git-clone",
+            "description": "Assist in determining reasonable input values for tiled_width/tiled_height in the UltimateSDUpscale node to improve efficiency."
+        },
+        {
+            "author": "educator-art",
+            "title": "ComfyUI-gpt-oss-PromptDesigner",
+            "reference": "https://github.com/educator-art/ComfyUI-gpt-oss-PromptDesigner",
+            "files": [
+                "https://github.com/educator-art/ComfyUI-gpt-oss-PromptDesigner"
+            ],
+            "install_type": "git-clone",
+            "description": "Using the ollama gpt-oss:20b model, a prompt is generated. The user enters the desired theme into a custom node and runs it, and the model outputs a Stable Diffusion prompt. This is useful when you want the model to handle prompt creation for you."
+        },
+        {
             "author": "stduhpf",
             "title": "KSampler for Wan 2.2 MoE for ComfyUI",
             "reference": "https://github.com/stduhpf/ComfyUI-WanMoeKSampler",
@@ -362,16 +382,6 @@
             ],
             "install_type": "git-clone",
             "description": "This is a custom node package that integrates the Qwen-Image model into ComfyUI."
-        },
-        {
-            "author": "alFrame",
-            "title": "AF - Edit Generated Prompt",
-            "reference": "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt",
-            "files": [
-                "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually. Or you can use the lower input field like any regular text input filed. The content of the lower text field will always dominate the output of the node."
         },
         {
             "author": "jqy-yo",

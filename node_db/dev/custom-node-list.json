@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "tg-tjmitchell",
+            "title": "ComfyUI Manager Package Lister",
+            "reference": "https://github.com/tg-tjmitchell/comfyui-custom-node-lister",
+            "files": [
+                "https://github.com/tg-tjmitchell/comfyui-custom-node-lister"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that lists installed custom node packages in ComfyUI Manager compatible format, providing the exact package names and install commands for sharing or reinstalling."
+        },
+        {
             "author": "duckmartians",
             "title": "Duck_Nodes [UNSAFE]",
             "reference": "https://github.com/duckmartians/Duck_Nodes",
@@ -4352,7 +4362,7 @@
                 "https://github.com/PATATAJEC/ComfyUI-PatatajecNodes"
             ],
             "install_type": "git-clone",
-            "description": "NODES: HyVid Switcher\nNOTE: The files in the repo are not organized."
+            "description": "NODES: Path Tool, Color Match Falloff, Sequence Content Zoom, Sequence Blend, Color Picker"
         },
         {
             "author": "sourceful-official",
