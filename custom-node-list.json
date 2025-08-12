@@ -13089,17 +13089,6 @@
         },
         {
             "author": "hben35096",
-            "title": "ComfyUI-ToolBox",
-            "id": "hben-toolbox",
-            "reference": "https://github.com/hben35096/ComfyUI-ToolBox",
-            "files": [
-                "https://github.com/hben35096/ComfyUI-ToolBox"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of utility nodes for ComfyUI, including audio/video processing, file uploads, and AI image generation."
-        },
-        {
-            "author": "hben35096",
             "title": "ComfyUI-ReplenishNodes",
             "reference": "https://github.com/hben35096/ComfyUI-ReplenishNodes",
             "files": [
@@ -15510,25 +15499,14 @@
         },
         {
             "author": "IuvenisSapiens",
-            "title": "ComfyUI_MiniCPM-V-2_6-int4",
+            "title": "ComfyUI_MiniCPM-V-4",
             "id": "ComfyUI_MiniCPM-V-4",
             "reference": "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-4",
             "files": [
                 "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-4"
             ],
             "install_type": "git-clone",
-            "description": "This is an implementation of [a/MiniCPM-V-4](https://github.com/OpenBMB/MiniCPM-V) by [a/ComfyUI](https://github.com/comfyanonymous/ComfyUI), including support for text-based queries, video queries, single-image queries, and multi-image queries to generate captions or responses."
-        },
-        {
-            "author": "IuvenisSapiens",
-            "title": "ComfyUI_MiniCPM-V-2_6-int4",
-            "id": "minicpm-v-2_6-int4",
-            "reference": "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-2_6-int4",
-            "files": [
-                "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-2_6-int4"
-            ],
-            "install_type": "git-clone",
-            "description": "This is an implementation of [a/MiniCPM-V-2_6-int4](https://github.com/OpenBMB/MiniCPM-V) by [a/ComfyUI](https://github.com/comfyanonymous/ComfyUI), including support for text-based queries, video queries, single-image queries, and multi-image queries to generate captions or responses."
+            "description": "This is an implementation of [MiniCPM-V-4](https://github.com/OpenBMB/MiniCPM-V) by [ComfyUI](https://github.com/comfyanonymous/ComfyUI), including support for text-based queries, video queries, single-image queries, and multi-image queries to generate captions or responses."
         },
         {
             "author": "IuvenisSapiens",
@@ -19904,17 +19882,7 @@
         },
         {
             "author": "Yuan-ManX",
-            "title": "ComfyUI-Step1X-Edit",
-            "reference": "https://github.com/Yuan-ManX/ComfyUI-Step1X-Edit",
-            "files": [
-                "https://github.com/Yuan-ManX/ComfyUI-Step1X-Edit"
-            ],
-            "install_type": "git-clone",
-            "description": "Make Step1X-Edit avialbe in ComfyUI."
-        },
-        {
-            "author": "Yuan-ManX",
-            "title": "ComfyUI-AudioX",
+            "title": "Yuan-ManX/ComfyUI-AudioX",
             "reference": "https://github.com/Yuan-ManX/ComfyUI-AudioX",
             "files": [
                 "https://github.com/Yuan-ManX/ComfyUI-AudioX"
@@ -26961,16 +26929,6 @@
         },
         {
             "author": "Limbicnation",
-            "title": "ComfyUIDepthEstimation",
-            "reference": "https://github.com/Limbicnation/ComfyUIDepthEstimation",
-            "files": [
-                "https://github.com/Limbicnation/ComfyUIDepthEstimation"
-            ],
-            "install_type": "git-clone",
-            "description": "A robust custom depth estimation node for ComfyUI using Depth-Anything models. It integrates depth estimation with configurable post-processing options including blur, median filtering, contrast enhancement, and gamma correction."
-        },
-        {
-            "author": "Limbicnation",
             "title": "Depth Estimation Node",
             "reference": "https://github.com/Limbicnation/ComfyUIDepthEstimation",
             "files": [
@@ -27632,7 +27590,7 @@
         },
         {
             "author": "boricuapab",
-            "title": "ComfyUI-Bori-JsonSetGetConverter",
+            "title": "ComfyUI-Bori-QwenImageResolutions",
             "reference": "https://github.com/boricuapab/ComfyUI-Bori-QwenImageResolutions",
             "files": [
                 "https://github.com/boricuapab/ComfyUI-Bori-QwenImageResolutions" 
@@ -29232,7 +29190,7 @@
         },
         {
             "author": "sunx.ai",
-            "title": "ComfyUI Gemini Nodes",
+            "title": "comfyui_sunxAI_facetools",
             "reference": "https://github.com/upseem/comfyui_sunxAI_facetools",
             "files": [
                 "https://github.com/upseem/comfyui_sunxAI_facetools"
@@ -30526,7 +30484,7 @@
         },
         {
             "author": "ranska",
-            "title": "pixel_palette_art",
+            "title": "Pixel Palette Art",
             "reference": "https://github.com/ranska/pixel_palette_art",
             "files": [
                 "https://github.com/ranska/pixel_palette_art"
@@ -30596,16 +30554,6 @@
             "description": "ComfyUI custom nodes for the DFloat11 compressed Qwen-Image model. This package provides efficient image generation with reduced memory usage through DFloat11 compression technology."
         },
         {
-            "author": "ranska",
-            "title": "Pixel Palette Art",
-            "reference": "https://github.com/ranska/pixel_palette_art",
-            "files": [
-                "https://github.com/ranska/pixel_palette_art"
-            ],
-            "install_type": "git-clone",
-            "description": "Comfyui custom node: Set of tools for pixel art palette."
-        },
-        {
             "author": "snomiao",
             "title": "ComfyUI Video Crop",
             "reference": "https://github.com/snomiao/ComfyUI-Video-Crop",
@@ -30664,16 +30612,6 @@
             ],
             "install_type": "git-clone",
             "description": "TTS Audio Suite - Universal multi-engine TTS extension for ComfyUI with unified architecture supporting ChatterBox, F5-TTS, and future engines like RVC. Features modular engine adapters, character voice management, comprehensive SRT subtitle support, and advanced audio processing capabilities."
-        },
-        {
-            "author": "fwack",
-            "title": "ComfyUI_API_Manager",
-            "reference": "https://github.com/fwack/ComfyUI_API_Manager_Pro",
-            "files": [
-                "https://github.com/fwack/ComfyUI_API_Manager_Pro"
-            ],
-            "install_type": "git-clone",
-            "description": "This package provides three custom nodes designed to streamline workflows involving API requests, dynamic text manipulation based on API responses, and image posting to APIs. These nodes are particularly useful for automating interactions with APIs, enhancing text-based workflows with dynamic data, and facilitating image uploads."
         },
         {
             "author": "Ferocit",

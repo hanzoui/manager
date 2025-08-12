@@ -1,6 +1,37 @@
 {
     "custom_nodes": [
         {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-Step1X-Edit [NAME CONFLICT]",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-Step1X-Edit",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-Step1X-Edit"
+            ],
+            "install_type": "git-clone",
+            "description": "Make Step1X-Edit avialbe in ComfyUI."
+        },
+        {
+            "author": "hben35096",
+            "title": "hben35096/ComfyUI-ToolBox [NAME CONFLICT]",
+            "id": "hben-toolbox",
+            "reference": "https://github.com/hben35096/ComfyUI-ToolBox",
+            "files": [
+                "https://github.com/hben35096/ComfyUI-ToolBox"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of utility nodes for ComfyUI, including audio/video processing, file uploads, and AI image generation."
+        },
+        {
+            "author": "locphan201",
+            "title": "ComfyUI-Alternatives",
+            "reference": "https://github.com/locphan201/ComfyUI-Alternatives",
+            "files": [
+                "https://github.com/locphan201/ComfyUI-Alternatives"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: LoraPreLoader, LoraApplier"
+        },
+        {
             "author": "tg-tjmitchell",
             "title": "ComfyUI Manager Package Lister",
             "reference": "https://github.com/tg-tjmitchell/comfyui-custom-node-lister",

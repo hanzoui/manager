@@ -3630,6 +3630,20 @@
             "title_aux": "ComfyUI_LLM_Are_You_Listening [WIP]"
         }
     ],
+    "https://github.com/Yuan-ManX/ComfyUI-Step1X-Edit": [
+        [
+            "GenerateEditedImage",
+            "LoadAEModel",
+            "LoadDITModel",
+            "LoadImagePath",
+            "LoadQwenVLModel",
+            "Prompt",
+            "SaveEditedImage"
+        ],
+        {
+            "title_aux": "ComfyUI-Step1X-Edit [NAME CONFLICT]"
+        }
+    ],
     "https://github.com/Yukinoshita-Yukinoe/ComfyUI-KontextOfficialNode": [
         [
             "KontextImageEditingOfficialAPI_Max",
@@ -6158,6 +6172,18 @@
             "title_aux": "ComfyUI AceNodes [UNSAFE]"
         }
     ],
+    "https://github.com/hben35096/ComfyUI-ToolBox": [
+        [
+            "AutoDLDownload",
+            "CreatePaths",
+            "FolderDeleter",
+            "FolderViewe",
+            "PathOutput"
+        ],
+        {
+            "title_aux": "hben35096/ComfyUI-ToolBox [NAME CONFLICT]"
+        }
+    ],
     "https://github.com/hdfhssg/ComfyUI_pxtool": [
         [
             "ArtistLoader",
@@ -7309,6 +7335,15 @@
         ],
         {
             "title_aux": "ComfyUI-MV-HECV"
+        }
+    ],
+    "https://github.com/locphan201/ComfyUI-Alternatives": [
+        [
+            "LoraApplier",
+            "LoraPreLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-Alternatives"
         }
     ],
     "https://github.com/logtd/ComfyUI-Fluxtapoz": [

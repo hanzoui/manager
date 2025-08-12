@@ -6921,17 +6921,6 @@
             "title_aux": "ComfyUI_Isulion Random Prompt Generator"
         }
     ],
-    "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-2_6-int4": [
-        [
-            "DisplayText",
-            "MiniCPM_VQA",
-            "MiniCPM_VQA_Polished",
-            "MultipleImagesInput"
-        ],
-        {
-            "title_aux": "ComfyUI_MiniCPM-V-2_6-int4"
-        }
-    ],
     "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-4": [
         [
             "DisplayText",
@@ -6940,7 +6929,7 @@
             "MultipleImagesInput"
         ],
         {
-            "title_aux": "ComfyUI_MiniCPM-V-2_6-int4"
+            "title_aux": "ComfyUI_MiniCPM-V-4"
         }
     ],
     "https://github.com/IuvenisSapiens/ComfyUI_Qwen2-Audio-7B-Instruct-Int4": [
@@ -10355,8 +10344,17 @@
     ],
     "https://github.com/Pirog17000/Pirogs-Nodes": [
         [
+            "BatchCropFromMaskSimple",
+            "BatchUncropSimple",
+            "BlurByMask",
+            "BlurMask",
+            "CropImage",
+            "CropMaskByBBox",
             "DSLRNoise",
+            "GradientMaskGenerator",
+            "ImageBlendByMask",
             "ImageScalePro",
+            "InvertMask",
             "KSamplerMultiSeed",
             "KSamplerMultiSeedPlus",
             "LensSimulatedBloom",
@@ -14936,7 +14934,7 @@
             "SaveAudioXAudio"
         ],
         {
-            "title_aux": "ComfyUI-AudioX"
+            "title_aux": "Yuan-ManX/ComfyUI-AudioX"
         }
     ],
     "https://github.com/Yuan-ManX/ComfyUI-Bagel": [
@@ -18288,7 +18286,7 @@
             "Bori Qwen Image Resolution"
         ],
         {
-            "title_aux": "ComfyUI-Bori-JsonSetGetConverter"
+            "title_aux": "ComfyUI-Bori-QwenImageResolutions"
         }
     ],
     "https://github.com/bradsec/ComfyUI_ResolutionSelector": [
@@ -24163,16 +24161,6 @@
         ],
         {
             "title_aux": "comfyui-mosaic-blur"
-        }
-    ],
-    "https://github.com/fwack/ComfyUI_API_Manager_Pro": [
-        [
-            "APIRequestNode",
-            "PostImageToAPI",
-            "TextPromptCombinerNode"
-        ],
-        {
-            "title_aux": "ComfyUI_API_Manager"
         }
     ],
     "https://github.com/g0kuvonlange/ComfyUI-Load-From-URL": [
@@ -38885,7 +38873,7 @@
             "WarpFacesBack"
         ],
         {
-            "title_aux": "ComfyUI Gemini Nodes"
+            "title_aux": "comfyui_sunxAI_facetools"
         }
     ],
     "https://github.com/usrname0/comfyui-holdup": [
