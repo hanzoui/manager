@@ -1,6 +1,67 @@
 {
     "custom_nodes": [
         {
+            "author": "S4MUEL404",
+            "title": "ComfyUI S4Tool Text",
+            "id": "comfyui-s4tool-text",
+            "reference": "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Text",
+            "files": [
+                "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Text"
+            ],
+            "install_type": "git-clone",
+            "description": "Text rendering and styling nodes for ComfyUI. This extension provides a basic text renderer, multiple font loaders, and a style node that adds stroke, shadow, gradient fill, and opacity control."
+        },
+        {
+            "author": "luke-mino-altherr",
+            "title": "ComfyUI-Latent-Reverb",
+            "reference": "https://github.com/luke-mino-altherr/ComfyUI-LatentReverb",
+            "files": [
+                "https://github.com/luke-mino-altherr/ComfyUI-LatentReverb"
+            ],
+            "install_type": "git-clone",
+            "description": "Creates spatial echo and ambient effects by applying reverb-like processing directly in latent space"
+        },
+        {
+            "author": "iacoposk8",
+            "title": "ComfyUI XOR Text & Pickle Nodes",
+            "reference": "https://github.com/iacoposk8/xor_pickle_nodes",
+            "files": [
+                "https://github.com/iacoposk8/xor_pickle_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Three custom nodes for ComfyUI that allow you to encrypt and decrypt Python objects or text using simple XOR encryption."
+        },
+        {
+            "author": "shinich39",
+            "title": "comfyui-poor-textarea",
+            "reference": "https://github.com/shinich39/comfyui-poor-textarea",
+            "files": [
+                "https://github.com/shinich39/comfyui-poor-textarea"
+            ],
+            "install_type": "git-clone",
+            "description": "Add commentify, indentation, auto-close brackets in textarea."
+        },
+        {
+            "author": "HM-RunningHub",
+            "title": "ComfyUI DMOSpeech2 Node",
+            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_DMOSpeech2",
+            "files": [
+                "https://github.com/HM-RunningHub/ComfyUI_RH_DMOSpeech2"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a Seed-X-PPO-7B ComfyUI plugin. Easy to use"
+        },
+        {
+            "author": "Charonartist",
+            "title": "ComfyUI Smart Resize Node",
+            "reference": "https://github.com/Charonartist/comfyui-smart-resize-node",
+            "files": [
+                "https://github.com/Charonartist/comfyui-smart-resize-node"
+            ],
+            "install_type": "git-clone",
+            "description": "Smart resize node for ComfyUI that handles portrait/landscape images with short/long side specification"
+        },
+        {
             "author": "Windecay",
             "title": "ComfyUI-SDupcaleTiledSize",
             "reference": "https://github.com/Windecay/ComfyUI-SDupcaleTiledSize",

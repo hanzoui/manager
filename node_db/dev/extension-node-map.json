@@ -1119,6 +1119,9 @@
             "VTS Clip Text Encode",
             "VTS Color Mask To Mask",
             "VTS Colour Match",
+            "VTS Colour Match Advanced",
+            "VTS Colour Match First Frames",
+            "VTS Colour Match First Frames Bad Highlights",
             "VTS Conditioning Set Batch Mask",
             "VTS Count Characters",
             "VTS Create Character Mask",
@@ -2464,6 +2467,7 @@
             "mb Barcode",
             "mb CLIP Text Encoder",
             "mb Color Mask",
+            "mb Color Picker",
             "mb Data Type Converter",
             "mb Debug",
             "mb Demux",
@@ -2476,6 +2480,7 @@
             "mb File to Text",
             "mb Hash Generator",
             "mb Image Batch",
+            "mb Image Center Rotate",
             "mb Image Dimensions",
             "mb Image Dither",
             "mb Image Flip",
@@ -2491,6 +2496,7 @@
             "mb Select",
             "mb String",
             "mb Submit",
+            "mb Tensor Channel 4 to 3",
             "mb Text",
             "mb Text or File",
             "mb Text to File",
@@ -2823,6 +2829,21 @@
         ],
         {
             "title_aux": "ComfyUI-RBG-LoRA-Converter [UNSAFE]"
+        }
+    ],
+    "https://github.com/Randomwalkforest/Comfyui-Koi-Toolkit": [
+        [
+            "MaskExternalRectangle",
+            "SimpleImageStitch",
+            "imageStitchForICImproved",
+            "imageStitchForICImproved_CropBack"
+        ],
+        {
+            "author": "chflame",
+            "description": "A set of nodes for ComfyUI that can composite layer and mask to achieve Photoshop like functionality.",
+            "nickname": "LayerStyle",
+            "title": "LayerStyle",
+            "title_aux": "Comfyui-Koi-Toolkit"
         }
     ],
     "https://github.com/RicherdLee/comfyui-oss-image-save": [
@@ -4721,6 +4742,19 @@
             "title_aux": "Comfy-WaveSpeed [WIP]"
         }
     ],
+    "https://github.com/chenpipi0807/ComfyUI-InstantCharacterFlux": [
+        [
+            "EncodeRefImageIC",
+            "ICFluxOneKnob",
+            "ICStrengthController",
+            "LoadDINOv2Vision",
+            "LoadICWeights",
+            "LoadSigLIPVision"
+        ],
+        {
+            "title_aux": "ComfyUI-InstantCharacterFlux [WIP]"
+        }
+    ],
     "https://github.com/chetusangolgi/Comfyui-supabase": [
         [
             "SupabaseAudioUploader",
@@ -5501,11 +5535,13 @@
     ],
     "https://github.com/duckmartians/Duck_Nodes": [
         [
+            "Duck_AddTextOverlay",
             "Duck_LoadExcelRow",
             "Duck_LoadGoogleDocLine",
             "Duck_LoadGoogleSheetOneRow",
             "Duck_LoadWordLine",
-            "Duck_PromptLoader"
+            "Duck_PromptLoader",
+            "Duck_TextReplacer"
         ],
         {
             "title_aux": "Duck_Nodes [UNSAFE]"
@@ -6435,6 +6471,7 @@
     ],
     "https://github.com/iacoposk8/xor_pickle_nodes": [
         [
+            "DecryptXORText",
             "Load XOR Pickle From File",
             "Save XOR Pickle To File"
         ],
@@ -8111,6 +8148,9 @@
     ],
     "https://github.com/nobandegani/comfyui_ino_nodes": [
         [
+            "CloudreveInit",
+            "CloudreveSignin",
+            "CloudreveUploadFile",
             "Ino_BranchImage",
             "Ino_CalculateLoraConfig",
             "Ino_CountFiles",
@@ -9527,6 +9567,15 @@
             "title_aux": "comfyui-SetWallpaper"
         }
     ],
+    "https://github.com/twj515895394/ComfyUI-LowMemVideoSuite": [
+        [
+            "FFmpegVideoCombineLowMem",
+            "SaveSingleFrameToDisk"
+        ],
+        {
+            "title_aux": "ComfComfyUI-LowMemVideoSuite [UNSAFE]"
+        }
+    ],
     "https://github.com/tzsoulcap/ComfyUI-SaveImg-W-MetaData": [
         [
             "CAP Cfg Literal",
@@ -10263,6 +10312,20 @@
         ],
         {
             "title_aux": "Comfyui_image2prompt"
+        }
+    ],
+    "https://github.com/zhu733756/Comfyui-Anything-Converter": [
+        [
+            "FileConverter.FileDictConverter",
+            "FileConverter.FileSplitter",
+            "FileConverter.LineConverter",
+            "ImageCoverter.SaveImage",
+            "JsonCoverter.JsonCombiner",
+            "JsonCoverter.JsonParser",
+            "JsonCoverter.JsonPromptProcessor"
+        ],
+        {
+            "title_aux": "Comfyui-Anything-Converter [UNSAFE]"
         }
     ],
     "https://github.com/zhuanvi/ComfyUI-ZVNodes": [

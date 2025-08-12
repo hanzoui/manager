@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "zhu733756",
+            "title": "Comfyui-Anything-Converter [UNSAFE]",
+            "reference": "https://github.com/zhu733756/Comfyui-Anything-Converter",
+            "files": [
+                "https://github.com/zhu733756/Comfyui-Anything-Converter"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node extension designed for ComfyUI, providing JSON/TEXT/IMG handling functionality etc.[w/This node pack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
+            "author": "twj515895394",
+            "title": "ComfComfyUI-LowMemVideoSuite [UNSAFE]",
+            "reference": "https://github.com/twj515895394/ComfyUI-LowMemVideoSuite",
+            "files": [
+                "https://github.com/twj515895394/ComfyUI-LowMemVideoSuite"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a low-memory video composition plugin designed for ComfyUI, which uses FFmpeg to combine disk-stored frame images into a video, avoiding loading all frames into memory at once.[w/This node pack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
+            "author": "chenpipi0807",
+            "title": "ComfyUI-InstantCharacterFlux [WIP]",
+            "reference": "https://github.com/chenpipi0807/ComfyUI-InstantCharacterFlux",
+            "files": [
+                "https://github.com/chenpipi0807/ComfyUI-InstantCharacterFlux"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: IC → FLUX One-Knob, IC Strength Controller (InstantCharacter → FLUX), Load IC Weights, Load SigLIP Vision, Load DINOv2 Vision, Encode Reference Image (InstantCharacter)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Randomwalkforest",
+            "title": "Comfyui-Koi-Toolkit",
+            "reference": "https://github.com/Randomwalkforest/Comfyui-Koi-Toolkit",
+            "files": [
+                "https://github.com/Randomwalkforest/Comfyui-Koi-Toolkit"
+            ],
+            "install_type": "git-clone",
+            "description": "Koi Toolkit provides advanced nodes"
+        },
+        {
             "author": "Yuan-ManX",
             "title": "ComfyUI-Step1X-Edit [NAME CONFLICT]",
             "reference": "https://github.com/Yuan-ManX/ComfyUI-Step1X-Edit",
@@ -619,7 +659,7 @@
                 "https://github.com/RamonGuthrie/ComfyUI-RBG-LoraConverter"
             ],
             "install_type": "git-clone",
-            "description": "A node for converting LoRA (Low-Rank Adaptation) keys in ComfyUI. [w/This node pack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+            "description": "A node for converting LoRA (Low-Rank Adaptation) keys in ComfyUI.[w/This node pack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
         },
         {
             "author": "Estanislao-Oviedo",

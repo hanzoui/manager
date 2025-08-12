@@ -3376,6 +3376,14 @@
             "title_aux": "ComfyUI Auto LoRA"
         }
     ],
+    "https://github.com/Charonartist/comfyui-smart-resize-node": [
+        [
+            "SmartResizeNode"
+        ],
+        {
+            "title_aux": "ComfyUI Smart Resize Node"
+        }
+    ],
     "https://github.com/CheNing233/ComfyUI_Image_Pin": [
         [
             "ImagePin"
@@ -4938,6 +4946,7 @@
         [
             "EA_AutoTrimPingPong",
             "EA_FilenameCombine",
+            "EA_LightningMotionBias",
             "EA_ListVideos",
             "EA_ManifestIndex",
             "EA_PingPong",
@@ -6184,6 +6193,14 @@
         ],
         {
             "title_aux": "ComfyUI_RH_APICall"
+        }
+    ],
+    "https://github.com/HM-RunningHub/ComfyUI_RH_DMOSpeech2": [
+        [
+            "RunningHub DMOSpeech2"
+        ],
+        {
+            "title_aux": "ComfyUI DMOSpeech2 Node"
         }
     ],
     "https://github.com/HM-RunningHub/ComfyUI_RH_FramePack": [
@@ -8550,6 +8567,7 @@
     ],
     "https://github.com/LingSss9/comfyui-merge": [
         [
+            "LoadLoRAMenu",
             "MergeLoRAsKohyaSSLike",
             "OnlyLoadLoRAsModel",
             "SaveLoRAModels"
@@ -10964,6 +10982,18 @@
         ],
         {
             "title_aux": "ComfyUI S4Tool Image"
+        }
+    ],
+    "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Text": [
+        [
+            "S4Tools Text Basic",
+            "S4Tools Text Font Base64",
+            "S4Tools Text Font URL",
+            "S4Tools Text Font file",
+            "S4Tools Text Style"
+        ],
+        {
+            "title_aux": "ComfyUI S4Tool Text"
         }
     ],
     "https://github.com/SEkINVR/ComfyUI-SaveAs": [
@@ -15952,12 +15982,12 @@
     "https://github.com/aiaiaikkk/kontext-super-prompt": [
         [
             "APIFluxKontextEnhancer",
-            "AnnotationDataNode",
+            "KontextSuperPrompt",
             "LRPGCanvas",
             "LRPGCanvasTool",
             "OllamaFluxKontextEnhancerV2",
-            "TextGenWebUIFluxKontextEnhancer",
-            "VisualPromptEditor"
+            "OllamaServiceManager",
+            "TextGenWebUIFluxKontextEnhancer"
         ],
         {
             "title_aux": "kontext-super-prompt"
@@ -16852,8 +16882,10 @@
             "Sage_QuickSixLoraStack",
             "Sage_ReferenceImage",
             "Sage_SamplerInfo",
+            "Sage_SamplerSelector",
             "Sage_SaveImageWithMetadata",
             "Sage_SaveText",
+            "Sage_SchedulerSelector",
             "Sage_SetText",
             "Sage_SixLoraStack",
             "Sage_TextRandomLine",
@@ -22677,7 +22709,9 @@
         [
             "VaceAdvancedModelPatch",
             "VaceStrengthTester",
+            "WanVacePhantomDual",
             "WanVacePhantomExperimental",
+            "WanVacePhantomSimple",
             "WanVaceToVideoLatent"
         ],
         {
@@ -25993,6 +26027,16 @@
             "title_aux": "ComfyUI Fooocus Inpaint Wrapper"
         }
     ],
+    "https://github.com/iacoposk8/xor_pickle_nodes": [
+        [
+            "DecryptXORText",
+            "Load XOR Pickle From File",
+            "Save XOR Pickle To File"
+        ],
+        {
+            "title_aux": "ComfyUI XOR Text & Pickle Nodes"
+        }
+    ],
     "https://github.com/ialhabbal/OcclusionMask": [
         [
             "BatchLoadImages",
@@ -28961,6 +29005,7 @@
             "WanVideoATITracksVisualize",
             "WanVideoATI_comfy",
             "WanVideoAddExtraLatent",
+            "WanVideoAddStandInLatent",
             "WanVideoApplyNAG",
             "WanVideoBlockList",
             "WanVideoBlockSwap",
@@ -29000,6 +29045,7 @@
             "WanVideoRealisDanceLatents",
             "WanVideoSLG",
             "WanVideoSampler",
+            "WanVideoScheduler",
             "WanVideoSetBlockSwap",
             "WanVideoSetLoRAs",
             "WanVideoSetRadialAttention",
@@ -31400,6 +31446,14 @@
         ],
         {
             "title_aux": "ComfyUI-CatvtonFluxWrapper"
+        }
+    ],
+    "https://github.com/luke-mino-altherr/ComfyUI-LatentReverb": [
+        [
+            "LatentReverb"
+        ],
+        {
+            "title_aux": "ComfyUI-Latent-Reverb"
         }
     ],
     "https://github.com/lum3on/ComfyUI-FrameUtilitys": [
@@ -34370,6 +34424,7 @@
             "FaceEnhancementPipeline",
             "FaceEnhancementPipelineWithInjection",
             "FancyNoteNode",
+            "FancyTimerNode",
             "FileLoaderCrawl",
             "FilmGrainFX",
             "FluxAIO_CRT",
@@ -36906,6 +36961,7 @@
     "https://github.com/smthemex/ComfyUI_EchoMimic": [
         [
             "Echo_LoadModel",
+            "Echo_Predata",
             "Echo_Sampler"
         ],
         {
@@ -37602,6 +37658,7 @@
     ],
     "https://github.com/stduhpf/ComfyUI-WanMoeKSampler": [
         [
+            "SplitSigmasAtT",
             "WanMoeKSampler",
             "WanMoeKSamplerAdvanced"
         ],
