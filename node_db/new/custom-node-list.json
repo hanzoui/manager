@@ -1,6 +1,27 @@
 {
     "custom_nodes": [
         {
+            "author": "Comfy-Org",
+            "title": "NVIDIA FLUX NIM",
+            "id": "nimnodes",
+            "reference": "https://github.com/Comfy-Org/NIMnodes",
+            "files": [
+                "https://github.com/Comfy-Org/NIMnodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Provides nodes to utilise NVIDIA NIM, a set of accelerated inference microservices that allow you to run AI models on NVIDIA GPUs anywhere."
+        },
+        {
+            "author": "RainyN0077",
+            "title": "ComfyUI-PromptSE",
+            "reference": "https://github.com/RainyN0077/ComfyUI-PromptSE",
+            "files": [
+                "https://github.com/RainyN0077/ComfyUI-PromptSE"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful ComfyUI custom node for managing and combining multiple prompt entries. Supports weight adjustment, lexicon assistance, drag-and-drop sorting, and global settings to greatly enhance prompt engineering efficiency and flexibility."
+        },
+        {
             "author": "Baverne",
             "title": "comfyUI-TiledWan",
             "reference": "https://github.com/Baverne/comfyUI-TiledWan",

@@ -3771,6 +3771,17 @@
             "title_aux": "ComfyUI-FuncAsTexture-CoiiNode"
         }
     ],
+    "https://github.com/Comfy-Org/NIMnodes": [
+        [
+            "Get_HFToken",
+            "InstallNIMNode",
+            "LoadNIMNode",
+            "NIMFLUXNode"
+        ],
+        {
+            "title_aux": "NVIDIA FLUX NIM"
+        }
+    ],
     "https://github.com/ComfyAssets/ComfyUI-KikoStats": [
         [
             "ResourceMonitor"
@@ -10397,6 +10408,7 @@
             "KSamplerMultiSeed",
             "KSamplerMultiSeedPlus",
             "LensSimulatedBloom",
+            "PreviewImageQueue",
             "PromptRandomizer",
             "StringCombine",
             "TestResetButton",
@@ -10639,6 +10651,14 @@
             "title_aux": "LatentGC Aggressive"
         }
     ],
+    "https://github.com/RainyN0077/ComfyUI-PromptSE": [
+        [
+            "PromptSE"
+        ],
+        {
+            "title_aux": "ComfyUI-PromptSE"
+        }
+    ],
     "https://github.com/RamonGuthrie/ComfyUI-RBG-ImageStitchPlus": [
         [
             "RBGImageStitchPlus",
@@ -10806,11 +10826,14 @@
         [
             "RizzAnything",
             "RizzBatchImageLoader",
+            "RizzBlur",
             "RizzClean",
+            "RizzCropAndScaleFromMask",
             "RizzDynamicPromptGenerator",
             "RizzLoadLatestImage",
             "RizzLoadLatestMesh",
             "RizzModelBatchLoader",
+            "RizzPasteAndUnscale",
             "RizzUpscaleImageBatch"
         ],
         {
