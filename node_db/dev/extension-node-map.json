@@ -1313,6 +1313,9 @@
             "FluxLayerDiffuseEmptyConditioning",
             "FluxLayerDiffuseInfo",
             "FluxLayerDiffuseStandaloneLoader",
+            "LatentColorMatch",
+            "LatentColorMatchSimple",
+            "LatentImageAdjust",
             "LoadImageSequence",
             "LoadImageSequenceInfo",
             "PreviewTransparentImage",
@@ -2376,6 +2379,7 @@
             "Image_Resize",
             "MergeImageChannels",
             "Prism_Mirage",
+            "int_calculate_statistics",
             "random_any",
             "show_type",
             "timer",
@@ -2501,6 +2505,7 @@
             "mb Image Subtract",
             "mb Image to File",
             "mb KSampler",
+            "mb Mask Invert If Empty",
             "mb QR Code",
             "mb Select",
             "mb String",
@@ -2534,6 +2539,151 @@
         ],
         {
             "title_aux": "DMXAPI Nodes [WIP]"
+        }
+    ],
+    "https://github.com/MushroomFleet/DJZ-Nodes": [
+        [
+            "AnamorphicEffect",
+            "AspectSize",
+            "AspectSizeV2",
+            "BatchAlphaComposite",
+            "BatchOffset",
+            "BatchRangeInsert",
+            "BatchRangeSwap",
+            "BatchThief",
+            "BlackBarsV1",
+            "BlackBarsV2",
+            "BlackBarsV3",
+            "BorderCompositeAlpha",
+            "BracketCleaner",
+            "CRT_Effect_v1",
+            "CathodeRayEffect",
+            "ClassicFilmEffect",
+            "CombineAudio",
+            "DJZ-LoadLatent",
+            "DJZ-LoadLatentV2",
+            "DJZDatamosh",
+            "DJZDatamoshV2",
+            "DatasetWordcloud",
+            "DeadPixelEffect",
+            "DepthBasedPixelization",
+            "DinskyPlus",
+            "DinskyPlusV2",
+            "DjzDatabendingV1",
+            "DjzDatamoshV3",
+            "DjzDatamoshV4",
+            "DjzDatamoshV5",
+            "DjzDatamoshV6",
+            "DjzDatamoshV7",
+            "DjzDatamoshV8",
+            "FilmGateWeave",
+            "FilmGrainEffect",
+            "FilmGrainEffect_v2",
+            "FishEyeEffect",
+            "FishEyeV2",
+            "FractalGenerator",
+            "FractalGeneratorV2",
+            "FractalGeneratorV3",
+            "GSL_Filter_V1",
+            "HalationBloom",
+            "ImageInterleavedUpscaler",
+            "ImageInterleavedUpscalerV2",
+            "ImageSizeAdjuster",
+            "ImageSizeAdjusterV2",
+            "ImageSizeAdjusterV3",
+            "JitterEffect",
+            "KeyframeBasedUpscalerV1",
+            "KinescopeEffectV1",
+            "LensLeaks",
+            "LoadTextDirectory",
+            "LoadVideoDirectory",
+            "LoadVideoDirectoryV2",
+            "MotionBlending",
+            "NoiseFactory",
+            "NoiseFactoryV2",
+            "NoiseFactoryV3",
+            "NonSquarePixelsV1",
+            "PanavisionLensV2",
+            "ParametricMeshGen",
+            "ParametricMeshGenV2",
+            "ProjectFilePathNode",
+            "ProjectFolderPathNode",
+            "PromptCleaner",
+            "PromptCleanerV2",
+            "PromptDupeRemover",
+            "PromptDupeRemoverV2",
+            "PromptInject",
+            "PromptInjectV2",
+            "PromptSwap",
+            "RetroVideoText",
+            "ScreensaverGenerator",
+            "ScreensaverGeneratorV2",
+            "ScreensaverGeneratorV3",
+            "SequentialNumberGenerator",
+            "StringChaos",
+            "StringWeights",
+            "Technicolor3Strip_v1",
+            "Technicolor3Strip_v2",
+            "ThinkSeeker",
+            "ThreeToneStyler",
+            "TrianglesPlus",
+            "TrianglesPlusV2",
+            "UncleanSpeech",
+            "VGA_Effect_v1",
+            "VHS_Effect_V3",
+            "VHS_Effect_v1",
+            "VHS_Effect_v2",
+            "VideoBitClamp",
+            "VideoChromaticAberration",
+            "VideoCorridorV1",
+            "VideoCubeV1",
+            "VideoFilmDamage",
+            "VideoInterlaceFastV4",
+            "VideoInterlaceGANV3",
+            "VideoInterlaced",
+            "VideoInterlacedV2",
+            "VideoMazeV1",
+            "VideoMazeV2",
+            "VideoNoiseFactory",
+            "VideoPyramidV1",
+            "VideoRingPainter",
+            "VideoTemperatureV1",
+            "VideoText",
+            "VideoTextV2",
+            "VideoTimecode",
+            "VideoTrails",
+            "VideoTrailsV2",
+            "VideoVignettingV1",
+            "VoiceEffects",
+            "VoiceEffects2",
+            "WaveletCompose",
+            "WaveletDecompose",
+            "WinampViz",
+            "WinampVizV2",
+            "ZenakiVideoPromptV1",
+            "ZenkaiAmbienceAudioV1",
+            "ZenkaiControlPromptV1",
+            "ZenkaiControlPromptV2",
+            "ZenkaiDepthPrompt",
+            "ZenkaiImagePromptV1",
+            "ZenkaiImagePromptV2",
+            "ZenkaiPoseMap",
+            "ZenkaiPrompt",
+            "ZenkaiPromptV2",
+            "ZenkaiPromptV3",
+            "ZenkaiPromptV4",
+            "ZenkaiPromptV5",
+            "ZenkaiSceneVideoV1",
+            "ZenkaiVideoPose",
+            "ZenkaiWildcard",
+            "ZenkaiWildcardV2",
+            "Zenkai_IMPv1",
+            "djzTiling",
+            "djzTilingV2"
+        ],
+        {
+            "author": "DJZ-Nodes",
+            "title_aux": "DaimalyadNodes [WIP]"
         }
     ],
     "https://github.com/MythicalChu/ComfyUI-APG_ImYourCFGNow": [
@@ -2716,6 +2866,16 @@
         ],
         {
             "title_aux": "DoomFLUX Nodes [WIP]"
+        }
+    ],
+    "https://github.com/PixWizardry/ComfyUI_Sliding_Window": [
+        [
+            "CalculateLatentFrames",
+            "IterativeSampler",
+            "PrepareLatentSchedule"
+        ],
+        {
+            "title_aux": "ComfyUI Sliding Window [WIP]"
         }
     ],
     "https://github.com/Poseidon-fan/ComfyUI-fileCleaner": [
@@ -3483,6 +3643,15 @@
         ],
         {
             "title_aux": "ComfyUI Instructor Ollama"
+        }
+    ],
+    "https://github.com/TimothyCMeehan/comfyui-ck3-presets": [
+        [
+            "CK3ResizeImage",
+            "CK3SizePreset"
+        ],
+        {
+            "title_aux": "ComfyUI CK3 Presets"
         }
     ],
     "https://github.com/TinyBeeman/ComfyUI-TinyBee": [
@@ -4701,6 +4870,7 @@
             "CESILK_OpenAIChat",
             "CESILK_OpenAIImageBatchGenerator",
             "CESILK_OpenAIImageDescriptionToTextfile",
+            "CESILK_SaveAndUploadToGoogleDrive",
             "CESILK_SaveAndUploadToS3",
             "CESILK_SdxlImageSizes"
         ],
@@ -5301,6 +5471,7 @@
             "VideoTriangleCFGGuidance",
             "VoxelToMesh",
             "VoxelToMeshBasic",
+            "Wan22FunControlToVideo",
             "Wan22ImageToVideoLatent",
             "WanCameraEmbedding",
             "WanCameraImageToVideo",
@@ -8168,6 +8339,7 @@
             "CloudreveInit",
             "CloudreveSignin",
             "CloudreveUploadFile",
+            "IncrementBatchName",
             "Ino_BranchImage",
             "Ino_CalculateLoraConfig",
             "Ino_CountFiles",
@@ -8181,7 +8353,11 @@
             "Ino_SaveFile",
             "Ino_SaveImage",
             "Ino_StringToggleCase",
-            "Ino_VideoConvert"
+            "Ino_VideoConvert",
+            "RemoveFile",
+            "RemoveFolder",
+            "Unzip",
+            "Zip"
         ],
         {
             "title_aux": "Ino Custom Nodes"
@@ -9595,8 +9771,9 @@
     ],
     "https://github.com/twj515895394/ComfyUI-LowMemVideoSuite": [
         [
-            "FFmpegVideoCombineLowMem",
-            "SaveSingleFrameToDisk"
+            "FFmpeg \u89c6\u9891\u5408\u6210\uff08\u4f4e\u5185\u5b58\uff09 / FFmpegVideoCombineLowMem",
+            "\u4fdd\u5b58\u5355\u5e27\u5230\u78c1\u76d8 / SaveSingleFrameToDisk",
+            "\u6279\u91cf\u4fdd\u5b58\u5e27\u5230\u78c1\u76d8 / SaveFrameBatchToDisk"
         ],
         {
             "title_aux": "ComfComfyUI-LowMemVideoSuite [UNSAFE]"

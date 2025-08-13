@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "flybirdxx",
+            "title": "ComfyUI Sliding Window [WIP]",
+            "reference": "https://github.com/PixWizardry/ComfyUI_Sliding_Window",
+            "files": [
+                "https://github.com/PixWizardry/ComfyUI_Sliding_Window"
+            ],
+            "install_type": "git-clone",
+            "description": "This set of nodes provides a powerful sliding window or 'tiling' technique for processing long videos and animations in ComfyUI. It allows you to work on animations that are longer than your VRAM would typically allow by breaking the job into smaller, overlapping chunks and seamlessly blending them back together."
+        },
+        {
+            "author": "TimothyCMeehan",
+            "title": "ComfyUI CK3 Presets",
+            "reference": "https://github.com/TimothyCMeehan/comfyui-ck3-presets",
+            "files": [
+                "https://github.com/TimothyCMeehan/comfyui-ck3-presets"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for Crusader Kings III modding - size presets, image resize, style helpers"
+        },
+        {
+            "author": "driftjohnson",
+            "title": "DaimalyadNodes [WIP]",
+            "reference": "https://github.com/MushroomFleet/DJZ-Nodes",
+            "files": [
+                "https://github.com/MushroomFleet/DJZ-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "AspectSize and 100 more nodes\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "apeirography",
             "title": "DaimalyadNodes",
             "reference": "https://github.com/apeirography/DaimalyadNodes",

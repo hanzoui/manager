@@ -1,6 +1,96 @@
 {
     "custom_nodes": [
         {
+            "author": "Baverne",
+            "title": "comfyUI-TiledWan",
+            "reference": "https://github.com/Baverne/comfyUI-TiledWan",
+            "files": [
+                "https://github.com/Baverne/comfyUI-TiledWan"
+            ],
+            "install_type": "git-clone",
+            "description": "Node set and workflow to run wan2.1 vace with tiled while keeping temporal and spatial consistency"
+        },
+        {
+            "author": "teamalpha-ai",
+            "title": "ComfyUI-ImageTransformer",
+            "reference": "https://github.com/teamalpha-ai/comfyui-image-transformer",
+            "files": [
+                "https://github.com/teamalpha-ai/comfyui-image-transformer"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI wrapper nodes for Image Transformer"
+        },
+        {
+            "author": "flybirdxx",
+            "title": "ComfyUI-SDMatte",
+            "reference": "https://github.com/flybirdxx/ComfyUI-SDMatte",
+            "files": [
+                "https://github.com/flybirdxx/ComfyUI-SDMatte"
+            ],
+            "install_type": "git-clone",
+            "description": "SDMatte is an interactive image matting method based on stable diffusion, which supports three types of visual prompts (points, boxes, and masks) for accurately extracting target objects from natural images."
+        },
+        {
+            "author": "DenRakEiw",
+            "title": "ComfyUI Latent Color Tools",
+            "reference": "https://github.com/DenRakEiw/Latent_Nodes",
+            "files": [
+                "https://github.com/DenRakEiw/Latent_Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced color manipulation and image adjustments directly in ComfyUI's latent space"
+        },
+        {
+            "author": "karas17",
+            "title": "ComfyUI Camera Watermark",
+            "reference": "https://github.com/karas17/ComfyUI-Camera-Watermark",
+            "files": [
+                "https://github.com/karas17/ComfyUI-Camera-Watermark"
+            ],
+            "install_type": "git-clone",
+            "description": "A versatile and highly customizable node for ComfyUI to add camera-style watermarks and frames to your images. Whether you want to emulate the classic Leica look, add EXIF data, or create professional-looking framed images, this plugin has you covered."
+        },
+        {
+            "author": "njlent",
+            "title": "ComfyUI Wavelet Color Fix",
+            "reference": "https://github.com/njlent/ComfyUI_wavelet-colorfix",
+            "files": [
+                "https://github.com/njlent/ComfyUI_wavelet-colorfix"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a standalone node pack that provides powerful color correction methods for ComfyUI, extracted from the ComfyUI-DLoRAL project. It allows you to transfer the color profile from a source image or video to a target image or video.\nThis is ideal for restoring the original color to AI-processed videos (like upscaling or frame interpolation) or for creative color grading."
+        },
+        {
+            "author": "impactframes",
+            "title": "ComfyUI-yt_dl",
+            "reference": "https://github.com/if-ai/ComfyUI-yt_dl",
+            "files": [
+                "https://github.com/if-ai/ComfyUI-yt_dl"
+            ],
+            "install_type": "git-clone",
+            "description": "Download Youtube videos using ComfyUI"
+        },
+        {
+            "author": "SykkoAtHome",
+            "title": "Sykko Tools for ComfyUI",
+            "reference": "https://github.com/SykkoAtHome/ComfyUI_SykkoTools",
+            "files": [
+                "https://github.com/SykkoAtHome/ComfyUI_SykkoTools"
+             ],
+             "install_type": "git-clone",
+             "description": "Utilities for working with camera animations inside ComfyUI. The repository currently provides a node for loading camera motion from ASCII FBX files and a corresponding command line helper for debugging."
+        },
+        {
+            "author": "shinyakidoguchi301",
+            "title": "LoRA Tag Loader for ComfyUI",
+            "reference": "https://github.com/shinyakidoguchi301/comfyui-lora-tag-loader",
+            "files": [
+                "https://github.com/shinyakidoguchi301/comfyui-lora-tag-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node allows you to select a LoRA file from the models/loras directory (including subfolders), automatically load training tags from metadata or Eagle MEMO, set strength, and optionally display a preview image."
+        },
+        {
             "author": "S4MUEL404",
             "title": "ComfyUI S4Tool Text",
             "id": "comfyui-s4tool-text",
