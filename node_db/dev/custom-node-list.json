@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "KohakuBlueleaf",
+            "title": "hdm-ext [WIP]",
+            "reference": "https://github.com/KohakuBlueleaf/HDM-ext",
+            "files": [
+                "https://github.com/KohakuBlueleaf/HDM-ext"
+            ],
+            "install_type": "git-clone",
+            "description": "HDM(HomeDiffusionModel) Extension"
+        },
+        {
             "author": "flybirdxx",
             "title": "ComfyUI Sliding Window [WIP]",
             "reference": "https://github.com/PixWizardry/ComfyUI_Sliding_Window",
@@ -6244,16 +6254,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Zoom and Enhance Nodes, Text To String List, Choose String, Define Word, Lookup Word, Substitute Words, Dictionary to JSON, JSON file to Dictionary, JSON to Dictionary, Load Image And Info From Path, CubbyHack, Image to Solid Background"
-        },
-        {
-            "author": "hananbeer",
-            "title": "node_dev - ComfyUI Node Development Helper",
-            "reference": "https://github.com/hananbeer/node_dev",
-            "files": [
-                "https://github.com/hananbeer/node_dev"
-            ],
-            "install_type": "git-clone",
-            "description": "Browse to this endpoint to reload custom nodes for more streamlined development:\nhttp://127.0.0.1:8188/node_dev/reload/<module_name>"
         },
         {
             "author": "ChrisColeTech",

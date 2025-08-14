@@ -355,6 +355,7 @@
             "ImageResizeFluxKontext",
             "ImageResizeUniversal",
             "ImageSolid",
+            "ImageStrokeByMask",
             "ImageTileMerge",
             "ImageTileSplit",
             "ListCustomFloat",
@@ -3389,6 +3390,14 @@
             "title_aux": "ComfyUI Smart Resize Node"
         }
     ],
+    "https://github.com/Charonartist/comfyui-tag-remover": [
+        [
+            "TagRemoverNode"
+        ],
+        {
+            "title_aux": "ComfyUI Tag Remover"
+        }
+    ],
     "https://github.com/CheNing233/ComfyUI_Image_Pin": [
         [
             "ImagePin"
@@ -4723,7 +4732,11 @@
             "ImageDifferenceCmap",
             "ImagePadToResolution",
             "InsightFaceSimilarity",
+            "JsonPathQuery",
+            "JsonPathQuerySingle",
+            "JsonPathUpdate",
             "ParseBBoxQwenVL",
+            "ParseLlmJsonOutput",
             "PhotoDoddleConditioning",
             "SeedEditNode"
         ],
@@ -16224,6 +16237,8 @@
             "ComflyJimengApi",
             "ComflyJimengVideoApi",
             "ComflySeededit",
+            "Comfly_Doubao_Seededit",
+            "Comfly_Doubao_Seedream",
             "Comfly_Flux_Kontext",
             "Comfly_Flux_Kontext_Edit",
             "Comfly_Flux_Kontext_bfl",
@@ -29070,6 +29085,8 @@
             "DownloadAndLoadWav2VecModel",
             "DummyComfyWanModelObject",
             "ExtractStartFramesForContinuations",
+            "FantasyPortraitFaceDetector",
+            "FantasyPortraitModelLoader",
             "FantasyTalkingModelLoader",
             "FantasyTalkingWav2VecEmbeds",
             "LoadWanVideoClipTextEncoder",
@@ -29081,7 +29098,9 @@
             "WanVideoATITracks",
             "WanVideoATITracksVisualize",
             "WanVideoATI_comfy",
+            "WanVideoAddControlEmbeds",
             "WanVideoAddExtraLatent",
+            "WanVideoAddFantasyPortrait",
             "WanVideoAddStandInLatent",
             "WanVideoApplyNAG",
             "WanVideoBlockList",

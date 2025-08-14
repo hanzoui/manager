@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "hananbeer",
+            "title": "node_dev - ComfyUI Node Development Helper [REMOVED]",
+            "reference": "https://github.com/hananbeer/node_dev",
+            "files": [
+                "https://github.com/hananbeer/node_dev"
+            ],
+            "install_type": "git-clone",
+            "description": "Browse to this endpoint to reload custom nodes for more streamlined development:\nhttp://127.0.0.1:8188/node_dev/reload/<module_name>"
+        },
+        {
             "author": "Charonartist",
             "title": "Comfyui_gemini_tts_node [REMOVED]",
             "reference": "https://github.com/Charonartist/Comfyui_gemini_tts_node",

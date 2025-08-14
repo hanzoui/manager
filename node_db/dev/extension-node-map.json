@@ -180,6 +180,7 @@
             "ImageResizeFluxKontext",
             "ImageResizeUniversal",
             "ImageSolid",
+            "ImageStrokeByMask",
             "ImageTileMerge",
             "ImageTileSplit",
             "ListCustomFloat",
@@ -2015,6 +2016,15 @@
             "title_aux": "ComfyUI-RoysNodes [WIP]"
         }
     ],
+    "https://github.com/KohakuBlueleaf/HDM-ext": [
+        [
+            "HDMCameraParam",
+            "HDMLoader"
+        ],
+        {
+            "title_aux": "hdm-ext [WIP]"
+        }
+    ],
     "https://github.com/KoreTeknology/ComfyUI-Nai-Production-Nodes-Pack": [
         [
             "Brightness Image",
@@ -2479,7 +2489,6 @@
         [
             "mb Barcode",
             "mb CLIP Text Encoder",
-            "mb Color Mask",
             "mb Color Picker",
             "mb Data Type Converter",
             "mb Debug",
@@ -2494,8 +2503,8 @@
             "mb Hash Generator",
             "mb Image Batch",
             "mb Image Center Rotate",
-            "mb Image Dimensions",
             "mb Image Dither",
+            "mb Image Film Effect",
             "mb Image Flip",
             "mb Image Load",
             "mb Image Load from URL",
@@ -2505,7 +2514,8 @@
             "mb Image Subtract",
             "mb Image to File",
             "mb KSampler",
-            "mb Mask Invert If Empty",
+            "mb Mask Invert if Empty",
+            "mb Mask from Color",
             "mb QR Code",
             "mb Select",
             "mb String",
@@ -5724,11 +5734,13 @@
     "https://github.com/duckmartians/Duck_Nodes": [
         [
             "Duck_AddTextOverlay",
+            "Duck_EmptyLatentImage",
             "Duck_LoadExcelRow",
             "Duck_LoadGoogleDocLine",
             "Duck_LoadGoogleSheetOneRow",
             "Duck_LoadWordLine",
             "Duck_PromptLoader",
+            "Duck_QwenAspectRatios",
             "Duck_TextReplacer"
         ],
         {
@@ -9772,6 +9784,7 @@
     "https://github.com/twj515895394/ComfyUI-LowMemVideoSuite": [
         [
             "FFmpeg \u89c6\u9891\u5408\u6210\uff08\u4f4e\u5185\u5b58\uff09 / FFmpegVideoCombineLowMem",
+            "SaveImageWebsocket",
             "\u4fdd\u5b58\u5355\u5e27\u5230\u78c1\u76d8 / SaveSingleFrameToDisk",
             "\u6279\u91cf\u4fdd\u5b58\u5e27\u5230\u78c1\u76d8 / SaveFrameBatchToDisk"
         ],
@@ -10205,7 +10218,8 @@
     ],
     "https://github.com/xsai-collab/ComfyUI-CombineVideoAndSubtitle": [
         [
-            "CombineVideosFromFolder"
+            "CombineVideosFromFolder",
+            "getSubtitlesFromVideo"
         ],
         {
             "title_aux": "ComfyUI-CombineVideoAndSubtitle"
