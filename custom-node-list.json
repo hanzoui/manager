@@ -22690,16 +22690,6 @@
              "description": "A custom node collection for ComfyUI that provides advanced face detection, alignment, and transformation capabilities using MediaPipe Face Mesh."
         },
         {
-            "author": "SykkoAtHome",
-            "title": "Sykko Tools for ComfyUI",
-            "reference": "https://github.com/SykkoAtHome/ComfyUI_SykkoTools",
-            "files": [
-                "https://github.com/SykkoAtHome/ComfyUI_SykkoTools"
-             ],
-             "install_type": "git-clone",
-             "description": "Utilities for working with camera animations inside ComfyUI. The repository currently provides a node for loading camera motion from ASCII FBX files and a corresponding command line helper for debugging."
-        },
-        {
             "author": "Mattabyte",
             "title": "ComfyUI Secure API Call",
             "reference": "https://github.com/Mattabyte/ComfyUI-SecureApiCall",
@@ -27170,6 +27160,16 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom node for removing specified tags and their content from text"
+        },
+        {
+            "author": "Charonartist",
+            "title": "comfyui-last-frame-extractor",
+            "reference": "https://github.com/Charonartist/comfyui-last-frame-extractor",
+            "files": [
+                "https://github.com/Charonartist/comfyui-last-frame-extractor"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a ComfyUI custom node that extracts the last frame (image) from an input image batch. It is particularly useful when you want to obtain the final scene or frame in a video generation workflow."
         },
         {
             "author": "ptmaster",

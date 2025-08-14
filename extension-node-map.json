@@ -3382,6 +3382,14 @@
             "title_aux": "ComfyUI Auto LoRA"
         }
     ],
+    "https://github.com/Charonartist/comfyui-last-frame-extractor": [
+        [
+            "LastFrameExtractorNode"
+        ],
+        {
+            "title_aux": "comfyui-last-frame-extractor"
+        }
+    ],
     "https://github.com/Charonartist/comfyui-smart-resize-node": [
         [
             "SmartResizeNode"
@@ -4708,14 +4716,17 @@
     "https://github.com/Duanyll/duanyll_nodepack": [
         [
             "AdvancedMorphology",
+            "AsAny",
             "BBoxCrop",
             "BBoxImageStitcher",
             "CoverWordsWithRectangles",
             "CreateArkClient",
             "CreateBoundingBoxesMaskQwen",
+            "DownloadImageFromUrl",
             "DrawBBox",
             "DrawBBoxMask",
             "DrawBoundingBoxesQwen",
+            "DumpJson",
             "ExpandBBoxByRatio",
             "FluxKontextTrue3DPE",
             "FluxTextLoraLoader",
@@ -4736,8 +4747,10 @@
             "JsonPathQuerySingle",
             "JsonPathUpdate",
             "ParseBBoxQwenVL",
+            "ParseJson5",
             "ParseLlmJsonOutput",
             "PhotoDoddleConditioning",
+            "ReadTextFile",
             "SeedEditNode"
         ],
         {
@@ -13341,14 +13354,6 @@
             "title_aux": "Face Processor for ComfyUI"
         }
     ],
-    "https://github.com/SykkoAtHome/ComfyUI_SykkoTools": [
-        [
-            "LoadFBXCamera"
-        ],
-        {
-            "title_aux": "Sykko Tools for ComfyUI"
-        }
-    ],
     "https://github.com/T-Ph525/ComfyUI-Underage-Filter": [
         [
             "AgeCheckerNode",
@@ -20835,6 +20840,7 @@
             "GenerateSpeech",
             "GenerateVideo",
             "GroqProviderNode",
+            "HighLowSNR",
             "ImageComparer",
             "JoinStringsMulti",
             "LLMToolkitProviderSelector",
@@ -26757,6 +26763,7 @@
             "CM_Vec4UnaryOperation JK",
             "CR Apply ControlNet JK",
             "CR Apply LoRA Stack JK",
+            "CR Apply LoRA Stack Model Only JK",
             "CR Apply Multi-ControlNet Adv JK",
             "CR Apply Multi-ControlNet JK",
             "CR Aspect Ratio JK",
@@ -26773,6 +26780,7 @@
             "CR Int Input Switch JK",
             "CR Latent Input Switch JK",
             "CR LoRA Stack JK",
+            "CR LoRA Stack Model Only JK",
             "CR Load LoRA JK",
             "CR Mask Input Switch JK",
             "CR Mesh Input Switch JK",
@@ -26793,6 +26801,7 @@
             "CR VAE Input Switch JK",
             "Ckpt Loader JK",
             "Color Grading JK",
+            "Create Loop Schedule List",
             "Detailer Parameters JK",
             "Embedding Picker JK",
             "Embedding Picker Multi JK",
@@ -26850,6 +26859,7 @@
             "Image Upscale Parameters Extract JK",
             "Inject Noise Params JK",
             "Is Mask Empty JK",
+            "Ksampler Adv Parameters Default JK",
             "Ksampler Parameters Default JK",
             "Ksampler Parameters JK",
             "Latent Crop Offset JK",
@@ -34993,15 +35003,6 @@
         ],
         {
             "title_aux": "queuetools"
-        }
-    ],
-    "https://github.com/r-vage/ComfyUI-RvTools_v2": [
-        [
-            "Combine Video Clips",
-            "WanVideo Vace Seamless Join"
-        ],
-        {
-            "title_aux": "ComfyUI-RvTools_v2"
         }
     ],
     "https://github.com/r3dial/redial-discomphy": [

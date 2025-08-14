@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "SykkoAtHome",
+            "title": "Sykko Tools for ComfyUI [REMOVED]",
+            "reference": "https://github.com/SykkoAtHome/ComfyUI_SykkoTools",
+            "files": [
+                "https://github.com/SykkoAtHome/ComfyUI_SykkoTools"
+             ],
+             "install_type": "git-clone",
+             "description": "Utilities for working with camera animations inside ComfyUI. The repository currently provides a node for loading camera motion from ASCII FBX files and a corresponding command line helper for debugging."
+        },
+        {
             "author": "hananbeer",
             "title": "node_dev - ComfyUI Node Development Helper [REMOVED]",
             "reference": "https://github.com/hananbeer/node_dev",
