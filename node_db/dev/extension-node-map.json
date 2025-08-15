@@ -1844,6 +1844,24 @@
             "title_aux": "ComfyUI-igTools"
         }
     ],
+    "https://github.com/InfiniNode/Comfyui-InfiniNode-Model-Suite": [
+        [
+            "InfiniNode_ApplyKeymapFile",
+            "InfiniNode_CompareStateDicts",
+            "InfiniNode_ComponentCombiner",
+            "InfiniNode_ComponentSplitter",
+            "InfiniNode_LoadStateDict",
+            "InfiniNode_MergeAddDifference",
+            "InfiniNode_MergeSLERP",
+            "InfiniNode_MergeWeightedSum",
+            "InfiniNode_PruneKeys",
+            "InfiniNode_RenameKeys",
+            "InfiniNode_SaveStateDict"
+        ],
+        {
+            "title_aux": "Comfyui-InfiniNode-Model-Suite [UNSAFE]"
+        }
+    ],
     "https://github.com/IsItDanOrAi/ComfyUI-exLoadout": [
         [
             "dropdowns",
@@ -6697,7 +6715,8 @@
     "https://github.com/idoru/ComfyUI-SKCFI-NetworkFileIO": [
         [
             "FilestashUploadNode",
-            "HttpUploadNode"
+            "HttpUploadNode",
+            "MultipartFileHTTPUploadNode"
         ],
         {
             "title_aux": "Filestash Upload Node [UNSAFE]"

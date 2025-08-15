@@ -1954,6 +1954,18 @@
             "title_aux": "seamless-clone-comfyui"
         }
     ],
+    "https://github.com/Alectriciti/comfyui-creativeprompts": [
+        [
+            "ShuffleTags",
+            "ShuffleTagsAdvanced",
+            "StringListAppend",
+            "WildcardPrompts",
+            "WildcardReplace"
+        ],
+        {
+            "title_aux": "comfyui-creativeprompts"
+        }
+    ],
     "https://github.com/Alexankharin/camera-comfyUI": [
         [
             "CameraInterpolationNode",
@@ -2430,6 +2442,18 @@
         ],
         {
             "title_aux": "ComfyUI-ImageCropper"
+        }
+    ],
+    "https://github.com/Avalre/ComfyUI-avaNodes": [
+        [
+            "Checkpoint+",
+            "Cond Upscaler",
+            "DeepCache+",
+            "KSampler+",
+            "VidToTrainingData"
+        ],
+        {
+            "title_aux": "ComfyUI-avaNodes"
         }
     ],
     "https://github.com/Azornes/Comfyui-LayerForge": [
@@ -3542,6 +3566,7 @@
             "Latent Normalize Channels",
             "Latent Replace State Info",
             "Latent Transfer State Info",
+            "Latent TrimVideo State Info",
             "Latent to Cuda",
             "Latent to RawX",
             "LatentBatch_channels",
@@ -4348,6 +4373,14 @@
         ],
         {
             "title_aux": "ComfyUI Latent Color Tools"
+        }
+    ],
+    "https://github.com/DenRakEiw/WAN_NN_Latent_Upscale": [
+        [
+            "UniversalNNLatentUpscale"
+        ],
+        {
+            "title_aux": "Universal NN Latent Upscaler for ComfyUI"
         }
     ],
     "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes": [
@@ -5498,6 +5531,14 @@
         ],
         {
             "title_aux": "ComfyUI-ParamNodes"
+        }
+    ],
+    "https://github.com/FearL0rd/ComfyUI-MaskAIFingerprint": [
+        [
+            "MaskAIFingerprint"
+        ],
+        {
+            "title_aux": "ComfyUI MaskAIFingerprint"
         }
     ],
     "https://github.com/Feidorian/feidorian-ComfyNodes": [
@@ -14251,6 +14292,15 @@
         ],
         {
             "title_aux": "ComfyUI-Visionatrix"
+        }
+    ],
+    "https://github.com/VraethrDalkr/ComfyUI-ProgressiveBlend": [
+        [
+            "ProgressiveColorMatchBlend",
+            "ProgressiveImageBatchBlend"
+        ],
+        {
+            "title_aux": "ComfyUI-ProgressiveBlend"
         }
     ],
     "https://github.com/VrchStudio/comfyui-web-viewer": [
@@ -23553,6 +23603,14 @@
             "title_aux": "Fearnworks Nodes"
         }
     ],
+    "https://github.com/feffy380/comfyui-chroma-cache": [
+        [
+            "ChromaCache"
+        ],
+        {
+            "title_aux": "Chroma Cache"
+        }
+    ],
     "https://github.com/feixuetuba/Spleeter": [
         [
             "Spleeter"
@@ -29506,6 +29564,14 @@
             "title_aux": "ComfyUI_alkaid"
         }
     ],
+    "https://github.com/kusurin/ComfyUI-chronophotography": [
+        [
+            "CreateChronophotography"
+        ],
+        {
+            "title_aux": "ComfyUI-chronophotography"
+        }
+    ],
     "https://github.com/kwaroran/abg-comfyui": [
         [
             "Remove Image Background (abg)"
@@ -32491,6 +32557,7 @@
             "ImageSaturation",
             "ImageSaverMira",
             "ImageSharpness",
+            "ImageToGzippedBase64",
             "ImageToneCurve",
             "IntMultiplication",
             "IntSubtraction",
@@ -33156,6 +33223,17 @@
         ],
         {
             "title_aux": "ComfyUI-Image-Captioner"
+        }
+    ],
+    "https://github.com/neverbiasu/ComfyUI-Ovis-U1": [
+        [
+            "OvisU1ImageEdit",
+            "OvisU1ImageToText",
+            "OvisU1ModelLoader",
+            "OvisU1TextToImage"
+        ],
+        {
+            "title_aux": "ComfyUI-Ovis-U1"
         }
     ],
     "https://github.com/neverbiasu/ComfyUI-SAM2": [
