@@ -946,7 +946,8 @@
             "ImageCaptioner",
             "ImageCaptionerPostProcessing",
             "Quen3Helper",
-            "Quen3HelperGGUF"
+            "Quen3HelperGGUF",
+            "SingleImageCaptioner"
         ],
         {
             "title_aux": "ComfyUI_ImageCaptioner"
@@ -1956,11 +1957,12 @@
     ],
     "https://github.com/Alectriciti/comfyui-creativeprompts": [
         [
+            "PromptGenerator",
+            "PromptReplace",
+            "PromptRewrap",
             "ShuffleTags",
             "ShuffleTagsAdvanced",
-            "StringListAppend",
-            "WildcardPrompts",
-            "WildcardReplace"
+            "StringListAppend"
         ],
         {
             "title_aux": "comfyui-creativeprompts"
@@ -4759,10 +4761,13 @@
             "DrawBBox",
             "DrawBBoxMask",
             "DrawBoundingBoxesQwen",
+            "DrawTextInBBox",
             "DumpJson",
             "ExpandBBoxByRatio",
+            "FillBBoxWithImage",
             "FluxKontextTrue3DPE",
             "FluxTextLoraLoader",
+            "GetTextBBoxWithAnchor",
             "HfCheckpointLoader",
             "HfClipLoader",
             "HfDiffusionModelLoader",
@@ -9612,6 +9617,7 @@
             "StitchingVideo",
             "Video2Frames",
             "VideoFlip",
+            "VideoPlayback",
             "VideoTransition"
         ],
         {
@@ -9716,6 +9722,14 @@
         ],
         {
             "title_aux": "ComfyUI-Paint3D-Nodes"
+        }
+    ],
+    "https://github.com/NHLStenden/ComfyUI-ImageBag": [
+        [
+            "EnhancedImageColourTransferNode"
+        ],
+        {
+            "title_aux": "ComfyUI-ProgressiveBlend"
         }
     ],
     "https://github.com/NMWave/ComfyUI-Nader-Tagging": [
@@ -12937,7 +12951,8 @@
     "https://github.com/Starnodes2024/ComfyUI_StarBetaNodes": [
         [
             "StarApplyOverlayDepth",
-            "StarQwenImageRatio"
+            "StarQwenImageRatio",
+            "StarQwenWanRatio"
         ],
         {
             "title_aux": "ComfyUI_StarBetaNodes"
@@ -14203,6 +14218,14 @@
             "title_aux": "ComfyUI-SaveImage-PP"
         }
     ],
+    "https://github.com/Verolelb/ComfyUI-Qwen-Aspect-Ratio": [
+        [
+            "QwenAspectRatioSelectorLatent"
+        ],
+        {
+            "title_aux": "ComfyUI-Qwen-Aspect-Ratio"
+        }
+    ],
     "https://github.com/VertexAnomaly/ComfyUI_ImageSentinel": [
         [
             "ImageSentinel"
@@ -14332,6 +14355,7 @@
             "VrchImageSaverNode",
             "VrchImageSwitchOSCControlNode",
             "VrchImageWebSocketChannelLoaderNode",
+            "VrchImageWebSocketFilterSettingsNode",
             "VrchImageWebSocketSettingsNode",
             "VrchImageWebSocketSimpleWebViewerNode",
             "VrchImageWebSocketWebViewerNode",
@@ -16931,6 +16955,15 @@
             "nickname": "Handy-Nodes-ComfyUI",
             "title": "Handy-Nodes-ComfyUI",
             "title_aux": "Handy Node ComfyUI"
+        }
+    ],
+    "https://github.com/apeirography/DaimalyadNodes": [
+        [
+            "DaimalyadModelDownloader",
+            "DaimalyadWildcardProcessor"
+        ],
+        {
+            "title_aux": "DaimalyadNodes"
         }
     ],
     "https://github.com/arcum42/ComfyUI_SageUtils": [
@@ -21004,6 +21037,7 @@
             "FluxGuidance",
             "FluxKontextImageScale",
             "FluxKontextMaxImageNode",
+            "FluxKontextMultiReferenceLatentMethod",
             "FluxKontextProImageNode",
             "FluxProCannyNode",
             "FluxProDepthNode",
@@ -21358,7 +21392,6 @@
             "TomePatchModel",
             "TorchCompileModel",
             "TrainLoraNode",
-            "TrimVideoLatent",
             "TripleCLIPLoader",
             "TripoConversionNode",
             "TripoImageToModelNode",
@@ -21390,17 +21423,7 @@
             "VideoTriangleCFGGuidance",
             "VoxelToMesh",
             "VoxelToMeshBasic",
-            "Wan22FunControlToVideo",
-            "Wan22ImageToVideoLatent",
             "WanCameraEmbedding",
-            "WanCameraImageToVideo",
-            "WanFirstLastFrameToVideo",
-            "WanFunControlToVideo",
-            "WanFunInpaintToVideo",
-            "WanImageToVideo",
-            "WanPhantomSubjectToVideo",
-            "WanTrackToVideo",
-            "WanVaceToVideo",
             "WebcamCapture",
             "unCLIPCheckpointLoader",
             "unCLIPConditioning"
@@ -24024,8 +24047,7 @@
     ],
     "https://github.com/flybirdxx/ComfyUI-SDMatte": [
         [
-            "SDMatteApply",
-            "SDMatteModelLoader"
+            "SDMatteApply"
         ],
         {
             "title_aux": "ComfyUI-SDMatte"
@@ -29157,6 +29179,7 @@
             "FantasyPortraitModelLoader",
             "FantasyTalkingModelLoader",
             "FantasyTalkingWav2VecEmbeds",
+            "LandmarksToImage",
             "LoadWanVideoClipTextEncoder",
             "LoadWanVideoT5TextEncoder",
             "MultiTalkModelLoader",
@@ -31797,6 +31820,17 @@
         ],
         {
             "title_aux": "ComfyUI-Unwatermark"
+        }
+    ],
+    "https://github.com/mamorett/ComfyUI_minicpmv4": [
+        [
+            "GenCheckerImage",
+            "MiniCPMV4GGUFLoader",
+            "MiniCPMV4VisionInfer",
+            "VisionPromptBuilder"
+        ],
+        {
+            "title_aux": "MiniCPM\u2011V\u20114 (GGUF) for ComfyUI"
         }
     ],
     "https://github.com/mang01010/MangoNodePack": [
@@ -34903,13 +34937,21 @@
             "PVL ComfyDeploy API Caller",
             "PVL KONTEXT MAX",
             "PVLCheckIfConnected",
+            "PVL_NoneOutputNode",
             "PVL_Switch_Huge",
             "PVL_fal_FluxDev_API",
             "PVL_fal_FluxGeneral_API",
+            "PVL_fal_FluxPro_Fill_API",
+            "PVL_fal_FluxPro_v1_1_Ultra_API",
             "PVL_fal_FluxWithLora_API",
             "PVL_fal_KontextDevInpaint_API",
+            "PVL_fal_KontextDevLora_API",
             "PVL_fal_KontextMaxMulti_API",
             "PVL_fal_KontextMaxSingle_API",
+            "PVL_fal_KontextPro_API",
+            "PVL_fal_Kontext_Dev_API",
+            "PVL_fal_LumaPhoton_FlashReframe_API",
+            "PVL_fal_LumaPhoton_Reframe_API",
             "PvlKontextMax"
         ],
         {
@@ -37451,6 +37493,16 @@
             "title_aux": "ComfyUI_StableAudio_Open"
         }
     ],
+    "https://github.com/smthemex/ComfyUI_StableAvatar": [
+        [
+            "StableAvatar_LoadModel",
+            "StableAvatar_Predata",
+            "StableAvatar_Sampler"
+        ],
+        {
+            "title_aux": "ComfyUI_StableAvatar"
+        }
+    ],
     "https://github.com/smthemex/ComfyUI_Stable_Makeup": [
         [
             "StableMakeup_LoadModel",
@@ -37468,8 +37520,7 @@
             "Pre_Translate_prompt",
             "StoryDiffusion_Apply",
             "StoryDiffusion_CLIPTextEncode",
-            "StoryDiffusion_KSampler",
-            "StoryDiffusion_Lora_Control"
+            "StoryDiffusion_KSampler"
         ],
         {
             "title_aux": "ComfyUI_StoryDiffusion"
@@ -38119,6 +38170,7 @@
             "JM-KLingAI-API/image2video",
             "JM-KLingAI-API/lip-sync",
             "JM-KLingAI-API/lip-sync-async",
+            "JM-KLingAI-API/multi-image2image",
             "JM-KLingAI-API/multi-image2video",
             "JM-KLingAI-API/query-status",
             "JM-KLingAI-API/text2video",

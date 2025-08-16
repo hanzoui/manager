@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "mico-world",
+            "title": "comfyui_mico_node",
+            "reference": "https://github.com/mico-world/comfyui_mico_node",
+            "files": [
+                "https://github.com/mico-world/comfyui_mico_node"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: HF UNET Loader"
+        },
+        {
             "author": "InfiniNode",
             "title": "Comfyui-InfiniNode-Model-Suite [UNSAFE]",
             "reference": "https://github.com/InfiniNode/Comfyui-InfiniNode-Model-Suite",
@@ -59,16 +69,6 @@
             ],
             "install_type": "git-clone",
             "description": "AspectSize and 100 more nodes\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "apeirography",
-            "title": "DaimalyadNodes",
-            "reference": "https://github.com/apeirography/DaimalyadNodes",
-            "files": [
-                "https://github.com/apeirography/DaimalyadNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Model Downloader by DaimAlYad"
         },
         {
             "author": "tnil25",

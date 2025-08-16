@@ -1,6 +1,58 @@
 {
     "custom_nodes": [
         {
+            "author": "smthemex",
+            "title": "ComfyUI_StableAvatar",
+            "reference": "https://github.com/smthemex/ComfyUI_StableAvatar",
+            "files": [
+                "https://github.com/smthemex/ComfyUI_StableAvatar"
+            ],
+            "install_type": "git-clone",
+            "description": "StableAvatar: Infinite-Length Audio-Driven Avatar Video Generation,you can try it in ComfyUI"
+        },
+        {
+            "author": "jupo-ai",
+            "title": "comfy-preview-model",
+            "id": "comfy-preview-model",
+            "reference": "https://github.com/jupo-ai/comfy-preview-model",
+            "files": [
+                "https://github.com/jupo-ai/comfy-preview-model"
+            ],
+            "install_type": "git-clone",
+            "description": "Preview media file in model's dir."
+        },
+        {
+            "author": "jupo-ai",
+            "title": "comfy-join-prompt",
+            "id": "comfy-join-prompt",
+            "reference": "https://github.com/jupo-ai/comfy-join-prompt",
+            "files": [
+                "https://github.com/jupo-ai/comfy-join-prompt"
+            ],
+            "install_type": "git-clone",
+            "description": "Join Multiline text."
+        },
+        {
+            "author": "mamorett",
+            "title": "MiniCPM‑V‑4 (GGUF) for ComfyUI",
+            "reference": "https://github.com/mamorett/ComfyUI_minicpmv4",
+            "files": [
+                "https://github.com/mamorett/ComfyUI_minicpmv4"
+            ],
+            "install_type": "git-clone",
+            "description": "Modular ComfyUI nodes to run the vision-language model MiniCPM‑V‑4 in GGUF format, powered by llama‑cpp‑python."
+        },
+        {
+            "author": "Verolelb",
+            "title": "ComfyUI-Qwen-Aspect-Ratio",
+            "reference": "https://github.com/Verolelb/ComfyUI-Qwen-Aspect-Ratio",
+            "files": [
+                "https://github.com/Verolelb/ComfyUI-Qwen-Aspect-Ratio"
+            ],
+            "install_type": "git-clone",
+            "description": "A node to provide recommended aspect ratios for the Qwen model series."
+        },
+        {
             "author": "kusurin",
             "title": "ComfyUI-chronophotography",
             "reference": "https://github.com/kusurin/ComfyUI-chronophotography",
@@ -635,67 +687,6 @@
             ],
             "install_type": "git-clone",
             "description": "A custom node for ComfyUI that integrates Alibaba's Qwen-Image model for high-quality image generation with exceptional text rendering capabilities."
-        },
-        {
-            "author": "BobRandomNumber",
-            "title": "ComfyUI-TLBVFI",
-            "reference": "https://github.com/BobRandomNumber/ComfyUI-TLBVFI",
-            "files": [
-                "https://github.com/BobRandomNumber/ComfyUI-TLBVFI"
-            ],
-            "install_type": "git-clone",
-            "description": "wrapper for the TLB-VFI: Temporal-Aware Latent Brownian Bridge Diffusion for Video Frame Interpolation project"
-        },
-        {
-            "author": "11dogzi",
-            "title": "Qwen-Image ComfyUI",
-            "reference": "https://github.com/11dogzi/Comfyui-Qwen-Image",
-            "files": [
-                "https://github.com/11dogzi/Comfyui-Qwen-Image"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a custom node package that integrates the Qwen-Image model into ComfyUI."
-        },
-        {
-            "author": "jqy-yo",
-            "title": "ComfyUI Gemini Nodes",
-            "id": "gemini-nodes-jqy",
-            "reference": "https://github.com/jqy-yo/comfyui-gemini-nodes",
-            "files": [
-                "https://github.com/jqy-yo/comfyui-gemini-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for integrating Google Gemini API with ComfyUI, providing powerful AI capabilities for text generation, image generation, and video analysis. Nodes: Gemini Text API, Gemini Image Editor, Gemini Image Gen Advanced, Gemini Video Captioner."
-        },
-        {
-            "author": "stduhpf",
-            "title": "Wan22FirstLastFrameToVideoLatent for ComfyUI",
-            "reference": "https://github.com/stduhpf/ComfyUI--Wan22FirstLastFrameToVideoLatent",
-            "files": [
-                "https://github.com/stduhpf/ComfyUI--Wan22FirstLastFrameToVideoLatent"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a custom node for ComfyUI that can be used to generate videos from either a starting frame, an end frame or both; with the Wan2.2 5B model (which uses the new Wan2.2 VAE, unlike Wan 2.2 A14B model wich uses the old Wan2.1 VAE)."
-        },
-        {
-            "author": "Novice_Chen",
-            "title": "ComfyUI-XingLiu",
-            "reference": "https://github.com/NewNoviceChen/ComfyUI-XingLiu",
-            "files": [
-                "https://github.com/NewNoviceChen/ComfyUI-XingLiu"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node that integrates LibLib's text-to-image and image-to-image generation capabilities, with customizable ControlNet and Lora support."
-        },
-        {
-            "author": "GeekyGhost",
-            "title": "ComfyUI Geeky AudioMixer",
-            "reference": "https://github.com/GeekyGhost/ComfyUI_Geeky_AudioMixer",
-            "files": [
-                "https://github.com/GeekyGhost/ComfyUI_Geeky_AudioMixer"
-            ],
-            "install_type": "git-clone",
-            "description": "Audio Mixing node for ComfyUI"
         }
     ]
 }
