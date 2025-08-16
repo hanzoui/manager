@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "flybirdxx",
+            "title": "ComfyUI Sliding Window [REMOVED]",
+            "reference": "https://github.com/PixWizardry/ComfyUI_Sliding_Window",
+            "files": [
+                "https://github.com/PixWizardry/ComfyUI_Sliding_Window"
+            ],
+            "install_type": "git-clone",
+            "description": "This set of nodes provides a powerful sliding window or 'tiling' technique for processing long videos and animations in ComfyUI. It allows you to work on animations that are longer than your VRAM would typically allow by breaking the job into smaller, overlapping chunks and seamlessly blending them back together."
+        },
+        {
             "author": "SykkoAtHome",
             "title": "Sykko Tools for ComfyUI [REMOVED]",
             "reference": "https://github.com/SykkoAtHome/ComfyUI_SykkoTools",
