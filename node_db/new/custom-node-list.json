@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "L33chKing",
+            "title": "Tag Frequency Weighter for ComfyUI",
+            "reference": "https://github.com/L33chKing/comfyui-tag-frequency-weighter",
+            "files": [
+                "https://github.com/L33chKing/comfyui-tag-frequency-weighter"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that weights tags based on their frequency/rarity in danbooru"
+        },
+        {
+            "author": "krigeta",
+            "title": "qwen-image-controlnets-comfyui",
+            "reference": "https://github.com/krigeta/qwen-image-controlnets-comfyui",
+            "files": [
+                "https://github.com/krigeta/qwen-image-controlnets-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "creating a custom node to test how to use Blocknet controlnets in comfyUI using logic from Diffsynth Studio."
+        },
+        {
             "author": "jupo-ai",
             "title": "comfy-linear-move",
             "id": "comfy-linear-move",
@@ -64,14 +84,15 @@
             "description": "Adaptive Prompts is a modern reimagining of dynamic prompts for ComfyUI. It lets you randomize, restructure, and clean up prompts with powerful wildcard and string tools. For the sake of consistency, I will still refer to them as Dynamic Prompts."
         },
         {
-            "author": "vslinx",
+            "author": "vsLinx",
             "title": "ComfyUI vsLinx Nodes",
+            "id": "comfyui-vslinx-nodes",
             "reference": "https://github.com/vslinx/ComfyUI-vslinx-nodes",
             "files": [
                 "https://github.com/vslinx/ComfyUI-vslinx-nodes"
             ],
             "install_type": "git-clone",
-            "description": "Custom nodes that let you quickly load multiple images via a multi-select dialog with preview. The images are instantly uploaded to the input folder and can be output either as a list or a batch."
+            "description": "Custom nodes that let you quickly load multiple images via a multi-select dialog with preview. The images are instantly uploaded to the input folder and can be output either as a list or a batch. "
         },
         {
             "author": "HoangYell",
@@ -144,16 +165,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node for creating chronophotography effects from video frames"
-        },
-        {
-            "author": "InfiniNode",
-            "title": "Comfyui-InfiniNode-Model-Suite",
-            "reference": "https://github.com/InfiniNode/Comfyui-InfiniNode-Model-Suite",
-            "files": [
-                "https://github.com/InfiniNode/Comfyui-InfiniNode-Model-Suite"
-            ],
-            "install_type": "git-clone",
-            "description": "Welcome to the InfiniNode Model Suite, a custom node pack for ComfyUI that transforms the process of manipulating generative AI models. Our suite is a direct implementation of the 'GUI-Based Key Converter Development Plan,' designed to remove technical barriers for advanced AI practitioners and integrate seamlessly with existing image generation pipelines."
         },
         {
             "author": "DenRakEiw",

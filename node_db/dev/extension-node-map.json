@@ -1860,24 +1860,6 @@
             "title_aux": "ComfyUI-igTools"
         }
     ],
-    "https://github.com/InfiniNode/Comfyui-InfiniNode-Model-Suite": [
-        [
-            "InfiniNode_ApplyKeymapFile",
-            "InfiniNode_CompareStateDicts",
-            "InfiniNode_ComponentCombiner",
-            "InfiniNode_ComponentSplitter",
-            "InfiniNode_LoadStateDict",
-            "InfiniNode_MergeAddDifference",
-            "InfiniNode_MergeSLERP",
-            "InfiniNode_MergeWeightedSum",
-            "InfiniNode_PruneKeys",
-            "InfiniNode_RenameKeys",
-            "InfiniNode_SaveStateDict"
-        ],
-        {
-            "title_aux": "Comfyui-InfiniNode-Model-Suite [UNSAFE]"
-        }
-    ],
     "https://github.com/IsItDanOrAi/ComfyUI-exLoadout": [
         [
             "dropdowns",
@@ -3087,7 +3069,8 @@
             "SeqTex_Step1_ProcessMesh",
             "SeqTex_Step2_GenerateCondition",
             "SeqTex_Step3_GenerateTexture",
-            "SeqTex_Step4_SaveMesh"
+            "SeqTex_Step4_SaveMesh",
+            "SeqTex_TensorsToImages"
         ],
         {
             "title_aux": "ComfyUI-SeqTex"
@@ -6308,6 +6291,7 @@
         [
             "CreatePointsString",
             "XISER_Canvas",
+            "XIS_AdjustTheImage",
             "XIS_CanvasMaskProcessor",
             "XIS_CompositorProcessor",
             "XIS_CropImage",
@@ -6338,6 +6322,7 @@
             "XIS_MaskBatchProcessor",
             "XIS_MaskCompositeOperation",
             "XIS_MergePackImages",
+            "XIS_MultiPointGradient",
             "XIS_MultiPromptSwitch",
             "XIS_PSDLayerExtractor",
             "XIS_PackImages",
@@ -10333,13 +10318,16 @@
     ],
     "https://github.com/yanhuifair/ComfyUI-FairLab": [
         [
+            "AddNode",
             "AppendTagsNode",
             "Base64ToImageNode",
             "BlacklistTagsNode",
+            "DivideNode",
             "DownloadImageNode",
             "FillAlphaNode",
             "FixUTF8StringNode",
             "FloatNode",
+            "IfNode",
             "ImageResizeNode",
             "ImageSizeNode",
             "ImageToBase64Node",
@@ -10351,12 +10339,14 @@
             "LoadStringNode",
             "MaxNode",
             "MinNode",
+            "MultiplyNode",
             "OllamaClientNode",
             "OllamaNode",
             "OutpaintingPadNode",
             "PrependTagsNode",
             "PrintAnyNode",
             "PrintImageNode",
+            "PythonScriptNode",
             "RemoveDuplicateTagsNode",
             "SaveImageToDirectoryNode",
             "SaveStringToDirectoryNode",
@@ -10365,6 +10355,7 @@
             "StringCombineNode",
             "StringNode",
             "StringTranslateNode",
+            "SubtractNode",
             "VideoToImageNode"
         ],
         {

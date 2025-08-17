@@ -31083,14 +31083,15 @@
             "description": "A collection of utility nodes for ComfyUI that enhance workflow capabilities with advanced loaders and processing tools."
         },
         {
-            "author": "vslinx",
+            "author": "vsLinx",
             "title": "ComfyUI vsLinx Nodes",
+            "id": "comfyui-vslinx-nodes",
             "reference": "https://github.com/vslinx/ComfyUI-vslinx-nodes",
             "files": [
                 "https://github.com/vslinx/ComfyUI-vslinx-nodes"
             ],
             "install_type": "git-clone",
-            "description": "Custom nodes that let you quickly load multiple images via a multi-select dialog with preview. The images are instantly uploaded to the input folder and can be output either as a list or a batch."
+            "description": "Custom nodes that let you quickly load multiple images via a multi-select dialog with preview. The images are instantly uploaded to the input folder and can be output either as a list or a batch. "
         },
         {
             "author": "HoangYell",
@@ -31101,6 +31102,26 @@
             ],
             "install_type": "git-clone",
             "description": "A collection of custom ComfyUI nodes for advanced video processing and editing workflows."
+        },
+        {
+            "author": "krigeta",
+            "title": "qwen-image-controlnets-comfyui",
+            "reference": "https://github.com/krigeta/qwen-image-controlnets-comfyui",
+            "files": [
+                "https://github.com/krigeta/qwen-image-controlnets-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "creating a custom node to test how to use Blocknet controlnets in comfyUI using logic from Diffsynth Studio."
+        },
+        {
+            "author": "L33chKing",
+            "title": "Tag Frequency Weighter for ComfyUI",
+            "reference": "https://github.com/L33chKing/comfyui-tag-frequency-weighter",
+            "files": [
+                "https://github.com/L33chKing/comfyui-tag-frequency-weighter"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that weights tags based on their frequency/rarity in danbooru"
         },
 
 
@@ -31538,17 +31559,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "vsLinx",
-            "title": "ComfyUI vsLinx Nodes",
-            "id": "comfyui-vslinx-nodes",
-            "reference": "https://github.com/vslinx/ComfyUI-vslinx-nodes",
-            "files": [
-                "https://github.com/vslinx/ComfyUI-vslinx-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes that let you quickly load multiple images via a multi-select dialog with preview. The images are instantly uploaded to the input folder and can be output either as a list or a batch. "
         }
     ]
 }

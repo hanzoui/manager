@@ -4788,6 +4788,8 @@
             "JsonPathQuery",
             "JsonPathQuerySingle",
             "JsonPathUpdate",
+            "MaskToBBox",
+            "MergeBBoxes",
             "ParseBBoxQwenVL",
             "ParseJson5",
             "ParseLlmJsonOutput",
@@ -5710,7 +5712,9 @@
             "DecryptWatermark",
             "EncryptWatermark",
             "GetResolutionForVR",
-            "ImageVRConverter"
+            "ImageVRConverter",
+            "SaveStrippedUTF8File",
+            "StripXML"
         ],
         {
             "title_aux": "Stereoscopic"
@@ -8076,6 +8080,14 @@
             "title_aux": "ComfyUI_MatAnyone_Kytra"
         }
     ],
+    "https://github.com/L33chKing/comfyui-tag-frequency-weighter": [
+        [
+            "TagFrequencyWeighter"
+        ],
+        {
+            "title_aux": "Tag Frequency Weighter for ComfyUI"
+        }
+    ],
     "https://github.com/LAOGOU-666/ComfyUI-LG_HotReload": [
         [
             "HotReload_Terminal"
@@ -9037,7 +9049,8 @@
             "\ud83d\udcdd Wildcard Processor",
             "\ud83d\udd20 Tiktoken Tokenizer Info",
             "\ud83d\uddbc\ufe0f Download Image from URL",
-            "\ud83d\uddbc\ufe0f+\ud83d\udcdd Load Text-Image Pairs",
+            "\ud83d\uddbc\ufe0f+\ud83d\udcdd Load Text-Image Pair (Single)",
+            "\ud83d\uddbc\ufe0f+\ud83d\udcdd Load Text-Image Pairs (List)",
             "\ud83d\uddbc\ufe0f\ud83d\udcca Metadata Extractor",
             "\ud83e\uddf9 String Cleaning"
         ],
@@ -14784,7 +14797,8 @@
         [
             "ApplyFaceProcessor",
             "FaceOnlyModeSwitch",
-            "FaceProcessorLoader"
+            "FaceProcessorLoader",
+            "VideoFramePreprocessor"
         ],
         {
             "title_aux": "Stand-In Official Preprocessor ComfyUI Nodes"
@@ -15078,27 +15092,6 @@
         ],
         {
             "title_aux": "SwD Preset Selector for ComfyUI"
-        }
-    ],
-    "https://github.com/YarvixPA/ComfyUI-YarvixPA": [
-        [
-            "ApplyStyleModelEnhanced",
-            "ApplyStyleModelSimple",
-            "BatchImagesNode",
-            "FrameCalculator",
-            "InpaintConditioningNode",
-            "Prepimg2Vid",
-            "RemoveBackgroundNode",
-            "StitchImages",
-            "StitchImagesAndMask",
-            "TextFieldNode",
-            "UnstitchImages",
-            "UnstitchImagesAndMask",
-            "UpscaleImageWithModel",
-            "VTracerImageVectorizerNode"
-        ],
-        {
-            "title_aux": "ComfyUI-YarvixPA"
         }
     ],
     "https://github.com/YaserJaradeh/comfyui-yaser-nodes": [
@@ -23547,14 +23540,6 @@
             "title_aux": "ComfyUI-EmbeddingPipelineAnalytics"
         }
     ],
-    "https://github.com/fblissjr/ComfyUI-QwenImageWanBridge": [
-        [
-            "QwenImageToWANLatentBridge"
-        ],
-        {
-            "title_aux": "ComfyUI-QwenImageWanBridge"
-        }
-    ],
     "https://github.com/fblissjr/ComfyUI-WanActivationEditor": [
         [
             "WanVideoActivationEditor",
@@ -29560,6 +29545,17 @@
             "title_aux": "ComfyUI kpsss34 Custom Node"
         }
     ],
+    "https://github.com/krigeta/qwen-image-controlnets-comfyui": [
+        [
+            "QwenImageBlockwiseControlNetApply",
+            "QwenImageBlockwiseControlNetLoader",
+            "QwenImageCannyPreprocessor",
+            "QwenImageDepthPreprocessor"
+        ],
+        {
+            "title_aux": "qwen-image-controlnets-comfyui"
+        }
+    ],
     "https://github.com/krmahil/comfyui-hollow-preserve": [
         [
             "RemoveEnclosedMaskedAreas"
@@ -35047,6 +35043,7 @@
             "LineScreen",
             "LuminousFlow",
             "OrderedDithering",
+            "Pixel8Bit",
             "PixelFloat",
             "PixelRedistribution",
             "Rekked",
@@ -38318,7 +38315,7 @@
     "https://github.com/sysL-padawan/comfyui-elevenlabs-integration": [
         [
             "ElevenlabsTextToEffect",
-            "ElevenlabsTextToVoice"
+            "ElevenlabsTextToSpeech"
         ],
         {
             "title_aux": "ComfyUI ElevenLabs API integration"
