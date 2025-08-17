@@ -1000,6 +1000,22 @@
             "title_aux": "ComfyUI_ToolsForAutomask"
         }
     ],
+    "https://github.com/BiodigitalJaz/ComfyUI-Dafaja-Nodes": [
+        [
+            "DafajaBackgroundRemover",
+            "DafajaExportSTL",
+            "DafajaMeshGenerator",
+            "DafajaMeshInfo",
+            "DafajaMeshNormalizer",
+            "DafajaMeshProcessor",
+            "DafajaSTLValidator",
+            "DafajaStemsMidiSeparator",
+            "DafajaVAEDecoder"
+        ],
+        {
+            "title_aux": "ComfyUI-Dafaja-Nodes [WIP]"
+        }
+    ],
     "https://github.com/BlueDangerX/ComfyUI-BDXNodes": [
         [
             "BDXTestInt",
@@ -2052,7 +2068,8 @@
     "https://github.com/KohakuBlueleaf/HDM-ext": [
         [
             "HDMCameraParam",
-            "HDMLoader"
+            "HDMLoader",
+            "HDMTreadGamma"
         ],
         {
             "title_aux": "hdm-ext [WIP]"
@@ -2534,6 +2551,7 @@
             "mb Eval",
             "mb Exec",
             "mb File to Image",
+            "mb File to Latent",
             "mb File to Text",
             "mb Hash Generator",
             "mb Illuminarty",
@@ -2551,6 +2569,8 @@
             "mb Image Subtract",
             "mb Image to File",
             "mb KSampler",
+            "mb Latent to File",
+            "mb Mask Apply",
             "mb Mask Invert if Empty",
             "mb Mask from Color",
             "mb QR Code",
@@ -3058,6 +3078,19 @@
         ],
         {
             "title_aux": "comfyui-oss-image-save [WIP]"
+        }
+    ],
+    "https://github.com/Rizzlord/ComfyUI-SeqTex": [
+        [
+            "SeqTex_Load_Mesh",
+            "SeqTex_Loader",
+            "SeqTex_Step1_ProcessMesh",
+            "SeqTex_Step2_GenerateCondition",
+            "SeqTex_Step3_GenerateTexture",
+            "SeqTex_Step4_SaveMesh"
+        ],
+        {
+            "title_aux": "ComfyUI-SeqTex"
         }
     ],
     "https://github.com/RobeSantoro/ComfyUI-RobeNodes": [
@@ -5314,6 +5347,7 @@
             "RandomNoise",
             "RebatchImages",
             "RebatchLatents",
+            "RecordAudio",
             "RecraftColorRGB",
             "RecraftControls",
             "RecraftCreativeUpscaleNode",
@@ -5871,6 +5905,15 @@
         ],
         {
             "title_aux": "Select key from JSON (Alpha) [UNSAFE]"
+        }
+    ],
+    "https://github.com/ervinne13/ComfyUI-Metadata-Hub": [
+        [
+            "Metadata Hub",
+            "Save Image With Metadata"
+        ],
+        {
+            "title_aux": "ComfyUI-Metadata-Hub"
         }
     ],
     "https://github.com/esciron/ComfyUI-HunyuanVideoWrapper-Extended": [
@@ -10400,6 +10443,7 @@
             "LamViewVideo",
             "LamViewVideoOut",
             "LoadDirImgPaths",
+            "LoadImagePath",
             "LoadReplaceImage",
             "LongTextToList",
             "MultiControlNetApply",

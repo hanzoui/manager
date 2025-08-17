@@ -1,6 +1,89 @@
 {
     "custom_nodes": [
         {
+            "author": "jupo-ai",
+            "title": "comfy-linear-move",
+            "id": "comfy-linear-move",
+            "reference": "https://github.com/jupo-ai/comfy-linear-move",
+            "files": [
+                "https://github.com/jupo-ai/comfy-linear-move"
+            ],
+            "install_type": "git-clone",
+            "description": "Move nodes linearly."
+        },
+        {
+            "author": "Marco Zanella",
+            "title": "ComfyUI-BooleanExpression",
+            "id": "ComfyUI-BooleanExpression",
+            "reference": "https://github.com/marco-zanella/ComfyUI-BooleanExpression",
+            "files": [
+                "https://github.com/marco-zanella/ComfyUI-BooleanExpression"
+            ],
+            "install_type": "git-clone",
+            "tags": ["boolean", "logic", "comparison"],
+            "description": "A collection of logic and comparison nodes for ComfyUI. This package adds building blocks for boolean logic, arithmetic comparisons, and string comparisons, making it easier to design conditional workflows directly in ComfyUI."
+        },
+        {
+            "author": "SilverAndJade",
+            "title": "ComfyUI Silver Nodes",
+            "reference": "https://github.com/SilverAndJade/comfyui-silver-nodes",
+            "files": [
+                "https://github.com/SilverAndJade/comfyui-silver-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of utility nodes for ComfyUI that enhance workflow capabilities with advanced loaders and processing tools."
+        },
+        {
+            "author": "WeChatCV",
+            "title": "Stand-In Official Preprocessor ComfyUI Nodes",
+            "reference": "https://github.com/WeChatCV/Stand-In_Preprocessor_ComfyUI",
+            "files": [
+                "https://github.com/WeChatCV/Stand-In_Preprocessor_ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository provides a temporary ComfyUI node implementation of the Stand-In preprocessor, aiming to correct the misunderstanding of Stand-In’s preprocessing logic in [a/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper).\n[w/We strongly recommend using the workflows provided in this repo to ensure proper compatibility and the best identity-preserving performance.]"
+        },
+        {
+            "author": "Azornes",
+            "title": "Comfyui-Resolution-Master",
+            "reference": "https://github.com/Azornes/Comfyui-Resolution-Master",
+            "files": [
+                "https://github.com/Azornes/Comfyui-Resolution-Master"
+            ],
+            "install_type": "git-clone",
+            "description": " Precise resolution and aspect ratio control for ComfyUI"
+        },
+        {
+            "author": "Alectriciti",
+            "title": "comfyui-adaptiveprompts",
+            "reference": "https://github.com/Alectriciti/comfyui-adaptiveprompts",
+            "files": [
+                "https://github.com/Alectriciti/comfyui-adaptiveprompts"
+            ],
+            "install_type": "git-clone",
+            "description": "Adaptive Prompts is a modern reimagining of dynamic prompts for ComfyUI. It lets you randomize, restructure, and clean up prompts with powerful wildcard and string tools. For the sake of consistency, I will still refer to them as Dynamic Prompts."
+        },
+        {
+            "author": "vslinx",
+            "title": "ComfyUI vsLinx Nodes",
+            "reference": "https://github.com/vslinx/ComfyUI-vslinx-nodes",
+            "files": [
+                "https://github.com/vslinx/ComfyUI-vslinx-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes that let you quickly load multiple images via a multi-select dialog with preview. The images are instantly uploaded to the input folder and can be output either as a list or a batch."
+        },
+        {
+            "author": "HoangYell",
+            "title": "comfyui-hoangyell-video-edit",
+            "reference": "https://github.com/HoangYell/comfyui-hoangyell-video",
+            "files": [
+                "https://github.com/HoangYell/comfyui-hoangyell-video"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom ComfyUI nodes for advanced video processing and editing workflows."
+        },
+        {
             "author": "smthemex",
             "title": "ComfyUI_StableAvatar",
             "reference": "https://github.com/smthemex/ComfyUI_StableAvatar",
@@ -617,76 +700,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node for cropping videos using FFmpeg with pixel-precise control."
-        },
-        {
-            "author": "max-dingsda",
-            "title": "OllamaTools for ComfyUI",
-            "reference": "https://github.com/max-dingsda/OllamaTools",
-            "files": [
-                "https://github.com/max-dingsda/OllamaTools"
-            ],
-            "install_type": "git-clone",
-            "description": "This project makes local LLMs easy to use for prompt enhancement and image captioning –No API keys. No external tools. No headache."
-        },
-        {
-            "author": "fidecastro",
-            "title": "comfyui-llamacpp-client",
-            "reference": "https://github.com/fidecastro/comfyui-llamacpp-client",
-            "files": [
-                "https://github.com/fidecastro/comfyui-llamacpp-client"
-            ],
-            "install_type": "git-clone",
-            "description": "A comprehensive ComfyUI custom node that provides complete client functionality for llama-server from [a/llama.cpp](https://github.com/ggml-org/llama.cpp). This node acts as a bridge between ComfyUI workflows and llama-server instances, supporting every single parameter and endpoint that llama-server offers."
-        },
-        {
-            "author": "verIdyia",
-            "title": "ComfyUI Qwen-Image DFloat11 Nodes",
-            "reference": "https://github.com/verIdyia/ComfyUI-Qwen-Image-DF11",
-            "files": [
-                "https://github.com/verIdyia/ComfyUI-Qwen-Image-DF11"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom nodes for the DFloat11 compressed Qwen-Image model. This package provides efficient image generation with reduced memory usage through DFloat11 compression technology."
-        },
-        {
-            "author": "ranska",
-            "title": "Pixel Palette Art",
-            "reference": "https://github.com/ranska/pixel_palette_art",
-            "files": [
-                "https://github.com/ranska/pixel_palette_art"
-            ],
-            "install_type": "git-clone",
-            "description": "Comfyui custom node: Set of tools for pixel art palette."
-        },
-        {
-            "author": "thezveroboy",
-            "title": "comfyui-RandomPromptsZveroboy",
-            "reference": "https://github.com/thezveroboy/comfyui-RandomPromptsZveroboy",
-            "files": [
-                "https://github.com/thezveroboy/comfyui-RandomPromptsZveroboy"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom node for ComfyUI that fixes an existing node [a/comfyui-dynamicprompts](https://github.com/adieyal/comfyui-dynamicprompts)."
-        },
-        {
-            "author": "PICOPON",
-            "title": "ComfyUI OpenAI Node",
-            "reference": "https://github.com/PICOPON/ComfyUI-API-OpenAI-Node",
-            "files": [
-                "https://github.com/PICOPON/ComfyUI-API-OpenAI-Node"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node that integrates OpenAI-compatible APIs for prompt generation and enhancement, specifically designed for Stable Diffusion workflows."
-        },
-        {
-            "author": "HM-RunningHub",
-            "title": "ComfyUI Qwen-Image Node",
-            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_Qwen-Image",
-            "files": [
-                "https://github.com/HM-RunningHub/ComfyUI_RH_Qwen-Image"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that integrates Alibaba's Qwen-Image model for high-quality image generation with exceptional text rendering capabilities."
         }
     ]
 }

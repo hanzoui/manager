@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "kblueleaf",
+            "title": "HDM [WIP]",
+            "reference": "https://github.com/KohakuBlueleaf/HDM-ext",
+            "files": [
+                "https://github.com/KohakuBlueleaf/HDM-ext"
+            ],
+            "install_type": "git-clone",
+            "description": "HDM(HomeDiffusionModel) Extension"
+        },
+        {
+            "author": "Rizzlord",
+            "title": "ComfyUI-SeqTex",
+            "reference": "https://github.com/Rizzlord/ComfyUI-SeqTex",
+            "files": [
+                "https://github.com/Rizzlord/ComfyUI-SeqTex"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: SeqTex Load Mesh, SeqTex Loader, SeqTex Step 1: Process Mesh, SeqTex Step 2: Generate Condition, SeqTex Step 3: Generate Texture, SeqTex Step 4: Apply Texture to Trimesh"
+        },
+        {
+            "author": "BiodigitalJaz",
+            "title": "ComfyUI-Dafaja-Nodes [WIP]",
+            "reference": "https://github.com/BiodigitalJaz/ComfyUI-Dafaja-Nodes",
+            "files": [
+                "https://github.com/BiodigitalJaz/ComfyUI-Dafaja-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for 3D mesh processing and STL export\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "ervinne13",
+            "title": "ComfyUI-Metadata-Hub",
+            "reference": "https://github.com/ervinne13/ComfyUI-Metadata-Hub",
+            "files": [
+                "https://github.com/ervinne13/ComfyUI-Metadata-Hub"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Metadata Hub, Save Image With Metadata"
+        },
+        {
             "author": "mico-world",
             "title": "comfyui_mico_node",
             "reference": "https://github.com/mico-world/comfyui_mico_node",
