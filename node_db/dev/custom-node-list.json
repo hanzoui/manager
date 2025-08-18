@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "Maff3u",
+            "title": "MattiaNodes - Points Editor On Cropped [WIP]",
+            "reference": "https://github.com/Maff3u/MattiaNodes",
+            "files": [
+                "https://github.com/Maff3u/MattiaNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A standalone ComfyUI custom node for interactive coordinate editing with crop factor correction.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "viik420",
+            "title": "AdvancedModelDownloader [UNSAFE]",
+            "reference": "https://github.com/viik420/AdvancedModelDownloader",
+            "files": [
+                "https://github.com/viik420/AdvancedModelDownloader"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that adds a powerful, integrated downloader to the main menu, complete with an automatic update checker.[w/This nodepack provides functionality to access files through an endpoint.]"
+        },
+        {
+            "author": "DenRakEiw",
+            "title": "Comfyui-Aspect-Ratio-Processor [WIP]",
+            "reference": "https://github.com/DenRakEiw/Comfyui-Aspect-Ratio-Processor",
+            "files": [
+                "https://github.com/DenRakEiw/Comfyui-Aspect-Ratio-Processor"
+            ],
+            "install_type": "git-clone",
+            "description": "Comfyui Aspect Ratio Processor 2:3 / 3:2\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "yuvraj108c",
+            "title": "ComfyUI HYPIR [NAME CONFLICT]",
+            "reference": "https://github.com/yuvraj108c/ComfyUI-HYPIR",
+            "files": [
+                "https://github.com/yuvraj108c/ComfyUI-HYPIR"
+            ],
+            "install_type": "git-clone",
+            "description": "This project is a ComfyUI wrapper for [a/HYPIR](https://github.com/XPixelGroup/HYPIR) (Harnessing Diffusion-Yielded Score Priors for Image Restoration)"
+        },
+        {
             "author": "miabrahams",
             "title": "ComfyUI-WebAutomation [UNSAFE]",
             "reference": "https://github.com/miabrahams/ComfyUI-WebAutomation",
@@ -2681,16 +2721,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI implementation of the partfield nvidea segmentation models\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "shinich39",
-            "title": "comfyui-textarea-is-shit",
-            "reference": "https://github.com/shinich39/comfyui-textarea-is-shit",
-            "files": [
-               "https://github.com/shinich39/comfyui-textarea-is-shit"
-            ],
-            "description": "HTML gives me a textarea like piece of shit.",
-            "install_type": "git-clone"
         },
         {
             "author": "shinich39",

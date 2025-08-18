@@ -1321,6 +1321,14 @@
             "title_aux": "ComfyUI Node Switcher"
         }
     ],
+    "https://github.com/DenRakEiw/Comfyui-Aspect-Ratio-Processor": [
+        [
+            "AspectRatioProcessor"
+        ],
+        {
+            "title_aux": "Comfyui-Aspect-Ratio-Processor [WIP]"
+        }
+    ],
     "https://github.com/DenRakEiw/DenRakEiw_Nodes": [
         [
             "ColorGeneratorNode",
@@ -2405,6 +2413,14 @@
         ],
         {
             "title_aux": "comfy-tif-support"
+        }
+    ],
+    "https://github.com/Maff3u/MattiaNodes": [
+        [
+            "PointsEditorOnCropped"
+        ],
+        {
+            "title_aux": "MattiaNodes - Points Editor On Cropped [WIP]"
         }
     ],
     "https://github.com/MakkiShizu/ComfyUI-MakkiTools": [
@@ -8345,6 +8361,8 @@
             "CloudreveSignin",
             "CloudreveUploadFile",
             "IncrementBatchName",
+            "InoGetSamplerConfig",
+            "InoGetSamplerModel",
             "Ino_BranchImage",
             "Ino_CalculateLoraConfig",
             "Ino_CountFiles",
@@ -9877,6 +9895,14 @@
             "title_aux": "ComfyUI_Toolbox"
         }
     ],
+    "https://github.com/viik420/AdvancedModelDownloader": [
+        [
+            "AdvancedDownloader"
+        ],
+        {
+            "title_aux": "AdvancedModelDownloader [UNSAFE]"
+        }
+    ],
     "https://github.com/virallover/comfyui-virallover": [
         [
             "BrightnessCorrectionNode",
@@ -10212,7 +10238,8 @@
     "https://github.com/xsai-collab/ComfyUI-CombineVideoAndSubtitle": [
         [
             "CombineVideosFromFolder",
-            "getSubtitlesFromVideo"
+            "getSubtitlesFromVideo",
+            "mergeVideoAndSubtitle"
         ],
         {
             "title_aux": "ComfyUI-CombineVideoAndSubtitle"
@@ -10274,12 +10301,14 @@
             "FillAlphaNode",
             "FixUTF8StringNode",
             "FloatNode",
+            "FloatToIntNode",
             "IfNode",
             "ImageResizeNode",
             "ImageSizeNode",
             "ImageToBase64Node",
             "ImageToVideoNode",
             "IntNode",
+            "IntToFloatNode",
             "LoadImageFromDirectoryNode",
             "LoadImageFromURLNode",
             "LoadStringFromDirectoryNode",
@@ -10287,6 +10316,7 @@
             "MaxNode",
             "MinNode",
             "MultiplyNode",
+            "NumberNode",
             "OllamaClientNode",
             "OllamaNode",
             "OutpaintingPadNode",
@@ -10479,6 +10509,15 @@
         ],
         {
             "title_aux": "ComfyUI-Dropbox-API [WIP]"
+        }
+    ],
+    "https://github.com/yuvraj108c/ComfyUI-HYPIR": [
+        [
+            "HYPIRProcess",
+            "LoadHYPIRModel"
+        ],
+        {
+            "title_aux": "ComfyUI HYPIR [NAME CONFLICT]"
         }
     ],
     "https://github.com/zackabrams/ComfyUI-KeySyncWrapper": [

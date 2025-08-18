@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "moonwhaler",
+            "title": "SeedVR2 Tiling Upscaler",
+            "reference": "https://github.com/moonwhaler/comfyui-seedvr2-tilingupscaler",
+            "files": [
+                "https://github.com/moonwhaler/comfyui-seedvr2-tilingupscaler"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for memory-efficient image upscaling using SeedVR2 models with advanced tiling and detail-preserving stitching."
+        },
+        {
+            "author": "routhakash",
+            "title": "AkkiNodes LLM Suite: Your Personal AI Film Studio",
+            "reference": "https://github.com/routhakash/AkkiNodes-LLM-Suite-for-ComfyUI",
+            "files": [
+                "https://github.com/routhakash/AkkiNodes-LLM-Suite-for-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "A suite of advanced ComfyUI custom nodes for a complete 'Script-to-Screen' workflow, powered by local LLMs."
+        },
+        {
+            "author": "Maxed-Out-99",
+            "title": "ComfyUI-SmartModelLoaders-MXD",
+            "reference": "https://github.com/Maxed-Out-99/ComfyUI-SmartModelLoaders-MXD",
+            "files": [
+                "https://github.com/Maxed-Out-99/ComfyUI-SmartModelLoaders-MXD"
+            ],
+            "install_type": "git-clone",
+            "description": "Smart, unified model loaders for ComfyUI that support both standard .safetensors and quantized .gguf formats — no switching nodes required. Includes flexible UNET and CLIP loaders that work across models like SDXL, SD3, Flux, and more."
+        },
+        {
             "author": "L33chKing",
             "title": "Tag Frequency Weighter for ComfyUI",
             "reference": "https://github.com/L33chKing/comfyui-tag-frequency-weighter",
@@ -661,56 +691,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node that parses prompt text for LoRA tags and visualizes their metadata, including trigger words, strength values, thumbnail previews, and example images."
-        },
-        {
-            "author": "HWDigi",
-            "title": "Factory Prompt Generator",
-            "reference": "https://github.com/HWDigi/Factory-Prompts_comfyui",
-            "files": [
-                "https://github.com/HWDigi/Factory-Prompts_comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "A comprehensive ComfyUI custom node suite for advanced Safe for Work prompt generation across all checkpoint types (Pony, SDXL, SD1.5, and more). This SFW edition is specifically designed for professional workflows, educational environments, and GitHub hosting compliance."
-        },
-        {
-            "author": "BitWalker",
-            "title": "FlowCV",
-            "reference": "https://github.com/Koren-cy/FlowCV",
-            "files": [
-                "https://github.com/Koren-cy/FlowCV"
-            ],
-            "install_type": "git-clone",
-            "description": "Visual opencv node package based on comfy ui"
-        },
-        {
-            "author": "fblissjr",
-            "title": "ComfyUI-QwenImageWanBridge",
-            "reference": "https://github.com/fblissjr/ComfyUI-QwenImageWanBridge",
-            "files": [
-                "https://github.com/fblissjr/ComfyUI-QwenImageWanBridge"
-             ],
-             "install_type": "git-clone",
-             "description": "Custom nodes for bridging Qwen-Image and WAN video models in ComfyUI."
-        },
-        {
-            "author": "jtydhr88",
-            "title": "ComfyUI-OpenCut",
-            "reference": "https://github.com/jtydhr88/ComfyUI-OpenCut",
-            "files": [
-                "https://github.com/jtydhr88/ComfyUI-OpenCut"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a ComfyUI plugin that integrated OpenCut into ComfyUI, originally developed by [a/OpenCut](https://github.com/OpenCut-app/OpenCut)"
-        },
-        {
-            "author": "snomiao",
-            "title": "ComfyUI Video Crop",
-            "reference": "https://github.com/snomiao/ComfyUI-Video-Crop",
-            "files": [
-                "https://github.com/snomiao/ComfyUI-Video-Crop"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node for cropping videos using FFmpeg with pixel-precise control."
         }
     ]
 }
