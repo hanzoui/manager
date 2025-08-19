@@ -1777,6 +1777,17 @@
             "title_aux": "Kolors Awesome Prompts"
         }
     ],
+    "https://github.com/AcademiaSD/comfyui_AcademiaSD": [
+        [
+            "LoopCounterToFile",
+            "PaddedFileName",
+            "PromptBatchSelector",
+            "ResetCounterFile"
+        ],
+        {
+            "title_aux": "comfyui_AcademiaSD"
+        }
+    ],
     "https://github.com/Acly/comfyui-inpaint-nodes": [
         [
             "INPAINT_ApplyFooocusInpaint",
@@ -1828,6 +1839,9 @@
     ],
     "https://github.com/AconexOfficial/ComfyUI_GOAT_Nodes": [
         [
+            "Advanced_Color_Correction",
+            "Advanced_Latent_Noise",
+            "Advanced_Sharpen",
             "Advanced_Upscale_Image_Using_Model",
             "Capped_Float_Positive",
             "Capped_Int_Positive",
@@ -1841,6 +1855,7 @@
             "Image_Tiler",
             "Image_Untiler",
             "Int_Divide_Rounded",
+            "SamplerTiledContextAdvanced",
             "Sampler_Settings",
             "Smart_Seed",
             "Triple_Prompt"
@@ -4370,6 +4385,14 @@
         {
             "author": "DeepNeko <deepneko@outlook.com>",
             "title_aux": "ascii-art-comfyui"
+        }
+    ],
+    "https://github.com/Dehypnotic/comfyui-numbered-text": [
+        [
+            "NumberedMultilineText"
+        ],
+        {
+            "title_aux": "Numbered Text"
         }
     ],
     "https://github.com/DenRakEiw/Latent_Nodes": [
@@ -10647,6 +10670,7 @@
         [
             "Apply Circular Padding Model",
             "Apply Circular Padding VAE",
+            "Create Seam Mask",
             "Crop 360 to 180 Equirectangular",
             "Crop Image with Coords",
             "Crop Stereo to Monoscopic",
@@ -11398,6 +11422,17 @@
         ],
         {
             "title_aux": "Santodan Random LoRA Node"
+        }
+    ],
+    "https://github.com/Saquib764/omini-kontext": [
+        [
+            "NunchakuOminiKontextPatch",
+            "OminiKontextConditioning",
+            "OminiKontextEditor",
+            "OminiKontextModelPatch"
+        ],
+        {
+            "title_aux": "Omini Kontext"
         }
     ],
     "https://github.com/SaturMars/ComfyUI-NVVFR": [
@@ -16392,6 +16427,7 @@
             "Comfly_mj_video_extend",
             "Comfly_mjstyle",
             "Comfly_qwen_image",
+            "Comfly_qwen_image_edit",
             "Comfly_upload",
             "Comfly_video_extend"
         ],
@@ -17048,12 +17084,14 @@
             "Sage_DualCLIPTextEncode",
             "Sage_DualCLIPTextEncodeLumina2",
             "Sage_EmptyLatentImagePassthrough",
+            "Sage_FloatToStr",
             "Sage_FreeMemory",
             "Sage_FreeU2",
             "Sage_GetFileHash",
             "Sage_GuessResolutionByRatio",
             "Sage_Halt",
             "Sage_HiDreamE1_Instruction",
+            "Sage_IntToStr",
             "Sage_JoinText",
             "Sage_KSampler",
             "Sage_KSamplerAudioDecoder",
@@ -21445,6 +21483,7 @@
             "TestWhileLoopOpen",
             "TextEncodeAceStepAudio",
             "TextEncodeHunyuanVideo_ImageToVideo",
+            "TextEncodeQwenImageEdit",
             "ThresholdMask",
             "TomePatchModel",
             "TorchCompileModel",
@@ -23606,6 +23645,7 @@
             "AdvancedVLMSampler",
             "AnyTypePassthrough",
             "AutoMemoryManager",
+            "DualProviderConfig",
             "GlobalMemoryCleanup",
             "ImageToAny",
             "LoopAwareResponseIterator",
@@ -23621,6 +23661,7 @@
             "TextListCleanup",
             "TextListIndexer",
             "TextListToString",
+            "TwoRoundVLMPrompter",
             "VLMImagePassthrough",
             "VLMImageProcessor",
             "VLMImageResizer",
@@ -23630,6 +23671,7 @@
             "VLMResultCollector",
             "VLMResultIterator",
             "VLMResultsToGeneric",
+            "VLMStyleRewriter",
             "VideoFramePairExtractor",
             "VideoSegmentAssembler"
         ],
@@ -33961,6 +34003,15 @@
             "title_aux": "Olm LUT Node for ComfyUI"
         }
     ],
+    "https://github.com/obisin/ComfyUI-DGLS": [
+        [
+            "DGLSModelLoader",
+            "DynamicSwappingLoader"
+        ],
+        {
+            "title_aux": "ComfyUI - DGLS (Dynamic GPU Layer Swapping)"
+        }
+    ],
     "https://github.com/okgo4/ComfyUI-Mosaic-Mask": [
         [
             "MosaicMask"
@@ -35051,6 +35102,7 @@
             "PVL KONTEXT MAX",
             "PVLCheckIfConnected",
             "PVL_NoneOutputNode",
+            "PVL_SaveOrNot",
             "PVL_Switch_Huge",
             "PVL_fal_FluxDev_API",
             "PVL_fal_FluxGeneral_API",
