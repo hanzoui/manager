@@ -12,6 +12,16 @@
             "description": "Nodes to use Omini Kontext framework for multi-image reference using Flux Kontext model. It has node to for Nunchaku compatibility. The is an editor node to place the character/product on the image for spatial control."
         },
         {
+            "author": "rickrender",
+            "title": "Vectorizer API",
+            "reference": "https://github.com/rickrender/ComfyUI-Vectorizer-API",
+            "files": [
+                "https://github.com/rickrender/ComfyUI-Vectorizer-API"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of ComfyUI nodes for interfacing with the Vectorizer.ai API. Manipulate the results with options for scaling the SVG result back to raster image with increased resolution. Includes a background remover node to remove a prevalent background color from raster images. Enter credentials in config.json or directly within the node."
+        },
+        {
             "author": "obisin",
             "title": "ComfyUI - DGLS (Dynamic GPU Layer Swapping)",
             "reference": "https://github.com/obisin/ComfyUI-DGLS",
@@ -681,47 +691,6 @@
             ],
             "install_type": "git-clone",
             "description": "Advanced/Experimental VACE nodes for WAN video models in ComfyUI."
-        },
-        {
-            "author": "Ferocit",
-            "title": "comfyui-feroccustomnodes",
-            "reference": "https://github.com/Ferocit/comfyui-feroccustomnodes",
-            "files": [
-                "https://github.com/Ferocit/comfyui-feroccustomnodes"
-            ],
-            "install_type": "git-clone",
-            "description": "This repository contains custom nodes for ComfyUI, designed to enhance your workflow with text-based operations, particularly for managing and utilizing descriptive texts."
-        },
-        {
-            "author": "CY-CHENYUE",
-            "title": "ComfyUI-ImageCompositionCy",
-            "id": "ComfyUI-ImageCompositionCy",
-            "reference": "https://github.com/CY-CHENYUE/ComfyUI-ImageCompositionCy",
-            "files": [
-               "https://github.com/CY-CHENYUE/ComfyUI-ImageCompositionCy.git"
-            ],
-            "description": "A powerful ComfyUI multi-image composition node that supports real-time adjustment of image position, size, and rotation angle on an interactive Canvas, with freehand drawing capabilities and real-time preview of composition effects.",
-            "install_type": "git-clone"
-        },
-        {
-            "author": "diogod",
-            "title": "TTS Audio Suite",
-            "reference": "https://github.com/diodiogod/TTS-Audio-Suite",
-            "files": [
-                "https://github.com/diodiogod/TTS-Audio-Suite"
-            ],
-            "install_type": "git-clone",
-            "description": "TTS Audio Suite - Universal multi-engine TTS extension for ComfyUI with unified architecture supporting ChatterBox, F5-TTS, and future engines like RVC. Features modular engine adapters, character voice management, comprehensive SRT subtitle support, and advanced audio processing capabilities."
-        },
-        {
-            "author": "switzerswish",
-            "title": "LoRA Visualizer",
-            "reference": "https://github.com/oliverswitzer/ComfyUI-Lora-Visualizer",
-            "files": [
-                "https://github.com/oliverswitzer/ComfyUI-Lora-Visualizer"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node that parses prompt text for LoRA tags and visualizes their metadata, including trigger words, strength values, thumbnail previews, and example images."
         }
     ]
 }

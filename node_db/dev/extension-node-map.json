@@ -579,17 +579,6 @@
             "title_aux": "comfyui-textools [WIP]"
         }
     ],
-    "https://github.com/AcademiaSD/comfyui_AcademiaSD": [
-        [
-            "LoopCounterToFile",
-            "PaddedFileName",
-            "PromptBatchSelector",
-            "ResetCounterFile"
-        ],
-        {
-            "title_aux": "comfyui_AcademiaSD"
-        }
-    ],
     "https://github.com/Aero-Ex/comfyui_diffswap": [
         [
             "DiffSwapNode"
@@ -2804,6 +2793,7 @@
             "FullBodyDetection",
             "HighlightIndexSelector",
             "MaskCoverageAnalysis",
+            "RegexTextExtractor",
             "StringSplit",
             "StringStrip"
         ],
@@ -3453,6 +3443,7 @@
             "SDVN Pipe Out All",
             "SDVN QuadrupleCLIP Download",
             "SDVN Quick Menu",
+            "SDVN Qwen Reference",
             "SDVN RGBA to RGB",
             "SDVN Run Python Code",
             "SDVN Run Test",
@@ -5445,6 +5436,7 @@
             "TestWhileLoopOpen",
             "TextEncodeAceStepAudio",
             "TextEncodeHunyuanVideo_ImageToVideo",
+            "TextEncodeQwenImageEdit",
             "ThresholdMask",
             "TomePatchModel",
             "TorchCompileModel",
@@ -8361,8 +8353,10 @@
             "CloudreveSignin",
             "CloudreveUploadFile",
             "IncrementBatchName",
+            "InoGetConditioning",
             "InoGetSamplerConfig",
-            "InoGetSamplerModel",
+            "InoLoadModels",
+            "Ino_BoolToSwitch",
             "Ino_BranchImage",
             "Ino_CalculateLoraConfig",
             "Ino_CountFiles",
@@ -10238,8 +10232,8 @@
     "https://github.com/xsai-collab/ComfyUI-CombineVideoAndSubtitle": [
         [
             "CombineVideosFromFolder",
-            "getSubtitlesFromVideo",
-            "mergeVideoAndSubtitle"
+            "GetSubtitlesFromVideo",
+            "MergeVideoAndSubtitle"
         ],
         {
             "title_aux": "ComfyUI-CombineVideoAndSubtitle"
@@ -10313,6 +10307,7 @@
             "LoadImageFromURLNode",
             "LoadStringFromDirectoryNode",
             "LoadStringNode",
+            "LoraLoaderDualNode",
             "MaxNode",
             "MinNode",
             "MultiplyNode",
