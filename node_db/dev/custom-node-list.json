@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "viik420",
+            "title": "Model Copy Node for ComfyUI [UNSAFE]",
+            "reference": "https://github.com/apeirography/ModelCopyNode",
+            "files": [
+                "https://github.com/apeirography/ModelCopyNode"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple ComfyUI custom node that copies model files from the models/ folder to the output/ folder.[w/This node pack has a vulnerability that allows writing files to arbitrary paths.]"
+        },
+        {
             "author": "Maff3u",
             "title": "MattiaNodes - Points Editor On Cropped [WIP]",
             "reference": "https://github.com/Maff3u/MattiaNodes",
