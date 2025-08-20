@@ -2868,6 +2868,14 @@
             "title_aux": "ComfyUi-RescaleCFGAdvanced"
         }
     ],
+    "https://github.com/BigStationW/ComfyUi-Scale-Image-to-Total-Pixels-Advanced": [
+        [
+            "ImageScaleToTotalPixelsX"
+        ],
+        {
+            "title_aux": "ComfyUi-Scale-Image-to-Total-Pixels-Advanced"
+        }
+    ],
     "https://github.com/BigWhiteFly/ComfyUI-ImageConcat": [
         [
             "ImageConcatenateBatchWithTxt"
@@ -6040,6 +6048,15 @@
             "title_aux": "ComfyUI-GeekyRemB"
         }
     ],
+    "https://github.com/GeekyGhost/ComfyUI-Image-Segmenting-Loader": [
+        [
+            "GeekyQwenCompositor",
+            "GeekyQwenSegmentLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-Image-Segmenting-Loader"
+        }
+    ],
     "https://github.com/GeekyGhost/ComfyUI_Geeky_AudioMixer": [
         [
             "GeekyAudioMixer"
@@ -6438,6 +6455,22 @@
         ],
         {
             "title_aux": "ComfyUI-HaiperAI-API"
+        }
+    ],
+    "https://github.com/Hangover3832/ComfyUI_Hangover-Utils": [
+        [
+            "Image Clipboard Paster",
+            "Image Scale Bounding Box",
+            "Make Inpaint Model",
+            "Save Image w/o Metadata",
+            "Sympy Math Interpreter"
+        ],
+        {
+            "author": "AlexL",
+            "description": "Scales an input image into a given box size, whereby the aspect ratio keeps retained.",
+            "nickname": "Hangover-Image_Scale_Bouning_Box",
+            "title": "ComfyUI-Hangover-Image_Scale_Bouning_Box",
+            "title_aux": "ComfyUI_Hangover-Utils"
         }
     ],
     "https://github.com/HannibalP/comfyui-HannibalPack": [
@@ -7741,6 +7774,16 @@
         ],
         {
             "title_aux": "ComfyUI Fisheye Effects Nodes"
+        }
+    ],
+    "https://github.com/KohakuBlueleaf/HDM-ext": [
+        [
+            "HDMCameraParam",
+            "HDMLoader",
+            "HDMTreadGamma"
+        ],
+        {
+            "title_aux": "HDM-ext"
         }
     ],
     "https://github.com/KohakuBlueleaf/z-tipo-extension": [
@@ -10341,6 +10384,14 @@
             "title_aux": "ComfyUI OneThing AI Node"
         }
     ],
+    "https://github.com/Onionman61/ComfyUI-ModelScope-Kontext": [
+        [
+            "ModelScopeKontextAPI"
+        ],
+        {
+            "title_aux": "ComfyUI ModelScope Kontext API Node"
+        }
+    ],
     "https://github.com/OpalSky-AI/OpalSky_Nodes": [
         [
             "PromptAssistantOpalSky",
@@ -10675,6 +10726,7 @@
         [
             "Apply Circular Padding Model",
             "Apply Circular Padding VAE",
+            "Create Pole Mask",
             "Create Seam Mask",
             "Crop 360 to 180 Equirectangular",
             "Crop Image with Coords",
@@ -10682,7 +10734,9 @@
             "Cubemap to Equirectangular",
             "Equirectangular Rotation",
             "Equirectangular to Cubemap",
+            "Equirectangular to Face",
             "Equirectangular to Perspective",
+            "Face to Equirectangular",
             "Masked Diff C2E",
             "Merge Monoscopic into Stereo",
             "Pad 180 to 360 Equirectangular",
@@ -13061,6 +13115,8 @@
     "https://github.com/Starnodes2024/ComfyUI_StarBetaNodes": [
         [
             "StarApplyOverlayDepth",
+            "StarQwenEditEncoder",
+            "StarQwenImageEditInputs",
             "StarQwenImageRatio",
             "StarQwenWanRatio"
         ],
@@ -14046,6 +14102,24 @@
         ],
         {
             "title_aux": "RisuTools"
+        }
+    ],
+    "https://github.com/TinyBeeman/ComfyUI-TinyBee": [
+        [
+            "Filter List",
+            "Filter Words",
+            "Get File List",
+            "Get List From File",
+            "Incrementer",
+            "Indexed Entry",
+            "List Count",
+            "Process Path Name",
+            "Random Entry",
+            "Randomize List",
+            "Sort List"
+        ],
+        {
+            "title_aux": "ComfyUI-TinyBee"
         }
     ],
     "https://github.com/TinyTerra/ComfyUI_tinyterraNodes": [
@@ -15150,6 +15224,28 @@
         ],
         {
             "title_aux": "SwD Preset Selector for ComfyUI"
+        }
+    ],
+    "https://github.com/YarvixPA/ComfyUI-YarvixPA": [
+        [
+            "ApplyStyleModelEnhanced",
+            "ApplyStyleModelSimple",
+            "BatchImagesNode",
+            "FrameCalculator",
+            "InpaintConditioningNode",
+            "InpaintFluxKontextConditioning",
+            "Prepimg2Vid",
+            "RemoveBackgroundNode",
+            "StitchImages",
+            "StitchImagesAndMask",
+            "TextFieldNode",
+            "UnstitchImages",
+            "UnstitchImagesAndMask",
+            "UpscaleImageWithModel",
+            "VTracerImageVectorizerNode"
+        ],
+        {
+            "title_aux": "ComfyUI-YarvixPA"
         }
     ],
     "https://github.com/YaserJaradeh/comfyui-yaser-nodes": [
@@ -19175,6 +19271,7 @@
             "pre_Flex2",
             "pre_Kontext",
             "pre_Kontext_mul",
+            "pre_QwenEdit",
             "pre_controlnet",
             "pre_controlnet_union",
             "pre_ic_light_sd15",
@@ -28960,6 +29057,7 @@
             "GetImageSizeAndCount",
             "GetImagesFromBatchIndexed",
             "GetLatentRangeFromBatch",
+            "GetLatentSizeAndCount",
             "GetLatentsFromBatchIndexed",
             "GetMaskSizeAndCount",
             "GradientToFloat",
@@ -29005,6 +29103,7 @@
             "Intrinsic_lora_sampling",
             "JoinStringMulti",
             "JoinStrings",
+            "LazySwitchKJ",
             "LeapfusionHunyuanI2VPatcher",
             "LoadAndResizeImage",
             "LoadImagesFromFolderKJ",
@@ -34012,6 +34111,7 @@
     ],
     "https://github.com/obisin/ComfyUI-DGLS": [
         [
+            "DGLSCleanup",
             "DGLSModelLoader",
             "DynamicSwappingLoader"
         ],
@@ -41342,6 +41442,7 @@
             "KY_RegexExtractor",
             "KY_RegexReplace",
             "KY_SaveImageToPath",
+            "KY_VideoCompare",
             "KY_isNone",
             "KY_restoreBBox",
             "KY_toBBox"
