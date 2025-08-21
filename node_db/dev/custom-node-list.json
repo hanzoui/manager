@@ -2,6 +2,16 @@
     "custom_nodes": [
         {
             "author": "mrCodinghero",
+            "title": "ComfyUI File Transfer Plugin (comfyui-rsync-plugin) [UNSAFE]",
+            "reference": "https://github.com/tg-tjmitchell/comfyui-rsync-plugin",
+            "files": [
+                "https://github.com/tg-tjmitchell/comfyui-rsync-plugin"
+            ],
+            "install_type": "git-clone",
+            "description": "Lightweight helper for using rsync and rclone from ComfyUI with a dedicated UI panel. This repository contains Python wrappers for file transfer CLI tools and a ComfyUI plugin that adds a user-friendly panel for file transfer operations."
+        },
+        {
+            "author": "mrCodinghero",
             "title": "ComfyUI-Codinghero",
             "reference": "https://github.com/mrCodinghero/ComfyUI-Codinghero",
             "files": [
