@@ -6051,6 +6051,7 @@
     "https://github.com/GeekyGhost/ComfyUI-Image-Segmenting-Loader": [
         [
             "GeekyQwenCompositor",
+            "GeekyQwenEffects",
             "GeekyQwenSegmentLoader"
         ],
         {
@@ -8708,6 +8709,8 @@
     ],
     "https://github.com/Limbicnation/ComfyUI-TransparencyBackgroundRemover": [
         [
+            "AutoGrabCutRemover",
+            "GrabCutRefinement",
             "TransparencyBackgroundRemover",
             "TransparencyBackgroundRemoverBatch"
         ],
@@ -10742,6 +10745,7 @@
             "Pad 180 to 360 Equirectangular",
             "Paste Image with Coords",
             "Roll Image Axes",
+            "Roll Mask Axes",
             "Split Cubemap Faces",
             "Stack Cubemap Faces"
         ],
@@ -16906,6 +16910,7 @@
             "BlenderInputBoolean",
             "BlenderInputCombo",
             "BlenderInputFloat",
+            "BlenderInputGroup",
             "BlenderInputInt",
             "BlenderInputLoad3D",
             "BlenderInputLoadImage",
@@ -18040,6 +18045,15 @@
         ],
         {
             "title_aux": "Comfy-Pack"
+        }
+    ],
+    "https://github.com/bhvbhushan/ComfyUI-LoRABlockWeight": [
+        [
+            "HierarchicalLoRAWeightEditor",
+            "NunchakuHierarchicalLoRALoader"
+        ],
+        {
+            "title_aux": "ComfyUI LoRA Block Weight Loader"
         }
     ],
     "https://github.com/big-mon/ComfyUI-ResolutionPresets": [
@@ -20716,6 +20730,24 @@
             "title_aux": "comfyui_text_list_stepper"
         }
     ],
+    "https://github.com/chyer/Chye-ComfyUI-Toolset": [
+        [
+            "CYHARRHalationNode",
+            "CYHChromaticAberrationNode",
+            "CYHFilmGrainNode",
+            "CYHFolderFilenameBuilderNode",
+            "CYHLatentFluxAspectRatio",
+            "CYHLatentPhoneAspectRatio",
+            "CYHLatentQwenAspectRatio",
+            "CYHLatentSDXLAspectRatio",
+            "CYHLatentSocialAspectRatio",
+            "CYHLatentVideoAspectRatio",
+            "CYHResolutionMultiplierNode"
+        ],
+        {
+            "title_aux": "Chye ComfyUI Toolset"
+        }
+    ],
     "https://github.com/ciga2011/ComfyUI-MarkItDown": [
         [
             "WIZ_AUDIO2MARKDOWN",
@@ -22783,6 +22815,7 @@
             "ChatterBoxEngineNode",
             "ChatterBoxF5TTSEditOptions",
             "F5TTSEngineNode",
+            "HiggsAudioEngineNode",
             "MouthMovementAnalyzer",
             "UnifiedTTSSRTNode",
             "UnifiedTTSTextNode",
@@ -26703,6 +26736,14 @@
             "title_aux": "FaceSwap"
         }
     ],
+    "https://github.com/infinigence/ComfyUI-Infinigence-Nodes": [
+        [
+            "DrawTextNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Infinigence-Nodes"
+        }
+    ],
     "https://github.com/inflamously/comfyui-prompt-enhancer": [
         [
             "PROMPT_ENHANCER",
@@ -30405,6 +30446,14 @@
             "title_aux": "ComfyUI-CSV-Random-Picker"
         }
     ],
+    "https://github.com/lihaoyun6/ComfyUI-QwenPromptRewriter": [
+        [
+            "QwenPromptRewriter"
+        ],
+        {
+            "title_aux": "Comfyui-QwenPromptRewriter"
+        }
+    ],
     "https://github.com/lingha0h/comfyui_kj": [
         [
             "cpm_textInput"
@@ -31846,6 +31895,17 @@
             "title_aux": "ComfyUI GFPGAN"
         }
     ],
+    "https://github.com/lucasgattas/comfyui-egregora-tiled": [
+        [
+            "EgregoraImageTileSplit",
+            "EgregoraLatentTileSplit",
+            "EgregoraTiledRegionalPrompt",
+            "EgregoraVAEDecodeFromTiles"
+        ],
+        {
+            "title_aux": "comfyui-egregora-tiled"
+        }
+    ],
     "https://github.com/lujiazho/ComfyUI-CatvtonFluxWrapper": [
         [
             "CatvtonFluxSampler",
@@ -32860,12 +32920,14 @@
             "PngRectanglesToMaskList",
             "RandomNestedLayouts",
             "RandomTillingLayouts",
+            "ReverseImageAndAllImages",
             "SN74HC1G86",
             "SN74HC86",
             "SN74LVC1G125",
             "SeedGeneratorMira",
             "SingleBooleanTrigger",
             "SixBooleanTrigger",
+            "StackImages",
             "StepsAndCfg",
             "TextBoxMira",
             "TextCombinerSix",
@@ -38433,6 +38495,14 @@
             "title_aux": "AS_LLM_nodes"
         }
     ],
+    "https://github.com/svntax/ComfyUI-RetroDiffusion-API-Node": [
+        [
+            "Retro Diffusion API Node"
+        ],
+        {
+            "title_aux": "ComfyUI-RetroDiffusion-API-Node"
+        }
+    ],
     "https://github.com/sweetndata/ComfyUI-Image-Harmonizer": [
         [
             "harmonizer"
@@ -41926,17 +41996,6 @@
         ],
         {
             "title_aux": "ComfyUI_photomakerV2_native"
-        }
-    ],
-    "https://github.com/zhilemann/ComfyUI-moondream2": [
-        [
-            "moondream2_Caption",
-            "moondream2_DownLoad",
-            "moondream2_Encode",
-            "moondream2_Query"
-        ],
-        {
-            "title_aux": "ComfyUI-moondream2"
         }
     ],
     "https://github.com/zhiselfly/ComfyUI-Alimama-ControlNet-compatible": [

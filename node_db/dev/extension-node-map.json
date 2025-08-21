@@ -3740,6 +3740,22 @@
             "title_aux": "ComfyUI Custom Nodes: OpenRouter & Ollama [UNSAFE]"
         }
     ],
+    "https://github.com/Vsolon/ComfyUI-CBZ-Pack": [
+        [
+            "CBZ Preview Any",
+            "CBZCollector",
+            "CBZCollectorPassthrough",
+            "CBZUnpacker",
+            "CBZUnpackerPassthrough",
+            "DirToCBZ",
+            "DirToCBZPassthrough",
+            "ExportCBZ",
+            "ExportCBZPassthrough"
+        ],
+        {
+            "title_aux": "ComfyUI-CBZ-Pack [UNSAFE]"
+        }
+    ],
     "https://github.com/WASasquatch/ASTERR": [
         [
             "ASTERR",
@@ -5226,6 +5242,7 @@
             "ModelMergeSimple",
             "ModelMergeSubtract",
             "ModelMergeWAN2_1",
+            "ModelPatchLoader",
             "ModelSamplingAuraFlow",
             "ModelSamplingContinuousEDM",
             "ModelSamplingContinuousV",
@@ -5276,6 +5293,7 @@
             "PrimitiveString",
             "PrimitiveStringMultiline",
             "QuadrupleCLIPLoader",
+            "QwenImageDiffsynthControlnet",
             "RandomNoise",
             "RebatchImages",
             "RebatchLatents",
@@ -5728,7 +5746,8 @@
             "Cosmos1ForwardRenderer",
             "Cosmos1InverseRenderer",
             "LoadDiffusionRendererModel",
-            "LoadHDRImage"
+            "LoadHDRImage",
+            "VAEPassthroughTest"
         ],
         {
             "title_aux": "DiffusionRenderer-ComfyUI [WIP]"
@@ -8160,6 +8179,15 @@
             "title_aux": "ComfyUI-Qwen [CONFLICT]"
         }
     ],
+    "https://github.com/mrCodinghero/ComfyUI-Codinghero": [
+        [
+            "Image Size Converter",
+            "Video Settings Converter"
+        ],
+        {
+            "title_aux": "ComfyUI-Codinghero"
+        }
+    ],
     "https://github.com/mut-ex/comfyui-gligengui-node": [
         [
             "GLIGEN_GUI"
@@ -9668,6 +9696,7 @@
     "https://github.com/tnil25/ComfyUI-TJNodes": [
         [
             "ExpandMaskDir",
+            "OverlayMaskNode",
             "Tracker"
         ],
         {
