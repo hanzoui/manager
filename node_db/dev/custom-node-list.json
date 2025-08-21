@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Vsolon",
+            "title": "ComfyUI-CBZ-Pack [UNSAFE]",
+            "reference": "https://github.com/Vsolon/ComfyUI-CBZ-Pack",
+            "files": [
+                "https://github.com/Vsolon/ComfyUI-CBZ-Pack"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for Handling CBZ MetaData and Images as List or Bash.[w/This nodepack contains a node that has a vulnerability allowing access to arbitrary file paths.]"
+        },
+        {
             "author": "odedgranot",
             "title": "ComfyUI Video Save Node [UNSAFE]",
             "reference": "https://github.com/odedgranot/comfyui_video_save_node",
