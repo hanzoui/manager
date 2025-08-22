@@ -1,6 +1,37 @@
 {
     "custom_nodes": [
         {
+            "author": "jtrue",
+            "title": "ComfyUI-WordEmbeddings",
+            "reference": "https://github.com/jtrue/ComfyUI-WordEmbeddings",
+            "files": [
+                "https://github.com/jtrue/ComfyUI-WordEmbeddings"
+            ],
+            "nodename_pattern": "_jru$",
+            "install_type": "git-clone",
+            "description": "Word embedding utility nodes for ComfyUI. Load a pre-trained embedding model, explore neighbors, do analogies, and project any token/phrase onto 1D/2D/3D semantic axes with human‑readable summaries."
+        },
+        {
+            "author": "ReinerBforartists",
+            "title": "Auto Prompt Schedule",
+            "reference": "https://github.com/ReinerBforartists/comfyui_auto_prompt_schedule",
+            "files": [
+                "https://github.com/ReinerBforartists/comfyui_auto_prompt_schedule"
+            ],
+            "install_type": "git-clone",
+            "description": "Auto Prompt Schedule is a ComfyUI helper node for the Prompt Schedule Node or the Batch Prompt Schedule node from Fizzledorf. You need this Prompt Schedule nodes to make use of the Auto Prompt Schedule Node."
+        },
+        {
+            "author": "BEIBEI-star661",
+            "title": "SJ_sweepEffect_Comfyui",
+            "reference": "https://github.com/BEIBEI-star661/SJ_sweepEffect_Comfyui",
+            "files": [
+                "https://github.com/BEIBEI-star661/SJ_sweepEffect_Comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "A high-quality sweep light effect node designed specifically for ComfyUI, supporting multiple parameter adjustments and anti-aliasing."
+        },
+        {
             "author": "bhvbhushan",
             "title": "ComfyUI LoRA Block Weight Loader",
             "reference": "https://github.com/bhvbhushan/ComfyUI-LoRABlockWeight",
@@ -152,15 +183,15 @@
             "install_type": "git-clone",
             "description": "Smart dynamic layer swapping between GPU and CPU for optimal inference performance with comprehensive mixed precision handling and copy-compute overlap optimization. Enables running much larger models on limited VRAM setups."
         },
-        {
+		{
             "author": "Dehypnotic",
-            "title": "Numbered Text",
+            "title": "NumberedText",
             "reference": "https://github.com/Dehypnotic/comfyui-numbered-text",
             "files": [
                 "https://github.com/Dehypnotic/comfyui-numbered-text"
             ],
             "install_type": "git-clone",
-            "description": "Simple node for handling multi-line text with automatic line numbering and extracting a selected line.\nAlways auto-numbers lines (1., 2., 3., …)\nPick a line via 1-based index and output only that line’s content (without the “n. ” prefix)\nRead-only “gutter”-style preview with line numbers on the left, intended for display nodes"
+            "description": "Lightweight node to number text divisions (one per newline) and select single/multiple divisions by index with an optional separator"
         },
         {
             "author": "moonwhaler",
@@ -660,37 +691,6 @@
             ],
             "install_type": "git-clone",
             "description": "Set global prompts using note node."
-        },
-        {
-            "author": "HSDHCdev",
-            "title": "AI Pixel Art Enhancer for ComfyUI",
-            "reference": "https://github.com/HSDHCdev/ComfyUI-AI-Pixel-Art-Enhancer",
-            "files": [
-                "https://github.com/HSDHCdev/ComfyUI-AI-Pixel-Art-Enhancer"
-            ],
-            "install_type": "git-clone",
-            "description": "Pixel art Enhancement Node for ComfyUI"
-        },
-        {
-            "author": "Rzgar Espo",
-            "title": "ComfyUI-Qwen-Image-Size-Picker",
-            "reference": "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker",
-            "files": [
-                "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker"
-            ],
-            "install_type": "git-clone",
-            "description": "A universal node for generating empty latent tensors with support for Qwen Image, SDXL and Flux models. Features extended aspect ratio support, batch processing, and flexible dimension overrides."
-        },
-        {
-            "author": "S4MUEL404",
-            "title": "ComfyUI S4Motion",
-            "id": "comfyui-s4motion",
-            "reference": "https://github.com/S4MUEL-404/ComfyUI-S4Motion",
-            "files": [
-                "https://github.com/S4MUEL-404/ComfyUI-S4Motion"
-            ],
-            "install_type": "git-clone",
-            "description": "A set of ComfyUI nodes for animating a foreground layer over a background, with unified timing and high-quality composition. It includes effectors for rotation, position, path-following position, scale, opacity, distortion, and masking, plus a core node that composes frames and exports APNG/WEBP and a frame sequence."
         }
     ]
 }

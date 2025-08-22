@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "Firetheft",
+            "title": "ComfyUI Local Media Manager [UNSAFE]",
+            "reference": "https://github.com/Firetheft/ComfyUI_Local_Image_Gallery",
+            "files": [
+                "https://github.com/Firetheft/ComfyUI_Local_Image_Gallery"
+            ],
+            "install_type": "git-clone",
+            "description": "The Ultimate Local File Manager for Images, Videos, and Audio in ComfyUI.[w/This nodepack provides functionality to access files through an endpoint.]"
+        },
+        {
+            "author": "Omario92",
+            "title": "ComfyUI-OmarioNodes",
+            "reference": "https://github.com/Omario92/ComfyUI-OmarioNodes",
+            "files": [
+                "https://github.com/Omario92/ComfyUI-OmarioNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Dual Endpoint Color Blend (by Frames)"
+        },
+        {
+            "author": "locphan201",
+            "title": "ComfyUI-Alter-Nodes",
+            "reference": "https://github.com/locphan201/ComfyUI-Alter-Nodes",
+            "files": [
+                "https://github.com/locphan201/ComfyUI-Alter-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Alter MMAudio Config, Alter MMAudio Model Loader, Alter MMAudio Feature Utils, Alter MMAudio Sampler"
+        },
+        {
             "author": "mrCodinghero",
             "title": "ComfyUI File Transfer Plugin (comfyui-rsync-plugin) [UNSAFE]",
             "reference": "https://github.com/tg-tjmitchell/comfyui-rsync-plugin",

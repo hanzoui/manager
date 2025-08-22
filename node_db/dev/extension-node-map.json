@@ -757,10 +757,11 @@
     ],
     "https://github.com/AlexYez/comfyui-timesaver": [
         [
+            "LoraMegaMergerCorrect",
+            "LoraRankConverterHQ",
             "TS Cube to Equirectangular",
             "TS Equirectangular to Cube",
             "TS Files Downloader",
-            "TS Qwen2.5",
             "TS Youtube Chapters",
             "TSCropToMask",
             "TSRestoreFromCrop",
@@ -773,6 +774,7 @@
             "TS_ImageResize",
             "TS_MarianTranslator",
             "TS_Qwen3",
+            "TS_Qwen3_Offline",
             "TS_VideoDepthNode",
             "TS_Video_Upscale_With_Model"
         ],
@@ -1714,6 +1716,14 @@
         ],
         {
             "title_aux": "ComfyUI Finetuners [WIP]"
+        }
+    ],
+    "https://github.com/Firetheft/ComfyUI_Local_Image_Gallery": [
+        [
+            "LocalImageGalleryNode"
+        ],
+        {
+            "title_aux": "ComfyUI Local Media Manager [UNSAFE]"
         }
     ],
     "https://github.com/Fucci-Mateo/ComfyUI-Airtable": [
@@ -2820,6 +2830,14 @@
             "title_aux": "ComfyUI-LaplaMask"
         }
     ],
+    "https://github.com/Omario92/ComfyUI-OmarioNodes": [
+        [
+            "DualEndpointColorBlendScheduler"
+        ],
+        {
+            "title_aux": "ComfyUI-OmarioNodes"
+        }
+    ],
     "https://github.com/PATATAJEC/ComfyUI-PatatajecNodes": [
         [
             "ColorMatchFalloff",
@@ -3448,6 +3466,7 @@
             "SDVN Quick Menu",
             "SDVN QwenEdit TextEncoder",
             "SDVN RGBA to RGB",
+            "SDVN Random Prompt",
             "SDVN Run Python Code",
             "SDVN Run Test",
             "SDVN Save Text",
@@ -7557,6 +7576,17 @@
         ],
         {
             "title_aux": "ComfyUI-MV-HECV"
+        }
+    ],
+    "https://github.com/locphan201/ComfyUI-Alter-Nodes": [
+        [
+            "AlterMMAudioConfig",
+            "AlterMMAudioFeatureUtils",
+            "AlterMMAudioModelLoader",
+            "AlterMMAudioSampler"
+        ],
+        {
+            "title_aux": "ComfyUI-Alter-Nodes"
         }
     ],
     "https://github.com/locphan201/ComfyUI-Alternatives": [

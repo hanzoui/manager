@@ -2492,6 +2492,14 @@
             "title_aux": "ComfyUI_RSS_Feed_Reader"
         }
     ],
+    "https://github.com/BEIBEI-star661/SJ_sweepEffect_Comfyui": [
+        [
+            "SJ_sweepEffect"
+        ],
+        {
+            "title_aux": "SJ_sweepEffect_Comfyui"
+        }
+    ],
     "https://github.com/BIMer-99/ComfyUI_FishSpeech_EX": [
         [
             "AudioToPrompt",
@@ -4403,7 +4411,7 @@
             "NumberedText"
         ],
         {
-            "title_aux": "Numbered Text"
+            "title_aux": "NumberedText"
         }
     ],
     "https://github.com/DenRakEiw/Latent_Nodes": [
@@ -5624,11 +5632,13 @@
     "https://github.com/Fictiverse/ComfyUI_Fictiverse": [
         [
             "Add Margin With Color",
+            "Any to Int/Float/String",
             "Essential Params",
             "Get Last Output Video Path",
             "If Image Valid",
             "Image Params",
             "Is Image Valid ?",
+            "Math Operation",
             "None if same Image",
             "Prompt Assembler",
             "Resize Images To Megapixels",
@@ -10945,6 +10955,14 @@
         ],
         {
             "title_aux": "ComfyUI-Artist-Selector"
+        }
+    ],
+    "https://github.com/ReinerBforartists/comfyui_auto_prompt_schedule": [
+        [
+            "AutoPromptSchedule"
+        ],
+        {
+            "title_aux": "Auto Prompt Schedule"
         }
     ],
     "https://github.com/Reithan/negative_rejection_steering": [
@@ -16325,6 +16343,8 @@
     ],
     "https://github.com/aiaiaikkk/kontext-super-prompt": [
         [
+            "AdvancedBackgroundRemoval",
+            "BackgroundRemovalSettings",
             "CustomModelPromptGenerator",
             "KontextSuperPrompt",
             "LRPGCanvas",
@@ -17245,6 +17265,7 @@
             "Sage_SaveText",
             "Sage_SchedulerSelector",
             "Sage_SetText",
+            "Sage_SetTextWithInt",
             "Sage_SixLoraStack",
             "Sage_TextRandomLine",
             "Sage_TextSelectLine",
@@ -20749,7 +20770,10 @@
             "CYHLatentSDXLAspectRatio",
             "CYHLatentSocialAspectRatio",
             "CYHLatentVideoAspectRatio",
-            "CYHResolutionMultiplierNode"
+            "CYHResolutionMultiplierNode",
+            "PromptEnhancer",
+            "PromptEnhancerEditable",
+            "PromptToolsSetup"
         ],
         {
             "title_aux": "Chye ComfyUI Toolset"
@@ -27918,6 +27942,24 @@
             "title_aux": "ComfyUI-JaRue"
         }
     ],
+    "https://github.com/jtrue/ComfyUI-WordEmbeddings": [
+        [
+            "WordEmbeddingsEquation",
+            "WordEmbeddingsExplorer",
+            "WordEmbeddingsInterpolator",
+            "WordEmbeddingsLoader",
+            "WordEmbeddingsLocalModelLoader",
+            "WordEmbeddingsTokenAxis",
+            "WordEmbeddingsTokenAxis2D",
+            "WordEmbeddingsTokenAxis3D",
+            "WordEmbeddingsTokenCentrality",
+            "WordEmbeddingsTokenNeighbors"
+        ],
+        {
+            "nodename_pattern": "_jru$",
+            "title_aux": "ComfyUI-WordEmbeddings"
+        }
+    ],
     "https://github.com/jtydhr88/ComfyUI-Hunyuan3D-1-wrapper": [
         [
             "Hunyuan3D V1 - Image Loader",
@@ -29455,6 +29497,7 @@
             "WanVideoReCamMasterDefaultCamera",
             "WanVideoReCamMasterGenerateOrbitCamera",
             "WanVideoRealisDanceLatents",
+            "WanVideoRoPEFunction",
             "WanVideoSLG",
             "WanVideoSampler",
             "WanVideoScheduler",
@@ -29894,6 +29937,7 @@
             "Leon_Midjourney_Upload_API_Node",
             "Leon_Model_Selector_Node",
             "Leon_Qwen_Image_API_Node",
+            "Leon_Qwen_Image_Edit_API_Node",
             "Leon_Recraft_Image_API_Node",
             "Leon_StableDiffusion_35_API_Node",
             "Leon_StableDiffusion_3_Ultra_API_Node",
@@ -31880,9 +31924,8 @@
     "https://github.com/lucasgattas/comfyui-egregora-tiled": [
         [
             "EgregoraImageTileSplit",
-            "EgregoraLatentTileSplit",
-            "EgregoraTiledRegionalPrompt",
-            "EgregoraVAEDecodeFromTiles"
+            "EgregoraTiledDiffusionModel",
+            "EgregoraTiledRegionalPrompt"
         ],
         {
             "title_aux": "comfyui-egregora-tiled"

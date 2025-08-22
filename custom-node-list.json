@@ -4990,6 +4990,17 @@
             "description": "A collection of nodes powering a tensor oracle on a home network with automation"
         },
         {
+            "author": "jtrue",
+            "title": "ComfyUI-WordEmbeddings",
+            "reference": "https://github.com/jtrue/ComfyUI-WordEmbeddings",
+            "files": [
+                "https://github.com/jtrue/ComfyUI-WordEmbeddings"
+            ],
+            "nodename_pattern": "_jru$",
+            "install_type": "git-clone",
+            "description": "Word embedding utility nodes for ComfyUI. Load a pre-trained embedding model, explore neighbors, do analogies, and project any token/phrase onto 1D/2D/3D semantic axes with human‑readable summaries."
+        },
+        {
             "author": "filliptm",
             "title": "ComfyUI_Fill-Nodes",
             "reference": "https://github.com/filliptm/ComfyUI_Fill-Nodes",
@@ -31225,15 +31236,15 @@
             "install_type": "git-clone",
             "description": "Smart dynamic layer swapping between GPU and CPU for optimal inference performance with comprehensive mixed precision handling and copy-compute overlap optimization. Enables running much larger models on limited VRAM setups."
         },
-        {
+		{
             "author": "Dehypnotic",
-            "title": "Numbered Text",
+            "title": "NumberedText",
             "reference": "https://github.com/Dehypnotic/comfyui-numbered-text",
             "files": [
                 "https://github.com/Dehypnotic/comfyui-numbered-text"
             ],
             "install_type": "git-clone",
-            "description": "Simple node for handling multi-line text with automatic line numbering and extracting a selected line.\nAlways auto-numbers lines (1., 2., 3., …)\nPick a line via 1-based index and output only that line’s content (without the “n. ” prefix)\nRead-only “gutter”-style preview with line numbers on the left, intended for display nodes"
+            "description": "Lightweight node to number text divisions (one per newline) and select single/multiple divisions by index with an optional separator"
         },
         {
             "author": "rickrender",
@@ -31314,6 +31325,26 @@
             ],
             "install_type": "git-clone",
             "description": "Tiled regional prompting + tiled VAE decode with seam-free blending for ComfyUI"
+        },
+        {
+            "author": "BEIBEI-star661",
+            "title": "SJ_sweepEffect_Comfyui",
+            "reference": "https://github.com/BEIBEI-star661/SJ_sweepEffect_Comfyui",
+            "files": [
+                "https://github.com/BEIBEI-star661/SJ_sweepEffect_Comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "A high-quality sweep light effect node designed specifically for ComfyUI, supporting multiple parameter adjustments and anti-aliasing."
+        },
+        {
+            "author": "ReinerBforartists",
+            "title": "Auto Prompt Schedule",
+            "reference": "https://github.com/ReinerBforartists/comfyui_auto_prompt_schedule",
+            "files": [
+                "https://github.com/ReinerBforartists/comfyui_auto_prompt_schedule"
+            ],
+            "install_type": "git-clone",
+            "description": "Auto Prompt Schedule is a ComfyUI helper node for the Prompt Schedule Node or the Batch Prompt Schedule node from Fizzledorf. You need this Prompt Schedule nodes to make use of the Auto Prompt Schedule Node."
         },
 
 
@@ -31750,16 +31781,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "Dehypnotic",
-            "title": "NumberedText",
-            "reference": "https://github.com/Dehypnotic/comfyui-numbered-text",
-            "files": [
-                "https://github.com/Dehypnotic/comfyui-numbered-text"
-            ],
-            "install_type": "git-clone",
-            "description": "Lightweight node to number text divisions (one per newline) and select single/multiple divisions by index with an optional separator"
         }
     ]
 }
