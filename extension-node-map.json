@@ -81,6 +81,8 @@
             "ImageBatchPath",
             "JC",
             "JC_ExtraOptions",
+            "JC_GGUF",
+            "JC_GGUF_adv",
             "JC_adv"
         ],
         {
@@ -9115,6 +9117,7 @@
     ],
     "https://github.com/MNeMoNiCuZ/ComfyUI-mnemic-nodes": [
         [
+            "AudioVisualizer",
             "LoraTagLoader",
             "ResolutionSelector",
             "StringCleaning",
@@ -9129,6 +9132,7 @@
             "\u2728\ud83d\udcac Groq LLM API",
             "\u2728\ud83d\udcdd Groq ALM API - Transcribe",
             "\u2728\ud83d\udcf7 Groq VLM API",
+            "\ud83c\udfb5\ud83d\udcca Audio Visualizer",
             "\ud83c\udff7\ufe0f LoRA Loader Prompt Tags",
             "\ud83d\udcbe Save Text File With Path",
             "\ud83d\udcc1 Get File Path",
@@ -20764,6 +20768,8 @@
             "CYHChromaticAberrationNode",
             "CYHFilmGrainNode",
             "CYHFolderFilenameBuilderNode",
+            "CYHGlobalColorGradingNode",
+            "CYHInteractivePainterNode",
             "CYHLatentFluxAspectRatio",
             "CYHLatentPhoneAspectRatio",
             "CYHLatentQwenAspectRatio",
@@ -22811,6 +22817,24 @@
         ],
         {
             "title_aux": "ComfyUI PixelArt Detector"
+        }
+    ],
+    "https://github.com/dimtoneff/ComfyUI-VL-Nodes": [
+        [
+            "KeyeModelLoader",
+            "KeyeNode",
+            "LFM2TransformerImageToText",
+            "LFM2TransformerModelLoader",
+            "MiMoFreeMemoryAPI",
+            "MiMoImageToText",
+            "MiMoModelLoader",
+            "Ovis25ImageToText",
+            "Ovis25ModelLoader",
+            "OvisU1ImageCaption",
+            "OvisU1ModelLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-VL-Nodes"
         }
     ],
     "https://github.com/diodiogod/TTS-Audio-Suite": [
@@ -32166,6 +32190,14 @@
             "title_aux": "ComfyUI-Mango-Random"
         }
     ],
+    "https://github.com/mangobyed/ComfyUI_Detection_List": [
+        [
+            "YOLOv8ObjectDetectionNode"
+        ],
+        {
+            "title_aux": "ComfyUI YOLOv8 Object Detection Node"
+        }
+    ],
     "https://github.com/manifestations/comfyui-globetrotter": [
         [
             "LoRATrainerNode",
@@ -34415,6 +34447,42 @@
         ],
         {
             "title_aux": "ComfyUI-Image-Effects"
+        }
+    ],
+    "https://github.com/orion4d/ComfyUI_DAO_master": [
+        [
+            "ConvertIMGtoSVG",
+            "ConvertSVGtoIMG",
+            "DAO Blur",
+            "DAO Hex Color Picker",
+            "DAO Move",
+            "DAO RVB Color Picker",
+            "DAO Text Maker",
+            "DXF Add Circle",
+            "DXF Add Ellipse",
+            "DXF Add Line",
+            "DXF Add Polygon",
+            "DXF Add Rectangle",
+            "DXF Add Rounded Rectangle",
+            "DXF Add Star",
+            "DXF Add Triangle",
+            "DXF Import",
+            "DXF New",
+            "DXF Preview",
+            "DXF Save",
+            "DXF Stats",
+            "DXF Transform",
+            "DXF to SVG",
+            "Folder File Picker",
+            "SVG Boolean",
+            "SVG Load",
+            "SVG Passthrough",
+            "SVG Preview",
+            "SVG Save",
+            "SVG Style"
+        ],
+        {
+            "title_aux": "ComfyUI_DAO_master"
         }
     ],
     "https://github.com/orion4d/ComfyUI_colormaster": [
@@ -37243,6 +37311,7 @@
     ],
     "https://github.com/silveroxides/ComfyUI_FDGuidance": [
         [
+            "FDG_APG_Patcher",
             "FrequencyDecoupledGuidance"
         ],
         {

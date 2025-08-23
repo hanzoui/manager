@@ -27537,6 +27537,16 @@
             "description": "This repository contains a versatile custom node for ComfyUI, Display Image with Mask, designed to offer advanced image viewing, masking, and saving capabilities directly within your workflow."
         },
         {
+            "author": "orion4d",
+            "title": "ComfyUI_DAO_master",
+            "reference": "https://github.com/orion4d/ComfyUI_DAO_master",
+            "files": [
+                "https://github.com/orion4d/ComfyUI_DAO_master"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI_DAO_master is a collection of custom nodes for ComfyUI. These nodes provide additional tools for image creation, manipulation, and visual experimentation, with a focus on vector workflows (DXF & SVG) and production utilities."
+        },
+        {
             "author": "aiaiaikkk",
             "title": "ComfyUI-Curve",
             "reference": "https://github.com/aiaiaikkk/ComfyUI-Curve",
@@ -31345,6 +31355,26 @@
             ],
             "install_type": "git-clone",
             "description": "Auto Prompt Schedule is a ComfyUI helper node for the Prompt Schedule Node or the Batch Prompt Schedule node from Fizzledorf. You need this Prompt Schedule nodes to make use of the Auto Prompt Schedule Node."
+        },
+        {
+            "author": "dimtoneff",
+            "title": "ComfyUI-VL-Nodes",
+            "reference": "https://github.com/dimtoneff/ComfyUI-VL-Nodes",
+            "files": [
+                "https://github.com/dimtoneff/ComfyUI-VL-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI that integrates various Vision-Language (VL) models, including Xiaomi MiMo-VL, LiquidAI LFM2-VL, Kwai Keye-VL, AIDC-AI Ovis2.5 and Ovis-U1. Tested with models: AIDC-AI/Ovis2.5-2B, AIDC-AI/Ovis2.5-9B, Kwai-Keye/Keye-VL-8B-Preview, MiMo-VL-7B-RL-GGUF, LiquidAI/LFM2-VL-450M, LiquidAI/LFM2-VL-1.6B, AIDC-AI/Ovis-U1-3B."
+        },
+        {
+            "author": "mangobyed",
+            "title": "ComfyUI YOLOv8 Object Detection Node",
+            "reference": "https://github.com/mangobyed/ComfyUI_Detection_List",
+            "files": [
+                "https://github.com/mangobyed/ComfyUI_Detection_List"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful ComfyUI custom node that performs object detection using YOLOv8 and outputs individual images for each detected object. Perfect for automatic mask generation, object isolation, and batch processing workflows."
         },
 
 
