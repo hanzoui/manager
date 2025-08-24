@@ -31376,7 +31376,7 @@
             "install_type": "git-clone",
             "description": "A powerful ComfyUI custom node that performs object detection using YOLOv8 and outputs individual images for each detected object. Perfect for automatic mask generation, object isolation, and batch processing workflows."
         },
-		{
+        {
             "author": "Daxamur",
             "title": "DaxNodes",
             "reference": "https://civitai.com/user/Daxamur",
@@ -31386,6 +31386,26 @@
             "install_type": "git-clone",
             "description": "ComfyUI video processing nodes with workflow metadata support",
             "pip": ["mediapipe>=0.10.0", "opencv-python>=4.8.0", "scipy>=1.10.0", "color-matcher>=0.3.0"]
+        },
+        {
+            "author": "Dehypnotic",
+            "title": "RangeToString",
+            "reference": "https://github.com/Dehypnotic/comfyui-range-to-string",
+            "files": [
+                "https://github.com/Dehypnotic/comfyui-range-to-string"
+            ],
+            "install_type": "git-clone",
+            "description": "Lightweight node that generates a string of numbers between a start and end value. Supports positive and negative steps, configurable separators, and inclusive/exclusive end values."
+        },
+        {
+            "author": "KY-2000",
+            "title": "comfyui-ksampler-tester-loop",
+            "reference": "https://github.com/KY-2000/comfyui-ksampler-tester-loop",
+            "files": [
+                "https://github.com/KY-2000/comfyui-ksampler-tester-loop"
+            ],
+            "install_type": "git-clone",
+            "description": "Batch samplers, schedulers, cfg, shift and steps tester custom node, automatic looping functionality for Ksampler node"
         },
 
 
@@ -31821,16 +31841,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "Dehypnotic",
-            "title": "RangeToString",
-            "reference": "https://github.com/Dehypnotic/comfyui-range-to-string",
-            "files": [
-                "https://github.com/Dehypnotic/comfyui-range-to-string"
-            ],
-            "install_type": "git-clone",
-            "description": "Lightweight node that generates a string of numbers between a start and end value. Supports positive and negative steps, configurable separators, and inclusive/exclusive end values."
         }
     ]
 }
