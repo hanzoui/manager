@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "phazei",
+            "title": "ComfyUI-OrpheusTTS-LMStudio",
+            "reference": "https://github.com/phazei/ComfyUI-OrpheusTTS-LMStudio",
+            "files": [
+                "https://github.com/phazei/ComfyUI-OrpheusTTS-LMStudio"
+            ],
+            "install_type": "git-clone",
+            "description": "Generate Orpheus TTS audio via LM Studio"
+        },
+        {
             "author": "Daxamur",
             "title": "DaxNodes",
             "reference": "https://civitai.com/user/Daxamur",
@@ -10,6 +20,76 @@
             "install_type": "git-clone",
             "description": "ComfyUI video processing nodes with workflow metadata support",
             "pip": ["mediapipe>=0.10.0", "opencv-python>=4.8.0", "scipy>=1.10.0", "color-matcher>=0.3.0"]
+        },
+        {
+            "author": "p1atdev",
+            "title": "TKG-DM (Training-free Chroma Key Content Generation Diffusion Model) for ComfyUI",
+             "reference": "https://github.com/p1atdev/comfyui-tkg-chroma-key",
+             "files": [
+                 "https://github.com/p1atdev/comfyui-tkg-chroma-key"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository provides an unofficial ComfyUI custom node implementation of the paper TKG-DM: Training-free Chroma Key Content Generation Diffusion Model."
+        },
+        {
+            "author": "Jelosus2",
+            "title": "ComfyUI VAE Reflection",
+            "reference": "https://github.com/Jelosus2/comfyui-vae-reflection",
+            "files": [
+                "https://github.com/Jelosus2/comfyui-vae-reflection"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple custom node to use reflect padding mode in the conv layers of VAEs."
+        },
+        {
+            "author": "Firetheft",
+            "title": "ComfyUI Civitai Gallery",
+            "reference": "https://github.com/Firetheft/ComfyUI_Civitai_Gallery",
+            "files": [
+                "https://github.com/Firetheft/ComfyUI_Civitai_Gallery"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Civitai Gallery is a powerful custom node for ComfyUI that integrates a seamless image browser for the Civitai website directly into your workflow. This node allows you to browse, search, and select images from Civitai and instantly import their prompts, negative prompts, and full-resolution images into your workflow. It is designed to significantly speed up your creative process by eliminating the need to switch between your browser and ComfyUI."
+        },
+        {
+            "author": "kijai",
+            "title": "ComfyUI-MelBandRoFormer",
+            "reference": "https://github.com/kijai/ComfyUI-MelBandRoFormer",
+            "files": [
+                "https://github.com/kijai/ComfyUI-MelBandRoFormer"
+            ],
+            "install_type": "git-clone",
+            "description": "Mel-Band RoFormer for Music Source Separation"
+        },
+        {
+            "author": "jtrue",
+            "title": "ComfyUI-Rect",
+            "reference": "https://github.com/jtrue/ComfyUI-Rect",
+            "files": [
+                "https://github.com/jtrue/ComfyUI-Rect"
+            ],
+            "install_type": "git-clone",
+            "description": "Interactive rectangle tools for ComfyUI: Select, Crop, Mask, Fill."
+        },
+        {
+            "author": "netroxin",
+            "title": "comfyui_netro",
+            "reference": "https://github.com/netroxin/comfyui_netro",
+            "files": [
+                "https://github.com/netroxin/comfyui_netro"
+            ],
+            "install_type": "git-clone",
+            "description": "#Camera Movement Prompt Node for ComfyUI\nThis custom node script for ComfyUI generates descriptive camera movement prompts based on user-selected movement options for Wan2.2"
+        },
+        {
+            "author": "RegulusAlpha",
+            "title": "ComfyUI Dynamic Prompting Simplified",
+            "reference": "https://github.com/RegulusAlpha/ComfyUI-DynPromptSimplified",
+            "files": [
+                "https://github.com/RegulusAlpha/ComfyUI-DynPromptSimplified"
+            ],
+            "install_type": "git-clone",
+            "description": "A minimal dynamic prompting + mirrored wildcards node for ComfyUI."
         },
         {
             "author": "Dehypnotic",
@@ -22,6 +102,16 @@
             "description": "Lightweight node that generates a string of numbers between a start and end value. Supports positive and negative steps, configurable separators, and inclusive/exclusive end values."
         },
         {
+            "author": "ReinerBforartists",
+            "title": "ComfyUI_Text_Line_Combine",
+            "reference": "https://github.com/ReinerBforartists/comfyui_text_line_combine",
+            "files": [
+                "https://github.com/ReinerBforartists/comfyui_text_line_combine"
+            ],
+            "install_type": "git-clone",
+            "description": "Combines texts line by line to a single text"
+        },
+        {
             "author": "KY-2000",
             "title": "comfyui-ksampler-tester-loop",
             "reference": "https://github.com/KY-2000/comfyui-ksampler-tester-loop",
@@ -30,6 +120,26 @@
             ],
             "install_type": "git-clone",
             "description": "Batch samplers, schedulers, cfg, shift and steps tester custom node, automatic looping functionality for Ksampler node"
+        },
+        {
+            "author": "hvppycoding",
+            "title": "json prompt renderer",
+            "reference": "https://github.com/hvppycoding/comfyui-json-prompt-renderer",
+            "files": [
+                "https://github.com/hvppycoding/comfyui-json-prompt-renderer"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Extract JSON, 'Prompt: Render Template from JSON'"
+        },
+        {
+            "author": "Light-x02",
+            "title": "Crop Image by Lightx02",
+            "reference": "https://github.com/Light-x02/ComfyUI_Crop_Image_By_Lightx02",
+            "files": [
+                "https://github.com/Light-x02/ComfyUI_Crop_Image_By_Lightx02"
+            ],
+            "install_type": "git-clone",
+            "description": "CropImageByLightx02 is a ComfyUI node that allows cropping an image (and optionally its mask) using pixel values."
         },
         {
             "author": "orion4d",

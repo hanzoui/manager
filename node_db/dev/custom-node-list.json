@@ -1,6 +1,126 @@
 {
     "custom_nodes": [
         {
+            "author": "Saganaki22",
+            "title": "ComfyUI YTDL Nodes [WIP]",
+            "reference": "https://github.com/Saganaki22/ComfyUI-ytdl_nodes",
+            "files": [
+                "https://github.com/Saganaki22/ComfyUI-ytdl_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for downloading, converting, and previewing audio/video from YouTube and 1,000+ other platforms"
+        },
+        {
+            "author": "LSDJesus",
+            "title": "ComfyUI-Pyrite-Core [WIP]",
+            "reference": "https://github.com/LSDJesus/ComfyUI-Pyrite-Core",
+            "files": [
+                "https://github.com/LSDJesus/ComfyUI-Pyrite-Core"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository contains ComfyUI-Pyrite-Core, a bespoke collection of custom nodes for ComfyUI, engineered for power, flexibility, and a ruthlessly efficient workflow. These tools are born from a collaborative project between a human architect and their AI muse, Pyrite.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "comfyscript",
+            "title": "ComfyUI-CloudClient",
+            "reference": "https://github.com/comfyscript/ComfyUI-CloudClient",
+            "files": [
+                "https://github.com/comfyscript/ComfyUI-CloudClient"
+            ],
+            "install_type": "git-clone",
+            "description": "Design to Easily Remote Operate ComfyUI in the Cloud"
+        },
+        {
+            "author": "RobbertB80",
+            "title": "ComfyUI SharePoint/OneDrive Upload Node [UNSAFE]",
+            "reference": "https://github.com/RobbertB80/ComfyUI-SharePoint-Upload",
+            "files": [
+                "https://github.com/RobbertB80/ComfyUI-SharePoint-Upload"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that automatically uploads generated images to SharePoint or OneDrive document libraries.[w/This nodepack contains a node that can write files to an arbitrary path.]"
+        },
+        {
+            "author": "RegulusAlpha",
+            "title": "ComfyUI Dynamic Prompting Simplified [WIP]",
+            "reference": "https://github.com/RegulusAlpha/ComfyUI-DynPromptSimplified",
+            "files": [
+                "https://github.com/RegulusAlpha/ComfyUI-DynPromptSimplified"
+            ],
+            "install_type": "git-clone",
+            "description": "A minimal dynamic prompting + mirrored wildcards node for ComfyUI.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "jtrue",
+            "title": "MaskTools",
+            "reference": "https://github.com/jtrue/ComfyUI-MaskTools",
+            "files": [
+                "https://github.com/jtrue/ComfyUI-MaskTools"
+            ],
+            "install_type": "git-clone",
+            "description": "Pixel-selection tools (masks) for ComfyUI — modular."
+        },
+        {
+            "author": "nadushu",
+            "title": "comfyui-handy-nodes [UNSAFE]",
+            "reference": "https://github.com/nadushu/comfyui-handy-nodes",
+            "files": [
+                "https://github.com/nadushu/comfyui-handy-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Empty Random Latent Image, Filename Prompt Extractor, My Image Save, Queue Batch Fixed Seed, Text Cleaner, Text Splitter[w/This nodepack contains a node that can write files to an arbitrary path.]"
+        },
+        {
+            "author": "SatadalAI",
+            "title": "Combined Upscale Node for ComfyUI [WIP]",
+            "reference": "https://github.com/SatadalAI/SATA_UtilityNode",
+            "files": [
+                "https://github.com/SatadalAI/SATA_UtilityNode"
+            ],
+            "install_type": "git-clone",
+            "description": "Combined_Upscale is a custom ComfyUI node designed for high-quality image enhancement workflows. It intelligently combines model-based upscaling with efficient CPU-based resizing, offering granular control over output dimensions and quality. Ideal for asset pipelines, UI prototyping, and generative workflows.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "takoyaki1118",
+            "title": "ComfyUI-MangaTools",
+            "reference": "https://github.com/takoyaki1118/ComfyUI-MangaTools",
+            "files": [
+                "https://github.com/takoyaki1118/ComfyUI-MangaTools"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Manga Panel Detector, Manga Panel Dispatcher, GateImage, MangaPageAssembler"
+        },
+        {
+            "author": "borisfaley",
+            "title": "ComfyUI-ACES-EXR-OCIOr [UNSAFE]",
+            "reference": "https://github.com/borisfaley/ComfyUI-ACES-EXR-OCIO",
+            "files": [
+                "https://github.com/borisfaley/ComfyUI-ACES-EXR-OCIO"
+            ],
+            "install_type": "git-clone",
+            "description": "Save images and videos in ACESCg or ACES-2065-1[w/This nodepack contains a node that can write files to an arbitrary path.]"
+        },
+        {
+            "author": "NSFW-API",
+            "title": "ComfyUI-Embedding-Delta-Adapter",
+            "reference": "https://github.com/NSFW-API/ComfyUI-Embedding-Delta-Adapter",
+            "files": [
+                "https://github.com/NSFW-API/ComfyUI-Embedding-Delta-Adapter"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Load EmbDelta Adapter, Apply EmbDelta (WAN TextEmbeds)"
+        },
+        {
+            "author": "clcimir",
+            "title": "FileTo64",
+            "reference": "https://github.com/clcimir/FileTo64",
+            "files": [
+                "https://github.com/clcimir/FileTo64"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI FileTo64"
+        },
+        {
             "author": "chaserhkj",
             "title": "ComfyUI Chaser Custom Nodes",
             "reference": "https://github.com/chaserhkj/ComfyUI-Chaser-nodes",
@@ -1960,7 +2080,7 @@
                 "https://github.com/retech995/Save_Florence2_Bulk_Prompts"
             ],
             "install_type": "git-clone",
-            "description": "This comfyui node helps save image[w/This node can write files to an arbitrary path.]"
+            "description": "This comfyui node helps save image[w/This nodepack contains a node that can write files to an arbitrary path.]"
         },
         {
             "author": "Oct7",
