@@ -1,5 +1,16 @@
 {
     "custom_nodes": [
+		{
+            "author": "Daxamur",
+            "title": "DaxNodes",
+            "reference": "https://civitai.com/user/Daxamur",
+            "files": [
+                "https://github.com/Daxamur/DaxNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI video processing nodes with workflow metadata support",
+            "pip": ["mediapipe>=0.10.0", "opencv-python>=4.8.0", "scipy>=1.10.0", "color-matcher>=0.3.0"]
+        },
         {
             "author": "orion4d",
             "title": "ComfyUI_DAO_master",
@@ -681,16 +692,6 @@
             ],
             "install_type": "git-clone",
             "description": "Smart resize node for ComfyUI that handles portrait/landscape images with short/long side specification"
-        },
-        {
-            "author": "Windecay",
-            "title": "ComfyUI-SDupcaleTiledSize",
-            "reference": "https://github.com/Windecay/ComfyUI-SDupcaleTiledSize",
-            "files": [
-                "https://github.com/Windecay/ComfyUI-SDupcaleTiledSize"
-            ],
-            "install_type": "git-clone",
-            "description": "Assist in determining reasonable input values for tiled_width/tiled_height in the UltimateSDUpscale node to improve efficiency."
         }
     ]
 }
