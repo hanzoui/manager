@@ -108,6 +108,17 @@
             "title_aux": "ComfyUI-MegaTTS"
         }
     ],
+    "https://github.com/1038lab/ComfyUI-MiniCPM": [
+        [
+            "AILab_MiniCPM_4_V",
+            "AILab_MiniCPM_4_V_Advanced",
+            "AILab_MiniCPM_4_V_GGUF",
+            "AILab_MiniCPM_4_V_GGUF_Advanced"
+        ],
+        {
+            "title_aux": "ComfyUI-MiniCPM"
+        }
+    ],
     "https://github.com/1038lab/ComfyUI-MiniMax-Remover": [
         [
             "ImageSizeAdjuster",
@@ -4497,6 +4508,14 @@
             "title_aux": "Derfuu_ComfyUI_ModdedNodes"
         }
     ],
+    "https://github.com/DesertPixelAi/ComfyUI-DP-Ideogram-Character": [
+        [
+            "DP_IdeogramCharacter"
+        ],
+        {
+            "title_aux": "ComfyUI DP Ideogram Character Node"
+        }
+    ],
     "https://github.com/DesertPixelAi/ComfyUI-Desert-Pixel-Nodes": [
         [
             "DP 10 Images Switch Or Batch",
@@ -5826,6 +5845,7 @@
             "GetResolutionForVR",
             "ImageVRConverter",
             "SaveStrippedUTF8File",
+            "ScaleByFactor",
             "StripXML"
         ],
         {
@@ -10987,8 +11007,15 @@
     ],
     "https://github.com/RUiNtheExtinct/comfyui-save-file-extended": [
         [
+            "LoadAudioExtended",
             "LoadImageExtended",
-            "SaveImageExtended"
+            "LoadVideoExtended",
+            "SaveAudioExtended",
+            "SaveAudioMP3Extended",
+            "SaveAudioOpusExtended",
+            "SaveImageExtended",
+            "SaveVideoExtended",
+            "SaveWEBMExtended"
         ],
         {
             "title_aux": "comfyui-save-file-extended"
@@ -27919,6 +27946,16 @@
             "title_aux": "ComfyUI_HuggingFace_Downloader"
         }
     ],
+    "https://github.com/joanna910225/comfyui-housekeeper": [
+        [
+            "housekeeper-alignment",
+            "housekeeper-alignment-cmd",
+            "vue-basic"
+        ],
+        {
+            "title_aux": "HouseKeeper"
+        }
+    ],
     "https://github.com/joeriben/ai4artsed_comfyui_nodes": [
         [
             "ai4artsed_conditioning_fusion",
@@ -29568,7 +29605,9 @@
         [
             "CreateCFGScheduleFloatList",
             "CreateScheduleFloatList",
+            "DownloadAndLoadNLFModel",
             "DownloadAndLoadWav2VecModel",
+            "DrawNLFPoses",
             "DummyComfyWanModelObject",
             "ExtractStartFramesForContinuations",
             "FantasyPortraitFaceDetector",
@@ -29576,10 +29615,13 @@
             "FantasyTalkingModelLoader",
             "FantasyTalkingWav2VecEmbeds",
             "LandmarksToImage",
+            "LoadVQVAE",
             "LoadWanVideoClipTextEncoder",
             "LoadWanVideoT5TextEncoder",
+            "MTVCrafterEncodePoses",
             "MultiTalkModelLoader",
             "MultiTalkWav2VecEmbeds",
+            "NLFPredict",
             "QwenLoader",
             "ReCamMasterPoseVisualizer",
             "WanVideoATITracks",
@@ -29588,6 +29630,7 @@
             "WanVideoAddControlEmbeds",
             "WanVideoAddExtraLatent",
             "WanVideoAddFantasyPortrait",
+            "WanVideoAddMTVMotion",
             "WanVideoAddStandInLatent",
             "WanVideoApplyNAG",
             "WanVideoBlockList",
@@ -29604,6 +29647,7 @@
             "WanVideoEncode",
             "WanVideoEnhanceAVideo",
             "WanVideoExperimentalArgs",
+            "WanVideoExtraModelSelect",
             "WanVideoFlowEdit",
             "WanVideoFreeInitArgs",
             "WanVideoFunCameraEmbeds",
@@ -34620,6 +34664,8 @@
             "DXF Transform",
             "DXF to SVG",
             "Folder File Pro",
+            "Load Image Pro",
+            "Path To Image",
             "SVG Boolean",
             "SVG Load",
             "SVG Passthrough",
@@ -35234,7 +35280,10 @@
             "CRTPctCropCalculator",
             "CRTPostProcess",
             "CRT_AddSettingsAndPrompt",
+            "CRT_DynamicPromptScheduler",
+            "CRT_FileBatchPromptScheduler",
             "CRT_UpscaleModelAdv",
+            "CRT_WAN_BatchSampler",
             "ClarityFX",
             "ClearStyleModelDualCache",
             "ColorIsolationFX",
@@ -35246,6 +35295,7 @@
             "FancyNoteNode",
             "FancyTimerNode",
             "FileLoaderCrawl",
+            "FileLoaderCrawlBatch",
             "FilmGrainFX",
             "FluxAIO_CRT",
             "FluxControlnetSampler",
@@ -36438,6 +36488,14 @@
         ],
         {
             "title_aux": "ComfyUI-TranscriptionTools"
+        }
+    ],
+    "https://github.com/rslosch/ComfyUI-EZ_Prompts": [
+        [
+            "EZPromptsNode"
+        ],
+        {
+            "title_aux": "ComfyUI-EZ_Prompts"
         }
     ],
     "https://github.com/rubenvillarreal/ComfyUI_PoseAlign": [
@@ -41334,6 +41392,8 @@
             "ImageMosaic",
             "ImageRotate",
             "ImageSelector",
+            "ImageSmartCrop",
+            "ImageSmartPad",
             "ImageUpscaleTiled",
             "IrregularToEllipseMask",
             "LoadImagesFromFolder",
