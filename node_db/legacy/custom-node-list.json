@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "Seedsa",
+            "title": "ComfyUI Fooocus Nodes [REMOVED]",
+            "id": "fooocus-nodes",
+            "reference": "https://github.com/Seedsa/Fooocus_Nodes",
+            "files": [
+                "https://github.com/Seedsa/Fooocus_Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension provides image generation features based on Fooocus."
+        },
+        {
             "author": "zhilemann",
             "title": "ComfyUI-moondream2 [REMOVED]",
             "reference": "https://github.com/zhilemann/ComfyUI-moondream2",
@@ -99,16 +110,6 @@
             ],
             "install_type": "git-clone",
             "description": "This custom node is a ComfyUI node for generating speech from text using the Gemini 2.5 Flash Preview TTS API."
-        },
-        {
-            "author": "alFrame",
-            "title": "AF - Edit Generated Prompt [REMOVED]",
-            "reference": "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt",
-            "files": [
-                "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually. Or you can use the lower input field like any regular text input filed. The content of the lower text field will always dominate the output of the node."
         },
         {
             "author": "squirrel765",

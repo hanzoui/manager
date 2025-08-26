@@ -1852,6 +1852,18 @@
             "title_aux": "comfyui-HandDetect"
         }
     ],
+    "https://github.com/IXIWORKS-KIMJUNGHO/comfyui-ixiworks": [
+        [
+            "BuildCharacterPromptNode",
+            "BuildPromptNode",
+            "JsonParserNode",
+            "MergeStringsNode",
+            "SelectIndexNode"
+        ],
+        {
+            "title_aux": "IxiWorks StoryBoard Nodes [WIP]"
+        }
+    ],
     "https://github.com/IfnotFr/ComfyUI-Ifnot-Pack": [
         [
             "Face Crop",
@@ -1887,7 +1899,7 @@
             "title_aux": "ComfyUI-exLoadout [WIP]"
         }
     ],
-    "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-2_6-int4": [
+    "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-4": [
         [
             "DisplayText",
             "MiniCPM_VQA",
@@ -1904,14 +1916,6 @@
         ],
         {
             "title_aux": "comfyui-codeformer [WIP]"
-        }
-    ],
-    "https://github.com/JasonW146/ComfyUI-Manual-Openpose": [
-        [
-            "Manual Openpose Setter"
-        ],
-        {
-            "title_aux": "JasonW146"
         }
     ],
     "https://github.com/Jaxkr/comfyui-terminal-command": [
@@ -1985,18 +1989,6 @@
             "title_aux": "comfy-consistency-vae"
         }
     ],
-    "https://github.com/Jpzz/comfyui-ixiworks": [
-        [
-            "BuildCharacterPromptNode",
-            "BuildPromptNode",
-            "JsonParserNode",
-            "MergeStringsNode",
-            "SelectIndexNode"
-        ],
-        {
-            "title_aux": "IxiWorks StoryBoard Nodes [WIP]"
-        }
-    ],
     "https://github.com/Junst/ComfyUI-PNG2SVG2PNG": [
         [
             "PNG2SVG2PNG"
@@ -2016,10 +2008,13 @@
     "https://github.com/KY-2000/comfyui-ksampler-tester-loop": [
         [
             "AllParametersLoop",
+            "AllParametersLoopAdvanced",
             "FloatRangeLoop",
             "ParametersRangeLoop",
             "SamplerLoop",
+            "SamplerLoopAdvanced",
             "SamplerSchedulerLoop",
+            "SamplerSchedulerLoopAdvanced",
             "SchedulerLoop"
         ],
         {
@@ -3197,6 +3192,7 @@
         [
             "YTDLDownloader",
             "YTDLLinksInput",
+            "YTDLPreview",
             "YTDLPreviewAudio"
         ],
         {
@@ -3475,6 +3471,8 @@
             "SDVN DALL-E Generate Image",
             "SDVN Dall-E Generate Image 2",
             "SDVN Dic Convert",
+            "SDVN DiffsynthControlNet Apply",
+            "SDVN DiffsynthUnionLora Apply",
             "SDVN DualCLIP Download",
             "SDVN Easy IPAdapter weight",
             "SDVN Empty Latent Ratio",
@@ -4252,6 +4250,23 @@
         ],
         {
             "title_aux": "ComfyUI-AutoPrompt [WIP]"
+        }
+    ],
+    "https://github.com/alchemist-software-engineer/ComfyUI-Affine-Transform": [
+        [
+            "AffineTransform"
+        ],
+        {
+            "title_aux": "Affine Transform ComfyUI Node [WIP]"
+        }
+    ],
+    "https://github.com/alchemist-software-engineer/ComfyUI-Simple-Image-Tools": [
+        [
+            "GetMaskFromAlpha",
+            "GetQuadrilateralOutfit"
+        ],
+        {
+            "title_aux": "ComfyUI-Simple-Image-Tools [WIP]"
         }
     ],
     "https://github.com/alexgenovese/ComfyUI-Diffusion-4k": [
@@ -5141,6 +5156,8 @@
         [
             "AddNoise",
             "AlignYourStepsScheduler",
+            "AudioEncoderEncode",
+            "AudioEncoderLoader",
             "BasicGuider",
             "BasicScheduler",
             "BetaSamplingScheduler",
@@ -6309,23 +6326,6 @@
         ],
         {
             "title_aux": "loki-comfyui-node"
-        }
-    ],
-    "https://github.com/gondar-software/ComfyUI-Affine-Transform": [
-        [
-            "AffineTransform"
-        ],
-        {
-            "title_aux": "Affine Transform ComfyUI Node [WIP]"
-        }
-    ],
-    "https://github.com/gondar-software/ComfyUI-Simple-Image-Tools": [
-        [
-            "GetMaskFromAlpha",
-            "GetQuadrilateralOutfit"
-        ],
-        {
-            "title_aux": "ComfyUI-Simple-Image-Tools [WIP]"
         }
     ],
     "https://github.com/gordon123/ComfyUI_DreamBoard": [
@@ -8778,7 +8778,7 @@
             "title_aux": "ComfyUI LLM Prompt Enhancer [WIP]"
         }
     ],
-    "https://github.com/pixixai/ComfyUI_Pixix-Tools": [
+    "https://github.com/pixixai/ComfyUI_pixixTools": [
         [
             "BaiduTranslateNode",
             "ChatGLM4TranslateTextNode",
@@ -8902,6 +8902,14 @@
         ],
         {
             "title_aux": "ComfyUI-StreamDiffusion"
+        }
+    ],
+    "https://github.com/pururin777/ComfyUI-Manual-Openpose": [
+        [
+            "Manual Openpose Setter"
+        ],
+        {
+            "title_aux": "JasonW146"
         }
     ],
     "https://github.com/pzzmyc/comfyui-sd3-simple-simpletuner": [
@@ -9926,6 +9934,7 @@
         [
             "TKVideoSmoothLooper",
             "TKVideoSpeedZones",
+            "TKVideoStitcher",
             "TKVideoZoom"
         ],
         {
@@ -10508,6 +10517,9 @@
             "ImageSizeNode",
             "ImageToBase64Node",
             "ImageToVideoNode",
+            "ImagesCatNode",
+            "ImagesIndexNode",
+            "ImagesRangeNode",
             "IntNode",
             "IntToFloatNode",
             "LoadImageFromDirectoryNode",
