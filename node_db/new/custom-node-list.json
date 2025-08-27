@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "isaac-mcfadyen",
+            "title": "ComfyUI-QwenClip",
+            "reference": "https://github.com/isaac-mcfadyen/ComfyUI-QwenClip",
+            "files": [
+                "https://github.com/isaac-mcfadyen/ComfyUI-QwenClip"
+            ],
+            "install_type": "git-clone",
+            "description": "A variety of random text encoder tools intended for use with ComfyUI and Qwen Image/Qwen Image Edit. More (may) be added as I try out various modifications to Qwen Image."
+        },
+        {
             "author": "1038lab",
             "title": "ComfyUI-MiniCPM",
             "reference": "https://github.com/1038lab/ComfyUI-MiniCPM",
@@ -50,16 +60,6 @@
             ],
             "install_type": "git-clone",
             "description": "Eigen AI FLUX API integration for ComfyUI with LoRA support and large font prompt inputs. Features high-quality image generation using FLUX.1-schnell model with multi-LoRA support, content upscaling, and optimized prompt input interface."
-        },
-        {
-            "author": "jialuw0830",
-            "title": "comfyui-egregora-regional",
-            "reference": "https://github.com/lucasgattas/comfyui-egregora-regional",
-            "files": [
-                "https://github.com/lucasgattas/comfyui-egregora-regional"
-            ],
-            "install_type": "git-clone",
-            "description": "Image Tile Split with Region-Aware Prompting for ComfyUI"
         },
         {
             "author": "LeanModels",
@@ -362,16 +362,6 @@
             ],
             "install_type": "git-clone",
             "description": "Advanced LoRA loader with per-block weight control for fine-grained influence over different model layers in ComfyUI"
-        },
-        {
-            "author": "lucasgattas",
-            "title": "comfyui-egregora-tiled",
-            "reference": "https://github.com/lucasgattas/comfyui-egregora-tiled",
-            "files": [
-                "https://github.com/lucasgattas/comfyui-egregora-tiled"
-            ],
-            "install_type": "git-clone",
-            "description": "Tiled regional prompting + tiled VAE decode with seam-free blending for ComfyUI"
         },
         {
             "author": "svntax",

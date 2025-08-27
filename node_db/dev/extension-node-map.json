@@ -2198,6 +2198,7 @@
         [
             "PyriteModelAdapter",
             "Pyrite_AdvancedUpscaler",
+            "Pyrite_GGUF_Loader",
             "Pyrite_SimpleUpscaler",
             "pyrite_image_caption"
         ],
@@ -3040,6 +3041,10 @@
     ],
     "https://github.com/Randomwalkforest/Comfyui-Koi-Toolkit": [
         [
+            "Florence2CoordinateExtractor",
+            "Florence2JsonShow",
+            "ImageSubtraction",
+            "ImageSubtractionAdvanced",
             "MaskExternalRectangle",
             "SimpleImageStitch",
             "imageStitchForICImproved",
@@ -5243,6 +5248,7 @@
             "GITSScheduler",
             "GLIGENLoader",
             "GLIGENTextBoxApply",
+            "GeminiImageNode",
             "GeminiInputFiles",
             "GeminiNode",
             "GetImageSize",
@@ -9708,17 +9714,6 @@
         ],
         {
             "title_aux": "displayHistory [WIP]"
-        }
-    ],
-    "https://github.com/takoyaki1118/ComfyUI-MangaTools": [
-        [
-            "GateImage",
-            "MangaPageAssembler",
-            "MangaPanelDetector",
-            "MangaPanelDispatcher"
-        ],
-        {
-            "title_aux": "ComfyUI-MangaTools"
         }
     ],
     "https://github.com/takoyaki1118/ComfyUI_PromptExtractor": [
