@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "ShmuelRonen",
+            "title": "ComfyUI-NanoBanano",
+            "reference": "https://github.com/ShmuelRonen/ComfyUI-NanoBanano",
+            "files": [
+                "https://github.com/ShmuelRonen/ComfyUI-NanoBanano"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for Google's Gemini 2.5 Flash Image (aka 'Nano Banana') model - the state-of-the-art image generation and editing AI."
+        },
+        {
+            "author": "wildminder",
+            "title": "ComfyUI-VibeVoice",
+            "reference": "https://github.com/wildminder/ComfyUI-VibeVoice",
+            "files": [
+                "https://github.com/wildminder/ComfyUI-VibeVoice"
+            ],
+            "install_type": "git-clone",
+            "description": "VibeVoice TTS. Expressive, long-form, multi-speaker conversational audio"
+        },
+        {
+            "author": "jtydhr88",
+            "title": "ComfyUI-AudioMass",
+            "reference": "https://github.com/jtydhr88/ComfyUI-AudioMass",
+            "files": [
+                "https://github.com/jtydhr88/ComfyUI-AudioMass"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a ComfyUI plugin that provides a user interface of AudioMass, originally developed by [a/AudioMass](https://github.com/pkalogiros/audiomass)"
+        },
+        {
+            "author": "isaac-mcfadyen",
+            "title": "ComfyUI Popo Utility",
+            "reference": "https://github.com/popoimm/comfyui-popo-utility",
+            "files": [
+                "https://github.com/popoimm/comfyui-popo-utility"
+            ],
+            "install_type": "git-clone",
+            "description": "High-Performance ComfyUI Custom Node Toolkit - Modular and Extensible Architecture\nA utility toolkit designed specifically for ComfyUI image processing, built with a modular architecture that supports fast extension and the addition of new nodes."
+        },
+        {
+            "author": "orion4d",
+            "title": "SharpnessPro pour ComfyUI",
+            "reference": "https://github.com/orion4d/ComfyUI_SharpnessPro",
+            "files": [
+                "https://github.com/orion4d/ComfyUI_SharpnessPro"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of high-quality nodes for ComfyUI, dedicated to improving the sharpness, clarity, and texture of your images"
+        },
+        {
             "author": "isaac-mcfadyen",
             "title": "ComfyUI-QwenClip",
             "reference": "https://github.com/isaac-mcfadyen/ComfyUI-QwenClip",
@@ -29,6 +79,16 @@
             ],
             "install_type": "git-clone",
             "description": "A custom ComfyUI node for generating consistent character images using Ideogram API v3's character reference feature. Part of the Desert Pixel (DP) node collection."
+        },
+        {
+            "author": "rslosch",
+            "title": "ComfyUI-EZ_Prompts",
+            "reference": "https://github.com/rslosch/ComfyUI-EZ_Prompts",
+            "files": [
+                "https://github.com/rslosch/ComfyUI-EZ_Prompts"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node extension that provides easy-to-use prompt templates and wildcards for AI image generation."
         },
         {
             "author": "joanna910225",

@@ -311,6 +311,25 @@
             "title_aux": "ComfyUI-SanMian-Nodes"
         }
     ],
+    "https://github.com/543872524/ComfyUI_crdong": [
+        [
+            "INTConstant",
+            "PromptExampleNode",
+            "PromptJoinOrList",
+            "PromptList",
+            "PromptSelectorStr",
+            "SelectImageSize",
+            "SimpleIntMathHandle",
+            "SimpleJsonArrayHandle",
+            "SimpleJsonObjectHandle",
+            "VideoFrameSize",
+            "VideoTimeAndFPS",
+            "Wan22StepHandle"
+        ],
+        {
+            "title_aux": "ComfyUI_crdong"
+        }
+    ],
     "https://github.com/5x00/ComfyUI-Prompt-Plus": [
         [
             "LoadAPI",
@@ -3516,7 +3535,6 @@
             "SDVN Load Image Ultimate",
             "SDVN Load Image Url",
             "SDVN Load Lora",
-            "SDVN Load Model",
             "SDVN Load Text",
             "SDVN LoadPinterest",
             "SDVN Logic",
@@ -3540,7 +3558,6 @@
             "SDVN Pipe Out",
             "SDVN Pipe Out All",
             "SDVN QuadrupleCLIP Download",
-            "SDVN Quick Menu",
             "SDVN QwenEdit TextEncoder",
             "SDVN RGBA to RGB",
             "SDVN Random Prompt",
@@ -6287,6 +6304,16 @@
         ],
         {
             "title_aux": "comfyui_median_filter"
+        }
+    ],
+    "https://github.com/gmammolo/comfyui-gmammolo": [
+        [
+            "FilterConditioningPrompt",
+            "FilterTextPrompt",
+            "SimpleTextbox"
+        ],
+        {
+            "title_aux": "comfyui-gmammolo"
         }
     ],
     "https://github.com/gmorks/ComfyUI-Animagine-Prompt": [
