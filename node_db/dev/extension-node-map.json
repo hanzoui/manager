@@ -1344,21 +1344,19 @@
     ],
     "https://github.com/DenRakEiw/DenRakEiw_Nodes": [
         [
-            "ColorGeneratorNode",
             "ConditioningInspector",
             "FluxLayerDiffuseConditioningFix",
             "FluxLayerDiffuseDecoderSimple",
             "FluxLayerDiffuseEmptyConditioning",
             "FluxLayerDiffuseInfo",
             "FluxLayerDiffuseStandaloneLoader",
-            "LatentColorMatch",
-            "LatentColorMatchSimple",
-            "LatentImageAdjust",
             "LoadImageSequence",
             "LoadImageSequenceInfo",
+            "OptimizedWanVAEUpscaler",
             "PreviewTransparentImage",
             "SaveTransparentImage",
-            "TransparentImageInfo"
+            "TransparentImageInfo",
+            "WanNNLatentUpscaler"
         ],
         {
             "title_aux": "Denrakeiw Nodes [WIP]"
@@ -2465,6 +2463,7 @@
             "AnyImageStitch",
             "AnyImagetoConditioning_flux_kontext",
             "AutoLoop_create_pseudo_loop_video",
+            "BatchLoraLoader",
             "Environment_INFO",
             "GetImageNthCount",
             "ImageChannelSeparate",
@@ -3521,6 +3520,7 @@
             "SDVN Image Scraper",
             "SDVN Image Size",
             "SDVN Image White Balance",
+            "SDVN ImageGallery",
             "SDVN Inpaint",
             "SDVN Inpaint Crop",
             "SDVN InstantIDModel Download",
@@ -5336,6 +5336,7 @@
             "LatentBlend",
             "LatentComposite",
             "LatentCompositeMasked",
+            "LatentConcat",
             "LatentCrop",
             "LatentFlip",
             "LatentFromBatch",
@@ -8346,9 +8347,10 @@
     ],
     "https://github.com/mrCodinghero/ComfyUI-Codinghero": [
         [
-            "Image Size Converter",
-            "Upscale Settings",
-            "Video Settings Converter"
+            "Image Size Calculator",
+            "Model Selector",
+            "Upscale Settings Calculator",
+            "Video Settings Calculator"
         ],
         {
             "title_aux": "ComfyUI-Codinghero"

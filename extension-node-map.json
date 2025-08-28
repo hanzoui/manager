@@ -110,10 +110,10 @@
     ],
     "https://github.com/1038lab/ComfyUI-MiniCPM": [
         [
-            "AILab_MiniCPM_4_V",
-            "AILab_MiniCPM_4_V_Advanced",
-            "AILab_MiniCPM_4_V_GGUF",
-            "AILab_MiniCPM_4_V_GGUF_Advanced"
+            "AILab_MiniCPM_V",
+            "AILab_MiniCPM_V_Advanced",
+            "AILab_MiniCPM_V_GGUF",
+            "AILab_MiniCPM_V_GGUF_Advanced"
         ],
         {
             "title_aux": "ComfyUI-MiniCPM"
@@ -3894,6 +3894,7 @@
     ],
     "https://github.com/ComfyAssets/ComfyUI-KikoTools": [
         [
+            "BatchPrompts",
             "DisplayAny",
             "DisplayText",
             "EmptyLatentBatch",
@@ -3907,6 +3908,7 @@
             "ImageScaleDownBy",
             "ImageToMultipleOf",
             "KikoFilmGrain",
+            "KikoLocalImageLoader",
             "KikoPurgeVRAM",
             "KikoSaveImage",
             "LoRAFolderBatch",
@@ -4843,12 +4845,19 @@
     "https://github.com/DragonDiffusionbyBoyo/Boyonodes": [
         [
             "BoyoAudioEval",
+            "BoyoChainBastardLoops",
             "BoyoFramePackLoRA",
             "BoyoLoadImageList",
+            "BoyoLoopCollector",
+            "BoyoLoopImageSaver",
             "BoyoPairedSaver",
+            "BoyoPromptInjector",
+            "BoyoPromptLoop",
             "BoyoSaver",
             "BoyoTiledVAEDecode",
             "BoyoVAEDecode",
+            "BoyoWanFunEmptyLatent",
+            "BoyoWanFunImageSampler",
             "Boyolatent",
             "MandelbrotVideo"
         ],
@@ -9181,6 +9190,32 @@
             "title_aux": "ComfyUI-promptLAB"
         }
     ],
+    "https://github.com/MakkiShizu/ComfyUI-MakkiTools": [
+        [
+            "AnyImageStitch",
+            "AnyImagetoConditioning_flux_kontext",
+            "AutoLoop_create_pseudo_loop_video",
+            "BatchLoraLoader",
+            "Environment_INFO",
+            "GetImageNthCount",
+            "ImageChannelSeparate",
+            "ImageCountConcatenate",
+            "ImageHeigthStitch",
+            "ImageWidthStitch",
+            "Image_Resize",
+            "MergeImageChannels",
+            "Prism_Mirage",
+            "int_calculate_statistics",
+            "random_any",
+            "show_type",
+            "timer",
+            "translator_m2m100",
+            "translators"
+        ],
+        {
+            "title_aux": "ComfyUI-MakkiTools"
+        }
+    ],
     "https://github.com/MakkiShizu/ComfyUI-Prompt-Wildcards": [
         [
             "makitextwildcards",
@@ -11122,6 +11157,7 @@
             "RizzClean",
             "RizzCropAndScaleFromMask",
             "RizzDynamicPromptGenerator",
+            "RizzEditImage",
             "RizzLoadLatestImage",
             "RizzLoadLatestMesh",
             "RizzModelBatchLoader",
@@ -14439,6 +14475,7 @@
             "VrchAnyOSCControlNode",
             "VrchAudioChannelLoaderNode",
             "VrchAudioConcatNode",
+            "VrchAudioEmotionVisualizerNode",
             "VrchAudioFrequencyBandAnalyzerNode",
             "VrchAudioGenresNode",
             "VrchAudioMusic2EmotionNode",
@@ -15156,6 +15193,7 @@
             "ApplyStyleModelSimple",
             "BatchImagesNode",
             "FrameCalculator",
+            "FrameCalculatorAudio",
             "InpaintConditioningNode",
             "InpaintFluxKontextConditioning",
             "Prepimg2Vid",
@@ -16470,6 +16508,7 @@
             "Comfly_mj_video_extend",
             "Comfly_mjstyle",
             "Comfly_nano_banana",
+            "Comfly_nano_banana_fal",
             "Comfly_qwen_image",
             "Comfly_qwen_image_edit",
             "Comfly_upload",
@@ -16861,7 +16900,10 @@
             "BlenderInputGroup",
             "BlenderInputInt",
             "BlenderInputLoad3D",
+            "BlenderInputLoadCheckpoint",
+            "BlenderInputLoadDiffusionModel",
             "BlenderInputLoadImage",
+            "BlenderInputLoadLora",
             "BlenderInputSeed",
             "BlenderInputString",
             "BlenderInputStringMultiline",
@@ -18983,6 +19025,7 @@
     ],
     "https://github.com/calcuis/gguf": [
         [
+            "AudioEncoderLoaderGGUF",
             "ClipLoaderGGUF",
             "DualClipLoaderGGUF",
             "GGUFRun",
@@ -21095,6 +21138,7 @@
     ],
     "https://github.com/comfy-deploy/comfyui-llm-toolkit": [
         [
+            "APIKeyInput",
             "AudioDurationFrames",
             "BFLProviderNode",
             "BlankImage",
@@ -21155,6 +21199,7 @@
             "SwitchAnyRoute_wANY",
             "SwitchAny_wANY",
             "SystemPromptTaskGenerator",
+            "TestAPIKeyContext",
             "UpscaleVideo",
             "WaveSpeedProviderNode"
         ],
@@ -21328,6 +21373,7 @@
             "LatentBlend",
             "LatentComposite",
             "LatentCompositeMasked",
+            "LatentConcat",
             "LatentCrop",
             "LatentFlip",
             "LatentFromBatch",
@@ -23721,6 +23767,9 @@
     ],
     "https://github.com/fblissjr/ComfyUI-QwenImageWanBridge": [
         [
+            "DenoiseCurveVisualizer",
+            "LatentStatisticsMonitor",
+            "MinimalKeyframeV2V",
             "QwenCheckpointLoaderSimple",
             "QwenCompareEncoders",
             "QwenDebugTextEncoder",
@@ -23737,7 +23786,9 @@
             "QwenImageSamplerAdvanced",
             "QwenImageSamplerWrapper",
             "QwenImageVAEEncode",
+            "QwenLowresFixNode",
             "QwenModelValidator",
+            "QwenMultiReferenceHandler",
             "QwenOptimalResolution",
             "QwenPromptFormatter",
             "QwenPromptInterpolator",
@@ -23758,6 +23809,8 @@
             "QwenVLTextEncoder",
             "QwenWANCompareLatents",
             "QwenWANConditioningDebug",
+            "QwenWANKeyframeEditor",
+            "QwenWANKeyframeExtractor",
             "QwenWANLatentDebug"
         ],
         {
@@ -24681,6 +24734,7 @@
     ],
     "https://github.com/gelasdev/ComfyUI-FLUX-BFL-API": [
         [
+            "FluxConfig_BFL",
             "FluxDeleteFinetune_BFL",
             "FluxDevRedux_BFL",
             "FluxDev_BFL",
@@ -30067,6 +30121,7 @@
             "Leon_Midjourney_Proxy_API_Node",
             "Leon_Midjourney_Upload_API_Node",
             "Leon_Model_Selector_Node",
+            "Leon_Nano_Banana_API_Node",
             "Leon_Qwen_Image_API_Node",
             "Leon_Qwen_Image_Edit_API_Node",
             "Leon_Recraft_Image_API_Node",
@@ -32205,6 +32260,7 @@
             "Random Hex Color | sokes \ud83e\uddac",
             "Random Number | sokes \ud83e\uddac",
             "Replace Text with RegEx | sokes \ud83e\uddac",
+            "Runpod Serverless | sokes \ud83e\uddac",
             "Street View Loader | sokes \ud83e\uddac"
         ],
         {
@@ -33052,6 +33108,7 @@
             "EightFloats",
             "EvenOrOdd",
             "EvenOrOddList",
+            "FlatColorQuantization",
             "FloatListInterpreter1",
             "FloatListInterpreter4",
             "FloatListInterpreter8",
@@ -34249,6 +34306,14 @@
             "title_aux": "ComfyUI-Orpheus"
         }
     ],
+    "https://github.com/nunchaku-tech/ComfyUI-nunchaku": [
+        [
+            "NunchakuWheelInstaller"
+        ],
+        {
+            "title_aux": "ComfyUI-nunchaku"
+        }
+    ],
     "https://github.com/nux1111/ComfyUI_NetDist_Plus": [
         [
             "CombineImageBatch",
@@ -35330,7 +35395,8 @@
         [
             "PopoImageAspectRatioNode",
             "PopoImageDimensionsNode",
-            "PopoImageSizeNode"
+            "PopoImageSizeNode",
+            "PopoMathExpressionNode"
         ],
         {
             "title_aux": "ComfyUI Popo Utility"
@@ -41365,8 +41431,6 @@
             "ImageMosaic",
             "ImageRotate",
             "ImageSelector",
-            "ImageSmartCrop",
-            "ImageSmartPad",
             "ImageUpscaleTiled",
             "IrregularToEllipseMask",
             "LoadImagesFromFolder",
@@ -41390,6 +41454,10 @@
             "YC Text Condition Switch",
             "YC Text Index Switch",
             "YC Universal Gate",
+            "YCImageSmartCrop",
+            "YCImageSmartPad",
+            "YCImageTile",
+            "YCImageUntile",
             "YCMaskComposite",
             "YCRemapMaskRange",
             "YCTextImageGenerator",
