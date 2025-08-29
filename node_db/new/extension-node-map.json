@@ -6192,6 +6192,14 @@
             "title_aux": "ComfyUI-I2I-slim"
         }
     ],
+    "https://github.com/Gipphe/comfyui-metadata-statistics": [
+        [
+            "RecordModels"
+        ],
+        {
+            "title_aux": "ComfyUI Metadata Statistics"
+        }
+    ],
     "https://github.com/GiusTex/ComfyUI-DiffusersImageOutpaint": [
         [
             "DiffusersImageOutpaint",
@@ -7180,6 +7188,14 @@
         ],
         {
             "title_aux": "ComfyUI-UniAnimate-W"
+        }
+    ],
+    "https://github.com/Isi-dev/ComfyUI_DeleteModelPassthrough": [
+        [
+            "DeleteModelPassthrough"
+        ],
+        {
+            "title_aux": "ComfyUI_DeleteModelPassthrough"
         }
     ],
     "https://github.com/Isulion/ComfyUI_Isulion": [
@@ -9135,13 +9151,15 @@
             "ACE_LatentVisualizer",
             "APGGuiderForked",
             "AdvancedAudioPreviewAndSave",
+            "AdvancedMediaSave",
             "HybridAdaptiveSigmas",
             "MasteringChainNode",
             "NoiseDecayScheduler_Custom",
-            "PingPongSampler_Custom",
             "PingPongSampler_Custom_FBG",
+            "PingPongSampler_Custom_Lite",
             "SceneGeniusAutocreator",
-            "SeedSaver"
+            "SeedSaver",
+            "UniversalGuardian"
         ],
         {
             "title_aux": "MD Nodes"
@@ -11507,6 +11525,14 @@
         ],
         {
             "title_aux": "ComfyUI-Qwen-VL"
+        }
+    ],
+    "https://github.com/Saganaki22/ComfyUI-dotWaveform": [
+        [
+            "DottedWaveformVisualizer"
+        ],
+        {
+            "title_aux": "dotWaveform"
         }
     ],
     "https://github.com/SamKhoze/ComfyUI-DeepFuze": [
@@ -16195,6 +16221,39 @@
         ],
         {
             "title_aux": "ComfyUI-styles-all"
+        }
+    ],
+    "https://github.com/aesethtics/ComfyUI-Utilitools": [
+        [
+            "UtilAdd",
+            "UtilAspectRatio",
+            "UtilBatchController",
+            "UtilBooleanAND",
+            "UtilBooleanNOT",
+            "UtilBooleanOR",
+            "UtilCalculator",
+            "UtilConstantFloat",
+            "UtilConstantInt",
+            "UtilConstantString",
+            "UtilCounter",
+            "UtilDateTimestamp",
+            "UtilDivide",
+            "UtilFloatToInt",
+            "UtilIfThenElse",
+            "UtilImageDimensions",
+            "UtilIntToFloat",
+            "UtilListCreate",
+            "UtilListIndex",
+            "UtilMultiply",
+            "UtilPassthrough",
+            "UtilStringReplace",
+            "UtilSubtract",
+            "UtilSwitch",
+            "UtilTextConcat",
+            "UtilWhateverToString"
+        ],
+        {
+            "title_aux": "ComfyUI Utilitools Nodes"
         }
     ],
     "https://github.com/agilly1989/ComfyUI_agilly1989_motorway": [
@@ -21375,6 +21434,7 @@
             "LatentCompositeMasked",
             "LatentConcat",
             "LatentCrop",
+            "LatentCut",
             "LatentFlip",
             "LatentFromBatch",
             "LatentInterpolate",
@@ -22827,29 +22887,11 @@
             "Ovis25ModelLoader",
             "OvisU1ImageCaption",
             "OvisU1VLModelLoader",
+            "TextSave_VL",
             "VLNodesFreeMemoryAPI"
         ],
         {
             "title_aux": "ComfyUI-VL-Nodes"
-        }
-    ],
-    "https://github.com/diodiogod/TTS-Audio-Suite": [
-        [
-            "AudioAnalyzerNode",
-            "AudioAnalyzerOptionsNode",
-            "CharacterVoicesNode",
-            "ChatterBoxEngineNode",
-            "ChatterBoxF5TTSEditOptions",
-            "F5TTSEngineNode",
-            "HiggsAudioEngineNode",
-            "MouthMovementAnalyzer",
-            "UnifiedTTSSRTNode",
-            "UnifiedTTSTextNode",
-            "UnifiedVoiceChangerNode",
-            "VisemeDetectionOptionsNode"
-        ],
-        {
-            "title_aux": "TTS Audio Suite"
         }
     ],
     "https://github.com/diontimmer/ComfyUI-Vextra-Nodes": [
@@ -24586,6 +24628,19 @@
         ],
         {
             "title_aux": "Sync Edit"
+        }
+    ],
+    "https://github.com/fredhopp/comfyui-flipflopnodes": [
+        [
+            "FF Group Positioner",
+            "FF Load Image with Metadata",
+            "FF Text",
+            "FlipFlop_Group_Positioner",
+            "FlipFlop_Load_Image_with_Metadata",
+            "FlipFlop_Text"
+        ],
+        {
+            "title_aux": "comfyui-flipflopnodes"
         }
     ],
     "https://github.com/freelifehacker/ComfyUI-ImgMask2PNG": [
@@ -26730,6 +26785,14 @@
         ],
         {
             "title_aux": "ComfyUI-yt_dl"
+        }
+    ],
+    "https://github.com/if-ai/ComfyUI_HunyuanVideoFoley": [
+        [
+            "HunyuanVideoFoley"
+        ],
+        {
+            "title_aux": "ComfyUI HunyuanVideo-Foley"
         }
     ],
     "https://github.com/if-ai/ComfyUI_IF_AI_LoadImages": [
@@ -32109,6 +32172,19 @@
             "title_aux": "ComfyUI GFPGAN"
         }
     ],
+    "https://github.com/lucasgattas/comfyui-egregora-divide-and-enhance": [
+        [
+            "Egregora Algorithm",
+            "Egregora Analyze Content",
+            "Egregora Combine",
+            "Egregora Divide and Select",
+            "Egregora Preview",
+            "Egregora Turbo Prompt"
+        ],
+        {
+            "title_aux": "ComfyUI \u00b7 Egregora: Divide & Enhance"
+        }
+    ],
     "https://github.com/lujiazho/ComfyUI-CatvtonFluxWrapper": [
         [
             "CatvtonFluxSampler",
@@ -33046,6 +33122,14 @@
         ],
         {
             "title_aux": "ComfyUI_MqUtils"
+        }
+    ],
+    "https://github.com/mikheys/comfyui-gemini-mikheys": [
+        [
+            "Nano_Banana"
+        ],
+        {
+            "title_aux": "ComfyUI Nano Banana Node"
         }
     ],
     "https://github.com/mikkel/ComfyUI-text-overlay": [
@@ -38862,6 +38946,14 @@
         ],
         {
             "title_aux": "ComfyUI-Image-Harmonizer"
+        }
+    ],
+    "https://github.com/sweetndata/ComfyUI-Reflatent": [
+        [
+            "RefLatent"
+        ],
+        {
+            "title_aux": "ComfyUI-Reflatent"
         }
     ],
     "https://github.com/sweetndata/ComfyUI-googletrans": [

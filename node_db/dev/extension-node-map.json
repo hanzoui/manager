@@ -150,7 +150,8 @@
         [
             "DynamicPreprocess",
             "InternVLHFInference",
-            "InternVLModelLoader"
+            "InternVLModelLoader",
+            "hb_Number_Counter"
         ],
         {
             "title_aux": "ComfyComfyUI_InternVL3 [WIP]"
@@ -313,6 +314,7 @@
     ],
     "https://github.com/543872524/ComfyUI_crdong": [
         [
+            "CRDAudioLengthNode",
             "INTConstant",
             "PromptExampleNode",
             "PromptJoinOrList",
@@ -2458,32 +2460,6 @@
             "title_aux": "MattiaNodes - Points Editor On Cropped [WIP]"
         }
     ],
-    "https://github.com/MakkiShizu/ComfyUI-MakkiTools": [
-        [
-            "AnyImageStitch",
-            "AnyImagetoConditioning_flux_kontext",
-            "AutoLoop_create_pseudo_loop_video",
-            "BatchLoraLoader",
-            "Environment_INFO",
-            "GetImageNthCount",
-            "ImageChannelSeparate",
-            "ImageCountConcatenate",
-            "ImageHeigthStitch",
-            "ImageWidthStitch",
-            "Image_Resize",
-            "MergeImageChannels",
-            "Prism_Mirage",
-            "int_calculate_statistics",
-            "random_any",
-            "show_type",
-            "timer",
-            "translator_m2m100",
-            "translators"
-        ],
-        {
-            "title_aux": "ComfyUI-MakkiTools"
-        }
-    ],
     "https://github.com/Malloc-pix/comfyui-QwenVL": [
         [
             "Qwen2.5",
@@ -3258,7 +3234,8 @@
     ],
     "https://github.com/SatadalAI/SATA_UtilityNode": [
         [
-            "Combined_Upscale"
+            "Combined_Upscale",
+            "Prompt_Machine"
         ],
         {
             "title_aux": "Combined Upscale Node for ComfyUI [WIP]"
@@ -5338,6 +5315,7 @@
             "LatentCompositeMasked",
             "LatentConcat",
             "LatentCrop",
+            "LatentCut",
             "LatentFlip",
             "LatentFromBatch",
             "LatentInterpolate",
@@ -5743,6 +5721,14 @@
         ],
         {
             "title_aux": "DCNodess [WIP]"
+        }
+    ],
+    "https://github.com/dead-matrix/ComfyUI-RMBG-Custom": [
+        [
+            "RMBG_Custom"
+        ],
+        {
+            "title_aux": "ComfyUI-RMBG-Custom"
         }
     ],
     "https://github.com/denislov/Comfyui_AutoSurvey": [

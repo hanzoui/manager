@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "Jairodaniel-17",
+            "title": "ComfyUI-traductor-offline",
+            "reference": "https://github.com/Jairodaniel-17/ComfyUI-traductor-offline",
+            "files": [
+                "https://github.com/Jairodaniel-17/ComfyUI-traductor-offline"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Traductor: CLIP Texto (EN↔ES), Traductor: Prompt Texto (EN↔ES)"
+        },
+        {
+            "author": "aesethtics",
+            "title": "ComfyUI-OpenPoser [WIP]",
+            "reference": "https://github.com/aesethtics/ComfyUI-OpenPoser",
+            "files": [
+                "https://github.com/aesethtics/ComfyUI-OpenPoser"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-OpenPoser is a custom node extension for ComfyUI that provides an interactive pose editor.\nIt allows you to freely define 18 OpenPose-style keypoints (joints) directly in the ComfyUI front-end without bone-length constraints! The node generates an image tensor representing the skeleton that can be passed to models which support OpenPose/DWPose/etc input."
+        },
+        {
+            "author": "dead-matrix",
+            "title": "ComfyUI-RMBG-Custom",
+            "reference": "https://github.com/dead-matrix/ComfyUI-RMBG-Custom",
+            "files": [
+                "https://github.com/dead-matrix/ComfyUI-RMBG-Custom"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: RMBG Custom"
+        },
+        {
             "author": "gmammolo",
             "title": "comfyui-gmammolo",
             "reference": "https://github.com/gmammolo/comfyui-gmammolo",
