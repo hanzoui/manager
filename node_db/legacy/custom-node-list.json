@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "netroxin",
+            "title": "Netro_wildcards [REMOVED]",
+            "reference": "https://github.com/netroxin/comfyui_netro_wildcards",
+            "files": [
+                "https://github.com/netroxin/comfyui_netro_wildcards"
+            ],
+            "install_type": "git-clone",
+            "description": "Since I used 'simple wildcards' from Vanilla and it no longer works with the new Comfy UI version for me, I created an alternative. This CustomNode takes the entire contents of your wildcards-folder(comfyui wildcards) and creates a node for each one."
+        },
+        {
             "author": "takoyaki1118",
             "title": "ComfyUI-MangaTools [REMOVED]",
             "reference": "https://github.com/takoyaki1118/ComfyUI-MangaTools",

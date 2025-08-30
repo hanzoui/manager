@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "ServiceStack",
+            "title": "classifier-agent",
+            "reference": "https://github.com/ServiceStack/classifier-agent",
+            "files": [
+                "https://github.com/ServiceStack/classifier-agent"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Classifiy Image, Classifiy Audio"
+        },
+        {
+            "author": "elfatherbrown",
+            "title": "Real-CUGAN ComfyUI Custom Node [WIP]",
+            "reference": "https://github.com/elfatherbrown/comfyui-realcugan-node",
+            "files": [
+                "https://github.com/elfatherbrown/comfyui-realcugan-node"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node implementation for Real-CUGAN anime/illustration upscaling models from Bilibili's AI Lab.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "sthao42",
+            "title": "ComfyUI Melodkeet TTS",
+            "reference": "https://github.com/sthao42/comfyui-melodkeet-tts",
+            "files": [
+                "https://github.com/sthao42/comfyui-melodkeet-tts"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that provides a simple and direct way to use OpenAI-compatible Text-to-Speech (TTS) services."
+        },
+        {
             "author": "Jairodaniel-17",
             "title": "ComfyUI-traductor-offline",
             "reference": "https://github.com/Jairodaniel-17/ComfyUI-traductor-offline",
