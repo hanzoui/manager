@@ -2417,6 +2417,27 @@
             "title_aux": "HommageTools for ComfyUI"
         }
     ],
+    "https://github.com/Artificial-Sweetener/comfyui-WhiteRabbit": [
+        [
+            "AssembleLoopFrames",
+            "AutocropToLoop",
+            "BatchResizeWithLanczos",
+            "BatchWatermarkSingle",
+            "PixelHold",
+            "PrepareLoopFrames",
+            "RIFE_FPS_Resample",
+            "RIFE_SeamTimingAnalyzer",
+            "RIFE_VFI_Advanced",
+            "RIFE_VFI_Opt",
+            "RollFrames",
+            "TrimBatchEnds",
+            "UnrollFrames",
+            "UpscaleWithModelAdvanced"
+        ],
+        {
+            "title_aux": "WhiteRabbit: Master the Flow of Time"
+        }
+    ],
     "https://github.com/Aryan185/ComfyUI-ExternalAPI-Helpers": [
         [
             "FluxKontextMaxNode",
@@ -5753,7 +5774,8 @@
             "Prompt Assembler",
             "Resize Images To Megapixels",
             "Resize To Megapixels",
-            "Video Params"
+            "Video Params",
+            "WaveformDevice"
         ],
         {
             "title_aux": "ComfyUI Fictiverse Nodes"
@@ -16891,6 +16913,7 @@
             "ClaudeAPI",
             "GeminiAPI",
             "GeminiBRIA_RMBG",
+            "GeminiBRIA_RMBG_Safe",
             "GeminiCLIPSeg",
             "GeminiCombineSegMasks",
             "GeminiComfyUIStyler",
@@ -20957,6 +20980,7 @@
             "CYHLatentSDXLAspectRatio",
             "CYHLatentSocialAspectRatio",
             "CYHLatentVideoAspectRatio",
+            "CYHPreviewVideo",
             "CYHResolutionMultiplierNode",
             "CYHTextFileEditorNode",
             "CYHTextFileLoaderNode",
@@ -23980,6 +24004,7 @@
             "QwenDiffusionModelLoader",
             "QwenEliGenController",
             "QwenEliGenMaskCreator",
+            "QwenFrameLoader",
             "QwenImageEditAdvanced",
             "QwenImageEditLatentPrepare",
             "QwenImageEditProcessor",
@@ -23992,7 +24017,9 @@
             "QwenImageVAEEncode",
             "QwenLowresFixNode",
             "QwenModelValidator",
-            "QwenMultiReferenceHandler",
+            "QwenMultiFrameComplete",
+            "QwenMultiFrameEncoder",
+            "QwenMultiFrameWrapper",
             "QwenOptimalResolution",
             "QwenPromptFormatter",
             "QwenPromptInterpolator",
@@ -24007,10 +24034,9 @@
             "QwenVAELoader",
             "QwenVAENormalizer",
             "QwenVLCLIPLoader",
-            "QwenVLEmptyLatent",
-            "QwenVLImageToLatent",
             "QwenVLLoader",
             "QwenVLTextEncoder",
+            "QwenVisionPatchEncoder",
             "QwenWANCompareLatents",
             "QwenWANConditioningDebug",
             "QwenWANKeyframeEditor",
@@ -26513,6 +26539,15 @@
             "title_aux": "ComfyUI-HX-Pimg"
         }
     ],
+    "https://github.com/hujuying/ComfyUI-ModelScope-API": [
+        [
+            "ModelScopeAPI",
+            "ModelScopeKontextAPI"
+        ],
+        {
+            "title_aux": "ComfyUI ModelScope API Node"
+        }
+    ],
     "https://github.com/hunzmusic/ComfyUI-IG2MV": [
         [
             "DiffusersIGMVModelMakeup",
@@ -26981,6 +27016,18 @@
         ],
         {
             "title_aux": "ComfyUI-yt_dl"
+        }
+    ],
+    "https://github.com/if-ai/ComfyUI_HunyuanVideoFoley": [
+        [
+            "HunyuanVideoFoley",
+            "HunyuanVideoFoleyDependenciesLoader",
+            "HunyuanVideoFoleyGeneratorAdvanced",
+            "HunyuanVideoFoleyModelLoader",
+            "HunyuanVideoFoleyTorchCompile"
+        ],
+        {
+            "title_aux": "ComfyUI HunyuanVideo-Foley"
         }
     ],
     "https://github.com/if-ai/ComfyUI_IF_AI_LoadImages": [
@@ -29151,6 +29198,7 @@
         [
             "Chirp",
             "Gemini",
+            "GeminiImage",
             "ImagenComputedMaskConfig",
             "ImagenMaskEditing",
             "Imagen_Product_Recontext",
@@ -29865,6 +29913,7 @@
             "MultiTalkModelLoader",
             "MultiTalkWav2VecEmbeds",
             "NLFPredict",
+            "NormalizeAudioLoudness",
             "QwenLoader",
             "ReCamMasterPoseVisualizer",
             "WanVideoATITracks",
@@ -29874,6 +29923,7 @@
             "WanVideoAddExtraLatent",
             "WanVideoAddFantasyPortrait",
             "WanVideoAddMTVMotion",
+            "WanVideoAddS2VEmbeds",
             "WanVideoAddStandInLatent",
             "WanVideoApplyNAG",
             "WanVideoBlockList",
@@ -33087,6 +33137,14 @@
         ],
         {
             "title_aux": "comfy-oiio"
+        }
+    ],
+    "https://github.com/mengqin/ComfyUI-UnetBnbModelLoader": [
+        [
+            "UnetBnbModelLoader"
+        ],
+        {
+            "title_aux": "Unet Bnb Model Loader"
         }
     ],
     "https://github.com/mephisto83/petty-paint-comfyui-node": [
@@ -36391,6 +36449,21 @@
         ],
         {
             "title_aux": "ComfyUI-EasyPony"
+        }
+    ],
+    "https://github.com/regiellis/ComfyUI-SDXL-Adherence": [
+        [
+            "AlignHintsToLatent",
+            "AutoSize64",
+            "CropByBBox",
+            "NegativePromptHelper",
+            "PostPolish",
+            "SDXLDualClipEncode",
+            "SDXLPromptStyler",
+            "SmartLatent"
+        ],
+        {
+            "title_aux": "SDXL Adherence"
         }
     ],
     "https://github.com/revirevy/Comfyui_saveimage_imgbb": [

@@ -20337,6 +20337,16 @@
             "description": "ComfyUI custom node for flexible and efficient image color correction and post-processing."
         },
         {
+            "author": "itsjustregi",
+            "title": "SDXL Adherence",
+            "reference": "https://github.com/regiellis/ComfyUI-SDXL-Adherence",
+            "files": [
+                "https://github.com/regiellis/ComfyUI-SDXL-Adherence"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes that improve SDXL prompt adherence and any-size/tiled VAE workflows."
+        },
+        {
             "author": "mrhan1993",
             "title": "ComfyUI-Fooocus",
             "reference": "https://github.com/mrhan1993/ComfyUI-Fooocus",
@@ -32013,6 +32023,36 @@
             "install_type": "git-clone",
             "description": "Custom nodes to integrate the USO image generation model (based on FLUX.1 by ByteDance) into ComfyUI.\nThis project is an implementation based on the official source code from the [a/ByteDance/USO](https://github.com/bytedance/USO) repository."
         },
+        {
+            "author": "mengqin",
+            "title": "Unet Bnb Model Loader",
+            "reference": "https://github.com/mengqin/ComfyUI-UnetBnbModelLoader",
+            "files": [
+                "https://github.com/mengqin/ComfyUI-UnetBnbModelLoader"
+            ],
+            "install_type": "git-clone",
+            "description": "A general comfyui model loading plugin that supports loading unet models quantized in bnb-4bit (nf4 and fp4) format"
+        },
+        {
+            "author": "Artificial-Sweetener",
+            "title": "WhiteRabbit: Master the Flow of Time",
+            "reference": "https://github.com/Artificial-Sweetener/comfyui-WhiteRabbit",
+            "files": [
+                "https://github.com/Artificial-Sweetener/comfyui-WhiteRabbit"
+            ],
+            "install_type": "git-clone",
+            "description": "This is comfyui-WhiteRabbit, a nodepack designed to help you work with video from within ComfyUI.\nThe Rabbit's specialty is looping through time to help you create seamless looping video, but that's not all she brings to the tea party. Quality, arbitrary framerate resampling and super fast image resizing are also part of the kit!\nWhile some of these nodes certainly can be used for single-image tasks, every one of them is designed with efficient batch handling in mind and that means the performance gains compound, letting you process whole video clips as fast as possible within your hardware constraints."
+        },
+        {
+            "author": "hujuying",
+            "title": "ComfyUI ModelScope API Node",
+            "reference": "https://github.com/hujuying/ComfyUI-ModelScope-API",
+            "files": [
+                "https://github.com/hujuying/ComfyUI-ModelScope-API"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a universal custom node for ComfyUI that supports both Text-to-Image and Image-to-Image generation by calling various models via the official ModelScope API."
+        },
 
 
 
@@ -32449,16 +32489,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "mengqin",
-            "title": "Unet Bnb Model Loader",
-            "reference": "https://github.com/mengqin/ComfyUI-UnetBnbModelLoader",
-            "files": [
-                "https://github.com/mengqin/ComfyUI-UnetBnbModelLoader"
-            ],
-            "install_type": "git-clone",
-            "description": "A general comfyui model loading plugin that supports loading unet models quantized in bnb-4bit (nf4 and fp4) format"
         }
     ]
 }
