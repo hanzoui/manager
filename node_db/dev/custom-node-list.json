@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "pickles",
+            "title": "PyPromptGenerator [UNSAFE]",
+            "reference": "https://github.com/pickles/ComfyUI-PyPromptGenerator",
+            "files": [
+                "https://github.com/pickles/ComfyUI-PyPromptGenerator"
+            ],
+            "install_type": "git-clone",
+            "description": "Generate positve/negative prompt via python script. [w/This node allows you to execute arbitrary code via the workflow.]"
+        },
+        {
+            "author": "bmgjet",
+            "title": "ComfyUI GPU Power Limit Node",
+            "reference": "https://github.com/bmgjet/comfyui-powerlimit",
+            "files": [
+                "https://github.com/bmgjet/comfyui-powerlimit"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node to change NVIDIA GPU power limits dynamically while passing through any input. NOTE: Windows only.[w/This node warns if ComfyUI is not running as administrator/root — it does not attempt to elevate the process.]"
+        },
+        {
+            "author": "Karlmeister",
+            "title": "comfyui-karlmeister-nodes-suit",
+            "reference": "https://github.com/Karlmeister/comfyui-karlmeister-nodes-suit",
+            "files": [
+                "https://github.com/Karlmeister/comfyui-karlmeister-nodes-suit"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Seed with Filename Generator, KSampler Config Selector, KSampler Config Selector With Tuple Output, KSampler Config Tuple, Text Concatenator, A If Not None., Split a string. "
+        },
+        {
             "author": "ServiceStack",
             "title": "classifier-agent",
             "reference": "https://github.com/ServiceStack/classifier-agent",

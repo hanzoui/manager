@@ -316,9 +316,11 @@
         [
             "CRDAudioLengthNode",
             "INTConstant",
+            "PromptBatchMulti",
             "PromptExampleNode",
             "PromptJoinOrList",
             "PromptList",
+            "PromptSelectorList",
             "PromptSelectorStr",
             "SelectImageSize",
             "SimpleIntMathHandle",
@@ -778,8 +780,6 @@
     ],
     "https://github.com/AlexYez/comfyui-timesaver": [
         [
-            "LoraMegaMergerCorrect",
-            "LoraRankConverterHQ",
             "TS Cube to Equirectangular",
             "TS Equirectangular to Cube",
             "TS Files Downloader",
@@ -796,6 +796,7 @@
             "TS_MarianTranslator",
             "TS_Qwen3",
             "TS_Qwen3_Offline",
+            "TS_Qwen_GGUF",
             "TS_VideoDepthNode",
             "TS_Video_Upscale_With_Model"
         ],
@@ -1172,6 +1173,7 @@
             "VTS Images Crop From Masks",
             "VTS Images Scale",
             "VTS Images Scale To Min",
+            "VTS Math",
             "VTS Merge Delimited Text",
             "VTS Merge Text",
             "VTS Merge Text Lists",
@@ -2047,6 +2049,20 @@
         ],
         {
             "title_aux": "comfyui-ksampler-tester-loop"
+        }
+    ],
+    "https://github.com/Karlmeister/comfyui-karlmeister-nodes-suit": [
+        [
+            "A_IfNotNone",
+            "KSamplerConfigSelector",
+            "KSamplerConfigSelector_Tuple",
+            "KSamplerConfigUnpack",
+            "SeedFilenameGenerator",
+            "SplitString",
+            "TextConcatenator"
+        ],
+        {
+            "title_aux": "comfyui-karlmeister-nodes-suit"
         }
     ],
     "https://github.com/Karniverse/ComfyUI-Randomselector": [
@@ -3243,8 +3259,8 @@
     ],
     "https://github.com/SatadalAI/SATA_UtilityNode": [
         [
-            "Combined_Upscale",
-            "Prompt_Machine"
+            "Prompt_Machine",
+            "Upscale_Machine"
         ],
         {
             "title_aux": "Combined Upscale Node for ComfyUI [WIP]"
@@ -4854,6 +4870,14 @@
             "title_aux": "Bmad Nodes [UNSAFE]"
         }
     ],
+    "https://github.com/bmgjet/comfyui-powerlimit": [
+        [
+            "SetPowerLimitNode"
+        ],
+        {
+            "title_aux": "ComfyUI GPU Power Limit Node"
+        }
+    ],
     "https://github.com/boricuapab/ComfyUI-Bori-KontextPresets": [
         [
             "Bori Kontext Presets"
@@ -5220,7 +5244,6 @@
             "ControlNetLoader",
             "CosmosImageToVideoLatent",
             "CosmosPredict2ImageToVideoLatent",
-            "CreateVideo",
             "CropMask",
             "DiffControlNetLoader",
             "DifferentialDiffusion",
@@ -5263,7 +5286,6 @@
             "GeminiInputFiles",
             "GeminiNode",
             "GetImageSize",
-            "GetVideoComponents",
             "GrowMask",
             "Hunyuan3Dv2Conditioning",
             "Hunyuan3Dv2ConditioningMultiView",
@@ -5352,7 +5374,6 @@
             "LoadImageSetFromFolderNode",
             "LoadImageTextSetFromFolderNode",
             "LoadLatent",
-            "LoadVideo",
             "LoraLoader",
             "LoraLoaderModelOnly",
             "LoraModelLoader",
@@ -5438,11 +5459,6 @@
             "PreviewAny",
             "PreviewAudio",
             "PreviewImage",
-            "PrimitiveBoolean",
-            "PrimitiveFloat",
-            "PrimitiveInt",
-            "PrimitiveString",
-            "PrimitiveStringMultiline",
             "QuadrupleCLIPLoader",
             "QwenImageDiffsynthControlnet",
             "RandomNoise",
@@ -5506,8 +5522,6 @@
             "SaveLatent",
             "SaveLoRANode",
             "SaveSVGNode",
-            "SaveVideo",
-            "SaveWEBM",
             "SelfAttentionGuidance",
             "SetFirstSigma",
             "SetLatentNoiseMask",
@@ -5519,15 +5533,6 @@
             "SplitImageWithAlpha",
             "SplitSigmas",
             "SplitSigmasDenoise",
-            "StabilityStableImageSD_3_5Node",
-            "StabilityStableImageUltraNode",
-            "StabilityUpscaleConservativeNode",
-            "StabilityUpscaleCreativeNode",
-            "StabilityUpscaleFastNode",
-            "StableCascade_EmptyLatentImage",
-            "StableCascade_StageB_Conditioning",
-            "StableCascade_StageC_VAEEncode",
-            "StableCascade_SuperResolutionControlnet",
             "StableZero123_Conditioning",
             "StableZero123_Conditioning_Batched",
             "StubConstantImage",
@@ -5953,6 +5958,14 @@
         ],
         {
             "title_aux": "ComfyUI-Ty"
+        }
+    ],
+    "https://github.com/elfatherbrown/comfyui-realcugan-node": [
+        [
+            "RealCUGANUpscaler"
+        ],
+        {
+            "title_aux": "Real-CUGAN ComfyUI Custom Node [WIP]"
         }
     ],
     "https://github.com/emranemran/ComfyUI-FasterLivePortrait": [
@@ -6955,6 +6968,9 @@
         [
             "GFPGANImageGenerator",
             "GFPGANModelLoader",
+            "ImageMergeGenerator",
+            "InpaintingLamaImageGenerator",
+            "InpaintingLamaModelLoader",
             "RealESRGANImageGenerator",
             "RealESRGANModelLoader"
         ],
@@ -8801,6 +8817,15 @@
             "title_aux": "ComyUI-Tupham"
         }
     ],
+    "https://github.com/pickles/ComfyUI-PyPromptGenerator": [
+        [
+            "PyPromptFileGeneratorNode",
+            "PyPromptGeneratorNode"
+        ],
+        {
+            "title_aux": "PyPromptGenerator [UNSAFE]"
+        }
+    ],
     "https://github.com/pictorialink/ComfyUI-static-resource": [
         [
             "StaticResource"
@@ -9968,6 +9993,7 @@
     ],
     "https://github.com/trashkollector/TKVideoZoom": [
         [
+            "TKVideoFuse",
             "TKVideoSmoothLooper",
             "TKVideoSpeedZones",
             "TKVideoStitcher",
