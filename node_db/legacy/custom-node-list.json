@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "SatadalAI",
+            "title": "Combined Upscale Node for ComfyUI [REMOVED]",
+            "reference": "https://github.com/SatadalAI/SATA_UtilityNode",
+            "files": [
+                "https://github.com/SatadalAI/SATA_UtilityNode"
+            ],
+            "install_type": "git-clone",
+            "description": "Combined_Upscale is a custom ComfyUI node designed for high-quality image enhancement workflows. It intelligently combines model-based upscaling with efficient CPU-based resizing, offering granular control over output dimensions and quality. Ideal for asset pipelines, UI prototyping, and generative workflows.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "netroxin",
             "title": "Netro_wildcards [REMOVED]",
             "reference": "https://github.com/netroxin/comfyui_netro_wildcards",

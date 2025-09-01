@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "chaserhkj",
+            "title": "Chaser's Custom Nodes",
+            "reference": "https://github.com/chaserhkj/ComfyUI-Chaser-nodes",
+            "files": [
+                "https://github.com/chaserhkj/ComfyUI-Chaser-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Upload image(s) to WebDAV, Upload video as WebM to WebDAV, Load image from WebDAV, Evaluate S-Expr with integer output, Evaluate S-Expr with float output"
+        },
+        {
+            "author": "numq",
+            "title": "comfyui-camera-capture-node",
+            "reference": "https://github.com/numq/comfyui-camera-capture-node",
+            "files": [
+                "https://github.com/numq/comfyui-camera-capture-node"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Camera Capture"
+        },
+        {
             "author": "pickles",
             "title": "PyPromptGenerator [UNSAFE]",
             "reference": "https://github.com/pickles/ComfyUI-PyPromptGenerator",
@@ -179,16 +199,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Empty Random Latent Image, Filename Prompt Extractor, My Image Save, Queue Batch Fixed Seed, Text Cleaner, Text Splitter[w/This nodepack contains a node that can write files to an arbitrary path.]"
-        },
-        {
-            "author": "SatadalAI",
-            "title": "Combined Upscale Node for ComfyUI [WIP]",
-            "reference": "https://github.com/SatadalAI/SATA_UtilityNode",
-            "files": [
-                "https://github.com/SatadalAI/SATA_UtilityNode"
-            ],
-            "install_type": "git-clone",
-            "description": "Combined_Upscale is a custom ComfyUI node designed for high-quality image enhancement workflows. It intelligently combines model-based upscaling with efficient CPU-based resizing, offering granular control over output dimensions and quality. Ideal for asset pipelines, UI prototyping, and generative workflows.\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "borisfaley",

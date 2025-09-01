@@ -3259,15 +3259,6 @@
             "title_aux": "HiDreamSampler for ComfyUI [WIP]"
         }
     ],
-    "https://github.com/SatadalAI/SATA_UtilityNode": [
-        [
-            "Prompt_Machine",
-            "Upscale_Machine"
-        ],
-        {
-            "title_aux": "Combined Upscale Node for ComfyUI [WIP]"
-        }
-    ],
     "https://github.com/SaulQcy/comfy_saul_plugin": [
         [
             "Blend Images",
@@ -5074,6 +5065,8 @@
     ],
     "https://github.com/chaserhkj/ComfyUI-Chaser-nodes": [
         [
+            "EvalFloatExpr",
+            "EvalIntExpr",
             "LoadImageFromWebDAV",
             "UploadImagesToWebDAV",
             "UploadWebMToWebDAV"
@@ -8634,6 +8627,14 @@
         ],
         {
             "title_aux": "ComfyUI_Cluster [WIP]"
+        }
+    ],
+    "https://github.com/numq/comfyui-camera-capture-node": [
+        [
+            "CameraCapture"
+        ],
+        {
+            "title_aux": "comfyui-camera-capture-node"
         }
     ],
     "https://github.com/odedgranot/comfyui-ffmpeg-node": [
