@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "Frief84",
+            "title": "ComfyUI-LoRAWeightAxisXY",
+            "reference": "https://github.com/Frief84/ComfyUI-LoRAWeightAxisXY",
+            "files": [
+                "https://github.com/Frief84/ComfyUI-LoRAWeightAxisXY"
+            ],
+            "description": "Adds `XY Input: LoRA Weight (simple)` for Efficiency Nodes. Outputs XY subtype 'LoRA' (name, weight, weight) with a linear sweep; works with `XY Input: Checkpoint`.",
+            "install_type": "git-clone",			
+            "tags": ["xy-plot", "lora", "efficiency-nodes", "utility"]
+        },
+        {
             "author": "noelkim12",
             "title": "ComfyUI-ComfyUI-NoelTextUtil",
             "reference": "https://github.com/noelkim12/ComfyUI-NoelTextUtil",
@@ -684,16 +695,6 @@
             ],
             "install_type": "git-clone",
             "description": "Mel-Band RoFormer for Music Source Separation"
-        },
-        {
-            "author": "jtrue",
-            "title": "ComfyUI-Rect",
-            "reference": "https://github.com/jtrue/ComfyUI-Rect",
-            "files": [
-                "https://github.com/jtrue/ComfyUI-Rect"
-            ],
-            "install_type": "git-clone",
-            "description": "Interactive rectangle tools for ComfyUI: Select, Crop, Mask, Fill."
         }
     ]
 }

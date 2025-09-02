@@ -32123,6 +32123,17 @@
             "install_type": "git-clone",
             "description": "This node generates a professional prompt from an input text for modern video AI models (e.g., Alibaba Wan 2.2) via the OpenRouter API."
         },
+        {
+            "author": "Frief84",
+            "title": "ComfyUI-LoRAWeightAxisXY",
+            "reference": "https://github.com/Frief84/ComfyUI-LoRAWeightAxisXY",
+            "files": [
+                "https://github.com/Frief84/ComfyUI-LoRAWeightAxisXY"
+            ],
+            "description": "Adds `XY Input: LoRA Weight (simple)` for Efficiency Nodes. Outputs XY subtype 'LoRA' (name, weight, weight) with a linear sweep; works with `XY Input: Checkpoint`.",
+            "install_type": "git-clone",			
+            "tags": ["xy-plot", "lora", "efficiency-nodes", "utility"]
+        },
 
 
 
@@ -32561,17 +32572,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "Frief84",
-            "title": "ComfyUI-LoRAWeightAxisXY",
-            "reference": "https://github.com/Frief84/ComfyUI-LoRAWeightAxisXY",
-            "files": [
-                "https://github.com/Frief84/ComfyUI-LoRAWeightAxisXY"
-            ],
-            "description": "Adds `XY Input: LoRA Weight (simple)` for Efficiency Nodes. Outputs XY subtype 'LoRA' (name, weight, weight) with a linear sweep; works with `XY Input: Checkpoint`.",
-            "install_type": "git-clone",			
-            "tags": ["xy-plot", "lora", "efficiency-nodes", "utility"]
-		}
+        }
     ]
 }
