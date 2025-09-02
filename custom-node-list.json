@@ -29425,6 +29425,17 @@
             "description": "Text rendering and styling nodes for ComfyUI. This extension provides a basic text renderer, multiple font loaders, and a style node that adds stroke, shadow, gradient fill, and opacity control."
         },
         {
+            "author": "S4MUEL404",
+            "title": "ComfyUI Prepack",
+            "id": "comfyui-prepack",
+            "reference": "https://github.com/S4MUEL-404/ComfyUI-Prepack",
+            "files": [
+                "https://github.com/S4MUEL-404/ComfyUI-Prepack"
+            ],
+            "install_type": "git-clone",
+            "description": "A small, practical bundle of ComfyUI nodes that streamlines common workflows."
+        },
+        {
             "author": "fchangjun",
             "title": "MultiSaveImage Node",
             "reference": "https://github.com/fchangjun/Comfyui_MultiSaveImage",
@@ -32131,7 +32142,7 @@
                 "https://github.com/Frief84/ComfyUI-LoRAWeightAxisXY"
             ],
             "description": "Adds `XY Input: LoRA Weight (simple)` for Efficiency Nodes. Outputs XY subtype 'LoRA' (name, weight, weight) with a linear sweep; works with `XY Input: Checkpoint`.",
-            "install_type": "git-clone",			
+            "install_type": "git-clone",
             "tags": ["xy-plot", "lora", "efficiency-nodes", "utility"]
         },
 
@@ -32572,17 +32583,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "S4MUEL404",
-            "title": "ComfyUI Prepack",
-            "id": "comfyui-prepack",
-            "reference": "https://github.com/S4MUEL-404/ComfyUI-Prepack",
-            "files": [
-                "https://github.com/S4MUEL-404/ComfyUI-Prepack"
-            ],
-            "install_type": "git-clone",
-            "description": "A small, practical bundle of ComfyUI nodes that streamlines common workflows."
         }
     ]
 }

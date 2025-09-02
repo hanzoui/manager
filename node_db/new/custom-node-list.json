@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "S4MUEL404",
+            "title": "ComfyUI Prepack",
+            "id": "comfyui-prepack",
+            "reference": "https://github.com/S4MUEL-404/ComfyUI-Prepack",
+            "files": [
+                "https://github.com/S4MUEL-404/ComfyUI-Prepack"
+            ],
+            "install_type": "git-clone",
+            "description": "A small, practical bundle of ComfyUI nodes that streamlines common workflows."
+        },
+        {
             "author": "Frief84",
             "title": "ComfyUI-LoRAWeightAxisXY",
             "reference": "https://github.com/Frief84/ComfyUI-LoRAWeightAxisXY",
@@ -8,7 +19,7 @@
                 "https://github.com/Frief84/ComfyUI-LoRAWeightAxisXY"
             ],
             "description": "Adds `XY Input: LoRA Weight (simple)` for Efficiency Nodes. Outputs XY subtype 'LoRA' (name, weight, weight) with a linear sweep; works with `XY Input: Checkpoint`.",
-            "install_type": "git-clone",			
+            "install_type": "git-clone",
             "tags": ["xy-plot", "lora", "efficiency-nodes", "utility"]
         },
         {
