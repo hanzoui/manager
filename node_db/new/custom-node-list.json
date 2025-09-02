@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "noelkim12",
+            "title": "ComfyUI-ComfyUI-NoelTextUtil",
+            "reference": "https://github.com/noelkim12/ComfyUI-NoelTextUtil",
+            "files": [
+                "https://github.com/noelkim12/ComfyUI-NoelTextUtil"
+            ],
+            "install_type": "git-clone",
+            "description": "Text utility nodes for file path and LoRA auto triggering"
+        },
+        {
+            "author": "Juste-Leo2",
+            "title": "Canary-ComfyUI",
+            "reference": "https://github.com/Juste-Leo2/Canary-ComfyUI",
+            "files": [
+                "https://github.com/Juste-Leo2/Canary-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "This node pack integrates the core capabilities of the Canary-1b-v2 model, providing three main features: it can transcribe audio in any of 25 supported languages into text in the same language, translate audio from 24 source languages directly into English, and translate English audio directly into one of the 24 other supported languages."
+        },
+        {
+            "author": "otavanopisto",
+            "title": "ComfyUI-aihub-workflow-exposer",
+            "reference": "https://github.com/otavanopisto/ComfyUI-aihub-workflow-exposer",
+            "files": [
+                "https://github.com/otavanopisto/ComfyUI-aihub-workflow-exposer"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for ComfyUI in order to expose AI workflows to external applications (particularly image, video and audio editors) so workflows can be integrated as plugins"
+        },
+        {
+            "author": "D3lUX3I",
+            "title": "VideoPromptEnhancer",
+            "reference": "https://github.com/D3lUX3I/ComfyUI-VideoPromptEnhancer",
+            "files": [
+                "https://github.com/D3lUX3I/ComfyUI-VideoPromptEnhancer"
+            ],
+            "install_type": "git-clone",
+            "description": "This node generates a professional prompt from an input text for modern video AI models (e.g., Alibaba Wan 2.2) via the OpenRouter API."
+        },
+        {
+            "author": "dasilva333",
+            "title": "ComfyUI HunyuanVideo-Foley Custom Node",
+            "reference": "https://github.com/dasilva333/ComfyUI_HunyuanVideo-Foley",
+            "files": [
+                "https://github.com/dasilva333/ComfyUI_HunyuanVideo-Foley"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node integrates the HunyuanVideo-Foley model for generating audio from video frames and text prompts in ComfyUI. It's built for use in generating Foley sounds from video and text inputs."
+        },
+        {
+            "author": "aistudynow",
+            "title": "Comfyui-HunyuanFoley",
+            "reference": "https://github.com/aistudynow/Comfyui-HunyuanFoley",
+            "files": [
+                "https://github.com/aistudynow/Comfyui-HunyuanFoley"
+            ],
+            "install_type": "git-clone",
+            "description": "Generate Audio from any video and or text"
+        },
+        {
             "author": "mengqin",
             "title": "Unet Bnb Model Loader",
             "reference": "https://github.com/mengqin/ComfyUI-UnetBnbModelLoader",
@@ -634,106 +694,6 @@
             ],
             "install_type": "git-clone",
             "description": "Interactive rectangle tools for ComfyUI: Select, Crop, Mask, Fill."
-        },
-        {
-            "author": "netroxin",
-            "title": "comfyui_netro",
-            "reference": "https://github.com/netroxin/comfyui_netro",
-            "files": [
-                "https://github.com/netroxin/comfyui_netro"
-            ],
-            "install_type": "git-clone",
-            "description": "#Camera Movement Prompt Node for ComfyUI\nThis custom node script for ComfyUI generates descriptive camera movement prompts based on user-selected movement options for Wan2.2"
-        },
-        {
-            "author": "RegulusAlpha",
-            "title": "ComfyUI Dynamic Prompting Simplified",
-            "reference": "https://github.com/RegulusAlpha/ComfyUI-DynPromptSimplified",
-            "files": [
-                "https://github.com/RegulusAlpha/ComfyUI-DynPromptSimplified"
-            ],
-            "install_type": "git-clone",
-            "description": "A minimal dynamic prompting + mirrored wildcards node for ComfyUI."
-        },
-        {
-            "author": "Dehypnotic",
-            "title": "RangeToString",
-            "reference": "https://github.com/Dehypnotic/comfyui-range-to-string",
-            "files": [
-                "https://github.com/Dehypnotic/comfyui-range-to-string"
-            ],
-            "install_type": "git-clone",
-            "description": "Lightweight node that generates a string of numbers between a start and end value. Supports positive and negative steps, configurable separators, and inclusive/exclusive end values."
-        },
-        {
-            "author": "ReinerBforartists",
-            "title": "ComfyUI_Text_Line_Combine",
-            "reference": "https://github.com/ReinerBforartists/comfyui_text_line_combine",
-            "files": [
-                "https://github.com/ReinerBforartists/comfyui_text_line_combine"
-            ],
-            "install_type": "git-clone",
-            "description": "Combines texts line by line to a single text"
-        },
-        {
-            "author": "KY-2000",
-            "title": "comfyui-ksampler-tester-loop",
-            "reference": "https://github.com/KY-2000/comfyui-ksampler-tester-loop",
-            "files": [
-                "https://github.com/KY-2000/comfyui-ksampler-tester-loop"
-            ],
-            "install_type": "git-clone",
-            "description": "Batch samplers, schedulers, cfg, shift and steps tester custom node, automatic looping functionality for Ksampler node"
-        },
-        {
-            "author": "hvppycoding",
-            "title": "json prompt renderer",
-            "reference": "https://github.com/hvppycoding/comfyui-json-prompt-renderer",
-            "files": [
-                "https://github.com/hvppycoding/comfyui-json-prompt-renderer"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Extract JSON, 'Prompt: Render Template from JSON'"
-        },
-        {
-            "author": "Light-x02",
-            "title": "Crop Image by Lightx02",
-            "reference": "https://github.com/Light-x02/ComfyUI_Crop_Image_By_Lightx02",
-            "files": [
-                "https://github.com/Light-x02/ComfyUI_Crop_Image_By_Lightx02"
-            ],
-            "install_type": "git-clone",
-            "description": "CropImageByLightx02 is a ComfyUI node that allows cropping an image (and optionally its mask) using pixel values."
-        },
-        {
-            "author": "orion4d",
-            "title": "ComfyUI_DAO_master",
-            "reference": "https://github.com/orion4d/ComfyUI_DAO_master",
-            "files": [
-                "https://github.com/orion4d/ComfyUI_DAO_master"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI_DAO_master is a collection of custom nodes for ComfyUI. These nodes provide additional tools for image creation, manipulation, and visual experimentation, with a focus on vector workflows (DXF & SVG) and production utilities."
-        },
-        {
-            "author": "dimtoneff",
-            "title": "ComfyUI-VL-Nodes",
-            "reference": "https://github.com/dimtoneff/ComfyUI-VL-Nodes",
-            "files": [
-                "https://github.com/dimtoneff/ComfyUI-VL-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for ComfyUI that integrates various Vision-Language (VL) models, including Xiaomi MiMo-VL, LiquidAI LFM2-VL, Kwai Keye-VL, AIDC-AI Ovis2.5 and Ovis-U1. Tested with models: AIDC-AI/Ovis2.5-2B, AIDC-AI/Ovis2.5-9B, Kwai-Keye/Keye-VL-8B-Preview, MiMo-VL-7B-RL-GGUF, LiquidAI/LFM2-VL-450M, LiquidAI/LFM2-VL-1.6B, AIDC-AI/Ovis-U1-3B."
-        },
-        {
-            "author": "mangobyed",
-            "title": "ComfyUI YOLOv8 Object Detection Node",
-            "reference": "https://github.com/mangobyed/ComfyUI_Detection_List",
-            "files": [
-                "https://github.com/mangobyed/ComfyUI_Detection_List"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful ComfyUI custom node that performs object detection using YOLOv8 and outputs individual images for each detected object. Perfect for automatic mask generation, object isolation, and batch processing workflows."
         }
     ]
 }

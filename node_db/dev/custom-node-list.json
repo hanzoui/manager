@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "numq",
+            "title": "comfyui-camera-capture-node",
+            "reference": "https://github.com/numq/comfyui-camera-capture-node",
+            "files": [
+                "https://github.com/numq/comfyui-camera-capture-node"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Camera Capture"
+        },
+        {
+            "author": "maoper11",
+            "title": "ComfyUI_Inteliweb_nodes",
+            "reference": "https://github.com/maoper11/comfyui_inteliweb_nodes",
+            "files": [
+                "https://github.com/maoper11/comfyui_inteliweb_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "System Check (Inteliweb): RAM/VRAM live, Free RAM/VRAM buttons, Flash-Attn check."
+        },
+        {
+            "author": "casterpollux",
+            "title": "ComfyUI Affine Transform Mapper [WIP]",
+            "reference": "https://github.com/GuardSkill/ComfyUI-AffineImage",
+            "files": [
+                "https://github.com/GuardSkill/ComfyUI-AffineImage"
+            ],
+            "install_type": "git-clone",
+            "description": "Insert one image into specific location on another image by affine transform. \nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "casterpollux",
+            "title": "ComfyUI USO Custom Node [WIP]",
+            "reference": "https://github.com/casterpollux/ComfyUI-USO",
+            "files": [
+                "https://github.com/casterpollux/ComfyUI-USO"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node implementation of ByteDance's USO (Unified Style and Subject-Driven Generation) model, which enables advanced style transfer and subject preservation using FLUX.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Fabio Sarracino",
+            "title": "VibeVoice ComfyUI [NAME CONFLICT]",
+            "reference": "https://github.com/Enemyx-net/VibeVoice-ComfyUI",
+            "files": [
+                "https://github.com/Enemyx-net/VibeVoice-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI wrapper for Microsoft VibeVoice TTS model. Supports single speaker, multi-speaker, and text file loading"
+        },
+        {
             "author": "chaserhkj",
             "title": "Chaser's Custom Nodes",
             "reference": "https://github.com/chaserhkj/ComfyUI-Chaser-nodes",
