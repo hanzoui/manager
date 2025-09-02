@@ -1765,6 +1765,14 @@
             "title_aux": "ComfyUI-FileBrowserAPI [UNSAFE]"
         }
     ],
+    "https://github.com/GeekatplayStudio/ComfyUI_Toolbox": [
+        [
+            "ModelAspectRatioSelector"
+        ],
+        {
+            "title_aux": "PMSnodes [WIP]"
+        }
+    ],
     "https://github.com/GentlemanHu/ComfyUI-Notifier": [
         [
             "GentlemanHu_Notifier"
@@ -1931,7 +1939,7 @@
             "title_aux": "ComfyUI-exLoadout [WIP]"
         }
     ],
-    "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-4": [
+    "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-4_5": [
         [
             "DisplayText",
             "MiniCPM_VQA",
@@ -1939,7 +1947,7 @@
             "MultipleImagesInput"
         ],
         {
-            "title_aux": "ComfyUI_MiniCPM-V-2_6-int4"
+            "title_aux": "ComfyUI_MiniCPM-V-4_5"
         }
     ],
     "https://github.com/IvanZhd/comfyui-codeformer": [
@@ -2115,6 +2123,14 @@
         ],
         {
             "title_aux": "HDM [WIP]"
+        }
+    ],
+    "https://github.com/KoinnAI/ComfyUI-DynPromptSimplified": [
+        [
+            "DynPromptExpand"
+        ],
+        {
+            "title_aux": "ComfyUI Dynamic Prompting Simplified [WIP]"
         }
     ],
     "https://github.com/KoreTeknology/ComfyUI-Nai-Production-Nodes-Pack": [
@@ -3089,14 +3105,6 @@
             "title_aux": "Comfyui-Koi-Toolkit"
         }
     ],
-    "https://github.com/RegulusAlpha/ComfyUI-DynPromptSimplified": [
-        [
-            "DynPromptExpand"
-        ],
-        {
-            "title_aux": "ComfyUI Dynamic Prompting Simplified [WIP]"
-        }
-    ],
     "https://github.com/RicherdLee/comfyui-oss-image-save": [
         [
             "SaveImageOSS"
@@ -3269,25 +3277,6 @@
             "title_aux": "HiDreamSampler for ComfyUI [WIP]"
         }
     ],
-    "https://github.com/SaulQcy/comfy_saul_plugin": [
-        [
-            "Blend Images",
-            "Change the camera pose of config file",
-            "Compute Keypoints Similarity",
-            "Cutting Video",
-            "End Node",
-            "Extract .webp from Folder",
-            "Extract the First Frame",
-            "Find the most similar webp",
-            "Fuse People and Cigarette",
-            "Get Pose",
-            "Patch Pose to People",
-            "Smoking Auto Label"
-        ],
-        {
-            "title_aux": "comfyui-saul-plugin [WIP]"
-        }
-    ],
     "https://github.com/Scaryplasmon/ComfTrellis": [
         [
             "LoadTrellisModel",
@@ -3411,20 +3400,6 @@
         ],
         {
             "title_aux": "ComfyUI-PIL"
-        }
-    ],
-    "https://github.com/Solankimayursinh/PMSnodes": [
-        [
-            "InputAnalyzer",
-            "LoadBase64Audio",
-            "LoadImageBase64",
-            "LoadMaskBase64",
-            "PMSLoadText",
-            "PMSSendAudio",
-            "PMSSendImage"
-        ],
-        {
-            "title_aux": "PMSnodes [WIP]"
         }
     ],
     "https://github.com/Soliton80/ComfyUI-Watermark-Detection-YOLO": [
@@ -4287,7 +4262,7 @@
             "title_aux": "ComfyUI-AutoPrompt [WIP]"
         }
     ],
-    "https://github.com/alchemist-software-engineer/ComfyUI-Affine-Transform": [
+    "https://github.com/alchemist-novaro/ComfyUI-Affine-Transform": [
         [
             "AffineTransform"
         ],
@@ -4295,7 +4270,7 @@
             "title_aux": "Affine Transform ComfyUI Node [WIP]"
         }
     ],
-    "https://github.com/alchemist-software-engineer/ComfyUI-Simple-Image-Tools": [
+    "https://github.com/alchemist-novaro/ComfyUI-Simple-Image-Tools": [
         [
             "GetMaskFromAlpha",
             "GetQuadrilateralOutfit"
@@ -5623,6 +5598,7 @@
             "TripoTextToModelNode",
             "TripoTextureNode",
             "UNETLoader",
+            "USOStyleReference",
             "UpscaleModelLoader",
             "VAEDecode",
             "VAEDecodeAudio",
@@ -9385,6 +9361,25 @@
             "title_aux": "ComfyUI_YoloNasObjectDetection_Tensorrt [WIP]"
         }
     ],
+    "https://github.com/saulchiu/comfy_saul_plugin": [
+        [
+            "Blend Images",
+            "Change the camera pose of config file",
+            "Compute Keypoints Similarity",
+            "Cutting Video",
+            "End Node",
+            "Extract .webp from Folder",
+            "Extract the First Frame",
+            "Find the most similar webp",
+            "Fuse People and Cigarette",
+            "Get Pose",
+            "Patch Pose to People",
+            "Smoking Auto Label"
+        ],
+        {
+            "title_aux": "comfyui-saul-plugin [WIP]"
+        }
+    ],
     "https://github.com/sdfxai/SDFXBridgeForComfyUI": [
         [
             "SDFXClipTextEncode"
@@ -10207,14 +10202,6 @@
         ],
         {
             "title_aux": "ComfyUI_Accessories"
-        }
-    ],
-    "https://github.com/vchopine/ComfyUI_Toolbox": [
-        [
-            "ModelAspectRatioSelector"
-        ],
-        {
-            "title_aux": "ComfyUI_Toolbox"
         }
     ],
     "https://github.com/viik420/AdvancedModelDownloader": [
