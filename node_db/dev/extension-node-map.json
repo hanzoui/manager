@@ -315,6 +315,7 @@
     "https://github.com/543872524/ComfyUI_crdong": [
         [
             "CRDAudioLengthNode",
+            "CRDNodesImageSelector",
             "INTConstant",
             "PromptBatchMulti",
             "PromptExampleNode",
@@ -6979,6 +6980,16 @@
             "title_aux": "AsunaroTools"
         }
     ],
+    "https://github.com/jerryname2022/ComfyUI-MegaTTS3": [
+        [
+            "MegaTTS3ModelLoader",
+            "MegaTTS3ZeroShot",
+            "TextEditor"
+        ],
+        {
+            "title_aux": "MegaTTS 3 [WIP]"
+        }
+    ],
     "https://github.com/jerryname2022/ComfyUI-Real-ESRGAN": [
         [
             "GFPGANImageGenerator",
@@ -8997,6 +9008,14 @@
         ],
         {
             "title_aux": "ComfyUI-StreamDiffusion"
+        }
+    ],
+    "https://github.com/punicfaith/ComfyUI-GoogleAIStudio": [
+        [
+            "GoogleGeminiPrompt"
+        ],
+        {
+            "title_aux": "ComfyUI-GoogleAIStudio"
         }
     ],
     "https://github.com/pururin777/ComfyUI-Manual-Openpose": [

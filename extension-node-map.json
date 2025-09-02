@@ -5955,6 +5955,14 @@
             "title_aux": "ComfyUI LoRA adaLN Patcher Node"
         }
     ],
+    "https://github.com/Frief84/ComfyUI-LoRAWeightAxisXY": [
+        [
+            "XY Input: LoRA Weight (simple)"
+        ],
+        {
+            "title_aux": "ComfyUI-LoRAWeightAxisXY"
+        }
+    ],
     "https://github.com/FunnyFinger/ComfyUi-RadarWeightNode": [
         [
             "RadarWeightsNode"
@@ -7837,7 +7845,13 @@
     ],
     "https://github.com/Juste-Leo2/Canary-ComfyUI": [
         [
+            "Canary180mFlashASRNode",
+            "Canary180mFlashTranslateFromENNode",
+            "Canary180mFlashTranslateToENNode",
             "CanaryASRNode",
+            "CanaryFlashASRNode",
+            "CanaryFlashTranslateFromENNode",
+            "CanaryFlashTranslateToENNode",
             "CanaryModelLoader",
             "CanaryTranslateFromENNode",
             "CanaryTranslateToENNode"
@@ -10789,6 +10803,14 @@
             "title_aux": "Claude Prompt Generator"
         }
     ],
+    "https://github.com/PenguinTeo/Comfyui-GeminiBanana": [
+        [
+            "GeminiFlash25Node"
+        ],
+        {
+            "title_aux": "GeminiBanana for ComfyUI"
+        }
+    ],
     "https://github.com/PenguinTeo/Comfyui-TextEditor-Penguin": [
         [
             "PenguinTextOnImage"
@@ -11495,6 +11517,20 @@
             "title_aux": "comfyui_io_helpers"
         }
     ],
+    "https://github.com/S4MUEL-404/ComfyUI-Prepack": [
+        [
+            "PrepackGetPipe",
+            "PrepackKsampler",
+            "PrepackLoras",
+            "PrepackModelDualCLIP",
+            "PrepackModelSingleCLIP",
+            "PrepackSeed",
+            "PrepackSetPipe"
+        ],
+        {
+            "title_aux": "ComfyUI Prepack"
+        }
+    ],
     "https://github.com/S4MUEL-404/ComfyUI-S4Motion": [
         [
             "\ud83d\udc80Motion Config",
@@ -12089,6 +12125,16 @@
         ],
         {
             "title_aux": "ComfyUI Timer Nodes"
+        }
+    ],
+    "https://github.com/Shellishack/comfyui-remote-media-loaders": [
+        [
+            "LoadRemoteAudio",
+            "LoadRemoteImage",
+            "LoadRemoteVideo"
+        ],
+        {
+            "title_aux": "ComfyUI Remote Media Loaders"
         }
     ],
     "https://github.com/SherryXieYuchen/ComfyUI-Image-Inpainting": [
@@ -14959,6 +15005,7 @@
             "WarpedFramepackMultiLoraSelect",
             "WarpedFramepackMultiLoraSelectExt",
             "WarpedFramepackSampler",
+            "WarpedFramepackSamplerScripted",
             "WarpedGetImageFromVideo",
             "WarpedGetTwoImagesFromVideo",
             "WarpedHunyuanImageToVideo",
@@ -14966,6 +15013,7 @@
             "WarpedHunyuanLoraBatchMerge",
             "WarpedHunyuanLoraConvert",
             "WarpedHunyuanLoraConvertKeys",
+            "WarpedHunyuanLoraConvertKeys2",
             "WarpedHunyuanLoraMerge",
             "WarpedHunyuanMultiLoraAvgMerge",
             "WarpedHunyuanMultiLoraLoader",
@@ -14977,19 +15025,28 @@
             "WarpedImageScaleToSide",
             "WarpedLeapfusionHunyuanI2V",
             "WarpedLoadFramePackModel",
+            "WarpedLoadImages",
             "WarpedLoadLorasBatchByPrefix",
             "WarpedLoadVideosBatch",
             "WarpedLoaderGGUF",
             "WarpedLoraKeysAndMetadataReader",
             "WarpedLoraReSave",
+            "WarpedModifyCaptionFile",
             "WarpedMultiLoraLoader",
             "WarpedNumericalConversion",
             "WarpedReverseImageBatch",
             "WarpedSamplerCustomAdv",
             "WarpedSamplerCustomAdvLatent",
-            "WarpedSamplerCustomBatch",
             "WarpedSamplerCustomScripted",
+            "WarpedSamplerScripts12",
+            "WarpedSamplerScripts16",
+            "WarpedSamplerScripts20",
+            "WarpedSamplerScripts30",
+            "WarpedSamplerScripts40",
+            "WarpedSamplerScripts5",
+            "WarpedSamplerScripts8",
             "WarpedSaveAnimatedPng",
+            "WarpedSaveImageCaption",
             "WarpedUpscaleWithModel",
             "WarpedVAELoader",
             "WarpedWanImageToVideo",
@@ -15425,6 +15482,19 @@
         ],
         {
             "title_aux": "Yaser-nodes for ComfyUI"
+        }
+    ],
+    "https://github.com/Yeq6X/ComfyUI-image-to-video-inserter": [
+        [
+            "Base64ListToImages",
+            "Base64VideoToImages",
+            "CreateBlankFrames",
+            "ImageFrameSelector",
+            "ImagesToBase64Video",
+            "MultiImageInserter"
+        ],
+        {
+            "title_aux": "ComfyUI Image to Video Inserter"
         }
     ],
     "https://github.com/YinBailiang/MergeBlockWeighted_fo_ComfyUI": [
@@ -19508,6 +19578,7 @@
             "create_mask_solo",
             "create_mulcolor_img",
             "excel_Prompter",
+            "excel_VedioPrompt",
             "excel_column_diff",
             "excel_imgEditor_helper",
             "excel_insert_image",
@@ -23453,6 +23524,7 @@
             "LoadVideoPath",
             "MergeVideoFilename",
             "NumberListGenerator",
+            "OpenRouterLLM",
             "PromptListGenerator",
             "SaveVideoPath"
         ],
@@ -25768,6 +25840,14 @@
         ],
         {
             "title_aux": "ComfyUI Utilitools Nodes"
+        }
+    ],
+    "https://github.com/grovergol/comfyui-grover-nodes": [
+        [
+            "OpenPathNode"
+        ],
+        {
+            "title_aux": "ComfyUI Grover Nodes"
         }
     ],
     "https://github.com/gseth/ControlAltAI-Nodes": [
@@ -34782,6 +34862,7 @@
     ],
     "https://github.com/o-l-l-i/ComfyUI-Olm-DragCrop": [
         [
+            "OlmCropInfoInterpreter",
             "OlmDragCrop"
         ],
         {
@@ -35484,6 +35565,15 @@
         ],
         {
             "title_aux": "ComfyUI-LyraVSIH"
+        }
+    ],
+    "https://github.com/penposs/ComfyUI-Banana-Node": [
+        [
+            "BananaNode",
+            "TransparentImageNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Banana-Node"
         }
     ],
     "https://github.com/penposs/ComfyUI_Gemini_Pro": [
@@ -41948,6 +42038,18 @@
             "title_aux": "ComfyUI-YCNodes"
         }
     ],
+    "https://github.com/yichengup/ComfyUI_SwiftCut": [
+        [
+            "SelectImages",
+            "SelectImagesAdvanced",
+            "YCImageBatchBlend",
+            "YCImageOverlayBlend",
+            "YCImagePushPullLens"
+        ],
+        {
+            "title_aux": "ComfyUI_SwiftCut"
+        }
+    ],
     "https://github.com/yichengup/ComfyUI_Yc_JanusPro": [
         [
             "ImageAnalyzer",
@@ -42360,6 +42462,8 @@
         [
             "KY_AnyByIndex",
             "KY_AnyToList",
+            "KY_BBoxPosition",
+            "KY_BBoxToXYWH",
             "KY_BBoxesToSAM2",
             "KY_CreateMask",
             "KY_CreateVideoObjectFromPath",
