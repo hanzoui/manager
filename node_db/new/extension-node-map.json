@@ -370,6 +370,8 @@
             "ImageResizeUniversal",
             "ImageRotateWithMask",
             "ImageSolid",
+            "ImageSolidFluxKontext",
+            "ImageSolidQwenImage",
             "ImageStrokeByMask",
             "ImageTileMerge",
             "ImageTileSplit",
@@ -394,7 +396,6 @@
             "TextFilterComment",
             "TextJoinByTextList",
             "TextJoinMulti",
-            "TextLoadLocal",
             "TextPrefixSuffix"
         ],
         {
@@ -664,6 +665,9 @@
             "Any_Pipe",
             "ApplyEasyOCR_batch",
             "AudioDuration_wan",
+            "Audio_Batch_Edit",
+            "Audio_Crop_Batch",
+            "Audio_MergeBatch_To_Channel",
             "Batch_Average",
             "Bilateral_Filter",
             "ColorData_HSV_Capture",
@@ -4316,14 +4320,6 @@
             "title_aux": "Artha-Projekt"
         }
     ],
-    "https://github.com/D3lUX3I/ComfyUI-VideoPromptEnhancer": [
-        [
-            "VideoPromptEnhancer"
-        ],
-        {
-            "title_aux": "VideoPromptEnhancer"
-        }
-    ],
     "https://github.com/DJ-Tribefull/Comfyui_FOCUS_nodes": [
         [
             "Control Pipe (Focus Nodes)",
@@ -5150,6 +5146,17 @@
         ],
         {
             "title_aux": "ComfyUI_EmAySee_CustomNodes"
+        }
+    ],
+    "https://github.com/Enemyx-net/VibeVoice-ComfyUI": [
+        [
+            "VibeVoice Free Memory",
+            "VibeVoice Load Text From File",
+            "VibeVoice Multiple Speakers",
+            "VibeVoice Single Speaker"
+        ],
+        {
+            "title_aux": "VibeVoice ComfyUI"
         }
     ],
     "https://github.com/EnragedAntelope/ComfyUI-ConstrainResolution": [
@@ -20398,6 +20405,7 @@
             "EvalFloatExpr",
             "EvalIntExpr",
             "LoadImageFromWebDAV",
+            "PromptFormatter",
             "UploadImagesToWebDAV",
             "UploadWebMToWebDAV"
         ],
@@ -21501,8 +21509,8 @@
     "https://github.com/comfy-deploy/comfyui-llm-toolkit": [
         [
             "APIKeyInput",
+            "APIProviderSelectorNode",
             "AudioDurationFrames",
-            "BFLProviderNode",
             "BananaTaskGenerator",
             "BlankImage",
             "CheckImageEmpty",
@@ -21511,6 +21519,7 @@
             "ConfigGenerateImageFluxDev",
             "ConfigGenerateImageGemini",
             "ConfigGenerateImageOpenAI",
+            "ConfigGenerateImageOpenRouter",
             "ConfigGenerateImagePortrait",
             "ConfigGenerateImageSeedanceEditV3",
             "ConfigGenerateMusic",
@@ -21531,13 +21540,11 @@
             "ConfigGenerateVideoVeo3Fast",
             "Display_Text",
             "FramesToSeconds",
-            "GeminiProviderNode",
             "GenerateImage",
             "GenerateLyrics",
             "GenerateMusic",
             "GenerateSpeech",
             "GenerateVideo",
-            "GroqProviderNode",
             "HighLowSNR",
             "ImageComparer",
             "JoinStringsMulti",
@@ -21548,24 +21555,20 @@
             "LoadAudioFromPath",
             "LoadVideoFromPath",
             "LocalTransformersProviderNode",
-            "LocalVLLMProviderNode",
-            "OpenAIProviderNode",
+            "ModelListFetcherNode",
             "PlayRandomSound",
             "PreviewImageLogic",
             "PreviewOutputs",
             "PreviewVideo",
-            "PromptManager",
             "ResolutionSelector",
             "StylePromptGenerator",
-            "SunoProviderSelector",
             "SwitchAny",
             "SwitchAnyRoute",
             "SwitchAnyRoute_wANY",
             "SwitchAny_wANY",
             "SystemPromptTaskGenerator",
             "TestAPIKeyContext",
-            "UpscaleVideo",
-            "WaveSpeedProviderNode"
+            "UpscaleVideo"
         ],
         {
             "author": "ComfyDeploy",
@@ -21693,6 +21696,7 @@
             "ImageRotate",
             "ImageScale",
             "ImageScaleBy",
+            "ImageScaleToMaxDimension",
             "ImageScaleToTotalPixels",
             "ImageSharpen",
             "ImageStitch",
@@ -23844,6 +23848,8 @@
             "HardClampConDelta",
             "LoadConditioningDelta",
             "MaskConDelta",
+            "MultiDimensionalPromptTravel",
+            "PromptTravel",
             "QuickConDelta",
             "SaveConditioningDelta",
             "ThresholdConditioning"

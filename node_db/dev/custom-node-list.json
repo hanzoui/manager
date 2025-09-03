@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "Madygnomo",
+            "title": "ComfyUI-NanoBanana-ImageGenerator",
+            "reference": "https://github.com/Madygnomo/ComfyUI-NanoBanana-ImageGenerator",
+            "files": [
+                "https://github.com/Madygnomo/ComfyUI-NanoBanana-ImageGenerator"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: NanoBanana Image Generator"
+        },
+        {
+            "author": "mattwilliamson",
+            "title": "ComfyUI AI GameDev Nodes [UNSAFE]",
+            "reference": "https://github.com/mattwilliamson/comfyui-ai-gamedev",
+            "files": [
+                "https://github.com/mattwilliamson/comfyui-ai-gamedev"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for AI-powered game asset generation, providing a comprehensive toolkit for game developers to create 3D models, animations, and audio assets using state-of-the-art AI models.[w/This node pack has an implementation that dynamically generates scripts.]"
+        },
+        {
             "author": "jerryname2022",
             "title": "MegaTTS 3 [WIP]",
             "reference": "https://github.com/jerryname2022/ComfyUI-MegaTTS3",
@@ -3171,16 +3191,6 @@
             ],
             "install_type": "git-clone",
             "description": "Partial ComfyUI Dia implementation"
-        },
-        {
-            "author": "jtydhr88",
-            "title": "ComfyUI-1hewNodes [WIP]",
-            "reference": "https://github.com/1hew/ComfyUI-1hewNodes",
-            "files": [
-                "https://github.com/1hew/ComfyUI-1hewNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Solid, Luma Matte, Image Concatenate, Image Crop With BBox, Image Paste\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "jtydhr88",

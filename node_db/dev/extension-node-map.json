@@ -157,62 +157,6 @@
             "title_aux": "ComfyComfyUI_InternVL3 [WIP]"
         }
     ],
-    "https://github.com/1hew/ComfyUI-1hewNodes": [
-        [
-            "ImageAddLabel",
-            "ImageBBoxOverlayByMask",
-            "ImageBatchToList",
-            "ImageBlendModesByAlpha",
-            "ImageBlendModesByCSS",
-            "ImageCropByMaskAlpha",
-            "ImageCropSquare",
-            "ImageCropWithBBoxMask",
-            "ImageEdgeCropPad",
-            "ImageEditStitch",
-            "ImageGetSize",
-            "ImageHLFreqCombine",
-            "ImageHLFreqSeparate",
-            "ImageHLFreqTransform",
-            "ImageListAppend",
-            "ImageListToBatch",
-            "ImageLumaMatte",
-            "ImagePasteByBBoxMask",
-            "ImagePlot",
-            "ImageResizeFluxKontext",
-            "ImageResizeUniversal",
-            "ImageRotateWithMask",
-            "ImageSolid",
-            "ImageStrokeByMask",
-            "ImageTileMerge",
-            "ImageTileSplit",
-            "ImageTileSplitPreset",
-            "ListCustomFloat",
-            "ListCustomInt",
-            "ListCustomSeed",
-            "ListCustomString",
-            "MaskBatchMathOps",
-            "MaskBatchToList",
-            "MaskCropByBBoxMask",
-            "MaskFillHole",
-            "MaskListToBatch",
-            "MaskMathOps",
-            "MaskPasteByBBoxMask",
-            "PathBuild",
-            "RangeMapping",
-            "StepSplit",
-            "StringCoordinateToBBoxMask",
-            "StringCoordinateToBBoxes",
-            "TextCustomExtract",
-            "TextFilterComment",
-            "TextJoinByTextList",
-            "TextJoinMulti",
-            "TextLoadLocal",
-            "TextPrefixSuffix"
-        ],
-        {
-            "title_aux": "ComfyUI-1hewNodes [WIP]"
-        }
-    ],
     "https://github.com/206811/ComfyUI_ZhipuAIO": [
         [
             "ZhipuAIOConfigNode",
@@ -1623,6 +1567,17 @@
             "title_aux": "ComfyUI-Math [WIP]"
         }
     ],
+    "https://github.com/Enemyx-net/VibeVoice-ComfyUI": [
+        [
+            "VibeVoice Free Memory",
+            "VibeVoice Load Text From File",
+            "VibeVoice Multiple Speakers",
+            "VibeVoice Single Speaker"
+        ],
+        {
+            "title_aux": "VibeVoice ComfyUI [NAME CONFLICT]"
+        }
+    ],
     "https://github.com/EricRollei/Comfy-Metadata-System": [
         [
             "EnhancedMetadataFilterNode_V2",
@@ -2503,6 +2458,14 @@
         ],
         {
             "title_aux": "comfy-tif-support"
+        }
+    ],
+    "https://github.com/Madygnomo/ComfyUI-NanoBanana-ImageGenerator": [
+        [
+            "NanoBanana_ImageGenerator"
+        ],
+        {
+            "title_aux": "ComfyUI-NanoBanana-ImageGenerator"
         }
     ],
     "https://github.com/Maff3u/MattiaNodes": [
@@ -5064,6 +5027,7 @@
             "EvalFloatExpr",
             "EvalIntExpr",
             "LoadImageFromWebDAV",
+            "PromptFormatter",
             "UploadImagesToWebDAV",
             "UploadWebMToWebDAV"
         ],
@@ -5301,6 +5265,7 @@
             "ImageRotate",
             "ImageScale",
             "ImageScaleBy",
+            "ImageScaleToMaxDimension",
             "ImageScaleToTotalPixels",
             "ImageSharpen",
             "ImageStitch",
@@ -8209,6 +8174,14 @@
         ],
         {
             "title_aux": "ComfyUI_duck"
+        }
+    ],
+    "https://github.com/mattwilliamson/comfyui-ai-gamedev": [
+        [
+            "Hunyuan3D21Node"
+        ],
+        {
+            "title_aux": "ComfyUI AI GameDev Nodes [UNSAFE]"
         }
     ],
     "https://github.com/maurorilla/ComfyUI-MisterMR-Nodes": [
