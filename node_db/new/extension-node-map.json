@@ -367,6 +367,7 @@
             "ImagePasteByBBoxMask",
             "ImagePlot",
             "ImageResizeFluxKontext",
+            "ImageResizeQwenImage",
             "ImageResizeUniversal",
             "ImageRotateWithMask",
             "ImageSolid",
@@ -11448,6 +11449,7 @@
             "Runware DeepCache",
             "Runware Embedding Search",
             "Runware Embeddings Combine",
+            "Runware Frame Images",
             "Runware IPAdapter",
             "Runware IPAdapters Combine",
             "Runware Image Caption",
@@ -11465,7 +11467,11 @@
             "Runware Reference Images",
             "Runware Refiner",
             "Runware TeaCache",
-            "Runware VAE Search"
+            "Runware VAE Search",
+            "Runware Video Inference",
+            "Runware Video Model Search",
+            "RunwareFrameImages",
+            "txt2vid"
         ],
         {
             "title_aux": "Runware.ai ComfyUI Inference API Integration"
@@ -20405,9 +20411,16 @@
             "EvalFloatExpr",
             "EvalIntExpr",
             "LoadImageFromWebDAV",
+            "MergeData",
             "PromptFormatter",
+            "PromptTemplate",
+            "RegisterTemplate",
+            "SetData",
+            "TemplateFileLoader",
             "UploadImagesToWebDAV",
-            "UploadWebMToWebDAV"
+            "UploadWebMToWebDAV",
+            "YAMLData",
+            "YAMLFileLoader"
         ],
         {
             "title_aux": "Chaser's Custom Nodes"
@@ -21877,10 +21890,6 @@
             "Rodin3D_Regular",
             "Rodin3D_Sketch",
             "Rodin3D_Smooth",
-            "RunwayFirstLastFrameNode",
-            "RunwayImageToVideoNodeGen3a",
-            "RunwayImageToVideoNodeGen4",
-            "RunwayTextToImageNode",
             "SDTurboScheduler",
             "SD_4XUpscale_Conditioning",
             "SV3D_Conditioning",
@@ -28128,9 +28137,9 @@
     ],
     "https://github.com/jialuw0830/flux_api_comfyui_plugin": [
         [
-            "FluxAPINode",
-            "KontextAPINode",
-            "QwenAPINode",
+            "EigenAIKontextNode",
+            "EigenAIQwenNode",
+            "EigenAISchnellNode",
             "nodes"
         ],
         {
@@ -30073,6 +30082,7 @@
             "WanVideoAddExtraLatent",
             "WanVideoAddFantasyPortrait",
             "WanVideoAddMTVMotion",
+            "WanVideoAddPusaNoise",
             "WanVideoAddS2VEmbeds",
             "WanVideoAddStandInLatent",
             "WanVideoApplyNAG",
@@ -30103,6 +30113,7 @@
             "WanVideoLoopArgs",
             "WanVideoLoraBlockEdit",
             "WanVideoLoraSelect",
+            "WanVideoLoraSelectByName",
             "WanVideoLoraSelectMulti",
             "WanVideoMagCache",
             "WanVideoMiniMaxRemoverEmbeds",
@@ -35076,6 +35087,7 @@
             "IoNetVision",
             "KontextPresetsOrex",
             "OreX Image Save",
+            "PollinationsTextGenOrex",
             "flux-kontext-orexnodes",
             "orex IoNet Chat",
             "orex IoNet Vision",
@@ -35084,6 +35096,7 @@
             "orex Load Image",
             "orex Load Image Batch",
             "orex Load Image Batch Size",
+            "orex Polination Text Gen",
             "orex Save Image"
         ],
         {
@@ -35149,6 +35162,10 @@
             "ConvertIMGtoSVG",
             "ConvertSVGtoIMG",
             "DAO Blur",
+            "DAO Clone Circular",
+            "DAO Clone Circular Path",
+            "DAO Clone Grid",
+            "DAO Clone Grid Path",
             "DAO Move",
             "DAO RVB Color Picker",
             "DAO Text Maker",
@@ -35169,6 +35186,9 @@
             "DXF to SVG",
             "Folder File Pro",
             "Load Image Pro",
+            "MosaicAssembleFromFolder",
+            "MosaicTileAssemble",
+            "MosaicTileExport",
             "Path To Image",
             "SVG Boolean",
             "SVG Load",
@@ -36151,12 +36171,15 @@
             "PVL ComfyDeploy API Caller",
             "PVL KONTEXT MAX",
             "PVLCheckIfConnected",
+            "PVL_Crop2AR",
             "PVL_ImageResize",
             "PVL_ImageStitch",
             "PVL_NoneOutputNode",
             "PVL_OpenPoseMatch",
             "PVL_OpenPoseMatch_Z",
             "PVL_SaveOrNot",
+            "PVL_Stitch2Size",
+            "PVL_StylePicker",
             "PVL_Switch_Huge",
             "PVL_fal_FluxDev_API",
             "PVL_fal_FluxGeneral_API",
@@ -39056,11 +39079,13 @@
         [
             "GeminiApiLoader",
             "GeminiChat",
+            "GeminiContentConnector",
             "GeminiFileUploader",
             "GeminiImageEncoder",
             "GeminiTextBlock",
             "OpenAIApiLoader",
             "OpenAIChat",
+            "OpenAIContentConnector",
             "OpenAIFileUploader",
             "OpenAIImageEncoder",
             "OpenAITextBlock"
