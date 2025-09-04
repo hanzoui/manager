@@ -21223,6 +21223,16 @@
             "description": "A custom node for ComfyUI that integrates USO (Unified Style and Subject-Driven Generation) for high-quality image generation with style and subject control."
         },
         {
+            "author": "HM-RunningHub",
+            "title": "ComfyUI IC-Custom Node",
+            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_ICCustom",
+            "files": [
+                "https://github.com/HM-RunningHub/ComfyUI_RH_ICCustom"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that integrates IC-Custom model for high-quality image customization and generation."
+        },
+        {
             "author": "wqjuser",
             "title": "ComfyUI-Chat-Image",
             "reference": "https://github.com/wqjuser/ComfyUI-Chat-Image",
@@ -31952,7 +31962,7 @@
                 "https://github.com/grmchn/ComfyUI-ProportionChanger"
             ],
             "install_type": "git-clone",
-            "description": "A collection of utility nodes for ComfyUI to improve workflow efficiency."
+            "description": "Advanced DWPose-based body proportion changer for ComfyUI"
         },
         {
             "author": "huwenkai26",
@@ -32167,10 +32177,10 @@
         },
         {
             "author": "Shellishack",
-            "title": "ComfyUI Remote Media Loaders",
-            "reference": "https://github.com/Shellishack/comfyui-remote-media-loaders",
+            "title": "comfyui_remote_media_io",
+            "reference": "https://github.com/Shellishack/comfyui_remote_media_io",
             "files": [
-                "https://github.com/Shellishack/comfyui-remote-media-loaders"
+                "https://github.com/Shellishack/comfyui_remote_media_io"
             ],
             "install_type": "git-clone",
             "description": "Load media (image/video/audio) from remote URL"
@@ -32204,6 +32214,46 @@
             ],
             "install_type": "git-clone",
             "description": "A comprehensive collection of ComfyUI custom nodes that replicate the functionality of popular Nuke compositing nodes. Includes merge, grade, transform, blur nodes and more for professional compositing workflows."
+        },
+        {
+            "author": "opparco",
+            "title": "Wan2.2 Lightx2v Scheduler for ComfyUI",
+            "reference": "https://github.com/opparco/ComfyUI-WanLightx2vScheduler",
+            "files": [
+                "https://github.com/opparco/ComfyUI-WanLightx2vScheduler"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node package designed specifically for Wan2.2 Lightx2v models to fix the 'burnt-out' look, over-sharpening, and abrupt lighting shifts through proper denoising trajectory alignment."
+        },
+        {
+            "author": "polygoningenieur",
+            "title": "ComfyUI-IC-Light-Video",
+            "reference": "https://github.com/Polygoningenieur/ComfyUI-IC-Light-Video",
+            "files": [
+                "https://github.com/Polygoningenieur/ComfyUI-IC-Light-Video"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI native nodes for IC-Light with a Video node"
+        },
+        {
+            "author": "5agado",
+            "title": "Sagado Nodes for ComfyUI",
+            "reference": "https://github.com/5agado/ComfyUI-Sagado-Nodes",
+            "files": [
+                "https://github.com/5agado/ComfyUI-Sagado-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Image Loader, Get Num Frames, Get Resolution Node"
+        },
+        {
+            "author": "FredBisAI",
+            "title": "ComfyUI FRED Nodes v2",
+            "reference": "https://github.com/Poukpalaova/ComfyUI-FRED-Nodes_v2",
+            "files": [
+                "https://github.com/Poukpalaova/ComfyUI-FRED-Nodes_v2"
+            ],
+            "install_type": "git-clone",
+            "description": "FRED's enhanced custom nodes for ComfyUI"
         },
 
 

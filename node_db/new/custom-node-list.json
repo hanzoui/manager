@@ -1,6 +1,47 @@
 {
     "custom_nodes": [
         {
+            "author": "opparco",
+            "title": "Wan2.2 Lightx2v Scheduler for ComfyUI",
+            "reference": "https://github.com/opparco/ComfyUI-WanLightx2vScheduler",
+            "files": [
+                "https://github.com/opparco/ComfyUI-WanLightx2vScheduler"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node package designed specifically for Wan2.2 Lightx2v models to fix the 'burnt-out' look, over-sharpening, and abrupt lighting shifts through proper denoising trajectory alignment."
+        },
+        {
+            "author": "FredBisAI",
+            "title": "ComfyUI FRED Nodes v2",
+            "reference": "https://github.com/Poukpalaova/ComfyUI-FRED-Nodes_v2",
+            "files": [
+                "https://github.com/Poukpalaova/ComfyUI-FRED-Nodes_v2"
+            ],
+            "install_type": "git-clone",
+            "description": "FRED's enhanced custom nodes for ComfyUI"
+        },
+
+        {
+            "author": "HM-RunningHub",
+            "title": "ComfyUI IC-Custom Node",
+            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_ICCustom",
+            "files": [
+                "https://github.com/HM-RunningHub/ComfyUI_RH_ICCustom"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that integrates IC-Custom model for high-quality image customization and generation."
+        },
+        {
+            "author": "polygoningenieur",
+            "title": "ComfyUI-IC-Light-Video",
+            "reference": "https://github.com/Polygoningenieur/ComfyUI-IC-Light-Video",
+            "files": [
+                "https://github.com/Polygoningenieur/ComfyUI-IC-Light-Video"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI native nodes for IC-Light with a Video node"
+        },
+        {
             "author": "sumitchatterjee13",
             "title": "Nuke Nodes for ComfyUI",
             "reference": "https://github.com/sumitchatterjee13/nuke-nodes-comfyui",

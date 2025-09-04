@@ -562,6 +562,16 @@
             "title_aux": "ComfyUI-DareMerge"
         }
     ],
+    "https://github.com/5agado/ComfyUI-Sagado-Nodes": [
+        [
+            "Get Num Frames",
+            "Get Resolution Node",
+            "Image Loader"
+        ],
+        {
+            "title_aux": "Sagado Nodes for ComfyUI"
+        }
+    ],
     "https://github.com/5x00/ComfyUI-PiAPI-Faceswap": [
         [
             "Face Swapper"
@@ -6565,6 +6575,15 @@
             "title_aux": "ComfyUI_RH_FramePack"
         }
     ],
+    "https://github.com/HM-RunningHub/ComfyUI_RH_ICCustom": [
+        [
+            "RunningHub ICCustom Loader",
+            "RunningHub ICCustom Sampler"
+        ],
+        {
+            "title_aux": "ComfyUI IC-Custom Node"
+        }
+    ],
     "https://github.com/HM-RunningHub/ComfyUI_RH_OminiControl": [
         [
             "RunningHub_Omini_Fill",
@@ -10954,6 +10973,21 @@
             "title_aux": "comfyUI-PL-data-tools"
         }
     ],
+    "https://github.com/Polygoningenieur/ComfyUI-IC-Light-Video": [
+        [
+            "BackgroundScaler",
+            "CalculateNormalsFromImages",
+            "DetailTransfer",
+            "ICLightConditioning",
+            "ICLightVideo",
+            "LightSource",
+            "LoadAndApplyICLightUnet",
+            "LoadHDRImage"
+        ],
+        {
+            "title_aux": "ComfyUI-IC-Light-Video"
+        }
+    ],
     "https://github.com/Poseidon-fan/ComfyUI-RabbitMQ-Publisher": [
         [
             "Publish Image To RabbitMQ"
@@ -10970,6 +11004,22 @@
         ],
         {
             "title_aux": "comfyui-zegr"
+        }
+    ],
+    "https://github.com/Poukpalaova/ComfyUI-FRED-Nodes_v2": [
+        [
+            "FRED_AutoCropImage_Native_Ratio",
+            "FRED_AutoImageTile_from_Mask",
+            "FRED_CropFace",
+            "FRED_ImageLoad",
+            "FRED_ImageQualityInspector",
+            "FRED_ImageSaver",
+            "FRED_Simplified_Parameters_Panel",
+            "FRED_Text_to_XMP",
+            "FRED_WildcardConcat_Dynamic"
+        ],
+        {
+            "title_aux": "ComfyUI FRED Nodes v2"
         }
     ],
     "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait": [
@@ -12140,14 +12190,14 @@
             "title_aux": "ComfyUI Timer Nodes"
         }
     ],
-    "https://github.com/Shellishack/comfyui-remote-media-loaders": [
+    "https://github.com/Shellishack/comfyui_remote_media_io": [
         [
             "LoadRemoteAudio",
             "LoadRemoteImage",
             "LoadRemoteVideo"
         ],
         {
-            "title_aux": "ComfyUI Remote Media Loaders"
+            "title_aux": "comfyui_remote_media_io"
         }
     ],
     "https://github.com/SherryXieYuchen/ComfyUI-Image-Inpainting": [
@@ -21017,9 +21067,7 @@
         }
     ],
     "https://github.com/chrisgoringe/cg-use-everywhere": [
-        [
-            "Seed Everywhere"
-        ],
+        [],
         {
             "nodename_pattern": "(^(Prompts|Anything) Everywhere|Simple String)",
             "title_aux": "Use Everywhere (UE Nodes)"
@@ -21594,7 +21642,6 @@
     "https://github.com/comfyanonymous/ComfyUI": [
         [
             "AddNoise",
-            "AlignYourStepsScheduler",
             "AudioEncoderEncode",
             "AudioEncoderLoader",
             "BasicGuider",
@@ -23536,7 +23583,6 @@
             "CeilDivide",
             "FrameMatch",
             "LoadVideoPath",
-            "MergeVideoFilename",
             "NumberListGenerator",
             "OpenRouterLLM",
             "PromptListGenerator",
@@ -35061,6 +35107,16 @@
             "title_aux": "ComfyUI-OpenVINO"
         }
     ],
+    "https://github.com/opparco/ComfyUI-WanLightx2vScheduler": [
+        [
+            "KSamplerAdvancedPartialSigmas",
+            "WanLightx2vSchedulerBasic",
+            "WanLightx2vSchedulerBasicFromModel"
+        ],
+        {
+            "title_aux": "Wan2.2 Lightx2v Scheduler for ComfyUI"
+        }
+    ],
     "https://github.com/opvelll/ComfyUI_TextListProduct": [
         [
             "ProductedString",
@@ -39412,6 +39468,28 @@
         ],
         {
             "title_aux": "comfyui_tag_filter"
+        }
+    ],
+    "https://github.com/sumitchatterjee13/nuke-nodes-comfyui": [
+        [
+            "NukeBlur",
+            "NukeChannelShuffle",
+            "NukeColorBars",
+            "NukeColorCorrect",
+            "NukeCornerPin",
+            "NukeCrop",
+            "NukeDefocus",
+            "NukeGrade",
+            "NukeLevels",
+            "NukeMerge",
+            "NukeMix",
+            "NukeMotionBlur",
+            "NukeRamp",
+            "NukeTransform",
+            "NukeViewer"
+        ],
+        {
+            "title_aux": "Nuke Nodes for ComfyUI"
         }
     ],
     "https://github.com/superyoman/comfyui_lumaAPI": [

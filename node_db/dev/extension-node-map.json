@@ -279,6 +279,16 @@
             "title_aux": "ComfyUI_crdong"
         }
     ],
+    "https://github.com/5agado/ComfyUI-Sagado-Nodes": [
+        [
+            "Get Num Frames",
+            "Get Resolution Node",
+            "Image Loader"
+        ],
+        {
+            "title_aux": "Sagado Nodes for ComfyUI"
+        }
+    ],
     "https://github.com/5x00/ComfyUI-Prompt-Plus": [
         [
             "LoadAPI",
@@ -2001,6 +2011,14 @@
             "title_aux": "ComfyUI-PNG2SVG2PNG"
         }
     ],
+    "https://github.com/Juste-Leo2/ComfyUI-Arduino": [
+        [
+            "ArduinoTarget"
+        ],
+        {
+            "title_aux": "ComfyUI-Arduino [WIP]"
+        }
+    ],
     "https://github.com/KERRY-YUAN/ComfyUI_Python_Executor": [
         [
             "NodePython"
@@ -2819,6 +2837,15 @@
             "title_aux": "ComfyUI-Save_Image"
         }
     ],
+    "https://github.com/Nienai666/comfyui-encrypt-image-main": [
+        [
+            "DecryptImage",
+            "EncryptImage"
+        ],
+        {
+            "title_aux": "ComfyUI-NanoBanana-ImageGenerator"
+        }
+    ],
     "https://github.com/No-22-Github/ComfyUI_SaveImageCustom": [
         [
             "SaveUtility: SaveImageCustom"
@@ -2933,45 +2960,6 @@
         ],
         {
             "title_aux": "ComfyUI-fileCleaner [UNSAFE]"
-        }
-    ],
-    "https://github.com/Poukpalaova/ComfyUI-FRED-Nodes": [
-        [
-            "FRED_Advanced_multi_parameters_panel_v1",
-            "FRED_AutoCropImage_Native_Ratio_v5",
-            "FRED_AutoCropImage_SDXL_Ratio_V3",
-            "FRED_AutoCropImage_SDXL_Ratio_V4",
-            "FRED_AutoImageTile_from_Mask_v1",
-            "FRED_CropFace",
-            "FRED_FolderSelector",
-            "FRED_ImageBrowser_Dress",
-            "FRED_ImageBrowser_Eyes_Color",
-            "FRED_ImageBrowser_Generic",
-            "FRED_ImageBrowser_Hair_Color",
-            "FRED_ImageBrowser_Hair_Style",
-            "FRED_ImageBrowser_Top",
-            "FRED_ImageQualityInspector",
-            "FRED_ImageUncropFromBBox",
-            "FRED_JoinImages",
-            "FRED_LoadImage_V2",
-            "FRED_LoadImage_V3",
-            "FRED_LoadImage_V4",
-            "FRED_LoadImage_V5",
-            "FRED_LoadImage_V6",
-            "FRED_LoadImage_V7",
-            "FRED_LoadImage_V8",
-            "FRED_LoadPathImagesPreview",
-            "FRED_LoadPathImagesPreview_v2",
-            "FRED_LoadRetinaFace",
-            "FRED_LoraInfos",
-            "FRED_PreviewOnly",
-            "FRED_Simplified_Parameters_Panel",
-            "FRED_TextMultiline",
-            "FRED_Text_to_XMP",
-            "FRED_photo_prompt"
-        ],
-        {
-            "title_aux": "ComfyUI-FRED-Nodes [WIP]"
         }
     ],
     "https://github.com/QingLuanWithoutHeart/comfyui-file-image-utils": [
@@ -5027,9 +5015,16 @@
             "EvalFloatExpr",
             "EvalIntExpr",
             "LoadImageFromWebDAV",
+            "MergeData",
             "PromptFormatter",
+            "PromptTemplate",
+            "RegisterTemplate",
+            "SetData",
+            "TemplateFileLoader",
             "UploadImagesToWebDAV",
-            "UploadWebMToWebDAV"
+            "UploadWebMToWebDAV",
+            "YAMLData",
+            "YAMLFileLoader"
         ],
         {
             "title_aux": "ComfyUI Chaser Custom Nodes"
@@ -5150,7 +5145,6 @@
     "https://github.com/comfyanonymous/ComfyUI": [
         [
             "AddNoise",
-            "AlignYourStepsScheduler",
             "AudioEncoderEncode",
             "AudioEncoderLoader",
             "BasicGuider",
@@ -5446,10 +5440,6 @@
             "Rodin3D_Regular",
             "Rodin3D_Sketch",
             "Rodin3D_Smooth",
-            "RunwayFirstLastFrameNode",
-            "RunwayImageToVideoNodeGen3a",
-            "RunwayImageToVideoNodeGen4",
-            "RunwayTextToImageNode",
             "SDTurboScheduler",
             "SD_4XUpscale_Conditioning",
             "SV3D_Conditioning",
@@ -5666,15 +5656,6 @@
         ],
         {
             "title_aux": "ComfyUI-AudioDuration"
-        }
-    ],
-    "https://github.com/cwebbi1/VoidCustomNodes": [
-        [
-            "Prompt Parser",
-            "String Combiner"
-        ],
-        {
-            "title_aux": "VoidCustomNodes"
         }
     ],
     "https://github.com/cyberhirsch/seb_nodes": [
@@ -8178,7 +8159,8 @@
     ],
     "https://github.com/mattwilliamson/comfyui-ai-gamedev": [
         [
-            "Hunyuan3D21Node"
+            "Hunyuan3D21",
+            "VideoFrameExtractor"
         ],
         {
             "title_aux": "ComfyUI AI GameDev Nodes [UNSAFE]"
@@ -10594,6 +10576,7 @@
             "ImagesRangeNode",
             "IntNode",
             "IntToFloatNode",
+            "LoadImageBatchFromDirectoryNode",
             "LoadImageFromDirectoryNode",
             "LoadImageFromURLNode",
             "LoadStringFromDirectoryNode",

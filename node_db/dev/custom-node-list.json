@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "5agado",
+            "title": "Sagado Nodes for ComfyUI",
+            "reference": "https://github.com/5agado/ComfyUI-Sagado-Nodes",
+            "files": [
+                "https://github.com/5agado/ComfyUI-Sagado-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Image Loader, Get Num Frames, Get Resolution Node"
+        },
+        {
+            "author": "Juste-Leo2",
+            "title": "ComfyUI-Arduino [WIP]",
+            "reference": "https://github.com/Juste-Leo2/ComfyUI-Arduino",
+            "files": [
+                "https://github.com/Juste-Leo2/ComfyUI-Arduino"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-Arduino aims to bridge the gap between ComfyUI's powerful generative AI workflows and the physical world through Arduino. This project allows you to design, code, and interact with Arduino boards directly from your ComfyUI nodes, opening up possibilities for AI-driven robotics, physical generative art, interactive installations, and more."
+        },
+        {
+            "author": "Nienai666",
+            "title": "ComfyUI-NanoBanana-ImageGenerator",
+            "reference": "https://github.com/Nienai666/comfyui-encrypt-image-main",
+            "files": [
+                "https://github.com/Nienai666/comfyui-encrypt-image-main"
+            ],
+            "install_type": "git-clone",
+            "description": "This is an image encryption extension for ComfyUI. If you load this extension, images will be stored in an encrypted form and cannot be previewed normally."
+        },
+        {
             "author": "Madygnomo",
             "title": "ComfyUI-NanoBanana-ImageGenerator",
             "reference": "https://github.com/Madygnomo/ComfyUI-NanoBanana-ImageGenerator",
@@ -6103,16 +6133,6 @@
             "description": "NODES:CaptainWebhook, CaptainWebhook-Email, CaptainWebhook-Push, BWIZ_AdvancedLoadImageBatch, BWIZ_ErrorDetector, BWIZ_HFRepoBatchLoader, BWIZ_NotificationSound.\nNOTE: The files in the repo are not organized."
         },
         {
-            "author": "Poukpalaova",
-            "title": "ComfyUI-FRED-Nodes [WIP]",
-            "reference": "https://github.com/Poukpalaova/ComfyUI-FRED-Nodes",
-            "files": [
-                "https://github.com/Poukpalaova/ComfyUI-FRED-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Multiple nodes that ease the process.\nNOTE: The files in the repo are not organized."
-        },
-        {
             "author": "blurymind",
             "title": "cozy-fireplace [WIP]",
             "reference": "https://github.com/blurymind/cozy-fireplace",
@@ -6231,16 +6251,6 @@
             ],
             "install_type": "git-clone",
             "description": "for preprocessing images, presented in a visual way. It also calculates the corresponding image area."
-        },
-        {
-            "author": "cwebbi1",
-            "title": "VoidCustomNodes",
-            "reference": "https://github.com/cwebbi1/VoidCustomNodes",
-            "files": [
-                "https://github.com/cwebbi1/VoidCustomNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES:Prompt Parser, String Combiner"
         },
         {
             "author": "wilzamguerrero",
