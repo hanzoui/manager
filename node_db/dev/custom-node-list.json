@@ -1,5 +1,16 @@
 {
-    "custom_nodes": [
+    "custom_nodes": [        
+        {
+            "author": "tony-zn",
+            "title": "comfyui-zn-pycode [UNSAFE]",
+            "id": "comfyui-zn-pycode",
+            "reference": "https://github.com/tony-zn/comfyui-zn-pycode",
+            "files": [
+                "https://github.com/tony-zn/comfyui-zn-pycode"
+            ],
+            "install_type": "git-clone",
+            "description": "This node allows you to run custom Python code for flexible data handling. It supports up to 20 input parameters and 20 output results, with unused slots automatically showing or hiding based on whether the parameter and result slots are connected."
+        },
         {
             "author": "Solankimayursinh",
             "title": "PMSnodes [WIP]",
@@ -29,16 +40,6 @@
             ],
             "install_type": "git-clone",
             "description": "This repository contains ComfyUI-Luna-Collection, a bespoke collection of custom nodes for ComfyUI, engineered for power, flexibility, and a efficient workflow. These tools are born from a collaborative project between a human architect and their AI muse, Luna.\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "Vantage with AI",
-            "title": "ComfyUI-HunyuanFoley [NAME CONFLICT]",
-            "reference": "https://github.com/vantagewithai/ComfyUI-HunyuanFoley",
-            "files": [
-                "https://github.com/vantagewithai/ComfyUI-HunyuanFoley"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node for generating high-fidelity, synchronized foley audio for any video, powered by Tencent’s HunyuanVideo-Foley model."
         },
         {
             "author": "5agado",

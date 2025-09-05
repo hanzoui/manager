@@ -2550,9 +2550,10 @@
             "CivitaiDataFetcherLORA",
             "CivitaiRecipeGallery",
             "LoraTriggerWords",
-            "ParameterAnalyzerCKPT",
-            "ParameterAnalyzerLORA",
+            "MarkdownPresenter",
+            "ParameterAnalyzer",
             "PromptAnalyzer",
+            "RecipeParamsParser",
             "ResourceAnalyzer"
         ],
         {
@@ -5836,7 +5837,8 @@
     ],
     "https://github.com/Firetheft/ComfyUI_Civitai_Gallery": [
         [
-            "CivitaiGalleryNode"
+            "CivitaiGalleryNode",
+            "CivitaiModelsGalleryNode"
         ],
         {
             "title_aux": "ComfyUI Civitai Gallery"
@@ -6112,7 +6114,6 @@
         [
             "LightX2VConfigCombiner",
             "LightX2VInferenceConfig",
-            "LightX2VLightweightVAE",
             "LightX2VLoRALoader",
             "LightX2VMemoryOptimization",
             "LightX2VModularInference",
@@ -25576,6 +25577,8 @@
             "MiniMaxSubjectReference_fal",
             "MiniMaxTextToVideo_fal",
             "MiniMax_fal",
+            "NanoBananaEdit_fal",
+            "QwenImageEdit_fal",
             "Recraft_fal",
             "RunwayGen3_fal",
             "Sana_fal",
@@ -43084,6 +43087,7 @@
             "ModifyTextGender",
             "NeedImageSizeAndCount",
             "ReplicateRequstNode",
+            "ReplicateVideoRequestNode",
             "SplitMask",
             "TextInputAutoSelector",
             "TextPreview",

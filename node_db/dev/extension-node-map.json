@@ -2854,7 +2854,7 @@
     ],
     "https://github.com/Nienai666/comfyui-encrypt-image-main": [
         [
-            "DecryptImage",
+            "DecryptImageFromFile",
             "EncryptImage",
             "\u89e3\u5bc6\u56fe\u7247"
         ],
@@ -3367,6 +3367,20 @@
         ],
         {
             "title_aux": "ComfyUI-PIL"
+        }
+    ],
+    "https://github.com/Solankimayursinh/PMSnodes": [
+        [
+            "InputAnalyzer",
+            "LoadBase64Audio",
+            "LoadImageBase64",
+            "LoadMaskBase64",
+            "PMSLoadText",
+            "PMSSendAudio",
+            "PMSSendImage"
+        ],
+        {
+            "title_aux": "PMSnodes [WIP]"
         }
     ],
     "https://github.com/Soliton80/ComfyUI-Watermark-Detection-YOLO": [
