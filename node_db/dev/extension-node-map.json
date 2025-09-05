@@ -2013,6 +2013,8 @@
     ],
     "https://github.com/Juste-Leo2/ComfyUI-Arduino": [
         [
+            "ArduinoCode",
+            "ArduinoCompileUpload",
             "ArduinoTarget"
         ],
         {
@@ -2238,14 +2240,27 @@
             "title_aux": "comfyui_LK_selfuse"
         }
     ],
+    "https://github.com/LSDJesus/ComfyUI-Luna-Collection": [
+        [
+            "LunaModelAdapter",
+            "Luna_AdvancedUpscaler",
+            "Luna_GGUF_Loader",
+            "Luna_SimpleUpscaler",
+            "Luna_YOLO_Annotation_Exporter",
+            "luna_image_caption"
+        ],
+        {
+            "title_aux": "ComfyUI-Luna-Collection [WIP]"
+        }
+    ],
     "https://github.com/LSDJesus/ComfyUI-Pyrite-Core": [
         [
-            "PyriteModelAdapter",
-            "Pyrite_AdvancedUpscaler",
-            "Pyrite_GGUF_Loader",
-            "Pyrite_SimpleUpscaler",
-            "Pyrite_YOLO_Annotation_Exporter",
-            "pyrite_image_caption"
+            "LunaModelAdapter",
+            "Luna_AdvancedUpscaler",
+            "Luna_GGUF_Loader",
+            "Luna_SimpleUpscaler",
+            "Luna_YOLO_Annotation_Exporter",
+            "luna_image_caption"
         ],
         {
             "title_aux": "ComfyUI-Pyrite-Core [WIP]"
@@ -2840,7 +2855,8 @@
     "https://github.com/Nienai666/comfyui-encrypt-image-main": [
         [
             "DecryptImage",
-            "EncryptImage"
+            "EncryptImage",
+            "\u89e3\u5bc6\u56fe\u7247"
         ],
         {
             "title_aux": "ComfyUI-NanoBanana-ImageGenerator"
@@ -8157,15 +8173,6 @@
             "title_aux": "ComfyUI_duck"
         }
     ],
-    "https://github.com/mattwilliamson/comfyui-ai-gamedev": [
-        [
-            "Hunyuan3D21",
-            "VideoFrameExtractor"
-        ],
-        {
-            "title_aux": "ComfyUI AI GameDev Nodes [UNSAFE]"
-        }
-    ],
     "https://github.com/maurorilla/ComfyUI-MisterMR-Nodes": [
         [
             "AddLogo",
@@ -10146,6 +10153,17 @@
             "title_aux": "ComfyUI-AllergicPack [WIP]"
         }
     ],
+    "https://github.com/vantagewithai/ComfyUI-HunyuanFoley": [
+        [
+            "HunyuanFoleyDenoiser",
+            "HunyuanFoleyVAEDecode",
+            "HunyuanTextEncode",
+            "HunyuanVisualEncode"
+        ],
+        {
+            "title_aux": "ComfyUI-HunyuanFoley [NAME CONFLICT]"
+        }
+    ],
     "https://github.com/var1ableX/ComfyUI_Accessories": [
         [
             "ACC_AnyCast",
@@ -10157,6 +10175,14 @@
         ],
         {
             "title_aux": "ComfyUI_Accessories"
+        }
+    ],
+    "https://github.com/vasilmitov/ComfyUI-SeedSnapShotManager": [
+        [
+            "SeedSSManager"
+        ],
+        {
+            "title_aux": "ComfyUI-SeedSnapShotManager [WIP]"
         }
     ],
     "https://github.com/viik420/AdvancedModelDownloader": [

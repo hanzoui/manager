@@ -2225,6 +2225,7 @@
             "FLATTEN (JOV) \u2b07\ufe0f",
             "GRADIENT MAP (JOV) \ud83c\uddf2\ud83c\uddfa",
             "GRAPH (JOV) \ud83d\udcc8",
+            "HISTOGRAM (JOV)",
             "IMAGE INFO (JOV) \ud83d\udcda",
             "LERP (JOV) \ud83d\udd30",
             "OP BINARY (JOV) \ud83c\udf1f",
@@ -4812,6 +4813,7 @@
             "DD-ConditionSwitcher",
             "DD-DimensionCalculator",
             "DD-ImageSizeLimiter",
+            "DD-ImageSplitter",
             "DD-ImageStroke",
             "DD-ImageToVideo",
             "DD-ImageUniformSize",
@@ -7893,6 +7895,14 @@
         ],
         {
             "title_aux": "USO Nodes for ComfyUI"
+        }
+    ],
+    "https://github.com/Justify87/ComfyUI-Multi-Analysis-Heatmaps": [
+        [
+            "MultiAnalysisNode"
+        ],
+        {
+            "title_aux": "ComfyUI Multi-Analysis Heatmaps"
         }
     ],
     "https://github.com/JustinMatters/comfyUI-JMNodes": [
@@ -20540,13 +20550,13 @@
             "title_aux": "ComfyUI NSFW Filter"
         }
     ],
-    "https://github.com/chenpipi0807/Comfyui-Qwen-image-edit-CharacterConsistency": [
+    "https://github.com/chenpipi0807/Comfyui-CustomizeTextEncoder-Qwen-image": [
         [
             "TextEncodeQwenImageEditEnhanced",
             "TextEncodeQwenImageT2ICustom"
         ],
         {
-            "title_aux": "Comfyui-Qwen-image-edit-CharacterConsistency"
+            "title_aux": "Comfyui-CustomizeTextEncoder-Qwen-image"
         }
     ],
     "https://github.com/chenpipi0807/PIP_ArtisticWords": [
@@ -27261,6 +27271,14 @@
             "title_aux": "comfyui-missed-tool"
         }
     ],
+    "https://github.com/iguanesolutions/comfyui-flux-resolution": [
+        [
+            "FluxResolution"
+        ],
+        {
+            "title_aux": "Flux Resolution"
+        }
+    ],
     "https://github.com/ihmily/ComfyUI-Light-Tool": [
         [
             "Light-Tool: AddBackground",
@@ -32895,17 +32913,6 @@
             "title_aux": "ComfyUI Globetrotter Nodes"
         }
     ],
-    "https://github.com/manifestations/comfyui-outfit": [
-        [
-            "OllamaLLMNode",
-            "PhotoStyleHelperNode",
-            "PresetPatchApplierNode",
-            "SimpleOllamaNode"
-        ],
-        {
-            "title_aux": "ComfyUI Outfit Nodes"
-        }
-    ],
     "https://github.com/mape/ComfyUI-mape-Helpers": [
         [
             "mape Variable"
@@ -33136,6 +33143,14 @@
         ],
         {
             "title_aux": "milan-nodes-comfyui"
+        }
+    ],
+    "https://github.com/matthewfriedrichs/ComfyUI-ThoughtBubble": [
+        [
+            "ThoughtBubbleNode"
+        ],
+        {
+            "title_aux": "Thought Bubble"
         }
     ],
     "https://github.com/mattjohnpowell/comfyui-lmstudio-image-to-text-node": [
@@ -35921,6 +35936,7 @@
             "CRT_AddSettingsAndPrompt",
             "CRT_DynamicPromptScheduler",
             "CRT_FileBatchPromptScheduler",
+            "CRT_QuantizeAndCropImage",
             "CRT_UpscaleModelAdv",
             "CRT_WAN_BatchSampler",
             "ClarityFX",
