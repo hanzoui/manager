@@ -1,6 +1,67 @@
 {
     "custom_nodes": [
         {
+            "author": "jtydhr88",
+            "title": "ComfyUI-StableStudio",
+            "reference": "https://github.com/jtydhr88/ComfyUI-StableStudio",
+            "files": [
+                "https://github.com/jtydhr88/ComfyUI-StableStudio"
+            ],
+            "install_type": "git-clone",
+            "description": "A practical plug‑in that adds a StableStudio style user interface to ComfyUI. This project aims to give you a clean, responsive UI for managing StableStudio features inside ComfyUI, without complicating your workflow. It focuses on reliability, speed, and a calm, uncluttered design that helps you work faster."
+        },
+        {
+            "author": "ApexArtist",
+            "title": "Apex Artist - Image Resize",
+            "reference": "https://github.com/ApexArtist/apex-artist-comfyui",
+            "files": [
+                "https://github.com/ApexArtist/apex-artist-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional image resizing node with 6 advanced algorithms, intelligent aspect ratio handling, crop/pad options, and batch processing support. Perfect for AI workflows, photography, and digital art.",
+            "category": "Image Processing",
+            "tags": [
+                "image",
+                "resize", 
+                "scaling",
+                "aspect-ratio",
+                "lanczos",
+                "bicubic",
+                "batch-processing"
+            ],
+            "version": "1.0.0"
+        },
+        {
+            "author": "Seth A. Robinson",
+            "title": "Workflow to API Converter Endpoint",
+            "reference": "https://github.com/SethRobinson/comfyui-workflow-to-api-converter-endpoint",
+            "files": [
+                "https://github.com/SethRobinson/comfyui-workflow-to-api-converter-endpoint"
+            ],
+            "install_type": "git-clone",
+            "description": "Adds a global /workflow/convert API endpoint to convert non-API workflow formats to API format for ComfyUI execution"
+        },
+        {
+            "author": "orion4d",
+            "title": "Gemini Nano Banana for ComfyUI",
+            "reference": "https://github.com/orion4d/Gemini_Banana_by_orion4d",
+            "files": [
+                "https://github.com/orion4d/Gemini_Banana_by_orion4d"
+            ],
+            "install_type": "git-clone",
+            "description": "This project is a custom node for ComfyUI that integrates the power of the Google Gemini 2.5 Flash Image (“Nano Banana”) API. It provides a single versatile node, the Gemini Nano Banana, which allows you to perform image generation and editing operations directly within your workflows."
+        },
+        {
+            "author": "orion4d",
+            "title": "ComfyUI EncryptMaster",
+            "reference": "https://github.com/orion4d/Comfyui_EncryptMaster",
+            "files": [
+                "https://github.com/orion4d/Comfyui_EncryptMaster"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node pack for encrypting and hiding text or images.\nSecurity: AES-256-GCM (authenticated) with scrypt key derivation.\nSteganography: LSB (PNG/TIFF) and DCT/JPEG (more robust to recompression)."
+        },
+        {
             "author": "leylahkrell",
             "title": "ComfyUI Violet Tools",
             "reference": "https://github.com/leylahkrell/ComfyUI-Violet-Tools",

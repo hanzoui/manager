@@ -838,6 +838,20 @@
             "title_aux": "comfyui-face-remap [WIP]"
         }
     ],
+    "https://github.com/BARKEM-JC/ComfyUI-Dynamic-Lora-Loader": [
+        [
+            "DynamicLoraBlockWeights",
+            "DynamicLoraConfig",
+            "DynamicLoraConfigCombiner",
+            "DynamicLoraEmbedding",
+            "DynamicLoraKeyword",
+            "DynamicLoraLoader",
+            "DynamicLoraOffset"
+        ],
+        {
+            "title_aux": "ComfyUI-Dynamic-Lora-Loader"
+        }
+    ],
     "https://github.com/Babiduba/ivan_knows": [
         [
             "RoleSelector",
@@ -2013,9 +2027,15 @@
     ],
     "https://github.com/Juste-Leo2/ComfyUI-Arduino": [
         [
-            "ArduinoCode",
+            "ArduinoAnalogWrite",
             "ArduinoCompileUpload",
-            "ArduinoTarget"
+            "ArduinoCreateVariable",
+            "ArduinoDelay",
+            "ArduinoDigitalWrite",
+            "ArduinoReceiver",
+            "ArduinoSender",
+            "ArduinoTarget",
+            "ArduinoVariableInfo"
         ],
         {
             "title_aux": "ComfyUI-Arduino [WIP]"
@@ -2242,9 +2262,15 @@
     ],
     "https://github.com/LSDJesus/ComfyUI-Luna-Collection": [
         [
-            "LunaModelAdapter",
-            "Luna_AdvancedUpscaler",
+            "LunaCheckpointLoader",
+            "LunaEmbeddingManager",
+            "LunaEmbeddingManagerRandom",
+            "LunaLoRAStacker",
+            "LunaLoRAStackerRandom",
+            "Luna_Advanced_Upscaler",
             "Luna_GGUF_Loader",
+            "Luna_MediaPipe_Detailer",
+            "Luna_MediaPipe_Segs",
             "Luna_SimpleUpscaler",
             "Luna_YOLO_Annotation_Exporter",
             "luna_image_caption"
@@ -2255,9 +2281,15 @@
     ],
     "https://github.com/LSDJesus/ComfyUI-Pyrite-Core": [
         [
-            "LunaModelAdapter",
-            "Luna_AdvancedUpscaler",
+            "LunaCheckpointLoader",
+            "LunaEmbeddingManager",
+            "LunaEmbeddingManagerRandom",
+            "LunaLoRAStacker",
+            "LunaLoRAStackerRandom",
+            "Luna_Advanced_Upscaler",
             "Luna_GGUF_Loader",
+            "Luna_MediaPipe_Detailer",
+            "Luna_MediaPipe_Segs",
             "Luna_SimpleUpscaler",
             "Luna_YOLO_Annotation_Exporter",
             "luna_image_caption"
@@ -7150,14 +7182,6 @@
             "title_aux": "ComfyUI-DiffBIR"
         }
     ],
-    "https://github.com/jtydhr88/ComfyUI-StableStudio": [
-        [
-            "ComfyUIStableStudio"
-        ],
-        {
-            "title_aux": "ComfyUI-StableStudio [WIP]"
-        }
-    ],
     "https://github.com/jtydhr88/ComfyUI-Unique3D": [
         [
             "Unique3DLoadPipeline",
@@ -8572,23 +8596,23 @@
             "CloudreveUploadFile",
             "IncrementBatchName",
             "InoGetConditioning",
+            "InoGetLoraConfig",
+            "InoGetModelConfig",
             "InoGetSamplerConfig",
-            "InoLoadModels",
+            "InoLoadSamplerModels",
+            "InoShowLoraConfig",
+            "InoShowModelConfig",
             "Ino_BoolToSwitch",
             "Ino_BranchImage",
             "Ino_CalculateLoraConfig",
             "Ino_CountFiles",
             "Ino_DateTimeAsString",
             "Ino_GetFolderBatchID",
-            "Ino_GetParentID",
             "Ino_IntEqual",
             "Ino_NotBoolean",
             "Ino_ParseFilePath",
             "Ino_RandomCharacterPrompt",
-            "Ino_SaveFile",
-            "Ino_SaveImage",
             "Ino_StringToggleCase",
-            "Ino_VideoConvert",
             "RemoveFile",
             "RemoveFolder",
             "Unzip",
@@ -10905,8 +10929,6 @@
     ],
     "https://github.com/zhuanvi/ComfyUI-ZVNodes": [
         [
-            "DesaturateNodeZV",
-            "GrayToDisplacementMapNodeZV",
             "ImageCounterNodeZV",
             "JoinListZV",
             "JsonListIndexerZV",
@@ -10915,9 +10937,13 @@
             "JsonListSlicerZV",
             "JsonListToMaskZV",
             "JsonReaderZV",
+            "JsonToSrtConverterZV",
+            "LineNumberGeneratorZV",
             "LoadImageFromDirZV",
             "LoadImageFromUrlZV",
             "LoadTxtFromDirZV",
+            "MultiLineConditionalZV",
+            "MultiLineOperationZV",
             "PatternFillNodeZV",
             "ProductionDisplacementMapNodeZV",
             "RandomSelectListZV",

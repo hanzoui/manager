@@ -1811,6 +1811,7 @@
     ],
     "https://github.com/AcademiaSD/comfyui_AcademiaSD": [
         [
+            "IntegerBypasser",
             "LoopCounterToFile",
             "PaddedFileName",
             "PromptBatchSelector",
@@ -2007,15 +2008,25 @@
     ],
     "https://github.com/Alectriciti/comfyui-adaptiveprompts": [
         [
-            "CleanupTags",
             "NormalizeLoraTags",
+            "PromptAliasSwap",
+            "PromptCleanup",
             "PromptGenerator",
+            "PromptMixer",
+            "PromptRepack",
             "PromptReplace",
-            "PromptRewrap",
-            "ShuffleTags",
-            "ShuffleTagsAdvanced",
-            "StringMerger4",
-            "StringMerger8"
+            "PromptShuffle",
+            "PromptShuffleAdvanced",
+            "PromptSplitter",
+            "RandomFloats",
+            "RandomIntegers",
+            "SaveImageAndText",
+            "ScaledSeedGenerator",
+            "StringAppend3",
+            "StringAppend8",
+            "StringSplit",
+            "TagCounter",
+            "WeightLifter"
         ],
         {
             "title_aux": "comfyui-adaptiveprompts"
@@ -2306,6 +2317,15 @@
         ],
         {
             "title_aux": "ComfyUI-SimpleCounter"
+        }
+    ],
+    "https://github.com/ApexArtist/apex-artist-comfyui": [
+        [
+            "ApexArtist",
+            "ApexArtist - Depth to Normal"
+        ],
+        {
+            "title_aux": "Apex Artist - Image Resize"
         }
     ],
     "https://github.com/ArcherFMY/Diffusion360_ComfyUI": [
@@ -4062,6 +4082,7 @@
             "CRZIntToFloat",
             "CRZIntegerSlider",
             "CRZLabel",
+            "CRZMapDropdown",
             "CRZPassthrough",
             "CRZStringNode",
             "CRZSwitch"
@@ -5959,6 +5980,7 @@
             "EncryptWatermark",
             "GetResolutionForVR",
             "ImageVRConverter",
+            "RegexSubstitute",
             "SaveStrippedUTF8File",
             "ScaleByFactor",
             "StripXML"
@@ -10975,6 +10997,7 @@
             "PreviewImageQueue",
             "PromptRandomizer",
             "StringCombine",
+            "TestCollapsibleNode",
             "TestResetButton",
             "Watermark"
         ],
@@ -12202,6 +12225,14 @@
         ],
         {
             "title_aux": "ComfyUI Asset Downloader"
+        }
+    ],
+    "https://github.com/SethRobinson/comfyui-workflow-to-api-converter-endpoint": [
+        [
+            "WorkflowToAPIConverter"
+        ],
+        {
+            "title_aux": "Workflow to API Converter Endpoint"
         }
     ],
     "https://github.com/Shadetail/ComfyUI_Eagleshadow": [
@@ -19651,6 +19682,7 @@
             "basicIn_float",
             "basicIn_int",
             "basicIn_string",
+            "basic_KSampler_variant_seed",
             "basic_Ksampler_adv",
             "basic_Ksampler_custom",
             "basic_Ksampler_full",
@@ -19714,9 +19746,12 @@
             "excel_qwen_artistic",
             "excel_qwen_font",
             "excel_read",
+            "excel_roles",
             "excel_row_diff",
             "excel_search_data",
             "excel_write_data",
+            "flow_auto_pixel",
+            "flow_judge",
             "img_effect_CircleWarp",
             "img_effect_Liquify",
             "img_effect_Load",
@@ -19760,6 +19795,7 @@
             "pre_Kontext",
             "pre_Kontext_mul",
             "pre_QwenEdit",
+            "pre_USO",
             "pre_controlnet",
             "pre_controlnet_union",
             "pre_guide",
@@ -21596,6 +21632,7 @@
             "Xoxxox_DlySet",
             "Xoxxox_GenImg",
             "Xoxxox_GenTxt",
+            "Xoxxox_GenTxt_Opt",
             "Xoxxox_GetAud",
             "Xoxxox_GetDir",
             "Xoxxox_GetDis",
@@ -22755,8 +22792,8 @@
         ],
         {
             "author": "Dado",
-            "description": "Node with dynamic text inputs for concatenation",
-            "title": "Text Concatenator",
+            "description": "Utilities for creating and analyzing wildcard JSON structures.",
+            "title": "Wildcard Structure Utils",
             "title_aux": "ComfyUI_Dados_Nodes"
         }
     ],
@@ -22792,12 +22829,12 @@
             "DynamicStringCombinerNode",
             "FileReaderNode",
             "FlexibleStringMergerNode",
-            "GPT4MiniNode",
-            "GPT4VisionNode",
             "GeminiCustomVision",
             "GeminiTextOnly",
-            "Gpt4CustomVision",
-            "Gpt4VisionCloner",
+            "GptCustomVision",
+            "GptMiniNode",
+            "GptVisionCloner",
+            "GptVisionNode",
             "OllamaNode",
             "OllamaVisionNode",
             "PGSD3LatentGenerator",
@@ -23334,6 +23371,7 @@
             "CharacterVoicesNode",
             "ChatterBoxEngineNode",
             "ChatterBoxF5TTSEditOptions",
+            "ChatterBoxOfficial23LangEngineNode",
             "F5TTSEngineNode",
             "HiggsAudioEngineNode",
             "MouthMovementAnalyzer",
@@ -24267,50 +24305,22 @@
             "DenoiseCurveVisualizer",
             "LatentStatisticsMonitor",
             "MinimalKeyframeV2V",
-            "QwenCheckpointLoaderSimple",
-            "QwenCompareEncoders",
-            "QwenDebugTextEncoder",
-            "QwenDiffusionModelLoader",
-            "QwenEliGenController",
-            "QwenEliGenMaskCreator",
-            "QwenFrameLoader",
-            "QwenImageEditAdvanced",
-            "QwenImageEditLatentPrepare",
-            "QwenImageEditProcessor",
-            "QwenImageEditSimple",
-            "QwenImageEditUnified",
-            "QwenImageIterativeSampler",
-            "QwenImageResolutionHelper",
-            "QwenImageSamplerAdvanced",
-            "QwenImageSamplerWrapper",
-            "QwenImageVAEEncode",
+            "QwenContextProcessor",
             "QwenLowresFixNode",
-            "QwenModelValidator",
-            "QwenMultiFrameComplete",
-            "QwenMultiFrameEncoder",
-            "QwenMultiFrameWrapper",
+            "QwenNativeEncoder",
+            "QwenNativeLoader",
             "QwenOptimalResolution",
-            "QwenPromptFormatter",
-            "QwenPromptInterpolator",
-            "QwenPromptInterpolatorBatch",
             "QwenResolutionSelector",
-            "QwenTemplateBuilder",
+            "QwenSpatialTokenGenerator",
             "QwenTemplateBuilderV2",
             "QwenTemplateConnector",
-            "QwenTextEncoderLoader",
-            "QwenToNativeLatentBridge",
-            "QwenTokenInfo",
-            "QwenVAELoader",
-            "QwenVAENormalizer",
+            "QwenTokenAnalyzerStandalone",
+            "QwenTokenDebugger",
             "QwenVLCLIPLoader",
-            "QwenVLLoader",
             "QwenVLTextEncoder",
-            "QwenVisionPatchEncoder",
-            "QwenWANCompareLatents",
-            "QwenWANConditioningDebug",
+            "QwenValidationTools",
             "QwenWANKeyframeEditor",
-            "QwenWANKeyframeExtractor",
-            "QwenWANLatentDebug"
+            "QwenWANKeyframeExtractor"
         ],
         {
             "title_aux": "ComfyUI-QwenImageWanBridge"
@@ -28721,6 +28731,14 @@
             "title_aux": "ComfyUI-OpenCut"
         }
     ],
+    "https://github.com/jtydhr88/ComfyUI-StableStudio": [
+        [
+            "ComfyUIStableStudio"
+        ],
+        {
+            "title_aux": "ComfyUI-StableStudio"
+        }
+    ],
     "https://github.com/juddisjudd/ComfyUI-BawkNodes": [
         [
             "BawkSampler",
@@ -30194,6 +30212,7 @@
             "LoadWanVideoT5TextEncoder",
             "MTVCrafterEncodePoses",
             "MultiTalkModelLoader",
+            "MultiTalkSilentEmbeds",
             "MultiTalkWav2VecEmbeds",
             "NLFPredict",
             "NormalizeAudioLoudness",
@@ -31168,6 +31187,20 @@
         ],
         {
             "title_aux": "ComfyUI Stable3DGen"
+        }
+    ],
+    "https://github.com/leylahkrell/ComfyUI-Violet-Tools": [
+        [
+            "AestheticAlchemist",
+            "BodyBard",
+            "EncodingEnchantress",
+            "GlamourGoddess",
+            "NegativityNullifier",
+            "PosePriestess",
+            "QualityQueen"
+        ],
+        {
+            "title_aux": "ComfyUI Violet Tools"
         }
     ],
     "https://github.com/lgldlk/ComfyUI-PC-ding-dong": [
@@ -35371,6 +35404,31 @@
         ],
         {
             "title_aux": "ComfyUI PDF Nodes"
+        }
+    ],
+    "https://github.com/orion4d/Comfyui_EncryptMaster": [
+        [
+            "Generate Passphrase",
+            "GeneratePassphrase",
+            "Image Cipher To Noise",
+            "Image Decipher From Noise",
+            "Stego Capacity Estimator",
+            "Stego Embed Image",
+            "Stego Embed Text",
+            "Stego Extract Image",
+            "Stego Extract Text",
+            "Text Cipher"
+        ],
+        {
+            "title_aux": "ComfyUI EncryptMaster"
+        }
+    ],
+    "https://github.com/orion4d/Gemini_Banana_by_orion4d": [
+        [
+            "GeminiNanoStudio"
+        ],
+        {
+            "title_aux": "Gemini Nano Banana for ComfyUI"
         }
     ],
     "https://github.com/orion4d/illusion_node": [
