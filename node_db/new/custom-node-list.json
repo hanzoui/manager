@@ -1,6 +1,67 @@
 {
     "custom_nodes": [
         {
+            "author": "leylahkrell",
+            "title": "ComfyUI Violet Tools",
+            "reference": "https://github.com/leylahkrell/ComfyUI-Violet-Tools",
+            "files": [
+                "https://github.com/leylahkrell/ComfyUI-Violet-Tools"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of aesthetic-focused custom nodes for ComfyUI that enhance AI image generation with sophisticated style and prompt management capabilities. Includes 7 nodes: Aesthetic Alchemist (style blending with 20+ curated aesthetics), Quality Queen (quality prompts), Glamour Goddess (hair/makeup), Body Bard (body features), Pose Priestess (positioning), Encoding Enchantress (text processing), and Negativity Nullifier (negative prompts). Features weighted blending, randomization, and modular YAML-based configuration."
+        },
+        {
+            "author": "SnJake",
+            "title": "JPG & Noise Remover for ComfyUI",
+            "reference": "https://github.com/SnJake/SnJake_JPG_Artifacts_Noise_Cleaner",
+            "files": [
+                "https://github.com/SnJake/SnJake_JPG_Artifacts_Noise_Cleaner"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node for ComfyUI designed to remove JPEG compression artifacts and digital noise from images. It is powered by a lightweight UNetRestorer model that efficiently restores image quality."
+        },
+        {
+            "author": "SatadalAI",
+            "title": "SATA UtilityNode Node for ComfyUI",
+            "id": "SATA UtilityNode",
+            "reference": "https://github.com/SatadalAI/SATA_UtilityNode",
+            "files": [
+                "https://github.com/SatadalAI/SATA_UtilityNode"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of utility nodes including image upscale,touchpad support and CSV-driven prompt machine for ComfyUI."
+        },
+        {
+            "author": "ShmuelRonen",
+            "title": "ComfyUI Flux Pro Integrative - Enhanced Flux API Node",
+            "reference": "https://github.com/ShmuelRonen/flux_pro_integrative",
+            "files": [
+                "https://github.com/ShmuelRonen/flux_pro_integrative"
+            ],
+            "install_type": "git-clone",
+            "description": "A completely rewritten and enhanced custom node for ComfyUI that integrates with Black Forest Labs FLUX API, providing seamless access to FLUX's image generation and finetuning capabilities with improved reliability and user experience."
+        },
+        {
+            "author": "CoreyCorza",
+            "title": "ComfyUI-CRZnodes",
+            "reference": "https://github.com/CoreyCorza/ComfyUI-CRZnodes",
+            "files": [
+                "https://github.com/CoreyCorza/ComfyUI-CRZnodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Dashboard Nodes for Comfy"
+        },
+        {
+            "author": "wizdroid",
+            "title": "Wizdroid ComfyUI Outfit Selection",
+            "reference": "https://github.com/wizdroid/wizdroid-fashionista",
+            "files": [
+                "https://github.com/wizdroid/wizdroid-fashionista"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive outfit generation system for ComfyUI with AI-powered prompt enhancement and dynamic outfit composition."
+        },
+        {
             "author": "Vantage with AI",
             "title": "Vantage-HunyuanFoley",
             "reference": "https://github.com/vantagewithai/Vantage-HunyuanFoley",
@@ -9,6 +70,16 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node for generating high-fidelity, synchronized foley audio for any video, powered by Tencent’s HunyuanVideo-Foley model."
+        },
+        {
+            "author": "MilleN2ium",
+            "title": "ComfyUI-CutomizableSave",
+            "reference": "https://github.com/MilleN2ium/ComfyUI-CutomizableSave",
+            "files": [
+                "https://github.com/MilleN2ium/ComfyUI-CutomizableSave"
+            ],
+            "install_type": "git-clone",
+            "description": "save your image with customized naming rule"
         },
         {
             "author": "Justify87",
@@ -416,7 +487,7 @@
         },
         {
             "author": "railep",
-            "title": "HunyuanVideo-Foley Audio Generator",
+            "title": "ComfyUI-HunyuanVideo-Foley",
             "reference": "https://github.com/railep/ComfyUI-HunyuanVideo-Foley",
             "files": [
                 "https://github.com/railep/ComfyUI-HunyuanVideo-Foley"
@@ -485,14 +556,14 @@
             "description": "NODES:Reflatent"
         },
         {
-            "author": "aesethtics",
-            "title": "ComfyUI Utilitools Nodes",
+            "author": "gearmachine",
+            "title": "ComfyUI-ProportionChanger",
             "reference": "https://github.com/grmchn/ComfyUI-ProportionChanger",
             "files": [
                 "https://github.com/grmchn/ComfyUI-ProportionChanger"
             ],
             "install_type": "git-clone",
-            "description": "A collection of utility nodes for ComfyUI to improve workflow efficiency."
+            "description": "Advanced DWPose-based body proportion changer for ComfyUI"
         },
         {
             "author": "aesethtics",

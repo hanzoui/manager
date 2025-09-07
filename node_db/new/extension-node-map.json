@@ -4047,6 +4047,29 @@
             "title_aux": "ComfyUI-CoCoTools_IO"
         }
     ],
+    "https://github.com/CoreyCorza/ComfyUI-CRZnodes": [
+        [
+            "CRZBooleanToggle",
+            "CRZCompare",
+            "CRZCustomDropdown",
+            "CRZDashboardNode",
+            "CRZDropdown",
+            "CRZExecuteBlock",
+            "CRZExecuteSwitch",
+            "CRZFloatSlider",
+            "CRZFloatToInt",
+            "CRZImageSelector",
+            "CRZIntToFloat",
+            "CRZIntegerSlider",
+            "CRZLabel",
+            "CRZPassthrough",
+            "CRZStringNode",
+            "CRZSwitch"
+        ],
+        {
+            "title_aux": "ComfyUI-CRZnodes"
+        }
+    ],
     "https://github.com/CosmicLaca/ComfyUI_Primere_Nodes": [
         [
             "DebugToFile",
@@ -7301,9 +7324,12 @@
     "https://github.com/Isi-dev/ComfyUI_DeleteModelPassthrough": [
         [
             "ControlledControlNetLoader",
+            "ControlledModelPatchLoader",
             "ControlledUnetLoaderGGUF",
             "ControlledVAELoader",
-            "DeleteModelPassthrough"
+            "DeleteModelPassthrough",
+            "DeleteModelPassthroughLight",
+            "SmartClipDeleter"
         ],
         {
             "title_aux": "ComfyUI_DeleteModelPassthrough"
@@ -9824,6 +9850,14 @@
             "title_aux": "MilitantHitchhiker-SwitchbladePack"
         }
     ],
+    "https://github.com/MilleN2ium/ComfyUI-CutomizableSave": [
+        [
+            "MyOtherNode"
+        ],
+        {
+            "title_aux": "ComfyUI-CutomizableSave"
+        }
+    ],
     "https://github.com/Mintbeer96/ComfyUI-KerasOCR": [
         [
             "KerasOCR"
@@ -11906,6 +11940,15 @@
             "title_aux": "Omini Kontext"
         }
     ],
+    "https://github.com/SatadalAI/SATA_UtilityNode": [
+        [
+            "Prompt_Machine",
+            "Upscale_Machine"
+        ],
+        {
+            "title_aux": "SATA UtilityNode Node for ComfyUI"
+        }
+    ],
     "https://github.com/SaturMars/ComfyUI-NVVFR": [
         [
             "NVVFR"
@@ -12547,14 +12590,6 @@
             "title_aux": "ComfyUI_ChatterBox_Voice"
         }
     ],
-    "https://github.com/ShmuelRonen/ComfyUI_Flux_1.1_RAW_API": [
-        [
-            "FluxPro11WithFinetune"
-        ],
-        {
-            "title_aux": "ComfyUI Flux 1.1 Ultra & Raw Node"
-        }
-    ],
     "https://github.com/ShmuelRonen/ComfyUI_Gemini_Flash": [
         [
             "Gemini_Flash_002"
@@ -12623,6 +12658,14 @@
         ],
         {
             "title_aux": "comfyui-openai_fm"
+        }
+    ],
+    "https://github.com/ShmuelRonen/flux_pro_integrative": [
+        [
+            "FluxProIntegrative"
+        ],
+        {
+            "title_aux": "ComfyUI Flux Pro Integrative - Enhanced Flux API Node"
         }
     ],
     "https://github.com/ShmuelRonen/google_moogle": [
@@ -12834,6 +12877,14 @@
         ],
         {
             "title_aux": "comfyui_meme_maker"
+        }
+    ],
+    "https://github.com/SnJake/SnJake_JPG_Artifacts_Noise_Cleaner": [
+        [
+            "SnJakeArtifactsRemover"
+        ],
+        {
+            "title_aux": "JPG & Noise Remover for ComfyUI"
         }
     ],
     "https://github.com/SoftMeng/ComfyUI-DeepCache-Fix": [
@@ -16774,6 +16825,7 @@
             "JsonDumps",
             "JsonGetValueByKeys",
             "JsonLoads",
+            "QwenLatentImage",
             "ReadFileToString",
             "SplitString",
             "Translate"
@@ -17136,7 +17188,7 @@
             "style_menus"
         ],
         {
-            "title_aux": "GeminiOllama ComfyUI Extension"
+            "title_aux": "ComfyUI-OllamaGemini"
         }
     ],
     "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt": [
@@ -25918,7 +25970,7 @@
             "ProportionChangerReference"
         ],
         {
-            "title_aux": "ComfyUI Utilitools Nodes"
+            "title_aux": "ComfyUI-ProportionChanger"
         }
     ],
     "https://github.com/grovergol/comfyui-grover-nodes": [
@@ -33210,21 +33262,6 @@
             "title_aux": "ComfyUI-TITrain"
         }
     ],
-    "https://github.com/mcDandy/more_math": [
-        [
-            "mrmth_AudioMathNode",
-            "mrmth_ConditioningMathNode",
-            "mrmth_FloatMathNode",
-            "mrmth_FloatToInt",
-            "mrmth_ImageMathNode",
-            "mrmth_IntToFloat",
-            "mrmth_LatentMathNode",
-            "mrmth_NoiseMathNode"
-        ],
-        {
-            "title_aux": "More Math"
-        }
-    ],
     "https://github.com/mcmonkeyprojects/sd-dynamic-thresholding": [
         [
             "DynamicThresholdingFull",
@@ -36473,7 +36510,7 @@
             "HunyuanFoleyNode"
         ],
         {
-            "title_aux": "HunyuanVideo-Foley Audio Generator"
+            "title_aux": "ComfyUI-HunyuanVideo-Foley"
         }
     ],
     "https://github.com/raindrop313/ComfyUI-WanVideoStartEndFrames": [
@@ -40732,6 +40769,17 @@
             "title_aux": "Simple Wildcard"
         }
     ],
+    "https://github.com/vantagewithai/Vantage-HunyuanFoley": [
+        [
+            "HunyuanFoleyDenoiser",
+            "HunyuanFoleyVAEDecode",
+            "HunyuanTextEncode",
+            "HunyuanVisualEncode"
+        ],
+        {
+            "title_aux": "Vantage-HunyuanFoley"
+        }
+    ],
     "https://github.com/var1ableX/ComfyUI_Accessories": [
         [
             "ACC_AnyCast",
@@ -41347,6 +41395,14 @@
             "title_aux": "ComfyUI-Environment-Visualizer"
         }
     ],
+    "https://github.com/willmiao/ComfyUI-Lora-Manager": [
+        [
+            "WanVideoLoraSelectFromText"
+        ],
+        {
+            "title_aux": "ComfyUI-Lora-Manager"
+        }
+    ],
     "https://github.com/windfancy/zsq_prompt": [
         [
             "BatchPromptJson",
@@ -41447,6 +41503,19 @@
         ],
         {
             "title_aux": "mpx-comfyui-nodes"
+        }
+    ],
+    "https://github.com/wizdroid/wizdroid-fashionista": [
+        [
+            "CharacterSheetGeneratorNode",
+            "ImageValidatorNode",
+            "OllamaLLMNode",
+            "PhotoStyleHelperNode",
+            "PresetPatchApplierNode",
+            "SimpleOllamaNode"
+        ],
+        {
+            "title_aux": "Wizdroid ComfyUI Outfit Selection"
         }
     ],
     "https://github.com/wjl0313/ComfyUI_KimNodes": [
