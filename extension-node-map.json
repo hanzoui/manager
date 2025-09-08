@@ -3558,6 +3558,16 @@
             "title_aux": "comfyui-last-frame-extractor"
         }
     ],
+    "https://github.com/Charonartist/comfyui-lmstudio-conversation": [
+        [
+            "LMStudioConversation",
+            "LMStudioConversationClear",
+            "LMStudioTextGen"
+        ],
+        {
+            "title_aux": "comfyui-lmstudio-conversation"
+        }
+    ],
     "https://github.com/Charonartist/comfyui-smart-resize-node": [
         [
             "SmartResizeNode"
@@ -5888,6 +5898,15 @@
             "title_aux": "ComfyUI Civitai Gallery"
         }
     ],
+    "https://github.com/Firetheft/ComfyUI_Local_Lora_Gallery": [
+        [
+            "LocalLoraGallery",
+            "LocalLoraGalleryModelOnly"
+        ],
+        {
+            "title_aux": "ComfyUI_Local_Lora_Gallery"
+        }
+    ],
     "https://github.com/FizzleDorf/ComfyUI-AIT": [
         [
             "AIT_Unet_Loader",
@@ -5945,6 +5964,22 @@
         ],
         {
             "title_aux": "ComfyUI-WanStartEndFramesNative"
+        }
+    ],
+    "https://github.com/FloyoAI/ComfyUI-Seed-API": [
+        [
+            "SeedChat",
+            "SeedEditImageToImage",
+            "SeedanceLiteFirstLastFrame",
+            "SeedanceLiteImageToVideo",
+            "SeedanceLiteReferenceImages",
+            "SeedanceLiteTextToVideo",
+            "SeedanceProTextImageToVideo",
+            "SeedreamTextToImage",
+            "VideoToFrames"
+        ],
+        {
+            "title_aux": "Olaf's Nodes"
         }
     ],
     "https://github.com/FlyingFireCo/tiled_ksampler": [
@@ -23738,6 +23773,16 @@
             "title_aux": "ObjectFusion_ComfyUI_nodes"
         }
     ],
+    "https://github.com/duldduld/ComfyUI_md5": [
+        [
+            "FileToMD5",
+            "ImgToMD5",
+            "StringToMD5"
+        ],
+        {
+            "title_aux": "ComfyUI_md5"
+        }
+    ],
     "https://github.com/duskfallcrew/Comfyui_EmbeddingMerge_Node/raw/refs/heads/main/merge_embed.py": [
         [
             "EmbeddingMerger"
@@ -28242,6 +28287,15 @@
             "title_aux": "ComfyUI_StreamDiffusion"
         }
     ],
+    "https://github.com/jfcantu/ComfyUI-Prompt-Companion": [
+        [
+            "Prompt Companion",
+            "PromptCompanion"
+        ],
+        {
+            "title_aux": "ComfyUI Prompt Companion"
+        }
+    ],
     "https://github.com/jhj0517/ComfyUI-Moondream-Gaze-Detection": [
         [
             "(Down)Load Moondream Model",
@@ -32733,6 +32787,16 @@
             "title_aux": "ComfyUI GFPGAN"
         }
     ],
+    "https://github.com/lucasgattas/ComfyUI-Egregora-Audio-Super-Resolution": [
+        [
+            "EgregoraAudioUpscaler",
+            "EgregoraFatLlamaCPU",
+            "EgregoraFatLlamaGPU"
+        ],
+        {
+            "title_aux": "ComfyUI \u00b7 Egregora Audio Super\u2011Resolution"
+        }
+    ],
     "https://github.com/lucasgattas/comfyui-egregora-divide-and-enhance": [
         [
             "Egregora Algorithm",
@@ -36831,6 +36895,40 @@
             "title_aux": "Easy Color Correction"
         }
     ],
+    "https://github.com/regiellis/ComfyUI-EasyIllustrious": [
+        [
+            "IllustriousArtists",
+            "IllustriousAttentionCouple",
+            "IllustriousAutoOutpaint",
+            "IllustriousCLIPTextEncoder",
+            "IllustriousCharacters",
+            "IllustriousClothing",
+            "IllustriousColorSuite",
+            "IllustriousE621Artists",
+            "IllustriousE621Characters",
+            "IllustriousEmotions",
+            "IllustriousEmptyLatentImage",
+            "IllustriousHairstyles",
+            "IllustriousKSamplerPresets",
+            "IllustriousKSamplerPro",
+            "IllustriousLatentUpscale",
+            "IllustriousMasterModel",
+            "IllustriousMultiPassSampler",
+            "IllustriousNegativeCLIPEncoder",
+            "IllustriousPonyTokens",
+            "IllustriousPoses",
+            "IllustriousPrompt",
+            "IllustriousScenesPlus",
+            "IllustriousScheduler",
+            "IllustriousTriplePassSampler",
+            "IllustriousVAEDecode",
+            "IllustriousVAEEncode",
+            "TIPOPromptOptimizer"
+        ],
+        {
+            "title_aux": "Comfyui-EasyIllustrious"
+        }
+    ],
     "https://github.com/regiellis/ComfyUI-EasyNoobai": [
         [
             "EasyNoobai",
@@ -39582,6 +39680,7 @@
             "TagMerger",
             "TagMerger4",
             "TagMerger6",
+            "TagRandomCategory",
             "TagRemover",
             "TagReplace",
             "TagSelector",

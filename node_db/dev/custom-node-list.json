@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "edisonchan",
+            "title": "ComfyUI-Sysinfo",
+            "reference": "https://github.com/edisonchan/ComfyUI-Sysinfo",
+            "files": [
+                "https://github.com/edisonchan/ComfyUI-Sysinfo"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple ComfyUI custom node for checking system CUDA information and the PyTorch version."
+        },
+        {
             "author": "Goldlionren",
             "title": "comfyui-spawner-schedulers",
             "reference": "https://github.com/spawner1145/comfyui-spawner-schedulers",
