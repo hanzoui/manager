@@ -1,6 +1,67 @@
 {
     "custom_nodes": [
         {
+            "author": "Draek2077",
+            "title": "comfyui-draekz-nodez",
+            "reference": "https://github.com/Draek2077/comfyui-draekz-nodez",
+            "files": [
+                "https://github.com/Draek2077/comfyui-draekz-nodez"
+            ],
+            "install_type": "git-clone",
+            "description": "Making ComfyUI more comfortable."
+        },
+        {
+            "author": "easygoing0114",
+            "title": "ComfyUI-easygoing-nodes",
+            "reference": "https://github.com/easygoing0114/ComfyUI-easygoing-nodes",
+            "files": [
+                "https://github.com/easygoing0114/ComfyUI-easygoing-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Enhanced Text Encoder modules, acd Custom nodes for ComfyUI, device-select CLIP loaders, providing HDR effects, image saving with prompt metadata."
+        },
+        {
+            "author": "writer-in-fancy-pants",
+            "title": "Octo Json Presets",
+            "reference": "https://github.com/writer-in-fancy-pants/octo_json_presets",
+            "files": [
+                "https://github.com/writer-in-fancy-pants/octo_json_presets"
+            ],
+            "install_type": "git-clone",
+            "description": "Load presets from json file to run a set of experiments in a workflow with different models and settings"
+        },
+        {
+            "author": "apacheone",
+            "title": "ComfyUI_efficient_sam_node",
+            "reference": "https://github.com/Apache0ne/ComfyUI_efficient_sam_node",
+            "files": [
+                "https://github.com/Apache0ne/ComfyUI_efficient_sam_node"
+            ],
+            "install_type": "git-clone",
+            "description": "Unofficial EfficientViT_sam_nodes for the https://huggingface.co/mit-han-lab/efficientvit-sam models"
+        },
+        {
+            "author": "Malte0621",
+            "title": "HordeAI",
+            "reference": "https://github.com/Malte0621/hordeai-comfy",
+            "files": [
+                "https://github.com/Malte0621/hordeai-comfy"
+            ],
+            "install_type": "git-clone",
+            "description": "AI Horde integration as custom node(s) for ComfyUI"
+        },
+        {
+            "author": "darkamenosa",
+            "title": "Comfy Nano Banana",
+            "id": "comfy-nanobanana",
+            "reference": "https://github.com/darkamenosa/comfy_nanobanana",
+            "files": [
+                "https://github.com/darkamenosa/comfy_nanobanana"
+            ],
+            "install_type": "git-clone",
+            "description": "Google Gemini API integration for ComfyUI - Generate images and text using Google's latest AI models. Provides nodes for Gemini API interactions and batch image processing."
+        },
+        {
             "author": "Regi E",
             "title": "Comfyui-EasyIllustrious",
             "reference": "https://github.com/regiellis/ComfyUI-EasyIllustrious",
@@ -83,9 +144,9 @@
         {
             "author": "ApexArtist",
             "title": "Apex Artist - Image Resize",
-            "reference": "https://github.com/ApexArtist/apex-artist-comfyui",
+            "reference": "https://github.com/ApexArtist/comfyui-apex-artist",
             "files": [
-                "https://github.com/ApexArtist/apex-artist-comfyui"
+                "https://github.com/ApexArtist/comfyui-apex-artist"
             ],
             "install_type": "git-clone",
             "description": "Professional image resizing node with 6 advanced algorithms, intelligent aspect ratio handling, crop/pad options, and batch processing support. Perfect for AI workflows, photography, and digital art.",
@@ -635,76 +696,6 @@
             ],
             "install_type": "git-clone",
             "description": "Advanced seed generator for ComfyUI with multiple modes, state persistence, and cross-library synchronization"
-        },
-        {
-            "author": "sfinktah",
-            "title": "comfy-ovum",
-            "reference": "https://github.com/sfinktah/comfy-ovum",
-            "files": [
-                "https://github.com/sfinktah/comfy-ovum"
-            ],
-            "install_type": "git-clone",
-            "description": "An assorted reliquary of nodes: mismatched, stubborn, and deliberately indistinct; they do what is required; do not ask for particulars."
-        },
-        {
-            "author": "lucasgattas",
-            "title": "ComfyUI · Egregora: Divide & Enhance",
-            "reference": "https://github.com/lucasgattas/comfyui-egregora-divide-and-enhance",
-            "files": [
-                "https://github.com/lucasgattas/comfyui-egregora-divide-and-enhance"
-            ],
-            "install_type": "git-clone",
-            "description": "Egregora: Divide & Enhance is a small suite of custom nodes that help you split, enhance, and recombine images, plus a clean SDXL prompt mixer that keeps things simple while staying robust with lot´s of customization."
-        },
-        {
-            "author": "Gipphe",
-            "title": "ComfyUI Metadata Statistics",
-            "reference": "https://github.com/Gipphe/comfyui-metadata-statistics",
-            "files": [
-                "https://github.com/Gipphe/comfyui-metadata-statistics"
-            ],
-            "install_type": "git-clone",
-            "description": "Gather statistics and information about your workflow."
-        },
-        {
-            "author": "impactframes",
-            "title": "ComfyUI HunyuanVideo-Foley",
-            "reference": "https://github.com/if-ai/ComfyUI_HunyuanVideoFoley",
-            "files": [
-                "https://github.com/if-ai/ComfyUI_HunyuanVideoFoley"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a ComfyUI custom node wrapper for the HunyuanVideo-Foley model, which generates realistic audio from video and text descriptions."
-        },
-        {
-            "author": "sweetndata",
-            "title": "ComfyUI-Reflatent",
-            "reference": "https://github.com/sweetndata/ComfyUI-Reflatent",
-            "files": [
-                "https://github.com/sweetndata/ComfyUI-Reflatent"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES:Reflatent"
-        },
-        {
-            "author": "gearmachine",
-            "title": "ComfyUI-ProportionChanger",
-            "reference": "https://github.com/grmchn/ComfyUI-ProportionChanger",
-            "files": [
-                "https://github.com/grmchn/ComfyUI-ProportionChanger"
-            ],
-            "install_type": "git-clone",
-            "description": "Advanced DWPose-based body proportion changer for ComfyUI"
-        },
-        {
-            "author": "aesethtics",
-            "title": "ComfyUI Utilitools Nodes",
-            "reference": "https://github.com/aesethtics/ComfyUI-Utilitools",
-            "files": [
-                "https://github.com/aesethtics/ComfyUI-Utilitools"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of utility nodes for ComfyUI to improve workflow efficiency."
         }
     ]
 }
