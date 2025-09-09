@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "Polygoningenieur",
+            "title": "ComfyUI-Diffusion-SDXL-Video",
+            "reference": "https://github.com/Polygoningenieur/ComfyUI-Diffusion-SDXL-Video",
+            "files": [
+                "https://github.com/Polygoningenieur/ComfyUI-Diffusion-SDXL-Video"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for a frame by frame Diffusion."
+        },
+        {
+            "author": "NimbleWing",
+            "title": "ComfyUI-NW",
+            "reference": "https://github.com/NimbleWing/ComfyUI-NW",
+            "files": [
+                "https://github.com/NimbleWing/ComfyUI-NW"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for a frame by frame Diffusion."
+        },
+        {
+            "author": "tfernd",
+            "title": "Auto CPU Offload for ComfyUI [WIP]",
+            "reference": "https://github.com/tfernd/ComfyUI-AutoCPUOffload",
+            "files": [
+                "https://github.com/tfernd/ComfyUI-AutoCPUOffload"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension introduces an 'Auto CPU Offload' node designed to reduce GPU VRAM usage by automatically offloading model components to the CPU. It intelligently manages the movement of model layers between the GPU and CPU, aiming to keep only the necessary parts in VRAM during inference."
+        },
+        {
+            "author": "hujuying",
+            "title": "comfyui_gemini_banana_api [WIP]",
+            "reference": "https://github.com/hujuying/comfyui_gemini_banana_api",
+            "files": [
+                "https://github.com/hujuying/comfyui_gemini_banana_api"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful ComfyUI plugin that supports image editing and generation using the Gemini API, featuring multiple API key rotation and secure storage.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "pft-ChenKu",
+            "title": "ComfyUI_system-dev [WIP]",
+            "reference": "https://github.com/pft-ChenKu/ComfyUI_system-dev",
+            "files": [
+                "https://github.com/pft-ChenKu/ComfyUI_system-dev"
+            ],
+            "install_type": "git-clone",
+            "description": "Collect Vram ram and Time\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "z604159435g",
             "title": "comfyui_random_prompt_plugin [WIP]",
             "reference": "https://github.com/z604159435g/comfyui_random_prompt_plugin",
@@ -109,7 +159,7 @@
                 "https://github.com/5agado/ComfyUI-Sagado-Nodes"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Image Loader, Get Num Frames, Get Resolution Node"
+            "description": "NODES: Image Loader, Get Num Frames, Get Resolution Node, Video Loader"
         },
         {
             "author": "Juste-Leo2",

@@ -565,8 +565,9 @@
     "https://github.com/5agado/ComfyUI-Sagado-Nodes": [
         [
             "Get Num Frames",
-            "Get Resolution Node",
-            "Image Loader"
+            "Get Resolution",
+            "Image Loader",
+            "Video Loader"
         ],
         {
             "title_aux": "Sagado Nodes for ComfyUI"
@@ -17054,6 +17055,7 @@
             "ComflySeededit",
             "Comfly_Doubao_Seededit",
             "Comfly_Doubao_Seedream",
+            "Comfly_Doubao_Seedream_4",
             "Comfly_Flux_Kontext",
             "Comfly_Flux_Kontext_Edit",
             "Comfly_Flux_Kontext_bfl",
@@ -18729,6 +18731,7 @@
     "https://github.com/billwuhao/ComfyUI_IndexTTS": [
         [
             "IndexSpeakersPreview",
+            "IndexTTS2Run",
             "IndexTTSRun",
             "MultiLinePromptIndex"
         ],
@@ -21723,7 +21726,6 @@
             "Xoxxox_DlySet",
             "Xoxxox_GenImg",
             "Xoxxox_GenTxt",
-            "Xoxxox_GenTxt_Opt",
             "Xoxxox_GetAud",
             "Xoxxox_GetDir",
             "Xoxxox_GetDis",
@@ -28367,7 +28369,12 @@
     "https://github.com/jfcantu/ComfyUI-Prompt-Companion": [
         [
             "PromptAdditionInput",
-            "PromptCompanion"
+            "PromptCompanion",
+            "PromptCompanionAdditionToStrings",
+            "PromptCompanionAutoselectGroups",
+            "PromptCompanionPromptGroup",
+            "PromptCompanionSingleAddition",
+            "PromptCompanionStringsToAddition"
         ],
         {
             "title_aux": "ComfyUI Prompt Companion"

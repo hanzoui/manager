@@ -27729,6 +27729,16 @@
             "description": "ComfyUI_DAO_master is a collection of custom nodes for ComfyUI. These nodes provide additional tools for image creation, manipulation, and visual experimentation, with a focus on vector workflows (DXF & SVG) and production utilities."
         },
         {
+            "author": "orion4d",
+            "title": "Orion4D Pixel-Shift Nodes for ComfyUI",
+            "reference": "https://github.com/orion4d/Orion4D_pixelshift",
+            "files": [
+                "https://github.com/orion4d/Orion4D_pixelshift"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node pack for ComfyUI provides an advanced image processing workflow to achieve high-quality upscales with an extended dynamic range (HDR), mimicking the flexibility of a camera's RAW file. Note: this node will not correct AI image hallucinations, ideally it is used in the last pass from a good quality image (2000/3000px with an X2 or X4 model)."
+        },
+        {
             "author": "aiaiaikkk",
             "title": "ComfyUI-Curve",
             "reference": "https://github.com/aiaiaikkk/ComfyUI-Curve",
@@ -32538,6 +32548,36 @@
             ],
             "install_type": "git-clone",
             "description": "Load presets from json file to run a set of experiments in a workflow with different models and settings"
+        },
+        {
+            "author": "sputnik57",
+            "title": "comfyui-prompt-logger",
+            "reference": "https://github.com/sputnik57/comfyui-prompt-logger",
+            "files": [
+                "https://github.com/sputnik57/comfyui-prompt-logger"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node saves metadata when I explore images. It creates a sidecare json file beside the image file."
+        },
+        {
+            "author": "brenzel",
+            "title": "comfyui-prompt-beautify",
+            "reference": "https://github.com/brenzel/comfyui-prompt-beautify",
+            "files": [
+                "https://github.com/brenzel/comfyui-prompt-beautify"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node to beautify your image generation prompt"
+        },
+        {
+            "author": "Firetheft",
+            "title": "ComfyUI-Animate-Progress",
+            "reference": "https://github.com/Firetheft/ComfyUI-Animate-Progress",
+            "files": [
+                "https://github.com/Firetheft/ComfyUI-Animate-Progress"
+            ],
+            "install_type": "git-clone",
+            "description": "A progress bar beautification plugin designed for ComfyUI. It replaces the monotonous default progress bar with a vibrant and dynamic experience, complete with an animated character and rich visual effects."
         },
 
 
