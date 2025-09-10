@@ -1065,6 +1065,7 @@
         [
             "ConsoleOutput",
             "FilePathSelectorFromDirectory",
+            "FrameRateModulator",
             "MostRecentFileSelector",
             "RaftOpticalFlowNode",
             "StringProcessor",
@@ -2271,7 +2272,6 @@
             "LunaLoRAStacker",
             "LunaLoRAStackerRandom",
             "Luna_Advanced_Upscaler",
-            "Luna_GGUF_Loader",
             "Luna_MediaPipe_Detailer",
             "Luna_MediaPipe_Segs",
             "Luna_SimpleUpscaler",
@@ -2290,7 +2290,6 @@
             "LunaLoRAStacker",
             "LunaLoRAStackerRandom",
             "Luna_Advanced_Upscaler",
-            "Luna_GGUF_Loader",
             "Luna_MediaPipe_Detailer",
             "Luna_MediaPipe_Segs",
             "Luna_SimpleUpscaler",
@@ -2538,7 +2537,8 @@
     ],
     "https://github.com/Maff3u/MattiaNodes": [
         [
-            "PointsEditorOnCropped"
+            "PointsEditorOnCropped",
+            "PresetCycler"
         ],
         {
             "title_aux": "MattiaNodes - Points Editor On Cropped [WIP]"
@@ -3011,14 +3011,6 @@
         ],
         {
             "title_aux": "DoomFLUX Nodes [WIP]"
-        }
-    ],
-    "https://github.com/Polygoningenieur/ComfyUI-Diffusion-SDXL-Video": [
-        [
-            "Diffusion SDXL (Frame by Frame)"
-        ],
-        {
-            "title_aux": "ComfyUI-Diffusion-SDXL-Video"
         }
     ],
     "https://github.com/Poseidon-fan/ComfyUI-fileCleaner": [
@@ -4211,6 +4203,15 @@
             "title_aux": "ComfyUI-OpenPoser [WIP]"
         }
     ],
+    "https://github.com/ahkimkoo/ComfyUI-OSS-Upload": [
+        [
+            "OSSImageUploader",
+            "OSSVideoUploader"
+        ],
+        {
+            "title_aux": "ComfyUI-OSS-Upload [UNSAFE]"
+        }
+    ],
     "https://github.com/ahmedbana/File-Rename": [
         [
             "AdvancedFileRenameNode",
@@ -4251,6 +4252,21 @@
         ],
         {
             "title_aux": "etm_comfyui_nodes"
+        }
+    ],
+    "https://github.com/aistudynow/comfyui-HunyuanImage-2.1": [
+        [
+            "EmptyHunyuanImageLatentImage",
+            "HunyuanImageCLIPTextEncode",
+            "HunyuanImageDiTLoader",
+            "HunyuanImageDualTextEncoderLoader",
+            "HunyuanImageSampler",
+            "HunyuanImageTripleTextEncoderLoader",
+            "HunyuanImageVAEDecode",
+            "HunyuanImageVAELoader"
+        ],
+        {
+            "title_aux": "comfyui-HunyuanImage-2.1 [WIP]"
         }
     ],
     "https://github.com/akatz-ai/ComfyUI-Execution-Inversion": [
@@ -5282,6 +5298,7 @@
             "DualCFGGuider",
             "DualCLIPLoader",
             "EmptyCosmosLatentVideo",
+            "EmptyHunyuanImageLatent",
             "EmptyHunyuanLatentVideo",
             "EmptyImage",
             "EmptyLTXVLatentVideo",
@@ -10024,6 +10041,14 @@
             "title_aux": "MLXnodes [WIP]"
         }
     ],
+    "https://github.com/threecrowco/ComfyUI-FlowMatchScheduler": [
+        [
+            "FlowMatchSigmas"
+        ],
+        {
+            "title_aux": "ComfyUI-FlowMatchScheduler [WIP]"
+        }
+    ],
     "https://github.com/tjorbogarden/my-useful-comfyui-custom-nodes": [
         [
             "ImageSizer",
@@ -10980,10 +11005,12 @@
             "FileConverter.FileDictConverter",
             "FileConverter.FileSplitter",
             "FileConverter.LineConverter",
+            "ImageCoverter.LoadImage2Kontext",
             "ImageCoverter.SaveImage",
             "JsonCoverter.JsonCombiner",
             "JsonCoverter.JsonParser",
-            "JsonCoverter.JsonPromptProcessor"
+            "JsonCoverter.JsonPromptProcessor",
+            "TextConverter.PromptTemplateText"
         ],
         {
             "title_aux": "Comfyui-Anything-Converter [UNSAFE]"

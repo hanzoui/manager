@@ -1,6 +1,86 @@
 {
     "custom_nodes": [
         {
+            "author": "silveroxides",
+            "title": "ComfyUI Gemini Expanded API",
+            "reference": "https://github.com/silveroxides/ComfyUI_Gemini_Expanded_API",
+            "files": [
+                "https://github.com/silveroxides/ComfyUI_Gemini_Expanded_API"
+            ],
+            "install_type": "git-clone",
+            "description": "Node for usage of Gemini API"
+        },
+        {
+            "author": "WASasquatch",
+            "title": "WAS Affine",
+            "reference": "https://github.com/WASasquatch/was_affine",
+            "files": [
+                "https://github.com/WASasquatch/was_affine"
+            ],
+            "install_type": "git-clone",
+            "description": "Apply AFFINE noise transforms to latent space to improve image quality, especially with light loras."
+        },
+        {
+            "author": "Enashka",
+            "title": "ComfyUI-nhknodes",
+            "reference": "https://github.com/Enashka/ComfyUI-nhknodes",
+            "files": [
+                "https://github.com/Enashka/ComfyUI-nhknodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes collection with workflow utilities, image processing, and AI integration"
+        },
+        {
+            "author": "phyblas",
+            "title": "nsfw-shorier_comfyui",
+            "reference": "https://github.com/phyblas/nsfw-shorier_comfyui",
+            "files": [
+                "https://github.com/phyblas/nsfw-shorier_comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Performs various processing on images containing NSFW content within ComfyUI. The model used for detecting NSFW content can be selected."
+        },
+        {
+            "author": "garg-aayush",
+            "title": "ComfyUI-Svg2Raster",
+            "reference": "https://github.com/garg-aayush/ComfyUI-Svg2Raster",
+            "files": [
+                "https://github.com/garg-aayush/ComfyUI-Svg2Raster"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node to load SVG files and convert them to raster images, with options for resizing, background color, and borders."
+        },
+        {
+            "author": "AstrionX",
+            "title": "ComfyUI-Tensor-Prism-Node-Pack",
+            "reference": "https://github.com/AstrionX/ComfyUI-Tensor-Prism-Node-Pack",
+            "files": [
+                "https://github.com/AstrionX/ComfyUI-Tensor-Prism-Node-Pack"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced model merging and enhancement nodes for ComfyUI"
+        },
+        {
+            "author": "razvanmatei-sf",
+            "title": "ComfyUI Razv LLM Node",
+            "reference": "https://github.com/razvanmatei-sf/razv-llm",
+            "files": [
+                "https://github.com/razvanmatei-sf/razv-llm"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node for integrating Claude API with image and text capabilities."
+        },
+        {
+            "author": "ru4ls",
+            "title": "ComfyUI_Nano_Banana",
+            "reference": "https://github.com/ru4ls/ComfyUI_Nano_Banana",
+            "files": [
+                "https://github.com/ru4ls/ComfyUI_Nano_Banana"
+            ],
+            "install_type": "git-clone",
+            "description": "A set of custom nodes for ComfyUI that leverage the Gemini 2.5 Flash Image Preview API to generate images from text prompts, single images, and multiple images."
+        },
+        {
             "author": "orion4d",
             "title": "Orion4D Pixel-Shift Nodes for ComfyUI",
             "reference": "https://github.com/orion4d/Orion4D_pixelshift",
@@ -616,126 +696,6 @@
             ],
             "install_type": "git-clone",
             "description": "Creates images using the NanoBanana API. To use it, you must enter your issued API key."
-        },
-        {
-            "author": "GsusGG",
-            "title": "ComfyUI-CozyGen",
-            "reference": "https://github.com/gsusgg/ComfyUI_CozyGen",
-            "files": [
-                "https://github.com/gsusgg/ComfyUI_CozyGen"
-            ],
-            "install_type": "git-clone",
-            "description": "A set of custom nodes and aiohttp server for a simple ComfyUI browser and mobile device experience for any t2i image workflow."
-        },
-        {
-            "author": "annewj023",
-            "title": "Google Nano",
-            "reference": "https://github.com/annewj023/Comfyui_google_nano",
-            "files": [
-                "https://github.com/annewj023/Comfyui_google_nano"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node based on OpenRouter that supports calling the Google Gemini model via the OpenAI API to generate new images from reference images and prompts."
-        },
-        {
-            "author": "Ltamann",
-            "title": "FastVLM-7B ComfyUI Node",
-            "reference": "https://github.com/Ltamann/ComfyUI-FastVLM-7B",
-            "files": [
-                "https://github.com/Ltamann/ComfyUI-FastVLM-7B"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-FastVLM-7B Apple A custom node for Apple’s FastVLM-7B vision-language model. This node lets you pass an image + instruction and returns a generated text response."
-        },
-        {
-            "author": "KY-2000",
-            "title": "comfyui-save-image-enhanced",
-            "reference": "https://github.com/KY-2000/comfyui-save-image-enhanced",
-            "files": [
-                "https://github.com/KY-2000/comfyui-save-image-enhanced"
-            ],
-            "install_type": "git-clone",
-            "description": "enable to save the image without the default filename suffix, with the feature of saving caption txt file to save prompts or descriptions of the image."
-        },
-        {
-            "author": "KY-2000",
-            "title": "RES4LYF-tester-loop",
-            "reference": "https://github.com/KY-2000/RES4LYF-tester-loop",
-            "files": [
-                "https://github.com/KY-2000/RES4LYF-tester-loop"
-            ],
-            "install_type": "git-clone",
-            "description": "Batch samplers, schedulers, cfg, shift and steps tester custom node, automatic looping functionality for RES4LYF custom nodes"
-        },
-        {
-            "author": "KY-2000",
-            "title": "ComfyUI_PuLID_Flux_ll_FaceNet",
-            "reference": "https://github.com/KY-2000/ComfyUI_PuLID_Flux_ll_FaceNet",
-            "files": [
-                "https://github.com/KY-2000/ComfyUI_PuLID_Flux_ll_FaceNet"
-            ],
-            "install_type": "git-clone",
-            "description": "Same Function as original ComfyUI_PuLID_Flux_ll repository, with FaceNet Implementation that is safe for commercial usage."
-        },
-        {
-            "author": "Jarcis-cy",
-            "title": "HunyuanVideo-Foley Audio Generator",
-            "reference": "https://github.com/Jarcis-cy/ComfyUI-HunyuanVideoFoley",
-            "files": [
-                "https://github.com/Jarcis-cy/ComfyUI-HunyuanVideoFoley"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI wrapper nodes for HunyuanVideo-Foley: Generate audio from video + text prompts"
-        },
-        {
-            "author": "BAIKEMARK",
-            "title": "Civitai Recipe Finder",
-            "reference": "https://github.com/BAIKEMARK/ComfyUI-Civitai-Recipe",
-            "files": [
-                "https://github.com/BAIKEMARK/ComfyUI-Civitai-Recipe"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful node suite that finds the community's best 'recipes' for any Civitai model by analyzing top prompts, LoRA triggers, parameters, and combos."
-        },
-        {
-            "author": "BAIKEMARK",
-            "title": "Civitai Prompt Stats Node",
-            "reference": "https://github.com/BAIKEMARK/ComfyUI_Civitai_Prompt_Stats",
-            "files": [
-                "https://github.com/BAIKEMARK/ComfyUI_Civitai_Prompt_Stats"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node that quickly fetches the most commonly used positive and negative prompts for Civitai models (Checkpoint / Lora) from the community, helping you effortlessly enhance your own creations!"
-        },
-        {
-            "author": "Dehypnotic",
-            "title": "AspectRatioAdvanced",
-            "reference": "https://github.com/Dehypnotic/comfyui-aspect-ratio-advanced",
-            "files": [
-                "https://raw.githubusercontent.com/Dehypnotic/comfyui-aspect-ratio-advanced/main/aspect_ratio_advanced.py"
-            ],
-            "install_type": "copy",
-            "description": "An advanced aspect ratio calculator and image scaler with flexible scaling modes and intelligent image handling."
-        },
-        {
-            "author": "railep",
-            "title": "ComfyUI-HunyuanVideo-Foley",
-            "reference": "https://github.com/railep/ComfyUI-HunyuanVideo-Foley",
-            "files": [
-                "https://github.com/railep/ComfyUI-HunyuanVideo-Foley"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node for generating synchronized audio for videos using the HunyuanVideo-Foley model."
-        },
-        {
-            "author": "Limbicnation",
-            "title": "ComfyUI-RandomSeedGenerator",
-            "reference": "https://github.com/Limbicnation/ComfyUI-RandomSeedGenerator",
-            "files": [
-                "https://github.com/Limbicnation/ComfyUI-RandomSeedGenerator"
-            ],
-            "install_type": "git-clone",
-            "description": "Advanced seed generator for ComfyUI with multiple modes, state persistence, and cross-library synchronization"
         }
     ]
 }

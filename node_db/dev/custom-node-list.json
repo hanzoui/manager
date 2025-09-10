@@ -1,14 +1,44 @@
 {
     "custom_nodes": [
         {
-            "author": "Polygoningenieur",
-            "title": "ComfyUI-Diffusion-SDXL-Video",
-            "reference": "https://github.com/Polygoningenieur/ComfyUI-Diffusion-SDXL-Video",
+            "author": "aistudynow",
+            "title": "comfyui-HunyuanImage-2.1 [WIP]",
+            "reference": "https://github.com/aistudynow/comfyui-HunyuanImage-2.1",
             "files": [
-                "https://github.com/Polygoningenieur/ComfyUI-Diffusion-SDXL-Video"
+                "https://github.com/aistudynow/comfyui-HunyuanImage-2.1"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI node for a frame by frame Diffusion."
+            "description": "NODES: Load HunyuanImage DiT, Load HunyuanImage VAE, Load HunyuanImage Dual Text Encoder, HunyuanImage Sampler, HunyuanImage VAE Decode, HunyuanImage CLIP Text Encode, Empty HunyuanImage Latent Image"
+        },
+        {
+            "author": "LSDJesus",
+            "title": "ComfyUI-Luna-Collection [WIP]",
+            "reference": "https://github.com/LSDJesus/ComfyUI-Luna-Collection",
+            "files": [
+                "https://github.com/LSDJesus/ComfyUI-Luna-Collection"
+            ],
+            "install_type": "git-clone",
+            "description": "Collection of finetuned and custom nodes for Pyrite and I\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "nicolabergamascahkimkoohi",
+            "title": "ComfyUI-OSS-Upload [UNSAFE]",
+            "reference": "https://github.com/ahkimkoo/ComfyUI-OSS-Upload",
+            "files": [
+                "https://github.com/ahkimkoo/ComfyUI-OSS-Upload"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI plugin for uploading generated images and videos to Alibaba Cloud OSS (Object Storage Service).[w/This extension has a vulnerability that allows arbitrary access to local files from remote.]"
+        },
+        {
+            "author": "threecrowco",
+            "title": "ComfyUI-FlowMatchScheduler [WIP]",
+            "reference": "https://github.com/threecrowco/ComfyUI-FlowMatchScheduler",
+            "files": [
+                "https://github.com/threecrowco/ComfyUI-FlowMatchScheduler"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: FlowMatch → SIGMAS\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "NimbleWing",
@@ -229,7 +259,7 @@
                 "https://github.com/maoper11/comfyui_inteliweb_nodes"
             ],
             "install_type": "git-clone",
-            "description": "System Check (Inteliweb): RAM/VRAM live, Free RAM/VRAM buttons, Flash-Attn check."
+            "description": "System Check (Inteliweb): RAM/VRAM live, Free RAM/VRAM buttons, Py Libs. + Photopea Editor integration (menu contextual)."
         },
         {
             "author": "casterpollux",
