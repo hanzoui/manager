@@ -4254,6 +4254,7 @@
             "DynamicModelswitch",
             "DynamicVAESwitch",
             "EvaluaterNode",
+            "FallbackTextSwitch",
             "FilterImages",
             "GeminiAPI",
             "GeminiAudioAnalyzer",
@@ -5020,17 +5021,19 @@
             "BoyoChainBastardLoops",
             "BoyoFramePackLoRA",
             "BoyoImageGrab",
+            "BoyoIncontextSaver",
             "BoyoLoadImageList",
             "BoyoLoopCollector",
             "BoyoLoopImageSaver",
+            "BoyoPairedImageSaver",
             "BoyoPairedSaver",
             "BoyoPromptInjector",
             "BoyoPromptLoop",
             "BoyoSaver",
             "BoyoTiledVAEDecode",
+            "BoyoVACEInjector",
+            "BoyoVACEViewer",
             "BoyoVAEDecode",
-            "BoyoWanFunEmptyLatent",
-            "BoyoWanFunImageSampler",
             "Boyolatent",
             "MandelbrotVideo"
         ],
@@ -5278,6 +5281,7 @@
         [
             "CyclingSwitch",
             "DoubleSwitch",
+            "DoubleSwitchOut",
             "ExecutionCounter",
             "ImageGridBatch",
             "ImageGridComposite",
@@ -9590,6 +9594,7 @@
             "Image_Resize_makki",
             "MergeImageChannels_makki",
             "Prism_Mirage_makki",
+            "UniversalInstaller_makki",
             "int_calculate_statistics_makki",
             "random_any_makki",
             "show_type_makki",
@@ -24506,7 +24511,9 @@
             "LatentStatisticsMonitor",
             "MinimalKeyframeV2V",
             "QwenContextProcessor",
+            "QwenInpaintSampler",
             "QwenLowresFixNode",
+            "QwenMaskProcessor",
             "QwenNativeEncoder",
             "QwenNativeLoader",
             "QwenOptimalResolution",
@@ -24517,6 +24524,8 @@
             "QwenTokenAnalyzerStandalone",
             "QwenTokenDebugger",
             "QwenVLCLIPLoader",
+            "QwenVLEmptyLatent",
+            "QwenVLImageToLatent",
             "QwenVLTextEncoder",
             "QwenValidationTools",
             "QwenWANKeyframeEditor",
@@ -36963,6 +36972,21 @@
             "title_aux": "ComfyUI Razv LLM Node"
         }
     ],
+    "https://github.com/razvanmatei-sf/razv-wavespeed": [
+        [
+            "WaveSpeedAI ByteDance SeedDream V4",
+            "WaveSpeedAI Bytedance Seedream V4 Edit",
+            "WaveSpeedAI Client",
+            "WaveSpeedAI Google Nano Banana Edit",
+            "WaveSpeedAI Google Nano Banana Text to Image",
+            "WaveSpeedAI Image Upscaler",
+            "WaveSpeedAI Qwen Image Edit",
+            "WaveSpeedAI Qwen Image Text to Image"
+        ],
+        {
+            "title_aux": "ComfyUI Razv WaveSpeed Nodes"
+        }
+    ],
     "https://github.com/rcfcu2000/zhihuige-nodes-comfyui": [
         [
             "Combine ZHGMasks",
@@ -40255,6 +40279,15 @@
         ],
         {
             "title_aux": "ComfyUI-ImageTransformer"
+        }
+    ],
+    "https://github.com/teepunkt-esspunkt/ComfyUI-SuiteTea": [
+        [
+            "Tea_ImageCheckpointFromPath",
+            "Tea_SaveAndReloadImage"
+        ],
+        {
+            "title_aux": "ComfyUI-SuiteTea"
         }
     ],
     "https://github.com/tercumantanumut/ComfyUI-Omini-Kontext": [
