@@ -5282,6 +5282,7 @@
             "ImageGridBatch",
             "ImageGridComposite",
             "ImageLoaderWithPreviews",
+            "IntervalGate",
             "LLMChat",
             "QwenVision",
             "SimpleTextInput",
@@ -11988,6 +11989,14 @@
             "title_aux": "ComfyUI-Qwen-VL"
         }
     ],
+    "https://github.com/Saganaki22/ComfyUI-Seedream4_Replicate": [
+        [
+            "Seedream4_Replicate"
+        ],
+        {
+            "title_aux": "Seedream4 Replicate"
+        }
+    ],
     "https://github.com/Saganaki22/ComfyUI-dotWaveform": [
         [
             "DottedWaveformVisualizer"
@@ -12968,33 +12977,6 @@
         ],
         {
             "title_aux": "AnimateDiff"
-        }
-    ],
-    "https://github.com/SlackinJack/asyncdiff_comfyui": [
-        [
-            "ADADSampler",
-            "ADControlNetLoader",
-            "ADIPAdapterLoader",
-            "ADLoraLoader",
-            "ADModelLoader",
-            "ADMultiLoraCombiner",
-            "ADPipelineConfig",
-            "ADSDSampler",
-            "ADSDUpscaleSampler",
-            "ADSVDSampler",
-            "ADSchedulerSelector"
-        ],
-        {
-            "title_aux": "asyncdiff_comfyui"
-        }
-    ],
-    "https://github.com/SlackinJack/distrifuser_comfyui": [
-        [
-            "DFPipelineConfig",
-            "DFSampler"
-        ],
-        {
-            "title_aux": "distrifuser_comfyui"
         }
     ],
     "https://github.com/SleeeepyZhou/ComfyUI-CNtranslator": [
@@ -21871,7 +21853,7 @@
             "ConfigGenerateImageOpenAI",
             "ConfigGenerateImageOpenRouter",
             "ConfigGenerateImagePortrait",
-            "ConfigGenerateImageSeedanceEditV3",
+            "ConfigGenerateImageSeedream",
             "ConfigGenerateMusic",
             "ConfigGenerateSpeech",
             "ConfigGenerateVideo",
