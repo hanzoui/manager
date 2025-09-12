@@ -2012,6 +2012,7 @@
             "NormalizeLoraTags",
             "PromptAliasSwap",
             "PromptCleanup",
+            "PromptContextMerge",
             "PromptGenerator",
             "PromptMixer",
             "PromptRepack",
@@ -2526,7 +2527,6 @@
             "TensorPrism_ModelKeyFilter",
             "TensorPrism_ModelMaskBlender",
             "TensorPrism_ModelMaskGenerator",
-            "TensorPrism_ModelWeightModifier",
             "TensorPrism_Prism",
             "TensorPrism_WeightedMaskMerge"
         ],
@@ -2871,6 +2871,7 @@
     "https://github.com/BennyKok/comfyui-deploy": [
         [
             "ComfyDeployOutputEXR",
+            "ComfyDeployOutputFile",
             "ComfyDeployOutputImage",
             "ComfyDeployOutputText",
             "ComfyDeployWebscoketImageInput",
@@ -2880,6 +2881,7 @@
             "ComfyUIDeployExternalCheckpoint",
             "ComfyUIDeployExternalEXR",
             "ComfyUIDeployExternalFaceModel",
+            "ComfyUIDeployExternalFile",
             "ComfyUIDeployExternalImage",
             "ComfyUIDeployExternalImageAlpha",
             "ComfyUIDeployExternalImageBatch",
@@ -6067,7 +6069,7 @@
             "VideoToFrames"
         ],
         {
-            "title_aux": "Olaf's Nodes"
+            "title_aux": "ComfyUI Seed API Integration"
         }
     ],
     "https://github.com/FlyingFireCo/tiled_ksampler": [
@@ -17070,19 +17072,23 @@
             "CogVideoXFunT2VSampler",
             "CogVideoXFunV2VSampler",
             "CombineWan2_2Pipeline",
+            "CombineWan2_2VaceFunPipeline",
             "CombineWanPipeline",
             "CreateTrajectoryBasedOnKJNodes",
             "FunCompile",
             "FunRiflex",
             "FunTextBox",
+            "ImageCollectNode",
             "ImageMaximumNode",
             "LoadCogVideoXFunLora",
             "LoadCogVideoXFunModel",
+            "LoadVaceWanTransformer3DModel",
             "LoadWan2_2FunLora",
             "LoadWan2_2FunModel",
             "LoadWan2_2Lora",
             "LoadWan2_2Model",
             "LoadWan2_2TransformerModel",
+            "LoadWan2_2VaceFunModel",
             "LoadWanClipEncoderModel",
             "LoadWanFunLora",
             "LoadWanFunModel",
@@ -17099,6 +17105,7 @@
             "Wan2_2FunV2VSampler",
             "Wan2_2I2VSampler",
             "Wan2_2T2VSampler",
+            "Wan2_2VaceFunSampler",
             "WanFunInpaintSampler",
             "WanFunT2VSampler",
             "WanFunV2VSampler",
@@ -21956,8 +21963,6 @@
             "BasicScheduler",
             "BetaSamplingScheduler",
             "CFGGuider",
-            "CFGNorm",
-            "CFGZeroStar",
             "CLIPLoader",
             "CLIPMergeAdd",
             "CLIPMergeSimple",
@@ -21965,7 +21970,6 @@
             "CLIPSave",
             "CLIPSetLastLayer",
             "CLIPTextEncode",
-            "CLIPTextEncodeControlnet",
             "CLIPTextEncodeFlux",
             "CLIPTextEncodeHiDream",
             "CLIPTextEncodeHunyuanDiT",
@@ -21976,7 +21980,6 @@
             "CLIPTextEncodeSDXLRefiner",
             "CLIPVisionEncode",
             "CLIPVisionLoader",
-            "Canny",
             "CheckpointLoader",
             "CheckpointLoaderSimple",
             "CheckpointSave",
@@ -21996,8 +21999,6 @@
             "ControlNetApplySD3",
             "ControlNetInpaintingAliMamaApply",
             "ControlNetLoader",
-            "CosmosImageToVideoLatent",
-            "CosmosPredict2ImageToVideoLatent",
             "CropMask",
             "DiffControlNetLoader",
             "DifferentialDiffusion",
@@ -22005,7 +22006,6 @@
             "DisableNoise",
             "DualCFGGuider",
             "DualCLIPLoader",
-            "EmptyCosmosLatentVideo",
             "EmptyHunyuanImageLatent",
             "EmptyHunyuanLatentVideo",
             "EmptyImage",
@@ -22045,6 +22045,7 @@
             "Hunyuan3Dv2Conditioning",
             "Hunyuan3Dv2ConditioningMultiView",
             "HunyuanImageToVideo",
+            "HunyuanRefinerLatent",
             "HyperTile",
             "HypernetworkLoader",
             "ImageAddNoise",
@@ -22146,10 +22147,6 @@
             "MaskComposite",
             "MaskPreview",
             "MaskToImage",
-            "MinimaxHailuoVideoNode",
-            "MinimaxImageToVideoNode",
-            "MinimaxSubjectToVideoNode",
-            "MinimaxTextToVideoNode",
             "ModelComputeDtype",
             "ModelMergeAdd",
             "ModelMergeAuraflow",
@@ -22180,9 +22177,6 @@
             "ModelSamplingSD3",
             "ModelSamplingStableCascade",
             "ModelSave",
-            "MoonvalleyImg2VideoNode",
-            "MoonvalleyTxt2VideoNode",
-            "MoonvalleyVideo2VideoNode",
             "Morphology",
             "OpenAIChatConfig",
             "OpenAIChatNode",
@@ -22294,7 +22288,6 @@
             "StubMask",
             "StyleModelApply",
             "StyleModelLoader",
-            "T5TokenizerOptions",
             "TCFG",
             "TestAccumulateNode",
             "TestAccumulationGetItemNode",
@@ -22376,7 +22369,6 @@
             "VideoTriangleCFGGuidance",
             "VoxelToMesh",
             "VoxelToMeshBasic",
-            "WanCameraEmbedding",
             "WebcamCapture",
             "unCLIPCheckpointLoader",
             "unCLIPConditioning"
@@ -23864,6 +23856,8 @@
             "VACEAdvDetailerHookProvider",
             "VaceAdvancedModelPatch",
             "VaceStrengthTester",
+            "WVAOptionsNode",
+            "WVAPipeSimple",
             "WanVacePhantomDual",
             "WanVacePhantomDualV2",
             "WanVacePhantomExperimental",
@@ -24859,7 +24853,9 @@
             "FL_Fal_Gemini_ImageEdit",
             "FL_Fal_Kontext",
             "FL_Fal_Pixverse",
+            "FL_Fal_Pixverse_Transition",
             "FL_Fal_Seedance_i2v",
+            "FL_Fal_Seedream_Edit",
             "FL_Float",
             "FL_FractalKSampler",
             "FL_GPT_Image1",
@@ -26275,6 +26271,7 @@
     "https://github.com/gsusgg/ComfyUI_CozyGen": [
         [
             "CozyGenDynamicInput",
+            "CozyGenImageInput",
             "CozyGenOutput"
         ],
         {
@@ -35373,6 +35370,17 @@
             "title_aux": "ComfyUI-Mosaic-Mask"
         }
     ],
+    "https://github.com/olafrv/comfyui_olafrv": [
+        [
+            "ORvEmbeddingsHeatmap",
+            "ORvEmbeddingsSpectrogram",
+            "ORvStringConsoleDebug",
+            "ORvTextEncoderGoogleEmbeddingGemma3"
+        ],
+        {
+            "title_aux": "Olaf's Nodes"
+        }
+    ],
     "https://github.com/olduvai-jp/ComfyUI-HfLoader": [
         [
             "ControlNet Loader From HF",
@@ -39499,6 +39507,16 @@
             "title_aux": "comfyui-snek-nodes"
         }
     ],
+    "https://github.com/snicolast/ComfyUI-IndexTTS2": [
+        [
+            "IndexTTS2EmotionFromText",
+            "IndexTTS2EmotionVector",
+            "IndexTTS2Simple"
+        ],
+        {
+            "title_aux": "ComfyUI-IndexTTS2"
+        }
+    ],
     "https://github.com/snomiao/ComfyUI-Video-Crop": [
         [
             "VideoCropNode"
@@ -41997,21 +42015,27 @@
             "IconDistributeByGrid",
             "Icon_Position_Cropper",
             "Image_Classification",
+            "Image_List_Splitter",
             "Image_PixelFilter",
             "Image_Resize",
+            "Image_Square_Pad",
+            "JSON_Image_Compositor",
             "KimFilter",
             "KimHDR",
             "LoRA_Metadata_Reader",
             "LoadImage_Metadata",
             "Manual_MetadataInput",
+            "Mask_Add_Switch",
             "Mask_Noise_Cleaner",
             "Mask_White_Area_Ratio",
             "MaxLength_ImageListSelector",
             "Percentage_Cropper",
             "Pixelate_Filter",
+            "Prompt_Loader",
             "Prompt_Text",
             "Save_Image",
             "Seamless_Icon_Generator",
+            "Seamless_Tiling_Generator",
             "Split_Mask",
             "Text_Match",
             "Text_Processor",

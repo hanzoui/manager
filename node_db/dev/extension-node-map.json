@@ -1216,13 +1216,26 @@
     ],
     "https://github.com/Comfy-Org/ComfyUI_devtools": [
         [
+            "DevToolsButtonWidget",
+            "DevToolsChartWidget",
+            "DevToolsColorPickerWidget",
             "DevToolsDeprecatedNode",
+            "DevToolsDisabledWidgets",
             "DevToolsErrorRaiseNode",
             "DevToolsErrorRaiseNodeWithMessage",
             "DevToolsExperimentalNode",
+            "DevToolsFileUploadSingleWidget",
+            "DevToolsFileUploadWidget",
+            "DevToolsGalleriaWidget",
+            "DevToolsImageCompareSideBySideWidget",
+            "DevToolsImageCompareWidget",
+            "DevToolsImageWidget",
+            "DevToolsInputTextWidget",
+            "DevToolsIntSliderWidget",
             "DevToolsLoadAnimatedImageTest",
             "DevToolsLongComboDropdown",
             "DevToolsMultiSelectNode",
+            "DevToolsMultiSelectWidget",
             "DevToolsNodeWithBooleanInput",
             "DevToolsNodeWithDefaultInput",
             "DevToolsNodeWithForceInput",
@@ -1242,7 +1255,14 @@
             "DevToolsRemoteWidgetNodeWithParams",
             "DevToolsRemoteWidgetNodeWithRefresh",
             "DevToolsRemoteWidgetNodeWithRefreshButton",
-            "DevToolsSimpleSlider"
+            "DevToolsSelectButtonWidget",
+            "DevToolsSelectWidget",
+            "DevToolsSimpleSlider",
+            "DevToolsSliderWidget",
+            "DevToolsTextareaWidget",
+            "DevToolsToggleSwitchWidget",
+            "DevToolsTreeSelectMultiWidget",
+            "DevToolsTreeSelectWidget"
         ],
         {
             "title_aux": "ComfyUI_devtools [WIP]"
@@ -2536,6 +2556,7 @@
     ],
     "https://github.com/Maff3u/MattiaNodes": [
         [
+            "MattiaLoraLoaderFromPath",
             "PointsEditorOnCropped",
             "PresetCycler"
         ],
@@ -5240,8 +5261,6 @@
             "BasicScheduler",
             "BetaSamplingScheduler",
             "CFGGuider",
-            "CFGNorm",
-            "CFGZeroStar",
             "CLIPLoader",
             "CLIPMergeAdd",
             "CLIPMergeSimple",
@@ -5249,7 +5268,6 @@
             "CLIPSave",
             "CLIPSetLastLayer",
             "CLIPTextEncode",
-            "CLIPTextEncodeControlnet",
             "CLIPTextEncodeFlux",
             "CLIPTextEncodeHiDream",
             "CLIPTextEncodeHunyuanDiT",
@@ -5260,7 +5278,6 @@
             "CLIPTextEncodeSDXLRefiner",
             "CLIPVisionEncode",
             "CLIPVisionLoader",
-            "Canny",
             "CheckpointLoader",
             "CheckpointLoaderSimple",
             "CheckpointSave",
@@ -5280,8 +5297,6 @@
             "ControlNetApplySD3",
             "ControlNetInpaintingAliMamaApply",
             "ControlNetLoader",
-            "CosmosImageToVideoLatent",
-            "CosmosPredict2ImageToVideoLatent",
             "CropMask",
             "DiffControlNetLoader",
             "DifferentialDiffusion",
@@ -5289,7 +5304,6 @@
             "DisableNoise",
             "DualCFGGuider",
             "DualCLIPLoader",
-            "EmptyCosmosLatentVideo",
             "EmptyHunyuanImageLatent",
             "EmptyHunyuanLatentVideo",
             "EmptyImage",
@@ -5329,6 +5343,7 @@
             "Hunyuan3Dv2Conditioning",
             "Hunyuan3Dv2ConditioningMultiView",
             "HunyuanImageToVideo",
+            "HunyuanRefinerLatent",
             "HyperTile",
             "HypernetworkLoader",
             "ImageAddNoise",
@@ -5430,10 +5445,6 @@
             "MaskComposite",
             "MaskPreview",
             "MaskToImage",
-            "MinimaxHailuoVideoNode",
-            "MinimaxImageToVideoNode",
-            "MinimaxSubjectToVideoNode",
-            "MinimaxTextToVideoNode",
             "ModelComputeDtype",
             "ModelMergeAdd",
             "ModelMergeAuraflow",
@@ -5464,9 +5475,6 @@
             "ModelSamplingSD3",
             "ModelSamplingStableCascade",
             "ModelSave",
-            "MoonvalleyImg2VideoNode",
-            "MoonvalleyTxt2VideoNode",
-            "MoonvalleyVideo2VideoNode",
             "Morphology",
             "OpenAIChatConfig",
             "OpenAIChatNode",
@@ -5578,7 +5586,6 @@
             "StubMask",
             "StyleModelApply",
             "StyleModelLoader",
-            "T5TokenizerOptions",
             "TCFG",
             "TestAccumulateNode",
             "TestAccumulationGetItemNode",
@@ -5660,7 +5667,6 @@
             "VideoTriangleCFGGuidance",
             "VoxelToMesh",
             "VoxelToMeshBasic",
-            "WanCameraEmbedding",
             "WebcamCapture",
             "unCLIPCheckpointLoader",
             "unCLIPConditioning"
@@ -9282,6 +9288,14 @@
         ],
         {
             "title_aux": "comfyui_QT"
+        }
+    ],
+    "https://github.com/ric-yu/comfyui-datadog-monitor": [
+        [
+            "DatadogMemoryProfiler"
+        ],
+        {
+            "title_aux": "ComfyUI Datadog Monitor [WIP]"
         }
     ],
     "https://github.com/ricklove/ComfyUI-AutoSeg-SAM2": [

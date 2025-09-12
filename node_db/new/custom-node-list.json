@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "snicolast",
+            "title": "ComfyUI-IndexTTS2",
+            "reference": "https://github.com/snicolast/ComfyUI-IndexTTS2",
+            "files": [
+                "https://github.com/snicolast/ComfyUI-IndexTTS2"
+            ],
+            "install_type": "git-clone",
+            "description": "Lightweight ComfyUI wrapper for IndexTTS 2 (voice cloning + emotion control)."
+        }, 
+        {
+            "author": "Olaf Reitmaier Veracierta",
+            "title": "Olaf's Nodes",
+            "reference": "https://github.com/olafrv/comfyui_olafrv",
+            "files": [
+                "https://github.com/olafrv/comfyui_olafrv"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: ORvTextEncoderGoogleEmbeddingGemma3, ORvEmbeddingsHeatmap, ORvEmbeddingsSpectrogram, ORvStringConsoleDebug"
+        },
+        {
             "author": "HM-RunningHub",
             "title": "ComfyUI OneReward Node",
             "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_OneReward",
@@ -290,16 +310,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom nodes for Seed AI APIs including video generation, image generation, and chat models"
-        },
-        {
-            "author": "Olaf Reitmaier Veracierta",
-            "title": "Olaf's Nodes",
-            "reference": "https://github.com/FloyoAI/ComfyUI-Seed-API",
-            "files": [
-                "https://github.com/FloyoAI/ComfyUI-Seed-API"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: ORvTextEncoderGoogleEmbeddingGemma3, ORvEmbeddingsHeatmap, ORvEmbeddingsSpectrogram, ORvStringConsoleDebug"
         },
         {
             "author": "duldduld",
@@ -686,26 +696,6 @@
             ],
             "install_type": "git-clone",
             "description": "A general comfyui model loading plugin that supports loading unet models quantized in bnb-4bit (nf4 and fp4) format"
-        },
-        {
-            "author": "Artificial-Sweetener",
-            "title": "WhiteRabbit",
-            "reference": "https://github.com/Artificial-Sweetener/comfyui-WhiteRabbit",
-            "files": [
-                "https://github.com/Artificial-Sweetener/comfyui-WhiteRabbit"
-            ],
-            "install_type": "git-clone",
-            "description": "A nodepack designed to help you work with video from within ComfyUI that specializes in handling image batches efficiency and creating video loops."
-        },
-        {
-            "author": "hujuying",
-            "title": "ComfyUI ModelScope API Node",
-            "reference": "https://github.com/hujuying/ComfyUI-ModelScope-API",
-            "files": [
-                "https://github.com/hujuying/ComfyUI-ModelScope-API"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a universal custom node for ComfyUI that supports both Text-to-Image and Image-to-Image generation by calling various models via the official ModelScope API."
         }
     ]
 }
