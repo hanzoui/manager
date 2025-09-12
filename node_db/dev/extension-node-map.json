@@ -2876,6 +2876,14 @@
             "title_aux": "ComfyUI-Embedding-Delta-Adapter"
         }
     ],
+    "https://github.com/NSFW-API/ComfyUI-WanSoftPrefix": [
+        [
+            "WanVideoT5ApplySoftPrefix"
+        ],
+        {
+            "title_aux": "ComfyUI-WanSoftPrefix"
+        }
+    ],
     "https://github.com/Nambi24/ComfyUI-Save_Image": [
         [
             "ExtractLastPathComponent",
@@ -4251,21 +4259,6 @@
         ],
         {
             "title_aux": "etm_comfyui_nodes"
-        }
-    ],
-    "https://github.com/aistudynow/comfyui-HunyuanImage-2.1": [
-        [
-            "EmptyHunyuanImageLatentImage",
-            "HunyuanImageCLIPTextEncode",
-            "HunyuanImageDiTLoader",
-            "HunyuanImageDualTextEncoderLoader",
-            "HunyuanImageSampler",
-            "HunyuanImageTripleTextEncoderLoader",
-            "HunyuanImageVAEDecode",
-            "HunyuanImageVAELoader"
-        ],
-        {
-            "title_aux": "comfyui-HunyuanImage-2.1 [WIP]"
         }
     ],
     "https://github.com/akatz-ai/ComfyUI-Execution-Inversion": [
@@ -6168,6 +6161,14 @@
         ],
         {
             "title_aux": "comfyui-flowty-lcm"
+        }
+    ],
+    "https://github.com/flybirdxx/ComfyUI-SDMatte": [
+        [
+            "SDMatteApply"
+        ],
+        {
+            "title_aux": "ComfyUI-SDMatte [WIP]"
         }
     ],
     "https://github.com/flyingdogsoftware/gyre_for_comfyui": [
@@ -9315,6 +9316,23 @@
             "title_aux": "ComfyUI-FramePacking [WIP]"
         }
     ],
+    "https://github.com/rishipandey125/ComfyUI-StyleFrame-Nodes": [
+        [
+            "Batch Keyframes",
+            "Canny Edge",
+            "Get Image Dimensions",
+            "Load Image Folder",
+            "Pad Batch to 4n+1",
+            "Resize Frame",
+            "Save Image Folder",
+            "Select Image From Batch",
+            "Slot Frame",
+            "Trim Padded Batch"
+        ],
+        {
+            "title_aux": "ComfyUI-StyleFrame-Nodes"
+        }
+    ],
     "https://github.com/risunobushi/ComfyUI_FaceMesh_Eyewear_Mask": [
         [
             "FaceMeshEyewearMask",
@@ -9883,6 +9901,18 @@
         ],
         {
             "title_aux": "ComfyUI-SaveImgNextcloud"
+        }
+    ],
+    "https://github.com/synchronicity-labs/sync-comfyui": [
+        [
+            "SyncApiKeyNode",
+            "SyncAudioInputNode",
+            "SyncLipsyncMainNode",
+            "SyncLipsyncOutputNode",
+            "SyncVideoInputNode"
+        ],
+        {
+            "title_aux": "ComfyUI Sync Lipsync Node"
         }
     ],
     "https://github.com/system-out-cho/displayHistory_ComfyUI": [

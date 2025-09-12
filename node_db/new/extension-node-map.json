@@ -2520,9 +2520,13 @@
         [
             "ModelEnhancerTensorPrism",
             "SDXL Block Merge (Tensor Prism)",
+            "SDXLAdvancedBlockMergeTensorPrism",
             "TensorPrism_LayeredBlend",
             "TensorPrism_MainMerge",
+            "TensorPrism_ModelKeyFilter",
+            "TensorPrism_ModelMaskBlender",
             "TensorPrism_ModelMaskGenerator",
+            "TensorPrism_ModelWeightModifier",
             "TensorPrism_Prism",
             "TensorPrism_WeightedMaskMerge"
         ],
@@ -6761,6 +6765,16 @@
             "title_aux": "ComfyUI_RH_OminiControl"
         }
     ],
+    "https://github.com/HM-RunningHub/ComfyUI_RH_OneReward": [
+        [
+            "RunningHub OneReward Eraser",
+            "RunningHub OneReward Loader",
+            "RunningHub OneReward Sampler"
+        ],
+        {
+            "title_aux": "ComfyUI OneReward Node"
+        }
+    ],
     "https://github.com/HM-RunningHub/ComfyUI_RH_Qwen-Image": [
         [
             "QwenImageModelLoader",
@@ -9539,6 +9553,7 @@
     "https://github.com/MNeMoNiCuZ/ComfyUI-mnemic-nodes": [
         [
             "AudioVisualizer",
+            "ColorfulStartingImage",
             "LoraTagLoader",
             "ResolutionSelector",
             "StringCleaning",
@@ -9553,6 +9568,7 @@
             "\u2728\ud83d\udcac Groq LLM API",
             "\u2728\ud83d\udcdd Groq ALM API - Transcribe",
             "\u2728\ud83d\udcf7 Groq VLM API",
+            "\ud83c\udfa8 Colorful Starting Image",
             "\ud83c\udfb5\ud83d\udcca Audio Visualizer",
             "\ud83c\udff7\ufe0f LoRA Loader Prompt Tags",
             "\ud83d\udcbe Save Text File With Path",
@@ -9562,6 +9578,7 @@
             "\ud83d\udcdd Wildcard Processor",
             "\ud83d\udd20 Tiktoken Tokenizer Info",
             "\ud83d\uddbc\ufe0f Download Image from URL",
+            "\ud83d\uddbc\ufe0f Load Image Advanced",
             "\ud83d\uddbc\ufe0f+\ud83d\udcdd Load Text-Image Pair (Single)",
             "\ud83d\uddbc\ufe0f+\ud83d\udcdd Load Text-Image Pairs (List)",
             "\ud83d\uddbc\ufe0f\ud83d\udcca Metadata Extractor",
@@ -17052,6 +17069,8 @@
             "CogVideoXFunInpaintSampler",
             "CogVideoXFunT2VSampler",
             "CogVideoXFunV2VSampler",
+            "CombineWan2_2Pipeline",
+            "CombineWanPipeline",
             "CreateTrajectoryBasedOnKJNodes",
             "FunCompile",
             "FunRiflex",
@@ -17063,10 +17082,15 @@
             "LoadWan2_2FunModel",
             "LoadWan2_2Lora",
             "LoadWan2_2Model",
+            "LoadWan2_2TransformerModel",
+            "LoadWanClipEncoderModel",
             "LoadWanFunLora",
             "LoadWanFunModel",
             "LoadWanLora",
             "LoadWanModel",
+            "LoadWanTextEncoderModel",
+            "LoadWanTransformerModel",
+            "LoadWanVAEModel",
             "VideoToCanny",
             "VideoToDepth",
             "VideoToOpenpose",
@@ -19156,6 +19180,14 @@
         ],
         {
             "title_aux": "ComfyUI_PS_Blend_Node"
+        }
+    ],
+    "https://github.com/blurgyy/CoMPaSS-FLUX.1-dev-ComfyUI": [
+        [
+            "CoMPaSS for FLUX.1-dev"
+        ],
+        {
+            "title_aux": "CoMPaSS-ComfyUI"
         }
     ],
     "https://github.com/bmad4ever/comfyui_ab_samplercustom": [
@@ -37631,6 +37663,22 @@
             "title_aux": "ComfyUI_Nano_Banana"
         }
     ],
+    "https://github.com/ru4ls/ComfyUI_Wan": [
+        [
+            "WanI2VGenerator",
+            "WanII2VGenerator",
+            "WanT2IGenerator",
+            "WanT2VGenerator",
+            "WanVACEImageReference",
+            "WanVACEVideoEdit",
+            "WanVACEVideoExtension",
+            "WanVACEVideoOutpainting",
+            "WanVACEVideoRepainting"
+        ],
+        {
+            "title_aux": "ComfyUI_Wan"
+        }
+    ],
     "https://github.com/rubenvillarreal/ComfyUI_PoseAlign": [
         [
             "PoseAlignTwoToOne",
@@ -40083,6 +40131,7 @@
             "JM-MiniMax-API/check-video-status",
             "JM-MiniMax-API/download-video",
             "JM-MiniMax-API/load-audio",
+            "JM-MiniMax-API/music-generation",
             "JM-MiniMax-API/text-to-speech",
             "JM-MiniMax-API/video-generation",
             "JM-MiniMax-API/voice-cloning",

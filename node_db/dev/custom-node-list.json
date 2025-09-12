@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "synchronicity-labs",
+            "title": "ComfyUI Sync Lipsync Node",
+            "reference": "https://github.com/synchronicity-labs/sync-comfyui",
+            "files": [
+                "https://github.com/synchronicity-labs/sync-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: WanVideo T5 Apply Soft Prefix"
+        },
+        {
+            "author": "flybirdxx",
+            "title": "ComfyUI-SDMatte [WIP]",
+            "reference": "https://github.com/flybirdxx/ComfyUI-SDMatte",
+            "files": [
+                "https://github.com/flybirdxx/ComfyUI-SDMatte"
+            ],
+            "install_type": "git-clone",
+            "description": "[a/SDMatte](https://github.com/vivoCameraResearch/SDMatte) is an interactive image matting method based on Stable Diffusion, developed by the vivo Camera Research team and accepted by ICCV 2025. This method leverages the powerful priors of pre-trained diffusion models and supports multiple visual prompts (points, boxes, masks) for accurately extracting target objects from natural images.\nThis plugin integrates SDMatte into ComfyUI, providing a simple and easy-to-use node interface focused on trimap-guided matting functionality with built-in VRAM optimization strategies.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "NSFW-API",
+            "title": "ComfyUI-WanSoftPrefix",
+            "reference": "https://github.com/NSFW-API/ComfyUI-WanSoftPrefix",
+            "files": [
+                "https://github.com/NSFW-API/ComfyUI-WanSoftPrefix"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Resize Frame, Pad Batch to 4n+1, Trim Padded Batch, Get Image Dimensions, Slot Frame, ..."
+        },
+        {
             "author": "rishipandey125",
             "title": "ComfyUI-StyleFrame-Nodes",
             "reference": "https://github.com/rishipandey125/ComfyUI-StyleFrame-Nodes",
@@ -9,16 +39,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Resize Frame, Pad Batch to 4n+1, Trim Padded Batch, Get Image Dimensions, Slot Frame, ..."
-        },
-        {
-            "author": "aistudynow",
-            "title": "comfyui-HunyuanImage-2.1 [WIP]",
-            "reference": "https://github.com/aistudynow/comfyui-HunyuanImage-2.1",
-            "files": [
-                "https://github.com/aistudynow/comfyui-HunyuanImage-2.1"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Load HunyuanImage DiT, Load HunyuanImage VAE, Load HunyuanImage Dual Text Encoder, HunyuanImage Sampler, HunyuanImage VAE Decode, HunyuanImage CLIP Text Encode, Empty HunyuanImage Latent Image"
         },
         {
             "author": "LSDJesus",

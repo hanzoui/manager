@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "HM-RunningHub",
+            "title": "ComfyUI OneReward Node",
+            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_OneReward",
+            "files": [
+                "https://github.com/HM-RunningHub/ComfyUI_RH_OneReward"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that integrates OneReward model for high-quality image inpainting, outpainting, and object removal."
+        },
+        {
+            "author": "blurgyy",
+            "title": "CoMPaSS-ComfyUI",
+            "reference": "https://github.com/blurgyy/CoMPaSS-FLUX.1-dev-ComfyUI",
+            "files": [
+                "https://github.com/blurgyy/CoMPaSS-FLUX.1-dev-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that implements CoMPaSS for FLUX.1-dev models. CoMPaSS enhances the spatial understanding capabilities of text-to-image diffusion models."
+        },
+        {
+            "author": "ru4ls",
+            "title": "ComfyUI_Wan",
+            "reference": "https://github.com/ru4ls/ComfyUI_Wan",
+            "files": [
+                "https://github.com/ru4ls/ComfyUI_Wan"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that provides seamless integration with the Wan models from Alibaba Cloud Model Studio. This solution delivers cutting-edge image and video generation capabilities directly within ComfyUI, supporting both international and Mainland China regions."
+        },
+        {
             "author": "razvanmatei-sf",
             "title": "ComfyUI Razv WaveSpeed Nodes",
             "reference": "https://github.com/razvanmatei-sf/razv-wavespeed",
@@ -676,56 +706,6 @@
             ],
             "install_type": "git-clone",
             "description": "This is a universal custom node for ComfyUI that supports both Text-to-Image and Image-to-Image generation by calling various models via the official ModelScope API."
-        },
-        {
-            "author": "itsjustregi",
-            "title": "SDXL Adherence",
-            "reference": "https://github.com/regiellis/ComfyUI-SDXL-Adherence",
-            "files": [
-                "https://github.com/regiellis/ComfyUI-SDXL-Adherence"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes that improve SDXL prompt adherence and any-size/tiled VAE workflows."
-        },
-        {
-            "author": "MushroomFleet",
-            "title": "Zenkai-POML for ComfyUI",
-            "reference": "https://github.com/MushroomFleet/ComfyUI-DJZ-POML",
-            "files": [
-                "https://github.com/MushroomFleet/ComfyUI-DJZ-POML"
-            ],
-            "install_type": "git-clone",
-            "description": "Bring Microsoft's POML (Prompt Orchestration Markup Language) to your ComfyUI workflows! Create structured, reusable, and powerful prompts with visual node-based editing."
-        },
-        {
-            "author": "Urabewe",
-            "title": "ComfyUI Video Extend Counter",
-            "reference": "https://github.com/Urabewe/ComfyUI-CountS2VExtend",
-            "files": [
-                "https://github.com/Urabewe/ComfyUI-CountS2VExtend"
-            ],
-            "install_type": "git-clone",
-            "description": "A simple utility node that counts active Video S2V Extend nodes in your workflow and returns that number plus one. Now you don't have to remember to update the batch number. Just set your extend nodes and go. It was easy to forget so I made this quick and dirty."
-        },
-        {
-            "author": "Juste-Leo2",
-            "title": "USO Nodes for ComfyUI",
-            "reference": "https://github.com/Juste-Leo2/USO_ComfyUI",
-            "files": [
-                "https://github.com/Juste-Leo2/USO_ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes to integrate the USO image generation model (based on FLUX.1 by ByteDance) into ComfyUI.\nThis project is an implementation based on the official source code from the [a/ByteDance/USO](https://github.com/bytedance/USO) repository."
-        },
-        {
-            "author": "daehwa",
-            "title": "ComfyUI-NanoBananaAPI",
-            "reference": "https://github.com/daehwa00/ComfyUI-NanoBananaAPI",
-            "files": [
-                "https://github.com/daehwa00/ComfyUI-NanoBananaAPI"
-            ],
-            "install_type": "git-clone",
-            "description": "Creates images using the NanoBanana API. To use it, you must enter your issued API key."
         }
     ]
 }
