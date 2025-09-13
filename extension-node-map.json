@@ -30480,6 +30480,7 @@
             "FantasyPortraitModelLoader",
             "FantasyTalkingModelLoader",
             "FantasyTalkingWav2VecEmbeds",
+            "HuMoEmbeds",
             "LandmarksToImage",
             "LoadVQVAE",
             "LoadWanVideoClipTextEncoder",
@@ -30567,7 +30568,8 @@
             "WanVideoVACEStartToEndFrame",
             "WanVideoVAELoader",
             "WanVideoVRAMManagement",
-            "Wav2VecModelLoader"
+            "Wav2VecModelLoader",
+            "WhisperModelLoader"
         ],
         {
             "title_aux": "ComfyUI-WanVideoWrapper"
@@ -36179,8 +36181,11 @@
     ],
     "https://github.com/phyblas/nsfw-shorier_comfyui": [
         [
+            "CensorNsfwPart",
             "FilterNsfw",
             "FilterNsfwWithText",
+            "FindNsfwPart",
+            "FindNudenetPart",
             "GetNsfwScore",
             "IsNsfw",
             "ReplaceIfNsfw",
@@ -37676,6 +37681,7 @@
     ],
     "https://github.com/ru4ls/ComfyUI_Wan": [
         [
+            "WanI2VEffectGenerator",
             "WanI2VGenerator",
             "WanII2VGenerator",
             "WanT2IGenerator",

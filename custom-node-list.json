@@ -32718,7 +32718,14 @@
             ],
             "install_type": "git-clone",
             "description": "Custom ComfyUI nodes integrating Ollama to generate and enhance positive/negative prompts for Stable Diffusion workflows."
-        }, 
+        },
+        {
+            "author": "fr0nky0ng",
+            "title": "ComfyUI-Face-Comparator",
+            "description": "This is a node to detect the similarity between two faces",
+            "install_type": "git-clone",
+            "reference": "https://github.com/fr0nky0ng/ComfyUI-Face-Comparator"
+        },
 
 
 
@@ -33165,13 +33172,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "fr0nky0ng",
-            "title": "ComfyUI-Face-Comparator",
-			"description": "This is a node to detect the similarity between two faces",
-			"install_type": "git-clone",
-            "reference": "https://github.com/fr0nky0ng/ComfyUI-Face-Comparator"
         }
     ]
 }
