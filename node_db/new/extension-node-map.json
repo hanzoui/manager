@@ -15821,9 +15821,12 @@
             "Base64ListToImages",
             "Base64VideoToImages",
             "CreateBlankFrames",
+            "ImageBatchAssembler",
             "ImageFrameSelector",
             "ImagesToBase64Video",
-            "MultiImageInserter"
+            "MultiImageInserter",
+            "WanVideoLatentInsertFrames",
+            "WanVideoLatentZeroFrames"
         ],
         {
             "title_aux": "ComfyUI Image to Video Inserter"
@@ -24167,6 +24170,14 @@
         ],
         {
             "title_aux": "ComfyUI-gpt-oss-PromptDesigner"
+        }
+    ],
+    "https://github.com/efortin/ComfyUI-Ollama-Enhancer": [
+        [
+            "OllamaPosNegNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Manufnode"
         }
     ],
     "https://github.com/eg0pr0xy/comfyui_noisegen": [
@@ -34685,14 +34696,6 @@
             "title_aux": "comfyui-smooth-step-lora-loader"
         }
     ],
-    "https://github.com/netroxin/comfyui_netro": [
-        [
-            "CamPromptNode"
-        ],
-        {
-            "title_aux": "comfyui_netro"
-        }
-    ],
     "https://github.com/neverbiasu/ComfyUI-BAGEL": [
         [
             "BagelImageEdit",
@@ -38641,9 +38644,9 @@
             "GetComboFromImage",
             "GetFloatFromImage",
             "GetIntFromImage",
-            "GetNodesFromImage",
             "GetPromptFromImage",
             "GetStringFromImage",
+            "GetValuesFromImage",
             "GetWorkflowFromImage"
         ],
         {

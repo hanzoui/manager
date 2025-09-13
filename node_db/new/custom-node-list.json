@@ -2,6 +2,16 @@
     "custom_nodes": [
         {
             "author": "snicolast",
+            "title": "ComfyUI-Manufnode",
+            "reference": "https://github.com/efortin/ComfyUI-Ollama-Enhancer",
+            "files": [
+                "https://github.com/efortin/ComfyUI-Ollama-Enhancer"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes integrating Ollama to generate and enhance positive/negative prompts for Stable Diffusion workflows."
+        }, 
+        {
+            "author": "snicolast",
             "title": "ComfyUI-IndexTTS2",
             "reference": "https://github.com/snicolast/ComfyUI-IndexTTS2",
             "files": [
@@ -686,16 +696,6 @@
             ],
             "install_type": "git-clone",
             "description": "Generate Audio from any video and or text"
-        },
-        {
-            "author": "mengqin",
-            "title": "Unet Bnb Model Loader",
-            "reference": "https://github.com/mengqin/ComfyUI-UnetBnbModelLoader",
-            "files": [
-                "https://github.com/mengqin/ComfyUI-UnetBnbModelLoader"
-            ],
-            "install_type": "git-clone",
-            "description": "A general comfyui model loading plugin that supports loading unet models quantized in bnb-4bit (nf4 and fp4) format"
         }
     ]
 }
