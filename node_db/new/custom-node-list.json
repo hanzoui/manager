@@ -1,6 +1,67 @@
 {
     "custom_nodes": [
         {
+            "author": "nakagawadev",
+            "title": "comfyui_nakagawa",
+            "reference": "https://github.com/nakagawadev/comfyui_nakagawa",
+            "files": [
+                "https://github.com/nakagawadev/comfyui_nakagawa"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI that send video data through websockets instead of saving to disk."
+        },
+        {
+            "author": "S4MUEL404",
+            "title": "ComfyUI Prepack",
+            "id": "comfyui-prepack",
+            "reference": "https://github.com/S4MUEL-404/ComfyUI-Prepack",
+            "files": [
+                "https://github.com/S4MUEL-404/ComfyUI-Prepack"
+            ],
+            "install_type": "git-clone",
+            "description": "A small, practical bundle of ComfyUI nodes that streamlines common workflows."
+        },
+        {
+            "author": "ru4ls",
+            "title": "ComfyUI_Imagen",
+            "reference": "https://github.com/ru4ls/ComfyUI_Imagen",
+            "files": [
+                "https://github.com/ru4ls/ComfyUI_Imagen"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that leverages the Google Cloud Vertex AI Imagen API to generate and edit images."
+        },
+        {
+            "author": "nakMe-guminagawadev",
+            "title": "MeComfyuiEncrypt",
+            "reference": "https://github.com/Me-gumin/MeComfyuiEncrypt",
+            "files": [
+                "https://github.com/Me-gumin/MeComfyuiEncrypt"
+            ],
+            "install_type": "git-clone",
+            "description": "Image obfuscation in ComfyUI"
+        },
+        {
+            "author": "blob8",
+            "title": "ComfyUI_video-image-motion-transfer",
+            "reference": "https://github.com/blob8/ComfyUI_video-image-motion-transfer",
+            "files": [
+                "https://github.com/blob8/ComfyUI_video-image-motion-transfer"
+            ],
+            "install_type": "git-clone",
+            "description": "Introduces a node that tries to approximate the entire video using it's first frame (that we stylize) by warping it using optical flow extracted from the video. First we do image-to-image using the reference video's first frame and a depth controlnet. The generated object doesn't have to closely resemble the reference like on the demo. Then the generated image and the video frames are fed into the node and it returns a warped video. No ai models are used by the node. The example workflow uses SDXL but you can get it to work with any arch if you manage i2i."
+        },
+        {
+            "author": "Tr1dae",
+            "title": "LoRA Matcher Nodes for ComfyUI",
+            "reference": "https://github.com/Tr1dae/ComfyUI-LoraPromptMatcher",
+            "files": [
+                "https://github.com/Tr1dae/ComfyUI-LoraPromptMatcher"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node provides two different approaches to automatically match text prompts with LoRA models using their descriptions."
+        },
+        {
             "author": "fr0nky0ng",
             "title": "ComfyUI-Face-Comparator",
             "description": "This is a node to detect the similarity between two faces",
@@ -643,66 +704,6 @@
             ],
             "install_type": "git-clone",
             "description": "A custom node that allows opening file paths in the default system file explorer."
-        },
-        {
-            "author": "noelkim12",
-            "title": "ComfyUI-ComfyUI-NoelTextUtil",
-            "reference": "https://github.com/noelkim12/ComfyUI-NoelTextUtil",
-            "files": [
-                "https://github.com/noelkim12/ComfyUI-NoelTextUtil"
-            ],
-            "install_type": "git-clone",
-            "description": "Text utility nodes for file path and LoRA auto triggering"
-        },
-        {
-            "author": "Juste-Leo2",
-            "title": "Canary-ComfyUI",
-            "reference": "https://github.com/Juste-Leo2/Canary-ComfyUI",
-            "files": [
-                "https://github.com/Juste-Leo2/Canary-ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "This node pack integrates the core capabilities of the Canary-1b-v2 model, providing three main features: it can transcribe audio in any of 25 supported languages into text in the same language, translate audio from 24 source languages directly into English, and translate English audio directly into one of the 24 other supported languages."
-        },
-        {
-            "author": "otavanopisto",
-            "title": "ComfyUI-aihub-workflow-exposer",
-            "reference": "https://github.com/otavanopisto/ComfyUI-aihub-workflow-exposer",
-            "files": [
-                "https://github.com/otavanopisto/ComfyUI-aihub-workflow-exposer"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for ComfyUI in order to expose AI workflows to external applications (particularly image, video and audio editors) so workflows can be integrated as plugins"
-        },
-        {
-            "author": "D3lUX3I",
-            "title": "VideoPromptEnhancer",
-            "reference": "https://github.com/D3lUX3I/ComfyUI-VideoPromptEnhancer",
-            "files": [
-                "https://github.com/D3lUX3I/ComfyUI-VideoPromptEnhancer"
-            ],
-            "install_type": "git-clone",
-            "description": "This node generates a professional prompt from an input text for modern video AI models (e.g., Alibaba Wan 2.2) via the OpenRouter API."
-        },
-        {
-            "author": "dasilva333",
-            "title": "ComfyUI HunyuanVideo-Foley Custom Node",
-            "reference": "https://github.com/dasilva333/ComfyUI_HunyuanVideo-Foley",
-            "files": [
-                "https://github.com/dasilva333/ComfyUI_HunyuanVideo-Foley"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node integrates the HunyuanVideo-Foley model for generating audio from video frames and text prompts in ComfyUI. It's built for use in generating Foley sounds from video and text inputs."
-        },
-        {
-            "author": "aistudynow",
-            "title": "Comfyui-HunyuanFoley",
-            "reference": "https://github.com/aistudynow/Comfyui-HunyuanFoley",
-            "files": [
-                "https://github.com/aistudynow/Comfyui-HunyuanFoley"
-            ],
-            "install_type": "git-clone",
-            "description": "Generate Audio from any video and or text"
         }
     ]
 }
