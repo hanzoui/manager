@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "78Ventures",
+            "title": "ComfyUI-Tortu [WIP/UNSAFE]",
+            "reference": "https://github.com/78Ventures/ComfyUI-Tortu",
+            "files": [
+                "https://github.com/78Ventures/ComfyUI-Tortu"
+            ],
+            "install_type": "git-clone",
+            "description": "Opinionated custom nodes and ready-to-use workflows for dataset prep and portrait/headshot pipelines in ComfyUI.\nNOTE: The files in the repo are not organized.[w/This extension has a vulnerability that allows arbitrary access to local files from remote.]"
+        },
+        {
             "author": "GeekyGhost",
             "title": "Studio42 Image, Audio, and Video Editing Suite for ComfyUI [WIP]",
             "reference": "https://github.com/GeekyGhost/24oiduts-ComfyUI",
