@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "impactframes",
+            "title": "IF_AI_tools [DEPRECATED]",
+            "id": "impactframes-tools",
+            "reference": "https://github.com/if-ai/ComfyUI-IF_AI_tools",
+            "files": [
+                "https://github.com/if-ai/ComfyUI-IF_AI_tools"
+            ],
+            "install_type": "git-clone",
+            "description": "Various AI tools to use in Comfy UI. Starting with VL and prompt making tools using Ollma as backend will evolve as I find time."
+        },
+        {
             "author": "netroxin",
             "title": "comfyui_netro [REMOVED]",
             "reference": "https://github.com/netroxin/comfyui_netro",

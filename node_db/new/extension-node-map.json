@@ -6058,6 +6058,7 @@
     ],
     "https://github.com/FloyoAI/ComfyUI-Seed-API": [
         [
+            "ResolutionHelper",
             "SeedChat",
             "SeedEditImageToImage",
             "SeedanceLiteFirstLastFrame",
@@ -6065,6 +6066,10 @@
             "SeedanceLiteReferenceImages",
             "SeedanceLiteTextToVideo",
             "SeedanceProTextImageToVideo",
+            "Seedream4BatchGeneration",
+            "Seedream4ImageToImage",
+            "Seedream4MultiImageBlending",
+            "Seedream4TextToImage",
             "SeedreamTextToImage",
             "VideoToFrames"
         ],
@@ -7267,6 +7272,19 @@
         ],
         {
             "title_aux": "ComfyUI-Ruyi"
+        }
+    ],
+    "https://github.com/Ian2073/ComfyUI-MyLLMnode": [
+        [
+            "GemmaLLMNode",
+            "LlamaLLMNode",
+            "MistralLLMNode",
+            "PhiLLMNode",
+            "QwenLLMNode",
+            "YiLLMNode"
+        ],
+        {
+            "title_aux": "ComfyUI-MyLLMNode"
         }
     ],
     "https://github.com/IcelandicCenterArtificialIntelligence/ComfyUI-SamplerSchedulerMetricsTester": [
@@ -17074,7 +17092,12 @@
             "QwenLatentImage",
             "ReadFileToString",
             "SplitString",
-            "Translate"
+            "Translate",
+            "VolcengineChat",
+            "VolcengineChatOption",
+            "VolcengineImageOption",
+            "VolcengineImg2Img",
+            "VolcengineTxt2Img"
         ],
         {
             "title_aux": "ComfyUI_NYJY"
@@ -23201,6 +23224,14 @@
             "title_aux": "ComfyUI-TTS"
         }
     ],
+    "https://github.com/darkamenosa/comfy_inpaint_blend": [
+        [
+            "EnhancedImageCompositeMasked"
+        ],
+        {
+            "title_aux": "Enhanced Image Composite Masked"
+        }
+    ],
     "https://github.com/darkamenosa/comfy_nanobanana": [
         [
             "BatchImages",
@@ -24236,7 +24267,7 @@
     ],
     "https://github.com/efortin/ComfyUI-Ollama-Enhancer": [
         [
-            "OllamaPosNegNode"
+            "OllamaEnhancerNode"
         ],
         {
             "title_aux": "ComfyUI-Manufnode"
@@ -27528,26 +27559,6 @@
             "title_aux": "IF_AI_WishperSpeechNode"
         }
     ],
-    "https://github.com/if-ai/ComfyUI-IF_AI_tools": [
-        [
-            "IF_ChatPrompt",
-            "IF_DisplayOmni",
-            "IF_DisplayText",
-            "IF_DisplayTextWildcard",
-            "IF_ImagePrompt",
-            "IF_JoinText",
-            "IF_LoadImagesS",
-            "IF_PromptMkr",
-            "IF_SaveText",
-            "IF_StepCounter",
-            "IF_TextTyper",
-            "IF_VisualizeGraph",
-            "IF_tools_LoadImagesS"
-        ],
-        {
-            "title_aux": "IF_AI_tools"
-        }
-    ],
     "https://github.com/if-ai/ComfyUI-IF_DatasetMkr": [
         [
             "IF_DatasetMkr",
@@ -30579,6 +30590,7 @@
             "WanVideoBlockList",
             "WanVideoBlockSwap",
             "WanVideoClipVisionEncode",
+            "WanVideoCombineEmbeds",
             "WanVideoContextOptions",
             "WanVideoControlEmbeds",
             "WanVideoControlnet",
@@ -31464,6 +31476,16 @@
         ],
         {
             "title_aux": "ComfyUI-GG"
+        }
+    ],
+    "https://github.com/lenML/comfyui_qwen_image_edit_adv": [
+        [
+            "QwenImageEditScale",
+            "QwenImageEditSimpleScale",
+            "TextEncodeQwenImageEditAdv"
+        ],
+        {
+            "title_aux": "comfyui_qwen_image_edit_adv"
         }
     ],
     "https://github.com/lenskikh/ComfyUI-Prompt-Worker": [
@@ -36761,6 +36783,7 @@
             "PVL_fal_FluxGeneral_API",
             "PVL_fal_FluxPro_Fill_API",
             "PVL_fal_FluxPro_v1_1_Ultra_API",
+            "PVL_fal_FluxPulid",
             "PVL_fal_FluxWithLora_API",
             "PVL_fal_KontextDevInpaint_API",
             "PVL_fal_KontextDevLora_API",
@@ -36771,6 +36794,8 @@
             "PVL_fal_LumaPhoton_FlashReframe_API",
             "PVL_fal_LumaPhoton_Reframe_API",
             "PVL_fal_NanoBanana_API",
+            "PVL_fal_QwenImage_API",
+            "PVL_fal_SeeDream4_API",
             "PvlKontextMax"
         ],
         {
@@ -40201,6 +40226,19 @@
         ],
         {
             "title_aux": "ComfyUI_Sticker_Compositer"
+        }
+    ],
+    "https://github.com/swfxliyiyu/ComfyUI-FastVideo": [
+        [
+            "DITConfig",
+            "InferenceArgs",
+            "LoadImagePath",
+            "TextEncoderConfig",
+            "VAEConfig",
+            "VideoGenerator"
+        ],
+        {
+            "title_aux": "ComfyUI-FastVideo"
         }
     ],
     "https://github.com/syllebra/bilbox-comfyui": [

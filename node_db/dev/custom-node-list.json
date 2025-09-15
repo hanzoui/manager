@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "dmitry-guskov",
+            "title": "ComfyUI_light_image_ops",
+            "reference": "https://github.com/dmitry-guskov/ComfyUI_light_image_ops",
+            "files": [
+                "https://github.com/dmitry-guskov/ComfyUI_light_image_ops"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Light Scale to Side, Light Batch to List, Light List to Batch, Wan Latents Resize To Size, Wan Embeds Resize Spatial (Packed), Wan Latents Resize + Normalize + Noise"
+        },
+        {
             "author": "78Ventures",
             "title": "ComfyUI-Tortu [WIP/UNSAFE]",
             "reference": "https://github.com/78Ventures/ComfyUI-Tortu",
