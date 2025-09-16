@@ -19838,16 +19838,6 @@
             "install_type": "git-clone",
             "description": "A node for ComfyUI that takes an input image and clips the color channels independently to increase contrast and alter color cast. This is a reinterpretation of PhotoShop's 'Auto Tone' algorithm."
         },
-		{
-            "author": "Dehypnotic",
-            "title": "Save MP3",
-            "reference": "https://github.com/Dehypnotic/comfyui-save-mp3",
-            "files": [
-                "https://github.com/Dehypnotic/comfyui-save-mp3"
-            ],
-            "install_type": "git-clone",
-            "description": "A node for saving audio in MP3-format with selected bitrate mode and quality to an output subfolder or absolute path on any drive."
-        },
         {
             "author": "SparknightLLC",
             "title": "ComfyUI-WeightedRandomChoice",
@@ -32849,6 +32839,26 @@
             "install_type": "git-clone",
             "description": "Custom ComfyUI node for running LLMs via HuggingFace pipeline. Supports both local paths and HuggingFace model names."
         },
+        {
+            "author": "semonxue",
+            "title": "ComfyUI FlexAI Nodes",
+            "reference": "https://github.com/Semonxue/Comfyui-flexai",
+            "files": [
+                "https://github.com/Semonxue/Comfyui-flexai"
+            ],
+            "install_type": "git-clone",
+            "description": "Use the fewest nodes for the most flexible model calls. A versatile ComfyUI plugin for OpenAI-compatible APIs, featuring multi-purpose nodes for text and image, support for switching between multiple API providers, and auto-saving of custom models. Compatible with new models like nano-banana and seedream4."
+        },
+        {
+            "author": "Dehypnotic",
+            "title": "Save MP3",
+            "reference": "https://github.com/Dehypnotic/comfyui-save-mp3",
+            "files": [
+                "https://github.com/Dehypnotic/comfyui-save-mp3"
+            ],
+            "install_type": "git-clone",
+            "description": "A node for saving audio in MP3-format with selected bitrate mode and quality to an output subfolder or absolute path on any drive."
+        },
 
 
 
@@ -33295,17 +33305,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-		    "author": "semonxue",
-		    "title": "ComfyUI FlexAI Nodes",
-		    "reference": "https://github.com/Semonxue/Comfyui-flexai",
-		    "files": [
-		        "https://github.com/Semonxue/Comfyui-flexai"
-		    ],
-		    "install_type": "git-clone",
-		    "description": "Use the fewest nodes for the most flexible model calls. A versatile ComfyUI plugin for OpenAI-compatible APIs, featuring multi-purpose nodes for text and image, support for switching between multiple API providers, and auto-saving of custom models. Compatible with new models like nano-banana and seedream4."
-		}
-
+        }
     ]
 }
