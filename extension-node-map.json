@@ -17091,6 +17091,10 @@
             "JsonLoads",
             "QwenLatentImage",
             "ReadFileToString",
+            "Seededit3",
+            "Seedream3Txt2Img",
+            "Seedream4Img2Img",
+            "Seedream4Txt2Img",
             "SplitString",
             "Translate",
             "VolcengineChat",
@@ -33099,14 +33103,6 @@
             "title_aux": "ComfyUI CrewAI"
         }
     ],
-    "https://github.com/lucak5s/comfyui_gfpgan": [
-        [
-            "GFPGANRestorer"
-        ],
-        {
-            "title_aux": "ComfyUI GFPGAN"
-        }
-    ],
     "https://github.com/lucasgattas/ComfyUI-Egregora-Audio-Super-Resolution": [
         [
             "EgregoraAudioUpscaler",
@@ -40128,6 +40124,9 @@
             "TagMerger",
             "TagMerger4",
             "TagMerger6",
+            "TagPipeIn",
+            "TagPipeOut",
+            "TagPipeUpdate",
             "TagRandomCategory",
             "TagRemover",
             "TagReplace",

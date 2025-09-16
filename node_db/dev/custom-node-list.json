@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "SlackinJack",
+            "title": "multigpu_diffusion_comfyui",
+            "reference": "https://github.com/SlackinJack/multigpu_diffusion_comfyui",
+            "files": [
+                "https://github.com/SlackinJack/multigpu_diffusion_comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: GGUFSelector, CheckpointSelector, SchedulerSelector, LoraSelector, MultiLoraJoiner, VAESelector, MotionModuleSelector, MotionAdapterSelector, MotionAdapterLoraSelector, ControlNetSelector, IPAdapterSelector, EncodePromptWithCompel, HostConfig, AsyncDiffConfig, AsyncDiffADSampler, AsyncDiffSDSampler, AsyncDiffSDUpscaleSampler, AsyncDiffSVDSampler, DistrifuserConfig, DistrifuserSDSampler, xDiTConfig, xDiTSampler, xDiTUSPConfig, xDiTUSPImageSampler, xDiTUSPVideoSampler"
+        },
+        {
             "author": "dmitry-guskov",
             "title": "ComfyUI_light_image_ops",
             "reference": "https://github.com/dmitry-guskov/ComfyUI_light_image_ops",
