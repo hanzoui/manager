@@ -267,6 +267,7 @@
             "PromptList",
             "PromptSelectorList",
             "PromptSelectorStr",
+            "PromptSelectorStrV2",
             "SelectImageSize",
             "SimpleIntMathHandle",
             "SimpleJsonArrayHandle",
@@ -519,6 +520,14 @@
         ],
         {
             "title_aux": "UtilNodes-ComfyUI [WIP]"
+        }
+    ],
+    "https://github.com/AIGCZero/AIGCZero-comfyui-Qwen_edit-zero": [
+        [
+            "TextEncodeQwenImageEdit_zero"
+        ],
+        {
+            "title_aux": "AIGCZero-comfyui-Qwen_edit-zero"
         }
     ],
     "https://github.com/ALatentPlace/ComfyUI_yanc": [
@@ -1533,6 +1542,7 @@
     ],
     "https://github.com/EQXai/ComfyUI_EQX": [
         [
+            "AspectRatioCropEQX",
             "BodyCropMaskEQX",
             "CountFaces_EQX",
             "Extract Filename - EQX",
@@ -1936,14 +1946,6 @@
             "title_aux": "ComfyUI-LLMs-Toolkit [WIP]"
         }
     ],
-    "https://github.com/Huangcj2005/comfyui-HandDetect": [
-        [
-            "HandMaskGenerator"
-        ],
-        {
-            "title_aux": "comfyui-HandDetect"
-        }
-    ],
     "https://github.com/IXIWORKS-KIMJUNGHO/comfyui-ixiworks": [
         [
             "BuildCharacterPromptNode",
@@ -1972,6 +1974,14 @@
         ],
         {
             "title_aux": "ComfyUI-igTools"
+        }
+    ],
+    "https://github.com/Inoriac/comfyui-HandDetect": [
+        [
+            "HandMaskGenerator"
+        ],
+        {
+            "title_aux": "comfyui-HandDetect"
         }
     ],
     "https://github.com/IsItDanOrAi/ComfyUI-exLoadout": [
@@ -8168,6 +8178,7 @@
             "LF_ImagesSlideshow",
             "LF_Integer",
             "LF_IsLandscape",
+            "LF_JSONPromptCombinator",
             "LF_KeywordCounter",
             "LF_KeywordToggleFromJSON",
             "LF_LLMChat",
@@ -9463,6 +9474,7 @@
             "Select Image From Batch",
             "Slot Frame",
             "String To Float List",
+            "Threshold Image",
             "Trim Padded Batch"
         ],
         {
@@ -9473,6 +9485,7 @@
         [
             "FaceMeshEyewearMask",
             "MaskFromFacialKeypoints",
+            "MediaPipeFaceToMask",
             "OpenPoseEyewearMask"
         ],
         {

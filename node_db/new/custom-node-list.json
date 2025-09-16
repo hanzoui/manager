@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "1038lab",
+            "title": "ComfyUI-FireRedTTS",
+            "reference": "https://github.com/1038lab/ComfyUI-FireRedTTS",
+            "files": [
+                "https://github.com/1038lab/ComfyUI-FireRedTTS"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI integration for FireRedTTS‑2, a real-time multi-speaker TTS system enabling high-quality, emotionally expressive dialogue and monologue synthesis. Leveraging a streaming architecture and context-aware prosody modeling, it supports natural speaker turns and stable long-form generation, ideal for interactive chat and podcast applications."
+        },
+        {
             "author": "semonxue",
             "title": "ComfyUI FlexAI Nodes",
             "reference": "https://github.com/Semonxue/Comfyui-flexai",
@@ -40,6 +50,56 @@
             ],
             "install_type": "git-clone",
             "description": "Use image to search similar images from danbooru using various methods. Notice: the optional API key will be saved to metadata if used"
+        },
+        {
+            "author": "xhh522",
+            "title": "ComfyUI Preview Monitor",
+            "reference": "https://github.com/xhh522/ComfyUI-preview-monitor",
+            "files": [
+                "https://github.com/xhh522/ComfyUI-preview-monitor"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful ComfyUI custom node for image preview and monitoring"
+        },
+        {
+            "author": "lum3on",
+            "title": "ComfyUI Reve API Integration Node",
+            "reference": "https://github.com/lum3on/ComfyUI_Reve-API",
+            "files": [
+                "https://github.com/lum3on/ComfyUI_Reve-API"
+            ],
+            "install_type": "git-clone",
+            "description": "A unified ComfyUI custom node that integrates all Reve API endpoints (Create, Edit, Remix) into a single, dynamic node with operation-specific inputs and seamless operation switching."
+        },
+        {
+            "author": "ialhabbal",
+            "title": "ComfyUI Prompt Verify",
+            "reference": "https://github.com/ialhabbal/ComfyUI-Prompt-Verify",
+            "files": [
+                "https://github.com/ialhabbal/ComfyUI-Prompt-Verify"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node to pause a string flow/prompt and let you edit the text"
+        },
+        {
+            "author": "Kaleidia",
+            "title": "KaleidiaNodes",
+            "reference": "https://github.com/Kaleidia/KaleidiaNodes",
+            "files": [
+                "https://github.com/Kaleidia/KaleidiaNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple set of nodes to make things easier. String Nodes and Files nodes."
+        },
+        {
+            "author": "GegenDenTag",
+            "title": "Multi Area Conditioning",
+            "reference": "https://github.com/GegenDenTag/ComfyUI-multi-area-condition-node",
+            "files": [
+                "https://github.com/GegenDenTag/ComfyUI-multi-area-condition-node"
+            ],
+            "install_type": "git-clone",
+            "description": "Fix Nov. 2024, Davemane42's Custom Node for ComfyUI"
         },
         {
             "author": "len-ml",

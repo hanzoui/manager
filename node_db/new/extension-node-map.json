@@ -75,6 +75,15 @@
             "title_aux": "ComfyUI-EdgeTTS"
         }
     ],
+    "https://github.com/1038lab/ComfyUI-FireRedTTS": [
+        [
+            "FireRedTTS2MonologueNode",
+            "FireRedTTS2_Dialogue"
+        ],
+        {
+            "title_aux": "ComfyUI-FireRedTTS"
+        }
+    ],
     "https://github.com/1038lab/ComfyUI-JoyCaption": [
         [
             "CaptionSaver",
@@ -486,25 +495,6 @@
         ],
         {
             "title_aux": "GrsAI api in ComfyUI"
-        }
-    ],
-    "https://github.com/42lux/ComfyUI-42lux": [
-        [
-            "FluxEmptyLatentSizePicker",
-            "HighResFixApply",
-            "HighResFixConditioningDuplicator",
-            "HighResFixModelInjection",
-            "ModelSamplingFluxNormalized",
-            "STORKSamplerSelect",
-            "SoulSampler",
-            "SoulSamplerAdvanced",
-            "SoulSamplerDPM",
-            "SoulSamplerDPMAdvanced",
-            "SoulSamplerHybrid",
-            "SoulSamplerHybridAdvanced"
-        ],
-        {
-            "title_aux": "ComfyUI-42lux"
         }
     ],
     "https://github.com/438443467/ComfyUI-GPT4V-Image-Captioner": [
@@ -4650,6 +4640,14 @@
             "title_aux": "RangeToString"
         }
     ],
+    "https://github.com/Dehypnotic/comfyui-save-mp3": [
+        [
+            "SaveAudioMP3Enhanced"
+        ],
+        {
+            "title_aux": "Save MP3"
+        }
+    ],
     "https://github.com/DenRakEiw/Latent_Nodes": [
         [
             "LatentColorMatch",
@@ -6453,6 +6451,14 @@
             "title_aux": "ComfyUI Geeky AudioMixer"
         }
     ],
+    "https://github.com/GegenDenTag/ComfyUI-multi-area-condition-node": [
+        [
+            "MultiAreaConditioning"
+        ],
+        {
+            "title_aux": "Multi Area Conditioning"
+        }
+    ],
     "https://github.com/GentlemanHu/ComfyUI-SunoAI": [
         [
             "GentlemanHu_SunoAI",
@@ -8253,6 +8259,18 @@
             "title_aux": "comfyui-save-image-enhanced"
         }
     ],
+    "https://github.com/Kaleidia/KaleidiaNodes": [
+        [
+            "FormatIntToString",
+            "GetFileCountInOutputFolder",
+            "LoadCSV",
+            "RandomFloatToString",
+            "RandomIntToString"
+        ],
+        {
+            "title_aux": "KaleidiaNodes"
+        }
+    ],
     "https://github.com/Kangkang625/ComfyUI-paint-by-example": [
         [
             "PaintbyExamplePipeLoader",
@@ -8695,6 +8713,17 @@
         ],
         {
             "title_aux": "ComfyUI_MatAnyone_Kytra"
+        }
+    ],
+    "https://github.com/L33chKing/ComfyUI-danbooru-FAISS-search": [
+        [
+            "DanbooruLookupAndDownload",
+            "GetDanbooru",
+            "StyleSimilarity",
+            "TagPrompt"
+        ],
+        {
+            "title_aux": "Danbooru FAISS Search Nodes"
         }
     ],
     "https://github.com/L33chKing/comfyui-tag-frequency-weighter": [
@@ -11760,6 +11789,7 @@
         [
             "Runware API Manager",
             "Runware Background Removal",
+            "Runware Bytedance Provider Settings",
             "Runware ControlNet",
             "Runware ControlNet Combine",
             "Runware ControlNet PreProcessor",
@@ -11790,6 +11820,7 @@
             "Runware VAE Search",
             "Runware Video Inference",
             "Runware Video Model Search",
+            "RunwareBytedanceProviderSettings",
             "RunwareFrameImages",
             "RunwareOpenAIProviderSettings",
             "RunwarePixverseProviderSettings",
@@ -11857,11 +11888,15 @@
         [
             "PrepackGetPipe",
             "PrepackKsampler",
+            "PrepackKsamplerAdvanced",
             "PrepackLoras",
+            "PrepackLorasAndMSSD3",
             "PrepackModelDualCLIP",
             "PrepackModelSingleCLIP",
             "PrepackSeed",
-            "PrepackSetPipe"
+            "PrepackSetPipe",
+            "\ud83d\udc80Prepack Logic Int",
+            "\ud83d\udc80Prepack Logic String"
         ],
         {
             "title_aux": "ComfyUI Prepack"
@@ -11877,7 +11912,9 @@
             "\ud83d\udc80Motion Position On Path",
             "\ud83d\udc80Motion Rotation",
             "\ud83d\udc80Motion Scale",
-            "\ud83d\udc80Motion Shake"
+            "\ud83d\udc80Motion Shake",
+            "\ud83d\udc80Video Crop",
+            "\ud83d\udc80Video Frames"
         ],
         {
             "title_aux": "ComfyUI S4Motion"
@@ -11885,25 +11922,27 @@
     ],
     "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image": [
         [
-            "CombineImageBatch",
-            "GetImageBatch",
             "ImageAdjustment",
             "ImageBlendWithAlpha",
             "ImageBoard",
             "ImageColor",
+            "ImageColorPicker",
             "ImageCombine",
             "ImageCropToFit",
             "ImageFromBase64",
+            "ImageFromFolder",
+            "ImageFromFolderByIndex",
+            "ImageFromURL",
             "ImageGetColor",
             "ImageMaskExpand",
             "ImageOverlay",
             "ImagePalette",
             "ImagePalette631",
             "ImagePrimaryColor",
+            "ImageRMBG",
             "ImageResize",
             "ImageTilingPattern",
-            "ImageToBase64",
-            "SetImageBatch"
+            "ImageToBase64"
         ],
         {
             "title_aux": "ComfyUI S4Tool Image"
@@ -12423,6 +12462,15 @@
         ],
         {
             "title_aux": "ComfyUI-WebpToPNGSequence"
+        }
+    ],
+    "https://github.com/Semonxue/Comfyui-flexai": [
+        [
+            "flexai:openai_image",
+            "flexai:openai_text"
+        ],
+        {
+            "title_aux": "ComfyUI FlexAI Nodes"
         }
     ],
     "https://github.com/Semper-Sursum/HF-Flux-ComfyUI": [
@@ -17547,7 +17595,8 @@
             "OCS_ImageSaver",
             "OCS_LocalImageSize",
             "OCS_LocalVideoSize",
-            "OCS_ModelDownloader"
+            "OCS_ModelDownloader",
+            "OCS_Watermarker"
         ],
         {
             "title_aux": "Open Creative Studio Nodes"
@@ -23674,7 +23723,10 @@
             "ChatterBoxOfficial23LangEngineNode",
             "F5TTSEngineNode",
             "HiggsAudioEngineNode",
+            "IndexTTS Engine",
+            "IndexTTSEmotionOptionsNode",
             "MouthMovementAnalyzer",
+            "QwenEmotionNode",
             "UnifiedTTSSRTNode",
             "UnifiedTTSTextNode",
             "UnifiedVoiceChangerNode",
@@ -27457,6 +27509,14 @@
             "title_aux": "ComfyUI XOR Text & Pickle Nodes"
         }
     ],
+    "https://github.com/ialhabbal/ComfyUI-Prompt-Verify": [
+        [
+            "Prompt Verify"
+        ],
+        {
+            "title_aux": "ComfyUI Prompt Verify"
+        }
+    ],
     "https://github.com/ialhabbal/OcclusionMask": [
         [
             "BatchLoadImages",
@@ -30153,6 +30213,7 @@
             "ConditioningSetMaskAndCombine3",
             "ConditioningSetMaskAndCombine4",
             "ConditioningSetMaskAndCombine5",
+            "ConsolidateMasksKJ",
             "CreateAudioMask",
             "CreateFadeMask",
             "CreateFadeMaskAdvanced",
@@ -33159,6 +33220,14 @@
         ],
         {
             "title_aux": "ComfyUI Midjourney Scraper Node"
+        }
+    ],
+    "https://github.com/lum3on/ComfyUI_Reve-API": [
+        [
+            "ReveAPI"
+        ],
+        {
+            "title_aux": "ComfyUI Reve API Integration Node"
         }
     ],
     "https://github.com/lum3on/comfyui_EdgeTAM": [
@@ -37088,13 +37157,20 @@
     "https://github.com/razvanmatei-sf/razv-wavespeed": [
         [
             "WaveSpeedAI ByteDance SeedDream V4",
+            "WaveSpeedAI ByteDance SeedDream V4 Sequential",
             "WaveSpeedAI Bytedance Seedream V4 Edit",
+            "WaveSpeedAI Bytedance Seedream V4 Edit Sequential",
             "WaveSpeedAI Client",
+            "WaveSpeedAI Flux Kontext Dev",
+            "WaveSpeedAI Flux Kontext Max",
+            "WaveSpeedAI Flux Kontext Pro",
             "WaveSpeedAI Google Nano Banana Edit",
             "WaveSpeedAI Google Nano Banana Text to Image",
             "WaveSpeedAI Image Upscaler",
             "WaveSpeedAI Qwen Image Edit",
-            "WaveSpeedAI Qwen Image Text to Image"
+            "WaveSpeedAI Qwen Image Edit LoRA",
+            "WaveSpeedAI Qwen Image Text to Image",
+            "WaveSpeedAI Qwen Image Text to Image LoRA"
         ],
         {
             "title_aux": "ComfyUI Razv WaveSpeed Nodes"
@@ -42419,6 +42495,15 @@
         ],
         {
             "title_aux": "EXO Custom ComfyUI Nodes"
+        }
+    ],
+    "https://github.com/xhh522/ComfyUI-preview-monitor": [
+        [
+            "HybridPreviewImageMonitor",
+            "PreviewImageMonitor"
+        ],
+        {
+            "title_aux": "ComfyUI Preview Monitor"
         }
     ],
     "https://github.com/xhiroga/ComfyUI-FramePackWrapper_PlusOne": [
