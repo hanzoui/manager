@@ -31,6 +31,17 @@
             "description": "A danbooru gallery for ComfyUI"
         },
         {
+            "author": "l33chking",
+            "title": "Danbooru FAISS Search Nodes",
+            "id": "danbooru-faiss-search",
+            "reference": "https://github.com/L33chKing/ComfyUI-danbooru-FAISS-search",
+            "files": [
+                "https://github.com/L33chKing/ComfyUI-danbooru-FAISS-search"
+            ],
+            "install_type": "git-clone",
+            "description": "Use image to search similar images from danbooru using various methods. Notice: the optional API key will be saved to metadata if used"
+        },
+        {
             "author": "len-ml",
             "title": "comfyui_qwen_image_edit_adv",
             "reference": "https://github.com/lenML/comfyui_qwen_image_edit_adv",
