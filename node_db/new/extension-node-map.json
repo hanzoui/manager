@@ -8089,6 +8089,17 @@
             "title_aux": "Wild Divide"
         }
     ],
+    "https://github.com/Junst/ComfyUI-Concept-Diffusion": [
+        [
+            "ConceptAttentionNode",
+            "ConceptAttentionVisualizerNode",
+            "ConceptSaliencyMapNode",
+            "ConceptSegmentationNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Concept-Diffusion"
+        }
+    ],
     "https://github.com/JustLateNightAI/KeywordImageBlocker": [
         [
             "TagKeywordBlocker"
@@ -41674,7 +41685,10 @@
             "FastFilmGrain",
             "FastLaplacianSharpen",
             "FastSobelSharpen",
-            "FastUnsharpSharpen"
+            "FastUnsharpSharpen",
+            "VRGDG_CombinevideosV2",
+            "VRGDG_LoadAudioSplitDynamic",
+            "VRGDG_LoadAudioSplit_HUMO"
         ],
         {
             "title_aux": "VRGameDevGirl Video Enhancement Nodes"

@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Junst",
+            "title": "ComfyUI-Concept-Diffusion",
+            "reference": "https://github.com/Junst/ComfyUI-Concept-Diffusion",
+            "files": [
+                "https://github.com/Junst/ComfyUI-Concept-Diffusion"
+            ],
+            "install_type": "git-clone",
+            "description": "ConceptAttention: Diffusion Transformers Learn Highly Interpretable Features for ComfyUI"
+        },
+        {
             "author": "1038lab",
             "title": "ComfyUI-FireRedTTS",
             "reference": "https://github.com/1038lab/ComfyUI-FireRedTTS",
@@ -684,118 +694,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node for generating high-fidelity, synchronized foley audio for any video, powered by Tencent’s HunyuanVideo-Foley model."
-        },
-        {
-            "author": "MilleN2ium",
-            "title": "ComfyUI-CutomizableSave",
-            "reference": "https://github.com/MilleN2ium/ComfyUI-CutomizableSave",
-            "files": [
-                "https://github.com/MilleN2ium/ComfyUI-CutomizableSave"
-            ],
-            "install_type": "git-clone",
-            "description": "save your image with customized naming rule"
-        },
-        {
-            "author": "Justify87",
-            "title": "ComfyUI Multi-Analysis Heatmaps",
-            "reference": "https://github.com/Justify87/ComfyUI-Multi-Analysis-Heatmaps",
-            "files": [
-                "https://github.com/Justify87/ComfyUI-Multi-Analysis-Heatmaps"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node for visual comparison of two images using multiple perceptual and mathematical methods. The goal: make hidden differences visible as colorful heatmaps, so you can see where an upscaler, denoiser, or diffusion model changed your image — even when your eyes can’t tell at first glance."
-        },
-        {
-            "author": "iguanesolutions",
-            "title": "Flux Resolution",
-            "reference": "https://github.com/iguanesolutions/comfyui-flux-resolution",
-            "files": [
-                "https://github.com/iguanesolutions/comfyui-flux-resolution"
-            ],
-            "install_type": "git-clone",
-            "description": "Get the closest compatible flux resolution from a given resolution."
-        },
-        {
-            "author": "matthewfriedrichs",
-            "title": "Thought Bubble",
-            "id": "thoughtbubble_interactivecanvas",
-            "reference": "https://github.com/matthewfriedrichs/ComfyUI-ThoughtBubble",
-            "files": [
-                "https://github.com/matthewfriedrichs/ComfyUI-ThoughtBubble"
-            ],
-            "install_type": "git-clone",
-            "description": "ThoughtBubble is a custom node for ComfyUI that provides an interactive canvas to build and manage your prompts in a more visual and organized way. Think of it as a whiteboard for your ideas, allowing you to link different concepts, create conditional logic, and dynamically generate prompts using a powerful set of commands."
-        },
-        {
-            "author": "opparco",
-            "title": "Wan2.2 Lightx2v Scheduler for ComfyUI",
-            "reference": "https://github.com/opparco/ComfyUI-WanLightx2vScheduler",
-            "files": [
-                "https://github.com/opparco/ComfyUI-WanLightx2vScheduler"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node package designed specifically for Wan2.2 Lightx2v models to fix the 'burnt-out' look, over-sharpening, and abrupt lighting shifts through proper denoising trajectory alignment."
-        },
-        {
-            "author": "FredBisAI",
-            "title": "ComfyUI FRED Nodes v2",
-            "reference": "https://github.com/Poukpalaova/ComfyUI-FRED-Nodes_v2",
-            "files": [
-                "https://github.com/Poukpalaova/ComfyUI-FRED-Nodes_v2"
-            ],
-            "install_type": "git-clone",
-            "description": "FRED's enhanced custom nodes for ComfyUI"
-        },
-
-        {
-            "author": "HM-RunningHub",
-            "title": "ComfyUI IC-Custom Node",
-            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_ICCustom",
-            "files": [
-                "https://github.com/HM-RunningHub/ComfyUI_RH_ICCustom"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that integrates IC-Custom model for high-quality image customization and generation."
-        },
-        {
-            "author": "polygoningenieur",
-            "title": "ComfyUI-IC-Light-Video",
-            "reference": "https://github.com/Polygoningenieur/ComfyUI-IC-Light-Video",
-            "files": [
-                "https://github.com/Polygoningenieur/ComfyUI-IC-Light-Video"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI native nodes for IC-Light with a Video node"
-        },
-        {
-            "author": "sumitchatterjee13",
-            "title": "Nuke Nodes for ComfyUI",
-            "reference": "https://github.com/sumitchatterjee13/nuke-nodes-comfyui",
-            "files": [
-                "https://github.com/sumitchatterjee13/nuke-nodes-comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "A comprehensive collection of ComfyUI custom nodes that replicate the functionality of popular Nuke compositing nodes. Includes merge, grade, transform, blur nodes and more for professional compositing workflows."
-        },
-        {
-            "author": "Yeq6X",
-            "title": "ComfyUI Image to Video Inserter",
-            "reference": "https://github.com/Yeq6X/ComfyUI-image-to-video-inserter",
-            "files": [
-                "https://github.com/Yeq6X/ComfyUI-image-to-video-inserter"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node that inserts images into videos."
-        },
-        {
-            "author": "yichengup",
-            "title": "ComfyUI_SwiftCut",
-            "reference": "https://github.com/yichengup/ComfyUI_SwiftCut",
-            "files": [
-                "https://github.com/yichengup/ComfyUI_SwiftCut"
-            ],
-            "install_type": "git-clone",
-            "description": "A simple ComfyUI plugin that Its purpose and function is to replicate some of the editing effects of capcut,jianying and pr."
         }
     ]
 }
