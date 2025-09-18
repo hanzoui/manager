@@ -33010,6 +33010,26 @@
             "install_type": "git-clone",
             "description": "ai-driven toolchain for digital design and fabrication "
         },
+        {
+            "author": "Sean-Bradley",
+            "title": "ComfyUI Virtual Webcam",
+            "reference": "https://github.com/Sean-Bradley/ComfyUI-Virtual-Webcam",
+            "files": [
+                "https://github.com/Sean-Bradley/ComfyUI-Virtual-Webcam"
+            ],
+            "install_type": "git-clone",
+            "description": "A Virtual Camera Output For ComfyUI. On Windows, it will use the OBS Virtual Camera driver. So make sure you have OBS installed. Then in your other webcam capable applications, such as Google Meet, Teams, Zoom and even OBS itself, you can connect to the OBS Virtual Camera option and see what you are outputting from ComfyUI."
+        },
+        {
+            "author": "LukeCoulson1",
+            "title": "ComfyUI LoRA Combine Node",
+            "reference": "https://github.com/LukeCoulson1/Comfyui_LoraCombine",
+            "files": [
+                "https://github.com/LukeCoulson1/Comfyui_LoraCombine"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that allows you to combine two LoRAs with adjustable strengths and multiple merging methods."
+        },
 
 
 
@@ -33457,16 +33477,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "Sean-Bradley",
-            "title": "ComfyUI Virtual Webcam",
-            "reference": "https://github.com/Sean-Bradley/ComfyUI-Virtual-Webcam",
-            "files": [
-                "https://github.com/Sean-Bradley/ComfyUI-Virtual-Webcam"
-            ],
-            "install_type": "git-clone",
-            "description": "A Virtual Camera Output For ComfyUI. On Windows, it will use the OBS Virtual Camera driver. So make sure you have OBS installed. Then in your other webcam capable applications, such as Google Meet, Teams, Zoom and even OBS itself, you can connect to the OBS Virtual Camera option and see what you are outputting from ComfyUI."
         }
     ]
 }

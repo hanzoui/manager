@@ -1650,9 +1650,7 @@
     ],
     "https://github.com/APZmedia/APZmedia-ComfyUI-PSDtools": [
         [
-            "APZmediaPSDInfoLoader",
-            "APZmediaPSDLayerLoader",
-            "APZmediaPSDLayerSaverRefactored"
+            "APZmediaPSDLayerSaverMultilayer"
         ],
         {
             "author": "Pablo Apiolazza",
@@ -9539,6 +9537,15 @@
             "title_aux": "ComfyUI-ScenarioPrompt"
         }
     ],
+    "https://github.com/LukeCoulson1/Comfyui_LoraCombine": [
+        [
+            "CombineLoras",
+            "LoraInfo"
+        ],
+        {
+            "title_aux": "ComfyUI LoRA Combine Node"
+        }
+    ],
     "https://github.com/LyazS/comfyui-anime-seg": [
         [
             "Anime Character Seg"
@@ -11946,7 +11953,8 @@
             "\ud83d\udc80Prepack Int Combine",
             "\ud83d\udc80Prepack Int Split",
             "\ud83d\udc80Prepack Logic Int",
-            "\ud83d\udc80Prepack Logic String"
+            "\ud83d\udc80Prepack Logic String",
+            "\ud83d\udc80Prepack Save By File Name"
         ],
         {
             "title_aux": "ComfyUI Prepack"
@@ -12381,6 +12389,14 @@
         ],
         {
             "title_aux": "ComfyUI-Long-CLIP"
+        }
+    ],
+    "https://github.com/Sean-Bradley/ComfyUI-Virtual-Webcam": [
+        [
+            "VirtualCamNode"
+        ],
+        {
+            "title_aux": "ComfyUI Virtual Webcam"
         }
     ],
     "https://github.com/SeanScripts/ComfyUI-PixtralLlamaMolmoVision": [
@@ -14754,6 +14770,7 @@
     ],
     "https://github.com/TinyBeeman/ComfyUI-TinyBee": [
         [
+            "Combine Lists",
             "Filter Existing Files",
             "Filter List",
             "Filter Words",
@@ -14763,6 +14780,7 @@
             "Indexed Entry",
             "List Count",
             "Process Path Name",
+            "Prompt Splitter",
             "Random Entry",
             "Randomize List",
             "Replace List",
@@ -15924,12 +15942,19 @@
             "EqualityNode",
             "ExecuteDualRobotJoint",
             "ExecuteDualRobotTcp",
+            "ExecuteJointMotion",
             "ExecuteJointPath",
             "ExecuteJointTrajectory",
             "ExecuteMotionPlan",
             "ExecuteTCPPath",
             "ExecuteTcpTrajectory",
             "GeneratePrimitiveValue",
+            "ImageRec_BuildClassifier",
+            "ImageRec_EvaluateClassifier",
+            "ImageRec_LoadDataset",
+            "ImageRec_ModelCheckpoint",
+            "ImageRec_Predict",
+            "ImageRec_TrainClassifier",
             "InstanceSegmentation_Image",
             "LargerThanNode",
             "LoadGroundingDinoModel",
@@ -15959,6 +15984,7 @@
             "SafetyStatus",
             "SaveData",
             "SetToolLight",
+            "SimulateMotionPlan",
             "SimulateUR10MotionPlan",
             "SmallerThanNode",
             "Stop",
@@ -17334,6 +17360,7 @@
             "CombineWan2_2VaceFunPipeline",
             "CombineWanPipeline",
             "CreateTrajectoryBasedOnKJNodes",
+            "FunAttention",
             "FunCompile",
             "FunRiflex",
             "FunTextBox",
@@ -17434,6 +17461,9 @@
             "Comfly_nano_banana_fal",
             "Comfly_qwen_image",
             "Comfly_qwen_image_edit",
+            "Comfly_suno_custom",
+            "Comfly_suno_description",
+            "Comfly_suno_lyrics",
             "Comfly_upload",
             "Comfly_video_extend"
         ],
@@ -17732,6 +17762,8 @@
     "https://github.com/alessandroperilli/OCS_Nodes": [
         [
             "OCS_CloudImageSize",
+            "OCS_FirstNotEmpty",
+            "OCS_ImageGrid4x4",
             "OCS_ImageListFilter",
             "OCS_ImageSaver",
             "OCS_LocalImageSize",
@@ -25162,8 +25194,10 @@
             "FL_DirectoryCrawl",
             "FL_Dither",
             "FL_Fal_Gemini_ImageEdit",
+            "FL_Fal_Kling_AIAvatar",
             "FL_Fal_Kontext",
             "FL_Fal_Pixverse",
+            "FL_Fal_Pixverse_LipSync",
             "FL_Fal_Pixverse_Transition",
             "FL_Fal_Seedance_i2v",
             "FL_Fal_Seedream_Edit",
@@ -30363,6 +30397,7 @@
             "BatchUncropAdvanced",
             "BboxToInt",
             "BboxVisualize",
+            "BlockifyMask",
             "CFGZeroStarAndInit",
             "CameraPoseVisualizer",
             "CheckpointLoaderKJ",
@@ -30401,6 +30436,7 @@
             "DiffusionModelSelector",
             "DownloadAndLoadCLIPSeg",
             "DrawInstanceDiffusionTracking",
+            "DrawMaskOnImage",
             "DummyOut",
             "EmptyLatentImageCustomPresets",
             "EmptyLatentImagePresets",
@@ -31846,7 +31882,8 @@
     ],
     "https://github.com/lihaoyun6/ComfyUI-QwenPromptRewriter": [
         [
-            "QwenPromptRewriter"
+            "QwenPromptRewriter",
+            "TextEncodeQwenImageEditAdv"
         ],
         {
             "title_aux": "Comfyui-QwenPromptRewriter"
@@ -41869,8 +41906,13 @@
     ],
     "https://github.com/vslinx/ComfyUI-vslinx-nodes": [
         [
+            "vsLinx_BooleanAndOperator",
+            "vsLinx_BooleanFlip",
+            "vsLinx_BooleanOrOperator",
+            "vsLinx_BypassOnBool",
             "vsLinx_LoadSelectedImagesBatch",
-            "vsLinx_LoadSelectedImagesList"
+            "vsLinx_LoadSelectedImagesList",
+            "vsLinx_MuteOnBool"
         ],
         {
             "title_aux": "ComfyUI vsLinx Nodes"

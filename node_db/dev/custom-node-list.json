@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "LukeCoulson1",
+            "title": "comfyui-sundryutils",
+            "reference": "https://github.com/orpheus-gaze/comfyui-sundryutils",
+            "files": [
+                "https://github.com/orpheus-gaze/comfyui-sundryutils"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: 'Return DateString', 'Sharpen, RealGrain & Autocontrast', 'Apply HaldClut'"
+        },
+        {
+            "author": "dcduanchao",
+            "title": "comfyui_video_http",
+            "reference": "https://github.com/dcduanchao/comfyui_video_http",
+            "files": [
+                "https://github.com/dcduanchao/comfyui_video_http"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Video Upload Node"
+        },
+        {
             "author": "wildminder",
             "title": "ComfyUI-VoxCPM [WIP]",
             "reference": "https://github.com/wildminder/ComfyUI-VoxCPM",
