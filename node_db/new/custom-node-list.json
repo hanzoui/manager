@@ -1,6 +1,86 @@
 {
     "custom_nodes": [
         {
+            "author": "VraethrDalkr",
+            "title": "ComfyUI-TripleKSampler",
+            "reference": "https://github.com/VraethrDalkr/ComfyUI-TripleKSampler",
+            "files": [
+                "https://github.com/VraethrDalkr/ComfyUI-TripleKSampler"
+            ],
+            "install_type": "git-clone",
+            "description": "Triple-stage KSampler for Wan2.2 split models with Lightning LoRA"
+        },
+        {
+            "author": "Firetheft",
+            "title": "ComfyUI_Pixabay_Gallery",
+            "reference": "https://github.com/Firetheft/ComfyUI_Pixabay_Gallery",
+            "files": [
+                "https://github.com/Firetheft/ComfyUI_Pixabay_Gallery"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful node for browsing and importing media from Pixabay directly within ComfyUI."
+        },
+        {
+            "author": "comrender",
+            "title": "ComfyUI-NanoSeed",
+            "reference": "https://github.com/comrender/ComfyUI-NanoSeed",
+            "files": [
+                "https://github.com/comrender/ComfyUI-NanoSeed"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node for seamless image editing using fal.ai's NanoBanana and Seedream (v4) models. Edit images with AI-powered prompts, supporting multi-image batches, custom resolutions, and easy fal.ai API key integration directly in the node interface. "
+        },
+        {
+            "author": "APZmedia",
+            "title": "ComfyUI APZmedia PSD Tools",
+            "reference": "https://github.com/APZmedia/APZmedia-ComfyUI-PSDtools",
+            "files": [
+                "https://github.com/APZmedia/APZmedia-ComfyUI-PSDtools"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension provides PSD layer saving functionalities with mask support for ComfyUI."
+        },
+        {
+            "author": "fr0nky0ng",
+            "title": "ComfyUI-frankAI-banana",
+            "reference": "https://github.com/fr0nky0ng/ComfyUI-frankAI-banana",
+            "files": [
+                "https://github.com/fr0nky0ng/ComfyUI-frankAI-banana"
+            ],
+            "install_type": "git-clone",
+            "description": "A set of ComfyUI nodes for calling the Nano-Banana API , while also supporting the Google API and frankAI API."
+        },
+        {
+            "author": "DecartAI",
+            "title": "Lucy-Edit-ComfyUI",
+            "reference": "https://github.com/DecartAI/Lucy-Edit-ComfyUI",
+            "files": [
+                "https://github.com/DecartAI/Lucy-Edit-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "Lucy Edit is a video editing model that performs instruction-guided edits on videos using free-text prompts — it supports a variety of edits, such as clothing & accessory changes, character changes, object insertions, and scene replacements while preserving the motion and composition perfectly."
+        },
+        {
+            "author": "wallen0322",
+            "title": "ComfyUI-QI-QwenEditSafe",
+            "reference": "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe",
+            "files": [
+                "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: QI • TextEncodeQwenImageEdit, QI • VAE Decode, QI • RefEdit Encode — by wallen0322"
+        },
+        {
+            "author": "Yuxi Liu",
+            "title": "comfyui-ddu",
+            "reference": "https://github.com/YL-Lyx/Comfyui-ddu-toolchain",
+            "files": [
+                "https://github.com/YL-Lyx/Comfyui-ddu-toolchain"
+            ],
+            "install_type": "git-clone",
+            "description": "ai-driven toolchain for digital design and fabrication "
+        },
+        {
             "author": "Junst",
             "title": "ComfyUI-Concept-Diffusion",
             "reference": "https://github.com/Junst/ComfyUI-Concept-Diffusion",
@@ -623,77 +703,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI node pack for encrypting and hiding text or images.\nSecurity: AES-256-GCM (authenticated) with scrypt key derivation.\nSteganography: LSB (PNG/TIFF) and DCT/JPEG (more robust to recompression)."
-        },
-        {
-            "author": "leylahkrell",
-            "title": "ComfyUI Violet Tools",
-            "reference": "https://github.com/leylahkrell/ComfyUI-Violet-Tools",
-            "files": [
-                "https://github.com/leylahkrell/ComfyUI-Violet-Tools"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of aesthetic-focused custom nodes for ComfyUI that enhance AI image generation with sophisticated style and prompt management capabilities. Includes 7 nodes: Aesthetic Alchemist (style blending with 20+ curated aesthetics), Quality Queen (quality prompts), Glamour Goddess (hair/makeup), Body Bard (body features), Pose Priestess (positioning), Encoding Enchantress (text processing), and Negativity Nullifier (negative prompts). Features weighted blending, randomization, and modular YAML-based configuration."
-        },
-        {
-            "author": "SnJake",
-            "title": "JPG & Noise Remover for ComfyUI",
-            "reference": "https://github.com/SnJake/SnJake_JPG_Artifacts_Noise_Cleaner",
-            "files": [
-                "https://github.com/SnJake/SnJake_JPG_Artifacts_Noise_Cleaner"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a custom node for ComfyUI designed to remove JPEG compression artifacts and digital noise from images. It is powered by a lightweight UNetRestorer model that efficiently restores image quality."
-        },
-        {
-            "author": "SatadalAI",
-            "title": "SATA UtilityNode Node for ComfyUI",
-            "id": "SATA UtilityNode",
-            "reference": "https://github.com/SatadalAI/SATA_UtilityNode",
-            "files": [
-                "https://github.com/SatadalAI/SATA_UtilityNode"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of utility nodes including image upscale,touchpad support and CSV-driven prompt machine for ComfyUI."
-        },
-        {
-            "author": "ShmuelRonen",
-            "title": "ComfyUI Flux Pro Integrative - Enhanced Flux API Node",
-            "reference": "https://github.com/ShmuelRonen/flux_pro_integrative",
-            "files": [
-                "https://github.com/ShmuelRonen/flux_pro_integrative"
-            ],
-            "install_type": "git-clone",
-            "description": "A completely rewritten and enhanced custom node for ComfyUI that integrates with Black Forest Labs FLUX API, providing seamless access to FLUX's image generation and finetuning capabilities with improved reliability and user experience."
-        },
-        {
-            "author": "CoreyCorza",
-            "title": "ComfyUI-CRZnodes",
-            "reference": "https://github.com/CoreyCorza/ComfyUI-CRZnodes",
-            "files": [
-                "https://github.com/CoreyCorza/ComfyUI-CRZnodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Dashboard Nodes for Comfy"
-        },
-        {
-            "author": "wizdroid",
-            "title": "Wizdroid ComfyUI Outfit Selection",
-            "reference": "https://github.com/wizdroid/wizdroid-fashionista",
-            "files": [
-                "https://github.com/wizdroid/wizdroid-fashionista"
-            ],
-            "install_type": "git-clone",
-            "description": "A comprehensive outfit generation system for ComfyUI with AI-powered prompt enhancement and dynamic outfit composition."
-        },
-        {
-            "author": "Vantage with AI",
-            "title": "Vantage-HunyuanFoley",
-            "reference": "https://github.com/vantagewithai/Vantage-HunyuanFoley",
-            "files": [
-                "https://github.com/vantagewithai/Vantage-HunyuanFoley"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node for generating high-fidelity, synchronized foley audio for any video, powered by Tencent’s HunyuanVideo-Foley model."
         }
     ]
 }

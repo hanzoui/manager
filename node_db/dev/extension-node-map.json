@@ -768,7 +768,6 @@
     ],
     "https://github.com/AlexYez/comfyui-timesaver": [
         [
-            "Gemma3nNode",
             "TS Cube to Equirectangular",
             "TS Equirectangular to Cube",
             "TS Files Downloader",
@@ -783,9 +782,12 @@
             "TS_Free_Video_Memory",
             "TS_ImageResize",
             "TS_MarianTranslator",
+            "TS_ModelConverter",
+            "TS_ModelConverterAdvanced",
+            "TS_Qwen2.5_VL",
             "TS_Qwen3",
-            "TS_Qwen3_Offline",
-            "TS_Qwen_GGUF",
+            "TS_QwenCanvas",
+            "TS_QwenSafeResize",
             "TS_VideoDepthNode",
             "TS_Video_Upscale_With_Model"
         ],
@@ -1790,7 +1792,9 @@
     "https://github.com/Firetheft/ComfyUI_Local_Image_Gallery": [
         [
             "LocalImageGalleryNode",
-            "SelectOriginalImageNode"
+            "SelectOriginalAudioNode",
+            "SelectOriginalImageNode",
+            "SelectOriginalVideoNode"
         ],
         {
             "title_aux": "ComfyUI Local Media Manager [UNSAFE]"
@@ -3496,6 +3500,7 @@
     ],
     "https://github.com/SlackinJack/multigpu_diffusion_comfyui": [
         [
+            "AdvancedSchedulerSelector",
             "AsyncDiffADSampler",
             "AsyncDiffConfig",
             "AsyncDiffSDSampler",
@@ -10651,6 +10656,14 @@
         ],
         {
             "title_aux": "ComfyUI-MagCache [NAME CONFLICT|WIP]"
+        }
+    ],
+    "https://github.com/wildminder/ComfyUI-VoxCPM": [
+        [
+            "VoxCPM_TTS"
+        ],
+        {
+            "title_aux": "ComfyUI-VoxCPM [WIP]"
         }
     ],
     "https://github.com/willblaschko/ComfyUI-Unload-Models": [
