@@ -1556,6 +1556,8 @@
     "https://github.com/EQXai/ComfyUI_EQX": [
         [
             "AspectRatioCropEQX",
+            "BatchImageTrimmer",
+            "BatchImageTrimmerMulti",
             "BodyCropMaskEQX",
             "CountFaces_EQX",
             "Extract Filename - EQX",
@@ -1563,6 +1565,7 @@
             "FaceCropMaskEQX",
             "FaceDetectOut",
             "File Image Selector",
+            "ImageDuplicateRemover",
             "Load Prompt From File - EQX",
             "LoadRetinaFace_EQX",
             "LoraStackEQX_random",
@@ -1571,6 +1574,8 @@
             "SaveImage_EQX",
             "SaveVideoEQX",
             "UncropByMaskEQX",
+            "VideoFragmentsNode",
+            "VideoFragmentsSplitter",
             "WorkFlow Check"
         ],
         {
@@ -3401,6 +3406,16 @@
         ],
         {
             "title_aux": "HiDreamSampler for ComfyUI [WIP]"
+        }
+    ],
+    "https://github.com/Santat2023/ComfyUiRagNodes": [
+        [
+            "MyNodesForDB",
+            "MyNodesForLLM",
+            "MyNodesForRAG"
+        ],
+        {
+            "title_aux": "ComfyUiRagNodes"
         }
     ],
     "https://github.com/Scaryplasmon/ComfTrellis": [
@@ -8194,8 +8209,7 @@
             "KS_any_payload_image",
             "KS_image_metadata_node",
             "KS_make_json_node",
-            "KS_merge_json_node",
-            "KS_qwen_image_api"
+            "KS_merge_json_node"
         ],
         {
             "title_aux": "ks_nodes"

@@ -15428,16 +15428,6 @@
             "description": "Lets you send a section of an image to qwen edit or kontext to help isolate areas in need of change"
         },
         {
-            "author": "GeekyGhost",
-            "title": "ComfyUI-Image-Segmenting-Loader",
-            "reference": "https://github.com/GeekyGhost/24oiduts-ComfyUI",
-            "files": [
-                "https://github.com/GeekyGhost/24oiduts-ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "Lets you send a section of an image to qwen edit or kontext to help isolate areas in need of change"
-        },
-        {
             "author": "Dobidop",
             "title": "Dobidop ComfyStereo",
             "id": "simple-stereoscopic",
@@ -27355,7 +27345,7 @@
         },
         {
             "author": "hao-ai-lab",
-            "title": "ComfyUI-FastVideo",
+            "title": "FastVideo",
             "reference": "https://github.com/hao-ai-lab/FastVideo",
             "files": [
                 "https://github.com/hao-ai-lab/FastVideo"
@@ -32799,17 +32789,6 @@
             "description": "A set of ComfyUI nodes for calling the Nano-Banana API , while also supporting the Google API and frankAI API."
         },
         {
-            "author": "S4MUEL404",
-            "title": "ComfyUI Prepack",
-            "id": "comfyui-prepack",
-            "reference": "https://github.com/S4MUEL-404/ComfyUI-Prepack",
-            "files": [
-                "https://github.com/S4MUEL-404/ComfyUI-Prepack"
-            ],
-            "install_type": "git-clone",
-            "description": "A small, practical bundle of ComfyUI nodes that streamlines common workflows."
-        },
-        {
             "author": "Tr1dae",
             "title": "LoRA Matcher Nodes for ComfyUI",
             "reference": "https://github.com/Tr1dae/ComfyUI-LoraPromptMatcher",
@@ -33089,6 +33068,26 @@
             ],
             "install_type": "git-clone",
             "description": "Automatically detect and download missing LoRAs for ComfyUI workflows"
+        },
+        {
+            "author": "3dgopnik",
+            "title": "comfyui-smart-lora-downloader - Automatically Fetch Missing LoRAs",
+            "reference": "https://github.com/3dgopnik/comfyui-arena-suite",
+            "files": [
+                "https://github.com/3dgopnik/comfyui-arena-suite"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes in a single package: Arena legacy + AutoCache + Updater"
+        },
+        {
+            "author": "SiggEye",
+            "title": "FaceCanon — Consistent Faces at Any Resolution",
+            "reference": "https://github.com/SiggEye/FaceCanon",
+            "files": [
+                "https://github.com/SiggEye/FaceCanon"
+            ],
+            "install_type": "git-clone",
+            "description": "FaceCanon scales a detected face to a canonical pixel size, lets you run your favorite face detailer at that sweet spot, then maps the result back into the original image with seamless blending. The payoff is consistent face style no matter the input resolution or framing."
         },
 
 

@@ -491,10 +491,19 @@
             "GPTImage_TextToImage",
             "GrsaiFluxKontext_ImageToImage",
             "GrsaiFluxKontext_MultiImageToImage",
-            "GrsaiFluxKontext_TextToImage"
+            "GrsaiFluxKontext_TextToImage",
+            "Grsai_NanoBanana"
         ],
         {
             "title_aux": "GrsAI api in ComfyUI"
+        }
+    ],
+    "https://github.com/3dgopnik/comfyui-arena-suite": [
+        [
+            "Arena_MakeTilesSegs"
+        ],
+        {
+            "title_aux": "comfyui-smart-lora-downloader - Automatically Fetch Missing LoRAs"
         }
     ],
     "https://github.com/438443467/ComfyUI-GPT4V-Image-Captioner": [
@@ -2340,8 +2349,9 @@
     ],
     "https://github.com/ApexArtist/comfyui-apex-artist": [
         [
-            "ApexArtist",
-            "ApexArtist - Depth to Normal"
+            "ApexArtist - Depth to Normal",
+            "ApexDepthToNormal",
+            "ApexSmartResize"
         ],
         {
             "title_aux": "Apex Artist - Image Resize"
@@ -6421,21 +6431,6 @@
         ],
         {
             "title_aux": "ComfyUI-SD3LatentSelectRes"
-        }
-    ],
-    "https://github.com/GeekyGhost/24oiduts-ComfyUI": [
-        [
-            "Studio42AudioLoader",
-            "Studio42AudioMixer",
-            "Studio42BackgroundRemoverEnhanced",
-            "Studio42LayerComposer",
-            "Studio42PatchDrop",
-            "Studio42PatchLiftLoader",
-            "Studio42VideoPatchDrop",
-            "Studio42VideoPatchLiftLoader"
-        ],
-        {
-            "title_aux": "ComfyUI-Image-Segmenting-Loader"
         }
     ],
     "https://github.com/GeekyGhost/ComfyUI-Geeky-Kokoro-TTS": [
@@ -12277,6 +12272,7 @@
     "https://github.com/SatadalAI/SATA_UtilityNode": [
         [
             "Prompt_Machine",
+            "Resolution_Machine",
             "Upscale_Machine"
         ],
         {
@@ -13088,6 +13084,15 @@
         ],
         {
             "title_aux": "ComfyUI_Textarea_Loaders"
+        }
+    ],
+    "https://github.com/SiggEye/FaceCanon": [
+        [
+            "FaceScaleDenormalizeComposite",
+            "FaceScaleNormalize"
+        ],
+        {
+            "title_aux": "FaceCanon \u2014 Consistent Faces at Any Resolution"
         }
     ],
     "https://github.com/SignalCha1n/comfyui-ComfySnap": [
@@ -26767,7 +26772,7 @@
             "VideoGenerator"
         ],
         {
-            "title_aux": "ComfyUI-FastVideo"
+            "title_aux": "FastVideo"
         }
     ],
     "https://github.com/haohaocreates/ComfyUI-HH-Image-Selector": [
@@ -31126,7 +31131,8 @@
     ],
     "https://github.com/kohs100/comfyui-ppwc": [
         [
-            "PPWCReplace"
+            "PPWCReplace",
+            "PPWCTerminate"
         ],
         {
             "author": "Phospholipids",
@@ -41944,6 +41950,7 @@
             "FastUnsharpSharpen",
             "VRGDG_CombinevideosV2",
             "VRGDG_LoadAudioSplitDynamic",
+            "VRGDG_LoadAudioSplitUpload",
             "VRGDG_LoadAudioSplit_HUMO"
         ],
         {
