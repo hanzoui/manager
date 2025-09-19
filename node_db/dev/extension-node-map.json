@@ -1358,6 +1358,17 @@
             "title_aux": "ComfyUI-DataVoid-nodes [WIP]"
         }
     ],
+    "https://github.com/DavidJBarnes/comfyui-djb-utils": [
+        [
+            "DirectImageFilenameInput",
+            "ResolutionDetectorFromFilename",
+            "WAN21ModelTracker",
+            "WorkingFilenameExtractor"
+        ],
+        {
+            "title_aux": "comfyui-djb-utils"
+        }
+    ],
     "https://github.com/DeTK/ComfyUI-Switch": [
         [
             "NodeSwitch"
@@ -6996,6 +7007,15 @@
             "title_aux": "comfyui-hnznodes"
         }
     ],
+    "https://github.com/husw725/comfyui_alta_nodes": [
+        [
+            "Alta:LoadImagesPath",
+            "Alta:SaveImagePlus"
+        ],
+        {
+            "title_aux": "comfyui_alta_nodes"
+        }
+    ],
     "https://github.com/hy134300/comfyui-hb-node": [
         [
             "generate story",
@@ -8148,6 +8168,37 @@
         ],
         {
             "title_aux": "SK-Nodes"
+        }
+    ],
+    "https://github.com/lu64k/ks_nodes": [
+        [
+            "KS Json Count",
+            "KS Json To String",
+            "KS JsonKeyExtractor",
+            "KS JsonKeyReplacer",
+            "KS JsonlFolderMatchReader",
+            "KS JsonlReader",
+            "KS Load Images From Folder KS",
+            "KS Random File Name",
+            "KS Save Text",
+            "KS Text_String",
+            "KS Word Frequency Statistics",
+            "KS get time int",
+            "KS json array constrains filter",
+            "KS json extract key and value",
+            "KS json float range filter",
+            "KS json key random",
+            "KS json key replace",
+            "KS json value eliminator",
+            "KS load text",
+            "KS_any_payload_image",
+            "KS_image_metadata_node",
+            "KS_make_json_node",
+            "KS_merge_json_node",
+            "KS_qwen_image_api"
+        ],
+        {
+            "title_aux": "ks_nodes"
         }
     ],
     "https://github.com/lucafoscili/lf-nodes": [
@@ -10678,14 +10729,6 @@
             "title_aux": "ComfyUI-MagCache [NAME CONFLICT|WIP]"
         }
     ],
-    "https://github.com/wildminder/ComfyUI-VoxCPM": [
-        [
-            "VoxCPM_TTS"
-        ],
-        {
-            "title_aux": "ComfyUI-VoxCPM [WIP]"
-        }
-    ],
     "https://github.com/willblaschko/ComfyUI-Unload-Models": [
         [
             "DeleteAnyObject",
@@ -10797,49 +10840,6 @@
         ],
         {
             "title_aux": "q_tools"
-        }
-    ],
-    "https://github.com/xmarked-ai/ComfyUI_misc": [
-        [
-            "BLIPMatcherX",
-            "BlendLatentsX",
-            "ColorCorrectionX",
-            "ColorSpaceConversionX",
-            "ColorTransferNodeX",
-            "CommonSourcesX",
-            "ConstantColorX",
-            "ConvexHullByMaskX",
-            "CropBorderX",
-            "DepthDisplaceX",
-            "EmptyLatentX",
-            "ExpressionsX",
-            "FourCornerPinMaskX",
-            "GaussianBlurX",
-            "GaussianMaskBlurX",
-            "IfConditionX",
-            "ImageCompositionX",
-            "ImageResizeX",
-            "ImageTileSquare",
-            "ImageUntileSquare",
-            "KSamplerComboX",
-            "LoopCloseX",
-            "LoopOpenX",
-            "LoraBatchSamplerX",
-            "RegionTesterNodeX",
-            "RegionalPromptSamplerX",
-            "RelightX",
-            "RemoveBackgroundX",
-            "SamplersTestX",
-            "SaveImageX",
-            "SelectiveDepthLoraBlocksX",
-            "SimpleBlockerX",
-            "SplineImageMask",
-            "TextConcatX",
-            "TextX",
-            "WhiteBalanceX"
-        ],
-        {
-            "title_aux": "ComfyUI_misc"
         }
     ],
     "https://github.com/xqqe/honey_nodes": [

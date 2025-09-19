@@ -1031,6 +1031,16 @@
             "description": "image and latent quilting nodes for comfyui"
         },
         {
+            "author": "bmad4ever",
+            "title": "comfyui-panels",
+            "reference": "https://github.com/bmad4ever/comfyui_panels",
+            "files": [
+                "https://github.com/bmad4ever/comfyui_panels"
+            ],
+            "install_type": "git-clone",
+            "description": "Comics/Manga like panel layouts."
+        },
+        {
             "author": "FizzleDorf",
             "title": "FizzNodes",
             "id": "fizz",
@@ -18760,7 +18770,7 @@
                 "https://github.com/sneccc/comfyui-snek-nodes"
             ],
             "install_type": "git-clone",
-            "description": "NODES:Aesthetics, Aesthetics V2, Load AI Toolkit Latent Flux, Send_to_Eagle"
+            "description": "NODES:Aesthetics, Aesthetics V2, Load AI Toolkit Latent Flux, Send_to_Eagle, Snek SQLite Prompt Logger"
         },
         {
             "author": "theshubzworld",
@@ -27282,6 +27292,16 @@
             "description": "VibeVoice TTS. Expressive, long-form, multi-speaker conversational audio"
         },
         {
+            "author": "wildminder",
+            "title": "ComfyUI-VoxCPM",
+            "reference": "https://github.com/wildminder/ComfyUI-VoxCPM",
+            "files": [
+                "https://github.com/wildminder/ComfyUI-VoxCPM"
+            ],
+            "install_type": "git-clone",
+            "description": "VoxCPM TTS. Context-aware, expressive speech generation and true-to-life voice cloning"
+        },
+        {
             "author": "cloudkoala",
             "title": "comfyui-koala",
             "reference": "https://github.com/cloudkoala/comfyui-koala",
@@ -28494,6 +28514,16 @@
             ],
             "install_type": "git-clone",
             "description": "A comprehensive ComfyUI plugin that enables seamless integration with Substance 3D Designer workflows through command line automation. This plugin provides custom nodes for cooking .sbs files, rendering .sbsar archives, controlling material parameters, and batch processing Substance materials within ComfyUI workflows."
+        },
+        {
+            "author": "jasonjgardner",
+            "title": "comfyui-pixel-art-scalers",
+            "reference": "https://github.com/jasonjgardner/comfyui-pixel-art-scalers",
+            "files": [
+                "https://github.com/jasonjgardner/comfyui-pixel-art-scalers"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node for scaling pixel art using various algorithms"
         },
         {
             "author": "sLKbabawhsiang",
@@ -30727,16 +30757,6 @@
             "description": "This is a modified implementation of impact-pack's iterative upscaler. It leans in on the idea that giving too much attention to computation at high resolutions isn't a good idea."
         },
         {
-            "author": "AlfredClark",
-            "title": "ComfyUI-ModelSpec",
-            "reference": "https://github.com/AlfredClark/ComfyUI-ModelSpec",
-            "files": [
-                "https://github.com/AlfredClark/ComfyUI-ModelSpec"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI model metadata editing nodes."
-        },
-        {
             "author": "zl9739379",
             "title": "ComfyUI-ArkVideoGenerate",
             "reference": "https://github.com/zl9739379/ComfyUI-ArkVideoGenerate",
@@ -31351,16 +31371,6 @@
             ],
             "install_type": "git-clone",
             "description": "Adaptive Prompts is a modern reimagining of dynamic prompts for ComfyUI. It lets you randomize, restructure, and clean up prompts with powerful wildcard and string tools. For the sake of consistency, I will still refer to them as Dynamic Prompts."
-        },
-        {
-            "author": "VraethrDalkr",
-            "title": "ComfyUI-ProgressiveBlend",
-            "reference": "https://github.com/VraethrDalkr/ComfyUI-ProgressiveBlend",
-            "files": [
-                "https://github.com/VraethrDalkr/ComfyUI-ProgressiveBlend"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for ComfyUI that enable progressive blending and color matching effects across image batches/video frames."
         },
         {
             "author": "VraethrDalkr",
@@ -33030,6 +33040,58 @@
             "install_type": "git-clone",
             "description": "A custom ComfyUI node that allows you to combine two LoRAs with adjustable strengths and multiple merging methods."
         },
+        {
+            "author": "ahkimkoo",
+            "title": "ComfyUI Audio Segment Plugin",
+            "reference": "https://github.com/ahkimkoo/Comfyui-AudioSegment",
+            "files": [
+                "https://github.com/ahkimkoo/Comfyui-AudioSegment"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node suite for ComfyUI designed for advanced audio processing"
+        },
+        {
+            "author": "joyboy123456",
+            "title": "ComfyUI Google AI Studio Integration",
+            "reference": "https://github.com/joyboy123456/-ComfyUI-GoogleAIStudio",
+            "files": [
+                "https://github.com/joyboy123456/-ComfyUI-GoogleAIStudio"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive ComfyUI plugin that integrates Google AI Studio's powerful AI models for content generation, image creation, video planning, and advanced prompt optimization."
+        },
+        {
+            "author": "Noma-Machiko",
+            "title": "ComfyUI-ToDevice",
+            "reference": "https://github.com/Noma-Machiko/ComfyUI-ToDevice",
+            "files": [
+                "https://github.com/Noma-Machiko/ComfyUI-ToDevice"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple collection of device conversion nodes for ComfyUI. These nodes move an image node running on the GPU over to the CPU. They also support moving from CPU to GPU, but in that case, please remove the CPU option from the ComfyUI startup options."
+        },
+        {
+            "author": "AdamShuo",
+            "title": "ComfyUI Switch Any Node",
+            "reference": "https://github.com/AdamShuo/ComfyUI_Switch",
+            "files": [
+                "https://github.com/AdamShuo/ComfyUI_Switch"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node for ComfyUI that provides a dynamic 'Switch' for routing purposes. It allows you to define a list of named labels and select one, outputting the corresponding index and label name. This is useful for controlling the flow of your workflow based on a selection."
+        },
+        {
+            "author": "mcrataobrabo",
+            "title": "comfyui-smart-lora-downloader - Automatically Fetch Missing LoRAs",
+            "reference": "https://github.com/mcrataobrabo/comfyui-smart-lora-downloader",
+            "files": [
+                "https://github.com/mcrataobrabo/comfyui-smart-lora-downloader"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatically detect and download missing LoRAs for ComfyUI workflows"
+        },
+
+
 
 
 

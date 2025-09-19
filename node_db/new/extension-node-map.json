@@ -1900,6 +1900,14 @@
             "title_aux": "ComfyUI GOAT Nodes"
         }
     ],
+    "https://github.com/AdamShuo/ComfyUI_Switch": [
+        [
+            "SwitchAny"
+        ],
+        {
+            "title_aux": "ComfyUI Switch Any Node"
+        }
+    ],
     "https://github.com/Aero-Ex/ComfyUI-Vision-LLM-Analyzer": [
         [
             "VisionLLMNode"
@@ -2071,16 +2079,6 @@
         ],
         {
             "title_aux": "camera-comfyUI"
-        }
-    ],
-    "https://github.com/AlfredClark/ComfyUI-ModelSpec": [
-        [
-            "ModelMetadataNode",
-            "ModelSpecEditNode",
-            "SelectModelNode"
-        ],
-        {
-            "title_aux": "ComfyUI-ModelSpec"
         }
     ],
     "https://github.com/Aljnk/ComfyUI-JNK-Tiny-Nodes": [
@@ -8931,15 +8929,6 @@
             "title_aux": "ComfyUI-WBLESS"
         }
     ],
-    "https://github.com/LargeModGames/comfyui-smart-lora-downloader": [
-        [
-            "LoRAAutoDownloader",
-            "WorkflowLoRAScanner"
-        ],
-        {
-            "title_aux": "ComfyUI LoRA Auto Downloader"
-        }
-    ],
     "https://github.com/LarryJane491/Image-Captioning-in-ComfyUI": [
         [
             "LoRA Caption Load",
@@ -10807,6 +10796,15 @@
         ],
         {
             "title_aux": "ComfyUI GLM-4 Wrapper"
+        }
+    ],
+    "https://github.com/Noma-Machiko/ComfyUI-ToDevice": [
+        [
+            "ToCPU",
+            "ToGPU"
+        ],
+        {
+            "title_aux": "ComfyUI-ToDevice"
         }
     ],
     "https://github.com/NotHarroweD/Harronode": [
@@ -15186,15 +15184,6 @@
             "title_aux": "ComfyUI-Visionatrix"
         }
     ],
-    "https://github.com/VraethrDalkr/ComfyUI-ProgressiveBlend": [
-        [
-            "ProgressiveColorMatchBlend",
-            "ProgressiveImageBatchBlend"
-        ],
-        {
-            "title_aux": "ComfyUI-ProgressiveBlend"
-        }
-    ],
     "https://github.com/VraethrDalkr/ComfyUI-TripleKSampler": [
         [
             "TripleKSamplerWan22Lightning",
@@ -17132,6 +17121,18 @@
         ],
         {
             "title_aux": "ComfyUI-GCP_Storage_tools"
+        }
+    ],
+    "https://github.com/ahkimkoo/Comfyui-AudioSegment": [
+        [
+            "AudioListToBatch",
+            "AudioSegmentByParagraph",
+            "AudioSegmenter",
+            "SelectAudioClipFromList",
+            "SelectAudioFromList"
+        ],
+        {
+            "title_aux": "ComfyUI Audio Segment Plugin"
         }
     ],
     "https://github.com/ai-liam/comfyui-liam": [
@@ -19511,6 +19512,39 @@
         ],
         {
             "title_aux": "Lists Cartesian Product"
+        }
+    ],
+    "https://github.com/bmad4ever/comfyui_panels": [
+        [
+            "bmad_BBoxFromInts",
+            "bmad_BBoxSnap",
+            "bmad_BevelPolygon",
+            "bmad_BuildLayoutPanels",
+            "bmad_CanvasPanel",
+            "bmad_DrawPanelsEdges",
+            "bmad_GridPanelLayoutGenerator",
+            "bmad_ListAppendPanel",
+            "bmad_ListTransferPanel",
+            "bmad_LoadPanelLayout",
+            "bmad_MutatePanelLayout",
+            "bmad_OffsetPolygonBounds",
+            "bmad_Panel2Mask",
+            "bmad_PasteCrops",
+            "bmad_PolygonBounds",
+            "bmad_PolygonUnwrappedBounds",
+            "bmad_PreviewPanelLayout",
+            "bmad_PreviewPanels",
+            "bmad_RandomPanelLayoutGenerator",
+            "bmad_RotatePolygon",
+            "bmad_SavePanelLayout",
+            "bmad_ScalePolygon",
+            "bmad_SliceList_Panels",
+            "bmad_StringDecodePanelLayout",
+            "bmad_StringEncodePanelLayout",
+            "bmad_TranslatePolygon"
+        ],
+        {
+            "title_aux": "comfyui-panels"
         }
     ],
     "https://github.com/bmad4ever/comfyui_quilting": [
@@ -28668,6 +28702,14 @@
             "title_aux": "ComfyUI Substance Designer Integration Plugin"
         }
     ],
+    "https://github.com/jasonjgardner/comfyui-pixel-art-scalers": [
+        [
+            "PixelArtScaler"
+        ],
+        {
+            "title_aux": "comfyui-pixel-art-scalers"
+        }
+    ],
     "https://github.com/jax-explorer/ComfyUI-InstantCharacter": [
         [
             "InstantCharacterGenerate",
@@ -29179,6 +29221,22 @@
         ],
         {
             "title_aux": "ComfyUI Touchpad Scroll Controller"
+        }
+    ],
+    "https://github.com/joyboy123456/-ComfyUI-GoogleAIStudio": [
+        [
+            "GoogleAIConfig",
+            "GoogleAIConnectionTester",
+            "GoogleAIImageGenerator",
+            "GoogleAIKeyManager",
+            "GoogleAITextToImage",
+            "GoogleAIVideoGenerator",
+            "GoogleAIVideoStoryboard",
+            "PromptAnalyzer",
+            "PromptOptimizer"
+        ],
+        {
+            "title_aux": "ComfyUI Google AI Studio Integration"
         }
     ],
     "https://github.com/jqy-yo/Comfyui-BBoxLowerMask2": [
@@ -30785,6 +30843,7 @@
             "DrawNLFPoses",
             "DummyComfyWanModelObject",
             "ExtractStartFramesForContinuations",
+            "FaceMaskFromPoseKeypoints",
             "FantasyPortraitFaceDetector",
             "FantasyPortraitModelLoader",
             "FantasyTalkingModelLoader",
@@ -30812,6 +30871,7 @@
             "WanVideoAddPusaNoise",
             "WanVideoAddS2VEmbeds",
             "WanVideoAddStandInLatent",
+            "WanVideoAnimateEmbeds",
             "WanVideoApplyNAG",
             "WanVideoBlockList",
             "WanVideoBlockSwap",
@@ -31866,7 +31926,8 @@
             "ApplyBlindWatermark",
             "ApplyBlindWatermarkAdvanced",
             "DecodeBlindWatermark",
-            "DecodeBlindWatermarkAdvanced"
+            "DecodeBlindWatermarkAdvanced",
+            "EncryptDecryptImage"
         ],
         {
             "title_aux": "ComfyUI-BlindWatermark"
@@ -33913,6 +33974,15 @@
         ],
         {
             "title_aux": "Dynamic Thresholding"
+        }
+    ],
+    "https://github.com/mcrataobrabo/comfyui-smart-lora-downloader": [
+        [
+            "LoRAAutoDownloader",
+            "WorkflowLoRAScanner"
+        ],
+        {
+            "title_aux": "comfyui-smart-lora-downloader - Automatically Fetch Missing LoRAs"
         }
     ],
     "https://github.com/meanin2/comfyui-MGnodes": [
@@ -36141,8 +36211,9 @@
     "https://github.com/otavanopisto/ComfyUI-aihub-workflow-exposer": [
         [
             "AIHubActionNewImage",
-            "AIHubDevWebsocketDebug",
+            "AIHubActionNewLayer",
             "AIHubExposeBoolean",
+            "AIHubExposeCfg",
             "AIHubExposeConfigBoolean",
             "AIHubExposeConfigFloat",
             "AIHubExposeConfigInteger",
@@ -36161,6 +36232,8 @@
             "AIHubPatchActionSetConfigFloat",
             "AIHubPatchActionSetConfigInteger",
             "AIHubPatchActionSetConfigString",
+            "AIHubUtilsCropMergedImageToLayerSize",
+            "AIHubUtilsFitLayerToMergedImage",
             "AIHubWorkflowController"
         ],
         {
@@ -39857,6 +39930,7 @@
             "Load AI Toolkit Latent Flux",
             "Save_Image_And_Caption",
             "Send_to_Eagle",
+            "Snek SQLite Prompt Logger",
             "\ud83d\udc0d Random Prompt From JSON"
         ],
         {
@@ -42271,6 +42345,14 @@
         ],
         {
             "title_aux": "ComfyUI-VibeVoice"
+        }
+    ],
+    "https://github.com/wildminder/ComfyUI-VoxCPM": [
+        [
+            "VoxCPM_TTS"
+        ],
+        {
+            "title_aux": "ComfyUI-VoxCPM"
         }
     ],
     "https://github.com/willchil/ComfyUI-Environment-Visualizer": [

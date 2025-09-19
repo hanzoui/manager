@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "lu64k",
+            "title": "ks_nodes",
+            "reference": "https://github.com/lu64k/ks_nodes",
+            "files": [
+                "https://github.com/lu64k/ks_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: KS Text_String, KS Random File Name, KS Save Text, KS load text, KS get time int, KS json float range filter, KS json array constrains filter, KS json key replace, KS json value eliminator, KS json extract key and value, KS json key random, KS Json Count, KS Word Frequency Statistics, KS Load Images From Folder KS, KS Json To String, KS JsonlReader, KS JsonKeyReplacer, KS JsonKeyExtractor, KS_merge_json_node, KS_make_json_node, KS_qwen_image_api, KS_any_payload_image, KS JsonlFolderMatchReader, KS_image_metadata_node"
+        },
+        {
+            "author": "DavidJBarnes",
+            "title": "comfyui-djb-utils",
+            "reference": "https://github.com/DavidJBarnes/comfyui-djb-utils",
+            "files": [
+                "https://github.com/DavidJBarnes/comfyui-djb-utils"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Working Filename Extractor, Direct Image Filename Input"
+        },
+        {
+            "author": "husw725",
+            "title": "comfyui_alta_nodes",
+            "reference": "https://github.com/husw725/comfyui_alta_nodes",
+            "files": [
+                "https://github.com/husw725/comfyui_alta_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: 'Alta:SaveImagePlus', 'Alta:LoadImagesPath'"
+        },
+        {
             "author": "LukeCoulson1",
             "title": "comfyui-sundryutils",
             "reference": "https://github.com/orpheus-gaze/comfyui-sundryutils",
@@ -19,16 +49,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Video Upload Node"
-        },
-        {
-            "author": "wildminder",
-            "title": "ComfyUI-VoxCPM [WIP]",
-            "reference": "https://github.com/wildminder/ComfyUI-VoxCPM",
-            "files": [
-                "https://github.com/wildminder/ComfyUI-VoxCPM"
-            ],
-            "install_type": "git-clone",
-            "description": "VoxCPM TTS. Context-aware, expressive speech generation and true-to-life voice cloning"
         },
         {
             "author": "AIGCZero",
@@ -4463,16 +4483,6 @@
             ],
             "install_type": "git-clone",
             "description": "A repo of custom nodes for ComfyUI, from interacting with certain APIs to whatever other miscellanea I end up making"
-        },
-        {
-            "author": "xmarked-ai",
-            "title": "ComfyUI_misc",
-            "reference": "https://github.com/xmarked-ai/ComfyUI_misc",
-            "files": [
-                "https://github.com/xmarked-ai/ComfyUI_misc"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Ace IntegerX, Ace FloatX, Ace Color FixX, White Balance X, Depth Displace X, Empty Latent X, KSampler Combo X, ..."
         },
         {
             "author": "Elypha",
