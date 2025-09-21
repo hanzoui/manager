@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "sumitchatterjee13",
+            "title": "Luminance Stack Processor",
+            "reference": "https://github.com/sumitchatterjee13/Luminance-Stack-Processor",
+            "files": [
+                "https://github.com/sumitchatterjee13/Luminance-Stack-Processor"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes to process multi exposure images and stack them to produce 32bit exr file with dynamic range data"
+        },
+        {
+            "author": "perckle",
+            "title": "ComfyUI-DPIR",
+            "reference": "https://github.com/perckle/comfyui_dpir",
+            "files": [
+                "https://github.com/perckle/comfyui_dpir"
+            ],
+            "install_type": "git-clone",
+            "description": "A dpir/DRUnet inference node for ComfyUI"
+        },
+        {
             "author": "sammykumar",
             "title": "ComfyUI-SwissArmyKnife",
             "reference": "https://github.com/sammykumar/ComfyUI-SwissArmyKnife",
@@ -691,138 +711,6 @@
             ],
             "install_type": "git-clone",
             "description": "AI Horde integration as custom node(s) for ComfyUI"
-        },
-        {
-            "author": "darkamenosa",
-            "title": "Comfy Nano Banana",
-            "id": "comfy-nanobanana",
-            "reference": "https://github.com/darkamenosa/comfy_nanobanana",
-            "files": [
-                "https://github.com/darkamenosa/comfy_nanobanana"
-            ],
-            "install_type": "git-clone",
-            "description": "Google Gemini API integration for ComfyUI - Generate images and text using Google's latest AI models. Provides nodes for Gemini API interactions and batch image processing."
-        },
-        {
-            "author": "Regi E",
-            "title": "Comfyui-EasyIllustrious",
-            "reference": "https://github.com/regiellis/ComfyUI-EasyIllustrious",
-            "files": [
-                "https://github.com/regiellis/ComfyUI-EasyIllustrious"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-EasyIllustrious is a custom node suite to make working with Illustrious models easier and more intuitive"
-        },
-        {
-            "author": "firetheft",
-            "title": "ComfyUI_Local_Lora_Gallery",
-            "reference": "https://github.com/Firetheft/ComfyUI_Local_Lora_Gallery",
-            "files": [
-                "https://github.com/Firetheft/ComfyUI_Local_Lora_Gallery"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that provides a visual gallery for managing and applying multiple LoRA models."
-        },
-        {
-            "author": "lucasgattas",
-            "title": "ComfyUI · Egregora Audio Super‑Resolution",
-            "reference": "https://github.com/lucasgattas/ComfyUI-Egregora-Audio-Super-Resolution",
-            "files": [
-                "https://github.com/lucasgattas/ComfyUI-Egregora-Audio-Super-Resolution"
-            ],
-            "install_type": "git-clone",
-            "description": "High‑quality music audio enhancement for ComfyUI: FlashSR super‑resolution + Fat Llama spectral enhancement (GPU & CPU)."
-        },
-        {
-            "author": "jfcantu",
-            "title": "ComfyUI Prompt Companion",
-            "reference": "https://github.com/jfcantu/ComfyUI-Prompt-Companion",
-            "files": [
-                "https://github.com/jfcantu/ComfyUI-Prompt-Companion"
-            ],
-            "install_type": "git-clone",
-            "description": "A node that lets you save and reuse parts of prompts (embeddings, quality keywords, and so on.)"
-        },
-        {
-            "author": "FloyoAI",
-            "title": "ComfyUI Seed API Integration",
-            "reference": "https://github.com/FloyoAI/ComfyUI-Seed-API",
-            "files": [
-                "https://github.com/FloyoAI/ComfyUI-Seed-API"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom nodes for Seed AI APIs including video generation, image generation, and chat models"
-        },
-        {
-            "author": "duldduld",
-            "title": "ComfyUI_md5",
-            "reference": "https://github.com/duldduld/ComfyUI_md5",
-            "files": [
-                "https://github.com/duldduld/ComfyUI_md5"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom nodes to covert string/image/file to md5 hash"
-        },
-        {
-            "author": "jtydhr88",
-            "title": "ComfyUI-StableStudio",
-            "reference": "https://github.com/jtydhr88/ComfyUI-StableStudio",
-            "files": [
-                "https://github.com/jtydhr88/ComfyUI-StableStudio"
-            ],
-            "install_type": "git-clone",
-            "description": "A practical plug‑in that adds a StableStudio style user interface to ComfyUI. This project aims to give you a clean, responsive UI for managing StableStudio features inside ComfyUI, without complicating your workflow. It focuses on reliability, speed, and a calm, uncluttered design that helps you work faster."
-        },
-        {
-            "author": "ApexArtist",
-            "title": "Apex Artist - Image Resize",
-            "reference": "https://github.com/ApexArtist/comfyui-apex-artist",
-            "files": [
-                "https://github.com/ApexArtist/comfyui-apex-artist"
-            ],
-            "install_type": "git-clone",
-            "description": "Professional image resizing node with 6 advanced algorithms, intelligent aspect ratio handling, crop/pad options, and batch processing support. Perfect for AI workflows, photography, and digital art.",
-            "category": "Image Processing",
-            "tags": [
-                "image",
-                "resize", 
-                "scaling",
-                "aspect-ratio",
-                "lanczos",
-                "bicubic",
-                "batch-processing"
-            ],
-            "version": "1.0.0"
-        },
-        {
-            "author": "Seth A. Robinson",
-            "title": "Workflow to API Converter Endpoint",
-            "reference": "https://github.com/SethRobinson/comfyui-workflow-to-api-converter-endpoint",
-            "files": [
-                "https://github.com/SethRobinson/comfyui-workflow-to-api-converter-endpoint"
-            ],
-            "install_type": "git-clone",
-            "description": "Adds a global /workflow/convert API endpoint to convert non-API workflow formats to API format for ComfyUI execution"
-        },
-        {
-            "author": "orion4d",
-            "title": "Gemini Nano Banana for ComfyUI",
-            "reference": "https://github.com/orion4d/Gemini_Banana_by_orion4d",
-            "files": [
-                "https://github.com/orion4d/Gemini_Banana_by_orion4d"
-            ],
-            "install_type": "git-clone",
-            "description": "This project is a custom node for ComfyUI that integrates the power of the Google Gemini 2.5 Flash Image (“Nano Banana”) API. It provides a single versatile node, the Gemini Nano Banana, which allows you to perform image generation and editing operations directly within your workflows."
-        },
-        {
-            "author": "orion4d",
-            "title": "ComfyUI EncryptMaster",
-            "reference": "https://github.com/orion4d/Comfyui_EncryptMaster",
-            "files": [
-                "https://github.com/orion4d/Comfyui_EncryptMaster"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI node pack for encrypting and hiding text or images.\nSecurity: AES-256-GCM (authenticated) with scrypt key derivation.\nSteganography: LSB (PNG/TIFF) and DCT/JPEG (more robust to recompression)."
         }
     ]
 }

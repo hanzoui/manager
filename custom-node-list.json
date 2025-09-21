@@ -33089,6 +33089,27 @@
             "install_type": "git-clone",
             "description": "A collection of custom nodes for ComfyUI featuring Gemini AI integration for video and image analysis, with a complete development environment using GPU-accelerated containers."
         },
+        {
+            "author": "sumitchatterjee13",
+            "title": "Luminance Stack Processor",
+            "reference": "https://github.com/sumitchatterjee13/Luminance-Stack-Processor",
+            "files": [
+                "https://github.com/sumitchatterjee13/Luminance-Stack-Processor"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes to process multi exposure images and stack them to produce 32bit exr file with dynamic range data"
+        },
+        {
+            "author": "perckle",
+            "title": "ComfyUI-DPIR",
+            "reference": "https://github.com/perckle/comfyui_dpir",
+            "files": [
+                "https://github.com/perckle/comfyui_dpir"
+            ],
+            "install_type": "git-clone",
+            "description": "A dpir/DRUnet inference node for ComfyUI"
+        },
+
 
 
 
@@ -33538,16 +33559,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-	       "author": "sumitchatterjee13",
-	       "title": "Luminance Stack Processor",
-	       "reference": "https://github.com/sumitchatterjee13/Luminance-Stack-Processor",
-	       "files": [
-	           "https://github.com/sumitchatterjee13/Luminance-Stack-Processor"
-	       ],
-	       "install_type": "git-clone",
-	       "description": "Custom nodes to process multi exposure images and stack them to produce 32bit exr file with dynamic range data"
-	   }
+        }
     ]
 }

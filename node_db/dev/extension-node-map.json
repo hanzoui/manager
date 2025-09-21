@@ -149,6 +149,7 @@
     "https://github.com/1H-hobit/ComfyUI_InternVL3": [
         [
             "DynamicPreprocess",
+            "Florence2toCoordinates_hb",
             "InternVLHFInference",
             "InternVLModelLoader",
             "hb_Number_Counter"
@@ -1195,6 +1196,7 @@
             "VTS To Boolean",
             "VTS To List",
             "VTS To Text",
+            "VTS To Text List",
             "VTS_Load_Pose_Keypoints",
             "Vts Text To Batch Prompt"
         ],
@@ -7063,15 +7065,23 @@
     ],
     "https://github.com/husw725/comfyui_alta_nodes": [
         [
+            "Alta:EditableImage",
+            "Alta:GetImageAndPath",
+            "Alta:GetImageByIndex",
+            "Alta:GetStringByIndex",
             "Alta:GptImageMerge",
             "Alta:JiMengImage2Video",
             "Alta:JiMengImage2VideoQuery",
             "Alta:JimengText2Image",
             "Alta:LoadImage",
+            "Alta:LoadImageFromPath",
             "Alta:LoadImageWithPath",
             "Alta:LoadImagesPath",
+            "Alta:LoadVideoPath",
+            "Alta:LoadVideosFromFolder",
             "Alta:SaveImage",
-            "Alta:SaveImagePlus"
+            "Alta:SaveImagePlus",
+            "Alta:VideoCombine"
         ],
         {
             "title_aux": "comfyui_alta_nodes"
@@ -8001,6 +8011,9 @@
     ],
     "https://github.com/lfelipegg/lfgg_custom_nodes": [
         [
+            "LFGG - Resolution Tools",
+            "LFGG KSampler (advanced) - Config",
+            "LFGG KSampler - Config",
             "ModelMergeCombos"
         ],
         {
@@ -8027,6 +8040,18 @@
         ],
         {
             "title_aux": "ComfyUI-img-tiler"
+        }
+    ],
+    "https://github.com/lihaoyun6/ComfyUI-lhyNodes": [
+        [
+            "CSVRandomPicker",
+            "CSVRandomPickerAdv",
+            "MaskToSAMCoords",
+            "StrFormat",
+            "StrFormatAdv"
+        ],
+        {
+            "title_aux": "ComfyUI-lhyNodes"
         }
     ],
     "https://github.com/linhusyung/comfyui-Build-and-train-your-network": [

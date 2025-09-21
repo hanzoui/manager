@@ -2349,12 +2349,14 @@
     ],
     "https://github.com/ApexArtist/comfyui-apex-artist": [
         [
-            "ApexArtist - Depth to Normal",
             "ApexBlur",
             "ApexColorReference",
             "ApexDepthToNormal",
+            "ApexFilmGrading",
             "ApexLayerBlend",
-            "ApexSmartResize"
+            "ApexSharpen",
+            "ApexSmartResize",
+            "ApexStableNormal"
         ],
         {
             "title_aux": "Apex Artist - Image Resize"
@@ -4960,6 +4962,7 @@
             "DD-ModelSwitcher",
             "DD-QwenMTTranslator",
             "DD-SimpleLatent",
+            "DD-TxtFileMerger",
             "DD-VideoFrameExtractor"
         ],
         {
@@ -6571,6 +6574,7 @@
             "ReActorMaskHelper",
             "ReActorOptions",
             "ReActorRestoreFace",
+            "ReActorRestoreFaceAdvanced",
             "ReActorSaveFaceModel",
             "ReActorSetWeight",
             "ReActorUnload"
@@ -20193,8 +20197,8 @@
             "color_OneColor_replace",
             "color_adjust_HDR",
             "color_adjust_HSL",
-            "color_adjust_WB_balance",
             "color_adjust_light",
+            "color_balance_adv",
             "color_match_adv",
             "color_selector",
             "color_tool",
@@ -20218,6 +20222,7 @@
             "excel_imgEditor_helper",
             "excel_insert_image",
             "excel_insert_image_easy",
+            "excel_object",
             "excel_qwen_artistic",
             "excel_qwen_font",
             "excel_read",
@@ -20229,6 +20234,7 @@
             "excel_write_data_easy",
             "flow_auto_pixel",
             "flow_judge",
+            "flow_model_tool",
             "img_effect_CircleWarp",
             "img_effect_Liquify",
             "img_effect_Load",
@@ -27727,6 +27733,10 @@
         [
             "ICHIS_Aspect_Ratio_Plus",
             "ICHIS_Extract_Tags",
+            "ICHIS_Save_Tags",
+            "ICHIS_Tag_Category_Select",
+            "ICHIS_Tag_File_Loader",
+            "ICHIS_Tag_Sampler",
             "ICHIS_Text_Selector"
         ],
         {
@@ -31015,7 +31025,9 @@
             "Json Extractor - klinter",
             "LoadImagePlus",
             "LoadVideoForExtendingKlinter",
+            "NanoBananaMultiInput",
             "OutpaintPadding",
+            "OutputTester",
             "PrepVideoForExtendKlinter",
             "SaveAudioPlus",
             "SizeSelector",
@@ -33507,8 +33519,8 @@
             "ComfyUI Folder Paths | sokes \ud83e\uddac",
             "Current Date & Time | sokes \ud83e\uddac",
             "Generate Random Background | sokes \ud83e\uddac",
+            "Get Files in Folder with Extension | sokes \ud83e\uddac",
             "Hex Color Swatch | sokes \ud83e\uddac",
-            "Hex to Color Name | sokes \ud83e\uddac",
             "Image Picker | sokes \ud83e\uddac",
             "Latent Switch x9 | sokes \ud83e\uddac",
             "Load Random Image | sokes \ud83e\uddac",
@@ -36170,6 +36182,7 @@
             "AIHubExposeImageBatch",
             "AIHubExposeImageInfoOnly",
             "AIHubExposeInteger",
+            "AIHubExposeModel",
             "AIHubExposeSampler",
             "AIHubExposeScheduler",
             "AIHubExposeSeed",
@@ -36452,6 +36465,14 @@
         ],
         {
             "title_aux": "Comfyui_wan_api"
+        }
+    ],
+    "https://github.com/perckle/comfyui_dpir": [
+        [
+            "ImageDenoiseWithDPIR"
+        ],
+        {
+            "title_aux": "ComfyUI-DPIR"
         }
     ],
     "https://github.com/pharmapsychotic/comfy-cliption": [
@@ -40402,6 +40423,16 @@
             "title_aux": "comfyui_tag_filter"
         }
     ],
+    "https://github.com/sumitchatterjee13/Luminance-Stack-Processor": [
+        [
+            "HDRExportNode",
+            "LuminanceStackProcessor3Stops",
+            "LuminanceStackProcessor5Stops"
+        ],
+        {
+            "title_aux": "Luminance Stack Processor"
+        }
+    ],
     "https://github.com/sumitchatterjee13/nuke-nodes-comfyui": [
         [
             "NukeBlur",
@@ -40411,6 +40442,8 @@
             "NukeCornerPin",
             "NukeCrop",
             "NukeDefocus",
+            "NukeExposure",
+            "NukeExposureAdvanced",
             "NukeGrade",
             "NukeLevels",
             "NukeMerge",
