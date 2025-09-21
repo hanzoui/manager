@@ -1,14 +1,34 @@
 {
     "custom_nodes": [
         {
+            "author": "sammykumar",
+            "title": "ComfyUI-SwissArmyKnife",
+            "reference": "https://github.com/sammykumar/ComfyUI-SwissArmyKnife",
+            "files": [
+                "https://github.com/sammykumar/ComfyUI-SwissArmyKnife"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI featuring Gemini AI integration for video and image analysis, with a complete development environment using GPU-accelerated containers."
+        },
+        {
             "author": "3dgopnik",
-            "title": "comfyui-smart-lora-downloader - Automatically Fetch Missing LoRAs",
+            "title": "ComfyUI Arena Suite",
             "reference": "https://github.com/3dgopnik/comfyui-arena-suite",
             "files": [
                 "https://github.com/3dgopnik/comfyui-arena-suite"
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom nodes in a single package: Arena legacy + AutoCache + Updater"
+        },
+        {
+            "author": "3dgopnik",
+            "title": "ComfyUI YOLO Mask Process",
+            "reference": "https://github.com/gasdyueer/comfyui-yolo-mask-process",
+            "files": [
+                "https://github.com/gasdyueer/comfyui-yolo-mask-process"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for YOLO detection and mask processing"
         },
         {
             "author": "wildminder",
@@ -19,16 +39,6 @@
             ],
             "install_type": "git-clone",
             "description": "VoxCPM TTS. Context-aware, expressive speech generation and true-to-life voice cloning"
-        },
-        {
-            "author": "SiggEye",
-            "title": "FaceCanon — Consistent Faces at Any Resolution",
-            "reference": "https://github.com/SiggEye/FaceCanon",
-            "files": [
-                "https://github.com/SiggEye/FaceCanon"
-            ],
-            "install_type": "git-clone",
-            "description": "FaceCanon scales a detected face to a canonical pixel size, lets you run your favorite face detailer at that sweet spot, then maps the result back into the original image with seamless blending. The payoff is consistent face style no matter the input resolution or framing."
         },
         {
             "author": "mcrataobrabo",

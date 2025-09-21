@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "Yuxi Liu",
+            "title": "comfyui-ddu [REMOVED]",
+            "reference": "https://github.com/YL-Lyx/Comfyui-ddu-toolchain",
+            "files": [
+                "https://github.com/YL-Lyx/Comfyui-ddu-toolchain"
+            ],
+            "install_type": "git-clone",
+            "description": "ai-driven toolchain for digital design and fabrication "
+        },
+        {
+            "author": "lu64k",
+            "title": "SK-Nodes [REMOVED]",
+            "reference": "https://github.com/lu64k/SK-Nodes",
+            "files": [
+                "https://github.com/lu64k/SK-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES:image select, Load AnyLLM, Ask LLM, OpenAI DAlle Node, SK Text_String, SK Random File Name"
+        },
+        {
+            "author": "SiggEye",
+            "title": "FaceCanon — Consistent Faces at Any Resolution [REMOVED]",
+            "reference": "https://github.com/SiggEye/FaceCanon",
+            "files": [
+                "https://github.com/SiggEye/FaceCanon"
+            ],
+            "install_type": "git-clone",
+            "description": "FaceCanon scales a detected face to a canonical pixel size, lets you run your favorite face detailer at that sweet spot, then maps the result back into the original image with seamless blending. The payoff is consistent face style no matter the input resolution or framing."
+        },
+        {
             "author": "AlfredClark",
             "title": "ComfyUI-ModelSpec [REMOVED]",
             "reference": "https://github.com/AlfredClark/ComfyUI-ModelSpec",

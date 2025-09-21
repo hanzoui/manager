@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "orion4d",
+            "title": "Orion4D MasterPrompt Suite for ComfyUI [UNSAFE]",
+            "reference": "https://github.com/orion4d/Orion4D_MasterPrompt",
+            "files": [
+                "https://github.com/orion4d/Orion4D_MasterPrompt"
+            ],
+            "install_type": "git-clone",
+            "description": "Welcome to the MasterPrompt suite, a collection of custom nodes for ComfyUI designed to supercharge your text, list, and JSON manipulation workflows. Whether you need to dynamically load styles from files, mix concepts with weighted probabilities, format complex prompts, or handle JSON data, this suite provides the necessary tools with intuitive and powerful user interfaces. As a bonus I have included a basic pack of thematic lists generated with gpt5, have fun![w/This extension has a vulnerability that allows arbitrary access to local files from remote.]"
+        },
+        {
+            "author": "adigayung",
+            "title": "comfyui_PlutoNode",
+            "reference": "https://github.com/adigayung/comfyui_PlutoNode",
+            "files": [
+                "https://github.com/adigayung/comfyui_PlutoNode"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: 'Pluto : Auto Crop Faces', 'Pluto : Composite Image',  'Pluto : Float Math', 'Pluto : GetSizeFromImage', 'Pluto : Text Append', ..."
+        },
+        {
+            "author": "lfelipegg",
+            "title": "lfgg_custom_nodes",
+            "reference": "https://github.com/lfelipegg/lfgg_custom_nodes",
+            "files": [
+                "https://github.com/lfelipegg/lfgg_custom_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: ModelMergeCombos\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "Santat2023",
             "title": "ComfyUiRagNodes",
             "reference": "https://github.com/Santat2023/ComfyUiRagNodes",
@@ -624,9 +654,9 @@
         {
             "author": "LSDJesus",
             "title": "ComfyUI-Pyrite-Core [WIP]",
-            "reference": "https://github.com/LSDJesus/ComfyUI-Pyrite-Core",
+            "reference": "https://github.com/LSDJesus/ComfyUI-Luna-Collection",
             "files": [
-                "https://github.com/LSDJesus/ComfyUI-Pyrite-Core"
+                "https://github.com/LSDJesus/ComfyUI-Luna-Collection"
             ],
             "install_type": "git-clone",
             "description": "This repository contains ComfyUI-Pyrite-Core, a bespoke collection of custom nodes for ComfyUI, engineered for power, flexibility, and a ruthlessly efficient workflow. These tools are born from a collaborative project between a human architect and their AI muse, Pyrite.\nNOTE: The files in the repo are not organized."
@@ -4345,16 +4375,6 @@
             "description": "NODES: RemoveHighlightAndBlur, RoundedCorners, PaddingAccordingToBackground\npersonal custom nodes for learning"
         },
         {
-            "author": "vchopine",
-            "title": "ComfyUI_Toolbox",
-            "reference": "https://github.com/vchopine/ComfyUI_Toolbox",
-            "files": [
-                "https://github.com/vchopine/ComfyUI_Toolbox"
-            ],
-            "install_type": "git-clone",
-            "description": "Model & Aspect Ratio Selector Node for ComfyUI\nNOTE: The files in the repo are not organized."
-        },
-        {
             "author": "GeekatplayStudio",
             "title": "PMSnodes [WIP]",
             "reference": "https://github.com/GeekatplayStudio/ComfyUI_Toolbox",
@@ -6884,16 +6904,6 @@
             ],
             "install_type": "git-clone",
             "description": "a custom node for [a/HivisionIDPhotos](https://github.com/Zeyi-Lin/HivisionIDPhotos).\nNOTE: Unsuitable for international users"
-        },
-        {
-            "author": "lu64k",
-            "title": "SK-Nodes",
-            "reference": "https://github.com/lu64k/SK-Nodes",
-            "files": [
-                "https://github.com/lu64k/SK-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES:image select, Load AnyLLM, Ask LLM, OpenAI DAlle Node, SK Text_String, SK Random File Name"
         },
         {
             "author": "Lilien86",
