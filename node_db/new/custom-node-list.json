@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "S4MUEL404",
+            "title": "ComfyUI-PromptsO",
+            "id": "comfyui-promptso",
+            "reference": "https://github.com/S4MUEL-404/ComfyUI-PromptsO",
+            "files": [
+                "https://github.com/S4MUEL-404/ComfyUI-PromptsO"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive AI API integration and prompt processing toolkit for ComfyUI, providing powerful text and image generation capabilities with advanced prompt manipulation tools."
+        },
+        {
             "author": "downlifted",
             "title": "ComfyUI_ComfyGroq",
             "reference": "https://github.com/downlifted/ComfyUI_GROQ-PromptWizard",
@@ -681,16 +692,6 @@
             ],
             "install_type": "git-clone",
             "description": "Making ComfyUI more comfortable."
-        },
-        {
-            "author": "easygoing0114",
-            "title": "ComfyUI-easygoing-nodes",
-            "reference": "https://github.com/easygoing0114/ComfyUI-easygoing-nodes",
-            "files": [
-                "https://github.com/easygoing0114/ComfyUI-easygoing-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Enhanced Text Encoder modules, acd Custom nodes for ComfyUI, device-select CLIP loaders, providing HDR effects, image saving with prompt metadata."
         }
     ]
 }
