@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "downlifted",
+            "title": "ComfyUI_ComfyGroq",
+            "reference": "https://github.com/downlifted/ComfyUI_GROQ-PromptWizard",
+            "files": [
+                "https://github.com/downlifted/ComfyUI_GROQ-PromptWizard"
+            ],
+            "install_type": "git-clone",
+            "description": "A streamlined ComfyUI custom node package for interacting with GROQ's AI models, including both text and vision capabilities."
+        },
+        {
             "author": "sumitchatterjee13",
             "title": "Luminance Stack Processor",
             "reference": "https://github.com/sumitchatterjee13/Luminance-Stack-Processor",
@@ -681,36 +691,6 @@
             ],
             "install_type": "git-clone",
             "description": "Enhanced Text Encoder modules, acd Custom nodes for ComfyUI, device-select CLIP loaders, providing HDR effects, image saving with prompt metadata."
-        },
-        {
-            "author": "writer-in-fancy-pants",
-            "title": "Octo Json Presets",
-            "reference": "https://github.com/writer-in-fancy-pants/octo_json_presets",
-            "files": [
-                "https://github.com/writer-in-fancy-pants/octo_json_presets"
-            ],
-            "install_type": "git-clone",
-            "description": "Load presets from json file to run a set of experiments in a workflow with different models and settings"
-        },
-        {
-            "author": "apacheone",
-            "title": "ComfyUI_efficient_sam_node",
-            "reference": "https://github.com/Apache0ne/ComfyUI_efficient_sam_node",
-            "files": [
-                "https://github.com/Apache0ne/ComfyUI_efficient_sam_node"
-            ],
-            "install_type": "git-clone",
-            "description": "Unofficial EfficientViT_sam_nodes for the https://huggingface.co/mit-han-lab/efficientvit-sam models"
-        },
-        {
-            "author": "Malte0621",
-            "title": "HordeAI",
-            "reference": "https://github.com/Malte0621/hordeai-comfy",
-            "files": [
-                "https://github.com/Malte0621/hordeai-comfy"
-            ],
-            "install_type": "git-clone",
-            "description": "AI Horde integration as custom node(s) for ComfyUI"
         }
     ]
 }

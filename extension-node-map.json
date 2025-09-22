@@ -563,6 +563,7 @@
     ],
     "https://github.com/5agado/ComfyUI-Sagado-Nodes": [
         [
+            "Film Grain",
             "Get Num Frames",
             "Get Resolution",
             "Image Loader",
@@ -24092,6 +24093,18 @@
             "title_aux": "ComfyUI Deadline Submission"
         }
     ],
+    "https://github.com/downlifted/ComfyUI_GROQ-PromptWizard": [
+        [
+            "GroqAudioProcessor",
+            "GroqCodeAssistant",
+            "GroqDocumentAnalyzer",
+            "GroqLLM",
+            "GroqVision"
+        ],
+        {
+            "title_aux": "ComfyUI_ComfyGroq"
+        }
+    ],
     "https://github.com/drago87/ComfyUI_Dragos_Nodes": [
         [
             "file_padding",
@@ -39919,6 +39932,7 @@
     ],
     "https://github.com/snicolast/ComfyUI-IndexTTS2": [
         [
+            "IndexTTS2Advanced",
             "IndexTTS2EmotionFromText",
             "IndexTTS2EmotionVector",
             "IndexTTS2Simple"
@@ -41935,14 +41949,20 @@
             "FastLaplacianSharpen",
             "FastSobelSharpen",
             "FastUnsharpSharpen",
+            "VRGDG_CalculateSetsFromAudio",
             "VRGDG_CombinevideosV2",
+            "VRGDG_ConditionalLoadVideos",
             "VRGDG_Extract_Frame_Number",
+            "VRGDG_GetFilenamePrefix",
             "VRGDG_LoadAudioSplitDynamic",
             "VRGDG_LoadAudioSplitUpload",
             "VRGDG_LoadAudioSplit_HUMO",
             "VRGDG_LoadAudioSplit_HUMO_Transcribe",
+            "VRGDG_LoadVideos",
             "VRGDG_PromptSplitter",
+            "VRGDG_TimecodeFromIndex",
             "VRGDG_TranscribeText",
+            "VRGDG_TriggerCounter",
             "VRGDG_VideoSplitter"
         ],
         {
@@ -43691,6 +43711,7 @@
             "KY_BBoxesToSAM2",
             "KY_CreateMask",
             "KY_CreateVideoObjectFromPath",
+            "KY_CropImageByXYWH",
             "KY_FilePathAnalyzer-",
             "KY_FileSequenceAnalyzer",
             "KY_First_NOT_EMPTY",
@@ -43710,6 +43731,7 @@
             "KY_RegexReplace",
             "KY_SaveImageToPath",
             "KY_ToVideoUrl",
+            "KY_Uploads",
             "KY_VideoCompare",
             "KY_isNone",
             "KY_restoreBBox",
