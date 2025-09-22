@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "red-polo",
+            "title": "ComfyUI-WanViTPoseRetargeter",
+            "reference": "https://github.com/red-polo/ComfyUI-WanViTPoseRetargeter",
+            "files": [
+                "https://github.com/red-polo/ComfyUI-WanViTPoseRetargeter"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a ComfyUI port of PoseRetarget, originally implemented in Wan2.2-Animation. Please use it together with WanVideoWrapper."
+        },
+        {
+            "author": "APZmedia",
+            "title": "ComfyUI Color Profile Reader",
+            "reference": "https://github.com/APZmedia/ComfyUI-color-tools",
+            "files": [
+                "https://github.com/APZmedia/ComfyUI-color-tools"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive collection of color manipulation and analysis nodes for ComfyUI"
+        },
+        {
             "author": "S4MUEL404",
             "title": "ComfyUI-PromptsO",
             "id": "comfyui-promptso",

@@ -1699,6 +1699,17 @@
             "title_aux": "APZmedia Naming Tools"
         }
     ],
+    "https://github.com/APZmedia/ComfyUI-color-tools": [
+        [
+            "ColorConverterAdvanced",
+            "ColorProfileConvert",
+            "ColorProfileReader",
+            "GammaCompare"
+        ],
+        {
+            "title_aux": "ComfyUI Color Profile Reader"
+        }
+    ],
     "https://github.com/ARZUMATA/ComfyUI-ARZUMATA": [
         [
             "CachingCLIPTextEncodeFlux|ARZUMATA",
@@ -2353,7 +2364,6 @@
             "ApexBlur",
             "ApexColorReference",
             "ApexDepthToNormal",
-            "ApexFilmGrading",
             "ApexLayerBlend",
             "ApexSharpen",
             "ApexSmartResize",
@@ -5108,6 +5118,7 @@
             "AsAny",
             "BBoxCrop",
             "BBoxImageStitcher",
+            "BBoxesToImpactPackSegs",
             "CoverWordsWithRectangles",
             "CreateArkClient",
             "CreateBoundingBoxesMaskQwen",
@@ -11852,12 +11863,17 @@
     "https://github.com/Runware/ComfyUI-Runware": [
         [
             "Runware API Manager",
+            "Runware Audio Inference",
+            "Runware Audio Model Search",
+            "Runware Audio Sections",
             "Runware Background Removal",
             "Runware Bytedance Provider Settings",
             "Runware ControlNet",
             "Runware ControlNet Combine",
             "Runware ControlNet PreProcessor",
             "Runware DeepCache",
+            "Runware ElevenLabs Provider Settings",
+            "Runware ElevenLabs Provider Settings Sections",
             "Runware Embedding Search",
             "Runware Embeddings Combine",
             "Runware Frame Images",
@@ -11967,6 +11983,24 @@
         ],
         {
             "title_aux": "ComfyUI Prepack"
+        }
+    ],
+    "https://github.com/S4MUEL-404/ComfyUI-PromptsO": [
+        [
+            "\ud83d\udc80S4ImageWithGemini",
+            "\ud83d\udc80S4ImageWithGrok",
+            "\ud83d\udc80S4PromptsCombine",
+            "\ud83d\udc80S4PromptsFromJanusPro",
+            "\ud83d\udc80S4PromptsInput",
+            "\ud83d\udc80S4PromptsReplace",
+            "\ud83d\udc80S4PromptsSplit",
+            "\ud83d\udc80S4TextWithDeepseek",
+            "\ud83d\udc80S4TextWithGemini",
+            "\ud83d\udc80S4TextWithGrok",
+            "\ud83d\udc80S4TextWithOpenAI"
+        ],
+        {
+            "title_aux": "ComfyUI-PromptsO"
         }
     ],
     "https://github.com/S4MUEL-404/ComfyUI-S4Motion": [
@@ -12265,6 +12299,7 @@
     ],
     "https://github.com/Santodan/santodan-custom-nodes-comfyui": [
         [
+            "ExcludedLoras",
             "LoRACachePreloader",
             "RandomLoRACustom",
             "RandomLoRAFolder"
@@ -15619,6 +15654,7 @@
             "WaveSpeedAI KwaivgiKlingV21I2vProNode",
             "WaveSpeedAI KwaivgiKlingV21I2vStandardNode",
             "WaveSpeedAI KwaivgiKlingV21T2vMasterNode",
+            "WaveSpeedAI Loras Config",
             "WaveSpeedAI LtxVideoV097I2V480pNode",
             "WaveSpeedAI LtxVideoV097I2V720pNode",
             "WaveSpeedAI MMAudioV2Node",
@@ -22621,6 +22657,7 @@
             "TestWhileLoopOpen",
             "TextEncodeHunyuanVideo_ImageToVideo",
             "TextEncodeQwenImageEdit",
+            "TextEncodeQwenImageEditPlus",
             "ThresholdMask",
             "TomePatchModel",
             "TorchCompileModel",
@@ -30834,6 +30871,7 @@
             "WanVideoAddControlEmbeds",
             "WanVideoAddExtraLatent",
             "WanVideoAddFantasyPortrait",
+            "WanVideoAddLucyEditLatents",
             "WanVideoAddMTVMotion",
             "WanVideoAddPusaNoise",
             "WanVideoAddS2VEmbeds",
@@ -36190,6 +36228,7 @@
             "AIHubExposeConfigFloat",
             "AIHubExposeConfigInteger",
             "AIHubExposeConfigString",
+            "AIHubExposeExtendableScheduler",
             "AIHubExposeFloat",
             "AIHubExposeImage",
             "AIHubExposeImageBatch",
@@ -36199,6 +36238,7 @@
             "AIHubExposeSampler",
             "AIHubExposeScheduler",
             "AIHubExposeSeed",
+            "AIHubExposeSteps",
             "AIHubExposeString",
             "AIHubExposeStringSelection",
             "AIHubPatchActionSetConfigBoolean",
@@ -37426,7 +37466,8 @@
             "WaveSpeedAI Qwen Image Edit",
             "WaveSpeedAI Qwen Image Edit LoRA",
             "WaveSpeedAI Qwen Image Text to Image",
-            "WaveSpeedAI Qwen Image Text to Image LoRA"
+            "WaveSpeedAI Qwen Image Text to Image LoRA",
+            "WaveSpeedAI WAN 2.2 Animate"
         ],
         {
             "title_aux": "ComfyUI Razv WaveSpeed Nodes"
@@ -37525,6 +37566,15 @@
         ],
         {
             "title_aux": "ComfyUI-RecraftAI"
+        }
+    ],
+    "https://github.com/red-polo/ComfyUI-WanViTPoseRetargeter": [
+        [
+            "WanViTPoseEstimator",
+            "WanViTPoseRetargeter"
+        ],
+        {
+            "title_aux": "ComfyUI-WanViTPoseRetargeter"
         }
     ],
     "https://github.com/redhottensors/ComfyUI-Prediction": [
@@ -42067,6 +42117,7 @@
     ],
     "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe": [
         [
+            "QI_QwenVLClipWrapper",
             "QI_RefEditEncode_Safe",
             "QI_TextEncodeQwenImageEdit_Safe",
             "QI_VAEDecodeLockSize"
@@ -42310,6 +42361,7 @@
             "EmptyUnitGenerator_UTK",
             "FillMaskedArea_UTK",
             "ImageAndMaskPreview_UTK",
+            "ImageBlendAdvance_UTK",
             "ImageCombineAlpha_UTK",
             "ImageConcatenateMulti_UTK",
             "ImageConcatenate_UTK",
@@ -42526,6 +42578,7 @@
     "https://github.com/wjl0313/ComfyUI_KimNodes": [
         [
             "Add_ImageMetadata",
+            "Bitch_Filter",
             "BoundingBox_Cropper",
             "Crop_Paste",
             "Distribute_Icons",
