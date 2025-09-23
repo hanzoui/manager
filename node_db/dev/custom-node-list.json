@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "kijai",
+            "title": "ComfyUI-WanAnimatePreprocess [WIP]",
+            "reference": "https://github.com/kijai/ComfyUI-WanAnimatePreprocess",
+            "files": [
+                "https://github.com/kijai/ComfyUI-WanAnimatePreprocess"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for WanAnimate model input preprocessing"
+        },
+        {
             "author": "znuost10",
             "title": "comfyui-multi-float-output",
             "reference": "https://github.com/znuost10/comfyui-multi-float-output",
@@ -108,7 +118,7 @@
                 "https://github.com/husw725/comfyui_alta_nodes"
             ],
             "install_type": "git-clone",
-            "description": "NODES: 'Alta:SaveImagePlus', 'Alta:LoadImagesPath'"
+            "description": "NODES: 'Alta:SaveImagePlus', 'Alta:LoadImagesPath', 'Alta:LoadVideoPath', 'Alta:LoadVideosFromFolder', 'Alta:VideoCombine'"
         },
         {
             "author": "LukeCoulson1",

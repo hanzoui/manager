@@ -1200,6 +1200,7 @@
             "VTS To List",
             "VTS To Text",
             "VTS To Text List",
+            "VTS VAE Decode Tiled",
             "VTS_Load_Pose_Keypoints",
             "Vts Text To Batch Prompt"
         ],
@@ -2657,6 +2658,7 @@
     ],
     "https://github.com/Maff3u/MattiaNodes": [
         [
+            "LS_Gemini_Image_Edit",
             "MattiaLoraLoaderFromPath",
             "PointsEditorOnCropped",
             "PresetCycler"
@@ -6882,7 +6884,8 @@
     "https://github.com/heyburns/LinxUtil": [
         [
             "AutoWBColorMatch",
-            "Multipurpose Configuration"
+            "Multipurpose Configuration",
+            "StripExtensionNode"
         ],
         {
             "title_aux": "LinxUtil"
@@ -7077,7 +7080,6 @@
     ],
     "https://github.com/husw725/comfyui_alta_nodes": [
         [
-            "Alta:EditableImage",
             "Alta:GetImageAndPath",
             "Alta:GetImageByIndex",
             "Alta:GetStringByIndex",
@@ -7782,6 +7784,17 @@
             "title_aux": "ComfyUI-VideoNoiseWarp [WIP]"
         }
     ],
+    "https://github.com/kijai/ComfyUI-WanAnimatePreprocess": [
+        [
+            "DrawViTPose",
+            "OnnxDetectionModelLoader",
+            "PoseAndFaceDetection",
+            "PoseRetargetPromptHelper"
+        ],
+        {
+            "title_aux": "ComfyUI-WanAnimatePreprocess [WIP]"
+        }
+    ],
     "https://github.com/kimara-ai/ComfyUI-Kimara-AI-Advanced-Watermarks": [
         [
             "KimaraAIBatchImages",
@@ -8059,6 +8072,7 @@
             "CSVRandomPicker",
             "CSVRandomPickerAdv",
             "MaskToSAMCoords",
+            "MorseCode",
             "StrFormat",
             "StrFormatAdv"
         ],
@@ -8304,6 +8318,7 @@
             "LF_ControlPanel",
             "LF_CreateMask",
             "LF_Desaturation",
+            "LF_DetectRegions",
             "LF_DiffusionModelSelector",
             "LF_DisplayBoolean",
             "LF_DisplayFloat",
@@ -8350,10 +8365,12 @@
             "LF_MathOperation",
             "LF_MultipleImageResizeForWeb",
             "LF_Notify",
+            "LF_ONNXSelector",
             "LF_ParsePromptWithLoraTags",
             "LF_RandomBoolean",
             "LF_RegexReplace",
             "LF_RegionExtractor",
+            "LF_RegionMask",
             "LF_ResizeImageByEdge",
             "LF_ResizeImageToDimension",
             "LF_ResizeImageToSquare",

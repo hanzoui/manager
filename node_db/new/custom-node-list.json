@@ -11,6 +11,17 @@
             "description": "ComfyUI nodes for Volcano Ark (Jimeng) API"
         },
         {
+            "author": "wallen",
+            "title": "ComfyUI-QI-QwenEditSafe",
+            "id": "qi-qweneditsafe",
+            "reference": "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe",
+            "files": [
+                "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe"
+            ],
+            "install_type": "git-clone",
+            "description": "QwenImage edit-safe nodes: consistent encoders, ref-edit presets, and HQ VAE decode. No extra dependencies."
+        },
+        {
             "author": "Vantage with AI",
             "title": "Vantage Long Wan Video",
             "reference": "https://github.com/vantagewithai/VantageLongWanVideo",
@@ -682,26 +693,6 @@
             ],
             "install_type": "git-clone",
             "description": "Custom ComfyUI node for integrating Claude API with image and text capabilities."
-        },
-        {
-            "author": "ru4ls",
-            "title": "ComfyUI_Nano_Banana",
-            "reference": "https://github.com/ru4ls/ComfyUI_Nano_Banana",
-            "files": [
-                "https://github.com/ru4ls/ComfyUI_Nano_Banana"
-            ],
-            "install_type": "git-clone",
-            "description": "A set of custom nodes for ComfyUI that leverage the Gemini 2.5 Flash Image Preview API to generate images from text prompts, single images, and multiple images."
-        },
-        {
-            "author": "orion4d",
-            "title": "Orion4D Pixel-Shift Nodes for ComfyUI",
-            "reference": "https://github.com/orion4d/Orion4D_pixelshift",
-            "files": [
-                "https://github.com/orion4d/Orion4D_pixelshift"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node pack for ComfyUI provides an advanced image processing workflow to achieve high-quality upscales with an extended dynamic range (HDR), mimicking the flexibility of a camera's RAW file. Note: this node will not correct AI image hallucinations, ideally it is used in the last pass from a good quality image (2000/3000px with an X2 or X4 model)."
         }
     ]
 }

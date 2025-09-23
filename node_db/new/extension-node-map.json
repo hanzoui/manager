@@ -1701,10 +1701,14 @@
     ],
     "https://github.com/APZmedia/ComfyUI-color-tools": [
         [
+            "AdvancedOcioColorTransform",
             "ColorConverterAdvanced",
             "ColorProfileConvert",
             "ColorProfileReader",
-            "GammaCompare"
+            "GammaCompare",
+            "OCIOColorSpaceConverter",
+            "OCIOConfigInfo",
+            "TestPatternGenerator"
         ],
         {
             "title_aux": "ComfyUI Color Profile Reader"
@@ -1740,6 +1744,14 @@
         ],
         {
             "title_aux": "ComfyUI-Qwen2"
+        }
+    ],
+    "https://github.com/Aaalice233/ComfyUI-Danbooru-Gallery": [
+        [
+            "CharacterFeatureSwapNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Danbooru-Gallery"
         }
     ],
     "https://github.com/Aaron-CHM/ComfyUI-z-a1111-sd-webui-DanTagGen": [
@@ -8326,6 +8338,7 @@
     "https://github.com/Kaleidia/KaleidiaNodes": [
         [
             "DynamicPromptNode",
+            "DynamicPromptNodeEXT",
             "FormatIntToString",
             "GetFileCountInOutputFolder",
             "LoadCSV",
@@ -11794,7 +11807,8 @@
             "RizzLoadLatestMesh",
             "RizzModelBatchLoader",
             "RizzPasteAndUnscale",
-            "RizzUpscaleImageBatch"
+            "RizzUpscaleImageBatch",
+            "SimplifyMesh"
         ],
         {
             "title_aux": "ComfyUI-RizzNodes"
@@ -12044,6 +12058,7 @@
             "ImagePrimaryColor",
             "ImageRMBG",
             "ImageResize",
+            "ImageSAM",
             "ImageTilingPattern",
             "ImageToBase64"
         ],
@@ -19488,6 +19503,8 @@
             "bmad_CropImageByBBox",
             "bmad_CropMaskByBBox",
             "bmad_DrawPanelsEdges",
+            "bmad_DrawPanelsEdgesDashed",
+            "bmad_DrawPanelsEdgesDotted",
             "bmad_GridPanelLayoutGenerator",
             "bmad_ListAppendPanel",
             "bmad_ListTransferPanel",
@@ -23919,6 +23936,7 @@
             "IndexTTS Engine",
             "IndexTTSEmotionOptionsNode",
             "MouthMovementAnalyzer",
+            "PhonemeTextNormalizer",
             "QwenEmotionNode",
             "UnifiedTTSSRTNode",
             "UnifiedTTSTextNode",
@@ -25355,6 +25373,21 @@
         ],
         {
             "title_aux": "ComfyUI_Fill-Nodes"
+        }
+    ],
+    "https://github.com/fkxianzhou/ComfyUI-Jimeng-API": [
+        [
+            "JimengAPIClient",
+            "JimengFirstLastFrame2Video",
+            "JimengImageEdit",
+            "JimengReferenceImage2Video",
+            "JimengSeedream4",
+            "JimengTaskStatusChecker",
+            "JimengText2Image",
+            "JimengVideoGeneration"
+        ],
+        {
+            "title_aux": "ComfyUI-Jimeng-API"
         }
     ],
     "https://github.com/flamacore/ComfyUI-YouTubeUploader": [
@@ -31953,7 +31986,8 @@
     "https://github.com/lihaoyun6/ComfyUI-QwenPromptRewriter": [
         [
             "QwenPromptRewriter",
-            "TextEncodeQwenImageEditAdv"
+            "TextEncodeQwenImageEditAdv",
+            "TextEncodeQwenImageEditPlusAdv"
         ],
         {
             "title_aux": "Comfyui-QwenPromptRewriter"
