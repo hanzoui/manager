@@ -33160,6 +33160,16 @@
             "install_type": "git-clone",
             "description": "This is a custom node for ComfyUI that allows you to use the UCloud API directly in ComfyUI. UCloud is a high-performance AI computing platform providing powerful image generation models and industry-leading inference speeds. It offers a wide range of AI model options, including popular text-to-image and image editing models, ready to use without local GPU setup."
         },
+        {
+            "author": "fkxianzhou",
+            "title": "ComfyUI-Jimeng-API",
+            "reference": "https://github.com/fkxianzhou/ComfyUI-Jimeng-API",
+            "files": [
+                "https://github.com/fkxianzhou/ComfyUI-Jimeng-API"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for Volcano Ark (Jimeng) API"
+        },
 
 
 
@@ -33613,16 +33623,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "fkxianzhou",
-            "title": "ComfyUI-Jimeng-API",
-            "reference": "https://github.com/fkxianzhou/ComfyUI-Jimeng-API",
-            "files": [
-                "https://github.com/fkxianzhou/ComfyUI-Jimeng-API"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for Volcano Ark (Jimeng) API"
         }
     ]
 }
