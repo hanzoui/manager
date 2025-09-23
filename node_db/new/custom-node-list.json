@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "Vantage with AI",
+            "title": "Vantage Long Wan Video",
+            "reference": "https://github.com/vantagewithai/VantageLongWanVideo",
+            "files": [
+                "https://github.com/vantagewithai/VantageLongWanVideo"
+            ],
+            "install_type": "git-clone",
+            "description": "VantageLongWanVideo is a lightweight project management system for ComfyUI, designed for long-running, prompt-driven video generation. It simplifies workflow management by saving prompts to disk, handling continuity across runs, and allowing resuming or regenerating from any point."
+        },
+        {
+            "author": "ucloud",
+            "title": "ComfyUl-UCloud",
+            "reference": "https://github.com/ucloud/comfyui-plugin",
+            "files": [
+                "https://github.com/ucloud/comfyui-plugin"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node for ComfyUI that allows you to use the UCloud API directly in ComfyUI. UCloud is a high-performance AI computing platform providing powerful image generation models and industry-leading inference speeds. It offers a wide range of AI model options, including popular text-to-image and image editing models, ready to use without local GPU setup."
+        },
+        {
             "author": "red-polo",
             "title": "ComfyUI-WanViTPoseRetargeter",
             "reference": "https://github.com/red-polo/ComfyUI-WanViTPoseRetargeter",
@@ -672,46 +692,6 @@
             ],
             "install_type": "git-clone",
             "description": "This custom node pack for ComfyUI provides an advanced image processing workflow to achieve high-quality upscales with an extended dynamic range (HDR), mimicking the flexibility of a camera's RAW file. Note: this node will not correct AI image hallucinations, ideally it is used in the last pass from a good quality image (2000/3000px with an X2 or X4 model)."
-        },
-        {
-            "author": "Firetheft",
-            "title": "ComfyUI-Animate-Progress",
-            "reference": "https://github.com/Firetheft/ComfyUI-Animate-Progress",
-            "files": [
-                "https://github.com/Firetheft/ComfyUI-Animate-Progress"
-            ],
-            "install_type": "git-clone",
-            "description": "A progress bar beautification plugin designed for ComfyUI. It replaces the monotonous default progress bar with a vibrant and dynamic experience, complete with an animated character and rich visual effects."
-        },
-        {
-            "author": "sputnik57",
-            "title": "comfyui-prompt-logger",
-            "reference": "https://github.com/sputnik57/comfyui-prompt-logger",
-            "files": [
-                "https://github.com/sputnik57/comfyui-prompt-logger"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node saves metadata when I explore images. It creates a sidecare json file beside the image file."
-        },
-        {
-            "author": "brenzel",
-            "title": "comfyui-prompt-beautify",
-            "reference": "https://github.com/brenzel/comfyui-prompt-beautify",
-            "files": [
-                "https://github.com/brenzel/comfyui-prompt-beautify"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI node to beautify your image generation prompt"
-        },
-        {
-            "author": "Draek2077",
-            "title": "comfyui-draekz-nodez",
-            "reference": "https://github.com/Draek2077/comfyui-draekz-nodez",
-            "files": [
-                "https://github.com/Draek2077/comfyui-draekz-nodez"
-            ],
-            "install_type": "git-clone",
-            "description": "Making ComfyUI more comfortable."
         }
     ]
 }
