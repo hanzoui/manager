@@ -4513,6 +4513,14 @@
             "title_aux": "Comfyui FOCUS nodes"
         }
     ],
+    "https://github.com/DaLongZhuaZi/ComfyUI-Gemini-Prompt-Studio": [
+        [
+            "GeminiPromptStudio_T2I_I2V"
+        ],
+        {
+            "title_aux": "ComfyUI-Gemini-Prompt-Studio"
+        }
+    ],
     "https://github.com/Danand/ComfyUI-ComfyCouple": [
         [
             "Attention couple",
@@ -6588,6 +6596,19 @@
         ],
         {
             "title_aux": "ComfyUI-DiffusersImageOutpaint"
+        }
+    ],
+    "https://github.com/GizmoR13/PG-Nodes": [
+        [
+            "PgJustSaveImage",
+            "PgJustSaveImageOut",
+            "PgLazyPrompt",
+            "PgLazyPromptMini",
+            "PgUnifiedLoader",
+            "UnifiedLoaderMini"
+        ],
+        {
+            "title_aux": "PG Nodes"
         }
     ],
     "https://github.com/Goktug/comfyui-saveimage-plus": [
@@ -15316,6 +15337,7 @@
             "VrchFloatRemapNode",
             "VrchGamepadLoaderNode",
             "VrchImageChannelLoaderNode",
+            "VrchImageFallbackNode",
             "VrchImageFlipBookWebViewerNode",
             "VrchImagePreviewBackgroundNewNode",
             "VrchImagePreviewBackgroundNode",
@@ -17115,6 +17137,14 @@
         ],
         {
             "title_aux": "ComfyUI Utilitools Nodes"
+        }
+    ],
+    "https://github.com/aesethtics/comfyui-3d-model-viewer": [
+        [
+            "ThreeDModelViewer"
+        ],
+        {
+            "title_aux": "ComfyUI 3D Model Viewer"
         }
     ],
     "https://github.com/agilly1989/ComfyUI_agilly1989_motorway": [
@@ -22618,6 +22648,7 @@
             "RescaleCFG",
             "ResizeAndPadImage",
             "Rodin3D_Detail",
+            "Rodin3D_Gen2",
             "Rodin3D_Regular",
             "Rodin3D_Sketch",
             "Rodin3D_Smooth",
@@ -25274,6 +25305,7 @@
             "FL_BlackFrameReject",
             "FL_BulkPDFLoader",
             "FL_BulletHellGame",
+            "FL_CSVExtractor",
             "FL_CaptionSaver_V2",
             "FL_CaptionToCSV",
             "FL_ClipScanner",
@@ -25343,6 +25375,7 @@
             "FL_KsamplerPlus",
             "FL_KsamplerPlusV2",
             "FL_KsamplerSettings",
+            "FL_LoadCSV",
             "FL_LoadImage",
             "FL_MadLibGenerator",
             "FL_Math",
@@ -25424,12 +25457,10 @@
     "https://github.com/fkxianzhou/ComfyUI-Jimeng-API": [
         [
             "JimengAPIClient",
-            "JimengFirstLastFrame2Video",
-            "JimengImageEdit",
             "JimengReferenceImage2Video",
+            "JimengSeedream3",
             "JimengSeedream4",
             "JimengTaskStatusChecker",
-            "JimengText2Image",
             "JimengVideoGeneration"
         ],
         {
@@ -26751,9 +26782,14 @@
     ],
     "https://github.com/gsusgg/ComfyUI_CozyGen": [
         [
+            "CozyGenChoiceInput",
             "CozyGenDynamicInput",
+            "CozyGenFloatInput",
             "CozyGenImageInput",
-            "CozyGenOutput"
+            "CozyGenIntInput",
+            "CozyGenOutput",
+            "CozyGenStringInput",
+            "CozyGenVideoOutput"
         ],
         {
             "title_aux": "ComfyUI-CozyGen"
@@ -35230,6 +35266,16 @@
             "title_aux": "ComfyUI-Image-Captioner"
         }
     ],
+    "https://github.com/neverbiasu/ComfyUI-ModelScope": [
+        [
+            "ModelScopeImageGenerator",
+            "ModelScopeLLM",
+            "ModelScopeVLM"
+        ],
+        {
+            "title_aux": "ComfyUI-ModelScope"
+        }
+    ],
     "https://github.com/neverbiasu/ComfyUI-Ovis-U1": [
         [
             "OvisU1ImageEdit",
@@ -37164,6 +37210,7 @@
             "PVLCheckIfConnected",
             "PVL_Crop2AR",
             "PVL_Google_NanoBanana_API",
+            "PVL_Google_NanoBanana_Multi_API",
             "PVL_ImageResize",
             "PVL_ImageStitch",
             "PVL_NoneOutputNode",
@@ -38746,7 +38793,9 @@
             "FilenameGenerator",
             "GeminiUtilMediaDescribe",
             "GeminiUtilOptions",
-            "ShowText"
+            "LoRAInfoExtractor",
+            "ShowText",
+            "VideoMetadataNode"
         ],
         {
             "title_aux": "ComfyUI-SwissArmyKnife"
@@ -40607,6 +40656,15 @@
         ],
         {
             "title_aux": "Nuke Nodes for ComfyUI"
+        }
+    ],
+    "https://github.com/sumitchatterjee13/vae-decode-hdr": [
+        [
+            "HDRVAEDecode",
+            "LinearEXRExport"
+        ],
+        {
+            "title_aux": "vae-decode-hdr"
         }
     ],
     "https://github.com/superyoman/comfyui_lumaAPI": [
