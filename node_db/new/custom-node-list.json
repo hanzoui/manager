@@ -1,6 +1,27 @@
 {
     "custom_nodes": [
         {
+            "author": "neverbiasu",
+            "title": "ComfyUI-ModelScope",
+            "reference": "https://github.com/neverbiasu/ComfyUI-ModelScope",
+            "files": [
+                "https://github.com/neverbiasu/ComfyUI-ModelScope"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node package for ModelScope API integration, providing seamless access to ModelScope's powerful AI models including Large Language Models (LLM), Vision-Language Models (VLM), and Image Generation capabilities."
+        },
+        {
+            "author": "aesethtics",
+            "title": "ComfyUI 3D Model Viewer",
+            "id": "comfyui-3d-model-viewer",
+            "reference": "https://github.com/aesethtics/comfyui-3d-model-viewer",
+            "files": [
+                "https://github.com/aesethtics/comfyui-3d-model-viewer"
+            ],
+            "install_type": "git-clone",
+            "description": "A 3D model viewer node for ComfyUI that allows viewing and interacting with 3D models directly in the interface"
+        },
+        {
             "author": "sumitchatterjee13",
             "title": "vae-decode-hdr",
             "reference": "https://github.com/sumitchatterjee13/vae-decode-hdr",

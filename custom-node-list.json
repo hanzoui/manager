@@ -14977,6 +14977,16 @@
             "description": "This repository adds ComfyUI custom nodes that wrap the Ovis-U1 multimodal model, exposing three primary workflows inside the ComfyUI editor."
         },
         {
+            "author": "neverbiasu",
+            "title": "ComfyUI-ModelScope",
+            "reference": "https://github.com/neverbiasu/ComfyUI-ModelScope",
+            "files": [
+                "https://github.com/neverbiasu/ComfyUI-ModelScope"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node package for ModelScope API integration, providing seamless access to ModelScope's powerful AI models including Large Language Models (LLM), Vision-Language Models (VLM), and Image Generation capabilities."
+        },
+        {
             "author": "var1ableX",
             "title": "ComfyUI_Accessories",
             "reference": "https://github.com/var1ableX/ComfyUI_Accessories",
@@ -32075,6 +32085,17 @@
             "description": "A collection of utility nodes for ComfyUI to improve workflow efficiency."
         },
         {
+            "author": "aesethtics",
+            "title": "ComfyUI 3D Model Viewer",
+            "id": "comfyui-3d-model-viewer",
+            "reference": "https://github.com/aesethtics/comfyui-3d-model-viewer",
+            "files": [
+                "https://github.com/aesethtics/comfyui-3d-model-viewer"
+            ],
+            "install_type": "git-clone",
+            "description": "A 3D model viewer node for ComfyUI that allows viewing and interacting with 3D models directly in the interface"
+        },
+        {
             "author": "gearmachine",
             "title": "ComfyUI-ProportionChanger",
             "reference": "https://github.com/grmchn/ComfyUI-ProportionChanger",
@@ -33686,18 +33707,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "aesethtics",
-            "title": "ComfyUI 3D Model Viewer",
-            "id": "comfyui-3d-model-viewer",
-            "reference": "https://github.com/aesethtics/comfyui-3d-model-viewer",
-            "files": [
-                "https://github.com/aesethtics/comfyui-3d-model-viewer"
-            ],
-            "install_type": "git-clone",
-            "description": "A 3D model viewer node for ComfyUI that allows viewing and interacting with 3D models directly in the interface",
-            "nodename_pattern": "3DModelViewer"
         }
     ]
 }
