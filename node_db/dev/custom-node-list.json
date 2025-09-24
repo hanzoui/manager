@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "Suzu008",
+            "title": "ComfyUI-TTYd",
+            "reference": "https://github.com/Suzu008/ComfyUI-TTYd",
+            "files": [
+                "https://github.com/Suzu008/ComfyUI-TTYd"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI extension for web-based terminal access via side panel"
+        },
+        {
+            "author": "Mets3D",
+            "title": "Mets-Nodes",
+            "reference": "https://github.com/Mets3D/mets-nodes",
+            "files": [
+                "https://github.com/Mets3D/mets-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Random nodes for now, may split them out later into properly maintained repos."
+        },
+        {
+            "author": "downlifted",
+            "title": "ComfyUI_GroqPrompt [WIP]",
+            "reference": "https://github.com/downlifted/ComfyUI_GroqPrompt",
+            "files": [
+                "https://github.com/downlifted/ComfyUI_GroqPrompt"
+            ],
+            "install_type": "git-clone",
+            "description": " Groq API Access in ComfyUI, Free Prompt Creation!\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "kijai",
             "title": "ComfyUI-WanAnimatePreprocess [WIP]",
             "reference": "https://github.com/kijai/ComfyUI-WanAnimatePreprocess",

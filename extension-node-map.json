@@ -1702,13 +1702,29 @@
     "https://github.com/APZmedia/ComfyUI-color-tools": [
         [
             "AdvancedOcioColorTransform",
+            "BrightnessContrast",
+            "ColorBalance",
             "ColorConverterAdvanced",
+            "ColorHarmony",
+            "ColorHistogram",
+            "ColorPalette",
             "ColorProfileConvert",
             "ColorProfileReader",
+            "ColorSimilarity",
+            "ColorSpaceAnalyzer",
+            "ColorSpaceConverter",
+            "ColorTemperature",
+            "DominantColors",
             "GammaCompare",
+            "GammaCorrection",
+            "HueShift",
+            "LittleCMSColorProfileConverter",
             "OCIOColorSpaceConverter",
             "OCIOConfigInfo",
-            "TestPatternGenerator"
+            "QuickColorSpaceFix",
+            "Saturation",
+            "TestPatternGenerator",
+            "VectorScope"
         ],
         {
             "title_aux": "ComfyUI Color Profile Reader"
@@ -2643,15 +2659,13 @@
     ],
     "https://github.com/BAIKEMARK/ComfyUI-Civitai-Recipe": [
         [
-            "CivitaiDataFetcherCKPT",
-            "CivitaiDataFetcherLORA",
+            "CivitaiModelAnalyzerCKPT",
+            "CivitaiModelAnalyzerLORA",
+            "CivitaiParameterUnpacker",
             "CivitaiRecipeGallery",
             "LoraTriggerWords",
             "MarkdownPresenter",
-            "ParameterAnalyzer",
-            "PromptAnalyzer",
-            "RecipeParamsParser",
-            "ResourceAnalyzer"
+            "RecipeParamsParser"
         ],
         {
             "title_aux": "Civitai Recipe Finder"
@@ -3599,6 +3613,16 @@
         ],
         {
             "title_aux": "ComfyUI-Prompt-Preview"
+        }
+    ],
+    "https://github.com/ChaosHL/Marvelous-Box-Comfyui": [
+        [
+            "MarvelousBox",
+            "MarvelousText",
+            "Multi Lora Loader"
+        ],
+        {
+            "title_aux": "Marvelous-Box-Comfyui"
         }
     ],
     "https://github.com/Chaoses-Ib/ComfyUI_Ib_CustomNodes": [
@@ -6191,6 +6215,7 @@
             "RegexSubstitute",
             "SaveStrippedUTF8File",
             "ScaleByFactor",
+            "ScaleToResolution",
             "StripXML",
             "strftime"
         ],
@@ -12312,9 +12337,20 @@
             "title_aux": "ComfyUI-SaveAudioMP3"
         }
     ],
+    "https://github.com/Santat2023/ComfyUiRagNodes": [
+        [
+            "MyNodesForDB",
+            "MyNodesForLLM",
+            "MyNodesForRAG"
+        ],
+        {
+            "title_aux": "ComfyUiRagCustomNodes"
+        }
+    ],
     "https://github.com/Santodan/santodan-custom-nodes-comfyui": [
         [
             "ExcludedLoras",
+            "ExtractAndApplyLoRAs",
             "LoRACachePreloader",
             "RandomLoRACustom",
             "RandomLoRAFolder"
@@ -17336,6 +17372,7 @@
             "CogVideoXFunInpaintSampler",
             "CogVideoXFunT2VSampler",
             "CogVideoXFunV2VSampler",
+            "CombineQwenImagePipeline",
             "CombineWan2_2Pipeline",
             "CombineWan2_2VaceFunPipeline",
             "CombineWanPipeline",
@@ -17348,6 +17385,12 @@
             "ImageMaximumNode",
             "LoadCogVideoXFunLora",
             "LoadCogVideoXFunModel",
+            "LoadQwenImageLora",
+            "LoadQwenImageModel",
+            "LoadQwenImageProcessor",
+            "LoadQwenImageTextEncoderModel",
+            "LoadQwenImageTransformerModel",
+            "LoadQwenImageVAEModel",
             "LoadVaceWanTransformer3DModel",
             "LoadWan2_2FunLora",
             "LoadWan2_2FunModel",
@@ -17363,6 +17406,8 @@
             "LoadWanTextEncoderModel",
             "LoadWanTransformerModel",
             "LoadWanVAEModel",
+            "QwenImageEditSampler",
+            "QwenImageT2VSampler",
             "VideoToCanny",
             "VideoToDepth",
             "VideoToOpenpose",
@@ -23322,6 +23367,7 @@
             "DN_JoyTaggerNode",
             "DN_MiaoshouAITaggerNode",
             "DN_MultilineString",
+            "DN_PixAITaggerNode",
             "DN_PromptSectionsExtractor",
             "DN_SmolVLMNode",
             "DN_TextConcatenateNode",
@@ -27578,6 +27624,7 @@
     ],
     "https://github.com/hybskgks28275/ComfyUI-hybs-nodes": [
         [
+            "Conditional LoRA Loader",
             "Random Resolution Selector",
             "Resolution Selector",
             "Seed List Generator"
@@ -31975,14 +32022,6 @@
             "title_aux": "ComfyUI-BlindWatermark"
         }
     ],
-    "https://github.com/lihaoyun6/ComfyUI-CSV-Random-Picker": [
-        [
-            "CSVRandomPicker"
-        ],
-        {
-            "title_aux": "ComfyUI-CSV-Random-Picker"
-        }
-    ],
     "https://github.com/lihaoyun6/ComfyUI-QwenPromptRewriter": [
         [
             "QwenPromptRewriter",
@@ -36258,10 +36297,6 @@
             "AIHubActionNewLayer",
             "AIHubExposeBoolean",
             "AIHubExposeCfg",
-            "AIHubExposeConfigBoolean",
-            "AIHubExposeConfigFloat",
-            "AIHubExposeConfigInteger",
-            "AIHubExposeConfigString",
             "AIHubExposeExtendableScheduler",
             "AIHubExposeFloat",
             "AIHubExposeImage",
@@ -36269,16 +36304,20 @@
             "AIHubExposeImageInfoOnly",
             "AIHubExposeInteger",
             "AIHubExposeModel",
+            "AIHubExposeProjectConfigBoolean",
+            "AIHubExposeProjectConfigFloat",
+            "AIHubExposeProjectConfigInteger",
+            "AIHubExposeProjectConfigString",
             "AIHubExposeSampler",
             "AIHubExposeScheduler",
             "AIHubExposeSeed",
             "AIHubExposeSteps",
             "AIHubExposeString",
             "AIHubExposeStringSelection",
-            "AIHubPatchActionSetConfigBoolean",
-            "AIHubPatchActionSetConfigFloat",
-            "AIHubPatchActionSetConfigInteger",
-            "AIHubPatchActionSetConfigString",
+            "AIHubPatchActionSetProjectConfigBoolean",
+            "AIHubPatchActionSetProjectConfigFloat",
+            "AIHubPatchActionSetProjectConfigInteger",
+            "AIHubPatchActionSetProjectConfigString",
             "AIHubUtilsCropMergedImageToLayerSize",
             "AIHubUtilsFitLayerToMergedImage",
             "AIHubWorkflowController"
@@ -37501,7 +37540,14 @@
             "WaveSpeedAI Qwen Image Edit LoRA",
             "WaveSpeedAI Qwen Image Text to Image",
             "WaveSpeedAI Qwen Image Text to Image LoRA",
-            "WaveSpeedAI WAN 2.2 Animate"
+            "WaveSpeedAI WAN 2.2 Animate",
+            "WaveSpeedAI WAN 2.5 Image-to-Video",
+            "WaveSpeedAI WAN 2.5 Image-to-Video Fast",
+            "WaveSpeedAI WAN 2.5 Text-to-Image",
+            "WaveSpeedAI WAN 2.5 Text-to-Video",
+            "WaveSpeedAI WAN 2.5 Text-to-Video Fast",
+            "WaveSpeedAI_RunwaymlUpscaleV1Node",
+            "WaveSpeedAI_Wan22I2V720pNode"
         ],
         {
             "title_aux": "ComfyUI Razv WaveSpeed Nodes"
@@ -40519,6 +40565,14 @@
         ],
         {
             "title_aux": "comfyui_tag_filter"
+        }
+    ],
+    "https://github.com/suhee19/comfyui-orpheus-loader": [
+        [
+            "OrpheusLoader"
+        ],
+        {
+            "title_aux": "comfyui-orpheus-loader"
         }
     ],
     "https://github.com/sumitchatterjee13/Luminance-Stack-Processor": [
@@ -44316,6 +44370,7 @@
             "MatchImageRatioToPreset",
             "ModifyTextGender",
             "NeedImageSizeAndCount",
+            "NovitaVideoRequestNode",
             "ReplicateRequstNode",
             "ReplicateVideoRequestNode",
             "SplitMask",

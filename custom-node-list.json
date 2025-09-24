@@ -26857,16 +26857,6 @@
         },
         {
             "author": "lihaoyun6",
-            "title": "ComfyUI-CSV-Random-Picker",
-            "reference": "https://github.com/lihaoyun6/ComfyUI-CSV-Random-Picker",
-            "files": [
-                "https://github.com/lihaoyun6/ComfyUI-CSV-Random-Picker"
-            ],
-            "install_type": "git-clone",
-            "description": "String random picker for ComfyUI"
-        },
-        {
-            "author": "lihaoyun6",
             "title": "ComfyUI-BlindWatermark",
             "reference": "https://github.com/lihaoyun6/ComfyUI-BlindWatermark",
             "files": [
@@ -33181,6 +33171,47 @@
             "install_type": "git-clone",
             "description": "QwenImage edit-safe nodes: consistent encoders, ref-edit presets, and HQ VAE decode. No extra dependencies."
         },
+        {
+            "author": "ChaosHL",
+            "title": "Marvelous-Box-Comfyui",
+            "reference": "https://github.com/ChaosHL/Marvelous-Box-Comfyui",
+            "files": [
+                "https://github.com/ChaosHL/Marvelous-Box-Comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "a tool for prompt collect"
+        },
+        {
+            "author": "suhee19",
+            "title": "comfyui-orpheus-loader",
+            "reference": "https://github.com/suhee19/comfyui-orpheus-loader",
+            "files": [
+                "https://github.com/suhee19/comfyui-orpheus-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node for ComfyUI to load the Orpheus TTS base model and prepare it for LoRA injection + speech generation."
+        },
+        {
+            "author": "Santat2023",
+            "title": "ComfyUiRagCustomNodes",
+            "reference": "https://github.com/Santat2023/ComfyUiRagNodes",
+            "files": [
+                "https://github.com/Santat2023/ComfyUiRagNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This package contains custom nodes for ComfyUI: Image generation using Stable Diffusion and LLM, Uploading and searching images via ChromaDB and MinIO (S3), Integration with CLIP, Ollama, and other tools"
+        },
+        {
+            "author": "GizmoR13",
+            "title": "PG Nodes",
+            "id": "PG",
+            "reference": "https://github.com/GizmoR13/PG-Nodes",
+            "files": [
+                "https://github.com/GizmoR13/PG-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Pragmatic utilities for ComfyUI: Lazy Prompt (history + randomizer), Unified Loader (+ mini), Just Save Image (+ passthrough)."
+        },
 
 
 
@@ -33634,17 +33665,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-			"author": "GizmoR13",
-            "title": "PG Nodes",
-			"id": "PG",
-            "reference": "https://github.com/GizmoR13/PG-Nodes",
-			"files": [
-                "https://github.com/GizmoR13/PG-Nodes"
-            ],
-			"install_type": "git-clone",
-			"description": "Pragmatic utilities for ComfyUI: Lazy Prompt (history + randomizer), Unified Loader (+ mini), Just Save Image (+ passthrough)."
         }
     ]
 }
