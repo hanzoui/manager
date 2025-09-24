@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "sumitchatterjee13",
+            "title": "vae-decode-hdr",
+            "reference": "https://github.com/sumitchatterjee13/vae-decode-hdr",
+            "files": [
+                "https://github.com/sumitchatterjee13/vae-decode-hdr"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that preserves High Dynamic Range (HDR) data during VAE decoding, bypassing the default 0-1 range clamping. It also includes a companion 'Linear EXR Export' node for creating professional-grade linear EXR files."
+        },
+        {
             "author": "Dalongzhuazi",
             "title": "ComfyUI-Gemini-Prompt-Studio",
             "id": "comfyui-gemini-prompt-studio",
