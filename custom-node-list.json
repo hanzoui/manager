@@ -8206,6 +8206,16 @@
             "description": "A ComfyUI integration for FireRedTTS‑2, a real-time multi-speaker TTS system enabling high-quality, emotionally expressive dialogue and monologue synthesis. Leveraging a streaming architecture and context-aware prosody modeling, it supports natural speaker turns and stable long-form generation, ideal for interactive chat and podcast applications."
         },
         {
+            "author": "1038lab",
+            "title": "ComfyUI-VoxCPMTTS",
+            "reference": "https://github.com/1038lab/ComfyUI-VoxCPMTTS",
+            "files": [
+                "https://github.com/1038lab/ComfyUI-VoxCPMTTS"
+            ],
+            "install_type": "git-clone",
+            "description": "A clean, efficient ComfyUI custom node for VoxCPMTTS (Text-to-Speech) functionality. This implementation provides high-quality speech generation and voice cloning capabilities using the VoxCPM model."
+        },
+        {
             "author": "Klinter",
             "title": "Klinter_nodes",
             "id": "klinter",
@@ -33254,7 +33264,36 @@
             "install_type": "git-clone",
             "description": "One node generates both T2I & I2V positive/negative conditioning in a single click."
         },
-
+        {
+            "author": "Sampkao",
+            "title": "ComfyUI-Amage",
+            "reference": "https://github.com/Sampkao/ComfyUI-Amage",
+            "files": [
+                "https://github.com/Sampkao/ComfyUI-Amage"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository provides a set of custom nodes for ComfyUI, designed to improve workflow convenience when working with text, image, video, and audio data."
+        },
+        {
+            "author": "maxmad62",
+            "title": "ComfyUI-DiscordWebhookWithInput",
+            "reference": "https://github.com/maxmad62/ComfyUI-DiscordWebhookWithInput",
+            "files": [
+                "https://github.com/maxmad62/ComfyUI-DiscordWebhookWithInput"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that allows you to send an image + a message (e.g. your prompt) to a Discord channel via a webhook."
+        },
+        {
+            "author": "BizaNator",
+            "title": "ComfyUI Prompt Iterator Extension",
+            "reference": "https://github.com/BizaNator/ComfyUI_PromptIterator",
+            "files": [
+                "https://github.com/BizaNator/ComfyUI_PromptIterator"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful custom node extension for ComfyUI that enables automatic iteration through multiple prompts with corresponding filename generation. Perfect for batch processing different variations like character face angles, poses, or any sequential prompt workflow."
+        },
 
 
 

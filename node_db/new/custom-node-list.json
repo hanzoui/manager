@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "1038lab",
+            "title": "ComfyUI-VoxCPMTTS",
+            "reference": "https://github.com/1038lab/ComfyUI-VoxCPMTTS",
+            "files": [
+                "https://github.com/1038lab/ComfyUI-VoxCPMTTS"
+            ],
+            "install_type": "git-clone",
+            "description": "A clean, efficient ComfyUI custom node for VoxCPMTTS (Text-to-Speech) functionality. This implementation provides high-quality speech generation and voice cloning capabilities using the VoxCPM model."
+        },
+        {
+            "author": "BizaNator",
+            "title": "ComfyUI Prompt Iterator Extension",
+            "reference": "https://github.com/BizaNator/ComfyUI_PromptIterator",
+            "files": [
+                "https://github.com/BizaNator/ComfyUI_PromptIterator"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful custom node extension for ComfyUI that enables automatic iteration through multiple prompts with corresponding filename generation. Perfect for batch processing different variations like character face angles, poses, or any sequential prompt workflow."
+        },
+        {
+            "author": "Sampkao",
+            "title": "ComfyUI-Amage",
+            "reference": "https://github.com/Sampkao/ComfyUI-Amage",
+            "files": [
+                "https://github.com/Sampkao/ComfyUI-Amage"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository provides a set of custom nodes for ComfyUI, designed to improve workflow convenience when working with text, image, video, and audio data."
+        },
+        {
+            "author": "maxmad62",
+            "title": "ComfyUI-DiscordWebhookWithInput",
+            "reference": "https://github.com/maxmad62/ComfyUI-DiscordWebhookWithInput",
+            "files": [
+                "https://github.com/maxmad62/ComfyUI-DiscordWebhookWithInput"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that allows you to send an image + a message (e.g. your prompt) to a Discord channel via a webhook."
+        },
+        {
             "author": "neverbiasu",
             "title": "ComfyUI-ModelScope",
             "reference": "https://github.com/neverbiasu/ComfyUI-ModelScope",
@@ -686,66 +726,6 @@
             ],
             "install_type": "git-clone",
             "description": "Custom ComfyUI nodes for integrating WaveSpeed AI API for image and video generation."
-        },
-        {
-            "author": "teepunkt-esspunkt",
-            "title": "ComfyUI-SuiteTea",
-            "reference": "https://github.com/teepunkt-esspunkt/ComfyUI-SuiteTea",
-            "files": [
-                "https://github.com/teepunkt-esspunkt/ComfyUI-SuiteTea"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: 'Tea: Save & Reload Image', 'Tea: Load Image Checkpoints from path', ..."
-        },
-        {
-            "author": "Saganaki22",
-            "title": "Seedream4 Replicate",
-            "reference": "https://github.com/Saganaki22/ComfyUI-Seedream4_Replicate",
-            "files": [
-                "https://github.com/Saganaki22/ComfyUI-Seedream4_Replicate"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI node for Seedream 4 image generation via Replicate API with support for text-to-image and image-to-image generation"
-        },
-        {
-            "author": "silveroxides",
-            "title": "ComfyUI Gemini Expanded API",
-            "reference": "https://github.com/silveroxides/ComfyUI_Gemini_Expanded_API",
-            "files": [
-                "https://github.com/silveroxides/ComfyUI_Gemini_Expanded_API"
-            ],
-            "install_type": "git-clone",
-            "description": "Node for usage of Gemini API"
-        },
-        {
-            "author": "WASasquatch",
-            "title": "WAS Affine",
-            "reference": "https://github.com/WASasquatch/was_affine",
-            "files": [
-                "https://github.com/WASasquatch/was_affine"
-            ],
-            "install_type": "git-clone",
-            "description": "Apply AFFINE noise transforms to latent space to improve image quality, especially with light loras."
-        },
-        {
-            "author": "Enashka",
-            "title": "ComfyUI-nhknodes",
-            "reference": "https://github.com/Enashka/ComfyUI-nhknodes",
-            "files": [
-                "https://github.com/Enashka/ComfyUI-nhknodes"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom nodes collection with workflow utilities, image processing, and AI integration"
-        },
-        {
-            "author": "phyblas",
-            "title": "nsfw-shorier_comfyui",
-            "reference": "https://github.com/phyblas/nsfw-shorier_comfyui",
-            "files": [
-                "https://github.com/phyblas/nsfw-shorier_comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "Performs various processing on images containing NSFW content within ComfyUI. The model used for detecting NSFW content can be selected."
         }
     ]
 }

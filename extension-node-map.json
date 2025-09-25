@@ -217,6 +217,14 @@
             "title_aux": "Comfyui-Spark-TTS"
         }
     ],
+    "https://github.com/1038lab/ComfyUI-VoxCPMTTS": [
+        [
+            "AILab_VoxCPMTTS"
+        ],
+        {
+            "title_aux": "ComfyUI-VoxCPMTTS"
+        }
+    ],
     "https://github.com/1038lab/ComfyUI-WildPromptor": [
         [
             "AllInOneList",
@@ -3122,6 +3130,16 @@
         ],
         {
             "title_aux": "DynamicPose-ComfyUI"
+        }
+    ],
+    "https://github.com/BizaNator/ComfyUI_PromptIterator": [
+        [
+            "PromptIterator",
+            "PromptIteratorAdvanced",
+            "PromptIteratorDynamic"
+        ],
+        {
+            "title_aux": "ComfyUI Prompt Iterator Extension"
         }
     ],
     "https://github.com/Black-Lioness/ComfyUI-PromptUtils": [
@@ -6405,6 +6423,10 @@
             "LightX2VMemoryOptimization",
             "LightX2VModularInference",
             "LightX2VQuantization",
+            "LightX2VTalkObjectInput",
+            "LightX2VTalkObjectsCombiner",
+            "LightX2VTalkObjectsFromFiles",
+            "LightX2VTalkObjectsFromJSON",
             "LightX2VTeaCache"
         ],
         {
@@ -6603,6 +6625,7 @@
             "PgJustSaveImage",
             "PgJustSaveImageOut",
             "PgLazyPrompt",
+            "PgLazyPromptExt",
             "PgLazyPromptMini",
             "PgUnifiedLoader",
             "UnifiedLoaderMini"
@@ -10012,7 +10035,8 @@
             "SaveLatentMXD",
             "Sdxl Empty Latent Image",
             "Sdxl Resolution Selector",
-            "Wan2_2EmptyLatentImageMXD"
+            "Wan2_2EmptyLatentImageMXD",
+            "wan22EmptyHunyuanLatentVideoMXD"
         ],
         {
             "title_aux": "ComfyUI-MaxedOut"
@@ -12312,6 +12336,17 @@
         ],
         {
             "title_aux": "comfyui_chatgpt"
+        }
+    ],
+    "https://github.com/Sampkao/ComfyUI-Amage": [
+        [
+            "Amage All in One",
+            "Amage FPS Converter",
+            "Amage STT",
+            "Amage Text"
+        ],
+        {
+            "title_aux": "ComfyUI-Amage"
         }
     ],
     "https://github.com/San4itos/ComfyUI-Save-Images-as-Video": [
@@ -14891,6 +14926,7 @@
             "Filter Existing Files",
             "Filter List",
             "Filter Words",
+            "Force Aspect On Bounds",
             "Get File List",
             "Get List From File",
             "Incrementer",
@@ -15641,12 +15677,14 @@
             "WarpedHunyuanLoraConvert",
             "WarpedHunyuanLoraConvertKeys",
             "WarpedHunyuanLoraConvertKeys2",
+            "WarpedHunyuanLoraConvertToMusubi",
             "WarpedHunyuanLoraMerge",
             "WarpedHunyuanMultiLoraAvgMerge",
             "WarpedHunyuanMultiLoraLoader",
             "WarpedHunyuanMultiLoraMerge",
             "WarpedHunyuanMultiLoraMixer",
             "WarpedHunyuanMultiLoraMixerExt",
+            "WarpedHunyuanMultiLoraMixerUlt",
             "WarpedHunyuanVideoLoraLoader",
             "WarpedImageNoiseAugmentation",
             "WarpedImageScaleToSide",
@@ -15674,8 +15712,10 @@
             "WarpedSamplerScripts8",
             "WarpedSaveAnimatedPng",
             "WarpedSaveImageCaption",
+            "WarpedSingleEncoder",
             "WarpedUpscaleWithModel",
             "WarpedVAELoader",
+            "WarpedWan22MergeLoaderGGUF",
             "WarpedWanImageToVideo",
             "WarpedWanLoadAndEditLoraBlocks",
             "WarpedWanLoraMerge"
@@ -22368,8 +22408,11 @@
     "https://github.com/comfyanonymous/ComfyUI": [
         [
             "AddNoise",
+            "AudioAdjustVolume",
+            "AudioConcat",
             "AudioEncoderEncode",
             "AudioEncoderLoader",
+            "AudioMerge",
             "BasicGuider",
             "BasicScheduler",
             "BetaSamplingScheduler",
@@ -22417,6 +22460,7 @@
             "DisableNoise",
             "DualCFGGuider",
             "DualCLIPLoader",
+            "EmptyAudio",
             "EmptyHunyuanImageLatent",
             "EmptyHunyuanLatentVideo",
             "EmptyImage",
@@ -22688,6 +22732,7 @@
             "SkipLayerGuidanceDiTSimple",
             "SkipLayerGuidanceSD3",
             "SolidMask",
+            "SplitAudioChannels",
             "SplitImageWithAlpha",
             "SplitSigmas",
             "SplitSigmasDenoise",
@@ -22755,6 +22800,7 @@
             "TomePatchModel",
             "TorchCompileModel",
             "TrainLoraNode",
+            "TrimAudioDuration",
             "TripleCLIPLoader",
             "TripoConversionNode",
             "TripoImageToModelNode",
@@ -24996,17 +25042,9 @@
     ],
     "https://github.com/fblissjr/ComfyUI-QwenImageWanBridge": [
         [
-            "DenoiseCurveVisualizer",
-            "LatentStatisticsMonitor",
-            "MinimalKeyframeV2V",
-            "QwenContextProcessor",
-            "QwenInpaintSampler",
+            "QwenEliGenEntityControl",
+            "QwenEliGenMaskPainter",
             "QwenLowresFixNode",
-            "QwenMaskProcessor",
-            "QwenNativeEncoder",
-            "QwenNativeLoader",
-            "QwenOptimalResolution",
-            "QwenResolutionSelector",
             "QwenSpatialTokenGenerator",
             "QwenTemplateBuilderV2",
             "QwenTemplateConnector",
@@ -25015,10 +25053,7 @@
             "QwenVLCLIPLoader",
             "QwenVLEmptyLatent",
             "QwenVLImageToLatent",
-            "QwenVLTextEncoder",
-            "QwenValidationTools",
-            "QwenWANKeyframeEditor",
-            "QwenWANKeyframeExtractor"
+            "QwenVLTextEncoder"
         ],
         {
             "title_aux": "ComfyUI-QwenImageWanBridge"
@@ -34066,6 +34101,20 @@
         ],
         {
             "title_aux": "OllamaTools for ComfyUI"
+        }
+    ],
+    "https://github.com/maxmad62/ComfyUI-DiscordWebhookWithInput": [
+        [
+            "DiscordPostViaWebhook",
+            "DiscordPostViaWebhookWithInput",
+            "DiscordSetWebhook"
+        ],
+        {
+            "author": "Dayuppy",
+            "description": "A very simple Discord webhook integration node for ComfyUI that lets you post images and text.",
+            "nickname": "DiscordWebhook",
+            "title": "Discord Webhook",
+            "title_aux": "ComfyUI-DiscordWebhookWithInput"
         }
     ],
     "https://github.com/mbrostami/ComfyUI-HF": [
