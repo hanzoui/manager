@@ -414,7 +414,8 @@
             "TextFilterComment",
             "TextJoinByTextList",
             "TextJoinMulti",
-            "TextPrefixSuffix"
+            "TextPrefixSuffix",
+            "URLToVideo"
         ],
         {
             "title_aux": "ComfyUI 1hewNodes"
@@ -508,6 +509,7 @@
     ],
     "https://github.com/3dgopnik/comfyui-arena-suite": [
         [
+            "ArenaModelUpdater",
             "Arena_MakeTilesSegs"
         ],
         {
@@ -1529,6 +1531,7 @@
     ],
     "https://github.com/AIWarper/ComfyUI-WarperNodes": [
         [
+            "AspectRatioMatchToBase_Warper",
             "AspectRatioResolution_Warper",
             "CropAndRestore_Warper",
             "DWPoseScalerNode_Warper",
@@ -2461,6 +2464,21 @@
         ],
         {
             "title_aux": "ReadCSV_ComfyUI"
+        }
+    ],
+    "https://github.com/Art-xmaster/comfyui-AGSoft": [
+        [
+            "AGSoft_Empty_Latent",
+            "AGSoft_Image_Concatenate",
+            "AGSoft_Image_Concatenate_From_Batch",
+            "AGSoft_Image_Crop",
+            "AGSoft_Img_Pad_for_Outpainting",
+            "AGSoft_Img_Pad_for_Outpainting_Adv",
+            "AGSoft_Img_Res",
+            "AGSoft_Img_Res_MP"
+        ],
+        {
+            "title_aux": "comfyui-AGSoft"
         }
     ],
     "https://github.com/ArtBot2023/CharacterFaceSwap": [
@@ -5427,6 +5445,7 @@
     "https://github.com/Enemyx-net/VibeVoice-ComfyUI": [
         [
             "VibeVoice Free Memory",
+            "VibeVoice LoRA",
             "VibeVoice Load Text From File",
             "VibeVoice Multiple Speakers",
             "VibeVoice Single Speaker"
@@ -6628,7 +6647,7 @@
             "PgLazyPromptExt",
             "PgLazyPromptMini",
             "PgUnifiedLoader",
-            "UnifiedLoaderMini"
+            "PgUnifiedLoaderMini"
         ],
         {
             "title_aux": "PG Nodes"
@@ -12409,7 +12428,8 @@
             "ExtractAndApplyLoRAs",
             "LoRACachePreloader",
             "RandomLoRACustom",
-            "RandomLoRAFolder"
+            "RandomLoRAFolder",
+            "WildcardManager"
         ],
         {
             "title_aux": "Santodan Random LoRA Node"
@@ -14708,7 +14728,8 @@
     "https://github.com/Taithrah/ComfyUI_Fens_Simple_Nodes": [
         [
             "FensTokenCounter",
-            "OptiEmptyLatent"
+            "OptiEmptyLatent",
+            "OptiEmptyLatentAdvanced"
         ],
         {
             "title_aux": "Fens-Simple-Nodes"
@@ -20671,6 +20692,7 @@
     "https://github.com/cerspense/ComfyUI_cspnodes": [
         [
             "DepthToNormalMap",
+            "GetLastFrameFromBatch",
             "GetMP4Prompt",
             "ImageDirIterator",
             "IncrementEveryN",
@@ -29085,6 +29107,7 @@
     ],
     "https://github.com/jinchanz/ComfyUI-ADIC": [
         [
+            "ADICOpenAIGPTImage1",
             "ADIC_COMMON_API",
             "AliCloudOSSUpload",
             "ImageTranslateAPI",
@@ -33716,6 +33739,7 @@
             "Generate Random Background | sokes \ud83e\uddac",
             "Get Files in Folder with Extension | sokes \ud83e\uddac",
             "Hex Color Swatch | sokes \ud83e\uddac",
+            "Hex to Color Name | sokes \ud83e\uddac",
             "Image Picker | sokes \ud83e\uddac",
             "Latent Switch x9 | sokes \ud83e\uddac",
             "Load Random Image | sokes \ud83e\uddac",
@@ -36748,7 +36772,9 @@
         [
             "FluxBlockSwap",
             "HidreamBlockSwap",
-            "TaylorSeer"
+            "TaylorSeer",
+            "TaylorSeerLite",
+            "WanvideoBlockSwap"
         ],
         {
             "title_aux": "ComfyUI-TaylorSeer"

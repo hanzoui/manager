@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "rvage",
+            "title": "ComfyUI-RvToolsX",
+            "reference": "https://github.com/r-vage/ComfyUI-RvToolsX",
+            "files": [
+                "https://github.com/r-vage/ComfyUI-RvToolsX"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes and utilities for workflow building, type conversions, checkpoint/pipe loaders and file utilities."
+        },
+        {
+            "author": "GreenLandisaLie",
+            "title": "ComfyUI-BooruBrowser",
+            "reference": "https://github.com/GreenLandisaLie/ComfyUI-BooruBrowser",
+            "files": [
+                "https://github.com/GreenLandisaLie/ComfyUI-BooruBrowser"
+            ],
+            "install_type": "git-clone",
+            "description": "Quickly search and get images from Gelbooru/Danbooru/E621 without leaving ComfyUI"
+        },
+        {
+            "author": "Art-xmaster",
+            "title": "comfyui-AGSoft",
+            "reference": "https://github.com/Art-xmaster/comfyui-AGSoft",
+            "files": [
+                "https://github.com/Art-xmaster/comfyui-AGSoft"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: AGSoft Empty Latent, AGSoft ImageRes, AGSoft ImageResMP, AGSoft ImagegPad for Outpainting, AGSoft ImagePad for OutpaintingAdv, AGSoft Image Crop, AGSoft Image Concatenate, AGSoft Image ConcatenateFromBatch, ..."
+        },
+        {
+            "author": "No-22-Github",
+            "title": "ComfyUI_RWKV_Studio",
+            "reference": "https://github.com/No-22-Github/ComfyUI_RWKV_Studio",
+            "files": [
+                "https://github.com/No-22-Github/ComfyUI_RWKV_Studio"
+            ],
+            "install_type": "git-clone",
+            "description": "A suite of ComfyUI custom nodes based on the RWKV series of models, offering various functions like translation and dialogue."
+        },
+        {
+            "author": "cyan9977",
+            "title": "ComfyUI_PromptQueue",
+            "reference": "https://github.com/cyan9977/ComfyUI_PromptQueue",
+            "files": [
+                "https://github.com/cyan9977/ComfyUI_PromptQueue"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node: batch prompt queue from multiline/text file with incremental per-run consumption and {p} templating."
+        },
+        {
             "author": "1038lab",
             "title": "ComfyUI-VoxCPMTTS",
             "reference": "https://github.com/1038lab/ComfyUI-VoxCPMTTS",
@@ -646,56 +696,6 @@
             ],
             "install_type": "git-clone",
             "description": "This custom node provides two different approaches to automatically match text prompts with LoRA models using their descriptions."
-        },
-        {
-            "author": "fr0nky0ng",
-            "title": "ComfyUI-Face-Comparator",
-            "reference": "https://github.com/fr0nky0ng/ComfyUI-Face-Comparator",
-            "files": [
-                "https://github.com/fr0nky0ng/ComfyUI-Face-Comparator"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a node to detect the similarity between two faces"
-        },
-        {
-            "author": "snicolast",
-            "title": "ComfyUI-Manufnode",
-            "reference": "https://github.com/efortin/ComfyUI-Ollama-Enhancer",
-            "files": [
-                "https://github.com/efortin/ComfyUI-Ollama-Enhancer"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI nodes integrating Ollama to generate and enhance positive/negative prompts for Stable Diffusion workflows."
-        }, 
-        {
-            "author": "snicolast",
-            "title": "ComfyUI-IndexTTS2",
-            "reference": "https://github.com/snicolast/ComfyUI-IndexTTS2",
-            "files": [
-                "https://github.com/snicolast/ComfyUI-IndexTTS2"
-            ],
-            "install_type": "git-clone",
-            "description": "Lightweight ComfyUI wrapper for IndexTTS 2 (voice cloning + emotion control)."
-        }, 
-        {
-            "author": "Olaf Reitmaier Veracierta",
-            "title": "Olaf's Nodes",
-            "reference": "https://github.com/olafrv/comfyui_olafrv",
-            "files": [
-                "https://github.com/olafrv/comfyui_olafrv"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: ORvTextEncoderGoogleEmbeddingGemma3, ORvEmbeddingsHeatmap, ORvEmbeddingsSpectrogram, ORvStringConsoleDebug"
-        },
-        {
-            "author": "HM-RunningHub",
-            "title": "ComfyUI OneReward Node",
-            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_OneReward",
-            "files": [
-                "https://github.com/HM-RunningHub/ComfyUI_RH_OneReward"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that integrates OneReward model for high-quality image inpainting, outpainting, and object removal."
         }
     ]
 }
