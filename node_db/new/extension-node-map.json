@@ -25102,9 +25102,24 @@
     "https://github.com/fblissjr/ComfyUI-QwenImageWanBridge": [
         [
             "QwenDebugController",
+            "QwenDebugLatents",
             "QwenEliGenEntityControl",
             "QwenEliGenMaskPainter",
+            "QwenFlowMatchSamplerNode",
+            "QwenImageDiTLoaderWrapper",
+            "QwenImageEncodeWrapper",
+            "QwenImageModelWithEdit",
+            "QwenImageModelWrapper",
+            "QwenImageModelWrapperNode",
+            "QwenImageSamplerNode",
+            "QwenImageSamplerWithEdit",
+            "QwenImageVAELoaderWrapper",
+            "QwenLatentPackerNode",
             "QwenLowresFixNode",
+            "QwenModelManagerWrapper",
+            "QwenProcessedToEmbedding",
+            "QwenProcessorWrapper",
+            "QwenSchedulerInfoNode",
             "QwenSpatialTokenGenerator",
             "QwenTemplateBuilderV2",
             "QwenTemplateConnector",
@@ -25113,7 +25128,9 @@
             "QwenVLCLIPLoader",
             "QwenVLEmptyLatent",
             "QwenVLImageToLatent",
-            "QwenVLTextEncoder"
+            "QwenVLTextEncoder",
+            "QwenVLTextEncoderAdvanced",
+            "QwenVLTextEncoderLoaderWrapper"
         ],
         {
             "title_aux": "ComfyUI-QwenImageWanBridge"
