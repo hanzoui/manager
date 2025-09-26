@@ -6777,6 +6777,14 @@
             "title_aux": "AuraSR-ComfyUI"
         }
     ],
+    "https://github.com/GreenLandisaLie/ComfyUI-BooruBrowser": [
+        [
+            "SILVER_FL_BooruBrowser"
+        ],
+        {
+            "title_aux": "ComfyUI-BooruBrowser"
+        }
+    ],
     "https://github.com/GrenKain/PixelArt-Processing-Nodes-for-ComfyUI": [
         [
             "PixelArtDownscaleNode",
@@ -10912,6 +10920,15 @@
             "title_aux": "ComfyUI_CartoonSegmentation"
         }
     ],
+    "https://github.com/No-22-Github/ComfyUI_RWKV_Studio": [
+        [
+            "RWKV_ModelLoader_V7",
+            "RWKV_Translator_Node"
+        ],
+        {
+            "title_aux": "ComfyUI_RWKV_Studio"
+        }
+    ],
     "https://github.com/Nojahhh/ComfyUI_GLM4_Wrapper": [
         [
             "GLM-4 Inferencing",
@@ -14958,6 +14975,7 @@
             "Random Entry",
             "Randomize List",
             "Replace List",
+            "Select Bounding Box",
             "Sort List",
             "Timestamp"
         ],
@@ -23309,6 +23327,14 @@
         ],
         {
             "title_aux": "ComfyUI-MaskBatchPermutations"
+        }
+    ],
+    "https://github.com/cyan9977/ComfyUI_PromptQueue": [
+        [
+            "PromptQueue"
+        ],
+        {
+            "title_aux": "ComfyUI_PromptQueue"
         }
     ],
     "https://github.com/cyberhirsch/seb_nodes": [
@@ -38062,7 +38088,8 @@
     "https://github.com/risunobushi/ComfyUI_sm4ll-Wrapper": [
         [
             "VTONAPINode",
-            "VTONAPIPaidNode"
+            "VTONAPIPaidNode",
+            "VTONLookbookNode"
         ],
         {
             "title_aux": "ComfyUI_sm4ll-Wrapper"
@@ -38343,6 +38370,7 @@
     ],
     "https://github.com/ru4ls/ComfyUI_Wan": [
         [
+            "WanI2IGenerator",
             "WanI2VEffectGenerator",
             "WanI2VGenerator",
             "WanII2VGenerator",
@@ -42255,6 +42283,9 @@
             "FastLaplacianSharpen",
             "FastSobelSharpen",
             "FastUnsharpSharpen",
+            "GeminiImageNode",
+            "GeminiInputFiles",
+            "GeminiNode",
             "VRGDG_CalculateSetsFromAudio",
             "VRGDG_CombinevideosV2",
             "VRGDG_ConditionalLoadVideos",
