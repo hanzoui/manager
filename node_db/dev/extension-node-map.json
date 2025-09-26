@@ -1821,7 +1821,7 @@
     ],
     "https://github.com/Firetheft/ComfyUI_Local_Image_Gallery": [
         [
-            "LocalImageGalleryNode",
+            "LocalMediaManagerNode",
             "SelectOriginalAudioNode",
             "SelectOriginalImageNode",
             "SelectOriginalVideoNode"
@@ -1883,6 +1883,7 @@
             "VideoAcc_CameraTrajectoryRecam",
             "VideoAcc_ImageResizeAdvanced",
             "VideoAcc_ImageUpscaleVideo",
+            "VideoAcc_Kontext_removal",
             "VideoAcc_LoadImage",
             "VideoAcc_LoadVideo",
             "VideoAcc_SaveMP4",
@@ -7174,6 +7175,7 @@
     ],
     "https://github.com/husw725/comfyui_alta_nodes": [
         [
+            "Alta:GetFilenameNoExt",
             "Alta:GetImageAndPath",
             "Alta:GetImageByIndex",
             "Alta:GetStringByIndex",
@@ -7185,10 +7187,12 @@
             "Alta:LoadImageFromPath",
             "Alta:LoadImageWithPath",
             "Alta:LoadImagesPath",
+            "Alta:LoadVideo",
             "Alta:LoadVideoPath",
             "Alta:LoadVideosFromFolder",
             "Alta:SaveImage",
             "Alta:SaveImagePlus",
+            "Alta:SaveStringToFile",
             "Alta:VideoCombine"
         ],
         {
@@ -7651,6 +7655,20 @@
         ],
         {
             "title_aux": "ComfyUI-KG09 [WIP]"
+        }
+    ],
+    "https://github.com/kaski23/Kaskis_Comfy_Nodes": [
+        [
+            "CollectVideoNode",
+            "IntToString",
+            "LoadImageWithFilename",
+            "LoadVideoWithFilename",
+            "PairSwitchNode",
+            "StringSplitSelect",
+            "Unbroken-Video-Handler"
+        ],
+        {
+            "title_aux": "Kaskis_Comfy_Nodes"
         }
     ],
     "https://github.com/kevin314/ComfyUI-FastVideo": [
@@ -8165,10 +8183,14 @@
         [
             "CSVRandomPicker",
             "CSVRandomPickerAdv",
+            "KSamplerConfig",
+            "KSamplerSchedulerFallback",
             "MaskToSAMCoords",
             "MorseCode",
             "StrFormat",
-            "StrFormatAdv"
+            "StrFormatAdv",
+            "detailerKSamplerSchedulerFallback",
+            "effKSamplerSchedulerFallback"
         ],
         {
             "title_aux": "ComfyUI-lhyNodes"
@@ -8436,6 +8458,8 @@
             "LF_ImageToSVG",
             "LF_ImagesEditingBreakpoint",
             "LF_ImagesSlideshow",
+            "LF_Inpaint",
+            "LF_InpaintAdvanced",
             "LF_Integer",
             "LF_IsLandscape",
             "LF_JSONPromptCombinator",
@@ -8500,6 +8524,7 @@
             "LF_UpscaleModelSelector",
             "LF_UrandomSeedGenerator",
             "LF_UsageStatistics",
+            "LF_VAEDecode",
             "LF_VAESelector",
             "LF_Vibrance",
             "LF_ViewImages",
@@ -11092,6 +11117,7 @@
             "FirstLastFrameXZ",
             "ImageResizeKJ",
             "ImageResizeXZ",
+            "TextEncodeQwenImageEditSimpleXZ",
             "TextEncodeQwenImageEditXZ",
             "TripleCLIPLoaderXZ",
             "WanImageToVideoXZ"

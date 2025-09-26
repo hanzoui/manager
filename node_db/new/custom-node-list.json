@@ -1,6 +1,57 @@
 {
     "custom_nodes": [
         {
+            "title": "RC Image Compositor",
+            "author": "kj863257",
+            "description": "A comprehensive ComfyUI plugin suite that brings professional Photoshop-style layer effects and advanced compositing capabilities. Features modular architecture, 24 blend modes, and enhanced positioning system.",
+            "files": [
+            "https://github.com/kj863257/ComfyUI_RC_Image_Compositor"
+            ],
+            "install_type": "git-clone",
+            "tags": ["compositing", "layer", "blend modes", "photoshop-style"]
+        },
+        {
+            "author": "lrzjason",
+            "title": "Comfyui-QwenEditUtils",
+            "reference": "https://github.com/lrzjason/Comfyui-QwenEditUtils",
+            "files": [
+                "https://github.com/lrzjason/Comfyui-QwenEditUtils"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of utility nodes for Qwen-based image editing in ComfyUI."
+        },
+        {
+            "author": "tritant",
+            "title": "ComfyUI_Custom_Switch",
+            "reference": "https://github.com/tritant/ComfyUI_Custom_Switch",
+            "files": [
+                "https://github.com/tritant/ComfyUI_Custom_Switch"
+            ],
+            "install_type": "git-clone",
+            "description": "It allows you to control complex graphs by unbypass/unmute and bypass/mute entire groups of nodes, just by adding tags in the title of your nodes, no connection required."
+        },
+        {
+            "author": "Verolelb",
+            "title": "Video Compressor (Unified)",
+            "id": "Video compressor",
+            "reference": "https://github.com/Verolelb/ComfyUI-VideoCompressor",
+            "files": [
+                "https://github.com/Verolelb/ComfyUI-VideoCompressor"
+            ],
+            "install_type": "git-clone",
+            "description": "Compress video in comfyui."
+        },
+        {
+            "author": "Verolelb",
+            "title": "ComfyUI-Persistent-Queue",
+            "reference": "https://github.com/co5dt/ComfyUI-Persistent-Queue",
+            "files": [
+                "https://github.com/co5dt/ComfyUI-Persistent-Queue"
+            ],
+            "install_type": "git-clone",
+            "description": "CoA simple, friendly way to make your ComfyUI job queue survive restarts and crashes."
+        },
+        {
             "author": "rvage",
             "title": "ComfyUI-RvToolsX",
             "reference": "https://github.com/r-vage/ComfyUI-RvToolsX",
@@ -186,13 +237,13 @@
         {
             "author": "wallen",
             "title": "ComfyUI-QI-QwenEditSafe",
-            "id": "qi-qweneditsafe",
+            "id": "comfyui-qi-qweneditsafe",
             "reference": "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe",
             "files": [
                 "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe"
             ],
             "install_type": "git-clone",
-            "description": "QwenImage edit-safe nodes: consistent encoders, ref-edit presets, and HQ VAE decode. No extra dependencies."
+            "description": "Safe & consistent QwenImage edit encoders and HQ VAE decode for ComfyUI."
         },
         {
             "author": "Vantage with AI",
@@ -645,57 +696,6 @@
             ],
             "install_type": "git-clone",
             "description": "Custom ComfyUI node for running LLMs via HuggingFace pipeline. Supports both local paths and HuggingFace model names."
-        },
-        {
-            "author": "S4MUEL404",
-            "title": "ComfyUI Prepack",
-            "id": "comfyui-prepack",
-            "reference": "https://github.com/S4MUEL-404/ComfyUI-Prepack",
-            "files": [
-                "https://github.com/S4MUEL-404/ComfyUI-Prepack"
-            ],
-            "install_type": "git-clone",
-            "description": "A small, practical bundle of ComfyUI nodes that streamlines common workflows."
-        },
-        {
-            "author": "ru4ls",
-            "title": "ComfyUI_Imagen",
-            "reference": "https://github.com/ru4ls/ComfyUI_Imagen",
-            "files": [
-                "https://github.com/ru4ls/ComfyUI_Imagen"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that leverages the Google Cloud Vertex AI Imagen API to generate and edit images."
-        },
-        {
-            "author": "nakMe-guminagawadev",
-            "title": "MeComfyuiEncrypt",
-            "reference": "https://github.com/Me-gumin/MeComfyuiEncrypt",
-            "files": [
-                "https://github.com/Me-gumin/MeComfyuiEncrypt"
-            ],
-            "install_type": "git-clone",
-            "description": "Image obfuscation in ComfyUI"
-        },
-        {
-            "author": "blob8",
-            "title": "ComfyUI_video-image-motion-transfer",
-            "reference": "https://github.com/blob8/ComfyUI_video-image-motion-transfer",
-            "files": [
-                "https://github.com/blob8/ComfyUI_video-image-motion-transfer"
-            ],
-            "install_type": "git-clone",
-            "description": "Introduces a node that tries to approximate the entire video using it's first frame (that we stylize) by warping it using optical flow extracted from the video. First we do image-to-image using the reference video's first frame and a depth controlnet. The generated object doesn't have to closely resemble the reference like on the demo. Then the generated image and the video frames are fed into the node and it returns a warped video. No ai models are used by the node. The example workflow uses SDXL but you can get it to work with any arch if you manage i2i."
-        },
-        {
-            "author": "Tr1dae",
-            "title": "LoRA Matcher Nodes for ComfyUI",
-            "reference": "https://github.com/Tr1dae/ComfyUI-LoraPromptMatcher",
-            "files": [
-                "https://github.com/Tr1dae/ComfyUI-LoraPromptMatcher"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node provides two different approaches to automatically match text prompts with LoRA models using their descriptions."
         }
     ]
 }
