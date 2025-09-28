@@ -11324,7 +11324,7 @@
                 "https://github.com/pamparamm/sd-perturbed-attention"
             ],
             "install_type": "git-clone",
-            "description": "Perturbed-Attention Guidance, Smoothed Energy Guidance and Sliding Window Guidance for ComfyUI and SD Forge/reForge. (PAG)"
+            "description": "Perturbed-Attention Guidance (PAG), Smoothed Energy Guidance (SEG), Sliding Window Guidance (SWG), PLADIS, Normalized Attention Guidance (NAG), Token Perturbation Guidance (TPG) for ComfyUI and SD reForge."
         },
         {
             "author": "pamparamm",
@@ -32520,13 +32520,13 @@
         },
         {
             "author": "leylahviolet",
-            "title": "ComfyUI Violet Tools",
+            "title": "iolet Tools 💅",
             "reference": "https://github.com/leylahviolet/ComfyUI-Violet-Tools",
             "files": [
                 "https://github.com/leylahviolet/ComfyUI-Violet-Tools"
             ],
             "install_type": "git-clone",
-            "description": "A collection of aesthetic-focused custom nodes for ComfyUI that enhance AI image generation with sophisticated style and prompt management capabilities. Includes 7 nodes: Aesthetic Alchemist (style blending with 20+ curated aesthetics), Quality Queen (quality prompts), Glamour Goddess (hair/makeup), Body Bard (body features), Pose Priestess (positioning), Encoding Enchantress (text processing), and Negativity Nullifier (negative prompts). Features weighted blending, randomization, and modular YAML-based configuration."
+            "description": "Aesthetic-focused custom nodes for ComfyUI with sophisticated style and prompt management"
         },
         {
             "author": "ApexArtist",
@@ -33355,6 +33355,17 @@
             "install_type": "git-clone",
             "description": "CoA simple, friendly way to make your ComfyUI job queue survive restarts and crashes."
         },
+        {
+            "author": "MIUProject",
+            "title": "VNCCS - Visual Novel Character Creation Suite",
+            "id": "VNCCS",
+            "reference": "https://github.com/AHEKOT/ComfyUI_VNCCS",
+            "files": [
+                "https://github.com/AHEKOT/ComfyUI_VNCCS"
+            ],
+            "install_type": "git-clone",
+            "description": "VNCCS is a comprehensive tool for creating character sprites for visual novels."
+        },
 
 
 
@@ -33809,17 +33820,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "MIUProject",
-            "title": "VNCCS - Visual Novel Character Creation Suite",
-            "id": "VNCCS",
-            "reference": "https://github.com/AHEKOT/ComfyUI_VNCCS",
-            "files": [
-                "https://github.com/AHEKOT/ComfyUI_VNCCS"
-            ],
-            "install_type": "git-clone",
-            "description": "VNCCS is a comprehensive tool for creating character sprites for visual novels."
         }
     ]
 }
