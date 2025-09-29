@@ -511,7 +511,6 @@
     "https://github.com/3dgopnik/comfyui-arena-suite": [
         [
             "ArenaAutoCache (simple)",
-            "ArenaModelUpdater",
             "Arena_MakeTilesSegs"
         ],
         {
@@ -3365,6 +3364,7 @@
     ],
     "https://github.com/Bria-AI/ComfyUI-BRIA-API": [
         [
+            "AttributionByImageNode",
             "BriaEraser",
             "BriaGenFill",
             "BriaTailoredGen",
@@ -12484,6 +12484,7 @@
             "ExcludedLoras",
             "ExtractAndApplyLoRAs",
             "LoRACachePreloader",
+            "PromptListWithTemplates",
             "RandomLoRACustom",
             "RandomLoRAFolder",
             "WildcardManager"
@@ -15549,8 +15550,9 @@
     ],
     "https://github.com/WASasquatch/FreeU_Advanced": [
         [
-            "FreeU (Advanced)",
-            "FreeU_V2 (Advanced)"
+            "WAS_FreeU",
+            "WAS_FreeU_V2",
+            "WAS_PostCFGShift"
         ],
         {
             "title_aux": "FreeU_Advanced"
@@ -18374,6 +18376,7 @@
             "Sage_ModelShiftOnly",
             "Sage_ModelShifts",
             "Sage_MultiModelPicker",
+            "Sage_OllamaAdvancedOptions",
             "Sage_OllamaLLMPromptText",
             "Sage_OllamaLLMPromptVision",
             "Sage_OllamaLLMPromptVisionRefine",
@@ -22543,7 +22546,6 @@
             "EmptyLatentAudio",
             "EmptyLatentHunyuan3Dv2",
             "EmptyLatentImage",
-            "EmptyMochiLatentVideo",
             "EmptySD3LatentImage",
             "ExponentialScheduler",
             "ExtendIntermediateSigmas",
@@ -22651,7 +22653,6 @@
             "LoraModelLoader",
             "LoraSave",
             "LossGraphNode",
-            "Mahiro",
             "MaskComposite",
             "MaskPreview",
             "MaskToImage",
@@ -22694,8 +22695,6 @@
             "OpenAIInputFiles",
             "OptimalStepsScheduler",
             "PatchModelAddDownscale",
-            "PerpNeg",
-            "PerpNegGuider",
             "PerturbedAttentionGuidance",
             "PikaImageToVideoNode2_2",
             "PikaScenesV2_2",
@@ -23550,6 +23549,7 @@
             "FileReaderNode",
             "FlexibleStringMergerNode",
             "GeminiCustomVision",
+            "GeminiPromptEnhancer",
             "GeminiTextOnly",
             "GptCustomVision",
             "GptMiniNode",
@@ -28227,6 +28227,7 @@
             "Light-Tool: DeserializeJsonString",
             "Light-Tool: GetImageSize",
             "Light-Tool: GetImagesCount",
+            "Light-Tool: GetSideLength",
             "Light-Tool: Hex2RGB",
             "Light-Tool: ImageConcat",
             "Light-Tool: ImageMaskApply",
@@ -37781,6 +37782,8 @@
             "WaveSpeedAI InfiniteTalk Multi",
             "WaveSpeedAI Qwen Image Edit",
             "WaveSpeedAI Qwen Image Edit LoRA",
+            "WaveSpeedAI Qwen Image Edit Plus",
+            "WaveSpeedAI Qwen Image Edit Plus LoRA",
             "WaveSpeedAI Qwen Image Text to Image",
             "WaveSpeedAI Qwen Image Text to Image LoRA",
             "WaveSpeedAI WAN 2.2 Animate",
@@ -41802,8 +41805,12 @@
     ],
     "https://github.com/ttulttul/ComfyUI-FlowMatching-Inverter": [
         [
+            "ConditioningAddNoise",
+            "ConditioningGaussianBlur",
+            "ConditioningScale",
             "LatentAddNoise",
             "LatentForwardDiffusion",
+            "LatentFrequencySplit",
             "LatentGaussianBlur",
             "LatentHybridInverter",
             "QwenRectifiedFlowInverter"
@@ -42131,15 +42138,10 @@
     ],
     "https://github.com/vanche1212/ComfyUI-ZMG-Nodes": [
         [
-            "VC_Load_Video_Path_Unified_Output",
-            "VC_Load_Video_Upload_Unified_Output",
-            "VC_Video_Combine_Unified_Output",
-            "Waveform2Audio",
-            "\ud83d\ude0bAPI Request Node",
-            "\ud83d\ude0bJSON Parser Node",
-            "\ud83d\ude0bOld Photo Colorization Node",
-            "\ud83d\ude0bOllama Request Node",
-            "\ud83d\ude0bSave Image Unified Output"
+            "API Request Node",
+            "Empty Image Node",
+            "JSON Parser Node",
+            "LoadImageFromUrlNode"
         ],
         {
             "title_aux": "ZMG PLUGIN"
@@ -44628,6 +44630,7 @@
             "DeepfaceAnalyzeFaceAttributes",
             "DetectorForNSFW",
             "EmptyConditioning",
+            "FalVideoRequestNode",
             "FloatMultipleAddLiteral",
             "FrameAdjuster",
             "GeminiPromptEnhance",
@@ -44663,6 +44666,7 @@
             "NovitaVideoRequestNode",
             "ReplicateRequstNode",
             "ReplicateVideoRequestNode",
+            "SegmindVideoRequestNode",
             "SplitMask",
             "TextInputAutoSelector",
             "TextPreview",

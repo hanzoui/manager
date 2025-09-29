@@ -1719,6 +1719,24 @@
             "title_aux": "VibeVoice ComfyUI [NAME CONFLICT]"
         }
     ],
+    "https://github.com/Eric7758/ComfyUI-IAT": [
+        [
+            "Base64ToImageNode by IAT",
+            "FloatInputNode by IAT",
+            "ImageMatchSize by IAT",
+            "ImageResizeLongestSide by IAT",
+            "ImageResizeToSDXL by IAT",
+            "ImageSize by IAT",
+            "IntInputNode by IAT",
+            "QwenKontextTranslator by IAT",
+            "QwenTranslator by IAT",
+            "SeedGeneratorNode by IAT",
+            "TextInputNode by IAT"
+        ],
+        {
+            "title_aux": "ComfyUI-IAT [WIP]"
+        }
+    ],
     "https://github.com/EricRollei/Comfy-Metadata-System": [
         [
             "EnhancedMetadataFilterNode_V2",
@@ -5394,6 +5412,15 @@
             "title_aux": "ComfyUI-Pixelsmith [WIP]"
         }
     ],
+    "https://github.com/cedarconnor/ComfyUI-GEN3C-Gsplat": [
+        [
+            "Cosmos_Gen3C_InferExport",
+            "Gen3CDiffusion"
+        ],
+        {
+            "title_aux": "ComfyUI-GEN3C-Gsplat [WIP]"
+        }
+    ],
     "https://github.com/celll1/cel_sampler": [
         [
             "latent_tracker"
@@ -5643,7 +5670,6 @@
             "EmptyLatentAudio",
             "EmptyLatentHunyuan3Dv2",
             "EmptyLatentImage",
-            "EmptyMochiLatentVideo",
             "EmptySD3LatentImage",
             "ExponentialScheduler",
             "ExtendIntermediateSigmas",
@@ -5751,7 +5777,6 @@
             "LoraModelLoader",
             "LoraSave",
             "LossGraphNode",
-            "Mahiro",
             "MaskComposite",
             "MaskPreview",
             "MaskToImage",
@@ -5794,8 +5819,6 @@
             "OpenAIInputFiles",
             "OptimalStepsScheduler",
             "PatchModelAddDownscale",
-            "PerpNeg",
-            "PerpNegGuider",
             "PerturbedAttentionGuidance",
             "PikaImageToVideoNode2_2",
             "PikaScenesV2_2",
@@ -9835,6 +9858,8 @@
             "Canny Edge",
             "Get Image Dimensions",
             "Load Image Folder",
+            "Load Images",
+            "Load Images From List",
             "Pad Batch to 4n+1",
             "Resize Frame",
             "Save Image Folder",
@@ -10164,7 +10189,11 @@
     "https://github.com/slezica/comfyui-personal": [
         [
             "GenerateImage",
+            "MaskBatch",
             "OwlDetector",
+            "RepeatMaskBatch",
+            "SliceImageBatch",
+            "SliceMaskBatch",
             "UpscaleImage",
             "UseCheckpoint",
             "UseControlNet",
