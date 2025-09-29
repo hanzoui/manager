@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "NeuroWaifu",
+            "title": "ComfyUI.Node.MediaSuite",
+            "reference": "https://github.com/NeuroWaifu/ComfyUI.Node.MediaSuite",
+            "files": [
+                "https://github.com/NeuroWaifu/ComfyUI.Node.MediaSuite"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Image Resize, Video Resize, Resize Calculator, Mask Operations, Mask Blur, Mask Threshold, Dominant Color, Color Palette, Shadows/Highlights/Midtones, Tone Curve, Color Grading, Upscale Video (using Model), Get Video Size, Get Video Info, Compare Video Size, Math Operation, Math Function, Boolean Logic, Compare Numbers, Convert Number, Random Number, Clamp, Remap, Smooth, Constants, ..."
+        },
+        {
+            "author": "BizaNator",
+            "title": "BrainDead_QwenCharacterEditor [WIP]",
+            "reference": "https://github.com/BizaNator/BrainDead_QwenCharacterEditor",
+            "files": [
+                "https://github.com/BizaNator/BrainDead_QwenCharacterEditor"
+            ],
+            "install_type": "git-clone",
+            "description": "Created by BizaNator for the BrainDeadGuild community. These professional-grade character editing tools for ComfyUI specialize in identity preservation and multi-reference image control.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "cedarconnor",
+            "title": "ComfyUI-GEN3C-Gsplat [WIP]",
+            "reference": "https://github.com/cedarconnor/ComfyUI-GEN3C-Gsplat",
+            "files": [
+                "https://github.com/cedarconnor/ComfyUI-GEN3C-Gsplat"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node pack that bridges Cosmos/GEN3C video generation with in-graph Gaussian Splat (3DGS) training. It adds camera/trajectory tooling, dataset exporters, and two training backends (Nerfstudio CLI wrapper and an in-process gsplat optimizer) so artists can go from prompt to splat entirely inside ComfyUI.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "sk-palani",
+            "title": "ComfyUI_Simpler",
+            "reference": "https://github.com/sk-palani/ComfyUI_Simpler",
+            "files": [
+                "https://github.com/sk-palani/ComfyUI_Simpler"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository contains custom nodes designed for the ComfyUI framework, focusing on simplification improvements. These nodes aim to make tasks easier and simple"
+        },
+        {
+            "author": "SushantSingh-23-01",
+            "title": "comfyui_flowrider_nodes [UNSAFE]",
+            "reference": "https://github.com/SushantSingh-23-01/comfyui_flowrider_nodes",
+            "files": [
+                "https://github.com/SushantSingh-23-01/comfyui_flowrider_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Collection of nodes performing random utility functions like: JPG Saver - Save images in jpg format. Resolution Selector - Selects from standard resolutions with aspect ratios.[w/This extension has a vulnerability that allows arbitrary access to local files from remote.]"
+        },
+        {
+            "author": "YokoYokoTEC",
+            "title": "comfyui-sequential-prompt-file [UNSAFE]",
+            "reference": "https://github.com/YokoYokoTEC/comfyui-sequential-prompt-file",
+            "files": [
+                "https://github.com/YokoYokoTEC/comfyui-sequential-prompt-file"
+            ],
+            "install_type": "git-clone",
+            "description": "This is the file-based version of comfyui-sequential-prompt. For detailed usage instructions, please refer to the following link: [a/https://note.com/alive_gibbon2712/n/n0eb671383b30](https://note.com/alive_gibbon2712/n/n0eb671383b30)[w/This extension has a vulnerability that allows arbitrary access to local files from remote.]"
+        },
+        {
             "author": "kaski23",
             "title": "Kaskis_Comfy_Nodes",
             "reference": "https://github.com/kaski23/Kaskis_Comfy_Nodes",

@@ -7787,6 +7787,27 @@
             "title_aux": "ComfyUI_Qwen2-VL-Instruct"
         }
     ],
+    "https://github.com/J-ChenX/ComfyUI-NIX": [
+        [
+            "NIX_ImageComposite",
+            "NIX_ImageInference",
+            "NIX_ImageTile",
+            "NIX_ImageUpscaleProportionally",
+            "NIX_MaskCrop",
+            "NIX_MaskNull",
+            "NIX_PathLoading",
+            "NIX_RotateCrop",
+            "NIX_RotateImage",
+            "NIX_SaveImage",
+            "NIX_StringMatch",
+            "NIX_StringMatcher",
+            "NIX_SwitchAnything",
+            "NIX_XYGridMapper"
+        ],
+        {
+            "title_aux": "NIX ComfyUI Plugin"
+        }
+    ],
     "https://github.com/JEONG-JIWOO/ComfyUI_Eugene_Nodes": [
         [
             "DictBus",
@@ -17043,6 +17064,14 @@
         ],
         {
             "title_aux": "DeepExtract"
+        }
+    ],
+    "https://github.com/abdullahceylan/ac-comfyui-queue-manager": [
+        [
+            "QueueManagerNode"
+        ],
+        {
+            "title_aux": "AC ComfyUI Queue Manager"
         }
     ],
     "https://github.com/aburahamu/ComfyUI-IsNiceParts": [
@@ -26559,6 +26588,8 @@
             "MonoClip_node",
             "PixelArt_node",
             "RandomOrgTrueRandomNumber_node",
+            "RandomOrgV2TrueRandomNumber",
+            "RandomOrgV2TrueRandomNumber_node",
             "VAEDecodePreview_node",
             "image2contrastMask_node",
             "image2imbgg_node",
@@ -26605,6 +26636,16 @@
         ],
         {
             "title_aux": "Janus-Pro ComfyUI Plugin"
+        }
+    ],
+    "https://github.com/gregory-richard/ComfyUI-WarpPipe": [
+        [
+            "Unwarp",
+            "Warp",
+            "custom_nodes"
+        ],
+        {
+            "title_aux": "WarpPipe Nodes"
         }
     ],
     "https://github.com/gremlation/ComfyUI-ImageLabel": [
@@ -33802,7 +33843,7 @@
     "https://github.com/m-sokes/ComfyUI-Sokes-Nodes": [
         [
             "ComfyUI Folder Paths | sokes \ud83e\uddac",
-            "Current Date & Time | sokes \ud83e\uddac",
+            "Current Date and Time | sokes \ud83e\uddac",
             "Generate Random Background | sokes \ud83e\uddac",
             "Get Files in Folder with Extension | sokes \ud83e\uddac",
             "Hex Color Swatch | sokes \ud83e\uddac",
@@ -41759,6 +41800,18 @@
             "title_aux": "ComfyUI-load-image-from-url"
         }
     ],
+    "https://github.com/ttulttul/ComfyUI-FlowMatching-Inverter": [
+        [
+            "LatentAddNoise",
+            "LatentForwardDiffusion",
+            "LatentGaussianBlur",
+            "LatentHybridInverter",
+            "QwenRectifiedFlowInverter"
+        ],
+        {
+            "title_aux": "ComfyUI Qwen Rectified Flow Tools"
+        }
+    ],
     "https://github.com/ttulttul/ComfyUI-Iterative-Mixer": [
         [
             "Batch Unsampler",
@@ -43156,6 +43209,14 @@
         ],
         {
             "title_aux": "ComfyUI Pause Workflow Node"
+        }
+    ],
+    "https://github.com/wzken/ComfyUI-Steganos-Node": [
+        [
+            "SteganosNode"
+        ],
+        {
+            "title_aux": "Steganos Node for ComfyUI"
         }
     ],
     "https://github.com/xXAdonesXx/NodeGPT": [

@@ -590,7 +590,10 @@
         [
             "APZ/MarkdownTextOverlay",
             "APZ/RichTextOverlay",
-            "APZ/RichTextOverlayV2"
+            "APZ/RichTextOverlayV2",
+            "APZmediaImageMarkdownTextOverlay",
+            "APZmediaImageRichTextOverlay",
+            "APZmediaImageRichTextOverlayV2"
         ],
         {
             "author": "Pablo Apiolazza",
@@ -1042,6 +1045,18 @@
         ],
         {
             "title_aux": "ComfyUI-Dafaja-Nodes [WIP]"
+        }
+    ],
+    "https://github.com/BizaNator/BrainDead_QwenCharacterEditor": [
+        [
+            "TextEncodeQwenImageEditEnhanced",
+            "TextEncodeQwenImageEditIdentity",
+            "TextEncodeQwenImageEditMulti",
+            "TextEncodeQwenImageEditWeighted",
+            "TextEncodeQwenImageT2ICustom"
+        ],
+        {
+            "title_aux": "BrainDead_QwenCharacterEditor [WIP]"
         }
     ],
     "https://github.com/BlueDangerX/ComfyUI-BDXNodes": [
@@ -3030,6 +3045,38 @@
             "title_aux": "ComfyUI-Save_Image"
         }
     ],
+    "https://github.com/NeuroWaifu/ComfyUI.Node.MediaSuite": [
+        [
+            "BooleanLogic",
+            "Clamp",
+            "ColorGrading",
+            "ColorPalette",
+            "CompareNumbers",
+            "CompareVideoSize",
+            "Constants",
+            "ConvertNumber",
+            "DominantColor",
+            "GetVideoInfo",
+            "GetVideoSize",
+            "ImageResize",
+            "MaskBlur",
+            "MaskOperations",
+            "MaskThreshold",
+            "MathFunction",
+            "MathOperation",
+            "RandomNumber",
+            "Remap",
+            "ResizeCalculator",
+            "ShadowsHighlightsMidtones",
+            "Smooth",
+            "ToneCurve",
+            "VideoResize",
+            "VideoUpscaleWithModel"
+        ],
+        {
+            "title_aux": "ComfyUI.Node.MediaSuite"
+        }
+    ],
     "https://github.com/Nienai666/comfyui-encrypt-image-main": [
         [
             "DecryptImageFromFile",
@@ -3871,6 +3918,16 @@
             "title_aux": "comfyui_flux_collection_advanced [WIP]"
         }
     ],
+    "https://github.com/SushantSingh-23-01/comfyui_flowrider_nodes": [
+        [
+            "FilmGrainVFX",
+            "SaveImageCustom",
+            "SelectCustomResolutions"
+        ],
+        {
+            "title_aux": "comfyui_flowrider_nodes [UNSAFE]"
+        }
+    ],
     "https://github.com/Symbiomatrix/Comfyui-Sort-Files": [
         [
             "ImageSaverSBM",
@@ -4151,6 +4208,15 @@
         ],
         {
             "title_aux": "ComfyUI_LLM_Are_You_Listening [WIP]"
+        }
+    ],
+    "https://github.com/YokoYokoTEC/comfyui-sequential-prompt-file": [
+        [
+            "File",
+            "Find"
+        ],
+        {
+            "title_aux": "comfyui-sequential-prompt-file [UNSAFE]"
         }
     ],
     "https://github.com/Yuan-ManX/ComfyUI-Step1X-Edit": [
@@ -10087,6 +10153,14 @@
             "title_aux": "ComfyUI-Pin"
         }
     ],
+    "https://github.com/sk-palani/ComfyUI_Simpler": [
+        [
+            "Image_Preparations"
+        ],
+        {
+            "title_aux": "ComfyUI_Simpler"
+        }
+    ],
     "https://github.com/slezica/comfyui-personal": [
         [
             "GenerateImage",
@@ -10908,6 +10982,7 @@
     "https://github.com/watarika/ComfyUI-exit": [
         [
             "ExitComfyUI",
+            "ExitWhenLastBatchConfirm",
             "FetchApi"
         ],
         {

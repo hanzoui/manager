@@ -12,6 +12,56 @@
             "description": "VNCCS is a comprehensive tool for creating character sprites for visual novels."
         },
         {
+            "author": "ttulttul",
+            "title": "ComfyUI Qwen Rectified Flow Tools",
+            "reference": "https://github.com/ttulttul/ComfyUI-FlowMatching-Inverter",
+            "files": [
+                "https://github.com/ttulttul/ComfyUI-FlowMatching-Inverter"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node pack for ComfyUI provides a suite of advanced tools for performing 'invert-and-resample' workflows with Rectified Flow models like Qwen-VL. It allows you to take an existing image, convert it to a noisy latent using a guided inversion process, and then use that latent as a starting point to generate creative, high-quality variations."
+        },
+        {
+            "author": "J-ChenX",
+            "title": "NIX ComfyUI Plugin",
+            "reference": "https://github.com/J-ChenX/ComfyUI-NIX",
+            "files": [
+                "https://github.com/J-ChenX/ComfyUI-NIX"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of plugins for ComfyUI that provides a variety of useful nodes (batch path loading, rotate & crop, mask crop & composition, proportional scaling, slicing, string utilities, arbitrary type switching, image inference, etc.)."
+        },
+        {
+            "author": "gregory-richard",
+            "title": "WarpPipe Nodes",
+            "reference": "https://github.com/gregory-richard/ComfyUI-WarpPipe",
+            "files": [
+                "https://github.com/gregory-richard/ComfyUI-WarpPipe"
+            ],
+            "install_type": "git-clone",
+            "description": "WarpPipe - A data bundling and transfer system for ComfyUI workflows"
+        },
+        {
+            "author": "abdullahceylan",
+            "title": "AC ComfyUI Queue Manager",
+            "reference": "https://github.com/abdullahceylan/ac-comfyui-queue-manager",
+            "files": [
+                "https://github.com/abdullahceylan/ac-comfyui-queue-manager"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive queue management system for ComfyUI workflows"
+        },
+        {
+            "author": "wzken",
+            "title": "Steganos Node for ComfyUI",
+            "reference": "https://github.com/wzken/ComfyUI-Steganos-Node",
+            "files": [
+                "https://github.com/wzken/ComfyUI-Steganos-Node"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI allows you to hide a video file within a PNG image using a file concatenation technique. The resulting image can be viewed as a normal picture, but a standard unzip tool can extract the hidden video from it."
+        },
+        {
             "title": "RC Image Compositor",
             "author": "kj863257",
             "description": "A comprehensive ComfyUI plugin suite that brings professional Photoshop-style layer effects and advanced compositing capabilities. Features modular architecture, 24 blend modes, and enhanced positioning system.",
@@ -647,66 +697,6 @@
             ],
             "install_type": "git-clone",
             "description": "Fix Nov. 2024, Davemane42's Custom Node for ComfyUI"
-        },
-        {
-            "author": "len-ml",
-            "title": "comfyui_qwen_image_edit_adv",
-            "reference": "https://github.com/lenML/comfyui_qwen_image_edit_adv",
-            "files": [
-                "https://github.com/lenML/comfyui_qwen_image_edit_adv"
-            ],
-            "install_type": "git-clone",
-            "description": "Improved qwen image editing accuracy"
-        },
-        {
-            "author": "swfxliyiyu",
-            "title": "ComfyUI-FastVideo",
-            "reference": "https://github.com/swfxliyiyu/ComfyUI-FastVideo",
-            "files": [
-                "https://github.com/swfxliyiyu/ComfyUI-FastVideo"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node suite for ComfyUI that provides accelerated video generation using [a/FastVideo](https://github.com/hao-ai-labs/FastVideo). See the blog post about FastVideo V1 to learn more."
-        },
-        {
-            "author": "dzy1128",
-            "title": "Seedream Image Generate ComfyUI Node",
-            "reference": "https://github.com/dzy1128/Seedream-Image-Generate-ComfyUI",
-            "files": [
-                "https://github.com/dzy1128/Seedream-Image-Generate-ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node based on the Volcano Engine Doubao large model Seedream API, designed for high-quality image generation."
-        },
-        {
-            "author": "darkamenosa",
-            "title": "Enhanced Image Composite Masked",
-            "reference": "https://github.com/darkamenosa/comfy_inpaint_blend",
-            "files": [
-                "https://github.com/darkamenosa/comfy_inpaint_blend"
-            ],
-            "install_type": "git-clone",
-            "description": "Seamless inpainting for image-space models like Google Nano Banana and ByteDance Seedream 4. Fixes color mismatches using Poisson blending."
-        },
-        {
-            "author": "nakagawadev",
-            "title": "comfyui_nakagawa",
-            "reference": "https://github.com/nakagawadev/comfyui_nakagawa",
-            "files": [
-                "https://github.com/nakagawadev/comfyui_nakagawa"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for ComfyUI that send video data through websockets instead of saving to disk."
-        },
-        {
-            "author": "Ian2073",
-            "title": "ComfyUI-MyLLMNode",
-            "reference": "https://github.com/Ian2073/ComfyUI-MyLLMnode",
-            "files": [
-                "https://github.com/Ian2073/ComfyUI-MyLLMnode"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI node for running LLMs via HuggingFace pipeline. Supports both local paths and HuggingFace model names."
         }
     ]
 }
