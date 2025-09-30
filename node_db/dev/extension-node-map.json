@@ -2071,17 +2071,6 @@
             "title_aux": "ComfyUI-exLoadout [WIP]"
         }
     ],
-    "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-4_5": [
-        [
-            "DisplayText",
-            "MiniCPM_VQA",
-            "MiniCPM_VQA_Polished",
-            "MultipleImagesInput"
-        ],
-        {
-            "title_aux": "ComfyUI_MiniCPM-V-4_5"
-        }
-    ],
     "https://github.com/IvanZhd/comfyui-codeformer": [
         [
             "RedBeanie_CustomImageInverter"
@@ -9138,46 +9127,6 @@
             "title_aux": "ComfyUI-PromptUtilities"
         }
     ],
-    "https://github.com/nobandegani/comfyui_ino_nodes": [
-        [
-            "CloudreveInit",
-            "CloudreveSignin",
-            "CloudreveUploadFile",
-            "IncrementBatchName",
-            "InoBoolToSwitch",
-            "InoBranchImage",
-            "InoCalculateLoraConfig",
-            "InoCountFiles",
-            "InoDateTimeAsString",
-            "InoGetConditioning",
-            "InoGetFolderBatchID",
-            "InoGetLoraConfig",
-            "InoGetModelConfig",
-            "InoGetSamplerConfig",
-            "InoIntEqual",
-            "InoLoadSamplerModels",
-            "InoNotBoolean",
-            "InoParseFilePath",
-            "InoRandomCharacterPrompt",
-            "InoS3DownloadFile",
-            "InoS3DownloadImage",
-            "InoS3UploadFile",
-            "InoS3UploadImage",
-            "InoS3UploadVideo",
-            "InoShowLoraConfig",
-            "InoShowModelConfig",
-            "InoStringToCombo",
-            "InoStringToggleCase",
-            "InoUpdateModelConfig",
-            "RemoveFile",
-            "RemoveFolder",
-            "Unzip",
-            "Zip"
-        ],
-        {
-            "title_aux": "Ino Custom Nodes"
-        }
-    ],
     "https://github.com/nomcycle/ComfyUI_Cluster": [
         [
             "ClusterBroadcastLoadedImage",
@@ -11005,6 +10954,7 @@
     ],
     "https://github.com/watarika/ComfyUI-Text-Utility": [
         [
+            "ConditionalTagProcessorNode",
             "LoadTextFile",
             "ProcessWildcard",
             "PromptsFromTextbox",
