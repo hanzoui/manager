@@ -25245,6 +25245,7 @@
             "RobustImageRangeExtractor",
             "SeedPromptGenerator",
             "ShrugASRNode",
+            "ShrugPromptBatchFromFile",
             "ShrugPrompter",
             "SmartImageRangeExtractor",
             "TextCleanup",
@@ -38033,7 +38034,8 @@
     "https://github.com/red-polo/ComfyUI-WanViTPoseRetargeter": [
         [
             "WanViTPoseEstimator",
-            "WanViTPoseRetargeter"
+            "WanViTPoseRetargeter",
+            "WanViTPoseRetargeterToSrc"
         ],
         {
             "title_aux": "ComfyUI-WanViTPoseRetargeter"
