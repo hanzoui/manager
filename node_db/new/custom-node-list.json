@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "Kishor900",
+            "title": "ComfyUI WANv2v Video Stitcher",
+            "reference": "https://github.com/Kishor900/comfyui-wanv2v-video-stitcher",
+            "files": [
+                "https://github.com/Kishor900/comfyui-wanv2v-video-stitcher"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node pack for WAN v2v long video generation. Provides nodes for chunking, overlap stitching, control group orchestration, debug numbering, and de-overlap merging to create seamless long-form videos."
+        },
+        {
+            "author": "APZmedia",
+            "title": "NormalMapLightEstimator",
+            "reference": "https://github.com/APZmedia/Comfyui-LightDirection-estimation",
+            "files": [
+                "https://github.com/APZmedia/Comfyui-LightDirection-estimation"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for estimating light direction and quality from normal maps using luma masking. The system analyzes surface normals to infer lighting information for downstream tasks like adaptive relighting, directional masking, or stylized effects."
+        },
+        {
             "author": "9nate-drake",
             "title": "ComfyUI Mask to Center Point Nodes",
             "reference": "https://github.com/9nate-drake/ComfyUI-MaskCenter",
@@ -677,16 +697,6 @@
             ],
             "install_type": "git-clone",
             "description": "Lucy Edit is a video editing model that performs instruction-guided edits on videos using free-text prompts — it supports a variety of edits, such as clothing & accessory changes, character changes, object insertions, and scene replacements while preserving the motion and composition perfectly."
-        },
-        {
-            "author": "wallen0322",
-            "title": "ComfyUI-QI-QwenEditSafe",
-            "reference": "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe",
-            "files": [
-                "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: QI • TextEncodeQwenImageEdit, QI • VAE Decode, QI • RefEdit Encode — by wallen0322"
         }
     ]
 }
