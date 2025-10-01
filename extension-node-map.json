@@ -839,6 +839,15 @@
             "title_aux": "ComfyUI-ColorshiftColor"
         }
     ],
+    "https://github.com/9nate-drake/ComfyUI-MaskCenter": [
+        [
+            "MaskSubMassDetector",
+            "MaskToCenterPoint"
+        ],
+        {
+            "title_aux": "ComfyUI Mask to Center Point Nodes"
+        }
+    ],
     "https://github.com/A043-studios/ComfyUI-ASDF-Pixel-Sort-Nodes": [
         [
             "PixelSortAdvancedNode",
@@ -15057,6 +15066,7 @@
             "Force Aspect On Bounds",
             "Get File List",
             "Get List From File",
+            "Get Mask Bounding Box",
             "Incrementer",
             "Indexed Entry",
             "List Count",
@@ -15067,6 +15077,7 @@
             "Replace List",
             "Select Bounding Box",
             "Sort List",
+            "Split List",
             "Timestamp"
         ],
         {
@@ -37311,7 +37322,8 @@
             "CheckpointLoaderAdvancedDisTorch2MultiGPU",
             "CheckpointLoaderAdvancedMultiGPU",
             "DeviceSelectorMultiGPU",
-            "HunyuanVideoEmbeddingsAdapter"
+            "HunyuanVideoEmbeddingsAdapter",
+            "UNetLoaderLP"
         ],
         {
             "title_aux": "ComfyUI-MultiGPU"
@@ -42539,29 +42551,19 @@
     ],
     "https://github.com/vrgamegirl19/comfyui-vrgamedevgirl": [
         [
-            "ColorMatchToReference",
-            "FastFilmGrain",
-            "FastLaplacianSharpen",
-            "FastSobelSharpen",
-            "FastUnsharpSharpen",
-            "GeminiImageNode",
-            "GeminiInputFiles",
-            "GeminiNode",
+            "VRGDG_AudioCrop",
             "VRGDG_CalculateSetsFromAudio",
             "VRGDG_CombinevideosV2",
             "VRGDG_ConditionalLoadVideos",
-            "VRGDG_Extract_Frame_Number",
+            "VRGDG_DisplayIndex",
             "VRGDG_GetFilenamePrefix",
-            "VRGDG_LoadAudioSplitDynamic",
-            "VRGDG_LoadAudioSplitUpload",
-            "VRGDG_LoadAudioSplit_HUMO",
-            "VRGDG_LoadAudioSplit_HUMO_Transcribe",
-            "VRGDG_LoadVideos",
+            "VRGDG_GetIndexNumber",
+            "VRGDG_LoadAudioSplit_HUMO_TranscribeV2",
             "VRGDG_PromptSplitter",
+            "VRGDG_PromptSplitterV2",
+            "VRGDG_StringConcat",
             "VRGDG_TimecodeFromIndex",
-            "VRGDG_TranscribeText",
-            "VRGDG_TriggerCounter",
-            "VRGDG_VideoSplitter"
+            "VRGDG_TriggerCounter"
         ],
         {
             "title_aux": "VRGameDevGirl Video Enhancement Nodes"

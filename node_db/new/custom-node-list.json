@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "9nate-drake",
+            "title": "ComfyUI Mask to Center Point Nodes",
+            "reference": "https://github.com/9nate-drake/ComfyUI-MaskCenter",
+            "files": [
+                "https://github.com/9nate-drake/ComfyUI-MaskCenter"
+            ],
+            "install_type": "git-clone",
+            "description": "This pack provides two custom nodes for ComfyUI designed to find the center coordinates of masks and segments. They are useful for workflows where you need to precisely identify the location of objects or regions of interest."
+        },
+        {
+            "author": "mochidroppot",
+            "title": "ComfyUI-ProxyFix",
+            "reference": "https://github.com/mochidroppot/ComfyUI-ProxyFix",
+            "files": [
+                "https://github.com/mochidroppot/ComfyUI-ProxyFix"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension fixes URL encoding issues when ComfyUI is accessed through reverse proxies like 'jupyter-server-proxy'."
+        },
+        {
             "author": "guill",
             "title": "Stegaflow",
             "reference": "https://github.com/guill/comfyui-stegaflow",
@@ -667,36 +687,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: QI • TextEncodeQwenImageEdit, QI • VAE Decode, QI • RefEdit Encode — by wallen0322"
-        },
-        {
-            "author": "Yuxi Liu",
-            "title": "comfyui-ddu",
-            "reference": "https://github.com/YL-Lyx/Comfyui-ddu-toolchain",
-            "files": [
-                "https://github.com/YL-Lyx/Comfyui-ddu-toolchain"
-            ],
-            "install_type": "git-clone",
-            "description": "ai-driven toolchain for digital design and fabrication "
-        },
-        {
-            "author": "Junst",
-            "title": "ComfyUI-Concept-Diffusion",
-            "reference": "https://github.com/Junst/ComfyUI-Concept-Diffusion",
-            "files": [
-                "https://github.com/Junst/ComfyUI-Concept-Diffusion"
-            ],
-            "install_type": "git-clone",
-            "description": "ConceptAttention: Diffusion Transformers Learn Highly Interpretable Features for ComfyUI"
-        },
-        {
-            "author": "1038lab",
-            "title": "ComfyUI-FireRedTTS",
-            "reference": "https://github.com/1038lab/ComfyUI-FireRedTTS",
-            "files": [
-                "https://github.com/1038lab/ComfyUI-FireRedTTS"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI integration for FireRedTTS‑2, a real-time multi-speaker TTS system enabling high-quality, emotionally expressive dialogue and monologue synthesis. Leveraging a streaming architecture and context-aware prosody modeling, it supports natural speaker turns and stable long-form generation, ideal for interactive chat and podcast applications."
         }
     ]
 }
