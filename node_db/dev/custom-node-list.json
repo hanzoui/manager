@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "vunguyen-oss",
+            "title": "ComfyUI-ccsrv2 [WIP]",
+            "reference": "https://github.com/vunguyen-oss/ComfyUI-ccsrv2",
+            "files": [
+                "https://github.com/vunguyen-oss/ComfyUI-ccsrv2"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: CCSR Upscale"
+        },
+        {
+            "author": "kesslerdev",
+            "title": "kesslerdev_comfyui_nodes [WIP/UNSAFE]",
+            "reference": "https://github.com/kesslerdev/kesslerdev_comfyui_nodes",
+            "files": [
+                "https://github.com/kesslerdev/kesslerdev_comfyui_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: S3 Upload File, File Explorer, Save Image Export Path, Save Video Export Path, Save Audio Export Path, S3 Combine Images to Video, Multi-Line Text Input, ...\nNOTE: The files in the repo are not organized.[w/This extension has a vulnerability that allows arbitrary access to local files from remote.]"
+        },
+        {
             "author": "kesslerdev",
             "title": "Comfyui : kesslerdev_comfyui_nodes [UNSAFE]",
             "reference": "https://github.com/kesslerdev/kesslerdev_comfyui_nodes",

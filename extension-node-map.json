@@ -1697,18 +1697,6 @@
             "title_aux": "YANC_LMStudio"
         }
     ],
-    "https://github.com/APZmedia/APZmedia-ComfyUI-PSDtools": [
-        [
-            "APZmediaPSDLayerSaverMultilayer"
-        ],
-        {
-            "author": "Pablo Apiolazza",
-            "description": "This extension provides PSD layer saving functionalities with mask support for ComfyUI.",
-            "nickname": "ComfyUI PSD Tools",
-            "title": "ComfyUI APZmedia PSD Tools",
-            "title_aux": "ComfyUI APZmedia PSD Tools"
-        }
-    ],
     "https://github.com/APZmedia/APZmedia-comfy-together-lora": [
         [
             "TogetherImageGenerator",
@@ -1785,7 +1773,8 @@
             "ImageLoaderWithPath|ARZUMATA",
             "JDC_ImageLoader",
             "Sampler Selector|ARZUMATA",
-            "Scheduler Selector|ARZUMATA"
+            "Scheduler Selector|ARZUMATA",
+            "UniversalDeviceOverride"
         ],
         {
             "title_aux": "ComfyUI-ARZUMATA"
@@ -20455,6 +20444,7 @@
             "Data_preset_save",
             "Data_sampleData",
             "Data_select",
+            "DifferentialDiffusion",
             "IO_adjust_image",
             "IO_clear_cache",
             "IO_input_any",
@@ -20494,6 +20484,7 @@
             "Mask_transform_sum",
             "Model_Preset_Unpack",
             "Model_Preset_pack",
+            "OptimalStepsScheduler",
             "Stack_CN_union",
             "Stack_ControlNet",
             "Stack_IPA",
@@ -20571,18 +20562,16 @@
             "color_match_adv",
             "color_selector",
             "color_tool",
-            "creat_any_List",
-            "creat_any_batch",
-            "creat_image_batch",
-            "creat_image_batch_input",
-            "creat_mask_batch",
-            "creat_mask_batch_input",
             "create_AD_mask",
             "create_Mask_match_shape",
             "create_Mask_visual_tag",
             "create_RadialGradient",
+            "create_any_List",
+            "create_any_batch",
+            "create_image_batch",
             "create_lineGradient",
             "create_mask_array",
+            "create_mask_batch",
             "create_mask_solo",
             "create_mulcolor_img",
             "excel_Prompter",
@@ -29014,13 +29003,21 @@
     ],
     "https://github.com/jamesk9526/NoxPrompter-ComfyUI-CustomNode": [
         [
+            "NoxPromptActionDirector",
             "NoxPromptAnalyzer",
             "NoxPromptBuilder",
+            "NoxPromptCamz",
+            "NoxPromptCharacterCreator",
             "NoxPromptCombiner",
             "NoxPromptEnhancer",
+            "NoxPromptHumanDesigner",
+            "NoxPromptLightingMaster",
+            "NoxPromptNSFWActionDirector",
             "NoxPromptNSFWDesigner",
             "NoxPromptNarrativeWeaver",
-            "NoxPromptPaletteMixer"
+            "NoxPromptPaletteMixer",
+            "NoxPromptPipelineCombiner",
+            "NoxPromptWardrobeDesigner"
         ],
         {
             "title_aux": "ComfyUI Nox Prompter"
@@ -40729,6 +40726,17 @@
             "title_aux": "ComfyUI-LLM-VLM-Node"
         }
     ],
+    "https://github.com/sselpah/ComfyUI-sselpah-nodes": [
+        [
+            "IPAEncodeBatch",
+            "IPALoadEmbeds",
+            "IPASaveEmbeds",
+            "PrepClipVisionBatch"
+        ],
+        {
+            "title_aux": "ComfyUI-sselpah-nodes"
+        }
+    ],
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale": [
         [
             "UltimateSDUpscale",
@@ -42602,19 +42610,37 @@
     ],
     "https://github.com/vrgamegirl19/comfyui-vrgamedevgirl": [
         [
+            "ColorMatchToReference",
+            "FastFilmGrain",
+            "FastLaplacianSharpen",
+            "FastSobelSharpen",
+            "FastUnsharpSharpen",
             "VRGDG_AudioCrop",
+            "VRGDG_AudioCropTime",
             "VRGDG_CalculateSetsFromAudio",
             "VRGDG_CombinevideosV2",
             "VRGDG_ConditionalLoadVideos",
             "VRGDG_DisplayIndex",
+            "VRGDG_Extract_Frame_Number",
             "VRGDG_GetFilenamePrefix",
             "VRGDG_GetIndexNumber",
+            "VRGDG_GetRunIndexFromJson",
+            "VRGDG_IndexedPromptChunker",
+            "VRGDG_IndexedPromptChunkerV2",
+            "VRGDG_LoadAudioSplitDynamic",
+            "VRGDG_LoadAudioSplitUpload",
+            "VRGDG_LoadAudioSplit_HUMO",
+            "VRGDG_LoadAudioSplit_HUMO_Transcribe",
             "VRGDG_LoadAudioSplit_HUMO_TranscribeV2",
+            "VRGDG_LoadVideos",
+            "VRGDG_PostRunIndexStepper",
             "VRGDG_PromptSplitter",
             "VRGDG_PromptSplitterV2",
             "VRGDG_StringConcat",
             "VRGDG_TimecodeFromIndex",
-            "VRGDG_TriggerCounter"
+            "VRGDG_TranscribeText",
+            "VRGDG_TriggerCounter",
+            "VRGDG_VideoSplitter"
         ],
         {
             "title_aux": "VRGameDevGirl Video Enhancement Nodes"
@@ -44824,6 +44850,7 @@
             "DeepfaceAnalyzeFaceAttributes",
             "DetectorForNSFW",
             "EmptyConditioning",
+            "FalFunControlVideoRequestNode",
             "FalImage2VideoRequestNode",
             "FalVideo2VideoRequestNode",
             "FloatMultipleAddLiteral",
