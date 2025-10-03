@@ -2,6 +2,26 @@
     "custom_nodes": [
         {
             "author": "rakki194",
+            "title": "ComfyUI_WolfSigmas [UNSAFE/REMOVED]",
+            "reference": "https://github.com/rakki194/ComfyUI_WolfSigmas",
+            "files": [
+                "https://github.com/rakki194/ComfyUI_WolfSigmas"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom nodepack for ComfyUI provides a suite of tools for generating and manipulating sigma schedules for diffusion models. These nodes are particularly useful for fine-tuning the sampling process, experimenting with different step counts, and adapting schedules for specific models.[w/Security Warning: Remote Code Execution]"
+        },
+        {
+            "author": "Maff3u",
+            "title": "MattiaNodes - Points Editor On Cropped [REMOVED]",
+            "reference": "https://github.com/Maff3u/MattiaNodes",
+            "files": [
+                "https://github.com/Maff3u/MattiaNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A standalone ComfyUI custom node for interactive coordinate editing with crop factor correction.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "rakki194",
             "title": "ComfyUI-ImageCompare [REMOVED]",
             "reference": "https://github.com/rakki194/ComfyUI-ImageCompare",
             "files": [

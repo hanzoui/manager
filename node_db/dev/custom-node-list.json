@@ -1072,16 +1072,6 @@
             "description": "A simple ComfyUI custom node that copies model files from the models/ folder to the output/ folder.[w/This nodepack has a vulnerability that allows writing files to arbitrary paths.]"
         },
         {
-            "author": "Maff3u",
-            "title": "MattiaNodes - Points Editor On Cropped [WIP]",
-            "reference": "https://github.com/Maff3u/MattiaNodes",
-            "files": [
-                "https://github.com/Maff3u/MattiaNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A standalone ComfyUI custom node for interactive coordinate editing with crop factor correction.\nNOTE: The files in the repo are not organized."
-        },
-        {
             "author": "viik420",
             "title": "AdvancedModelDownloader [UNSAFE]",
             "reference": "https://github.com/viik420/AdvancedModelDownloader",
@@ -3433,16 +3423,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Face Detector Selector, YC Human Parts Ultra(Advance), Color Match (YC)"
-        },
-        {
-            "author": "rakki194",
-            "title": "ComfyUI_WolfSigmas [UNSAFE]",
-            "reference": "https://github.com/rakki194/ComfyUI_WolfSigmas",
-            "files": [
-                "https://github.com/rakki194/ComfyUI_WolfSigmas"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom nodepack for ComfyUI provides a suite of tools for generating and manipulating sigma schedules for diffusion models. These nodes are particularly useful for fine-tuning the sampling process, experimenting with different step counts, and adapting schedules for specific models.[w/Security Warning: Remote Code Execution]"
         },
         {
             "author": "xl0",
