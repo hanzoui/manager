@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "Kidev",
+            "title": "ComfyUI-FaceFilter",
+            "reference": "https://github.com/Kidev/ComfyUI-FaceFilter",
+            "files": [
+                "https://github.com/Kidev/ComfyUI-FaceFilter"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for face based filtering plus image batch merging."
+        },
+        {
+            "author": "dothings",
+            "title": "comfyui_placeholder_prompting",
+            "reference": "https://github.com/dothings/comfyui_placeholder_prompting",
+            "files": [
+                "https://github.com/dothings/comfyui_placeholder_prompting"
+            ],
+            "install_type": "git-clone",
+            "description": "custom node which allows placing **some_tag** in your prompt and it will replace it with a preset prompt as you like."
+        },
+        {
             "author": "wildminder",
             "title": "ComfyUI-KaniTTS",
             "reference": "https://github.com/wildminder/ComfyUI-KaniTTS",

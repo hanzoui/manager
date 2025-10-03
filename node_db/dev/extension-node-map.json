@@ -4440,6 +4440,18 @@
             "title_aux": "ComfyUI Model Bending [UNSAFE]"
         }
     ],
+    "https://github.com/adamdavidcole/comfyui-video-xy-plot": [
+        [
+            "XYPlotCollectVideo",
+            "XYPlotGetValues",
+            "XYPlotGetValuesTyped",
+            "XYPlotSetup",
+            "XYPlotVideoGrid"
+        ],
+        {
+            "title_aux": "ComfyUI XY Video Plot Suite [WIP]"
+        }
+    ],
     "https://github.com/adigayung/comfyui_PlutoNode": [
         [
             "CompositeImageNode",
@@ -5667,7 +5679,6 @@
             "EmptyLatentHunyuan3Dv2",
             "EmptyLatentImage",
             "EmptySD3LatentImage",
-            "Epsilon Scaling",
             "ExponentialScheduler",
             "ExtendIntermediateSigmas",
             "FeatherMask",
@@ -5810,10 +5821,6 @@
             "Pikadditions",
             "Pikaffects",
             "Pikaswaps",
-            "PixverseImageToVideoNode",
-            "PixverseTemplateNode",
-            "PixverseTextToVideoNode",
-            "PixverseTransitionVideoNode",
             "PolyexponentialScheduler",
             "PorterDuffImageComposite",
             "Preview3D",
@@ -5839,7 +5846,6 @@
             "RecraftTextToImageNode",
             "RecraftTextToVectorNode",
             "RecraftVectorizeImageNode",
-            "ReferenceLatent",
             "RepeatImageBatch",
             "RepeatLatentBatch",
             "RescaleCFG",
@@ -5945,8 +5951,6 @@
             "TestWhileLoopOpen",
             "TextEncodeHunyuanVideo_ImageToVideo",
             "ThresholdMask",
-            "TomePatchModel",
-            "TorchCompileModel",
             "TrainLoraNode",
             "TrimAudioDuration",
             "TripleCLIPLoader",

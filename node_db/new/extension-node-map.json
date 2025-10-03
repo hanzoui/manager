@@ -8588,6 +8588,15 @@
             "title_aux": "ComfyUI-kewky_tools"
         }
     ],
+    "https://github.com/Kidev/ComfyUI-FaceFilter": [
+        [
+            "FaceFilterNode",
+            "MergeImageBatches"
+        ],
+        {
+            "title_aux": "ComfyUI-FaceFilter"
+        }
+    ],
     "https://github.com/Kidev/ComfyUI-Fisheye-effects": [
         [
             "Defisheye",
@@ -22632,7 +22641,6 @@
             "EmptyLatentHunyuan3Dv2",
             "EmptyLatentImage",
             "EmptySD3LatentImage",
-            "Epsilon Scaling",
             "ExponentialScheduler",
             "ExtendIntermediateSigmas",
             "FeatherMask",
@@ -22775,10 +22783,6 @@
             "Pikadditions",
             "Pikaffects",
             "Pikaswaps",
-            "PixverseImageToVideoNode",
-            "PixverseTemplateNode",
-            "PixverseTextToVideoNode",
-            "PixverseTransitionVideoNode",
             "PolyexponentialScheduler",
             "PorterDuffImageComposite",
             "Preview3D",
@@ -22804,7 +22808,6 @@
             "RecraftTextToImageNode",
             "RecraftTextToVectorNode",
             "RecraftVectorizeImageNode",
-            "ReferenceLatent",
             "RepeatImageBatch",
             "RepeatLatentBatch",
             "RescaleCFG",
@@ -22910,8 +22913,6 @@
             "TestWhileLoopOpen",
             "TextEncodeHunyuanVideo_ImageToVideo",
             "ThresholdMask",
-            "TomePatchModel",
-            "TorchCompileModel",
             "TrainLoraNode",
             "TrimAudioDuration",
             "TripleCLIPLoader",
@@ -24389,6 +24390,14 @@
             "title_aux": "ComfyUI-LTXVideoLoRA"
         }
     ],
+    "https://github.com/dothings/comfyui_placeholder_prompting": [
+        [
+            "PlaceholderPrompting"
+        ],
+        {
+            "title_aux": "comfyui_placeholder_prompting"
+        }
+    ],
     "https://github.com/doubletwisted/ComfyUI-Deadline-Plugin": [
         [
             "DeadlineSeed",
@@ -25617,6 +25626,8 @@
             "FL_UnloadAllModels",
             "FL_UnloadModel",
             "FL_UpscaleModel",
+            "FL_Veo3VideoGen",
+            "FL_VertexGemini25FlashImage",
             "FL_VideoBatchSplitter",
             "FL_VideoCadence",
             "FL_VideoCadenceCompile",
@@ -26595,6 +26606,7 @@
             "Veo2ImageToVideo_fal",
             "Veo3_fal",
             "VideoUpscaler_fal",
+            "Wan25_preview_fal",
             "WanLoraTrainer_fal",
             "WanPro_fal"
         ],
@@ -27536,6 +27548,7 @@
             "WWAA_ImageToTextFile",
             "WWAA_IndexGridLayoutNode",
             "WWAA_LineCount",
+            "WWAA_MetadataSaver",
             "WWAA_NestedLoopCounter",
             "WWAA_PromptWriter",
             "WWAA_SearchReplaceText",
@@ -41050,6 +41063,7 @@
     "https://github.com/sumitchatterjee13/Luminance-Stack-Processor": [
         [
             "HDRExportNode",
+            "LatentStackProcessor5Stops",
             "LuminanceStackProcessor3Stops",
             "LuminanceStackProcessor5Stops"
         ],
