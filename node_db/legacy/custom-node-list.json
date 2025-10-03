@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "rakki194",
+            "title": "ComfyUI-ImageCompare [REMOVED]",
+            "reference": "https://github.com/rakki194/ComfyUI-ImageCompare",
+            "files": [
+                "https://github.com/rakki194/ComfyUI-ImageCompare"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple custom node for ComfyUI that allows you to compare two images (or batches of images) side-by-side within the UI."
+        },
+        {
+            "author": "APZmedia",
+            "title": "NormalMapLightEstimator [REMOVED]",
+            "reference": "https://github.com/APZmedia/Comfyui-LightDirection-estimation",
+            "files": [
+                "https://github.com/APZmedia/Comfyui-LightDirection-estimation"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for estimating light direction and quality from normal maps using luma masking. The system analyzes surface normals to infer lighting information for downstream tasks like adaptive relighting, directional masking, or stylized effects."
+        },
+        {
             "author": "APZmedia",
             "title": "ComfyUI APZmedia PSD Tools [REMOVED]",
             "reference": "https://github.com/APZmedia/APZmedia-ComfyUI-PSDtools",

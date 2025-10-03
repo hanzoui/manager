@@ -1598,6 +1598,7 @@
             "Load Prompt From File - EQX",
             "LoadRetinaFace_EQX",
             "LoraStackEQX_random",
+            "Moondream3CaptionEQX",
             "NSFW Detector EQX",
             "ResolutionSelectorEQX",
             "SaveImage_EQX",
@@ -5612,6 +5613,16 @@
             "title_aux": "FileTo64"
         }
     ],
+    "https://github.com/clubmate/comfyui-boll-nodes": [
+        [
+            "GetLastImage",
+            "RemoveLastImage",
+            "WANConfig"
+        ],
+        {
+            "title_aux": "comfyui-boll-nodes"
+        }
+    ],
     "https://github.com/comfyanonymous/ComfyUI": [
         [
             "AddNoise",
@@ -5701,7 +5712,6 @@
             "ImageOnlyCheckpointLoader",
             "ImageOnlyCheckpointSave",
             "ImagePadForOutpaint",
-            "ImageRGBToYUV",
             "ImageRotate",
             "ImageScale",
             "ImageScaleBy",
@@ -5709,7 +5719,6 @@
             "ImageStitch",
             "ImageToMask",
             "ImageUpscaleWithModel",
-            "ImageYUVToRGB",
             "InpaintModelConditioning",
             "InvertMask",
             "JoinImageWithAlpha",
@@ -5798,7 +5807,6 @@
             "ModelSamplingSD3",
             "ModelSamplingStableCascade",
             "ModelSave",
-            "Morphology",
             "OpenAIChatConfig",
             "OpenAIChatNode",
             "OpenAIDalle2",
@@ -8476,6 +8484,7 @@
     ],
     "https://github.com/lucafoscili/lf-nodes": [
         [
+            "LF_BackgroundRemover",
             "LF_Blend",
             "LF_BlobToImage",
             "LF_Bloom",
@@ -8577,7 +8586,9 @@
             "LF_SwitchInteger",
             "LF_SwitchJSON",
             "LF_SwitchString",
+            "LF_TiledSuperRes",
             "LF_TiltShift",
+            "LF_UnsharpMask",
             "LF_UpdateUsageStatistics",
             "LF_UpscaleModelSelector",
             "LF_UrandomSeedGenerator",
@@ -10149,7 +10160,9 @@
     ],
     "https://github.com/sk-palani/ComfyUI_Simpler": [
         [
-            "Image_Preparations"
+            "Image_Preparations",
+            "InputSelector",
+            "Input_Image"
         ],
         {
             "title_aux": "ComfyUI_Simpler"

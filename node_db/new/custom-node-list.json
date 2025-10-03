@@ -1,6 +1,57 @@
 {
     "custom_nodes": [
         {
+            "author": "wildminder",
+            "title": "ComfyUI-KaniTTS",
+            "reference": "https://github.com/wildminder/ComfyUI-KaniTTS",
+            "files": [
+                "https://github.com/wildminder/ComfyUI-KaniTTS"
+            ],
+            "install_type": "git-clone",
+            "description": "Kani TTS. Generate natural, high‑quality speech from text"
+        },
+        {
+            "author": "u5dev",
+            "title": "u5 FreeVRAM - Memory Management",
+            "id": "u5_VramFREE",
+            "reference": "https://github.com/u5dev/comfyUI_u5_VramFREE",
+            "files": [
+                "https://github.com/u5dev/comfyUI_u5_VramFREE"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Memory Management and VRAM Optimization Custom Node - Free VRAM with sequential model loading support"
+        },
+        {
+            "author": "lucasgattas",
+            "title": "Egregora Frames Animation Nodes for ComfyUI",
+            "reference": "https://github.com/lucasgattas/ComfyUI-Egregora-Frames-Animation-Nodes",
+            "files": [
+                "https://github.com/lucasgattas/ComfyUI-Egregora-Frames-Animation-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced image list animation toolkit for ComfyUI with batch processing, AI-powered frame interpolation, and multi-format video encoding."
+        },
+        {
+            "author": "WangDianhui",
+            "title": "ComfyUI-SA-ODE_Sampler",
+            "reference": "https://github.com/WangDianhui/ComfyUI-SA-ODE_Sampler",
+            "files": [
+                "https://github.com/WangDianhui/ComfyUI-SA-ODE_Sampler"
+            ],
+            "install_type": "git-clone",
+            "description": "Ultra-Efficient Flow Matching sampler ported from [a/https://github.com/eddyhhlure1Eddy/ode-t1](https://github.com/eddyhhlure1Eddy/ode-t1), suitable for native ComfyUI workflows."
+        },
+        {
+            "author": "wallen",
+            "title": "ComfyUI-SageAttention3",
+            "reference": "https://github.com/wallen0322/ComfyUI-SageAttention3",
+            "files": [
+                "https://github.com/wallen0322/ComfyUI-SageAttention3"
+            ],
+            "install_type": "git-clone",
+            "description": "Strict Sage 3 (Blackwell) attention for ComfyUI official flows."
+        },
+        {
             "author": "sselpah",
             "title": "ComfyUI-sselpah-nodes",
             "reference": "https://github.com/sselpah/ComfyUI-sselpah-nodes",
@@ -19,16 +70,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom node pack for WAN v2v long video generation. Provides nodes for chunking, overlap stitching, control group orchestration, debug numbering, and de-overlap merging to create seamless long-form videos."
-        },
-        {
-            "author": "APZmedia",
-            "title": "NormalMapLightEstimator",
-            "reference": "https://github.com/APZmedia/Comfyui-LightDirection-estimation",
-            "files": [
-                "https://github.com/APZmedia/Comfyui-LightDirection-estimation"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node for estimating light direction and quality from normal maps using luma masking. The system analyzes surface normals to infer lighting information for downstream tasks like adaptive relighting, directional masking, or stylized effects."
         },
         {
             "author": "9nate-drake",
@@ -647,46 +688,6 @@
             ],
             "install_type": "git-clone",
             "description": "A custom ComfyUI node that allows you to combine two LoRAs with adjustable strengths and multiple merging methods."
-        },
-        {
-            "author": "VraethrDalkr",
-            "title": "ComfyUI-TripleKSampler",
-            "reference": "https://github.com/VraethrDalkr/ComfyUI-TripleKSampler",
-            "files": [
-                "https://github.com/VraethrDalkr/ComfyUI-TripleKSampler"
-            ],
-            "install_type": "git-clone",
-            "description": "Triple-stage KSampler for Wan2.2 split models with Lightning LoRA"
-        },
-        {
-            "author": "Firetheft",
-            "title": "ComfyUI_Pixabay_Gallery",
-            "reference": "https://github.com/Firetheft/ComfyUI_Pixabay_Gallery",
-            "files": [
-                "https://github.com/Firetheft/ComfyUI_Pixabay_Gallery"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful node for browsing and importing media from Pixabay directly within ComfyUI."
-        },
-        {
-            "author": "comrender",
-            "title": "ComfyUI-NanoSeed",
-            "reference": "https://github.com/comrender/ComfyUI-NanoSeed",
-            "files": [
-                "https://github.com/comrender/ComfyUI-NanoSeed"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node for seamless image editing using fal.ai's NanoBanana and Seedream (v4) models. Edit images with AI-powered prompts, supporting multi-image batches, custom resolutions, and easy fal.ai API key integration directly in the node interface. "
-        },
-        {
-            "author": "APZmedia",
-            "title": "ComfyUI APZmedia PSD Tools",
-            "reference": "https://github.com/APZmedia/APZmedia-ComfyUI-PSDtools",
-            "files": [
-                "https://github.com/APZmedia/APZmedia-ComfyUI-PSDtools"
-            ],
-            "install_type": "git-clone",
-            "description": "This extension provides PSD layer saving functionalities with mask support for ComfyUI."
         }
     ]
 }
