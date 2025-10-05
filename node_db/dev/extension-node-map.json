@@ -589,8 +589,6 @@
     "https://github.com/APZmedia/comfyui-textools": [
         [
             "APZ/MarkdownTextOverlay",
-            "APZ/RichTextOverlay",
-            "APZ/RichTextOverlayV2",
             "APZmediaImageMarkdownTextOverlay",
             "APZmediaImageRichTextOverlay",
             "APZmediaImageRichTextOverlayV2"
@@ -1882,6 +1880,14 @@
         ],
         {
             "title_aux": "ComfyUI-FileBrowserAPI [UNSAFE]"
+        }
+    ],
+    "https://github.com/Gaotian-cpu/KLComfyUI-Nodes": [
+        [
+            "singleVideoImgCallback"
+        ],
+        {
+            "title_aux": "KLComfyUI-Nodes"
         }
     ],
     "https://github.com/GeekatplayStudio/ComfyUI_Toolbox": [
@@ -4443,8 +4449,8 @@
     "https://github.com/adamdavidcole/comfyui-video-xy-plot": [
         [
             "XYPlotCollectVideo",
+            "XYPlotDirectorySetup",
             "XYPlotGetValues",
-            "XYPlotGetValuesTyped",
             "XYPlotSetup",
             "XYPlotVideoGrid"
         ],
@@ -4638,6 +4644,25 @@
         ],
         {
             "title_aux": "alexisrolland/ComfyUI-AuraSR"
+        }
+    ],
+    "https://github.com/alisson-anjos/ComfyUI-Workarounds": [
+        [
+            "SkinToneColorMatch",
+            "SkinToneDetector",
+            "WA_Face3DProjection",
+            "WA_FaceLandmarkDetector",
+            "WA_FaceMaskCreator",
+            "WA_FaceRegionOptions",
+            "WA_GeometricFaceAlign",
+            "WA_ImageComposite",
+            "WA_ImageTransform",
+            "WA_PlanarFaceOverlay",
+            "WA_SkinToneColorMatch",
+            "WA_SkinToneDetector"
+        ],
+        {
+            "title_aux": "ComfyUI-Workarounds [WIP]"
         }
     ],
     "https://github.com/alistairallan/ComfyUI-skin-retouch": [
@@ -5850,13 +5875,7 @@
             "RepeatLatentBatch",
             "RescaleCFG",
             "ResizeAndPadImage",
-            "Rodin3D_Detail",
-            "Rodin3D_Gen2",
-            "Rodin3D_Regular",
-            "Rodin3D_Sketch",
-            "Rodin3D_Smooth",
             "SDTurboScheduler",
-            "SV3D_Conditioning",
             "SVD_img2vid_Conditioning",
             "SamplerCustom",
             "SamplerCustomAdvanced",
@@ -5893,8 +5912,6 @@
             "SplitImageWithAlpha",
             "SplitSigmas",
             "SplitSigmasDenoise",
-            "StableZero123_Conditioning",
-            "StableZero123_Conditioning_Batched",
             "StubConstantImage",
             "StubFloat",
             "StubImage",
@@ -10410,6 +10427,16 @@
         ],
         {
             "title_aux": "displayHistory [WIP]"
+        }
+    ],
+    "https://github.com/systemaiofinterest-wq/ComfyUI-GoogleFX": [
+        [
+            "GoogleImagen35Node",
+            "GoogleImagenR2INode",
+            "GoogleNanoBananaNode"
+        ],
+        {
+            "title_aux": "ComfyUI-GoogleFX"
         }
     ],
     "https://github.com/takoyaki1118/ComfyUI_PromptExtractor": [

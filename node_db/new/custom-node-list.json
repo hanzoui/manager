@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "ThunderBolt4931",
+            "title": "ComfyUI-Pixel-Forge",
+            "reference": "https://github.com/ThunderBolt4931/comfyui_pixel_forge",
+            "files": [
+                "https://github.com/ThunderBolt4931/comfyui_pixel_forge"
+            ],
+            "install_type": "git-clone",
+            "description": "Pixel-Forge is a powerful suite of custom nodes for ComfyUI designed for complex image processing, computer vision tasks, and advanced batch operations. This toolkit moves beyond simple image generation, providing the essential building blocks for creating sophisticated, logic-driven workflows."
+        },
+        {
+            "author": "Light-x02",
+            "title": "ComfyUI-Civitai-Discovery-Hub",
+            "reference": "https://github.com/Light-x02/ComfyUI-Civitai-Discovery-Hub",
+            "files": [
+                "https://github.com/Light-x02/ComfyUI-Civitai-Discovery-Hub"
+            ],
+            "install_type": "git-clone",
+            "description": "This ComfyUI node lets you browse the Civitai gallery directly within the interface, featuring infinite scroll, advanced filters (including NSFW), and favorites management. It also allows you to retrieve prompts, metadata, and images/videos to seamlessly reuse them in your workflows."
+        },
+        {
+            "author": "ThunderBolt4931",
+            "title": "ComfyUI-Koolook",
+            "reference": "https://github.com/malkuthro/ComfyUI-Koolook",
+            "files": [
+                "https://github.com/malkuthro/ComfyUI-Koolook"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository provides custom nodes for ComfyUI tailored for VFX and AI image/video generation workflows"
+        },
+        {
+            "author": "azazeal04",
+            "title": "comfy-switch-samplers",
+            "reference": "https://github.com/azazeal04/comfyui-switch-samplers",
+            "files": [
+                "https://github.com/azazeal04/comfyui-switch-samplers"
+            ],
+            "install_type": "git-clone",
+            "description": "Switch sampler nodes for ComfyUI"
+        },
+        {
             "author": "Kidev",
             "title": "ComfyUI-FaceFilter",
             "reference": "https://github.com/Kidev/ComfyUI-FaceFilter",
@@ -688,26 +728,6 @@
             ],
             "install_type": "git-clone",
             "description": "This is a custom node for ComfyUI that provides a dynamic 'Switch' for routing purposes. It allows you to define a list of named labels and select one, outputting the corresponding index and label name. This is useful for controlling the flow of your workflow based on a selection."
-        },
-        {
-            "author": "Sean-Bradley",
-            "title": "ComfyUI Virtual Webcam",
-            "reference": "https://github.com/Sean-Bradley/ComfyUI-Virtual-Webcam",
-            "files": [
-                "https://github.com/Sean-Bradley/ComfyUI-Virtual-Webcam"
-            ],
-            "install_type": "git-clone",
-            "description": "A Virtual Camera Output For ComfyUI. On Windows, it will use the OBS Virtual Camera driver. So make sure you have OBS installed. Then in your other webcam capable applications, such as Google Meet, Teams, Zoom and even OBS itself, you can connect to the OBS Virtual Camera option and see what you are outputting from ComfyUI."
-        },
-        {
-            "author": "LukeCoulson1",
-            "title": "ComfyUI LoRA Combine Node",
-            "reference": "https://github.com/LukeCoulson1/Comfyui_LoraCombine",
-            "files": [
-                "https://github.com/LukeCoulson1/Comfyui_LoraCombine"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node that allows you to combine two LoRAs with adjustable strengths and multiple merging methods."
         }
     ]
 }

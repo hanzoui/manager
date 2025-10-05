@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "systemaiofinterest-wq",
+            "title": "ComfyUI-GoogleFX",
+            "reference": "https://github.com/systemaiofinterest-wq/ComfyUI-GoogleFX",
+            "files": [
+                "https://github.com/systemaiofinterest-wq/ComfyUI-GoogleFX"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Google Imagen 3.5, Google Imagen R2I, Google Imagen Nano Banana x4"
+        },
+        {
+            "author": "alisson-anjos",
+            "title": "ComfyUI-Workarounds [WIP]",
+            "reference": "https://github.com/alisson-anjos/ComfyUI-Workarounds",
+            "files": [
+                "https://github.com/alisson-anjos/ComfyUI-Workarounds"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository provides practical ComfyUI nodes for fast, planar face overlay without non-linear warping, plus flexible region masks to transfer the full head (face + hair + eyebrows + eyes + nose + mouth) or any combination of regions. It also includes optional color matching and JSON diagnostics to integrate with downstream logic.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Gaotian",
+            "title": "KLComfyUI-Nodes",
+            "reference": "https://github.com/Gaotian-cpu/KLComfyUI-Nodes",
+            "files": [
+                "https://github.com/Gaotian-cpu/KLComfyUI-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Single Video_Img Callback"
+        },
+        {
             "author": "adamdavidcole",
             "title": "ComfyUI XY Video Plot Suite [WIP]",
             "reference": "https://github.com/adamdavidcole/comfyui-video-xy-plot",
