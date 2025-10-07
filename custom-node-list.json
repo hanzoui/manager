@@ -33639,6 +33639,16 @@
             "install_type": "git-clone",
             "description": "This repository provides custom nodes for ComfyUI tailored for VFX and AI image/video generation workflows"
         },
+        {
+            "author": "AI-TEC",
+            "title": "ComfyUI_AITECCAFE_Toolkit",
+            "reference": "https://github.com/AI-TEC/ComfyUI-AITECCAFE-Toolkit",
+            "files": [
+                "https://github.com/AI-TEC/ComfyUI-AITECCAFE-Toolkit"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node includes the following functions: Chat_GPT, image_moderation, media_loader, merge_strings, sequential_image_loader."
+        },
 
 
 
@@ -34102,16 +34112,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "AI-TEC",
-            "title": "ComfyUI_AITECCAFE_Toolkit",
-            "reference": "https://github.com/AI-TEC/ComfyUI-AITECCAFE-Toolkit",
-            "files": [
-                "https://github.com/AI-TEC/ComfyUI-AITECCAFE-Toolkit"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node includes the following functions: Chat_GPT, image_moderation, media_loader, merge_strings, sequential_image_loader."
         }
     ]
 }
