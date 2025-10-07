@@ -589,6 +589,9 @@
     "https://github.com/APZmedia/comfyui-textools": [
         [
             "APZ/MarkdownTextOverlay",
+            "APZmediaBrandMarkdownTextOverlay",
+            "APZmediaBrandRichTextOverlay",
+            "APZmediaBrandRichTextOverlayV2",
             "APZmediaImageMarkdownTextOverlay",
             "APZmediaImageRichTextOverlay",
             "APZmediaImageRichTextOverlayV2"
@@ -1937,6 +1940,14 @@
             "title_aux": "ComfyUI-video-accessory [WIP]"
         }
     ],
+    "https://github.com/Goldlionren/ComfyUI-CleanSlate": [
+        [
+            "CleanSlateCleanup"
+        ],
+        {
+            "title_aux": "ComfyUI-CleanSlate [WIP]"
+        }
+    ],
     "https://github.com/Grant-CP/ComfyUI-LivePortraitKJ-MPS": [
         [
             "DownloadAndLoadLivePortraitModels",
@@ -3202,8 +3213,10 @@
         [
             "DoomFluxInpaintSampler",
             "DoomFluxLoader",
+            "DoomFluxLoader_GGUF",
             "DoomFluxSampler",
-            "DoomFluxSamplerAdvanced"
+            "DoomFluxSamplerAdvanced",
+            "DoomFluxSuperLoader"
         ],
         {
             "title_aux": "DoomFLUX Nodes [WIP]"
@@ -4214,6 +4227,15 @@
         ],
         {
             "title_aux": "ComfyUI_LLM_Are_You_Listening [WIP]"
+        }
+    ],
+    "https://github.com/YokoYokoTEC/comfyui-batch-sequence": [
+        [
+            "BatchCounter|YokoYokoTEC",
+            "LineRead|YokoYokoTEC"
+        ],
+        {
+            "title_aux": "ComfyUI Batch Sequence Node [UNSAFE]"
         }
     ],
     "https://github.com/YokoYokoTEC/comfyui-sequential-prompt-file": [
@@ -5751,19 +5773,6 @@
             "KSamplerAdvanced",
             "KSamplerSelect",
             "KarrasScheduler",
-            "KlingCameraControlI2VNode",
-            "KlingCameraControlT2VNode",
-            "KlingCameraControls",
-            "KlingDualCharacterVideoEffectNode",
-            "KlingImage2VideoNode",
-            "KlingImageGenerationNode",
-            "KlingLipSyncAudioToVideoNode",
-            "KlingLipSyncTextToVideoNode",
-            "KlingSingleImageVideoEffectNode",
-            "KlingStartEndFrameNode",
-            "KlingTextToVideoNode",
-            "KlingVideoExtendNode",
-            "KlingVirtualTryOnNode",
             "LaplaceScheduler",
             "LatentAdd",
             "LatentApplyOperation",
@@ -5839,13 +5848,6 @@
             "OpenAIGPTImage1",
             "OpenAIInputFiles",
             "PatchModelAddDownscale",
-            "PikaImageToVideoNode2_2",
-            "PikaScenesV2_2",
-            "PikaStartEndFrameNode2_2",
-            "PikaTextToVideoNode2_2",
-            "Pikadditions",
-            "Pikaffects",
-            "Pikaswaps",
             "PolyexponentialScheduler",
             "PorterDuffImageComposite",
             "Preview3D",
@@ -6270,8 +6272,11 @@
     ],
     "https://github.com/downlifted/ComfyUI_GroqPrompt": [
         [
+            "GroqAPIKeyManager",
+            "GroqAPIKeyProvider",
             "GroqArtPromptEnhancer",
             "GroqArtPromptGenerator",
+            "GroqLLMNode",
             "GroqMusicToArtPrompter",
             "GroqStyleTransferPrompter",
             "GroqWorkflowHelper"
@@ -6454,6 +6459,20 @@
         ],
         {
             "title_aux": "ComfyUI-HunyuanVideoWrapper-Extended [WIP]"
+        }
+    ],
+    "https://github.com/ethanfel/ComfyUI-Mamad8-QwenEdit-fix": [
+        [
+            "CLIPTextEncodeMamad8",
+            "ConditioningRouter",
+            "ImageRouter",
+            "LatentRouter",
+            "ModelRouter",
+            "QwenImagePreprocessMamad8",
+            "TextEncodeQwenImageEditPlusMamad8"
+        ],
+        {
+            "title_aux": "ComfyUI-Mamad8 [WIP]"
         }
     ],
     "https://github.com/exectails/comfyui-et_scripting": [
@@ -9184,6 +9203,15 @@
             "title_aux": "comfyui-camera-capture-node"
         }
     ],
+    "https://github.com/obisin/ComfyUI-FSampler": [
+        [
+            "FSampler",
+            "FSamplerAdvanced"
+        ],
+        {
+            "title_aux": "FSampler for ComfyUI \u2014 Fast Skips via Epsilon Extrapolation [WIP]"
+        }
+    ],
     "https://github.com/odedgranot/comfyui-ffmpeg-node": [
         [
             "FFmpegNode"
@@ -9680,6 +9708,15 @@
             "nickname": "ComfyUI-ODE",
             "title": "ComfyUI-ODE",
             "title_aux": "ComfyUI-ODE"
+        }
+    ],
+    "https://github.com/remhesneb/comfyui-remote-media": [
+        [
+            "LoadImageByUrl",
+            "LoadVideoByUrl"
+        ],
+        {
+            "title_aux": "comfyui-remote-media"
         }
     ],
     "https://github.com/retech995/Save_Florence2_Bulk_Prompts": [
@@ -10431,12 +10468,21 @@
     ],
     "https://github.com/systemaiofinterest-wq/ComfyUI-GoogleFX": [
         [
+            "GoogleImagen31Node",
             "GoogleImagen35Node",
             "GoogleImagenR2INode",
             "GoogleNanoBananaNode"
         ],
         {
             "title_aux": "ComfyUI-GoogleFX"
+        }
+    ],
+    "https://github.com/takoyaki1118/ComfyUI-Kakimoji-Layer": [
+        [
+            "KakimojiEditor"
+        ],
+        {
+            "title_aux": "ComfyUI-Kakimoji-Layer"
         }
     ],
     "https://github.com/takoyaki1118/ComfyUI_PromptExtractor": [
@@ -10898,6 +10944,43 @@
         ],
         {
             "title_aux": "ComfyUI-ccsrv2 [WIP]"
+        }
+    ],
+    "https://github.com/wTechArtist/ComfyUI-VVL-Tools": [
+        [
+            "ApplyUrlsToJson",
+            "BlenderSmartModelScalerBatch",
+            "DimensionReorderAndScale",
+            "DynamicBatchAnything",
+            "Enhanced3DRenderer",
+            "IndexUrlPairDeduplicator",
+            "JsonArrayElementFieldExtractor",
+            "JsonCompressor",
+            "JsonExtractSubjectNamesScales",
+            "JsonMarkdownCleaner",
+            "JsonObjectDeduplicator",
+            "JsonObjectMerger",
+            "JsonRotationScaleAdjuster",
+            "JsonScaleMaxAdjuster",
+            "ModelTransformParameters",
+            "RoomBboxGeneratorNode",
+            "TensorListPreview",
+            "TextCombineMulti",
+            "VVL compare",
+            "VVL forLoopEnd",
+            "VVL forLoopStart",
+            "VVL listChunk",
+            "VVL listConstruct",
+            "VVL listGetItem",
+            "VVL listLength",
+            "VVL mathInt",
+            "VVL whileLoopEnd",
+            "VVL whileLoopStart",
+            "VVL_Load_Text_Batch",
+            "async_sleep_v1"
+        ],
+        {
+            "title_aux": "ComfyUI-VVL-Tools"
         }
     ],
     "https://github.com/wTechArtist/ComfyUI_VVL_Segmentation": [
@@ -11577,14 +11660,6 @@
         ],
         {
             "title_aux": "ComfyUI Qwen Vision Language API Node [NAME CONFLICT]"
-        }
-    ],
-    "https://github.com/znuost10/comfyui-multi-float-output": [
-        [
-            "MultiFloatInputNode"
-        ],
-        {
-            "title_aux": "comfyui-multi-float-output"
         }
     ],
     "https://github.com/zopieux/ComfyUI-zopi": [
