@@ -1407,6 +1407,16 @@
             "title_aux": "ComfyUI Node Switcher"
         }
     ],
+    "https://github.com/Dehypnotic/comfyui-save-mp3": [
+        [
+            "SaveAudioMP3Dehypnotic",
+            "SaveImagesDehypnotic",
+            "SaveVideoDehypnotic"
+        ],
+        {
+            "title_aux": "Save MP3 node for ComfyUI [UNSAFE]"
+        }
+    ],
     "https://github.com/DenRakEiw/Comfyui-Aspect-Ratio-Processor": [
         [
             "AspectRatioProcessor"
@@ -6215,6 +6225,15 @@
             "title_aux": "ComfyUI_light_image_ops"
         }
     ],
+    "https://github.com/doc-packages/comfyui-doc-utils": [
+        [
+            "DOC_RandomPromptChoice",
+            "DOC_SaveImageAndAddToHistory"
+        ],
+        {
+            "title_aux": "doc-utils"
+        }
+    ],
     "https://github.com/dogcomplex/ComfyUI-LOKI": [
         [
             "EvaluateRelevanceLLM",
@@ -7397,6 +7416,16 @@
             "title_aux": "ComfyUI-LuminaNext [WIP]"
         }
     ],
+    "https://github.com/isurulkh/ComfyUI-Lovis-Node": [
+        [
+            "AudioDurationNode",
+            "LineCountNode",
+            "TextToSingleLineNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Lovis-Node [WIP]"
+        }
+    ],
     "https://github.com/jammyfu/ComfyUI_PaintingCoderUtils": [
         [
             "PaintingCoder::DynamicImageCombiner",
@@ -7759,6 +7788,7 @@
     ],
     "https://github.com/kesslerdev/kesslerdev_comfyui_nodes": [
         [
+            "KesslerDev_AlwaysSeed",
             "KesslerDev_EnvironmentVariableGetter",
             "KesslerDev_MultilineTextChoice"
         ],
@@ -8940,6 +8970,7 @@
         [
             "DynamicLoraStack",
             "DynamicStringConcat",
+            "FastNodeBypasser",
             "ProportionalDimension",
             "RegexStringReplace",
             "SimpleStringReplace",
@@ -9429,6 +9460,14 @@
         ],
         {
             "title_aux": "List Data Helper Nodes"
+        }
+    ],
+    "https://github.com/pfpb/comfyui-badnodes": [
+        [
+            "ReplaceEmptyMasksWithLastMasks"
+        ],
+        {
+            "title_aux": "comfyui-badnodes"
         }
     ],
     "https://github.com/pft-ChenKu/ComfyUI_system-dev": [

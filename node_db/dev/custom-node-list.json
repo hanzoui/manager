@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "pfpb",
+            "title": "comfyui-badnodes",
+            "reference": "https://github.com/pfpb/comfyui-badnodes",
+            "files": [
+                "https://github.com/pfpb/comfyui-badnodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: ReplaceEmptyMasksWithLastMasks, ..."
+        },
+        {
+            "author": "isurulkh",
+            "title": "ComfyUI-Lovis-Node [WIP]",
+            "reference": "https://github.com/isurulkh/ComfyUI-Lovis-Node",
+            "files": [
+                "https://github.com/isurulkh/ComfyUI-Lovis-Node"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for text and audio processing in ComfyUI.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "doc",
+            "title": "doc-utils",
+            "reference": "https://github.com/doc-packages/comfyui-doc-utils",
+            "files": [
+                "https://github.com/doc-packages/comfyui-doc-utils"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: DOC_SaveImageAndAddToHistory, DOC_RandomPromptChoice"
+        },
+        {
+            "author": "Dehypnotic",
+            "title": "Save MP3 node for ComfyUI [UNSAFE]",
+            "reference": "https://github.com/Dehypnotic/comfyui-save-mp3",
+            "files": [
+                "https://github.com/Dehypnotic/comfyui-save-mp3"
+            ],
+            "install_type": "git-clone",
+            "description": "Simple, flexible MP3 saver with bitrate options and handy path/filename templates.[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
             "author": "obisin",
             "title": "FSampler for ComfyUI — Fast Skips via Epsilon Extrapolation [WIP]",
             "reference": "https://github.com/obisin/ComfyUI-FSampler",

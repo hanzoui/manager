@@ -1,6 +1,78 @@
 {
     "custom_nodes": [
         {
+            "author": "Seungyong Lee",
+            "title": "ComfyUI-PromptEnhancer",
+            "id": "comfyui-promptenhancer",
+            "reference": "https://github.com/ryan-seungyong-lee/ComfyUI-PromptEnhancer",
+            "files": [
+                "https://github.com/ryan-seungyong-lee/ComfyUI-PromptEnhancer"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-PromptEnhancer is a custom node for Hunyuan PromptEnhancer"
+        },
+        {
+            "author": "voxta-ai",
+            "title": "Voxta ComfyUI Nodes",
+            "reference": "https://github.com/voxta-ai/ComfyUI-VoxtaNodes",
+            "files": [
+                "https://github.com/voxta-ai/ComfyUI-VoxtaNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes to create and integrate with Voxta"
+        },
+        {
+            "author": "AzelusLightvale",
+            "title": "ComfyUI ARG Toolkit",
+            "reference": "https://github.com/AzelusLightvale/ComfyUI-ARG-Toolkit",
+            "files": [
+                "https://github.com/AzelusLightvale/ComfyUI-ARG-Toolkit"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of ComfyUI nodes for cryptography, steganography, encryption, decryption, and tools needed to both make and solve ARGs (Alternative Reality Games) and secret messages."
+        },
+        {
+            "author": "casc1701",
+            "title": "ComfyUI_OverlayFrameNumber",
+            "reference": "https://github.com/casc1701/ComfyUI_OverlayFrameNumber",
+            "files": [
+                "https://github.com/casc1701/ComfyUI_OverlayFrameNumber"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node to overlay frame numbers on images (e.g., from VAE Decode) with customizable prefix, zero-padding, font, position, and text outline."
+        },
+        {
+            "author": "leeguandong",
+            "title": "ComfyUI nodes to use Xverse",
+            "reference": "https://github.com/leeguandong/ComfyUI_Xverse",
+            "files": [
+                "https://github.com/leeguandong/ComfyUI_Xverse"
+            ],
+            "install_type": "git-clone",
+            "description": "The ComfyUI version of [a/XVerse](https://github.com/bytedance/XVerse)"
+        },
+        {
+            "author": "bobosola",
+            "title": "ComfyUI-reboot",
+            "reference": "https://github.com/bobosola/ComfyUI-reboot",
+            "files": [
+                "https://github.com/bobosola/ComfyUI-reboot"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node to reboot ComfyUI server"
+        },
+        {
+            "author": "scofano",
+            "title": "Comfy Text Stats",
+            "id": "comfy-text-stats",
+            "reference": "https://github.com/scofano/comfy-text-stats",
+            "files": [
+                "https://github.com/scofano/comfy-text-stats"
+            ],
+            "install_type": "git-clone",
+            "description": "Node: Text Stats (Char & Word Count). A lightweight ComfyUI custom node that takes a text string and outputs character and word counts (INT). Ideal for caption preprocessing, prompt analytics, and dataset workflows."
+        },
+        {
             "author": "yolain",
             "title": "ComfyUI-Easy-DotsOCR",
             "reference": "https://github.com/yolain/ComfyUI-Easy-DotsOCR",
@@ -623,79 +695,6 @@
             ],
             "install_type": "git-clone",
             "description": "A powerful custom node extension for ComfyUI that enables automatic iteration through multiple prompts with corresponding filename generation. Perfect for batch processing different variations like character face angles, poses, or any sequential prompt workflow."
-        },
-        {
-            "author": "Sampkao",
-            "title": "ComfyUI-Amage",
-            "reference": "https://github.com/Sampkao/ComfyUI-Amage",
-            "files": [
-                "https://github.com/Sampkao/ComfyUI-Amage"
-            ],
-            "install_type": "git-clone",
-            "description": "This repository provides a set of custom nodes for ComfyUI, designed to improve workflow convenience when working with text, image, video, and audio data."
-        },
-        {
-            "author": "maxmad62",
-            "title": "ComfyUI-DiscordWebhookWithInput",
-            "reference": "https://github.com/maxmad62/ComfyUI-DiscordWebhookWithInput",
-            "files": [
-                "https://github.com/maxmad62/ComfyUI-DiscordWebhookWithInput"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that allows you to send an image + a message (e.g. your prompt) to a Discord channel via a webhook."
-        },
-        {
-            "author": "neverbiasu",
-            "title": "ComfyUI-ModelScope",
-            "reference": "https://github.com/neverbiasu/ComfyUI-ModelScope",
-            "files": [
-                "https://github.com/neverbiasu/ComfyUI-ModelScope"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node package for ModelScope API integration, providing seamless access to ModelScope's powerful AI models including Large Language Models (LLM), Vision-Language Models (VLM), and Image Generation capabilities."
-        },
-        {
-            "author": "aesethtics",
-            "title": "ComfyUI 3D Model Viewer",
-            "id": "comfyui-3d-model-viewer",
-            "reference": "https://github.com/aesethtics/comfyui-3d-model-viewer",
-            "files": [
-                "https://github.com/aesethtics/comfyui-3d-model-viewer"
-            ],
-            "install_type": "git-clone",
-            "description": "A 3D model viewer node for ComfyUI that allows viewing and interacting with 3D models directly in the interface"
-        },
-        {
-            "author": "sumitchatterjee13",
-            "title": "vae-decode-hdr",
-            "reference": "https://github.com/sumitchatterjee13/vae-decode-hdr",
-            "files": [
-                "https://github.com/sumitchatterjee13/vae-decode-hdr"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node that preserves High Dynamic Range (HDR) data during VAE decoding, bypassing the default 0-1 range clamping. It also includes a companion 'Linear EXR Export' node for creating professional-grade linear EXR files."
-        },
-        {
-            "author": "Dalongzhuazi",
-            "title": "ComfyUI-Gemini-Prompt-Studio",
-            "id": "comfyui-gemini-prompt-studio",
-            "reference": "https://github.com/DaLongZhuaZi/ComfyUI-Gemini-Prompt-Studio",
-            "files": [
-                "https://github.com/DaLongZhuaZi/ComfyUI-Gemini-Prompt-Studio"
-            ],
-            "install_type": "git-clone",
-            "description": "One node generates both T2I & I2V positive/negative conditioning in a single click."
-        },
-        {
-            "author": "GizmoR13",
-            "title": "PG Nodes",
-            "id": "PG",
-            "reference": "https://github.com/GizmoR13/PG-Nodes",
-            "files": [
-                "https://github.com/GizmoR13/PG-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Pragmatic utilities for ComfyUI: Lazy Prompt (history + randomizer), Unified Loader (+ mini), Just Save Image (+ passthrough)."
         }
     ]
 }
