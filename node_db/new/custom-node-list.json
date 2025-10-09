@@ -13,12 +13,13 @@
         {
             "author": "PiePieDesign",
             "title": "PiePieTweaks",
+            "id": "piepie-tweaks",
             "reference": "https://github.com/PiePieDesign/PiePieTweaks",
             "files": [
                 "https://github.com/PiePieDesign/PiePieTweaks"
             ],
             "install_type": "git-clone",
-            "description": "Custom nodes for ComfyUI by PiePieDesign"
+            "description": "Tweaks and simple nodes for usability and common needs"
         },
         {
             "author": "turnbros",
@@ -41,14 +42,14 @@
             "description": "Custom Loader for scaled_fp8 models with hybrid precision layers."
         },
         {
-            "author": "Sean-Bradley",
-            "title": "ComfyUI Image Compare",
-            "reference": "https://github.com/Sean-Bradley/ComfyUI-Image-Compare",
+            "author": "LukeCoulson1",
+            "title": "ComfyUI LoRA Combine Node",
+            "reference": "https://github.com/LukeCoulson1/Comfyui_LoraCombine",
             "files": [
-                "https://github.com/Sean-Bradley/ComfyUI-Image-Compare"
+                "https://github.com/LukeCoulson1/Comfyui_LoraCombine"
             ],
             "install_type": "git-clone",
-            "description": "Compare two images using ComfyUI."
+            "description": "A custom ComfyUI node that allows you to combine two LoRAs with adjustable strengths and multiple merging methods."
         },
         {
             "author": "abdozmantar",

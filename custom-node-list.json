@@ -33182,16 +33182,6 @@
             "description": "Compare two images using ComfyUI. Connect images to both image_a and image_b inputs. Press RUN. Then use the slider to compare. Best used when two images are very similar and you want to see the differences very closely. Search for the manager for image compare, or imagecompare."
         },
         {
-            "author": "Sean-Bradley",
-            "title": "ComfyUI Image Compare",
-            "reference": "https://github.com/Sean-Bradley/ComfyUI-Image-Compare",
-            "files": [
-                "https://github.com/Sean-Bradley/ComfyUI-Image-Compare"
-            ],
-            "install_type": "git-clone",
-            "description": "Compare two images using ComfyUI."
-        },
-        {
             "author": "LukeCoulson1",
             "title": "ComfyUI LoRA Combine Node",
             "reference": "https://github.com/LukeCoulson1/Comfyui_LoraCombine",
@@ -33933,12 +33923,13 @@
         {
             "author": "PiePieDesign",
             "title": "PiePieTweaks",
+            "id": "piepie-tweaks",
             "reference": "https://github.com/PiePieDesign/PiePieTweaks",
             "files": [
                 "https://github.com/PiePieDesign/PiePieTweaks"
             ],
             "install_type": "git-clone",
-            "description": "Custom nodes for ComfyUI by PiePieDesign"
+            "description": "Tweaks and simple nodes for usability and common needs"
         },
         {
             "author": "turnbros",
@@ -34418,17 +34409,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "PiePieDesign",
-            "title": "PiePieTweaks",
-            "id": "piepie-tweaks",
-            "reference": "https://github.com/PiePieDesign/PiePieTweaks",
-            "files": [
-                "https://github.com/PiePieDesign/PiePieTweaks"
-            ],
-            "install_type": "git-clone",
-            "description": "Tweaks and simple nodes for usability and common needs"
         }
     ]
 }
