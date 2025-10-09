@@ -33920,6 +33920,36 @@
             "install_type": "git-clone",
             "description": "ComfyUI-translate-offline is a custom node for ComfyUI designed to perform offline text translations using ONNX–based translation models from Hugging Face. The project enables integrating multilingual translations into ComfyUI workflows, focusing on text prompts and conditioning for CLIP models. It supports direct translation between configured language pairs as well as pivot translation via English when no direct model exists. It uses lazy model loading to optimize performance and a SQLite-based caching system to avoid repeated translations."
         },
+        {
+            "author": "PiePieDesign",
+            "title": "PiePieTweaks",
+            "reference": "https://github.com/PiePieDesign/PiePieTweaks",
+            "files": [
+                "https://github.com/PiePieDesign/PiePieTweaks"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for ComfyUI by PiePieDesign"
+        },
+        {
+            "author": "turnbros",
+            "title": "ComfyBros - Custom ComfyUI Nodes",
+            "reference": "https://github.com/turnbros/ComfyBros",
+            "files": [
+                "https://github.com/turnbros/ComfyBros"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for enhanced text and image processing"
+        },
+        {
+            "author": "siraxe",
+            "title": "ComfyUI-WanVideoWrapper_QQ",
+            "reference": "https://github.com/siraxe/ComfyUI-WanVideoWrapper_QQ",
+            "files": [
+                "https://github.com/siraxe/ComfyUI-WanVideoWrapper_QQ"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI providing video manipulation, LoRA loading, path animation, and visual drawing tools for WanVideo workflows."
+        },
 
 
 

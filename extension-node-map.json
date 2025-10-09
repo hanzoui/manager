@@ -11727,6 +11727,15 @@
             "title_aux": "Remade_nodes"
         }
     ],
+    "https://github.com/PiePieDesign/PiePieTweaks": [
+        [
+            "PiePiePreviewImage",
+            "PiePieTextConcatenate"
+        ],
+        {
+            "title_aux": "PiePieTweaks"
+        }
+    ],
     "https://github.com/PiggyDance/ComfyUI_OpenCV": [
         [
             "OpenCV_CvtColor",
@@ -22924,9 +22933,7 @@
             "CLIPSave",
             "CLIPSetLastLayer",
             "CLIPTextEncode",
-            "CLIPTextEncodeFlux",
             "CLIPTextEncodeHunyuanDiT",
-            "CLIPTextEncodeSD3",
             "CLIPVisionEncode",
             "CLIPVisionLoader",
             "CheckpointLoader",
@@ -22945,7 +22952,6 @@
             "ConditioningZeroOut",
             "ControlNetApply",
             "ControlNetApplyAdvanced",
-            "ControlNetApplySD3",
             "ControlNetInpaintingAliMamaApply",
             "ControlNetLoader",
             "CropMask",
@@ -22961,15 +22967,10 @@
             "EmptyLatentAudio",
             "EmptyLatentHunyuan3Dv2",
             "EmptyLatentImage",
-            "EmptySD3LatentImage",
             "ExponentialScheduler",
             "ExtendIntermediateSigmas",
             "FeatherMask",
             "FlipSigmas",
-            "FluxDisableGuidance",
-            "FluxGuidance",
-            "FluxKontextImageScale",
-            "FluxKontextMultiReferenceLatentMethod",
             "FreeU",
             "FreeU_V2",
             "GLIGENLoader",
@@ -23001,7 +23002,6 @@
             "ImageScaleToMaxDimension",
             "ImageStitch",
             "ImageToMask",
-            "ImageUpscaleWithModel",
             "InpaintModelConditioning",
             "InvertMask",
             "KSampler",
@@ -23126,9 +23126,6 @@
             "SetFirstSigma",
             "SetLatentNoiseMask",
             "SetUnionControlNetType",
-            "SkipLayerGuidanceDiT",
-            "SkipLayerGuidanceDiTSimple",
-            "SkipLayerGuidanceSD3",
             "SolidMask",
             "SplitAudioChannels",
             "SplitSigmas",
@@ -23191,7 +23188,6 @@
             "ThresholdMask",
             "TrainLoraNode",
             "TrimAudioDuration",
-            "TripleCLIPLoader",
             "TripoConversionNode",
             "TripoImageToModelNode",
             "TripoMultiviewToModelNode",
@@ -23202,7 +23198,6 @@
             "TripoTextureNode",
             "UNETLoader",
             "USOStyleReference",
-            "UpscaleModelLoader",
             "VAEDecode",
             "VAEDecodeAudio",
             "VAEDecodeHunyuan3D",
@@ -23899,6 +23894,7 @@
             "FileReaderNode",
             "FlexibleStringMergerNode",
             "GeminiCustomVision",
+            "GeminiNextScene",
             "GeminiPromptEnhancer",
             "GeminiTextOnly",
             "GptCustomVision",
@@ -40235,6 +40231,19 @@
             "title_aux": "ComfyUI-PuLID-Flux-Enhanced"
         }
     ],
+    "https://github.com/siraxe/ComfyUI-WanVideoWrapper_QQ": [
+        [
+            "ImageBlen_GPU",
+            "ImageRadialZoomBlur_GPU",
+            "WanVideoCacheSamples",
+            "WanVideoEmptyEmbeds_v2",
+            "WanVideoImageToVideoEncode_v2",
+            "WanVideoPowerLoraLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-WanVideoWrapper_QQ"
+        }
+    ],
     "https://github.com/sittere/ComfyUI-YK_Line-loading": [
         [
             "MultiTextLoader"
@@ -42484,6 +42493,16 @@
         ],
         {
             "title_aux": "ComfyUI-SmartCrop"
+        }
+    ],
+    "https://github.com/turnbros/ComfyBros": [
+        [
+            "ComfyBros_OllamaConfiguration",
+            "ComfyBros_OllamaConnection",
+            "ComfyBros_OllamaConverse"
+        ],
+        {
+            "title_aux": "ComfyBros - Custom ComfyUI Nodes"
         }
     ],
     "https://github.com/tusharbhutt/Endless-Nodes": [
