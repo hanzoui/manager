@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "silveroxides",
+            "title": "ComfyUI_Hybrid-Scaled_fp8-Loader",
+            "reference": "https://github.com/silveroxides/ComfyUI_Hybrid-Scaled_fp8-Loader",
+            "files": [
+                "https://github.com/silveroxides/ComfyUI_Hybrid-Scaled_fp8-Loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom Loader for scaled_fp8 models with hybrid precision layers."
+        },
+        {
+            "author": "Sean-Bradley",
+            "title": "ComfyUI Image Compare",
+            "reference": "https://github.com/Sean-Bradley/ComfyUI-Image-Compare",
+            "files": [
+                "https://github.com/Sean-Bradley/ComfyUI-Image-Compare"
+            ],
+            "install_type": "git-clone",
+            "description": "Compare two images using ComfyUI."
+        },
+        {
             "author": "abdozmantar",
             "title": "DeepExtract2",
             "reference": "https://github.com/abdozmantar/ComfyUI-DeepExtractV2",
@@ -675,16 +695,6 @@
             ],
             "install_type": "git-clone",
             "description": "A suite of ComfyUI custom nodes based on the RWKV series of models, offering various functions like translation and dialogue."
-        },
-        {
-            "author": "cyan9977",
-            "title": "ComfyUI_PromptQueue",
-            "reference": "https://github.com/cyan9977/ComfyUI_PromptQueue",
-            "files": [
-                "https://github.com/cyan9977/ComfyUI_PromptQueue"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node: batch prompt queue from multiline/text file with incremental per-run consumption and {p} templating."
         }
     ]
 }

@@ -1897,6 +1897,7 @@
     ],
     "https://github.com/Gaotian-cpu/KLComfyUI-Nodes": [
         [
+            "Prompt ID Fetcher",
             "singleVideoImgCallback"
         ],
         {
@@ -5786,31 +5787,18 @@
             "ImageUpscaleWithModel",
             "InpaintModelConditioning",
             "InvertMask",
-            "JoinImageWithAlpha",
             "KSampler",
             "KSamplerAdvanced",
             "KSamplerSelect",
             "KarrasScheduler",
             "LaplaceScheduler",
-            "LatentAdd",
-            "LatentApplyOperation",
-            "LatentApplyOperationCFG",
-            "LatentBatch",
-            "LatentBatchSeedBehavior",
             "LatentBlend",
             "LatentComposite",
             "LatentCompositeMasked",
-            "LatentConcat",
             "LatentCrop",
-            "LatentCut",
             "LatentFlip",
             "LatentFromBatch",
-            "LatentInterpolate",
-            "LatentMultiply",
-            "LatentOperationSharpen",
-            "LatentOperationTonemapReinhard",
             "LatentRotate",
-            "LatentSubtract",
             "LatentUpscale",
             "LatentUpscaleBy",
             "Load3D",
@@ -5825,7 +5813,6 @@
             "LoraLoader",
             "LoraLoaderModelOnly",
             "LoraModelLoader",
-            "LoraSave",
             "LossGraphNode",
             "MaskComposite",
             "MaskPreview",
@@ -5865,9 +5852,7 @@
             "OpenAIDalle3",
             "OpenAIGPTImage1",
             "OpenAIInputFiles",
-            "PatchModelAddDownscale",
             "PolyexponentialScheduler",
-            "PorterDuffImageComposite",
             "Preview3D",
             "Preview3DAnimation",
             "PreviewAny",
@@ -5929,7 +5914,6 @@
             "SkipLayerGuidanceSD3",
             "SolidMask",
             "SplitAudioChannels",
-            "SplitImageWithAlpha",
             "SplitSigmas",
             "SplitSigmasDenoise",
             "StubConstantImage",
@@ -7284,6 +7268,7 @@
     ],
     "https://github.com/husw725/comfyui_alta_nodes": [
         [
+            "Alta:GetFaceMask",
             "Alta:GetFilenameNoExt",
             "Alta:GetImageAndPath",
             "Alta:GetImageByIndex",
@@ -7306,7 +7291,8 @@
             "Alta:SaveImage",
             "Alta:SaveImagePlus",
             "Alta:SaveStringToFile",
-            "Alta:VideoCombine"
+            "Alta:VideoCombine",
+            "Alta:YOLOFaceModelCore"
         ],
         {
             "title_aux": "comfyui_alta_nodes"
