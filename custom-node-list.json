@@ -15750,16 +15750,6 @@
             "description": "The ComfyUI version of [a/Qwen3-Omini](https://github.com/QwenLM/Qwen3-Omni)"
         },
         {
-            "author": "leeguandong",
-            "title": "ComfyUI nodes to use Xverse",
-            "reference": "https://github.com/leeguandong/ComfyUI_Xverse",
-            "files": [
-                "https://github.com/leeguandong/ComfyUI_Xverse"
-            ],
-            "install_type": "git-clone",
-            "description": "The ComfyUI version of [a/XVerse](https://github.com/bytedance/XVerse)"
-        },
-        {
             "author": "lenskikh",
             "title": "Propmt Worker",
             "reference": "https://github.com/lenskikh/ComfyUI-Prompt-Worker",
@@ -20793,6 +20783,16 @@
             "description": "DeepExtract is a powerful and efficient tool designed to separate vocals and sounds from audio files, providing an enhanced experience for musicians, producers, and audio engineers. With DeepExtract, you can quickly and effectively isolate vocals or instruments from mixed audio tracks, facilitating tasks like remixing, karaoke preparation, or audio analysis."
         },
         {
+            "author": "abdozmantar",
+            "title": "DeepExtract2",
+            "reference": "https://github.com/abdozmantar/ComfyUI-DeepExtractV2",
+            "files": [
+                "https://github.com/abdozmantar/ComfyUI-DeepExtractV2"
+            ],
+            "install_type": "git-clone",
+            "description": "DeepExtractV2 – lightning-fast, high-quality audio separator. Instantly isolate vocals, drums, bass, and more from any track. Ideal for creators, DJs, and audio pros."
+        },
+        {
             "author": "ctefer",
             "title": "CFE_comfyui",
             "reference": "https://github.com/CpreForEver/CFE_comfyui",
@@ -22896,17 +22896,6 @@
             ],
             "install_type": "git-clone",
             "description": "Implementation of architectural related graph algorithm in ComfyUI."
-        },
-
-        {
-            "author": "ziwang-com",
-            "title": "comfyui-deepseek-r1",
-            "reference": "https://github.com/ziwang-com/comfyui-deepseek-r1",
-            "files": [
-                "https://github.com/ziwang-com/comfyui-deepseek-r1"
-            ],
-            "install_type": "git-clone",
-            "description": "Comfyui-deepseek-r1 Node Plugin"
         },
         {
             "author": "davidgressett",
@@ -32525,7 +32514,7 @@
                 "https://github.com/5agado/ComfyUI-Sagado-Nodes"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Image Loader, Get Num Frames, Get Resolution Node"
+            "description": "NODES: Image Loader, Get Num Frames, Get Resolution Node, Video Loader, Film Grain"
         },
         {
             "author": "FredBisAI",
@@ -33910,6 +33899,16 @@
             ],
             "install_type": "git-clone",
             "description": "GIS Processing Nodes for ComfyUI"
+        },
+        {
+            "author": "Jairodaniel-17",
+            "title": "ComfyUI-translate-offline",
+            "reference": "https://github.com/Jairodaniel-17/ComfyUI-translate-offline",
+            "files": [
+                "https://github.com/Jairodaniel-17/ComfyUI-translate-offline"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-translate-offline is a custom node for ComfyUI designed to perform offline text translations using ONNX–based translation models from Hugging Face. The project enables integrating multilingual translations into ComfyUI workflows, focusing on text prompts and conditioning for CLIP models. It supports direct translation between configured language pairs as well as pivot translation via English when no direct model exists. It uses lazy model loading to optimize performance and a SQLite-based caching system to avoid repeated translations."
         },
 
 

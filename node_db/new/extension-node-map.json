@@ -511,7 +511,7 @@
     "https://github.com/3dgopnik/comfyui-arena-suite": [
         [
             "Arena_MakeTilesSegs",
-            "\ud83c\udd70\ufe0f Arena AutoCache v5.0.0"
+            "\ud83c\udd70\ufe0f Arena AutoCache v6.0.0"
         ],
         {
             "title_aux": "ComfyUI Arena Suite"
@@ -6422,6 +6422,7 @@
             "EncryptWatermark",
             "GetResolutionForVR",
             "ImageVRConverter",
+            "LoadImageWithFilename",
             "RegexSubstitute",
             "SaveAudioSimple",
             "SaveStrippedUTF8File",
@@ -6820,13 +6821,49 @@
     ],
     "https://github.com/GizmoR13/PG-Nodes": [
         [
+            "PgCheckpointSelect",
+            "PgClipSelect",
+            "PgClipVisionSelect",
+            "PgControlNetSelect",
+            "PgCpSwitch",
+            "PgCreateHookLoraBoth",
+            "PgCreateHookLoraClipOnly",
+            "PgCreateHookLoraModelOnly",
+            "PgDiffusionSelect",
+            "PgIPAdapterSelect",
             "PgJustSaveImage",
             "PgJustSaveImageOut",
+            "PgLORASelect",
             "PgLazyPrompt",
             "PgLazyPromptExt",
             "PgLazyPromptMini",
+            "PgLoraBridgeLoader",
+            "PgMergeLoraBoth",
+            "PgMergeLoraClipOnly",
+            "PgMergeLoraModelOnly",
+            "PgPercentFloat",
+            "PgSamplerSelect",
+            "PgSamplerSelectCombo",
+            "PgSchedulerSelect",
+            "PgSchedulerSelectCombo",
+            "PgSetClipHooks",
+            "PgSetHookKeyframes",
+            "PgSetModelHooks",
+            "PgSwapCFGGuidance",
+            "PgUniCheckpointSelect",
+            "PgUniClipSelect",
+            "PgUniClipVisionSelect",
+            "PgUniControlNetSelect",
+            "PgUniDiffusionSelect",
+            "PgUniIPAdapterSelect",
+            "PgUniLORASelect",
+            "PgUniUpscaleSelect",
+            "PgUniVAESelect",
             "PgUnifiedLoader",
-            "PgUnifiedLoaderMini"
+            "PgUnifiedLoaderMini",
+            "PgUpscaleSelect",
+            "PgVAESelect",
+            "PgXorDualToggle"
         ],
         {
             "title_aux": "PG Nodes"
@@ -8142,6 +8179,15 @@
         ],
         {
             "title_aux": "RGB to CMYK for ComfyUI (Save as tif)"
+        }
+    ],
+    "https://github.com/Jairodaniel-17/ComfyUI-translate-offline": [
+        [
+            "CLIPTextTranslateNode",
+            "PromptTextTranslateNode"
+        ],
+        {
+            "title_aux": "ComfyUI-translate-offline"
         }
     ],
     "https://github.com/Jaminanim/ComfyUI-Random-Int-Divisor-Node": [
@@ -17359,6 +17405,14 @@
         ],
         {
             "title_aux": "DeepExtract"
+        }
+    ],
+    "https://github.com/abdozmantar/ComfyUI-DeepExtractV2": [
+        [
+            "DeepExtractV2Node"
+        ],
+        {
+            "title_aux": "DeepExtract2"
         }
     ],
     "https://github.com/abdullahceylan/ac-comfyui-queue-manager": [
@@ -26984,8 +27038,11 @@
     ],
     "https://github.com/gregory-richard/ComfyUI-WarpPipe": [
         [
+            "Dead End",
+            "FD Scheduler Adapter",
             "Unwarp",
             "Warp",
+            "Warp Provider",
             "custom_nodes"
         ],
         {
@@ -32432,16 +32489,6 @@
             "title_aux": "ComfyUI_VisualAttentionMap"
         }
     ],
-    "https://github.com/leeguandong/ComfyUI_Xverse": [
-        [
-            "XVerseGenerate",
-            "XVerseImageProcessor",
-            "XVerseModelLoader"
-        ],
-        {
-            "title_aux": "ComfyUI nodes to use Xverse"
-        }
-    ],
     "https://github.com/leestuartx/ComfyUI-GG": [
         [
             "AddPaddingToImage",
@@ -36207,6 +36254,7 @@
             "InoGetLoraConfig",
             "InoGetModelConfig",
             "InoGetSamplerConfig",
+            "InoHttpCall",
             "InoIntEqual",
             "InoIntToString",
             "InoJson",
@@ -37065,6 +37113,11 @@
             "AIHubExposeString",
             "AIHubExposeStringSelection",
             "AIHubExposeVideo",
+            "AIHubMetaExportLora",
+            "AIHubMetaExportModel",
+            "AIHubMetaSetExportedLoraImage",
+            "AIHubMetaSetExportedModelImage",
+            "AIHubMetaSetExportedWorkflowImage",
             "AIHubUtilsCropMergedImageToLayerSize",
             "AIHubUtilsFitLayerToMergedImage",
             "AIHubUtilsFloatToInt",
@@ -39538,9 +39591,14 @@
         [
             "ControlPanel",
             "FilenameGenerator",
+            "FrameExtractor",
             "GeminiUtilOptions",
             "LoRAInfoExtractor",
             "MediaDescribe",
+            "MediaDescribeOverrides",
+            "MediaDescribePromptBreakdown",
+            "MediaSelection",
+            "MultiCaptionCombiner",
             "ShowText",
             "SuperDualLoraLoader",
             "SuperLoraLoader",
@@ -43022,7 +43080,9 @@
     ],
     "https://github.com/voxta-ai/ComfyUI-VoxtaNodes": [
         [
-            "VoxtaExportCharacter"
+            "VoxtaExportCharacter",
+            "VoxtaFilterExistingCombinations",
+            "VoxtaOutputFolder"
         ],
         {
             "title_aux": "Voxta ComfyUI Nodes"
@@ -45400,15 +45460,6 @@
         ],
         {
             "title_aux": "ComfyUI-Attention-Distillation"
-        }
-    ],
-    "https://github.com/ziwang-com/comfyui-deepseek-r1": [
-        [
-            "deep_gen",
-            "deep_load"
-        ],
-        {
-            "title_aux": "comfyui-deepseek-r1"
         }
     ],
     "https://github.com/zl9739379/ComfyUI-ArkVideoGenerate": [

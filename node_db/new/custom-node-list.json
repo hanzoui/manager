@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "abdozmantar",
+            "title": "DeepExtract2",
+            "reference": "https://github.com/abdozmantar/ComfyUI-DeepExtractV2",
+            "files": [
+                "https://github.com/abdozmantar/ComfyUI-DeepExtractV2"
+            ],
+            "install_type": "git-clone",
+            "description": "DeepExtractV2 – lightning-fast, high-quality audio separator. Instantly isolate vocals, drums, bass, and more from any track. Ideal for creators, DJs, and audio pros."
+        },
+        {
+            "author": "Jairodaniel-17",
+            "title": "ComfyUI-translate-offline",
+            "reference": "https://github.com/Jairodaniel-17/ComfyUI-translate-offline",
+            "files": [
+                "https://github.com/Jairodaniel-17/ComfyUI-translate-offline"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-translate-offline is a custom node for ComfyUI designed to perform offline text translations using ONNX–based translation models from Hugging Face. The project enables integrating multilingual translations into ComfyUI workflows, focusing on text prompts and conditioning for CLIP models. It supports direct translation between configured language pairs as well as pivot translation via English when no direct model exists. It uses lazy model loading to optimize performance and a SQLite-based caching system to avoid repeated translations."
+        },
+        {
             "author": "Seungyong Lee",
             "title": "ComfyUI-PromptEnhancer",
             "id": "comfyui-promptenhancer",
@@ -40,16 +60,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node to overlay frame numbers on images (e.g., from VAE Decode) with customizable prefix, zero-padding, font, position, and text outline."
-        },
-        {
-            "author": "leeguandong",
-            "title": "ComfyUI nodes to use Xverse",
-            "reference": "https://github.com/leeguandong/ComfyUI_Xverse",
-            "files": [
-                "https://github.com/leeguandong/ComfyUI_Xverse"
-            ],
-            "install_type": "git-clone",
-            "description": "The ComfyUI version of [a/XVerse](https://github.com/bytedance/XVerse)"
         },
         {
             "author": "bobosola",
@@ -675,26 +685,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom node: batch prompt queue from multiline/text file with incremental per-run consumption and {p} templating."
-        },
-        {
-            "author": "1038lab",
-            "title": "ComfyUI-VoxCPMTTS",
-            "reference": "https://github.com/1038lab/ComfyUI-VoxCPMTTS",
-            "files": [
-                "https://github.com/1038lab/ComfyUI-VoxCPMTTS"
-            ],
-            "install_type": "git-clone",
-            "description": "A clean, efficient ComfyUI custom node for VoxCPMTTS (Text-to-Speech) functionality. This implementation provides high-quality speech generation and voice cloning capabilities using the VoxCPM model."
-        },
-        {
-            "author": "BizaNator",
-            "title": "ComfyUI Prompt Iterator Extension",
-            "reference": "https://github.com/BizaNator/ComfyUI_PromptIterator",
-            "files": [
-                "https://github.com/BizaNator/ComfyUI_PromptIterator"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful custom node extension for ComfyUI that enables automatic iteration through multiple prompts with corresponding filename generation. Perfect for batch processing different variations like character face angles, poses, or any sequential prompt workflow."
         }
     ]
 }

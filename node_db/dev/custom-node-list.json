@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "silveroxides",
+            "title": "WIP Conditioning Toolkit [UNSAFE]",
+            "reference": "https://github.com/silveroxides/ComfyUI_CondsUtils",
+            "files": [
+                "https://github.com/silveroxides/ComfyUI_CondsUtils"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for modifying, saving and loading of various conditionings.[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
+            "author": "ThuckMaBaws",
+            "title": "TMB Camera Modifier for ComfyUI [WIP]",
+            "reference": "https://github.com/ThuckMaBaws/TMB-Camera-Modifier",
+            "files": [
+                "https://github.com/ThuckMaBaws/TMB-Camera-Modifier"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node adds a powerful camera-based modifier system to ComfyUI, enabling rich, authentic prompt generation for image workflows. It’s designed for creators who want to simulate real-world camera setups, film types, and stylistic traits — all with flexible filtering and randomization.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "pfpb",
             "title": "comfyui-badnodes",
             "reference": "https://github.com/pfpb/comfyui-badnodes",

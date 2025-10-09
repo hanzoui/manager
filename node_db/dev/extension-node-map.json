@@ -4053,6 +4053,14 @@
             "title_aux": "ComfyUI Instructor Ollama"
         }
     ],
+    "https://github.com/ThuckMaBaws/TMB-Camera-Modifier": [
+        [
+            "Camera Modifier Selector"
+        ],
+        {
+            "title_aux": "TMB Camera Modifier for ComfyUI [WIP]"
+        }
+    ],
     "https://github.com/TimothyCMeehan/comfyui-ck3-presets": [
         [
             "CK3ResizeImage",
@@ -7790,6 +7798,7 @@
         [
             "KesslerDev_AlwaysSeed",
             "KesslerDev_EnvironmentVariableGetter",
+            "KesslerDev_LoadImageAndFilename",
             "KesslerDev_MultilineTextChoice"
         ],
         {
@@ -9881,6 +9890,7 @@
             "Batch Keyframes",
             "Canny Edge",
             "Get Image Dimensions",
+            "Integer Min/Max",
             "Load Image Folder",
             "Load Images",
             "Load Images From List",
@@ -10167,8 +10177,22 @@
             "title_aux": "ComfyUI-SilentRain"
         }
     ],
+    "https://github.com/silveroxides/ComfyUI_CondsUtils": [
+        [
+            "InsertT5XXLEmb",
+            "LoadReduxEmb",
+            "LoadT5XXLConds",
+            "LoadT5XXLEmb",
+            "SaveCondsEmb",
+            "SaveReduxEmb"
+        ],
+        {
+            "title_aux": "WIP Conditioning Toolkit [UNSAFE]"
+        }
+    ],
     "https://github.com/silveroxides/ComfyUI_ReduxEmbedToolkit": [
         [
+            "InsertT5XXLEmb",
             "LoadReduxEmb",
             "LoadT5XXLConds",
             "LoadT5XXLEmb",
@@ -10328,11 +10352,15 @@
         [
             "LoopTrimNode",
             "PreviewVideo",
+            "ShotSplitByCutScore",
             "SliceBatch",
             "SliceLatents",
             "URLToVideo",
             "VideoDownloader",
-            "VideoShotSplitter"
+            "VideoShotSplitter",
+            "VideoShotSplitterV0",
+            "VideoShotSplitterV2",
+            "VideoShotSplitterV3"
         ],
         {
             "title_aux": "Sprited ComfyUI Nodes [WIP]"
