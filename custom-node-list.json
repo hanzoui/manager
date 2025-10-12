@@ -33875,6 +33875,17 @@
             "description": "Node: Text Stats (Char & Word Count). A lightweight ComfyUI custom node that takes a text string and outputs character and word counts (INT). Ideal for caption preprocessing, prompt analytics, and dataset workflows."
         },
         {
+            "author": "scofano",
+            "title": "Audio Duration",
+            "id": "comfy-audio-duration",
+            "reference": "https://github.com/scofano/comfy-audio-duration",
+            "files": [
+                "https://github.com/scofano/comfy-audio-duration"
+            ],
+            "install_type": "git-clone",
+            "description": "Returns the duration of an audio source, which can be provided either as a filesystem path or as raw audio data (samples and sample rate) from an upstream node. Duration calculation primarily uses ffprobe (from FFmpeg) for paths, or calculates the duration directly from samples/SR if no path is available."
+        },
+        {
             "author": "voxta-ai",
             "title": "Voxta ComfyUI Nodes",
             "reference": "https://github.com/voxta-ai/ComfyUI-VoxtaNodes",
@@ -33965,17 +33976,17 @@
             "install_type": "git-clone",
             "description": "A collection of custom nodes for ComfyUI providing video manipulation, LoRA loading, path animation, and visual drawing tools for WanVideo workflows."
         },
-		{
-			"author": "sonnybox",
-			"title": "ComfyUI-SuperNodes",
-			"id": "supernodes",
-			"reference": "https://github.com/sonnybox/ComfyUI-SuperNodes",
-			"files": [
-				"https://github.com/sonnybox/ComfyUI-SuperNodes"
-			],
-			"install_type": "git-clone",
-			"description": "A miscellaneous node pack of custom implementations needed for workflows released by my SuperComfy YouTube channel."
-		},
+        {
+            "author": "sonnybox",
+            "title": "ComfyUI-SuperNodes",
+            "id": "supernodes",
+            "reference": "https://github.com/sonnybox/ComfyUI-SuperNodes",
+            "files": [
+                "https://github.com/sonnybox/ComfyUI-SuperNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A miscellaneous node pack of custom implementations needed for workflows released by my SuperComfy YouTube channel."
+        },
 
 
 
@@ -34434,17 +34445,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "scofano",
-            "title": "Audio Duration",
-            "id": "comfy-audio-duration",
-            "reference": "https://github.com/scofano/comfy-audio-duration",
-            "files": [
-                "https://github.com/scofano/comfy-audio-duration"
-            ],
-            "install_type": "git-clone",
-            "description": "Returns the duration of an audio source, which can be provided either as a filesystem path or as raw audio data (samples and sample rate) from an upstream node. Duration calculation primarily uses ffprobe (from FFmpeg) for paths, or calculates the duration directly from samples/SR if no path is available."
         }
     ]
 }

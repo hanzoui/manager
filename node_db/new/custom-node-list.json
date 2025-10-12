@@ -1,6 +1,28 @@
 {
     "custom_nodes": [
         {
+            "author": "sonnybox",
+            "title": "ComfyUI-SuperNodes",
+            "id": "supernodes",
+            "reference": "https://github.com/sonnybox/ComfyUI-SuperNodes",
+            "files": [
+                "https://github.com/sonnybox/ComfyUI-SuperNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A miscellaneous node pack of custom implementations needed for workflows released by my SuperComfy YouTube channel."
+        },
+        {
+            "author": "scofano",
+            "title": "Audio Duration",
+            "id": "comfy-audio-duration",
+            "reference": "https://github.com/scofano/comfy-audio-duration",
+            "files": [
+                "https://github.com/scofano/comfy-audio-duration"
+            ],
+            "install_type": "git-clone",
+            "description": "Returns the duration of an audio source, which can be provided either as a filesystem path or as raw audio data (samples and sample rate) from an upstream node. Duration calculation primarily uses ffprobe (from FFmpeg) for paths, or calculates the duration directly from samples/SR if no path is available."
+        },
+        {
             "author": "siraxe",
             "title": "ComfyUI-WanVideoWrapper_QQ",
             "reference": "https://github.com/siraxe/ComfyUI-WanVideoWrapper_QQ",
@@ -665,37 +687,6 @@
             ],
             "install_type": "git-clone",
             "description": "It allows you to control complex graphs by unbypass/unmute and bypass/mute entire groups of nodes, just by adding tags in the title of your nodes, no connection required."
-        },
-        {
-            "author": "Verolelb",
-            "title": "Video Compressor (Unified)",
-            "id": "Video compressor",
-            "reference": "https://github.com/Verolelb/ComfyUI-VideoCompressor",
-            "files": [
-                "https://github.com/Verolelb/ComfyUI-VideoCompressor"
-            ],
-            "install_type": "git-clone",
-            "description": "Compress video in comfyui."
-        },
-        {
-            "author": "Verolelb",
-            "title": "ComfyUI-Persistent-Queue",
-            "reference": "https://github.com/co5dt/ComfyUI-Persistent-Queue",
-            "files": [
-                "https://github.com/co5dt/ComfyUI-Persistent-Queue"
-            ],
-            "install_type": "git-clone",
-            "description": "CoA simple, friendly way to make your ComfyUI job queue survive restarts and crashes."
-        },
-        {
-            "author": "rvage",
-            "title": "ComfyUI-RvToolsX",
-            "reference": "https://github.com/r-vage/ComfyUI-RvToolsX",
-            "files": [
-                "https://github.com/r-vage/ComfyUI-RvToolsX"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom nodes and utilities for workflow building, type conversions, checkpoint/pipe loaders and file utilities."
         }
     ]
 }
