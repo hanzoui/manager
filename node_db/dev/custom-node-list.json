@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "octapus8085",
+            "title": "OpenAI-comfyui-O",
+            "reference": "https://github.com/octapus8085/OpenAI-comfyui-O",
+            "files": [
+                "https://github.com/octapus8085/OpenAI-comfyui-O"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: AI API → Image"
+        },
+        {
             "author": "Immac",
             "title": "Immac's Tools",
             "reference": "https://github.com/Immac/ComfyUI-ImmacTools",
@@ -359,16 +369,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI nodes for WanAnimate model input preprocessing"
-        },
-        {
-            "author": "heyburns",
-            "title": "LinxUtil",
-            "reference": "https://github.com/heyburns/LinxUtil",
-            "files": [
-                "https://github.com/heyburns/LinxUtil"
-            ],
-            "install_type": "git-clone",
-            "description": "Utility nodes for ComfyUI. Created solely for my own use case, shared as a courtesy only.\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "charlie-otoy",
@@ -2872,16 +2872,6 @@
             ],
             "install_type": "git-clone",
             "description": "A general-purpose, dependency-free File and Folder Browser API for ComfyUI custom nodes.[w/path traversal vulnerability]"
-        },
-        {
-            "author": "moonwhaler",
-            "title": "comfyui-moonpack",
-            "reference": "https://github.com/moonwhaler/comfyui-moonpack",
-            "files": [
-                "https://github.com/moonwhaler/comfyui-moonpack"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Proportional Dimension, Simple String Replace, Regex String Replace, VACE Looper Frame Scheduler"
         },
         {
             "author": "DreamsInAutumn",

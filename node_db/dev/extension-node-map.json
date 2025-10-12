@@ -7048,23 +7048,6 @@
             "title_aux": "comfyui_EvoSearch [WIP]"
         }
     ],
-    "https://github.com/heyburns/LinxUtil": [
-        [
-            "AutoCropBorders",
-            "AutoWBColorMatch",
-            "CropImageByMargins",
-            "CropMaskByMargins",
-            "FilenameAppendSuffix",
-            "ImageFilenameSwitch2",
-            "LevelsMatch",
-            "Multipurpose Configuration",
-            "StitchByMaskFeathered",
-            "StripExtensionNode"
-        ],
-        {
-            "title_aux": "LinxUtil"
-        }
-    ],
     "https://github.com/hiusdev/ComfyUI_Lah_Toffee": [
         [
             "LoadVideoRandom"
@@ -7254,15 +7237,14 @@
     ],
     "https://github.com/husw725/comfyui_alta_nodes": [
         [
+            "Alta:API_ProcessVideo",
+            "Alta:API_TranscribeAudio",
+            "Alta:FileDownloader",
             "Alta:GetFaceMask",
             "Alta:GetFilenameNoExt",
             "Alta:GetImageAndPath",
             "Alta:GetImageByIndex",
             "Alta:GetStringByIndex",
-            "Alta:GptImageMerge",
-            "Alta:JiMengImage2Video",
-            "Alta:JiMengImage2VideoQuery",
-            "Alta:JimengText2Image",
             "Alta:LoadImage",
             "Alta:LoadImageFromPath",
             "Alta:LoadImageWithPath",
@@ -7272,13 +7254,18 @@
             "Alta:LoadVideosFromFolder",
             "Alta:MergeNodes",
             "Alta:MultiRoute",
+            "Alta:OpenAIImages2Image",
             "Alta:ReadImageFromFile",
             "Alta:ReadStringFromFile",
             "Alta:SaveImage",
             "Alta:SaveImagePlus",
             "Alta:SaveStringToFile",
             "Alta:VideoCombine",
-            "Alta:YOLOFaceModelCore"
+            "Alta:YOLOFaceModelCore",
+            "Alta:\u5373\u68a6API\u56fe\u751f\u89c6\u9891",
+            "Alta:\u5373\u68a6API\u56fe\u751f\u89c6\u9891\u7ed3\u679c\u67e5\u8be2",
+            "Alta:\u5373\u68a6API\u6587\u751f\u56fe",
+            "Alta:\u5373\u68a6Web\u56fe\u751f\u89c6\u9891"
         ],
         {
             "title_aux": "comfyui_alta_nodes"
@@ -7771,6 +7758,7 @@
             "KesslerDev_AlwaysSeed",
             "KesslerDev_EnvironmentVariableGetter",
             "KesslerDev_LoadImageAndFilename",
+            "KesslerDev_LoadImagesFromFolder",
             "KesslerDev_MultilineTextChoice"
         ],
         {
@@ -8948,20 +8936,6 @@
             "title_aux": "comfy-url-fetcher [WIP]"
         }
     ],
-    "https://github.com/moonwhaler/comfyui-moonpack": [
-        [
-            "DynamicLoraStack",
-            "DynamicStringConcat",
-            "FastNodeBypasser",
-            "ProportionalDimension",
-            "RegexStringReplace",
-            "SimpleStringReplace",
-            "VACELooperFrameMaskCreator"
-        ],
-        {
-            "title_aux": "comfyui-moonpack"
-        }
-    ],
     "https://github.com/mr-krak3n/ComfyUI-Qwen": [
         [
             "Qwen2_Chat_Zho",
@@ -9223,6 +9197,15 @@
         ],
         {
             "title_aux": "FSampler for ComfyUI \u2014 Fast Skips via Epsilon Extrapolation [WIP]"
+        }
+    ],
+    "https://github.com/octapus8085/OpenAI-comfyui-O": [
+        [
+            "AIImageNode",
+            "APIImageNode"
+        ],
+        {
+            "title_aux": "OpenAI-comfyui-O"
         }
     ],
     "https://github.com/odedgranot/comfyui-ffmpeg-node": [
@@ -9863,7 +9846,7 @@
             "Batch Keyframes",
             "Canny Edge",
             "Get Image Dimensions",
-            "Integer Min/Max",
+            "Image Grayscale",
             "Load Image Folder",
             "Load Images",
             "Load Images From List",
@@ -10993,6 +10976,7 @@
             "DimensionReorderAndScale",
             "DynamicBatchAnything",
             "Enhanced3DRenderer",
+            "IndexOffsetAdjuster",
             "IndexUrlPairDeduplicator",
             "JsonArrayElementFieldExtractor",
             "JsonCompressor",
@@ -11000,6 +10984,7 @@
             "JsonMarkdownCleaner",
             "JsonObjectDeduplicator",
             "JsonObjectMerger",
+            "JsonObjectSplitter",
             "JsonRotationScaleAdjuster",
             "JsonScaleMaxAdjuster",
             "ModelTransformParameters",
