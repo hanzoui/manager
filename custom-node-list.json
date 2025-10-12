@@ -33652,6 +33652,16 @@
             "description": "This pack provides two custom nodes for ComfyUI designed to find the center coordinates of masks and segments. They are useful for workflows where you need to precisely identify the location of objects or regions of interest."
         },
         {
+            "author": "9nate-drake",
+            "title": "Comfyui-SecNodes", 
+            "reference": "https://github.com/9nate-drake/Comfyui-SecNodes",
+            "files": [
+                "https://github.com/9nate-drake/Comfyui-SecNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for SeC (Segment Concept) - SOTA video object segmentation. Uses SeC-4B model by OpenIXCLab. Also includes coordinate plotter for visualization"
+        },
+        {
             "author": "Kishor900",
             "title": "ComfyUI WANv2v Video Stitcher",
             "reference": "https://github.com/Kishor900/comfyui-wanv2v-video-stitcher",
@@ -33986,6 +33996,17 @@
             ],
             "install_type": "git-clone",
             "description": "A miscellaneous node pack of custom implementations needed for workflows released by my SuperComfy YouTube channel."
+        },
+        {
+            "author": "heyburns",
+            "title": "PortraitUtils",
+            "id": "portraitutils",
+            "reference": "https://github.com/heyburns/PortraitUtils",
+            "files": [
+                "https://github.com/heyburns/PortraitUtils"
+            ],
+            "install_type": "git-clone",
+            "description": "A focused node collection designed for pipelines using real photographic images where resolutions are not standardized like they are in text-to-image generation."
         },
 
 
@@ -34436,17 +34457,6 @@
             "description": "Various image processing nodes."
         },
         {
-  			"author": "heyburns",
-  			"title": "PortraitUtils",
-  			"id": "portraitutils",
-  			"reference": "https://github.com/heyburns/PortraitUtils",
-            "files": [
-                "https://github.com/heyburns/PortraitUtils",
-            ],
-  			"install_type": "git-clone",
-  			"description": "A focused node collection designed for pipelines using real photographic images where resolutions are not standardized like they are in text-to-image generation."
-        },
-        {
             "author": "aimingfail",
             "title": "Image2Halftone Node for ComfyUI",
             "id": "img2halftone",
@@ -34456,16 +34466,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-			"author": "9nate-drake",
-			"title": "Comfyui-SecNodes", 
-			"reference": "https://github.com/9nate-drake/Comfyui-SecNodes",
-			"files": [
-				"https://github.com/9nate-drake/Comfyui-SecNodes"
-			],
-			"install_type": "git-clone",
-			"description": "Nodes for SeC (Segment Concept) - SOTA video object segmentation. Uses SeC-4B model by OpenIXCLab. Also includes coordinate plotter for visualization"
-		}		
+        }
     ]
 }

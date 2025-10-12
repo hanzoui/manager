@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "9nate-drake",
+            "title": "Comfyui-SecNodes", 
+            "reference": "https://github.com/9nate-drake/Comfyui-SecNodes",
+            "files": [
+                "https://github.com/9nate-drake/Comfyui-SecNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for SeC (Segment Concept) - SOTA video object segmentation. Uses SeC-4B model by OpenIXCLab. Also includes coordinate plotter for visualization"
+        },
+        {
             "author": "sonnybox",
             "title": "ComfyUI-SuperNodes",
             "id": "supernodes",
@@ -10,6 +20,17 @@
             ],
             "install_type": "git-clone",
             "description": "A miscellaneous node pack of custom implementations needed for workflows released by my SuperComfy YouTube channel."
+        },
+        {
+            "author": "heyburns",
+            "title": "PortraitUtils",
+            "id": "portraitutils",
+            "reference": "https://github.com/heyburns/PortraitUtils",
+            "files": [
+                "https://github.com/heyburns/PortraitUtils"
+            ],
+            "install_type": "git-clone",
+            "description": "A focused node collection designed for pipelines using real photographic images where resolutions are not standardized like they are in text-to-image generation."
         },
         {
             "author": "scofano",
