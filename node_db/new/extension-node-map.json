@@ -2630,13 +2630,16 @@
     ],
     "https://github.com/Aryan185/ComfyUI-ExternalAPI-Helpers": [
         [
+            "ElevenLabsTTSNode",
             "FluxKontextMaxNode",
             "FluxKontextProNode",
             "GPTImageEditNode",
             "GeminiChatNode",
             "GeminiSegmentationNode",
+            "GeminiTTSNode",
             "GoogleImagenEditNode",
             "GoogleImagenNode",
+            "NanoBananaNode",
             "Veo3VideoGenerator"
         ],
         {
@@ -4901,6 +4904,7 @@
     "https://github.com/DeemosTech/ComfyUI-Rodin": [
         [
             "LoadRodinAPIKEY",
+            "Rodin3D_bbox_controlnet",
             "mRodin3D_Detail",
             "mRodin3D_Gen2",
             "mRodin3D_Regular",
@@ -10146,16 +10150,20 @@
         [
             "ACE_LatentVisualizer",
             "APGGuiderForked",
+            "AceT5ConditioningAnalyzer",
+            "AceT5ConditioningScheduled",
+            "AceT5ModelLoader",
             "AdvancedAudioPreviewAndSave",
             "AdvancedMediaSave",
+            "AdvancedTextNode",
+            "EnhancedSeedSaver",
             "HybridAdaptiveSigmas",
             "MasteringChainNode",
             "NoiseDecayScheduler_Custom",
             "PingPongSampler_Custom_FBG",
             "PingPongSampler_Custom_Lite",
             "SceneGeniusAutocreator",
-            "SeedSaver",
-            "UniversalGuardian"
+            "TextFileLoader"
         ],
         {
             "title_aux": "MD Nodes"
@@ -10321,6 +10329,7 @@
             "BadmanDesaturate",
             "BadmanDilateErodeMask",
             "BadmanIO",
+            "BadmanInjectLatentNoiseMasked",
             "BadmanIntUtil",
             "BadmanMaskBlur",
             "BadmanStringSelect",
@@ -17891,14 +17900,21 @@
     ],
     "https://github.com/aidec/Comfyui_TextBatch_aidec": [
         [
+            "DataTempManager",
+            "DataTmpGet",
+            "DataTmpSet",
+            "IFMatchCond",
             "ImageFilenameProcessor",
             "ImageInfoExtractor",
             "ImageQueueProcessor",
+            "ImageQueueProcessorPlus",
             "LoadImagesFromDirBatch",
             "PathParser",
+            "TextArrayIndex",
             "TextBatch",
             "TextQueueProcessor",
-            "TextSplitCounter"
+            "TextSplitCounter",
+            "TextSplitGet"
         ],
         {
             "title_aux": "Comfyui_TextBatch_aidec"
@@ -23018,7 +23034,6 @@
             "CLIPSave",
             "CLIPSetLastLayer",
             "CLIPTextEncode",
-            "CLIPTextEncodeHunyuanDiT",
             "CLIPVisionEncode",
             "CLIPVisionLoader",
             "CheckpointLoader",
@@ -23046,8 +23061,6 @@
             "DualCFGGuider",
             "DualCLIPLoader",
             "EmptyAudio",
-            "EmptyHunyuanImageLatent",
-            "EmptyHunyuanLatentVideo",
             "EmptyImage",
             "EmptyLatentAudio",
             "EmptyLatentHunyuan3Dv2",
@@ -23067,8 +23080,6 @@
             "GrowMask",
             "Hunyuan3Dv2Conditioning",
             "Hunyuan3Dv2ConditioningMultiView",
-            "HunyuanImageToVideo",
-            "HunyuanRefinerLatent",
             "HypernetworkLoader",
             "ImageAddNoise",
             "ImageBatch",
@@ -23269,7 +23280,6 @@
             "TestVariadicAverage",
             "TestWhileLoopClose",
             "TestWhileLoopOpen",
-            "TextEncodeHunyuanVideo_ImageToVideo",
             "ThresholdMask",
             "TrainLoraNode",
             "TrimAudioDuration",
@@ -23973,6 +23983,20 @@
     ],
     "https://github.com/dagthomas/comfyui_dagthomas": [
         [
+            "APNextBloom",
+            "APNextColorGrading",
+            "APNextCrossProcessing",
+            "APNextFilmHalation",
+            "APNextGlitchArt",
+            "APNextHDRToneMapping",
+            "APNextNoise",
+            "APNextRough",
+            "APNextSharpen",
+            "APNextSplitToning",
+            "ClaudeTextNode",
+            "ClaudeVisionNode",
+            "GrokTextNode",
+            "GrokVisionNode",
             "SentenceMixerNode"
         ],
         {
@@ -25961,6 +25985,7 @@
             "FL_PromptBasic",
             "FL_PromptMulti",
             "FL_PromptSelector",
+            "FL_QwenImageEditStrength",
             "FL_RIFE",
             "FL_RandomNumber",
             "FL_ReplaceColor",
@@ -27082,9 +27107,13 @@
     ],
     "https://github.com/gpdev-Pilcothink/comfyui_pilcothink_VisionSLM": [
         [
+            "MergeTextsWithGap",
             "Pilcothink-RAG",
+            "SLMGenerator",
+            "SLMModelSelector",
             "SLMVisionGenerator",
-            "SLMVisionModelSelector"
+            "SLMVisionModelSelector",
+            "String_Text"
         ],
         {
             "title_aux": "comfyui_pilcothink_VisionSLM"
@@ -31664,6 +31693,7 @@
             "MultiTalkWav2VecEmbeds",
             "NLFPredict",
             "NormalizeAudioLoudness",
+            "OviMMAudioVAELoader",
             "QwenLoader",
             "ReCamMasterPoseVisualizer",
             "WanVideoATITracks",
@@ -31675,6 +31705,7 @@
             "WanVideoAddLucyEditLatents",
             "WanVideoAddLynxEmbeds",
             "WanVideoAddMTVMotion",
+            "WanVideoAddOviAudioToLatents",
             "WanVideoAddPusaNoise",
             "WanVideoAddS2VEmbeds",
             "WanVideoAddStandInLatent",
@@ -31689,11 +31720,14 @@
             "WanVideoControlnet",
             "WanVideoControlnetLoader",
             "WanVideoDecode",
+            "WanVideoDecodeOviAudio",
             "WanVideoDiffusionForcingSampler",
             "WanVideoEasyCache",
             "WanVideoEmptyEmbeds",
+            "WanVideoEmptyMMAudioLatents",
             "WanVideoEncode",
             "WanVideoEncodeLatentBatch",
+            "WanVideoEncodeOviAudio",
             "WanVideoEnhanceAVideo",
             "WanVideoExperimentalArgs",
             "WanVideoExtraModelSelect",
@@ -31713,6 +31747,7 @@
             "WanVideoMagCache",
             "WanVideoMiniMaxRemoverEmbeds",
             "WanVideoModelLoader",
+            "WanVideoOviCFG",
             "WanVideoPassImagesFromSamples",
             "WanVideoPhantomEmbeds",
             "WanVideoPromptExtender",
@@ -36288,6 +36323,7 @@
         [
             "CLIPTextEncodeWithTokens",
             "DAAMAnalyzer",
+            "DAAMPreviewImage",
             "KSamplerDAAM"
         ],
         {
@@ -39740,14 +39776,14 @@
     "https://github.com/sammykumar/ComfyUI-SwissArmyKnife": [
         [
             "CivitMetadataHelper",
-            "ControlPanel",
+            "ControlPanelOverview",
+            "ControlPanelPromptBreakdown",
             "FilenameGenerator",
             "FrameExtractor",
             "GeminiUtilOptions",
             "LoRAInfoExtractor",
             "MediaDescribe",
             "MediaDescribeOverrides",
-            "MediaDescribePromptBreakdown",
             "MediaSelection",
             "MultiCaptionCombiner",
             "ShowText",
@@ -42748,6 +42784,7 @@
             "ComfyBros_DictGet",
             "ComfyBros_EndpointConfiguration",
             "ComfyBros_GenerateImage",
+            "ComfyBros_GenerateImageAPI",
             "ComfyBros_ImageToImage",
             "ComfyBros_JsonParse",
             "ComfyBros_LoraDiscovery",

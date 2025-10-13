@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "IAMCCS",
+            "title": "IAMCCS-nodes",
+            "id": "iamccs-nodes",
+            "reference": "https://github.com/IAMCCS/IAMCCS-nodes",
+            "files": [
+                "https://github.com/IAMCCS/IAMCCS-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes by IAMCCS, including a critical fix for LoRA loading in native WANAnimate workflows, especially useful for advanced models like FLUX and WAN 2.1. This bypasses the need for the WanVideoWrapper for LoRA functionality."
+        },
+        {
             "author": "ru4ls",
             "title": "Google Font Text Image Node for ComfyUI",
             "reference": "https://github.com/ru4ls/ComfyUI_Google-Fonts",
