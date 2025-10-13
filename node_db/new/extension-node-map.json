@@ -4548,6 +4548,8 @@
             "IMGToIMGConditioning",
             "KeywordExtractor",
             "LoadBatchImagesDir",
+            "LoraDBBuilder",
+            "LoraTriggerLookup",
             "MasterKey",
             "Modelswitch",
             "PeopleEvaluationNode",
@@ -7604,6 +7606,15 @@
             "title_aux": "ComfyUI-Loop"
         }
     ],
+    "https://github.com/IAMCCS/IAMCCS-nodes": [
+        [
+            "IAMCCS_ModelWithLoRA",
+            "IAMCCS_WanLoRAStack"
+        ],
+        {
+            "title_aux": "IAMCCS-nodes"
+        }
+    ],
     "https://github.com/IDGallagher/ComfyUI-IG-Motion-I2V": [
         [
             "MI2V Flow Animator",
@@ -10580,6 +10591,18 @@
         ],
         {
             "title_aux": "ComfyUI ZhipuAI Platform"
+        }
+    ],
+    "https://github.com/MichaelMaxAgent/comfyui_ML_nodes": [
+        [
+            "MLFrameRateResampler",
+            "MLFrameRateResampler_GPU",
+            "SaveImageCleanMetadata",
+            "SaveImageNoMetadata",
+            "SaveVideoNoMetadata"
+        ],
+        {
+            "title_aux": "ComfyUI ML Nodes"
         }
     ],
     "https://github.com/MicheleGuidi/ComfyUI-Contextual-SAM2": [

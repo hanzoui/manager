@@ -1912,21 +1912,6 @@
             "title_aux": "PMSnodes [WIP]"
         }
     ],
-    "https://github.com/GeekyGhost/24oiduts-ComfyUI": [
-        [
-            "Studio42AudioLoader",
-            "Studio42AudioMixer",
-            "Studio42BackgroundRemoverEnhanced",
-            "Studio42LayerComposer",
-            "Studio42PatchDrop",
-            "Studio42PatchLiftLoader",
-            "Studio42VideoPatchDrop",
-            "Studio42VideoPatchLiftLoader"
-        ],
-        {
-            "title_aux": "Studio42 Image, Audio, and Video Editing Suite for ComfyUI [WIP]"
-        }
-    ],
     "https://github.com/GentlemanHu/ComfyUI-Notifier": [
         [
             "GentlemanHu_Notifier"
@@ -5720,7 +5705,6 @@
             "CLIPSave",
             "CLIPSetLastLayer",
             "CLIPTextEncode",
-            "CLIPTextEncodeHunyuanDiT",
             "CLIPVisionEncode",
             "CLIPVisionLoader",
             "CheckpointLoader",
@@ -5748,8 +5732,6 @@
             "DualCFGGuider",
             "DualCLIPLoader",
             "EmptyAudio",
-            "EmptyHunyuanImageLatent",
-            "EmptyHunyuanLatentVideo",
             "EmptyImage",
             "EmptyLatentAudio",
             "EmptyLatentHunyuan3Dv2",
@@ -5769,8 +5751,6 @@
             "GrowMask",
             "Hunyuan3Dv2Conditioning",
             "Hunyuan3Dv2ConditioningMultiView",
-            "HunyuanImageToVideo",
-            "HunyuanRefinerLatent",
             "HypernetworkLoader",
             "ImageAddNoise",
             "ImageBatch",
@@ -5971,7 +5951,6 @@
             "TestVariadicAverage",
             "TestWhileLoopClose",
             "TestWhileLoopOpen",
-            "TextEncodeHunyuanVideo_ImageToVideo",
             "ThresholdMask",
             "TrainLoraNode",
             "TrimAudioDuration",
@@ -7252,12 +7231,16 @@
         [
             "Alta:API_ProcessVideo",
             "Alta:API_TranscribeAudio",
+            "Alta:BuildFilePath",
             "Alta:FileDownloader",
             "Alta:GetFaceMask",
             "Alta:GetFilenameNoExt",
             "Alta:GetImageAndPath",
             "Alta:GetImageByIndex",
             "Alta:GetStringByIndex",
+            "Alta:ListAllFiles",
+            "Alta:ListFilesByExt",
+            "Alta:LoadFilesFromFolder",
             "Alta:LoadImage",
             "Alta:LoadImageFromPath",
             "Alta:LoadImageWithPath",
@@ -11011,6 +10994,7 @@
     "https://github.com/wTechArtist/ComfyUI-VVL-Tools": [
         [
             "ApplyUrlsToJson",
+            "BlenderModelAligner",
             "BlenderSmartModelScalerBatch",
             "DimensionReorderAndScale",
             "DynamicBatchAnything",
