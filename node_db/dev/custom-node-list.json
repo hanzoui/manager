@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "pizurny",
+            "title": "ComfyUI-Just-DWPose [WIP]",
+            "reference": "https://github.com/pizurny/ComfyUI-Just-DWPose",
+            "files": [
+                "https://github.com/pizurny/ComfyUI-Just-DWPose"
+            ],
+            "install_type": "git-clone",
+            "description": "An advanced DWPose annotator for ComfyUI with TorchScript and ONNX backends, featuring comprehensive pose detection, bone validation, temporal smoothing, and custom visualization tools."
+        },
+        {
+            "author": "pizurny",
+            "title": "ComfyUI Feedback Sampler [WIP]",
+            "reference": "https://github.com/pizurny/Comfyui-FeedbackSampler",
+            "files": [
+                "https://github.com/pizurny/Comfyui-FeedbackSampler"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI sampler for creating Deforum-style zoom animations through iterative feedback loop."
+        },
+        {
+            "author": "FlowX Team",
+            "title": "FlowX Preprocess [UNSAFE]",
+            "reference": "https://github.com/cgf120/comfyui-flowx-preprocess",
+            "files": [
+                "https://github.com/cgf120/comfyui-flowx-preprocess"
+            ],
+            "install_type": "git-clone",
+            "description": "FlowX Preprocess Node for ComfyUI - Export workflow configurations with input parameters[w/This node pack includes an endpoint that deletes files from arbitrary paths.]"
+        },
+        {
+            "author": "jpwgad",
+            "title": "jpwgad",
+            "reference": "https://github.com/jpwgad/jpwgad-comfy",
+            "files": [
+                "https://github.com/jpwgad/jpwgad-comfy"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Image Size Input, Date/Time based output path"
+        },
+        {
+            "author": "octapus8085",
+            "title": "OpenAI-comfyui-O",
+            "reference": "https://github.com/Spicely/Comfyui-File-Utils",
+            "files": [
+                "https://github.com/Spicely/Comfyui-File-Utils"
+            ],
+            "install_type": "git-clone",
+            "description": "This plugin provides multiple file-handling and utility nodes for ComfyUI, including: image saving, audio saving, video saving, video composition, audio-to-subtitle conversion, and random number generation nodes. These nodes not only process files but also return their absolute file paths.\nNOTE: The files in the repo are not organized.[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
             "author": "octapus8085",
             "title": "OpenAI-comfyui-O",
             "reference": "https://github.com/octapus8085/OpenAI-comfyui-O",

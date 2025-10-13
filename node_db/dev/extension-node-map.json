@@ -3731,6 +3731,19 @@
             "title_aux": "ComfyUI_Remaker_FaceSwap"
         }
     ],
+    "https://github.com/Spicely/Comfyui-File-Utils": [
+        [
+            "AudioToSubtitle",
+            "RandomFloat",
+            "SaveAudioWithPath",
+            "SaveImageWithPath",
+            "SaveVideoWithPath",
+            "VideoCompose"
+        ],
+        {
+            "title_aux": "OpenAI-comfyui-O"
+        }
+    ],
     "https://github.com/Stable-X/ComfyUI-Hi3DGen": [
         [
             "DifferenceExtractorNode",
@@ -7639,6 +7652,15 @@
             "title_aux": "ComfyUI_HelpfulNodes"
         }
     ],
+    "https://github.com/jpwgad/jpwgad-comfy": [
+        [
+            "OutputPath",
+            "SizeInput"
+        ],
+        {
+            "title_aux": "jpwgad"
+        }
+    ],
     "https://github.com/jschoormans/Comfy-InterestingPixels": [
         [
             "Random Palette",
@@ -9497,6 +9519,23 @@
         ],
         {
             "title_aux": "ComfyUI-PixuAI"
+        }
+    ],
+    "https://github.com/pizurny/ComfyUI-Just-DWPose": [
+        [
+            "DWPoseAnnotator",
+            "DWPoseJSONToImage"
+        ],
+        {
+            "title_aux": "ComfyUI-Just-DWPose [WIP]"
+        }
+    ],
+    "https://github.com/pizurny/Comfyui-FeedbackSampler": [
+        [
+            "FeedbackSampler"
+        ],
+        {
+            "title_aux": "ComfyUI Feedback Sampler [WIP]"
         }
     ],
     "https://github.com/pmarmotte2/Comfyui-VibeVoiceSelector": [

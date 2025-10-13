@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "ru4ls",
+            "title": "Google Font Text Image Node for ComfyUI",
+            "reference": "https://github.com/ru4ls/ComfyUI_Google-Fonts",
+            "files": [
+                "https://github.com/ru4ls/ComfyUI_Google-Fonts"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node provides a powerful and flexible way to create images from text with advanced typographic controls. It's an ideal tool for generating inputs for Typography, creating titles and watermarks, or producing font specimens for multimodal models to analyze and generate."
+        },
+        {
             "author": "eddyhhlure1Eddy",
             "title": "ComfyUI-TorchCompileSpeed",
             "reference": "https://github.com/eddyhhlure1Eddy/ComfyUI-TorchCompileSpeed",
@@ -690,36 +700,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom node pack for WAN v2v long video generation. Provides nodes for chunking, overlap stitching, control group orchestration, debug numbering, and de-overlap merging to create seamless long-form videos."
-        },
-        {
-            "author": "9nate-drake",
-            "title": "ComfyUI Mask to Center Point Nodes",
-            "reference": "https://github.com/9nate-drake/ComfyUI-MaskCenter",
-            "files": [
-                "https://github.com/9nate-drake/ComfyUI-MaskCenter"
-            ],
-            "install_type": "git-clone",
-            "description": "This pack provides two custom nodes for ComfyUI designed to find the center coordinates of masks and segments. They are useful for workflows where you need to precisely identify the location of objects or regions of interest."
-        },
-        {
-            "author": "mochidroppot",
-            "title": "ComfyUI-ProxyFix",
-            "reference": "https://github.com/mochidroppot/ComfyUI-ProxyFix",
-            "files": [
-                "https://github.com/mochidroppot/ComfyUI-ProxyFix"
-            ],
-            "install_type": "git-clone",
-            "description": "This extension fixes URL encoding issues when ComfyUI is accessed through reverse proxies like 'jupyter-server-proxy'."
-        },
-        {
-            "author": "guill",
-            "title": "Stegaflow",
-            "reference": "https://github.com/guill/comfyui-stegaflow",
-            "files": [
-                "https://github.com/guill/comfyui-stegaflow"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node pack for embedding workflow data in image pixels using steganography"
         }
     ]
 }
