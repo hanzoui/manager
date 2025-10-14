@@ -366,6 +366,7 @@
         [
             "ImageAddLabel",
             "ImageBBoxOverlayByMask",
+            "ImageBatchGroup",
             "ImageBatchToList",
             "ImageBlendModesByAlpha",
             "ImageBlendModesByCSS",
@@ -2127,6 +2128,7 @@
     ],
     "https://github.com/Alectriciti/comfyui-adaptiveprompts": [
         [
+            "LoraTagGenerator",
             "NormalizeLoraTags",
             "PromptAliasSwap",
             "PromptCleanup",
@@ -2529,7 +2531,10 @@
             "AGSoft_Img_Pad_for_Outpainting_Adv",
             "AGSoft_Img_Res",
             "AGSoft_Img_Res_MP",
-            "AGSoft_Mask_Fix"
+            "AGSoft_Mask_Blur",
+            "AGSoft_Mask_Composite",
+            "AGSoft_Mask_Fix",
+            "AGSoft_Mask_From_Color"
         ],
         {
             "title_aux": "comfyui-AGSoft"
@@ -4554,6 +4559,7 @@
             "Modelswitch",
             "PeopleEvaluationNode",
             "PromptGenerator",
+            "QwenAspectRatioCreepy",
             "RandomAudioSegment",
             "SanitizeFilename",
             "SummaryWriter",
@@ -5341,6 +5347,7 @@
             "BoyoPairedSaver",
             "BoyoPromptInjector",
             "BoyoPromptLoop",
+            "BoyoQwenVLGrounding",
             "BoyoSaver",
             "BoyoTiledVAEDecode",
             "BoyoVACEInjector",
@@ -5348,6 +5355,7 @@
             "BoyoVAEDecode",
             "BoyoVideoPairedSaver",
             "BoyoVideoSaver",
+            "BoyoVision",
             "Boyolatent",
             "MandelbrotVideo"
         ],
@@ -10345,6 +10353,7 @@
             "BadmanMaskBlur",
             "BadmanStringSelect",
             "BadmanStringToInteger",
+            "BadmanWanThreeFrameToVideo",
             "BadmanWildCardProcessor",
             "Badman_Blend",
             "Badman_ColorTransferLab",
@@ -10597,6 +10606,7 @@
         [
             "MLFrameRateResampler",
             "MLFrameRateResampler_GPU",
+            "MLVideoRateConverter",
             "SaveImageCleanMetadata",
             "SaveImageNoMetadata",
             "SaveVideoNoMetadata"
@@ -11974,6 +11984,39 @@
             "title_aux": "ComfyUI-AdvancedLivePortrait"
         }
     ],
+    "https://github.com/PozzettiAndrea/ComfyUI-MeshCraft": [
+        [
+            "Hy3D21CameraConfig",
+            "Hy3D21ExportMesh",
+            "Hy3D21GenerateMultiViewsBatch",
+            "Hy3D21IMRemesh",
+            "Hy3D21LoadImageWithTransparency",
+            "Hy3D21LoadMesh",
+            "Hy3D21MeshGenerationBatch",
+            "Hy3D21MeshUVWrap",
+            "Hy3D21MeshlibDecimate",
+            "Hy3D21MultiViewsGeneratorWithMetaData",
+            "Hy3D21MultiViewsMeshGenerator",
+            "Hy3D21PostprocessMesh",
+            "Hy3D21ResizeImages",
+            "Hy3D21SimpleMeshlibDecimate",
+            "Hy3D21UseMultiViews",
+            "Hy3D21UseMultiViewsFromMetaData",
+            "Hy3D21VAEConfig",
+            "Hy3D21VAEDecode",
+            "Hy3D21VAELoader",
+            "Hy3DBakeMultiViews",
+            "Hy3DBakeMultiViewsWithMetaData",
+            "Hy3DHighPolyToLowPolyBakeMultiViewsWithMetaData",
+            "Hy3DInPaint",
+            "Hy3DMeshGenerator",
+            "Hy3DMultiViewsGenerator",
+            "MeshCraftPostProcess"
+        ],
+        {
+            "title_aux": "ComfyUI-MeshCraft"
+        }
+    ],
     "https://github.com/PressWagon/ComfyUI-StringsAndThings": [
         [
             "DebugString",
@@ -12450,6 +12493,7 @@
             "Runware IPAdapters Combine",
             "Runware Image Caption",
             "Runware Image Inference",
+            "Runware Image Inference Inputs",
             "Runware Image Masking",
             "Runware Image Upscaler",
             "Runware Imagen Inference",
@@ -12587,7 +12631,8 @@
             "\ud83d\udc80Video Combine",
             "\ud83d\udc80Video Crop",
             "\ud83d\udc80Video Frames",
-            "\ud83d\udc80Video Info"
+            "\ud83d\udc80Video Info",
+            "\ud83d\udc80Video Resize"
         ],
         {
             "title_aux": "ComfyUI S4Motion"
@@ -15877,6 +15922,8 @@
     ],
     "https://github.com/VraethrDalkr/ComfyUI-TripleKSampler": [
         [
+            "SwitchStrategyAdvanced",
+            "SwitchStrategySimple",
             "TripleKSamplerWan22Lightning",
             "TripleKSamplerWan22LightningAdvanced"
         ],
@@ -20923,7 +20970,6 @@
             "Image_batch_composite",
             "Image_batch_select",
             "Image_pad_keep",
-            "Image_pad_outfill",
             "Image_smooth_blur",
             "Image_solo_crop",
             "Image_solo_stitch",
@@ -24022,6 +24068,10 @@
             "ClaudeVisionNode",
             "GrokTextNode",
             "GrokVisionNode",
+            "GroqTextNode",
+            "GroqVisionNode",
+            "MiniCPMImageNode",
+            "MiniCPMVideoNode",
             "SentenceMixerNode"
         ],
         {
@@ -25928,6 +25978,7 @@
             "FL_Fal_Seedream_Edit",
             "FL_Fal_Sora",
             "FL_Float",
+            "FL_FloatToInt",
             "FL_FractalKSampler",
             "FL_GPT_Image1",
             "FL_GPT_Image1_ADV",
@@ -25974,6 +26025,7 @@
             "FL_InfiniteZoom",
             "FL_InpaintCrop",
             "FL_Inpaint_Stitch",
+            "FL_IntToFloat",
             "FL_JS",
             "FL_KSamplerXYZPlot",
             "FL_KsamplerBasic",
@@ -26649,14 +26701,6 @@
         ],
         {
             "title_aux": "ComfyUI-FLUX-BFL-API"
-        }
-    ],
-    "https://github.com/geltz/ComfyUI-MomentumGuidance": [
-        [
-            "MomentumGuidance"
-        ],
-        {
-            "title_aux": "Momentum Guidance for ComfyUI"
         }
     ],
     "https://github.com/gemell1/ComfyUI_GMIC": [
@@ -31931,6 +31975,7 @@
             "RC_MaskApply",
             "RC_OpacityAdjust",
             "RC_OuterGlow",
+            "RC_PatternTiling",
             "RC_PreviewImageNoMetadata",
             "RC_SaveImageNoMetadata",
             "RC_Sharpen",
@@ -38212,9 +38257,11 @@
             "PVL KONTEXT MAX",
             "PVLCheckIfConnected",
             "PVL_Any2String",
+            "PVL_BatchAny",
             "PVL_BooleanLogic",
             "PVL_Comfydeploy_Avatar_PulID_API",
             "PVL_Crop2AR",
+            "PVL_EdgeExtend",
             "PVL_Gemini_API",
             "PVL_Gemini_API_avatar_special",
             "PVL_Google_NanoBanana_API",
@@ -38222,11 +38269,14 @@
             "PVL_Google_NanoBanana_Multi_API",
             "PVL_ImageResize",
             "PVL_ImageStitch",
+            "PVL_MathCondition",
             "PVL_NoneOutputNode",
             "PVL_OpenPoseMatch",
             "PVL_OpenPoseMatch_Z",
             "PVL_SaveOrNot",
+            "PVL_SplitString",
             "PVL_Stitch2Size",
+            "PVL_StringToNumber",
             "PVL_StylePicker",
             "PVL_Switch_Huge",
             "PVL_Txt",
@@ -38589,6 +38639,7 @@
             "WaveSpeedAI Bytedance Seedream V4 Edit",
             "WaveSpeedAI Bytedance Seedream V4 Edit Sequential",
             "WaveSpeedAI Client",
+            "WaveSpeedAI Flux ControlNet Union Pro 2.0",
             "WaveSpeedAI Flux Kontext Dev",
             "WaveSpeedAI Flux Kontext Max",
             "WaveSpeedAI Flux Kontext Pro",
@@ -39186,6 +39237,14 @@
         ],
         {
             "title_aux": "ComfyUI Extended"
+        }
+    ],
+    "https://github.com/rookiestar28/ComfyUI-Danbooru-Tags-Upsampler": [
+        [
+            "DanbooruTagsUpsamplerNodeRay"
+        ],
+        {
+            "title_aux": "Danbooru Tags Upsampler for ComfyUI"
         }
     ],
     "https://github.com/roundyyy/ComfyUI-mesh-simplifier": [
@@ -39842,6 +39901,8 @@
             "FilenameGenerator",
             "FrameExtractor",
             "GeminiUtilOptions",
+            "JoyCaptionMediaDescribe",
+            "LLMStudioMediaDescribe",
             "LoRAInfoExtractor",
             "MediaDescribe",
             "MediaDescribeOverrides",
@@ -42846,7 +42907,13 @@
             "ComfyBros_EndpointConfiguration",
             "ComfyBros_GenerateImage",
             "ComfyBros_GenerateImageAPI",
+            "ComfyBros_ImageBatchCombiner",
+            "ComfyBros_ImageBatchSplitter",
+            "ComfyBros_ImageBatchToGIF",
             "ComfyBros_ImageToImage",
+            "ComfyBros_IntegerCompare",
+            "ComfyBros_IntegerConstant",
+            "ComfyBros_IntegerMath",
             "ComfyBros_JsonParse",
             "ComfyBros_LoraDiscovery",
             "ComfyBros_OllamaConfiguration",

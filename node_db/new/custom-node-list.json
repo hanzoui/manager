@@ -1,14 +1,25 @@
 {
     "custom_nodes": [
         {
-            "author": "geltz",
-            "title": "Momentum Guidance for ComfyUI",
-            "reference": "https://github.com/geltz/ComfyUI-MomentumGuidance",
+            "author": "rookiestar28",
+            "title": "Danbooru Tags Upsampler for ComfyUI",
+            "id": "danbooru-tags-upsampler",
+            "reference": "https://github.com/rookiestar28/ComfyUI-Danbooru-Tags-Upsampler",
             "files": [
-                "https://github.com/geltz/ComfyUI-MomentumGuidance"
+                "https://github.com/rookiestar28/ComfyUI-Danbooru-Tags-Upsampler"
             ],
             "install_type": "git-clone",
-            "description": "Momentum Guidance (MG) is a training-free guidance method that reduces computational cost by 40% compared to standard guidance techniques like CFG or PAG."
+            "description": "Makes the prompts for generating anime images more detailed by upsampling Danbooru tags."
+        },
+        {
+            "author": "PozzettiAndrea",
+            "title": "ComfyUI-MeshCraft",
+            "reference": "https://github.com/PozzettiAndrea/ComfyUI-MeshCraft",
+            "files": [
+                "https://github.com/PozzettiAndrea/ComfyUI-MeshCraft"
+            ],
+            "install_type": "git-clone",
+            "description": "Complete 3D generation and manipulation package for ComfyUI\nCraft and transform 3D meshes in ComfyUI. Full Hunyuan 3D 2.1 integration with caching optimizations, advanced mesh processing, and experimental tools for prompt-based editing."
         },
         {
             "author": "niknah",

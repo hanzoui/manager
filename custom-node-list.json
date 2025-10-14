@@ -13181,7 +13181,7 @@
                 "https://github.com/MariusKM/ComfyUI-BadmanNodes"
             ],
             "install_type": "git-clone",
-            "description": "Nodes:Badman_Blend, Badman_HexGenerator, Badman_String, Badman_Concat_String, Badman_Print, BadmanIO, BadmanIntUtil"
+            "description": "Utility nodes including ImageBlend, Math, Strings, Color tools, Wildcard Processor, Latent Noise Mask, and WAN Three Frame To Video for keyframe-based video generation"
         },
         {
             "author": "TMElyralab",
@@ -23447,7 +23447,7 @@
                 "https://github.com/DragonDiffusionbyBoyo/Boyonodes"
             ],
             "install_type": "git-clone",
-            "description": "The Vae node is a sneaky little node perfect for deployment in Schools or work environments where you do not want the kiddywinkles creating NSFW content. Just rename the node to VAE decode and it looks like a normal node but hidden inside is an NSFW detector. Once hidden in the workflow there are no settings to undo the NSFW detection so cannot be worked around unless you remove the node. The node looks innocent once renamed so is virtually undetectable. I have placed an example workflow for you to see how to connect it. Simple stuff really, but once connected just rename."
+            "description": "Essential nodes for semantic image editing workflows with Kontext, Qwen Image Edit, and HiDream E1.1 models. Features automated iterative editing with Boyo Image Grab, organised dataset creation with paired image/prompt savers, and comprehensive file management tools. Perfect for batch processing, training data preparation, and streamlined semantic editing pipelines. Added Uncensored Qwen VL abliterated model node and downloader!"
         },
         {
             "author": "DragonDiffusionbyBoyo",
@@ -34235,14 +34235,25 @@
             "description": "A custom node that crops images to specified dimensions from a center point with optional offset"
         },
         {
-            "author": "geltz",
-            "title": "Momentum Guidance for ComfyUI",
-            "reference": "https://github.com/geltz/ComfyUI-MomentumGuidance",
+            "author": "PozzettiAndrea",
+            "title": "ComfyUI-MeshCraft",
+            "reference": "https://github.com/PozzettiAndrea/ComfyUI-MeshCraft",
             "files": [
-                "https://github.com/geltz/ComfyUI-MomentumGuidance"
+                "https://github.com/PozzettiAndrea/ComfyUI-MeshCraft"
             ],
             "install_type": "git-clone",
-            "description": "Momentum Guidance (MG) is a training-free guidance method that reduces computational cost by 40% compared to standard guidance techniques like CFG or PAG."
+            "description": "A custom node that crops images to specified dimensions from a center point with optional offset"
+        },
+        {
+            "author": "rookiestar28",
+            "title": "Danbooru Tags Upsampler for ComfyUI",
+            "id": "danbooru-tags-upsampler",
+            "reference": "https://github.com/rookiestar28/ComfyUI-Danbooru-Tags-Upsampler",
+            "files": [
+                "https://github.com/rookiestar28/ComfyUI-Danbooru-Tags-Upsampler"
+            ],
+            "install_type": "git-clone",
+            "description": "Makes the prompts for generating anime images more detailed by upsampling Danbooru tags."
         },
 
 
@@ -34703,17 +34714,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "rookiestar28",
-            "title": "Danbooru Tags Upsampler for ComfyUI",
-            "id": "danbooru-tags-upsampler",
-            "reference": "https://github.com/rookiestar28/ComfyUI-Danbooru-Tags-Upsampler",
-            "files": [
-                "https://github.com/rookiestar28/ComfyUI-Danbooru-Tags-Upsampler"
-            ],
-            "install_type": "git-clone",
-            "description": "Makes the prompts for generating anime images more detailed by upsampling Danbooru tags."
         }
     ]
 }
