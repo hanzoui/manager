@@ -12436,6 +12436,7 @@
             "Runware Audio Model Search",
             "Runware Audio Sections",
             "Runware Background Removal",
+            "Runware Bria Provider Settings",
             "Runware Bytedance Provider Settings",
             "Runware ControlNet",
             "Runware ControlNet Combine",
@@ -12468,6 +12469,7 @@
             "Runware Video Inference",
             "Runware Video Model Search",
             "Runware Vidu Provider Settings",
+            "RunwareBriaProviderSettings",
             "RunwareBytedanceProviderSettings",
             "RunwareFrameImages",
             "RunwareOpenAIProviderSettings",
@@ -26008,6 +26010,7 @@
             "FL_PromptBasic",
             "FL_PromptMulti",
             "FL_PromptSelector",
+            "FL_PromptSelectorBasic",
             "FL_QwenImageEditStrength",
             "FL_RIFE",
             "FL_RandomNumber",
@@ -26646,6 +26649,14 @@
         ],
         {
             "title_aux": "ComfyUI-FLUX-BFL-API"
+        }
+    ],
+    "https://github.com/geltz/ComfyUI-MomentumGuidance": [
+        [
+            "MomentumGuidance"
+        ],
+        {
+            "title_aux": "Momentum Guidance for ComfyUI"
         }
     ],
     "https://github.com/gemell1/ComfyUI_GMIC": [
@@ -32686,6 +32697,14 @@
             "title_aux": "ComfyUI-GG"
         }
     ],
+    "https://github.com/leewinder/comfyui-crop-to-center": [
+        [
+            "CropToCenter"
+        ],
+        {
+            "title_aux": "Crop To Center"
+        }
+    ],
     "https://github.com/lenML/comfyui_qwen_image_edit_adv": [
         [
             "QwenImageEditScale",
@@ -36282,6 +36301,25 @@
         ],
         {
             "title_aux": "Audio General"
+        }
+    ],
+    "https://github.com/niknah/presentation-ComfyUI": [
+        [
+            "PresentationAddQueue",
+            "PresentationAdvancedSection",
+            "PresentationAudio",
+            "PresentationComponent",
+            "PresentationDropDown",
+            "PresentationFile",
+            "PresentationHistory",
+            "PresentationImage",
+            "PresentationProgress",
+            "PresentationSeed",
+            "PresentationTab",
+            "PresentationVideo"
+        ],
+        {
+            "title_aux": "Presentation ComfyUI"
         }
     ],
     "https://github.com/nilor-corp/nilor-nodes": [
@@ -44742,6 +44780,27 @@
         ],
         {
             "title_aux": "ComfyUI-LinearTransition"
+        }
+    ],
+    "https://github.com/yichengup/ComfyUI-VideoTransition": [
+        [
+            "CubeRotationNode",
+            "VideoBlindsTransitionNode",
+            "VideoBlinkTransitionNode",
+            "VideoCheckerboardTransitionNode",
+            "VideoCrossfadeNode",
+            "VideoCubeRotationAdvancedNode",
+            "VideoCubeTransitionNode",
+            "VideoExplosionTransitionNode",
+            "VideoFlip3DTransitionNode",
+            "VideoGlitchArtEnhancedNode",
+            "VideoGlitchArtTransitionNode",
+            "VideoPageTurnNode",
+            "VideoShakeTransitionNode",
+            "VideoWarpTransitionNode"
+        ],
+        {
+            "title_aux": "ComfyUI-VideoTransition"
         }
     ],
     "https://github.com/yichengup/ComfyUI-YCNodes": [

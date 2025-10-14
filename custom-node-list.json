@@ -16586,6 +16586,16 @@
             "description": "General audio nodes.  Mix, Bass/Treble, Concatenate, Pitch, Add/remove silence, Speed"
         },
         {
+            "author": "niknah",
+            "title": "Presentation ComfyUI",
+            "reference": "https://github.com/niknah/presentation-ComfyUI",
+            "files": [
+                "https://github.com/niknah/presentation-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "Turn ComfyUI workflow to a website UI"
+        },
+        {
             "author": "daryltucker",
             "title": "ComfyUI-LoadFiles",
             "id": "LoadFiles",
@@ -19812,6 +19822,16 @@
             ],
             "install_type": "git-clone",
             "description": "A simple ComfyUI plugin that Its purpose and function is to replicate some of the editing effects of capcut,jianying and pr."
+        },
+        {
+            "author": "yichengup",
+            "title": "ComfyUI-VideoTransition",
+            "reference": "https://github.com/yichengup/ComfyUI-VideoTransition",
+            "files": [
+                "https://github.com/yichengup/ComfyUI-VideoTransition"
+            ],
+            "install_type": "git-clone",
+            "description": "A video transition effects plugin implemented using a Chromium headless browser and Python."
         },
         {
             "author": "Horizon Team",
@@ -32632,9 +32652,9 @@
         {
             "author": "iguanesolutions",
             "title": "Flux Resolution",
-            "reference": "https://github.com/iguanesolutions/comfyui-flux-resolution",
+            "reference": "https://github.com/iguanesolutions/comfyui-ig1-tools",
             "files": [
-                "https://github.com/iguanesolutions/comfyui-flux-resolution"
+                "https://github.com/iguanesolutions/comfyui-ig1-tools"
             ],
             "install_type": "git-clone",
             "description": "Get the closest compatible flux resolution from a given resolution."
@@ -34204,6 +34224,27 @@
             "install_type": "git-clone",
             "description": "Custom nodes for saving images/videos without metadata and GPU-accelerated frame rate processing (25fps→16fps). Includes 5 nodes: Save Image/Video (No Metadata), Frame Rate Resampler (CPU/GPU). Supports CUDA acceleration and multiple nterpolation methods. Requires ffmpeg."
   		},
+        {
+            "author": "leewinder",
+            "title": "Crop To Center",
+            "reference": "https://github.com/leewinder/comfyui-crop-to-center",
+            "files": [
+                "https://github.com/leewinder/comfyui-crop-to-center"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node that crops images to specified dimensions from a center point with optional offset"
+        },
+        {
+            "author": "geltz",
+            "title": "Momentum Guidance for ComfyUI",
+            "reference": "https://github.com/geltz/ComfyUI-MomentumGuidance",
+            "files": [
+                "https://github.com/geltz/ComfyUI-MomentumGuidance"
+            ],
+            "install_type": "git-clone",
+            "description": "Momentum Guidance (MG) is a training-free guidance method that reduces computational cost by 40% compared to standard guidance techniques like CFG or PAG."
+        },
+
 
 
 

@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "geltz",
+            "title": "Momentum Guidance for ComfyUI",
+            "reference": "https://github.com/geltz/ComfyUI-MomentumGuidance",
+            "files": [
+                "https://github.com/geltz/ComfyUI-MomentumGuidance"
+            ],
+            "install_type": "git-clone",
+            "description": "Momentum Guidance (MG) is a training-free guidance method that reduces computational cost by 40% compared to standard guidance techniques like CFG or PAG."
+        },
+        {
+            "author": "niknah",
+            "title": "Presentation ComfyUI",
+            "reference": "https://github.com/niknah/presentation-ComfyUI",
+            "files": [
+                "https://github.com/niknah/presentation-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "Turn ComfyUI workflow to a website UI"
+        },
+        {
+            "author": "yichengup",
+            "title": "ComfyUI-VideoTransition",
+            "reference": "https://github.com/yichengup/ComfyUI-VideoTransition",
+            "files": [
+                "https://github.com/yichengup/ComfyUI-VideoTransition"
+            ],
+            "install_type": "git-clone",
+            "description": "A video transition effects plugin implemented using a Chromium headless browser and Python."
+        },
+        {
+            "author": "leewinder",
+            "title": "Crop To Center",
+            "reference": "https://github.com/leewinder/comfyui-crop-to-center",
+            "files": [
+                "https://github.com/leewinder/comfyui-crop-to-center"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node that crops images to specified dimensions from a center point with optional offset"
+        },
+        {
             "author": "IAMCCS",
             "title": "IAMCCS-nodes",
             "id": "iamccs-nodes",
@@ -671,56 +711,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI Memory Management and VRAM Optimization Custom Node - Free VRAM with sequential model loading support"
-        },
-        {
-            "author": "lucasgattas",
-            "title": "Egregora Frames Animation Nodes for ComfyUI",
-            "reference": "https://github.com/lucasgattas/ComfyUI-Egregora-Frames-Animation-Nodes",
-            "files": [
-                "https://github.com/lucasgattas/ComfyUI-Egregora-Frames-Animation-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Advanced image list animation toolkit for ComfyUI with batch processing, AI-powered frame interpolation, and multi-format video encoding."
-        },
-        {
-            "author": "WangDianhui",
-            "title": "ComfyUI-SA-ODE_Sampler",
-            "reference": "https://github.com/WangDianhui/ComfyUI-SA-ODE_Sampler",
-            "files": [
-                "https://github.com/WangDianhui/ComfyUI-SA-ODE_Sampler"
-            ],
-            "install_type": "git-clone",
-            "description": "Ultra-Efficient Flow Matching sampler ported from [a/https://github.com/eddyhhlure1Eddy/ode-t1](https://github.com/eddyhhlure1Eddy/ode-t1), suitable for native ComfyUI workflows."
-        },
-        {
-            "author": "wallen",
-            "title": "ComfyUI-SageAttention3",
-            "reference": "https://github.com/wallen0322/ComfyUI-SageAttention3",
-            "files": [
-                "https://github.com/wallen0322/ComfyUI-SageAttention3"
-            ],
-            "install_type": "git-clone",
-            "description": "Strict Sage 3 (Blackwell) attention for ComfyUI official flows."
-        },
-        {
-            "author": "sselpah",
-            "title": "ComfyUI-sselpah-nodes",
-            "reference": "https://github.com/sselpah/ComfyUI-sselpah-nodes",
-            "files": [
-                "https://github.com/sselpah/ComfyUI-sselpah-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Extension of IPAdapter implementation by cubiq and whoever contributed to that repository"
-        },
-        {
-            "author": "Kishor900",
-            "title": "ComfyUI WANv2v Video Stitcher",
-            "reference": "https://github.com/Kishor900/comfyui-wanv2v-video-stitcher",
-            "files": [
-                "https://github.com/Kishor900/comfyui-wanv2v-video-stitcher"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node pack for WAN v2v long video generation. Provides nodes for chunking, overlap stitching, control group orchestration, debug numbering, and de-overlap merging to create seamless long-form videos."
         }
     ]
 }
