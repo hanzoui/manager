@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "RM2-0",
+            "title": "ComfyUI-Upscale",
+            "reference": "https://github.com/RM2-0/ComfyUI-Upscale",
+            "files": [
+                "https://github.com/RM2-0/ComfyUI-Upscale"
+            ],
+            "install_type": "git-clone",
+            "description": "Efficient upscaling node with FP16 and batch processing support for ComfyUI"
+        },
+        {
+            "author": "light-and-ray",
+            "title": "Minimalistic-Comfy-Wrapper-WebUI",
+            "reference": "https://github.com/light-and-ray/Minimalistic-Comfy-Wrapper-WebUI",
+            "files": [
+                "https://github.com/light-and-ray/Minimalistic-Comfy-Wrapper-WebUI"
+            ],
+            "install_type": "git-clone",
+            "description": "An alternative additional non-node based UI for ComfyUI, that dynamically adapts to your workflows - you only need to change the titles of nodes that you want to see in the Minimalistic webui, and click 'Refresh' button"
+        },
+        {
+            "author": "bakker",
+            "title": "BK_Utils [WIP]",
+            "reference": "https://github.com/bakker/BK_Utils",
+            "files": [
+                "https://github.com/bakker/BK_Utils"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Same Pixel Resolution Calculator, .."
+        },
+        {
+            "author": "garciaone",
+            "title": "g_one_toolkit",
+            "reference": "https://github.com/garciaone/g_one_toolkit",
+            "files": [
+                "https://github.com/garciaone/g_one_toolkit"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of quality of life nodes"
+        },
+        {
+            "author": "banini1841",
+            "title": "BigModelPipe [WIP]",
+            "reference": "https://github.com/banini1841/BigModelPipe",
+            "files": [
+                "https://github.com/banini1841/BigModelPipe"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: BigModelPipeIn, BigModelPipeOut"
+        },
+        {
             "author": "comfyui-wiki",
             "title": "ComfyUI-SelectionFocus [WIP]",
             "reference": "https://github.com/comfyui-wiki/ComfyUI-SelectionFocus",

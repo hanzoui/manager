@@ -1,6 +1,117 @@
 {
     "custom_nodes": [
         {
+            "author": "smthemex",
+            "title": "ComfyUI_OmniPart",
+            "reference": "https://github.com/smthemex/ComfyUI_OmniPart",
+            "files": [
+                "https://github.com/smthemex/ComfyUI_OmniPart"
+            ],
+            "install_type": "git-clone",
+            "description": "OmniPart: Part-Aware 3D Generation with Semantic Decoupling and Structural Cohesion,this node ,you can use it in comfyUI"
+        },
+        {
+            "author": "AIGODLIKE",
+            "title": "Blender-IO",
+            "id": "blender-io",
+            "reference": "https://github.com/AIGODLIKE/Blender-IO",
+            "files": [
+                "https://github.com/AIGODLIKE/Blender-IO"
+            ],
+            "install_type": "git-clone",
+            "description": "Add data chain operation between blender and comfyui. Provides ComfyUIInputs node for blender to fetching data from ComfyUI, and Blender Inputs/Outputs node for ComfyUI to fetching/sending data with blender."
+        },
+        {
+            "author": "polym",
+            "title": "ComfyUI-musubi",
+            "reference": "https://github.com/polym/ComfyUI-musubi",
+            "files": [
+                "https://github.com/polym/ComfyUI-musubi"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository provides a custom node for ComfyUI to load diffusion models with musubi block-wise scaling."
+        },
+        {
+            "author": "ChristopherLuciano",
+            "title": "LucianoTools ComfyUI Suite",
+            "reference": "https://github.com/ChristopherLuciano/ComfyUI-LucianoTools",
+            "files": [
+                "https://github.com/ChristopherLuciano/ComfyUI-LucianoTools"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of useful user interface extensions for ComfyUI to improve workflow and provide helpful feedback."
+        },
+        {
+            "author": "m3rr",
+            "title": "h4 ToolKit",
+            "reference": "https://github.com/m3rr/h4_ToolKit",
+            "files": [
+                "https://github.com/m3rr/h4_ToolKit"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of useful user interface extensions for ComfyUI to improve workflow and provide helpful feedback."
+        },
+        {
+            "author": "HM-RunningHub",
+            "title": "ComfyUI_RH_mammothmoda",
+            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_mammothmoda",
+            "files": [
+                "https://github.com/HM-RunningHub/ComfyUI_RH_mammothmoda"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for MammothModa2 text-to-image generation."
+        },
+        {
+            "author": "Pixelailabs",
+            "title": "Joy Caption Two - PixelaiLabs Edition",
+            "reference": "https://github.com/Pixelailabs/Joy_Caption_Two_PixelaiLabs",
+            "files": [
+                "https://github.com/Pixelailabs/Joy_Caption_Two_PixelaiLabs"
+            ],
+            "install_type": "git-clone",
+            "description": "A fully automated ComfyUI custom node that uses Joy Caption Alpha Two to generate high-quality image captions. Perfect for: LoRA/model training dataset preparation, Image tagging and organization, NSFW content captioning, Batch processing large image collections"
+        },
+        {
+            "author": "karthikg-09",
+            "title": "ComfyUI WanVideo Auto Resize",
+            "reference": "https://github.com/karthikg-09/ComfyUI-WanVideoAutoResize",
+            "files": [
+                "https://github.com/karthikg-09/ComfyUI-WanVideoAutoResize"
+            ],
+            "install_type": "git-clone",
+            "description": "A high-performance ComfyUI custom node for intelligent image resizing with industry-standard presets and smart orientation detection. Optimized for video workflows and batch processing."
+        },
+        {
+            "author": "pdale-boop",
+            "title": "Network Guardian",
+            "reference": "https://github.com/pdale-boop/Comfyui-Network-Guardian",
+            "files": [
+                "https://github.com/pdale-boop/Comfyui-Network-Guardian"
+            ],
+            "install_type": "git-clone",
+            "description": "Protects ComfyUI workflows from network interruptions with automatic retry and fallback"
+        },
+        {
+            "author": "MoonMoon82",
+            "title": "ClipVision_Tools",
+            "reference": "https://github.com/MoonMoon82/ClipVision_Tools",
+            "files": [
+                "https://github.com/MoonMoon82/ClipVision_Tools"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes using CLIP Vision models for image similarity analysis."
+        },
+        {
+            "author": "pierreb-mf",
+            "title": "MF PipoNodes",
+            "reference": "https://github.com/pierreb-mf/ComfyUI-MF-PipoNodes",
+            "files": [
+                "https://github.com/pierreb-mf/ComfyUI-MF-PipoNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Utility nodes for ComfyUI workflows: randomization, text processing, logging, and math operations."
+        },
+        {
             "author": "rookiestar28",
             "title": "Danbooru Tags Upsampler for ComfyUI",
             "id": "danbooru-tags-upsampler",
@@ -661,67 +772,6 @@
             ],
             "install_type": "git-clone",
             "description": "This ComfyUI node lets you browse the Civitai gallery directly within the interface, featuring infinite scroll, advanced filters (including NSFW), and favorites management. It also allows you to retrieve prompts, metadata, and images/videos to seamlessly reuse them in your workflows."
-        },
-        {
-            "author": "ThunderBolt4931",
-            "title": "ComfyUI-Koolook",
-            "reference": "https://github.com/malkuthro/ComfyUI-Koolook",
-            "files": [
-                "https://github.com/malkuthro/ComfyUI-Koolook"
-            ],
-            "install_type": "git-clone",
-            "description": "This repository provides custom nodes for ComfyUI tailored for VFX and AI image/video generation workflows"
-        },
-        {
-            "author": "azazeal04",
-            "title": "comfy-switch-samplers",
-            "reference": "https://github.com/azazeal04/comfyui-switch-samplers",
-            "files": [
-                "https://github.com/azazeal04/comfyui-switch-samplers"
-            ],
-            "install_type": "git-clone",
-            "description": "Switch sampler nodes for ComfyUI"
-        },
-        {
-            "author": "Kidev",
-            "title": "ComfyUI-FaceFilter",
-            "reference": "https://github.com/Kidev/ComfyUI-FaceFilter",
-            "files": [
-                "https://github.com/Kidev/ComfyUI-FaceFilter"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for face based filtering plus image batch merging."
-        },
-        {
-            "author": "dothings",
-            "title": "comfyui_placeholder_prompting",
-            "reference": "https://github.com/dothings/comfyui_placeholder_prompting",
-            "files": [
-                "https://github.com/dothings/comfyui_placeholder_prompting"
-            ],
-            "install_type": "git-clone",
-            "description": "custom node which allows placing **some_tag** in your prompt and it will replace it with a preset prompt as you like."
-        },
-        {
-            "author": "wildminder",
-            "title": "ComfyUI-KaniTTS",
-            "reference": "https://github.com/wildminder/ComfyUI-KaniTTS",
-            "files": [
-                "https://github.com/wildminder/ComfyUI-KaniTTS"
-            ],
-            "install_type": "git-clone",
-            "description": "Kani TTS. Generate natural, high‑quality speech from text"
-        },
-        {
-            "author": "u5dev",
-            "title": "u5 FreeVRAM - Memory Management",
-            "id": "u5_VramFREE",
-            "reference": "https://github.com/u5dev/comfyUI_u5_VramFREE",
-            "files": [
-                "https://github.com/u5dev/comfyUI_u5_VramFREE"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Memory Management and VRAM Optimization Custom Node - Free VRAM with sequential model loading support"
         }
     ]
 }

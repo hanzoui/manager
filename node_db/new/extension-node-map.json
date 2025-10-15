@@ -367,6 +367,7 @@
             "ImageAddLabel",
             "ImageBBoxOverlayByMask",
             "ImageBatchGroup",
+            "ImageBatchSplit",
             "ImageBatchToList",
             "ImageBlendModesByAlpha",
             "ImageBlendModesByCSS",
@@ -396,11 +397,13 @@
             "ImageTileMerge",
             "ImageTileSplit",
             "ImageTileSplitPreset",
+            "IntWan",
             "ListCustomFloat",
             "ListCustomInt",
             "ListCustomSeed",
             "ListCustomString",
             "MaskBatchMathOps",
+            "MaskBatchSplit",
             "MaskBatchToList",
             "MaskCropByBBoxMask",
             "MaskFillHole",
@@ -1514,6 +1517,16 @@
         ],
         {
             "title_aux": "ComfyUI_kkTranslator_nodes"
+        }
+    ],
+    "https://github.com/AIGODLIKE/Blender-IO": [
+        [
+            "BlenderInputs",
+            "BlenderOutputs",
+            "ComfyUIInputs"
+        ],
+        {
+            "title_aux": "Blender-IO"
         }
     ],
     "https://github.com/AIGODLIKE/ComfyUI-CUP": [
@@ -4775,6 +4788,7 @@
     ],
     "https://github.com/DaniilVdovin/ComfyUI-prompt-templating": [
         [
+            "PromptTemplateGetManyRandomTemplates",
             "PromptTemplateJson",
             "PromptTemplateJsonConstructor",
             "PromptTemplateKeyValue"
@@ -7292,6 +7306,15 @@
         ],
         {
             "title_aux": "ComfyUI USO Node"
+        }
+    ],
+    "https://github.com/HM-RunningHub/ComfyUI_RH_mammothmoda": [
+        [
+            "RunningHub Mammothmoda Loader",
+            "RunningHub Mammothmoda T2I Sampler"
+        ],
+        {
+            "title_aux": "ComfyUI_RH_mammothmoda"
         }
     ],
     "https://github.com/HMG-Fiverr/ComfyUI-RandomNumberButton": [
@@ -10935,6 +10958,23 @@
             "title_aux": "ComfyUI-StableAudioOpen"
         }
     ],
+    "https://github.com/MoonMoon82/ClipVision_Tools": [
+        [
+            "AdvRBrowser",
+            "CalcEmbeds",
+            "CompareEmbeds",
+            "GenerateDB",
+            "GetImageEmbeds",
+            "ImageSearcher",
+            "LoadDB",
+            "RBrowser",
+            "RCombiner",
+            "ScaleEmbeds"
+        ],
+        {
+            "title_aux": "ClipVision_Tools"
+        }
+    ],
     "https://github.com/MovieLabs/comfyui-movielabs-util": [
         [
             "PublishAsset",
@@ -11909,6 +11949,17 @@
         ],
         {
             "title_aux": "PixelML ComfyUI Nodes"
+        }
+    ],
+    "https://github.com/Pixelailabs/Joy_Caption_Two_PixelaiLabs": [
+        [
+            "SimpleLLMCaption",
+            "SimpleLLMCaptionAdvanced",
+            "SimpleLLMCaptionBatch",
+            "SimpleLLMCaptionLoader"
+        ],
+        {
+            "title_aux": "Joy Caption Two - PixelaiLabs Edition"
         }
     ],
     "https://github.com/PnthrLeo/comfyUI-PL-data-tools": [
@@ -30902,6 +30953,14 @@
             "title_aux": "ComfyUI-Vton-Mask"
         }
     ],
+    "https://github.com/karthikg-09/ComfyUI-WanVideoAutoResize": [
+        [
+            "WanVideoAutoImgResize"
+        ],
+        {
+            "title_aux": "ComfyUI WanVideo Auto Resize"
+        }
+    ],
     "https://github.com/kasukanra/ComfyUI_StringToHex": [
         [
             "ColorNameToHex"
@@ -31780,6 +31839,7 @@
             "WanVideoAddControlEmbeds",
             "WanVideoAddExtraLatent",
             "WanVideoAddFantasyPortrait",
+            "WanVideoAddFlashVSRInput",
             "WanVideoAddLucyEditLatents",
             "WanVideoAddLynxEmbeds",
             "WanVideoAddMTVMotion",
@@ -31809,6 +31869,7 @@
             "WanVideoEnhanceAVideo",
             "WanVideoExperimentalArgs",
             "WanVideoExtraModelSelect",
+            "WanVideoFlashVSRDecoderLoader",
             "WanVideoFlowEdit",
             "WanVideoFreeInitArgs",
             "WanVideoFunCameraEmbeds",
@@ -34623,6 +34684,20 @@
             "title_aux": "ComfyUI Sokes Nodes \ud83e\uddac"
         }
     ],
+    "https://github.com/m3rr/h4_ToolKit": [
+        [
+            "h4AxisDriver",
+            "h4DebugATron3000",
+            "h4DebugATron3000Console",
+            "h4DebugATronRouter",
+            "h4ExecutionLogger",
+            "h4PlotXY",
+            "h4SeedBroadcaster"
+        ],
+        {
+            "title_aux": "h4 ToolKit"
+        }
+    ],
     "https://github.com/maepopi/Diffusers-in-ComfyUI": [
         [
             "BLoRALoader",
@@ -36586,6 +36661,7 @@
             "DynamicQueueCounter",
             "FalAPI_kling_video",
             "FalAPI_recraft_upscale",
+            "FalAPI_seedance_video",
             "FluxKontextInpaintingConditioning",
             "Fun KSampler",
             "IframeView",
@@ -37638,6 +37714,15 @@
             "title_aux": "ComfyUI-LyraVSIH"
         }
     ],
+    "https://github.com/pdale-boop/Comfyui-Network-Guardian": [
+        [
+            "Example",
+            "NetworkGuardianStatus"
+        ],
+        {
+            "title_aux": "Network Guardian"
+        }
+    ],
     "https://github.com/penposs/ComfyUI-Banana-Node": [
         [
             "BananaNode",
@@ -37830,6 +37915,21 @@
         ],
         {
             "title_aux": "comfy_PoP"
+        }
+    ],
+    "https://github.com/pierreb-mf/ComfyUI-MF-PipoNodes": [
+        [
+            "MF_DiceRoller",
+            "MF_LineCounter",
+            "MF_LineSelect",
+            "MF_LogFile",
+            "MF_LogReader",
+            "MF_Modulo",
+            "MF_ModuloAdvanced",
+            "MF_ShotHelper"
+        ],
+        {
+            "title_aux": "MF PipoNodes"
         }
     ],
     "https://github.com/pikenrover/ComfyUI_PRNodes": [
@@ -38035,6 +38135,14 @@
         ],
         {
             "title_aux": "ComfyUI-MultiGPU"
+        }
+    ],
+    "https://github.com/polym/ComfyUI-musubi": [
+        [
+            "MusubiUNETLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-musubi"
         }
     ],
     "https://github.com/popoimm/comfyui-popo-utility": [
@@ -38269,6 +38377,7 @@
             "PVL_Google_NanoBanana_Multi_API",
             "PVL_ImageResize",
             "PVL_ImageStitch",
+            "PVL_Math",
             "PVL_MathCondition",
             "PVL_NoneOutputNode",
             "PVL_OpenPoseMatch",
@@ -38645,9 +38754,18 @@
             "WaveSpeedAI Flux Kontext Pro",
             "WaveSpeedAI Google Nano Banana Edit",
             "WaveSpeedAI Google Nano Banana Text to Image",
+            "WaveSpeedAI Google VEO 3.1 Fast Image-to-Video",
+            "WaveSpeedAI Google VEO 3.1 Fast Text-to-Video",
+            "WaveSpeedAI Google VEO 3.1 Image-to-Video",
+            "WaveSpeedAI Google VEO 3.1 Reference-to-Video",
+            "WaveSpeedAI Google VEO 3.1 Text-to-Video",
             "WaveSpeedAI Image Upscaler",
             "WaveSpeedAI InfiniteTalk",
             "WaveSpeedAI InfiniteTalk Multi",
+            "WaveSpeedAI OpenAI Sora 2 Image-to-Video",
+            "WaveSpeedAI OpenAI Sora 2 Image-to-Video Pro",
+            "WaveSpeedAI OpenAI Sora 2 Text-to-Video",
+            "WaveSpeedAI OpenAI Sora 2 Text-to-Video Pro",
             "WaveSpeedAI Qwen Image Edit",
             "WaveSpeedAI Qwen Image Edit LoRA",
             "WaveSpeedAI Qwen Image Edit Plus",
@@ -39902,7 +40020,9 @@
             "FrameExtractor",
             "GeminiUtilOptions",
             "JoyCaptionMediaDescribe",
-            "LLMStudioMediaDescribe",
+            "LLMStudioOptions",
+            "LLMStudioPictureDescribe",
+            "LLMStudioVideoDescribe",
             "LoRAInfoExtractor",
             "MediaDescribe",
             "MediaDescribeOverrides",
@@ -42923,6 +43043,7 @@
             "ComfyBros_TextConcatenate",
             "ComfyBros_TextStorage",
             "ComfyBros_TextTemplate",
+            "ComfyBros_TextToVideo",
             "ComfyBros_WAN22GenerateVideo"
         ],
         {
@@ -43212,7 +43333,8 @@
             "API Request Node",
             "Empty Image Node",
             "JSON Parser Node",
-            "LoadImageFromUrlNode"
+            "LoadImageFromUrlNode",
+            "TextToImageNode"
         ],
         {
             "title_aux": "ZMG PLUGIN"
