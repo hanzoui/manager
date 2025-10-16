@@ -1200,6 +1200,7 @@
             "VTS Create Character Mask",
             "VTS Fix Image Tags",
             "VTS Image Composite Masked",
+            "VTS Image To Disk",
             "VTS Image Upscale With Model",
             "VTS Images Crop From Masks",
             "VTS Images Scale",
@@ -3273,6 +3274,14 @@
         ],
         {
             "title_aux": "comfyui-promptbymood [WIP]"
+        }
+    ],
+    "https://github.com/RM2-0/ComfyUI-Upscale": [
+        [
+            "BatchImageUpscaleWithModel"
+        ],
+        {
+            "title_aux": "ComfyUI-Upscale"
         }
     ],
     "https://github.com/RUFFY-369/ComfyUI-FeatureBank": [
@@ -7653,6 +7662,7 @@
     ],
     "https://github.com/jpwgad/jpwgad-comfy": [
         [
+            "AutoSelector",
             "OutputPath",
             "SizeInput"
         ],
@@ -11025,6 +11035,7 @@
             "JsonMarkdownCleaner",
             "JsonObjectDeduplicator",
             "JsonObjectMerger",
+            "JsonObjectOutputUrlCheck",
             "JsonObjectSplitter",
             "JsonRotationScaleAdjuster",
             "JsonScaleMaxAdjuster",
