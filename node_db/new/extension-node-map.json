@@ -2544,6 +2544,8 @@
             "AGSoft_Img_Pad_for_Outpainting_Adv",
             "AGSoft_Img_Res",
             "AGSoft_Img_Res_MP",
+            "AGSoft_Inpaint_Crop",
+            "AGSoft_Inpaint_Stitch",
             "AGSoft_Mask_Blur",
             "AGSoft_Mask_Composite",
             "AGSoft_Mask_Fix",
@@ -36685,6 +36687,7 @@
             "IndexedStringSelector",
             "Kontext Inpainting Conditioning",
             "LayeredInfiniteZoom",
+            "LoadImageBatchFun",
             "MultiAlphaComposite",
             "Replicate flux 1.1 pro ultra",
             "ReplicateAPI_flux_1_1_pro_ultra",
@@ -39475,7 +39478,7 @@
     ],
     "https://github.com/ru4ls/ComfyUI_Google-Fonts": [
         [
-            "GoogleFontNodeAdvanced"
+            "GoogleFontTextNode"
         ],
         {
             "title_aux": "Google Font Text Image Node for ComfyUI"
@@ -43351,6 +43354,7 @@
             "Empty Image Node",
             "JSON Parser Node",
             "LoadImageFromUrlNode",
+            "SaveVideoRGBA",
             "TextToImageNode"
         ],
         {
