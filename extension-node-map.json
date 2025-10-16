@@ -10497,6 +10497,7 @@
             "LoadImageWithPromptsMXD",
             "LoadLatent_I2V_MXD",
             "LoadLatent_WithParams",
+            "LoadLatents_FromFolder_I2V_MXD",
             "LoadLatents_FromFolder_WithParams",
             "Place Image By Mask",
             "Prompt With Guidance (Flux)",
@@ -10504,6 +10505,7 @@
             "SaveLatent_I2V_MXD",
             "Sdxl Empty Latent Image",
             "Sdxl Resolution Selector",
+            "WAN22_I2V_Image_Scaler_MXD",
             "Wan2_2EmptyLatentImageMXD",
             "WanImageToVideoMXD",
             "wan22EmptyHunyuanLatentVideoMXD"
@@ -25717,8 +25719,10 @@
             "QwenImageSamplerNode",
             "QwenImageSamplerWithEdit",
             "QwenImageVAELoaderWrapper",
+            "QwenInpaintSampler",
             "QwenLatentPackerNode",
             "QwenLowresFixNode",
+            "QwenMaskProcessor",
             "QwenModelManagerWrapper",
             "QwenProcessedToEmbedding",
             "QwenProcessorWrapper",
@@ -33861,9 +33865,11 @@
     ],
     "https://github.com/lrzjason/Comfyui-QwenEditUtils": [
         [
+            "CropWithPadInfo",
             "LoadImageFromUrl_lrzjason",
             "TextEncodeQwenImageEditPlusAdvance_lrzjason",
-            "TextEncodeQwenImageEditPlus_lrzjason"
+            "TextEncodeQwenImageEditPlus_lrzjason",
+            "TextEncodeQwenImageEdit_lrzjason"
         ],
         {
             "title_aux": "Comfyui-QwenEditUtils"

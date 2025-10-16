@@ -376,6 +376,7 @@
             "PD_Image_Rotate_v1",
             "PD_Image_centerCrop",
             "PD_MASK_SELECTION",
+            "PD_Mask Selector",
             "PD_MaskFillHoles",
             "PD_MaskRemoveSmallObjects",
             "PD_RemoveBlackBackground",
@@ -387,6 +388,7 @@
             "PD_empty_word",
             "PD_imagesave_path",
             "PD_random_prompt",
+            "PDbananaImagesizeByRatio",
             "PDimage_corp_v1",
             "PDimage_corp_v2",
             "SimpleResolutionNode",
@@ -11033,6 +11035,8 @@
             "JsonArrayElementFieldExtractor",
             "JsonCompressor",
             "JsonExtractSubjectNamesScales",
+            "JsonFieldDeleter",
+            "JsonFieldRenamer",
             "JsonMarkdownCleaner",
             "JsonObjectDeduplicator",
             "JsonObjectMerger",
@@ -11332,6 +11336,8 @@
             "TextEncodeQwenImageEditSimpleXZ",
             "TextEncodeQwenImageEditXZ",
             "TripleCLIPLoaderXZ",
+            "VAEDecodeTiledXZ",
+            "VAEDecodeXZ",
             "WanImageToVideoXZ"
         ],
         {
