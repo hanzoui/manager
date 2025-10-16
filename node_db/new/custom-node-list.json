@@ -2,6 +2,16 @@
     "custom_nodes": [
         {
             "author": "smthemex",
+            "title": "ComfyUI_FlashVSR",
+            "reference": "https://github.com/smthemex/ComfyUI_FlashVSR",
+            "files": [
+                "https://github.com/smthemex/ComfyUI_FlashVSR"
+            ],
+            "install_type": "git-clone",
+            "description": "FlashVSR: Towards Real-Time Diffusion-Based Streaming Video Super-Resolution,this node ,you can use it in comfyUI"
+        },
+        {
+            "author": "smthemex",
             "title": "ComfyUI_OmniPart",
             "reference": "https://github.com/smthemex/ComfyUI_OmniPart",
             "files": [
@@ -682,96 +692,6 @@
             ],
             "install_type": "git-clone",
             "description": "All-in-one Civitai integration center for ComfyUI — browse online models, manage local assets,analyze community trends, and instantly apply full recipes within your workflow."
-        },
-        {
-            "author": "HM-RunningHub",
-            "title": "ComfyUI Ovi Node",
-            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_Ovi",
-            "files": [
-                "https://github.com/HM-RunningHub/ComfyUI_RH_Ovi"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that integrates Ovi for synchronized video+audio generation from text or image inputs."
-        },
-        {
-            "author": "bgreene2",
-            "title": "ComfyUI-Hunyuan-Image-3",
-            "reference": "https://github.com/bgreene2/ComfyUI-Hunyuan-Image-3",
-            "files": [
-                "https://github.com/bgreene2/ComfyUI-Hunyuan-Image-3"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node that provides a basic implementation of Hunyuan Image 3.0 using Transformers."
-        },
-        {
-            "author": "lokinou",
-            "title": "ComfyUI-Better-Flow",
-            "reference": "https://github.com/lokinou/comfyui-better-flow",
-            "files": [
-                "https://github.com/lokinou/comfyui-better-flow"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes for controlling workflow and reducing VRAM fingerprint."
-        },
-        {
-            "author": "AI-TEC",
-            "title": "ComfyUI_AITECCAFE_Toolkit",
-            "reference": "https://github.com/AI-TEC/ComfyUI-AITECCAFE-Toolkit",
-            "files": [
-                "https://github.com/AI-TEC/ComfyUI-AITECCAFE-Toolkit"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node includes the following functions: Chat_GPT, image_moderation, media_loader, merge_strings, sequential_image_loader."
-        },
-        {
-            "author": "Glidias",
-            "title": "mask2sam",
-            "reference": "https://github.com/Glidias/mask2sam",
-            "files": [
-                "https://github.com/Glidias/mask2sam"
-            ],
-            "install_type": "git-clone",
-            "description": "Mask to SAM2 segmentation ComfyUI custom node"
-        },
-        {
-            "author": "ShammiG",
-            "title": "ComfyUI VAE Timestamp Clock SG",
-            "reference": "https://github.com/ShammiG/ComfyUI-VAE-Timestamp-Clock-SG",
-            "files": [
-                "https://github.com/ShammiG/ComfyUI-VAE-Timestamp-Clock-SG"
-            ],
-            "install_type": "git-clone",
-            "description": "Shows Total Time Taken Only for the VAE Decode. Also shows the Timestamps for VAE start/stop."
-        },
-        {
-            "author": "ShammiG",
-            "title": "ComfyUI Show Clock in CMD Console SG",
-            "reference": "https://github.com/ShammiG/ComfyUI-Show-Clock-in-CMD-Console-SG",
-            "files": [
-                "https://github.com/ShammiG/ComfyUI-Show-Clock-in-CMD-Console-SG"
-            ],
-            "install_type": "git-clone",
-            "description": "This comfyUI node intializes at startup automatically and displays the clock in CMD console when Process starts and ends."
-        },
-        {
-            "author": "ThunderBolt4931",
-            "title": "ComfyUI-Pixel-Forge",
-            "reference": "https://github.com/ThunderBolt4931/comfyui_pixel_forge",
-            "files": [
-                "https://github.com/ThunderBolt4931/comfyui_pixel_forge"
-            ],
-            "install_type": "git-clone",
-            "description": "Pixel-Forge is a powerful suite of custom nodes for ComfyUI designed for complex image processing, computer vision tasks, and advanced batch operations. This toolkit moves beyond simple image generation, providing the essential building blocks for creating sophisticated, logic-driven workflows."
-        },
-        {
-            "author": "Light-x02",
-            "title": "ComfyUI-Civitai-Discovery-Hub",
-            "reference": "https://github.com/Light-x02/ComfyUI-Civitai-Discovery-Hub",
-            "files": [
-                "https://github.com/Light-x02/ComfyUI-Civitai-Discovery-Hub"
-            ],
-            "install_type": "git-clone",
-            "description": "This ComfyUI node lets you browse the Civitai gallery directly within the interface, featuring infinite scroll, advanced filters (including NSFW), and favorites management. It also allows you to retrieve prompts, metadata, and images/videos to seamlessly reuse them in your workflows."
         }
     ]
 }
