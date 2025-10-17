@@ -398,6 +398,58 @@
             "title_aux": "comfyui-promptbymood [WIP]"
         }
     ],
+    "https://github.com/A1rCHAN/ComfyUI_A1rSpace": [
+        [
+            "A1r AB Checkpoint",
+            "A1r Boolean A B",
+            "A1r Boolean AB",
+            "A1r Boolean Plus",
+            "A1r Boolean to Int",
+            "A1r Checkpoint InputSwitch",
+            "A1r Checkpoint Select",
+            "A1r Conditional CheckpointLoader",
+            "A1r Conditioning InputSwitch",
+            "A1r ControlNet Apply Toggle",
+            "A1r ControlNet Config",
+            "A1r ControlNet Config Three",
+            "A1r Denoise InputSwitch",
+            "A1r Image InputSwitch",
+            "A1r Image OutputSwitch",
+            "A1r ImageUpscaleSwitch Toggle",
+            "A1r Int to Boolean",
+            "A1r JoyTag TextBox",
+            "A1r KSampler",
+            "A1r KSampler Config",
+            "A1r KSampler Config Values",
+            "A1r KSampler Config Values Lite",
+            "A1r KSampler ControlPad Advanced",
+            "A1r LatentEncode InputSwitch",
+            "A1r LatentUpscaleBy Toggle",
+            "A1r LoRA Config",
+            "A1r LoRA ControlPad",
+            "A1r Math Int",
+            "A1r Math LogicGate",
+            "A1r Merge Text",
+            "A1r MergeText WithClipEncode",
+            "A1r Sampler Picker",
+            "A1r Save PreviewImage",
+            "A1r Seed Control",
+            "A1r Simple Boolean",
+            "A1r Six LoRA Loader",
+            "A1r Size Picker",
+            "A1r Slider Custom",
+            "A1r Text Box",
+            "A1r Text InputSwitch",
+            "A1r Text Show",
+            "A1r Text Translate",
+            "A1r Toggle VAE Loader",
+            "A1r Translate ClipEncode Merge",
+            "A1r Upscale Methods Picker"
+        ],
+        {
+            "title_aux": "Eric's Prompt Enhancers for ComfyUI# Eric's Prompt Enhancers for ComfyUI"
+        }
+    ],
     "https://github.com/A4P7J1N7M05OT/ComfyUI-ManualSigma": [
         [
             "ManualSigma"
@@ -1668,15 +1720,6 @@
             "description": "Save prompts to CSV file with customizable naming pattern",
             "title": "ComfyUI-PromptSaver",
             "title_aux": "ComfyUI-Addoor [UNSAFE]"
-        }
-    ],
-    "https://github.com/Elawphant/ComfyUI-MusicGen": [
-        [
-            "AudioLoader",
-            "MusicGen"
-        ],
-        {
-            "title_aux": "ComfyUI-MusicGen [WIP]"
         }
     ],
     "https://github.com/ElyZeng/ComfyUI-Translator": [
@@ -4593,6 +4636,18 @@
             "title_aux": "etm_comfyui_nodes"
         }
     ],
+    "https://github.com/aistudynow/comfyui-wilddragon-nodes": [
+        [
+            "WD_FaceRestoreBlend",
+            "WD_ImageFaceCrop2025",
+            "WD_PersonBBoxTracker",
+            "WD_PersonSelector",
+            "WD_PoseFaceFilter"
+        ],
+        {
+            "title_aux": "comfyui-wilddragon-nodes [WIP]"
+        }
+    ],
     "https://github.com/akatz-ai/ComfyUI-Execution-Inversion": [
         [
             "AccumulateNode",
@@ -6500,14 +6555,6 @@
             "title_aux": "comfyui_runway_gen3"
         }
     ],
-    "https://github.com/facok/ComfyUI-FokToolset": [
-        [
-            "Fok_PreprocessRefImage"
-        ],
-        {
-            "title_aux": "ComfyUI-FokToolset"
-        }
-    ],
     "https://github.com/fangg2000/ComfyUI-SenseVoice": [
         [
             "STTNode",
@@ -6585,6 +6632,14 @@
         ],
         {
             "title_aux": "comfyui-cem-tools"
+        }
+    ],
+    "https://github.com/franklydegenerate/ComfyUI-WAN-Resolution-Helper": [
+        [
+            "WANResolutionHelperV2"
+        ],
+        {
+            "title_aux": "WAN Resolution Helper [WIP]"
         }
     ],
     "https://github.com/franky519/comfyui-redux-style": [
@@ -7067,6 +7122,14 @@
             "title_aux": "comfyui_EvoSearch [WIP]"
         }
     ],
+    "https://github.com/henjicc/ComfyUI-CC-ImageLoader": [
+        [
+            "LoadImage"
+        ],
+        {
+            "title_aux": "ComfyUI-CC-ImageLoader [UNSAFE]"
+        }
+    ],
     "https://github.com/hiusdev/ComfyUI_Lah_Toffee": [
         [
             "LoadVideoRandom"
@@ -7256,8 +7319,11 @@
     ],
     "https://github.com/husw725/comfyui_alta_nodes": [
         [
+            "Alta:API_LipSync",
             "Alta:API_ProcessVideo",
+            "Alta:API_TTS",
             "Alta:API_TranscribeAudio",
+            "Alta:API_Translate",
             "Alta:BuildFilePath",
             "Alta:FileDownloader",
             "Alta:GetFaceMask",
@@ -10031,6 +10097,14 @@
             "title_aux": "ComfyUI_YoloNasObjectDetection_Tensorrt [WIP]"
         }
     ],
+    "https://github.com/rzasharp79/ComfyUI--SolarFlare": [
+        [
+            "QwenImage"
+        ],
+        {
+            "title_aux": "ComfyUI--SolarFlare"
+        }
+    ],
     "https://github.com/saulchiu/comfy_saul_plugin": [
         [
             "Blend Images",
@@ -10720,6 +10794,16 @@
         ],
         {
             "title_aux": "my-useful-comfyui-custom-nodes"
+        }
+    ],
+    "https://github.com/tmode-1960/comfyui-ta-nodes-pack": [
+        [
+            "TALoadCheckpointModelWithName",
+            "TALoadDiffusionModelWithName",
+            "TALoadGGUFModelWithName"
+        ],
+        {
+            "title_aux": "comfyui-ta-nodes-pack"
         }
     ],
     "https://github.com/tnil25/ComfyUI-TJNodes": [

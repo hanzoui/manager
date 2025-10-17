@@ -1,6 +1,76 @@
 {
     "custom_nodes": [
         {
+            "author": "silveroxides",
+            "title": "ComfyUI_SamplingUtils",
+            "reference": "https://github.com/silveroxides/ComfyUI_SamplingUtils",
+            "files": [
+                "https://github.com/silveroxides/ComfyUI_SamplingUtils"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: SamplingParameters"
+        },
+        {
+            "author": "henjicc",
+            "title": "ComfyUI-CC-ImageLoader [UNSAFE]",
+            "reference": "https://github.com/henjicc/ComfyUI-CC-ImageLoader",
+            "files": [
+                "https://github.com/henjicc/ComfyUI-CC-ImageLoader"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-CC-ImageLoader is an enhanced image loading node designed for ComfyUI. It is developed based on two excellent projects: ComfyUI-Thumbnails and ComfyUI_Local_Media_Manager.[w/This node pack includes an endpoint that access files from arbitrary paths.]"
+        },
+        {
+            "author": "rzasharp79",
+            "title": "ComfyUI--SolarFlare",
+            "reference": "https://github.com/rzasharp79/ComfyUI--SolarFlare",
+            "files": [
+                "https://github.com/rzasharp79/ComfyUI--SolarFlare"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Qwen Image, ..."
+        },
+        {
+            "author": "tmode-1960",
+            "title": "comfyui-ta-nodes-pack",
+            "reference": "https://github.com/tmode-1960/comfyui-ta-nodes-pack",
+            "files": [
+                "https://github.com/tmode-1960/comfyui-ta-nodes-pack"
+            ],
+            "install_type": "git-clone",
+            "description": "Model loaders with an additional model name output"
+        },
+        {
+            "author": "A1rCHAN",
+            "title": "Eric's Prompt Enhancers for ComfyUI# Eric's Prompt Enhancers for ComfyUI",
+            "reference": "https://github.com/A1rCHAN/ComfyUI_A1rSpace",
+            "files": [
+                "https://github.com/A1rCHAN/ComfyUI_A1rSpace"
+            ],
+            "install_type": "git-clone",
+            "description": "A comfyui custom node package used by myself. "
+        },
+        {
+            "author": "franklydegenerate",
+            "title": "WAN Resolution Helper [WIP]",
+            "reference": "https://github.com/franklydegenerate/ComfyUI-WAN-Resolution-Helper",
+            "files": [
+                "https://github.com/franklydegenerate/ComfyUI-WAN-Resolution-Helper"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node that outputs WAN 2.2-ready sizes by preserving aspect ratio, capping the long side, and rounding both dimensions to multiples of 16 pixels to reduce artifacts.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "aistudynow",
+            "title": "comfyui-wilddragon-nodes [WIP]",
+            "reference": "https://github.com/aistudynow/comfyui-wilddragon-nodes",
+            "files": [
+                "https://github.com/aistudynow/comfyui-wilddragon-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Image Face Crop (2025), Person Selector, Pose Face Filter, Person BBox Tracker, Face Restore & Blend, ...\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "RM2-0",
             "title": "ComfyUI-Upscale",
             "reference": "https://github.com/RM2-0/ComfyUI-Upscale",
@@ -4052,16 +4122,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Linsoo Save Image, Linsoo Load Image (In development.. not working), Linsoo Empty Latent Image, Linsoo Multi Inputs, Linsoo Multi Outputs"
-        },
-        {
-            "author": "facok",
-            "title": "ComfyUI-FokToolset",
-            "reference": "https://github.com/facok/ComfyUI-FokToolset",
-            "files": [
-                "https://github.com/facok/ComfyUI-FokToolset"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Fok Preprocess Ref Image (Phantom)"
         },
         {
             "author": "EricRollei",
@@ -8438,17 +8498,6 @@
             ],
             "install_type": "git-clone",
             "description": "A simple base front-end for text-to-image workflow in ComfyUI. Meant to serve as a base to be modified for future complex workflows"
-        },
-        {
-            "author": "Elawphant",
-            "title": "ComfyUI-MusicGen [WIP]",
-            "id": "musicgen",
-            "reference": "https://github.com/Elawphant/ComfyUI-MusicGen",
-            "files": [
-                "https://github.com/Elawphant/ComfyUI-MusicGen"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI for Meta MusicGen."
         },
         {
             "author": "jtscmw01",

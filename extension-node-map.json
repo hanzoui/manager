@@ -1836,6 +1836,7 @@
     "https://github.com/Aaalice233/ComfyUI-Danbooru-Gallery": [
         [
             "CharacterFeatureSwapNode",
+            "GroupExecuteManager",
             "MultiCharacterEditorNode",
             "PromptSelector"
         ],
@@ -3506,6 +3507,14 @@
         ],
         {
             "title_aux": "ComfyUI-TLBVFI"
+        }
+    ],
+    "https://github.com/Boba-svg/ComfyUI-PromptSwitch": [
+        [
+            "PromptSwitch"
+        ],
+        {
+            "title_aux": "ComfyUI-PromptSwitch"
         }
     ],
     "https://github.com/BobsBlazed/Bobs-Lora-Loader": [
@@ -5741,6 +5750,26 @@
         ],
         {
             "title_aux": "ComfyUI-EreNodes"
+        }
+    ],
+    "https://github.com/EricRollei/HYPIR-ComfyUI": [
+        [
+            "HyperComfyUIHYPIRRestore"
+        ],
+        {
+            "title_aux": "Hyper-ComfyUI: HYPIR Image Restoration Node"
+        }
+    ],
+    "https://github.com/EricRollei/Local_LLM_Prompt_Enhancer": [
+        [
+            "EricImageToImagePromptExpander",
+            "EricImageToVideoPromptExpander",
+            "EricTextToImagePromptEnhancer",
+            "EricVideoPromptExpander",
+            "EricVideoPromptExpanderAdvanced"
+        ],
+        {
+            "title_aux": "Eric's Prompt Enhancers for ComfyUI"
         }
     ],
     "https://github.com/EvilBT/ComfyUI_SLK_joy_caption_two": [
@@ -8103,15 +8132,15 @@
             "title_aux": "ComfyUI_Qwen2-Audio-7B-Instruct-Int4"
         }
     ],
-    "https://github.com/IuvenisSapiens/ComfyUI_Qwen2_5-VL-Instruct": [
+    "https://github.com/IuvenisSapiens/ComfyUI_Qwen3-VL-Instruct": [
         [
             "ImageLoader",
             "MultiplePathsInput",
-            "Qwen2_VQA",
+            "Qwen3_VQA",
             "VideoLoader"
         ],
         {
-            "title_aux": "ComfyUI_Qwen2-VL-Instruct"
+            "title_aux": "Comfyui_Qwen3-VL-Instruct"
         }
     ],
     "https://github.com/J-ChenX/ComfyUI-NIX": [
@@ -12649,6 +12678,7 @@
     ],
     "https://github.com/S4MUEL-404/ComfyUI-Prepack": [
         [
+            "PrepackCondArea",
             "PrepackGetPipe",
             "PrepackKsampler",
             "PrepackKsamplerAdvanced",
@@ -16818,7 +16848,16 @@
             "ImageColorMatch",
             "ImageSizeBySide",
             "IterativeUpscaleWithModelsNode",
-            "LoraLoaderStack"
+            "LoraLoaderStack",
+            "NoiseInversion",
+            "SpotDiffusionParams",
+            "TiledDiffusion",
+            "TiledVAEDecode",
+            "TiledVAEEncode",
+            "UtilRepeatImages",
+            "WanVideoControlnet",
+            "WanVideoControlnetLoader",
+            "WanVideoNAG"
         ],
         {
             "title_aux": "Yaser-nodes for ComfyUI"
@@ -26326,6 +26365,15 @@
             "title_aux": "ComfyUI-hvBlockswap"
         }
     ],
+    "https://github.com/flybirdxx/ComfyUI-RexOmni": [
+        [
+            "RexOmniDetector",
+            "RexOmniLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-Rex-Omni"
+        }
+    ],
     "https://github.com/flybirdxx/ComfyUI-SDMatte": [
         [
             "SDMatteApply"
@@ -28105,6 +28153,7 @@
             "OutpaintPaddingComputeNode",
             "PairedImageLoader",
             "SeedVR2Prep",
+            "SimpleImageSaver",
             "StitchByMask",
             "WorkflowConfig"
         ],
@@ -29092,15 +29141,6 @@
         ],
         {
             "title_aux": "ComfyUI-DSD"
-        }
-    ],
-    "https://github.com/isaac-mcfadyen/ComfyUI-QwenClip": [
-        [
-            "CLIPSetQwenImageEditPrompt",
-            "CLIPSetQwenImagePrompt"
-        ],
-        {
-            "title_aux": "ComfyUI-QwenClip"
         }
     ],
     "https://github.com/iwanders/ComfyUI_nodes": [
@@ -33866,8 +33906,8 @@
     "https://github.com/lrzjason/Comfyui-QwenEditUtils": [
         [
             "CropWithPadInfo",
-            "LoadImageFromUrl_lrzjason",
             "TextEncodeQwenImageEditPlusAdvance_lrzjason",
+            "TextEncodeQwenImageEditPlusPro_lrzjason",
             "TextEncodeQwenImageEditPlus_lrzjason",
             "TextEncodeQwenImageEdit_lrzjason"
         ],
@@ -36266,6 +36306,18 @@
             "title_aux": "comfyui-sambanova"
         }
     ],
+    "https://github.com/neo-editer/ComfyUI-Better-Dimensions-wan-v2": [
+        [
+            "BetterImageDimensions_v2",
+            "PureRatio",
+            "SDXLDimensions_simple",
+            "WANDimensions_480",
+            "WANDimensions_720"
+        ],
+        {
+            "title_aux": "ComfyUI-Better-Dimensions-wan-v2"
+        }
+    ],
     "https://github.com/neocrz/comfyui-usetaesd": [
         [
             "DecodeTAESD",
@@ -38165,6 +38217,7 @@
     ],
     "https://github.com/polym/ComfyUI-musubi": [
         [
+            "MusubiUNETJitLoader",
             "MusubiUNETLoader"
         ],
         {
@@ -39506,6 +39559,15 @@
             "title_aux": "ComfyUI_Nano_Banana"
         }
     ],
+    "https://github.com/ru4ls/ComfyUI_StreetView-Loader": [
+        [
+            "StreetViewLoader",
+            "StreetViewURLParser"
+        ],
+        {
+            "title_aux": "ComfyUI Street View Loader Node"
+        }
+    ],
     "https://github.com/ru4ls/ComfyUI_Wan": [
         [
             "WanI2IGenerator",
@@ -40775,6 +40837,7 @@
         [
             "ImageBlen_GPU",
             "ImageRadialZoomBlur_GPU",
+            "PowerLoraLoaderV2",
             "WanVideoCacheSamples",
             "WanVideoEmptyEmbeds_v2",
             "WanVideoFlowmapDistortion",
@@ -45044,6 +45107,7 @@
             "MaskFromBatch",
             "MaskPreviewNode",
             "MaskRepeatBatch",
+            "MaskResizeToRatio",
             "MaskSmartValleySplit",
             "MaskSplitFilter",
             "MaskTopNFilter",

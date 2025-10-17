@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "ru4ls",
+            "title": "ComfyUI Street View Loader Node",
+            "reference": "https://github.com/ru4ls/ComfyUI_StreetView-Loader",
+            "files": [
+                "https://github.com/ru4ls/ComfyUI_StreetView-Loader"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that allows you to load images directly from Google Street View to use as backgrounds, textures, or inputs in your workflows."
+        },
+        {
+            "author": "nomadoor",
+            "title": "ComfyUI Temporal Mask Tools",
+            "reference": "https://github.com/nomadoor/ComfyUI-Temporal-Mask-Tools",
+            "files": [
+                "https://github.com/nomadoor/ComfyUI-Temporal-Mask-Tools"
+            ],
+            "install_type": "git-clone",
+            "description": "Utility collection of ComfyUI V3 nodes for stabilizing temporal segmentation masks while staying deterministic and torch-only."
+        },
+        {
+            "author": "EricRollei",
+            "title": "Hyper-ComfyUI: HYPIR Image Restoration Node",
+            "reference": "https://github.com/EricRollei/HYPIR-ComfyUI",
+            "files": [
+                "https://github.com/EricRollei/HYPIR-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes that embed the HYPIR image restoration method for Stable Diffusion 2.1. The upstream research was created by Xinqi Lin, Fanghua Yu, Jinfan Hu, Zhiyuan You, Wu Shi, Jimmy S. Ren, Jinjin Gu, and collaborators. Source: [a/https://github.com/XPixelGroup/HYPIR](https://github.com/XPixelGroup/HYPIR)."
+        },
+        {
+            "author": "flybirdxx",
+            "title": "ComfyUI-Rex-Omni",
+            "reference": "https://github.com/flybirdxx/ComfyUI-RexOmni",
+            "files": [
+                "https://github.com/flybirdxx/ComfyUI-RexOmni"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful ComfyUI custom node for integrating Rex-Omni multimodal AI models. This node provides seamless integration of Rex-Omni's advanced computer vision and natural language processing capabilities into your ComfyUI workflows."
+        },
+        {
+            "author": "EricRollei",
+            "title": "Eric's Prompt Enhancers for ComfyUI# Eric's Prompt Enhancers for ComfyUI",
+            "reference": "https://github.com/EricRollei/Local_LLM_Prompt_Enhancer",
+            "files": [
+                "https://github.com/EricRollei/Local_LLM_Prompt_Enhancer"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive suite of AI-powered prompt enhancement nodes for ComfyUI using local LLMs (LM Studio or Ollama). Transform simple prompts into detailed, platform-optimized descriptions for video and image generation."
+        },
+        {
+            "author": "neo-editer",
+            "title": "ComfyUI-Better-Dimensions-wan-v2",
+            "reference": "https://github.com/neo-editer/ComfyUI-Better-Dimensions-wan-v2",
+            "files": [
+                "https://github.com/neo-editer/ComfyUI-Better-Dimensions-wan-v2"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Better Image Dimensions, Standard SDXL Dimensions node, Dimensions by Ratio node, ..."
+        },
+        {
             "author": "smthemex",
             "title": "ComfyUI_FlashVSR",
             "reference": "https://github.com/smthemex/ComfyUI_FlashVSR",
@@ -632,66 +692,6 @@
             ],
             "install_type": "git-clone",
             "description": "Utility nodes for ComfyUI including OpenAI Compatible Chat - Works with any OpenAI-compatible API endpoint including Lemonade, Ollama, OpenAI API, and LM Studio"
-        },
-        {
-            "author": "mikecaronna",
-            "title": "C2PA Image Signer - ComfyUI Custom Node",
-            "reference": "https://github.com/mikecaronna/comfyui_c2pa_signer",
-            "files": [
-                "https://github.com/mikecaronna/comfyui_c2pa_signer"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a tool that lets you digitally sign your images to prove you created them. Think of it like putting an invisible, tamper-proof seal on your artwork that says 'I made this.'"
-        },
-        {
-            "author": "Hearmeman24",
-            "title": "ComfyUI Pinecone Prompt Upserter",
-            "reference": "https://github.com/Hearmeman24/ComfyUI-Pinecone",
-            "files": [
-                "https://github.com/Hearmeman24/ComfyUI-Pinecone"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node for managing image generation prompts using Pinecone vector database with OpenAI embeddings. Features interactive approval with image preview for quality control."
-        },
-        {
-            "author": "leeguandong",
-            "title": "ComfyUI_Qwen3Omni",
-            "reference": "https://github.com/leeguandong/ComfyUI_Qwen3Omni",
-            "files": [
-                "https://github.com/leeguandong/ComfyUI_Qwen3Omni"
-            ],
-            "install_type": "git-clone",
-            "description": "The ComfyUI version of [a/Qwen3-Omini](https://github.com/QwenLM/Qwen3-Omni)"
-        },
-        {
-            "author": "wgedeon",
-            "title": "comfyui_play_traversal",
-            "reference": "https://github.com/wgedeon/comfyui_play_traversal",
-            "files": [
-                "https://github.com/wgedeon/comfyui_play_traversal"
-            ],
-            "install_type": "git-clone",
-            "description": "Provides a structured model and helper nodes for producing long video sequences on ComfyUI using low vram machines."
-        },
-        {
-            "author": "piscesbody",
-            "title": "ComfyUI-Upscale-CUDAspeed",
-            "reference": "https://github.com/piscesbody/ComfyUI-Upscale-CUDAspeed",
-            "files": [
-                "https://github.com/piscesbody/ComfyUI-Upscale-CUDAspeed"
-            ],
-            "install_type": "git-clone",
-            "description": "A high-performance image upscaling plugin for ComfyUI with CUDA acceleration, multi-GPU support, mixed precision, and Tensor Core optimization"
-        },
-        {
-            "author": "BAIKEMARK",
-            "title": "Civitai Toolkit",
-            "reference": "https://github.com/BAIKEMARK/ComfyUI-Civitai-Toolkit",
-            "files": [
-                "https://github.com/BAIKEMARK/ComfyUI-Civitai-Toolkit"
-            ],
-            "install_type": "git-clone",
-            "description": "All-in-one Civitai integration center for ComfyUI — browse online models, manage local assets,analyze community trends, and instantly apply full recipes within your workflow."
         }
     ]
 }
