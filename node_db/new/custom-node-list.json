@@ -1,6 +1,86 @@
 {
     "custom_nodes": [
         {
+            "author": "Sean-Bradley",
+            "title": "ComfyUI Voice Clone",
+            "reference": "https://github.com/Sean-Bradley/ComfyUI-Voice-Clone",
+            "files": [
+                "https://github.com/Sean-Bradley/ComfyUI-Voice-Clone"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom TTS node that clones voice from a reference audio and speaks entered text."
+        },
+        {
+            "author": "lrzjason",
+            "title": "Comfyui-LoraUtils",
+            "reference": "https://github.com/lrzjason/Comfyui-LoraUtils",
+            "files": [
+                "https://github.com/lrzjason/Comfyui-LoraUtils"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of utility nodes for lora operations in ComfyUI."
+        },
+        {
+            "author": "spawner",
+            "title": "comfyui-lsnet",
+            "reference": "https://github.com/spawner1145/comfyui-lsnet",
+            "files": [
+                "https://github.com/spawner1145/comfyui-lsnet"
+            ],
+            "install_type": "git-clone",
+            "description": "A nodepack powered by LSNet that classifies and clusters artworks by style for fast and efficient style analysis."
+        },
+        {
+            "author": "SquirrelRat",
+            "title": "MultiString Prompts",
+            "reference": "https://github.com/SquirrelRat/MultiString-Prompts",
+            "files": [
+                "https://github.com/SquirrelRat/MultiString-Prompts"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a simple but powerful custom node for ComfyUI, designed to help you manage and sequence multiple prompts from a single, clean interface.\nIt's ideal for workflows like sequential video generation where you need to feed a series of different prompts into your model."
+        },
+        {
+            "author": "OKIE5",
+            "title": "ComfyUI-CN-Pre",
+            "reference": "https://github.com/OKIE5/ComfyUI-CN-Pre",
+            "files": [
+                "https://github.com/OKIE5/ComfyUI-CN-Pre"
+            ],
+            "install_type": "git-clone",
+            "description": "Ollama in ComfyUI"
+        },
+        {
+            "author": "sysoutch",
+            "title": "ComfyUI Generator Add-on",
+            "reference": "https://github.com/sysoutch/blender-ComfyUIModelGenerator-addon",
+            "files": [
+                "https://github.com/sysoutch/blender-ComfyUIModelGenerator-addon"
+            ],
+            "install_type": "git-clone",
+            "description": "A Blender add-on that integrates with ComfyUI for AI-powered model generation. Provides workflow management, image input handling, and real-time status tracking for seamless AI art creation within Blender's interface."
+        },
+        {
+            "author": "NewLouwa",
+            "title": "ComfyUI Model Preset Pilot",
+            "reference": "https://github.com/NewLouwa/ComfyUI-Model_preset_Pilot",
+            "files": [
+                "https://github.com/NewLouwa/ComfyUI-Model_preset_Pilot"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node module for managing model presets and configurations. This module automatically detects the model, loads/saves presets (sampler, scheduler, steps, CFG, clip-skip, seed, resolution), and generates/caches preview images per model."
+        },
+        {
+            "author": "kizamimi",
+            "title": "FEEdit",
+            "reference": "https://github.com/kizamimi/FEEdit",
+            "files": [
+                "https://github.com/kizamimi/FEEdit"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for facial expression editing via pipeline-level modification of diffusion models"
+        },
+        {
             "author": "ru4ls",
             "title": "ComfyUI Street View Loader Node",
             "reference": "https://github.com/ru4ls/ComfyUI_StreetView-Loader",
@@ -611,87 +691,6 @@
             ],
             "install_type": "git-clone",
             "description": "Custom node to reboot ComfyUI server"
-        },
-        {
-            "author": "scofano",
-            "title": "Comfy Text Stats",
-            "id": "comfy-text-stats",
-            "reference": "https://github.com/scofano/comfy-text-stats",
-            "files": [
-                "https://github.com/scofano/comfy-text-stats"
-            ],
-            "install_type": "git-clone",
-            "description": "Node: Text Stats (Char & Word Count). A lightweight ComfyUI custom node that takes a text string and outputs character and word counts (INT). Ideal for caption preprocessing, prompt analytics, and dataset workflows."
-        },
-        {
-            "author": "yolain",
-            "title": "ComfyUI-Easy-DotsOCR",
-            "reference": "https://github.com/yolain/ComfyUI-Easy-DotsOCR",
-            "files": [
-                "https://github.com/yolain/ComfyUI-Easy-DotsOCR"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-Easy-DotsOCR is a custom node for ComfyUI that provides text extraction via the DotsOCR engine."
-        },
-        {
-            "author": "yolain",
-            "title": "SaveVideoRGBA",
-            "reference": "https://github.com/yolain/SaveVideoRGBA",
-            "files": [
-                "https://github.com/yolain/SaveVideoRGBA"
-            ],
-            "install_type": "git-clone",
-            "description": "Enhanced the comfyui savevideo node to support previewing and saving videos containing alpha channels."
-        },
-        {
-            "author": "smthemex",
-            "title": "ComfyUI_LucidFlux",
-            "reference": "https://github.com/smthemex/ComfyUI_LucidFlux",
-            "files": [
-                "https://github.com/smthemex/ComfyUI_LucidFlux"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI_LucidFlux:Caption-Free Universal Image Restoration with a Large-Scale Diffusion Transformer，you can use it in ComfyUI"
-        },
-        {
-            "author": "snicolast",
-            "title": "ComfyUI-Ovi",
-            "reference": "https://github.com/snicolast/ComfyUI-Ovi",
-            "files": [
-                "https://github.com/snicolast/ComfyUI-Ovi"
-            ],
-            "install_type": "git-clone",
-            "description": "Lightweight ComfyUI wrapper that bring Character.AI's Ovi video+audio generator to ComfyUI with streamlined setup, selectable precision, and attention-backend control."
-        },
-        {
-            "author": "Light-x02",
-            "title": "ComfyUI-checkpoint-Discovery-Hub",
-            "reference": "https://github.com/Light-x02/ComfyUI-checkpoint-Discovery-Hub",
-            "files": [
-                "https://github.com/Light-x02/ComfyUI-checkpoint-Discovery-Hub"
-            ],
-            "install_type": "git-clone",
-            "description": "Checkpoint Discovery Hub — An advanced browser for your ComfyUI models. Easily explore, filter, and load your checkpoints, manage presets, favorites, and Civitai metadata — all from a sleek and intuitive interface."
-        },
-        {
-            "author": "synystersocks",
-            "title": "ComfyUI-SocksLatentPatcher",
-            "reference": "https://github.com/synystersocks/ComfyUI-SocksLatentPatcher",
-            "files": [
-                "https://github.com/synystersocks/ComfyUI-SocksLatentPatcher"
-            ],
-            "install_type": "git-clone",
-            "description": "This node circumnavigates the loss of detail, saturation/desaturation for infinite length video generation, the node bypasses the vae decode and directly patches the latent tensor. experimental covering i2v and vace extend."
-        },
-        {
-            "author": "iGavroche",
-            "title": "Ninode Utils",
-            "reference": "https://github.com/iGavroche/ComfyUI-Ninode-Utils",
-            "files": [
-                "https://github.com/iGavroche/ComfyUI-Ninode-Utils"
-            ],
-            "install_type": "git-clone",
-            "description": "Utility nodes for ComfyUI including OpenAI Compatible Chat - Works with any OpenAI-compatible API endpoint including Lemonade, Ollama, OpenAI API, and LM Studio"
         }
     ]
 }

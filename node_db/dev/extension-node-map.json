@@ -1500,6 +1500,14 @@
             "title_aux": "Denrakeiw Nodes [WIP]"
         }
     ],
+    "https://github.com/DeyanShahov/ComfyUI_RedFox": [
+        [
+            "DynamicPromptSelector"
+        ],
+        {
+            "title_aux": "Dynamic Prompt Selector for ComfyUI [WIP]"
+        }
+    ],
     "https://github.com/DiffusionWave-YT/DiffusionWave_PickResolution": [
         [
             "Blacklist_String_DiffusionWave \ud83c\udf0a",
@@ -4542,6 +4550,28 @@
             "title_aux": "ComfyUI XY Video Plot Suite [WIP]"
         }
     ],
+    "https://github.com/addddd2/AI_Generated_nodes": [
+        [
+            "ExtractImageChannel",
+            "ImageBlendLighter",
+            "ImageCropBorders",
+            "ImageMirrorPad",
+            "ImageOffset",
+            "ImageScaleToQwen",
+            "ImageScaleToTotalPixelsRound64",
+            "ImageStitcher",
+            "LABtoRGB",
+            "MatchRYGCBMColors",
+            "RGBtoLAB",
+            "RGBtoRYGCBM",
+            "RYGCBMtoRGB",
+            "TextCommaToRandomWeighted",
+            "TextCommaToWeighted"
+        ],
+        {
+            "title_aux": "AI_Generated_nodes"
+        }
+    ],
     "https://github.com/adigayung/comfyui_PlutoNode": [
         [
             "CompositeImageNode",
@@ -5116,6 +5146,14 @@
         ],
         {
             "title_aux": "BigModelPipe [WIP]"
+        }
+    ],
+    "https://github.com/basenc/Comfyui-EnvVarNode": [
+        [
+            "EnvVarNode"
+        ],
+        {
+            "title_aux": "ComfyUI Environment Variable Node [UNSAFE]"
         }
     ],
     "https://github.com/benda1989/WaterMarkRemover_ComfyUI": [
@@ -5797,7 +5835,6 @@
             "ConditioningZeroOut",
             "ControlNetApply",
             "ControlNetApplyAdvanced",
-            "ControlNetInpaintingAliMamaApply",
             "ControlNetLoader",
             "CropMask",
             "DiffControlNetLoader",
@@ -5966,7 +6003,6 @@
             "SaveSVGNode",
             "SetFirstSigma",
             "SetLatentNoiseMask",
-            "SetUnionControlNetType",
             "SolidMask",
             "SplitAudioChannels",
             "SplitSigmas",
@@ -6794,7 +6830,8 @@
     ],
     "https://github.com/garciaone/g_one_toolkit": [
         [
-            "g-one Image Reposition"
+            "g-one Face Tracking Features",
+            "g-one Face Tracking Masks"
         ],
         {
             "title_aux": "g_one_toolkit"
@@ -6829,6 +6866,7 @@
     ],
     "https://github.com/gmammolo/comfyui-gmammolo": [
         [
+            "CheckImageGen",
             "FilterConditioningPrompt",
             "FilterTextPrompt",
             "SimpleTextbox"
@@ -10024,6 +10062,14 @@
         ],
         {
             "title_aux": "comfyui-plus-integrations [WIP]"
+        }
+    ],
+    "https://github.com/rossturk/comfyui-primitive-mesh": [
+        [
+            "PrimitiveMeshNode"
+        ],
+        {
+            "title_aux": "ComfyUI Primitive Mesh Generator[WIP]"
         }
     ],
     "https://github.com/rouxianmantou/comfyui-rxmt-nodes": [

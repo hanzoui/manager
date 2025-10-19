@@ -1,14 +1,54 @@
 {
     "custom_nodes": [
         {
+            "author": "DeyanSrossturkhahov",
+            "title": "ComfyUI Primitive Mesh Generator[WIP]",
+            "reference": "https://github.com/rossturk/comfyui-primitive-mesh",
+            "files": [
+                "https://github.com/rossturk/comfyui-primitive-mesh"
+            ],
+            "install_type": "git-clone",
+            "description": "Image-to-vector art generator for ComfyUI - Convert photographs into artistic collages composed of geometric shapes using a greedy optimization algorithm.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "DeyanShahov",
+            "title": "Dynamic Prompt Selector for ComfyUI [WIP]",
+            "reference": "https://github.com/DeyanShahov/ComfyUI_RedFox",
+            "files": [
+                "https://github.com/DeyanShahov/ComfyUI_RedFox"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that allows you to dynamically select parts from large text prompts split by delimiters. The node supports 5 independent tabs (each like a mini-prompt selector), various selection behaviors, and persists state across ComfyUI restarts.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "addddd2",
+            "title": "AI_Generated_nodes",
+            "reference": "https://github.com/addddd2/AI_Generated_nodes",
+            "files": [
+                "https://github.com/addddd2/AI_Generated_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: ImageScaleToTotalPixelsRound64, ImageBlendLighter, ImageOffset, RGBtoRYGCBM, RYGCBMtoRGB, ExtractImageChannel, MatchRYGCBMColors, TextCommaToWeighted, TextCommaToRandomWeighted, RGBtoLAB, LABtoRGB, ImageMirrorPad, ImageCropBorders, ImageStitcher, ImageScaleToQwen, ..."
+        },
+        {
+            "author": "basenc",
+            "title": "ComfyUI Environment Variable Node [UNSAFE]",
+            "reference": "https://github.com/basenc/Comfyui-EnvVarNode",
+            "files": [
+                "https://github.com/basenc/Comfyui-EnvVarNode"
+            ],
+            "install_type": "git-clone",
+            "description": "Exposes environment variables inside ComfyUI workflows. Use it to keep API keys and other secrets out of your graph files while still wiring them into nodes that need them.[w/This nodepack has a vulnerability that allows reading arbitrary environment variables.]"
+        },
+        {
             "author": "silveroxides",
-            "title": "ComfyUI_SamplingUtils",
+            "title": "Sampling Utility Toolkit",
             "reference": "https://github.com/silveroxides/ComfyUI_SamplingUtils",
             "files": [
                 "https://github.com/silveroxides/ComfyUI_SamplingUtils"
             ],
             "install_type": "git-clone",
-            "description": "NODES: SamplingParameters"
+            "description": "Utilities making it easy to set up inference parameters."
         },
         {
             "author": "henjicc",
@@ -1169,7 +1209,7 @@
                 "https://github.com/gmammolo/comfyui-gmammolo"
             ],
             "install_type": "git-clone",
-            "description": "NODES: Simple Textbox, Filter Text Prompt"
+            "description": "NODES: Simple Textbox, Filter Text Prompt, Check Image Generation"
         },
         {
             "author": "543872524",
