@@ -34417,16 +34417,6 @@
         },
         {
             "author": "EricRollei",
-            "title": "Hyper-ComfyUI: HYPIR Image Restoration Node",
-            "reference": "https://github.com/EricRollei/HYPIR-ComfyUI",
-            "files": [
-                "https://github.com/EricRollei/HYPIR-ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI nodes that embed the HYPIR image restoration method for Stable Diffusion 2.1. The upstream research was created by Xinqi Lin, Fanghua Yu, Jinfan Hu, Zhiyuan You, Wu Shi, Jimmy S. Ren, Jinjin Gu, and collaborators. Source: [a/https://github.com/XPixelGroup/HYPIR](https://github.com/XPixelGroup/HYPIR)."
-        },
-        {
-            "author": "EricRollei",
             "title": "Eric's Prompt Enhancers for ComfyUI",
             "reference": "https://github.com/EricRollei/Local_LLM_Prompt_Enhancer",
             "files": [
@@ -34444,6 +34434,16 @@
             ],
             "install_type": "git-clone",
             "description": "Utility collection of ComfyUI V3 nodes for stabilizing temporal segmentation masks while staying deterministic and torch-only."
+        },
+        {
+            "author": "nomadoor",
+            "title": "ComfyUI Dual Panel Subgraph Viewer",
+            "reference": "https://github.com/nomadoor/ComfyUI-DualPanel-Subgraph-Viewer",
+            "files": [
+                "https://github.com/nomadoor/ComfyUI-DualPanel-Subgraph-Viewer"
+            ],
+            "install_type": "git-clone",
+            "description": "A frontend extension for ComfyUI that allows you to open and edit subgraphs in a right-hand panel, instead of replacing the main canvas."
         },
         {
             "author": "neo-editer",
@@ -34504,6 +34504,67 @@
             ],
             "install_type": "git-clone",
             "description": "Ollama in ComfyUI"
+        },
+        {
+            "author": "OmiX",
+            "title": "OmiXdev Custom Nodes",
+            "id": "omixdev-custom-nodes",
+            "reference": "https://github.com/omixmaxdimo/OmiXDev",
+            "files": [
+                "https://github.com/omixmaxdimo/OmiXDev"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom node for online chat with APIKey to OpenAI ChatGpt4xx... Grok ...."
+        },
+        {
+            "author": "AlcAI-AnimeHaven",
+            "title": "AlcAI Nodes for ComfyUI",
+            "reference": "https://github.com/AlcAI-AnimeHaven/AlcAI-nodes",
+            "files": [
+                "https://github.com/AlcAI-AnimeHaven/AlcAI-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "AlcAI Nodes is a collection of custom nodes for ComfyUI, a modular interface for image generation with Stable Diffusion. This project focuses on tools optimized for creating anime-style images and stylized effects, inspired by the AnimeHaven universe. It aims to simplify workflows for artists and AI creativity enthusiasts."
+        },
+        {
+            "author": "diffussy69",
+            "title": "ComfyUI-curved_weight_schedule",
+            "reference": "https://github.com/diffussy69/comfyui-curved_weight_schedule",
+            "files": [
+                "https://github.com/diffussy69/comfyui-curved_weight_schedule"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom Node for ComfyUI that allows you set a weighted curve to your ControlNet giving you more control over the weight of the model over the course of generation."
+        },
+        {
+            "author": "smbdsbrain",
+            "title": "ComfyUI PK Load Image Paste",
+            "reference": "https://github.com/smbdsbrain/ComfyUI-PK_load_image_paste",
+            "files": [
+                "https://github.com/smbdsbrain/ComfyUI-PK_load_image_paste"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that extends the standard Load Image functionality with a convenient 'Paste from clipboard' button. This allows you to directly paste images from your clipboard without workflow conflicts, ensuring only images are pasted."
+        },
+        {
+            "author": "rdawgemfl",
+            "title": "RDAWG 3D Pack (CUDA 12.8 + PyTorch 2.9.0)",
+            "reference": "https://github.com/rdawgemfl/rdawg_3D_pack",
+            "files": [
+                "https://github.com/rdawgemfl/rdawg_3D_pack"
+            ],
+            "install_type": "git-clone",
+            "description": "Modern 3D Processing Nodes for ComfyUI - Optimized for CUDA 12.8 + PyTorch 2.9.0"
+        },
+        {
+            "author": "ashtar1984",
+            "title": "comfyui-find-perfect-resolution",
+            "reference": "https://github.com/ashtar1984/comfyui-find-perfect-resolution",
+            "files": [
+                "https://github.com/ashtar1984/comfyui-find-perfect-resolution"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom ComfyUI node, Find Perfect Resolution, calculates an optimal output resolution for an input image while preserving its aspect ratio and ensuring dimensions are divisible by a specified value. It is designed to work seamlessly in ComfyUI workflows, particularly for resizing images with nodes like 'Resize Image v2'."
         },
 
 
@@ -34965,17 +35026,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "OmiX",
-            "title": "OmiXdev Custom Nodes",
-            "id": "omixdev-custom-nodes",
-            "reference": "https://github.com/omixmaxdimo/OmiXDev",
-            "files": [
-                "https://github.com/omixmaxdimo/OmiXDev"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom node for online chat with APIKey to OpenAI ChatGpt4xx... Grok ...."
         }
     ]
 }

@@ -1,8 +1,28 @@
 {
     "custom_nodes": [
         {
+            "author": "EricRollei",
+            "title": "Hyper-ComfyUI: HYPIR Image Restoration Node [WIP]",
+            "reference": "https://github.com/EricRollei/HYPIR-ComfyUI",
+            "files": [
+                "https://github.com/EricRollei/HYPIR-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes that embed the HYPIR image restoration method for Stable Diffusion 2.1. The upstream research was created by Xinqi Lin, Fanghua Yu, Jinfan Hu, Zhiyuan You, Wu Shi, Jimmy S. Ren, Jinjin Gu, and collaborators. Source: [a/https://github.com/XPixelGroup/HYPIR](https://github.com/XPixelGroup/HYPIR).\nNOTE:The file node_list.json is incorrectly written."
+        },
+        {
+            "author": "yamanacn",
+            "title": "ComfyUI-QwenVL3-image [WIP]",
+            "reference": "https://github.com/yamanacn/ComfyUI-QwenVL3-image",
+            "files": [
+                "https://github.com/yamanacn/ComfyUI-QwenVL3-image"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that integrates the Qwen3-VL-4B-Instruct-FP8 vision-language model for efficient image understanding and description.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "DeyanSrossturkhahov",
-            "title": "ComfyUI Primitive Mesh Generator[WIP]",
+            "title": "ComfyUI Primitive Mesh Generator [WIP]",
             "reference": "https://github.com/rossturk/comfyui-primitive-mesh",
             "files": [
                 "https://github.com/rossturk/comfyui-primitive-mesh"

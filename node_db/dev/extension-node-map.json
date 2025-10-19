@@ -415,6 +415,7 @@
             "A1r Denoise InputSwitch",
             "A1r Image InputSwitch",
             "A1r Image OutputSwitch",
+            "A1r ImageUpscale Mode Picker",
             "A1r ImageUpscaleSwitch Toggle",
             "A1r Int to Boolean",
             "A1r JoyTag TextBox",
@@ -1191,7 +1192,12 @@
             "FalAILipSyncNode",
             "FalAPIOmniProNode",
             "FalAPIVideoGeneratorI2V",
-            "FalAPIVideoGeneratorT2V"
+            "FalAPIVideoGeneratorT2V",
+            "FalI2V",
+            "FalLipSync",
+            "FalOmniPro",
+            "FalOmniProV2",
+            "FalT2V"
         ],
         {
             "title_aux": "ComfyUI-BS_FalAi-API-Video [WIP]"
@@ -1823,6 +1829,14 @@
         ],
         {
             "title_aux": "Comfy-Metadata-System [WIP]"
+        }
+    ],
+    "https://github.com/EricRollei/HYPIR-ComfyUI": [
+        [
+            "HyperComfyUIHYPIRRestore"
+        ],
+        {
+            "title_aux": "Hyper-ComfyUI: HYPIR Image Restoration Node [WIP]"
         }
     ],
     "https://github.com/Estanislao-Oviedo/ComfyUI-CustomNodes": [
@@ -9823,7 +9837,8 @@
             "rakete.BuildString",
             "rakete.GetWidgetValue",
             "rakete.GpuGarbageCollector",
-            "rakete.JoinStrings"
+            "rakete.JoinStrings",
+            "rakete.SelectSamplerName"
         ],
         {
             "author": "Rakete",
@@ -10069,7 +10084,7 @@
             "PrimitiveMeshNode"
         ],
         {
-            "title_aux": "ComfyUI Primitive Mesh Generator[WIP]"
+            "title_aux": "ComfyUI Primitive Mesh Generator [WIP]"
         }
     ],
     "https://github.com/rouxianmantou/comfyui-rxmt-nodes": [
@@ -10307,10 +10322,9 @@
     ],
     "https://github.com/silveroxides/ComfyUI_CondsUtils": [
         [
-            "InsertT5XXLEmb",
+            "InsertTEConds",
             "LoadReduxEmb",
-            "LoadT5XXLConds",
-            "LoadT5XXLEmb",
+            "LoadTEConds",
             "SaveCondsEmb",
             "SaveReduxEmb"
         ],
@@ -10320,10 +10334,9 @@
     ],
     "https://github.com/silveroxides/ComfyUI_ReduxEmbedToolkit": [
         [
-            "InsertT5XXLEmb",
+            "InsertTEConds",
             "LoadReduxEmb",
-            "LoadT5XXLConds",
-            "LoadT5XXLEmb",
+            "LoadTEConds",
             "SaveCondsEmb",
             "SaveReduxEmb"
         ],
@@ -11163,6 +11176,7 @@
             "IndexOffsetAdjuster",
             "IndexUrlPairDeduplicator",
             "JsonArrayElementFieldExtractor",
+            "JsonArrayFieldUniformSetter",
             "JsonCompressor",
             "JsonExtractSubjectNamesScales",
             "JsonFieldDeleter",
@@ -11481,6 +11495,15 @@
         ],
         {
             "title_aux": "ComfyUI-Direct3DS2 [WIP]"
+        }
+    ],
+    "https://github.com/yamanacn/ComfyUI-QwenVL3-image": [
+        [
+            "QwenVL3_image",
+            "QwenVLUnloadModel"
+        ],
+        {
+            "title_aux": "ComfyUI-QwenVL3-image [WIP]"
         }
     ],
     "https://github.com/yamanacn/comfyui_qwen_object": [

@@ -2140,6 +2140,14 @@
             "title_aux": "seamless-clone-comfyui"
         }
     ],
+    "https://github.com/AlcAI-AnimeHaven/AlcAI-nodes": [
+        [
+            "RandomResSDXL"
+        ],
+        {
+            "title_aux": "AlcAI Nodes for ComfyUI"
+        }
+    ],
     "https://github.com/Alectriciti/comfyui-adaptiveprompts": [
         [
             "NormalizeLoraTags",
@@ -5757,14 +5765,6 @@
             "title_aux": "ComfyUI-EreNodes"
         }
     ],
-    "https://github.com/EricRollei/HYPIR-ComfyUI": [
-        [
-            "HyperComfyUIHYPIRRestore"
-        ],
-        {
-            "title_aux": "Hyper-ComfyUI: HYPIR Image Restoration Node"
-        }
-    ],
     "https://github.com/EricRollei/Local_LLM_Prompt_Enhancer": [
         [
             "EricImageToImagePromptExpander",
@@ -8142,7 +8142,8 @@
             "ImageLoader",
             "MultiplePathsInput",
             "Qwen3_VQA",
-            "VideoLoader"
+            "VideoLoader",
+            "VideoLoaderPath"
         ],
         {
             "title_aux": "Comfyui_Qwen3-VL-Instruct"
@@ -11327,10 +11328,10 @@
     ],
     "https://github.com/NewLouwa/ComfyUI-Model_preset_Pilot": [
         [
-            "LoadLocalImage",
-            "ModelPresetLoader",
-            "ModelPresetLoaderInternal",
-            "PresetCreator",
+            "KSamplerHelper",
+            "ModelPresetManager",
+            "PresetKSampler",
+            "PresetToKSampler",
             "PreviewImage"
         ],
         {
@@ -12114,12 +12115,10 @@
         [
             "Hy3D21CameraConfig",
             "Hy3D21ExportMesh",
-            "Hy3D21GenerateMultiViewsBatch",
             "Hy3D21IMRemesh",
             "Hy3D21ImageWithAlphaInput",
             "Hy3D21LoadImageWithTransparency",
             "Hy3D21LoadMesh",
-            "Hy3D21MeshGenerationBatch",
             "Hy3D21MeshUVWrap",
             "Hy3D21MeshlibDecimate",
             "Hy3D21MultiViewsGeneratorWithMetaData",
@@ -12771,6 +12770,7 @@
     "https://github.com/S4MUEL-404/ComfyUI-S4Tool-Image": [
         [
             "ImageAdjustment",
+            "ImageAdjustmentColor",
             "ImageBlendWithAlpha",
             "ImageBoard",
             "ImageColor",
@@ -12786,6 +12786,7 @@
             "ImageOverlay",
             "ImagePalette",
             "ImagePalette631",
+            "ImagePaletteContrary",
             "ImagePrimaryColor",
             "ImageRMBG",
             "ImageResize",
@@ -13074,6 +13075,7 @@
             "RandomLoRACustom",
             "RandomLoRAFolder",
             "SaveWorkflowAndShutdown",
+            "SplitBatchWithPrefix",
             "WildcardManager"
         ],
         {
@@ -15437,6 +15439,7 @@
             "StringToolsBalancedChoice",
             "StringToolsConcat",
             "StringToolsRandomChoice",
+            "StringToolsSeed",
             "StringToolsString",
             "StringToolsText"
         ],
@@ -19223,6 +19226,14 @@
             "title_aux": "Hunyuan-Multi-Lora-Loader"
         }
     ],
+    "https://github.com/ashtar1984/comfyui-find-perfect-resolution": [
+        [
+            "FindPerfectResolution"
+        ],
+        {
+            "title_aux": "comfyui-find-perfect-resolution"
+        }
+    ],
     "https://github.com/asutermo/ComfyUI-Flux-TryOff": [
         [
             "TryOffFluxFillModelNode",
@@ -21125,6 +21136,8 @@
             "Image_Upscaletile",
             "Image_batch_composite",
             "Image_batch_select",
+            "Image_pad_adjust",
+            "Image_pad_adjust_restore",
             "Image_pad_keep",
             "Image_smooth_blur",
             "Image_solo_crop",
@@ -21146,6 +21159,7 @@
             "Model_Preset_Unpack",
             "Model_Preset_pack",
             "Stack_CN_union",
+            "Stack_CN_union3",
             "Stack_ControlNet",
             "Stack_IPA",
             "Stack_Kontext_MulCondi",
@@ -21184,6 +21198,7 @@
             "basic_Ksampler_adv",
             "basic_Ksampler_custom",
             "basic_Ksampler_full",
+            "basic_Ksampler_low_gpu",
             "basic_Ksampler_mid",
             "basic_Ksampler_simple",
             "batch_BatchSlice",
@@ -21305,6 +21320,7 @@
             "pre_latent_light",
             "pre_mul_Mulcondi",
             "pre_qwen_controlnet",
+            "pre_ref_condition",
             "pre_sample_data",
             "sampler_DynamicTileMerge",
             "sampler_DynamicTileSplit",
@@ -21325,6 +21341,7 @@
             "sum_stack_AD",
             "sum_stack_Kontext",
             "sum_stack_QwenEdit",
+            "sum_stack_QwenEditPlus",
             "sum_stack_Wan",
             "sum_stack_all",
             "sum_stack_image",
@@ -24544,6 +24561,7 @@
             "DavchaCLIPMergeSimple",
             "DavchaCLIPTextEncode",
             "DavchaConditioningConcat",
+            "DavchaEmptyLatent",
             "DavchaEmptyLatentImage",
             "DavchaLLM",
             "DavchaLLMAdvanced",
@@ -24556,6 +24574,7 @@
             "DavchaPop",
             "DavchaTextEncodeQwenImageEditPlus",
             "DavchaWan22LoraTagLoader",
+            "DavchaWan22LoraTagParser",
             "PadAndResize",
             "PercentPadding",
             "ResizeCropFit",
@@ -24707,6 +24726,14 @@
             "nickname": "Dickson Nodes",
             "title": "Dickson Nodes",
             "title_aux": "ComfyUI-Dickson-Nodes"
+        }
+    ],
+    "https://github.com/diffussy69/comfyui-curved_weight_schedule": [
+        [
+            "CurvedTimestepKeyframes"
+        ],
+        {
+            "title_aux": "ComfyUI-curved_weight_schedule"
         }
     ],
     "https://github.com/digitaljohn/comfyui-propost": [
@@ -25812,6 +25839,7 @@
             "QwenProcessedToEmbedding",
             "QwenProcessorWrapper",
             "QwenSchedulerInfoNode",
+            "QwenSmartCrop",
             "QwenSpatialTokenGenerator",
             "QwenTemplateBuilderV2",
             "QwenTemplateConnector",
@@ -37229,6 +37257,15 @@
             "title_aux": "Quality of life Suit:V2"
         }
     ],
+    "https://github.com/omixmaxdimo/OmiXDev": [
+        [
+            "OmixChatPro",
+            "OmixGeminiPro"
+        ],
+        {
+            "title_aux": "OmiXdev Custom Nodes"
+        }
+    ],
     "https://github.com/openvino-dev-samples/comfyui_openvino": [
         [
             "OpenVINO_TorchCompileModel"
@@ -38966,6 +39003,32 @@
         ],
         {
             "title_aux": "ComfyUI_Florence2SAM2"
+        }
+    ],
+    "https://github.com/rdawgemfl/rdawg_3D_pack": [
+        [
+            "RDAWG3DAnalyzeMesh",
+            "RDAWG3DBoundingBox",
+            "RDAWG3DComputeCurvature",
+            "RDAWG3DComputeDistance",
+            "RDAWG3DCreateMesh",
+            "RDAWG3DDownsamplePointCloud",
+            "RDAWG3DExtractFeatures",
+            "RDAWG3DLoadModel",
+            "RDAWG3DLoadPointCloud",
+            "RDAWG3DMeshToImage",
+            "RDAWG3DMeshToPointCloud",
+            "RDAWG3DPointCloudToMesh",
+            "RDAWG3DRemeshUniform",
+            "RDAWG3DRemoveOutliers",
+            "RDAWG3DSimplifyMesh",
+            "RDAWG3DSmoothMesh",
+            "RDAWG3DSubdivideMesh",
+            "RDAWG3DTransform",
+            "RDAWG3DTransformPointCloud"
+        ],
+        {
+            "title_aux": "RDAWG 3D Pack (CUDA 12.8 + PyTorch 2.9.0)"
         }
     ],
     "https://github.com/rdomunky/comfyui-subfolderimageloader": [
@@ -40731,17 +40794,16 @@
     "https://github.com/silveroxides/ComfyUI-ModelUtils": [
         [
             "CLIPMetaKeys",
-            "CLIPPruneKeys",
-            "CLIPRenameKeys",
-            "CheckpointMetaKeys",
+            "CLIPThreeMerger",
+            "CLIPTwoMerger",
             "CheckpointPruneKeys",
-            "CheckpointRenameKeys",
-            "LoRAMetaKeys",
-            "LoRAPruneKeys",
-            "LoRARenameKeys",
+            "CheckpointThreeMerger",
+            "CheckpointTwoMerger",
+            "LoRAThreeMerger",
+            "LoRATwoMerger",
             "UNetMetaKeys",
-            "UNetPruneKeys",
-            "UNetRenameKeys"
+            "UNetThreeMerger",
+            "UNetTwoMerger"
         ],
         {
             "title_aux": "Model Utility Toolkit"
@@ -41027,6 +41089,14 @@
         ],
         {
             "title_aux": "kb-comfyui-nodes"
+        }
+    ],
+    "https://github.com/smbdsbrain/ComfyUI-PK_load_image_paste": [
+        [
+            "PKLoadImagePaste"
+        ],
+        {
+            "title_aux": "ComfyUI PK Load Image Paste"
         }
     ],
     "https://github.com/smlbiobot/ComfyUI-Flux-Replicate-API": [
