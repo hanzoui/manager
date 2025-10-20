@@ -366,6 +366,7 @@
         [
             "ImageAddLabel",
             "ImageBBoxOverlayByMask",
+            "ImageBatchExtract",
             "ImageBatchGroup",
             "ImageBatchSplit",
             "ImageBatchToList",
@@ -9411,10 +9412,12 @@
             "ImageSizeAdjustment",
             "InspyrenetRembgLoader",
             "InspyrenetRembgProcess",
+            "LG_Counter",
             "LG_FloatRange",
             "LG_InstallDependencies",
             "LG_LatentBatchToList",
             "LG_LoadImage",
+            "LG_LoadImage_V2",
             "LG_Noise",
             "LG_PipManager",
             "LG_SaveImage",
@@ -24750,7 +24753,8 @@
     "https://github.com/diffussy69/comfyui-curved_weight_schedule": [
         [
             "CurvedTimestepKeyframes",
-            "MultiMaskStrengthCombiner"
+            "MultiMaskStrengthCombiner",
+            "RegionalPrompting"
         ],
         {
             "title_aux": "ComfyUI-curved_weight_schedule"
@@ -40861,6 +40865,7 @@
     ],
     "https://github.com/silveroxides/ComfyUI_Gemini_Expanded_API": [
         [
+            "GetKeyAPI",
             "SSL_GeminiAPIKeyConfig",
             "SSL_GeminiTextPrompt"
         ],
@@ -40993,6 +40998,7 @@
         [
             "ImageBlend_GPU",
             "ImageRadialZoomBlur_GPU",
+            "LoraExtractKJv2",
             "PowerLoraLoaderV2",
             "VideoMergeABC",
             "WanScaleAB",
@@ -43605,6 +43611,8 @@
             "Empty Image Node",
             "JSON Parser Node",
             "LoadImageFromUrlNode",
+            "MultilinePromptNode",
+            "OSSUploadNode",
             "RemoveEmptyLinesNode",
             "SaveVideoRGBA",
             "TextToImageNode"
@@ -44015,6 +44023,17 @@
         ],
         {
             "title_aux": "ComfyUI-AbstractImaGen"
+        }
+    ],
+    "https://github.com/walke2019/ComfyUI-GGUF-VisionLM": [
+        [
+            "LoadQwen2_5_VL_GGUF",
+            "Qwen2_5_VL_GGUF_All_In_One",
+            "Qwen2_5_VL_GGUF_Batch_Describe",
+            "Qwen2_5_VL_GGUF_Describe_Image"
+        ],
+        {
+            "title_aux": "ComfyUI-GGUF-VisionLM"
         }
     ],
     "https://github.com/wallen0322/ComfyUI-QI-QwenEditSafe": [
