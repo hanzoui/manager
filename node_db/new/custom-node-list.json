@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "cybernaut4",
+            "title": "Arkl1te's Toolkit",
+            "reference": "https://github.com/cybernaut4/comfyui_arkl1te_toolkit",
+            "files": [
+                "https://github.com/cybernaut4/comfyui_arkl1te_toolkit"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI by Arkl1te"
+        },
+        {
+            "author": "Analaser",
+            "title": "ComfyUI-RandomTagWeights",
+            "reference": "https://github.com/Analaser/ComfyUI-RandomTagWeights",
+            "files": [
+                "https://github.com/Analaser/ComfyUI-RandomTagWeights"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that randomizes tag weights for text prompts. Useful for dynamic prompt generation or creative experimentation in AI image workflows."
+        },
+        {
+            "author": "guyouyue",
+            "title": "ComfyUI_VideoAutoSplit",
+            "reference": "https://github.com/guyouyue/ComfyUI_VideoAutoSplit",
+            "files": [
+                "https://github.com/guyouyue/ComfyUI_VideoAutoSplit"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Video Auto-Cropping Tool — includes keyframe detection and automatic segmentation/saving based on keyframes."
+        },
+        {
             "author": "OmiX",
             "title": "OmiXdev Custom Nodes",
             "id": "omixdev-custom-nodes",
@@ -661,26 +691,6 @@
             ],
             "install_type": "git-clone",
             "description": "Custom ComfyUI nodes for enhanced text and image processing"
-        },
-        {
-            "author": "silveroxides",
-            "title": "ComfyUI_Hybrid-Scaled_fp8-Loader",
-            "reference": "https://github.com/silveroxides/ComfyUI_Hybrid-Scaled_fp8-Loader",
-            "files": [
-                "https://github.com/silveroxides/ComfyUI_Hybrid-Scaled_fp8-Loader"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom Loader for scaled_fp8 models with hybrid precision layers."
-        },
-        {
-            "author": "LukeCoulson1",
-            "title": "ComfyUI LoRA Combine Node",
-            "reference": "https://github.com/LukeCoulson1/Comfyui_LoraCombine",
-            "files": [
-                "https://github.com/LukeCoulson1/Comfyui_LoraCombine"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node that allows you to combine two LoRAs with adjustable strengths and multiple merging methods."
         }
     ]
 }

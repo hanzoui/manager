@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "pacchikAI",
+            "title": "comfyui_pacchik_window [UNSAFE]",
+            "reference": "https://github.com/pacchikAI/comfyui_pacchik_window",
+            "files": [
+                "https://github.com/pacchikAI/comfyui_pacchik_window"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple ComfyUI node that takes any window you have as an Input to ComfyUI node\nNOTE: WORKS IN WINDOWS ONLY[w/This nodepack has a feature that can retrieve your screen information remotely.]"
+        },
+        {
             "author": "EricRollei",
             "title": "Hyper-ComfyUI: HYPIR Image Restoration Node [WIP]",
             "reference": "https://github.com/EricRollei/HYPIR-ComfyUI",

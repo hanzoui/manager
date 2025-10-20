@@ -2403,6 +2403,14 @@
             "title_aux": "Jovimetrix"
         }
     ],
+    "https://github.com/Analaser/ComfyUI-RandomTagWeights": [
+        [
+            "RandomTagWeights"
+        ],
+        {
+            "title_aux": "ComfyUI-RandomTagWeights"
+        }
+    ],
     "https://github.com/Andro-Meta/ComfyUI-Ovis2": [
         [
             "Ovis2ImageCaption",
@@ -24037,6 +24045,17 @@
             "title_aux": "Seb Nodes"
         }
     ],
+    "https://github.com/cybernaut4/comfyui_arkl1te_toolkit": [
+        [
+            "AnythingToString",
+            "Concatenate",
+            "GetNewFileIndex",
+            "PadZeroes"
+        ],
+        {
+            "title_aux": "Arkl1te's Toolkit"
+        }
+    ],
     "https://github.com/czcz1024/Comfyui-FaceCompare": [
         [
             "FaceCompare"
@@ -24730,7 +24749,8 @@
     ],
     "https://github.com/diffussy69/comfyui-curved_weight_schedule": [
         [
-            "CurvedTimestepKeyframes"
+            "CurvedTimestepKeyframes",
+            "MultiMaskStrengthCombiner"
         ],
         {
             "title_aux": "ComfyUI-curved_weight_schedule"
@@ -27264,6 +27284,7 @@
             "SeedanceImageToVideo_fal",
             "SeedanceTextToVideo_fal",
             "SeedreamV4Edit_fal",
+            "Seedvr_Upscaler_fal",
             "Upscaler_fal",
             "VLM_fal",
             "Veo2ImageToVideo_fal",
@@ -27716,6 +27737,15 @@
         ],
         {
             "title_aux": "guy-nodes-comfyui"
+        }
+    ],
+    "https://github.com/guyouyue/ComfyUI_VideoAutoSplit": [
+        [
+            "ExtractKeyFrames",
+            "ExtractKeyFramesAndSplit"
+        ],
+        {
+            "title_aux": "ComfyUI_VideoAutoSplit"
         }
     ],
     "https://github.com/gvfarns/comfyui_gvf": [
@@ -43575,6 +43605,7 @@
             "Empty Image Node",
             "JSON Parser Node",
             "LoadImageFromUrlNode",
+            "RemoveEmptyLinesNode",
             "SaveVideoRGBA",
             "TextToImageNode"
         ],
