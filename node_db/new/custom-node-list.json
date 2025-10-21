@@ -1,6 +1,76 @@
 {
     "custom_nodes": [
         {
+            "author": "geltz",
+            "title": "ComfyUI-geltz",
+            "reference": "https://github.com/geltz/ComfyUI-geltz",
+            "files": [
+                "https://github.com/geltz/ComfyUI-geltz"
+            ],
+            "install_type": "git-clone",
+            "description": "Various custom nodes; guidance, latents, sampling, tokenization, etc."
+        },
+        {
+            "author": "cmeka",
+            "title": "ComfyUI-WanMoEScheduler",
+            "reference": "https://github.com/cmeka/ComfyUI-WanMoEScheduler",
+            "files": [
+                "https://github.com/cmeka/ComfyUI-WanMoEScheduler"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI scheduler that finds the shift value required to align high/low sampling steps with a target sigma boundary."
+        },
+        {
+            "author": "AhBumm",
+            "title": "ComfyUI_UnfakePy_Warpper",
+            "reference": "https://github.com/AhBumm/ComfyUI_UnfakePy_Warpper",
+            "files": [
+                "https://github.com/AhBumm/ComfyUI_UnfakePy_Warpper"
+            ],
+            "install_type": "git-clone",
+            "description": "Warp Unfake.py for ComfyUI"
+        },
+        {
+            "author": "APZmedia",
+            "title": "NormalMapLightEstimator",
+            "reference": "https://github.com/APZmedia/Comfyui-LightDirection-estimation",
+            "files": [
+                "https://github.com/APZmedia/Comfyui-LightDirection-estimation"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for estimating light direction and quality from normal maps using luma masking. The system analyzes surface normals to infer lighting information for downstream tasks like adaptive relighting, directional masking, or stylized effects."
+        },
+        {
+            "author": "ussoewwin",
+            "title": "ComfyUI-DistorchMemoryManager",
+            "reference": "https://github.com/ussoewwin/ComfyUI-DistorchMemoryManager",
+            "files": [
+                "https://github.com/ussoewwin/ComfyUI-DistorchMemoryManager"
+            ],
+            "install_type": "git-clone",
+            "description": "An independent memory management custom node for ComfyUI. Provides Distorch memory management functionality for efficient GPU/CPU memory handling."
+        },
+        {
+            "author": "ussoewwin",
+            "title": "ComfyUI-NunchakuFluxLoraStacker",
+            "reference": "https://github.com/ussoewwin/ComfyUI-NunchakuFluxLoraStacker",
+            "files": [
+                "https://github.com/ussoewwin/ComfyUI-NunchakuFluxLoraStacker"
+            ],
+            "install_type": "git-clone",
+            "description": "An advanced LoRA stacker node specifically designed for Nunchaku FLUX models, featuring dynamic UI control for easy and efficient LoRA management."
+        },
+        {
+            "author": "hvppycoding",
+            "title": "hvppyflow",
+            "reference": "https://github.com/hvppycoding/hvppyflow",
+            "files": [
+                "https://github.com/hvppycoding/hvppyflow"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for Automated Workflow"
+        },
+        {
             "author": "walke2019",
             "title": "ComfyUI-GGUF-VisionLM",
             "reference": "https://github.com/walke2019/ComfyUI-GGUF-VisionLM",
@@ -660,47 +730,6 @@
             ],
             "install_type": "git-clone",
             "description": "Upload images (directly from your graph) and files (e.g., videos written to disk) to Immich."
-        },
-        {
-            "author": "GZK1108",
-            "title": "Comfyui-QwenLoraLoaderSelective",
-            "reference": "https://github.com/GZK1108/Comfyui-QwenLoraLoaderSelective",
-            "files": [
-                "https://github.com/GZK1108/Comfyui-QwenLoraLoaderSelective"
-            ],
-            "install_type": "git-clone",
-            "description": "LordLoraQwenEdit is a ComfyUI custom node for Qwen Image Image Edit pipelines. It selectively applies Qwen Image edit LoRAs to specific UNet transformer layers based on keyword filters, keeping the rest of the network untouched for precise control."
-        },
-        {
-            "author": "siraxe",
-            "title": "ComfyUI-WanVideoWrapper_QQ",
-            "reference": "https://github.com/siraxe/ComfyUI-WanVideoWrapper_QQ",
-            "files": [
-                "https://github.com/siraxe/ComfyUI-WanVideoWrapper_QQ"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for ComfyUI providing video manipulation, LoRA loading, path animation, and visual drawing tools for WanVideo workflows."
-        },
-        {
-            "author": "PiePieDesign",
-            "title": "PiePieTweaks",
-            "id": "piepie-tweaks",
-            "reference": "https://github.com/PiePieDesign/PiePieTweaks",
-            "files": [
-                "https://github.com/PiePieDesign/PiePieTweaks"
-            ],
-            "install_type": "git-clone",
-            "description": "Tweaks and simple nodes for usability and common needs"
-        },
-        {
-            "author": "turnbros",
-            "title": "ComfyBros - Custom ComfyUI Nodes",
-            "reference": "https://github.com/turnbros/ComfyBros",
-            "files": [
-                "https://github.com/turnbros/ComfyBros"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI nodes for enhanced text and image processing"
         }
     ]
 }

@@ -1801,6 +1801,19 @@
             "title_aux": "ComfyUI Color Profile Reader"
         }
     ],
+    "https://github.com/APZmedia/Comfyui-LightDirection-estimation": [
+        [
+            "EnhancedLightEstimator",
+            "IREShadowAnalyzer",
+            "IREShadowComparison",
+            "LightDistributionAnalyzer",
+            "LightImageProcessor",
+            "NormalMapLightEstimator"
+        ],
+        {
+            "title_aux": "NormalMapLightEstimator"
+        }
+    ],
     "https://github.com/ARZUMATA/ComfyUI-ARZUMATA": [
         [
             "CachingCLIPTextEncodeFlux|ARZUMATA",
@@ -2060,6 +2073,14 @@
         {
             "nodename_pattern": "\\(BillBum\\)$",
             "title_aux": "Customizable API Call Nodes by BillBum"
+        }
+    ],
+    "https://github.com/AhBumm/ComfyUI_UnfakePy_Warpper": [
+        [
+            "CustomUnfake"
+        ],
+        {
+            "title_aux": "ComfyUI_UnfakePy_Warpper"
         }
     ],
     "https://github.com/AiMiDi/ComfyUI-Aimidi-nodes": [
@@ -23125,6 +23146,14 @@
             "title_aux": "Simple Image To Palette"
         }
     ],
+    "https://github.com/cmeka/ComfyUI-WanMoEScheduler": [
+        [
+            "WanMoEScheduler"
+        ],
+        {
+            "title_aux": "ComfyUI-WanMoEScheduler"
+        }
+    ],
     "https://github.com/cnnmmd/comfyui_xoxxox_cnnmmd": [
         [
             "Xoxxox_CnvDat",
@@ -26898,6 +26927,20 @@
             "title_aux": "ComfyUI-FLUX-BFL-API"
         }
     ],
+    "https://github.com/geltz/ComfyUI-geltz": [
+        [
+            "DIL2_EmptyLatent",
+            "DIL_EmptyLatent",
+            "QMS",
+            "RegionalSplitSampler",
+            "SWS",
+            "tokenteller",
+            "vectorpusher"
+        ],
+        {
+            "title_aux": "ComfyUI-geltz"
+        }
+    ],
     "https://github.com/gemell1/ComfyUI_GMIC": [
         [
             "GmicCliWrapper",
@@ -28581,6 +28624,16 @@
         ],
         {
             "title_aux": "RandomSamplerSchedulerSteps for ComfyUI"
+        }
+    ],
+    "https://github.com/hvppycoding/hvppyflow": [
+        [
+            "HPDebug",
+            "HPSleep",
+            "HPSplitText"
+        ],
+        {
+            "title_aux": "hvppyflow"
         }
     ],
     "https://github.com/hwhaocool/ComfyUI-Select-Any": [
@@ -43533,6 +43586,24 @@
             "title_aux": "comfyui-holdup"
         }
     ],
+    "https://github.com/ussoewwin/ComfyUI-DistorchMemoryManager": [
+        [
+            "MemoryCleaner",
+            "MemoryManager",
+            "SafeMemoryManager"
+        ],
+        {
+            "title_aux": "ComfyUI-DistorchMemoryManager"
+        }
+    ],
+    "https://github.com/ussoewwin/ComfyUI-NunchakuFluxLoraStacker": [
+        [
+            "FluxLoraMultiLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-NunchakuFluxLoraStacker"
+        }
+    ],
     "https://github.com/vadimcro/VKRiez-Edge": [
         [
             "VKriezEnhancedEdgePreprocessor",
@@ -43586,8 +43657,11 @@
     "https://github.com/vanche1212/ComfyUI-ZMG-Nodes": [
         [
             "API Request Node",
+            "Elasticsearch Update Node",
             "Empty Image Node",
+            "JSON Builder Node",
             "JSON Parser Node",
+            "JsonBuilderNode",
             "LoadImageFromUrlNode",
             "MultilinePromptNode",
             "OSSUploadNode",

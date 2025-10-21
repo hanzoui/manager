@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "cedarconnor",
+            "title": "ComfyUI Motion Transfer Pack [WIP]",
+            "reference": "https://github.com/cedarconnor/ComfyUI_MotionTransfer",
+            "files": [
+                "https://github.com/cedarconnor/ComfyUI_MotionTransfer"
+            ],
+            "install_type": "git-clone",
+            "description": "Transfer motion from low-resolution AI-generated videos to ultra-high-resolution still images (up to 16K+).\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "theshubzworld",
+            "title": "ComfyUI-NvidiaVision [WIP]",
+            "reference": "https://github.com/theshubzworld/ComfyUI-NvidiaVision",
+            "files": [
+                "https://github.com/theshubzworld/ComfyUI-NvidiaVision"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for NVIDIA AI Vision and Text models\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "MadPonyInteractive",
+            "title": "ComfyUi-MpiNodes [WIP]",
+            "reference": "https://github.com/MadPonyInteractive/ComfyUi-MpiNodes",
+            "files": [
+                "https://github.com/MadPonyInteractive/ComfyUi-MpiNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Mpi Batch Text Replace, Mpi Prompt Chain Selector, Mpi Preset Selector, Mpi Prompt Override Seed, Mpi If Else Probability Inverted, ...\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "fantaskiss",
+            "title": "ComfyUI-Qwen3_VQA_enhanced [WIP]",
+            "reference": "https://github.com/fantaskiss/ComfyUI-Qwen3_VQA_enhanced",
+            "files": [
+                "https://github.com/fantaskiss/ComfyUI-Qwen3_VQA_enhanced"
+            ],
+            "install_type": "git-clone",
+            "description": "Enhancement of the original qwen3_VQA node. Other functions remain unchanged, with only the automatic scanning of the prompt_generator folder added. No new node group is created; only additions and modifications are made to the original node group."
+        },
+        {
             "author": "pacchikAI",
             "title": "comfyui_pacchik_window [UNSAFE]",
             "reference": "https://github.com/pacchikAI/comfyui_pacchik_window",

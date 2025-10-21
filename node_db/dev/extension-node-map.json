@@ -2749,6 +2749,65 @@
             "title_aux": "comfy-tif-support"
         }
     ],
+    "https://github.com/MadPonyInteractive/ComfyUi-MpiNodes": [
+        [
+            "MpiAddImageToList",
+            "MpiAnyInvSwitch",
+            "MpiAnySwitch",
+            "MpiAspectRatio",
+            "MpiBatchTextReplace",
+            "MpiBoolean",
+            "MpiBooleanCompare",
+            "MpiCombo",
+            "MpiCombo1",
+            "MpiCombo10",
+            "MpiCombo2",
+            "MpiCombo3",
+            "MpiCombo4",
+            "MpiCombo5",
+            "MpiCombo6",
+            "MpiCombo7",
+            "MpiCombo8",
+            "MpiCombo9",
+            "MpiComboMaker",
+            "MpiDisplayPrompt",
+            "MpiDoubleLora",
+            "MpiDummyToggleNode",
+            "MpiDynamicCombo",
+            "MpiFromCheckpoint",
+            "MpiHasOptions",
+            "MpiIfElse",
+            "MpiIfElseInverted",
+            "MpiIfElseProbability",
+            "MpiIfElseProbabilityInverted",
+            "MpiJsonLoad",
+            "MpiJsonSave",
+            "MpiLoraModel",
+            "MpiLoraSwitch",
+            "MpiNormalizeValue",
+            "MpiPromptBridge",
+            "MpiPromptChainSelector",
+            "MpiPromptList",
+            "MpiPromptListJoin",
+            "MpiPromptListSelector",
+            "MpiPromptOverride",
+            "MpiPromptOverrideSeed",
+            "MpiPromptProcessor",
+            "MpiRandPromptGen",
+            "MpiRandPromptGenOrder",
+            "MpiRandPromptGenOverrideList",
+            "MpiRandPromptGenOverrideSection",
+            "MpiRandPromptGenSave",
+            "MpiStringInvSwitch",
+            "MpiSubGraphTest",
+            "MpiTextListJoin",
+            "MpiTextListReplace",
+            "MpiToChekPoint"
+        ],
+        {
+            "title_aux": "ComfyUi-MpiNodes [WIP]"
+        }
+    ],
     "https://github.com/Madygnomo/ComfyUI-NanoBanana-ImageGenerator": [
         [
             "Google-Gemini"
@@ -3459,6 +3518,7 @@
     ],
     "https://github.com/RomanticQq/ComfyUI-Groudingdino-Sam": [
         [
+            "grounded_sam2_cut",
             "grounded_sam2_cut_gaussian",
             "groundingdino"
         ],
@@ -6634,6 +6694,18 @@
         ],
         {
             "title_aux": "comfyuinode_chopmask [WIP]"
+        }
+    ],
+    "https://github.com/fantaskiss/ComfyUI-Qwen3_VQA_enhanced": [
+        [
+            "ImageLoader",
+            "MultiplePathsInput",
+            "Qwen3_VQA",
+            "Qwen3_VQA_Enhanced",
+            "VideoLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-Qwen3_VQA_enhanced [WIP]"
         }
     ],
     "https://github.com/filipemeneses/ComfyUI_html": [
@@ -10837,6 +10909,15 @@
         ],
         {
             "title_aux": "_topfun_s_nodes"
+        }
+    ],
+    "https://github.com/theshubzworld/ComfyUI-NvidiaVision": [
+        [
+            "\u2728 NVIDIA Prompt Generator (Text) \u2728",
+            "\ud83d\udc41\ufe0f\u200d\ud83d\udde8\ufe0f NVIDIA Vision Node \ud83d\udc41\ufe0f\u200d\ud83d\udde8\ufe0f"
+        ],
+        {
+            "title_aux": "ComfyUI-NvidiaVision [WIP]"
         }
     ],
     "https://github.com/threadedblue/MLXnodes": [
