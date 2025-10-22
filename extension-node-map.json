@@ -1852,6 +1852,7 @@
             "CharacterFeatureSwapNode",
             "GroupExecutorManager",
             "GroupExecutorTrigger",
+            "ImageCacheGet",
             "MultiCharacterEditorNode",
             "PromptSelector"
         ],
@@ -4579,8 +4580,10 @@
             "DynamicLatentSwitch",
             "DynamicModelswitch",
             "DynamicVAESwitch",
+            "EmptyFolderCleaner",
             "EvaluaterNode",
             "FallbackTextSwitch",
+            "FileSorterNode",
             "FilterImages",
             "GeminiAPI",
             "GeminiAudioAnalyzer",
@@ -4591,6 +4594,7 @@
             "LoraDBBuilder",
             "LoraTriggerLookup",
             "MasterKey",
+            "MediaMigratorNode",
             "Modelswitch",
             "PeopleEvaluationNode",
             "PromptGenerator",
@@ -11026,6 +11030,7 @@
             "CalcEmbeds",
             "CompareEmbeds",
             "Cond2Embeds",
+            "EditDB",
             "EmbedsInfo",
             "GenerateDB",
             "ImageSearcher",
@@ -11329,7 +11334,8 @@
             "LLMModelLoader",
             "LLMTextEncoder",
             "T5GEMMALoader",
-            "T5GEMMATextEncoder"
+            "T5GEMMATextEncoder",
+            "t5gemmaApplyLLMToSDXLAdapter"
         ],
         {
             "title_aux": "ComfyUI LLM SDXL Adapter"
@@ -18785,6 +18791,14 @@
         ],
         {
             "title_aux": "ComfyUI-Phi"
+        }
+    ],
+    "https://github.com/alibof96/ComfyUI-DownscaleIRN": [
+        [
+            "IRNDownscale"
+        ],
+        {
+            "title_aux": "ComfyUI-DownscaleIRN"
         }
     ],
     "https://github.com/alisson-anjos/ComfyUI-Ollama-Describer": [
@@ -27445,6 +27459,7 @@
         [
             "MergeTextsWithGap",
             "Pilcothink-RAG",
+            "RemoveSpecificPatterns",
             "SLMGenerator",
             "SLMModelSelector",
             "SLMVisionGenerator",
@@ -33863,8 +33878,8 @@
             "AnyToHash",
             "AnyToHashMulti",
             "CacheAny",
-            "OffloadModel",
-            "RecallModel",
+            "OffloadModelv2",
+            "RecallModelv2",
             "RerouteTriggerable",
             "Wait",
             "WaitMulti"
@@ -38628,6 +38643,7 @@
         [
             "PVL Call OpenAI Assistant",
             "PVL ComfyDeploy API Caller",
+            "PVL Compare",
             "PVL KONTEXT MAX",
             "PVLCheckIfConnected",
             "PVL_Any2String",
@@ -43057,6 +43073,8 @@
             "CaptureWebcam",
             "ComfyCoupleMask",
             "ComfyCoupleRegion",
+            "ComfyCoupleRegionExtractor",
+            "ComfyCoupleRegionVisualizer",
             "Depth to normal",
             "Direct Screen Capture",
             "Export glb",
@@ -44134,6 +44152,15 @@
         ],
         {
             "title_aux": "ComfyUI-SageAttention3"
+        }
+    ],
+    "https://github.com/wallen0322/ComfyUI-WanAnimate-Enhancer": [
+        [
+            "WanAnimateModelEnhancer",
+            "WanAnimateToVideoEnhanced"
+        ],
+        {
+            "title_aux": "ComfyUI-WanAnimate-Enhancer"
         }
     ],
     "https://github.com/wallish77/wlsh_nodes": [
