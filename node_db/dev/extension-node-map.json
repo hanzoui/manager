@@ -1258,8 +1258,10 @@
             "VTS Convert Latents",
             "VTS Count Characters",
             "VTS Create Character Mask",
+            "VTS Delete Saved Images",
             "VTS Fix Image Tags",
             "VTS Image Composite Masked",
+            "VTS Image Composite Masked Old",
             "VTS Image To Disk",
             "VTS Image Upscale With Model",
             "VTS Images Crop From Masks",
@@ -5664,6 +5666,7 @@
             "Gen3C_DatasetValidator",
             "Gen3C_PoseDepth_FromImages",
             "Gen3C_PoseDepth_FromVideo",
+            "Gen3C_PoseRecovery",
             "Gen3C_QualityFilter",
             "Gen3C_TrajectoryPreview",
             "Gen3C_TrajectoryQualityAnalysis",
@@ -10402,6 +10405,7 @@
     ],
     "https://github.com/silveroxides/ComfyUI_CondsUtils": [
         [
+            "InsertAttnConds",
             "InsertTEConds",
             "LoadReduxEmb",
             "LoadTEConds",
@@ -10414,6 +10418,7 @@
     ],
     "https://github.com/silveroxides/ComfyUI_ReduxEmbedToolkit": [
         [
+            "InsertAttnConds",
             "InsertTEConds",
             "LoadReduxEmb",
             "LoadTEConds",
@@ -10571,6 +10576,7 @@
     ],
     "https://github.com/sprited-ai/sprited-comfyui-nodes": [
         [
+            "LoopExtractorNodeV2",
             "LoopMomentumNode",
             "LoopTrimNode",
             "PixelRGBStats",
@@ -10948,6 +10954,7 @@
     ],
     "https://github.com/tmode-1960/comfyui-ta-nodes-pack": [
         [
+            "TAClearPrompt",
             "TALoadCheckpointModelWithName",
             "TALoadDiffusionModelWithName",
             "TALoadGGUFModelWithName"

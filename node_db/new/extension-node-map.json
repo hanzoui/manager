@@ -1851,6 +1851,7 @@
         [
             "CharacterFeatureSwapNode",
             "GroupExecutorManager",
+            "GroupExecutorTrigger",
             "MultiCharacterEditorNode",
             "PromptSelector"
         ],
@@ -6529,6 +6530,7 @@
             "EncryptWatermark",
             "GetResolutionForVR",
             "ImageVRConverter",
+            "LinearFade",
             "LoadImageWithFilename",
             "RegexSubstitute",
             "SaveAudioSimple",
@@ -8003,6 +8005,7 @@
     "https://github.com/Isi-dev/ComfyUI-Animation_Nodes_and_Workflows": [
         [
             "CLIPTextEncodeStyles",
+            "ComputePadding",
             "JoinVideos",
             "MakeDrivingVideoForLivePortrait",
             "MakePortraitWalk",
@@ -10522,11 +10525,15 @@
     ],
     "https://github.com/Maxed-Out-99/ComfyUI-MaxedOut": [
         [
+            "CombineVideos_MXD",
             "Crop Image By Mask",
             "Flux Empty Latent Image",
             "Flux Image Scale To Total Pixels (Flux Safe)",
             "Flux Resolution Selector",
             "FluxResolutionMatcher",
+            "Frames_Remove_From_Start_MXD",
+            "Frames_Select_End_MXD",
+            "GroupVideoFramesMXD",
             "Image Scale To Total Pixels (SDXL Safe)",
             "LatentHalfMasks",
             "Load Image Batch MXD",
@@ -10535,10 +10542,12 @@
             "LoadLatent_WithParams",
             "LoadLatents_FromFolder_I2V_MXD",
             "LoadLatents_FromFolder_WithParams",
+            "LoadVideoMXD",
             "Place Image By Mask",
             "Prompt With Guidance (Flux)",
             "SaveLatentMXD",
             "SaveLatent_I2V_MXD",
+            "SaveVideoMXD",
             "Sdxl Empty Latent Image",
             "Sdxl Resolution Selector",
             "WAN22_I2V_Image_Scaler_MXD",
@@ -11943,7 +11952,8 @@
             "PiePiePreviewImage",
             "PiePieResolutionFromMegapixels",
             "PiePieResolutionPicker",
-            "PiePieTextConcatenate"
+            "PiePieTextConcatenate",
+            "PiePie_Lucidflux"
         ],
         {
             "title_aux": "PiePieTweaks"
@@ -13070,6 +13080,7 @@
         [
             "ExcludedLoras",
             "ExtractAndApplyLoRAs",
+            "ListSelector",
             "LoRACachePreloader",
             "PromptListWithTemplates",
             "RandomLoRACustom",
@@ -13236,6 +13247,7 @@
     ],
     "https://github.com/Sean-Bradley/ComfyUI-Voice-Clone": [
         [
+            "DetectWatermarkNode",
             "VoiceCloneNode"
         ],
         {
@@ -14266,7 +14278,8 @@
     ],
     "https://github.com/SquirrelRat/MultiString-Prompts": [
         [
-            "MultiStringPrompts"
+            "MultiStringPrompts",
+            "MultiStringPromptsEncode"
         ],
         {
             "title_aux": "MultiString Prompts"
@@ -24055,6 +24068,7 @@
         [
             "AnythingToString",
             "Concatenate",
+            "CountFilesInDirectory",
             "GetNewFileIndex",
             "PadZeroes"
         ],
@@ -24755,6 +24769,8 @@
     ],
     "https://github.com/diffussy69/comfyui-curved_weight_schedule": [
         [
+            "AutoBackgroundMask",
+            "AutoPersonMask",
             "CurvedTimestepKeyframes",
             "MaskSymmetryTool",
             "MultiMaskStrengthCombiner",
@@ -26929,10 +26945,10 @@
     ],
     "https://github.com/geltz/ComfyUI-geltz": [
         [
+            "AttentionShuffleGuidanceModelPatch",
             "DIL2_EmptyLatent",
             "DIL_EmptyLatent",
             "QMS",
-            "RegionalSplitSampler",
             "SWS",
             "tokenteller",
             "vectorpusher"
@@ -27272,6 +27288,7 @@
     "https://github.com/gokayfem/ComfyUI-fal-API": [
         [
             "CombinedVideoGeneration_fal",
+            "Dreamina31TextToImage_fal",
             "FluxDev_fal",
             "FluxGeneral_fal",
             "FluxLoraTrainer_fal",
@@ -27299,8 +27316,10 @@
             "MiniMaxTextToVideo_fal",
             "MiniMax_fal",
             "NanoBananaEdit_fal",
+            "NanoBananaTextToImage_fal",
             "QwenImageEdit_fal",
             "Recraft_fal",
+            "ReveTextToImage_fal",
             "RunwayGen3_fal",
             "Sana_fal",
             "SeedEditV3_fal",
@@ -28562,6 +28581,7 @@
     ],
     "https://github.com/hujuying/ComfyUI-ModelScope-API": [
         [
+            "ModelScopeImageCaptionNode",
             "ModelScopeImageEditNode",
             "ModelScopeImageNode",
             "ModelScopeTextNode",
@@ -32025,6 +32045,7 @@
             "LynxEncodeFaceIP",
             "LynxInsightFaceCrop",
             "MTVCrafterEncodePoses",
+            "MochaEmbeds",
             "MultiTalkModelLoader",
             "MultiTalkSilentEmbeds",
             "MultiTalkWav2VecEmbeds",
@@ -38286,6 +38307,8 @@
             "CRT_DynamicPromptScheduler",
             "CRT_FileBatchPromptScheduler",
             "CRT_QuantizeAndCropImage",
+            "CRT_StringBatcher",
+            "CRT_StringSplitter",
             "CRT_UpscaleModelAdv",
             "CRT_WAN_BatchSampler",
             "ClarityFX",
@@ -43032,13 +43055,20 @@
     "https://github.com/toyxyz/ComfyUI_toyxyz_test_nodes": [
         [
             "CaptureWebcam",
+            "ComfyCoupleMask",
+            "ComfyCoupleRegion",
             "Depth to normal",
             "Direct Screen Capture",
             "Export glb",
             "ImageResize_Padding",
+            "JoinPose",
             "LatentDelay",
             "Load Random Text From File",
             "LoadWebcamImage",
+            "OpenposeEditorNode",
+            "PoseKeypointToCoordStr",
+            "PoseToMaskNode",
+            "Pose_Inter",
             "Remove noise",
             "SaveImagetoPath",
             "VisualAreaMask"
@@ -43657,7 +43687,6 @@
     "https://github.com/vanche1212/ComfyUI-ZMG-Nodes": [
         [
             "API Request Node",
-            "Elasticsearch Update Node",
             "Empty Image Node",
             "JSON Builder Node",
             "JSON Parser Node",

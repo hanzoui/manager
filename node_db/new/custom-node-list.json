@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "l33chking",
+            "title": "ComfyUI Channel Ops",
+            "id": "ComfyUI-Channel-Ops",
+            "reference": "https://github.com/L33chKing/ComfyUI_Channel_Ops",
+            "files": [
+                "https://github.com/L33chKing/ComfyUI_Channel_Ops"
+            ],
+            "install_type": "git-clone",
+            "description": "Comfyui custom node that modifies image channels with various per-channel operations"
+        },
+        {
             "author": "geltz",
             "title": "ComfyUI-geltz",
             "reference": "https://github.com/geltz/ComfyUI-geltz",
@@ -690,46 +701,6 @@
             ],
             "install_type": "git-clone",
             "description": "Freely call APIs in ComfyUI"
-        },
-        {
-            "author": "lihaoyun6",
-            "title": "ComfyUI-Segformer_Ultra_Fast",
-            "reference": "https://github.com/lihaoyun6/ComfyUI-Segformer_Ultra_Fast",
-            "files": [
-                "https://github.com/lihaoyun6/ComfyUI-Segformer_Ultra_Fast"
-            ],
-            "install_type": "git-clone",
-            "description": "Run Segformer at lightning speed for image/video segmentation."
-        },
-        {
-            "author": "jonstreeter",
-            "title": "ComfyUI — Compressed Metadata",
-            "reference": "https://github.com/jonstreeter/comfyui-compressed-metadata",
-            "files": [
-                "https://github.com/jonstreeter/comfyui-compressed-metadata"
-            ],
-            "install_type": "git-clone",
-            "description": "Load & save ComfyUI workflows embedded in image metadata — with optional zlib+base64 compression for JPEG/WEBP — and batch convert folders. PNG drops still work natively; JPEG/WEBP with compressed workflows are handled by this extension."
-        },
-        {
-            "author": "leeooo001",
-            "title": "comfyui-Hunyuan-PromptEnhancer",
-            "reference": "https://github.com/leeooo001/comfyui-Hunyuan-PromptEnhancer",
-            "files": [
-                "https://github.com/leeooo001/comfyui-Hunyuan-PromptEnhancer"
-            ],
-            "install_type": "git-clone",
-            "description": "Unofficial wrapper for Hunyuan PromptEnhancer"
-        },
-        {
-            "author": "PatrickBorkowicz",
-            "title": "ComfyUI-ImmichUploader",
-            "reference": "https://github.com/PatrickBorkowicz/ComfyUI-ImmichUploader",
-            "files": [
-                "https://github.com/PatrickBorkowicz/ComfyUI-ImmichUploader"
-            ],
-            "install_type": "git-clone",
-            "description": "Upload images (directly from your graph) and files (e.g., videos written to disk) to Immich."
         }
     ]
 }
