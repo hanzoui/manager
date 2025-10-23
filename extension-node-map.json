@@ -6587,13 +6587,17 @@
             "EncryptWatermark",
             "GetResolutionForVR",
             "ImageVRConverter",
+            "IncrementDirectoryImageLoader",
             "LinearFade",
             "LoadImageWithFilename",
+            "LoadSingleImageByFilename",
+            "LoopWhileNotFinished",
             "RegexSubstitute",
             "SaveAudioSimple",
             "SaveStrippedUTF8File",
             "ScaleByFactor",
             "ScaleToResolution",
+            "StartLoopTrigger",
             "StripXML",
             "VRwearePause",
             "VRwearePauseLatent",
@@ -12405,6 +12409,14 @@
         ],
         {
             "title_aux": "ComfyUI-RED-UNO"
+        }
+    ],
+    "https://github.com/QuietNoise/comfyui_queue_manager": [
+        [
+            "Workflow Name"
+        ],
+        {
+            "title_aux": "ComfyUI Queue Manager"
         }
     ],
     "https://github.com/R5-Revo/llm-node-comfyui": [
@@ -37814,6 +37826,7 @@
         [
             "AIHubActionNewAudio",
             "AIHubActionNewAudioSegment",
+            "AIHubActionNewFrames",
             "AIHubActionNewImage",
             "AIHubActionNewImageBatch",
             "AIHubActionNewLatent",
@@ -37830,6 +37843,7 @@
             "AIHubExposeCfg",
             "AIHubExposeExtendableScheduler",
             "AIHubExposeFloat",
+            "AIHubExposeFrame",
             "AIHubExposeImage",
             "AIHubExposeImageBatch",
             "AIHubExposeImageInfoOnly",
