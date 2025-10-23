@@ -3325,6 +3325,26 @@
             "title_aux": "ComfyUI-HFTransformers"
         }
     ],
+    "https://github.com/PauldeLavallaz/ComfyUI-concat_images_to_api_gemini": [
+        [
+            "ConcatImagesToAPIGeminiMPOnly",
+            "ConcatTwoImagesRaw",
+            "GridCollageARCols"
+        ],
+        {
+            "title_aux": "ComfyUI-concat_images_to_api_gemini"
+        }
+    ],
+    "https://github.com/PauldeLavallaz/comfyui_morpheus_NanoBanana_Mask": [
+        [
+            "MorpheusBatchImagesCropV25Fix",
+            "MorpheusImageEditingPrompt",
+            "MorpheusNanoBananaMaskGeminiV25Fix"
+        ],
+        {
+            "title_aux": "ComfyUI-concat_images_to_api_gemini [WIP]"
+        }
+    ],
     "https://github.com/PeterMikhai/Doom_Flux_NodePack": [
         [
             "DoomFluxInpaintSampler",
@@ -6216,6 +6236,14 @@
         ],
         {
             "title_aux": "deepseek_prompt_generator_comfyui [WIP]"
+        }
+    ],
+    "https://github.com/content-and-code/ComfyUI-SimpleCSVParse": [
+        [
+            "SimpleCSVParser"
+        ],
+        {
+            "title_aux": "Simple CSV Parser [UNSAFE]"
         }
     ],
     "https://github.com/corbin-hayden13/ComfyUI-Better-Dimensions": [
@@ -9910,6 +9938,21 @@
             "title_aux": "ComfyUI-AI_Tools [UNSAFE]"
         }
     ],
+    "https://github.com/rafacost/rafacost-comfy": [
+        [
+            "DreamOmni2ConditioningBatch",
+            "DreamOmni2ConditioningCombine",
+            "DreamOmni2GGUF",
+            "DreamOmni2MultiImageBatch",
+            "DreamOmni2VLMLoaderGGUF"
+        ],
+        {
+            "author": "rafacost",
+            "description": "Nodes to use the DreamOmni2 GGUF models in ComfyUI.",
+            "title": "DreamOmni2-GGUF",
+            "title_aux": "ComfyUI-DreamOmni2-GGUF [WIP]"
+        }
+    ],
     "https://github.com/rakete/comfyui-rakete": [
         [
             "rakete.BuildString",
@@ -11577,6 +11620,14 @@
         ],
         {
             "title_aux": "ComfyUI-CombineVideoAndSubtitle"
+        }
+    ],
+    "https://github.com/xuchenxu168/Comfyui_Prompt_Edit": [
+        [
+            "Prompt_Edit"
+        ],
+        {
+            "title_aux": "ComfyUI-DreamOmni2-GGUF [WIP]"
         }
     ],
     "https://github.com/xzuyn/ComfyUI-xzuynodes": [

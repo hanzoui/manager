@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "promptingpixels",
+            "title": "ComfyUI-DreamOmni2-GGUF [WIP]",
+            "reference": "https://github.com/xuchenxu168/Comfyui_Prompt_Edit",
+            "files": [
+                "https://github.com/xuchenxu168/Comfyui_Prompt_Edit"
+            ],
+            "install_type": "git-clone",
+            "description": "Prompt Edit is a custom node for ComfyUI that allows you to pause workflow execution, edit text prompts, and then continue. This is very useful for scenarios where you need to dynamically adjust prompts during the generation process.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "promptingpixels",
+            "title": "ComfyUI-DreamOmni2-GGUF [WIP]",
+            "reference": "https://github.com/rafacost/rafacost-comfy",
+            "files": [
+                "https://github.com/rafacost/rafacost-comfy"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node to run DreamOmni2 GGUF models directly in ComfyUI."
+        },
+        {
+            "author": "promptingpixels",
+            "title": "Simple CSV Parser [UNSAFE]",
+            "reference": "https://github.com/content-and-code/ComfyUI-SimpleCSVParse",
+            "files": [
+                "https://github.com/content-and-code/ComfyUI-SimpleCSVParse"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for parsing CSV files with positive and negative prompts[w/This node pack includes an endpoint that access files from arbitrary paths.]"
+        },
+        {
+            "author": "PauldeLavallaz",
+            "title": "ComfyUI-concat_images_to_api_gemini [WIP]",
+            "reference": "https://github.com/PauldeLavallaz/comfyui_morpheus_NanoBanana_Mask",
+            "files": [
+                "https://github.com/PauldeLavallaz/comfyui_morpheus_NanoBanana_Mask"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Morpheus · Batch Images + crop image, Morpheus · NanoBanana Mask, Morpheus · Image Editing Prompt, ...\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "PauldeLavallaz",
+            "title": "ComfyUI-concat_images_to_api_gemini",
+            "reference": "https://github.com/PauldeLavallaz/ComfyUI-concat_images_to_api_gemini",
+            "files": [
+                "https://github.com/PauldeLavallaz/ComfyUI-concat_images_to_api_gemini"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Concat Images → Gemini (MP only), Concat Two Images (RAW passthrough), Grid Collage AR Cols, ..."
+        },
+        {
             "author": "silveroxides",
             "title": "ComfyUI_PromptAttention [WIP]",
             "reference": "https://github.com/silveroxides/ComfyUI_PromptAttention",
