@@ -1896,6 +1896,7 @@
             "GroupMuteManager",
             "ImageCacheGet",
             "MultiCharacterEditorNode",
+            "PromptCleaningMaid",
             "PromptSelector",
             "ResolutionMasterSimplify"
         ],
@@ -2513,12 +2514,12 @@
     ],
     "https://github.com/ApexArtist/comfyui-apex-artist": [
         [
-            "ApexAutoPrompt",
             "ApexBatchInfo",
             "ApexBlur",
             "ApexDepthToNormal",
             "ApexGetFrame",
             "ApexLastFrame",
+            "ApexLatentNoise",
             "ApexLayerBlend",
             "ApexLoadImage",
             "ApexPromptPreset",
@@ -7737,11 +7738,9 @@
     "https://github.com/Hullabalo/ComfyUI-Loop": [
         [
             "ImageCropLoop",
-            "ImageCutLoop",
             "ImagePasteLoop",
-            "LoadImageSimple",
-            "LoopImageSimple",
-            "SaveImageSimple"
+            "LoopAny",
+            "SaveAny"
         ],
         {
             "title_aux": "ComfyUI-Loop"
@@ -9344,14 +9343,18 @@
         [
             "Client",
             "Effects",
+            "Image Expander",
             "Image Generator",
             "Image2Video",
+            "KLingAI Preview Audio",
             "KLingAI Preview Video",
             "Lip Sync",
             "Lip Sync Audio Input",
             "Lip Sync Text Input",
+            "Text2Audio",
             "Text2Video",
-            "Video Extend",
+            "Video Extender",
+            "Video2Audio",
             "Virtual Try On"
         ],
         {
@@ -12740,9 +12743,12 @@
             "Runware Image Masking",
             "Runware Image Upscaler",
             "Runware Imagen Inference",
+            "Runware Input Audios",
             "Runware Kontext Inference",
+            "Runware Lightricks Provider Settings",
             "Runware Lora Combine",
             "Runware Lora Search",
+            "Runware Media Upload",
             "Runware Model Search",
             "Runware Multi Inference",
             "Runware OpenAI Provider Settings",
@@ -12751,17 +12757,26 @@
             "Runware Pixverse Provider Settings",
             "Runware Provider Settings",
             "Runware Reference Images",
+            "Runware Reference Videos",
             "Runware Refiner",
             "Runware VAE Search",
+            "Runware Vectorize",
+            "Runware Video Background Removal",
             "Runware Video Inference",
+            "Runware Video Inference Inputs",
             "Runware Video Model Search",
+            "Runware Video Upscaler",
             "Runware Vidu Provider Settings",
             "RunwareBriaProviderSettings",
             "RunwareBytedanceProviderSettings",
             "RunwareFrameImages",
+            "RunwareLightricksProviderSettings",
             "RunwareOpenAIProviderSettings",
             "RunwarePixverseProviderSettings",
             "RunwareProviderSettings",
+            "RunwareVectorize",
+            "RunwareVideoBgRemoval",
+            "RunwareVideoUpscaler",
             "txt2vid"
         ],
         {
@@ -13353,7 +13368,8 @@
     "https://github.com/Sean-Bradley/ComfyUI-Voice-Clone": [
         [
             "DetectWatermarkNode",
-            "VoiceCloneNode"
+            "VoiceCloneNode",
+            "VoiceReplaceNode"
         ],
         {
             "title_aux": "ComfyUI Voice Clone"
@@ -14379,6 +14395,16 @@
         ],
         {
             "title_aux": "ComfyUI-FunAudioLLM"
+        }
+    ],
+    "https://github.com/Spin256/spin256-comfyui": [
+        [
+            "Spin256IntSelector",
+            "Spin256SizeSelector",
+            "Spin256StringSelector"
+        ],
+        {
+            "title_aux": "spin256-comfyui"
         }
     ],
     "https://github.com/SquirrelRat/MultiString-Prompts": [
@@ -18449,6 +18475,7 @@
             "Comfly_qwen_image",
             "Comfly_qwen_image_edit",
             "Comfly_sora2",
+            "Comfly_sora2_chat",
             "Comfly_suno_custom",
             "Comfly_suno_description",
             "Comfly_suno_lyrics",
@@ -26386,6 +26413,7 @@
             "FL_ImageDimensionDisplay",
             "FL_ImageListToImageBatch",
             "FL_ImageNotes",
+            "FL_ImageOverlay",
             "FL_ImagePixelator",
             "FL_ImageRandomizer",
             "FL_ImageSelector",
@@ -27086,8 +27114,11 @@
             "AttentionShuffleGuidanceModelPatch",
             "DIL2_EmptyLatent",
             "DIL_EmptyLatent",
+            "KuwaharaBlur",
             "QMS",
             "SWS",
+            "TWS",
+            "VelocityScaling",
             "tokenteller",
             "vectorpusher"
         ],
@@ -33345,6 +33376,14 @@
             "title_aux": "ComfyUI-BlindWatermark"
         }
     ],
+    "https://github.com/lihaoyun6/ComfyUI-FlashVSR_Ultra_Fast": [
+        [
+            "FlashVSRNode"
+        ],
+        {
+            "title_aux": "ComfyUI-FlashVSR_Ultra_Fast"
+        }
+    ],
     "https://github.com/lihaoyun6/ComfyUI-QwenPromptRewriter": [
         [
             "GeneralPromptRewriter",
@@ -37496,7 +37535,8 @@
     "https://github.com/omixmaxdimo/OmiXDev": [
         [
             "OmixChatPro",
-            "OmixGeminiPro"
+            "OmixGeminiPro",
+            "ResolutionPresets"
         ],
         {
             "title_aux": "OmiXdev Custom Nodes"
@@ -41215,6 +41255,7 @@
     ],
     "https://github.com/siraxe/ComfyUI-WanVideoWrapper_QQ": [
         [
+            "CheckpointLoader_v2",
             "ImageBlend_GPU",
             "ImageRadialZoomBlur_GPU",
             "LoraExtractKJv2",
@@ -42235,6 +42276,7 @@
     ],
     "https://github.com/stavsap/comfyui-ollama": [
         [
+            "OllamaChat",
             "OllamaConnectivityV2",
             "OllamaGenerate",
             "OllamaGenerateAdvance",

@@ -8793,6 +8793,7 @@
             "LF_FilmGrain",
             "LF_Float",
             "LF_GaussianBlur",
+            "LF_GeminiAPI",
             "LF_GetRandomKeyFromJSON",
             "LF_GetValueFromJSON",
             "LF_ImageClassifier",
@@ -8862,6 +8863,7 @@
             "LF_SwitchImage",
             "LF_SwitchInteger",
             "LF_SwitchJSON",
+            "LF_SwitchMask",
             "LF_SwitchString",
             "LF_TiledSuperRes",
             "LF_TiltShift",
@@ -9940,11 +9942,7 @@
     ],
     "https://github.com/rafacost/rafacost-comfy": [
         [
-            "DreamOmni2ConditioningBatch",
-            "DreamOmni2ConditioningCombine",
-            "DreamOmni2GGUF",
-            "DreamOmni2MultiImageBatch",
-            "DreamOmni2VLMLoaderGGUF"
+            "DreamOmni2-VLM"
         ],
         {
             "author": "rafacost",
