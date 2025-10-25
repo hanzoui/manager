@@ -1898,7 +1898,8 @@
             "MultiCharacterEditorNode",
             "PromptCleaningMaid",
             "PromptSelector",
-            "ResolutionMasterSimplify"
+            "ResolutionMasterSimplify",
+            "SimpleImageCompare"
         ],
         {
             "title_aux": "ComfyUI-Danbooru-Gallery"
@@ -11442,15 +11443,20 @@
             "Image2ImageByAlpha",
             "Image2ImageCustom",
             "Image2ImageCustomAlpha",
+            "Image2ImageF1ContentNode",
+            "Image2VideoKlingNode(can`t use)",
             "MakeAuth",
             "MakeControlNet",
             "MakeHiResFix",
             "MakeLora",
             "MergeControlNet",
+            "MergeImageListNode",
             "MergeLora",
             "Text2ImageByAlpha",
             "Text2ImageCustom",
             "Text2ImageCustomAlpha",
+            "Text2ImageF1ContentNode",
+            "Text2VideoKlingNode",
             "UploadLibLib"
         ],
         {
@@ -12764,6 +12770,7 @@
             "Runware Video Background Removal",
             "Runware Video Inference",
             "Runware Video Inference Inputs",
+            "Runware Video Inputs References",
             "Runware Video Model Search",
             "Runware Video Upscaler",
             "Runware Vidu Provider Settings",
@@ -12776,6 +12783,7 @@
             "RunwareProviderSettings",
             "RunwareVectorize",
             "RunwareVideoBgRemoval",
+            "RunwareVideoInputsReferences",
             "RunwareVideoUpscaler",
             "txt2vid"
         ],
@@ -13202,6 +13210,7 @@
             "ExtractAndApplyLoRAs",
             "ListSelector",
             "LoRACachePreloader",
+            "ModelAssembler",
             "PromptListWithTemplates",
             "RandomLoRACustom",
             "RandomLoRAFolder",
@@ -18476,6 +18485,7 @@
             "Comfly_qwen_image_edit",
             "Comfly_sora2",
             "Comfly_sora2_chat",
+            "Comfly_sora2_openai",
             "Comfly_suno_custom",
             "Comfly_suno_description",
             "Comfly_suno_lyrics",
@@ -23717,14 +23727,6 @@
             "ThresholdMask",
             "TrainLoraNode",
             "TrimAudioDuration",
-            "TripoConversionNode",
-            "TripoImageToModelNode",
-            "TripoMultiviewToModelNode",
-            "TripoRefineNode",
-            "TripoRetargetNode",
-            "TripoRigNode",
-            "TripoTextToModelNode",
-            "TripoTextureNode",
             "UNETLoader",
             "USOStyleReference",
             "VAEDecode",
@@ -27115,6 +27117,7 @@
             "DIL2_EmptyLatent",
             "DIL_EmptyLatent",
             "KuwaharaBlur",
+            "ORBITModelMerge",
             "QMS",
             "SWS",
             "TWS",
@@ -32435,6 +32438,7 @@
             "RC_SaveImageNoMetadata",
             "RC_SaveImageWithMetadata",
             "RC_Sharpen",
+            "RC_ShineRemoval",
             "RC_Stroke",
             "RC_Threshold",
             "RC_Vibrance"
@@ -32803,6 +32807,16 @@
         {
             "nodename_pattern": "^\ud83e\udd16 Leon",
             "title_aux": "Leon's Utility and API Integration Nodes"
+        }
+    ],
+    "https://github.com/lakkiy/ComfyUI-RWImageS3": [
+        [
+            "Is Mask Empty",
+            "Read Image From S3",
+            "Save Image To S3"
+        ],
+        {
+            "title_aux": "ComfyUI-RWImageS3"
         }
     ],
     "https://github.com/laksjdjf/Batch-Condition-ComfyUI": [
@@ -35235,18 +35249,6 @@
         ],
         {
             "title_aux": "ComfyUI Globetrotter Nodes"
-        }
-    ],
-    "https://github.com/manycore-maas/ComfyUI-SpatialGen": [
-        [
-            "AnysplatInference",
-            "SpatialGenInference",
-            "SpatialGenModelLoader",
-            "SpatialGenP3DRender",
-            "SpatialGenSceneUI"
-        ],
-        {
-            "title_aux": "ComfyUI-SpatialGen"
         }
     ],
     "https://github.com/mape/ComfyUI-mape-Helpers": [
@@ -38392,7 +38394,10 @@
             "MF_LogReader",
             "MF_Modulo",
             "MF_ModuloAdvanced",
+            "MF_ReadData",
+            "MF_SaveData",
             "MF_ShotHelper",
+            "MF_ShowData",
             "MF_StoryDriver"
         ],
         {
@@ -38843,13 +38848,17 @@
             "PVL_Comfydeploy_Avatar_PulID_API",
             "PVL_Crop2AR",
             "PVL_EdgeExtend",
+            "PVL_FlowMatchEulerSigmas",
             "PVL_Gemini_API",
+            "PVL_Gemini_API_Multi",
             "PVL_Gemini_API_avatar_special",
             "PVL_Google_NanoBanana_API",
             "PVL_Google_NanoBanana_API_mandatory_IMG",
             "PVL_Google_NanoBanana_Multi_API",
+            "PVL_ImageComposite",
             "PVL_ImageResize",
             "PVL_ImageStitch",
+            "PVL_Image_Translation_Offset",
             "PVL_Math",
             "PVL_MathCondition",
             "PVL_NoneOutputNode",
@@ -41171,6 +41180,7 @@
             "AV_ControlNetEfficientStackerSimple",
             "AV_ControlNetLoader",
             "AV_ControlNetPreprocessor",
+            "AV_GeminiApi",
             "AV_LLMApiConfig",
             "AV_LLMChat",
             "AV_LLMCompletion",
@@ -41178,7 +41188,9 @@
             "AV_LoraListLoader",
             "AV_LoraListStacker",
             "AV_LoraLoader",
+            "AV_NanoBananaApiConfig",
             "AV_OpenAIApi",
+            "AV_OpenRouterApi",
             "AV_ParametersPipeToCheckpointModels",
             "AV_ParametersPipeToPrompts",
             "AV_PromptsToParametersPipe",
@@ -43222,6 +43234,22 @@
             "title_aux": "ComfyUI-Prediction-Boost"
         }
     ],
+    "https://github.com/tmode-1960/TA-ComfyUI-Nodes-Pack": [
+        [
+            "TAEbuLMStudioLoadModel",
+            "TAEbuLMStudioUnload",
+            "TAEbuLMStudioVisionRequest",
+            "TALMStudioLoadOnRun",
+            "TALMStudioLoadedModels",
+            "TALMStudioModelSelector",
+            "TALoadCheckpointModelWithName",
+            "TALoadDiffusionModelWithName",
+            "TALoadGGUFModelWithName"
+        ],
+        {
+            "title_aux": "TA-ComfyUI-Nodes-Pack"
+        }
+    ],
     "https://github.com/tocubed/ComfyUI-AudioReactor": [
         [
             "AudioFrameTransformBeats",
@@ -43613,7 +43641,8 @@
             "ComfyBros_TextStorage",
             "ComfyBros_TextTemplate",
             "ComfyBros_TextToVideo",
-            "ComfyBros_WAN22GenerateVideo"
+            "ComfyBros_WAN22GenerateVideo",
+            "ComfyBros_WAN22UpscaleImage"
         ],
         {
             "title_aux": "ComfyBros - Custom ComfyUI Nodes"
@@ -44270,6 +44299,7 @@
     ],
     "https://github.com/vslinx/ComfyUI-vslinx-nodes": [
         [
+            "vsLinx_AppendLorasFromNodeToString",
             "vsLinx_BooleanAndOperator",
             "vsLinx_BooleanFlip",
             "vsLinx_BooleanOrOperator",
