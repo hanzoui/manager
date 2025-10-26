@@ -3379,6 +3379,24 @@
             "title_aux": "ComfyUI-Diffusion-SDXL-Video"
         }
     ],
+    "https://github.com/PopeyesBiscuit/ComfyUI-DeleteFolder": [
+        [
+            "DeleteInputFolder",
+            "DeleteOutputFolder"
+        ],
+        {
+            "title_aux": "ComfyUI Delete Folder Nodes [UNSAFE]"
+        }
+    ],
+    "https://github.com/PopeyesBiscuit/ComfyUI-WebSocketLoRAExporter": [
+        [
+            "SimpleLoRALoader",
+            "WebSocket_LoRA_Exporter"
+        ],
+        {
+            "title_aux": "ComfyUI-WebSocketLoRAExporter"
+        }
+    ],
     "https://github.com/Poseidon-fan/ComfyUI-fileCleaner": [
         [
             "Clean input and output file"
@@ -5959,9 +5977,6 @@
             "FreeU_V2",
             "GLIGENLoader",
             "GLIGENTextBoxApply",
-            "GeminiImageNode",
-            "GeminiInputFiles",
-            "GeminiNode",
             "GetImageSize",
             "GrowMask",
             "Hunyuan3Dv2Conditioning",
@@ -9948,12 +9963,13 @@
     ],
     "https://github.com/rafacost/rafacost-comfy": [
         [
-            "DreamOmni2-VLM"
+            "DreamOmni2-VLM",
+            "DreamOmni2_Output_Node"
         ],
         {
             "author": "rafacost",
             "description": "Nodes to use the DreamOmni2 GGUF models in ComfyUI.",
-            "title": "DreamOmni2-GGUF",
+            "title": "rafacostComfy Nodes",
             "title_aux": "ComfyUI-DreamOmni2-GGUF [WIP]"
         }
     ],
@@ -11947,6 +11963,14 @@
         ],
         {
             "title_aux": "comfyui_random_prompt_plugin [WIP]"
+        }
+    ],
+    "https://github.com/zRich/sam2_layer_node": [
+        [
+            "SAM2AutoLayer"
+        ],
+        {
+            "title_aux": "sam2_layer_node"
         }
     ],
     "https://github.com/zackabrams/ComfyUI-KeySyncWrapper": [

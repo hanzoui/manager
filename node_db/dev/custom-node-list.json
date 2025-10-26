@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "PopeyesBiscuit",
+            "title": "ComfyUI-WebSocketLoRAExporter",
+            "reference": "https://github.com/PopeyesBiscuit/ComfyUI-WebSocketLoRAExporter",
+            "files": [
+                "https://github.com/PopeyesBiscuit/ComfyUI-WebSocketLoRAExporter"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Simple LoRA Loader, ..."
+        },
+        {
+            "author": "PopeyesBiscuit",
+            "title": "ComfyUI Delete Folder Nodes [UNSAFE]",
+            "reference": "https://github.com/PopeyesBiscuit/ComfyUI-DeleteFolder",
+            "files": [
+                "https://github.com/PopeyesBiscuit/ComfyUI-DeleteFolder"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for clearing folders in the input or output folder."
+        },
+        {
+            "author": "hndrr",
+            "title": "Comfyui-SceneDetect [WIP]",
+            "reference": "https://github.com/hndrr/Comfyui-SceneDetect",
+            "files": [
+                "https://github.com/hndrr/Comfyui-SceneDetect"
+            ],
+            "install_type": "git-clone",
+            "description": "Comfyui-SceneDetect is a ComfyUI custom node that uses PySceneDetect to locate scene boundaries in a video and emit one representative frame per scene as an `IMAGE` batch. It also returns per-scene metadata as JSON (`STRING`) and the total number of detected scenes (`INT`)."
+        },
+        {
+            "author": "zRich",
+            "title": "sam2_layer_node",
+            "reference": "https://github.com/zRich/sam2_layer_node",
+            "files": [
+                "https://github.com/zRich/sam2_layer_node"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Sam2 Layer Extract"
+        },
+        {
             "author": "promptingpixels",
             "title": "ComfyUI-DreamOmni2-GGUF [WIP]",
             "reference": "https://github.com/xuchenxu168/Comfyui_Prompt_Edit",
