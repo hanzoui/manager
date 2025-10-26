@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Dehypnotic",
+            "title": "Dehypnotic Save nodes",
+            "reference": "https://github.com/Dehypnotic/comfyui-dehypnotic-save-nodes",
+            "files": [
+                "https://github.com/Dehypnotic/comfyui-dehypnotic-save-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Save toolkit for audio, image, and video: MP3 audio export with VBR/CBR options, multi-format image saving with workflow/thumbnail metadata, and video + frame encoding (MP4/MKV/WEBM/MOV) — all sharing whitelist-safe paths and rich placeholder templating."
+        },
+        {
             "author": "Blacksnowskill",
             "title": "BSS WD14 Batch Tagger",
             "reference": "https://github.com/BlackSnowSkill/wd14_batch_tagger",
@@ -680,26 +690,6 @@
             ],
             "install_type": "git-clone",
             "description": "This repository provides a custom node for ComfyUI to load diffusion models with musubi block-wise scaling."
-        },
-        {
-            "author": "ChristopherLuciano",
-            "title": "LucianoTools ComfyUI Suite",
-            "reference": "https://github.com/ChristopherLuciano/ComfyUI-LucianoTools",
-            "files": [
-                "https://github.com/ChristopherLuciano/ComfyUI-LucianoTools"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of useful user interface extensions for ComfyUI to improve workflow and provide helpful feedback."
-        },
-        {
-            "author": "m3rr",
-            "title": "h4 ToolKit",
-            "reference": "https://github.com/m3rr/h4_ToolKit",
-            "files": [
-                "https://github.com/m3rr/h4_ToolKit"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of useful user interface extensions for ComfyUI to improve workflow and provide helpful feedback."
         }
     ]
 }
