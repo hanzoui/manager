@@ -3421,6 +3421,15 @@
             "title_aux": "ComfyUI-PromptUtils"
         }
     ],
+    "https://github.com/BlackSnowSkill/wd14_batch_tagger": [
+        [
+            "BSS_LoadImagesFolder",
+            "BSS_WD14BatchTagger"
+        ],
+        {
+            "title_aux": "BSS WD14 Batch Tagger"
+        }
+    ],
     "https://github.com/BlackVortexAI/ComfyUI-BVortexNodes": [
         [
             "BV Conditional ImagePipe Splitter",
@@ -16518,6 +16527,16 @@
             "title_aux": "Save Image With Callback"
         }
     ],
+    "https://github.com/WWWEN8/ComfyUI-CCXManager": [
+        [
+            "CCXManager",
+            "CCXManagerCopy",
+            "CCXRepoUpdaterNode"
+        ],
+        {
+            "title_aux": "ComfyUI-CCXManager"
+        }
+    ],
     "https://github.com/WX-NPS1598/ComfyUI-Auto_Crop_By_NPS": [
         [
             "AutoCropByNPS"
@@ -27179,6 +27198,33 @@
         ],
         {
             "title_aux": "ComfyUI-FLUX-BFL-API"
+        }
+    ],
+    "https://github.com/geltz/ComfyUI-geltz": [
+        [
+            "ColorPaletteExtractor",
+            "DIL2_EmptyLatent",
+            "DIL_EmptyLatent",
+            "ImageMetadataExtractor",
+            "KuwaharaFilter",
+            "L0SmoothingFilter",
+            "LoadImageWithMetadata",
+            "LocalLaplacianFilter",
+            "LoraConfig",
+            "ORBITModelMerge",
+            "PerturbedAttentionDelta",
+            "QMS",
+            "SADAInfo",
+            "SADAModelPatch",
+            "SWS",
+            "Temperature Adjust",
+            "TokenDeltaPerturbation",
+            "VelocityScaling",
+            "tokenteller",
+            "vectorpusher"
+        ],
+        {
+            "title_aux": "ComfyUI-geltz"
         }
     ],
     "https://github.com/gemell1/ComfyUI_GMIC": [
