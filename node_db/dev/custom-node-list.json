@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "agxagi",
+            "title": "Autoregressive Transformer and Rolling Diffusion Sampler for ComfyUI [WIP]",
+            "reference": "https://github.com/agxagi/ComfyUI-GPT4o-Image-Gen-FLUX-DEV",
+            "files": [
+                "https://github.com/agxagi/ComfyUI-GPT4o-Image-Gen-FLUX-DEV"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that implements an Autoregressive Transformer and Rolling Diffusion-like Decoder using Black Forest Lab's Flux-Dev model for accurate text-to-image generation, similar to GPT-4o's image generation approach.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "APZmedia",
+            "title": "Joshua Brand Assets Loader [private]",
+            "reference": "https://github.com/APZmedia/Joshua-brand-assets-loader",
+            "files": [
+                "https://github.com/APZmedia/Joshua-brand-assets-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive brand asset loader for ComfyUI that handles logos, fonts, and color palettes with dual loading modes (API and manual)."
+        },
+        {
+            "author": "GoddessLabs",
+            "title": "ComfyUI-GoddessLabs-NodePack",
+            "reference": "https://github.com/GoddessLabs/ComfyUI-GoddessLabs-NodePack",
+            "files": [
+                "https://github.com/GoddessLabs/ComfyUI-GoddessLabs-NodePack"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node pack for ComfyUI This node pack helps to conveniently enhance images through Detector, Detailer, Upscaler, Pipe, and more."
+        },
+        {
             "author": "Beinsezii",
             "title": "DEET: Diffusion Entropy Equalization Transform [WIP]",
             "reference": "https://github.com/Beinsezii/DEET",

@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "NeoDroleDeGueule",
+            "title": "comfyui-image-mixer",
+            "reference": "https://github.com/NeoDroleDeGueule/comfyui-image-mixer [REMOVED]",
+            "files": [
+                "https://github.com/NeoDroleDeGueule/comfyui-image-mixer"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that blends two images in latent space using a mix factor slider."
+        },
+        {
+            "author": "Glarus-akash",
+            "title": "ComfyUI_Image_Upscaler [REMOVED]",
+            "reference": "https://github.com/Glarus-akash/ComfyUI_Image_Upscaler",
+            "files": [
+                "https://github.com/Glarus-akash/ComfyUI_Image_Upscaler"
+            ],
+            "install_type": "git-clone",
+            "description": "Welcome to the Image Upscaler & Restorer project! This tool utilizes the [a/GFPGAN](https://github.com/TencentARC/GFPGAN) algorithm to enhance and restore images, providing a seamless way to improve image quality."
+        },
+        {
+            "author": "styletransfer",
+            "title": "Sequential Group Controller for ComfyUI [REMOVED]",
+            "reference": "https://github.com/styletransfer/ComfyUI_SequentialGroupController",
+            "files": [
+                "https://github.com/styletransfer/ComfyUI_SequentialGroupController"
+            ],
+            "install_type": "git-clone",
+            "description": "Control which groups execute based on iteration ranges - a simplified alternative to complex conditional branching workflows."
+        },
+        {
             "author": "xl0",
             "title": "q_tools [REMOVED]",
             "reference": "https://github.com/xl0/q_tools",

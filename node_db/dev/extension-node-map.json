@@ -641,6 +641,26 @@
             "title_aux": "YANC- Yet Another Node Collection"
         }
     ],
+    "https://github.com/APZmedia/Joshua-brand-assets-loader": [
+        [
+            "APZmediaBrandAssetLoader",
+            "APZmediaBrandAssetReader",
+            "APZmediaColorPalette",
+            "APZmediaColorPaletteSelector",
+            "APZmediaFontSelector",
+            "APZmediaGlobalBrandAccess",
+            "APZmediaGlobalBrandStatus",
+            "APZmediaGradientOverlay",
+            "APZmediaLogoOverlay",
+            "APZmediaLogoPlacement",
+            "APZmediaSolidColor",
+            "APZmediaURLImageLoader",
+            "POISmartCrop"
+        ],
+        {
+            "title_aux": "Joshua Brand Assets Loader [private]"
+        }
+    ],
     "https://github.com/APZmedia/comfyui-textools": [
         [
             "APZ/MarkdownTextOverlay",
@@ -1807,6 +1827,7 @@
             "QwenKontextTranslator by IAT",
             "QwenTranslator by IAT",
             "SeedGeneratorNode by IAT",
+            "SmartPathBuilderNode by IAT",
             "TextInputNode by IAT"
         ],
         {
@@ -1995,6 +2016,14 @@
         ],
         {
             "title_aux": "ComfyUI-video-accessory [WIP]"
+        }
+    ],
+    "https://github.com/GoddessLabs/ComfyUI-GoddessLabs-NodePack": [
+        [
+            "GoddessLabsFolderSelector"
+        ],
+        {
+            "title_aux": "ComfyUI-GoddessLabs-NodePack"
         }
     ],
     "https://github.com/Goldlionren/ComfyUI-CleanSlate": [
@@ -4743,6 +4772,15 @@
             "title_aux": "ComfyUI-OpenPoser [WIP]"
         }
     ],
+    "https://github.com/agxagi/ComfyUI-GPT4o-Image-Gen-FLUX-DEV": [
+        [
+            "AutoregressiveRollingDiffusionSampler",
+            "FluxDevAutoRegressiveRollingDiffusionSampler"
+        ],
+        {
+            "title_aux": "Autoregressive Transformer and Rolling Diffusion Sampler for ComfyUI [WIP]"
+        }
+    ],
     "https://github.com/ahkimkoo/ComfyUI-OSS-Upload": [
         [
             "OSSImageUploader",
@@ -6075,21 +6113,6 @@
             "QwenImageDiffsynthControlnet",
             "RandomNoise",
             "RecordAudio",
-            "RecraftColorRGB",
-            "RecraftControls",
-            "RecraftCreativeUpscaleNode",
-            "RecraftCrispUpscaleNode",
-            "RecraftImageInpaintingNode",
-            "RecraftImageToImageNode",
-            "RecraftRemoveBackgroundNode",
-            "RecraftReplaceBackgroundNode",
-            "RecraftStyleV3DigitalIllustration",
-            "RecraftStyleV3InfiniteStyleLibrary",
-            "RecraftStyleV3LogoRaster",
-            "RecraftStyleV3RealisticImage",
-            "RecraftTextToImageNode",
-            "RecraftTextToVectorNode",
-            "RecraftVectorizeImageNode",
             "RepeatImageBatch",
             "RepeatLatentBatch",
             "RescaleCFG",
@@ -7163,6 +7186,7 @@
             "HolafSliceCalculator",
             "HolafTileCalculator",
             "HolafTiledKSampler",
+            "HolafZoneConditioner",
             "UpscaleImageHolaf"
         ],
         {
@@ -7518,6 +7542,8 @@
             "Alta:SaveImage",
             "Alta:SaveImagePlus",
             "Alta:SaveStringToFile",
+            "Alta:SyncLipsyncNode(path)",
+            "Alta:SyncLipsyncNode(url)",
             "Alta:VideoCombine",
             "Alta:YOLOFaceModelCore",
             "Alta:\u5373\u68a6API\u56fe\u751f\u89c6\u9891",
@@ -9647,6 +9673,7 @@
             "RenormCFGPost",
             "RescaleCFGPost",
             "SamplerGradientEstimation",
+            "SkipFirstStepCFG",
             "TCFGAdvanced",
             "VAEPadding"
         ],

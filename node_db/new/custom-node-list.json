@@ -1,6 +1,86 @@
 {
     "custom_nodes": [
         {
+            "author": "wouterverweirder",
+            "title": "ComfyUI PenPlotter",
+            "reference": "https://github.com/wouterverweirder/comfyui-penplotter",
+            "files": [
+                "https://github.com/wouterverweirder/comfyui-penplotter"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes to convert images to pen plotter files"
+        },
+        {
+            "author": "iGavroche",
+            "title": "RocM Ninodes",
+            "reference": "https://github.com/iGavroche/rocm-ninodes",
+            "files": [
+                "https://github.com/iGavroche/rocm-ninodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ROCM Optimized Nodes for ComfyUI - High-performance VAE decode and sampling nodes specifically tuned for AMD GPUs with ROCm support, particularly targeting gfx1151 architecture"
+        },
+        {
+            "author": "Aishor",
+            "title": "Meta-Sampler Guiado (Seed-WAN)",
+            "reference": "https://github.com/Aishor/comfyui-meta-sampler-guiado",
+            "files": [
+                "https://github.com/Aishor/comfyui-meta-sampler-guiado"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node that implements the Guided Meta-Sampler for video outpainting."
+        },
+        {
+            "author": "ModelTC",
+            "title": "ComfyUI-LightVAE",
+            "reference": "https://github.com/ModelTC/ComfyUI-LightVAE",
+            "files": [
+                "https://github.com/ModelTC/ComfyUI-LightVAE"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-LightVAE is a collection of LightX2V VAE custom nodes designed for ComfyUI, supporting high-performance video VAE models including LightVAE and LightTAE."
+        },
+        {
+            "author": "koirpraw",
+            "title": "ComfyUI GCP Cloud Storage Integration",
+            "reference": "https://github.com/koirpraw/ComfyUI-GCP-storage-decouple",
+            "files": [
+                "https://github.com/koirpraw/ComfyUI-GCP-storage-decouple"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node package provides seamless integration between ComfyUI and Google Cloud Platform (GCP) Cloud Storage, enabling you to run ComfyUI without relying on instance disk storage. decouple your storage needs from local disks by leveraging GCP's scalable and reliable Cloud Storage service. Models can be saved and loaded directly from Cloud Storage, while outputs and temporary files are automatically synced."
+        },
+        {
+            "author": "wildminder",
+            "title": "ComfyUI-DyPE",
+            "reference": "https://github.com/wildminder/ComfyUI-DyPE",
+            "files": [
+                "https://github.com/wildminder/ComfyUI-DyPE"
+            ],
+            "install_type": "git-clone",
+            "description": "DyPE for FLUX. Artifact-free 4K+ image generation."
+        },
+        {
+            "author": "yeeyou",
+            "title": "ComfyUI OpenAI Compatible API Node",
+            "reference": "https://github.com/yeeyou/ComfyUI-OpenAI-Compatible-API",
+            "files": [
+                "https://github.com/yeeyou/ComfyUI-OpenAI-Compatible-API"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that supports OpenAI-compatible APIs, allowing it to call any large-language-model service compatible with the OpenAI API format (such as vLLM, LM Studio, Ollama, LocalAI, etc.)."
+        },
+        {
+            "author": "heyburns",
+            "title": "Image Chooser Classic",
+            "reference": "https://github.com/heyburns/image-chooser-classic",
+            "files": [
+                "https://github.com/heyburns/image-chooser-classic"
+            ],
+            "install_type": "git-clone",
+            "description": "A modern re-implementation of the classic [a/cg-image-picker](https://github.com/chrisgoringe/cg-image-picker) ComfyUI nodes. Keep the workflow-pausing image selection experience while shedding the legacy compatibility shims."
+        },
+        {
             "author": "ussoewwin",
             "title": "ComfyUI-QwenImageLoraLoader",
             "reference": "https://github.com/ussoewwin/ComfyUI-QwenImageLoraLoader",
@@ -12,23 +92,14 @@
         },
         {
             "author": "rsxdalv",
-            "title": "ComfyUI: TTS WebUI (OpenAI-style) nodes",
+            "title": "TTS WebUI API nodes for ComfyUI",
+            "id": "tts-webui",
             "reference": "https://github.com/rsxdalv/ComfyUI-TTS-Webui",
             "files": [
                 "https://github.com/rsxdalv/ComfyUI-TTS-Webui"
             ],
             "install_type": "git-clone",
-            "description": "This package provides ComfyUI custom nodes that call a TTS WebUI OpenAI-style HTTP endpoint (POST /v1/audio/speech) and return in-memory AUDIO usable in ComfyUI workflows."
-        },
-        {
-            "author": "styletransfer",
-            "title": "Sequential Group Controller for ComfyUI",
-            "reference": "https://github.com/styletransfer/ComfyUI_SequentialGroupController",
-            "files": [
-                "https://github.com/styletransfer/ComfyUI_SequentialGroupController"
-            ],
-            "install_type": "git-clone",
-            "description": "Control which groups execute based on iteration ranges - a simplified alternative to complex conditional branching workflows."
+            "description": "Nodes: TTS WebUI Kokoro, TTS WebUI Chatterbox, TTS WebUI StyleTTS2, TTS WebUI Kitten TTS, TTS WebUI F5-TTS, TTS WebUI Preset\nAdd API key to environment variable 'TTS_WEBUI_OPENAI_API_KEY'\nAlternatively you can write your API key to file 'tts_api_key.txt'\nYou can also use and/or override the above by entering your API key in the 'api_key' field of each node."
         },
         {
             "author": "djdarcy",
@@ -207,16 +278,6 @@
             ],
             "install_type": "git-clone",
             "description": "Simplified Gemini 2.5 Flash Image Preview node for ComfyUI. REST-only for stability, two optional reference images, padded aspect ratio resizing (no stretching), and basic sampling controls. All extra debug layers, SDK path, multi-seed, and legacy compatibility code removed to avoid crashes."
-        },
-        {
-            "author": "Glarus-akash",
-            "title": "ComfyUI_Image_Upscaler",
-            "reference": "https://github.com/Glarus-akash/ComfyUI_Image_Upscaler",
-            "files": [
-                "https://github.com/Glarus-akash/ComfyUI_Image_Upscaler"
-            ],
-            "install_type": "git-clone",
-            "description": "Welcome to the Image Upscaler & Restorer project! This tool utilizes the [a/GFPGAN](https://github.com/TencentARC/GFPGAN) algorithm to enhance and restore images, providing a seamless way to improve image quality."
         },
         {
             "author": "leewinder",
@@ -639,66 +700,6 @@
             ],
             "install_type": "git-clone",
             "description": "A collection of utility nodes for lora operations in ComfyUI."
-        },
-        {
-            "author": "spawner",
-            "title": "comfyui-lsnet",
-            "reference": "https://github.com/spawner1145/comfyui-lsnet",
-            "files": [
-                "https://github.com/spawner1145/comfyui-lsnet"
-            ],
-            "install_type": "git-clone",
-            "description": "A nodepack powered by LSNet that classifies and clusters artworks by style for fast and efficient style analysis."
-        },
-        {
-            "author": "SquirrelRat",
-            "title": "MultiString Prompts",
-            "reference": "https://github.com/SquirrelRat/MultiString-Prompts",
-            "files": [
-                "https://github.com/SquirrelRat/MultiString-Prompts"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a simple but powerful custom node for ComfyUI, designed to help you manage and sequence multiple prompts from a single, clean interface.\nIt's ideal for workflows like sequential video generation where you need to feed a series of different prompts into your model."
-        },
-        {
-            "author": "OKIE5",
-            "title": "ComfyUI-CN-Pre",
-            "reference": "https://github.com/OKIE5/ComfyUI-CN-Pre",
-            "files": [
-                "https://github.com/OKIE5/ComfyUI-CN-Pre"
-            ],
-            "install_type": "git-clone",
-            "description": "Ollama in ComfyUI"
-        },
-        {
-            "author": "sysoutch",
-            "title": "ComfyUI Generator Add-on",
-            "reference": "https://github.com/sysoutch/blender-ComfyUIModelGenerator-addon",
-            "files": [
-                "https://github.com/sysoutch/blender-ComfyUIModelGenerator-addon"
-            ],
-            "install_type": "git-clone",
-            "description": "A Blender add-on that integrates with ComfyUI for AI-powered model generation. Provides workflow management, image input handling, and real-time status tracking for seamless AI art creation within Blender's interface."
-        },
-        {
-            "author": "NewLouwa",
-            "title": "ComfyUI Model Preset Pilot",
-            "reference": "https://github.com/NewLouwa/ComfyUI-Model_preset_Pilot",
-            "files": [
-                "https://github.com/NewLouwa/ComfyUI-Model_preset_Pilot"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node module for managing model presets and configurations. This module automatically detects the model, loads/saves presets (sampler, scheduler, steps, CFG, clip-skip, seed, resolution), and generates/caches preview images per model."
-        },
-        {
-            "author": "kizamimi",
-            "title": "FEEdit",
-            "reference": "https://github.com/kizamimi/FEEdit",
-            "files": [
-                "https://github.com/kizamimi/FEEdit"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node for facial expression editing via pipeline-level modification of diffusion models"
         }
     ]
 }
