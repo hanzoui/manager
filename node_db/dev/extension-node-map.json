@@ -4783,6 +4783,7 @@
     ],
     "https://github.com/ahkimkoo/ComfyUI-OSS-Upload": [
         [
+            "OSSAudioUploader",
             "OSSImageUploader",
             "OSSVideoUploader"
         ],
@@ -7520,7 +7521,9 @@
             "Alta:BuildFilePath",
             "Alta:FileDownloader",
             "Alta:GetFaceMask",
+            "Alta:GetFileFolder",
             "Alta:GetFilenameNoExt",
+            "Alta:GetFilenameWithExt",
             "Alta:GetImageAndPath",
             "Alta:GetImageByIndex",
             "Alta:GetStringByIndex",

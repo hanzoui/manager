@@ -10277,14 +10277,7 @@
     ],
     "https://github.com/Ltamann/ComfyUI-TBG-Takeaways": [
         [
-            "BasicSchedulerNormalized",
-            "LogSigmaSamplerNode",
-            "LogSigmaStepSamplerNode",
-            "ModelSamplingFluxGradual",
-            "PolyExponentialSigmaAdder",
-            "PromptBatchGenerator",
-            "TBG_FluxKontextStabilizer",
-            "VAEDecodeColorFix"
+            "TBG_Preview_Sender_WebSocked"
         ],
         {
             "title_aux": "TBG\u2019s ComfyUI Development Takeaways"
@@ -12389,8 +12382,13 @@
             "MeshCraft_RenderConditioningMaps",
             "MeshCraft_RenderRGBMultiview",
             "MeshCraft_VAELatentInterpolation",
+            "MeshInfoPyVista",
             "PrepareImageForDINO",
-            "PreviewTrimesh"
+            "PreviewTrimesh",
+            "SaveMeshPyVista",
+            "TrellisDownloadModel",
+            "TrellisImageTo3D",
+            "TrellisMultiImageTo3D"
         ],
         {
             "title_aux": "ComfyUI-MeshCraft"
@@ -12895,6 +12893,7 @@
             "Runware Image Upscaler",
             "Runware Imagen Inference",
             "Runware Input Audios",
+            "Runware KlingAI Provider Settings",
             "Runware Kontext Inference",
             "Runware Lightricks Provider Settings",
             "Runware Lora Combine",
@@ -12926,6 +12925,7 @@
             "RunwareBriaProviderSettings",
             "RunwareBytedanceProviderSettings",
             "RunwareFrameImages",
+            "RunwareKlingProviderSettings",
             "RunwareLightricksProviderSettings",
             "RunwareMiniMaxProviderSettings",
             "RunwareOpenAIProviderSettings",
@@ -12998,6 +12998,7 @@
     ],
     "https://github.com/S4MUEL-404/ComfyUI-Prepack": [
         [
+            "PrepackCalculator",
             "PrepackCondArea",
             "PrepackGetPipe",
             "PrepackKsampler",
@@ -13008,6 +13009,7 @@
             "PrepackModelSingleCLIP",
             "PrepackSeed",
             "PrepackSetPipe",
+            "\ud83d\udc80Prepack Calculator",
             "\ud83d\udc80Prepack Int Combine",
             "\ud83d\udc80Prepack Int Split",
             "\ud83d\udc80Prepack Logic Int",
@@ -13079,6 +13081,7 @@
             "ImagePaletteContrary",
             "ImagePrimaryColor",
             "ImageRMBG",
+            "ImageRemoveAlpha",
             "ImageResize",
             "ImageSAM",
             "ImageSAM2",
@@ -18929,18 +18932,6 @@
         ],
         {
             "title_aux": "ComfyUI-OllamaGemini"
-        }
-    ],
-    "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt": [
-        [
-            "AF_Edit_Generated_Prompt"
-        ],
-        {
-            "author": "Alex Furer",
-            "description": "A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually.",
-            "nickname": "AF - Edit Generated Prompt",
-            "title": "AF - Edit Generated Prompt",
-            "title_aux": "AF - Edit Generated Prompt"
         }
     ],
     "https://github.com/alanhuang67/ComfyUI-FAI-Node": [
@@ -25536,6 +25527,7 @@
     ],
     "https://github.com/drozbay/ComfyUI-WanVaceAdvanced": [
         [
+            "HuMoI2VPatch",
             "StringToFloatListRanged",
             "VACEAdvDetailerHookProvider",
             "VaceAdvancedModelPatch",
@@ -26378,9 +26370,9 @@
     ],
     "https://github.com/fchangjun/Comfyui_MultiSaveImage": [
         [
-            "Baidu_AdvancedImageCrop",
-            "MultiSaveImage",
-            "SimpleLLMNode"
+            "MeuxAdvancedImageCrop",
+            "MeuxMultiSaveImage",
+            "MeuxSimpleLLMNode"
         ],
         {
             "title_aux": "MultiSaveImage Node"
@@ -29139,7 +29131,8 @@
             "ROCMOptimizedVAEDecode",
             "ROCMOptimizedVAEDecodeTiled",
             "ROCMSamplerPerformanceMonitor",
-            "ROCMVAEPerformanceMonitor"
+            "ROCMVAEPerformanceMonitor",
+            "ROCmDiffusionLoader"
         ],
         {
             "title_aux": "RocM Ninodes"
@@ -29912,50 +29905,6 @@
         ],
         {
             "title_aux": "ComfyUI_Wan2_1_lora_trainer"
-        }
-    ],
-    "https://github.com/jakechai/ComfyUI-JakeUpgrade": [
-        [
-            "IPAAdapterFaceIDBatch",
-            "IPAdapter",
-            "IPAdapterAdvanced",
-            "IPAdapterBatch",
-            "IPAdapterClipVisionEnhancer",
-            "IPAdapterClipVisionEnhancerBatch",
-            "IPAdapterCombineEmbeds",
-            "IPAdapterCombineParams",
-            "IPAdapterCombineWeights",
-            "IPAdapterEmbeds",
-            "IPAdapterEmbedsBatch",
-            "IPAdapterEncoder",
-            "IPAdapterFaceID",
-            "IPAdapterFaceIDKolors",
-            "IPAdapterFromParams",
-            "IPAdapterInsightFaceLoader",
-            "IPAdapterLoadEmbeds",
-            "IPAdapterMS",
-            "IPAdapterModelLoader",
-            "IPAdapterNoise",
-            "IPAdapterPreciseComposition",
-            "IPAdapterPreciseCompositionBatch",
-            "IPAdapterPreciseStyleTransfer",
-            "IPAdapterPreciseStyleTransferBatch",
-            "IPAdapterPromptScheduleFromWeightsStrategy",
-            "IPAdapterRegionalConditioning",
-            "IPAdapterSaveEmbeds",
-            "IPAdapterStyleComposition",
-            "IPAdapterStyleCompositionBatch",
-            "IPAdapterTiled",
-            "IPAdapterTiledBatch",
-            "IPAdapterUnifiedLoader",
-            "IPAdapterUnifiedLoaderCommunity",
-            "IPAdapterUnifiedLoaderFaceID",
-            "IPAdapterWeights",
-            "IPAdapterWeightsFromStrategy",
-            "PrepImageForClipVision"
-        ],
-        {
-            "title_aux": "ComfyUI-JakeUpgrade"
         }
     ],
     "https://github.com/jamal-alkharrat/ComfyUI_rotate_image": [
@@ -33498,7 +33447,9 @@
     ],
     "https://github.com/lihaoyun6/ComfyUI-FlashVSR_Ultra_Fast": [
         [
-            "FlashVSRNode"
+            "FlashVSRInitPipe",
+            "FlashVSRNode",
+            "FlashVSRNodeAdv"
         ],
         {
             "title_aux": "ComfyUI-FlashVSR_Ultra_Fast"
@@ -36630,6 +36581,17 @@
             "title_aux": "ComfyUI_KSamplerTimer"
         }
     ],
+    "https://github.com/myonmu0/ComfyUI-Jumper": [
+        [
+            "Receive Images",
+            "Receive String",
+            "Send Images",
+            "Send String"
+        ],
+        {
+            "title_aux": "ComfyUI-Jumper"
+        }
+    ],
     "https://github.com/myshell-ai/ComfyUI-ShellAgent-Plugin": [
         [
             "ShellAgentPluginInputAudio",
@@ -37227,6 +37189,15 @@
         ],
         {
             "title_aux": "Node_Fun_ComfyUI"
+        }
+    ],
+    "https://github.com/nomadoor/ComfyUI-Video-Stabilizer": [
+        [
+            "VideoStabilizerFlowNode",
+            "VideoStabilizerNode"
+        ],
+        {
+            "title_aux": "ComfyUI Video Stabilizer"
         }
     ],
     "https://github.com/northumber/ComfyUI-northTools": [
@@ -40654,6 +40625,7 @@
     ],
     "https://github.com/sammykumar/ComfyUI-SwissArmyKnife": [
         [
+            "AzureStorageUpload",
             "CivitMetadataHelper",
             "ControlPanelOverview",
             "ControlPanelPromptBreakdown",
@@ -43768,6 +43740,7 @@
             "ComfyBros_IntegerMath",
             "ComfyBros_JsonParse",
             "ComfyBros_LoraDiscovery",
+            "ComfyBros_MediaUpload",
             "ComfyBros_OllamaConfiguration",
             "ComfyBros_OllamaConnection",
             "ComfyBros_OllamaConverse",
@@ -44689,6 +44662,28 @@
         ],
         {
             "title_aux": "ComfyUI WB Utils"
+        }
+    ],
+    "https://github.com/weekii/ComfyUI-GGUF-FX": [
+        [
+            "GGUFModelManager",
+            "MultiImageAnalysis",
+            "MultiImageComparison",
+            "NexaModelSelector",
+            "NexaServiceStatus",
+            "NexaTextGeneration",
+            "SystemPromptConfig",
+            "TextGenerationNode",
+            "TextModelLoader",
+            "UnifiedTextGeneration",
+            "UnifiedTextModelSelector",
+            "VisionLanguageNode",
+            "VisionLanguageNodeTransformers",
+            "VisionModelLoader",
+            "VisionModelLoaderTransformers"
+        ],
+        {
+            "title_aux": "ComfyUI-GGUF-FX"
         }
     ],
     "https://github.com/weekii/comfyui-save-image-pro": [
