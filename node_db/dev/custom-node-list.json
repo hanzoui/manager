@@ -1,6 +1,96 @@
 {
     "custom_nodes": [
         {
+            "author": "gaonprime-lab",
+            "title": "ComfyUI_Nordy",
+            "reference": "https://github.com/gaonprime-labs/ComfyUI_Nordy",
+            "files": [
+                "https://github.com/gaonprime-labs/ComfyUI_Nordy"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Save Image S3 PresignedUrl (Nordy), Memory Test"
+        },
+        {
+            "author": "mittimi",
+            "title": "ComfyUI_mittimiLoadPresetLite [UNSAFE]",
+            "reference": "https://github.com/mittimi/ComfyUI_mittimiLoadPresetLite",
+            "files": [
+                "https://github.com/mittimi/ComfyUI_mittimiLoadPresetLite"
+            ],
+            "install_type": "git-clone",
+            "description": "This node can easily switch between models and prompts by saving presets.[w/This node pack includes an endpoint that access files from arbitrary paths.]"
+        },
+        {
+            "author": "WenerSantos3",
+            "title": "ComfyUI-BlueeUtils [UNSAFE]",
+            "reference": "https://github.com/WenerSantos3/ComfyUI-BlueeUtils",
+            "files": [
+                "https://github.com/WenerSantos3/ComfyUI-BlueeUtils"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Bluee Utils - Delete File, blueeInput, Bluee Template String, Bluee Utils - Download Temp, Bluee Utils - Read Temp Image, Bluee Utils - Read Temp Audio, bluee - file exists, Bluee - Combine Images + Audio (H.264 MP4)[w/This node pack includes an endpoint that access files from arbitrary paths.]"
+        },
+        {
+            "author": "Rosegun007",
+            "title": "ComfyUI-Pandora",
+            "reference": "https://github.com/Rosegun007/ComfyUI-Pandora",
+            "files": [
+                "https://github.com/Rosegun007/ComfyUI-Pandora"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple and user-friendly ComfyUI plugin that offers advanced text rendering, streamlined bridge-style image preview, and various convenient mask tools — primarily designed for ComfyUI tutorial creators."
+        },
+        {
+            "author": "neocrz",
+            "title": "comfyui-tinyae",
+            "reference": "https://github.com/neocrz/comfyui-tinyae",
+            "files": [
+                "https://github.com/neocrz/comfyui-tinyae"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: TinyAE Encode (Image/Video), TinyAE Decode (Image/Video), TinyAE Encode Tiled (Image), TinyAE Decode Tiled (Image)"
+        },
+        {
+            "author": "fuselayer",
+            "title": "comfyui-libcom-image-composition",
+            "reference": "https://github.com/fuselayer/comfyui-libcom-image-composition",
+            "files": [
+                "https://github.com/fuselayer/comfyui-libcom-image-composition"
+            ],
+            "install_type": "git-clone",
+            "description": "port of bcmi/libcom and other image composition (harmonization, shadow generation) utilities"
+        },
+        {
+            "author": "Long-form-AI-video-generation",
+            "title": "ComfyUI_vaceFramepack",
+            "reference": "https://github.com/Long-form-AI-video-generation/ComfyUI_vaceFramepack",
+            "files": [
+                "https://github.com/Long-form-AI-video-generation/ComfyUI_vaceFramepack"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: WanVACE FramePack Sampler 2"
+        },
+        {
+            "author": "ifilipis",
+            "title": "ComfyUI-Auto-Prompt-Engineer",
+            "reference": "https://github.com/ifilipis/ComfyUI-Auto-Prompt-Engineer",
+            "files": [
+                "https://github.com/ifilipis/ComfyUI-Auto-Prompt-Engineer"
+            ],
+            "install_type": "git-clone",
+            "description": "Automated prompt engineering using LLMs"
+        },
+        {
+            "author": "JHBOY-ha",
+            "title": "ComfyUI-jh-essential",
+            "reference": "https://github.com/JHBOY-ha/ComfyUI-jh-essential",
+            "files": [
+                "https://github.com/JHBOY-ha/ComfyUI-jh-essential"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Start Timer, End Timer"
+        },
+        {
             "author": "agxagi",
             "title": "Autoregressive Transformer and Rolling Diffusion Sampler for ComfyUI [WIP]",
             "reference": "https://github.com/agxagi/ComfyUI-GPT4o-Image-Gen-FLUX-DEV",

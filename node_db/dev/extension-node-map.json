@@ -2185,6 +2185,15 @@
             "title_aux": "comfyui-codeformer [WIP]"
         }
     ],
+    "https://github.com/JHBOY-ha/ComfyUI-jh-essential": [
+        [
+            "EndTimer",
+            "StartTimer"
+        ],
+        {
+            "title_aux": "ComfyUI-jh-essential"
+        }
+    ],
     "https://github.com/Jairodaniel-17/ComfyUI-traductor-offline": [
         [
             "CLIPTextTranslateNode",
@@ -2613,6 +2622,35 @@
         ],
         {
             "title_aux": "comfyui-pixxio"
+        }
+    ],
+    "https://github.com/Long-form-AI-video-generation/ComfyUI_vaceFramepack": [
+        [
+            "DownloadAndLoadWav2VecModel",
+            "FantasyTalkingModelLoader",
+            "FantasyTalkingWav2VecEmbeds",
+            "MultiTalkModelLoader",
+            "MultiTalkWav2VecEmbeds",
+            "ReCamMasterPoseVisualizer",
+            "WanVACEVideoFramepackSampler2",
+            "WanVideoATITracks",
+            "WanVideoATITracksVisualize",
+            "WanVideoATI_comfy",
+            "WanVideoControlnet",
+            "WanVideoControlnetLoader",
+            "WanVideoDiffusionForcingSampler",
+            "WanVideoFunCameraEmbeds",
+            "WanVideoImageToVideoMultiTalk",
+            "WanVideoReCamMasterCameraEmbed",
+            "WanVideoReCamMasterDefaultCamera",
+            "WanVideoReCamMasterGenerateOrbitCamera",
+            "WanVideoUni3C_ControlnetLoader",
+            "WanVideoUni3C_embeds",
+            "WanVideoUniAnimateDWPoseDetector",
+            "WanVideoUniAnimatePoseInput"
+        ],
+        {
+            "title_aux": "ComfyUI_vaceFramepack"
         }
     ],
     "https://github.com/Looking-Glass/LKG-ComfyUI": [
@@ -3608,6 +3646,19 @@
             "title_aux": "ComfyUI-Groudingdino-Sam"
         }
     ],
+    "https://github.com/Rosegun007/ComfyUI-Pandora": [
+        [
+            "Image Fill Color | Pandora",
+            "Image From File | Pandora",
+            "Mask to Image | Pandora",
+            "Preview Image | Pandora",
+            "Preview Mask | Pandora",
+            "Text On Image | Pandora"
+        ],
+        {
+            "title_aux": "ComfyUI-Pandora"
+        }
+    ],
     "https://github.com/RoyKillington/miscomfy-nodes": [
         [
             "VeniceUpscale"
@@ -4402,6 +4453,21 @@
         ],
         {
             "title_aux": "ComfyUI-Tracking [WIP]"
+        }
+    ],
+    "https://github.com/WenerSantos3/ComfyUI-BlueeUtils": [
+        [
+            "BlueeCombineImagesAudioH264",
+            "BlueeFileExists",
+            "BlueeTemplateString",
+            "BlueeUtilsDelete",
+            "BlueeUtilsDownloadTemp",
+            "BlueeUtilsReadTempAudio",
+            "BlueeUtilsReadTempImage",
+            "blueeInput"
+        ],
+        {
+            "title_aux": "ComfyUI-BlueeUtils [UNSAFE]"
         }
     ],
     "https://github.com/WilliamStanford/ComfyUI-VisualLabs": [
@@ -6884,6 +6950,16 @@
             "title_aux": "ComfyUI-Lucian [WIP]"
         }
     ],
+    "https://github.com/fuselayer/comfyui-libcom-image-composition": [
+        [
+            "HarmonyScore",
+            "ImageHarmonization",
+            "ImageHarmonizationAuto"
+        ],
+        {
+            "title_aux": "comfyui-libcom-image-composition"
+        }
+    ],
     "https://github.com/fylrid2/comfyui_lock_previous_value": [
         [
             "Lock"
@@ -6970,6 +7046,15 @@
         ],
         {
             "title_aux": "ComfyUI-N_SwapInput [UNSAFE]"
+        }
+    ],
+    "https://github.com/gaonprime-labs/ComfyUI_Nordy": [
+        [
+            "MemoryTest",
+            "SaveImageS3PresignedUrlNordy"
+        ],
+        {
+            "title_aux": "ComfyUI_Nordy"
         }
     ],
     "https://github.com/gaowei-space/ComfyUI-Doubao-LLM": [
@@ -7545,6 +7630,7 @@
             "Alta:SaveImage",
             "Alta:SaveImagePlus",
             "Alta:SaveStringToFile",
+            "Alta:SpeakerDiarization",
             "Alta:SyncLipsyncNode(path)",
             "Alta:SyncLipsyncNode(url)",
             "Alta:VideoCombine",
@@ -7626,6 +7712,16 @@
         ],
         {
             "title_aux": "ComfyUI-IF_Zonos [WIP]"
+        }
+    ],
+    "https://github.com/ifilipis/ComfyUI-Auto-Prompt-Engineer": [
+        [
+            "DirectorGemini",
+            "ImageRouterSink",
+            "LatestImageSource"
+        ],
+        {
+            "title_aux": "ComfyUI-Auto-Prompt-Engineer"
         }
     ],
     "https://github.com/ilovejohnwhite/Tracer": [
@@ -9201,6 +9297,24 @@
             "title_aux": "ComfyUI-LLM-Evaluation [WIP]"
         }
     ],
+    "https://github.com/mittimi/ComfyUI_mittimiLoadPresetLite": [
+        [
+            "CombineParamDataLiteMittimi",
+            "LoadCheckpointLiteMittimi",
+            "LoadImageParamLiteMittimi",
+            "LoadSetParamLiteMittimi",
+            "SaveImageParamLiteMittimi",
+            "SaveParamToPresetLiteMittimi",
+            "TextToConditioningLiteMittimi"
+        ],
+        {
+            "author": "mittimi",
+            "description": "This node can easily switch between models and prompts by saving presets.",
+            "nickname": "mittimiLoadPresetLite",
+            "title": "mittimiLoadPresetLite",
+            "title_aux": "ComfyUI_mittimiLoadPresetLite [UNSAFE]"
+        }
+    ],
     "https://github.com/mliand/ComfyUI-Calendar-Node": [
         [
             "Comfy Calendar Node"
@@ -9350,6 +9464,17 @@
         ],
         {
             "title_aux": "my-comfy-node"
+        }
+    ],
+    "https://github.com/neocrz/comfyui-tinyae": [
+        [
+            "TinyAE_Decode",
+            "TinyAE_DecodeTiled",
+            "TinyAE_Encode",
+            "TinyAE_EncodeTiled"
+        ],
+        {
+            "title_aux": "comfyui-tinyae"
         }
     ],
     "https://github.com/neverbiasu/ComfyUI-ControlNeXt": [

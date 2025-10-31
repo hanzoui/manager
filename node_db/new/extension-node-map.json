@@ -2139,7 +2139,7 @@
     ],
     "https://github.com/AhBumm/ComfyUI_UnfakePy_Warpper": [
         [
-            "CustomUnfake"
+            "Unfake_PixelateTools"
         ],
         {
             "title_aux": "ComfyUI_UnfakePy_Warpper"
@@ -6715,6 +6715,14 @@
             "title_aux": "NX_Translator"
         }
     ],
+    "https://github.com/FranckyB/ComfyUI-Prompt-Manager": [
+        [
+            "PromptManager"
+        ],
+        {
+            "title_aux": "ComfyUI-Prompt-Manager"
+        }
+    ],
     "https://github.com/Franklyc/comfyui-lora-adain-patcher-node": [
         [
             "LoraAdaLNPatcher"
@@ -7278,6 +7286,14 @@
             "title_aux": "ComfyUI-BooruBrowser"
         }
     ],
+    "https://github.com/GreenLandisaLie/ComfyUI-RichText_BasicDynamicPrompts": [
+        [
+            "SILVER_BasicDynamicPrompts"
+        ],
+        {
+            "title_aux": "ComfyUI-RichText_BasicDynamicPrompts"
+        }
+    ],
     "https://github.com/GroxicTinch/EasyUI-ComfyUI": [
         [
             "UINode"
@@ -7513,6 +7529,15 @@
         ],
         {
             "title_aux": "ComfyUI USO Node"
+        }
+    ],
+    "https://github.com/HM-RunningHub/ComfyUI_RH_VideoAsPrompt": [
+        [
+            "RunningHub VideoAsPrompt Loader",
+            "RunningHub VideoAsPrompt Sampler(CogVideoX)"
+        ],
+        {
+            "title_aux": "ComfyUI_RH_VideoAsPrompt"
         }
     ],
     "https://github.com/HM-RunningHub/ComfyUI_RH_mammothmoda": [
@@ -12370,6 +12395,9 @@
             "LoadDinoModel",
             "LoadHunyuanDiT",
             "LoadHunyuanVAE",
+            "Load_CLIP_Trellis",
+            "Load_DinoV2_Model",
+            "Load_Trellis_Model",
             "MeshCraftPostProcess",
             "MeshCraftRenderMultiView",
             "MeshCraft_ApplyAndSaveTexturedMesh",
@@ -12382,13 +12410,21 @@
             "MeshCraft_RenderConditioningMaps",
             "MeshCraft_RenderRGBMultiview",
             "MeshCraft_VAELatentInterpolation",
-            "MeshInfoPyVista",
             "PrepareImageForDINO",
             "PreviewTrimesh",
-            "SaveMeshPyVista",
-            "TrellisDownloadModel",
-            "TrellisImageTo3D",
-            "TrellisMultiImageTo3D"
+            "Trellis_Combine_Conditioning",
+            "Trellis_Export_GLB",
+            "Trellis_Export_PLY",
+            "Trellis_ImageTo3D_Sampler",
+            "Trellis_Image_Conditioning",
+            "Trellis_Image_Preprocessor",
+            "Trellis_Render_Video",
+            "Trellis_SLAT_Decoder",
+            "Trellis_SLAT_Sampler",
+            "Trellis_SparseStructure_Sampler",
+            "Trellis_TextTo3D_Sampler",
+            "Trellis_Text_Conditioning",
+            "Trellis_multiimage_loader"
         ],
         {
             "title_aux": "ComfyUI-MeshCraft"
@@ -12702,6 +12738,15 @@
         ],
         {
             "title_aux": "ComfyUI-RenderRiftNodes"
+        }
+    ],
+    "https://github.com/Revmagi/DDM_bundle": [
+        [
+            "DDM_GetNode",
+            "DDM_SetNode"
+        ],
+        {
+            "title_aux": "DDM Bundle - ComfyUI Custom Nodes"
         }
     ],
     "https://github.com/RhizoNymph/ComfyUI-CLIPSlider": [
@@ -14569,6 +14614,16 @@
         ],
         {
             "title_aux": "MultiString Prompts"
+        }
+    ],
+    "https://github.com/SquirrelRat/WanVideoLooper": [
+        [
+            "WanVideoLooper",
+            "WanVideoLooperPrompts",
+            "WanVideoLoraSequencer"
+        ],
+        {
+            "title_aux": "WanVideoLooper"
         }
     ],
     "https://github.com/Stability-AI/ComfyUI-SAI_API": [
@@ -18932,6 +18987,20 @@
         ],
         {
             "title_aux": "ComfyUI-OllamaGemini"
+        }
+    ],
+    "https://github.com/alFrame/ComfyUI-AF-Pack-Prompt-Nodes": [
+        [
+            "AF_Edit_Generated_Prompt",
+            "AF_Load_Prompt_History",
+            "AF_Save_Prompt_History"
+        ],
+        {
+            "author": "Alex Furer",
+            "description": "A collection of prompt management nodes for ComfyUI including prompt editing, history saving, and loading functionality.",
+            "nickname": "AF Prompt Nodes Pack",
+            "title": "AF Prompt Nodes Pack",
+            "title_aux": "ComfyUI AF - Pack-Prompt-Nodes"
         }
     ],
     "https://github.com/alanhuang67/ComfyUI-FAI-Node": [
@@ -25694,6 +25763,40 @@
             "title_aux": "ComfyUI-ShadertoyGL"
         }
     ],
+    "https://github.com/eRepublik-Labs/comfyui-nodes-erpk": [
+        [
+            "ClaudeAPIClient",
+            "ClaudeConversation",
+            "ClaudeConversationInfo",
+            "ClaudePromptEnhancer",
+            "ClaudeTextGeneration",
+            "ClaudeTokenCounter",
+            "ClaudeUsageStats",
+            "ClaudeVisionAnalysis",
+            "GeminiAPIConfig",
+            "GeminiChat",
+            "GeminiImageEdit",
+            "GeminiImageGeneration",
+            "GeminiSafetySettings",
+            "GeminiSystemInstruction",
+            "GeminiTextGeneration",
+            "GeminiVision",
+            "WaveSpeed Custom Client",
+            "WaveSpeed Custom Preview Video",
+            "WaveSpeed Custom QwenImageEdit",
+            "WaveSpeed Custom QwenImageEditPlus",
+            "WaveSpeed Custom QwenImageT2I",
+            "WaveSpeed Custom Save Audio",
+            "WaveSpeed Custom SeedreamV4",
+            "WaveSpeed Custom SeedreamV4Edit",
+            "WaveSpeed Custom SeedreamV4EditSequential",
+            "WaveSpeed Custom SeedreamV4Sequential",
+            "WaveSpeed Custom Upload Image"
+        ],
+        {
+            "title_aux": "ERPK Collection"
+        }
+    ],
     "https://github.com/ealkanat/comfyui-easy-padding": [
         [
             "comfyui-easy-padding"
@@ -26368,6 +26471,16 @@
             "title_aux": "Shrug-Prompter: Unified VLM Integration for ComfyUI"
         }
     ],
+    "https://github.com/fchangjun/Baidu_Meux_ComfyTools": [
+        [
+            "MeuxAdvancedImageCrop",
+            "MeuxMultiSaveImage",
+            "MeuxSimpleLLMNode"
+        ],
+        {
+            "title_aux": "Baidu Meux ComfyTools"
+        }
+    ],
     "https://github.com/fchangjun/Comfyui_MultiSaveImage": [
         [
             "MeuxAdvancedImageCrop",
@@ -26888,6 +27001,16 @@
             "title_aux": "ComfyUI-SDMatte"
         }
     ],
+    "https://github.com/flybirdxx/ComfyUI-SoulX-Podcast": [
+        [
+            "SoulXPodcastGenerate",
+            "SoulXPodcastInputParser",
+            "SoulXPodcastLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-SoulX-Podcast"
+        }
+    ],
     "https://github.com/flycarl/ComfyUI-Pixelate": [
         [
             "ComfyUIPixelate"
@@ -27332,7 +27455,9 @@
     ],
     "https://github.com/geltz/ComfyUI-geltz": [
         [
+            "CLIPNegPipPlus",
             "ColorPaletteExtractor",
+            "FidelityFX_Upscaler",
             "ImageMetadataExtractor",
             "KohyaLoraConfig",
             "KuwaharaFilter",
@@ -27341,16 +27466,19 @@
             "LoadImageWithMetadata",
             "LocalLaplacianFilter",
             "ORBITModelMerge",
+            "PaletteFilterLUT",
             "PerturbedAttentionDelta",
             "QMS",
             "SADAInfo",
             "SADAModelPatch",
             "SDXL_LoRA_BlockSlider_Loader",
+            "SpatialSplitAttention",
             "StructuredLatent",
             "Temperature Adjust",
             "TokenDeltaPerturbation",
             "TokenSculptor",
             "TokenVisualizer",
+            "UNetHeatmap",
             "VelocityScaling"
         ],
         {
@@ -28262,6 +28390,15 @@
         ],
         {
             "title_aux": "ComfyUI-HH-Image-Selector"
+        }
+    ],
+    "https://github.com/hardik-uppal/ComfyUI-QwenVL-MultiImage": [
+        [
+            "QwenVL_MultiImage",
+            "QwenVL_MultiImage_Advanced"
+        ],
+        {
+            "title_aux": "ComfyUI-QwenVL-MultiImage"
         }
     ],
     "https://github.com/hassan-sd/comfyui-image-prompt-loader": [
@@ -34213,6 +34350,14 @@
             "title_aux": "comfyui-mask-util"
         }
     ],
+    "https://github.com/loockluo/comfyui-whisperx-pro": [
+        [
+            "WhisperX Alignment"
+        ],
+        {
+            "title_aux": "ComfyUI WhisperX Pro"
+        }
+    ],
     "https://github.com/lord-lethris/ComfyUI-RPG-Characters": [
         [
             "ModelLikenessSwitch",
@@ -37956,6 +38101,7 @@
             "AIHubActionSetProjectConfigFloat",
             "AIHubActionSetProjectConfigInteger",
             "AIHubActionSetProjectConfigString",
+            "AIHubAddRunCondition",
             "AIHubExposeAudio",
             "AIHubExposeBoolean",
             "AIHubExposeCfg",
@@ -38303,6 +38449,14 @@
         ],
         {
             "title_aux": "ComfyUI-DPIR"
+        }
+    ],
+    "https://github.com/petr-pr/ComfyUI-TranslationNode": [
+        [
+            "TranslationNode"
+        ],
+        {
+            "title_aux": "ComfyUI-TranslationNode"
         }
     ],
     "https://github.com/pharmapsychotic/comfy-cliption": [
