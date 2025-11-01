@@ -5899,6 +5899,14 @@
             "title_aux": "Eric's Prompt Enhancers for ComfyUI"
         }
     ],
+    "https://github.com/EuphoricPenguin/resemble-enhance-comfyui": [
+        [
+            "ResembleEnhance"
+        ],
+        {
+            "title_aux": "ComfyUI Resemble Enhance"
+        }
+    ],
     "https://github.com/EvilBT/ComfyUI_SLK_joy_caption_two": [
         [
             "Batch_joy_caption_two",
@@ -7251,7 +7259,8 @@
             "GR Stack Image",
             "GR Text Overlay",
             "GR Tile and Border Image",
-            "GR Tile and Border Image Random Flip"
+            "GR Tile and Border Image Random Flip",
+            "GRPromptViewer"
         ],
         {
             "title_aux": "GraftingRayman"
@@ -9618,6 +9627,7 @@
             "InspyrenetRembgProcess",
             "LG_Counter",
             "LG_FloatRange",
+            "LG_ImageLoaderWithCounter",
             "LG_InstallDependencies",
             "LG_LatentBatchToList",
             "LG_LoadImage",
@@ -10700,6 +10710,14 @@
         ],
         {
             "title_aux": "ComfyUI-DeanLogic"
+        }
+    ],
+    "https://github.com/MartinDeanMoriarty/ComfyUI-NumberToText": [
+        [
+            "NumberToTextNode"
+        ],
+        {
+            "title_aux": "ComfyUI-NumberToText"
         }
     ],
     "https://github.com/MaruPelkar/comfyui-conditioning-resizer": [
@@ -21578,10 +21596,14 @@
             "Data_select",
             "IO_adjust_image",
             "IO_clear_cache",
+            "IO_image_select",
             "IO_input_any",
             "IO_inputbasic",
+            "IO_inputfile",
             "IO_load_anyimage",
+            "IO_outputfile",
             "IO_save_image",
+            "IO_store_image",
             "IO_video_encode",
             "IPA_XL_PromptInjection",
             "IPA_clip_vision",
@@ -21599,6 +21621,7 @@
             "Image_Upscaletile",
             "Image_batch_composite",
             "Image_batch_select",
+            "Image_matchByMask",
             "Image_pad_adjust",
             "Image_pad_adjust_restore",
             "Image_pad_keep",
@@ -21694,6 +21717,7 @@
             "chx_StyleModelApply",
             "chx_Style_Redux",
             "chx_YC_LG_Redux",
+            "chx_input_data",
             "chx_ksampler_Deforum_sch",
             "chx_ksampler_tile",
             "chx_latent_adjust",
@@ -21733,6 +21757,7 @@
             "excel_write_data",
             "excel_write_data_easy",
             "flow_auto_pixel",
+            "flow_case_tentor",
             "flow_judge",
             "flow_low_gpu",
             "flow_sch_control",
@@ -21830,7 +21855,6 @@
             "texture_create",
             "type_AnyCast",
             "type_AnyIndex",
-            "type_Anyswitch",
             "type_BasiPIPE",
             "type_BatchToList",
             "type_Image_Batch2List",
@@ -26692,6 +26716,7 @@
         [
             "FL_API_Base64_ImageLoader",
             "FL_API_ImageSaver",
+            "FL_AnimatedShapePatterns",
             "FL_AnimeLineExtractor",
             "FL_ApplyMask",
             "FL_Ascii",
@@ -26812,6 +26837,7 @@
             "FL_PaperDrawn",
             "FL_PasteByMask",
             "FL_PasteOnCanvas",
+            "FL_PathAnimator",
             "FL_PathTypeChecker",
             "FL_PixVerseAPI",
             "FL_PixelArtShader",
@@ -26865,6 +26891,7 @@
             "FL_VideoTrim",
             "FL_WF_Agent",
             "FL_WanFirstLastFrameToVideo",
+            "FL_WanVaceToVideoMultiRef",
             "FL_WordFrequencyGraph",
             "FL_ZipDirectory",
             "FL_ZipSave",
@@ -27483,8 +27510,10 @@
     "https://github.com/geltz/ComfyUI-geltz": [
         [
             "CLIPNegPipPlus",
+            "ChromaticAberrationFilter",
             "ColorPaletteExtractor",
             "FidelityFX_Upscaler",
+            "FilmGrainFilter",
             "ImageMetadataExtractor",
             "KohyaLoraConfig",
             "KuwaharaFilter",
@@ -27500,6 +27529,7 @@
             "SADAModelPatch",
             "SDXL_LoRA_BlockSlider_Loader",
             "SpatialSplitAttention",
+            "SpectralDriftPerturbation",
             "StructuredLatent",
             "Temperature Adjust",
             "TokenDeltaPerturbation",
@@ -29701,6 +29731,7 @@
             "LoraMerge",
             "LoraSaver",
             "ScaleMultilplePixels",
+            "TextSplitToList",
             "TrimBG",
             "TrimBGAdvanced",
             "TxtSave"
@@ -38703,6 +38734,15 @@
             "title_aux": "ComfyUI-AlphaFlatten"
         }
     ],
+    "https://github.com/pizurny/ComfyUI-AV-Handles": [
+        [
+            "AVHandlesAdd",
+            "AVHandlesTrim"
+        ],
+        {
+            "title_aux": "ComfyUI-AV-Handles"
+        }
+    ],
     "https://github.com/pizurny/Comfyui-Latent-Transform-Sampler": [
         [
             "LatentTransformSampler",
@@ -43546,6 +43586,7 @@
             "TALMStudioLoadOnRun",
             "TALMStudioLoadedModels",
             "TALMStudioModelSelector",
+            "TALMStudioSmartLoader",
             "TALoadCheckpointModelWithName",
             "TALoadDiffusionModelWithName",
             "TALoadGGUFModelWithName"
@@ -43803,6 +43844,14 @@
         ],
         {
             "title_aux": "Remove Banding Artifacts"
+        }
+    ],
+    "https://github.com/tritant/ComfyUI_SuperScaler": [
+        [
+            "SuperScaler_Pipeline"
+        ],
+        {
+            "title_aux": "SuperScaler"
         }
     ],
     "https://github.com/trojblue/trNodes": [
@@ -44683,6 +44732,29 @@
             "title_aux": "ComfyUI-AbstractImaGen"
         }
     ],
+    "https://github.com/walke2019/ComfyUI-GGUF-VLM": [
+        [
+            "GGUFModelManager",
+            "LocalTextModelLoader",
+            "MultiImageAnalysis",
+            "MultiImageComparison",
+            "NexaModelSelector",
+            "NexaSDKTextGeneration",
+            "NexaServiceStatus",
+            "RemoteTextModelSelector",
+            "SystemPromptConfig",
+            "TextGeneration",
+            "TextGenerationNode",
+            "TextModelLoader",
+            "VisionLanguageNode",
+            "VisionLanguageNodeTransformers",
+            "VisionModelLoader",
+            "VisionModelLoaderTransformers"
+        ],
+        {
+            "title_aux": "Qwen2.5-VL GGUF Nodes"
+        }
+    ],
     "https://github.com/walke2019/ComfyUI-GGUF-VisionLM": [
         [
             "LoadQwen2_5_VL_GGUF",
@@ -45237,9 +45309,11 @@
         [
             "CharacterPromptBuilder",
             "FantasySceneBuilder",
+            "WizdroidCharacterEdit",
             "WizdroidFashionSupermodel",
             "WizdroidPhotoAspectExtractor",
             "WizdroidPoseExtraction",
+            "WizdroidPromptCombiner",
             "WizdroidUpcycledFashion"
         ],
         {

@@ -14181,6 +14181,16 @@
             "description": "It allows you to control complex graphs by unbypass/unmute and bypass/mute entire groups of nodes, just by adding tags in the title of your nodes, no connection required."
         },
         {
+            "author": "tritant",
+            "title": "SuperScaler",
+            "reference": "https://github.com/tritant/ComfyUI_SuperScaler",
+            "files": [
+                "https://github.com/tritant/ComfyUI_SuperScaler"
+            ],
+            "install_type": "git-clone",
+            "description": "An all-in-one, multi-pass generative upscaling and post-processing node designed to simplify complex workflows and add a professional finish to your images."
+        },
+        {
             "author": "metncelik",
             "title": "comfyui_met_suite",
             "reference": "https://github.com/metncelik/comfyui_met_suite",
@@ -30735,6 +30745,16 @@
             "description": "Nodes to switch image input or output path with boolean conditions"
         },
         {
+            "author": "MartinDeanMoriarty",
+            "title": "ComfyUI-NumberToText",
+            "reference": "https://github.com/MartinDeanMoriarty/ComfyUI-NumberToText",
+            "files": [
+                "https://github.com/MartinDeanMoriarty/ComfyUI-NumberToText"
+            ],
+            "install_type": "git-clone",
+            "description": "Converts a number (e.g., 2 or 15) into written text (e.g., two or fifteen). Works for english and german up to numbers as high as 9999 without problems."
+        },
+        {
             "author": "rdomunky",
             "title": "comfyui-subfolderimageloader",
             "reference": "https://github.com/rdomunky/comfyui-subfolderimageloader",
@@ -34401,6 +34421,16 @@
             "description": "Advanced latent space transformations during diffusion sampling with precise control over timing and distribution."
         },
         {
+            "author": "pizurny",
+            "title": "ComfyUI-AV-Handles",
+            "reference": "https://github.com/pizurny/ComfyUI-AV-Handles",
+            "files": [
+                "https://github.com/pizurny/ComfyUI-AV-Handles"
+            ],
+            "install_type": "git-clone",
+            "description": "Audio/Video handle management for ComfyUI workflows\nAdd and remove stabilization frames with synchronized audio for video diffusion models."
+        },
+        {
             "author": "DaniilVdovin",
             "title": "ComfyUI Prompt Template",
             "reference": "https://github.com/DaniilVdovin/ComfyUI-prompt-templating",
@@ -34829,6 +34859,16 @@
             "reference": "https://github.com/walke2019/ComfyUI-GGUF-VisionLM",
             "files": [
                 "https://github.com/walke2019/ComfyUI-GGUF-VisionLM"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for running GGUF quantized Qwen2.5-VL models using llama.cpp"
+        },
+        {
+            "author": "walke2019",
+            "title": "Qwen2.5-VL GGUF Nodes",
+            "reference": "https://github.com/walke2019/ComfyUI-GGUF-VLM",
+            "files": [
+                "https://github.com/walke2019/ComfyUI-GGUF-VLM"
             ],
             "install_type": "git-clone",
             "description": "ComfyUI nodes for running GGUF quantized Qwen2.5-VL models using llama.cpp"
@@ -35372,6 +35412,16 @@
             ],
             "install_type": "git-clone",
             "description": "Custom nodes for ComfyUI by Rathius"
+        },
+        {
+            "author": "EuphoricPenguin",
+            "title": "ComfyUI Resemble Enhance",
+            "reference": "https://github.com/EuphoricPenguin/resemble-enhance-comfyui",
+            "files": [
+                "https://github.com/EuphoricPenguin/resemble-enhance-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node for audio enhancement using Resemble AI's Resemble Enhance model. Created using OpenHands, Cline, and DeepSeek."
         },
 
 

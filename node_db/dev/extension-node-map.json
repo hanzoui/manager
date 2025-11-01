@@ -4356,6 +4356,21 @@
             "title_aux": "ComfyUI-yolov5-face [WIP]"
         }
     ],
+    "https://github.com/VectorASD/ComfyUI-VectorASD": [
+        [
+            "ASD_CLIPLoader",
+            "ASD_CLIPSplitter",
+            "ASD_CLIPTextEncode",
+            "ASD_CompareAnything",
+            "ASD_JoinString",
+            "ASD_JoinStringMulti",
+            "ASD_JoinStringMultiPrefix",
+            "ASD_JoinStringPrefix"
+        ],
+        {
+            "title_aux": "ComfyUI-VectorASD"
+        }
+    ],
     "https://github.com/Velour-Fog/comfy-latent-nodes": [
         [
             "CustomLoadLatent",
@@ -6493,6 +6508,15 @@
             "title_aux": "ComfyUI-IPAdapter-Flux-Repair"
         }
     ],
+    "https://github.com/dibowei1980/Comfyui-QwenEditUtilsFromRapid": [
+        [
+            "TextEncodeQwenImageEditPlus_FromRapid",
+            "TextEncodeQwenImageEdit_FromRapid"
+        ],
+        {
+            "title_aux": "Comfyui-QwenEditUtilsFromRapid"
+        }
+    ],
     "https://github.com/dihan/comfyui-random-kps": [
         [
             "RandomFaceKeypoints"
@@ -8568,6 +8592,14 @@
         ],
         {
             "title_aux": "ssd-1b-comfyui"
+        }
+    ],
+    "https://github.com/laobaishu1/ComfyUI-JSON-Upload-Iterator": [
+        [
+            "JSONUploadIterator"
+        ],
+        {
+            "title_aux": "ComfyUI-JSON-Upload-Iterator [UNSAFE]"
         }
     ],
     "https://github.com/lazybuttalented/ComfyUI_LBT": [
@@ -12035,6 +12067,8 @@
         [
             "FaceDetectorSelector",
             "HumanPartsUltra",
+            "ImageUpscaleWithModel_Optimized",
+            "UpscaleModelLoader_Optimized",
             "YC Color Match",
             "YCFaceAlignToCanvas",
             "YCFaceAlignToCanvasV2",
