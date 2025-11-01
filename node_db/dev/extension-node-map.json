@@ -7613,7 +7613,9 @@
             "Alta:GetImageByIndex",
             "Alta:GetStringByIndex",
             "Alta:ListAllFiles",
+            "Alta:ListElement(Util)",
             "Alta:ListFilesByExt",
+            "Alta:ListLength(Util)",
             "Alta:LoadFilesFromFolder",
             "Alta:LoadImage",
             "Alta:LoadImageFromPath",
@@ -9269,6 +9271,15 @@
         ],
         {
             "title_aux": "comfyui-gemini-studio [WIP]"
+        }
+    ],
+    "https://github.com/minujeong/comfyui-oklch-color-picker": [
+        [
+            "OKLCH",
+            "OKLCHPicker"
+        ],
+        {
+            "title_aux": "comfyui-oklch-color-picker"
         }
     ],
     "https://github.com/miragecoa/ComfyUI-LLM-Evaluation": [

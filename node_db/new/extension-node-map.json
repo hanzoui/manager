@@ -1651,7 +1651,9 @@
     "https://github.com/AIWarper/ComfyUI-WarperNodes": [
         [
             "AspectRatioMatchToBase_Warper",
+            "AspectRatioMatchToStandardResolution_Warper",
             "AspectRatioResolution_Warper",
+            "CombinePrompts_Warper",
             "CropAndRestore_Warper",
             "DWPoseScalerNode_Warper",
             "FacialPartMaskFromPose_Warper",
@@ -1660,6 +1662,8 @@
             "FlowVisualizerNode_Warper",
             "GetBatchByIndex_Warper",
             "GetRaftFlow_Warper",
+            "LoadPromptsFromDirectory_Warper",
+            "LoadSinglePromptByIndex_Warper",
             "MouthMaskFromPose_Warper",
             "PreprocessForTarget_Warper",
             "SmartOverlappingBatcher_Warper",
@@ -7784,20 +7788,6 @@
         ],
         {
             "title_aux": "Hellrunner's Magical Nodes"
-        }
-    ],
-    "https://github.com/Hiero207/ComfyUI-Hiero-Nodes": [
-        [
-            "Load Prompt Travel file",
-            "Post to Discord w/ Webhook",
-            "Save Prompt Travel file"
-        ],
-        {
-            "author": "Hiero",
-            "description": "Just some nodes that I wanted/needed, so I made them.",
-            "nickname": "HNodes",
-            "title": "Hiero-Nodes",
-            "title_aux": "Hiero-Nodes"
         }
     ],
     "https://github.com/HighDoping/ComfyUI_ASSSSA": [
@@ -15054,6 +15044,14 @@
             "title_aux": "ComfyUI_StarNodes"
         }
     ],
+    "https://github.com/Starnodes2024/comfyui_Starnodes_DyPE": [
+        [
+            "StarDyPEModelPatcher"
+        ],
+        {
+            "title_aux": "ComfyUI Star DyPE"
+        }
+    ],
     "https://github.com/StartHua/ComfyUI_OOTDiffusion_CXH": [
         [
             "Ood_CXH"
@@ -19568,6 +19566,14 @@
             "title_aux": "Sage Utils"
         }
     ],
+    "https://github.com/ardadmrknn/comfyui-history-clip-text-encode-node": [
+        [
+            "PromptHistoryClipTextEncode"
+        ],
+        {
+            "title_aux": "ComfyUI Prompt History Node"
+        }
+    ],
     "https://github.com/asaddi/ComfyUI-YALLM-node": [
         [
             "LLMChat",
@@ -20231,6 +20237,7 @@
             "VACEControlImageCombine",
             "VACEPromptCheckTotalFrame",
             "VACEPromptCombine",
+            "VaceFunLongVideo",
             "VaceLongVideo"
         ],
         {
@@ -24660,9 +24667,27 @@
     "https://github.com/dadoirie/ComfyUI_Dados_Nodes": [
         [
             "DN_CSVMultiDropDownNode",
+            "DN_ChutesChromaImageNode",
+            "DN_ChutesFluxImageNode",
+            "DN_ChutesHiDreamNode",
+            "DN_ChutesHunyuanImage3Node",
+            "DN_ChutesIllustriousNode",
+            "DN_ChutesImageGenNode",
+            "DN_ChutesImageToVideoNode",
+            "DN_ChutesLLMNode",
+            "DN_ChutesNetaLuminaNode",
+            "DN_ChutesParallelImageNode",
+            "DN_ChutesQwenImageEditNode",
+            "DN_ChutesQwenImageNode",
+            "DN_ChutesSDxlNode",
+            "DN_ChutesTextToVideoNode",
+            "DN_GroqLLMNode",
+            "DN_ImageBatcher",
             "DN_JoyTaggerNode",
+            "DN_MemoryStorage",
             "DN_MultilineString",
             "DN_PixAITaggerNode",
+            "DN_PreviewImage",
             "DN_PromptSectionsExtractor",
             "DN_SmolVLMNode",
             "DN_TagOpsNode",
@@ -25055,6 +25080,7 @@
             "DavchaModelMergeSDXL",
             "DavchaModelMergeSimple",
             "DavchaPop",
+            "DavchaScheduledTextEncoderQwenImageEditPlus",
             "DavchaTextEncodeQwenImageEditPlus",
             "DavchaWan22LoraTagLoader",
             "DavchaWan22LoraTagParser",
@@ -25296,6 +25322,7 @@
             "MouthMovementAnalyzer",
             "PhonemeTextNormalizer",
             "QwenEmotionNode",
+            "StringMultilineTagEditor",
             "UnifiedTTSSRTNode",
             "UnifiedTTSTextNode",
             "UnifiedVoiceChangerNode",
@@ -27815,6 +27842,7 @@
     ],
     "https://github.com/gokayfem/ComfyUI-fal-API": [
         [
+            "Bria_Video_Increase_Resolution_fal",
             "CombinedVideoGeneration_fal",
             "Dreamina31TextToImage_fal",
             "FluxDev_fal",
@@ -27822,6 +27850,7 @@
             "FluxLoraTrainer_fal",
             "FluxLora_fal",
             "FluxPro11_fal",
+            "FluxPro1Fill_fal",
             "FluxProKontextMulti_fal",
             "FluxProKontextTextToImage_fal",
             "FluxProKontext_fal",
@@ -27836,6 +27865,7 @@
             "KlingPro10_fal",
             "KlingPro16_fal",
             "Kling_fal",
+            "Krea_Wan14b_VideoToVideo_fal",
             "LLM_fal",
             "LoadVideoURL",
             "LtxVideoTrainer_fal",
@@ -27854,12 +27884,18 @@
             "SeedanceImageToVideo_fal",
             "SeedanceTextToVideo_fal",
             "SeedreamV4Edit_fal",
+            "Seedvr_Upscale_Video_fal",
             "Seedvr_Upscaler_fal",
+            "Topaz_Upscale_Video_fal",
+            "UploadFile_fal",
+            "UploadVideo_fal",
             "Upscaler_fal",
             "VLM_fal",
             "Veo2ImageToVideo_fal",
             "Veo3_fal",
             "VideoUpscaler_fal",
+            "Wan2214b_animate_move_character_fal",
+            "Wan2214b_animate_replace_character_fal",
             "Wan25_preview_fal",
             "WanLoraTrainer_fal",
             "WanPro_fal",
@@ -40203,10 +40239,17 @@
             "TTSWebUI_OpenAI_TTS",
             "TTS_ChatterboxNode",
             "TTS_F5TTSNode",
+            "TTS_FireRedTTS2Node",
             "TTS_GlobalPresetNode",
+            "TTS_HiggsV2Node",
             "TTS_KittenTTSNode",
             "TTS_KokoroNode",
-            "TTS_StyleTTS2Node"
+            "TTS_MMSNode",
+            "TTS_MegaTTS3Node",
+            "TTS_ParlerTTSNode",
+            "TTS_PiperTTSNode",
+            "TTS_StyleTTS2Node",
+            "TTS_VallEXNode"
         ],
         {
             "title_aux": "TTS WebUI API nodes for ComfyUI"
@@ -44238,6 +44281,14 @@
             "title_aux": "Simple Wildcard"
         }
     ],
+    "https://github.com/vantagewithai/Vantage-DyPE": [
+        [
+            "VantageFluxDyPEPatch"
+        ],
+        {
+            "title_aux": "Vantage-DyPE"
+        }
+    ],
     "https://github.com/vantagewithai/Vantage-HunyuanFoley": [
         [
             "HunyuanFoleyDenoiser",
@@ -44821,16 +44872,17 @@
     "https://github.com/weekii/ComfyUI-GGUF-FX": [
         [
             "GGUFModelManager",
+            "LocalTextModelLoader",
             "MultiImageAnalysis",
             "MultiImageComparison",
             "NexaModelSelector",
             "NexaServiceStatus",
             "NexaTextGeneration",
+            "RemoteTextModelSelector",
             "SystemPromptConfig",
+            "TextGeneration",
             "TextGenerationNode",
             "TextModelLoader",
-            "UnifiedTextGeneration",
-            "UnifiedTextModelSelector",
             "VisionLanguageNode",
             "VisionLanguageNodeTransformers",
             "VisionModelLoader",
@@ -44959,6 +45011,8 @@
             "APIImageGenerator_UTK",
             "AudioCropProcessUTK",
             "BboxVisualize_UTK",
+            "BestContextWindow_UTK",
+            "BlockifyMask_UTK",
             "CheckMask_UTK",
             "ColorMatch_UTK",
             "ColorToMask_UTK",
@@ -44989,6 +45043,7 @@
             "MaskSub_UTK",
             "MathExpression_UTK",
             "PurgeVRAM_UTK",
+            "ResizeImageVerKJ_UTK",
             "RestoreCropBox_UTK",
             "SeparateMasks_UTK",
             "TextBoxNode_UTK",
@@ -45176,6 +45231,19 @@
         ],
         {
             "title_aux": "mpx-comfyui-nodes"
+        }
+    ],
+    "https://github.com/wizdroid/wizdroid-character": [
+        [
+            "CharacterPromptBuilder",
+            "FantasySceneBuilder",
+            "WizdroidFashionSupermodel",
+            "WizdroidPhotoAspectExtractor",
+            "WizdroidPoseExtraction",
+            "WizdroidUpcycledFashion"
+        ],
+        {
+            "title_aux": "Wizdroid Character Nodes for ComfyUI"
         }
     ],
     "https://github.com/wizdroid/wizdroid-fashionista": [
@@ -46936,6 +47004,7 @@
             "MaskFromFaceModel",
             "MaskofCenter",
             "MatchImageRatioToPreset",
+            "ModelsDownloaderOfUtils",
             "ModifyTextGender",
             "NeedImageSizeAndCount",
             "NovitaVideoRequestNode",
