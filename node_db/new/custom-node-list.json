@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Rathius-Saranoth",
+            "title": "Rathius ComfyUI Nodes",
+            "reference": "https://github.com/Rathius-Saranoth/rathius-comfyui-nodes",
+            "files": [
+                "https://github.com/Rathius-Saranoth/rathius-comfyui-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for ComfyUI by Rathius"
+        },
+        {
             "author": "vantagewithai",
             "title": "Vantage-DyPE",
             "reference": "https://github.com/vantagewithai/Vantage-DyPE",
@@ -49,6 +59,16 @@
             ],
             "install_type": "git-clone",
             "description": "Fixed implementation of the export workflow image utility from [a/pythongosssss/ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts). All nodes should display and all node links should be visible and render 1:1 to their actual states in ComfyUI."
+        },
+        {
+            "author": "fchangjun",
+            "title": "BaiduMeux_Comfy Tools",
+            "reference": "https://github.com/fchangjun/Baidu_Meux_ComfyTools",
+            "files": [
+                "https://github.com/fchangjun/Baidu_Meux_ComfyTools"
+            ],
+            "install_type": "git-clone",
+            "description": "Meux ComfyTools is a collection of custom nodes that streamline common workflow chores in ComfyUI for the Meux asset platform."
         },
         {
             "author": "HM-RunningHub",
@@ -668,26 +688,6 @@
             ],
             "install_type": "git-clone",
             "description": "Enhanced WanAnimateToVideo with multi-dimensional control"
-        },
-        {
-            "author": "alibof96",
-            "title": "ComfyUI-DownscaleIRN",
-            "reference": "https://github.com/alibof96/ComfyUI-DownscaleIRN",
-            "files": [
-                "https://github.com/alibof96/ComfyUI-DownscaleIRN"
-            ],
-            "install_type": "git-clone",
-            "description": "A single-node ComfyUI module for Invertible Image Rescaling (IRN) that includes: automatic model download and discovery, BasicSR-based IRN_x2/x3/x4 loading, device/precision control, low-VRAM tiling, safe handling of non-divisible sizes, alpha channel preservation, and built-in bicubic/area fallback."
-        },
-        {
-            "author": "spiralmountain",
-            "title": "ComfyUI_HDNodes",
-            "reference": "https://github.com/spiralmountain/ComfyUI_HDNodes",
-            "files": [
-                "https://github.com/spiralmountain/ComfyUI_HDNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for ComfyUI that enable video generation using ByteDance's Seedance model via [a/Fal.ai](https://fal.ai/)."
         }
     ]
 }
