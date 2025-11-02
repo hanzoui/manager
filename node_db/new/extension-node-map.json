@@ -65,47 +65,6 @@
             "title_aux": "Latent Consistency Model for ComfyUI"
         }
     ],
-    "https://github.com/0xhappydev/comfyui-qwen-image-tools": [
-        [
-            "QwenDebugController",
-            "QwenDebugLatents",
-            "QwenEliGenEntityControl",
-            "QwenEliGenMaskPainter",
-            "QwenFlowMatchSamplerNode",
-            "QwenImageBatch",
-            "QwenImageDiTLoaderWrapper",
-            "QwenImageEncodeWrapper",
-            "QwenImageModelWithEdit",
-            "QwenImageModelWrapper",
-            "QwenImageModelWrapperNode",
-            "QwenImageSamplerNode",
-            "QwenImageSamplerWithEdit",
-            "QwenImageVAELoaderWrapper",
-            "QwenInpaintSampler",
-            "QwenLatentPackerNode",
-            "QwenLowresFixNode",
-            "QwenMaskProcessor",
-            "QwenModelManagerWrapper",
-            "QwenProcessedToEmbedding",
-            "QwenProcessorWrapper",
-            "QwenSchedulerInfoNode",
-            "QwenSmartCrop",
-            "QwenSpatialTokenGenerator",
-            "QwenTemplateBuilderV2",
-            "QwenTemplateConnector",
-            "QwenTokenAnalyzerStandalone",
-            "QwenTokenDebugger",
-            "QwenVLCLIPLoader",
-            "QwenVLEmptyLatent",
-            "QwenVLImageToLatent",
-            "QwenVLTextEncoder",
-            "QwenVLTextEncoderAdvanced",
-            "QwenVLTextEncoderLoaderWrapper"
-        ],
-        {
-            "title_aux": "comfyui-qwen-image-tools"
-        }
-    ],
     "https://github.com/1038lab/ComfyUI-EdgeTTS": [
         [
             "EdgeTTS",
@@ -1913,6 +1872,7 @@
             "GroupExecutorManager",
             "GroupExecutorTrigger",
             "GroupMuteManager",
+            "HasNextExecutorGroup",
             "ImageCacheGet",
             "MultiCharacterEditorNode",
             "PromptCleaningMaid",
@@ -2616,6 +2576,10 @@
     ],
     "https://github.com/Art-xmaster/comfyui-AGSoft": [
         [
+            "AGSoft Text Overlay",
+            "AGSoftTextConcatenateX2",
+            "AGSoftTextConcatenateX4",
+            "AGSoftTextConcatenateX8",
             "AGSoft_Draw_Mask_On_Image",
             "AGSoft_Empty_Latent",
             "AGSoft_Empty_Latent_QwenImage",
@@ -4668,6 +4632,8 @@
             "AudioKeywordExtractor",
             "CLIPSwitch",
             "Categorizer",
+            "CharacterSelect (Creepybits)",
+            "CharacterVault",
             "CollectAndDistributeText",
             "Coloring",
             "ConditionalLoRAApplier",
@@ -7260,6 +7226,7 @@
             "GR Text Overlay",
             "GR Tile and Border Image",
             "GR Tile and Border Image Random Flip",
+            "GRLoraLoader",
             "GRPromptViewer"
         ],
         {
@@ -12345,13 +12312,20 @@
         [
             "FRED_AutoCropImage_Native_Ratio",
             "FRED_AutoImageTile_from_Mask",
+            "FRED_AutoLoraLoader_5_stacks_simple",
+            "FRED_AutoLoraLoader_Dynamic",
+            "FRED_CheckpointLoaderWithName",
             "FRED_CropFace",
+            "FRED_ExtractKSampler_parameter",
             "FRED_ImageLoad",
             "FRED_ImageQualityInspector",
             "FRED_ImageSaver",
+            "FRED_ImageUncropFromBBox",
+            "FRED_Image_Sharpening_Blur_Level",
             "FRED_Save_Text_File",
             "FRED_Simplified_Parameters_Panel",
             "FRED_Text_to_XMP",
+            "FRED_UNETLoaderWithName",
             "FRED_WildcardConcat_Dynamic"
         ],
         {
@@ -12408,6 +12382,7 @@
             "Load_Trellis_Model",
             "MeshCraftPostProcess",
             "MeshCraftRenderMultiView",
+            "MeshCraftUVUnwrap",
             "MeshCraft_ApplyAndSaveTexturedMesh",
             "MeshCraft_BakeMultiviewTextures",
             "MeshCraft_DINOEmbeddingInterpolation",
@@ -19361,12 +19336,43 @@
     ],
     "https://github.com/amir84ferdos/ComfyUI-ArchAi3d-Qwen": [
         [
+            "ArchAi3D_Average_Color",
             "ArchAi3D_Clean_Room_Prompt",
+            "ArchAi3D_Color_Correction_Advanced",
+            "ArchAi3D_Color_Correction_BT709",
+            "ArchAi3D_Mask_Crop_Rotate",
+            "ArchAi3D_Mask_To_Position_Guide",
+            "ArchAi3D_Position_Guide_Prompt_Builder",
+            "ArchAi3D_Qwen_Camera_View_Selector",
+            "ArchAi3D_Qwen_Colorization",
             "ArchAi3D_Qwen_Encoder",
             "ArchAi3D_Qwen_Encoder_Simple",
             "ArchAi3D_Qwen_Encoder_V2",
+            "ArchAi3D_Qwen_Encoder_V3",
+            "ArchAi3D_Qwen_Environment_Navigator",
+            "ArchAi3D_Qwen_Exterior_Focus",
+            "ArchAi3D_Qwen_Exterior_Navigation",
+            "ArchAi3D_Qwen_Exterior_View_Control",
             "ArchAi3D_Qwen_Image_Scale",
+            "ArchAi3D_Qwen_Interior_Focus",
+            "ArchAi3D_Qwen_Interior_Navigation",
+            "ArchAi3D_Qwen_Interior_View_Control",
+            "ArchAi3D_Qwen_Material_Changer",
+            "ArchAi3D_Qwen_Object_Position_Control",
+            "ArchAi3D_Qwen_Object_Rotation_Control",
+            "ArchAi3D_Qwen_Object_Rotation_V2",
+            "ArchAi3D_Qwen_Object_View_Control",
+            "ArchAi3D_Qwen_Person_Cinematographer",
+            "ArchAi3D_Qwen_Person_Perspective",
+            "ArchAi3D_Qwen_Person_Perspective_Control",
+            "ArchAi3D_Qwen_Person_Position_Control",
+            "ArchAi3D_Qwen_Person_View_Control",
+            "ArchAi3D_Qwen_Scene_Photographer",
+            "ArchAi3D_Qwen_Style_Transfer",
             "ArchAi3D_Qwen_System_Prompt",
+            "ArchAi3D_Qwen_Watermark_Removal",
+            "ArchAi3D_Simple_Position_Prompt",
+            "ArchAi3D_Solid_Color_Image",
             "ArchAi3dQwenEncoderSimpleV2"
         ],
         {
@@ -21756,11 +21762,13 @@
             "excel_search_data",
             "excel_write_data",
             "excel_write_data_easy",
+            "flow_QueueTrigger",
+            "flow_ValueReceiver",
+            "flow_ValueSender",
             "flow_auto_pixel",
             "flow_case_tentor",
             "flow_judge",
             "flow_low_gpu",
-            "flow_sch_control",
             "flow_switch",
             "img_effect_CircleWarp",
             "img_effect_Liquify",
@@ -27521,7 +27529,6 @@
             "LoRAExtract",
             "LoadImageWithMetadata",
             "LocalLaplacianFilter",
-            "ORBITModelMerge",
             "PaletteFilterLUT",
             "PerturbedAttentionDelta",
             "QMS",
@@ -37403,15 +37410,6 @@
             "title_aux": "Node_Fun_ComfyUI"
         }
     ],
-    "https://github.com/nomadoor/ComfyUI-Video-Stabilizer": [
-        [
-            "VideoStabilizerFlowNode",
-            "VideoStabilizerNode"
-        ],
-        {
-            "title_aux": "ComfyUI Video Stabilizer"
-        }
-    ],
     "https://github.com/northumber/ComfyUI-northTools": [
         [
             "BooleanIndexesToString",
@@ -44598,6 +44596,7 @@
             "VRGDG_CleanAudio",
             "VRGDG_CombinevideosV2",
             "VRGDG_CombinevideosV3",
+            "VRGDG_CombinevideosV5",
             "VRGDG_ConditionalLoadVideos",
             "VRGDG_CreateFinalVideo",
             "VRGDG_DisplayIndex",
@@ -44615,11 +44614,13 @@
             "VRGDG_LoadAudioSplit_HUMO_TranscribeV2",
             "VRGDG_LoadAudioSplit_HUMO_TranscribeV3",
             "VRGDG_LoadVideos",
+            "VRGDG_ManualLyricsExtractor",
             "VRGDG_MusicVideoPromptCreator",
             "VRGDG_MusicVideoPromptCreatorV2",
             "VRGDG_MusicVideoPromptCreatorV3",
             "VRGDG_PostRunIndexStepper",
             "VRGDG_PromptSplitter",
+            "VRGDG_PromptSplitterForManual",
             "VRGDG_PromptSplitterJson",
             "VRGDG_PromptSplitterV2",
             "VRGDG_QueueTriggerFromAudio",
