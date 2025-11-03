@@ -5072,6 +5072,16 @@
             "description": "Voice Clone and TTS model."
         },
         {
+            "author": "filliptm",
+            "title": "ComfyUI_FL-Path-Animator",
+            "reference": "https://github.com/filliptm/ComfyUI_FL-Path-Animator",
+            "files": [
+                "https://github.com/filliptm/ComfyUI_FL-Path-Animator"
+            ],
+            "install_type": "git-clone",
+            "description": "A standalone ComfyUI custom node for creating animated shapes that follow user-drawn paths."
+        },
+        {
             "author": "zfkun",
             "title": "ComfyUI_zfkun",
             "reference": "https://github.com/zfkun/ComfyUI_zfkun",
@@ -31568,6 +31578,16 @@
             ],
             "install_type": "git-clone",
             "description": "A custom ComfyUI node that splits text into multiple outputs for feeding complex multi-scene renders. This node allows you to dynamically control the number of splits and use custom separators."
+        },
+        {
+            "author": "vsaan212",
+            "title": "ComfyUI Subject Selector",
+            "reference": "https://github.com/vsaan212/ComfyUI_subjectselector",
+            "files": [
+                "https://github.com/vsaan212/ComfyUI_subjectselector"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI_subjectselector is a custom ComfyUI node that allows you to manage and select text-based subject descriptions directly from the workflow UI. This node was designed to pair seamlessly with [a/ComfyUI-textsplit](https://github.com/vsaan212/Comfy-ui-textsplit), providing a clean, modular way to feed descriptive text prompts into your generation pipeline."
         },
         {
             "author": "eric183",

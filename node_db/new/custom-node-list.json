@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "filliptm",
+            "title": "ComfyUI_FL-Path-Animator",
+            "reference": "https://github.com/filliptm/ComfyUI_FL-Path-Animator",
+            "files": [
+                "https://github.com/filliptm/ComfyUI_FL-Path-Animator"
+            ],
+            "install_type": "git-clone",
+            "description": "A standalone ComfyUI custom node for creating animated shapes that follow user-drawn paths."
+        },
+        {
+            "author": "vsaan212",
+            "title": "ComfyUI Subject Selector",
+            "reference": "https://github.com/vsaan212/ComfyUI_subjectselector",
+            "files": [
+                "https://github.com/vsaan212/ComfyUI_subjectselector"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI_subjectselector is a custom ComfyUI node that allows you to manage and select text-based subject descriptions directly from the workflow UI. This node was designed to pair seamlessly with [a/ComfyUI-textsplit](https://github.com/vsaan212/Comfy-ui-textsplit), providing a clean, modular way to feed descriptive text prompts into your generation pipeline."
+        },
+        {
             "author": "walke2019",
             "title": "Qwen2.5-VL GGUF Nodes",
             "reference": "https://github.com/walke2019/ComfyUI-GGUF-VLM",
@@ -668,76 +688,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI wrapper nodes for Lumina-DiMOO. Please see the README for model weight download instructions."
-        },
-        {
-            "author": "IXIWORKS-KIMJUNGHO",
-            "title": "ComfyUI-VideoDescription",
-            "reference": "https://github.com/IXIWORKS-KIMJUNGHO/ComfyUI-VideoDescription",
-            "files": [
-                "https://github.com/IXIWORKS-KIMJUNGHO/ComfyUI-VideoDescription"
-            ],
-            "install_type": "git-clone",
-            "description": "Video description custom nodes for ComfyUI powered by advanced vision-language models."
-        },
-        {
-            "author": "pacchikAI",
-            "title": "ImagePromptBatch",
-            "reference": "https://github.com/pacchikAI/comfyui_pacchik_ImagePromptBatch",
-            "files": [
-                "https://github.com/pacchikAI/comfyui_pacchik_ImagePromptBatch"
-            ],
-            "install_type": "git-clone",
-            "description": "A simple comfyui Node for Loading images and thier prompts"
-        },
-        {
-            "author": "charlyad142",
-            "title": "ComfyUI Replicate Image Generation & Edit",
-            "reference": "https://github.com/charlyad142/comfyUI_charly_replicate_api",
-            "files": [
-                "https://github.com/charlyad142/comfyUI_charly_replicate_api"
-            ],
-            "install_type": "git-clone",
-            "description": "This nodepack lets you use several Replicate models for image generation and editing: Qwen Image Edit Plus (Multi-Image) for editing multiple images using reference poses, Qwen Image Edit (Single Image) for single-image edits with text instructions, SeedEdit 3.0 (ByteDance) for advanced prompt-controlled editing, and Seedream 4.0 (ByteDance) for high-quality multi-resolution image generation."
-        },
-        {
-            "author": "0xhappydev",
-            "title": "comfyui-qwen-image-tools",
-            "reference": "https://github.com/0xhappydev/comfyui-qwen-image-tools",
-            "files": [
-                "https://github.com/0xhappydev/comfyui-qwen-image-tools"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for Qwen-Image-Edit with multi-image support, more flexibility around the vision transformer (qwen2.5-vl), custom system prompts, and some other experimental things to come."
-        },
-        {
-            "author": "PozzettiAndrea",
-            "title": "ComfyUI-Grounding",
-            "reference": "https://github.com/PozzettiAndrea/ComfyUI-Grounding",
-            "files": [
-                "https://github.com/PozzettiAndrea/ComfyUI-Grounding"
-            ],
-            "install_type": "git-clone",
-            "description": "Grounding for dummies, simplest workflow"
-        },
-        {
-            "author": "Antique3e",
-            "title": "ComfyUI Credit Tracker",
-            "reference": "https://github.com/Antique3e/ComfyUI-ModalCredits",
-            "files": [
-                "https://github.com/Antique3e/ComfyUI-ModalCredits"
-            ],
-            "install_type": "git-clone",
-            "description": "Simple UI extension to track Modal GPU credits in real-time."
-        },
-        {
-            "author": "wallen0322",
-            "title": "ComfyUI-WanAnimate-Enhancer",
-            "reference": "https://github.com/wallen0322/ComfyUI-WanAnimate-Enhancer",
-            "files": [
-                "https://github.com/wallen0322/ComfyUI-WanAnimate-Enhancer"
-            ],
-            "install_type": "git-clone",
-            "description": "Enhanced WanAnimateToVideo with multi-dimensional control"
         }
     ]
 }
