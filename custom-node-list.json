@@ -35920,6 +35920,18 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "Amir Ferdos (ArchAi3d)",
+            "title": "ComfyUI-GRAG-ArchAi3D",
+            "id": "grag-archai3d",
+            "reference": "https://github.com/amir84ferdos/ComfyUI-GRAG-ArchAi3D",
+            "files": [
+                "https://github.com/amir84ferdos/ComfyUI-GRAG-ArchAi3D"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced GRAG (Guided Region-Adaptive Guidance) implementation for ComfyUI. Features: Simple Controller (3 parameters) for beginners, Unified Controller (25+ parameters) for experts, Advanced Sampler with v2.2.1 contamination fix, Preset Manager with 54 curated presets, per-layer control, adaptive schedules, and multi-resolution support.",
+            "pip": ["PyYAML>=6.0"]
         }
     ]
 }
