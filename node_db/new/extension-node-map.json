@@ -4985,6 +4985,14 @@
             "title_aux": "Discord Webhook"
         }
     ],
+    "https://github.com/DazzleNodes/fit-mask-to-image": [
+        [
+            "FitMaskToImage"
+        ],
+        {
+            "title_aux": "ComfyUI Fit Mask to Image"
+        }
+    ],
     "https://github.com/De-Zoomer/ComfyUI-DeZoomer-Nodes": [
         [
             "CaptionRefinement",
@@ -23857,7 +23865,6 @@
             "GrowMask",
             "Hunyuan3Dv2Conditioning",
             "Hunyuan3Dv2ConditioningMultiView",
-            "HypernetworkLoader",
             "ImageAddNoise",
             "ImageBatch",
             "ImageColorToMask",
@@ -23936,12 +23943,6 @@
             "ModelSamplingSD3",
             "ModelSamplingStableCascade",
             "ModelSave",
-            "OpenAIChatConfig",
-            "OpenAIChatNode",
-            "OpenAIDalle2",
-            "OpenAIDalle3",
-            "OpenAIGPTImage1",
-            "OpenAIInputFiles",
             "PolyexponentialScheduler",
             "Preview3D",
             "Preview3DAnimation",
@@ -24935,6 +24936,21 @@
             "nickname": "DV Nodes",
             "title": "Comfy DV Nodes",
             "title_aux": "Comfy DV"
+        }
+    ],
+    "https://github.com/darth-veitcher/comfyui-ollama-model-manager": [
+        [
+            "OllamaClient",
+            "OllamaLoadModel",
+            "OllamaModelSelector",
+            "OllamaUnloadModel"
+        ],
+        {
+            "author": "darth-veitcher",
+            "description": "Custom nodes for managing Ollama models in ComfyUI workflows. Load and unload models on-demand to optimize memory usage.",
+            "nickname": "Ollama Manager",
+            "title": "ComfyUI Ollama Model Manager",
+            "title_aux": "ComfyUI Ollama Model Manager"
         }
     ],
     "https://github.com/daryltucker/ComfyUI-LoadFiles": [
@@ -29293,6 +29309,14 @@
         ],
         {
             "title_aux": "hvppyflow"
+        }
+    ],
+    "https://github.com/hw5511/comfyui_hf_upscaler_loader": [
+        [
+            "UpscaleModelLoaderFromHF"
+        ],
+        {
+            "title_aux": "Woohee HF Upscaler Loader"
         }
     ],
     "https://github.com/hwhaocool/ComfyUI-Select-Any": [
@@ -34557,7 +34581,14 @@
     "https://github.com/lrzjason/Comfyui-QwenEditUtils": [
         [
             "CropWithPadInfo",
+            "QwenEditAny2Image",
+            "QwenEditAny2Latent",
+            "QwenEditConfigJsonParser",
+            "QwenEditConfigPreparer",
+            "QwenEditListExtractor",
+            "QwenEditOutputExtractor",
             "TextEncodeQwenImageEditPlusAdvance_lrzjason",
+            "TextEncodeQwenImageEditPlusCustom_lrzjason",
             "TextEncodeQwenImageEditPlusPro_lrzjason",
             "TextEncodeQwenImageEditPlus_lrzjason",
             "TextEncodeQwenImageEdit_lrzjason"
@@ -37707,6 +37738,18 @@
         ],
         {
             "title_aux": "ComfyUI - DGLS (Dynamic GPU Layer Swapping)"
+        }
+    ],
+    "https://github.com/okdalto/ComfyUI-WithAnyone": [
+        [
+            "WithAnyoneArcFaceExtractorNode",
+            "WithAnyoneBBoxNode",
+            "WithAnyoneModelLoaderNode",
+            "WithAnyoneSamplerNode",
+            "WithAnyoneSigLIPExtractorNode"
+        ],
+        {
+            "title_aux": "ComfyUI-WithAnyone"
         }
     ],
     "https://github.com/okgo4/ComfyUI-Mosaic-Mask": [

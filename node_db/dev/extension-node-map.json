@@ -6101,7 +6101,6 @@
             "GrowMask",
             "Hunyuan3Dv2Conditioning",
             "Hunyuan3Dv2ConditioningMultiView",
-            "HypernetworkLoader",
             "ImageAddNoise",
             "ImageBatch",
             "ImageColorToMask",
@@ -6180,12 +6179,6 @@
             "ModelSamplingSD3",
             "ModelSamplingStableCascade",
             "ModelSave",
-            "OpenAIChatConfig",
-            "OpenAIChatNode",
-            "OpenAIDalle2",
-            "OpenAIDalle3",
-            "OpenAIGPTImage1",
-            "OpenAIInputFiles",
             "PolyexponentialScheduler",
             "Preview3D",
             "Preview3DAnimation",
@@ -7636,6 +7629,7 @@
             "Alta:GetImageAndPath",
             "Alta:GetImageByIndex",
             "Alta:GetStringByIndex",
+            "Alta:JSONKeyExtractor(Util)",
             "Alta:ListAllFiles",
             "Alta:ListElement(Util)",
             "Alta:ListFilesByExt",
@@ -10683,6 +10677,40 @@
         ],
         {
             "title_aux": "WIP Conditioning Toolkit [UNSAFE]"
+        }
+    ],
+    "https://github.com/silveroxides/ComfyUI_LogicMath": [
+        [
+            "LogicAND",
+            "LogicIF",
+            "LogicNOT",
+            "LogicOR",
+            "LogicXOR",
+            "MathAbs",
+            "MathAdd",
+            "MathCeil",
+            "MathClamp",
+            "MathCompare",
+            "MathCos",
+            "MathDivide",
+            "MathFloor",
+            "MathMax",
+            "MathMin",
+            "MathModulo",
+            "MathMultiply",
+            "MathNumberConvert",
+            "MathOperation",
+            "MathPower",
+            "MathRound",
+            "MathSin",
+            "MathSqrt",
+            "MathSubtract",
+            "MathTan",
+            "NumberToString",
+            "StringToNumber"
+        ],
+        {
+            "title_aux": "ComfyUI_LogicMath"
         }
     ],
     "https://github.com/silveroxides/ComfyUI_PromptAttention": [

@@ -18042,6 +18042,17 @@
             "description": "Nodes: String Formatting (f-string and jinja2), Random Choice, Model Memory management, and other quality of life improvements."
         },
         {
+            "author": "Darth-Veitcher",
+            "title": "ComfyUI Ollama Model Manager",
+            "id": "comfydv",
+            "reference": "https://github.com/darth-veitcher/comfyui-ollama-model-manager",
+            "files": [
+                "https://github.com/darth-veitcher/comfyui-ollama-model-manager"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for managing [a/Ollama](https://ollama.com/) models in ComfyUI workflows. Load and unload models on-demand to optimize memory usage in constrained environments."
+        },
+        {
             "author": "ez-af",
             "title": "ComfyUI-EZ-AF-Nodes",
             "reference": "https://github.com/ez-af/ComfyUI-EZ-AF-Nodes",
@@ -35412,6 +35423,36 @@
             ],
             "install_type": "git-clone",
             "description": "A custom ComfyUI node for audio enhancement using Resemble AI's Resemble Enhance model. Created using OpenHands, Cline, and DeepSeek."
+        },
+        {
+            "author": "DazzleNodes",
+            "title": "ComfyUI Fit Mask to Image",
+            "reference": "https://github.com/DazzleNodes/fit-mask-to-image",
+            "files": [
+                "https://github.com/DazzleNodes/fit-mask-to-image"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatically resizes masks to match image dimensions for seamless inpainting workflows."
+        },
+        {
+            "author": "okdalto",
+            "title": "ComfyUI-WithAnyone",
+            "reference": "https://github.com/okdalto/ComfyUI-WithAnyone",
+            "files": [
+                "https://github.com/okdalto/ComfyUI-WithAnyone"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository is a ComfyUI port of the WithAnyone model introduced in the paper.\n[a/WithAnyone: Towards Controllable and ID-Consistent Image Generation (2025)](https://arxiv.org/abs/2510.14975)\nOriginal implementation: [a/Doby-Xu/WithAnyone](https://github.com/Doby-Xu/WithAnyone)."
+        },
+        {
+            "author": "hw5511",
+            "title": "Woohee HF Upscaler Loader",
+            "reference": "https://github.com/hw5511/comfyui_hf_upscaler_loader",
+            "files": [
+                "https://github.com/hw5511/comfyui_hf_upscaler_loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Load upscale models directly from Hugging Face Hub in ComfyUI"
         },
 
 
