@@ -364,6 +364,7 @@
     ],
     "https://github.com/1hew/ComfyUI-1hewNodes": [
         [
+            "1hew_DetectYolo",
             "AnyEmptyBool",
             "AnyEmptyInt",
             "AnySwitchBool",
@@ -5474,6 +5475,9 @@
             "BoyoFramePackLoRA",
             "BoyoImageGrab",
             "BoyoIncontextSaver",
+            "BoyoLoRAConfigInspector",
+            "BoyoLoRAJSONBuilder",
+            "BoyoLoRAPairedLoader",
             "BoyoLoadImageList",
             "BoyoLoopCollector",
             "BoyoLoopImageSaver",
@@ -7573,22 +7577,6 @@
         ],
         {
             "title_aux": "ComfyUI-HaiperAI-API"
-        }
-    ],
-    "https://github.com/Hangover3832/ComfyUI_Hangover-Utils": [
-        [
-            "Image Clipboard Paster",
-            "Image Scale Bounding Box",
-            "Make Inpaint Model",
-            "Save Image w/o Metadata",
-            "Sympy Math Interpreter"
-        ],
-        {
-            "author": "AlexL",
-            "description": "Scales an input image into a given box size, whereby the aspect ratio keeps retained.",
-            "nickname": "Hangover-Image_Scale_Bouning_Box",
-            "title": "ComfyUI-Hangover-Image_Scale_Bouning_Box",
-            "title_aux": "ComfyUI_Hangover-Utils"
         }
     ],
     "https://github.com/HannibalP/comfyui-HannibalPack": [
@@ -12356,8 +12344,10 @@
     "https://github.com/PozzettiAndrea/ComfyUI-Grounding": [
         [
             "BboxVisualizer",
+            "DownloadAndLoadSAM2Model",
             "GroundingDetector",
-            "GroundingModelLoader"
+            "GroundingModelLoader",
+            "Sam2Segmentation"
         ],
         {
             "title_aux": "ComfyUI-Grounding"
@@ -16723,6 +16713,7 @@
             "InstaCSeed",
             "InstaCText",
             "InstaCTextML",
+            "InstaFileExist",
             "InstaLoadImageLocal",
             "InstaLoadImageWithMask",
             "InstaPromptMultipleStyleSelector",
@@ -19386,6 +19377,17 @@
         {
             "nodename_pattern": "ArchAi3D",
             "title_aux": "ComfyUI-ArchAi3d-Qwen"
+        }
+    ],
+    "https://github.com/amir84ferdos/ComfyUI-GRAG-ArchAi3D": [
+        [
+            "GRAG_Advanced_Sampler",
+            "GRAG_Preset_Manager",
+            "GRAG_Simple_Controller",
+            "GRAG_Unified_Controller"
+        ],
+        {
+            "title_aux": "ComfyUI-GRAG-ArchAi3D"
         }
     ],
     "https://github.com/an90ray/ComfyUI_RErouter_CustomNodes": [
@@ -24940,9 +24942,19 @@
     ],
     "https://github.com/darth-veitcher/comfyui-ollama-model-manager": [
         [
+            "OllamaChatCompletion",
             "OllamaClient",
+            "OllamaDebugHistory",
+            "OllamaHistoryLength",
             "OllamaLoadModel",
             "OllamaModelSelector",
+            "OllamaOptionExtraBody",
+            "OllamaOptionMaxTokens",
+            "OllamaOptionRepeatPenalty",
+            "OllamaOptionSeed",
+            "OllamaOptionTemperature",
+            "OllamaOptionTopK",
+            "OllamaOptionTopP",
             "OllamaUnloadModel"
         ],
         {
@@ -25287,6 +25299,7 @@
     ],
     "https://github.com/diffussy69/comfyui-curved_weight_schedule": [
         [
+            "Advanced Curved ControlNet Scheduler",
             "AutoBackgroundMask",
             "AutoPersonMask",
             "Curved ControlNet Scheduler",
@@ -26710,7 +26723,7 @@
     ],
     "https://github.com/filliptm/ComfyUI_FL-Path-Animator": [
         [
-            "FL_PathAnimatorV2"
+            "FL_PathAnimator"
         ],
         {
             "title_aux": "ComfyUI_FL-Path-Animator"
@@ -29303,9 +29316,9 @@
     ],
     "https://github.com/hvppycoding/hvppyflow": [
         [
-            "HPDebug",
-            "HPSleep",
-            "HPSplitText"
+            "HFDebug",
+            "HFSleep",
+            "HFSplitText"
         ],
         {
             "title_aux": "hvppyflow"
@@ -38229,6 +38242,7 @@
             "AIHubExposeImageBatch",
             "AIHubExposeImageInfoOnly",
             "AIHubExposeInteger",
+            "AIHubExposeLatent",
             "AIHubExposeModel",
             "AIHubExposeModelSimple",
             "AIHubExposeProjectAudio",
@@ -38734,6 +38748,7 @@
     ],
     "https://github.com/pierreb-mf/ComfyUI-MF-PipoNodes": [
         [
+            "MF_CustomDropdownMenu",
             "MF_DiceRoller",
             "MF_GraphPlotter",
             "MF_LineCounter",
@@ -39222,11 +39237,17 @@
             "PVL_NoneOutputNode",
             "PVL_OpenPoseMatch",
             "PVL_OpenPoseMatch_Z",
+            "PVL_Padding",
+            "PVL_Qwen_Img_Edit_Inpaint",
+            "PVL_Qwen_Img_Edit_Plus",
             "PVL_SaveOrNot",
             "PVL_SplitString",
             "PVL_Stitch2Size",
+            "PVL_StringConcatX3",
+            "PVL_StringConcatX8",
             "PVL_StringToNumber",
             "PVL_StylePicker",
+            "PVL_Switch",
             "PVL_Switch_Huge",
             "PVL_Txt",
             "PVL_fal_DepthAnythingV2_API",
@@ -44795,20 +44816,16 @@
     ],
     "https://github.com/walke2019/ComfyUI-GGUF-VLM": [
         [
-            "GGUFModelManager",
             "LocalTextModelLoader",
             "MultiImageAnalysis",
-            "MultiImageComparison",
-            "NexaModelSelector",
-            "NexaSDKTextGeneration",
             "NexaServiceStatus",
+            "RemoteAPIConfig",
             "RemoteTextModelSelector",
             "SystemPromptConfig",
             "TextGeneration",
             "TextGenerationNode",
             "TextModelLoader",
             "VisionLanguageNode",
-            "VisionLanguageNodeTransformers",
             "VisionModelLoader",
             "VisionModelLoaderTransformers"
         ],

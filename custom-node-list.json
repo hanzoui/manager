@@ -29996,13 +29996,13 @@
         },
         {
             "author": "fchangjun",
-            "title": "Baidu Meux ComfyTools",
+            "title": "BaiduMeux_Comfy Tools",
             "reference": "https://github.com/fchangjun/Baidu_Meux_ComfyTools",
             "files": [
                 "https://github.com/fchangjun/Baidu_Meux_ComfyTools"
             ],
             "install_type": "git-clone",
-            "description": "Baidu Meux ComfyTools is a collection of custom nodes that streamline common workflow chores in ComfyUI for the Baidu Meux asset platform."
+            "description": "Meux ComfyTools is a collection of custom nodes that streamline common workflow chores in ComfyUI for the Meux asset platform."
         },
         {
             "author": "Yo1up",
@@ -34438,8 +34438,19 @@
             ],
             "install_type": "git-clone",
             "description": "Professional AI Interior Design Toolkit for ComfyUI. Custom Qwen-VL nodes with 4 design modes: Text-to-Design, Mood Board, Reference Control, and Room Cleaning. Includes 5 optimized nodes with advanced strength controls and 23 preferred aspect ratios.",
-            "nodename_pattern": "ArchAi3D",
-            "pip": []
+            "nodename_pattern": "ArchAi3D"
+        },
+        {
+            "author": "Amir Ferdos (ArchAi3d)",
+            "title": "ComfyUI-GRAG-ArchAi3D",
+            "id": "grag-archai3d",
+            "reference": "https://github.com/amir84ferdos/ComfyUI-GRAG-ArchAi3D",
+            "files": [
+                "https://github.com/amir84ferdos/ComfyUI-GRAG-ArchAi3D"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced GRAG (Guided Region-Adaptive Guidance) implementation for ComfyUI. Features: Simple Controller (3 parameters) for beginners, Unified Controller (25+ parameters) for experts, Advanced Sampler with v2.2.1 contamination fix, Preset Manager with 54 curated presets, per-layer control, adaptive schedules, and multi-resolution support.",
+            "pip": ["PyYAML>=6.0"]
         },
         {
             "author": "pizurny",
@@ -35405,16 +35416,6 @@
             "description": "A custom node for ComfyUI that automatically saves your prompts, generated images, and workflow metadata into a browsable history, accessible directly from the node."
         },
         {
-            "author": "fchangjun",
-            "title": "BaiduMeux_Comfy Tools",
-            "reference": "https://github.com/fchangjun/Baidu_Meux_ComfyTools",
-            "files": [
-                "https://github.com/fchangjun/Baidu_Meux_ComfyTools"
-            ],
-            "install_type": "git-clone",
-            "description": "Meux ComfyTools is a collection of custom nodes that streamline common workflow chores in ComfyUI for the Meux asset platform."
-        },
-        {
             "author": "EuphoricPenguin",
             "title": "ComfyUI Resemble Enhance",
             "reference": "https://github.com/EuphoricPenguin/resemble-enhance-comfyui",
@@ -35920,18 +35921,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Amir Ferdos (ArchAi3d)",
-            "title": "ComfyUI-GRAG-ArchAi3D",
-            "id": "grag-archai3d",
-            "reference": "https://github.com/amir84ferdos/ComfyUI-GRAG-ArchAi3D",
-            "files": [
-                "https://github.com/amir84ferdos/ComfyUI-GRAG-ArchAi3D"
-            ],
-            "install_type": "git-clone",
-            "description": "Advanced GRAG (Guided Region-Adaptive Guidance) implementation for ComfyUI. Features: Simple Controller (3 parameters) for beginners, Unified Controller (25+ parameters) for experts, Advanced Sampler with v2.2.1 contamination fix, Preset Manager with 54 curated presets, per-layer control, adaptive schedules, and multi-resolution support.",
-            "pip": ["PyYAML>=6.0"]
         }
     ]
 }
