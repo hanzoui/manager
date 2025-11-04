@@ -1,6 +1,15 @@
 {
     "custom_nodes": [
-
+        {
+            "author": "vantagewithai",
+            "title": "Vantage-DreamOmni2",
+            "reference": "https://github.com/vantagewithai/Vantage-DreamOmni2",
+            "files": [
+                "https://github.com/vantagewithai/Vantage-DreamOmni2"
+            ],
+            "install_type": "git-clone",
+            "description": "ntage-DreamOmni2 brings Qwen2.5-VL’s multimodal intelligence to ComfyUI, enabling unified text–image understanding for both generation and editing. Create context-aware prompts, perform reference-based visual edits, and build adaptive image grids — all with high consistency, abstraction, and creative control."
+        },
         {
             "author": "kianxyzw",
             "title": "ComfyUI Model Linker Extension",
@@ -682,26 +691,6 @@
             ],
             "install_type": "git-clone",
             "description": "Simplified Gemini 2.5 Flash Image Preview node for ComfyUI. REST-only for stability, two optional reference images, padded aspect ratio resizing (no stretching), and basic sampling controls. All extra debug layers, SDK path, multi-seed, and legacy compatibility code removed to avoid crashes."
-        },
-        {
-            "author": "leewinder",
-            "title": "Mureka API",
-            "reference": "https://github.com/leewinder/comfyui-mureka-api",
-            "files": [
-                "https://github.com/leewinder/comfyui-mureka-api"
-            ],
-            "install_type": "git-clone",
-            "description": "A set of ComfyUI custom nodes allowing the use of the Mureka API in your workflows"
-        },
-        {
-            "author": "APZmedia",
-            "title": "ComfyUI DreamLight Node",
-            "reference": "https://github.com/APZmedia/ComfyUI-Dreamlight",
-            "files": [
-                "https://github.com/APZmedia/ComfyUI-Dreamlight"
-            ],
-            "install_type": "git-clone",
-            "description": "Comfyui wrapper of Dreamlight by yongliu20"
         }
     ]
 }

@@ -9578,6 +9578,7 @@
             "BridgePreviewNode",
             "CachePreviewBridge",
             "ColorAdjustment",
+            "ComboSetter",
             "FastCanvas",
             "FastCanvasComposite",
             "FastCanvasTool",
@@ -12384,26 +12385,30 @@
             "MeshCraft_ApplyAndSaveTexturedMesh",
             "MeshCraft_BakeMultiviewTextures",
             "MeshCraft_DINOEmbeddingInterpolation",
+            "MeshCraft_EnsureManifold",
             "MeshCraft_GenerateMultiviewPBR",
             "MeshCraft_Hunyuan3DLatentInterpolation",
             "MeshCraft_InpaintTextures",
+            "MeshCraft_LaplacianSmooth",
             "MeshCraft_LoadHunyuanMultiViewModel",
+            "MeshCraft_ReduceFaces",
+            "MeshCraft_RemoveDegenerate",
+            "MeshCraft_RemoveFloaters",
             "MeshCraft_RenderConditioningMaps",
             "MeshCraft_RenderRGBMultiview",
+            "MeshCraft_SmoothNormals",
             "MeshCraft_VAELatentInterpolation",
             "PrepareImageForDINO",
             "PreviewTrimesh",
             "Trellis_Combine_Conditioning",
             "Trellis_Export_GLB",
             "Trellis_Export_PLY",
-            "Trellis_ImageTo3D_Sampler",
             "Trellis_Image_Conditioning",
             "Trellis_Image_Preprocessor",
             "Trellis_Render_Video",
             "Trellis_SLAT_Decoder",
             "Trellis_SLAT_Sampler",
             "Trellis_SparseStructure_Sampler",
-            "Trellis_TextTo3D_Sampler",
             "Trellis_Text_Conditioning",
             "Trellis_multiimage_loader"
         ],
@@ -13392,6 +13397,7 @@
             "ListSelector",
             "LoRACachePreloader",
             "ModelAssembler",
+            "ModelAssemblerMetadata",
             "PromptListWithTemplates",
             "RandomLoRACustom",
             "RandomLoRAFolder",
@@ -19355,11 +19361,14 @@
             "ArchAi3D_Clean_Room_Prompt",
             "ArchAi3D_Color_Correction_Advanced",
             "ArchAi3D_Color_Correction_BT709",
+            "ArchAi3D_GRAG_Modifier",
+            "ArchAi3D_GRAG_Sampler",
             "ArchAi3D_Mask_Crop_Rotate",
             "ArchAi3D_Mask_To_Position_Guide",
             "ArchAi3D_Position_Guide_Prompt_Builder",
             "ArchAi3D_Qwen_Camera_View_Selector",
             "ArchAi3D_Qwen_Colorization",
+            "ArchAi3D_Qwen_DX8152_Camera_LoRA",
             "ArchAi3D_Qwen_Encoder",
             "ArchAi3D_Qwen_Encoder_Simple",
             "ArchAi3D_Qwen_Encoder_V2",
@@ -19368,6 +19377,7 @@
             "ArchAi3D_Qwen_Exterior_Focus",
             "ArchAi3D_Qwen_Exterior_Navigation",
             "ArchAi3D_Qwen_Exterior_View_Control",
+            "ArchAi3D_Qwen_GRAG_Encoder",
             "ArchAi3D_Qwen_Image_Scale",
             "ArchAi3D_Qwen_Interior_Focus",
             "ArchAi3D_Qwen_Interior_Navigation",
@@ -19383,6 +19393,7 @@
             "ArchAi3D_Qwen_Person_Position_Control",
             "ArchAi3D_Qwen_Person_View_Control",
             "ArchAi3D_Qwen_Scene_Photographer",
+            "ArchAi3D_Qwen_Simple_Camera_Control",
             "ArchAi3D_Qwen_Style_Transfer",
             "ArchAi3D_Qwen_System_Prompt",
             "ArchAi3D_Qwen_Watermark_Removal",
@@ -34628,6 +34639,7 @@
     "https://github.com/lrzjason/Comfyui-QwenEditUtils": [
         [
             "CropWithPadInfo",
+            "QwenEditAdaptiveLongestEdge",
             "QwenEditAny2Image",
             "QwenEditAny2Latent",
             "QwenEditConfigJsonParser",
@@ -44443,6 +44455,15 @@
             "nickname": "Simple Wildcard",
             "title": "Simple Wildcard",
             "title_aux": "Simple Wildcard"
+        }
+    ],
+    "https://github.com/vantagewithai/Vantage-DreamOmni2": [
+        [
+            "TextEncodeDreamOmni2",
+            "VantageAdaptiveImageGrid"
+        ],
+        {
+            "title_aux": "Vantage-DreamOmni2"
         }
     ],
     "https://github.com/vantagewithai/Vantage-DyPE": [
