@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "90cube",
+            "title": "CBCanvas Node for ComfyUI [WIP]",
+            "reference": "https://github.com/90cube/Comfyui-CBcanvas",
+            "files": [
+                "https://github.com/90cube/Comfyui-CBcanvas"
+            ],
+            "install_type": "git-clone",
+            "description": "Canvas node with intelligent aspect ratio control - 13 preset aspect ratios from ultra-wide (21:9) to ultra-tall (9:21).\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "r-vage",
+            "title": "ComfyUI_Eclipse [UNSAFE]",
+            "reference": "https://github.com/r-vage/ComfyUI_Eclipse",
+            "files": [
+                "https://github.com/r-vage/ComfyUI_Eclipse"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes and utilities for workflow building, type conversions, checkpoint/pipe loaders and file utilities.[w/This node pack includes an endpoint that access files from arbitrary paths.]"
+        },
+        {
             "author": "silveroxides",
             "title": "ComfyUI_LogicMath",
             "reference": "https://github.com/silveroxides/ComfyUI_LogicMath",

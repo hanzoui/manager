@@ -398,6 +398,14 @@
             "title_aux": "comfyui-promptbymood [WIP]"
         }
     ],
+    "https://github.com/90cube/Comfyui-CBcanvas": [
+        [
+            "CBCanvasNode"
+        ],
+        {
+            "title_aux": "CBCanvas Node for ComfyUI [WIP]"
+        }
+    ],
     "https://github.com/A1rCHAN/ComfyUI_A1rSpace": [
         [
             "A1r AB Checkpoint",
@@ -7621,7 +7629,9 @@
             "Alta:API_TranscribeAudio",
             "Alta:API_Translate",
             "Alta:Add(Math)",
+            "Alta:AddInt(Math)",
             "Alta:BuildFilePath",
+            "Alta:DeleteAudioFromMemory",
             "Alta:DeleteFile(Util)",
             "Alta:FileDownloader",
             "Alta:GetFaceMask",
@@ -7637,6 +7647,8 @@
             "Alta:ListElement(Util)",
             "Alta:ListFilesByExt",
             "Alta:ListLength(Util)",
+            "Alta:LoadAudioByPath",
+            "Alta:LoadAudioFromMemory",
             "Alta:LoadFilesFromFolder",
             "Alta:LoadImage",
             "Alta:LoadImageFromPath",
@@ -7646,6 +7658,7 @@
             "Alta:LoadVideoPath",
             "Alta:LoadVideosFromFolder",
             "Alta:MergeNodes",
+            "Alta:MoveFile(File)",
             "Alta:MultiRoute",
             "Alta:OpenAIImages2Image",
             "Alta:ReadImageFromFile",
@@ -7655,12 +7668,15 @@
             "Alta:SaveImagePlus",
             "Alta:SaveStringToFile",
             "Alta:SpeakerDiarization",
+            "Alta:StoreAudioInMemory",
             "Alta:StrToNum(Math)",
             "Alta:Sub(Math)",
+            "Alta:SubInt(Math)",
             "Alta:SyncLipsyncNode(path)",
             "Alta:SyncLipsyncNode(url)",
             "Alta:VideoCombine",
             "Alta:YOLOFaceModelCore",
+            "Alta:writeStringToFile",
             "Alta:\u5373\u68a6API\u56fe\u751f\u89c6\u9891",
             "Alta:\u5373\u68a6API\u56fe\u751f\u89c6\u9891\u7ed3\u679c\u67e5\u8be2",
             "Alta:\u5373\u68a6API\u6587\u751f\u56fe",

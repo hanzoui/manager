@@ -16619,6 +16619,7 @@
             "WASLoadLUT",
             "WASMoEConditioningListAppend",
             "WASSaveLUT",
+            "WASTiledImageUpscaleWithModel",
             "WASWan22MoESamplerCtx"
         ],
         {
@@ -17027,6 +17028,17 @@
         ],
         {
             "title_aux": "ComfyUI_CheckVprediction"
+        }
+    ],
+    "https://github.com/WingeD123/ComfyUI_QwenVL_PromptCaption": [
+        [
+            "Qwen25Caption",
+            "Qwen25CaptionBatch",
+            "Qwen3Caption",
+            "Qwen3CaptionBatch"
+        ],
+        {
+            "title_aux": "ComfyUI_QwenVL_PromptCaption"
         }
     ],
     "https://github.com/X-School-Academy/X-FluxAgent": [
@@ -18131,10 +18143,14 @@
     ],
     "https://github.com/abdullahceylan/ac-comfyui-image-optimizer": [
         [
+            "ACImageBatchResizer",
+            "ACImageInfo",
             "ACImageOptimizer",
             "ACImageOptimizerAdvanced",
+            "ACImageOptimizerMultiInput",
             "ACImageOptimizerPreview",
-            "ACImageOptimizerSave"
+            "ACImageOptimizerSave",
+            "ACImageOptimizerSaveMultiInput"
         ],
         {
             "author": "Abdullah Ceylan",
@@ -25302,7 +25318,9 @@
             "Advanced Curved ControlNet Scheduler",
             "AutoBackgroundMask",
             "AutoPersonMask",
+            "CurveFormulaBuilder",
             "Curved ControlNet Scheduler",
+            "InteractiveCurveDesigner",
             "MaskSymmetryTool",
             "MultiMaskStrengthCombiner",
             "RegionalPromptInterpolation",
@@ -25760,6 +25778,15 @@
             "title_aux": "ComfyUI-Thread"
         }
     ],
+    "https://github.com/dskjal/comfyui-yolov8-simple": [
+        [
+            "ImageCompositeBlurred",
+            "Yolov8DS"
+        ],
+        {
+            "title_aux": "comfyui-yolov8-simple"
+        }
+    ],
     "https://github.com/duchamps0305/comfyui-white-extractor": [
         [
             "WhitePercentage"
@@ -26037,6 +26064,14 @@
         ],
         {
             "title_aux": "Eden.art LoRa Trainer"
+        }
+    ],
+    "https://github.com/edoardocompagnucci/ComfyUI-HSyn9DHPE": [
+        [
+            "HSyn9DHPE"
+        ],
+        {
+            "title_aux": "ComfyUI-HSyn9DHPE"
         }
     ],
     "https://github.com/educator-art/ComfyUI-Load-DirectoryFiles": [
@@ -27568,19 +27603,17 @@
             "LocalLaplacianFilter",
             "PaletteFilterLUT",
             "PerturbedAttentionDelta",
-            "QMS",
+            "QuantileMatchScaling",
             "SADAInfo",
             "SADAModelPatch",
             "SDXL_LoRA_BlockSlider_Loader",
             "SpatialSplitAttention",
-            "SpectralDriftPerturbation",
             "StructuredLatent",
             "Temperature Adjust",
             "TokenDeltaPerturbation",
             "TokenSculptor",
             "TokenVisualizer",
-            "UNetHeatmap",
-            "VelocityScaling"
+            "UNetHeatmap"
         ],
         {
             "title_aux": "ComfyUI-geltz"
@@ -34035,6 +34068,7 @@
             "FixPulidFluxPatch",
             "PulidFluxEvaClipLoader",
             "PulidFluxFaceDetector",
+            "PulidFluxFaceNetLoader",
             "PulidFluxInsightFaceLoader",
             "PulidFluxModelLoader",
             "PulidFluxOptions"
@@ -34472,7 +34506,7 @@
     ],
     "https://github.com/loockluo/comfyui-whisperx-pro": [
         [
-            "WhisperX Alignment"
+            "WhisperX SRT Generator"
         ],
         {
             "title_aux": "ComfyUI WhisperX Pro"
@@ -37759,7 +37793,8 @@
             "WithAnyoneBBoxNode",
             "WithAnyoneModelLoaderNode",
             "WithAnyoneSamplerNode",
-            "WithAnyoneSigLIPExtractorNode"
+            "WithAnyoneSigLIPExtractorNode",
+            "WithAnyoneSinglePersonConditioningNode"
         ],
         {
             "title_aux": "ComfyUI-WithAnyone"
@@ -40392,6 +40427,7 @@
     ],
     "https://github.com/ru4ls/ComfyUI_StreetView-Loader": [
         [
+            "StreetViewAnimator",
             "StreetViewLoader",
             "StreetViewPanoLoader",
             "StreetViewURLParser"
