@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "hujuying",
+            "title": "ComfyUI-QwenVL3-image-Plus [WIP]",
+            "reference": "https://github.com/hujuying/ComfyUI-QwenVL3-image-Plus",
+            "files": [
+                "https://github.com/hujuying/ComfyUI-QwenVL3-image-Plus"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node designed for ComfyUI that integrates the **Qwen3-VL-4B-Instruct-FP8** vision-language model for efficient image understanding and description. It supports flexible prompt-combination features to enhance the accuracy and diversity of image descriptions.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "90cube",
             "title": "CBCanvas Node for ComfyUI [WIP]",
             "reference": "https://github.com/90cube/Comfyui-CBcanvas",
@@ -59,16 +69,6 @@
             ],
             "install_type": "git-clone",
             "description": "A JSON upload and iterator node for ComfyUI that supports uploading JSON storyboard files and outputs each field sequentially.[w/This node pack includes an endpoint that access files from arbitrary paths.]"
-        },
-        {
-            "author": "kianxyzw",
-            "title": "ComfyUI Model Linker Extension [WIP]",
-            "reference": "https://github.com/kianxyzw/comfyui-model-linker",
-            "files": [
-                "https://github.com/kianxyzw/comfyui-model-linker"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI extension that helps users relink missing models in workflows using fuzzy matching.\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "dibowei1980",
@@ -7252,16 +7252,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES:Mask Size Calculator (MagicAI), Universal Mask Converter (MagicAI), Python Execution (MagicAI), Extract JSON From Text Node(MagicAI)\n[w/This extension allows the execution of arbitrary Python code from a workflow.]"
-        },
-        {
-            "author": "Laser-one",
-            "title": "ComfyUI-align-pose",
-            "reference": "https://github.com/Laser-one/ComfyUI-align-pose",
-            "files": [
-                "https://github.com/Laser-one/ComfyUI-align-pose"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES:align pose"
         },
         {
             "author": "chenbaiyujason",

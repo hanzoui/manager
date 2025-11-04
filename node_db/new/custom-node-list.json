@@ -1,5 +1,16 @@
 {
     "custom_nodes": [
+
+        {
+            "author": "kianxyzw",
+            "title": "ComfyUI Model Linker Extension",
+            "reference": "https://github.com/kianxyzw/comfyui-model-linker",
+            "files": [
+                "https://github.com/kianxyzw/comfyui-model-linker"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI extension that helps users relink missing models in workflows"
+        },
         {
             "author": "edoardocompagnucci",
             "title": "ComfyUI-HSyn9DHPE",
@@ -691,16 +702,6 @@
             ],
             "install_type": "git-clone",
             "description": "Comfyui wrapper of Dreamlight by yongliu20"
-        },
-        {
-            "author": "TianDongL",
-            "title": "Blind_watermark_Comfyui",
-            "reference": "https://github.com/TianDongL/Blind_watermark_Comfyui",
-            "files": [
-                "https://github.com/TianDongL/Blind_watermark_Comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful blind watermark plugin for ComfyUI that allows you to embed and extract invisible watermarks in images using frequency domain techniques (DWT-DCT-SVD)."
         }
     ]
 }
