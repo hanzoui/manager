@@ -1,6 +1,136 @@
 {
     "custom_nodes": [
         {
+            "author": "DazzleNodes",
+            "title": "DazzleNodes Collection",
+            "reference": "https://github.com/DazzleNodes/DazzleNodes",
+            "files": [
+                "https://github.com/DazzleNodes/DazzleNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A curated collection of image/latent creation and transformation custom nodes for ComfyUI. Each node is independently developed and maintained, but packaged together for convenient installation."
+        },
+        {
+            "author": "nour",
+            "title": "nd-super-nodes",
+            "reference": "https://github.com/HenkDz/nd-super-nodes",
+            "files": [
+                "https://github.com/HenkDz/nd-super-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Super LoRA Loader and ND Super Selector overlays for ComfyUI."
+        },
+        {
+            "author": "smthemex",
+            "title": "ComfyUI_ChronoEdit_SM",
+            "reference": "https://github.com/smthemex/ComfyUI_ChronoEdit_SM",
+            "files": [
+                "https://github.com/smthemex/ComfyUI_ChronoEdit_SM"
+            ],
+            "install_type": "git-clone",
+            "description": "Towards Temporal Reasoning for Image Editing and World Simulation,you can use this node in comfyUI,and Vram >12G"
+        },
+        {
+            "author": "GuardSkill",
+            "title": "ComfyUI-VoiceSep",
+            "reference": "https://github.com/GuardSkill/ComfyUI-VoiceSep",
+            "files": [
+                "https://github.com/GuardSkill/ComfyUI-VoiceSep"
+            ],
+            "install_type": "git-clone",
+            "description": "Seperation the voice to 2 track/person by voicesep, keep the office effect in Modelscope demo meanwhile accelerate the resample speed."
+        },
+        {
+            "author": "TJ16th",
+            "title": "TJ_PolkaDot",
+            "reference": "https://github.com/TJ16th/ComfyUI-TJ-PolkaDot",
+            "files": [
+                "https://github.com/TJ16th/ComfyUI-TJ-PolkaDot"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for creating polka dot collages"
+        },
+        {
+            "author": "Lavah000",
+            "title": "ComfyUI Advanced Generation Pack (AGP)",
+            "reference": "https://github.com/Lavah000/ComfyUI-AdvGenPack",
+            "files": [
+                "https://github.com/Lavah000/ComfyUI-AdvGenPack"
+            ],
+            "install_type": "git-clone",
+            "description": "Production-ready custom nodes for advanced diffusion workflows. Modular implementation grounded in proven techniques from leading ComfyUI repositories."
+        },
+        {
+            "author": "razvanmatei-sf",
+            "title": "Dynamic Prompt List Node for ComfyUI",
+            "reference": "https://github.com/razvanmatei-sf/serhii-prompt-list",
+            "files": [
+                "https://github.com/razvanmatei-sf/serhii-prompt-list"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that allows you to create lists of prompts with dynamic input count. Add or remove prompt inputs on the fly without creating multiple nodes."
+        },
+        {
+            "author": "Elldreth",
+            "title": "ComfyUI T5X Prompt Translator",
+            "reference": "https://github.com/Elldreth/ComfyUI-NLP-to-WD14",
+            "files": [
+                "https://github.com/Elldreth/ComfyUI-NLP-to-WD14"
+            ],
+            "install_type": "git-clone",
+            "description": "Translates natural language prompts into WD14-tagged prompts"
+        },
+        {
+            "author": "PauldeLavallaz",
+            "title": "ComfyUI-CartesiaTTS",
+            "reference": "https://github.com/PauldeLavallaz/ComfyUI-CartesiaTTS",
+            "files": [
+                "https://github.com/PauldeLavallaz/ComfyUI-CartesiaTTS"
+            ],
+            "install_type": "git-clone",
+            "description": "Node for Cartesia Sonic-3 that calls the `/tts/bytes` endpoint and returns: file_path, bytes, url"
+        },
+        {
+            "author": "eddyhhlure1Eddy",
+            "title": "ComfyUI-EddySevenResonance",
+            "reference": "https://github.com/eddyhhlure1Eddy/ComfyUI-EddySevenResonance",
+            "files": [
+                "https://github.com/eddyhhlure1Eddy/ComfyUI-EddySevenResonance"
+            ],
+            "install_type": "git-clone",
+            "description": "lucky_seed"
+        },
+        {
+            "author": "trunksn1",
+            "title": "ComfyUI Checkpoint Rotation Node",
+            "reference": "https://github.com/trunksn1/comfyui-change-checkpoint-randomly",
+            "files": [
+                "https://github.com/trunksn1/comfyui-change-checkpoint-randomly"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that enables automatic checkpoint rotation during batch image generation. This allows you to generate images using multiple different model checkpoints in a single workflow, automatically switching between them based on your specified interval."
+        },
+        {
+            "author": "francarl",
+            "title": "ComfyUI-OnDemand-Lora-Loader",
+            "reference": "https://github.com/francarl/ComfyUI-OnDemand-Loaders",
+            "files": [
+                "https://github.com/francarl/ComfyUI-OnDemand-Loaders"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node for ComfyUI that allows you to download and apply LoRA models directly from Civitai/HuggingFace. It simplifies your workflow by managing LoRA downloads automatically, so you don't have to manually download files and place them in the correct folder."
+        },
+        {
+            "author": "Seb-Lis",
+            "title": "comfyui-image-labeler",
+            "reference": "https://github.com/Seb-Lis/comfyui-image-labeler",
+            "files": [
+                "https://github.com/Seb-Lis/comfyui-image-labeler"
+            ],
+            "install_type": "git-clone",
+            "description": "Image labeler for ComyUI"
+        },
+        {
             "author": "vantagewithai",
             "title": "Vantage-DreamOmni2",
             "reference": "https://github.com/vantagewithai/Vantage-DreamOmni2",
@@ -621,76 +751,6 @@
             ],
             "install_type": "git-clone",
             "description": "Bilibili IndexTTS2 ComfyUI Version - Auto-downloads models, simple to use."
-        },
-        {
-            "author": "WWWEN8",
-            "title": "ComfyUI-CCXManager",
-            "reference": "https://github.com/WWWEN8/ComfyUI-CCXManager",
-            "files": [
-                "https://github.com/WWWEN8/ComfyUI-CCXManager"
-            ],
-            "install_type": "git-clone",
-            "description": "Set to run once, and the SD-PPP Photoshop plugin will be automatically updated when there are updates later, completely eliminating the need for manual updates on the Photoshop side."
-        },
-        {
-            "author": "ProGamerGov",
-            "title": "ComfyUI_pytorch360convert_video",
-            "reference": "https://github.com/ProGamerGov/ComfyUI_pytorch360convert_video",
-            "files": [
-                "https://github.com/ProGamerGov/ComfyUI_pytorch360convert_video"
-            ],
-            "install_type": "git-clone",
-            "description": "Video nodes for comfyui-pytorch360convert"
-        },
-        {
-            "author": "ShammiG",
-            "title": "ComfyUI Image Properties SG",
-            "reference": "https://github.com/ShammiG/ComfyUI-Image_Properties_SG",
-            "files": [
-                "https://github.com/ShammiG/ComfyUI-Image_Properties_SG"
-            ],
-            "install_type": "git-clone",
-            "description": "View general image properties of image: Dimension, Resolution, Aspect Ratio, Tensor Size (including batch)"
-        },
-        {
-            "author": "scofano",
-            "title": "Advanced Text Overlay",
-            "reference": "https://github.com/scofano/ComfyUI-Advanced-TextOverlay",
-            "files": [
-                "https://github.com/scofano/ComfyUI-Advanced-TextOverlay"
-            ],
-            "install_type": "git-clone",
-            "description": "Advanced Text Overlay Node for ComfyUI featuring rebuilt rendering logic, precise alignment, custom fonts, and extended styling controls."
-        },
-        {
-            "author": "cedarconnor",
-            "title": "ComfyUI-DiT360",
-            "reference": "https://github.com/cedarconnor/ComfyUI-DiT360",
-            "files": [
-                "https://github.com/cedarconnor/ComfyUI-DiT360"
-            ],
-            "install_type": "git-clone",
-            "description": "Generate high-fidelity 360-degree panoramic images using the DiT360 diffusion transformer model in ComfyUI."
-        },
-        {
-            "author": "KursatAs",
-            "title": "Comfyui Krs Nodes",
-            "reference": "https://github.com/KursatAs/KrsNodes",
-            "files": [
-                "https://github.com/KursatAs/KrsNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: TextEncodeQwenImageEditKrsSimple, TextEncodeQwenImageEditKrsAdvanced, QwenImageEditLatentKrs, ..."
-        },
-        {
-            "author": "yemanou",
-            "title": "NABA Image (Gemini REST) Node",
-            "reference": "https://github.com/yemanou/ComfyUI-NABA",
-            "files": [
-                "https://github.com/yemanou/ComfyUI-NABA"
-            ],
-            "install_type": "git-clone",
-            "description": "Simplified Gemini 2.5 Flash Image Preview node for ComfyUI. REST-only for stability, two optional reference images, padded aspect ratio resizing (no stretching), and basic sampling controls. All extra debug layers, SDK path, multi-seed, and legacy compatibility code removed to avoid crashes."
         }
     ]
 }

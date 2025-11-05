@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "APZmedia",
+            "title": "ComfyUI Folder Parser [UNSAFE]",
+            "reference": "https://github.com/APZmedia/ComfyUI-folder-parser",
+            "files": [
+                "https://github.com/APZmedia/ComfyUI-folder-parser"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that parses files from a folder with filtering and sorting capabilities. Outputs file paths for use in other ComfyUI nodes.[w/This node pack contains a path traversal vulnerability.]"
+        },
+        {
+            "author": "Seb-Lis",
+            "title": "comfyui-seed-selector",
+            "reference": "https://github.com/Seb-Lis/comfyui-seed-selector",
+            "files": [
+                "https://github.com/Seb-Lis/comfyui-seed-selector"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Seed Selector (INT), My Seed Selector (INT), Seed Selector with Display, ..."
+        },
+        {
+            "author": "Amor718",
+            "title": "AmorForge",
+            "reference": "https://github.com/Amor718/AmorForge",
+            "files": [
+                "https://github.com/Amor718/AmorForge"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Amor's Image WebpSaver, Amor's Image Resizer, Amor's Text Translator, Amor's CogView Image Generator, ..."
+        },
+        {
+            "author": "Solarish",
+            "title": "fyUI-MidnightLook [WIP]",
+            "reference": "https://github.com/Solarish/ComfyUI-MidnightLook",
+            "files": [
+                "https://github.com/Solarish/ComfyUI-MidnightLook"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node for MidnightLook.com\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "hujuying",
             "title": "ComfyUI-QwenVL3-image-Plus [WIP]",
             "reference": "https://github.com/hujuying/ComfyUI-QwenVL3-image-Plus",

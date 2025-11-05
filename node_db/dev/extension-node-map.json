@@ -408,52 +408,66 @@
     ],
     "https://github.com/A1rCHAN/ComfyUI_A1rSpace": [
         [
-            "A1r AB Checkpoint",
             "A1r Boolean A B",
             "A1r Boolean AB",
-            "A1r Boolean Plus",
-            "A1r Boolean to Int",
-            "A1r Checkpoint InputSwitch",
-            "A1r Checkpoint Select",
-            "A1r Conditional CheckpointLoader",
-            "A1r Conditioning InputSwitch",
-            "A1r ControlNet Apply Toggle",
+            "A1r CLIP Input Switch",
+            "A1r Checkpoint Input Switch",
+            "A1r Checkpoint Loader",
+            "A1r Checkpoint Picker",
+            "A1r Conditioning Input Switch",
             "A1r ControlNet Config",
-            "A1r ControlNet Config Three",
-            "A1r Denoise InputSwitch",
-            "A1r Image InputSwitch",
-            "A1r Image OutputSwitch",
-            "A1r ImageUpscale Mode Picker",
-            "A1r ImageUpscaleSwitch Toggle",
+            "A1r ControlNet Loader",
+            "A1r Custom Boolean",
+            "A1r Custom Slider",
+            "A1r Double CheckpointLoader",
+            "A1r Draggable List",
+            "A1r Float Input Switch",
+            "A1r Image Filter",
+            "A1r Image Input Switch",
+            "A1r Image Mask Output Switch",
+            "A1r Image Output Switch",
+            "A1r Image Upscale Transform",
+            "A1r Int Input Switch",
             "A1r Int to Boolean",
             "A1r JoyTag TextBox",
-            "A1r KSampler",
             "A1r KSampler Config",
             "A1r KSampler Config Values",
-            "A1r KSampler Config Values Lite",
-            "A1r KSampler ControlPad Advanced",
-            "A1r LatentEncode InputSwitch",
-            "A1r LatentUpscaleBy Toggle",
+            "A1r Latent Encode Transform",
+            "A1r Latent Upscale Transform",
             "A1r LoRA Config",
-            "A1r LoRA ControlPad",
+            "A1r LoRA Config Advance",
             "A1r Math Int",
-            "A1r Math LogicGate",
-            "A1r Merge Text",
-            "A1r MergeText WithClipEncode",
+            "A1r Math Logic Gate",
+            "A1r Mode Inverter",
+            "A1r Mode Relay",
+            "A1r Model Input Switch",
+            "A1r Node Mode Collector",
+            "A1r Node Mode Console",
             "A1r Sampler Picker",
-            "A1r Save PreviewImage",
+            "A1r Save Preview Image",
             "A1r Seed Control",
+            "A1r Separate CheckpointLoader",
             "A1r Simple Boolean",
             "A1r Six LoRA Loader",
+            "A1r Six LoRA Loader 2P",
+            "A1r Six LoRA Loader Separate",
+            "A1r Size Canvas",
             "A1r Size Picker",
-            "A1r Slider Custom",
+            "A1r Stack LoRA Loader",
+            "A1r Stack LoRA Loader 2P",
+            "A1r Stack LoRA Loader Separate",
             "A1r Text Box",
-            "A1r Text InputSwitch",
+            "A1r Text Input Switch",
+            "A1r Text Merge",
+            "A1r Text Merge with Clip Encode",
             "A1r Text Show",
             "A1r Text Translate",
-            "A1r Toggle VAE Loader",
-            "A1r Translate ClipEncode Merge",
-            "A1r Upscale Methods Picker"
+            "A1r Text Translate Merge with Clip Encode",
+            "A1r Unity KSampler",
+            "A1r Upscale Method Picker",
+            "A1r VAE Decode Transform",
+            "A1r VAE Input Switch",
+            "A1r Widget Collector"
         ],
         {
             "title_aux": "Eric's Prompt Enhancers for ComfyUI# Eric's Prompt Enhancers for ComfyUI"
@@ -922,6 +936,19 @@
         ],
         {
             "title_aux": "ComfyUI-SunoAI-Mds"
+        }
+    ],
+    "https://github.com/Amor718/AmorForge": [
+        [
+            "CogViewImageGenerator",
+            "ImageToWebpSaver",
+            "SimpleImageResizer",
+            "SimpleImageResizerNode",
+            "TextTranslator",
+            "TextTranslatorNode"
+        ],
+        {
+            "title_aux": "AmorForge"
         }
     ],
     "https://github.com/Anonymzx/ComfyUI-Indonesia-TTS": [
@@ -3782,6 +3809,16 @@
             "title_aux": "ComfTrellis [WIP]"
         }
     ],
+    "https://github.com/Seb-Lis/comfyui-seed-selector": [
+        [
+            "MySeedSelectorInt",
+            "SeedSelectorInt",
+            "SeedSelectorIntWithDisplay"
+        ],
+        {
+            "title_aux": "comfyui-seed-selector"
+        }
+    ],
     "https://github.com/SeedV/ComfyUI-SeedV-Nodes": [
         [
             "ALL_Model_UnLoader(SEEDV)",
@@ -3941,6 +3978,20 @@
         ],
         {
             "title_aux": "PMSnodes [WIP]"
+        }
+    ],
+    "https://github.com/Solarish/ComfyUI-MidnightLook": [
+        [
+            "MidnightLook_AnyToString",
+            "MidnightLook_CropDATAToBBOX",
+            "MidnightLook_CropForInpaint",
+            "MidnightLook_LatentSizePresets",
+            "MidnightLook_LoadImageByURL",
+            "MidnightLook_PasteAfterInpaint",
+            "MidnightLook_StringToBBOX"
+        ],
+        {
+            "title_aux": "fyUI-MidnightLook [WIP]"
         }
     ],
     "https://github.com/Soliton80/ComfyUI-Watermark-Detection-YOLO": [
@@ -5839,6 +5890,26 @@
         ],
         {
             "title_aux": "ComfyUI-GEN3C-Gsplat [WIP]"
+        }
+    ],
+    "https://github.com/cedarconnor/ComfyUI_MotionTransfer": [
+        [
+            "AdaptiveTessellate",
+            "BarycentricWarp",
+            "DepthEstimator",
+            "FlowSRRefine",
+            "FlowToSTMap",
+            "HiResWriter",
+            "MeshBuilder2D",
+            "MeshFromCoTracker",
+            "ProxyReprojector",
+            "RAFTFlowExtractor",
+            "SequentialMotionTransfer",
+            "TemporalConsistency",
+            "TileWarp16K"
+        ],
+        {
+            "title_aux": "ComfyUI Motion Transfer Pack [WIP]"
         }
     ],
     "https://github.com/celll1/cel_sampler": [
