@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "muriellee1x",
+            "title": "ComfyUI-switch-angles",
+            "reference": "https://github.com/muriellee1x/ComfyUI-switch-angles",
+            "files": [
+                "https://github.com/muriellee1x/ComfyUI-switch-angles"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Camera Prompt Generator, ..."
+        },
+        {
             "author": "APZmedia",
             "title": "ComfyUI Folder Parser [UNSAFE]",
             "reference": "https://github.com/APZmedia/ComfyUI-folder-parser",
@@ -209,16 +219,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Start Timer, End Timer"
-        },
-        {
-            "author": "agxagi",
-            "title": "Autoregressive Transformer and Rolling Diffusion Sampler for ComfyUI [WIP]",
-            "reference": "https://github.com/agxagi/ComfyUI-GPT4o-Image-Gen-FLUX-DEV",
-            "files": [
-                "https://github.com/agxagi/ComfyUI-GPT4o-Image-Gen-FLUX-DEV"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node that implements an Autoregressive Transformer and Rolling Diffusion-like Decoder using Black Forest Lab's Flux-Dev model for accurate text-to-image generation, similar to GPT-4o's image generation approach.\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "APZmedia",

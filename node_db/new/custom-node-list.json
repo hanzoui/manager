@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "Saganaki22",
+            "title": "Maya1 TTS",
+            "reference": "https://github.com/Saganaki22/ComfyUI-Maya1_TTS",
+            "files": [
+                "https://github.com/Saganaki22/ComfyUI-Maya1_TTS"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for Maya1 TTS - Expressive voice generation with 20+ emotions, voice design, and SNAC neural codec"
+        },
+        {
+            "author": "dskjal",
+            "title": "comfyui-yolov8-dsuksampler",
+            "reference": "https://github.com/dskjal/comfyui-yolov8-dsuksampler",
+            "files": [
+                "https://github.com/dskjal/comfyui-yolov8-dsuksampler"
+            ],
+            "install_type": "git-clone",
+            "description": "This node performs detection and segmentation, as well as upsampling, sampling, and blurring the composite."
+        },
+        {
+            "author": "gitcapoom",
+            "title": "ComfyUI FOV Estimator",
+            "reference": "https://github.com/gitcapoom/comfyui_fovestimator",
+            "files": [
+                "https://github.com/gitcapoom/comfyui_fovestimator"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that estimates the Field of View (FOV) and tilt angle (horizon angle) of images using computer vision techniques."
+        },
+        {
             "author": "DazzleNodes",
             "title": "DazzleNodes Collection",
             "reference": "https://github.com/DazzleNodes/DazzleNodes",

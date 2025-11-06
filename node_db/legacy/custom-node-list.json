@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "agxagi",
+            "title": "Autoregressive Transformer and Rolling Diffusion Sampler for ComfyUI [REMOVED]",
+            "reference": "https://github.com/agxagi/ComfyUI-GPT4o-Image-Gen-FLUX-DEV",
+            "files": [
+                "https://github.com/agxagi/ComfyUI-GPT4o-Image-Gen-FLUX-DEV"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that implements an Autoregressive Transformer and Rolling Diffusion-like Decoder using Black Forest Lab's Flux-Dev model for accurate text-to-image generation, similar to GPT-4o's image generation approach.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "walke2019",
+            "title": "ComfyUI-GGUF-VisionLM [REMOVED]",
+            "reference": "https://github.com/walke2019/ComfyUI-GGUF-VisionLM",
+            "files": [
+                "https://github.com/walke2019/ComfyUI-GGUF-VisionLM"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for running GGUF quantized Qwen2.5-VL models using llama.cpp"
+        },
+        {
             "author": "neocrz",
             "title": "comfyui-tinyae [REMOVED]",
             "reference": "https://github.com/neocrz/comfyui-tinyae",
