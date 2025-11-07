@@ -2607,6 +2607,7 @@
             "AGSoft_Loop_Images",
             "AGSoft_Loop_Integer",
             "AGSoft_Loop_Random_Seed",
+            "AGSoft_Loop_Samplers",
             "AGSoft_Loop_Texts",
             "AGSoft_Mask_Blur",
             "AGSoft_Mask_Composite",
@@ -19462,11 +19463,11 @@
     "https://github.com/amir84ferdos/ComfyUI-ArchAi3d-Qwen": [
         [
             "ArchAi3D_Average_Color",
+            "ArchAi3D_Cinematography_Prompt_Builder",
             "ArchAi3D_Clean_Room_Prompt",
             "ArchAi3D_Color_Correction_Advanced",
             "ArchAi3D_Color_Correction_BT709",
             "ArchAi3D_GRAG_Modifier",
-            "ArchAi3D_GRAG_Sampler",
             "ArchAi3D_Mask_Crop_Rotate",
             "ArchAi3D_Mask_To_Position_Guide",
             "ArchAi3D_Object_Focus_Camera",
@@ -27880,6 +27881,7 @@
     ],
     "https://github.com/gitcapoom/comfyui_fovestimator": [
         [
+            "DepthFOVEstimator",
             "FOVEstimator"
         ],
         {
@@ -40596,6 +40598,7 @@
     "https://github.com/ru4ls/ComfyUI_StreetView-Loader": [
         [
             "StreetViewAnimator",
+            "StreetViewCubemapLoader",
             "StreetViewLoader",
             "StreetViewPanoLoader",
             "StreetViewURLParser"
@@ -41191,6 +41194,14 @@
         ],
         {
             "title_aux": "Advanced Text Overlay"
+        }
+    ],
+    "https://github.com/scofano/ComfyUI-Simple-video-effects": [
+        [
+            "ZoomSequenceNode"
+        ],
+        {
+            "title_aux": "Simple Video Effects"
         }
     ],
     "https://github.com/scofano/comfy-audio-duration": [
@@ -46318,6 +46329,7 @@
     ],
     "https://github.com/yemanou/ComfyUI-NABA": [
         [
+            "NABAImageNode",
             "NABAImageNodeREST",
             "NABAImportErrorStub"
         ],

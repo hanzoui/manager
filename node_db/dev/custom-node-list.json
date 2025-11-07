@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "zRich",
+            "title": "ComfyUI-zRich-ObjectCutter",
+            "reference": "https://github.com/zRich/ComfyUI-zRich-ObjectCutter",
+            "files": [
+                "https://github.com/zRich/ComfyUI-zRich-ObjectCutter"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: zRich Object Cutter (MASK to Transparent), SAM2 Auto Layer Extractor"
+        },
+        {
+            "author": "ajcampbell1333",
+            "title": "BudgetGuard for Artists [WIP]",
+            "reference": "https://github.com/ajcampbell1333/BudgetGuard_Artists",
+            "files": [
+                "https://github.com/ajcampbell1333/BudgetGuard_Artists"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node that provides cost estimation and budget management for NVIDIA NIM nodes across multiple cloud providers."
+        },
+        {
             "author": "muriellee1x",
             "title": "ComfyUI-switch-angles",
             "reference": "https://github.com/muriellee1x/ComfyUI-switch-angles",
