@@ -5891,6 +5891,21 @@
             "title_aux": "ComfyUI-GEN3C-Gsplat [WIP]"
         }
     ],
+    "https://github.com/cedarconnor/ComfyUI-HunyuanWorld-Mirror": [
+        [
+            "HWMInference",
+            "LoadHunyuanWorldMirrorModel",
+            "Save3DGaussians",
+            "SaveCameraParams",
+            "SaveDepthMap",
+            "SavePointCloud",
+            "VisualizeDepth",
+            "VisualizeNormals"
+        ],
+        {
+            "title_aux": "HunyuanWorld-Mirror ComfyUI Node Pack [WIP]"
+        }
+    ],
     "https://github.com/cedarconnor/ComfyUI_MotionTransfer": [
         [
             "AdaptiveTessellate",
@@ -7701,6 +7716,7 @@
             "Alta:API_Translate",
             "Alta:Add(Math)",
             "Alta:AddInt(Math)",
+            "Alta:AudioDenoise",
             "Alta:BuildFilePath",
             "Alta:DeleteAudioFromMemory",
             "Alta:DeleteFile(Util)",
@@ -9181,6 +9197,7 @@
     ],
     "https://github.com/lyra-ai/lyra-nodes": [
         [
+            "LyraAudioVisualizer",
             "LyraFilenameBuilder",
             "LyraImageAudioFusion",
             "LyraLoadAudioFromURL",
@@ -9513,6 +9530,14 @@
         ],
         {
             "title_aux": "ComfyUI-Codinghero"
+        }
+    ],
+    "https://github.com/muriellee1x/ComfyUI-Logic-Switch": [
+        [
+            "RandomStringSelector"
+        ],
+        {
+            "title_aux": "ComfyUI-Logic-Switch"
         }
     ],
     "https://github.com/muriellee1x/ComfyUI-switch-angles": [

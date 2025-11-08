@@ -35688,6 +35688,46 @@
             "description": "Adds hotkeys (F8 / Ctrl+K) and a toolbar button to cycle node link styles (Spline / Linear / Straight).",
             "tags": ["ui", "hotkey", "canvas"]
         },
+        {
+            "author": "fllywaay",
+            "title": "Comfyui-TextLine-counter",
+            "reference": "https://github.com/zpengcom/Comfyui-TextLine-counter",
+            "files": [
+                "https://github.com/zpengcom/Comfyui-TextLine-counter"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple multi-line text processing tool, such as line count statistics, ignoring blank lines, etc."
+        },
+        {
+            "author": "adambarbato",
+            "title": "Sa2VA Segmentation",
+            "reference": "https://github.com/adambarbato/ComfyUI-Sa2VA",
+            "files": [
+                "https://github.com/adambarbato/ComfyUI-Sa2VA"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for Sa2VA (Segment Anything 2 Video Assistant) - Advanced multimodal image and video understanding with segmentation."
+        },
+        {
+            "author": "Bio2hazard",
+            "title": "ComfyUI Prompt Snippets",
+            "reference": "https://github.com/Bio2hazard/ComfyUI-Prompt-Snippets",
+            "files": [
+                "https://github.com/Bio2hazard/ComfyUI-Prompt-Snippets"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension for ComfyUI adds a autocompletion feature that helps you write prompts faster and more efficiently. It provides suggestions from premade and custom data files as you type, allowing you to quickly insert and expand predefined keywords."
+        },
+        {
+            "author": "colorAi",
+            "title": "ComfyUI-Image Selector by Prompt",
+            "reference": "https://github.com/colorAi/comfyui-ImageSelectorbyPrompt",
+            "files": [
+                "https://github.com/colorAi/comfyui-ImageSelectorbyPrompt"
+            ],
+            "install_type": "git-clone",
+            "description": "Choose which image to use based on the keywords in the prompt."
+        },
 
 
 
@@ -36154,16 +36194,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "fllywaay",
-            "title": "Comfyui-TextLine-counter",
-            "reference": "https://github.com/zpengcom/Comfyui-TextLine-counter",
-            "files": [
-                "https://github.com/zpengcom/Comfyui-TextLine-counter"
-            ],
-            "install_type": "git-clone",
-            "description": "A simple multi-line text processing tool, such as line count statistics, ignoring blank lines, etc."
         }
     ]
 }
