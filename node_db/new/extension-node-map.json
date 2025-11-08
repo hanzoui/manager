@@ -1881,6 +1881,7 @@
             "HasNextExecutorGroup",
             "ImageCacheGet",
             "MultiCharacterEditorNode",
+            "PixelKSampleUpscalerSharpening",
             "PromptCleaningMaid",
             "PromptSelector",
             "ResolutionMasterSimplify",
@@ -5845,14 +5846,6 @@
         ],
         {
             "title_aux": "VibeVoice ComfyUI"
-        }
-    ],
-    "https://github.com/EnragedAntelope/ComfyUI-ConstrainResolution": [
-        [
-            "ConstrainResolution"
-        ],
-        {
-            "title_aux": "ComfyUI-ConstrainResolution"
         }
     ],
     "https://github.com/EnragedAntelope/ComfyUI-Doubutsu-Describer": [
@@ -16133,13 +16126,17 @@
             "Prompt Splitter",
             "Prop From Properties",
             "Random Entry",
+            "Random File Entry",
             "Randomize Image Batch",
             "Randomize List",
             "Replace List",
             "Save Image Batch to Zip",
+            "Search To Boolean",
+            "Search and Replace",
             "Select Bounding Box",
             "Sort List",
             "Split List",
+            "String To List",
             "String to Int",
             "Timestamp"
         ],
@@ -22951,6 +22948,7 @@
             "LayerFilter: WaterColor",
             "LayerMask: BlendIf Mask",
             "LayerMask: CreateGradientMask",
+            "LayerMask: DrawRoundedRectangle",
             "LayerMask: ImageToMask",
             "LayerMask: LoadSegformerModel",
             "LayerMask: MaskBoxDetect",
@@ -27748,7 +27746,6 @@
             "ChromaticAberrationFilter",
             "ColorPaletteExtractor",
             "FidelityFX_Upscaler",
-            "FilmGrainFilter",
             "ImageMetadataExtractor",
             "KohyaLoraConfig",
             "KuwaharaFilter",
@@ -27765,7 +27762,6 @@
             "SpatialSplitAttention",
             "StructuredLatent",
             "Temperature Adjust",
-            "TokenDeltaPerturbation",
             "TokenSculptor",
             "TokenVisualizer",
             "UNetHeatmap"
@@ -28860,24 +28856,6 @@
         ],
         {
             "title_aux": "comfyui-checkpoint-extract"
-        }
-    ],
-    "https://github.com/hekmon/comfyui-openai-api": [
-        [
-            "OAIAPIChatCompletion",
-            "OAIAPIClient",
-            "OAIAPIDebug",
-            "OAIAPIDeveloperRole",
-            "OAIAPIExtraBody",
-            "OAIAPIFrequencyPenalty",
-            "OAIAPIMaxTokens",
-            "OAIAPIPresencePenalty",
-            "OAIAPISeed",
-            "OAIAPITemperature",
-            "OAIAPITopP"
-        ],
-        {
-            "title_aux": "ComfyUI OpenAI API"
         }
     ],
     "https://github.com/heshengtao/comfyui_LLM_party": [
@@ -37801,15 +37779,6 @@
         ],
         {
             "title_aux": "ComfyUI-FlowChain"
-        }
-    ],
-    "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler": [
-        [
-            "SeedVR2",
-            "SeedVR2BlockSwap"
-        ],
-        {
-            "title_aux": "ComfyUI-SeedVR2_VideoUpscaler"
         }
     ],
     "https://github.com/numz/Comfyui-Orpheus": [
@@ -47407,6 +47376,7 @@
             "ModifyTextGender",
             "NeedImageSizeAndCount",
             "NovitaVideoRequestNode",
+            "QwenEditPlusLoraNode",
             "ReplicateRequstNode",
             "ReplicateVideoRequestNode",
             "SegmindVideoRequestNode",
