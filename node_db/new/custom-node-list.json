@@ -13,6 +13,27 @@
             "tags": ["utility"]
         },
         {
+            "author": "Cyrostar",
+            "title": "ComfyUI-Artha-Nodes",
+            "id": "comfyui-artha-nodes",
+            "reference": "https://github.com/Cyrostar/ComfyUI-Artha-Nodes",
+            "files": [
+                "https://github.com/Cyrostar/ComfyUI-Artha-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for general purpose."
+        },
+        {
+            "author": "alFrame",
+            "title": "ComfyUI AF - Enhanced-HTML-Note",
+            "reference": "https://github.com/alFrame/ComfyUI-AF-Enhanced-HTML-Note",
+            "files": [
+                "https://github.com/alFrame/ComfyUI-AF-Enhanced-HTML-Note"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI Note node with HTML capabilities. Create notes, UI's and ReadMe's directly inside the workflow using rich HTML formatting."
+        },
+        {
             "author": "vsaan212",
             "title": "Vsaan212-workflow-utilities",
             "reference": "https://github.com/vsaan212/Vsaan212-workflow-utilities",
@@ -666,36 +687,6 @@
             ],
             "install_type": "git-clone",
             "description": "Custom nodes to convert images to pen plotter files"
-        },
-        {
-            "author": "iGavroche",
-            "title": "RocM Ninodes",
-            "reference": "https://github.com/iGavroche/rocm-ninodes",
-            "files": [
-                "https://github.com/iGavroche/rocm-ninodes"
-            ],
-            "install_type": "git-clone",
-            "description": "ROCM Optimized Nodes for ComfyUI - High-performance VAE decode and sampling nodes specifically tuned for AMD GPUs with ROCm support, particularly targeting gfx1151 architecture"
-        },
-        {
-            "author": "Aishor",
-            "title": "Meta-Sampler Guiado (Seed-WAN)",
-            "reference": "https://github.com/Aishor/comfyui-meta-sampler-guiado",
-            "files": [
-                "https://github.com/Aishor/comfyui-meta-sampler-guiado"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI node that implements the Guided Meta-Sampler for video outpainting."
-        },
-        {
-            "author": "ModelTC",
-            "title": "ComfyUI-LightVAE",
-            "reference": "https://github.com/ModelTC/ComfyUI-LightVAE",
-            "files": [
-                "https://github.com/ModelTC/ComfyUI-LightVAE"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-LightVAE is a collection of LightX2V VAE custom nodes designed for ComfyUI, supporting high-performance video VAE models including LightVAE and LightTAE."
         }
     ]
 }
