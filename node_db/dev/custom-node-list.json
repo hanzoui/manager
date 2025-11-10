@@ -1,6 +1,58 @@
 {
     "custom_nodes": [
         {
+            "author": "nobinBB",
+            "title": "comfyui-samenodes",
+            "reference": "https://github.com/nobinBB/comfyui-samenodes",
+            "files": [
+                "https://github.com/nobinBB/comfyui-samenodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Batch Image Processor, Float to String, Float to String with Prefix, LoRA Wildcard Generator"
+        },
+        {
+            "author": "Scorpiosis0",
+            "title": "ComfyUI-WtlNodes [WIP]",
+            "reference": "https://github.com/Scorpiosis0/ComfyUI-WtlNodes",
+            "files": [
+                "https://github.com/Scorpiosis0/ComfyUI-WtlNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository contains a collection of custom nodes for ComfyUI, designed to simplify workflows and add new creative / utility features. Each node is plug-and-play and appears directly inside ComfyUI after installation.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "MushroomFleet",
+            "title": "ComfyUI-SCP-nodes [UNSAFE]",
+            "reference": "https://github.com/MushroomFleet/ComfyUI-SCP-nodes",
+            "files": [
+                "https://github.com/MushroomFleet/ComfyUI-SCP-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that automatically saves generated images locally and uploads them to a remote server via SCP (Secure Copy Protocol).[w/This node pack includes an endpoint that access files from arbitrary paths.]"
+        },
+        {
+            "author": "jonstreeter",
+            "title": "Archive Output [UNSAFE]",
+            "id": "archive-output",
+            "reference": "https://github.com/jonstreeter/comfyui-archive-output",
+            "files": [
+                "https://github.com/jonstreeter/comfyui-archive-output"
+            ],
+            "install_type": "git-clone",
+            "description": "Archive and organize your generated images into date-structured folders, and compress PNG images to JPEG/WebP with full workflow metadata preservation, saving 85-95% disk space.[w/This node pack includes an endpoint that access files from arbitrary paths.]"
+        },
+        {
+            "author": "xuchenxu168",
+            "title": "ComfyUI-Qwen3-VL [WIP]",
+            "id": "qwen3-vl",
+            "reference": "https://github.com/xuchenxu168/ComfyUI_Qwen3-VL",
+            "files": [
+                "https://github.com/xuchenxu168/ComfyUI_Qwen3-VL"
+            ],
+            "install_type": "git-clone",
+            "description": "Enhanced Qwen3-VL integration for ComfyUI with direct image and video support.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "cedarconnor",
             "title": "HunyuanWorld-Mirror ComfyUI Node Pack [WIP]",
             "reference": "https://github.com/cedarconnor/ComfyUI-HunyuanWorld-Mirror",

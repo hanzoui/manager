@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "sselpah",
+            "title": "ComfyUI-sselpah-nodes [REMOVED]",
+            "reference": "https://github.com/sselpah/ComfyUI-sselpah-nodes",
+            "files": [
+                "https://github.com/sselpah/ComfyUI-sselpah-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Extension of IPAdapter implementation by cubiq and whoever contributed to that repository"
+        },
+        {
+            "author": "vsaan212",
+            "title": "ComfyUI Text Split Node [REMOVED]",
+            "reference": "https://github.com/vsaan212/Comfy-ui-textsplit",
+            "files": [
+                "https://github.com/vsaan212/Comfy-ui-textsplit"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that splits text into multiple outputs for feeding complex multi-scene renders. This node allows you to dynamically control the number of splits and use custom separators."
+        },
+        {
             "author": "EnragedAntelope",
             "title": "ComfyUI-Doubutsu-Describer [DEPRECATED]",
             "reference": "https://github.com/EnragedAntelope/ComfyUI-Doubutsu-Describer",

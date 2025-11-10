@@ -3030,6 +3030,14 @@
             "title_aux": "DMXAPI Nodes [WIP]"
         }
     ],
+    "https://github.com/MushroomFleet/ComfyUI-SCP-nodes": [
+        [
+            "SaveImageSCP"
+        ],
+        {
+            "title_aux": "ComfyUI-SCP-nodes [UNSAFE]"
+        }
+    ],
     "https://github.com/MushroomFleet/DJZ-Nodes": [
         [
             "AnamorphicEffect",
@@ -3807,6 +3815,25 @@
         ],
         {
             "title_aux": "ComfTrellis [WIP]"
+        }
+    ],
+    "https://github.com/Scorpiosis0/ComfyUI-WtlNodes": [
+        [
+            "AdvancedEmptyLatent",
+            "Brightness",
+            "Contrast",
+            "DepthDOFNode",
+            "DualEaseCosineScheduler",
+            "Exposure",
+            "ImageTransformNode",
+            "MaskProcessor",
+            "MaskTransformNode",
+            "Temperature",
+            "VisualizeSigmas",
+            "saturationNode"
+        ],
+        {
+            "title_aux": "ComfyUI-WtlNodes [WIP]"
         }
     ],
     "https://github.com/Seb-Lis/comfyui-seed-selector": [
@@ -8153,6 +8180,14 @@
             "title_aux": "ComfyUI-ImageStraightener [WIP]"
         }
     ],
+    "https://github.com/jonstreeter/comfyui-archive-output": [
+        [
+            "ArchiveOutputWorkflow"
+        ],
+        {
+            "title_aux": "Archive Output [UNSAFE]"
+        }
+    ],
     "https://github.com/jordancoult/ComfyUI_HelpfulNodes": [
         [
             "JCo_CropAroundKPS"
@@ -8587,6 +8622,7 @@
     ],
     "https://github.com/kongds1999/ComfyUI_was_image": [
         [
+            "Check Person In Text",
             "ConvertGrayToImage",
             "Generate Color Palette",
             "Replace Color By Palette"
@@ -9753,6 +9789,17 @@
         ],
         {
             "title_aux": "ComfyUI-PromptUtilities"
+        }
+    ],
+    "https://github.com/nobinBB/comfyui-samenodes": [
+        [
+            "BatchImageProcessor",
+            "FloatToString",
+            "FloatToStringWithPrefix",
+            "LoraWildcardGenerator"
+        ],
+        {
+            "title_aux": "comfyui-samenodes"
         }
     ],
     "https://github.com/nomcycle/ComfyUI_Cluster": [
@@ -11978,6 +12025,23 @@
         ],
         {
             "title_aux": "ComfyUI-CombineVideoAndSubtitle"
+        }
+    ],
+    "https://github.com/xuchenxu168/ComfyUI_Qwen3-VL": [
+        [
+            "CombineImagesForQwen3VL",
+            "LoadImageForQwen3VL",
+            "LoadVideo",
+            "LoadVideoForQwen3VL",
+            "LoadVideoURL",
+            "Qwen3VLAPIAdvanced",
+            "Qwen3VLAPINode",
+            "Qwen3VLProcessor",
+            "Qwen3VLResponseFormatter",
+            "TextPromptForQwen3VL"
+        ],
+        {
+            "title_aux": "ComfyUI-Qwen3-VL [WIP]"
         }
     ],
     "https://github.com/xuchenxu168/Comfyui_Prompt_Edit": [
