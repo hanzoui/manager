@@ -3988,7 +3988,8 @@
             "MidnightLook_LatentSizePresets",
             "MidnightLook_LoadImageByURL",
             "MidnightLook_PasteAfterInpaint",
-            "MidnightLook_StringToBBOX"
+            "MidnightLook_StringToBBOX",
+            "MidnightLook_UploadToR2"
         ],
         {
             "title_aux": "fyUI-MidnightLook [WIP]"
@@ -5895,10 +5896,13 @@
         [
             "HWMInference",
             "LoadHunyuanWorldMirrorModel",
+            "PreprocessImagesForHWM",
             "Save3DGaussians",
+            "SaveCOLMAPReconstruction",
             "SaveCameraParams",
             "SaveDepthMap",
             "SavePointCloud",
+            "View3DInBrowser",
             "VisualizeDepth",
             "VisualizeNormals"
         ],
@@ -7302,6 +7306,7 @@
         [
             "CreatePointsString",
             "XISER_Canvas",
+            "XIS_BooleanSwitch",
             "XIS_CanvasMaskProcessor",
             "XIS_CompositorProcessor",
             "XIS_CoordinatePath",
@@ -7309,6 +7314,7 @@
             "XIS_CropImage",
             "XIS_CurveEditor",
             "XIS_DynamicKSampler",
+            "XIS_FloatSwitch",
             "XIS_Float_Slider",
             "XIS_FromListGet1Color",
             "XIS_FromListGet1Cond",
@@ -7326,6 +7332,8 @@
             "XIS_ImageManager",
             "XIS_ImageMaskMirror",
             "XIS_ImageStitcher",
+            "XIS_ImageSwitch",
+            "XIS_IntSwitch",
             "XIS_InvertMask",
             "XIS_IsThereAnyData",
             "XIS_KSamplerSettingsNode",
@@ -7335,6 +7343,7 @@
             "XIS_LoadImage",
             "XIS_MaskBatchProcessor",
             "XIS_MaskCompositeOperation",
+            "XIS_MaskSwitch",
             "XIS_MergePackImages",
             "XIS_MultiPointGradient",
             "XIS_MultiPromptSwitch",
@@ -7348,7 +7357,8 @@
             "XIS_ResizeToDivisible",
             "XIS_ResolutionSelector",
             "XIS_SetColor",
-            "XIS_ShapeData"
+            "XIS_ShapeData",
+            "XIS_StringSwitch"
         ],
         {
             "title_aux": "Xiser_Nodes [WIP]"
@@ -9113,6 +9123,7 @@
             "LF_MultipleImageResizeForWeb",
             "LF_Notify",
             "LF_ONNXSelector",
+            "LF_OpenAIAPI",
             "LF_ParsePromptWithLoraTags",
             "LF_RandomBoolean",
             "LF_RegexReplace",
@@ -9158,6 +9169,7 @@
             "LF_UrandomSeedGenerator",
             "LF_UsageStatistics",
             "LF_VAEDecode",
+            "LF_VAEEncode",
             "LF_VAESelector",
             "LF_Vibrance",
             "LF_ViewImages",
@@ -11052,19 +11064,27 @@
     ],
     "https://github.com/stalkervr/comfyui-custom-path-nodes": [
         [
+            "AnyCollector",
             "BatchImageCrop",
             "ContextPipeIn",
             "ContextPipeOut",
             "ContextPipeReroute",
             "DataFileLoader",
             "ImageGridCropper",
+            "JsonFieldValueExtractor",
+            "ListItemExtractor",
+            "ListToString",
+            "LoopAny",
             "PathPipeIn",
             "PathPipeOut",
             "PathPipeReroute",
             "PromptPartConcatenation",
             "PromptPartJoin",
             "SavePath",
-            "StringConcatenation"
+            "StringCollector",
+            "StringConcatenation",
+            "TextBlockProcessor",
+            "TextWrapper"
         ],
         {
             "title_aux": "comfyui-custom-path-nodes [UNSAFE]"
@@ -12228,7 +12248,9 @@
             "YCFaceAlignToCanvas",
             "YCFaceAlignToCanvasV2",
             "YCFaceAlignToReference",
-            "YCFaceAnalysisModels"
+            "YCFaceAnalysisModels",
+            "ycBBoxBridge",
+            "ycCanvasBBox"
         ],
         {
             "title_aux": "ComfyUI-YCNodes_Advance"
