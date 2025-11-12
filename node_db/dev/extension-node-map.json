@@ -5436,6 +5436,9 @@
     ],
     "https://github.com/bakker/BK_Utils": [
         [
+            "FluxPromptSaver",
+            "FluxTextSampler",
+            "ModelName",
             "SamePixelResolutionCalculator"
         ],
         {
@@ -7787,6 +7790,7 @@
             "Alta:OpenAIImages2Image",
             "Alta:ReadImageFromFile",
             "Alta:ReadStringFromFile",
+            "Alta:RegexMatch(Util)",
             "Alta:SaveAudioToPath",
             "Alta:SaveImage",
             "Alta:SaveImagePlus",
@@ -8861,6 +8865,7 @@
             "MorseCode",
             "StrFormat",
             "StrFormatAdv",
+            "YoloFaceReformer",
             "detailerKSamplerSchedulerFallback",
             "effKSamplerSchedulerFallback"
         ],
@@ -9510,6 +9515,7 @@
             "LoadCheckpointLiteMittimi",
             "LoadImageParamLiteMittimi",
             "LoadSetParamLiteMittimi",
+            "LoraLoaderExtractedPromptLiteMittimi",
             "SaveImageParamLiteMittimi",
             "SaveParamToPresetLiteMittimi",
             "TextToConditioningLiteMittimi"

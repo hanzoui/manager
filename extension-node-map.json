@@ -2081,27 +2081,28 @@
     ],
     "https://github.com/AhBumm/ComfyUI_BillBum_APIset_Nodes": [
         [
-            "BillBum_Modified_Base64_Url2Data_Node",
             "BillBum_Modified_Base64_Url2Img_Node",
             "BillBum_Modified_Dalle_API_Node",
             "BillBum_Modified_DropoutToken_Node",
-            "BillBum_Modified_Flux_API_Node",
             "BillBum_Modified_Flux_API_with_imgInput",
             "BillBum_Modified_GPTImage1_API_Node",
             "BillBum_Modified_Ideogram_API_Node",
-            "BillBum_Modified_ImageSplit_Node",
             "BillBum_Modified_Image_API_Call_Node",
             "BillBum_Modified_LLM_API_Node",
             "BillBum_Modified_LLM_ForceStream_Mode",
             "BillBum_Modified_Recraft_API_Node",
             "BillBum_Modified_RegText_Node",
             "BillBum_Modified_SD3_API_Node",
-            "BillBum_Modified_Structured_LLM_Node(Imperfect)",
             "BillBum_Modified_VisionLM_API_Node",
             "BillBum_Modified_img2b64_url_Node",
             "BillBum_NonSysPrompt_VLM_API_Node",
             "Input_Text",
-            "Text_Concat"
+            "Text_Concat",
+            "billbum_modified_stream_response_llm_api",
+            "load_video_from_url",
+            "load_video_from_url_comfy_core",
+            "reg_tuzi_chat_response",
+            "url2image"
         ],
         {
             "nodename_pattern": "\\(BillBum\\)$",
@@ -3687,6 +3688,7 @@
     "https://github.com/Burgstall-labs/ComfyUI-BETA-Cropnodes": [
         [
             "BETACrop",
+            "BETASceneDetect",
             "BETAStitch",
             "IndexedLoRALoader_BETA",
             "LoadTextFromIndex",
@@ -3703,6 +3705,7 @@
     "https://github.com/Burgstall-labs/ComfyUI-BETA-Helpernodes": [
         [
             "BETACrop",
+            "BETASceneDetect",
             "BETAStitch",
             "IndexedLoRALoader_BETA",
             "LoadTextFromIndex",
@@ -4625,7 +4628,15 @@
     ],
     "https://github.com/Creditas-labs/ComfyUI-Adforge": [
         [
-            "Example"
+            "LoadVideoGCS",
+            "PreviewVideo",
+            "VertexVeoExtendVideoNode",
+            "VertexVeoFirstLastFrameToVideoNode",
+            "VertexVeoImageToVideoNode",
+            "VertexVeoInsertContentNode",
+            "VertexVeoRemoveContentNode",
+            "VertexVeoTextToVideoNode",
+            "VertexVeoVideoWithReferenceNode"
         ],
         {
             "title_aux": "Adforge"
@@ -4849,32 +4860,36 @@
     ],
     "https://github.com/Cyrostar/ComfyUI-Artha-Nodes": [
         [
+            "Artha Gemini Backdrop",
+            "Artha Gemini Body",
+            "Artha Gemini Camera",
+            "Artha Gemini Cloth",
+            "Artha Gemini Compose",
+            "Artha Gemini Condense",
+            "Artha Gemini Face",
+            "Artha Gemini Form",
+            "Artha Gemini Imagen",
+            "Artha Gemini Instruct",
+            "Artha Gemini Light",
+            "Artha Gemini Makeup",
+            "Artha Gemini Markdown",
+            "Artha Gemini Motion",
+            "Artha Gemini Operation",
+            "Artha Gemini Portrait",
+            "Artha Gemini Prompter",
+            "Artha Gemini Question",
+            "Artha Gemini Response",
+            "Artha Gemini Scenery",
+            "Artha Gemini Speech",
+            "Artha Gemini Style",
+            "Artha Gemini Subject",
+            "Artha Gemini Translate",
+            "Artha Gemini Vision",
+            "Artha Project Pause",
+            "Artha Project Prefix",
+            "Artha Project Seed",
+            "Artha Project Setup",
             "Color Match",
-            "Gemini Backdrop",
-            "Gemini Body",
-            "Gemini Camera",
-            "Gemini Cloth",
-            "Gemini Compose",
-            "Gemini Condense",
-            "Gemini Face",
-            "Gemini Form",
-            "Gemini Imagen",
-            "Gemini Instruct",
-            "Gemini Light",
-            "Gemini Makeup",
-            "Gemini Markdown",
-            "Gemini Motion",
-            "Gemini Operation",
-            "Gemini Portrait",
-            "Gemini Prompter",
-            "Gemini Question",
-            "Gemini Response",
-            "Gemini Scenery",
-            "Gemini Speech",
-            "Gemini Style",
-            "Gemini Subject",
-            "Gemini Translate",
-            "Gemini Vision",
             "Image Display",
             "Image Loader",
             "InputSelector",
@@ -4885,11 +4900,7 @@
             "Math Number",
             "Math Operation",
             "Math Random",
-            "MixedColorTransfer",
-            "Project Pause",
-            "Project Prefix",
-            "Project Seed",
-            "Project Setup"
+            "MixedColorTransfer"
         ],
         {
             "title_aux": "ComfyUI-Artha-Nodes"
@@ -6732,7 +6743,7 @@
             "ImageVRConverter",
             "IncrementDirectoryImageLoader",
             "LinearFade",
-            "LoadImageWithFilename",
+            "LoadImageAdvanced",
             "LoadSingleImageByFilename",
             "LoopWhileNotFinished",
             "RegexSubstitute",
@@ -12539,16 +12550,27 @@
             "GeomPackBlenderSphereProjection",
             "GeomPackBlenderUVUnwrap",
             "GeomPackBlenderVoxelRemesh",
+            "GeomPackCGALIsotropicRemesh",
             "GeomPackCenterMesh",
             "GeomPackChamferDistance",
+            "GeomPackCheckNormals",
+            "GeomPackComputeNormals",
             "GeomPackComputeSDF",
             "GeomPackCreatePrimitive",
             "GeomPackExampleNode",
+            "GeomPackFillHoles",
+            "GeomPackFixNormals",
             "GeomPackHausdorffDistance",
+            "GeomPackInstantMeshesRemesh",
+            "GeomPackLaplacianSmoothing",
+            "GeomPackLibiglARAP",
+            "GeomPackLibiglHarmonic",
             "GeomPackLibiglLSCM",
             "GeomPackLoadMesh",
             "GeomPackMarkBoundaryEdges",
+            "GeomPackMeshDecimation",
             "GeomPackMeshInfo",
+            "GeomPackMeshSubdivision",
             "GeomPackMeshToPointCloud",
             "GeomPackPreviewMesh",
             "GeomPackPreviewMeshVTK",
@@ -12556,6 +12578,8 @@
             "GeomPackPreviewMeshVTKFilters",
             "GeomPackPyMeshLabRemesh",
             "GeomPackSaveMesh",
+            "GeomPackStripMeshAdjacency",
+            "GeomPackVisualizeNormals",
             "GeomPackXAtlasUVUnwrap"
         ],
         {
@@ -12564,11 +12588,14 @@
     ],
     "https://github.com/PozzettiAndrea/ComfyUI-Grounding": [
         [
+            "BatchCropAndPadFromMask",
             "BboxVisualizer",
-            "DownloadAndLoadSAM2Model",
+            "DownLoadSAM2Model",
             "GroundingDetector",
+            "GroundingMaskDetector",
+            "GroundingMaskModelLoader",
             "GroundingModelLoader",
-            "Sam2Segmentation"
+            "Sam2Segment"
         ],
         {
             "title_aux": "ComfyUI-Grounding"
@@ -12596,41 +12623,15 @@
             "LoadDinoModel",
             "LoadHunyuanDiT",
             "LoadHunyuanVAE",
-            "Load_CLIP_Trellis",
-            "Load_DinoV2_Model",
-            "Load_Trellis_Model",
-            "MeshCraftPostProcess",
-            "MeshCraftRenderMultiView",
-            "MeshCraftUVUnwrap",
             "MeshCraft_ApplyAndSaveTexturedMesh",
             "MeshCraft_BakeMultiviewTextures",
-            "MeshCraft_DINOEmbeddingInterpolation",
-            "MeshCraft_EnsureManifold",
             "MeshCraft_GenerateMultiviewPBR",
-            "MeshCraft_Hunyuan3DLatentInterpolation",
             "MeshCraft_InpaintTextures",
-            "MeshCraft_LaplacianSmooth",
             "MeshCraft_LoadHunyuanMultiViewModel",
-            "MeshCraft_ReduceFaces",
-            "MeshCraft_RemoveDegenerate",
-            "MeshCraft_RemoveFloaters",
             "MeshCraft_RenderConditioningMaps",
             "MeshCraft_RenderRGBMultiview",
-            "MeshCraft_SmoothNormals",
-            "MeshCraft_VAELatentInterpolation",
             "PrepareImageForDINO",
-            "PreviewTrimesh",
-            "Trellis_Combine_Conditioning",
-            "Trellis_Export_GLB",
-            "Trellis_Export_PLY",
-            "Trellis_Image_Conditioning",
-            "Trellis_Image_Preprocessor",
-            "Trellis_Render_Video",
-            "Trellis_SLAT_Decoder",
-            "Trellis_SLAT_Sampler",
-            "Trellis_SparseStructure_Sampler",
-            "Trellis_Text_Conditioning",
-            "Trellis_multiimage_loader"
+            "PreviewTrimesh"
         ],
         {
             "title_aux": "ComfyUI-MeshCraft"
@@ -13261,6 +13262,7 @@
             "PrepackLorasAndMSSD3",
             "PrepackModelDualCLIP",
             "PrepackModelSingleCLIP",
+            "PrepackNumberTypeConverter",
             "PrepackSeed",
             "PrepackSetPipe",
             "\ud83d\udc80Prepack Calculator",
@@ -13268,6 +13270,8 @@
             "\ud83d\udc80Prepack Int Split",
             "\ud83d\udc80Prepack Logic Int",
             "\ud83d\udc80Prepack Logic String",
+            "\ud83d\udc80Prepack Merge Selector",
+            "\ud83d\udc80Prepack Number Type Converter",
             "\ud83d\udc80Prepack Save By File Name"
         ],
         {
@@ -13991,6 +13995,7 @@
         [
             "LoadImageandviewPropertiesSG",
             "PreviewImageandviewPropertiesSG",
+            "SaveImageFormatQualityPropertiesSG",
             "ViewImagePropertiesSG"
         ],
         {
@@ -19070,6 +19075,7 @@
             "Comfly_qwen_image",
             "Comfly_qwen_image_edit",
             "Comfly_sora2",
+            "Comfly_sora2_character",
             "Comfly_sora2_chat",
             "Comfly_sora2_openai",
             "Comfly_suno_cover",
@@ -19328,7 +19334,8 @@
         [
             "AF_Edit_Generated_Prompt",
             "AF_Load_Prompt_History",
-            "AF_Save_Prompt_History"
+            "AF_Save_Prompt_History",
+            "AF_Show_Text"
         ],
         {
             "author": "Alex Furer",
@@ -25582,6 +25589,7 @@
             "DavchaModelMergeSDXL",
             "DavchaModelMergeSimple",
             "DavchaPop",
+            "DavchaQwenImageEditLoraTagLoader",
             "DavchaScheduledTextEncoderQwenImageEditPlus",
             "DavchaTextEncodeQwenImageEditPlus",
             "DavchaWan22LoraTagLoader",
@@ -25744,8 +25752,10 @@
             "Advanced Curved ControlNet Scheduler",
             "AutoBackgroundMask",
             "AutoPersonMask",
+            "Batch_Images_to_Timestep_Keyframes",
             "CurveFormulaBuilder",
             "Curved ControlNet Scheduler",
+            "Curved_Blur_Batch_Preprocessor",
             "InteractiveCurveDesigner",
             "MaskSymmetryTool",
             "MultiMaskStrengthCombiner",
@@ -27439,10 +27449,10 @@
     "https://github.com/fkxianzhou/ComfyUI-Jimeng-API": [
         [
             "JimengAPIClient",
+            "JimengQueryTasks",
             "JimengReferenceImage2Video",
             "JimengSeedream3",
             "JimengSeedream4",
-            "JimengTaskStatusChecker",
             "JimengVideoGeneration"
         ],
         {
@@ -32999,6 +33009,7 @@
             "DownloadAndLoadNLFModel",
             "DownloadAndLoadWav2VecModel",
             "DrawArcFaceLandmarks",
+            "DrawGaussianNoiseOnImage",
             "DrawNLFPoses",
             "DummyComfyWanModelObject",
             "ExtractStartFramesForContinuations",
@@ -33109,6 +33120,7 @@
             "WanVideoUni3C_embeds",
             "WanVideoUniAnimateDWPoseDetector",
             "WanVideoUniAnimatePoseInput",
+            "WanVideoUniLumosEmbeds",
             "WanVideoVACEEncode",
             "WanVideoVACEModelSelect",
             "WanVideoVACEStartToEndFrame",
@@ -42232,6 +42244,7 @@
             "LoraSmartCombine",
             "PowerLoraLoaderV2",
             "VideoMergeABC",
+            "WanFMLF",
             "WanScaleAB",
             "WanVideoCacheSamples",
             "WanVideoCacheVideos",
@@ -45432,7 +45445,8 @@
             "WanAdvancedI2V",
             "WanFirstMiddleLastFrameToVideo",
             "WanFourFrameReferenceUltimate",
-            "WanMultiFrameRefToVideo"
+            "WanMultiFrameRefToVideo",
+            "WanMultiImageLoader"
         ],
         {
             "title_aux": "ComfyUI-Wan22FMLF"
