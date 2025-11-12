@@ -36419,6 +36419,17 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        }
+        },
+		{
+  			"author": "Owl-V",
+  			"title": "ComfyUI-Translator",
+  			"reference": "https://github.com/OwlvChirotha/ComfyUI-Translator",
+  			"files": [
+				"https://github.com/OwlvChirotha/ComfyUI-Translator",
+  			],
+  			"install_type": "git-clone",
+  			"description": "ComfyUI plug-in collection of basic translator, LLM translator and a series of LLM Service Connectors.",
+  			"tags": ["translation", "llm", "ai", "connector", "utility"]
+		}
     ]
 }
