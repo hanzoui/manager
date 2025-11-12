@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "creepybits",
+            "title": "world weaver",
+            "id": "ComfyUI-World_weaver",
+            "reference": "https://github.com/Creepybits/World_weaver",
+            "files": [
+                "https://github.com/Creepybits/World_weaver"
+            ],
+            "install_type": "git-clone",
+            "description": "The World Weaver System: True AI character consistency using Textual Inheritance. Maintain unshakeable character identity (face, body, essence) across radical changes in pose, clothing, and scene without LoRAs, IP-Adapters, or ControlNet. This repo contains the Character Vault and Prompt Helper components."
+        },
+        {
             "author": "Owl-V",
             "title": "ComfyUI-Translator",
             "reference": "https://github.com/OwlvChirotha/ComfyUI-Translator",

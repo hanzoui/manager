@@ -30167,6 +30167,17 @@
             "description": "This ComfyUI node will save images directly to Google Drive by using Google's free API service."
         },
         {
+            "author": "creepybits",
+            "title": "world weaver",
+            "id": "ComfyUI-World_weaver",
+            "reference": "https://github.com/Creepybits/World_weaver",
+            "files": [
+                "https://github.com/Creepybits/World_weaver"
+            ],
+            "install_type": "git-clone",
+            "description": "The World Weaver System: True AI character consistency using Textual Inheritance. Maintain unshakeable character identity (face, body, essence) across radical changes in pose, clothing, and scene without LoRAs, IP-Adapters, or ControlNet. This repo contains the Character Vault and Prompt Helper components."
+        },
+        {
             "author": "Hazukiaoi",
             "title": "LM Studio Tools for ComfyUI",
             "reference": "https://github.com/Hazukiaoi/ComfyUI-LM_Studio_Tools",
@@ -36441,17 +36452,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "creepybits",
-            "title": "world weaver",
-            "id": "ComfyUI-World_weaver",
-            "reference": "https://github.com/Creepybits/World_weaver",
-            "files": [
-                "https://github.com/Creepybits/World_weaver"
-            ],
-            "install_type": "git-clone",
-            "description": "The World Weaver System: True AI character consistency using Textual Inheritance. Maintain unshakeable character identity (face, body, essence) across radical changes in pose, clothing, and scene without LoRAs, IP-Adapters, or ControlNet. This repo contains the Character Vault and Prompt Helper components."
         }
     ]
 }
