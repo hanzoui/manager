@@ -352,20 +352,18 @@
             "ImageBlendText",
             "ImageBlendV1",
             "ImageRatioCrop",
+            "PDEmptyRatioLatent",
             "PDIMAGE_ImageCombine",
             "PDIMAGE_LongerSize",
-            "PDIMAGE_SAVE_PATH_V2",
-            "PDIMAGE_SAVE_PATH_V3",
             "PDImageConcante",
             "PDImageCropLocation_V2",
             "PDImageResize",
             "PDImageResizeV2",
             "PDImageResizeV3",
+            "PDImageToRatioV1",
             "PDStringConcate",
             "PDStringInput",
-            "PDTEXT_SAVE_PATH_V1",
-            "PDTEXT_SAVE_PATH_V2",
-            "PDTEXT_SAVE_PATH_V3",
+            "PDTEXT_SAVE_PATH",
             "PD_BatchCropBlackBorder",
             "PD_CropBorder",
             "PD_GetImageRatio",
@@ -377,6 +375,7 @@
             "PD_Image_centerCrop",
             "PD_MASK_SELECTION",
             "PD_Mask Selector",
+            "PD_Mask Selector By Area Left",
             "PD_MaskFillHoles",
             "PD_MaskRemoveSmallObjects",
             "PD_RemoveBlackBackground",
@@ -386,11 +385,11 @@
             "PD_Text Overlay Node",
             "PD_del_word",
             "PD_empty_word",
-            "PD_imagesave_path",
             "PD_random_prompt",
             "PDbananaImagesizeByRatio",
             "PDimage_corp_v1",
             "PDimage_corp_v2",
+            "PDimage_dual_batch_v1",
             "SimpleResolutionNode",
             "mask_edge_selector"
         ],
@@ -7551,6 +7550,16 @@
             "title_aux": "ComfyUI-CC-ImageLoader [UNSAFE]"
         }
     ],
+    "https://github.com/hhelloe/ComfyuiQuantizerToFp8": [
+        [
+            "FP8QuantizeFormat",
+            "ModelToStateDict",
+            "SaveAsSafeTensor"
+        ],
+        {
+            "title_aux": "ComfyuiQuantizerToFp8 [WIP]"
+        }
+    ],
     "https://github.com/hiusdev/ComfyUI_Lah_Toffee": [
         [
             "LoadVideoRandom"
@@ -8863,6 +8872,7 @@
             "MaskToSAMCoords",
             "MaskToSAMCoordsV2",
             "MorseCode",
+            "PoseReformer",
             "StrFormat",
             "StrFormatAdv",
             "YoloFaceReformer",
@@ -10346,18 +10356,6 @@
             "title_aux": "ComfyUI-AI_Tools [UNSAFE]"
         }
     ],
-    "https://github.com/rafacost/rafacost-comfy": [
-        [
-            "DreamOmni2-VLM",
-            "DreamOmni2_Output_Node"
-        ],
-        {
-            "author": "rafacost",
-            "description": "Nodes to use the DreamOmni2 GGUF models in ComfyUI.",
-            "title": "rafacostComfy Nodes",
-            "title_aux": "ComfyUI-DreamOmni2-GGUF [WIP]"
-        }
-    ],
     "https://github.com/rakete/comfyui-rakete": [
         [
             "rakete.BuildString",
@@ -10542,6 +10540,7 @@
         [
             "Batch Keyframes",
             "Canny Edge",
+            "Create Empty Frames",
             "Get Image Dimensions",
             "Image Grayscale",
             "Load Image Folder",
@@ -10836,6 +10835,15 @@
         ],
         {
             "title_aux": "ComfyUI_CheckPointLoader_Ext [WIP]"
+        }
+    ],
+    "https://github.com/sickbraintwo/WextraX": [
+        [
+            "loraName",
+            "tag"
+        ],
+        {
+            "title_aux": "WextraX [WIP]"
         }
     ],
     "https://github.com/silent-rain/ComfyUI-SilentRain": [
@@ -11662,6 +11670,14 @@
         ],
         {
             "title_aux": "ComfyUI-AllergicPack [WIP]"
+        }
+    ],
+    "https://github.com/vadimcro/string_by_index": [
+        [
+            "StringByIndex"
+        ],
+        {
+            "title_aux": "string_by_index"
         }
     ],
     "https://github.com/var1ableX/ComfyUI_Accessories": [

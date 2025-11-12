@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "vadimcro",
+            "title": "string_by_index",
+            "reference": "https://github.com/vadimcro/string_by_index",
+            "files": [
+                "https://github.com/vadimcro/string_by_index"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node that lets you output a string, based on int index number on input"
+        },
+        {
+            "author": "sickbraintwo",
+            "title": "WextraX [WIP]",
+            "reference": "https://github.com/sickbraintwo/WextraX",
+            "files": [
+                "https://github.com/sickbraintwo/WextraX"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for LoRA management, including LoRA name extraction and tag filtering utilities. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "hhelloe",
+            "title": "ComfyuiQuantizerToFp8 [WIP]",
+            "reference": "https://github.com/hhelloe/ComfyuiQuantizerToFp8",
+            "files": [
+                "https://github.com/hhelloe/ComfyuiQuantizerToFp8"
+            ],
+            "install_type": "git-clone",
+            "description": "Linear quantizer node for ComfyUI that converts models to FP8 precision format for reduced memory usage and faster inference.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "nobinBB",
             "title": "comfyui-samenodes",
             "reference": "https://github.com/nobinBB/comfyui-samenodes",
