@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "yano",
+            "title": "ComfyUI Fast Mosaic Detector",
+            "id": "comfyui-fast-mosaic-detector",
+            "reference": "https://github.com/yano/comfyui-fast-mosaic-detector",
+            "files": [
+                "https://github.com/yano/comfyui-fast-mosaic-detector"
+            ],
+            "install_type": "git-clone",
+            "description": "High-speed and high-accuracy mosaic detection node for ComfyUI. Supports FAST, ACCURATE, and HYBRID modes with ROI refinement."
+        },
+        {
             "author": "creepybits",
             "title": "world weaver",
             "id": "ComfyUI-World_weaver",
@@ -679,66 +690,6 @@
             ],
             "install_type": "git-clone",
             "description": "An all-in-one, multi-pass generative upscaling and post-processing node designed to simplify complex workflows and add a professional finish to your images."
-        },
-        {
-            "author": "EuphoricPenguin",
-            "title": "ComfyUI Resemble Enhance",
-            "reference": "https://github.com/EuphoricPenguin/resemble-enhance-comfyui",
-            "files": [
-                "https://github.com/EuphoricPenguin/resemble-enhance-comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node for audio enhancement using Resemble AI's Resemble Enhance model. Created using OpenHands, Cline, and DeepSeek."
-        },
-        {
-            "author": "Rathius-Saranoth",
-            "title": "Rathius ComfyUI Nodes",
-            "reference": "https://github.com/Rathius-Saranoth/rathius-comfyui-nodes",
-            "files": [
-                "https://github.com/Rathius-Saranoth/rathius-comfyui-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for ComfyUI by Rathius"
-        },
-        {
-            "author": "MartinDeanMoriarty",
-            "title": "ComfyUI-NumberToText",
-            "reference": "https://github.com/MartinDeanMoriarty/ComfyUI-NumberToText",
-            "files": [
-                "https://github.com/MartinDeanMoriarty/ComfyUI-NumberToText"
-            ],
-            "install_type": "git-clone",
-            "description": "Converts a number (e.g., 2 or 15) into written text (e.g., two or fifteen). Works for english and german up to numbers as high as 9999 without problems."
-        },
-        {
-            "author": "vantagewithai",
-            "title": "Vantage-DyPE",
-            "reference": "https://github.com/vantagewithai/Vantage-DyPE",
-            "files": [
-                "https://github.com/vantagewithai/Vantage-DyPE"
-            ],
-            "install_type": "git-clone",
-            "description": "Vantage DyPE integrates DyPE (Dynamic Position Extrapolation) into ComfyUI, enabling Flux-based transformer models to produce native ultra-high-resolution images (4K, 8K, and beyond) without retraining or external upscaling."
-        },
-        {
-            "author": "Starnodes2024",
-            "title": "ComfyUI Star DyPE",
-            "reference": "https://github.com/Starnodes2024/comfyui_Starnodes_DyPE",
-            "files": [
-                "https://github.com/Starnodes2024/comfyui_Starnodes_DyPE"
-            ],
-            "install_type": "git-clone",
-            "description": "Dynamic Position Extrapolation for Ultra High Resolution FLUX Image Generation\nThis custom node enables FLUX models in ComfyUI to generate ultra-high resolution images (4K and beyond) using DyPE (Dynamic Position Extrapolation) technology."
-        },
-        {
-            "author": "ardadmrknn",
-            "title": "ComfyUI Prompt History Node",
-            "reference": "https://github.com/ardadmrknn/comfyui-history-clip-text-encode-node",
-            "files": [
-                "https://github.com/ardadmrknn/comfyui-history-clip-text-encode-node"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that automatically saves your prompts, generated images, and workflow metadata into a browsable history, accessible directly from the node."
         }
     ]
 }
