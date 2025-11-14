@@ -3674,7 +3674,8 @@
         [
             "grounded_sam2_cut",
             "grounded_sam2_cut_gaussian",
-            "groundingdino"
+            "groundingdino",
+            "groundingdino_draw_bbox"
         ],
         {
             "title_aux": "ComfyUI-Groudingdino-Sam"
@@ -9201,6 +9202,7 @@
             "LF_SortJSONKeys",
             "LF_SortTags",
             "LF_SplitTone",
+            "LF_StabilityAPI",
             "LF_String",
             "LF_StringReplace",
             "LF_StringTemplate",
