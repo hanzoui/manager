@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "Lorenzo Mercugliano",
+            "title": "BoxBox",
+            "id": "ComfyUI-BoxBox",
+            "reference": "https://github.com/mercu-lore/BoxBox",
+            "description": "BoxBox is a lightweight ComfyUI extension for drawing, cropping, resizing, and reinserting specific regions of an image.",
+            "files": [
+                "https://github.com/mercu-lore/BoxBox"
+            ],
+            "install_type": "git-clone"
+        },
+        {
             "author": "IAMCCS Annotate",
             "title": "IAMCCS_annotate - Free-hand drawing tool for ComfyUI",
             "id": "IAMCCS-Annotate",
