@@ -368,8 +368,10 @@
             "PD_CropBorder",
             "PD_GetImageRatio",
             "PD_GetImageSize",
+            "PD_ImageFengMianWipe",
             "PD_ImageListForSort",
             "PD_ImageListForSortWithMetadata",
+            "PD_ImageListToGif",
             "PD_Image_Crop_Location",
             "PD_Image_Rotate_v1",
             "PD_Image_centerCrop",
@@ -529,6 +531,17 @@
         ],
         {
             "title_aux": "ComfyUI-Viva"
+        }
+    ],
+    "https://github.com/AIExplorer25/ComfyUI_HuggingfaceHelper": [
+        [
+            "HuggingFaceModelCardReader",
+            "HuggingFacePromptBuilder",
+            "HuggingFaceTrendingModels",
+            "QwenResponseExtract"
+        ],
+        {
+            "title_aux": "ComfyUI_HuggingfaceHelper"
         }
     ],
     "https://github.com/AIFSH/ComfyUI-OpenDIT": [
@@ -2438,6 +2451,17 @@
             "title_aux": "ComfyUI Production Nodes Pack [WIP]"
         }
     ],
+    "https://github.com/Kraven1109/ComfyUI-Llama": [
+        [
+            "ComfyLLama",
+            "GGUFLoader",
+            "MediaPathsLoader",
+            "MultiplePathsInput"
+        ],
+        {
+            "title_aux": "ComfyUI-Llama [NAME CONFLICT]"
+        }
+    ],
     "https://github.com/Krish-701/RK_Comfyui": [
         [
             "RK_Accumulate_Text_Multiline",
@@ -3545,6 +3569,8 @@
             "UniRigExtractRig",
             "UniRigExtractSkeleton",
             "UniRigLoadRiggedMesh",
+            "UniRigLoadSkeletonModel",
+            "UniRigLoadSkinningModel",
             "UniRigPrepareSkeletonForSkinning",
             "UniRigPreviewRiggedMesh",
             "UniRigSaveRiggedMesh",
@@ -7998,6 +8024,14 @@
             "title_aux": "Kolors Awesome Prompts [WIP]"
         }
     ],
+    "https://github.com/ilslli/Comfyui-IV2Z": [
+        [
+            "IV2Z_VideoCombine"
+        ],
+        {
+            "title_aux": "Comfyui-IV2Z"
+        }
+    ],
     "https://github.com/immersiveexperience/ie-comfyui-color-nodes": [
         [
             "Average Color",
@@ -9447,6 +9481,20 @@
             "title_aux": "comfyui-marnodes"
         }
     ],
+    "https://github.com/marduk191/comfyui_cmdtls": [
+        [
+            "DirectoryCreator",
+            "FileBrowser",
+            "FileCopy",
+            "FileDelete",
+            "FileReader",
+            "FileWriter",
+            "ShellExecutor"
+        ],
+        {
+            "title_aux": "comfyui_cmdtls [UNSAFE]"
+        }
+    ],
     "https://github.com/maruhidd/ComfyUI_Transparent-Background": [
         [
             "FillTransparentNode",
@@ -9489,6 +9537,16 @@
         ],
         {
             "title_aux": "ComfyUI-glb-to-stl [WIP]"
+        }
+    ],
+    "https://github.com/max-dingsda/ComfyUI-PromptLoop": [
+        [
+            "PromptLoopFromFile",
+            "PromptLoopFromText",
+            "PromptLoopInfo"
+        ],
+        {
+            "title_aux": "ComfyUI-PromptLoop [WIP]"
         }
     ],
     "https://github.com/mehbebe/ComfyLoraGallery": [
@@ -11585,6 +11643,14 @@
             "title_aux": "comfyui-zn-pycode [UNSAFE]"
         }
     ],
+    "https://github.com/tori29umai0123/ComfyUI-SDXLGenerateFromTextFile": [
+        [
+            "GenerateFromTextFile"
+        ],
+        {
+            "title_aux": "ComfyUI-SDXLGenerateFromTextFile [UNSAFE]"
+        }
+    ],
     "https://github.com/tracerstar/comfyui-p5js-node": [
         [
             "HYPE_P5JSImage"
@@ -11741,6 +11807,15 @@
         ],
         {
             "title_aux": "ComfyUI-Dist [WIP]"
+        }
+    ],
+    "https://github.com/unphased/code-nodes": [
+        [
+            "PythonCodeNode",
+            "ShellCodeNode"
+        ],
+        {
+            "title_aux": "code-nodes [UNSAFE]"
         }
     ],
     "https://github.com/usman2003/ComfyUI-Gender-Classifier": [
@@ -12424,7 +12499,8 @@
             "YCFaceAlignToReference",
             "YCFaceAnalysisModels",
             "ycBBoxBridge",
-            "ycCanvasBBox"
+            "ycCanvasBBox",
+            "ycimagebrushmask"
         ],
         {
             "title_aux": "ComfyUI-YCNodes_Advance"

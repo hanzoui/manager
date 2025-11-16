@@ -1,6 +1,96 @@
 {
     "custom_nodes": [
         {
+            "author": "nohikomiso",
+            "title": "ComfyUI-ImageFolderPicker [UNSAFE]",
+            "reference": "https://github.com/nohikomiso/ComfyUI-ImageFolderPicker",
+            "files": [
+                "https://github.com/nohikomiso/ComfyUI-ImageFolderPicker"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node for browsing local server folders and selecting images via thumbnail display in a grid interface. (Description by CC)[w/This nodepack has a vulnerability that allows it to retrieve a list of files from arbitrary paths.]"
+        },
+        {
+            "author": "tori29umai0123",
+            "title": "ComfyUI-SDXLGenerateFromTextFile [UNSAFE]",
+            "reference": "https://github.com/tori29umai0123/ComfyUI-SDXLGenerateFromTextFile",
+            "files": [
+                "https://github.com/tori29umai0123/ComfyUI-SDXLGenerateFromTextFile"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for batch image generation from text file prompts with configurable resolution, quantity, and model settings for Stable Diffusion workflows. (Description by CC)[w/This node pack has a vulnerability that allows arbitrary file contents to be read remotely.]"
+        },        
+        {
+            "author": "unphased",
+            "title": "code-nodes [UNSAFE]",
+            "reference": "https://github.com/unphased/code-nodes",
+            "files": [
+                "https://github.com/unphased/code-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository provides two lightweight execution helpers for ComfyUI graphs: Shell Code, Python Code[w/This nodepack has a vulnerability that allows arbitrary code execution remotely.]"
+        },
+        {
+            "author": "marduk191",
+            "title": "comfyui_cmdtls [UNSAFE]",
+            "reference": "https://github.com/marduk191/comfyui_cmdtls",
+            "files": [
+                "https://github.com/marduk191/comfyui_cmdtls"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive set of ComfyUI custom nodes for file system operations, file browsing, upload/download, and shell command execution.[w/This nodepack has a vulnerability that allows arbitrary code execution remotely.]"
+        },
+        {
+            "author": "AIExplorer25",
+            "title": "ComfyUI_HuggingfaceHelper",
+            "reference": "https://github.com/AIExplorer25/ComfyUI_HuggingfaceHelper",
+            "files": [
+                "https://github.com/AIExplorer25/ComfyUI_HuggingfaceHelper"
+            ],
+            "install_type": "git-clone",
+            "description": "This repo has different functions to help dealing with huggingface data"
+        },
+        {
+            "author": "ilslli",
+            "title": "Comfyui-IV2Z",
+            "reference": "https://github.com/ilslli/Comfyui-IV2Z",
+            "files": [
+                "https://github.com/ilslli/Comfyui-IV2Z"
+            ],
+            "install_type": "git-clone",
+            "description": "Modify the VideoCombine node of [a/ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite) so that, after encoding the video, it outputs the result as a compressed archive."
+        },
+        {
+            "author": "PladsElsker",
+            "title": "comfyui-krita [WIP]",
+            "reference": "https://github.com/PladsElsker/comfyui-krita",
+            "files": [
+                "https://github.com/PladsElsker/comfyui-krita"
+            ],
+            "install_type": "git-clone",
+            "description": "Minimal Krita extension and ComfyUI custom nodes for integrating both UIs together with workflow exposure and compositing capabilities. NOTE: The project is in active development (WIP). (Description by CC)"
+        },
+        {
+            "author": "max-dingsda",
+            "title": "ComfyUI-PromptLoop [WIP]",
+            "reference": "https://github.com/max-dingsda/ComfyUI-PromptLoop",
+            "files": [
+                "https://github.com/max-dingsda/ComfyUI-PromptLoop"
+            ],
+            "install_type": "git-clone",
+            "description": "Batch process multiple prompts from text files in a single ComfyUI queue job - supports prompt loops from files or multi-line text with optional start index and limit controls.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Kraven1109",
+            "title": "ComfyUI-Llama [NAME CONFLICT]",
+            "reference": "https://github.com/Kraven1109/ComfyUI-Llama",
+            "files": [
+                "https://github.com/Kraven1109/ComfyUI-Llama"
+            ],
+            "install_type": "git-clone",
+            "description": "Lightweight ComfyUI plugin exposing llama.cpp-based one-shot Qwen VQA nodes with multimodal support for image and audio inputs, flexible media path handling, and text-only fallback."
+        },        
+        {
             "author": "Gergzilla",
             "title": "Slim-Comfy-Pack [private]",
             "reference": "https://github.com/Gergzilla/Slim-Comfy-Pack",
