@@ -5617,6 +5617,7 @@
             "BoyoAudioEval",
             "BoyoChainBastardLoops",
             "BoyoFramePackLoRA",
+            "BoyoImageCrop",
             "BoyoImageGrab",
             "BoyoIncontextSaver",
             "BoyoLoRAConfigInspector",
@@ -5631,6 +5632,8 @@
             "BoyoPromptLoop",
             "BoyoQwenVLGrounding",
             "BoyoSaver",
+            "BoyoStoryboardOutput",
+            "BoyoStoryboardPrompt",
             "BoyoTiledVAEDecode",
             "BoyoVACEInjector",
             "BoyoVACEViewer",
@@ -12684,6 +12687,7 @@
             "GeomPackBlenderCubeProjection",
             "GeomPackBlenderCylinderProjection",
             "GeomPackBlenderQuadriflowRemesh",
+            "GeomPackBlenderRemeshWithTexture",
             "GeomPackBlenderSphereProjection",
             "GeomPackBlenderUVUnwrap",
             "GeomPackBlenderVoxelRemesh",
@@ -12706,6 +12710,8 @@
             "GeomPackLibiglLSCM",
             "GeomPackLoadMesh",
             "GeomPackLoadMeshBatch",
+            "GeomPackLoadMeshBlend",
+            "GeomPackLoadMeshFBX",
             "GeomPackMarkBoundaryEdges",
             "GeomPackMeshDecimation",
             "GeomPackMeshInfo",
@@ -12722,6 +12728,7 @@
             "GeomPackSaveMesh",
             "GeomPackStripMeshAdjacency",
             "GeomPackVisualizeNormals",
+            "GeomPackXAtlasRemeshWithTexture",
             "GeomPackXAtlasUVUnwrap",
             "SkeletonToMesh",
             "SkeletonToTrimesh"
@@ -19751,6 +19758,7 @@
     "https://github.com/alexjx/ComfyUI-Sa2VA-XJ": [
         [
             "XJSa2VAImageSegmentation",
+            "XJSa2VAImageSegmentationV2",
             "XJSa2VAVideoSegmentation"
         ],
         {
@@ -28374,6 +28382,7 @@
             "LocalLaplacianFilter",
             "PaletteFilterLUT",
             "PerturbedAttentionDelta",
+            "PromptShuffler",
             "QuantileMatchScaling",
             "SADAInfo",
             "SADAModelPatch",
@@ -33533,6 +33542,7 @@
             "RC_ChannelExtractor",
             "RC_ChannelMixer",
             "RC_ColorBalance",
+            "RC_ColorMatch",
             "RC_CurvesAdjust",
             "RC_DropShadow",
             "RC_FilmGrain",
@@ -40528,6 +40538,7 @@
     ],
     "https://github.com/razvanmatei-sf/razv-wavespeed": [
         [
+            "WaveSpeedAI Alibaba Wan 2.5 Image Edit",
             "WaveSpeedAI ByteDance Seedream V4",
             "WaveSpeedAI ByteDance Seedream V4 Sequential",
             "WaveSpeedAI Bytedance Seedream V4 Edit",
@@ -46143,6 +46154,8 @@
     "https://github.com/wgedeon/comfyui_play_traversal": [
         [
             "fot_BatchData",
+            "fot_PlayAct",
+            "fot_PlayActData",
             "fot_PlayContinue",
             "fot_PlayData",
             "fot_PlayStart",

@@ -3540,10 +3540,16 @@
     "https://github.com/PozzettiAndrea/ComfyUI-UniRig": [
         [
             "UniRigApplySkinning",
+            "UniRigApplySkinningML",
+            "UniRigDenormalizeSkeleton",
             "UniRigExtractRig",
             "UniRigExtractSkeleton",
+            "UniRigLoadRiggedMesh",
+            "UniRigPrepareSkeletonForSkinning",
+            "UniRigPreviewRiggedMesh",
             "UniRigSaveRiggedMesh",
-            "UniRigSaveSkeleton"
+            "UniRigSaveSkeleton",
+            "UniRigValidateSkeleton"
         ],
         {
             "title_aux": "ComfyUI-UniRig [WIP]"
@@ -4188,6 +4194,7 @@
             "SDVN Joy Caption",
             "SDVN KSampler",
             "SDVN Load Checkpoint",
+            "SDVN Load Checkpoint Filter",
             "SDVN Load Google Sheet",
             "SDVN Load Image",
             "SDVN Load Image Folder",
@@ -4195,6 +4202,7 @@
             "SDVN Load Image Ultimate",
             "SDVN Load Image Url",
             "SDVN Load Lora",
+            "SDVN Load Lora Filter",
             "SDVN Load Text",
             "SDVN LoadPinterest",
             "SDVN Logic",
@@ -4224,6 +4232,7 @@
             "SDVN Random Prompt",
             "SDVN Run Python Code",
             "SDVN Run Test",
+            "SDVN Save Image",
             "SDVN Save Text",
             "SDVN Seed",
             "SDVN Simple Any Input",
