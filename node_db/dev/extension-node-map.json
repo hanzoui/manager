@@ -3549,13 +3549,25 @@
     ],
     "https://github.com/PozzettiAndrea/ComfyUI-Hunyuan3D-Part": [
         [
+            "ClearAllModelCaches",
+            "ComputeMeshFeatures",
+            "ExplodedMeshViewer",
+            "Hunyuan3DLoadMesh",
+            "Hunyuan3DPreviewBoundingBoxes",
+            "Hunyuan3DSaveMesh",
             "Hunyuan3D_FullPipeline",
             "Hunyuan3D_P3SAM_Segmentation",
             "Hunyuan3D_XPart_Generation",
             "LoadBoundingBoxes",
             "LoadMesh",
+            "LoadP3SAMSegmentor",
+            "LoadXPartModels",
+            "OffloadModelToCPU",
+            "P3SAMSegmentMesh",
+            "ReloadModelToGPU",
             "SaveBoundingBoxes",
-            "SaveMesh"
+            "SaveMesh",
+            "XPartGenerateParts"
         ],
         {
             "title_aux": "Hunyuan3D-Part [WIP]"
@@ -3563,19 +3575,16 @@
     ],
     "https://github.com/PozzettiAndrea/ComfyUI-UniRig": [
         [
-            "UniRigApplySkinning",
             "UniRigApplySkinningML",
-            "UniRigDenormalizeSkeleton",
-            "UniRigExtractRig",
             "UniRigExtractSkeleton",
+            "UniRigLoadMesh",
             "UniRigLoadRiggedMesh",
             "UniRigLoadSkeletonModel",
             "UniRigLoadSkinningModel",
-            "UniRigPrepareSkeletonForSkinning",
             "UniRigPreviewRiggedMesh",
+            "UniRigSaveMesh",
             "UniRigSaveRiggedMesh",
-            "UniRigSaveSkeleton",
-            "UniRigValidateSkeleton"
+            "UniRigSaveSkeleton"
         ],
         {
             "title_aux": "ComfyUI-UniRig [WIP]"
@@ -3907,7 +3916,6 @@
             "MaskProcessor",
             "MaskTransformNode",
             "RAMPreviewImage",
-            "Temperature",
             "VisualizeSigmas",
             "saturationNode"
         ],

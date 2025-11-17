@@ -6280,7 +6280,7 @@
     ],
     "https://github.com/Fablestarexpanse/Timer-Node-Comfyui": [
         [
-            "TimerNode"
+            "PromptWaffleTimer"
         ],
         {
             "title_aux": "Timer-Node-Comfyui"
@@ -7161,7 +7161,8 @@
     ],
     "https://github.com/GeekatplayStudio/ComfyUI-Text2Speech": [
         [
-            "HttpTTSToAudio"
+            "HttpTTSToAudio",
+            "TTSServerStatus"
         ],
         {
             "title_aux": "ComfyUI-Text2Speech"
@@ -7173,6 +7174,7 @@
             "HTMLPreviewer",
             "HiTem3DConfigNode",
             "HiTem3DDownloaderNode",
+            "HiTem3DHistoryNode",
             "HiTem3DNode",
             "HiTem3DPreviewNode",
             "TextTemplate"
@@ -12582,22 +12584,27 @@
         [
             "BatchCropFromMaskSimple",
             "BatchUncropSimple",
+            "BlendImages",
             "BlurByMask",
             "BlurMask",
+            "CLIPTextEncodeFluxMultiple",
+            "CLIPTextEncodeMultiple",
             "CropImage",
             "CropMaskByBBox",
             "DSLRNoise",
+            "GetImageSize",
             "GradientMaskGenerator",
             "ImageBlendByMask",
             "ImageScalePro",
             "InvertMask",
             "KSamplerMultiSeed",
             "KSamplerMultiSeedPlus",
+            "LMStudioQuery",
+            "LMStudioUnloadModel",
             "LensSimulatedBloom",
             "PreviewImageQueue",
             "PromptRandomizer",
             "StringCombine",
-            "TestCollapsibleNode",
             "TestResetButton",
             "Watermark"
         ],
@@ -12726,6 +12733,8 @@
     ],
     "https://github.com/PozzettiAndrea/ComfyUI-DepthAnythingV3": [
         [
+            "DA3_CreateCameraParams",
+            "DA3_ParseCameraPose",
             "DA3_PreviewPointCloud",
             "DA3_Save3DGaussians",
             "DA3_SavePointCloud",
@@ -12780,6 +12789,7 @@
             "GeomPackMeshToPointCloud",
             "GeomPackPreviewBoundingBoxesVTK",
             "GeomPackPreviewMesh",
+            "GeomPackPreviewMeshUV",
             "GeomPackPreviewMeshVTK",
             "GeomPackPreviewMeshVTKFields",
             "GeomPackPreviewMeshVTKFilters",
@@ -15355,6 +15365,7 @@
             "Basic data handling: PathGetExtension",
             "Basic data handling: PathGetSize",
             "Basic data handling: PathGlob",
+            "Basic data handling: PathInputDir",
             "Basic data handling: PathIsAbsolute",
             "Basic data handling: PathIsDir",
             "Basic data handling: PathIsFile",
@@ -15366,6 +15377,7 @@
             "Basic data handling: PathLoadMaskFromGreyscale",
             "Basic data handling: PathLoadStringFile",
             "Basic data handling: PathNormalize",
+            "Basic data handling: PathOutputDir",
             "Basic data handling: PathRelative",
             "Basic data handling: PathSaveImageRGB",
             "Basic data handling: PathSaveImageRGBA",
@@ -15506,7 +15518,9 @@
             "StarQwenImageEditInputs",
             "StarQwenImageRatio",
             "StarQwenRebalancePrompter",
+            "StarQwenRegionalPrompter",
             "StarQwenWanRatio",
+            "StarSampler",
             "StarSaveFolderString"
         ],
         {
@@ -22743,9 +22757,13 @@
     ],
     "https://github.com/cedarconnor/ComfyUI-OmniX": [
         [
+            "AlbedoVisualization",
+            "DepthVisualization",
             "FluxDiffusersLoader",
+            "NormalVisualization",
             "OmniXLoRALoader",
-            "OmniXPerceptionDiffusers"
+            "OmniXPerceptionDiffusers",
+            "PBRVisualization"
         ],
         {
             "title_aux": "ComfyUI-OmniX"
@@ -24920,6 +24938,14 @@
             "title_aux": "ComfyUI builmenlabo - Unified Package"
         }
     ],
+    "https://github.com/comrender/ComfyUI-Nano-Banana-Resizer": [
+        [
+            "NanoBananaSizeCalculator"
+        ],
+        {
+            "title_aux": "ComfyUI-Nano-Banana-Resizer"
+        }
+    ],
     "https://github.com/comrender/ComfyUI-NanoSeed": [
         [
             "NanoSeedEdit"
@@ -27055,8 +27081,12 @@
     "https://github.com/erosDiffusion/ComfyUI-enricos-nodes": [
         [
             "Compositor3",
+            "Compositor4",
+            "Compositor4MasksOutput",
+            "Compositor4TransformsOut",
             "CompositorColorPicker",
             "CompositorConfig3",
+            "CompositorConfig4",
             "CompositorMasksOutputV3",
             "CompositorTools3",
             "CompositorTransformsOutV3",
@@ -28486,6 +28516,7 @@
             "SADAInfo",
             "SADAModelPatch",
             "SDXL_LoRA_BlockSlider_Loader",
+            "SemanticNoise",
             "StructuredLatent",
             "Temperature Adjust",
             "TokenSculptor",
@@ -30164,6 +30195,15 @@
         ],
         {
             "title_aux": "ComfyUI ModelScope API Node"
+        }
+    ],
+    "https://github.com/hum-ma/ComfyUI-TiledVaeLite": [
+        [
+            "Set VAE Decoder Noise",
+            "TiledVAEDecode"
+        ],
+        {
+            "title_aux": "ComfyUI-TiledVaeLite"
         }
     ],
     "https://github.com/hunzmusic/ComfyUI-IG2MV": [
@@ -33475,6 +33515,7 @@
             "WanVideoAddPusaNoise",
             "WanVideoAddS2VEmbeds",
             "WanVideoAddStandInLatent",
+            "WanVideoAddTTMLatents",
             "WanVideoAnimateEmbeds",
             "WanVideoApplyNAG",
             "WanVideoBlockList",
@@ -40111,6 +40152,14 @@
             "title_aux": "Comfyui-PainterAudioCut"
         }
     ],
+    "https://github.com/princepainter/Comfyui-PainterSampler": [
+        [
+            "PainterSampler"
+        ],
+        {
+            "title_aux": "Comfyui-PainterSampler"
+        }
+    ],
     "https://github.com/prodogape/ComfyUI-EasyOCR": [
         [
             "Apply EasyOCR"
@@ -44987,6 +45036,15 @@
             "nickname": "quadmoon's Nodes",
             "title": "quadmoon's ComfyUI nodes",
             "title_aux": "quadmoon's ComfyUI nodes"
+        }
+    ],
+    "https://github.com/tristanvdb/ComfyUI-toolset": [
+        [
+            "InteractiveImageSelector",
+            "InteractiveLatentSelector"
+        ],
+        {
+            "title_aux": "ComfyUI-toolset"
         }
     ],
     "https://github.com/tritant/ComfyUI-Advanced-Photo-Grain": [
