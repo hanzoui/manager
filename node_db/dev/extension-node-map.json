@@ -3565,6 +3565,14 @@
             "title_aux": "CADabra [WIP]"
         }
     ],
+    "https://github.com/PozzettiAndrea/ComfyUI-CameraAnalysis": [
+        [
+            "CameraAnalysis"
+        ],
+        {
+            "title_aux": "ComfyUI-CameraAnalysis"
+        }
+    ],
     "https://github.com/PozzettiAndrea/ComfyUI-Hunyuan3D-Part": [
         [
             "ClearAllModelCaches",
@@ -5606,6 +5614,19 @@
             "title_aux": "ComfyUI Environment Variable Node [UNSAFE]"
         }
     ],
+    "https://github.com/basenc/Comfyui-Nodes-basenc": [
+        [
+            "ChatMessagesCreate",
+            "CustomOpenAIChatCompletion",
+            "EnvVarNode",
+            "Eval",
+            "JMESPathSelect",
+            "WanVideoSize"
+        ],
+        {
+            "title_aux": "Comfyui-Nodes-basenc [UNSAFE]"
+        }
+    ],
     "https://github.com/benda1989/WaterMarkRemover_ComfyUI": [
         [
             "Remover",
@@ -6813,7 +6834,8 @@
             "WanVaceToVideo",
             "WebcamCapture",
             "unCLIPCheckpointLoader",
-            "unCLIPConditioning"
+            "unCLIPConditioning",
+            "wanBlockSwap"
         ],
         {
             "title_aux": "ComfyUI"
@@ -7139,6 +7161,91 @@
             "title_aux": "Duck_Nodes [UNSAFE]"
         }
     ],
+    "https://github.com/eddyhhlure1Eddy/ComfyUI-QwenImageWrapper": [
+        [
+            "CLIPLoader",
+            "CLIPSetLastLayer",
+            "CLIPTextEncode",
+            "CLIPVisionEncode",
+            "CLIPVisionLoader",
+            "CheckpointLoader",
+            "CheckpointLoaderSimple",
+            "ConditioningAverage",
+            "ConditioningCombine",
+            "ConditioningConcat",
+            "ConditioningSetArea",
+            "ConditioningSetAreaPercentage",
+            "ConditioningSetAreaStrength",
+            "ConditioningSetMask",
+            "ConditioningSetTimestepRange",
+            "ConditioningZeroOut",
+            "ControlNetApply",
+            "ControlNetApplyAdvanced",
+            "ControlNetLoader",
+            "DiffControlNetLoader",
+            "DiffusersLoader",
+            "DualCLIPLoader",
+            "EmptyImage",
+            "EmptyLatentImage",
+            "GLIGENLoader",
+            "GLIGENTextBoxApply",
+            "ImageBatch",
+            "ImageInvert",
+            "ImagePadForOutpaint",
+            "ImageScale",
+            "ImageScaleBy",
+            "InpaintModelConditioning",
+            "KSampler",
+            "KSamplerAdvanced",
+            "LatentBlend",
+            "LatentComposite",
+            "LatentCrop",
+            "LatentFlip",
+            "LatentFromBatch",
+            "LatentRotate",
+            "LatentUpscale",
+            "LatentUpscaleBy",
+            "LoadImage",
+            "LoadImageMask",
+            "LoadImageOutput",
+            "LoadLatent",
+            "LoraLoader",
+            "LoraLoaderModelOnly",
+            "PreviewImage",
+            "RepeatLatentBatch",
+            "SaveImage",
+            "SaveLatent",
+            "SetLatentNoiseMask",
+            "StyleModelApply",
+            "StyleModelLoader",
+            "UNETLoader",
+            "VAEDecode",
+            "VAEDecodeTiled",
+            "VAEEncode",
+            "VAEEncodeForInpaint",
+            "VAEEncodeTiled",
+            "VAELoader",
+            "eddy_batch_image_generator",
+            "eddy_batch_prompt",
+            "eddy_image_blend",
+            "eddy_qwen_CLIPLoader",
+            "eddy_qwen_CLIPTextEncode",
+            "eddy_qwen_EmptySD3LatentImage",
+            "eddy_qwen_KSampler",
+            "eddy_qwen_LoraLoaderModelOnly",
+            "eddy_qwen_ModelSamplingAuraFlow",
+            "eddy_qwen_SaveImage",
+            "eddy_qwen_UNETLoader",
+            "eddy_qwen_VAEDecode",
+            "eddy_qwen_VAELoader",
+            "eddy_qwen_image_blockswap",
+            "unCLIPCheckpointLoader",
+            "unCLIPConditioning"
+        ],
+        {
+            "title_aux": "ComfyUI-QwenImageWrapper [WIP]"
+        }
+    ],
     "https://github.com/edisonchan/ComfyUI-Sysinfo": [
         [
             "SysInfoDisplay"
@@ -7157,6 +7264,24 @@
         ],
         {
             "title_aux": "DiffusionRenderer-ComfyUI [WIP]"
+        }
+    ],
+    "https://github.com/egormly/ComfyUI-EG_Tools": [
+        [
+            "EG_AppendSubfolder",
+            "EG_GetDateTime",
+            "EG_ImageInfo",
+            "EG_IncrementCounter",
+            "EG_ListFiles",
+            "EG_PathExists",
+            "EG_PathIndexFilename",
+            "EG_PathIndexPrefix",
+            "EG_PathParts",
+            "EG_ProjectRoot",
+            "EG_WithNewExtension"
+        ],
+        {
+            "title_aux": "ComfyUI-EG_Tools [WIP]"
         }
     ],
     "https://github.com/eigenpunk/ComfyUI-audio": [
@@ -8054,6 +8179,14 @@
             "title_aux": "comfy-magick [WIP]"
         }
     ],
+    "https://github.com/huhu-tiger/ComfyUI-RemoteDownload": [
+        [
+            "LoadImageFromRemote"
+        ],
+        {
+            "title_aux": "ComfyUI-RemoteDownload"
+        }
+    ],
     "https://github.com/huizhang0110/ComfyUI_Easy_Nodes_hui": [
         [
             "EasyBgRemover",
@@ -8364,6 +8497,14 @@
         ],
         {
             "title_aux": "ComfyUI-Lovis-Node [WIP]"
+        }
+    ],
+    "https://github.com/jKaarlehto/ComfyUI-GetWorkflowName": [
+        [
+            "GetWorkflowName"
+        ],
+        {
+            "title_aux": "ComfyUI-GetWorkflowName [WIP]"
         }
     ],
     "https://github.com/jammyfu/ComfyUI_PaintingCoderUtils": [
@@ -10195,6 +10336,23 @@
         ],
         {
             "title_aux": "ComfyUI-Remote-Save-Image [UNSAFE]"
+        }
+    ],
+    "https://github.com/newraina/comfyui-photoshop-v2": [
+        [
+            "\ud83d\udd39 Photoshop RemoteConnection",
+            "\ud83d\udd39ClipPass",
+            "\ud83d\udd39Floats",
+            "\ud83d\udd39Photoshop ComfyUI Plugin",
+            "\ud83d\udd39Photoshop Images",
+            "\ud83d\udd39Photoshop Strings",
+            "\ud83d\udd39Reroute - Anything Everywhere",
+            "\ud83d\udd39SeedManager",
+            "\ud83d\udd39SendTo Photoshop Plugin",
+            "\ud83d\udd39modelPass"
+        ],
+        {
+            "title_aux": "comfyui-photoshop-v2 [WIP]"
         }
     ],
     "https://github.com/nidefawl/ComfyUI-nidefawl": [
@@ -12993,6 +13151,21 @@
         ],
         {
             "title_aux": "ComfyUI-ZVNodes [WIP]"
+        }
+    ],
+    "https://github.com/zhupeter010903/ComfyUI-prompt-library": [
+        [
+            "GroupedPromptNode",
+            "XYZ Group Prompt Toggle",
+            "XYZ Grouped Prompts",
+            "XYZ Multi Clip Encoder",
+            "XYZ Multi Text Concatenate",
+            "XYZ Multi Text Replace",
+            "XYZ Prompt Library",
+            "XYZ Random String Picker"
+        ],
+        {
+            "title_aux": "ComfyUI-prompt-library"
         }
     ],
     "https://github.com/zjkhurry/comfyui_MetalFX": [
