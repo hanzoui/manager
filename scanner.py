@@ -78,36 +78,14 @@ Examples:
     return args
 
 
-# Parse arguments
-args = parse_arguments()
-
-# Determine mode
-scan_only_mode = args.scan_only is not None
-url_list_file = args.scan_only if scan_only_mode else None
-
-# Determine temp_dir
-if args.temp_dir:
-    temp_dir = args.temp_dir
-elif args.temp_dir_positional:
-    temp_dir = args.temp_dir_positional
-else:
-    temp_dir = os.path.join(os.getcwd(), ".tmp")
-
-if not os.path.exists(temp_dir):
-    os.makedirs(temp_dir)
-
-# Determine skip flags
-skip_update = args.skip_update or args.skip_all
-skip_stat_update = args.skip_stat_update or args.skip_all or scan_only_mode
-
-if not skip_stat_update:
-    auth = Auth.Token(os.environ.get('GITHUB_TOKEN'))
-    g = Github(auth=auth)
-else:
-    g = None
-
-
-print(f"TEMP DIR: {temp_dir}")
+# Module-level variables (will be set in main if running as script)
+args = None
+scan_only_mode = False
+url_list_file = None
+temp_dir = None
+skip_update = False
+skip_stat_update = True
+g = None
 
 
 parse_cnt = 0
@@ -482,21 +460,21 @@ def update_custom_nodes(scan_only_mode=False, url_list_file=None):
             raise ValueError("url_list_file is required in scan-only mode")
 
         git_url_titles_preemptions = get_urls_from_list_file(url_list_file)
-        print(f"\n[Scan-Only Mode]")
+        print("\n[Scan-Only Mode]")
         print(f"  - URL source: {url_list_file}")
-        print(f"  - GitHub stats: DISABLED")
+        print("  - GitHub stats: DISABLED")
         print(f"  - Git clone/pull: {'ENABLED' if not skip_update else 'DISABLED'}")
-        print(f"  - Metadata: EMPTY")
+        print("  - Metadata: EMPTY")
     else:
         if not os.path.exists('custom-node-list.json'):
             raise FileNotFoundError("custom-node-list.json not found")
 
         git_url_titles_preemptions = get_git_urls_from_json('custom-node-list.json')
-        print(f"\n[Standard Mode]")
-        print(f"  - URL source: custom-node-list.json")
+        print("\n[Standard Mode]")
+        print("  - URL source: custom-node-list.json")
         print(f"  - GitHub stats: {'ENABLED' if not skip_stat_update else 'DISABLED'}")
         print(f"  - Git clone/pull: {'ENABLED' if not skip_update else 'DISABLED'}")
-        print(f"  - Metadata: FULL")
+        print("  - Metadata: FULL")
 
     def process_git_url_title(url, title, preemptions, node_pattern):
         name = os.path.basename(url)
@@ -689,7 +667,14 @@ def gen_json(node_info, scan_only_mode=False):
 
                 data[git_url] = (nodes, metadata)
             else:
-                print(f"WARN: {dirname} is removed from custom-node-list.json")
+                # Scan-only mode: Repository not in node_info (expected behavior)
+                # Construct URL from dirname (author_repo format)
+                if '_' in dirname:
+                    parts = dirname.split('_', 1)
+                    git_url = f"https://github.com/{parts[0]}/{parts[1]}"
+                    data[git_url] = (nodes, metadata)
+                else:
+                    print(f"WARN: {dirname} is removed from custom-node-list.json")
 
     for file in node_files:
         nodes, metadata = scan_in_file(file)
@@ -775,24 +760,53 @@ def gen_json(node_info, scan_only_mode=False):
         json.dump(data, file, indent=4, sort_keys=True)
 
 
-print("### ComfyUI Manager Node Scanner ###")
+if __name__ == "__main__":
+    # Parse arguments
+    args = parse_arguments()
 
-if scan_only_mode:
-    print(f"\n# [Scan-Only Mode] Processing URL list: {url_list_file}\n")
-else:
-    print("\n# [Standard Mode] Updating extensions\n")
+    # Determine mode
+    scan_only_mode = args.scan_only is not None
+    url_list_file = args.scan_only if scan_only_mode else None
 
-# Update/clone repositories and collect node info
-updated_node_info = update_custom_nodes(scan_only_mode, url_list_file)
+    # Determine temp_dir
+    if args.temp_dir:
+        temp_dir = args.temp_dir
+    elif args.temp_dir_positional:
+        temp_dir = args.temp_dir_positional
+    else:
+        temp_dir = os.path.join(os.getcwd(), ".tmp")
 
-print("\n# Generating 'extension-node-map.json'...\n")
+    if not os.path.exists(temp_dir):
+        os.makedirs(temp_dir)
 
-# Generate extension-node-map.json
-gen_json(updated_node_info, scan_only_mode)
+    # Determine skip flags
+    skip_update = args.skip_update or args.skip_all
+    skip_stat_update = args.skip_stat_update or args.skip_all or scan_only_mode
 
-print("\n✅ DONE.\n")
+    if not skip_stat_update:
+        auth = Auth.Token(os.environ.get('GITHUB_TOKEN'))
+        g = Github(auth=auth)
+    else:
+        g = None
 
-if scan_only_mode:
-    print("Output: extension-node-map.json (node mappings only)")
-else:
-    print("Output: extension-node-map.json (full metadata)")
+    print("### ComfyUI Manager Node Scanner ###")
+
+    if scan_only_mode:
+        print(f"\n# [Scan-Only Mode] Processing URL list: {url_list_file}\n")
+    else:
+        print("\n# [Standard Mode] Updating extensions\n")
+
+    # Update/clone repositories and collect node info
+    updated_node_info = update_custom_nodes(scan_only_mode, url_list_file)
+
+    print("\n# Generating 'extension-node-map.json'...\n")
+
+    # Generate extension-node-map.json
+    gen_json(updated_node_info, scan_only_mode)
+
+    print("\n✅ DONE.\n")
+
+    if scan_only_mode:
+        print("Output: extension-node-map.json (node mappings only)")
+    else:
+        print("Output: extension-node-map.json (full metadata)")
