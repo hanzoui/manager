@@ -33522,6 +33522,16 @@
             "description": "A set of ComfyUI nodes for calling the Nano-Banana API , while also supporting the Google API and frankAI API."
         },
         {
+            "author": "fr0nky0ng",
+            "title": "ComfyUI-JSON-Prompt",
+            "reference": "https://github.com/fr0nky0ng/ComfyUI-JSON-Prompt",
+            "files": [
+                "https://github.com/fr0nky0ng/ComfyUI-JSON-Prompt"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node for ComfyUI that generates JSON prompts from natural language descriptions to improve text-to-image generation quality. Supports local LLM integration via Ollama or Google Gemini API."
+        },
+        {
             "author": "Tr1dae",
             "title": "LoRA Matcher Nodes for ComfyUI",
             "reference": "https://github.com/Tr1dae/ComfyUI-LoraPromptMatcher",
@@ -36645,14 +36655,14 @@
             "description": "Human-in-the-loop image selection tool for ComfyUI workflows using a Flask web server, enabling users to pause workflows and interactively select images via a web browser interface."
         },
         {
-            "author": "speige",
+            "author": "Devin Garner",
             "title": "ComfyUI_Make-It-Animatable",
             "reference": "https://github.com/speige/ComfyUI_Make-It-Animatable",
             "files": [
                 "https://github.com/speige/ComfyUI_Make-It-Animatable"
             ],
             "install_type": "git-clone",
-            "description": "Converts an input 3D model into an animation-ready rigged GLB file in Mixamo bone format"
+            "description": "Auto-Rigging humanoid 3D meshes for Mixamo animations"
         },
         {
             "author": "hua1995116",
@@ -37174,16 +37184,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Devin Garner",
-            "title": "ComfyUI_Make-It-Animatable",
-            "reference": "https://github.com/speige/ComfyUI_Make-It-Animatable",
-            "files": [
-                "https://github.com/speige/ComfyUI_Make-It-Animatable"
-            ],
-            "install_type": "git-clone",
-            "description": "Auto-Rigging humanoid 3D meshes for Mixamo animations"
         }
     ]
 }
