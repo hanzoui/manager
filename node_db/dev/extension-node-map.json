@@ -356,13 +356,15 @@
             "PD_CropBorder",
             "PD_GetImageRatio",
             "PD_GetImageSize",
-            "PD_ImageFengMianWipe",
             "PD_ImageListForSort",
             "PD_ImageListForSortWithMetadata",
-            "PD_ImageListToGif",
             "PD_Image_Crop_Location",
             "PD_Image_Rotate_v1",
             "PD_Image_centerCrop",
+            "PD_LoadImagesFromDir",
+            "PD_LoadImagesFromZip",
+            "PD_LoadTextsFromDir",
+            "PD_LoadTextsFromZip",
             "PD_MASK_SELECTION",
             "PD_Mask Selector",
             "PD_Mask Selector By Area Left",
@@ -375,10 +377,12 @@
             "PD_Text Overlay Node",
             "PD_del_word",
             "PD_empty_word",
+            "PD_image_to_text_v1",
             "PD_random_prompt",
             "PDbananaImagesizeByRatio",
             "PDimage_corp_v1",
             "PDimage_corp_v2",
+            "PDimage_dual_batch_by_list",
             "PDimage_dual_batch_v1",
             "SimpleResolutionNode",
             "mask_edge_selector"
@@ -997,6 +1001,15 @@
         ],
         {
             "title_aux": "comfyui-face-remap [WIP]"
+        }
+    ],
+    "https://github.com/Aruntd008/ComfyUI_blender_render": [
+        [
+            "Blender Render Node",
+            "BlenderRenderNode"
+        ],
+        {
+            "title_aux": "ComfyUI_blender_render"
         }
     ],
     "https://github.com/BARKEM-JC/ComfyUI-Dynamic-Lora-Loader": [
@@ -7466,6 +7479,24 @@
         ],
         {
             "title_aux": "ComfyUI-LLM-Utils [WIP]"
+        }
+    ],
+    "https://github.com/frost-byte/fbTools": [
+        [
+            "FBTextEncodeQwenImageEditPlus",
+            "OpaqueAlpha",
+            "SAMPreprocessNHWC",
+            "SaveScene",
+            "SceneInput",
+            "SceneOutput",
+            "SceneView",
+            "SelectScene",
+            "SubdirLister",
+            "TailEnhancePro",
+            "TailSplit"
+        ],
+        {
+            "title_aux": "fb-tools"
         }
     ],
     "https://github.com/ftechmax/ComfyUI-NovaKit-Pack": [

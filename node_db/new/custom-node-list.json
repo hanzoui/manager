@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "fr0nky0ng",
+            "title": "ComfyUI-JSON-Prompt",
+            "reference": "https://github.com/fr0nky0ng/ComfyUI-JSON-Prompt",
+            "files": [
+                "https://github.com/fr0nky0ng/ComfyUI-JSON-Prompt"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node for ComfyUI that generates JSON prompts from natural language descriptions to improve text-to-image generation quality. Supports local LLM integration via Ollama or Google Gemini API."
+        },
+        {
             "author": "EricRollei",
             "title": "Eric_Image_Processing_Nodes",
             "reference": "https://github.com/EricRollei/Eric_Image_Processing_Nodes",
@@ -88,7 +98,7 @@
                 "https://github.com/IamCreateAI/ComfyUI-Animon"
             ],
             "install_type": "git-clone",
-            "description": "Animon integration for ComfyUI offering custom nodes for generating videos from images, interpolating between frames, and upscaling videos with API control."
+            "description": "ComfyUI nodes for [Animon Platform](https://platform.animon.ai/), a comprehensive API service offering a variety of image and video generation models."
         },
         {
             "author": "neonr0",
@@ -181,14 +191,14 @@
             "description": "Professional ComfyUI custom nodes for Tencent's HunyuanImage-3.0 80B multimodal model, with multiple loading modes, smart memory management, large image generation with CPU offload, and optional prompt enhancement via LLM APIs."
         },
         {
-            "author": "speige",
+            "author": "Devin Garner",
             "title": "ComfyUI_Make-It-Animatable",
             "reference": "https://github.com/speige/ComfyUI_Make-It-Animatable",
             "files": [
                 "https://github.com/speige/ComfyUI_Make-It-Animatable"
             ],
             "install_type": "git-clone",
-            "description": "Converts an input 3D model into an animation-ready rigged GLB file in Mixamo bone format"
+            "description": "Auto-Rigging humanoid 3D meshes for Mixamo animations"
         },
         {
             "author": "alexjx",
@@ -687,36 +697,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI nodes for working with Photoshop mockup files - automatically project images onto PSD smart objects while preserving perspective, rotation, and scale transforms for seamless mockup rendering."
-        },
-        {
-            "author": "NudeJS-dev",
-            "title": "ComfyUI-NudeJS-Image2Prompt",
-            "reference": "https://github.com/NudeJS-dev/ComfyUI-NudeJS-Image2Prompt",
-            "files": [
-                "https://github.com/NudeJS-dev/ComfyUI-NudeJS-Image2Prompt"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node converting images to text prompts via external API, with automatic image preprocessing, base64 encoding, intelligent retry logic, and dual output modes. (Description by CC)"
-        },
-        {
-            "author": "eddyhhlure1Eddy",
-            "title": "ComfyUI-PreviewImageNode",
-            "reference": "https://github.com/eddyhhlure1Eddy/ComfyUI-PreviewImageNode",
-            "files": [
-                "https://github.com/eddyhhlure1Eddy/ComfyUI-PreviewImageNode"
-            ],
-            "install_type": "git-clone",
-            "description": "Standalone version of ComfyUI's PreviewImage and SaveImage nodes, extracted as an independent custom node for easy reuse and customization."
-        },
-        {
-            "author": "eddyhhlure1Eddy",
-            "title": "ComfyUI-QwenFrameSelector",
-            "reference": "https://github.com/eddyhhlure1Eddy/ComfyUI-QwenFrameSelector",
-            "files": [
-                "https://github.com/eddyhhlure1Eddy/ComfyUI-QwenFrameSelector"
-            ],
-            "install_type": "git-clone",
-            "description": "Intelligent video frame selection node powered by Qwen3-VL-235B vision model. Automatically analyzes and selects the best quality frames from videos for further creative work."
         }
     ]
 }

@@ -445,11 +445,11 @@
             "1hew_SaveVideoRGBA",
             "1hew_StringCoordinateToBBoxMask",
             "1hew_StringCoordinateToBBoxes",
+            "1hew_StringFilter",
+            "1hew_StringJoinMulti",
             "1hew_TextCustomExtract",
             "1hew_TextEncodeQwenImageEditKeepSize",
-            "1hew_TextFilter",
-            "1hew_TextJoinByTextList",
-            "1hew_TextJoinMulti",
+            "1hew_TextListToString",
             "1hew_TextPrefixSuffix",
             "1hew_URLToVideo",
             "1hew_VideoCutGroup",
@@ -4569,6 +4569,54 @@
             "title_aux": "JH Misc. Nodes"
         }
     ],
+    "https://github.com/ComfyUI-WanVideoWrapper/QQ.copied": [
+        [
+            "ImageBlend_GPU",
+            "ImageRadialZoomBlur_GPU",
+            "LoraExtractKJv2",
+            "PowerLoraLoaderV2",
+            "VideoMergeABC",
+            "WanScaleAB",
+            "WanVideoCacheSamples",
+            "WanVideoCacheVideos",
+            "WanVideoEmptyEmbeds_v2",
+            "WanVideoFlowmapDistortion",
+            "WanVideoImageToVideoEncode_v2",
+            "WanVideoMotionToFlowmap",
+            "WanVideoPowerLoraLoader"
+        ],
+        {}
+    ],
+    "https://github.com/ComfyUI/Eagleshadow": [
+        [
+            "Batch 12 Images",
+            "Detect Transparency",
+            "Fix Checkpoint Name",
+            "ImageLinearGammaCompositeMasked",
+            "KSampler Same Noise",
+            "MaskGlow",
+            "OffsetImage",
+            "Round Float to String",
+            "SaveImageToFolder",
+            "Select ControlNet",
+            "Select Model 20",
+            "Simple Load Image Batch"
+        ],
+        {}
+    ],
+    "https://github.com/ComfyUI/SequentialGroupController": [
+        [
+            "SequentialGroupController",
+            "SequentialGroupControllerV2"
+        ],
+        {}
+    ],
+    "https://github.com/ComfyUI/subjectselector": [
+        [
+            "ComfyUI_subjectselector"
+        ],
+        {}
+    ],
     "https://github.com/ComplexRobot/ComfyUI-Simple-VFI": [
         [
             "Simple_Frame_Interpolation"
@@ -8219,7 +8267,9 @@
     "https://github.com/IAMCCS/IAMCCS-nodes": [
         [
             "IAMCCS_ModelWithLoRA",
-            "IAMCCS_WanLoRAStack"
+            "IAMCCS_WanLoRAStack",
+            "IAMCCS_WanLoRAStackModelIO",
+            "IAMCCS_qwenloraloader"
         ],
         {
             "title_aux": "IAMCCS-nodes"
@@ -11350,6 +11400,12 @@
             "title_aux": "ComfyUI-OneForOne"
         }
     ],
+    "https://github.com/MergeBlockWeighted/fo_ComfyUI": [
+        [
+            "MergeBlockWeighted"
+        ],
+        {}
+    ],
     "https://github.com/MetaGLM/ComfyUI-ZhipuAI-Platform": [
         [
             "VideoReportData",
@@ -12999,6 +13055,7 @@
             "GeomPackSaveMesh",
             "GeomPackTextureToGeometry",
             "GeomPackTransformMesh",
+            "GeomPackUVUnwrap",
             "GeomPackVisualizeNormalField",
             "GeomPackVisualizeSkeleton",
             "GeomPackXAtlasUVUnwrap"
@@ -46960,7 +47017,9 @@
     ],
     "https://github.com/wallen0322/ComfyUI-TTM-WAN22": [
         [
-            "WanTTMImageToVideo"
+            "WanTTMConditioning",
+            "WanTTMSampler",
+            "WanTTMSamplerComplete"
         ],
         {
             "title_aux": "ComfyUI-TTM-WAN22"
