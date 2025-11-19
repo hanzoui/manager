@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "EricRollei",
+            "title": "Eric_Image_Processing_Nodes",
+            "reference": "https://github.com/EricRollei/Eric_Image_Processing_Nodes",
+            "files": [
+                "https://github.com/EricRollei/Eric_Image_Processing_Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive collection of advanced image processing nodes for ComfyUI, featuring state-of-the-art denoising, enhancement, and restoration techniques with GPU acceleration and specialized film grain processing."
+        },
+        {
+            "author": "huyl3-cpu",
+            "title": "comfyui-huyl2-nodes",
+            "reference": "https://github.com/huyl3-cpu/comfyui-sortlist",
+            "files": [
+                "https://github.com/huyl3-cpu/comfyui-sortlist"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom utility nodes for ComfyUI by huyl2 (sort list v2, etc.)"
+        },
+        {
+            "author": "7BEII",
+            "title": "comfyui-PD_comfy-api-node",
+            "reference": "https://github.com/7BEII/comfyui-PD_comfy-api-node",
+            "files": [
+                "https://github.com/7BEII/comfyui-PD_comfy-api-node"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node suite integrating multiple AI image generation APIs (Gemini, Flux.1 Kontext Pro) with unified authentication via ComfyUI API Key and real-time cost tracking. (Description by CC)"
+        },
+        {
+            "author": "wallen0322",
+            "title": "ComfyUI-AE-Animation",
+            "reference": "https://github.com/wallen0322/ComfyUI-AE-Animation",
+            "files": [
+                "https://github.com/wallen0322/ComfyUI-AE-Animation"
+            ],
+            "install_type": "git-clone",
+            "description": "After Effects-style animation nodes for ComfyUI with timeline-based keyframe control, layer management, and real-time preview rendering. (Description by CC)"
+        },
+        {
+            "author": "wallen0322",
+            "title": "ComfyUI-TTM-WAN22",
+            "reference": "https://github.com/wallen0322/ComfyUI-TTM-WAN22",
+            "files": [
+                "https://github.com/wallen0322/ComfyUI-TTM-WAN22"
+            ],
+            "install_type": "git-clone",
+            "description": "TTM (Time-to-Move) node for ComfyUI enabling motion-controlled video generation with Wan2.2 models using dual-clock denoising for independent background and object animation control."
+        },
+        {
+            "author": "swan7-py",
+            "title": "ComfyUI-ImageAlphaCrop",
+            "reference": "https://github.com/swan7-py/ComfyUI-ImageAlphaCrop",
+            "files": [
+                "https://github.com/swan7-py/ComfyUI-ImageAlphaCrop"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI plugin for automatically cropping transparent alpha channel borders from images - ideal for processing logos and icons. Supports batch processing with adjustable padding and alpha threshold. (Description by CC)"
+        },        
+        {
             "author": "was",
             "title": "WAS LMStudio Easy-Query",
             "reference": "https://github.com/WASasquatch/ComfyUI_LMStudio_EasyQuery",
@@ -657,36 +717,6 @@
             ],
             "install_type": "git-clone",
             "description": "Intelligent video frame selection node powered by Qwen3-VL-235B vision model. Automatically analyzes and selects the best quality frames from videos for further creative work."
-        },
-        {
-            "author": "princepainter",
-            "title": "ComfyUI-PainterLongVideo",
-            "reference": "https://github.com/princepainter/ComfyUI-PainterLongVideo",
-            "files": [
-                "https://github.com/princepainter/ComfyUI-PainterLongVideo"
-            ],
-            "install_type": "git-clone",
-            "description": "Powerful node for generating long-form videos with consistent motion, global scene coherence, and slow-motion correction in Wan 2.2-based workflows."
-        },
-        {
-            "author": "psdwizzard",
-            "title": "Comfyui-XYZ-stitch",
-            "reference": "https://github.com/psdwizzard/Comfyui-XYZ-stitch",
-            "files": [
-                "https://github.com/psdwizzard/Comfyui-XYZ-stitch"
-            ],
-            "install_type": "git-clone",
-            "description": "Create A1111-style XYZ plot grids in ComfyUI to test multiple parameters and compare results in organized, labeled comparison grids."
-        },
-        {
-            "author": "anhrefnyoiyoi",
-            "title": "Placeholder-Replacer-By-ID",
-            "reference": "https://github.com/anhrefnyoiyoi/Placeholder-Replacer-By-ID",
-            "files": [
-                "https://github.com/anhrefnyoiyoi/Placeholder-Replacer-By-ID"
-            ],
-            "install_type": "git-clone",
-            "description": "Utility node that automates prompt assembly by replacing placeholder tokens with mapped artist or style names based on ID sequences, supporting multiple prompts and flexible ID handling strategies."
         }
     ]
 }
