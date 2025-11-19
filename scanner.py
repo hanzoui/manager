@@ -8,6 +8,7 @@ import datetime
 import concurrent.futures
 import requests
 import warnings
+import argparse
 
 builtin_nodes = set()
 
@@ -40,18 +41,64 @@ def download_url(url, dest_folder, filename=None):
         raise Exception(f"Failed to download file from {url}")
 
 
-# prepare temp dir
-if len(sys.argv) > 1:
-    temp_dir = sys.argv[1]
+def parse_arguments():
+    """Parse command-line arguments"""
+    parser = argparse.ArgumentParser(
+        description='ComfyUI Manager Node Scanner',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog='''
+Examples:
+  # Standard mode
+  python3 scanner.py
+  python3 scanner.py --skip-update
+
+  # Scan-only mode
+  python3 scanner.py --scan-only temp-urls-clean.list
+  python3 scanner.py --scan-only urls.list --temp-dir /custom/temp
+  python3 scanner.py --scan-only urls.list --skip-update
+        '''
+    )
+
+    parser.add_argument('--scan-only', type=str, metavar='URL_LIST_FILE',
+                       help='Scan-only mode: provide URL list file (one URL per line)')
+    parser.add_argument('--temp-dir', type=str, metavar='DIR',
+                       help='Temporary directory for cloned repositories')
+    parser.add_argument('--skip-update', action='store_true',
+                       help='Skip git clone/pull operations')
+    parser.add_argument('--skip-stat-update', action='store_true',
+                       help='Skip GitHub stats collection')
+    parser.add_argument('--skip-all', action='store_true',
+                       help='Skip all update operations')
+
+    # Backward compatibility: positional argument for temp_dir
+    parser.add_argument('temp_dir_positional', nargs='?', metavar='TEMP_DIR',
+                       help='(Legacy) Temporary directory path')
+
+    args = parser.parse_args()
+    return args
+
+
+# Parse arguments
+args = parse_arguments()
+
+# Determine mode
+scan_only_mode = args.scan_only is not None
+url_list_file = args.scan_only if scan_only_mode else None
+
+# Determine temp_dir
+if args.temp_dir:
+    temp_dir = args.temp_dir
+elif args.temp_dir_positional:
+    temp_dir = args.temp_dir_positional
 else:
     temp_dir = os.path.join(os.getcwd(), ".tmp")
 
 if not os.path.exists(temp_dir):
     os.makedirs(temp_dir)
 
-
-skip_update = '--skip-update' in sys.argv or '--skip-all' in sys.argv
-skip_stat_update = '--skip-stat-update' in sys.argv or '--skip-all' in sys.argv
+# Determine skip flags
+skip_update = args.skip_update or args.skip_all
+skip_stat_update = args.skip_stat_update or args.skip_all or scan_only_mode
 
 if not skip_stat_update:
     auth = Auth.Token(os.environ.get('GITHUB_TOKEN'))
@@ -310,6 +357,53 @@ def get_nodes(target_dir):
     return py_files, directories
 
 
+def get_urls_from_list_file(list_file):
+    """
+    Read URLs from list file for scan-only mode
+
+    Args:
+        list_file (str): Path to URL list file (one URL per line)
+
+    Returns:
+        list of tuples: [(url, "", None, None), ...]
+        Format: (url, title, preemptions, nodename_pattern)
+        - title: Empty string
+        - preemptions: None
+        - nodename_pattern: None
+
+    File format:
+        https://github.com/owner/repo1
+        https://github.com/owner/repo2
+        # Comments starting with # are ignored
+
+    Raises:
+        FileNotFoundError: If list_file does not exist
+    """
+    if not os.path.exists(list_file):
+        raise FileNotFoundError(f"URL list file not found: {list_file}")
+
+    urls = []
+    with open(list_file, 'r', encoding='utf-8') as f:
+        for line_num, line in enumerate(f, 1):
+            line = line.strip()
+
+            # Skip empty lines and comments
+            if not line or line.startswith('#'):
+                continue
+
+            # Validate URL format (basic check)
+            if not (line.startswith('http://') or line.startswith('https://')):
+                print(f"WARNING: Line {line_num} is not a valid URL: {line}")
+                continue
+
+            # Add URL with empty metadata
+            # (url, title, preemptions, nodename_pattern)
+            urls.append((line, "", None, None))
+
+    print(f"Loaded {len(urls)} URLs from {list_file}")
+    return urls
+
+
 def get_git_urls_from_json(json_file):
     with open(json_file, encoding='utf-8') as file:
         data = json.load(file)
@@ -366,13 +460,43 @@ def clone_or_pull_git_repository(git_url):
             print(f"Failed to clone '{repo_name}': {e}")
 
 
-def update_custom_nodes():
+def update_custom_nodes(scan_only_mode=False, url_list_file=None):
+    """
+    Update custom nodes by cloning/pulling repositories
+
+    Args:
+        scan_only_mode (bool): If True, use URL list file instead of custom-node-list.json
+        url_list_file (str): Path to URL list file (required if scan_only_mode=True)
+
+    Returns:
+        dict: node_info mapping {repo_name: (url, title, preemptions, node_pattern)}
+    """
     if not os.path.exists(temp_dir):
         os.makedirs(temp_dir)
 
     node_info = {}
 
-    git_url_titles_preemptions = get_git_urls_from_json('custom-node-list.json')
+    # Select URL source based on mode
+    if scan_only_mode:
+        if not url_list_file:
+            raise ValueError("url_list_file is required in scan-only mode")
+
+        git_url_titles_preemptions = get_urls_from_list_file(url_list_file)
+        print(f"\n[Scan-Only Mode]")
+        print(f"  - URL source: {url_list_file}")
+        print(f"  - GitHub stats: DISABLED")
+        print(f"  - Git clone/pull: {'ENABLED' if not skip_update else 'DISABLED'}")
+        print(f"  - Metadata: EMPTY")
+    else:
+        if not os.path.exists('custom-node-list.json'):
+            raise FileNotFoundError("custom-node-list.json not found")
+
+        git_url_titles_preemptions = get_git_urls_from_json('custom-node-list.json')
+        print(f"\n[Standard Mode]")
+        print(f"  - URL source: custom-node-list.json")
+        print(f"  - GitHub stats: {'ENABLED' if not skip_stat_update else 'DISABLED'}")
+        print(f"  - Git clone/pull: {'ENABLED' if not skip_update else 'DISABLED'}")
+        print(f"  - Metadata: FULL")
 
     def process_git_url_title(url, title, preemptions, node_pattern):
         name = os.path.basename(url)
@@ -484,46 +608,59 @@ def update_custom_nodes():
     if not skip_stat_update:
         process_git_stats(git_url_titles_preemptions)
 
+    # Git clone/pull for all repositories
     with concurrent.futures.ThreadPoolExecutor(11) as executor:
         for url, title, preemptions, node_pattern in git_url_titles_preemptions:
             executor.submit(process_git_url_title, url, title, preemptions, node_pattern)
 
-    py_url_titles_and_pattern = get_py_urls_from_json('custom-node-list.json')
+    # .py file download (skip in scan-only mode - only process git repos)
+    if not scan_only_mode:
+        py_url_titles_and_pattern = get_py_urls_from_json('custom-node-list.json')
 
-    def download_and_store_info(url_title_preemptions_and_pattern):
-        url, title, preemptions, node_pattern = url_title_preemptions_and_pattern
-        name = os.path.basename(url)
-        if name.endswith(".py"):
-            node_info[name] = (url, title, preemptions, node_pattern)
+        def download_and_store_info(url_title_preemptions_and_pattern):
+            url, title, preemptions, node_pattern = url_title_preemptions_and_pattern
+            name = os.path.basename(url)
+            if name.endswith(".py"):
+                node_info[name] = (url, title, preemptions, node_pattern)
 
-        try:
-            download_url(url, temp_dir)
-        except:
-            print(f"[ERROR] Cannot download '{url}'")
+            try:
+                download_url(url, temp_dir)
+            except:
+                print(f"[ERROR] Cannot download '{url}'")
 
-    with concurrent.futures.ThreadPoolExecutor(10) as executor:
-        executor.map(download_and_store_info, py_url_titles_and_pattern)
+        with concurrent.futures.ThreadPoolExecutor(10) as executor:
+            executor.map(download_and_store_info, py_url_titles_and_pattern)
 
     return node_info
 
 
-def gen_json(node_info):
+def gen_json(node_info, scan_only_mode=False):
+    """
+    Generate extension-node-map.json from scanned node information
+
+    Args:
+        node_info (dict): Repository metadata mapping
+        scan_only_mode (bool): If True, exclude metadata from output
+    """
     # scan from .py file
     node_files, node_dirs = get_nodes(temp_dir)
 
     comfyui_path = os.path.abspath(os.path.join(temp_dir, "ComfyUI"))
-    node_dirs.remove(comfyui_path)
-    node_dirs = [comfyui_path] + node_dirs
+    # Only reorder if ComfyUI exists in the list
+    if comfyui_path in node_dirs:
+        node_dirs.remove(comfyui_path)
+        node_dirs = [comfyui_path] + node_dirs
 
     data = {}
     for dirname in node_dirs:
         py_files = get_py_file_paths(dirname)
         metadata = {}
-        
+
         nodes = set()
         for py in py_files:
             nodes_in_file, metadata_in_file = scan_in_file(py, dirname == "ComfyUI")
             nodes.update(nodes_in_file)
+            # Include metadata from .py files in both modes
             metadata.update(metadata_in_file)
         
         dirname = os.path.basename(dirname)
@@ -538,13 +675,17 @@ def gen_json(node_info):
             if dirname in node_info:
                 git_url, title, preemptions, node_pattern = node_info[dirname]
 
-                metadata['title_aux'] = title
+                # Conditionally add metadata based on mode
+                if not scan_only_mode:
+                    # Standard mode: include all metadata
+                    metadata['title_aux'] = title
 
-                if preemptions is not None:
-                    metadata['preemptions'] = preemptions
+                    if preemptions is not None:
+                        metadata['preemptions'] = preemptions
 
-                if node_pattern is not None:
-                    metadata['nodename_pattern'] = node_pattern
+                    if node_pattern is not None:
+                        metadata['nodename_pattern'] = node_pattern
+                # Scan-only mode: metadata remains empty
 
                 data[git_url] = (nodes, metadata)
             else:
@@ -561,13 +702,16 @@ def gen_json(node_info):
 
             if file in node_info:
                 url, title, preemptions, node_pattern = node_info[file]
-                metadata['title_aux'] = title
 
-                if preemptions is not None:
-                    metadata['preemptions'] = preemptions
-                
-                if node_pattern is not None:
-                    metadata['nodename_pattern'] = node_pattern
+                # Conditionally add metadata based on mode
+                if not scan_only_mode:
+                    metadata['title_aux'] = title
+
+                    if preemptions is not None:
+                        metadata['preemptions'] = preemptions
+
+                    if node_pattern is not None:
+                        metadata['nodename_pattern'] = node_pattern
 
                 data[url] = (nodes, metadata)
             else:
@@ -579,6 +723,10 @@ def gen_json(node_info):
     for extension in extensions:
         node_list_json_path = os.path.join(temp_dir, extension, 'node_list.json')
         if os.path.exists(node_list_json_path):
+            # Skip if extension not in node_info (scan-only mode with limited URLs)
+            if extension not in node_info:
+                continue
+
             git_url, title, preemptions, node_pattern = node_info[extension]
 
             with open(node_list_json_path, 'r', encoding='utf-8') as f:
@@ -608,14 +756,16 @@ def gen_json(node_info):
                 print("------------------------------------------------------")
                 node_list_json = {}
 
-            metadata_in_url['title_aux'] = title
+            # Conditionally add metadata based on mode
+            if not scan_only_mode:
+                metadata_in_url['title_aux'] = title
 
-            if preemptions is not None:
-                metadata['preemptions'] = preemptions
+                if preemptions is not None:
+                    metadata_in_url['preemptions'] = preemptions
 
-            if node_pattern is not None:
-                metadata_in_url['nodename_pattern'] = node_pattern
-                
+                if node_pattern is not None:
+                    metadata_in_url['nodename_pattern'] = node_pattern
+
             nodes = list(nodes)
             nodes.sort()
             data[git_url] = (nodes, metadata_in_url)
@@ -627,10 +777,22 @@ def gen_json(node_info):
 
 print("### ComfyUI Manager Node Scanner ###")
 
-print("\n# Updating extensions\n")
-updated_node_info = update_custom_nodes()
+if scan_only_mode:
+    print(f"\n# [Scan-Only Mode] Processing URL list: {url_list_file}\n")
+else:
+    print("\n# [Standard Mode] Updating extensions\n")
 
-print("\n# 'extension-node-map.json' file is generated.\n")
-gen_json(updated_node_info)
+# Update/clone repositories and collect node info
+updated_node_info = update_custom_nodes(scan_only_mode, url_list_file)
 
-print("\nDONE.\n")
+print("\n# Generating 'extension-node-map.json'...\n")
+
+# Generate extension-node-map.json
+gen_json(updated_node_info, scan_only_mode)
+
+print("\n✅ DONE.\n")
+
+if scan_only_mode:
+    print("Output: extension-node-map.json (node mappings only)")
+else:
+    print("Output: extension-node-map.json (full metadata)")
