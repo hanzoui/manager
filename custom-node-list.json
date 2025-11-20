@@ -35015,7 +35015,32 @@
             ],
             "install_type": "git-clone",
             "description": "A comprehensive collection of advanced image processing nodes for ComfyUI, featuring state-of-the-art denoising, enhancement, and restoration techniques with GPU acceleration and specialized film grain processing."
-        },        
+        },
+		{
+		    "author": "EricRollei",
+		    "title": "PDF Tools - Advanced PDF Processing & OCR",
+		    "id": "pdf-tools",
+		    "reference": "https://github.com/EricRollei/PDF-Tools",
+		    "files": [
+		        "https://github.com/EricRollei/PDF-Tools"
+		    ],
+		    "install_type": "git-clone",
+		    "description": "Advanced PDF processing, OCR, Image and text parsing, smart image crop nodes for ComfyUI. Features include multi-language OCR (Surya, PaddleOCR VL), AI vision analysis (Florence-2, LayoutLMv3), advanced PDF extraction with quality assessment, spread detection for scanned books, and comprehensive layout analysis. Supports 90+ languages with multiple output formats.",
+		    "tags": [
+		        "PDF",
+		        "OCR",
+		        "document",
+		        "vision",
+		        "Florence-2",
+		        "Surya",
+		        "PaddleOCR",
+		        "LayoutLMv3",
+		        "multilingual",
+		        "layout-analysis"
+		    ],
+		    "category": "Document Processing",
+		},
+
         {
             "author": "nomadoor",
             "title": "ComfyUI Temporal Mask Tools",
