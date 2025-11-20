@@ -35040,7 +35040,18 @@
 		    ],
 		    "category": "Document Processing",
 		},
-
+		{
+		    "author": "EricRollei",
+		    "title": "AAA Metadata System",
+		    "id": "aaa-metadata-system",
+		    "reference": "https://github.com/EricRollei/AAA_Metadata_System",
+		    "files": [
+		        "https://github.com/EricRollei/AAA_Metadata_System"
+		    ],
+		    "install_type": "git-clone",
+		    "description": "Advanced metadata management and multi-format image save system for ComfyUI. Save/load with metadata for PNG, JPEG, TIFF, PSD (with layers), SVG, and WebP. Features XMP/TXT/JSON sidecar files, embedded EXIF/XMP, MWG-RS regions for face metadata, workflow tracking, LoRA/embedding detection, runtime execution hooks, and Automatic1111 compatibility. Preserve layers, alpha channels, and complete provenance across all formats.",
+		    "nodename_pattern": "^(MetadataAwareSaveImage|Multi_LoRA_Loader|LoadImageLayers)",
+		},
         {
             "author": "nomadoor",
             "title": "ComfyUI Temporal Mask Tools",
