@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "xuchenxu168",
+            "title": "ComfyUI-Gemini-3 [UNSAFE/WIP]",
+            "reference": "https://github.com/xuchenxu168/ComfyUI-Gemini-3",
+            "files": [
+                "https://github.com/xuchenxu168/ComfyUI-Gemini-3"
+            ],
+            "install_type": "git-clone",
+            "description": "Full-featured, high-performance Google Gemini 3 integration for ComfyUI. This plugin implements **all** Gemini 3 capabilities with optimized performance.\nNOTE: The files in the repo are not organized.[w/This nodepack has a vulnerability that allows arbitrary code execution remotely.]"
+        },        
+        {
+            "author": "starsFriday",
+            "title": "ComfyUI-Audio-Subtitle [WIP]",
+            "reference": "https://github.com/starsFriday/ComfyUI-Audio-Subtitle",
+            "files": [
+                "https://github.com/starsFriday/ComfyUI-Audio-Subtitle"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node that automatically transcribes audio using OpenAI Whisper and hardcodes subtitles onto video frames using FFmpeg with customizable fonts, colors, styles, and positioning. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "TheLocalLab",
+            "title": "ComfyUI-Kandinsky-GGUF [WIP]",
+            "reference": "https://github.com/TheLocalLab/ComfyUI-Kandinsky-GGUF",
+            "files": [
+                "https://github.com/TheLocalLab/ComfyUI-Kandinsky-GGUF"
+            ],
+            "install_type": "git-clone",
+            "description": "A fork of Ada123-a’s ComfyUI-Kandinsky nodes for Kandinsky 5 DiT. Enables high-quality video generation from text (T2V) and images (I2V) with advanced text-guided controls. \nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "JosDigby",
+            "title": "ComfyUI-DigbyWan",
+            "reference": "https://github.com/JosDigby/ComfyUI-DigbyWan",
+            "files": [
+                "https://github.com/JosDigby/ComfyUI-DigbyWan"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: ImageBatchLoopExtract, WanMiddleFrameToVideo, WanVACEVideoSmoother"
+        },        
+        {
+            "author": "UltraNoob-NazoGiken",
+            "title": "ComfyUI-TOML-Tools [WIP]",
+            "reference": "https://github.com/UltraNoob-NazoGiken/ComfyUI-TOML-Tools",
+            "files": [
+                "https://github.com/UltraNoob-NazoGiken/ComfyUI-TOML-Tools"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: CreateTomlData, GetTomlValue, LoadToml, MergeTomlData, SaveTom, ...\nNOTE: The files in the repo are not organized."
+        },        
+        {
             "author": "frost-byte",
             "title": "fb-tools",
             "reference": "https://github.com/frost-byte/fbTools",

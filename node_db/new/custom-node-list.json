@@ -1,6 +1,96 @@
 {
     "custom_nodes": [
         {
+            "author": "EricRollei",
+            "title": "AAA_Metadata_System",
+            "reference": "https://github.com/EricRollei/AAA_Metadata_System",
+            "files": [
+                "https://github.com/EricRollei/AAA_Metadata_System"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive metadata management system for ComfyUI that enables storing, retrieving, and manipulating image metadata across multiple formats including embedded files, XMP sidecars, text files, and SQLite databases."
+        },
+        {
+            "author": "Ltamann",
+            "title": "ComfyUI-TBG-SAM3",
+            "reference": "https://github.com/Ltamann/ComfyUI-TBG-SAM3",
+            "files": [
+                "https://github.com/Ltamann/ComfyUI-TBG-SAM3"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node extension integrating Meta's Segment Anything Model 3 (SAM 3) for advanced image and video segmentation with text-prompt, point-based, and mask-driven capabilities. Provides production-ready nodes compatible with ComfyUI's Impact Pack SEGS format, depth map generation, and support for Python 3.13+ with CUDA and CPU support."
+        },        
+        {
+            "author": "hobinrude",
+            "title": "ComfyUI_DWposeDeluxe",
+            "reference": "https://github.com/hobinrude/ComfyUI_DWposeDeluxe",
+            "files": [
+                "https://github.com/hobinrude/ComfyUI_DWposeDeluxe"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node integrating DW-Pose (Denoising Whole-Body Pose Estimation) for high-quality pose detection with CPU (ONNX) and GPU (TensorRT) support. Features 20x faster performance with TensorRT acceleration, automatic model downloading, customizable pose visualization, keypoint conversion, and video workflow integration."
+        },
+        {
+            "author": "sbcode",
+            "title": "Remove Background",
+            "reference": "https://github.com/Sean-Bradley/ComfyUI-Remove-Background",
+            "files": [
+                "https://github.com/Sean-Bradley/ComfyUI-Remove-Background"
+            ],
+            "install_type": "git-clone",
+            "description": "Remove background scenery from an image of a person. The output image is saved as an RGBA PNG. The alpha channel is included."
+        },
+        {
+            "author": "wouterverweirder",
+            "title": "ComfyUI SAM3",
+            "reference": "https://github.com/wouterverweirder/comfyui_sam3",
+            "files": [
+                "https://github.com/wouterverweirder/comfyui_sam3"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom Nodes to work with SAM3"
+        },
+        {
+            "author": "Hearmeman24",
+            "title": "ComfyUI-LoRAPlotNode",
+            "reference": "https://github.com/Hearmeman24/ComfyUI-LoRAPlotNode",
+            "files": [
+                "https://github.com/Hearmeman24/ComfyUI-LoRAPlotNode"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node for testing multiple LoRA models across different strength values. Automatically generates model/clip pairs for each LoRA-strength combination and includes an image saver node with text overlay for easy identification."
+        },
+        {
+            "author": "PozzettiAndrea",
+            "title": "ComfyUI-SAM3",
+            "reference": "https://github.com/PozzettiAndrea/ComfyUI-SAM3",
+            "files": [
+                "https://github.com/PozzettiAndrea/ComfyUI-SAM3"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI integration for Meta's SAM3 model enabling open-vocabulary image segmentation using natural language text prompts, with automatic model download, geometric refinement, and flexible confidence thresholds."
+        },
+        {
+            "author": "wwzhifeng",
+            "title": "comfyui-jsonprompt",
+            "reference": "https://github.com/wwzhifeng/comfyui-jsonprompt",
+            "files": [
+                "https://github.com/wwzhifeng/comfyui-jsonprompt"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node that expands structured JSON text into standard prompts for use with models like Gemini, Flux, OpenAI, and Sora. (Description by CC)"
+        },
+        {
+            "author": "StarIICraft",
+            "title": "ComfyUI-Simple-Selector",
+            "reference": "https://github.com/StarIICraft/ComfyUI-Simple-Selector",
+            "files": [
+                "https://github.com/StarIICraft/ComfyUI-Simple-Selector"
+            ],
+            "install_type": "git-clone",
+            "description": "Logic control node with 5 universal input ports that checks connections in reverse priority order and outputs the index of the first valid active input, with support for muted nodes and any data type."
+        },
+        {
             "author": "fr0nky0ng",
             "title": "ComfyUI-JSON-Prompt",
             "reference": "https://github.com/fr0nky0ng/ComfyUI-JSON-Prompt",
@@ -635,68 +725,6 @@
             ],
             "install_type": "git-clone",
             "description": "High-precision audio trimming custom node based on frame rates for ComfyUI - trim audio precisely by frame numbers instead of timestamps, perfectly matching video frame synchronization needs. (Description by CC)"
-        },
-        {
-            "author": "princepainter",
-            "title": "ComfyUI-PainterI2VforKJ",
-            "reference": "https://github.com/princepainter/ComfyUI-PainterI2VforKJ",
-            "files": [
-                "https://github.com/princepainter/ComfyUI-PainterI2VforKJ"
-            ],
-            "install_type": "git-clone",
-            "description": "Enhanced image-to-video node for Wan2.2 optimized for 4-step LoRAs that fixes slow-motion issues by increasing motion amplitude by 15-50%, with camera movement enhancement. (Description by CC)"
-        },
-        {
-            "author": "Markus-Pasanen",
-            "title": "batch_whisper_extension",
-            "reference": "https://github.com/Markus-Pasanen/batch_whisper_extension",
-            "files": [
-                "https://github.com/Markus-Pasanen/batch_whisper_extension"
-            ],
-            "install_type": "git-clone",
-            "description": "A lightweight ComfyUI extension node that runs OpenAI Whisper to transcribe up to 3 audio inputs, merges and sorts timestamped segments, and outputs a single timestamped transcript string with speaker labels."
-        },
-        {
-            "author": "Owl-V",
-            "title": "ComfyUI-Translator",
-            "reference": "https://github.com/OwlvChirotha/ComfyUI-Translator",
-            "files": [
-                "https://github.com/OwlvChirotha/ComfyUI-Translator"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI plug-in collection of basic translator, LLM translator and a series of LLM Service Connectors.",
-            "tags": ["translation", "llm", "ai", "connector", "utility"]
-        },
-        {
-            "author": "princepainter",
-            "title": "ComfyUI-PainterI2V",
-            "reference": "https://github.com/princepainter/ComfyUI-PainterI2V",
-            "files": [
-                "https://github.com/princepainter/ComfyUI-PainterI2V"
-            ],
-            "install_type": "git-clone",
-            "description": "An enhanced Wan2.2 Image-to-Video node specifically designed to fix the slow-motion issue in 4-step LoRAs (like lightx2v).",
-            "tags": ["video", "image-to-video", "Wan2.2", "LoRA"]
-        },
-        {
-            "author": "AlexXia007",
-            "title": "AIYang_TripleAPI",
-            "reference": "https://github.com/AlexXia007/AIYang_TripleAPI",
-            "files": [
-                "https://github.com/AlexXia007/AIYang_TripleAPI"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom nodes integrating three Chinese AI image generation platforms (Hi Dream, Douban, NanoBanana) supporting text-to-image and image-to-image generation with parallel processing and robust error handling. (Description by CC)"
-        },
-        {
-            "author": "leafiy",
-            "title": "comfyui_psd_smart_object",
-            "reference": "https://github.com/leafiy/comfyui_psd_smart_object",
-            "files": [
-                "https://github.com/leafiy/comfyui_psd_smart_object"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for working with Photoshop mockup files - automatically project images onto PSD smart objects while preserving perspective, rotation, and scale transforms for seamless mockup rendering."
         }
     ]
 }

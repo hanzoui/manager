@@ -2048,6 +2048,10 @@
             "GoddessLabsFolderSelector"
         ],
         {
+            "author": "GoddessLabs",
+            "description": "Custom nodes to conveniently enhance images through Detector, Detailer, Upscaler, Pipe, and more.",
+            "nickname": "GoddessLabs",
+            "title": "GoddessLabs NodePack",
             "title_aux": "ComfyUI-GoddessLabs-NodePack"
         }
     ],
@@ -2293,6 +2297,16 @@
         ],
         {
             "title_aux": "comfy-consistency-vae"
+        }
+    ],
+    "https://github.com/JosDigby/ComfyUI-DigbyWan": [
+        [
+            "ImageBatchLoopExtract",
+            "WanMiddleFrameToVideo",
+            "WanVACEVideoSmoother"
+        ],
+        {
+            "title_aux": "ComfyUI-DigbyWan"
         }
     ],
     "https://github.com/Junst/ComfyUI-PNG2SVG2PNG": [
@@ -3487,10 +3501,16 @@
             "CAD_Mesh_Gmsh",
             "CAD_Mesh_Gmsh_Advanced",
             "CAD_Quality_Metrics",
+            "LoadPoint2CADModel",
             "ML_FeatureDetection",
             "ML_SurfaceRecon",
             "MeshFaceSegmentation",
+            "MeshSegmentToPointCloud",
             "Mesh_Optimize_Gmsh",
+            "Point2CADExportBrep",
+            "Point2CADSegmentation",
+            "Point2CADSurfaceFitting",
+            "Point2CADTopologyExtraction",
             "PointCloudSegmentation",
             "PreviewCADOCC",
             "PrimitiveFitting",
@@ -3536,11 +3556,10 @@
     ],
     "https://github.com/PozzettiAndrea/ComfyUI-UniRig": [
         [
-            "UniRigApplySkinning",
-            "UniRigApplySkinningML",
+            "UniRigApplySkinningMLNew",
             "UniRigDenormalizeSkeleton",
-            "UniRigExtractRig",
-            "UniRigExtractSkeleton",
+            "UniRigExportPosedFBX",
+            "UniRigExtractSkeletonNew",
             "UniRigLoadMesh",
             "UniRigLoadRiggedMesh",
             "UniRigLoadSkeletonModel",
@@ -3548,7 +3567,6 @@
             "UniRigPrepareSkeletonForSkinning",
             "UniRigPreviewRiggedMesh",
             "UniRigSaveMesh",
-            "UniRigSaveRiggedMesh",
             "UniRigSaveSkeleton",
             "UniRigValidateSkeleton"
         ],
@@ -4435,6 +4453,21 @@
             "title_aux": "IntrinsicCompositingClean-ComfyUI"
         }
     ],
+    "https://github.com/TheLocalLab/ComfyUI-Kandinsky-GGUF": [
+        [
+            "EmptyKandinskyV5_Latent",
+            "KandinskyV5_ImageToVideoLatent",
+            "KandinskyV5_Loader",
+            "KandinskyV5_PruneFrames",
+            "KandinskyV5_Sampler",
+            "KandinskyV5_TextEncode",
+            "KandinskyV5_VAEDecode",
+            "KandinskyV5_VAELoader"
+        ],
+        {
+            "title_aux": "ComfyUI-Kandinsky-GGUF [WIP]"
+        }
+    ],
     "https://github.com/ThisModernDay/ComfyUI-InstructorOllama": [
         [
             "OllamaInstructorNode"
@@ -4469,6 +4502,18 @@
         ],
         {
             "title_aux": "ComfyUI-CustomNodes-MVM"
+        }
+    ],
+    "https://github.com/UltraNoob-NazoGiken/ComfyUI-TOML-Tools": [
+        [
+            "CreateTomlData",
+            "GetTomlValue",
+            "LoadToml",
+            "MergeTomlData",
+            "SaveToml"
+        ],
+        {
+            "title_aux": "ComfyUI-TOML-Tools [WIP]"
         }
     ],
     "https://github.com/UmutGuzel/tryvariantai-comfyui": [
@@ -6675,6 +6720,8 @@
             "TextEncodeQwenImageEditPlus",
             "ThresholdMask",
             "TomePatchModel",
+            "TopazImageEnhance",
+            "TopazVideoEnhance",
             "TorchCompileModel",
             "TrainLoraNode",
             "TrimAudioDuration",
@@ -7487,8 +7534,10 @@
             "OpaqueAlpha",
             "SAMPreprocessNHWC",
             "SaveScene",
+            "SceneCreate",
             "SceneInput",
             "SceneOutput",
+            "SceneUpdate",
             "SceneView",
             "SelectScene",
             "SubdirLister",
@@ -9901,7 +9950,8 @@
         [
             "PromptLoopFromFile",
             "PromptLoopFromText",
-            "PromptLoopInfo"
+            "PromptLoopInfo",
+            "PromptLoopSaveImage"
         ],
         {
             "title_aux": "ComfyUI-PromptLoop [WIP]"
@@ -10088,6 +10138,7 @@
         [
             "Image Size Calculator",
             "Model Selector",
+            "Settings",
             "Upscale Settings Calculator",
             "Video Settings"
         ],
@@ -11691,6 +11742,14 @@
             "title_aux": "comfyui-custom-path-nodes [UNSAFE]"
         }
     ],
+    "https://github.com/starsFriday/ComfyUI-Audio-Subtitle": [
+        [
+            "AudioSubtitle"
+        ],
+        {
+            "title_aux": "ComfyUI-Audio-Subtitle [WIP]"
+        }
+    ],
     "https://github.com/steelan9199/ComfyUI-Teeth": [
         [
             "teeth FindContours",
@@ -12607,6 +12666,25 @@
             "title_aux": "ComfyUI-CombineVideoAndSubtitle"
         }
     ],
+    "https://github.com/xuchenxu168/ComfyUI-Gemini-3": [
+        [
+            "Gemini3Chat",
+            "Gemini3ContextCache",
+            "Gemini3FunctionCalling",
+            "Gemini3ImageEditorPrompt",
+            "Gemini3MultiModalAnalysis",
+            "Gemini3SafetySettings",
+            "Gemini3StreamingGeneration",
+            "Gemini3StructuredOutput",
+            "Gemini3TextGeneration",
+            "Gemini3UseCachedContent",
+            "Gemini3WithCodeExecution",
+            "Gemini3WithGoogleSearch"
+        ],
+        {
+            "title_aux": "ComfyUI-Gemini-3 [UNSAFE/WIP]"
+        }
+    ],
     "https://github.com/xuchenxu168/ComfyUI_Qwen3-VL": [
         [
             "CombineImagesForQwen3VL",
@@ -12692,6 +12770,7 @@
     ],
     "https://github.com/yanhuifair/ComfyUI-FairLab": [
         [
+            "ASCIICharNode",
             "AddNode",
             "AppendTagsNode",
             "AspectRatiosNode",
