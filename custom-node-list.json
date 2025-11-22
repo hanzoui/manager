@@ -35059,14 +35059,40 @@
         },
         {
             "author": "EricRollei",
-            "title": "AAA_Metadata_System",
+            "title": "PDF Tools - Advanced PDF Processing & OCR",
+            "id": "pdf-tools",
+            "reference": "https://github.com/EricRollei/PDF-Tools",
+            "files": [
+                "https://github.com/EricRollei/PDF-Tools"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced PDF processing, OCR, Image and text parsing, smart image crop nodes for ComfyUI. Features include multi-language OCR (Surya, PaddleOCR VL), AI vision analysis (Florence-2, LayoutLMv3), advanced PDF extraction with quality assessment, spread detection for scanned books, and comprehensive layout analysis. Supports 90+ languages with multiple output formats.",
+            "tags": [
+                "PDF",
+                "OCR",
+                "document",
+                "vision",
+                "Florence-2",
+                "Surya",
+                "PaddleOCR",
+                "LayoutLMv3",
+                "multilingual",
+                "layout-analysis"
+            ],
+            "category": "Document Processing"
+        },
+        {
+            "author": "EricRollei",
+            "title": "AAA Metadata System",
+            "id": "aaa-metadata-system",
             "reference": "https://github.com/EricRollei/AAA_Metadata_System",
             "files": [
                 "https://github.com/EricRollei/AAA_Metadata_System"
             ],
             "install_type": "git-clone",
-            "description": "A comprehensive metadata management system for ComfyUI that enables storing, retrieving, and manipulating image metadata across multiple formats including embedded files, XMP sidecars, text files, and SQLite databases."
-        },        
+            "description": "Advanced metadata management and multi-format image save system for ComfyUI. Save/load with metadata for PNG, JPEG, TIFF, PSD (with layers), SVG, and WebP. Features XMP/TXT/JSON sidecar files, embedded EXIF/XMP, MWG-RS regions for face metadata, workflow tracking, LoRA/embedding detection, runtime execution hooks, and Automatic1111 compatibility. Preserve layers, alpha channels, and complete provenance across all formats.",
+            "nodename_pattern": "^(MetadataAwareSaveImage|Multi_LoRA_Loader|LoadImageLayers)"
+        },
         {
             "author": "EricRollei",
             "title": "HYPIR Image Restoration for ComfyUI",
@@ -35078,7 +35104,7 @@
             "description": "Custom ComfyUI nodes for HYPIR image restoration using Stable Diffusion 2.1. Restores and upscales scanned or generated images with optional LM Studio prompt enhancement and tiled VAE processing for large resolutions.",
             "nodename_pattern": "HYPIR"
         },
-		{
+        {
             "author": "nomadoor",
             "title": "ComfyUI Temporal Mask Tools",
             "reference": "https://github.com/nomadoor/ComfyUI-Temporal-Mask-Tools",
