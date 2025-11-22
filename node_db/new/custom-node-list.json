@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "pznodes",
+            "title": "ComfyUI-SAM3DBody",
+            "reference": "https://github.com/PozzettiAndrea/ComfyUI-SAM3DBody",
+            "files": [
+                "https://github.com/PozzettiAndrea/ComfyUI-SAM3DBody"
+            ],
+            "install_type": "git-clone",
+            "description": "SAM 3D Body integration for ComfyUI - Robust full-body human mesh recovery from single images. Reconstruct 3D human meshes with pose, shape, and hand details. First draft, please open a github issue if you have any problems or feature requests :)"
+        },
+        {
+            "author": "danielpflorian",
+            "title": "ComfyUI-WorkflowGenerator",
+            "reference": "https://github.com/DanielPFlorian/ComfyUI-WorkflowGenerator",
+            "files": [
+                "https://github.com/DanielPFlorian/ComfyUI-WorkflowGenerator"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-WorkflowGenerator custom nodes for generating ComfyUI workflows from natural language"
+        },
+        {
             "author": "EricRollei",
             "title": "PDF Tools - Advanced PDF Processing & OCR",
             "id": "pdf-tools",

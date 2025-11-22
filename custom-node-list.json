@@ -24817,16 +24817,6 @@
             "description": "Free trial of Tongyi Wanxiang wan2.1 model, this is a batch implementation of wan2.1 API, providing batch processing for your short video production."
         },
         {
-            "author": "penposs",
-            "title": "ComfyUI-Banana-Node",
-            "reference": "https://github.com/penposs/ComfyUI-Banana-Node",
-            "files": [
-                "https://github.com/penposs/ComfyUI-Banana-Node"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that generates images using Google’s Gemini 2.5 Flash Image Preview API."
-        },
-        {
             "author": "cardenluo",
             "title": "ComfyUI-Apt_Preset",
             "reference": "https://github.com/cardenluo/ComfyUI-Apt_Preset",
@@ -34917,16 +34907,6 @@
         },
         {
             "author": "PozzettiAndrea",
-            "title": "ComfyUI-AnyTop",
-            "reference": "https://github.com/PozzettiAndrea/ComfyUI-AnyTop",
-            "files": [
-                "https://github.com/PozzettiAndrea/ComfyUI-AnyTop"
-            ],
-            "install_type": "git-clone",
-            "description": "Standalone ComfyUI custom nodes for AnyTop - Universal Motion Generation for Any Skeleton Topology."
-        },
-        {
-            "author": "PozzettiAndrea",
             "title": "ComfyUI-SAM3",
             "reference": "https://github.com/PozzettiAndrea/ComfyUI-SAM3",
             "files": [
@@ -34934,6 +34914,16 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI integration for Meta's SAM3 model enabling open-vocabulary image segmentation using natural language text prompts, with automatic model download, geometric refinement, and flexible confidence thresholds."
+        },
+        {
+            "author": "pznodes",
+            "title": "ComfyUI-SAM3DBody",
+            "reference": "https://github.com/PozzettiAndrea/ComfyUI-SAM3DBody",
+            "files": [
+                "https://github.com/PozzettiAndrea/ComfyUI-SAM3DBody"
+            ],
+            "install_type": "git-clone",
+            "description": "SAM 3D Body integration for ComfyUI - Robust full-body human mesh recovery from single images. Reconstruct 3D human meshes with pose, shape, and hand details. First draft, please open a github issue if you have any problems or feature requests :)"
         },
         {
             "author": "rookiestar28",
@@ -36906,7 +36896,16 @@
             "pip": ["Pillow", "piexif"],
             "nodename_pattern": "Smart"
         },
-
+        {
+            "author": "danielpflorian",
+            "title": "ComfyUI-WorkflowGenerator",
+            "reference": "https://github.com/DanielPFlorian/ComfyUI-WorkflowGenerator",
+            "files": [
+                "https://github.com/DanielPFlorian/ComfyUI-WorkflowGenerator"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-WorkflowGenerator custom nodes for generating ComfyUI workflows from natural language"
+        },
 
 
 

@@ -2677,8 +2677,8 @@
             "AGSoft_Image_Mask_Resize_Adv",
             "AGSoft_Image_Rotate",
             "AGSoft_Image_Stitch",
-            "AGSoft_Img_Pad_for_Outpainting",
-            "AGSoft_Img_Pad_for_Outpainting_Adv",
+            "AGSoft_Img_Pad",
+            "AGSoft_Img_Pad_Adv",
             "AGSoft_Img_Res",
             "AGSoft_Img_Res_MP",
             "AGSoft_Inpaint_Crop",
@@ -4604,6 +4604,14 @@
         ],
         {}
     ],
+    "https://github.com/ComfyUI/RH_Qwen-Image": [
+        [
+            "QwenImageModelLoader",
+            "RH_QwenImageGenerator",
+            "RH_QwenImagePromptEnhancer"
+        ],
+        {}
+    ],
     "https://github.com/ComfyUI/SequentialGroupController": [
         [
             "SequentialGroupController",
@@ -5110,6 +5118,18 @@
         ],
         {
             "title_aux": "ComfyUI-Voxels"
+        }
+    ],
+    "https://github.com/DanielPFlorian/ComfyUI-WorkflowGenerator": [
+        [
+            "NodeValidator",
+            "WG_Pipeline",
+            "WG_UpdateNodeCatalog",
+            "WorkflowBuilder",
+            "WorkflowGenerator"
+        ],
+        {
+            "title_aux": "ComfyUI-WorkflowGenerator"
         }
     ],
     "https://github.com/DaniilVdovin/ComfyUI-prompt-templating": [
@@ -6210,7 +6230,8 @@
             "Wan22_Size_Preset"
         ],
         {
-            "title_aux": "AAA_Metadata_System"
+            "nodename_pattern": "^(MetadataAwareSaveImage|Multi_LoRA_Loader|LoadImageLayers)",
+            "title_aux": "AAA Metadata System"
         }
     ],
     "https://github.com/EricRollei/Comfy_HunyuanImage3": [
@@ -6220,7 +6241,8 @@
             "HunyuanImage3Generate",
             "HunyuanImage3GenerateLarge",
             "HunyuanImage3QuantizedLoader",
-            "HunyuanImage3Unload"
+            "HunyuanImage3Unload",
+            "HunyuanPromptRewriter"
         ],
         {
             "title_aux": "Comfy_HunyuanImage3"
@@ -6286,6 +6308,15 @@
             "title_aux": "Eric_Image_Processing_Nodes"
         }
     ],
+    "https://github.com/EricRollei/HYPIR-ComfyUI": [
+        [
+            "HyperComfyUIHYPIRRestore"
+        ],
+        {
+            "nodename_pattern": "HYPIR",
+            "title_aux": "HYPIR Image Restoration for ComfyUI"
+        }
+    ],
     "https://github.com/EricRollei/Local_LLM_Prompt_Enhancer": [
         [
             "EricImageToImagePromptExpander",
@@ -6296,6 +6327,39 @@
         ],
         {
             "title_aux": "Eric's Prompt Enhancers for ComfyUI"
+        }
+    ],
+    "https://github.com/EricRollei/PDF-Tools": [
+        [
+            "EnhancedLayoutParser",
+            "EnhancedLayoutParser_v02",
+            "EnhancedLayoutParser_v03",
+            "EnhancedLayoutParser_v04",
+            "EnhancedLayoutParser_v05",
+            "EnhancedLayoutParser_v06_Streamlined",
+            "EnhancedPDFExtractor_v08",
+            "EnhancedPDFExtractor_v09",
+            "Eric_PDF_Extractor_Enhanced_V04",
+            "Eric_PDF_Extractor_Enhanced_V06",
+            "Eric_PDF_Extractor_Enhanced_V07",
+            "Eric_PDF_Extractor_Enhanced_v05",
+            "Florence2ImageCropper",
+            "Florence2ModelInfo",
+            "Florence2RectangleDetector",
+            "Florence2RegionVisualizer",
+            "GalleryDLDownloader",
+            "LayoutLMv3DocumentAnalysisNode",
+            "LayoutLMv3QuestionAnsweringNode",
+            "PaddleOCRVLRemoteNode",
+            "SafeLayoutLMv3Node",
+            "SimplePDFImageExtractor",
+            "SuryaLayoutOCRHybrid",
+            "SuryaOCR",
+            "SuryaOCRLayout",
+            "SuryaOCR_v02"
+        ],
+        {
+            "title_aux": "PDF Tools - Advanced PDF Processing & OCR"
         }
     ],
     "https://github.com/EuphoricPenguin/resemble-enhance-comfyui": [
@@ -7959,16 +8023,6 @@
         ],
         {
             "title_aux": "ComfyUI Ovi Node"
-        }
-    ],
-    "https://github.com/HM-RunningHub/ComfyUI_RH_Qwen-Image": [
-        [
-            "QwenImageModelLoader",
-            "RH_QwenImageGenerator",
-            "RH_QwenImagePromptEnhancer"
-        ],
-        {
-            "title_aux": "ComfyUI Qwen-Image Node"
         }
     ],
     "https://github.com/HM-RunningHub/ComfyUI_RH_SeedXPro": [
@@ -10847,6 +10901,7 @@
     "https://github.com/Ltamann/ComfyUI-TBG-SAM3": [
         [
             "SAM3DepthMap",
+            "SAM3ModelDownloader",
             "SAM3ModelLoader",
             "SAM3Segmentation"
         ],
@@ -12812,7 +12867,7 @@
     ],
     "https://github.com/PenguinTeo/Comfyui-GeminiBanana": [
         [
-            "GeminiFlash25Node"
+            "Gemini3ImageNode"
         ],
         {
             "title_aux": "GeminiBanana for ComfyUI"
@@ -13055,18 +13110,6 @@
             "title_aux": "ComfyUI-AdvancedLivePortrait"
         }
     ],
-    "https://github.com/PozzettiAndrea/ComfyUI-AnyTop": [
-        [
-            "AnyTopConditionLoader",
-            "AnyTopExportBVH",
-            "AnyTopGenerateMotion",
-            "AnyTopMotionPreview",
-            "DownLoadAnyTopModel"
-        ],
-        {
-            "title_aux": "ComfyUI-AnyTop"
-        }
-    ],
     "https://github.com/PozzettiAndrea/ComfyUI-DepthAnythingV3": [
         [
             "DA3_CreateCameraParams",
@@ -13091,12 +13134,9 @@
     ],
     "https://github.com/PozzettiAndrea/ComfyUI-GeometryPack": [
         [
-            "GeomPackAppendMesh",
-            "GeomPackBlenderRemeshWithTexture",
             "GeomPackBooleanOp",
             "GeomPackCheckNormals",
             "GeomPackCombineMeshes",
-            "GeomPackCombineMeshesWeighted",
             "GeomPackComputeNormals",
             "GeomPackCreatePrimitive",
             "GeomPackDetectSelfIntersections",
@@ -13114,17 +13154,16 @@
             "GeomPackMeshQuality",
             "GeomPackMeshToMeshDistance",
             "GeomPackMeshToPointCloud",
-            "GeomPackPointCloudToMesh",
             "GeomPackPointToMeshDistance",
             "GeomPackPreviewMesh",
             "GeomPackPreviewMeshDual",
             "GeomPackPreviewMeshUV",
             "GeomPackPreviewMeshVTK",
-            "GeomPackPreviewMeshVTKWithTexture",
             "GeomPackReconstructSurface",
             "GeomPackRefineMesh",
             "GeomPackRemesh",
             "GeomPackRemeshSelfIntersections",
+            "GeomPackRemeshWithTexture",
             "GeomPackSaveMesh",
             "GeomPackTextureToGeometry",
             "GeomPackTransformMesh",
@@ -13242,6 +13281,27 @@
         ],
         {
             "title_aux": "ComfyUI-SAM3"
+        }
+    ],
+    "https://github.com/PozzettiAndrea/ComfyUI-SAM3DBody": [
+        [
+            "LoadSAM3DBodyModel",
+            "SAM3DBodyAddMeshToSkeleton",
+            "SAM3DBodyExportFBX",
+            "SAM3DBodyExportMesh",
+            "SAM3DBodyGetVertices",
+            "SAM3DBodyLoadMesh",
+            "SAM3DBodyLoadSkeleton",
+            "SAM3DBodyPreviewRiggedMesh",
+            "SAM3DBodyPreviewSkeleton",
+            "SAM3DBodyProcess",
+            "SAM3DBodyProcessAdvanced",
+            "SAM3DBodySaveSkeleton",
+            "SAM3DBodySelectMesh",
+            "SAM3DBodyVisualize"
+        ],
+        {
+            "title_aux": "ComfyUI-SAM3DBody"
         }
     ],
     "https://github.com/PressWagon/ComfyUI-StringsAndThings": [
@@ -14374,6 +14434,26 @@
             "title_aux": "ComfyUI-DiffusersLoader"
         }
     ],
+    "https://github.com/Scorpiosis0/ComfyUI-WtlNodes": [
+        [
+            "Brightness",
+            "Contrast",
+            "DepthDOF",
+            "DualEaseCosineScheduler",
+            "EmptyLatent",
+            "Exposure",
+            "ImageTransform",
+            "MaskProcessor",
+            "MaskTransform",
+            "RAMPreviewImage",
+            "Saturation",
+            "SigmaVisualizer",
+            "Temperature"
+        ],
+        {
+            "title_aux": "WtlNodes"
+        }
+    ],
     "https://github.com/ScreamingHawk/comfyui-ollama-prompt-encode": [
         [
             "OllamaCLIPTextEncode",
@@ -14407,7 +14487,7 @@
     ],
     "https://github.com/Sean-Bradley/ComfyUI-Remove-Background": [
         [
-            "RemoveBackground"
+            "SBCODERemoveBackground"
         ],
         {
             "title_aux": "Remove Background"
@@ -19834,6 +19914,7 @@
             "Comfly_mj_video_extend",
             "Comfly_mjstyle",
             "Comfly_nano_banana",
+            "Comfly_nano_banana2_edit",
             "Comfly_nano_banana_edit",
             "Comfly_nano_banana_fal",
             "Comfly_qwen_image",
@@ -24194,6 +24275,7 @@
             "LayerUtility: ImageChannelMerge",
             "LayerUtility: ImageChannelSplit",
             "LayerUtility: ImageCombineAlpha",
+            "LayerUtility: ImageCompositeHandleMask",
             "LayerUtility: ImageHub",
             "LayerUtility: ImageMaskScaleAs",
             "LayerUtility: ImageMaskScaleAsV2",
@@ -25235,6 +25317,7 @@
             "GITSScheduler",
             "GLIGENLoader",
             "GLIGENTextBoxApply",
+            "GeminiImage2Node",
             "GeminiImageNode",
             "GeminiInputFiles",
             "GeminiNode",
@@ -25245,6 +25328,9 @@
             "Hunyuan3Dv2ConditioningMultiView",
             "HunyuanImageToVideo",
             "HunyuanRefinerLatent",
+            "HunyuanVideo15ImageToVideo",
+            "HunyuanVideo15LatentUpscaleWithModel",
+            "HunyuanVideo15SuperResolution",
             "HyperTile",
             "HypernetworkLoader",
             "IdeogramV1",
@@ -25324,6 +25410,7 @@
             "LatentSubtract",
             "LatentUpscale",
             "LatentUpscaleBy",
+            "LatentUpscaleModelLoader",
             "LazyCache",
             "Load3D",
             "Load3DAnimation",
@@ -31099,6 +31186,8 @@
     "https://github.com/hvppycoding/hvppyflow": [
         [
             "HFDebug",
+            "HFShowMarkdownNode",
+            "HFShowTextNode",
             "HFSleep",
             "HFSplitText"
         ],
@@ -34590,6 +34679,17 @@
         ],
         {
             "title_aux": "RC Image Compositor"
+        }
+    ],
+    "https://github.com/kjqwer/SmartSaveImage": [
+        [
+            "Example",
+            "SmartFolderManager",
+            "SmartImageSaver"
+        ],
+        {
+            "nodename_pattern": "Smart",
+            "title_aux": "SmartSaveImage"
         }
     ],
     "https://github.com/kk8bit/KayTool": [
@@ -40495,15 +40595,6 @@
             "title_aux": "Network Guardian"
         }
     ],
-    "https://github.com/penposs/ComfyUI-Banana-Node": [
-        [
-            "BananaNode",
-            "TransparentImageNode"
-        ],
-        {
-            "title_aux": "ComfyUI-Banana-Node"
-        }
-    ],
     "https://github.com/penposs/ComfyUI_Gemini_Pro": [
         [
             "Gemini File Processing",
@@ -42295,6 +42386,24 @@
         ],
         {
             "title_aux": "Danbooru Tags Upsampler for ComfyUI"
+        }
+    ],
+    "https://github.com/rookiestar28/ComfyUI_Text_Processor": [
+        [
+            "AddTextToImage",
+            "AdvancedTextFilter",
+            "EvaluateFloats",
+            "EvaluateInts",
+            "EvaluateStrs",
+            "ImageCropper",
+            "TextInput",
+            "TextScraper",
+            "TextStorage",
+            "Wildcards",
+            "WildcardsAdv"
+        ],
+        {
+            "title_aux": "ComfyUI Text Processor"
         }
     ],
     "https://github.com/roundyyy/ComfyUI-mesh-simplifier": [
@@ -46249,6 +46358,7 @@
     ],
     "https://github.com/ttulttul/ComfyUI-FlowMatching-Upscaler": [
         [
+            "DyPEQwenImage",
             "FlowMatchingProgressiveUpscaler",
             "FlowMatchingStage",
             "LatentChannelStatsPreview"
@@ -47695,8 +47805,12 @@
         [
             "CharacterPromptBuilder",
             "WizdroidCharacterEdit",
+            "WizdroidLoRADatasetExport",
+            "WizdroidLoRADatasetValidator",
+            "WizdroidLoRAValidate",
             "WizdroidPhotoAspectExtractor",
-            "WizdroidPromptCombiner"
+            "WizdroidPromptCombiner",
+            "WizdroidSDXLLoRATrainer"
         ],
         {
             "title_aux": "Wizdroid Character Nodes for ComfyUI"
@@ -49130,6 +49244,36 @@
             "title_aux": "chinese_clip_encode"
         }
     ],
+    "https://github.com/yuanyuan-spec/comfyui_hunyuanvideo_1.5_plugin": [
+        [
+            "HyVidelSrTransformerUpsamplerLoader",
+            "HyVidelSrVaeDecoder",
+            "HyVideo15Byt5Loader",
+            "HyVideo15CFG",
+            "HyVideo15GlyphByT5",
+            "HyVideo15I2VSampler",
+            "HyVideo15LatentsPrepare",
+            "HyVideo15ModelLoader",
+            "HyVideo15SR",
+            "HyVideo15SRModelLoader",
+            "HyVideo15T2VSampler",
+            "HyVideo15TextEncode",
+            "HyVideo15TextEncoderLoader",
+            "HyVideo15Transformer",
+            "HyVideo15TransformerLoader",
+            "HyVideo15VaeDecode",
+            "HyVideo15VaeEncode",
+            "HyVideo15VaeLoader",
+            "HyVideo15VisionEncode",
+            "HyVideo15VisionEncoderLoader",
+            "HyVideoSrLatentsPrepare",
+            "HyVideoSrTransformer",
+            "HyVideoSrVaeEncode"
+        ],
+        {
+            "title_aux": "HunyuanVideo-1.5 nodes"
+        }
+    ],
     "https://github.com/yushan777/ComfyUI-Y7-SBS-2Dto3D": [
         [
             "Y7_SideBySide",
@@ -49504,6 +49648,7 @@
             "EmptyConditioning",
             "FalFunControlVideoRequestNode",
             "FalImage2VideoRequestNode",
+            "FalNanoBananaNode",
             "FalVideo2VideoRequestNode",
             "FloatMultipleAddLiteral",
             "FrameAdjuster",
