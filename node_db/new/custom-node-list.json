@@ -23,6 +23,16 @@
             "description": "This node adds improvement over some already existing nodes as well as some custom nodes."
         },
         {
+            "author": "yuanyuan-spec",
+            "title": "HunyuanVideo-1.5 nodes",
+            "reference": "https://github.com/yuanyuan-spec/comfyui_hunyuanvideo_1.5_plugin",
+            "files": [
+                "https://github.com/yuanyuan-spec/comfyui_hunyuanvideo_1.5_plugin"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI plugin based on HunyuanVideo-1.5, offering both simplified and complete node sets for quick usage or deep workflow customization."
+        },
+        {
             "author": "rookiestar28",
             "title": "ComfyUI Text Processor",
             "id": "ComfyUI_Text_Processor",
@@ -52,7 +62,7 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node extension integrating Meta's Segment Anything Model 3 (SAM 3) for advanced image and video segmentation with text-prompt, point-based, and mask-driven capabilities. Provides production-ready nodes compatible with ComfyUI's Impact Pack SEGS format, depth map generation, and support for Python 3.13+ with CUDA and CPU support."
-        },        
+        },
         {
             "author": "hobinrude",
             "title": "ComfyUI_DWposeDeluxe",
