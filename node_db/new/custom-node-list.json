@@ -91,6 +91,18 @@
             "description": "An advanced text processing node for ComfyUI."
         },
         {
+            "author": "kjqwer",
+            "title": "SmartSaveImage",
+            "reference": "https://github.com/kjqwer/SmartSaveImage",
+            "files": [
+                "https://github.com/kjqwer/SmartSaveImage"
+            ],
+            "install_type": "git-clone",
+            "description": "Smart Image Saving Nodes - Offers intelligent folder management and image saving capabilities, supporting flexible folder hierarchy control, multiple metadata sources, various image formats, and metadata embedding. It includes two nodes: SmartFolderManager and SmartImageSaver.",
+            "pip": ["Pillow", "piexif"],
+            "nodename_pattern": "Smart"
+        },
+        {
             "author": "EricRollei",
             "title": "AAA_Metadata_System",
             "reference": "https://github.com/EricRollei/AAA_Metadata_System",
