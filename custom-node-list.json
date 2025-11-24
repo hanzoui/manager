@@ -36974,7 +36974,18 @@
             ],
             "install_type": "git-clone",
             "description": "Wan Video Extender extends a short video or a single image into a longer, temporally consistent clip using a VACE based control latent. It runs in multiple extension loops. Each loop can have its own prompt and optional LoRA, so you can evolve the scene step by step without rebuilding the graph."
-        },    
+        },
+        {
+            "author": "akawana",
+            "title": "Keybinding Extra",
+            "reference": "https://github.com/akawana/ComfyUI-Keybinding-extra",
+            "files": [
+                "https://github.com/akawana/ComfyUI-Keybinding-extra"
+            ],
+            "install_type": "git-clone",
+            "description": "Adds shortcuts for commenting and deleting lines of text, with a configurable comment symbol. Includes a node that cleans comments from text and splits content using tags for Regional Prompting.",
+            "tags": ["frontend", "shortcut", "utility"]
+        },
 
 
 
@@ -37410,17 +37421,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-    		"author": "akawana",
-    		"title": "Keybinding Extra",
-    		"reference": "https://github.com/akawana/ComfyUI-Keybinding-extra",
-            "files": [
-                "https://github.com/akawana/ComfyUI-Keybinding-extra"
-            ],
-			"install_type": "git-clone",
-    		"description": "Adds shortcuts for commenting and deleting lines of text, with a configurable comment symbol. Includes a node that cleans comments from text and splits content using tags for Regional Prompting.",
-    		"tags": ["frontend", "shortcut", "utility"]
-		}		
+        }		
     ]
 }
