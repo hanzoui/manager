@@ -5768,6 +5768,7 @@
             "BoyoLoRAPathForwarder",
             "BoyoLoadImageList",
             "BoyoLoopCollector",
+            "BoyoLoopCounter",
             "BoyoLoopImageSaver",
             "BoyoLoopReset",
             "BoyoMathInt",
@@ -7819,6 +7820,7 @@
     ],
     "https://github.com/Granddyser/wan-video-extender": [
         [
+            "WanVideoExtenderLowHigh",
             "WanVideoExtenderNative"
         ],
         {
@@ -11104,6 +11106,7 @@
             "AdvancedAudioPreviewAndSave",
             "AdvancedMediaSave",
             "AdvancedTextNode",
+            "Aesthetic_Transformer_Node_MD",
             "AutoLayoutOptimizer",
             "EnhancedAnnotationNode",
             "EnhancedSeedSaver",
@@ -11112,17 +11115,26 @@
             "GPUTemperatureProtectionEnhanced",
             "HybridAdaptiveSigmas",
             "LLMVRAMManager",
+            "MD_ApplyTPG",
             "MD_AudioAutoEQ",
             "MD_AutoMasterNode",
+            "MD_CLIPTokenFinder",
+            "MD_InitNoiseOptimizer",
+            "MD_Qwen_Image_Edit_Object_Replacer_Node",
+            "MD_SelfCrossGuider",
             "MasteringChainNode",
             "NoiseDecayScheduler_Custom",
             "PingPongSamplerNodeFBG",
             "PingPongSampler_Custom_Lite",
             "SceneGeniusAutocreator",
+            "SigmaConcatenate",
+            "SigmaSmooth",
             "SmartColorPaletteManager",
             "SmartFilenameBuilder",
             "TextFileLoader",
             "UniversalRoutingHubAdvanced",
+            "VLM_Confirmation_Gate_Node_MD",
+            "WildcardPromptBuilder",
             "WorkflowSectionOrganizer"
         ],
         {
@@ -16083,6 +16095,7 @@
             "StarQwenRegionalPrompter",
             "StarQwenWanRatio",
             "StarRandomImageLoader",
+            "StarSDUpscaleRefiner",
             "StarSampler",
             "StarSaveFolderString",
             "StarSavePanoramaJPEG",
@@ -42468,8 +42481,7 @@
             "TextInput",
             "TextScraper",
             "TextStorage",
-            "Wildcards",
-            "WildcardsAdv"
+            "WildcardsNode"
         ],
         {
             "title_aux": "ComfyUI Text Processor"
