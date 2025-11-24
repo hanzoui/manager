@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "brucew4yn3rp",
+            "title": "Vintage Effect",
+            "id": "VintageEffect",
+            "reference": "https://github.com/brucew4yn3rp/ComfyUI_VintageEffect",
+            "files": [
+                "https://github.com/brucew4yn3rp/ComfyUI_VintageEffect"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node that applies vintage/retro effects through JPG compression, color grading, film grain, vignette, and more to emulate more realistic photo aesthetics."
+        },
+        {
             "title": "Download Tools for ComfyUI",
             "reference": "https://github.com/EricRollei/Download_Tools",
             "files": [
@@ -682,87 +693,6 @@
             ],
             "install_type": "git-clone",
             "description": "A visual ComfyUI latent canvas dimensions selector"
-        },
-        {
-            "author": "alludus",
-            "title": "multiGPU Upscaler",
-            "reference": "https://github.com/alludus/ComfyUI-multiGPU-upscaler",
-            "files": [
-                "https://github.com/alludus/ComfyUI-multiGPU-upscaler"
-            ],
-            "install_type": "git-clone",
-            "description": "multiGPU batch-parallel upscaling nodes for ComfyUI."
-        },
-        {
-            "author": "Koratahiu",
-            "title": "ComfyUI-Diff2Flow",
-            "reference": "https://github.com/Koratahiu/ComfyUI-Diff2Flow",
-            "files": [
-                "https://github.com/Koratahiu/ComfyUI-Diff2Flow"
-            ],
-            "install_type": "git-clone",
-            "description": "Unofficial Implementation of Diff2Flow Method for ComfyUI."
-        },
-        {
-            "author": "GraftingRayman",
-            "title": "Unfied Vision Prompt Generator",
-            "reference": "https://github.com/GraftingRayman/Unified-Vision-Prompt-Generator",
-            "files": [
-                "https://github.com/GraftingRayman/Unified-Vision-Prompt-Generator"
-            ],
-            "install_type": "git-clone",
-            "description": "A Qwen 2/2.5, Moondream and SmolVLM LLM caption/prompt genrator"
-        },
-        {
-            "author": "GraftingRayman",
-            "title": "Border Distance Mapper",
-            "reference": "https://github.com/GraftingRayman/Border-Distance-Mapper",
-            "files": [
-                "https://github.com/GraftingRayman/Border-Distance-Mapper"
-            ],
-            "install_type": "git-clone",
-            "description": "A Countries Border distance mapper"
-        },
-        {
-            "author": "jianghong-zhu",
-            "title": "ComfyUI-AdvancedCameraPrompts",
-            "reference": "https://github.com/jandan520/ComfyUI-AdvancedCameraPrompts",
-            "files": [
-                "https://github.com/jandan520/ComfyUI-AdvancedCameraPrompts"
-            ],
-            "install_type": "git-clone",
-            "description": "Advanced camera control prompt generator for ComfyUI that reads camera information from 3D nodes and generates precise, professional camera control prompts."
-        },
-        {
-            "author": "ahkimkoo",
-            "title": "ComfyUI-GetKeyFrames",
-            "reference": "https://github.com/ahkimkoo/ComfyUI-GetKeyFrames",
-            "files": [
-                "https://github.com/ahkimkoo/ComfyUI-GetKeyFrames"
-            ],
-            "install_type": "git-clone",
-            "description": "Extract keyframes from video"
-        },
-        {
-            "author": "power88",
-            "title": "ComfyUI-PDiD-LLM-Nodes",
-            "reference": "https://github.com/power88/ComfyUI-PDiD-LLM-Nodes",
-            "files": [
-                "https://github.com/power88/ComfyUI-PDiD-LLM-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A LLM node with some models. (Description by CC)"
-        },
-        {
-            "author": "deng-wei",
-            "title": "ComfyUI-MiVolo-V2",
-            "id": "ComfyUI-MiVolo-V2",
-            "reference": "https://github.com/deng-wei/ComfyUI-MiVolo-V2",
-            "files": [
-                "https://github.com/deng-wei/ComfyUI-MiVolo-V2"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for [MiVolo V2 Age & Gender Prediction](https://huggingface.co/iitolstykh/mivolo_v2)"
         }
     ]
 }
