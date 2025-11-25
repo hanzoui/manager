@@ -4571,6 +4571,20 @@
             "title_aux": "JH Misc. Nodes"
         }
     ],
+    "https://github.com/ComfyUI-JH/ComfyUI-JH-XMP-Metadata-Nodes": [
+        [
+            "JHFormatMetadataNode",
+            "JHGetWidgetValueFloatNode",
+            "JHGetWidgetValueIntNode",
+            "JHGetWidgetValueStringNode",
+            "JHLoadImageWithXMPMetadataNode",
+            "JHPathToStemNode",
+            "JHSaveImageWithXMPMetadata"
+        ],
+        {
+            "title_aux": "JH XMP Metadata Nodes"
+        }
+    ],
     "https://github.com/ComfyUI-WanVideoWrapper/QQ.copied": [
         [
             "ImageBlend_GPU",
@@ -5252,6 +5266,7 @@
             "JDC_Greyscale",
             "JDC_ImageLoader",
             "JDC_ImageLoaderMeta",
+            "JDC_OmniNoise",
             "JDC_PinkNoise",
             "JDC_Plasma",
             "JDC_PlasmaSampler",
@@ -6148,6 +6163,15 @@
             "title_aux": "ComfyUI-EACloudNodes"
         }
     ],
+    "https://github.com/EnragedAntelope/ComfyUI_EasyRegion": [
+        [
+            "EasyRegionMask",
+            "EasyRegionSimple"
+        ],
+        {
+            "title_aux": "ComfyUI_EasyRegion"
+        }
+    ],
     "https://github.com/EnragedAntelope/comfy-modelopt": [
         [
             "ModelOptCalibrationHelper",
@@ -6250,12 +6274,25 @@
             "HunyuanImage3FullLoader",
             "HunyuanImage3Generate",
             "HunyuanImage3GenerateLarge",
+            "HunyuanImage3GenerateLowVRAM",
+            "HunyuanImage3Int8Loader",
             "HunyuanImage3QuantizedLoader",
             "HunyuanImage3Unload",
             "HunyuanPromptRewriter"
         ],
         {
             "title_aux": "Comfy_HunyuanImage3"
+        }
+    ],
+    "https://github.com/EricRollei/Download_Tools": [
+        [
+            "EricWebFileScraper_v082",
+            "GalleryDLDownloader",
+            "YtDlpDownloader"
+        ],
+        {
+            "nodename_pattern": "(Gallery-dl|Yt-dlp|Web.*Scraper)",
+            "title_aux": "Download Tools for ComfyUI"
         }
     ],
     "https://github.com/EricRollei/Eric_Image_Processing_Nodes": [
@@ -6609,14 +6646,6 @@
         ],
         {
             "title_aux": "MultiModel"
-        }
-    ],
-    "https://github.com/Fablestarexpanse/Timer-Node-Comfyui": [
-        [
-            "PromptWaffleTimer"
-        ],
-        {
-            "title_aux": "Timer-Node-Comfyui"
         }
     ],
     "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation": [
@@ -7337,6 +7366,16 @@
             "nickname": "FM_nodes",
             "title": "FM Nodes",
             "title_aux": "FM_nodes"
+        }
+    ],
+    "https://github.com/FuryNocturn/ComfyUI-Dummy_Node_Pack": [
+        [
+            "ECHOCheckpointLoaderSimple",
+            "KSampler_A1111",
+            "NombreDelNodoFaltante"
+        ],
+        {
+            "title_aux": "ComfyUI-Dummy_Node_Pack"
         }
     ],
     "https://github.com/FuryNocturn/ComfyUI-Studio-Fury": [
@@ -8151,6 +8190,24 @@
             "title_aux": "ComfyUI-Qwen-Camera-Selector"
         }
     ],
+    "https://github.com/Hangover3832/ComfyUI_Hangover-Utils": [
+        [
+            "Get Workflow Data",
+            "Image Clipboard Paster",
+            "Image Scale Bounding Box",
+            "Make Inpaint Model",
+            "Save Image w/o Metadata",
+            "Sympy Math Interpreter",
+            "Text Encode Wildcards"
+        ],
+        {
+            "author": "AlexL",
+            "description": "Scales an input image into a given box size, whereby the aspect ratio keeps retained.",
+            "nickname": "Hangover-Image_Scale_Bouning_Box",
+            "title": "ComfyUI-Hangover-Image_Scale_Bouning_Box",
+            "title_aux": "ComfyUI_Hangover-Utils"
+        }
+    ],
     "https://github.com/HannibalP/comfyui-HannibalPack": [
         [
             "HannibalLoraLoader"
@@ -8404,6 +8461,418 @@
             "nickname": "Tasha",
             "title": "ComfyUI_LiteLLM",
             "title_aux": "ComfyUI_LiteLLM"
+        }
+    ],
+    "https://github.com/HowToSD/ComfyUI-Data-Analysis": [
+        [
+            "CDAFloatCreate",
+            "CDAIntCreate",
+            "CDAJSONCreate",
+            "CDAShowFloat",
+            "CDAShowInt",
+            "CDAStringCreate",
+            "CDATextCreate",
+            "MPLBar",
+            "MPLLine",
+            "MPLPieChart",
+            "MPLScatter",
+            "NumpyFloatCreate",
+            "NumpyIntCreate",
+            "NumpyShow",
+            "NumpySqueeze",
+            "PandasAdd",
+            "PandasAddScalarFloat",
+            "PandasAddScalarInt",
+            "PandasAddSeries",
+            "PandasAsFloat",
+            "PandasAsInt",
+            "PandasAsString",
+            "PandasAtDatetime",
+            "PandasAtFloat",
+            "PandasAtInt",
+            "PandasAtSetDatetime",
+            "PandasAtSetFloat",
+            "PandasAtSetInt",
+            "PandasAtSetString",
+            "PandasAtString",
+            "PandasBooleanIndex",
+            "PandasColumns",
+            "PandasCorr",
+            "PandasCos",
+            "PandasCount",
+            "PandasCov",
+            "PandasCreate",
+            "PandasCreateFromDict",
+            "PandasCreateFromDictIndexList",
+            "PandasCreateFromMultipleDict",
+            "PandasCreateFromNumpy",
+            "PandasCreateFromTensor",
+            "PandasCreateSeriesFromDict",
+            "PandasCreateSeriesFromList",
+            "PandasCreateSeriesFromListIndexList",
+            "PandasCreateWithIndex",
+            "PandasCrosstab",
+            "PandasCummax",
+            "PandasCummin",
+            "PandasCumprod",
+            "PandasCumsum",
+            "PandasDiv",
+            "PandasDivScalarFloat",
+            "PandasDivScalarInt",
+            "PandasDivSeries",
+            "PandasDropDuplicates",
+            "PandasDropNA",
+            "PandasEq",
+            "PandasEqScalarFloat",
+            "PandasEqScalarInt",
+            "PandasExcelFileSheetNames",
+            "PandasExp",
+            "PandasFeatureSplitToNumpy",
+            "PandasFeatureSplitToPt",
+            "PandasFillNAScalarFloat",
+            "PandasFillNAScalarInt",
+            "PandasGe",
+            "PandasGeScalarFloat",
+            "PandasGeScalarInt",
+            "PandasGroupBy",
+            "PandasGt",
+            "PandasGtScalarFloat",
+            "PandasGtScalarInt",
+            "PandasHead",
+            "PandasHorizontalConcat",
+            "PandasHorizontalSplit",
+            "PandasIatDatetime",
+            "PandasIatFloat",
+            "PandasIatInt",
+            "PandasIatSetDatetime",
+            "PandasIatSetFloat",
+            "PandasIatSetInt",
+            "PandasIatSetString",
+            "PandasIatString",
+            "PandasIlocRowSeries",
+            "PandasIlocRowsDataFrame",
+            "PandasIlocRowsSliceDataFrame",
+            "PandasIndex",
+            "PandasIndexToString",
+            "PandasIsNA",
+            "PandasJoin",
+            "PandasKurtosis",
+            "PandasLe",
+            "PandasLeScalarFloat",
+            "PandasLeScalarInt",
+            "PandasLoadCSV",
+            "PandasLoadCSVWithEncoding",
+            "PandasLoadCSVWithIndex",
+            "PandasLoadExcel",
+            "PandasLoadHTML",
+            "PandasLoadJSON",
+            "PandasLocCellString",
+            "PandasLocRowMultiIndexDataFrame",
+            "PandasLocRowSeries",
+            "PandasLog",
+            "PandasLt",
+            "PandasLtScalarFloat",
+            "PandasLtScalarInt",
+            "PandasMax",
+            "PandasMean",
+            "PandasMedian",
+            "PandasMelt",
+            "PandasMin",
+            "PandasMode",
+            "PandasMul",
+            "PandasMulScalarFloat",
+            "PandasMulScalarInt",
+            "PandasMulSeries",
+            "PandasNe",
+            "PandasNeScalarFloat",
+            "PandasNeScalarInt",
+            "PandasPivot",
+            "PandasPow",
+            "PandasPowScalarFloat",
+            "PandasPowScalarInt",
+            "PandasPowSeries",
+            "PandasRename",
+            "PandasRenameAdvanced",
+            "PandasReplace",
+            "PandasReplaceAdvanced",
+            "PandasSaveCSV",
+            "PandasSaveJSON",
+            "PandasSelectColumnAsSeries",
+            "PandasSelectColumns",
+            "PandasSelectRows",
+            "PandasSeriesToDataFrame",
+            "PandasSeriesToString",
+            "PandasSetIndex",
+            "PandasShowDataFrame",
+            "PandasShowIndex",
+            "PandasShowSeries",
+            "PandasShowText",
+            "PandasSin",
+            "PandasSkew",
+            "PandasSort",
+            "PandasStd",
+            "PandasStrftime",
+            "PandasSub",
+            "PandasSubScalarFloat",
+            "PandasSubScalarInt",
+            "PandasSubSeries",
+            "PandasSum",
+            "PandasSummary",
+            "PandasTan",
+            "PandasToDatetime",
+            "PandasToNumpy",
+            "PandasToString",
+            "PandasTranspose",
+            "PandasValueCounts",
+            "PandasVar",
+            "PandasVerticalConcat",
+            "PandasVerticalSplit",
+            "PandasXs",
+            "PyDatetimeToString",
+            "PyFloatToString",
+            "PyIntToString",
+            "PyKvFloatCreate",
+            "PyKvIntCreate",
+            "PyKvStringCreate",
+            "PyListToString",
+            "PyStringToDatetime",
+            "PyStringToDict",
+            "PyStringToFloat",
+            "PyStringToInt",
+            "PyStringToList",
+            "SNSBar",
+            "SNSBarPt",
+            "SNSBoxplot",
+            "SNSHeatmap",
+            "SNSHistogram",
+            "SNSHistogramPt",
+            "SNSLine",
+            "SNSLinePt",
+            "SNSPairplot",
+            "SNSScatter",
+            "SNSScatterPt"
+        ],
+        {
+            "title_aux": "ComfyUI-Data-Analysis"
+        }
+    ],
+    "https://github.com/HowToSD/ComfyUI-Pt-Wrapper": [
+        [
+            "HfTokenizerEncode",
+            "PtAbs",
+            "PtAcos",
+            "PtAdd",
+            "PtApplyFunction",
+            "PtArange",
+            "PtArgmax",
+            "PtArgmin",
+            "PtAsin",
+            "PtAtan",
+            "PtBitwiseAnd",
+            "PtBitwiseLeftShift",
+            "PtBitwiseNot",
+            "PtBitwiseOr",
+            "PtBitwiseRightShift",
+            "PtBitwiseXor",
+            "PtBmm",
+            "PtBoolCreate",
+            "PtComputeLoss",
+            "PtConcat",
+            "PtCos",
+            "PtCosh",
+            "PtCrop",
+            "PtDataLoader",
+            "PtDataLoaderFromTensors",
+            "PtDiv",
+            "PtEinsum",
+            "PtEq",
+            "PtEvaluateClassificationModel",
+            "PtExp",
+            "PtFlatten",
+            "PtFloatCreate",
+            "PtFloorDiv",
+            "PtFromImage",
+            "PtFromImageTranspose",
+            "PtFromLatent",
+            "PtFromNumpy",
+            "PtFull",
+            "PtGather",
+            "PtGe",
+            "PtGt",
+            "PtIndexSelect",
+            "PtIntCreate",
+            "PtInterpolateByScaleFactor",
+            "PtInterpolateToSize",
+            "PtLe",
+            "PtLinspace",
+            "PtLoadModel",
+            "PtLog",
+            "PtLogicalAnd",
+            "PtLogicalNot",
+            "PtLogicalOr",
+            "PtLogicalXor",
+            "PtLt",
+            "PtMaskedSelect",
+            "PtMatMul",
+            "PtMax",
+            "PtMean",
+            "PtMedian",
+            "PtMin",
+            "PtMm",
+            "PtMul",
+            "PtNe",
+            "PtNeg",
+            "PtOnes",
+            "PtPad",
+            "PtPermute",
+            "PtPow",
+            "PtPredictClassificationModel",
+            "PtPredictRegressionModel",
+            "PtProd",
+            "PtRand",
+            "PtRandInt",
+            "PtRandn",
+            "PtRemainder",
+            "PtReshape",
+            "PtSaveModel",
+            "PtScatter",
+            "PtShowSize",
+            "PtShowText",
+            "PtSin",
+            "PtSinh",
+            "PtSize",
+            "PtSizeCreate",
+            "PtSizeToNumpy",
+            "PtSizeToString",
+            "PtSqrt",
+            "PtSqueeze",
+            "PtStack",
+            "PtStd",
+            "PtSub",
+            "PtSum",
+            "PtTan",
+            "PtTanh",
+            "PtToBfloat16",
+            "PtToFloat16",
+            "PtToFloat32",
+            "PtToFloat64",
+            "PtToImage",
+            "PtToImageTranspose",
+            "PtToInt16",
+            "PtToInt32",
+            "PtToInt64",
+            "PtToInt8",
+            "PtToLatent",
+            "PtToNumpy",
+            "PtToRgbTensors",
+            "PtToUint8",
+            "PtTokenizer",
+            "PtTrainClassificationModel",
+            "PtTrainClassificationModelLr",
+            "PtTrainClassificationTransformerModel",
+            "PtTrainFineTuneClassificationTransformerModel",
+            "PtTrainModel",
+            "PtTrainRNNModel",
+            "PtTrainRegressionModel",
+            "PtUnsqueeze",
+            "PtVar",
+            "PtView",
+            "PtWhere",
+            "PtZeros",
+            "PtdBernoulli",
+            "PtdBeta",
+            "PtdBinomial",
+            "PtdCategorical",
+            "PtdChi2",
+            "PtdExponential",
+            "PtdGamma",
+            "PtdNormal",
+            "PtdPoisson",
+            "PtdStudentT",
+            "PtdUniform",
+            "PtdmCdf",
+            "PtdmCdfTensor",
+            "PtdmIcdf",
+            "PtdmIcdfTensor",
+            "PtdmLogProb",
+            "PtdmLogProbTensor",
+            "PtdmPdf",
+            "PtdmPdfTensor",
+            "PtdmPmf",
+            "PtdmPmfTensor",
+            "PtdmSample",
+            "PtfGELU",
+            "PtfLeakyReLU",
+            "PtfLogSoftmax",
+            "PtfReLU",
+            "PtfSiLU",
+            "PtfSigmoid",
+            "PtfSoftmax",
+            "PtfSoftplus",
+            "PtfTanh",
+            "PtnAvgPool2d",
+            "PtnBCELoss",
+            "PtnBCEWithLogitsLoss",
+            "PtnBatchNorm2d",
+            "PtnChainedModel",
+            "PtnChainedModelWithAttentionMask",
+            "PtnConv2d",
+            "PtnConvModel",
+            "PtnCrossEntropyLoss",
+            "PtnEmbedding",
+            "PtnEmbeddingRNNLinear",
+            "PtnEmbeddingTransformerLinear",
+            "PtnGRU",
+            "PtnGRULinear",
+            "PtnHfFineTunedClassificationModel",
+            "PtnHfLoraClassificationModel",
+            "PtnHuberLoss",
+            "PtnInstanceNorm2d",
+            "PtnKLDivLoss",
+            "PtnL1Loss",
+            "PtnLSTM",
+            "PtnLSTMLinear",
+            "PtnLayerNorm",
+            "PtnLinear",
+            "PtnLinearModel",
+            "PtnMSELoss",
+            "PtnMaskedMeanPooling",
+            "PtnMaxPool2d",
+            "PtnModelWithClosure",
+            "PtnMultiheadAttention",
+            "PtnMultiheadAttentionCustom",
+            "PtnNLLLoss",
+            "PtnPreAddChannelAxis",
+            "PtnPreFlatten",
+            "PtnRNN",
+            "PtnRNNLinear",
+            "PtnResidualConnectionModel",
+            "PtnResidualConnectionModelWithAttentionMask",
+            "PtnResnetModel",
+            "PtnSmoothL1Loss",
+            "PtoAdam",
+            "PtoAdamW",
+            "PtoLrSchedulerCosineAnnealing",
+            "PtoLrSchedulerReduceOnPlateau",
+            "PtoLrSchedulerStep",
+            "PtoSGD",
+            "PtoSimple",
+            "PtvDataset",
+            "PtvDatasetLen",
+            "PtvDatasetLoader",
+            "PtvHfDatasetWithTokenEncode",
+            "PtvHfGloveDataset",
+            "PtvHfLocalDataset",
+            "PtvImageFolderDataset",
+            "PtvSequentialTensorDataset",
+            "PtvTransformsDataAugment",
+            "PtvTransformsResize",
+            "PtvTransformsToTensor",
+            "SpEncode",
+            "SpLoadModel"
+        ],
+        {
+            "title_aux": "ComfyUI-Pt-Wrapper"
         }
     ],
     "https://github.com/Hullabalo/ComfyUI-Loop": [
@@ -10129,6 +10598,15 @@
             "title_aux": "Danbooru FAISS Search Nodes"
         }
     ],
+    "https://github.com/L33chKing/ComfyUI_Channel_Ops": [
+        [
+            "ChannelOpsNode",
+            "LayerBlendingNode"
+        ],
+        {
+            "title_aux": "ComfyUI Channel Ops"
+        }
+    ],
     "https://github.com/L33chKing/comfyui-tag-frequency-weighter": [
         [
             "TagFrequencyWeighter"
@@ -10363,6 +10841,30 @@
         ],
         {
             "title_aux": "ComfyUI-Texturaizer"
+        }
+    ],
+    "https://github.com/Laurent2916/comfyui-piq": [
+        [
+            "ContentScore",
+            "DISTS",
+            "DSS",
+            "FSIM",
+            "GMSD",
+            "HaarPSI",
+            "IW-SSIM",
+            "LPIPS",
+            "MDSI",
+            "MS-SSIM",
+            "MSGMSD",
+            "PSNR",
+            "PieAPP",
+            "SRSIM",
+            "SSIM",
+            "StyleScore",
+            "VIFp"
+        ],
+        {
+            "title_aux": "comfyui-piq"
         }
     ],
     "https://github.com/Lavah000/ComfyUI-AdvGenPack": [
@@ -10644,6 +11146,36 @@
         ],
         {
             "title_aux": "ComfyUI Level Pixel Advanced"
+        }
+    ],
+    "https://github.com/Lex-DRL/ComfyUI-BestResolution": [
+        [
+            "BestResolutionFromArea",
+            "BestResolutionFromAreaUpscale",
+            "BestResolutionFromAspectRatio",
+            "BestResolutionPrimCropPadStrategy",
+            "BestResolutionPrimResPriority",
+            "BestResolutionScale",
+            "BestResolutionSimple",
+            "BestResolutionUpscaledCropPad",
+            "ImageUpscaleByWithModel"
+        ],
+        {
+            "title_aux": "Best Resolution"
+        }
+    ],
+    "https://github.com/Lex-DRL/ComfyUI-StringConstructor": [
+        [
+            "StringConstructorDictAddAny",
+            "StringConstructorDictAddString",
+            "StringConstructorDictExtractString",
+            "StringConstructorDictFromText",
+            "StringConstructorDictPreview",
+            "StringConstructorFormatter",
+            "StringConstructorValidateKeys"
+        ],
+        {
+            "title_aux": "String Constructor (Text-Formatting)"
         }
     ],
     "https://github.com/Lhyejin/ComfyUI-Fill-Image-for-Outpainting": [
@@ -12198,6 +12730,17 @@
         ],
         {
             "title_aux": "ComfyUI-NS-Util"
+        }
+    ],
+    "https://github.com/NeoDroleDeGueule/NDDG_Great_Nodes": [
+        [
+            "GreatConditioningModifier",
+            "GreatRandomOrganicGradientNode",
+            "ImageBlendNode",
+            "InteractiveOrganicGradientNode"
+        ],
+        {
+            "title_aux": "NDDG_Great_Nodes"
         }
     ],
     "https://github.com/NeoGriever/ComfyUI-NeoGriever": [
@@ -16065,6 +16608,7 @@
             "StarEasyTextStorage",
             "StarFiveWildcards",
             "StarFrameFromVideo",
+            "StarGeminiRefiner",
             "StarGridCaptionsBatcher",
             "StarGridComposer",
             "StarGridImageBatcher",
@@ -18215,6 +18759,14 @@
             "title_aux": "ComfyUI_CheckVprediction"
         }
     ],
+    "https://github.com/Windecay/ComfyUI_Dynamic-RAMCache": [
+        [
+            "DynamicRAMCacheControl"
+        ],
+        {
+            "title_aux": "ComfyUI_Dynamic-RAMCache"
+        }
+    ],
     "https://github.com/WingeD123/ComfyUI_QwenVL_PromptCaption": [
         [
             "Qwen25Caption",
@@ -19996,6 +20548,16 @@
             "title_aux": "comfyui-labs-google"
         }
     ],
+    "https://github.com/aining2022/ComfyUI_Swwan": [
+        [
+            "LayerUtility: CropByMask V2",
+            "LayerUtility: ImageScaleByAspectRatio V2",
+            "LayerUtility: RestoreCropBox"
+        ],
+        {
+            "title_aux": "ComfyUI_Swwan"
+        }
+    ],
     "https://github.com/aisabervisionlab/ComfyUI_merge_ASVL": [
         [
             "ASVL"
@@ -20146,6 +20708,14 @@
             "nickname": "X-Portrait Nodes",
             "title": "X-Portrait Nodes",
             "title_aux": "ComfyUI-X-Portrait-Nodes"
+        }
+    ],
+    "https://github.com/akawana/ComfyUI-Keybinding-extra": [
+        [
+            "TextCleanerSplitter"
+        ],
+        {
+            "title_aux": "Keybinding Extra"
         }
     ],
     "https://github.com/akierson/ComfyUI-textnodes": [
@@ -20479,6 +21049,35 @@
             "title_aux": "ComfyUI-XJNodes"
         }
     ],
+    "https://github.com/alexopus/ComfyUI-Image-Saver": [
+        [
+            "Cfg Literal (Image Saver)",
+            "Checkpoint Loader with Name (Image Saver)",
+            "Civitai Hash Fetcher (Image Saver)",
+            "Conditioning Concat Optional (Image Saver)",
+            "Float Literal (Image Saver)",
+            "Image Saver",
+            "Image Saver Metadata",
+            "Image Saver Simple",
+            "Input Parameters (Image Saver)",
+            "Int Literal (Image Saver)",
+            "Sampler Selector (Image Saver)",
+            "SamplerToString (Image Saver)",
+            "Scheduler Selector (Eff.) (Image Saver)",
+            "Scheduler Selector (Image Saver)",
+            "Scheduler Selector (inspire) (Image Saver)",
+            "SchedulerEfficiencyToString (Image Saver)",
+            "SchedulerInspireToString (Image Saver)",
+            "SchedulerToString (Image Saver)",
+            "Seed Generator (Image Saver)",
+            "String Literal (Image Saver)",
+            "UNet loader with Name (Image Saver)",
+            "Width/Height Literal (Image Saver)"
+        ],
+        {
+            "title_aux": "ComfyUI Image Saver"
+        }
+    ],
     "https://github.com/alibof96/ComfyUI-DownscaleIRN": [
         [
             "IRNDownscale"
@@ -20649,7 +21248,6 @@
             "ArchAi3D_Clean_Room_Prompt",
             "ArchAi3D_Color_Correction_Advanced",
             "ArchAi3D_Color_Correction_BT709",
-            "ArchAi3D_GRAG_Modifier",
             "ArchAi3D_Mask_Crop_Rotate",
             "ArchAi3D_Mask_To_Position_Guide",
             "ArchAi3D_Object_Focus_Camera",
@@ -20671,7 +21269,6 @@
             "ArchAi3D_Qwen_Exterior_Focus",
             "ArchAi3D_Qwen_Exterior_Navigation",
             "ArchAi3D_Qwen_Exterior_View_Control",
-            "ArchAi3D_Qwen_GRAG_Encoder",
             "ArchAi3D_Qwen_Image_Scale",
             "ArchAi3D_Qwen_Interior_Focus",
             "ArchAi3D_Qwen_Interior_Navigation",
@@ -22655,6 +23252,14 @@
             "title_aux": "Save Image with Selective Metadata"
         }
     ],
+    "https://github.com/brucew4yn3rp/ComfyUI_VintageEffect": [
+        [
+            "Vintage Effect"
+        ],
+        {
+            "title_aux": "Vintage Effect"
+        }
+    ],
     "https://github.com/bruefire/ComfyUI-SeqImageLoader": [
         [
             "VFrame Loader With Mask Editor",
@@ -22989,8 +23594,10 @@
             "AI_GLM4",
             "AI_Ollama_image",
             "AI_Ollama_text",
-            "AI_PromptSave",
+            "AI_PresetSave",
             "AI_Qwen",
+            "AI_Qwen_text",
+            "Ai_Ollama_RunModel",
             "Amp_audio_Normalized",
             "Amp_drive_String",
             "Amp_drive_mask",
@@ -23006,7 +23613,6 @@
             "Data_sampleData",
             "Data_select",
             "Easy_QwenEdit2509",
-            "IO_adjust_image",
             "IO_clear_cache",
             "IO_getFilePath",
             "IO_image_select",
@@ -23022,6 +23628,7 @@
             "IPA_clip_vision",
             "Image_Channel_Apply",
             "Image_CnMapMix",
+            "Image_CnMap_Resize",
             "Image_Detail_HL_frequencye",
             "Image_Pair_Merge",
             "Image_Pair_crop",
@@ -23031,18 +23638,18 @@
             "Image_Resize_sum_data",
             "Image_Resize_sum_restore",
             "Image_Solo_data",
-            "Image_Upscaletile",
+            "Image_UpscaleModel",
             "Image_batch_composite",
             "Image_batch_select",
+            "Image_merge2image",
             "Image_pad_adjust",
             "Image_pad_adjust_restore",
             "Image_pad_keep",
+            "Image_precision_Converter",
             "Image_smooth_blur",
             "Image_solo_crop",
             "Image_solo_stitch",
             "Image_target_adjust",
-            "Image_tensor_Converter",
-            "Image_transform_crop",
             "Image_transform_layer",
             "Mask_Detect_label",
             "Mask_Remove_bg",
@@ -23177,6 +23784,7 @@
             "flow_case_tentor",
             "flow_judge",
             "flow_low_gpu",
+            "flow_sch_control",
             "flow_switch",
             "img_effect_CircleWarp",
             "img_effect_Liquify",
@@ -23185,12 +23793,10 @@
             "img_effect_WaveWarp",
             "latent_Image2Noise",
             "latent_chx_noise",
-            "latent_ratio",
             "lay_ImageGrid",
             "lay_MaskGrid",
             "lay_edge_cut",
             "lay_image_grid_note",
-            "lay_image_mul",
             "lay_imgCanvas",
             "lay_mul_image",
             "lay_text_sum",
@@ -23198,14 +23804,11 @@
             "list_MergeList",
             "list_Value",
             "list_num_range",
-            "load_FLUX",
             "load_GGUF",
             "load_Nanchaku",
-            "load_basic",
             "math_Remap_data",
             "math_calculate",
             "model_Style_Align",
-            "model_adjust_color",
             "model_tool_assy",
             "pack_Pack",
             "pack_Unpack",
@@ -23217,10 +23820,9 @@
             "pre_Kontext",
             "pre_Kontext_mul_Image",
             "pre_Kontext_mul_mask",
-            "pre_MulCondiMode",
             "pre_QwenEdit",
             "pre_USO",
-            "pre_condi_combine_switch",
+            "pre_advanced_condi_merge",
             "pre_controlnet",
             "pre_controlnet_union",
             "pre_guide",
@@ -23255,6 +23857,7 @@
             "sum_stack_Wan",
             "sum_stack_all",
             "sum_stack_image",
+            "text_Qwen_camera",
             "text_SuperPrompter",
             "text_free_wildcards",
             "text_list_combine",
@@ -23286,7 +23889,6 @@
             "view_bridge_Text",
             "view_bridge_image",
             "view_combo",
-            "view_latent",
             "view_mask",
             "view_node_Script"
         ],
@@ -23356,18 +23958,6 @@
             "title_aux": "Text Node With Comments (@cdxoo)"
         }
     ],
-    "https://github.com/cedarconnor/ComfyUI-DiT360": [
-        [
-            "Equirect360EdgeBlender",
-            "Equirect360EmptyLatent",
-            "Equirect360KSampler",
-            "Equirect360VAEDecode",
-            "Equirect360Viewer"
-        ],
-        {
-            "title_aux": "ComfyUI-DiT360"
-        }
-    ],
     "https://github.com/cedarconnor/ComfyUI-DreamCube": [
         [
             "ApplyDepthToCubemapFace",
@@ -23388,17 +23978,6 @@
         ],
         {
             "title_aux": "ComfyUI-DreamCube"
-        }
-    ],
-    "https://github.com/cedarconnor/ComfyUI-OmniX": [
-        [
-            "OmniX_PanoPerception_Depth",
-            "OmniX_PanoPerception_Normal",
-            "OmniX_PanoPerception_PBR",
-            "OmniX_PanoPerception_Semantic"
-        ],
-        {
-            "title_aux": "ComfyUI-OmniX"
         }
     ],
     "https://github.com/cedarconnor/comfyui-BatchNameLoop": [
@@ -25880,6 +26459,14 @@
             "title_aux": "ComfyUI-Topaz-Upscaler"
         }
     ],
+    "https://github.com/comrender/ComfyUI-edge-match-checker": [
+        [
+            "EdgeMatchChecker"
+        ],
+        {
+            "title_aux": "ComfyUI-edge-match-checker"
+        }
+    ],
     "https://github.com/comrender/ComfyUI-gpt5_image_text": [
         [
             "GPT5ImageText"
@@ -27378,14 +27965,6 @@
             "title_aux": "ComfyUI Deadline Submission"
         }
     ],
-    "https://github.com/dowa-git/comfyui-dowa": [
-        [
-            "DowaNavigationNode"
-        ],
-        {
-            "title_aux": "comfyui-dowa"
-        }
-    ],
     "https://github.com/downlifted/ComfyUI_GROQ-PromptWizard": [
         [
             "GroqAudioProcessor",
@@ -28181,6 +28760,15 @@
         ],
         {
             "title_aux": "ComfyUI-EZ-AF-Nodes"
+        }
+    ],
+    "https://github.com/facefusion/facefusion-comfyui": [
+        [
+            "SwapFaceImage",
+            "SwapFaceVideo"
+        ],
+        {
+            "title_aux": "FaceFusion ComfyUI"
         }
     ],
     "https://github.com/facok/ComfyUI-HunyuanVideoMultiLora": [
@@ -31178,8 +31766,8 @@
     ],
     "https://github.com/hum-ma/ComfyUI-TiledVaeLite": [
         [
-            "Set VAE Decoder Noise",
-            "TiledVAEDecode"
+            "DecoderNoise",
+            "LTTiledVAEDecode"
         ],
         {
             "title_aux": "ComfyUI-TiledVaeLite"
@@ -31225,9 +31813,15 @@
     ],
     "https://github.com/huyl3-cpu/comfyui-sortlist": [
         [
+            "image_to_sha256",
             "sort_list_string",
+            "steg_alpha_embed",
+            "steg_alpha_extract",
+            "steg_rgb_embed",
+            "steg_rgb_extract",
             "string_clear_if_contains",
-            "video_dir_combiner"
+            "video_dir_combiner_ultra",
+            "video_scene_splitter"
         ],
         {
             "title_aux": "comfyui-huyl2-nodes"
@@ -36569,6 +37163,14 @@
             "title_aux": "comfyui_wildcards"
         }
     ],
+    "https://github.com/lovisdotio/ComfyUI-Replace-First-Frame-Last-Frame": [
+        [
+            "ReplaceFirstLastFrames"
+        ],
+        {
+            "title_aux": "ComfyUI-Replace-First-Frame-Last-Frame"
+        }
+    ],
     "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch": [
         [
             "InpaintCrop",
@@ -38694,6 +39296,34 @@
         ],
         {
             "title_aux": "SeedVR2 Tiling Upscaler"
+        }
+    ],
+    "https://github.com/morino-kumasan/comfyui-toml-prompt": [
+        [
+            "CheckPointLoaderSimpleFromString",
+            "IntSelector",
+            "JsonExtractFloat",
+            "JsonExtractInt",
+            "JsonExtractString",
+            "KSamplerFromJsonInfo",
+            "LatentSelector",
+            "LoadLoraFromLoraList",
+            "MultipartCLIPTextEncode",
+            "MultipleLoraTagLoader",
+            "PromptDecode",
+            "PromptLoader",
+            "SeedGenerator",
+            "SplitLoraList",
+            "StringConcat",
+            "StringConcatInt",
+            "StringPicker",
+            "StringSelector",
+            "StringViewer",
+            "SummaryReader",
+            "TomlPromptDecode"
+        ],
+        {
+            "title_aux": "comfyui-toml-prompt"
         }
     ],
     "https://github.com/moustafa-nasr/ComfyUI-SimpleLogger": [
@@ -42480,7 +43110,8 @@
             "ImageCropper",
             "TextInput",
             "TextScraper",
-            "TextStorage",
+            "TextStorageReader",
+            "TextStorageWriter",
             "WildcardsNode"
         ],
         {
@@ -42619,6 +43250,7 @@
     "https://github.com/ru4ls/ComfyUI_Nano_Banana": [
         [
             "NanoBanana",
+            "NanoBananaAIO",
             "NanoBananaGrounding"
         ],
         {
@@ -43773,11 +44405,6 @@
     ],
     "https://github.com/silveroxides/ComfyUI-ModelUtils": [
         [
-            "CLIPMetaKeys",
-            "CLIPPruneKeys",
-            "CLIPRenameKeys",
-            "CLIPThreeMerger",
-            "CLIPTwoMerger",
             "CheckpointMetaKeys",
             "CheckpointPruneKeys",
             "CheckpointRenameKeys",
@@ -43793,14 +44420,27 @@
             "LoRARenameKeys",
             "LoRAThreeMerger",
             "LoRATwoMerger",
-            "UNetMetaKeys",
-            "UNetPruneKeys",
-            "UNetRenameKeys",
-            "UNetThreeMerger",
-            "UNetTwoMerger"
+            "ModelMetaKeys",
+            "ModelPruneKeys",
+            "ModelRenameKeys",
+            "ModelThreeMerger",
+            "ModelTwoMerger",
+            "TextEncoderMetaKeys",
+            "TextEncoderPruneKeys",
+            "TextEncoderRenameKeys",
+            "TextEncoderThreeMerger",
+            "TextEncoderTwoMerger"
         ],
         {
             "title_aux": "Model Utility Toolkit"
+        }
+    ],
+    "https://github.com/silveroxides/ComfyUI-RR-JointTagger": [
+        [
+            "RRJointTagger|redrocket"
+        ],
+        {
+            "title_aux": "ComfyUI-RR-JointTagger"
         }
     ],
     "https://github.com/silveroxides/ComfyUI_EmbeddingToolkit": [
@@ -43960,6 +44600,7 @@
     "https://github.com/siraxe/ComfyUI-WanVideoWrapper_QQ": [
         [
             "CheckpointLoader_v2",
+            "CreateImageList",
             "HolocineFrames",
             "ImageBlend_GPU",
             "ImageRadialZoomBlur_GPU",
@@ -45693,6 +46334,15 @@
             "title_aux": "ComfyUI-ImageTransformer"
         }
     ],
+    "https://github.com/techzuhaib/FaceCLIP-ComfyUI": [
+        [
+            "FaceCLIPSDXLGenerate",
+            "FaceCLIPTextImageEncode"
+        ],
+        {
+            "title_aux": "FaceCLIP-ComfyUI"
+        }
+    ],
     "https://github.com/teepunkt-esspunkt/ComfyUI-SuiteTea": [
         [
             "Tea_ImageCheckpointFromPath",
@@ -46473,6 +47123,25 @@
         ],
         {
             "title_aux": "ComfyUI-Tensor-Operations"
+        }
+    ],
+    "https://github.com/tuki0918/comfyui-image-expand-nodes": [
+        [
+            "ImageExpandMerger",
+            "ImageExpandNoiser",
+            "ImageExpandOption"
+        ],
+        {
+            "title_aux": "comfyui-image-expand-nodes"
+        }
+    ],
+    "https://github.com/tuki0918/comfyui-image-tiled-nodes": [
+        [
+            "TiledImageMerger",
+            "TiledImageSplitter"
+        ],
+        {
+            "title_aux": "comfyui-image-tiled-nodes"
         }
     ],
     "https://github.com/tungdop2/Comfyui_face_restorer": [
@@ -49246,9 +49915,15 @@
             "KY_CreateVideoObjectFromPath",
             "KY_CropImageByXYWH",
             "KY_Eval_Python",
+            "KY_FFmpegAddAudio",
+            "KY_FFmpegCustomCmd",
+            "KY_FFmpegImagesToVideo",
+            "KY_FFmpegTrimVideo",
+            "KY_FFmpegVideoToImages",
             "KY_FilePathAnalyzer-",
             "KY_FileSequenceAnalyzer",
             "KY_First_NOT_EMPTY",
+            "KY_GetFromPath",
             "KY_ImageCropByBBox",
             "KY_JSONToBBox",
             "KY_JoinToString",
@@ -49354,6 +50029,14 @@
         ],
         {
             "title_aux": "HunyuanVideo-1.5 nodes"
+        }
+    ],
+    "https://github.com/yukascomfy/ATI_AudioReactive": [
+        [
+            "AudioReactivePathAnimator"
+        ],
+        {
+            "title_aux": "ATI_AudioReactive"
         }
     ],
     "https://github.com/yushan777/ComfyUI-Y7-SBS-2Dto3D": [

@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "K1maran",
+            "title": "ComfyUI-Kimaran",
+            "reference": "https://github.com/K1maran/ComfyUI-Kimaran",
+            "files": [
+                "https://github.com/K1maran/ComfyUI-Kimaran"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for preset latent image generation including EmptyLatentImagePresetsAIO, FLUX, QWEN, and SD1.5 variants. (Description by CC)"
+        },
+        {
+            "author": "silveroxides",
+            "title": "ComfyUI_LoHalo",
+            "reference": "https://github.com/silveroxides/ComfyUI_LoHalo",
+            "files": [
+                "https://github.com/silveroxides/ComfyUI_LoHalo"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI upscaling node package with Lohalo high-fidelity scaling and kernel-based image enhancement capabilities. (Description by CC)"
+        },
+        {
+            "author": "jorin91",
+            "title": "ComfyUI-JSG-Utils [UNSAFE]",
+            "reference": "https://github.com/jorin91/ComfyUI-JSG-Utils",
+            "files": [
+                "https://github.com/jorin91/ComfyUI-JSG-Utils"
+            ],
+            "install_type": "git-clone",
+            "description": "Utility nodes for ComfyUI including file operations, recursive image finding, and path parsing. (Description by CC)[w/This nodepack contains a vulnerability that allows remote deletion of files at arbitrary paths.]"
+        },
+        {
+            "author": "vadimcro",
+            "title": "External-Image-Revised-with-MASK",
+            "reference": "https://github.com/vadimcro/External-Image-Revised-with-MASK",
+            "files": [
+                "https://github.com/vadimcro/External-Image-Revised-with-MASK"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI external image node with mask support for image composition and masking workflows. (Description by CC)"
+        },
+        {
+            "author": "martinken",
+            "title": "ComfyUI-KMNodes",
+            "reference": "https://github.com/martinken/ComfyUI-KMNodes",
+            "files": [
+                "https://github.com/martinken/ComfyUI-KMNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: KM_Aspect_Ratio_Selector, KM_Color_Correct, KM_Downscale_Image, KM_Merge_Images, KM_Safe_Mask_Bounds, KM_Safe_SEGS_Bounds, KM_Video_Image_Color_Match, KM_WanVideoToVideo, WanImageToVide, ..."
+        },
+        {
             "author": "sahibalejandro",
             "title": "ComfyUI Sahib Nodes",
             "reference": "https://github.com/sahibalejandro/comfyui-sahib-nodes",
@@ -1341,16 +1391,6 @@
             ],
             "install_type": "git-clone",
             "description": "Created by BizaNator for the BrainDeadGuild community. These professional-grade character editing tools for ComfyUI specialize in identity preservation and multi-reference image control.\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "cedarconnor",
-            "title": "ComfyUI-GEN3C-Gsplat [WIP]",
-            "reference": "https://github.com/cedarconnor/ComfyUI-GEN3C-Gsplat",
-            "files": [
-                "https://github.com/cedarconnor/ComfyUI-GEN3C-Gsplat"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node pack that bridges Cosmos/GEN3C video generation with in-graph Gaussian Splat (3DGS) training. It adds camera/trajectory tooling, dataset exporters, and two training backends (Nerfstudio CLI wrapper and an in-process gsplat optimizer) so artists can go from prompt to splat entirely inside ComfyUI.\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "sk-palani",

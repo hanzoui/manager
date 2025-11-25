@@ -1,6 +1,116 @@
 {
     "custom_nodes": [
         {
+            "author": "comrender",
+            "title": "ComfyUI-edge-match-checker",
+            "reference": "https://github.com/comrender/ComfyUI-edge-match-checker",
+            "files": [
+                "https://github.com/comrender/ComfyUI-edge-match-checker"
+            ],
+            "install_type": "git-clone",
+            "description": "Node comparing two image masks or images with adjustable overlap threshold (default 95%) for detecting minor shifts and mismatches in proportions, suitable for automated post-processing validation. (Description by CC)"
+        },
+        {
+            "author": "lovisdotio",
+            "title": "ComfyUI-Replace-First-Frame-Last-Frame",
+            "reference": "https://github.com/lovisdotio/ComfyUI-Replace-First-Frame-Last-Frame",
+            "files": [
+                "https://github.com/lovisdotio/ComfyUI-Replace-First-Frame-Last-Frame"
+            ],
+            "install_type": "git-clone",
+            "description": "Replace the first and last frames of an image sequence in ComfyUI. Auto-resizes frames to match video dimensions, handles batches, and adjusts parameters if needed."
+        },
+        {
+            "author": "FuryNocturn",
+            "title": "ComfyUI-Dummy_Node_Pack",
+            "reference": "https://github.com/FuryNocturn/ComfyUI-Dummy_Node_Pack",
+            "files": [
+                "https://github.com/FuryNocturn/ComfyUI-Dummy_Node_Pack"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node pack creating fake/dummy nodes to replace missing, obsolete, or cloud-specific nodes, allowing legacy workflows to load visually without errors while preserving connections. (Description by CC)"
+        },
+        {
+            "author": "yukascomfy",
+            "title": "ATI_AudioReactive",
+            "reference": "https://github.com/yukascomfy/ATI_AudioReactive",
+            "files": [
+                "https://github.com/yukascomfy/ATI_AudioReactive"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI audio-reactive animation node combining RyanOnTheInside's reactive features with Fillip's path animation for creating audio-driven visual animations. (Description by CC)"
+        },
+        {
+            "author": "techzuhaib",
+            "title": "FaceCLIP-ComfyUI",
+            "reference": "https://github.com/techzuhaib/FaceCLIP-ComfyUI",
+            "files": [
+                "https://github.com/techzuhaib/FaceCLIP-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "FaceCLIP nodes for ComfyUI providing joint embeddings from aligned face images plus text prompts, and identity-preserving image synthesis using fine-tuned SDXL UNet. (Description by CC)"
+        },
+        {
+            "author": "Windecay",
+            "title": "ComfyUI_Dynamic-RAMCache",
+            "reference": "https://github.com/Windecay/ComfyUI_Dynamic-RAMCache",
+            "files": [
+                "https://github.com/Windecay/ComfyUI_Dynamic-RAMCache"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that dynamically manages RAM usage by intelligently controlling cache purging based on available system memory."
+        },
+        {
+            "author": "tuki0918",
+            "title": "comfyui-image-expand-nodes",
+            "reference": "https://github.com/tuki0918/comfyui-image-expand-nodes",
+            "files": [
+                "https://github.com/tuki0918/comfyui-image-expand-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for ComfyUI to expand images with noise for outpainting or inpainting purposes. This allows for seamless image extension in any direction."
+        },
+        {
+            "author": "tuki0918",
+            "title": "comfyui-image-tiled-nodes",
+            "reference": "https://github.com/tuki0918/comfyui-image-tiled-nodes",
+            "files": [
+                "https://github.com/tuki0918/comfyui-image-tiled-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes that split large images into overlapping tiles for processing and merge them back seamlessly with feathering blending. (Description by CC)"
+        },
+        {
+            "author": "NeoDroleDeGueule",
+            "title": "NDDG_Great_Nodes",
+            "reference": "https://github.com/NeoDroleDeGueule/NDDG_Great_Nodes",
+            "files": [
+                "https://github.com/NeoDroleDeGueule/NDDG_Great_Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NDDG Great Nodes - ComfyUI custom nodes featuring Great Conditioning Modifier with advanced semantic drift, token dropout, gradient amplification and other conceptual manipulation tools. (Description by CC)"
+        },
+        {
+            "author": "EnragedAntelope",
+            "title": "ComfyUI_EasyRegion",
+            "reference": "https://github.com/EnragedAntelope/ComfyUI_EasyRegion",
+            "files": [
+                "https://github.com/EnragedAntelope/ComfyUI_EasyRegion"
+            ],
+            "install_type": "git-clone",
+            "description": "Control different parts of your image with separate prompts using visual box drawing."
+        },
+        {
+            "author": "aining2022",
+            "title": "ComfyUI_Swwan",
+            "reference": "https://github.com/aining2022/ComfyUI_Swwan",
+            "files": [
+                "https://github.com/aining2022/ComfyUI_Swwan"
+            ],
+            "install_type": "git-clone",
+            "description": "Collection of image processing utility nodes for ComfyUI including intelligent cropping, aspect ratio scaling, and crop box restoration capabilities. (Description by CC)"
+        },
+        {
             "author": "brucew4yn3rp",
             "title": "Vintage Effect",
             "id": "VintageEffect",
@@ -583,116 +693,6 @@
             ],
             "install_type": "git-clone",
             "description": "View Image Metadata of ComfyUI as well as of ForgeUI or Automatic 1111 generated images in Easily Readable Format"
-        },
-        {
-            "author": "mister_link",
-            "title": "Link Comfy Nodes",
-            "reference": "https://github.com/Mister-Link/link-comfy-nodes",
-            "files": [
-                "https://github.com/Mister-Link/link-comfy-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom ComfyUI nodes by Mister-Link, including color parsing, frame calculation, and utility nodes for enhanced workflow capabilities."
-        },
-        {
-            "author": "jonstreeter",
-            "title": "Reference-Based Video Colorization",
-            "reference": "https://github.com/jonstreeter/ComfyUI-Reference-Based-Video-Colorization",
-            "files": [
-                "https://github.com/jonstreeter/ComfyUI-Reference-Based-Video-Colorization"
-            ],
-            "install_type": "git-clone",
-            "description": "Dual implementation of reference-based video colorization featuring ColorMNet (2024) with DINOv2 and Deep Exemplar (2019). Includes 4 nodes (2 video, 2 image), multiple feature encoders (VGG19, DINOv2, CLIP), advanced post-processing (color-matcher, WLS, guided, bilateral), and auto-installer for dependencies."
-        },
-        {
-            "author": "comrender",
-            "title": "ComfyUI-Topaz-Upscaler",
-            "reference": "https://github.com/comrender/ComfyUI-Topaz-Upscaler",
-            "files": [
-                "https://github.com/comrender/ComfyUI-Topaz-Upscaler"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that integrates the Topaz Labs API for AI-powered image upscaling and enhancement."
-        },
-        {
-            "author": "Fablestarexpanse",
-            "title": "Timer-Node-Comfyui",
-            "reference": "https://github.com/Fablestarexpanse/Timer-Node-Comfyui",
-            "files": [
-                "https://github.com/Fablestarexpanse/Timer-Node-Comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node that displays live processing time in a red digital countdown clock format, perfect for monitoring image generation times and tracking performance between workflow nodes."
-        },
-        {
-            "author": "liming123332",
-            "title": "ComfyUI-Ranbooru",
-            "reference": "https://github.com/liming123332/ComfyUI-Ranbooru",
-            "files": [
-                "https://github.com/liming123332/ComfyUI-Ranbooru"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom node that migrates WebUI Forge's Ranbooru plugin to ComfyUI, enabling searches across Booru sites to generate positive/negative prompts with tag cleaning, rating sorting, and caching support. (Description by CC)"
-        },
-        {
-            "author": "SilentZhang",
-            "title": "comfyui-encrypt",
-            "reference": "https://github.com/SilentZhang/comfyui-encrypt",
-            "files": [
-                "https://github.com/SilentZhang/comfyui-encrypt"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom nodes for RSA image encryption using asymmetric cryptography with key generation, encryption, and decryption functions via the cryptography library. (Description by CC)"
-        },
-        {
-            "author": "pznodes",
-            "title": "ComfyUI-DepthAnythingV3",
-            "reference": "https://github.com/PozzettiAndrea/ComfyUI-DepthAnythingV3",
-            "files": [
-                "https://github.com/PozzettiAndrea/ComfyUI-DepthAnythingV3"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes to use Depth Anything V3 - the latest depth estimation model from ByteDance. For now monocular depth, camera pose estimation and 3D point clouds/gaussians are supported. Models autodownload from HuggingFace (depth-anything org). This is a first draft, let me know if you have any feedback! :)"
-        },
-        {
-            "author": "Koratahiu",
-            "title": "ComfyUI-OFTv2",
-            "reference": "https://github.com/Koratahiu/ComfyUI-OFTv2",
-            "files": [
-                "https://github.com/Koratahiu/ComfyUI-OFTv2"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node to support and load OFTv2 adapters"
-        },
-        {
-            "author": "GeekatplayStudio",
-            "title": "ComfyUI-Text2Speech",
-            "reference": "https://github.com/GeekatplayStudio/ComfyUI-Text2Speech",
-            "files": [
-                "https://github.com/GeekatplayStudio/ComfyUI-Text2Speech"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node for text-to-speech integration with a local TTS server."
-        },
-        {
-            "author": "alankent",
-            "title": "OA 360 Clip",
-            "reference": "https://github.com/alankent/ComfyUI-OA-360-Clip",
-            "files": [
-                "https://github.com/alankent/ComfyUI-OA-360-Clip"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node for extracting perspective views from 360 degree equirectangular images with an interactive drag-and-drop crop interface."
-        },
-        {
-            "author": "GraftingRayman",
-            "title": "ComfyUI Visual Dimension Selector",
-            "reference": "https://github.com/GraftingRayman/ComfyUI-Dimension-Selector",
-            "files": [
-                "https://github.com/GraftingRayman/ComfyUI-Dimension-Selector"
-            ],
-            "install_type": "git-clone",
-            "description": "A visual ComfyUI latent canvas dimensions selector"
         }
     ]
 }

@@ -2200,6 +2200,18 @@
             "title_aux": "ComfyUI-Arduino [WIP]"
         }
     ],
+    "https://github.com/K1maran/ComfyUI-Kimaran": [
+        [
+            "EmptyLatentImagePresetsAIO",
+            "EmptyLatentImagePresetsFLUX",
+            "EmptyLatentImagePresetsQWEN",
+            "EmptyLatentImagePresetsSD15",
+            "KSamplerSetup"
+        ],
+        {
+            "title_aux": "ComfyUI-Kimaran"
+        }
+    ],
     "https://github.com/KERRY-YUAN/ComfyUI_Python_Executor": [
         [
             "NodePython"
@@ -3417,8 +3429,6 @@
             "SMPLToFBX",
             "SMPLViewer",
             "SMPLtoBVH",
-            "SMPLtoBVH_NoCollar",
-            "SMPLtoBVH_TPose",
             "SaveSMPL"
         ],
         {
@@ -4723,6 +4733,7 @@
             "PipemindFlux2MAspectRatio",
             "PipemindLoraLoader",
             "PipemindMultilineTextInput",
+            "PipemindQwenAspectRatio",
             "PipemindSDXL15AspectRatio",
             "PipemindSaveImageWTxt",
             "PipemindShowText",
@@ -5349,6 +5360,19 @@
             "title_aux": "BigModelPipe [WIP]"
         }
     ],
+    "https://github.com/barakapa/barakapa-nodes": [
+        [
+            "brkp_ConcatenateString",
+            "brkp_ConvertToString",
+            "brkp_CountTokens",
+            "brkp_DirectoryImageCounter",
+            "brkp_SaveImage",
+            "brkp_SaveWorkflow"
+        ],
+        {
+            "title_aux": "barakapa-nodes"
+        }
+    ],
     "https://github.com/basenc/Comfyui-EnvVarNode": [
         [
             "EnvVarNode"
@@ -5760,22 +5784,6 @@
         ],
         {
             "title_aux": "ComfyUI-Pixelsmith [WIP]"
-        }
-    ],
-    "https://github.com/cedarconnor/ComfyUI-GEN3C-Gsplat": [
-        [
-            "CosmosGen3CImageToVideoLatent",
-            "CosmosGen3CLatentVideo",
-            "CosmosImageToVideoLatent",
-            "CosmosPredict2ImageToVideoLatent",
-            "EmptyCosmosLatentVideo",
-            "Gen3CDiffusion",
-            "Gen3C_Export",
-            "Gen3C_PoseRecovery",
-            "Gen3C_Quality"
-        ],
-        {
-            "title_aux": "ComfyUI-GEN3C-Gsplat [WIP]"
         }
     ],
     "https://github.com/cedarconnor/ComfyUI-HunyuanWorld-Mirror": [
@@ -7257,9 +7265,9 @@
             "SceneCreate",
             "SceneInput",
             "SceneOutput",
+            "SceneSelect",
             "SceneUpdate",
             "SceneView",
-            "SelectScene",
             "SubdirLister",
             "TailEnhancePro",
             "TailSplit"
@@ -8381,6 +8389,20 @@
             "title_aux": "ComfyUI_HelpfulNodes"
         }
     ],
+    "https://github.com/jorin91/ComfyUI-JSG-Utils": [
+        [
+            "JSGDeleteFilePassAny",
+            "JSGDeleteFilePassImage",
+            "JSGDeleteFilePassString",
+            "JSGFindImagePathsRecursive",
+            "JSGFindImagesRecursiveList",
+            "JSGLoadImageFromPath",
+            "JSGParsePath"
+        ],
+        {
+            "title_aux": "ComfyUI-JSG-Utils [UNSAFE]"
+        }
+    ],
     "https://github.com/jpwgad/jpwgad-comfy": [
         [
             "AutoSelector",
@@ -9452,6 +9474,22 @@
             "title_aux": "comfyui_cmdtls [UNSAFE]"
         }
     ],
+    "https://github.com/martinken/ComfyUI-KMNodes": [
+        [
+            "KM_Aspect_Ratio_Selector",
+            "KM_Color_Correct",
+            "KM_Downscale_Image",
+            "KM_Merge_Images",
+            "KM_Safe_Mask_Bounds",
+            "KM_Safe_SEGS_Bounds",
+            "KM_Video_Image_Color_Match",
+            "KM_WanVideoToVideo",
+            "WanImageToVideo"
+        ],
+        {
+            "title_aux": "ComfyUI-KMNodes"
+        }
+    ],
     "https://github.com/maruhidd/ComfyUI_Transparent-Background": [
         [
             "FillTransparentNode",
@@ -9678,11 +9716,11 @@
     ],
     "https://github.com/mrCodinghero/ComfyUI-Codinghero": [
         [
+            "Basic Settings",
             "Image Size Calculator",
             "Model Selector",
             "Settings",
-            "Upscale Settings Calculator",
-            "Video Settings"
+            "Upscale Settings Calculator"
         ],
         {
             "title_aux": "ComfyUI-Codinghero"
@@ -9906,6 +9944,14 @@
         ],
         {
             "title_aux": "comfyui-samenodes"
+        }
+    ],
+    "https://github.com/nohikomiso/ComfyUI-ImageFolderPicker": [
+        [
+            "ImageFolderPicker"
+        ],
+        {
+            "title_aux": "ComfyUI-ImageFolderPicker [UNSAFE]"
         }
     ],
     "https://github.com/nomcycle/ComfyUI_Cluster": [
@@ -10344,7 +10390,9 @@
     ],
     "https://github.com/punicfaith/ComfyUI-GoogleAIStudio": [
         [
-            "GoogleGeminiPrompt"
+            "BatchImageNormalizer",
+            "GoogleGeminiPrompt",
+            "NanobananaNode"
         ],
         {
             "title_aux": "ComfyUI-GoogleAIStudio"
@@ -10907,6 +10955,15 @@
         ],
         {
             "title_aux": "WIP Conditioning Toolkit [UNSAFE]"
+        }
+    ],
+    "https://github.com/silveroxides/ComfyUI_LoHalo": [
+        [
+            "LohaloHighFidelityScaler",
+            "LohaloKernelScalingNode"
+        ],
+        {
+            "title_aux": "ComfyUI_LoHalo"
         }
     ],
     "https://github.com/silveroxides/ComfyUI_LogicMath": [
@@ -11739,6 +11796,14 @@
             "title_aux": "ComfyUI-AllergicPack [WIP]"
         }
     ],
+    "https://github.com/vadimcro/External-Image-Revised-with-MASK": [
+        [
+            "ComfyUIDeployExternalImageRevised"
+        ],
+        {
+            "title_aux": "External-Image-Revised-with-MASK"
+        }
+    ],
     "https://github.com/vadimcro/string_by_index": [
         [
             "StringByIndex"
@@ -12212,6 +12277,7 @@
             "AppendTagsNode",
             "AspectRatiosNode",
             "Base64ToImageNode",
+            "DitherNode",
             "DivideNode",
             "DownloadImageNode",
             "ExcludeTagsNode",
