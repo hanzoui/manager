@@ -813,13 +813,17 @@
             "TS Equirectangular to Cube",
             "TS Files Downloader",
             "TS Youtube Chapters",
+            "TSAutoTileSize",
             "TSCropToMask",
             "TSRestoreFromCrop",
             "TSWhisper",
+            "TS_BGRM_BiRefNet",
+            "TS_Color_Grade",
             "TS_DeflickerNode",
             "TS_FilePathLoader",
             "TS_FilmEmulation",
             "TS_FilmGrain",
+            "TS_Film_Emulation",
             "TS_Free_Video_Memory",
             "TS_ImageResize",
             "TS_MarianTranslator",
@@ -827,10 +831,12 @@
             "TS_ModelConverterAdvanced",
             "TS_Qwen2.5_VL",
             "TS_Qwen3",
+            "TS_Qwen3_VL",
             "TS_QwenCanvas",
             "TS_QwenSafeResize",
             "TS_VideoDepthNode",
-            "TS_Video_Upscale_With_Model"
+            "TS_Video_Upscale_With_Model",
+            "TS_WAN_SafeResize"
         ],
         {
             "title_aux": "ComfyUI Timesaver Nodes"
@@ -1846,6 +1852,15 @@
             "title_aux": "ComfyUI-Airtable [WIP]"
         }
     ],
+    "https://github.com/Fuhze73/ComfyUI-PainterI2V-StartEndImage-Tiled": [
+        [
+            "PainterI2V",
+            "PainterI2VTiled"
+        ],
+        {
+            "title_aux": "ComfyUI-PainterI2V-StartEndImage-Tiled [WIP]"
+        }
+    ],
     "https://github.com/GalactusX31/ComfyUI-FileBrowserAPI": [
         [
             "PathSelectorNode"
@@ -2063,6 +2078,22 @@
         ],
         {
             "title_aux": "comfyui-HandDetect"
+        }
+    ],
+    "https://github.com/Isi-dev/ComfyUI_DeleteModelPassthrough_ExecutionFlowControl": [
+        [
+            "ControlledCLIPTextEncode",
+            "ControlledControlNetLoader",
+            "ControlledModelPatchLoader",
+            "ControlledUNETLoader",
+            "ControlledUnetLoaderGGUF",
+            "ControlledVAELoader",
+            "DeleteModelPassthrough",
+            "DeleteModelPassthroughLight",
+            "SmartClipDeleter"
+        ],
+        {
+            "title_aux": "ComfyUI_DeleteModelPassthrough_ExecutionFlowControl [WIP]"
         }
     ],
     "https://github.com/IvanZhd/comfyui-codeformer": [
@@ -3361,6 +3392,7 @@
             "CAD_Mesh_Gmsh",
             "CAD_Mesh_Gmsh_Advanced",
             "CAD_Quality_Metrics",
+            "CAD_Remesh_OCC",
             "LoadPoint2CADModel",
             "LoadPointCloudXYZ",
             "ML_FeatureDetection",
@@ -7266,6 +7298,7 @@
         [
             "FBTextEncodeQwenImageEditPlus",
             "OpaqueAlpha",
+            "QwenAspectRatio",
             "SAMPreprocessNHWC",
             "SaveScene",
             "SceneCreate",
@@ -11278,6 +11311,14 @@
         ],
         {
             "title_aux": "ComfyUI-Teeth [UNSAFE]"
+        }
+    ],
+    "https://github.com/stevanisya/comfyui_txt_selector": [
+        [
+            "TextSelector"
+        ],
+        {
+            "title_aux": "comfyui_txt_selector  [WIP]"
         }
     ],
     "https://github.com/sthao42/comfyui-melodkeet-tts": [

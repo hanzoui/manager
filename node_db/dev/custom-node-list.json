@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "Fuhze73",
+            "title": "ComfyUI-PainterI2V-StartEndImage-Tiled [WIP]",
+            "reference": "https://github.com/Fuhze73/ComfyUI-PainterI2V-StartEndImage-Tiled",
+            "files": [
+                "https://github.com/Fuhze73/ComfyUI-PainterI2V-StartEndImage-Tiled"
+            ],
+            "install_type": "git-clone",
+            "description": "Wan2.2 image-to-video enhancement node optimized for 4-step LoRAs, reducing slow-motion and enhancing camera movement. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },        
+        {
+            "author": "stevanisya",
+            "title": "comfyui_txt_selector  [WIP]",
+            "reference": "https://github.com/stevanisya/comfyui_txt_selector",
+            "files": [
+                "https://github.com/stevanisya/comfyui_txt_selector"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple ComfyUI node that lets you choose one text from up to 10 inputs.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Isi-dev",
+            "title": "ComfyUI_DeleteModelPassthrough_ExecutionFlowControl [WIP]",
+            "reference": "https://github.com/Isi-dev/ComfyUI_DeleteModelPassthrough_ExecutionFlowControl",
+            "files": [
+                "https://github.com/Isi-dev/ComfyUI_DeleteModelPassthrough_ExecutionFlowControl"
+            ],
+            "install_type": "git-clone",
+            "description": "Memory management custom node that deletes specific models from VRAM and RAM while passing through other input types unchanged, useful for low-memory environments. (Description by CC)"
+        },        
+        {
             "author": "K1maran",
             "title": "ComfyUI-Kimaran",
             "reference": "https://github.com/K1maran/ComfyUI-Kimaran",
