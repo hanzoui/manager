@@ -198,6 +198,7 @@
             "FashionSegmentClothing",
             "RMBG",
             "SAM2Segment",
+            "SAM3Segment",
             "Segment",
             "SegmentV2"
         ],
@@ -5594,6 +5595,10 @@
     "https://github.com/Dobidop/ComfyStereo": [
         [
             "DeoVRViewNode",
+            "NativeStereoImageViewer",
+            "NativeStereoVideoViewer",
+            "NativeVRStatus",
+            "StereoDiffusion",
             "StereoImageNode"
         ],
         {
@@ -12298,6 +12303,7 @@
         [
             "LightX2VConfigCombiner",
             "LightX2VConfigCombinerV2",
+            "LightX2VConfigCombinerV3",
             "LightX2VInferenceConfig",
             "LightX2VLoRALoader",
             "LightX2VMemoryOptimization",
@@ -13846,20 +13852,18 @@
     "https://github.com/PozzettiAndrea/ComfyUI-SAM3": [
         [
             "LoadSAM3Model",
-            "SAM3AddVideoPrompt",
             "SAM3BBoxCollector",
-            "SAM3CloseVideoSession",
             "SAM3CombineBoxes",
             "SAM3CombinePoints",
             "SAM3CreateBox",
             "SAM3CreatePoint",
-            "SAM3InitVideoSession",
-            "SAM3InitVideoSessionAdvanced",
+            "SAM3InteractiveSegmentation",
             "SAM3PointCollector",
-            "SAM3PropagateVideo",
+            "SAM3Propagate",
             "SAM3Segmentation",
             "SAM3VideoModelLoader",
-            "SAM3VideoOutput"
+            "SAM3VideoOutput",
+            "SAM3VideoSegmentation"
         ],
         {
             "title_aux": "ComfyUI-SAM3"
@@ -25919,6 +25923,7 @@
             "EmptyAudio",
             "EmptyChromaRadianceLatentImage",
             "EmptyCosmosLatentVideo",
+            "EmptyFlux2LatentImage",
             "EmptyHunyuanImageLatent",
             "EmptyHunyuanLatentVideo",
             "EmptyImage",
@@ -25933,13 +25938,14 @@
             "ExtendIntermediateSigmas",
             "FeatherMask",
             "FlipSigmas",
+            "Flux2ProImageNode",
+            "Flux2Scheduler",
             "FluxDisableGuidance",
             "FluxGuidance",
             "FluxKontextImageScale",
             "FluxKontextMultiReferenceLatentMethod",
             "FluxProExpandNode",
             "FluxProFillNode",
-            "FluxProImageNode",
             "FluxProUltraImageNode",
             "FreSca",
             "FreeU",
@@ -29728,9 +29734,11 @@
     "https://github.com/francarl/ComfyUI-OnDemand-Loaders": [
         [
             "OnDemandCLIPLoader",
+            "OnDemandCLIPVisionLoader",
             "OnDemandCheckpointLoader",
             "OnDemandCivitaiLikedLoraLoader",
             "OnDemandControlNetLoader",
+            "OnDemandDualCLIPLoader",
             "OnDemandGGUFLoader",
             "OnDemandLoraLoader",
             "OnDemandUNETLoader",
@@ -43827,8 +43835,6 @@
             "MediaSelection",
             "MultiCaptionCombiner",
             "ShowText",
-            "SuperDualLoraLoader",
-            "SuperLoraLoader",
             "VACEDepthAnnotator",
             "VACEFlowAnnotator",
             "VACEScribbleAnnotator",

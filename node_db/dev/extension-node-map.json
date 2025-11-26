@@ -1906,13 +1906,15 @@
     ],
     "https://github.com/GoddessLabs/ComfyUI-GoddessLabs-NodePack": [
         [
-            "GoddessLabsFolderSelector"
+            "GoddessLabsDestroyAndRecreate",
+            "GoddessLabsFolderSelector",
+            "GoddessLabsNodeStateManager"
         ],
         {
             "author": "GoddessLabs",
             "description": "Custom nodes to conveniently enhance images through Detector, Detailer, Upscaler, Pipe, and more.",
             "nickname": "GoddessLabs",
-            "title": "GoddessLabs NodePack",
+            "title": "\u2764\ufe0f\u200d\ud83d\udd25\ud83d\udc8a GoddessLabs Toolset",
             "title_aux": "ComfyUI-GoddessLabs-NodePack"
         }
     ],
@@ -3426,6 +3428,7 @@
             "LoadFBXCharacter",
             "LoadGVHMRModels",
             "LoadSMPL",
+            "SMPLRetargetToSMPL",
             "SMPLToFBX",
             "SMPLViewer",
             "SMPLtoBVH",
@@ -3444,15 +3447,16 @@
             "SAM3DExportPLYBatch",
             "SAM3DExtractMesh",
             "SAM3DGaussianDecode",
-            "SAM3DGenerate",
-            "SAM3DGenerateRGBA",
             "SAM3DMeshDecode",
             "SAM3DRenderSingle",
             "SAM3DSLATGen",
             "SAM3DSparseGen",
             "SAM3DTextureBake",
             "SAM3DVisualizer",
-            "SAM3D_PreviewPointCloud"
+            "SAM3D_DepthEstimate",
+            "SAM3D_PoseOptimization",
+            "SAM3D_PreviewPointCloud",
+            "SAM3D_UnloadModel"
         ],
         {
             "title_aux": "SAM3DObjects [UNSAFE]"
@@ -6060,6 +6064,7 @@
             "EmptyAudio",
             "EmptyChromaRadianceLatentImage",
             "EmptyCosmosLatentVideo",
+            "EmptyFlux2LatentImage",
             "EmptyHunyuanImageLatent",
             "EmptyHunyuanLatentVideo",
             "EmptyImage",
@@ -6074,13 +6079,14 @@
             "ExtendIntermediateSigmas",
             "FeatherMask",
             "FlipSigmas",
+            "Flux2ProImageNode",
+            "Flux2Scheduler",
             "FluxDisableGuidance",
             "FluxGuidance",
             "FluxKontextImageScale",
             "FluxKontextMultiReferenceLatentMethod",
             "FluxProExpandNode",
             "FluxProFillNode",
-            "FluxProImageNode",
             "FluxProUltraImageNode",
             "FreSca",
             "FreeU",
