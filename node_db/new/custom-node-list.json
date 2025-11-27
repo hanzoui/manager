@@ -1,6 +1,27 @@
 {
     "custom_nodes": [
         {
+            "author": "Rzgar Espo",
+            "title": "ComfyUI Qwen Image Size Picker",
+            "id": "QwenImg-latent",
+            "reference": "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker",
+            "files": [
+                "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker"
+            ],
+            "install_type": "git-clone",
+            "description": "An empty latent size picker with support for Qwen Image, SDXL, and Flux models."
+        },
+        {
+            "author": "obvirm",
+            "title": "ComfyUI-WhisperXX",
+            "reference": "https://github.com/obvirm/ComfyUI-WhisperXX",
+            "files": [
+                "https://github.com/obvirm/ComfyUI-WhisperXX"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that provides advanced transcription, alignment, and diarization capabilities using the WhisperX library."
+		},        
+        {
             "author": "tuki0918",
             "title": "ComfyUI_Cooldown_Node",
             "reference": "https://github.com/tuki0918/ComfyUI_Cooldown_Node",
@@ -12,13 +33,14 @@
         },
         {
             "author": "akawana",
-            "title": "ComfyUI-Utils-extra",
+            "title": "Utils Extra",
             "reference": "https://github.com/akawana/ComfyUI-Utils-extra",
             "files": [
                 "https://github.com/akawana/ComfyUI-Utils-extra"
             ],
             "install_type": "git-clone",
-            "description": "A small collection of utility nodes for ComfyUI that simplify and speed up complex workflows, gradually expanded with new practical utilities."
+            "description": "Utility tools. Index Multiple is used for expanding multiple values from a list, IsOneOfGroupsActive to identify groups state, RepeatGroupState group enable/disable like rg but without connection etc.",
+            "tags": ["utility", "list", "batch"]
         },
         {
             "author": "huygiatrng",
