@@ -3438,14 +3438,6 @@
             "title_aux": "CADabra [WIP]"
         }
     ],
-    "https://github.com/PozzettiAndrea/ComfyUI-CameraAnalysis": [
-        [
-            "CameraAnalysis"
-        ],
-        {
-            "title_aux": "ComfyUI-CameraAnalysis"
-        }
-    ],
     "https://github.com/PozzettiAndrea/ComfyUI-Hunyuan3D-Part": [
         [
             "ClearAllModelCaches",
@@ -4303,9 +4295,7 @@
             "Color Cast Detector",
             "Color Harmony Analyzer",
             "Color Temperature Estimator",
-            "ColorTemperatureEstimator",
             "Contrast Analysis",
-            "ContrastAnalysis",
             "Defocus Analysis",
             "Edge Density Analysis",
             "Entropy Analysis",
@@ -7588,7 +7578,6 @@
     ],
     "https://github.com/grinlau18/ComfyUI_XISER_Nodes": [
         [
-            "CreatePointsString",
             "XISER_Canvas",
             "XIS_BooleanSwitch",
             "XIS_CanvasConfig",
@@ -7615,13 +7604,14 @@
             "XIS_ImageAdjustAndBlend",
             "XIS_ImageManager",
             "XIS_ImageMaskMirror",
-            "XIS_ImageStitcher",
+            "XIS_ImagePuzzle",
             "XIS_ImageSwitch",
             "XIS_IntSwitch",
             "XIS_InvertMask",
             "XIS_IsThereAnyData",
             "XIS_KSamplerSettingsNode",
             "XIS_KSamplerSettingsUnpackNode",
+            "XIS_LLMOrchestrator",
             "XIS_Label",
             "XIS_LatentBlendNode",
             "XIS_LoadImage",
@@ -7643,7 +7633,8 @@
             "XIS_SetColor",
             "XIS_ShapeAndText",
             "XIS_ShapeData",
-            "XIS_StringSwitch"
+            "XIS_StringSwitch",
+            "XIS_UnpackImages"
         ],
         {
             "title_aux": "Xiser_Nodes [WIP]"
@@ -11119,6 +11110,7 @@
     "https://github.com/silveroxides/ComfyUI_SamplingUtils": [
         [
             "GetJsonKeyValue",
+            "Image_Color_Noise",
             "SamplingParameters"
         ],
         {

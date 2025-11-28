@@ -2014,6 +2014,7 @@
     ],
     "https://github.com/AcademiaSD/comfyui_AcademiaSD": [
         [
+            "AcademiaSD_Gemini_Node",
             "IntegerBypasser",
             "LoopCounterToFile",
             "PaddedFileName",
@@ -2192,6 +2193,10 @@
     ],
     "https://github.com/AhBumm/ComfyUI_UnfakePy_Warpper": [
         [
+            "ForceDetectPixelateScale",
+            "ImageScaleDownByFactor",
+            "NearestImageScaleDown",
+            "PixelUpscale2Target",
             "Unfake_PixelateTools"
         ],
         {
@@ -11515,6 +11520,7 @@
             "ModelSamplingFluxGradual",
             "PolyExponentialSigmaAdder",
             "PromptBatchGenerator",
+            "TBG Dual Sampler",
             "TBG Flux-Z-Images Sampler",
             "TBG_FluxKontextStabilizer",
             "TBG_Preview_Sender_WebSocked",
@@ -13258,7 +13264,8 @@
     "https://github.com/Nynxz/ComfyUI-NynxzNodes": [
         [
             "nynxz.Create.CompareVideo.Fade",
-            "nynxz.Create.CompareVideo.Wipe"
+            "nynxz.Create.CompareVideo.Wipe",
+            "nynxz.Parse.StringTemplate"
         ],
         {
             "title_aux": "ComfyUI-NynxzNodes"
@@ -16368,6 +16375,7 @@
             "Basic data handling: DataListInsert",
             "Basic data handling: DataListLast",
             "Basic data handling: DataListLength",
+            "Basic data handling: DataListListCreate",
             "Basic data handling: DataListMax",
             "Basic data handling: DataListMin",
             "Basic data handling: DataListPop",
@@ -16427,6 +16435,8 @@
             "Basic data handling: FloatSubtract",
             "Basic data handling: FlowSelect",
             "Basic data handling: ForceCalculation",
+            "Basic data handling: Generic And",
+            "Basic data handling: Generic Or",
             "Basic data handling: GreaterThan",
             "Basic data handling: GreaterThanOrEqual",
             "Basic data handling: IfElifElse",
@@ -23750,15 +23760,15 @@
             "Data_sampleData",
             "Data_select",
             "Easy_QwenEdit2509",
-            "IO_clear_cache",
             "IO_getFilePath",
             "IO_image_select",
             "IO_input_any",
             "IO_inputbasic",
-            "IO_inputfile",
             "IO_load_anyimage",
+            "IO_node_Script",
             "IO_outputfile",
             "IO_save_image",
+            "IO_savefile",
             "IO_store_image",
             "IO_video_encode",
             "IPA_XL_PromptInjection",
@@ -23901,7 +23911,6 @@
             "excel_Prompter",
             "excel_VedioPrompt",
             "excel_column_diff",
-            "excel_imgEditor_helper",
             "excel_insert_image",
             "excel_insert_image_easy",
             "excel_object",
@@ -23919,10 +23928,12 @@
             "flow_ValueSender",
             "flow_auto_pixel",
             "flow_case_tentor",
+            "flow_clear_cache",
             "flow_judge",
             "flow_low_gpu",
             "flow_sch_control",
             "flow_switch",
+            "flow_tensor_Unify",
             "img_effect_CircleWarp",
             "img_effect_Liquify",
             "img_effect_Load",
@@ -24002,6 +24013,7 @@
             "text_mul_Split",
             "text_mul_remove",
             "text_mul_replace",
+            "text_repair",
             "text_stack_wildcards",
             "text_sum",
             "texture_Ksampler",
@@ -24026,8 +24038,7 @@
             "view_bridge_Text",
             "view_bridge_image",
             "view_combo",
-            "view_mask",
-            "view_node_Script"
+            "view_mask"
         ],
         {
             "title_aux": "ComfyUI-Apt_Preset"
@@ -32017,6 +32028,7 @@
         [
             "SetValuesFromPanel",
             "image_to_sha256",
+            "move_file",
             "sort_list_string",
             "steg_alpha_embed",
             "steg_alpha_extract",
@@ -42172,6 +42184,14 @@
             "title_aux": "Comfyui-PainterAudioCut"
         }
     ],
+    "https://github.com/princepainter/Comfyui-PainterFLF2V": [
+        [
+            "PainterFLF2V"
+        ],
+        {
+            "title_aux": "PainterFLF2V - First/Last Frame Video Enhancer"
+        }
+    ],
     "https://github.com/princepainter/Comfyui-PainterSampler": [
         [
             "PainterSampler"
@@ -42374,6 +42394,7 @@
             "PVL_fal_DepthAnythingV2_API",
             "PVL_fal_EvfSam_API",
             "PVL_fal_EvfSam_X5_API",
+            "PVL_fal_Flux2_Dev_API",
             "PVL_fal_FluxDevPulidAvatar_API",
             "PVL_fal_FluxDev_API",
             "PVL_fal_FluxGeneral_API",
