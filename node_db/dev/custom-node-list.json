@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "starsFriday",
+            "title": "ComfyUI-Tracker-Person [WIP]",
+            "reference": "https://github.com/starsFriday/ComfyUI-Tracker-Person",
+            "files": [
+                "https://github.com/starsFriday/ComfyUI-Tracker-Person"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node using YOLO instance segmentation to track specific people in video frames with color histogram re-identification for robust tracking across occlusions. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "judian17",
+            "title": "ComfyUI-MIDI-3D [WIP]",
+            "reference": "https://github.com/judian17/ComfyUI-MIDI-3D",
+            "files": [
+                "https://github.com/judian17/ComfyUI-MIDI-3D"
+            ],
+            "install_type": "git-clone",
+            "description": "Partial implementation of the MIDI-3D project for ComfyUI with multi-view normal/depth map generation and texture baking. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "IAFFeng",
+            "title": "Comfyui_XF_Custom_Actual-Node",
+            "reference": "https://github.com/IAFFeng/Comfyui_XF_Custom_Actual-Node",
+            "files": [
+                "https://github.com/IAFFeng/Comfyui_XF_Custom_Actual-Node"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node providing GeminiMatting functionality for image matting operations. (Description by CC)"
+        },
+        {
+            "author": "LvyuanW",
+            "title": "ComfyUI-6yuan [WIP]",
+            "reference": "https://github.com/LvyuanW/ComfyUI-6yuan",
+            "files": [
+                "https://github.com/LvyuanW/ComfyUI-6yuan"
+            ],
+            "install_type": "git-clone",
+            "description": "A curated set of ComfyUI nodes under 6yuan namespace."
+        },
+        {
+            "author": "wciq1208",
+            "title": "even-comfyui-plugin",
+            "reference": "https://github.com/wciq1208/even-comfyui-plugin",
+            "files": [
+                "https://github.com/wciq1208/even-comfyui-plugin"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Gemini, NanoBanana"
+        },
+        {
             "author": "Fuhze73",
             "title": "ComfyUI-PainterI2V-StartEndImage-Tiled [WIP]",
             "reference": "https://github.com/Fuhze73/ComfyUI-PainterI2V-StartEndImage-Tiled",
@@ -9,7 +59,7 @@
             ],
             "install_type": "git-clone",
             "description": "Wan2.2 image-to-video enhancement node optimized for 4-step LoRAs, reducing slow-motion and enhancing camera movement. (Description by CC)\nNOTE: The files in the repo are not organized."
-        },        
+        },
         {
             "author": "stevanisya",
             "title": "comfyui_txt_selector  [WIP]",

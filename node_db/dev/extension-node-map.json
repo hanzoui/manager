@@ -2030,6 +2030,14 @@
             "title_aux": "ComfyUI-LLMs-Toolkit [WIP]"
         }
     ],
+    "https://github.com/IAFFeng/Comfyui_XF_Custom_Actual-Node": [
+        [
+            "GeminiMattingNode"
+        ],
+        {
+            "title_aux": "Comfyui_XF_Custom_Actual-Node"
+        }
+    ],
     "https://github.com/IXIWORKS-KIMJUNGHO/comfyui-ixiworks": [
         [
             "BuildCharacterPromptNode",
@@ -2611,6 +2619,20 @@
         ],
         {
             "title_aux": "ComfyUI-invAIder-Nodes"
+        }
+    ],
+    "https://github.com/LvyuanW/ComfyUI-6yuan": [
+        [
+            "ColorKMeans",
+            "CropAlpha",
+            "RemoveBackground",
+            "RemoveBackgroundAdvanced",
+            "ShapeLanguageSummary",
+            "ShrinkImage",
+            "StringPreview"
+        ],
+        {
+            "title_aux": "ComfyUI-6yuan [WIP]"
         }
     ],
     "https://github.com/LyazS/ComfyUI-aznodes": [
@@ -8511,6 +8533,18 @@
             "title_aux": "ComfyUI Frontend Vue Basic [WIP]"
         }
     ],
+    "https://github.com/judian17/ComfyUI-MIDI-3D": [
+        [
+            "MIDI3DAllPassRenderer",
+            "MIDI3DInstanceCropper",
+            "MIDI3DLoader",
+            "MIDI3DSampler",
+            "MIDI3DTextureBaker"
+        ],
+        {
+            "title_aux": "ComfyUI-MIDI-3D [WIP]"
+        }
+    ],
     "https://github.com/junhe421/comfyui_batch_image_processor": [
         [
             "BatchImageDifferenceToPromptFiles",
@@ -8823,10 +8857,24 @@
     ],
     "https://github.com/kongds1999/ComfyUI_was_image": [
         [
+            "BBoxToCoco",
+            "BBoxToXYWH",
+            "BBoxVisNode",
             "Check Person In Text",
+            "CocoToNumber",
             "ConvertGrayToImage",
+            "ConvertToDict",
+            "CustomUltralyticsModelLoader",
             "Generate Color Palette",
-            "Replace Color By Palette"
+            "GetImageSize",
+            "ImageResizeAdvanced",
+            "Replace Color By Palette",
+            "UltralyticsCheckCategory",
+            "UltralyticsInference",
+            "UltralyticsListIndexToNames",
+            "UltralyticsModelLoader",
+            "UltralyticsVisualization",
+            "ViewText"
         ],
         {
             "title_aux": "ComfyUI_was_image"
@@ -11271,12 +11319,16 @@
     "https://github.com/stalkervr/comfyui-custom-path-nodes": [
         [
             "AnyCollector",
+            "AutoAspectRatioAdjustFixer",
             "BatchImageCrop",
             "ContextPipeIn",
             "ContextPipeOut",
             "ContextPipeReroute",
             "DataFileLoader",
+            "ImageAspectFixer",
             "ImageGridCropper",
+            "JsonFieldRemover",
+            "JsonFieldReplaceAdvanced",
             "JsonFieldValueExtractor",
             "ListItemExtractor",
             "ListToString",
@@ -11302,6 +11354,14 @@
         ],
         {
             "title_aux": "ComfyUI-Audio-Subtitle [WIP]"
+        }
+    ],
+    "https://github.com/starsFriday/ComfyUI-Tracker-Person": [
+        [
+            "YoloTrackNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Tracker-Person [WIP]"
         }
     ],
     "https://github.com/steelan9199/ComfyUI-Teeth": [
@@ -12050,7 +12110,8 @@
             "ReplaceVariables",
             "ReplaceVariablesAndProcessWildcard",
             "SaveTextFile",
-            "StringsFromTextbox"
+            "StringsFromTextbox",
+            "StringsToList"
         ],
         {
             "title_aux": "ComfyUI-Text-Utility [UNSAFE]"
@@ -12072,6 +12133,15 @@
         ],
         {
             "title_aux": "FindBrightestSpot [WIP]"
+        }
+    ],
+    "https://github.com/wciq1208/even-comfyui-plugin": [
+        [
+            "Gemini",
+            "NanoBanana"
+        ],
+        {
+            "title_aux": "even-comfyui-plugin"
         }
     ],
     "https://github.com/whmc76/ComfyUI-AudioSuiteAdvanced": [
