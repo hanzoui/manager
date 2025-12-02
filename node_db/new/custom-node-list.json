@@ -21,6 +21,16 @@
             "description": "Resolution picker and latent generator for ComfyUI. Select presets like HD, FullHD, 2K, 4K, 8K with aspect ratios (1:1, 9:16, 4:5, 21:9 etc.) via dropdowns. Automatically snaps width/height to latent-safe multiples of 64. Ideal for EmptyLatentImage, AnimateDiff, ControlNet, video formats, and KSampler workflows. Outputs clean INT values or ready-to-use LATENT tensor."
         },
         {
+            "author": "Bharanidharan",
+            "title": "iSeeBetter Node for ComfyUI",
+            "reference": "https://github.com/llikethat/ComfyUI-iseebetter",
+            "files": [
+                "https://github.com/llikethat/ComfyUI-iseebetter"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom Node to implement iSeeBetter upscaling method."
+        },
+        {
             "author": "princepainter",
             "title": "PainterFLF2V - First/Last Frame Video Enhancer",
             "id": "painterflf2v",
