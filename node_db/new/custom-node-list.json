@@ -31,6 +31,17 @@
             "description": "Custom Node to implement iSeeBetter upscaling method."
         },
         {
+            "author": "Pondowner857",
+            "title": "ComfyUI Remote Workflow Executor",
+            "id": "comfy_Pond_Nodes_V2",
+            "reference": "https://github.com/Pondowner857/comfy_Pond_Nodes_V2",
+            "files": [
+                "https://github.com/Pondowner857/comfy_Pond_Nodes_V2"
+            ],
+            "install_type": "git-clone",
+            "description": "Remote workflow executor node - Execute workflows on remote ComfyUI servers. Supports image/text/audio/video input and output."
+        },
+        {
             "author": "princepainter",
             "title": "PainterFLF2V - First/Last Frame Video Enhancer",
             "id": "painterflf2v",
@@ -686,26 +697,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI integration for Meta's SAM3 model enabling open-vocabulary image segmentation using natural language text prompts, with automatic model download, geometric refinement, and flexible confidence thresholds."
-        },
-        {
-            "author": "wwzhifeng",
-            "title": "comfyui-jsonprompt",
-            "reference": "https://github.com/wwzhifeng/comfyui-jsonprompt",
-            "files": [
-                "https://github.com/wwzhifeng/comfyui-jsonprompt"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI node that expands structured JSON text into standard prompts for use with models like Gemini, Flux, OpenAI, and Sora. (Description by CC)"
-        },
-        {
-            "author": "StarIICraft",
-            "title": "ComfyUI-Simple-Selector",
-            "reference": "https://github.com/StarIICraft/ComfyUI-Simple-Selector",
-            "files": [
-                "https://github.com/StarIICraft/ComfyUI-Simple-Selector"
-            ],
-            "install_type": "git-clone",
-            "description": "Logic control node with 5 universal input ports that checks connections in reverse priority order and outputs the index of the first valid active input, with support for muted nodes and any data type."
         }
     ]
 }
