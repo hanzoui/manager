@@ -37091,7 +37091,7 @@
             "install_type": "git-clone",
             "description": "Utility tools. Index Multiple is used for expanding multiple values from a list, IsOneOfGroupsActive to identify groups state, RepeatGroupState group enable/disable like rg but without connection etc.",
             "tags": ["utility", "list", "batch"]
-        }, 
+        },
         {
             "author": "akawana",
             "title": "RGBYP Mask Editor (RGB + YP)",
@@ -37102,8 +37102,7 @@
             "install_type": "git-clone",
             "description": "A JS editor for five-color masks (RGB + Yellow + Pink) that works with any nodes, with three helper nodes — RGBYPLoadImage, RGBYPMaskBridge, and RGBYPMaskToRegularMasks—for convenient RGBYP mask handling.",
             "tags": ["utility", "mask", "rgb", "bridge"]
-        }, 
-		
+        },
         {
             "author": "lovisdotio",
             "title": "ComfyUI-Replace-First-Frame-Last-Frame",
@@ -37593,6 +37592,14 @@
     		"install_type": "git-clone",
     		"description": "Advanced AI-powered prompt generation using local GGUF models. Generate detailed, structured prompts with character controls, style presets, and model-specific formatting for Pony, SDXL, Flux, and more. Supports GPU acceleration and runs completely offline."
 		},
+		{
+		    "author": "rjgoif",
+		    "title": "Img Label Tools",
+		    "id": "Img-Label-Tools",
+		    "reference": "https://github.com/rjgoif/ComfyUI-Img-Label-Tools",
+		    "install_type": "git-clone",
+		    "description": "Tools to help annotate images for sharing on Reddit, Discord, etc."
+		},
 
 
 
@@ -38018,14 +38025,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-		    "author": "rjgoif",
-		    "title": "Img Label Tools",
-		    "id": "Img-Label-Tools",
-		    "reference": "https://github.com/rjgoif/ComfyUI-Img-Label-Tools",
-		    "install_type": "git-clone",
-		    "description": "Tools to help annotate images for sharing on Reddit, Discord, etc."
-		}
+        }
     ]
 }

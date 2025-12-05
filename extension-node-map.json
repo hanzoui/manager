@@ -2199,6 +2199,7 @@
             "ImageUpscaleByInt",
             "NearestImageScaleDown",
             "PixelUpscale2Target",
+            "RemoveBackgroundPixel",
             "Unfake_PixelateTools"
         ],
         {
@@ -21078,6 +21079,16 @@
             "title_aux": "Keybinding Extra"
         }
     ],
+    "https://github.com/akawana/ComfyUI-RGBYP-Mask-Editor": [
+        [
+            "RGBYPLoadImage",
+            "RGBYPMaskBridge",
+            "RGBYPMaskToRegularMasks"
+        ],
+        {
+            "title_aux": "RGBYP Mask Editor (RGB + YP)"
+        }
+    ],
     "https://github.com/akawana/ComfyUI-Utils-extra": [
         [
             "AKSamplerSettings",
@@ -23669,6 +23680,15 @@
         ],
         {
             "title_aux": "ComfyUI Sequential Image Loader"
+        }
+    ],
+    "https://github.com/btitkin/ComfyUI-RandomPromptBuilder": [
+        [
+            "PromptDisplayNode",
+            "RandomPromptBuilder"
+        ],
+        {
+            "title_aux": "Random Prompt Builder"
         }
     ],
     "https://github.com/buddy-bytes/ComfyUI-SmartResolutionToolkit": [
@@ -29209,6 +29229,17 @@
         ],
         {
             "title_aux": "String Utils"
+        }
+    ],
+    "https://github.com/exedesign/Hunyuan-3D-v3": [
+        [
+            "HunyuanConfig",
+            "HunyuanImageTo3D",
+            "HunyuanTextTo3D"
+        ],
+        {
+            "nodename_pattern": "Hunyuan",
+            "title_aux": "ComfyUI-Hunyuan3D-v3"
         }
     ],
     "https://github.com/ez-af/ComfyUI-EZ-AF-Nodes": [
@@ -37391,14 +37422,14 @@
             "title_aux": "comfyui-easyapi-nodes"
         }
     ],
-    "https://github.com/llikethat/ComfyUI-faceExtracter": [
+    "https://github.com/llikethat/ComfyUI-faceExtractor": [
         [
             "FaceExtractor",
             "FaceMatcher",
             "FaceReferenceEmbedding"
         ],
         {
-            "title_aux": "ComfyUI-faceExtracter"
+            "title_aux": "faceExtractor for ComfyUI"
         }
     ],
     "https://github.com/llikethat/ComfyUI-iseebetter": [
