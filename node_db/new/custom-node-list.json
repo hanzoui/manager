@@ -23,6 +23,17 @@
             "nodename_pattern": "Hunyuan",
             "tags": ["3D", "generation", "text-to-3d", "image-to-3d", "hunyuan", "tencent"]
         },
+		{
+    		"author": "btitkin",
+    		"title": "Random Prompt Builder",
+    		"id": "random-prompt-builder",
+    		"reference": "https://github.com/btitkin/ComfyUI-RandomPromptBuilder",
+    		"files": [
+        		"https://github.com/btitkin/ComfyUI-RandomPromptBuilder"
+    		],
+    		"install_type": "git-clone",
+    		"description": "Advanced AI-powered prompt generation using local GGUF models. Generate detailed, structured prompts with character controls, style presets, and model-specific formatting for Pony, SDXL, Flux, and more. Supports GPU acceleration and runs completely offline."
+		},
         {
             "author": "erosDiffusion",
             "title": "ComfyUI-EulerDiscreteScheduler",
