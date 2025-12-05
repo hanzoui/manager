@@ -1253,6 +1253,17 @@
             "title_aux": "ComfyUi-Text-Tiler"
         }
     ],
+    "https://github.com/Chang-Jin-Lee/ComfyUI-PromptMixer-AI": [
+        [
+            "FavoritePromptMixer",
+            "FreeAIPrompt",
+            "FreeAIPromptGenerate",
+            "Load_Text_Batch_Simple"
+        ],
+        {
+            "title_aux": "ComfyUI-PromptMixer-AI [WIP]"
+        }
+    ],
     "https://github.com/Chargeuk/ComfyUI-vts-nodes": [
         [
             "VTS Add Text To list",
@@ -2371,7 +2382,7 @@
             "MediaPathsLoader"
         ],
         {
-            "title_aux": "ComfyUI-Llama"
+            "title_aux": "ComfyUI-Llama [NAME CONFLICT]"
         }
     ],
     "https://github.com/Krish-701/RK_Comfyui": [
@@ -2500,6 +2511,7 @@
             "LunaDaemonCLIPLoader",
             "LunaDaemonVAELoader",
             "LunaDimensionScaler",
+            "LunaDynamicModelLoader",
             "LunaEmbeddingManager",
             "LunaExpressionPromptBuilder",
             "LunaExpressionSlicerSaver",
@@ -2510,6 +2522,7 @@
             "LunaLoRATriggerInjector",
             "LunaLoRAValidator",
             "LunaMultiSaver",
+            "LunaOptimizedWeightsManager",
             "LunaPromptCraft",
             "LunaPromptCraftDebug",
             "LunaSmartLoRALinker",
@@ -3490,6 +3503,8 @@
             "CADProjectFacesXY",
             "CADROISelector",
             "CADRaytracerBVH",
+            "CADRecodeExecute",
+            "CADRecodeInference",
             "CADSave",
             "CADSewFaces",
             "CADSplitComponents",
@@ -3501,12 +3516,14 @@
             "CAD_Quality_Metrics",
             "CAD_Remesh_OCC",
             "CAD_Remesh_OCC_Advanced",
+            "LoadCADRecodeModel",
             "LoadPoint2CADModel",
             "LoadPointCloudXYZ",
             "ML_FeatureDetection",
             "ML_SurfaceRecon",
             "MeshFaceSegmentation",
             "MeshSegmentToPointCloud",
+            "MeshToPointCloud",
             "Mesh_Optimize_Gmsh",
             "Point2CADExportBrep",
             "Point2CADSegmentation",
@@ -9147,6 +9164,24 @@
             "title_aux": "ComfyUI_LBT [WIP]"
         }
     ],
+    "https://github.com/leacvikas0/ComfyUI-Presence": [
+        [
+            "BeautifulTextNode",
+            "FluxAdaptiveInjector",
+            "InspectNode",
+            "PresenceDirector",
+            "PresenceDirectorFireworks",
+            "PresenceDirectorVertex",
+            "PresenceSaver",
+            "UnaliverBundlePreview",
+            "UnaliverNode",
+            "UnaliverPlanner",
+            "UnaliverStepIterator"
+        ],
+        {
+            "title_aux": "ComfyUI-Presence [WIP]"
+        }
+    ],
     "https://github.com/leadbreak/comfyui-faceaging": [
         [
             "AgeTransformationNode"
@@ -10683,6 +10718,30 @@
             "nickname": "ai_tools",
             "title": "AI_Tools",
             "title_aux": "ComfyUI-AI_Tools [UNSAFE]"
+        }
+    ],
+    "https://github.com/quinteroac/comfyui_api_executor_nodes": [
+        [
+            "AnyTo",
+            "ImageInputCombiner",
+            "ImageInputPair",
+            "IntInputCombiner",
+            "IntInputPair",
+            "RemoteWorkflowAPIExecutor",
+            "SimpleText",
+            "SimpleWorkflowAPIExecutor",
+            "TextImageToImageWorkflowSelector",
+            "TextImageToVideoWorkflowSelector",
+            "TextInputCombiner",
+            "TextInputPair",
+            "TextToImageWorkflowSelector",
+            "TextToVideoWorkflowSelector",
+            "VideoInputPair",
+            "WorkflowAPIExecutor",
+            "YandereRandomTags"
+        ],
+        {
+            "title_aux": "comfyui_api_executor_nodes"
         }
     ],
     "https://github.com/rakete/comfyui-rakete": [

@@ -1,5 +1,75 @@
 {
     "custom_nodes": [
+        {
+            "author": "KLL535",
+            "title": "ComfyUI_Simple_Qwen3-VL-gguf",
+            "reference": "https://github.com/KLL535/ComfyUI_Simple_Qwen3-VL-gguf",
+            "files": [
+                "https://github.com/KLL535/ComfyUI_Simple_Qwen3-VL-gguf"
+            ],
+            "install_type": "git-clone",
+            "description": "Simple Qwen3-VL gguf LLM model loader"
+        },
+        {
+            "author": "sirouk",
+            "title": "chutes-comfyui-node",
+            "reference": "https://github.com/sirouk/chutes-comfyui-node",
+            "files": [
+                "https://github.com/sirouk/chutes-comfyui-node"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for Chutes.ai video generation API"
+        },
+        {
+            "author": "1038lab",
+            "title": "ComfyUI-QwenVL",
+            "reference": "https://github.com/1038lab/ComfyUI-QwenVL",
+            "files": [
+                "https://github.com/1038lab/ComfyUI-QwenVL"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-QwenVL custom node: Integrates the Qwen-VL series, including Qwen2.5-VL and the latest Qwen3-VL, to enable advanced multimodal AI for text generation, image understanding, and video analysis."
+        },
+        {
+            "author": "smthemex",
+            "title": "ComfyUI_GRAG_Image_Editing",
+            "reference": "https://github.com/smthemex/ComfyUI_GRAG_Image_Editing",
+            "files": [
+                "https://github.com/smthemex/ComfyUI_GRAG_Image_Editing"
+            ],
+            "install_type": "git-clone",
+            "description": "GRAG-Image-Editing : Group-Relative Attention Guidance for Image Editing,you can try it in comfyUI"
+        },
+        {
+            "author": "dzy1128",
+            "title": "ComfyUI-VertexAI",
+            "reference": "https://github.com/dzy1128/ComfyUI-VertexAI",
+            "files": [
+                "https://github.com/dzy1128/ComfyUI-VertexAI"
+            ],
+            "install_type": "git-clone",
+            "description": "Google Gemini image generation node for ComfyUI supporting up to 6 input images with customizable prompts and parameters. (Description by CC)"
+        },
+        {
+            "author": "mrf",
+            "title": "ComfyPoe",
+            "reference": "https://github.com/mrf/ComfyPoe",
+            "files": [
+                "https://github.com/mrf/ComfyPoe"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for image generation via Poe API"
+        },
+        {
+            "author": "Tinuva88",
+            "title": "Comfy-UmiAI",
+            "reference": "https://github.com/Tinuva88/Comfy-UmiAI",
+            "files": [
+                "https://github.com/Tinuva88/Comfy-UmiAI"
+            ],
+            "install_type": "git-clone",
+            "description": "A logic engine for ComfyUI prompts that transforms static prompts into dynamic, context-aware workflows with persistent variables, conditional logic, native LoRA loading, and external data fetching. (Description by CC)"
+        },
 		{
             "author": "fredlef",
    	 		"title": "ComfyUI FSL Nodes",

@@ -1,8 +1,38 @@
 {
     "custom_nodes": [
         {
+            "author": "quinteroac",
+            "title": "comfyui_api_executor_nodes",
+            "reference": "https://github.com/quinteroac/comfyui_api_executor_nodes",
+            "files": [
+                "https://github.com/quinteroac/comfyui_api_executor_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for ComfyUI that enable workflow execution via API (internal or external), as well as input/output handling and workflow selection."
+        },        
+        {
+            "author": "Chang-Jin-Lee",
+            "title": "ComfyUI-PromptMixer-AI [WIP]",
+            "reference": "https://github.com/Chang-Jin-Lee/ComfyUI-PromptMixer-AI",
+            "files": [
+                "https://github.com/Chang-Jin-Lee/ComfyUI-PromptMixer-AI"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node collection for unified control of checkpoints, steps, CFG, samplers, LoRA and prompt parameters with local LLM integration. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },        
+        {
+            "author": "leacvikas0",
+            "title": "ComfyUI-Presence [WIP]",
+            "reference": "https://github.com/leacvikas0/ComfyUI-Presence",
+            "files": [
+                "https://github.com/leacvikas0/ComfyUI-Presence"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: BeautifulTextNode, FluxAdaptiveInjector, InspectNode, PresenceDirector, PresenceDirectorFireworks, PresenceDirectorVertex, PresenceSaver, UnaliverBundlePreview, UnaliverNode, UnaliverPlanner, UnaliverStepIterato, ...\nNOTE: The files in the repo are not organized."
+        },        
+        {
             "author": "Kraven1109",
-            "title": "ComfyUI-Llama",
+            "title": "ComfyUI-Llama [NAME CONFLICT]",
             "reference": "https://github.com/Kraven1109/ComfyUI-Llama",
             "files": [
                 "https://github.com/Kraven1109/ComfyUI-Llama"
