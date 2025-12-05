@@ -1,6 +1,86 @@
 {
     "custom_nodes": [
         {
+            "author": "Kraven1109",
+            "title": "ComfyUI-Llama",
+            "reference": "https://github.com/Kraven1109/ComfyUI-Llama",
+            "files": [
+                "https://github.com/Kraven1109/ComfyUI-Llama"
+            ],
+            "install_type": "git-clone",
+            "description": "Lightweight ComfyUI plugin exposing llama.cpp-based one-shot Qwen VQA nodes."
+        },        
+        {
+            "author": "xiaoxidashen",
+            "title": "comfyui_my_utils",
+            "reference": "https://github.com/xiaoxidashen/comfyui_my_utils",
+            "files": [
+                "https://github.com/xiaoxidashen/comfyui_my_utils"
+            ],
+            "install_type": "git-clone",
+            "description": "Guide and utilities for creating ComfyUI custom nodes with image/video preview functionality. (Description by CC)"
+        },
+        {
+            "author": "agavesunset",
+            "title": "ComfyUI_LoRA_Tracker",
+            "reference": "https://github.com/agavesunset/ComfyUI_LoRA_Tracker",
+            "files": [
+                "https://github.com/agavesunset/ComfyUI_LoRA_Tracker"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for tracking and displaying LoRA parameters. (Description by CC)"
+        },
+        {
+            "author": "anilsathyan7",
+            "title": "ComfyUI-Crystal-Upscaler",
+            "reference": "https://github.com/anilsathyan7/ComfyUI-Crystal-Upscaler",
+            "files": [
+                "https://github.com/anilsathyan7/ComfyUI-Crystal-Upscaler"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for image upscaling using crystal upscaling technology. (Description by CC)"
+        },
+        {
+            "author": "SleazySleaze",
+            "title": "aesthetic-persona-comfyui-node",
+            "reference": "https://github.com/SleazySleaze/aesthetic-persona-comfyui-node",
+            "files": [
+                "https://github.com/SleazySleaze/aesthetic-persona-comfyui-node"
+            ],
+            "install_type": "git-clone",
+            "description": "Node providing aesthetic persona parsing capabilities for ComfyUI. (Description by CC)"
+        },
+        {
+            "author": "xtanqn",
+            "title": "comfyui-xishen [WIP]",
+            "reference": "https://github.com/xtanqn/comfyui-xishen",
+            "files": [
+                "https://github.com/xtanqn/comfyui-xishen"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that generates random numbers as text output.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "heyburns",
+            "title": "ComfyUI-Logic-Redux [WIP]",
+            "reference": "https://github.com/heyburns/ComfyUI-Logic-Redux",
+            "files": [
+                "https://github.com/heyburns/ComfyUI-Logic-Redux"
+            ],
+            "install_type": "git-clone",
+            "description": "Validation-friendly rewrite of ComfyUI Logic nodes with drop-in compatibility, featuring compare, int/float/bool/string pass-through, ternary logic, and debug nodes. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Mohamed-Sakr",
+            "title": "ComfyUI-SimpleMarkdown [UNSAFE]",
+            "reference": "https://github.com/Mohamed-Sakr/ComfyUI-SimpleMarkdown",
+            "files": [
+                "https://github.com/Mohamed-Sakr/ComfyUI-SimpleMarkdown"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple markdown node for ComfyUI[w/This nodepack has a frontend vulnerability.]"
+        },
+        {
             "author": "starsFriday",
             "title": "ComfyUI-Tracker-Person [WIP]",
             "reference": "https://github.com/starsFriday/ComfyUI-Tracker-Person",
@@ -1202,16 +1282,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Image Size Input, Date/Time based output path"
-        },
-        {
-            "author": "octapus8085",
-            "title": "OpenAI-comfyui-O",
-            "reference": "https://github.com/Spicely/Comfyui-File-Utils",
-            "files": [
-                "https://github.com/Spicely/Comfyui-File-Utils"
-            ],
-            "install_type": "git-clone",
-            "description": "This plugin provides multiple file-handling and utility nodes for ComfyUI, including: image saving, audio saving, video saving, video composition, audio-to-subtitle conversion, and random number generation nodes. These nodes not only process files but also return their absolute file paths.\nNOTE: The files in the repo are not organized.[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
         },
         {
             "author": "octapus8085",

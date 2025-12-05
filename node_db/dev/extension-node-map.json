@@ -2361,6 +2361,19 @@
             "title_aux": "ComfyUI Dynamic Prompting Simplified [WIP]"
         }
     ],
+    "https://github.com/Kraven1109/ComfyUI-Llama": [
+        [
+            "ComfyLLama",
+            "ComfyLLamaServer",
+            "ComfyLLamaTextConcat",
+            "ComfyLLamaTextInput",
+            "GGUFLoader",
+            "MediaPathsLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-Llama"
+        }
+    ],
     "https://github.com/Krish-701/RK_Comfyui": [
         [
             "RK_Accumulate_Text_Multiline",
@@ -2950,6 +2963,14 @@
             "title_aux": "ComfyUI_mickster_nodes [WIP]"
         }
     ],
+    "https://github.com/Mohamed-Sakr/ComfyUI-SimpleMarkdown": [
+        [
+            "SimpleMarkdownPreview"
+        ],
+        {
+            "title_aux": "ComfyUI-SimpleMarkdown [UNSAFE]"
+        }
+    ],
     "https://github.com/MrAdamBlack/CheckProgress": [
         [
             "CHECK_PROGRESS"
@@ -3450,14 +3471,36 @@
     "https://github.com/PozzettiAndrea/ComfyUI-CADabra": [
         [
             "BrepGeneration",
+            "CADAnalysisViewer",
+            "CADCheckOverlappingFaces",
+            "CADConnectedComponents",
+            "CADCountFaces",
+            "CADDepthMapHybrid",
+            "CADEstimateGapTolerance",
+            "CADExtractFaces",
             "CADFaceAnalysis",
+            "CADFillMaskBiharmonic",
+            "CADFillMaskBiharmonicMask",
+            "CADFixDegenerateFaces",
+            "CADGetFaceInfo",
+            "CADGetFilename",
+            "CADGetMetadata",
+            "CADHealShape",
+            "CADMergeVertices",
+            "CADProjectFacesXY",
+            "CADROISelector",
+            "CADRaytracerBVH",
+            "CADSave",
+            "CADSewFaces",
+            "CADSplitComponents",
             "CAD_Convert_Format",
+            "CAD_Load",
             "CAD_Load_From_Folder",
-            "CAD_Load_Gmsh",
             "CAD_Mesh_Gmsh",
             "CAD_Mesh_Gmsh_Advanced",
             "CAD_Quality_Metrics",
             "CAD_Remesh_OCC",
+            "CAD_Remesh_OCC_Advanced",
             "LoadPoint2CADModel",
             "LoadPointCloudXYZ",
             "ML_FeatureDetection",
@@ -3983,6 +4026,14 @@
             "title_aux": "multigpu_diffusion_comfyui"
         }
     ],
+    "https://github.com/SleazySleaze/aesthetic-persona-comfyui-node": [
+        [
+            "AestheticPersonaParser"
+        ],
+        {
+            "title_aux": "aesthetic-persona-comfyui-node"
+        }
+    ],
     "https://github.com/Slix-M-Lestragg/comfyui-enhanced": [
         [
             "Range Iterator"
@@ -4052,19 +4103,6 @@
         ],
         {
             "title_aux": "ComfyUI_Remaker_FaceSwap"
-        }
-    ],
-    "https://github.com/Spicely/Comfyui-File-Utils": [
-        [
-            "AudioToSubtitle",
-            "RandomFloat",
-            "SaveAudioWithPath",
-            "SaveImageWithPath",
-            "SaveVideoWithPath",
-            "VideoCompose"
-        ],
-        {
-            "title_aux": "OpenAI-comfyui-O"
         }
     ],
     "https://github.com/Stable-X/ComfyUI-Hi3DGen": [
@@ -4960,6 +4998,14 @@
             "title_aux": "ComfyUI-OpenPoser [WIP]"
         }
     ],
+    "https://github.com/agavesunset/ComfyUI_LoRA_Tracker": [
+        [
+            "LoRAParameterOverlay"
+        ],
+        {
+            "title_aux": "ComfyUI_LoRA_Tracker"
+        }
+    ],
     "https://github.com/ahkimkoo/ComfyUI-OSS-Upload": [
         [
             "OSSAudioUploader",
@@ -5211,6 +5257,14 @@
         ],
         {
             "title_aux": "ComfyUI-Legendary-Nodes"
+        }
+    ],
+    "https://github.com/anilsathyan7/ComfyUI-Crystal-Upscaler": [
+        [
+            "CrystalUpscalerNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Crystal-Upscaler"
         }
     ],
     "https://github.com/animEEEmpire/ComfyUI-Animemory-Loader": [
@@ -7856,6 +7910,22 @@
         ],
         {
             "title_aux": "ComfyUI-CC-ImageLoader [UNSAFE]"
+        }
+    ],
+    "https://github.com/heyburns/ComfyUI-Logic-Redux": [
+        [
+            "Bool-\ud83d\udd2c",
+            "Compare-\ud83d\udd2c",
+            "DebugPrint-\ud83d\udd2c",
+            "Float-\ud83d\udd2c",
+            "If ANY execute A else B",
+            "If ANY execute A else B-\ud83d\udd2c",
+            "If ANY return A else B-\ud83d\udd2c",
+            "Int-\ud83d\udd2c",
+            "String-\ud83d\udd2c"
+        ],
+        {
+            "title_aux": "ComfyUI-Logic-Redux [WIP]"
         }
     ],
     "https://github.com/hhelloe/ComfyuiQuantizerToFp8": [
@@ -12325,6 +12395,14 @@
             "title_aux": "ComfyUI_RasterCardMaker"
         }
     ],
+    "https://github.com/xiaoxidashen/comfyui_my_utils": [
+        [
+            "VideoSplitCombine"
+        ],
+        {
+            "title_aux": "comfyui_my_utils"
+        }
+    ],
     "https://github.com/xiaoyumu/ComfyUI-XYNodes": [
         [
             "AdjustImageColor",
@@ -12368,6 +12446,14 @@
         ],
         {
             "title_aux": "ComfyUI-CombineVideoAndSubtitle"
+        }
+    ],
+    "https://github.com/xtanqn/comfyui-xishen": [
+        [
+            "XishenRandomIntegerNode"
+        ],
+        {
+            "title_aux": "comfyui-xishen [WIP]"
         }
     ],
     "https://github.com/xuchenxu168/ComfyUI-Gemini-3": [
