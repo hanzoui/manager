@@ -1,5 +1,15 @@
 {
     "custom_nodes": [
+		{
+            "author": "Transhumai",
+            "title": "ComfyUI-LegionPower",
+            "reference": "https://github.com/Transhumai/ComfyUI-LegionPower",
+            "files": [
+                "https://github.com/Transhumai/ComfyUI-LegionPower"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes to run ComfyUI workflows in isolated workers for optimal GPU and memory use."
+        },
         {
             "author": "KLL535",
             "title": "ComfyUI_Simple_Qwen3-VL-gguf",
@@ -680,137 +690,6 @@
             ],
             "install_type": "git-clone",
             "description": "A custom node for ComfyUI that allows you to render GLSL shaders (Shadertoy-style) directly inside your workflows. (Description by CC)"
-        },
-        {
-            "author": "Nynxz",
-            "title": "ComfyUI-NynxzNodes",
-            "reference": "https://github.com/Nynxz/ComfyUI-NynxzNodes",
-            "files": [
-                "https://github.com/Nynxz/ComfyUI-NynxzNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI nodes providing video comparison utilities, including wipe and fade compare video generation in multiple directions. (Description by CC)"
-        },        
-        {
-            "author": "comrender",
-            "title": "ComfyUI-edge-match-checker",
-            "reference": "https://github.com/comrender/ComfyUI-edge-match-checker",
-            "files": [
-                "https://github.com/comrender/ComfyUI-edge-match-checker"
-            ],
-            "install_type": "git-clone",
-            "description": "Node comparing two image masks or images with adjustable overlap threshold (default 95%) for detecting minor shifts and mismatches in proportions, suitable for automated post-processing validation. (Description by CC)"
-        },
-        {
-            "author": "lovisdotio",
-            "title": "ComfyUI-Replace-First-Frame-Last-Frame",
-            "reference": "https://github.com/lovisdotio/ComfyUI-Replace-First-Frame-Last-Frame",
-            "files": [
-                "https://github.com/lovisdotio/ComfyUI-Replace-First-Frame-Last-Frame"
-            ],
-            "install_type": "git-clone",
-            "description": "Replace the first and last frames of an image sequence in ComfyUI. Auto-resizes frames to match video dimensions, handles batches, and adjusts parameters if needed."
-        },
-        {
-            "author": "FuryNocturn",
-            "title": "ComfyUI-Dummy_Node_Pack",
-            "reference": "https://github.com/FuryNocturn/ComfyUI-Dummy_Node_Pack",
-            "files": [
-                "https://github.com/FuryNocturn/ComfyUI-Dummy_Node_Pack"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom node pack creating fake/dummy nodes to replace missing, obsolete, or cloud-specific nodes, allowing legacy workflows to load visually without errors while preserving connections. (Description by CC)"
-        },
-        {
-            "author": "yukascomfy",
-            "title": "ATI_AudioReactive",
-            "reference": "https://github.com/yukascomfy/ATI_AudioReactive",
-            "files": [
-                "https://github.com/yukascomfy/ATI_AudioReactive"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI audio-reactive animation node combining RyanOnTheInside's reactive features with Fillip's path animation for creating audio-driven visual animations. (Description by CC)"
-        },
-        {
-            "author": "techzuhaib",
-            "title": "FaceCLIP-ComfyUI",
-            "reference": "https://github.com/techzuhaib/FaceCLIP-ComfyUI",
-            "files": [
-                "https://github.com/techzuhaib/FaceCLIP-ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "FaceCLIP nodes for ComfyUI providing joint embeddings from aligned face images plus text prompts, and identity-preserving image synthesis using fine-tuned SDXL UNet. (Description by CC)"
-        },
-        {
-            "author": "Windecay",
-            "title": "ComfyUI_Dynamic-RAMCache",
-            "reference": "https://github.com/Windecay/ComfyUI_Dynamic-RAMCache",
-            "files": [
-                "https://github.com/Windecay/ComfyUI_Dynamic-RAMCache"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that dynamically manages RAM usage by intelligently controlling cache purging based on available system memory."
-        },
-        {
-            "author": "tuki0918",
-            "title": "comfyui-image-expand-nodes",
-            "reference": "https://github.com/tuki0918/comfyui-image-expand-nodes",
-            "files": [
-                "https://github.com/tuki0918/comfyui-image-expand-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for ComfyUI to expand images with noise for outpainting or inpainting purposes. This allows for seamless image extension in any direction."
-        },
-        {
-            "author": "tuki0918",
-            "title": "comfyui-image-tiled-nodes",
-            "reference": "https://github.com/tuki0918/comfyui-image-tiled-nodes",
-            "files": [
-                "https://github.com/tuki0918/comfyui-image-tiled-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI nodes that split large images into overlapping tiles for processing and merge them back seamlessly with feathering blending. (Description by CC)"
-        },
-        {
-            "author": "NeoDroleDeGueule",
-            "title": "NDDG_Great_Nodes",
-            "reference": "https://github.com/NeoDroleDeGueule/NDDG_Great_Nodes",
-            "files": [
-                "https://github.com/NeoDroleDeGueule/NDDG_Great_Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NDDG Great Nodes - ComfyUI custom nodes featuring Great Conditioning Modifier with advanced semantic drift, token dropout, gradient amplification and other conceptual manipulation tools. (Description by CC)"
-        },
-        {
-            "author": "EnragedAntelope",
-            "title": "ComfyUI_EasyRegion",
-            "reference": "https://github.com/EnragedAntelope/ComfyUI_EasyRegion",
-            "files": [
-                "https://github.com/EnragedAntelope/ComfyUI_EasyRegion"
-            ],
-            "install_type": "git-clone",
-            "description": "Control different parts of your image with separate prompts using visual box drawing."
-        },
-        {
-            "author": "aining2022",
-            "title": "ComfyUI_Swwan",
-            "reference": "https://github.com/aining2022/ComfyUI_Swwan",
-            "files": [
-                "https://github.com/aining2022/ComfyUI_Swwan"
-            ],
-            "install_type": "git-clone",
-            "description": "Collection of image processing utility nodes for ComfyUI including intelligent cropping, aspect ratio scaling, and crop box restoration capabilities. (Description by CC)"
-        },
-        {
-            "author": "brucew4yn3rp",
-            "title": "Vintage Effect",
-            "id": "VintageEffect",
-            "reference": "https://github.com/brucew4yn3rp/ComfyUI_VintageEffect",
-            "files": [
-                "https://github.com/brucew4yn3rp/ComfyUI_VintageEffect"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI node that applies vintage/retro effects through JPG compression, color grading, film grain, vignette, and more to emulate more realistic photo aesthetics."
         }
     ]
 }

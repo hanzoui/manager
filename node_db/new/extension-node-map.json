@@ -2024,7 +2024,9 @@
     ],
     "https://github.com/AcademiaSD/comfyui_AcademiaSD": [
         [
+            "AcademiaSD_BatchLoader",
             "AcademiaSD_Gemini_Node",
+            "AcademiaSD_SaveCaption",
             "IntegerBypasser",
             "LoopCounterToFile",
             "PaddedFileName",
@@ -2700,10 +2702,12 @@
             "AGSoft Text Operation",
             "AGSoft Text Overlay",
             "AGSoft Text Replace",
+            "AGSoftLoadVideo",
             "AGSoftTextConcatenateX2",
             "AGSoftTextConcatenateX4",
             "AGSoftTextConcatenateX8",
             "AGSoftTextSplit",
+            "AGSoftVideoFrameExtractor",
             "AGSoft_Draw_Mask_On_Image",
             "AGSoft_Empty_Latent",
             "AGSoft_Empty_Latent_QwenImage",
@@ -2978,6 +2982,10 @@
             "ConcatKDFHash_Derive",
             "ConcatKDFHash_Verify",
             "ConstantTimeCompare",
+            "EdDSAPrivateKeyFormat",
+            "EdDSAPublicKeyFormat",
+            "EdDSASignature",
+            "EdDSAVerify",
             "FernetKeygenSimple",
             "FernetSimple",
             "Foursquare",
@@ -3021,6 +3029,7 @@
             "String2Base64",
             "String2Binary",
             "String2Hex",
+            "StringLooper",
             "SymmetricEncryptDecrypt",
             "SystemRandom",
             "ThreeSquare",
@@ -4608,7 +4617,8 @@
     "https://github.com/ComfyAssets/ComfyUI_PromptManager": [
         [
             "PromptManager",
-            "PromptManagerText"
+            "PromptManagerText",
+            "PromptSearchList"
         ],
         {
             "title_aux": "ComfyUI_PromptManager"
@@ -7095,6 +7105,7 @@
             "Add Margin With Color",
             "Any to Int/Float/String",
             "Audio Duration",
+            "Clamp Images To Megapixels",
             "Essential Params",
             "Get Last Output Video Path",
             "If Image Valid",
@@ -11385,6 +11396,7 @@
             "LMMExtractPromptsNode",
             "LatentSettings",
             "PipeHub",
+            "PreviewMask",
             "cropImage"
         ],
         {
@@ -13358,7 +13370,8 @@
     ],
     "https://github.com/NudeJS-dev/ComfyUI-NudeJS-Image2Prompt": [
         [
-            "Image2Prompt"
+            "Image2Prompt",
+            "Text2Prompt"
         ],
         {
             "title_aux": "ComfyUI-NudeJS-Image2Prompt"
@@ -15631,7 +15644,8 @@
             "Simple Readable Metadata Text Viewer-SG",
             "SimpleReadableMetadataMAXSG",
             "SimpleReadableMetadataSG",
-            "SimpleReadableMetadataSaveTextSG"
+            "SimpleReadableMetadataSaveTextSG",
+            "SimpleReadableMetadataVideoSG"
         ],
         {
             "title_aux": "ComfyUI-Simple_Readable_Metadata-SG"
@@ -21676,6 +21690,7 @@
             "ArchAi3D_Color_Correction_Advanced",
             "ArchAi3D_Color_Correction_BT709",
             "ArchAi3D_Conditioning_Balance",
+            "ArchAi3D_Dependency_Installer",
             "ArchAi3D_Float_Input",
             "ArchAi3D_GDrive_Download",
             "ArchAi3D_Gemini",
@@ -21688,6 +21703,7 @@
             "ArchAi3D_Mask_To_Position_Guide",
             "ArchAi3D_Metric3D_Depth",
             "ArchAi3D_Metric3D_Normal",
+            "ArchAi3D_Nunchaku_Installer",
             "ArchAi3D_Object_Focus_Camera",
             "ArchAi3D_Object_Focus_Camera_V2",
             "ArchAi3D_Object_Focus_Camera_V3",
@@ -24069,6 +24085,7 @@
             "AI_Qwen",
             "AI_Qwen_text",
             "Ai_Ollama_RunModel",
+            "Ai_doubao_seedream",
             "Amp_audio_Normalized",
             "Amp_drive_String",
             "Amp_drive_mask",
@@ -24076,6 +24093,7 @@
             "CN_preset1_Unpack",
             "CN_preset1_pack",
             "Coordinate_Generator",
+            "Coordinate_Index2Text",
             "Coordinate_MarkRender",
             "Coordinate_SplitIndex",
             "Coordinate_fromImage",
@@ -24123,6 +24141,7 @@
             "Image_pad_adjust_restore",
             "Image_pad_keep",
             "Image_precision_Converter",
+            "Image_safe_size",
             "Image_smooth_blur",
             "Image_solo_crop",
             "Image_solo_stitch",
@@ -24259,6 +24278,7 @@
             "excel_search_data",
             "excel_write_data",
             "excel_write_data_easy",
+            "flow_GetNodeInfo",
             "flow_QueueTrigger",
             "flow_ValueReceiver",
             "flow_ValueSender",
@@ -24406,8 +24426,18 @@
     ],
     "https://github.com/cdanielp/COMFYUI_PROMPTMODELS": [
         [
+            "ClearCacheNode",
             "GetFrameByIndex",
-            "GetLastFrame"
+            "GetLastFrame",
+            "GetNode",
+            "ListCacheNode",
+            "PromptInfo",
+            "PromptModelLoader",
+            "PromptRefiner",
+            "SetNode",
+            "SetNodeNamed",
+            "UnetLoaderGGUF",
+            "UnetLoaderGGUFAdvanced"
         ],
         {
             "title_aux": "COMFYUI_PROMPTMODELS"
@@ -26379,6 +26409,7 @@
             "CLIPTextEncodeFlux",
             "CLIPTextEncodeHiDream",
             "CLIPTextEncodeHunyuanDiT",
+            "CLIPTextEncodeKandinsky5",
             "CLIPTextEncodeLumina2",
             "CLIPTextEncodePixArtAlpha",
             "CLIPTextEncodeSD3",
@@ -26507,6 +26538,7 @@
             "KSampler",
             "KSamplerAdvanced",
             "KSamplerSelect",
+            "Kandinsky5ImageToVideo",
             "KarrasScheduler",
             "KlingCameraControlI2VNode",
             "KlingCameraControlT2VNode",
@@ -26624,6 +26656,7 @@
             "MoonvalleyTxt2VideoNode",
             "MoonvalleyVideo2VideoNode",
             "Morphology",
+            "NormalizeVideoLatentStart",
             "OpenAIChatConfig",
             "OpenAIChatNode",
             "OpenAIDalle2",
@@ -26685,6 +26718,7 @@
             "RenormCFG",
             "RepeatImageBatch",
             "RepeatLatentBatch",
+            "ReplaceVideoLatentFrames",
             "RescaleCFG",
             "ResizeAndPadImage",
             "Rodin3D_Detail",
@@ -28586,7 +28620,8 @@
             "NumberListGenerator",
             "PromptListGenerator",
             "QwenGPUInference",
-            "SaveVideoPath"
+            "SaveVideoPath",
+            "SimpleWildCardPlayer"
         ],
         {
             "title_aux": "ComfyUI-ListHelper"
@@ -42461,7 +42496,6 @@
             "LoadLastLatent",
             "LoadVideoForVCaptioning",
             "Lora Loader Str",
-            "LoraLoaderZImage",
             "MaskEmptyFloatNode",
             "MaskPassOrPlaceholder",
             "ParametricEQNode",
@@ -46783,6 +46817,7 @@
             "NukeChannelShuffle",
             "NukeColorBars",
             "NukeColorCorrect",
+            "NukeConstant",
             "NukeCornerPin",
             "NukeCrop",
             "NukeDefocus",
@@ -48293,6 +48328,7 @@
             "DisTorchPurgeVRAMV2",
             "MemoryCleaner",
             "MemoryManager",
+            "ModelPatchMemoryCleaner",
             "SafeMemoryManager"
         ],
         {

@@ -37670,6 +37670,16 @@
             "install_type": "git-clone",
             "description": "A logic engine for ComfyUI prompts that transforms static prompts into dynamic, context-aware workflows with persistent variables, conditional logic, native LoRA loading, and external data fetching. (Description by CC)"
         },
+		{
+            "author": "Transhumai",
+            "title": "ComfyUI-LegionPower",
+            "reference": "https://github.com/Transhumai/ComfyUI-LegionPower",
+            "files": [
+                "https://github.com/Transhumai/ComfyUI-LegionPower"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes to run ComfyUI workflows in isolated workers for optimal GPU and memory use."
+        },
 
 
 
@@ -38094,16 +38104,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "Transhumai",
-            "title": "ComfyUI-LegionPower",
-            "reference": "https://github.com/Transhumai/ComfyUI-LegionPower",
-            "files": [
-                "https://github.com/Transhumai/ComfyUI-LegionPower"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes to run ComfyUI workflows in isolated workers for optimal GPU and memory use."
         }
     ]
 }
