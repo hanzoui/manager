@@ -33,6 +33,18 @@
             "description": "ShakaNodes: Utility tools for ComfyUI"
         },
         {
+            "author": "Matthew-X",
+            "title": "Workflow Importer",
+            "id": "comfyui-workflow_importer",
+            "reference": "https://github.com/Matthew-X/comfyui-workflow_importer",
+            "files": [
+                "https://github.com/Matthew-X/comfyui-workflow_importer"
+            ],
+            "install_type": "git-clone",
+            "js_path": "workflow_importer",
+            "description": "Import ComfyUI workflows from images with embedded metadata. Adds a toolbar Import button, drag-and-drop dialog and Ctrl+Shift+I shortcut. Supports legacy and new UIs, common image formats, opens each image in a new workflow tab."
+        },
+        {
             "author": "ameyukisora",
              "title": "ComfyUI Empty Latent Advanced",
             "reference": "https://github.com/ameyukisora/ComfyUI-Empty-Latent-Advanced",
