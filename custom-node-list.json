@@ -37757,7 +37757,18 @@
                 "install_type": "git-clone",
                 "description": "Train LoRAs directly inside ComfyUI. Supports SDXL (via sd-scripts), FLUX, Z-Image Turbo, and Wan 2.2 (via AI-Toolkit)."
         },
-
+        {
+            "author": "HackAfterDark",
+            "title": "AfterDark Film AR Selector",
+            "id": "ComfyUI-HackAfterDark-Nodes",
+            "reference": "https://github.com/hackafterdark/ComfyUI-HackAfterDark-Nodes",
+            "files": [
+                "https://github.com/hackafterdark/ComfyUI-HackAfterDark-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of utility nodes for ComfyUI, including resolution presets for film and photography aspect ratios.",
+            "tags": ["utility", "presets", "aspect ratio", "film"]
+        },
 
 
 
