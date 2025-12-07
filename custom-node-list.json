@@ -37724,6 +37724,17 @@
             "js_path": "workflow_importer",
             "description": "Import ComfyUI workflows from images with embedded metadata. Adds a toolbar Import button, drag-and-drop dialog and Ctrl+Shift+I shortcut. Supports legacy and new UIs, common image formats, opens each image in a new workflow tab."
         },
+        {
+            "author": "Dashuai",
+            "title": "ComfyUI DashuaiTools",
+            "id": "comfyui-dashuai-tools",
+            "reference": "https://github.com/Hasasasa/ComfyUI_DashuaiTools",
+            "files": [
+                "https://github.com/Hasasasa/ComfyUI_DashuaiTools"
+            ],
+            "install_type": "git-clone",
+            "description": "A practical and lightweight collection of custom nodes for ComfyUI, providing utility tools and convenient workflow functions."
+        },
 
 
 
@@ -38148,17 +38159,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Dashuai",
-            "title": "ComfyUI DashuaiTools",
-            "id": "comfyui-dashuai-tools",
-            "reference": "https://github.com/Hasasasa/ComfyUI_DashuaiTools",
-            "files": [
-                "https://github.com/Hasasasa/ComfyUI_DashuaiTools"
-            ],
-            "install_type": "git-clone",
-            "description": "A practical and lightweight collection of custom nodes for ComfyUI, providing utility tools and convenient workflow functions."
         }
     ]
 }

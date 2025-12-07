@@ -2375,6 +2375,9 @@
     "https://github.com/Kraven1109/ComfyUI-Llama": [
         [
             "ComfyLLama",
+            "ComfyLLamaPreviewText",
+            "ComfyLLamaPromptBuilder",
+            "ComfyLLamaSaveText",
             "ComfyLLamaServer",
             "ComfyLLamaTextConcat",
             "ComfyLLamaTextInput",
@@ -3483,12 +3486,16 @@
     ],
     "https://github.com/PozzettiAndrea/ComfyUI-CADabra": [
         [
+            "BGPSegSegmentation",
             "BrepGeneration",
             "CADAnalysisViewer",
             "CADCheckOverlappingFaces",
             "CADConnectedComponents",
             "CADCountFaces",
             "CADDepthMapHybrid",
+            "CADEdgeAnalysis",
+            "CADEdgeDetailAnalyzer",
+            "CADEdgeViewer",
             "CADEstimateGapTolerance",
             "CADExtractFaces",
             "CADFaceAnalysis",
@@ -3503,7 +3510,6 @@
             "CADProjectFacesXY",
             "CADROISelector",
             "CADRaytracerBVH",
-            "CADRecodeExecute",
             "CADRecodeInference",
             "CADSave",
             "CADSewFaces",
@@ -3516,24 +3522,40 @@
             "CAD_Quality_Metrics",
             "CAD_Remesh_OCC",
             "CAD_Remesh_OCC_Advanced",
+            "CadQueryExecute",
+            "CadrilleImageInference",
+            "CadrilleInference",
+            "CadrilleTextInference",
+            "LoadBGPSegModels",
             "LoadCADRecodeModel",
+            "LoadCadrilleModel",
+            "LoadNeurCADReconModel",
             "LoadPoint2CADModel",
             "LoadPointCloudXYZ",
+            "LoadSECADNetModel",
+            "LoadSurfaceParams",
             "ML_FeatureDetection",
             "ML_SurfaceRecon",
             "MeshFaceSegmentation",
             "MeshSegmentToPointCloud",
-            "MeshToPointCloud",
+            "MeshToVoxel",
             "Mesh_Optimize_Gmsh",
+            "NeurCADReconInference",
+            "NeurCADReconLoadCheckpoint",
+            "NeurCADReconTrain",
             "Point2CADExportBrep",
             "Point2CADSegmentation",
             "Point2CADSurfaceFitting",
+            "Point2CADSurfaceFittingOCC",
             "Point2CADTopologyExtraction",
             "PointCloudSegmentation",
             "PreviewCADBatch",
             "PreviewCADOCC",
             "PrimitiveFitting",
-            "QuadRemesh"
+            "QuadRemesh",
+            "SECADNetFinetune",
+            "SECADNetInference",
+            "SaveSurfaceParams"
         ],
         {
             "title_aux": "CADabra [WIP]"
@@ -3784,6 +3806,7 @@
             "List Image Path \ud83d\udc24",
             "List Model Path \ud83d\udc24",
             "List Video Path \ud83d\udc24",
+            "Load Image Base64 \ud83d\udc24",
             "Peaks Weights Generator \ud83d\udc24"
         ],
         {
@@ -5490,12 +5513,13 @@
     "https://github.com/bakker/BK_Utils": [
         [
             "DynamicGroupSwitchMulti",
+            "FileNameDefinition",
             "FluxPromptSaver",
             "FluxTextSampler",
             "IsOneOfGroupsActive",
             "ModelName",
             "SamePixelResolutionCalculator",
-            "SubgraphPromptSwitchAutoDisplay"
+            "ZImageTurboResolutions"
         ],
         {
             "title_aux": "BK_Utils [WIP]"
@@ -6191,6 +6215,7 @@
             "CLIPTextEncodeFlux",
             "CLIPTextEncodeHiDream",
             "CLIPTextEncodeHunyuanDiT",
+            "CLIPTextEncodeKandinsky5",
             "CLIPTextEncodeLumina2",
             "CLIPTextEncodePixArtAlpha",
             "CLIPTextEncodeSD3",
@@ -6319,6 +6344,7 @@
             "KSampler",
             "KSamplerAdvanced",
             "KSamplerSelect",
+            "Kandinsky5ImageToVideo",
             "KarrasScheduler",
             "KlingCameraControlI2VNode",
             "KlingCameraControlT2VNode",
@@ -6436,6 +6462,7 @@
             "MoonvalleyTxt2VideoNode",
             "MoonvalleyVideo2VideoNode",
             "Morphology",
+            "NormalizeVideoLatentStart",
             "OpenAIChatConfig",
             "OpenAIChatNode",
             "OpenAIDalle2",
@@ -6497,6 +6524,7 @@
             "RenormCFG",
             "RepeatImageBatch",
             "RepeatLatentBatch",
+            "ReplaceVideoLatentFrames",
             "RescaleCFG",
             "ResizeAndPadImage",
             "Rodin3D_Detail",
@@ -8733,12 +8761,14 @@
             "CollectVideosNode",
             "ImageDelay",
             "IntToString",
+            "KlingVideoHandler",
             "LoadImageWithFilename",
             "LoadVideoWithFilename",
             "PairSwitchNode",
             "PreviewImageLimited",
             "StringSplitSelect",
-            "Unbroken-Video-Handler"
+            "Unbroken-Video-Handler",
+            "WorkflowLoggerNode"
         ],
         {
             "title_aux": "Kaskis_Comfy_Nodes"
@@ -9166,17 +9196,10 @@
     ],
     "https://github.com/leacvikas0/ComfyUI-Presence": [
         [
-            "BeautifulTextNode",
             "FluxAdaptiveInjector",
-            "InspectNode",
-            "PresenceDirector",
             "PresenceDirectorFireworks",
             "PresenceDirectorVertex",
-            "PresenceSaver",
-            "UnaliverBundlePreview",
-            "UnaliverNode",
-            "UnaliverPlanner",
-            "UnaliverStepIterator"
+            "PresenceSaver"
         ],
         {
             "title_aux": "ComfyUI-Presence [WIP]"
@@ -11323,7 +11346,10 @@
         [
             "GetJsonKeyValue",
             "Image_Color_Noise",
-            "SamplingParameters"
+            "ModifyMask",
+            "SamplingParameters",
+            "TextEncodeFlux2SystemPrompt",
+            "TextEncodeZITSystemPrompt"
         ],
         {
             "title_aux": "Sampling Utility Toolkit"
@@ -12509,7 +12535,12 @@
     ],
     "https://github.com/xtanqn/comfyui-xishen": [
         [
-            "XishenRandomIntegerNode"
+            "XishenCommonPromptNode",
+            "XishenCommonResolutionNode",
+            "XishenPromptEditNode",
+            "XishenRandomIntegerNode",
+            "XishenRemoveEmptyLinesNode",
+            "XishenSmartDisplayNode"
         ],
         {
             "title_aux": "comfyui-xishen [WIP]"
@@ -12851,14 +12882,23 @@
     ],
     "https://github.com/zhuanvi/ComfyUI-ZVNodes": [
         [
-            "ApimartConfigManagerZV",
             "ApimartDownloadSavedTaskImageZV",
             "ApimartDownloadSavedTaskVideoZV",
             "ApimartImage2VideoSubmitZV",
+            "ApimartNanoBananaProImageSubmitZV",
             "ApimartRemixByTaskIdSubmitZV",
             "ApimartRemixVideoSubmitZV",
+            "ApimartSeedream40ImageSubmitZV",
+            "ApimartSeedream45ImageSubmitZV",
             "ApimartText2VideoSubmitZV",
             "BBOXFormatConverterZV",
+            "GrsaiLoadImageFromPathNodeZV",
+            "GrsaiNanoBananaGeminiNodeZV",
+            "GrsaiNanoBananaNodeZV",
+            "GrsaiResultNodeZV",
+            "GrsaiSoraCreateCharacterNodeZV",
+            "GrsaiSoraUploadCharacterNodeZV",
+            "GrsaiSoraVideoNodeZV",
             "ImageCounterNodeZV",
             "JoinListZV",
             "JsonListIndexerZV",
@@ -12875,14 +12915,11 @@
             "LoadVideoFromDirZV",
             "MultiLineConditionalZV",
             "MultiLineOperationZV",
-            "NanoBananaProText2ImageSubmitZV",
             "PatternFillNodeZV",
             "ProductionDisplacementMapNodeZV",
             "RandomSelectListZV",
             "SaveImageToPathZV",
             "SaveTxtToPathZV",
-            "SeeDream40Text2ImageSubmitZV",
-            "SeeDream45Text2ImageSubmitZV",
             "StringToPathZV",
             "TriangleCharacterLayoutZV",
             "TxtCounterNodeZV",
