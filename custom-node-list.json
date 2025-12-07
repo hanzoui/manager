@@ -32587,6 +32587,17 @@
             "description": "High-utility nodes for ComfyUI with a focus on Flux 1 Dev workflows and Ultimate SD Upscale enhancement loops."
         },
         {
+            "author": "krakenunbound",
+            "title": "Kraken Discord Bot",
+            "id": "kraken-discord-bot",
+            "reference": "https://github.com/krakenunbound/kraken-discord-bot",
+            "files": [
+                "https://github.com/krakenunbound/kraken-discord-bot"
+            ],
+            "install_type": "git-clone",
+            "description": "All-in-one Discord bot node for AI image generation. Simple setup - just add token, select model, and queue. Includes style presets, rate limiting, and queue management."
+        },
+        {
             "author": "joanna910225",
             "title": "HouseKeeper",
             "reference": "https://github.com/joanna910225/comfyui-housekeeper",
@@ -38159,17 +38170,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "krakenunbound",
-            "title": "Kraken Discord Bot",
-            "id": "kraken-discord-bot",
-            "reference": "https://github.com/krakenunbound/kraken-discord-bot",
-            "files": [
-                "https://github.com/krakenunbound/kraken-discord-bot"
-            ],
-            "install_type": "git-clone",
-            "description": "All-in-one Discord bot node for AI image generation. Simple setup - just add token, select model, and queue. Includes style presets, rate limiting, and queue management."
         }
     ]
 }

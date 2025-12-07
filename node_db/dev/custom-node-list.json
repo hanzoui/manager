@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "krakenunbound",
+            "title": "Kraken Discord Bot",
+            "id": "kraken-discord-bot",
+            "reference": "https://github.com/krakenunbound/kraken-discord-bot",
+            "files": [
+                "https://github.com/krakenunbound/kraken-discord-bot"
+            ],
+            "install_type": "git-clone",
+            "description": "All-in-one Discord bot node for AI image generation. Simple setup - just add token, select model, and queue. Includes style presets, rate limiting, and queue management."
+        },
+        {
             "author": "quinteroac",
             "title": "comfyui_api_executor_nodes",
             "reference": "https://github.com/quinteroac/comfyui_api_executor_nodes",
