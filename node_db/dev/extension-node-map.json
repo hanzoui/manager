@@ -2107,6 +2107,7 @@
     ],
     "https://github.com/IgPoly/ComfyUI-igTools": [
         [
+            "IGT_ImageResizer",
             "IGT_ImageTilesCalc",
             "IGT_SimpleTilesCalc"
         ],
@@ -2545,6 +2546,7 @@
             "LunaYAMLWildcardBatch",
             "LunaYAMLWildcardExplorer",
             "LunaZImageEncoder",
+            "LunaZImageProcessor",
             "Luna_Advanced_Upscaler",
             "Luna_Detailer",
             "Luna_SimpleUpscaler",
@@ -5305,14 +5307,6 @@
         ],
         {
             "title_aux": "ComfyUI-Legendary-Nodes"
-        }
-    ],
-    "https://github.com/anilsathyan7/ComfyUI-Crystal-Upscaler": [
-        [
-            "CrystalUpscalerNode"
-        ],
-        {
-            "title_aux": "ComfyUI-Crystal-Upscaler"
         }
     ],
     "https://github.com/animEEEmpire/ComfyUI-Animemory-Loader": [
@@ -8251,6 +8245,7 @@
             "Alta:SpeakerDiarization",
             "Alta:StoreAudioInMemory",
             "Alta:StrToNum(Math)",
+            "Alta:StringPlus(Util)",
             "Alta:Sub(Math)",
             "Alta:SubInt(Math)",
             "Alta:SyncLipsyncNode(path)",
@@ -9669,6 +9664,7 @@
         [
             "LyraAudioVisualizer",
             "LyraCdnUploader",
+            "LyraCharacterSearch",
             "LyraCollectOpenAIResponse",
             "LyraConnectivityTest",
             "LyraCustomOpenAIRequest",
@@ -10255,14 +10251,6 @@
         ],
         {
             "title_aux": "comfyui-samenodes"
-        }
-    ],
-    "https://github.com/nohikomiso/ComfyUI-ImageFolderPicker": [
-        [
-            "ImageFolderPicker"
-        ],
-        {
-            "title_aux": "ComfyUI-ImageFolderPicker [UNSAFE]"
         }
     ],
     "https://github.com/nomcycle/ComfyUI_Cluster": [
@@ -11108,14 +11096,6 @@
             "title_aux": "ComfyUI_YoloNasObjectDetection_Tensorrt [WIP]"
         }
     ],
-    "https://github.com/rzasharp79/ComfyUI--SolarFlare": [
-        [
-            "QwenImage"
-        ],
-        {
-            "title_aux": "ComfyUI--SolarFlare"
-        }
-    ],
     "https://github.com/sahibalejandro/comfyui-sahib-nodes": [
         [
             "ChooseResolution"
@@ -11563,30 +11543,32 @@
     "https://github.com/stalkervr/comfyui-custom-path-nodes": [
         [
             "AnyCollector",
-            "AutoAspectRatioAdjustFixer",
-            "BatchImageCrop",
             "ContextPipeIn",
             "ContextPipeOut",
             "ContextPipeReroute",
             "DataFileLoader",
-            "ImageAspectFixer",
+            "ImageAspectRatioFixer",
+            "ImageBatchCrop",
             "ImageGridCropper",
+            "JsonArraySplitter",
             "JsonFieldRemover",
             "JsonFieldReplaceAdvanced",
             "JsonFieldValueExtractor",
+            "JsonPathLoader",
+            "JsonPromptToTextPromptConverter",
+            "JsonToString",
             "ListItemExtractor",
-            "ListToString",
             "LoopAny",
             "PathPipeIn",
             "PathPipeOut",
             "PathPipeReroute",
-            "PromptPartConcatenation",
             "PromptPartJoin",
             "SavePath",
             "StringCollector",
             "StringConcatenation",
-            "TextBlockProcessor",
-            "TextWrapper"
+            "StringListToString",
+            "StringWrapper",
+            "WanVideoMultiPrompt"
         ],
         {
             "title_aux": "comfyui-custom-path-nodes [UNSAFE]"
@@ -12069,6 +12051,22 @@
         ],
         {
             "title_aux": "comfyui-SetWallpaper"
+        }
+    ],
+    "https://github.com/tuxiansheng-ld/Comfyui-tuxiansheng-nodes": [
+        [
+            "StringToListNode"
+        ],
+        {
+            "title_aux": "Comfyui-tuxiansheng-nodes"
+        }
+    ],
+    "https://github.com/twdockery/ComfyUI_Prompt_Batch_Generator": [
+        [
+            "PromptBatchIterator"
+        ],
+        {
+            "title_aux": "ComfyUI_Prompt_Batch_Generator"
         }
     ],
     "https://github.com/twj515895394/ComfyUI-LowMemVideoSuite": [
