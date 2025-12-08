@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "anilstream",
+            "title": "ComfyUI-NanoBananaPro",
+            "reference": "https://github.com/anilstream/ComfyUI-NanoBananaPro",
+            "files": [
+                "https://github.com/anilstream/ComfyUI-NanoBananaPro"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node implementing basic functionality with NanoBananaBasicNode. (Description by CC)"
+        },
+        {
+            "author": "Toxic1228",
+            "title": "Eleven-labs-comfyui-sts",
+            "reference": "https://github.com/Toxic1228/Eleven-labs-comfyui-sts",
+            "files": [
+                "https://github.com/Toxic1228/Eleven-labs-comfyui-sts"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI integration node for Eleven Labs text-to-speech service (requires API key). (Description by CC)"
+        },
+        {
+            "author": "NeoTech",
+            "title": "comfyui-laserprep",
+            "reference": "https://github.com/NeoTech/comfyui-laserprep",
+            "files": [
+                "https://github.com/NeoTech/comfyui-laserprep"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node implementing laser preparation functionality with LaserPrep node. (Description by CC)"
+        },        
+        {
+            "author": "Enferlain",
+            "title": "ComfyUI-extra-schedulers [WIP]",
+            "reference": "https://github.com/Enferlain/ComfyUI-extra-schedulers",
+            "files": [
+                "https://github.com/Enferlain/ComfyUI-extra-schedulers"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes providing additional scheduler implementations for advanced sampling control. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "tiange-tree",
+            "title": "BLUEAI_ComfyUI_OpenAI",
+            "reference": "https://github.com/tiange-tree/BLUEAI_ComfyUI_OpenAI",
+            "files": [
+                "https://github.com/tiange-tree/BLUEAI_ComfyUI_OpenAI"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: BLUEAI_OpenAI_Node"
+        },
+        {
+            "author": "nestflow",
+            "title": "ComfyUI-WanPlus",
+            "reference": "https://github.com/nestflow/ComfyUI-WanPlus",
+            "files": [
+                "https://github.com/nestflow/ComfyUI-WanPlus"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for video frame manipulation and image-to-video conversion. (Description by CC)"
+        },
+        {
             "author": "twdockery",
             "title": "ComfyUI_Prompt_Batch_Generator",
             "reference": "https://github.com/twdockery/ComfyUI_Prompt_Batch_Generator",
