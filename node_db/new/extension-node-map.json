@@ -8386,6 +8386,22 @@
             "title_aux": "ComfyUI-AmazonBedrock"
         }
     ],
+    "https://github.com/Hasasasa/ComfyUI_DashuaiTools": [
+        [
+            "API_PromptHelper",
+            "API_caption",
+            "Batch_API_caption",
+            "ImageComparisonGIF",
+            "LoadImageList",
+            "MinimumFilter",
+            "SaveImageWithName",
+            "XY_Image",
+            "ZImageLoraModelOnly"
+        ],
+        {
+            "title_aux": "ComfyUI DashuaiTools"
+        }
+    ],
     "https://github.com/HavocsCall/comfyui_HavocsCall_Custom_Nodes": [
         [
             "Clip Switch",
@@ -11657,8 +11673,8 @@
             "ModelSamplingFluxGradual",
             "PolyExponentialSigmaAdder",
             "PromptBatchGenerator",
-            "TBG Dual Sampler",
-            "TBG Flux-Z-Images Sampler",
+            "TBGDualModelSampler",
+            "TBGKSamplerAdvancedSplitAware",
             "TBG_FluxKontextStabilizer",
             "TBG_Preview_Sender_WebSocked",
             "VAEDecodeColorFix"
@@ -16123,6 +16139,17 @@
             "title_aux": "multi-lora-stack"
         }
     ],
+    "https://github.com/ShootTheSound/comfyUI-Realtime-Lora": [
+        [
+            "ApplyTrainedLora",
+            "RealtimeLoraTrainer",
+            "SD15LoraTrainer",
+            "SDXLLoraTrainer"
+        ],
+        {
+            "title_aux": "Realtime LoRA Trainer"
+        }
+    ],
     "https://github.com/Shraknard/ComfyUI-Remover": [
         [
             "Remover"
@@ -16979,6 +17006,8 @@
             "StarLatentResize",
             "StarLatentSwitch",
             "StarLoadSamplerSettings",
+            "StarLoraWeightNormalizer",
+            "StarModelPacker",
             "StarNanoBanana",
             "StarNewsScraper",
             "StarOllamaSysprompterJC",
@@ -16996,12 +17025,14 @@
             "StarRadialBlur",
             "StarRandomImageLoader",
             "StarSDUpscaleRefiner",
+            "StarSDUpscaleRefinerAdvanced",
             "StarSampler",
             "StarSaveFolderString",
             "StarSavePanoramaJPEG",
             "StarSaveSamplerSettings",
             "StarSimpleFilters",
             "StarSpecialFilters",
+            "StarStopAndGo",
             "StarTextFilter",
             "StarTextInput",
             "StarWildcardsAdvanced",
@@ -21142,7 +21173,9 @@
     ],
     "https://github.com/akawana/ComfyUI-Keybinding-extra": [
         [
-            "TextCleanerSplitter"
+            "FPFoldedPrompts",
+            "FPTextAreaPlus",
+            "FPTextCleanAndSplitt"
         ],
         {
             "title_aux": "Keybinding Extra"
@@ -21164,6 +21197,7 @@
             "AKSettingsOut",
             "IndexMultiple",
             "IsOneOfGroupsActive",
+            "PreviewRawText",
             "RepeatGroupState"
         ],
         {
@@ -21229,6 +21263,10 @@
             "OllamaAPI",
             "OpenAIAPI",
             "QwenAPI",
+            "VeoLoadVideo",
+            "VeoVideoExtend",
+            "VeoVideoGenerator",
+            "VeoVideoGeneratorAdvanced",
             "style_menus"
         ],
         {
@@ -24142,7 +24180,6 @@
             "Data_sampleData",
             "Data_select",
             "Easy_QwenEdit2509",
-            "Excel_Qwen_camera",
             "IO_getFilePath",
             "IO_image_select",
             "IO_input_any",
@@ -24169,6 +24206,7 @@
             "Image_UpscaleModel",
             "Image_batch_composite",
             "Image_batch_select",
+            "Image_effect_Load",
             "Image_merge2image",
             "Image_pad_adjust",
             "Image_pad_adjust_restore",
@@ -24297,11 +24335,11 @@
             "create_mask_solo",
             "create_mulcolor_img",
             "excel_Prompter",
+            "excel_Qwen_camera",
             "excel_VedioPrompt",
             "excel_column_diff",
             "excel_insert_image",
             "excel_insert_image_easy",
-            "excel_object",
             "excel_qwen_artistic",
             "excel_qwen_font",
             "excel_read",
@@ -24325,7 +24363,6 @@
             "flow_tensor_Unify",
             "img_effect_CircleWarp",
             "img_effect_Liquify",
-            "img_effect_Load",
             "img_effect_Stretch",
             "img_effect_WaveWarp",
             "latent_Image2Noise",
@@ -24338,6 +24375,7 @@
             "lay_imgCanvas",
             "lay_mul_image",
             "lay_text_sum",
+            "lay_text_sum_mul",
             "list_ListSlice",
             "list_MergeList",
             "list_Value",
@@ -24354,7 +24392,6 @@
             "param_preset_pack",
             "photoshop_preset_Unpack",
             "photoshop_preset_pack",
-            "pre_Flex2",
             "pre_Kontext",
             "pre_Kontext_mul_Image",
             "pre_Kontext_mul_mask",
@@ -31587,6 +31624,14 @@
             "title_aux": "comfyui_gvf"
         }
     ],
+    "https://github.com/hackafterdark/ComfyUI-HackAfterDark-Nodes": [
+        [
+            "FilmARSizeSelector"
+        ],
+        {
+            "title_aux": "AfterDark Film AR Selector"
+        }
+    ],
     "https://github.com/hackkhai/ComfyUI-Image-Matting": [
         [
             "ApplyMatting",
@@ -36168,6 +36213,7 @@
             "NanoBananaMultiInput",
             "OutpaintPadding",
             "OutputTester",
+            "PixelSnapper",
             "PrepVideoForExtendKlinter",
             "SaveAudioPlus",
             "SizeSelector",
@@ -36335,6 +36381,15 @@
         ],
         {
             "title_aux": "ComfyUI-KrakenTools"
+        }
+    ],
+    "https://github.com/krakenunbound/kraken-discord-bot": [
+        [
+            "KrakenDiscordBot",
+            "KrakenDiscordBotStatus"
+        ],
+        {
+            "title_aux": "Kraken Discord Bot"
         }
     ],
     "https://github.com/krigeta/qwen-image-controlnets-comfyui": [
@@ -45360,6 +45415,7 @@
     ],
     "https://github.com/silveroxides/ComfyUI_Hybrid-Scaled_fp8-Loader": [
         [
+            "HybridConfigNode",
             "ScaledFP8HybridCheckpointLoader",
             "ScaledFP8HybridUNetLoader"
         ],

@@ -32475,6 +32475,16 @@
             "description": "A powerful node for browsing and importing media from Pixabay directly within ComfyUI."
         },
         {
+            "author": "Firetheft",
+            "title": "ComfyUI_Simple_Web_Browser",
+            "reference": "https://github.com/Firetheft/ComfyUI_Simple_Web_Browser",
+            "files": [
+                "https://github.com/Firetheft/ComfyUI_Simple_Web_Browser"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node for ComfyUI that embeds a simple web browser directly into the interface. It allows you to browse websites, find inspiration, and load images directly, which can help streamline your workflow."
+        },
+        {
             "author": "RegulusAlpha",
             "title": "ComfyUI Dynamic Prompting Simplified",
             "reference": "https://github.com/RegulusAlpha/ComfyUI-DynPromptSimplified",
@@ -35828,6 +35838,16 @@
             "description": "Custom Nodes to work with SAM3"
         },
         {
+            "author": "wouterverweirder",
+            "title": "comfyui_live_input_stream",
+            "reference": "https://github.com/wouterverweirder/comfyui_live_input_stream",
+            "files": [
+                "https://github.com/wouterverweirder/comfyui_live_input_stream"
+            ],
+            "install_type": "git-clone",
+            "description": "Webcam & Screen Share Input Nodes with Cropping and Live Preview of the Cropped Stream"
+        },
+        {
             "author": "Aishor",
             "title": "Meta-Sampler Guiado (Seed-WAN)",
             "reference": "https://github.com/Aishor/comfyui-meta-sampler-guiado",
@@ -36337,6 +36357,16 @@
             ],
             "install_type": "git-clone",
             "description": "Prompt history input node and sidebar gallery for ComfyUI."
+        },
+        {
+            "author": "x0x0b",
+            "title": "ComfyUI-spritefusion-pixel-snapper",
+            "reference": "https://github.com/x0x0b/ComfyUI-spritefusion-pixel-snapper",
+            "files": [
+                "https://github.com/x0x0b/ComfyUI-spritefusion-pixel-snapper"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node port of Sprite Fusion Pixel Snapper that snaps pixel art to a clean grid and quantized palette."
         },
         {
             "author": "EnragedAntelope",
@@ -37769,6 +37799,26 @@
             "description": "A collection of utility nodes for ComfyUI, including resolution presets for film and photography aspect ratios.",
             "tags": ["utility", "presets", "aspect ratio", "film"]
         },
+        {
+            "author": "jomakaze",
+            "title": "ComfyUI_JomaNodes",
+            "reference": "https://github.com/jomakaze/ComfyUI_JomaNodes",
+            "files": [
+                "https://github.com/jomakaze/ComfyUI_JomaNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of quality-of-life and convenience nodes."
+        },
+        {
+            "author": "UmeAiRT",
+            "title": "ComfyUI-UmeAiRT-Sync",
+            "reference": "https://github.com/UmeAiRT/ComfyUI-UmeAiRT-Sync",
+            "files": [
+                "https://github.com/UmeAiRT/ComfyUI-UmeAiRT-Sync"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatic workflow synchronizer/loader for UmeAiRT Workflows (Flux, SDXL, WAN, etc.)."
+        },
 
 
 
@@ -38192,14 +38242,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "UmeAiRT",
-            "title": "ComfyUI-UmeAiRT-Sync",
-            "reference": "https://github.com/UmeAiRT/ComfyUI-UmeAiRT-Sync",
-            "files": ["https://github.com/UmeAiRT/ComfyUI-UmeAiRT-Sync"],
-            "install_type": "git-clone",
-            "description": "Automatic workflow synchronizer/loader for UmeAiRT Workflows (Flux, SDXL, WAN, etc.)."
-		}
+        }
     ]
 }

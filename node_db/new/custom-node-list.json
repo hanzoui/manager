@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "x0x0b",
+            "title": "ComfyUI-spritefusion-pixel-snapper",
+            "reference": "https://github.com/x0x0b/ComfyUI-spritefusion-pixel-snapper",
+            "files": [
+                "https://github.com/x0x0b/ComfyUI-spritefusion-pixel-snapper"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node port of Sprite Fusion Pixel Snapper that snaps pixel art to a clean grid and quantized palette."
+        },
+        {
+            "author": "jomakaze",
+            "title": "ComfyUI_JomaNodes",
+            "reference": "https://github.com/jomakaze/ComfyUI_JomaNodes",
+            "files": [
+                "https://github.com/jomakaze/ComfyUI_JomaNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of quality-of-life and convenience nodes."
+        },
+        {
+            "author": "Firetheft",
+            "title": "ComfyUI_Simple_Web_Browser",
+            "reference": "https://github.com/Firetheft/ComfyUI_Simple_Web_Browser",
+            "files": [
+                "https://github.com/Firetheft/ComfyUI_Simple_Web_Browser"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node for ComfyUI that embeds a simple web browser directly into the interface. It allows you to browse websites, find inspiration, and load images directly, which can help streamline your workflow."
+        },
+        {
+            "author": "wouterverweirder",
+            "title": "comfyui_live_input_stream",
+            "reference": "https://github.com/wouterverweirder/comfyui_live_input_stream",
+            "files": [
+                "https://github.com/wouterverweirder/comfyui_live_input_stream"
+            ],
+            "install_type": "git-clone",
+            "description": "Webcam & Screen Share Input Nodes with Cropping and Live Preview of the Cropped Stream"
+        },
+        {
             "author": "HackAfterDark",
             "title": "AfterDark Film AR Selector",
             "id": "ComfyUI-HackAfterDark-Nodes",

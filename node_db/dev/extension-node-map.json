@@ -2379,6 +2379,7 @@
             "ComfyLLamaPromptBuilder",
             "ComfyLLamaSaveText",
             "ComfyLLamaServer",
+            "ComfyLLamaServerConfig",
             "ComfyLLamaTextConcat",
             "ComfyLLamaTextInput",
             "GGUFLoader",
@@ -2524,18 +2525,26 @@
             "LunaLoRAStacker",
             "LunaLoRATriggerInjector",
             "LunaLoRAValidator",
+            "LunaModelRestore",
+            "LunaModelRouter",
             "LunaMultiSaver",
             "LunaOptimizedWeightsManager",
             "LunaPromptCraft",
             "LunaPromptCraftDebug",
+            "LunaSecondaryModelLoader",
             "LunaSmartLoRALinker",
+            "LunaSuperUpscaler",
+            "LunaSuperUpscalerSimple",
             "LunaUNetTunnel",
+            "LunaVLMPromptGenerator",
+            "LunaVisionNode",
             "LunaWildcardBuilder",
             "LunaYAMLInjector",
             "LunaYAMLPathExplorer",
             "LunaYAMLWildcard",
             "LunaYAMLWildcardBatch",
             "LunaYAMLWildcardExplorer",
+            "LunaZImageEncoder",
             "Luna_Advanced_Upscaler",
             "Luna_Detailer",
             "Luna_SimpleUpscaler",
@@ -3489,22 +3498,15 @@
             "BGPSegSegmentation",
             "BrepGeneration",
             "CADAnalysisViewer",
+            "CADBoundingBox",
             "CADCheckOverlappingFaces",
-            "CADConnectedComponents",
-            "CADCountFaces",
-            "CADDepthMapHybrid",
             "CADEdgeAnalysis",
             "CADEdgeDetailAnalyzer",
             "CADEdgeViewer",
-            "CADEstimateGapTolerance",
             "CADExtractFaces",
             "CADFaceAnalysis",
-            "CADFillMaskBiharmonic",
-            "CADFillMaskBiharmonicMask",
             "CADFixDegenerateFaces",
-            "CADGetFaceInfo",
             "CADGetFilename",
-            "CADGetMetadata",
             "CADHealShape",
             "CADMergeVertices",
             "CADProjectFacesXY",
@@ -3514,6 +3516,7 @@
             "CADSave",
             "CADSewFaces",
             "CADSplitComponents",
+            "CADTransform",
             "CAD_Convert_Format",
             "CAD_Load",
             "CAD_Load_From_Folder",
@@ -3526,6 +3529,7 @@
             "CadrilleImageInference",
             "CadrilleInference",
             "CadrilleTextInference",
+            "FloatMath",
             "LoadBGPSegModels",
             "LoadCADRecodeModel",
             "LoadCadrilleModel",
@@ -3536,10 +3540,12 @@
             "LoadSurfaceParams",
             "ML_FeatureDetection",
             "ML_SurfaceRecon",
+            "MaskAnalyzer",
+            "MaskNormalizer",
+            "MasksToRGB",
             "MeshFaceSegmentation",
             "MeshSegmentToPointCloud",
             "MeshToVoxel",
-            "Mesh_Optimize_Gmsh",
             "NeurCADReconInference",
             "NeurCADReconLoadCheckpoint",
             "NeurCADReconTrain",
@@ -3555,6 +3561,7 @@
             "QuadRemesh",
             "SECADNetFinetune",
             "SECADNetInference",
+            "SECADNetLatentToMesh",
             "SaveSurfaceParams"
         ],
         {
@@ -3806,8 +3813,9 @@
             "List Image Path \ud83d\udc24",
             "List Model Path \ud83d\udc24",
             "List Video Path \ud83d\udc24",
-            "Load Image Base64 \ud83d\udc24",
-            "Peaks Weights Generator \ud83d\udc24"
+            "Peaks Weights Generator \ud83d\udc24",
+            "Save Image (JPEG) \ud83d\udc24",
+            "easy loadImageBase64"
         ],
         {
             "title_aux": "Comfy UI Robe Nodes [UNSAFE]"
@@ -7805,9 +7813,6 @@
     ],
     "https://github.com/grokuku/ComfyUI-Holaf": [
         [
-            "HolafBenchmarkLoader",
-            "HolafBenchmarkPlotter",
-            "HolafBenchmarkRunner",
             "HolafImageComparer",
             "HolafInstagramResize",
             "HolafKSampler",
@@ -7818,8 +7823,6 @@
             "HolafRatioCalculator",
             "HolafResolutionPreset",
             "HolafSaveImage",
-            "HolafSliceCalculator",
-            "HolafTileCalculator",
             "HolafTiledKSampler",
             "UpscaleImageHolaf"
         ],
@@ -9016,6 +9019,7 @@
             "DrawViTPose",
             "OnnxDetectionModelLoader",
             "PoseAndFaceDetection",
+            "PoseDetectionOneToAllAnimation",
             "PoseRetargetPromptHelper"
         ],
         {
@@ -9053,6 +9057,15 @@
         ],
         {
             "title_aux": "ComfyUI_was_image"
+        }
+    ],
+    "https://github.com/krakenunbound/kraken-discord-bot": [
+        [
+            "KrakenDiscordBot",
+            "KrakenDiscordBotStatus"
+        ],
+        {
+            "title_aux": "Kraken Discord Bot"
         }
     ],
     "https://github.com/krich-cto/ComfyUI-Flow-Control": [
@@ -9657,6 +9670,7 @@
             "LyraAudioVisualizer",
             "LyraCdnUploader",
             "LyraCollectOpenAIResponse",
+            "LyraConnectivityTest",
             "LyraCustomOpenAIRequest",
             "LyraFilenameBuilder",
             "LyraImageAudioFusion",
@@ -12540,7 +12554,12 @@
             "XishenPromptEditNode",
             "XishenRandomIntegerNode",
             "XishenRemoveEmptyLinesNode",
-            "XishenSmartDisplayNode"
+            "XishenSmartDisplayNode",
+            "\ud83c\udf49Image-\u9897\u7c92\u8d28\u611f",
+            "\ud83c\udf61Qwen-\u5c3a\u5bf8\u9884\u8bbe",
+            "\ud83c\udf65Qwen-\u6253\u5149\u9884\u8bbe",
+            "\ud83c\udf6dImage-\u6cdb\u5149\u6548\u679c",
+            "\ud83c\udf70Qwen-\u955c\u5934\u9884\u8bbe"
         ],
         {
             "title_aux": "comfyui-xishen [WIP]"
