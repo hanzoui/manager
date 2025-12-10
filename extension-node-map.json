@@ -3577,15 +3577,6 @@
             "title_aux": "ComfyUI Prompt Iterator Extension"
         }
     ],
-    "https://github.com/Black-Lioness/ComfyUI-PromptUtils": [
-        [
-            "FilenameGenerator",
-            "PromptWildcards"
-        ],
-        {
-            "title_aux": "ComfyUI-PromptUtils"
-        }
-    ],
     "https://github.com/BlackSnowSkill/wd14_batch_tagger": [
         [
             "BSS_LoadImagesFolder",
@@ -14822,10 +14813,20 @@
             "title_aux": "ComfyUI-SceneGenerator"
         }
     ],
+    "https://github.com/RunningOverGlowies/ComfyUI-PromptUtils": [
+        [
+            "FilenameGenerator",
+            "PromptWildcards"
+        ],
+        {
+            "title_aux": "ComfyUI-PromptUtils"
+        }
+    ],
     "https://github.com/Runware/ComfyUI-Runware": [
         [
             "Runware API Manager",
             "Runware Accelerator Options",
+            "Runware Alibaba Provider Settings",
             "Runware Audio Inference",
             "Runware Audio Inference Inputs",
             "Runware Audio Model Search",
@@ -14882,6 +14883,7 @@
             "Runware Video Transcription",
             "Runware Video Upscaler",
             "Runware Vidu Provider Settings",
+            "RunwareAlibabaProviderSettings",
             "RunwareAudioInferenceInputs",
             "RunwareBriaProviderSettings",
             "RunwareBytedanceProviderSettings",
@@ -17150,6 +17152,7 @@
             "StarLatentSwitch",
             "StarLoadSamplerSettings",
             "StarLoraWeightNormalizer",
+            "StarMetaInjector",
             "StarModelPacker",
             "StarNanoBanana",
             "StarNewsScraper",
@@ -21953,6 +21956,7 @@
             "ArchAi3D_Gemini",
             "ArchAi3D_Gemini_Model",
             "ArchAi3D_HF_Download",
+            "ArchAi3D_Info",
             "ArchAi3D_Int_Input",
             "ArchAi3D_LlamaCpp_Installer",
             "ArchAi3D_Load_Image_URL",
@@ -22004,9 +22008,14 @@
             "ArchAi3D_Qwen_System_Prompt",
             "ArchAi3D_Qwen_Watermark_Removal",
             "ArchAi3D_SAM3_Segment",
+            "ArchAi3D_SEGS_Mask_Blur",
             "ArchAi3D_Save_Image",
             "ArchAi3D_Simple_Position_Prompt",
             "ArchAi3D_Smart_Tile_Calculator",
+            "ArchAi3D_Smart_Tile_Conditioning",
+            "ArchAi3D_Smart_Tile_Detailer",
+            "ArchAi3D_Smart_Tile_Prompter",
+            "ArchAi3D_Smart_Tile_SEGS",
             "ArchAi3D_Solid_Color_Image",
             "ArchAi3D_String_Input",
             "ArchAi3dQwenEncoderSimpleV2"
@@ -35160,6 +35169,7 @@
             "GetImageSize",
             "ImageResizeAdvanced",
             "UltralyticsInference",
+            "UltralyticsMaskFlatten",
             "UltralyticsModelLoader",
             "UltralyticsVisualization",
             "ViewText"
@@ -46093,7 +46103,7 @@
     ],
     "https://github.com/slahiri/ComfyUI-AI-Photography-Toolkit": [
         [
-            "SID_AIPromptGenerator"
+            "SID_ZImagePromptGenerator"
         ],
         {
             "title_aux": "ComfyUI-AI-Photography-Toolkit"
