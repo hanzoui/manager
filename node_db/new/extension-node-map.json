@@ -21383,6 +21383,9 @@
         [
             "RGBYPLoadImage",
             "RGBYPMaskBridge",
+            "RGBYPMaskCompositeWithStrength",
+            "RGBYPMaskStrength",
+            "RGBYPMaskStrengthOut",
             "RGBYPMaskToRegularMasks"
         ],
         {
@@ -21393,6 +21396,7 @@
         [
             "AKSamplerSettings",
             "AKSettingsOut",
+            "CLIPEncodeMultiple",
             "IndexMultiple",
             "IsOneOfGroupsActive",
             "PreviewRawText",
@@ -21943,6 +21947,8 @@
     "https://github.com/amir84ferdos/ComfyUI-ArchAi3d-Qwen": [
         [
             "ArchAi3D_Average_Color",
+            "ArchAi3D_Batch_Text_Encode",
+            "ArchAi3D_Batch_Text_Encode_SDXL",
             "ArchAi3D_Boolean_Input",
             "ArchAi3D_Cinematography_Prompt_Builder",
             "ArchAi3D_CivitAI_Download",
@@ -21951,6 +21957,7 @@
             "ArchAi3D_Color_Correction_BT709",
             "ArchAi3D_Conditioning_Balance",
             "ArchAi3D_Dependency_Installer",
+            "ArchAi3D_Empty_Latent_Batch",
             "ArchAi3D_Float_Input",
             "ArchAi3D_GDrive_Download",
             "ArchAi3D_Gemini",
@@ -22009,13 +22016,19 @@
             "ArchAi3D_Qwen_Watermark_Removal",
             "ArchAi3D_SAM3_Segment",
             "ArchAi3D_SEGS_Mask_Blur",
+            "ArchAi3D_SEGS_Mask_Irregularity",
+            "ArchAi3D_SEGS_To_Bundle",
             "ArchAi3D_Save_Image",
             "ArchAi3D_Simple_Position_Prompt",
             "ArchAi3D_Smart_Tile_Calculator",
             "ArchAi3D_Smart_Tile_Conditioning",
             "ArchAi3D_Smart_Tile_Detailer",
+            "ArchAi3D_Smart_Tile_Merger",
             "ArchAi3D_Smart_Tile_Prompter",
+            "ArchAi3D_Smart_Tile_Prompter_Turbo",
             "ArchAi3D_Smart_Tile_SEGS",
+            "ArchAi3D_Smart_Tile_SEGS_Blur",
+            "ArchAi3D_Smart_Tile_Sampler",
             "ArchAi3D_Solid_Color_Image",
             "ArchAi3D_String_Input",
             "ArchAi3dQwenEncoderSimpleV2"
@@ -27825,9 +27838,10 @@
     "https://github.com/cyan9977/ComfyUI_PromptQueue": [
         [
             "NegativePromptQueue",
-            "PromptQueue",
-            "SimplePromptQueue",
-            "StylePromptQueue"
+            "SimpleStylePromptQueue",
+            "SimpleStylePromptQueueBatch",
+            "StylePromptQueue",
+            "StylePromptQueueBatch"
         ],
         {
             "title_aux": "ComfyUI_PromptQueue"
@@ -29233,6 +29247,10 @@
             "WaveSpeed Custom SeedreamV4Edit",
             "WaveSpeed Custom SeedreamV4EditSequential",
             "WaveSpeed Custom SeedreamV4Sequential",
+            "WaveSpeed Custom SeedreamV4_5",
+            "WaveSpeed Custom SeedreamV4_5Edit",
+            "WaveSpeed Custom SeedreamV4_5EditSequential",
+            "WaveSpeed Custom SeedreamV4_5Sequential",
             "WaveSpeed Custom Upload Image"
         ],
         {
@@ -29597,7 +29615,10 @@
     "https://github.com/erosDiffusion/ComfyUI-EulerDiscreteScheduler": [
         [
             "FlowMatchEulerDiscreteScheduler (Custom)",
-            "PatchFlashAttention"
+            "ImageMetadataExtractor",
+            "NunchakuQwenPatches",
+            "PatchFlashAttention",
+            "VQDiffusionScheduler"
         ],
         {
             "title_aux": "ComfyUI-EulerDiscreteScheduler"
@@ -36317,6 +36338,7 @@
             "QwenLoader",
             "ReCamMasterPoseVisualizer",
             "TextImageEncodeQwenVL",
+            "WanMove_native",
             "WanVideoATITracks",
             "WanVideoATITracksVisualize",
             "WanVideoATI_comfy",
@@ -36328,12 +36350,16 @@
             "WanVideoAddLucyEditLatents",
             "WanVideoAddLynxEmbeds",
             "WanVideoAddMTVMotion",
+            "WanVideoAddOneToAllExtendEmbeds",
+            "WanVideoAddOneToAllPoseEmbeds",
+            "WanVideoAddOneToAllReferenceEmbeds",
             "WanVideoAddOviAudioToLatents",
             "WanVideoAddPusaNoise",
             "WanVideoAddS2VEmbeds",
             "WanVideoAddStandInLatent",
             "WanVideoAddSteadyDancerEmbeds",
             "WanVideoAddTTMLatents",
+            "WanVideoAddWanMoveTracks",
             "WanVideoAnimateEmbeds",
             "WanVideoApplyNAG",
             "WanVideoBlockList",
@@ -36411,6 +36437,7 @@
             "WanVideoVACEStartToEndFrame",
             "WanVideoVAELoader",
             "WanVideoVRAMManagement",
+            "WanVideoWanDrawWanMoveTracks",
             "Wav2VecModelLoader",
             "WhisperModelLoader"
         ],
@@ -43006,7 +43033,6 @@
             "ContourFX",
             "EmptyContext",
             "EnableLatent",
-            "FaceEnhancementPipeline",
             "FaceEnhancementPipelineWithInjection",
             "FancyNoteNode",
             "FancyTimerNode",
@@ -43035,6 +43061,7 @@
             "PonyUpscaleSamplerWithInjection",
             "Remove Trailing Comma",
             "Resolution",
+            "SamplerSchedulerCrawler",
             "SamplerSchedulerSelector",
             "SaveAudioWithPath",
             "SaveImageWithPath",
@@ -43500,7 +43527,8 @@
             "PVL_fal_NanoBanana_API",
             "PVL_fal_QwenImage_API",
             "PVL_fal_RemoveBackground_API",
-            "PVL_fal_SeeDream4_API"
+            "PVL_fal_SeeDream4_API",
+            "PVL_fal_SeeDream_45_API"
         ],
         {
             "title_aux": "ComfyUI Assistant Node"
@@ -44352,6 +44380,16 @@
         ],
         {
             "title_aux": "ComfyUI-Floyo-Flux2-API-node"
+        }
+    ],
+    "https://github.com/rjgoif/ComfyUI-Img-Label-Tools": [
+        [
+            "ImageArray",
+            "ImageEqualizer",
+            "RandomSubset"
+        ],
+        {
+            "title_aux": "Img Label Tools"
         }
     ],
     "https://github.com/rkfg/ComfyUI-Dia_tts": [
@@ -45295,14 +45333,19 @@
         [
             "AdvancedFolderVideoCombiner",
             "CameraMoveNode",
+            "CameraMoveVideoNode",
             "CameraShakeNode",
+            "CameraShakeVideoNode",
+            "CloseUpNode",
             "ImageTransitionNode",
             "MergeVideoAudioNode",
             "VideoImageOverlay",
             "VideoOverlay",
             "VideoOverlayBatch",
+            "VideoSplitterNode",
             "ZoomSequenceBatchNode",
-            "ZoomSequenceNode"
+            "ZoomSequenceNode",
+            "ZoomSequenceVideoNode"
         ],
         {
             "title_aux": "Simple Video Effects"
@@ -46857,8 +46900,8 @@
     ],
     "https://github.com/sonnybox/ComfyUI-SuperNodes": [
         [
-            "SuperCalculateTiles",
             "SuperCreateTiles",
+            "SuperSVRCalcTiles",
             "SuperStitchTiles"
         ],
         {
@@ -50684,6 +50727,8 @@
             "AudioBeforeAfterSilence",
             "AutioInfo",
             "AutioPath",
+            "ChildWorkflowNodes",
+            "ChildWorkflowParameters",
             "DoWhileEnd",
             "DoWhileStart",
             "EasyPromptSelecto",
@@ -51001,6 +51046,7 @@
             "YCImageSmartPad",
             "YCImageTile",
             "YCImageUntile",
+            "YCMaskBlur",
             "YCMaskComposite",
             "YCMaskRatioPadCrop",
             "YCRemapMaskRange",
@@ -51017,6 +51063,8 @@
     ],
     "https://github.com/yichengup/ComfyUI-YCNodes_Toolkit": [
         [
+            "YCSwitch",
+            "YC_ShowText",
             "ycBBoxBridge",
             "ycCanvasBBox",
             "ycimagebrushmask"
