@@ -38244,6 +38244,25 @@
             "install_type": "git-clone",
             "description": "Custom ComfyUI node for generating consistent character images using Ideogram API v3's character reference feature. (Description by CC)"
         },
+        {
+            "author": "Moeblack",
+            "title": "ComfyUI-SimpleChat",
+            "reference": "https://github.com/Moeblack/ComfyUI-SimpleChat",
+            "files": [
+                "https://github.com/Moeblack/ComfyUI-SimpleChat"
+            ],
+            "install_type": "git-clone",
+            "description": "Simple, no-nonsense LLM chat nodes for ComfyUI. Support OpenAI, Claude, Gemini and NoASS Roleplay.",
+            "tags": [
+                "LLM",
+                "chat",
+                "openai",
+                "claude",
+                "gemini",
+                "roleplay",
+                "noass"
+            ]
+        },
 
 
 
@@ -38660,25 +38679,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Moeblack",
-            "title": "ComfyUI-SimpleChat",
-            "reference": "https://github.com/Moeblack/ComfyUI-SimpleChat",
-            "files": [
-                "https://github.com/Moeblack/ComfyUI-SimpleChat"
-            ],
-            "install_type": "git-clone",
-            "description": "Simple, no-nonsense LLM chat nodes for ComfyUI. Support OpenAI, Claude, Gemini and NoASS Roleplay.",
-            "tags": [
-                "LLM",
-                "chat",
-                "openai",
-                "claude",
-                "gemini",
-                "roleplay",
-                "noass"
-            ]
         }
     ]
 }

@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "Moeblack",
+            "title": "ComfyUI-SimpleChat",
+            "reference": "https://github.com/Moeblack/ComfyUI-SimpleChat",
+            "files": [
+                "https://github.com/Moeblack/ComfyUI-SimpleChat"
+            ],
+            "install_type": "git-clone",
+            "description": "Simple, no-nonsense LLM chat nodes for ComfyUI. Support OpenAI, Claude, Gemini and NoASS Roleplay.",
+            "tags": [
+                "LLM",
+                "chat",
+                "openai",
+                "claude",
+                "gemini",
+                "roleplay",
+                "noass"
+            ]
+        },        
+        {
+            "author": "Lord Lethris",
+            "title": "Dia2 TTS & Captions Generators for ComfyUI",
+            "id": "dia2_tts_captions",
+            "reference": "https://github.com/lord-lethris/ComfyUI-lethris-dia2",
+            "files": [
+                "https://github.com/lord-lethris/ComfyUI-lethris-dia2"
+            ],
+            "install_type": "Git-Clone",
+            "description": "This package provides two ComfyUI nodes: 🗣️ Dia2 TTS Generator for text-to-speech using Dia2-2B, and 💬 Dia2 Captions Generator to convert TTS timestamps into SRT/SSA/VTT subtitles. Includes example workflow and voice samples. GPU users require CUDA 12.8+."
+        },
+        {
             "author": "purzbeats",
             "title": "ComfyUI-Purz",
             "reference": "https://github.com/purzbeats/ComfyUI-Purz",
