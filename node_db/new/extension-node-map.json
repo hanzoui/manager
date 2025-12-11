@@ -3836,6 +3836,14 @@
             "title_aux": "FitDiT[official] - High-fidelity Virtual Try-on"
         }
     ],
+    "https://github.com/Braeden90000/comfyui-load-image-url": [
+        [
+            "LoadImageFileOrURL"
+        ],
+        {
+            "title_aux": "ComfyUI Load Image URL"
+        }
+    ],
     "https://github.com/Brekel/ComfyUI-Brekel": [
         [
             "BrekelAutoPromptGenerator",
@@ -13004,6 +13012,19 @@
             "title_aux": "ComfyUI-Lightx2vWrapper"
         }
     ],
+    "https://github.com/Moeblack/ComfyUI-SimpleChat": [
+        [
+            "GeminiImageEdit",
+            "GeminiImageGen",
+            "SimpleChatConfig",
+            "SimpleChatImage",
+            "SimpleChatNoASS",
+            "SimpleChatText"
+        ],
+        {
+            "title_aux": "ComfyUI-SimpleChat"
+        }
+    ],
     "https://github.com/MohammadAboulEla/ComfyUI-iTools": [
         [
             "iToolsAddOverlay",
@@ -13941,6 +13962,7 @@
     ],
     "https://github.com/Nynxz/ComfyUI-NynxzNodes": [
         [
+            "nynxz.CompareVideo.Options",
             "nynxz.Create.CompareVideo.Fade",
             "nynxz.Create.CompareVideo.Wipe",
             "nynxz.Parse.StringTemplate"
@@ -16655,6 +16677,7 @@
     "https://github.com/ShootTheSound/comfyUI-Realtime-Lora": [
         [
             "ApplyTrainedLora",
+            "MusubiZImageLoraTrainer",
             "RealtimeLoraTrainer",
             "SD15LoraTrainer",
             "SDXLLoraTrainer"
@@ -22492,6 +22515,7 @@
             "EdgeWearMaskGenerator",
             "EmbedAlpha",
             "EmissionMaskGenerator",
+            "FrankenMapExtractor",
             "FrequencyRecombine",
             "FrequencySeparation",
             "GammaAdjust",
@@ -22550,6 +22574,8 @@
             "TranslucencyMapGenerator",
             "TriplanarProjection",
             "UVCheckerGenerator",
+            "UpscaleCalculator",
+            "UpscaleToResolution",
             "WearGenerator"
         ],
         {
@@ -25288,25 +25314,6 @@
         ],
         {
             "title_aux": "comfyui-azul-scripts"
-        }
-    ],
-    "https://github.com/cdanielp/COMFYUI_PROMPTMODELS": [
-        [
-            "ClearCacheNode",
-            "GetFrameByIndex",
-            "GetLastFrame",
-            "GetNode",
-            "ListCacheNode",
-            "PromptInfo",
-            "PromptModelLoader",
-            "PromptRefiner",
-            "SetNode",
-            "SetNodeNamed",
-            "UnetLoaderGGUF",
-            "UnetLoaderGGUFAdvanced"
-        ],
-        {
-            "title_aux": "COMFYUI_PROMPTMODELS"
         }
     ],
     "https://github.com/cdb-boop/ComfyUI-Bringing-Old-Photos-Back-to-Life": [
@@ -30280,6 +30287,9 @@
     ],
     "https://github.com/exedesign/Hunyuan-3D-v3": [
         [
+            "Hunyuan3DPreview",
+            "HunyuanBatchImageTo3D",
+            "HunyuanBatchPreview",
             "HunyuanConfig",
             "HunyuanImageTo3D",
             "HunyuanTextTo3D"
@@ -31613,6 +31623,7 @@
             "JSONOutputList",
             "KSamplerImmediateSave",
             "NumberOutputList",
+            "PickOutputLists",
             "StringOutputList"
         ],
         {
@@ -33321,6 +33332,14 @@
             "title_aux": "fastgan-comfyui"
         }
     ],
+    "https://github.com/huihuihuiz/lora_downloader": [
+        [
+            "LoraDownloader"
+        ],
+        {
+            "title_aux": "LoRA Downloader for ComfyUI"
+        }
+    ],
     "https://github.com/huixingyun/ComfyUI-HX-Captioner": [
         [
             "HXOllamaCaptioner"
@@ -33334,6 +33353,9 @@
             "ModelScopeImageCaptionNode",
             "ModelScopeImageEditNode",
             "ModelScopeImageNode",
+            "ModelScopeLoraPresetNode",
+            "ModelScopeMultiLoraLoaderNode",
+            "ModelScopeSingleLoraLoaderNode",
             "ModelScopeTextNode",
             "ModelScopeVisionNode"
         ],
@@ -38890,6 +38912,15 @@
             "title_aux": "comfyui_wildcards"
         }
     ],
+    "https://github.com/lovelybbq/comfyui-custom-node-color": [
+        [
+            "ConvertHEXToRGB",
+            "HexColorInput"
+        ],
+        {
+            "title_aux": "ComfyUI Custom Node Color"
+        }
+    ],
     "https://github.com/lovisdotio/ComfyUI-Replace-First-Frame-Last-Frame": [
         [
             "ReplaceFirstLastFrames"
@@ -40966,6 +40997,8 @@
     ],
     "https://github.com/mittimi/ComfyUI_mittimiWidthHeight": [
         [
+            "GoStopAnythingMittimi01",
+            "OutputLongLengthMittimi01",
             "WidthHeightMittimi01"
         ],
         {
@@ -46721,12 +46754,9 @@
     ],
     "https://github.com/slahiri/ComfyUI-AI-Photography-Toolkit": [
         [
-            "SID_Anthropic_LLM",
-            "SID_GGUF_LLM",
-            "SID_Grok_LLM",
-            "SID_OpenAI_Compatible_LLM",
-            "SID_ZImagePromptGenerator",
-            "SID_ZImagePromptGenerator_Advanced_V2"
+            "SID_LLM_API",
+            "SID_LLM_Local",
+            "SID_ZImagePromptGenerator"
         ],
         {
             "title_aux": "ComfyUI-AI-Photography-Toolkit"
@@ -50958,7 +50988,9 @@
     ],
     "https://github.com/wouterverweirder/comfyui_sam3": [
         [
-            "SAM3Segmentation"
+            "MaskOutline",
+            "SAM3Segmentation",
+            "SEGSToRectangle"
         ],
         {
             "title_aux": "ComfyUI SAM3"
