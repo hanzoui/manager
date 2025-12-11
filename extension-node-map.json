@@ -6240,6 +6240,16 @@
             "title_aux": "Duanyll Nodepack"
         }
     ],
+    "https://github.com/EMkrtchyan/ComfyUI-NormalsToDepth": [
+        [
+            "DepthMathCombiner",
+            "FrankotChellappa",
+            "PoissonReconstruction"
+        ],
+        {
+            "title_aux": "ComfyUI-NormalsToDepth"
+        }
+    ],
     "https://github.com/Eagle-CN/ComfyUI-Addoor": [
         [
             "AD_AnyFileList",
@@ -14922,6 +14932,14 @@
             "title_aux": "ComfyUI-RBG-ImageStitchPlus"
         }
     ],
+    "https://github.com/RamonGuthrie/ComfyUI-RBG-SmartSeedVariance": [
+        [
+            "RBG_Smart_Seed_Variance"
+        ],
+        {
+            "title_aux": "ComfyUI-RBG-SmartSeedVariance"
+        }
+    ],
     "https://github.com/Randy420Marsh/civitai-api-url-resolver": [
         [
             "CivitaiShareToDirectURL"
@@ -16305,6 +16323,7 @@
             "LutsAdvanced",
             "RemoveAreaByMask",
             "RemoveBackground",
+            "RemoveNoise",
             "SeedGenerator",
             "Waifu2x"
         ],
@@ -17722,6 +17741,17 @@
         ],
         {
             "title_aux": "ComfyUI DINO-X Detector Node"
+        }
+    ],
+    "https://github.com/SuLU-K/comfyui-easy-sam3-tools": [
+        [
+            "Sam3DrawBBox",
+            "Sam3InteractiveBBoxEditor",
+            "Sam3MaskRangeSelector",
+            "SimpleMultiple"
+        ],
+        {
+            "title_aux": "comfyui-easy-sam3-tools"
         }
     ],
     "https://github.com/SuperBeastsAI/ComfyUI-SuperBeasts": [
@@ -20878,6 +20908,14 @@
             "title_aux": "Save Checkpoint with Metadata"
         }
     ],
+    "https://github.com/a-und-b/ComfyUI_AB_Wildcard": [
+        [
+            "ABWildcardNode"
+        ],
+        {
+            "title_aux": "ComfyUI_AB_Wildcard"
+        }
+    ],
     "https://github.com/a-und-b/ComfyUI_Delay": [
         [
             "Add Delay"
@@ -20938,6 +20976,60 @@
         ],
         {
             "title_aux": "ComfyUI-AudioScheduler"
+        }
+    ],
+    "https://github.com/aTanguay/ComfyUI_Detonate": [
+        [
+            "DetonateBlur",
+            "DetonateChannelCopy",
+            "DetonateChromaKeyer",
+            "DetonateClamp",
+            "DetonateColorCorrect",
+            "DetonateColorCurves",
+            "DetonateConstant",
+            "DetonateCornerPin",
+            "DetonateCrop",
+            "DetonateCryptomatteExtract",
+            "DetonateDefocus",
+            "DetonateDenoise",
+            "DetonateDilate",
+            "DetonateDisplacementMap",
+            "DetonateEdgeDefringe",
+            "DetonateEdgeDetect",
+            "DetonateErode",
+            "DetonateExposure",
+            "DetonateGlow",
+            "DetonateGrade",
+            "DetonateGrain",
+            "DetonateGridWarp",
+            "DetonateHueSatVal",
+            "DetonateInvert",
+            "DetonateLUT",
+            "DetonateLoadEXR",
+            "DetonateLumaKeyer",
+            "DetonateLumaKeyerSimple",
+            "DetonateMaskFromColor",
+            "DetonateMaskSmoother",
+            "DetonateMatteControl",
+            "DetonateMerge",
+            "DetonateNoise",
+            "DetonatePremultiply",
+            "DetonateRamp",
+            "DetonateRotoBezier",
+            "DetonateRotoBezierFromImage",
+            "DetonateSaturation",
+            "DetonateSeamBlender",
+            "DetonateSharpen",
+            "DetonateShuffle",
+            "DetonateTransform",
+            "DetonateTriMapGenerator",
+            "DetonateUnpremultiply",
+            "DetonateVignette",
+            "DetonateZDefocus",
+            "DetonateZMerge"
+        ],
+        {
+            "title_aux": "ComfyUI_Detonate"
         }
     ],
     "https://github.com/abdozmantar/ComfyUI-DeepExtract": [
@@ -21803,6 +21895,14 @@
             "title_aux": "ComfyUI-X-Portrait-Nodes"
         }
     ],
+    "https://github.com/akaugun/comfyui-lora-hook-trigger": [
+        [
+            "LoraTriggerWithExample"
+        ],
+        {
+            "title_aux": "comfyui-lora-hook-trigger"
+        }
+    ],
     "https://github.com/akawana/ComfyUI-Folded-Prompts": [
         [
             "FPFoldedPrompts",
@@ -22525,20 +22625,13 @@
             "HSVAdjuster",
             "HeightAmplifier",
             "HeightCombiner",
-            "HeightToNormal",
             "ImageBitDepthChecker",
             "ImageEnhancement",
             "LevelsAdjustment",
             "LotusHeightProcessor",
-            "LotusNormalProcessor",
             "MicroDetailOverlay",
             "MultiTextureBlender",
-            "NormalConverter",
-            "NormalFormatAuto",
-            "NormalFormatValidator",
-            "NormalIntensity",
             "NormalMapCombiner",
-            "NormalToDepth",
             "PBRAdjuster",
             "PBRBatchToPipe",
             "PBRCombiner",
@@ -22558,8 +22651,6 @@
             "SSSMapGenerator",
             "ScratchesGenerator",
             "SeamlessTiling",
-            "SharpenDepth",
-            "SharpenNormal",
             "SimpleRecolor",
             "SmartBlur",
             "SmartTextureResizer",
@@ -31448,6 +31539,14 @@
             "title_aux": "ComfyUI_pose_inter"
         }
     ],
+    "https://github.com/fudosanit/ComfyUI-Random-Resolution": [
+        [
+            "RandomResolutionSelector"
+        ],
+        {
+            "title_aux": "ComfyUI-Random-Resolution"
+        }
+    ],
     "https://github.com/fuselayer/comfyui-lite-tracker": [
         [
             "LiteTracker_LoadModel",
@@ -34651,6 +34750,34 @@
         ],
         {
             "title_aux": "ComfyUI_MusicTools"
+        }
+    ],
+    "https://github.com/jeankassio/JK-AceStep-Nodes": [
+        [
+            "AceStepClaude_Lyrics",
+            "AceStepCohere_Lyrics",
+            "AceStepCompileSettings",
+            "AceStepFireworks_Lyrics",
+            "AceStepGeminiLyrics",
+            "AceStepGemini_Lyrics",
+            "AceStepGroqLyrics",
+            "AceStepGroq_Lyrics",
+            "AceStepHuggingFace_Lyrics",
+            "AceStepKSampler",
+            "AceStepKSamplerAdvanced",
+            "AceStepOpenAI_Lyrics",
+            "AceStepPerplexity_Lyrics",
+            "AceStepPostProcess",
+            "AceStepPromptGen",
+            "AceStepReplicate_Lyrics",
+            "AceStepSaveText",
+            "AceStepTogetherAI_Lyrics",
+            "AceStepTorchCompile",
+            "AceStepVocoderAdapter",
+            "AudioQualityEvaluator"
+        ],
+        {
+            "title_aux": "JK AceStep Nodes"
         }
     ],
     "https://github.com/jeffrey2212/ComfyUI-PonyCharacterPrompt": [
@@ -38999,6 +39126,15 @@
         ],
         {
             "title_aux": "Comfyui Kolors Utils"
+        }
+    ],
+    "https://github.com/lrzjason/Comfyui-LatentUtils": [
+        [
+            "HFEPostProcessor (lrzjason)",
+            "LatentFrequencyEnhancer_lrzjason"
+        ],
+        {
+            "title_aux": "Comfyui-LatentUtils"
         }
     ],
     "https://github.com/lrzjason/Comfyui-LoraUtils": [
@@ -48687,6 +48823,14 @@
             "title_aux": "ComfyUI-FaceCalloutNode"
         }
     ],
+    "https://github.com/theshubzworld/ComfyUI-NvidiaCaptioner": [
+        [
+            "NvidiaCaptionerNode"
+        ],
+        {
+            "title_aux": "ComfyUI-NvidiaCaptioner"
+        }
+    ],
     "https://github.com/theshubzworld/ComfyUI-SD3.5-Latent-Size-Picker": [
         [
             "FluxEmptyLatent",
@@ -48705,6 +48849,14 @@
         ],
         {
             "title_aux": "Together Vision Node"
+        }
+    ],
+    "https://github.com/theshubzworld/ComfyUI-Universal-Latent": [
+        [
+            "UniversalLatent"
+        ],
+        {
+            "title_aux": "ComfyUI-Universal-Latent"
         }
     ],
     "https://github.com/theshubzworld/ComfyUI-ollama_killer": [
@@ -49369,6 +49521,15 @@
         ],
         {
             "title_aux": "comfyui-image-tiled-nodes"
+        }
+    ],
+    "https://github.com/tumbowungus/MultiMaskCouple": [
+        [
+            "MaskedRegionCond",
+            "MultiMaskCouple"
+        ],
+        {
+            "title_aux": "MultiMaskCouple"
         }
     ],
     "https://github.com/tungdop2/Comfyui_face_restorer": [

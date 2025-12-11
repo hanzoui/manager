@@ -1,6 +1,128 @@
 {
     "custom_nodes": [
         {
+            "author": "akaugun",
+            "title": "comfyui-lora-hook-trigger",
+            "reference": "https://github.com/akaugun/comfyui-lora-hook-trigger",
+            "files": [
+                "https://github.com/akaugun/comfyui-lora-hook-trigger"
+            ],
+            "install_type": "git-clone",
+            "description": "A clean and simple ComfyUI custom node that creates a LoRA Hook and automatically finds and loads trigger TXT files placed in a folder named after the LoRA file."
+        },
+        {
+            "author": "tumbowungus",
+            "title": "MultiMaskCouple",
+            "reference": "https://github.com/tumbowungus/MultiMaskCouple",
+            "files": [
+                "https://github.com/tumbowungus/MultiMaskCouple"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI which simplifies the process of masking multiple prompts, making it easier to manage scenes with multiple distinct characters."
+        },
+        {
+            "author": "fudosanit",
+            "title": "ComfyUI-Random-Resolution",
+            "reference": "https://github.com/fudosanit/ComfyUI-Random-Resolution",
+            "files": [
+                "https://github.com/fudosanit/ComfyUI-Random-Resolution"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI. Based on the specified resolution, it randomly selects and outputs one of three patterns: original orientation, swapped width/height, or a square format. (Description by CC)"
+        },
+        {
+            "author": "SuLU-K",
+            "title": "comfyui-easy-sam3-tools",
+            "reference": "https://github.com/SuLU-K/comfyui-easy-sam3-tools",
+            "files": [
+                "https://github.com/SuLU-K/comfyui-easy-sam3-tools"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for building SAM3-centric editing pipelines inside ComfyUI, featuring mask merging, bounding box rendering, and DOM-based interactive editing. (Description by CC)"
+        },
+        {
+            "author": "EMkrtchyan",
+            "title": "ComfyUI-NormalsToDepth",
+            "reference": "https://github.com/EMkrtchyan/ComfyUI-NormalsToDepth",
+            "files": [
+                "https://github.com/EMkrtchyan/ComfyUI-NormalsToDepth"
+            ],
+            "install_type": "git-clone",
+            "description": "Converts normal maps to depth maps for use in ComfyUI. (Description by CC)"
+        },
+
+        {
+            "author": "jeankassio",
+            "title": "JK AceStep Nodes",
+            "id": "JK-AceStep-Nodes",
+            "reference": "https://github.com/jeankassio/JK-AceStep-Nodes",
+            "files": [
+                "https://github.com/jeankassio/JK-AceStep-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced nodes optimized for ACE-Step audio generation in ComfyUI."
+		},
+        {
+            "author": "a-und-b",
+            "title": "ComfyUI_AB_Wildcard",
+            "reference": "https://github.com/a-und-b/ComfyUI_AB_Wildcard",
+            "files": [
+                "https://github.com/a-und-b/ComfyUI_AB_Wildcard"
+            ],
+            "install_type": "git-clone",
+            "description": "Simple node for advanced wildcard text processing. Supports variables, conditionals, tag aggregation, weighted selection, and deep nesting. Lightweight, fast, zero external dependencies."
+        },
+        {
+            "author": "RamonGuthrie",
+            "title": "ComfyUI-RBG-SmartSeedVariance",
+            "reference": "https://github.com/RamonGuthrie/ComfyUI-RBG-SmartSeedVariance",
+            "files": [
+                "https://github.com/RamonGuthrie/ComfyUI-RBG-SmartSeedVariance"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced seed diversity enhancement for ComfyUI with intelligent noise injection and directional biasing."
+        },
+        {
+            "author": "theshubzworld",
+            "title": "ComfyUI-NvidiaCaptioner",
+            "reference": "https://github.com/theshubzworld/ComfyUI-NvidiaCaptioner",
+            "files": [
+                "https://github.com/theshubzworld/ComfyUI-NvidiaCaptioner"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node for generating rich, detailed captions for images using NVIDIA's vision models. Supports batch processing, multiple captioning styles, and includes built-in caching for efficient workflows."
+        },
+        {
+            "author": "theshubzworld",
+            "title": "ComfyUI-Universal-Latent",
+            "reference": "https://github.com/theshubzworld/ComfyUI-Universal-Latent",
+            "files": [
+                "https://github.com/theshubzworld/ComfyUI-Universal-Latent"
+            ],
+            "install_type": "git-clone",
+            "description": "Enhanced empty latent node with extended aspect ratio support for ComfyUI"
+        },
+        {
+            "author": "lrzjason",
+            "title": "Comfyui-LatentUtils",
+            "reference": "https://github.com/lrzjason/Comfyui-LatentUtils",
+            "files": [
+                "https://github.com/lrzjason/Comfyui-LatentUtils"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node performing selective latent denoising and detail enhancement using Fourier Transform (FFT) to separate and enhance image frequencies while suppressing noise. (Description by CC)"
+        },
+        {
+            "author": "aTanguay",
+            "title": "ComfyUI_Detonate",
+            "reference": "https://github.com/aTanguay/ComfyUI_Detonate",
+            "files": [
+                "https://github.com/aTanguay/ComfyUI_Detonate"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional compositing nodes for ComfyUI - bringing Nuke and Fusion workflows to AI-powered image generation"
+        },
+        {
             "author": "huihuihuiz",
             "title": "LoRA Downloader for ComfyUI",
             "id": "lora_downloader",
@@ -640,58 +762,6 @@
             ],
             "install_type": "git-clone",
             "description": "ShakaNodes: Utility tools for ComfyUI"
-        },
-        {
-            "author": "Matthew-X",
-            "title": "Workflow Importer",
-            "id": "comfyui-workflow_importer",
-            "reference": "https://github.com/Matthew-X/comfyui-workflow_importer",
-            "files": [
-                "https://github.com/Matthew-X/comfyui-workflow_importer"
-            ],
-            "install_type": "git-clone",
-            "js_path": "workflow_importer",
-            "description": "Import ComfyUI workflows from images with embedded metadata. Adds a toolbar Import button, drag-and-drop dialog and Ctrl+Shift+I shortcut. Supports legacy and new UIs, common image formats, opens each image in a new workflow tab."
-        },
-        {
-            "author": "ameyukisora",
-             "title": "ComfyUI Empty Latent Advanced",
-            "reference": "https://github.com/ameyukisora/ComfyUI-Empty-Latent-Advanced",
-            "files": [
-                "https://github.com/ameyukisora/ComfyUI-Empty-Latent-Advanced"
-            ],
-            "install_type": "git-clone",
-            "description": "An advanced Empty Latent selector with visual presets and foldable UI."
-        },
-        {
-            "author": "KLL535",
-            "title": "ComfyUI_Simple_Qwen3-VL-gguf",
-            "reference": "https://github.com/KLL535/ComfyUI_Simple_Qwen3-VL-gguf",
-            "files": [
-                "https://github.com/KLL535/ComfyUI_Simple_Qwen3-VL-gguf"
-            ],
-            "install_type": "git-clone",
-            "description": "Simple Qwen3-VL gguf LLM model loader"
-        },
-        {
-            "author": "sirouk",
-            "title": "chutes-comfyui-node",
-            "reference": "https://github.com/sirouk/chutes-comfyui-node",
-            "files": [
-                "https://github.com/sirouk/chutes-comfyui-node"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom nodes for Chutes.ai video generation API"
-        },
-        {
-            "author": "1038lab",
-            "title": "ComfyUI-QwenVL",
-            "reference": "https://github.com/1038lab/ComfyUI-QwenVL",
-            "files": [
-                "https://github.com/1038lab/ComfyUI-QwenVL"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI-QwenVL custom node: Integrates the Qwen-VL series, including Qwen2.5-VL and the latest Qwen3-VL, to enable advanced multimodal AI for text generation, image understanding, and video analysis."
         }
     ]
 }
