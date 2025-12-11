@@ -10175,6 +10175,7 @@
     ],
     "https://github.com/JiSenHua/ComfyUI-TD": [
         [
+            "AudiotoTD",
             "Comfy3DPacktoTD",
             "Hy3DtoTD",
             "ImagetoTD",
@@ -15094,6 +15095,7 @@
     "https://github.com/Rizzlord/ComfyUI-RizzNodes": [
         [
             "BatchImagesToGrid",
+            "CreateImage",
             "LoadMultiviewImages",
             "RizzAlphaMargin",
             "RizzBatchImageLoader",
@@ -21795,7 +21797,8 @@
             "RGBYPMaskCompositeWithStrength",
             "RGBYPMaskStrength",
             "RGBYPMaskStrengthOut",
-            "RGBYPMaskToRegularMasks"
+            "RGBYPMaskToRegularMasks",
+            "RGBYPSaveMask"
         ],
         {
             "title_aux": "RGBYP Mask Editor (RGB + YP)"
@@ -22440,6 +22443,9 @@
             "ArchAi3D_Smart_Tile_SEGS",
             "ArchAi3D_Smart_Tile_SEGS_Blur",
             "ArchAi3D_Smart_Tile_Sampler",
+            "ArchAi3D_Smart_Ultimate_SD_Upscale",
+            "ArchAi3D_Smart_Ultimate_SD_Upscale_CustomSample",
+            "ArchAi3D_Smart_Ultimate_SD_Upscale_NoUpscale",
             "ArchAi3D_Solid_Color_Image",
             "ArchAi3D_String_Input",
             "ArchAi3dQwenEncoderSimpleV2"
@@ -22504,11 +22510,13 @@
             "MicroDetailOverlay",
             "MultiTextureBlender",
             "NormalConverter",
+            "NormalFormatAuto",
             "NormalFormatValidator",
             "NormalIntensity",
             "NormalMapCombiner",
             "NormalToDepth",
             "PBRAdjuster",
+            "PBRBatchToPipe",
             "PBRCombiner",
             "PBRExtractor",
             "PBRHeightProcessor",
@@ -22516,8 +22524,10 @@
             "PBRMaterialProcessor",
             "PBRNormalProcessor",
             "PBRPipePreview",
+            "PBRPipeToBatch",
             "PBRPipelineAdjuster",
             "PBRSaver",
+            "PBRSaverWithMetadata",
             "PBRSplitter",
             "PatternGenerator",
             "ProceduralNoiseGenerator",
@@ -31600,6 +31610,7 @@
             "CombineOutputLists",
             "ConvertNumberToIntFloatStr",
             "FormattedString",
+            "JSONOutputList",
             "KSamplerImmediateSave",
             "NumberOutputList",
             "StringOutputList"
@@ -33332,7 +33343,6 @@
     ],
     "https://github.com/hum-ma/ComfyUI-TiledVaeLite": [
         [
-            "DecoderNoise",
             "LTTiledVAEDecode"
         ],
         {
@@ -46711,7 +46721,12 @@
     ],
     "https://github.com/slahiri/ComfyUI-AI-Photography-Toolkit": [
         [
-            "SID_ZImagePromptGenerator"
+            "SID_Anthropic_LLM",
+            "SID_GGUF_LLM",
+            "SID_Grok_LLM",
+            "SID_OpenAI_Compatible_LLM",
+            "SID_ZImagePromptGenerator",
+            "SID_ZImagePromptGenerator_Advanced_V2"
         ],
         {
             "title_aux": "ComfyUI-AI-Photography-Toolkit"
