@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "huihuihuiz",
+            "title": "LoRA Downloader for ComfyUI",
+            "id": "lora_downloader",
+            "reference": "https://github.com/huihuihuiz/lora_downloader",
+            "files": [
+                "https://github.com/huihuihuiz/lora_downloader"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for downloading and managing LoRA models directly within the UI."
+        },
+        {
             "author": "lovelybbq",
             "title": "ComfyUI Custom Node Color",
             "reference": "https://github.com/lovelybbq/comfyui-custom-node-color",
@@ -681,113 +692,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI-QwenVL custom node: Integrates the Qwen-VL series, including Qwen2.5-VL and the latest Qwen3-VL, to enable advanced multimodal AI for text generation, image understanding, and video analysis."
-        },
-        {
-            "author": "smthemex",
-            "title": "ComfyUI_GRAG_Image_Editing",
-            "reference": "https://github.com/smthemex/ComfyUI_GRAG_Image_Editing",
-            "files": [
-                "https://github.com/smthemex/ComfyUI_GRAG_Image_Editing"
-            ],
-            "install_type": "git-clone",
-            "description": "GRAG-Image-Editing : Group-Relative Attention Guidance for Image Editing,you can try it in comfyUI"
-        },
-        {
-            "author": "dzy1128",
-            "title": "ComfyUI-VertexAI",
-            "reference": "https://github.com/dzy1128/ComfyUI-VertexAI",
-            "files": [
-                "https://github.com/dzy1128/ComfyUI-VertexAI"
-            ],
-            "install_type": "git-clone",
-            "description": "Google Gemini image generation node for ComfyUI supporting up to 6 input images with customizable prompts and parameters. (Description by CC)"
-        },
-        {
-            "author": "mrf",
-            "title": "ComfyPoe",
-            "reference": "https://github.com/mrf/ComfyPoe",
-            "files": [
-                "https://github.com/mrf/ComfyPoe"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for image generation via Poe API"
-        },
-        {
-            "author": "Tinuva88",
-            "title": "Comfy-UmiAI",
-            "reference": "https://github.com/Tinuva88/Comfy-UmiAI",
-            "files": [
-                "https://github.com/Tinuva88/Comfy-UmiAI"
-            ],
-            "install_type": "git-clone",
-            "description": "A logic engine for ComfyUI prompts that transforms static prompts into dynamic, context-aware workflows with persistent variables, conditional logic, native LoRA loading, and external data fetching. (Description by CC)"
-        },
-		{
-            "author": "fredlef",
-   	 		"title": "ComfyUI FSL Nodes",
-    		"reference": "https://github.com/fredlef/Comfyui_FSL_Nodes",
-            "files": [
-                "https://github.com/fredlef/Comfyui_FSL_Nodes"
-            ],
-            "install_type": "git-clone",
-    		"tags": ["image", "chat", "gemini", "fsl"],
-            "description": "Custom nodes: FSLGeminiChat, FSLGeminiGenerateImage, Transparent Background helpers, and more."
-  		},
-        {
-            "author": "exedesign",
-            "title": "ComfyUI-Hunyuan3D-v3",
-            "id": "hunyuan3d-v3",
-            "reference": "https://github.com/exedesign/Hunyuan-3D-v3",
-            "files": [
-                "https://github.com/exedesign/Hunyuan-3D-v3"
-            ],
-            "install_type": "git-clone",
-            "description": "Text-to-3D and Image-to-3D generation using Tencent Cloud Hunyuan 3D Global API. Supports PBR materials, face count control (40K-1.5M faces), and multiple generation types (Normal/LowPoly/Geometry/Sketch). Outputs industry-standard GLB format. Requires Tencent Cloud account with API access.",
-            "nodename_pattern": "Hunyuan",
-            "tags": ["3D", "generation", "text-to-3d", "image-to-3d", "hunyuan", "tencent"]
-        },
-		{
-		    "author": "rjgoif",
-		    "title": "Img Label Tools",
-		    "id": "Img-Label-Tools",
-		    "reference": "https://github.com/rjgoif/ComfyUI-Img-Label-Tools",
-		    "files": [
-                "https://github.com/rjgoif/ComfyUI-Img-Label-Tools"
-            ],
-		    "install_type": "git-clone",
-		    "description": "Tools to help annotate images for sharing on Reddit, Discord, etc."
-		},
-        {
-            "author": "akawana",
-            "title": "RGBYP Mask Editor (RGB + YP)",
-            "reference": "https://github.com/akawana/ComfyUI-RGBYP-Mask-Editor",
-            "files": [
-                "https://github.com/akawana/ComfyUI-RGBYP-Mask-Editor"
-            ],
-            "install_type": "git-clone",
-            "description": "A JS editor for five-color masks (RGB + Yellow + Pink) that works with any nodes, with three helper nodes — RGBYPLoadImage, RGBYPMaskBridge, and RGBYPMaskToRegularMasks—for convenient RGBYP mask handling.",
-            "tags": ["utility", "mask", "rgb", "bridge"]
-        },
-		{
-    		"author": "btitkin",
-    		"title": "Random Prompt Builder",
-    		"id": "random-prompt-builder",
-    		"reference": "https://github.com/btitkin/ComfyUI-RandomPromptBuilder",
-    		"files": [
-        		"https://github.com/btitkin/ComfyUI-RandomPromptBuilder"
-    		],
-    		"install_type": "git-clone",
-    		"description": "Advanced AI-powered prompt generation using local GGUF models. Generate detailed, structured prompts with character controls, style presets, and model-specific formatting for Pony, SDXL, Flux, and more. Supports GPU acceleration and runs completely offline."
-		},
-        {
-            "author": "erosDiffusion",
-            "title": "ComfyUI-EulerDiscreteScheduler",
-            "reference": "https://github.com/erosDiffusion/ComfyUI-EulerDiscreteScheduler",
-            "files": [
-                "https://github.com/erosDiffusion/ComfyUI-EulerDiscreteScheduler"
-            ],
-            "install_type": "git-clone",
-            "description": "Noise Free images with Euler Discrete Scheduler in ComfyUI with Z-Image or other models"
         }
     ]
 }
