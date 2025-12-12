@@ -1,6 +1,77 @@
 {
     "custom_nodes": [
         {
+            "author": "TuonoMindCode",
+            "title": "ComfyUI-Resolution-Suggest-Downscale",
+            "reference": "https://github.com/TuonoMindCode/ComfyUI-Resolution-Suggest-Downscale",
+            "files": [
+                "https://github.com/TuonoMindCode/ComfyUI-Resolution-Suggest-Downscale"
+            ],
+            "install_type": "git-clone",
+            "description": "Resolution suggestion and downscale helper node for ComfyUI."
+        },
+        {
+            "author": "dcyd-lun",
+            "title": "ComfyUI_text_diff",
+            "reference": "https://github.com/dcyd-lun/ComfyUI_text_diff",
+            "files": [
+                "https://github.com/dcyd-lun/ComfyUI_text_diff"
+            ],
+            "install_type": "git-clone",
+            "description": "Compare two texts with GitHub/GitLab-style diff highlighting in ComfyUI"
+        },
+        {
+            "author": "SKFRMSEHF",
+            "title": "SK-ComfyUI-FolderingLoader",
+            "id": "skloader",
+            "reference": "https://github.com/SKFRMSEHF/comfyui_SK_Loader",
+            "files": [
+                "https://github.com/SKFRMSEHF/comfyui_SK_Loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Unified loader nodes with folder organization support for checkpoints, LoRA, VAE, and diffusion models"
+        },
+        {
+            "author": "drawthingsai",
+            "title": "draw-things-comfyui",
+            "reference": "https://github.com/drawthingsai/draw-things-comfyui",
+            "files": [
+                "https://github.com/drawthingsai/draw-things-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "The official Draw Things extension for ComfyUI. Sends image-generation requests to Draw Things over gRPC. Supports Bridge Mode for DT+ cloud and local model execution."
+        },
+        {
+            "author": "darrell-goh",
+            "title": "ComfyUI-NanoBanana_node",
+            "reference": "https://github.com/darrell-goh/ComfyUI-NanoBanana_node",
+            "files": [
+                "https://github.com/darrell-goh/ComfyUI-NanoBanana_node"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that allows you to interact with Nano Banana's Vertex API proxy, providing access to Gemini models with dynamic image inputs."
+        },
+        {
+            "author": "This-is-Uncut",
+            "title": "Custom-Node-ComfyUI-NBP-Uncut",
+            "reference": "https://github.com/This-is-Uncut/Custom-Node-ComfyUI-NBP-Uncut",
+            "files": [
+                "https://github.com/This-is-Uncut/Custom-Node-ComfyUI-NBP-Uncut"
+            ],
+            "install_type": "git-clone",
+            "description": "Node to use NBP with custom API key to improve data privacy control."
+        },
+        {
+            "author": "princepainter",
+            "title": "Comfyui-PainterAudioLength",
+            "reference": "https://github.com/princepainter/Comfyui-PainterAudioLength",
+            "files": [
+                "https://github.com/princepainter/Comfyui-PainterAudioLength"
+            ],
+            "install_type": "git-clone",
+            "description": "A tool for calculating audio duration that takes audio input and outputs the audio length as a floating-point number. (Description by CC)"
+        },
+        {
             "author": "akaugun",
             "title": "comfyui-lora-hook-trigger",
             "reference": "https://github.com/akaugun/comfyui-lora-hook-trigger",

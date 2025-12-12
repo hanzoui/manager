@@ -7328,8 +7328,11 @@
     "https://github.com/FeiMao-326/Comfyui-General-API-Node": [
         [
             "FeiMao_326_GeneralAPINode",
+            "FeiMao_326_GetListElement",
             "FeiMao_326_JsonParser",
             "FeiMao_326_TextBatchReplace",
+            "FeiMao_326_TextIterator",
+            "FeiMao_326_TextSplitByDelimiter",
             "ShowTextNode",
             "SimpleTextNode"
         ],
@@ -10614,10 +10617,18 @@
             "JAX_EasyPrompt",
             "JAX_EasyPromptSimple",
             "JAX_ImageSizeMultiplier",
+            "JAX_KritaCanvas",
+            "JAX_KritaImageLayer",
+            "JAX_KritaMaskLayer",
+            "JAX_KritaOutput",
             "JAX_KritaPipeIn",
-            "JAX_KritaResizeCanvas",
+            "JAX_KritaSelection",
+            "JAX_KritaSendText",
             "JAX_KritaStrength",
-            "JAX_SamplerPipeOut"
+            "JAX_KritaStyle",
+            "JAX_Parameter",
+            "JAX_SamplerPipeOut",
+            "JAX_SendImageWebSocket"
         ],
         {
             "title_aux": "ComfyUI-Jax-Nodes"
@@ -15504,6 +15515,19 @@
             "title_aux": "ComfyUI SKBundle"
         }
     ],
+    "https://github.com/SKFRMSEHF/comfyui_SK_Loader": [
+        [
+            "SK_CheckpointLoader",
+            "SK_CheckpointLoaderSimple",
+            "SK_LoraLoader",
+            "SK_UNETLoader",
+            "SK_VAELoader",
+            "SK_unCLIPCheckpointLoader"
+        ],
+        {
+            "title_aux": "SK-ComfyUI-FolderingLoader"
+        }
+    ],
     "https://github.com/SLAPaper/ComfyUI-Image-Selector": [
         [
             "ImageDuplicator",
@@ -18628,6 +18652,14 @@
             "title_aux": "ComfyUI-Unprompted"
         }
     ],
+    "https://github.com/This-is-Uncut/Custom-Node-ComfyUI-NBP-Uncut": [
+        [
+            "NanoBananaProNode"
+        ],
+        {
+            "title_aux": "Custom-Node-ComfyUI-NBP-Uncut"
+        }
+    ],
     "https://github.com/ThunderBolt4931/comfyui_pixel_forge": [
         [
             "ConcatenateBatchHorizontally",
@@ -18979,6 +19011,14 @@
         ],
         {
             "title_aux": "ComfyUI-MultiClip-Text-Script"
+        }
+    ],
+    "https://github.com/TuonoMindCode/ComfyUI-Resolution-Suggest-Downscale": [
+        [
+            "TuonoResolutionSuggestDownscale"
+        ],
+        {
+            "title_aux": "ComfyUI-Resolution-Suggest-Downscale"
         }
     ],
     "https://github.com/TuriSc/comfyui-text-line-selector": [
@@ -27503,6 +27543,7 @@
             "GeminiImageNode",
             "GeminiInputFiles",
             "GeminiNode",
+            "GenerateTracks",
             "GetImageSize",
             "GetVideoComponents",
             "GrowMask",
@@ -27558,6 +27599,7 @@
             "KlingDualCharacterVideoEffectNode",
             "KlingImage2VideoNode",
             "KlingImageGenerationNode",
+            "KlingImageToVideoWithAudio",
             "KlingLipSyncAudioToVideoNode",
             "KlingLipSyncTextToVideoNode",
             "KlingOmniProEditVideoNode",
@@ -27569,6 +27611,7 @@
             "KlingSingleImageVideoEffectNode",
             "KlingStartEndFrameNode",
             "KlingTextToVideoNode",
+            "KlingTextToVideoWithAudio",
             "KlingVideoExtendNode",
             "KlingVirtualTryOnNode",
             "LTXVAddGuide",
@@ -27929,6 +27972,10 @@
             "WanImageToImageApi",
             "WanImageToVideo",
             "WanImageToVideoApi",
+            "WanMoveConcatTrack",
+            "WanMoveTrackToVideo",
+            "WanMoveTracksFromCoords",
+            "WanMoveVisualizeTracks",
             "WanPhantomSubjectToVideo",
             "WanSoundImageToVideo",
             "WanSoundImageToVideoExtend",
@@ -28830,6 +28877,14 @@
             "title_aux": "DarkPrompts"
         }
     ],
+    "https://github.com/darrell-goh/ComfyUI-NanoBanana_node": [
+        [
+            "NanoBananaNode"
+        ],
+        {
+            "title_aux": "ComfyUI-NanoBanana_node"
+        }
+    ],
     "https://github.com/darth-veitcher/comfydv": [
         [
             "CircuitBreaker",
@@ -29073,6 +29128,14 @@
         ],
         {
             "title_aux": "comfyui_facetools"
+        }
+    ],
+    "https://github.com/dcyd-lun/ComfyUI_text_diff": [
+        [
+            "TextDiff"
+        ],
+        {
+            "title_aux": "ComfyUI_text_diff"
         }
     ],
     "https://github.com/denfrost/Den_ComfyUI_Workflow": [
@@ -29563,6 +29626,22 @@
         ],
         {
             "title_aux": "ComfyUI_Dragos_Nodes"
+        }
+    ],
+    "https://github.com/drawthingsai/draw-things-comfyui": [
+        [
+            "DrawThingsControlNet",
+            "DrawThingsHints",
+            "DrawThingsLoRA",
+            "DrawThingsNegative",
+            "DrawThingsPositive",
+            "DrawThingsPrompt",
+            "DrawThingsRefiner",
+            "DrawThingsSampler",
+            "DrawThingsUpscaler"
+        ],
+        {
+            "title_aux": "draw-things-comfyui"
         }
     ],
     "https://github.com/dreamhartley/ComfyUI_show_seed": [
@@ -43958,6 +44037,14 @@
             "title_aux": "Comfyui-PainterAudioCut"
         }
     ],
+    "https://github.com/princepainter/Comfyui-PainterAudioLength": [
+        [
+            "PainterAudioLength"
+        ],
+        {
+            "title_aux": "Comfyui-PainterAudioLength"
+        }
+    ],
     "https://github.com/princepainter/Comfyui-PainterFLF2V": [
         [
             "PainterFLF2V"
@@ -49078,7 +49165,8 @@
             "TALoadCheckpointModelWithName",
             "TALoadDiffusionModelWithName",
             "TALoadGGUFModelWithName",
-            "TAPromptController"
+            "TAPromptController",
+            "ta_captioning"
         ],
         {
             "title_aux": "TA-ComfyUI-Nodes-Pack"
@@ -49845,7 +49933,8 @@
     "https://github.com/ussoewwin/ComfyUI-NunchakuFluxLoraStacker": [
         [
             "FastGroupsBypasserV2",
-            "FluxLoraMultiLoader"
+            "FluxLoraMultiLoader",
+            "ModelPatchLoaderCustom"
         ],
         {
             "title_aux": "ComfyUI-NunchakuFluxLoraStacker"
@@ -51679,6 +51768,8 @@
             "PreviewImageLam",
             "PromptTranslator",
             "QRCode",
+            "QwenImageEditNode",
+            "QwenImageNode",
             "SaveImageLam",
             "SaveImgOutputLam",
             "SectionEnd",
