@@ -44,7 +44,7 @@ import manager_migration
 from node_package import InstalledNodePackage
 
 
-version_code = [3, 38, 1]
+version_code = [3, 38, 2]
 version_str = f"V{version_code[0]}.{version_code[1]}" + (f'.{version_code[2]}' if len(version_code) > 2 else '')
 
 
@@ -2253,9 +2253,17 @@ def git_pull(path):
 
         current_branch = repo.active_branch
         remote_name = current_branch.tracking_branch().remote_name
-        remote = repo.remote(name=remote_name)
 
-        remote.pull()
+        try:
+            repo.git.pull('--ff-only')
+        except git.GitCommandError:
+            branch_name = current_branch.name
+            backup_name = f'backup_{time.strftime("%Y%m%d_%H%M%S")}'
+            repo.create_head(backup_name)
+            logging.info(f"[ComfyUI-Manager] Cannot fast-forward. Backup created: {backup_name}")
+            repo.git.reset('--hard', f'{remote_name}/{branch_name}')
+            logging.info(f"[ComfyUI-Manager] Reset to {remote_name}/{branch_name}")
+
         repo.git.submodule('update', '--init', '--recursive')
 
         repo.close()
