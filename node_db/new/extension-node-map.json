@@ -238,7 +238,8 @@
     ],
     "https://github.com/1038lab/ComfyUI-VoxCPMTTS": [
         [
-            "AILab_VoxCPMTTS"
+            "AILab_VoxCPMTTS",
+            "AILab_VoxCPMTTS_Advanced"
         ],
         {
             "title_aux": "ComfyUI-VoxCPMTTS"
@@ -16319,6 +16320,7 @@
             "BboxSplit",
             "Cascade",
             "ImageFilters",
+            "LMS_VisionController",
             "Luts",
             "LutsAdvanced",
             "RemoveAreaByMask",
@@ -16696,6 +16698,9 @@
     "https://github.com/ShootTheSound/comfyUI-Realtime-Lora": [
         [
             "ApplyTrainedLora",
+            "MusubiQwenImageEditLoraTrainer",
+            "MusubiQwenImageLoraTrainer",
+            "MusubiWanLoraTrainer",
             "MusubiZImageLoraTrainer",
             "RealtimeLoraTrainer",
             "SD15LoraTrainer",
@@ -22625,13 +22630,21 @@
             "HSVAdjuster",
             "HeightAmplifier",
             "HeightCombiner",
+            "HeightToNormal",
             "ImageBitDepthChecker",
             "ImageEnhancement",
             "LevelsAdjustment",
             "LotusHeightProcessor",
+            "LotusNormalProcessor",
             "MicroDetailOverlay",
             "MultiTextureBlender",
+            "NormalConverter",
+            "NormalFormatAuto",
+            "NormalFormatBruteForce",
+            "NormalFormatValidator",
+            "NormalIntensity",
             "NormalMapCombiner",
+            "NormalToDepth",
             "PBRAdjuster",
             "PBRBatchToPipe",
             "PBRCombiner",
@@ -22651,6 +22664,8 @@
             "SSSMapGenerator",
             "ScratchesGenerator",
             "SeamlessTiling",
+            "SharpenDepth",
+            "SharpenNormal",
             "SimpleRecolor",
             "SmartBlur",
             "SmartTextureResizer",
@@ -50270,6 +50285,7 @@
             "vsLinx_BooleanOrOperator",
             "vsLinx_BypassOnBool",
             "vsLinx_FitImageIntoBBoxMask",
+            "vsLinx_ImpactMultilineWildcardText",
             "vsLinx_LoadSelectedImagesBatch",
             "vsLinx_LoadSelectedImagesList",
             "vsLinx_MuteOnBool"
