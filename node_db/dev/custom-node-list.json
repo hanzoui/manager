@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "saltchicken",
+            "title": "ComfyUI-Identity-Mixer",
+            "reference": "https://github.com/saltchicken/ComfyUI-Identity-Mixer",
+            "files": [
+                "https://github.com/saltchicken/ComfyUI-Identity-Mixer"
+            ],
+            "install_type": "git-clone",
+            "description": "Mixes multiple identity LoRAs with normalized strength."
+        },
+        {
+            "author": "saltchicken",
+            "title": "ComfyUI-Prompter",
+            "reference": "https://github.com/saltchicken/ComfyUI-Prompter",
+            "files": [
+                "https://github.com/saltchicken/ComfyUI-Prompter"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node providing customizable prompt generation capabilities. (Description by CC)"
+        },
+        {
+            "author": "JBKing514",
+            "title": "[WIP] map_comfyui",
+            "reference": "https://github.com/JBKing514/map_comfyui",
+            "files": [
+                "https://github.com/JBKing514/map_comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node implementing the Manifold Alignment Protocol (MAP) within ComfyUI, transforming diffusion sampling into a measurable and visualizable geometric process. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "Nynxz",
             "title": "ComfyUI_DiffsynthPause",
             "reference": "https://github.com/Nynxz/ComfyUI_DiffsynthPause",
@@ -49,16 +79,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom node that splits multi-line prompts by line, enabling batch image generation with each line triggering one execution and supporting custom prompt boxes. (Description by CC)\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "ashtar1984",
-            "title": "comfyui-switch-bypass-mute-by-group",
-            "reference": "https://github.com/ashtar1984/comfyui-switch-bypass-mute-by-group",
-            "files": [
-                "https://github.com/ashtar1984/comfyui-switch-bypass-mute-by-group"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node for group-based node switching, bypassing, and muting control. (Description by CC)"
         },
         {
             "author": "rookiestar28",
