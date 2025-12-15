@@ -1,6 +1,116 @@
 {
     "custom_nodes": [
         {
+            "author": "Spicely",
+            "title": "[WIP] ComfyUI-Luma",
+            "reference": "https://github.com/Spicely/ComfyUI-Luma",
+            "files": [
+                "https://github.com/Spicely/ComfyUI-Luma"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI utility providing video and audio processing capabilities including text watermarking, audio-video separation, and audio-to-subtitle conversion. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "SSYCloud",
+            "title": "comfyui-ssy-syncapi [WIP]",
+            "reference": "https://github.com/SSYCloud/comfyui-ssy-syncapi",
+            "files": [
+                "https://github.com/SSYCloud/comfyui-ssy-syncapi"
+            ],
+            "install_type": "git-clone",
+            "description": "Powerful ComfyUI custom node collection providing 4 dedicated nodes to access SSY Cloud synchronous image generation and processing models including Google Gemini, ByteDance Doubao, OpenAI, and image enhancement APIs. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "LMietkiewicz",
+            "title": "HiggsfieldAPI_Node",
+            "reference": "https://github.com/LMietkiewicz/HiggsfieldAPI_Node",
+            "files": [
+                "https://github.com/LMietkiewicz/HiggsfieldAPI_Node"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for Higgsfield API integration. (Description by CC)"
+        },        
+        {
+            "author": "starsFriday",
+            "title": "ComfyUI-LongCat-Image [WIP]",
+            "reference": "https://github.com/starsFriday/ComfyUI-LongCat-Image",
+            "files": [
+                "https://github.com/starsFriday/ComfyUI-LongCat-Image"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI wrapper nodes for the LongCat-Image text-to-image and image-editing pipelines with Python 3.12 support.\nNOTE: The files in the repo are not organized."
+        },        
+        {
+            "author": "tardey07",
+            "title": "ComfyUI-PT-TTM",
+            "reference": "https://github.com/tardey07/ComfyUI-PT-TTM",
+            "files": [
+                "https://github.com/tardey07/ComfyUI-PT-TTM"
+            ],
+            "install_type": "git-clone",
+            "description": "This application provides a user-friendly interface for easy comfort. (Description by CC)"
+        },
+        {
+            "author": "logicalor",
+            "title": "comfyui_mv_adapter [WIP]",
+            "reference": "https://github.com/logicalor/comfyui_mv_adapter",
+            "files": [
+                "https://github.com/logicalor/comfyui_mv_adapter"
+            ],
+            "install_type": "git-clone",
+            "description": "MV-Adapter nodes for ComfyUI - Multi-view image generation\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "rafstahelin",
+            "title": "ComfyUI_KieNanoBananaPro",
+            "reference": "https://github.com/rafstahelin/ComfyUI_KieNanoBananaPro",
+            "files": [
+                "https://github.com/rafstahelin/ComfyUI_KieNanoBananaPro"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for processing and filtering using KieNanoBananaPro algorithm. (Description by CC)"
+        },
+        {
+            "author": "jinchanz",
+            "title": "ComfyUI-Midjourney",
+            "reference": "https://github.com/jinchanz/ComfyUI-Midjourney",
+            "files": [
+                "https://github.com/jinchanz/ComfyUI-Midjourney"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI integration for Midjourney API with nodes for submitting requests, polling results, and extracting JSON data. (Description by CC)"
+        },
+        {
+            "author": "saltchicken",
+            "title": "ComfyUI-Local-Loader",
+            "reference": "https://github.com/saltchicken/ComfyUI-Local-Loader",
+            "files": [
+                "https://github.com/saltchicken/ComfyUI-Local-Loader"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for loading images from specified directories and file paths. (Description by CC)"
+        },
+        {
+            "author": "satyasairazole",
+            "title": "ComfyUI-Turbandetection [WIP]",
+            "reference": "https://github.com/satyasairazole/ComfyUI-Turbandetection",
+            "files": [
+                "https://github.com/satyasairazole/ComfyUI-Turbandetection"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for detecting turbans in images using computer vision. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "dougbtv",
+            "title": "comfyui-vllm-omni",
+            "reference": "https://github.com/dougbtv/comfyui-vllm-omni",
+            "files": [
+                "https://github.com/dougbtv/comfyui-vllm-omni"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for vLLM-Omni text-to-image generation"
+        },
+        {
             "author": "u5dev",
             "title": "ComfyUI_u5_EasyScripter [UNSAFE]",
             "reference": "https://github.com/u5dev/ComfyUI_u5_EasyScripter",

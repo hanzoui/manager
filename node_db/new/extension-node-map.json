@@ -2935,6 +2935,7 @@
     "https://github.com/Aryan185/ComfyUI-VertexAPI": [
         [
             "GeminiChatVertexNode",
+            "GeminiDiarisationNode",
             "GeminiSegmentationVertexNode",
             "GeminiTTSVertexNode",
             "GoogleImagenEditNode",
@@ -8538,6 +8539,16 @@
             "title_aux": "ComfyUI Ovi Node"
         }
     ],
+    "https://github.com/HM-RunningHub/ComfyUI_RH_QwenImageI2L": [
+        [
+            "RunningHub_ImageQwenI2L_Loader(CFB)",
+            "RunningHub_ImageQwenI2L_Loader(Style)",
+            "RunningHub_ImageQwenI2L_LoraGenerator"
+        ],
+        {
+            "title_aux": "ComfyUI_RH_QwenImageI2L"
+        }
+    ],
     "https://github.com/HM-RunningHub/ComfyUI_RH_SeedXPro": [
         [
             "RunningHub SeedXPro Translator"
@@ -11268,7 +11279,6 @@
             "LG_InstallDependencies",
             "LG_LatentBatchToList",
             "LG_LoadImage",
-            "LG_LoadImage_V2",
             "LG_MaskBatchMerge",
             "LG_MaskHoleFiller",
             "LG_Noise",
@@ -15875,6 +15885,17 @@
             "title_aux": "ComfyUI-SaveAudioMP3"
         }
     ],
+    "https://github.com/SanDiegoDude/SCG_LocalVLM": [
+        [
+            "Qwen",
+            "Qwen2.5",
+            "Qwen2.5VL",
+            "QwenVL"
+        ],
+        {
+            "title_aux": "SCG_LocalVLM"
+        }
+    ],
     "https://github.com/Santat2023/ComfyUiRagNodes": [
         [
             "MyNodesForDB",
@@ -16070,6 +16091,14 @@
         ],
         {
             "title_aux": "ComfyUI-Long-CLIP"
+        }
+    ],
+    "https://github.com/Sean-Bradley/ComfyUI-Get-Line": [
+        [
+            "Get Line"
+        ],
+        {
+            "title_aux": "ComfyUI-Get-Line"
         }
     ],
     "https://github.com/Sean-Bradley/ComfyUI-Image-Compare": [
@@ -17041,6 +17070,16 @@
         ],
         {
             "title_aux": "JPG & Noise Remover for ComfyUI"
+        }
+    ],
+    "https://github.com/SofianeAlla/ComfyUI-BespokeAI-3D": [
+        [
+            "BespokeAI3DGeneration",
+            "BespokeAI3DGenerationFromURL",
+            "BespokeAI3DPreview"
+        ],
+        {
+            "title_aux": "ComfyUI-BespokeAI-3D"
         }
     ],
     "https://github.com/SoftMeng/ComfyUI-DeepCache-Fix": [
@@ -27349,6 +27388,15 @@
             "title_aux": "ComfyUI-WanKeyframeBuilder"
         }
     ],
+    "https://github.com/ckinpdx/comfyui-humo-audio-motion": [
+        [
+            "HuMoAudioAttentionControlV4",
+            "HuMoLipsyncSuppressAttn"
+        ],
+        {
+            "title_aux": "comfyui-humo-audio-motion"
+        }
+    ],
     "https://github.com/claptrap0/ComfyUI_LLM_Hub": [
         [
             "Generated_Output",
@@ -31476,6 +31524,14 @@
         ],
         {
             "title_aux": "ComfyUI-hvBlockswap"
+        }
+    ],
+    "https://github.com/flybirdxx/ComfyUI-Prompt_Helper": [
+        [
+            "QwenImageEngineer"
+        ],
+        {
+            "title_aux": "ComfyUI-Prompt_Helper"
         }
     ],
     "https://github.com/flybirdxx/ComfyUI-RexOmni": [

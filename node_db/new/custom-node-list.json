@@ -1,5 +1,55 @@
 {
-    "custom_nodes": [    
+    "custom_nodes": [
+        {
+            "author": "SanDiegoDude",
+            "title": "SCG_LocalVLM",
+            "reference": "https://github.com/SanDiegoDude/SCG_LocalVLM",
+            "files": [
+                "https://github.com/SanDiegoDude/SCG_LocalVLM"
+            ],
+            "install_type": "git-clone",
+            "description": "This is an implementation of [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) for [ComfyUI](https://github.com/comfyanonymous/ComfyUI), which supports for text-based and single-image queries."
+        },
+        {
+            "author": "HM-RunningHub",
+            "title": "ComfyUI_RH_QwenImageI2L",
+            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_QwenImageI2L",
+            "files": [
+                "https://github.com/HM-RunningHub/ComfyUI_RH_QwenImageI2L"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that generates Image-to-LoRA (I2L) LoRA from training images using DiffSynth-Studio Qwen-Image i2L pipelines."
+        },
+        {
+            "author": "ckinpdx",
+            "title": "comfyui-humo-audio-motion",
+            "reference": "https://github.com/ckinpdx/comfyui-humo-audio-motion",
+            "files": [
+                "https://github.com/ckinpdx/comfyui-humo-audio-motion"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for granular Q/K/V/O attention boosting in HuMo models. Provides 12 independent controls for fine-tuning audio-driven motion response."
+        },
+        {
+            "author": "flybirdxx",
+            "title": "ComfyUI-Prompt_Helper",
+            "reference": "https://github.com/flybirdxx/ComfyUI-Prompt_Helper",
+            "files": [
+                "https://github.com/flybirdxx/ComfyUI-Prompt_Helper"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node that loads Qwen3-4B locally and expands short prompts into detailed, image-generation-friendly descriptions via GGUF. (Description by CC)"
+        },
+        {
+            "author": "Sean-Bradley",
+            "title": "ComfyUI-Get-Line",
+            "reference": "https://github.com/Sean-Bradley/ComfyUI-Get-Line",
+            "files": [
+                "https://github.com/Sean-Bradley/ComfyUI-Get-Line"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node used to get one line of string from a multi line string. Search in the manager for `get line`, or `getline` or `get-line`."
+        },        
         {
             "author": "GavChap",
             "title": "ComfyUI_ExtractLora",
@@ -647,106 +697,6 @@
             ],
             "install_type": "git-clone",
             "description": "A collection of helper nodes for working with LLM APIs in ComfyUI, intended to complement other LLM custom nodes."
-        },
-        {
-            "author": "febogallo",
-            "title": "ComfyUI-Freepik",
-            "reference": "https://github.com/febogallo/ComfyUI-Freepik",
-            "files": [
-                "https://github.com/febogallo/ComfyUI-Freepik"
-            ],
-            "install_type": "git-clone",
-            "description": "Integrates Freepik's AI capabilities into ComfyUI workflows with features for photorealistic generation, upscaling, and background removal, plus smart caching and cost management. (Description by CC)"
-        },
-        {
-            "author": "karas17",
-            "title": "comfyui_GLM_TTS",
-            "reference": "https://github.com/karas17/comfyui_GLM_TTS",
-            "files": [
-                "https://github.com/karas17/comfyui_GLM_TTS"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for GLM-TTS, a high-quality text-to-speech system supporting zero-shot voice cloning."
-        },
-        {
-            "author": "pantaleone-ai",
-            "title": "Comfy-Firefly",
-            "reference": "https://github.com/pantaleone-ai/Comfy-Firefly",
-            "files": [
-                "https://github.com/pantaleone-ai/Comfy-Firefly"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI node for generating images using Adobe Firefly Services API v3 with automatic authentication and standard tensor output."
-        },
-        {
-            "author": "NOLABEL-VFX",
-            "title": "ComfyUI-NL_Nodes",
-            "reference": "https://github.com/NOLABEL-VFX/ComfyUI-NL_Nodes",
-            "files": [
-                "https://github.com/NOLABEL-VFX/ComfyUI-NL_Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI nodes by NOLABEL for studio workflows, featuring Shot Path Builder that generates standardized, sanitized file and folder names with versioning for renders."
-        },
-        {
-            "author": "ARM64-EC",
-            "title": "ComfyUI-LongCatPlugin",
-            "reference": "https://github.com/ARM64-EC/ComfyUI-LongCatPlugin",
-            "files": [
-                "https://github.com/ARM64-EC/ComfyUI-LongCatPlugin"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes wrapping LongCat image generation and editing pipelines with text-to-image and multi-image edit flows using diffusers framework. (Description by CC)"
-        },
-        {
-            "author": "fabbarix",
-            "title": "comfyui-promptstore",
-            "reference": "https://github.com/fabbarix/comfyui-promptstore",
-            "files": [
-                "https://github.com/fabbarix/comfyui-promptstore"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom node system for ComfyUI enabling efficient prompt management with YAML-based datastore, categories, selection interface, and dynamic text interpolation for creating complex prompts."
-        },
-        {
-            "author": "hubo502",
-            "title": "ComfyUI-Env-Loader",
-            "reference": "https://github.com/hubo502/ComfyUI-Env-Loader",
-            "files": [
-                "https://github.com/hubo502/ComfyUI-Env-Loader"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node set that reads .env files at startup and provides dropdown selection or dynamic multi-port output for environment variable access in workflows. (Description by CC)"
-        },
-        {
-            "author": "BobRandomNumber",
-            "title": "ComfyUI-BasicOllama",
-            "reference": "https://github.com/BobRandomNumber/ComfyUI-BasicOllama",
-            "files": [
-                "https://github.com/BobRandomNumber/ComfyUI-BasicOllama"
-            ],
-            "install_type": "git-clone",
-            "description": "A simplified node that provides access to Ollama. It allows you to send prompts, system prompts, and images to your Ollama instance and receive text-based responses."
-        },
-        {
-            "author": "jonstreeter",
-            "title": "comfyui-Lora-Tag-Power-Loader",
-            "reference": "https://github.com/jonstreeter/comfyui-Lora-Tag-Power-Loader",
-            "files": [
-                "https://github.com/jonstreeter/comfyui-Lora-Tag-Power-Loader"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful ComfyUI custom node that combines text-based LoRA tag detection with advanced dual noise weight support, perfect for WanVideo/Hunyuan Video workflows."
-        },
-        {
-            "author": "KAVVATARE",
-            "title": "ComfyUI_SimpleGoogleTranslate",
-            "reference": "https://github.com/KAVVATARE/ComfyUI_SimpleGoogleTranslate",
-            "files": [
-                "https://github.com/KAVVATARE/ComfyUI_SimpleGoogleTranslate"
-            ],
-            "install_type": "git-clone",
-            "description": "Minimal and easy-to-use Google Translate text node for ComfyUI using the googletrans library with automatic language detection and full language support. (Description by CC)"
         }
     ]
 }

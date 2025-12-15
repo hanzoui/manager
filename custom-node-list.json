@@ -21851,6 +21851,16 @@
             "description": "A custom node for ComfyUI that integrates Video-As-Prompt for motion-guided video generation from image inputs."
         },
         {
+            "author": "HM-RunningHub",
+            "title": "ComfyUI_RH_QwenImageI2L",
+            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_QwenImageI2L",
+            "files": [
+                "https://github.com/HM-RunningHub/ComfyUI_RH_QwenImageI2L"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that generates Image-to-LoRA (I2L) LoRA from training images using DiffSynth-Studio Qwen-Image i2L pipelines."
+        },
+        {
             "author": "wqjuser",
             "title": "ComfyUI-Chat-Image",
             "reference": "https://github.com/wqjuser/ComfyUI-Chat-Image",
@@ -27504,6 +27514,16 @@
             "description": "A custom ComfyUI node for integrating with the Fal Kontext API for advanced image editing and generation."
         },
         {
+            "author": "SanDiegoDude",
+            "title": "SCG_LocalVLM",
+            "reference": "https://github.com/SanDiegoDude/SCG_LocalVLM",
+            "files": [
+                "https://github.com/SanDiegoDude/SCG_LocalVLM"
+            ],
+            "install_type": "git-clone",
+            "description": "This is an implementation of [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) for [ComfyUI](https://github.com/comfyanonymous/ComfyUI), which supports for text-based and single-image queries."
+        },
+        {
             "author": "tavyra",
             "title": "ComfyUI_Curves",
             "reference": "https://github.com/tavyra/ComfyUI_Curves",
@@ -32146,6 +32166,16 @@
             "description": "ComfyUI-SoulX-Podcast is a custom node plugin for ComfyUI that packages the core functionality of SoulX-Podcast (long-form, multi-speaker, multi-dialect podcast voice generation) into a visual node workflow."
         },
         {
+            "author": "flybirdxx",
+            "title": "ComfyUI-Prompt_Helper",
+            "reference": "https://github.com/flybirdxx/ComfyUI-Prompt_Helper",
+            "files": [
+                "https://github.com/flybirdxx/ComfyUI-Prompt_Helper"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node that loads Qwen3-4B locally and expands short prompts into detailed, image-generation-friendly descriptions via GGUF. (Description by CC)"
+        },
+        {
             "author": "DenRakEiw",
             "title": "ComfyUI Latent Color Tools",
             "reference": "https://github.com/DenRakEiw/Latent_Nodes",
@@ -34110,6 +34140,16 @@
             "install_type": "git-clone",
             "description": "Remove background scenery from an image of a person. The output image is saved as an RGBA PNG. The alpha channel is included."
         },
+        {
+            "author": "Sean-Bradley",
+            "title": "ComfyUI-Get-Line",
+            "reference": "https://github.com/Sean-Bradley/ComfyUI-Get-Line",
+            "files": [
+                "https://github.com/Sean-Bradley/ComfyUI-Get-Line"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node used to get one line of string from a multi line string. Search in the manager for `get line`, or `getline` or `get-line`."
+        },        
         {
             "author": "LukeCoulson1",
             "title": "ComfyUI LoRA Combine Node",
@@ -38177,6 +38217,16 @@
             "description": "Custom node for building keyframe timelines in Wan video generation with adjustable influence strength, supporting 1-8 keyframes. (Description by CC)"
         },
         {
+            "author": "ckinpdx",
+            "title": "comfyui-humo-audio-motion",
+            "reference": "https://github.com/ckinpdx/comfyui-humo-audio-motion",
+            "files": [
+                "https://github.com/ckinpdx/comfyui-humo-audio-motion"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for granular Q/K/V/O attention boosting in HuMo models. Provides 12 independent controls for fine-tuning audio-driven motion response."
+        },
+        {
             "author": "jessesep",
             "title": "SimpleVariables",
             "reference": "https://github.com/jessesep/SimpleVariables",
@@ -38719,7 +38769,16 @@
             "install_type": "git-clone",
             "description": "Compact, UI-friendly nodes for ComfyUI with LoRA/checkpoint selectors with thumbnails, text utilities, image helpers, and a lightweight cache cleaner script."
         },
-
+        {
+            "author": "SofianeAlla",
+            "title": "ComfyUI-BespokeAI-3D",
+            "reference": "https://github.com/SofianeAlla/ComfyUI-BespokeAI-3D",
+            "files": [
+                "https://github.com/SofianeAlla/ComfyUI-BespokeAI-3D"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for BespokeAI image-to-3D generation\nNOTE: The files in the repo are not organized."
+        },
 
 
 
