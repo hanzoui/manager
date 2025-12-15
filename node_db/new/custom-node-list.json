@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "kijai",
+            "title": "ComfyUI-SCAIL-Pose",
+            "reference": "https://github.com/kijai/ComfyUI-SCAIL-Pose",
+            "files": [
+                "https://github.com/kijai/ComfyUI-SCAIL-Pose"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for SCAIL input processing"
+        },
+        {
+            "author": "ShammiG",
+            "title": "ComfyUI-Show_Any_Text_in_CMD_Console-SG",
+            "reference": "https://github.com/ShammiG/ComfyUI-Show_Any_Text_in_CMD_Console-SG",
+            "files": [
+                "https://github.com/ShammiG/ComfyUI-Show_Any_Text_in_CMD_Console-SG"
+            ],
+            "install_type": "git-clone",
+            "description": "Simple node to show ANY output text in the CMD console with color options"
+        },        
+        {
             "author": "ubisoft",
             "title": "ComfyUI-Chord",
             "reference": "https://github.com/ubisoft/ComfyUI-Chord",

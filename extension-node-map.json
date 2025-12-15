@@ -2250,6 +2250,7 @@
             "ForceDetectPixelateScale",
             "ImageScaleDownByFactor",
             "ImageUpscaleByInt",
+            "ImagesToRGB",
             "NearestImageScaleDown",
             "PixelUpscale2Target",
             "RemoveBackgroundPixel",
@@ -14612,6 +14613,7 @@
     ],
     "https://github.com/PozzettiAndrea/ComfyUI-GeometryPack": [
         [
+            "GeomPackAddNormalsToPointCloud",
             "GeomPackBackdraftView",
             "GeomPackBooleanOp",
             "GeomPackCheckNormals",
@@ -14637,6 +14639,7 @@
             "GeomPackMeshQuality",
             "GeomPackMeshToMeshDistance",
             "GeomPackMeshToPointCloud",
+            "GeomPackNormalizeMeshToBBox",
             "GeomPackPointToMeshDistance",
             "GeomPackPreviewMesh",
             "GeomPackPreviewMeshDual",
@@ -15323,6 +15326,7 @@
             "Runware Alibaba Provider Settings",
             "Runware Audio Inference",
             "Runware Audio Inference Inputs",
+            "Runware Audio Inputs Combine",
             "Runware Audio Model Search",
             "Runware Audio Sections",
             "Runware Background Removal",
@@ -15365,20 +15369,27 @@
             "Runware Refiner",
             "Runware Runway Provider Settings",
             "Runware Safety Inputs",
+            "Runware Speech Inputs Combine",
+            "Runware Sync Provider Settings",
+            "Runware Sync Segment",
             "Runware VAE Search",
             "Runware Vectorize",
             "Runware Video Advanced Feature Inputs",
+            "Runware Video Audio Input",
             "Runware Video Background Removal",
             "Runware Video Inference",
             "Runware Video Inference Inputs",
             "Runware Video Inputs Frame Images",
             "Runware Video Inputs References",
             "Runware Video Model Search",
+            "Runware Video Speech Input",
             "Runware Video Transcription",
             "Runware Video Upscaler",
             "Runware Vidu Provider Settings",
             "RunwareAlibabaProviderSettings",
             "RunwareAudioInferenceInputs",
+            "RunwareAudioInput",
+            "RunwareAudioInputCombine",
             "RunwareBriaProviderSettings",
             "RunwareBytedanceProviderSettings",
             "RunwareFrameImages",
@@ -15391,6 +15402,10 @@
             "RunwarePixverseProviderSettings",
             "RunwareRunwayProviderSettings",
             "RunwareSafetyInputs",
+            "RunwareSpeechInput",
+            "RunwareSpeechInputCombine",
+            "RunwareSyncProviderSettings",
+            "RunwareSyncSegment",
             "RunwareVectorize",
             "RunwareVideoAdvancedFeatureInputs",
             "RunwareVideoBgRemoval",
@@ -16306,6 +16321,14 @@
         ],
         {
             "title_aux": "ComfyUI Show Clock in CMD Console SG"
+        }
+    ],
+    "https://github.com/ShammiG/ComfyUI-Show_Any_Text_in_CMD_Console-SG": [
+        [
+            "ShowAnyTextInCMDconsoleSG"
+        ],
+        {
+            "title_aux": "ComfyUI-Show_Any_Text_in_CMD_Console-SG"
         }
     ],
     "https://github.com/ShammiG/ComfyUI-Simple_Readable_Metadata-SG": [
@@ -17689,6 +17712,7 @@
             "StarIconExporter",
             "StarImageEditQwenKontext",
             "StarImageLoader1by1",
+            "StarImageLoop",
             "StarImageSwitch",
             "StarImageSwitch2",
             "StarInfiniteYouAdvancedPatchMaker",
@@ -17734,6 +17758,7 @@
             "StarTextFilter",
             "StarTextInput",
             "StarTextStorage",
+            "StarVideoLoop",
             "StarWatermark",
             "StarWildcardsAdvanced",
             "StarWildsAdv",
@@ -22076,6 +22101,7 @@
             "AKSamplerSettings",
             "AKSettingsOut",
             "CLIPEncodeMultiple",
+            "CLIPTextEncodeCached",
             "IndexMultiple",
             "IsOneOfGroupsActive",
             "PreviewRawText",
@@ -36827,6 +36853,7 @@
     "https://github.com/kijai/ComfyUI-KJNodes": [
         [
             "AddLabel",
+            "AddNoiseToTrackPath",
             "AppendInstanceDiffusionTracking",
             "AppendStringsToList",
             "ApplyRifleXRoPE_HunuyanVideo",
@@ -37199,6 +37226,15 @@
         ],
         {
             "title_aux": "ComfyUI PyramidFlow Wrapper"
+        }
+    ],
+    "https://github.com/kijai/ComfyUI-SCAIL-Pose": [
+        [
+            "PoseDetectionVitPoseToDWPose",
+            "RenderNLFPoses"
+        ],
+        {
+            "title_aux": "ComfyUI-SCAIL-Pose"
         }
     ],
     "https://github.com/kijai/ComfyUI-SUPIR": [
@@ -43472,8 +43508,7 @@
             "RescaleCFGPost",
             "SamplerGradientEstimation",
             "SkipFirstStepCFG",
-            "TCFGAdvanced",
-            "VAEPadding"
+            "TCFGAdvanced"
         ],
         {
             "title_aux": "ComfyUI-ppm"
