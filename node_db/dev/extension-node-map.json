@@ -5823,6 +5823,15 @@
             "title_aux": "BigModelPipe [WIP]"
         }
     ],
+    "https://github.com/baoanhng/ComfyUI-utils": [
+        [
+            "TextJoiner",
+            "TextSplitter"
+        ],
+        {
+            "title_aux": "ComfyUI-utils"
+        }
+    ],
     "https://github.com/barakapa/barakapa-nodes": [
         [
             "brkp_ConcatenateString",
@@ -8130,6 +8139,7 @@
         [
             "HolafBypasser",
             "HolafGroupBypasser",
+            "HolafImageBatchSlice",
             "HolafImageComparer",
             "HolafInstagramResize",
             "HolafKSampler",
@@ -11970,6 +11980,39 @@
             "title_aux": "comfyui-lingshang"
         }
     ],
+    "https://github.com/stalkervr/ComfyUI-StalkerVr": [
+        [
+            "AnyCollector",
+            "ImageAspectRatioFixer",
+            "ImageBatchCrop",
+            "ImageGridCropper",
+            "JsonArraySplitter",
+            "JsonBuilder",
+            "JsonDeserializeObject",
+            "JsonFieldRemover",
+            "JsonFieldReplaceAdvanced",
+            "JsonFieldValueExtractor",
+            "JsonPairInput",
+            "JsonPathLoader",
+            "JsonPromptToTextPromptConverter",
+            "JsonRootListExtractor",
+            "JsonSerializeObject",
+            "JsonToString",
+            "ListItemExtractor",
+            "LogValue",
+            "LoopAny",
+            "PromptPartJoin",
+            "StringBuilder",
+            "StringCollector",
+            "StringConcatenation",
+            "StringListToString",
+            "StringWrapper",
+            "WanVideoMultiPrompt"
+        ],
+        {
+            "title_aux": "ComfyUI-StalkerVr"
+        }
+    ],
     "https://github.com/stalkervr/comfyui-custom-path-nodes": [
         [
             "AnyCollector",
@@ -12549,6 +12592,23 @@
             "title_aux": "ComfyUI-SaveImg-W-MetaData"
         }
     ],
+    "https://github.com/u5dev/ComfyUI_u5_EasyScripter": [
+        [
+            "comfyUI_u5_easyscripter",
+            "u5_CLIPLoader",
+            "u5_CLIPVisionLoader",
+            "u5_CheckpointLoader",
+            "u5_ControlNetLoader",
+            "u5_GLIGENLoader",
+            "u5_LoraLoader",
+            "u5_StyleModelLoader",
+            "u5_UNETLoader",
+            "u5_VAELoader"
+        ],
+        {
+            "title_aux": "ComfyUI_u5_EasyScripter [UNSAFE]"
+        }
+    ],
     "https://github.com/umisetokikaze/comfyui_mergekit": [
         [
             "DefineSaveName",
@@ -13065,6 +13125,16 @@
         ],
         {
             "title_aux": "ComfyUI-DreamOmni2-GGUF [WIP]"
+        }
+    ],
+    "https://github.com/xuchenxu168/comfyui_meituan_image": [
+        [
+            "MeituanLongCatEdit",
+            "MeituanLongCatLoader",
+            "MeituanLongCatT2I"
+        ],
+        {
+            "title_aux": "[WIP] comfyui_meituan_image"
         }
     ],
     "https://github.com/xzuyn/ComfyUI-xzuynodes": [

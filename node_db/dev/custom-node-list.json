@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "u5dev",
+            "title": "ComfyUI_u5_EasyScripter [UNSAFE]",
+            "reference": "https://github.com/u5dev/ComfyUI_u5_EasyScripter",
+            "files": [
+                "https://github.com/u5dev/ComfyUI_u5_EasyScripter"
+            ],
+            "install_type": "git-clone",
+            "description": "EASY VBA-style script for ComfyUI. Anything you want be in 1 node. Conditional branching, iteration, prompt generation, parameter adjustment, memory release, file input/output, Using HTTP RestAPI ... with 100+ built-in functions![w/This nodepack has RCE, SSRF, and arbitrary file read vulnerabilities.]"
+        },
+        {
+            "author": "stalkervr",
+            "title": "ComfyUI-StalkerVr",
+            "reference": "https://github.com/stalkervr/ComfyUI-StalkerVr",
+            "files": [
+                "https://github.com/stalkervr/ComfyUI-StalkerVr"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for image processing, aspect ratio fixing, batch cropping, grid manipulation, JSON handling, and value extraction. (Description by CC)"
+        },
+        {
+            "author": "baoanhng",
+            "title": "ComfyUI-utils",
+            "reference": "https://github.com/baoanhng/ComfyUI-utils",
+            "files": [
+                "https://github.com/baoanhng/ComfyUI-utils"
+            ],
+            "install_type": "git-clone",
+            "description": "Provides text utility nodes (TextJoiner, TextSplitter) for ComfyUI workflows. (Description by CC)"
+        },
+        {
+            "author": "xuchenxu168",
+            "title": "[WIP] comfyui_meituan_image",
+            "reference": "https://github.com/xuchenxu168/comfyui_meituan_image",
+            "files": [
+                "https://github.com/xuchenxu168/comfyui_meituan_image"
+            ],
+            "install_type": "git-clone",
+            "description": "Generate high-quality images from text prompts with excellent Chinese text rendering，Edit images using natural language instructions..\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "saltchicken",
             "title": "ComfyUI-Identity-Mixer",
             "reference": "https://github.com/saltchicken/ComfyUI-Identity-Mixer",

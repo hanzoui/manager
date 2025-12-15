@@ -7966,6 +7966,14 @@
             "title_aux": "ComfyUI-SD3LatentSelectRes"
         }
     ],
+    "https://github.com/GavChap/ComfyUI_ExtractLora": [
+        [
+            "ExtractLoRA"
+        ],
+        {
+            "title_aux": "ComfyUI_ExtractLora"
+        }
+    ],
     "https://github.com/GeekatplayStudio/ComfyUI-Text2Speech": [
         [
             "HttpTTSToAudio",
@@ -11379,6 +11387,7 @@
             "Texturaizer_ApplyStyleToPrompt",
             "Texturaizer_CachedCNLoader",
             "Texturaizer_CachedCheckpointLoader",
+            "Texturaizer_CircularVAEDecode",
             "Texturaizer_ClipEncodeSwitchVersion",
             "Texturaizer_CombinedConditioningFromColors",
             "Texturaizer_ExtractCNData",
@@ -11403,11 +11412,13 @@
             "Texturaizer_KSamplerAdvanced",
             "Texturaizer_Placeholder",
             "Texturaizer_PowerLoraLoader",
+            "Texturaizer_SeamlessTilingPatch",
             "Texturaizer_SendImage",
             "Texturaizer_SetGlobalDir",
             "Texturaizer_SigmasSelector",
             "Texturaizer_SwitchAny",
             "Texturaizer_SwitchLazy",
+            "Texturaizer_SwitchSmart",
             "Texturaizer_UseSDXL"
         ],
         {
@@ -22195,6 +22206,7 @@
         [
             "AF_Edit_Generated_Prompt",
             "AF_Load_Prompt_History",
+            "AF_Model_Switch",
             "AF_Save_Prompt_History",
             "AF_Show_Text"
         ],
@@ -25694,6 +25706,7 @@
         [
             "Cubemap Faces Extract",
             "Cubemap To Equirectangular",
+            "Cubemap To Equirectangular (Flexible)",
             "Equirectangular Crop 180",
             "Equirectangular Crop Square",
             "Equirectangular Edge Blender",
@@ -25704,6 +25717,15 @@
             "Equirectangular Rotate",
             "Equirectangular Rotate Preset",
             "Equirectangular To Cubemap",
+            "Equirectangular To Cubemap (Flexible)",
+            "LatLong Apply Circular Padding Model",
+            "LatLong Apply Circular Padding VAE",
+            "LatLong Create Pole Mask",
+            "LatLong Create Seam Mask",
+            "LatLong Roll Image",
+            "LatLong Roll Mask",
+            "LatLong Split Cubemap Faces",
+            "LatLong Stack Cubemap Faces",
             "PanoramaVideoViewerNode",
             "PanoramaViewerNode"
         ],
@@ -30922,7 +30944,8 @@
             "MeuxAdvancedImageCrop",
             "MeuxImageLoader",
             "MeuxMultiSaveImage",
-            "MeuxSimpleLLMNode"
+            "MeuxSimpleLLMNode",
+            "MeuxTextAreaInput"
         ],
         {
             "title_aux": "BaiduMeux_Comfy Tools"
@@ -30933,7 +30956,8 @@
             "MeuxAdvancedImageCrop",
             "MeuxImageLoader",
             "MeuxMultiSaveImage",
-            "MeuxSimpleLLMNode"
+            "MeuxSimpleLLMNode",
+            "MeuxTextAreaInput"
         ],
         {
             "title_aux": "MultiSaveImage Node"
@@ -39028,6 +39052,18 @@
             "title_aux": "Comfyui_three_js"
         }
     ],
+    "https://github.com/logicalor/comfyui_text_to_pose": [
+        [
+            "ApplyT2IPoseAdapter",
+            "T2IPoseAdapterLoader",
+            "T2PModelLoader",
+            "TextToPose",
+            "TextToPoseBatch"
+        ],
+        {
+            "title_aux": "comfyui_text_to_pose"
+        }
+    ],
     "https://github.com/logtd/ComfyUI-4DHumans": [
         [
             "LoadDetectron",
@@ -41603,6 +41639,7 @@
     "https://github.com/morino-kumasan/comfyui-toml-prompt": [
         [
             "CheckPointLoaderSimpleFromString",
+            "DropFirstImage",
             "IntSelector",
             "JsonExtractFloat",
             "JsonExtractInt",
@@ -41622,7 +41659,8 @@
             "StringSelector",
             "StringViewer",
             "SummaryReader",
-            "TomlPromptDecode"
+            "TomlPromptDecode",
+            "UNETLoaderFromString"
         ],
         {
             "title_aux": "comfyui-toml-prompt"
@@ -41929,7 +41967,8 @@
             "ShellAgentPluginSaveAudios",
             "ShellAgentPluginSaveImage",
             "ShellAgentPluginSaveImages",
-            "ShellAgentPluginSaveVideoVHS"
+            "ShellAgentPluginSaveVideoVHS",
+            "ShellAgentPluginVideoCombineEncrypt"
         ],
         {
             "author": "MyShell",
@@ -48311,6 +48350,26 @@
             "title_aux": "ComfyUI roop"
         }
     ],
+    "https://github.com/ssspace1/SSpack_ComfyUI": [
+        [
+            "SSCheckpointLoader",
+            "SSCheckpointSelector",
+            "SSCheckpointSelector12",
+            "SSCheckpointSelector6",
+            "SSFilter",
+            "SSImageNodeAnnotator",
+            "SSJsonOutput",
+            "SSLoRAStackApplier",
+            "SSLoraSelector",
+            "SSRandomLoraApplier",
+            "SSSavedImageLoader",
+            "SSTextWeight",
+            "SS_SDXL_AutoResize"
+        ],
+        {
+            "title_aux": "SSpack_ComfyUI"
+        }
+    ],
     "https://github.com/stavsap/comfyui-downloader": [
         [
             "DownloadSummaryParser",
@@ -49322,8 +49381,11 @@
             "FullPipeOut",
             "ModelPresetNode",
             "MultiStringConditioning",
+            "ResolutionSelector",
             "SeedWithOverride",
             "StylePresetNode",
+            "TagReplacementNode",
+            "UpscaleNode",
             "WildcardNode"
         ],
         {

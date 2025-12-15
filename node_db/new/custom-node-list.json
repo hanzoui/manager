@@ -1,5 +1,35 @@
 {
-    "custom_nodes": [
+    "custom_nodes": [    
+        {
+            "author": "GavChap",
+            "title": "ComfyUI_ExtractLora",
+            "reference": "https://github.com/GavChap/ComfyUI_ExtractLora",
+            "files": [
+                "https://github.com/GavChap/ComfyUI_ExtractLora"
+            ],
+            "install_type": "git-clone",
+            "description": "Creates lora from two checkpoints by extracting the difference."
+        },
+        {
+            "author": "ssspace1",
+            "title": "SSpack_ComfyUI",
+            "reference": "https://github.com/ssspace1/SSpack_ComfyUI",
+            "files": [
+                "https://github.com/ssspace1/SSpack_ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "Compact, UI-friendly nodes for ComfyUI with LoRA/checkpoint selectors with thumbnails, text utilities, image helpers, and a lightweight cache cleaner script."
+        },
+        {
+            "author": "logicalor",
+            "title": "comfyui_text_to_pose",
+            "reference": "https://github.com/logicalor/comfyui_text_to_pose",
+            "files": [
+                "https://github.com/logicalor/comfyui_text_to_pose"
+            ],
+            "install_type": "git-clone",
+            "description": "Generate human poses from text descriptions using T2P Transformer for ControlNet/T2I-Adapter workflows"
+        },
         {
             "author": "kijai",
             "title": "ComfyUI-SCAIL-Pose",
