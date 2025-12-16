@@ -38830,6 +38830,16 @@
             "install_type": "git-clone",
             "description": "Make any ComfyUI workflow faster, use less VRAM, or produce better quality - with AI assistance"
         },
+        {
+            "author": "tppp2806",
+            "title": "ComfyUI-YoloTrack",
+            "reference": "https://github.com/tppp2806/ComfyUI-YoloTrack",
+            "files": [
+                "https://github.com/tppp2806/ComfyUI-YoloTrack"
+            ],
+            "install_type": "git-clone",
+            "description": "Based on a YOLO model, it performs object detection, capture, and smooth tracking-based cropping on images."
+        },
 
 
 
@@ -39242,16 +39252,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-		  "author": "tppp2806",
-		  "title": "ComfyUI-YoloTrack",
-		  "reference": "https://github.com/tppp2806/ComfyUI-YoloTrack",
-		  "files": [
-		    "https://github.com/tppp2806/ComfyUI-YoloTrack"
-		  ],
-		  "install_type": "git-clone",
-		  "description": "Based on a YOLO model, it performs object detection, capture, and smooth tracking-based cropping on images."
-		}
+        }
     ]
 }
