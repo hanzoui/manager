@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "logicalor",
+            "title": "comfyui_multi_replace",
+            "reference": "https://github.com/logicalor/comfyui_multi_replace",
+            "files": [
+                "https://github.com/logicalor/comfyui_multi_replace"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for creating and applying multiple find/replace pairs to text"
+        },
+        {
+            "author": "thezveroboy",
+            "title": "ComfyUI-ClipReshaper",
+            "reference": "https://github.com/thezveroboy/ComfyUI-ClipReshaper",
+            "files": [
+                "https://github.com/thezveroboy/ComfyUI-ClipReshaper"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes to reshape/project Conditioning tensors and ensure SDXL conditioning metadata."
+        },
+        {
+            "author": "laboratoiresonore",
+            "title": "ComfyUI_PerformanceLab",
+            "reference": "https://github.com/laboratoiresonore/ComfyUI_PerformanceLab",
+            "files": [
+                "https://github.com/laboratoiresonore/ComfyUI_PerformanceLab"
+            ],
+            "install_type": "git-clone",
+            "description": "Make any ComfyUI workflow faster, use less VRAM, or produce better quality - with AI assistance"
+        },
+        {
             "author": "SanDiegoDude",
             "title": "SCG_LocalVLM",
             "reference": "https://github.com/SanDiegoDude/SCG_LocalVLM",

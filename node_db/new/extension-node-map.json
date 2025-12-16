@@ -2920,6 +2920,7 @@
             "FluxKontextProNode",
             "GPTImageEditNode",
             "GeminiChatNode",
+            "GeminiDiarisationAPI",
             "GeminiSegmentationNode",
             "GeminiTTSNode",
             "GoogleImagenEditNode",
@@ -2938,8 +2939,8 @@
             "GeminiDiarisationNode",
             "GeminiSegmentationVertexNode",
             "GeminiTTSVertexNode",
-            "GoogleImagenEditNode",
-            "GoogleImagenNode",
+            "GoogleImagenEditVertex",
+            "GoogleImagenVertex",
             "GoogleVeoVertexVideoGenerator",
             "NanoBananaVertexNode"
         ],
@@ -8509,6 +8510,14 @@
             "title_aux": "ComfyUI IC-Custom Node"
         }
     ],
+    "https://github.com/HM-RunningHub/ComfyUI_RH_LLM_API": [
+        [
+            "RH_LLMAPI_NODE"
+        ],
+        {
+            "title_aux": "ComfyUI_RH_LLM_API"
+        }
+    ],
     "https://github.com/HM-RunningHub/ComfyUI_RH_OminiControl": [
         [
             "RunningHub_Omini_Fill",
@@ -10666,18 +10675,9 @@
             "JAX_EasyPrompt",
             "JAX_EasyPromptSimple",
             "JAX_ImageSizeMultiplier",
-            "JAX_KritaCanvas",
-            "JAX_KritaImageLayer",
-            "JAX_KritaMaskLayer",
-            "JAX_KritaOutput",
             "JAX_KritaPipeIn",
-            "JAX_KritaSelection",
-            "JAX_KritaSendText",
             "JAX_KritaStrength",
-            "JAX_KritaStyle",
-            "JAX_Parameter",
-            "JAX_SamplerPipeOut",
-            "JAX_SendImageWebSocket"
+            "JAX_SamplerPipeOut"
         ],
         {
             "title_aux": "ComfyUI-Jax-Nodes"
@@ -11837,6 +11837,7 @@
             "LatentSettings",
             "PipeHub",
             "PreviewMask",
+            "UniversalLatentSettings",
             "cropImage"
         ],
         {
@@ -12642,6 +12643,7 @@
             "Place Image By Mask",
             "PreviewVideoMXD",
             "Prompt With Guidance (Flux)",
+            "Save Image MXD",
             "SaveLatentMXD",
             "SaveLatent_I2V_MXD",
             "SaveVideoMXD",
@@ -12797,7 +12799,10 @@
             "PromptQueue",
             "PromptQueueFromFolder",
             "ResolutionSelectNode",
-            "VRAMRAMCleanerNode"
+            "TileCompositor",
+            "TileManager",
+            "VRAMRAMCleanerNode",
+            "VisualMarqueeSelection"
         ],
         {
             "title_aux": "ComfyUI-Flow-Assistor"
@@ -16861,13 +16866,19 @@
     "https://github.com/ShootTheSound/comfyUI-Realtime-Lora": [
         [
             "ApplyTrainedLora",
+            "FLUXSelectiveLoRALoader",
+            "LoRALoaderWithAnalysis",
             "MusubiQwenImageEditLoraTrainer",
             "MusubiQwenImageLoraTrainer",
             "MusubiWanLoraTrainer",
             "MusubiZImageLoraTrainer",
+            "QwenSelectiveLoRALoader",
             "RealtimeLoraTrainer",
             "SD15LoraTrainer",
-            "SDXLLoraTrainer"
+            "SDXLLoraTrainer",
+            "SDXLSelectiveLoRALoader",
+            "WanSelectiveLoRALoader",
+            "ZImageSelectiveLoRALoader"
         ],
         {
             "title_aux": "Realtime LoRA Trainer"
@@ -19613,8 +19624,10 @@
             "VividSharpen",
             "VividSharpenV2",
             "WASApplyLUT",
+            "WASCameraMotionTrajectory",
             "WASChannelWaveform",
             "WASCombineLUT",
+            "WASLatentUpscaleHybrid",
             "WASLoadLUT",
             "WASMoEConditioningListAppend",
             "WASSaveLUT",
@@ -24028,6 +24041,7 @@
             "MaskBoundingBox-beyond_nodes",
             "MaskRectArea-beyond_nodes",
             "MaskToImage-beyond_nodes",
+            "RoundMask-beyond_nodes",
             "String-beyond_nodes",
             "TwoWaySwitch-beyond_nodes"
         ],
@@ -27954,13 +27968,6 @@
             "PerturbedAttentionGuidance",
             "PhotoMakerEncode",
             "PhotoMakerLoader",
-            "PikaImageToVideoNode2_2",
-            "PikaScenesV2_2",
-            "PikaStartEndFrameNode2_2",
-            "PikaTextToVideoNode2_2",
-            "Pikadditions",
-            "Pikaffects",
-            "Pikaswaps",
             "PixverseImageToVideoNode",
             "PixverseTemplateNode",
             "PixverseTextToVideoNode",
@@ -32094,9 +32101,11 @@
             "FormattedString",
             "JSONOutputList",
             "KSamplerImmediateSave",
+            "LoadFile",
             "NumberOutputList",
-            "PickOutputLists",
-            "StringOutputList"
+            "SpreadsheetOutputList",
+            "StringOutputList",
+            "XyzGridPlot"
         ],
         {
             "title_aux": "ComfyUI-outputlists-combiner"
@@ -37397,6 +37406,8 @@
             "WanVideoAddOviAudioToLatents",
             "WanVideoAddPusaNoise",
             "WanVideoAddS2VEmbeds",
+            "WanVideoAddSCAILPoseEmbeds",
+            "WanVideoAddSCAILReferenceEmbeds",
             "WanVideoAddStandInLatent",
             "WanVideoAddSteadyDancerEmbeds",
             "WanVideoAddTTMLatents",
@@ -38017,6 +38028,52 @@
         {
             "nodename_pattern": "^\ud83e\udd16 Leon",
             "title_aux": "Leon's Utility and API Integration Nodes"
+        }
+    ],
+    "https://github.com/laboratoiresonore/ComfyUI_PerformanceLab": [
+        [
+            "EndpointHealthCheck",
+            "KoboldLLM",
+            "KoboldLLMAdvanced",
+            "LocalGenerator",
+            "LocalGeneratorBatch",
+            "MultiEndpointHealthCheck",
+            "PerfLab_Analyzer",
+            "PerfLab_AutoDetectGPU",
+            "PerfLab_BenchmarkRunner",
+            "PerfLab_BlackImageFix",
+            "PerfLab_CapResolution",
+            "PerfLab_Compare",
+            "PerfLab_EndpointHealth",
+            "PerfLab_FloatSwitch",
+            "PerfLab_GeneratePrompt",
+            "PerfLab_IntSwitch",
+            "PerfLab_IterationTracker",
+            "PerfLab_LoadWorkflow",
+            "PerfLab_LowVRAMPreset",
+            "PerfLab_ModelDetector",
+            "PerfLab_NetworkScanner",
+            "PerfLab_OneClickOptimize",
+            "PerfLab_OptimizationLoop",
+            "PerfLab_OptimizeCFG",
+            "PerfLab_QueueWorkflow",
+            "PerfLab_QuickStart",
+            "PerfLab_ReduceBatch",
+            "PerfLab_ReduceSteps",
+            "PerfLab_Report",
+            "PerfLab_ShowText",
+            "PerfLab_SmartOptimize",
+            "PerfLab_SmartPrompt",
+            "PerfLab_SpeedPreset",
+            "PerfLab_Switch",
+            "PerfLab_TestModeToggle",
+            "PerfLab_Timer",
+            "PerfLab_VRAMMonitor",
+            "RemoteComfyUI",
+            "RemoteComfyUISimple"
+        ],
+        {
+            "title_aux": "ComfyUI_PerformanceLab"
         }
     ],
     "https://github.com/lakkiy/ComfyUI-RWImageS3": [
@@ -39106,6 +39163,15 @@
         ],
         {
             "title_aux": "Comfyui_three_js"
+        }
+    ],
+    "https://github.com/logicalor/comfyui_multi_replace": [
+        [
+            "FindReplacePairs",
+            "TextReplacer"
+        ],
+        {
+            "title_aux": "comfyui_multi_replace"
         }
     ],
     "https://github.com/logicalor/comfyui_text_to_pose": [
@@ -42383,10 +42449,13 @@
     ],
     "https://github.com/nilor-corp/nilor-nodes": [
         [
+            "MediaStreamInput",
+            "MediaStreamOutput",
             "Nilor Blur Analysis",
             "Nilor Categorize String",
             "Nilor Count Images In Directory",
             "Nilor Extract Filename from Path",
+            "Nilor Image Resize v2",
             "Nilor Int To List Of Bools",
             "Nilor Interpolated Float List",
             "Nilor Inverse Map Float List",
@@ -42405,7 +42474,15 @@
             "Nilor Select Index From List",
             "Nilor Shuffle Image Batch",
             "Nilor To Sparse Index Method",
-            "Nilor n Fractions of Int"
+            "Nilor Wan Frame Trim",
+            "Nilor Wan Tile Resolution",
+            "Nilor n Fractions of Int",
+            "NilorGroup",
+            "NilorPreset",
+            "NilorUserInput_Boolean",
+            "NilorUserInput_Float",
+            "NilorUserInput_Int",
+            "NilorUserInput_String"
         ],
         {
             "title_aux": "Nilor Nodes by Nilor Corp"
@@ -49370,6 +49447,18 @@
             "title_aux": "ComfyUI-CSM-Nodes"
         }
     ],
+    "https://github.com/thezveroboy/ComfyUI-ClipReshaper": [
+        [
+            "CR_ConditioningAssertDim",
+            "CR_ConditioningInspect",
+            "CR_ConditioningLinearProject",
+            "CR_ConditioningPadOrSlice",
+            "CR_SDXLMetadataEnsure"
+        ],
+        {
+            "title_aux": "ComfyUI-ClipReshaper"
+        }
+    ],
     "https://github.com/thezveroboy/ComfyUI-WAN-ClipSkip": [
         [
             "CLIPSkip"
@@ -49429,7 +49518,9 @@
     ],
     "https://github.com/thnikk/comfyui-thnikk-utils": [
         [
+            "BaseNode",
             "CharacterPresetNode",
+            "ConditionalLoraFullPipe",
             "DetailerNode",
             "DetailerPipeNode",
             "FullPipeIn",
@@ -49437,6 +49528,7 @@
             "FullPipeOut",
             "ModelPresetNode",
             "MultiStringConditioning",
+            "PromptConditioningNode",
             "ResolutionSelector",
             "SeedWithOverride",
             "StylePresetNode",
@@ -51310,7 +51402,10 @@
     ],
     "https://github.com/wildminder/ComfyUI-VoxCPM": [
         [
-            "VoxCPM_TTS"
+            "VoxCPM_DatasetMaker",
+            "VoxCPM_LoraTrainer",
+            "VoxCPM_TTS",
+            "VoxCPM_TrainConfig"
         ],
         {
             "title_aux": "ComfyUI-VoxCPM"
@@ -51338,7 +51433,7 @@
             "LoraStacker",
             "PromptLoraManager",
             "SamplerCustomAdvanced",
-            "SaveImage",
+            "SaveImageLM",
             "TSC_EfficientLoader",
             "TriggerWordToggle",
             "VAEDecode",

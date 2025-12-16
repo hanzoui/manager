@@ -21861,6 +21861,16 @@
             "description": "A ComfyUI custom node that generates Image-to-LoRA (I2L) LoRA from training images using DiffSynth-Studio Qwen-Image i2L pipelines."
         },
         {
+            "author": "HM-RunningHub",
+            "title": "ComfyUI_RH_LLM_API",
+            "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_LLM_API",
+            "files": [
+                "https://github.com/HM-RunningHub/ComfyUI_RH_LLM_API"
+            ],
+            "install_type": "git-clone",
+            "description": "An easy-to-use ComfyUI plugin for LLM integration supporting DeepSeek, OpenAI API-compatible models, with video reverse-prompt (captioning) capabilities. (Description by CC)"
+        },   
+        {
             "author": "wqjuser",
             "title": "ComfyUI-Chat-Image",
             "reference": "https://github.com/wqjuser/ComfyUI-Chat-Image",
@@ -25245,6 +25255,16 @@
             ],
             "install_type": "git-clone",
             "description": "Custom node for ComfyUI that fixes an existing node [a/comfyui-dynamicprompts](https://github.com/adieyal/comfyui-dynamicprompts)."
+        },
+        {
+            "author": "thezveroboy",
+            "title": "ComfyUI-ClipReshaper",
+            "reference": "https://github.com/thezveroboy/ComfyUI-ClipReshaper",
+            "files": [
+                "https://github.com/thezveroboy/ComfyUI-ClipReshaper"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes to reshape/project Conditioning tensors and ensure SDXL conditioning metadata."
         },
         {
             "author": "tatookan",
@@ -38751,6 +38771,16 @@
         },
         {
             "author": "logicalor",
+            "title": "comfyui_multi_replace",
+            "reference": "https://github.com/logicalor/comfyui_multi_replace",
+            "files": [
+                "https://github.com/logicalor/comfyui_multi_replace"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for creating and applying multiple find/replace pairs to text"
+        },
+        {
+            "author": "logicalor",
             "title": "comfyui_text_to_pose",
             "reference": "https://github.com/logicalor/comfyui_text_to_pose",
             "files": [
@@ -38778,6 +38808,16 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom nodes for BespokeAI image-to-3D generation\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "laboratoiresonore",
+            "title": "ComfyUI_PerformanceLab",
+            "reference": "https://github.com/laboratoiresonore/ComfyUI_PerformanceLab",
+            "files": [
+                "https://github.com/laboratoiresonore/ComfyUI_PerformanceLab"
+            ],
+            "install_type": "git-clone",
+            "description": "Make any ComfyUI workflow faster, use less VRAM, or produce better quality - with AI assistance"
         },
 
 
