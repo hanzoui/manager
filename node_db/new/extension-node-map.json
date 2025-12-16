@@ -3886,11 +3886,18 @@
             "BriaEraser",
             "BriaGenFill",
             "BriaTailoredGen",
+            "GenerateImageLiteNodeV2",
             "GenerateImageNodeV2",
+            "GenerateStructuredPromptLiteNodeV2",
+            "GenerateStructuredPromptNodeV2",
             "ImageExpansionNode",
+            "LoadVideoFramesNode",
+            "PreviewVideoURLNode",
+            "RefineImageLiteNodeV2",
             "RefineImageNodeV2",
             "ReimagineNode",
             "RemoveForegroundNode",
+            "RemoveVideoBackgroundNode",
             "ReplaceBgNode",
             "RmbgNode",
             "ShotByImageAutomatic",
@@ -3909,7 +3916,12 @@
             "TailoredPortraitNode",
             "Text2ImageBaseNode",
             "Text2ImageFastNode",
-            "Text2ImageHDNode"
+            "Text2ImageHDNode",
+            "VideoEraseElementsNode",
+            "VideoIncreaseResolutionNode",
+            "VideoMaskByKeyPointsNode",
+            "VideoMaskByPromptNode",
+            "VideoSolidColorBackgroundNode"
         ],
         {
             "title_aux": "BRIA AI API nodes"
@@ -4874,6 +4886,15 @@
             "WanVideoImageToVideoEncode_v2",
             "WanVideoMotionToFlowmap",
             "WanVideoPowerLoraLoader"
+        ],
+        {}
+    ],
+    "https://github.com/ComfyUI/Base64_IO": [
+        [
+            "AnyToBase64",
+            "Base64ToAny",
+            "Base64ToConditioning",
+            "Base64ToLatent"
         ],
         {}
     ],
@@ -13059,6 +13080,9 @@
             "Hex or 24 Bit Color",
             "Image Rotator",
             "Pose Image Setup",
+            "PreviewImageAlpha",
+            "ReplaceAlpha",
+            "SaveImageSequenceZip",
             "VideoMaskEditor",
             "WAN Frame Calculator"
         ],
@@ -15356,6 +15380,7 @@
             "Runware Audio Model Search",
             "Runware Audio Sections",
             "Runware Background Removal",
+            "Runware BlackForest Labs Provider Settings",
             "Runware Bria Provider Settings",
             "Runware Bytedance Provider Settings",
             "Runware ControlNet",
@@ -15366,6 +15391,7 @@
             "Runware Embedding Search",
             "Runware Embeddings Combine",
             "Runware Frame Images",
+            "Runware Google Provider Settings",
             "Runware IPAdapter",
             "Runware IPAdapters Combine",
             "Runware Image Caption",
@@ -15395,6 +15421,7 @@
             "Runware Refiner",
             "Runware Runway Provider Settings",
             "Runware Safety Inputs",
+            "Runware Settings",
             "Runware Speech Inputs Combine",
             "Runware Sync Provider Settings",
             "Runware Sync Segment",
@@ -15416,9 +15443,11 @@
             "RunwareAudioInferenceInputs",
             "RunwareAudioInput",
             "RunwareAudioInputCombine",
+            "RunwareBlackForestProviderSettings",
             "RunwareBriaProviderSettings",
             "RunwareBytedanceProviderSettings",
             "RunwareFrameImages",
+            "RunwareGoogleProviderSettings",
             "RunwareKlingProviderSettings",
             "RunwareLightricksProviderSettings",
             "RunwareLumaProviderSettings",
@@ -15428,6 +15457,7 @@
             "RunwarePixverseProviderSettings",
             "RunwareRunwayProviderSettings",
             "RunwareSafetyInputs",
+            "RunwareSettings",
             "RunwareSpeechInput",
             "RunwareSpeechInputCombine",
             "RunwareSyncProviderSettings",
@@ -21901,6 +21931,7 @@
     "https://github.com/ainewsto/Comfyui_Comfly_v2": [
         [
             "ComflyChatGPTApi",
+            "ComflyGeminiTextOnly",
             "ComflyGoogelVeo3",
             "ComflyJimengApi",
             "ComflyJimengVideoApi",
@@ -24026,6 +24057,7 @@
             "BooleanControlOutput-beyond_nodes",
             "BooleanSwitch-beyond_nodes",
             "Compare-beyond_nodes",
+            "Compositor3-beyond_nodes",
             "Compositor4-beyond_nodes",
             "Compositor4MasksOutput-beyond_nodes",
             "Compositor4TransformsOut-beyond_nodes",
@@ -28220,6 +28252,7 @@
             "WanTrackToVideo",
             "WanVaceToVideo",
             "WebcamCapture",
+            "ZImageFunControlnet",
             "unCLIPCheckpointLoader",
             "unCLIPConditioning",
             "wanBlockSwap"
@@ -33539,6 +33572,7 @@
             "WWAA_NestedLoopCounter",
             "WWAA_NumberRangeAsString",
             "WWAA_PromptWriter",
+            "WWAA_SaveJPEG",
             "WWAA_SearchReplaceMulti",
             "WWAA_SearchReplaceText",
             "WWAA_SlicedArt",
@@ -33638,12 +33672,15 @@
     ],
     "https://github.com/hobinrude/ComfyUI_DWposeDeluxe": [
         [
+            "BatchKeypoints",
             "CustomOptions",
             "DWposeDeluxeNode",
             "FrameNumberNode",
             "KeypointConverter",
             "KeypointPrinter",
+            "KeypointRangeFromBatch",
             "LoadPoseKeypoints",
+            "MergeKeypoints",
             "PoseInterpolation",
             "PoseResize"
         ],
@@ -37319,6 +37356,7 @@
     ],
     "https://github.com/kijai/ComfyUI-SCAIL-Pose": [
         [
+            "ConvertOpenPoseKeypointsToDWPose",
             "PoseDetectionVitPoseToDWPose",
             "RenderNLFPoses"
         ],
@@ -42645,6 +42683,16 @@
             "title_aux": "ComfyUI-TextOnSegs"
         }
     ],
+    "https://github.com/nobandegani/comfyui_ino_nodes": [
+        [
+            "InoBoolToSwitch",
+            "InoBooleanEqual",
+            "InoNotBoolean"
+        ],
+        {
+            "title_aux": "ComfyUI Ino Nodes"
+        }
+    ],
     "https://github.com/nobrainX2/comfyUI-customDia": [
         [
             "Audio retimer",
@@ -44734,6 +44782,7 @@
             "PVL_fal_FluxPulid",
             "PVL_fal_FluxWithLoraPulID_API",
             "PVL_fal_FluxWithLora_API",
+            "PVL_fal_Flux_Dev_Inpaint_API",
             "PVL_fal_KontextDevInpaint_API",
             "PVL_fal_KontextDevLora_API",
             "PVL_fal_KontextMaxMulti_API",
@@ -48196,6 +48245,7 @@
     ],
     "https://github.com/sonnybox/ComfyUI-SuperNodes": [
         [
+            "SigmaSmoother",
             "SuperCreateTiles",
             "SuperSVRCalcTiles",
             "SuperStitchTiles"
@@ -50960,6 +51010,8 @@
             "NexaServiceStatus",
             "RemoteAPIConfig",
             "RemoteTextModelSelector",
+            "RemoteVisionAnalysis",
+            "RemoteVisionModelConfig",
             "SystemPromptConfig",
             "TextGeneration",
             "TextGenerationNode",
@@ -52180,8 +52232,6 @@
             "AudioBeforeAfterSilence",
             "AutioInfo",
             "AutioPath",
-            "ChildWorkflowNodes",
-            "ChildWorkflowParameters",
             "DoWhileEnd",
             "DoWhileStart",
             "EasyPromptSelecto",

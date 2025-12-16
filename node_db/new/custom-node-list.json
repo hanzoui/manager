@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "akawana",
+            "title": "AK XZ Axis (XY for any KSampler)",
+            "reference": "https://github.com/akawana/ComfyUI-AK-XZ-Axis",
+            "files": [
+                "https://github.com/akawana/ComfyUI-AK-XZ-Axis"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for XY-style testing of parameters such as seed, steps, cfg, denoise, prompts, and LoRAs. Does not require a custom KSampler and works with any KSampler, including the default ComfyUI one.",
+            "tags": ["xy_plot", "xy", "xz", "testing", "ksampler"]
+        },
+        {
             "author": "HM-RunningHub",
             "title": "ComfyUI_RH_LLM_API",
             "reference": "https://github.com/HM-RunningHub/ComfyUI_RH_LLM_API",
@@ -687,56 +698,6 @@
             ],
             "install_type": "git-clone",
             "description": "Comprehensive set of ComfyUI custom nodes for interacting with a Sora-compatible REST API, supporting text-to-video, image-to-video, and video-to-video generation."
-        },
-        {
-            "author": "bombdefuser-124",
-            "title": "Newbie-Teacache-ComfyUI",
-            "reference": "https://github.com/bombdefuser-124/Newbie-Teacache-ComfyUI",
-            "files": [
-                "https://github.com/bombdefuser-124/Newbie-Teacache-ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "TeaCache optimization nodes for ComfyUI's NewBie implementation, featuring patched loader and coefficient calculator for faster inference with configurable quality. (Description by CC)"
-        },
-        {
-            "author": "SiegeKeebsOffical",
-            "title": "comfyui-lmstudio",
-            "reference": "https://github.com/SiegeKeebsOffical/comfyui-lmstudio",
-            "files": [
-                "https://github.com/SiegeKeebsOffical/comfyui-lmstudio"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI nodes designed to interface with a separate LM Studio instance for language model operations."
-        },
-        {
-            "author": "XYMikky12138",
-            "title": "ComfyUI-MIKKY-Mask-Editor",
-            "reference": "https://github.com/XYMikky12138/ComfyUI-MIKKY-Mask-Editor",
-            "files": [
-                "https://github.com/XYMikky12138/ComfyUI-MIKKY-Mask-Editor"
-            ],
-            "install_type": "git-clone",
-            "description": "A powerful frame-by-frame video mask editor for ComfyUI with painting, auto BBox, hole filling, blur/feathering, and video slicing features."
-        },
-        {
-            "author": "thnikk",
-            "title": "comfyui-thnikk-utils",
-            "reference": "https://github.com/thnikk/comfyui-thnikk-utils",
-            "files": [
-                "https://github.com/thnikk/comfyui-thnikk-utils"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes to clean up your workflow."
-        },
-        {
-            "author": "bedovyy",
-            "title": "ComfyUI-LLM-Helper",
-            "reference": "https://github.com/bedovyy/ComfyUI-LLM-Helper",
-            "files": [
-                "https://github.com/bedovyy/ComfyUI-LLM-Helper"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of helper nodes for working with LLM APIs in ComfyUI, intended to complement other LLM custom nodes."
         }
     ]
 }
