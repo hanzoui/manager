@@ -941,6 +941,14 @@
             "title_aux": "AmorForge"
         }
     ],
+    "https://github.com/AndSni/Comfy-FL-Nodes": [
+        [
+            "CommerceHumanGenerator"
+        ],
+        {
+            "title_aux": "Comfy-FL-Nodes"
+        }
+    ],
     "https://github.com/Anonymzx/ComfyUI-Indonesia-TTS": [
         [
             "Facebook MMS-TTS-IND Variants FX"
@@ -965,6 +973,14 @@
         ],
         {
             "title_aux": "ComfyUI_deepDeband [WIP]"
+        }
+    ],
+    "https://github.com/AprEcho/ComfyUI-RandomSeed": [
+        [
+            "RandomSeed"
+        ],
+        {
+            "title_aux": "ComfyUI-RandomSeed"
         }
     ],
     "https://github.com/ArmandAlbert/Kwai_font_comfyui": [
@@ -2257,6 +2273,15 @@
         ],
         {
             "title_aux": "ComfyUI-yolov5-face [WIP]"
+        }
+    ],
+    "https://github.com/JiangAogo/ComfyUI-Gemini-API": [
+        [
+            "GeminiImageGenerator",
+            "GeminiLLM"
+        ],
+        {
+            "title_aux": "ComfyUI-Gemini-API [WIP]"
         }
     ],
     "https://github.com/Jiffies-64/ComfyUI-SaveImagePlus": [
@@ -4682,6 +4707,14 @@
             "title_aux": "comfyui_flowrider_nodes [UNSAFE]"
         }
     ],
+    "https://github.com/Suzu008/ComfyUI-ImageCritic": [
+        [
+            "DetailEncoder"
+        ],
+        {
+            "title_aux": "ComfyUI-ImageCritic"
+        }
+    ],
     "https://github.com/Symbiomatrix/Comfyui-Sort-Files": [
         [
             "ImageSaverSBM",
@@ -7062,6 +7095,7 @@
             "WanTrackToVideo",
             "WanVaceToVideo",
             "WebcamCapture",
+            "ZImageFunControlnet",
             "unCLIPCheckpointLoader",
             "unCLIPConditioning",
             "wanBlockSwap"
@@ -7516,6 +7550,19 @@
         ],
         {
             "title_aux": "ComfyUI-Sysinfo"
+        }
+    ],
+    "https://github.com/edvardtoth/ComfyUI-ETNodes": [
+        [
+            "ETNodes-Color-Selector",
+            "ETNodes-Gemini-API-Image",
+            "ETNodes-Gemini-API-Text",
+            "ETNodes-List-Items",
+            "ETNodes-List-Selector",
+            "ETNodes-Text-Preview"
+        ],
+        {
+            "title_aux": "ComfyUI-ETNodes"
         }
     ],
     "https://github.com/eggsbenedicto/DiffusionRenderer-ComfyUI": [
@@ -9909,11 +9956,19 @@
         [
             "DiffusersImageEditGenerator",
             "DiffusersImageGenerator",
+            "DiffusersLoadLoraOnly",
+            "DiffusersLoraLayersOperation",
             "DiffusersLoraLoader",
+            "DiffusersLoraStatViewer",
             "DiffusersLoraUnloader",
+            "DiffusersMergeLoraToPipeline",
             "DiffusersModelLoader",
+            "DiffusersPipeline",
             "DiffusersPipelineBuilder",
             "DiffusersPreprocessorLoader",
+            "DiffusersSampling",
+            "DiffusersSaveLora",
+            "DiffusersTextEncode",
             "DiffusersTextEncoderLoader",
             "DiffusersTokenizerLoader",
             "DiffusersTransformerLoader",
@@ -11869,6 +11924,7 @@
     ],
     "https://github.com/silveroxides/ComfyUI_SamplingUtils": [
         [
+            "Frakturpad",
             "GetJsonKeyValue",
             "ImageBlendByMask",
             "Image_Color_Noise",

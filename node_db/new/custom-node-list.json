@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "TheArtOfficial",
+            "title": "ComfyUI-Nitra",
+            "reference": "https://github.com/TheArtOfficial/ComfyUI-Nitra",
+            "files": [
+                "https://github.com/TheArtOfficial/ComfyUI-Nitra"
+            ],
+            "install_type": "git-clone",
+            "description": "Nitra custom node for ComfyUI"
+        },
+        {
             "author": "akawana",
             "title": "AK XZ Axis (XY for any KSampler)",
             "reference": "https://github.com/akawana/ComfyUI-AK-XZ-Axis",
@@ -20,6 +30,16 @@
             ],
             "install_type": "git-clone",
             "description": "Based on a YOLO model, it performs object detection, capture, and smooth tracking-based cropping on images."
+        },
+        {
+            "author": "Maenvaeru",
+            "title": "comfyui-vram-overlay",
+            "reference": "https://github.com/Maenvaeru/comfyui-vram-overlay",
+            "files": [
+                "https://github.com/Maenvaeru/comfyui-vram-overlay"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional VRAM monitoring overlay for ComfyUI that displays real-time GPU memory usage as an independent, non-intrusive window. (Description by CC)"
         },
         {
             "author": "revisiontony",
@@ -668,56 +688,6 @@
             ],
             "install_type": "git-clone",
             "description": "Essential utility nodes for ComfyUI including prompt queue, batch processing, camera angle control, and resolution selector. (Description by CC)"
-        },
-        {
-            "author": "Zeknes",
-            "title": "Comfyui-LLM-Chat",
-            "reference": "https://github.com/Zeknes/Comfyui-LLM-Chat",
-            "files": [
-                "https://github.com/Zeknes/Comfyui-LLM-Chat"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI node providing unified access to multiple Large Language Models including OpenAI-compatible APIs and local Ollama instances with image support."
-        },
-        {
-            "author": "comrender",
-            "title": "ComfyUI-NanoB-Edit-Gemini",
-            "reference": "https://github.com/comrender/ComfyUI-NanoB-Edit-Gemini",
-            "files": [
-                "https://github.com/comrender/ComfyUI-NanoB-Edit-Gemini"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node facilitates direct interaction with the Google Gemini API for advanced image editing tasks within ComfyUI with parallel request handling."
-        },
-        {
-            "author": "systemaiofinterest-wq",
-            "title": "ComfyUI-MetaAI",
-            "reference": "https://github.com/systemaiofinterest-wq/ComfyUI-MetaAI",
-            "files": [
-                "https://github.com/systemaiofinterest-wq/ComfyUI-MetaAI"
-            ],
-            "install_type": "git-clone",
-            "description": "Unofficial ComfyUI environment using web scraping methods to enable Meta AI integration for text-to-image and image-to-video generation. (Description by CC)"
-        },
-        {
-            "author": "phaserblast",
-            "title": "ComfyUI-DGXSparkSafetensorsLoader",
-            "reference": "https://github.com/phaserblast/ComfyUI-DGXSparkSafetensorsLoader",
-            "files": [
-                "https://github.com/phaserblast/ComfyUI-DGXSparkSafetensorsLoader"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI model loader that uses the fastsafetensors library to perform very fast, zero-copy loading from storage to VRAM."
-        },
-        {
-            "author": "maxczc",
-            "title": "comfyui-sora-node",
-            "reference": "https://github.com/maxczc/comfyui-sora-node",
-            "files": [
-                "https://github.com/maxczc/comfyui-sora-node"
-            ],
-            "install_type": "git-clone",
-            "description": "Comprehensive set of ComfyUI custom nodes for interacting with a Sora-compatible REST API, supporting text-to-video, image-to-video, and video-to-video generation."
         }
     ]
 }

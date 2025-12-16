@@ -1,6 +1,76 @@
 {
     "custom_nodes": [
         {
+            "author": "edvardtoth",
+            "title": "ComfyUI-ETNodes",
+            "reference": "https://github.com/edvardtoth/ComfyUI-ETNodes",
+            "files": [
+                "https://github.com/edvardtoth/ComfyUI-ETNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: ETNodes-Color-Selector, ETNodes-Gemini-API-Image, ETNodes-Gemini-API-Text, ETNodes-List-Items, ETNodes-List-Selector, ETNodes-Text-Previe"
+        },
+        {
+            "author": "jtydhr88",
+            "title": "ComfyUI-PolotnoCanvasEditor [UNSAFE]",
+            "reference": "https://github.com/jtydhr88/ComfyUI-PolotnoCanvasEditor",
+            "files": [
+                "https://github.com/jtydhr88/ComfyUI-PolotnoCanvasEditor"
+            ],
+            "install_type": "git-clone",
+            "description": "Integrates Polotno Canvas Editor into ComfyUI for advanced image editing and design.[w/This nodepack contains a path traversal vulnerability.]"
+        },
+        {
+            "author": "Taremin",
+            "title": "comfyui-remove-print",
+            "reference": "https://github.com/Taremin/comfyui-remove-print",
+            "files": [
+                "https://github.com/Taremin/comfyui-remove-print"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI extension for removing or suppressing print statements in node output. (Description by CC)"
+        },
+        {
+            "author": "JiangAogo",
+            "title": "ComfyUI-Gemini-API [WIP]",
+            "reference": "https://github.com/JiangAogo/ComfyUI-Gemini-API",
+            "files": [
+                "https://github.com/JiangAogo/ComfyUI-Gemini-API"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for Google Gemini API integration, supporting both text generation (LLM) and image generation.\nNOTE: The files in the repo are not organized."
+        },        
+        {
+            "author": "AprEcho",
+            "title": "ComfyUI-RandomSeed",
+            "reference": "https://github.com/AprEcho/ComfyUI-RandomSeed",
+            "files": [
+                "https://github.com/AprEcho/ComfyUI-RandomSeed"
+            ],
+            "install_type": "git-clone",
+            "description": "Generates random seed values for ComfyUI workflows. (Description by CC)"
+        },
+        {
+            "author": "Suzu008",
+            "title": "ComfyUI-ImageCritic",
+            "reference": "https://github.com/Suzu008/ComfyUI-ImageCritic",
+            "files": [
+                "https://github.com/Suzu008/ComfyUI-ImageCritic"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for image analysis and evaluation. (Description by CC)"
+        },
+        {
+            "author": "AndSni",
+            "title": "Comfy-FL-Nodes",
+            "reference": "https://github.com/AndSni/Comfy-FL-Nodes",
+            "files": [
+                "https://github.com/AndSni/Comfy-FL-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Generates human characters for commerce applications in ComfyUI. (Description by CC)"
+        },
+        {
             "author": "Spicely",
             "title": "[WIP] ComfyUI-Luma",
             "reference": "https://github.com/Spicely/ComfyUI-Luma",
