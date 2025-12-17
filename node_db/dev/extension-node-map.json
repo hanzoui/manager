@@ -2647,6 +2647,7 @@
             "LunaPipeExpander",
             "LunaPromptCraft",
             "LunaPromptCraftDebug",
+            "LunaResetModelWeights",
             "LunaSecondaryModelLoader",
             "LunaSmartLoRALinker",
             "LunaSuperUpscaler",
@@ -7984,6 +7985,16 @@
             "title_aux": "ComfyUI_gaga_utils"
         }
     ],
+    "https://github.com/gajjar4/ComfyUI-Qwen-Image-i2L": [
+        [
+            "QwenI2L_Apply",
+            "QwenI2L_PipelineLoader",
+            "QwenI2L_Save"
+        ],
+        {
+            "title_aux": "ComfyUI-Qwen-Image-i2L [UNSAFE]"
+        }
+    ],
     "https://github.com/galoreware/ComfyUI-GaloreNodes": [
         [
             "GNI_HEX_TO_COLOR",
@@ -11786,18 +11797,6 @@
         ],
         {
             "title_aux": "comfyui-hydit"
-        }
-    ],
-    "https://github.com/shinich39/comfyui-nothing-happened": [
-        [
-            "NothingHappened"
-        ],
-        {
-            "author": "shinich39",
-            "description": "Save image and keep metadata.",
-            "nickname": "comfyui-nothing-happened",
-            "title": "comfyui-nothing-happened",
-            "title_aux": "comfyui-nothing-happened"
         }
     ],
     "https://github.com/shinich39/comfyui-run-js": [

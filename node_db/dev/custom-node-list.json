@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "gajjar4",
+            "title": "ComfyUI-Qwen-Image-i2L [UNSAFE]",
+            "reference": "https://github.com/gajjar4/ComfyUI-Qwen-Image-i2L",
+            "files": [
+                "https://github.com/gajjar4/ComfyUI-Qwen-Image-i2L"
+            ],
+            "install_type": "git-clone",
+            "description": "A fully optimized ComfyUI custom node for Qwen-Image-i2L (Image-to-LoRA) that extracts style, composition, or details from images and saves them as lightweight LoRA files with intelligent VRAM optimization. (Description by CC)[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },        
+        {
             "author": "edvardtoth",
             "title": "ComfyUI-ETNodes",
             "reference": "https://github.com/edvardtoth/ComfyUI-ETNodes",
@@ -5367,16 +5377,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI implementation of the partfield nvidea segmentation models\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "shinich39",
-            "title": "comfyui-nothing-happened",
-            "reference": "httphttps://github.com/shinich39/comfyui-nothing-happened",
-            "files": [
-               "https://github.com/shinich39/comfyui-nothing-happened"
-            ],
-            "description": "Save image and keep metadata.",
-            "install_type": "git-clone"
         },
         {
             "author": "silveroxides",

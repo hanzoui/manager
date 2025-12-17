@@ -2639,16 +2639,6 @@
             "title_aux": "ComfyUI-Ovis2"
         }
     ],
-    "https://github.com/AngelCookies/ComfyUI-Seed-Tracker": [
-        [
-            "GlobalSeedTracker",
-            "SeedExporter",
-            "SeedTracker"
-        ],
-        {
-            "title_aux": "ComfyUI-Seed-Tracker"
-        }
-    ],
     "https://github.com/Anibaaal/ComfyUI-UX-Nodes": [
         [
             "AdvancedCompositeImageMasked",
@@ -27454,6 +27444,20 @@
             "title_aux": "OpenAI/Azure OpenAI Image API"
         }
     ],
+    "https://github.com/ckinpdx/ComfyUI-SCAIL-AudioReactive": [
+        [
+            "SCAILAlignPoseToReference",
+            "SCAILAudioFeatureExtractor",
+            "SCAILBasePoseGenerator",
+            "SCAILBeatDetector",
+            "SCAILBeatDrivenPose",
+            "SCAILPoseFromDWPose",
+            "SCAILPoseRenderer"
+        ],
+        {
+            "title_aux": "ComfyUI-SCAIL-AudioReactive"
+        }
+    ],
     "https://github.com/ckinpdx/ComfyUI-WanKeyframeBuilder": [
         [
             "WanKeyframeBuilder",
@@ -31552,6 +31556,18 @@
             "title_aux": "comfyui-prompt-composer"
         }
     ],
+    "https://github.com/flowers6421/ComfyUI-SimpleTunerFlux2": [
+        [
+            "SimpleTunerFlux2LoRALoader",
+            "SimpleTunerFlux2LoRASelector",
+            "SimpleTunerFlux2LoRAUnloader",
+            "SimpleTunerFlux2PipelineLoader",
+            "SimpleTunerFlux2Sampler"
+        ],
+        {
+            "title_aux": "ComfyUI-SimpleTunerFlux2"
+        }
+    ],
     "https://github.com/flowtyone/ComfyUI-Flowty-CRM": [
         [
             "CCMSampler",
@@ -34121,8 +34137,7 @@
     ],
     "https://github.com/iSuneast/ComfyUI-WebhookNotifier": [
         [
-            "WebhookNotifierNode",
-            "WebhookNotifierVHSNode"
+            "WebhookNotifierNode"
         ],
         {
             "title_aux": "ComfyUI-WebhookNotifier"
@@ -41082,13 +41097,16 @@
     "https://github.com/mcDandy/more_math": [
         [
             "mrmth_AudioMathNode",
+            "mrmth_CLIPMathNode",
             "mrmth_ConditioningMathNode",
             "mrmth_FloatMathNode",
             "mrmth_FloatToInt",
             "mrmth_ImageMathNode",
             "mrmth_IntToFloat",
             "mrmth_LatentMathNode",
+            "mrmth_ModelMathNode",
             "mrmth_NoiseMathNode",
+            "mrmth_VAEMathNode",
             "mrmth_VideoMathNode"
         ],
         {
@@ -45497,6 +45515,14 @@
             "title_aux": "Comfyui_saveimage_imgbb"
         }
     ],
+    "https://github.com/revisionhiep-create/comfyui-standard-trigger-words": [
+        [
+            "StandardTriggerWordsLoader"
+        ],
+        {
+            "title_aux": "comfyui-standard-trigger-words"
+        }
+    ],
     "https://github.com/revisiontony/LoraMangerWebFrame": [
         [
             "LoraWebFrame"
@@ -46691,6 +46717,20 @@
         ],
         {
             "title_aux": "Comfy Text Stats"
+        }
+    ],
+    "https://github.com/scott-createplay/ComfyUI_video_essentials": [
+        [
+            "GetLastImages",
+            "ImageBatchMulti",
+            "ImageBatchSplitter",
+            "OpticalFlowAdvection",
+            "ProceduralDetailRestoration",
+            "ProceduralDetailRestorationV2",
+            "TrimImageBatch"
+        ],
+        {
+            "title_aux": "ComfyUI_video_essentials"
         }
     ],
     "https://github.com/scraed/LanPaint": [

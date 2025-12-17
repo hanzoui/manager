@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "ckinpdx",
+            "title": "ComfyUI-SCAIL-AudioReactive",
+            "reference": "https://github.com/ckinpdx/ComfyUI-SCAIL-AudioReactive",
+            "files": [
+                "https://github.com/ckinpdx/ComfyUI-SCAIL-AudioReactive"
+            ],
+            "install_type": "git-clone",
+            "description": "Generate audio-reactive SCAIL pose sequences for character animation without requiring input video tracking. Now supports Multi-Character Choreography. (Description by CC)"
+        },
+        {
+            "author": "flowers6421",
+            "title": "ComfyUI-SimpleTunerFlux2",
+            "reference": "https://github.com/flowers6421/ComfyUI-SimpleTunerFlux2",
+            "files": [
+                "https://github.com/flowers6421/ComfyUI-SimpleTunerFlux2"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for using SimpleTuner-trained Flux 2 LoRA models. SimpleTuner's Flux 2 architecture uses fused layers, making its LoRAs incompatible with standard ComfyUI Flux nodes. (Description by CC)"
+        },
+        {
+            "author": "scott-createplay",
+            "title": "ComfyUI_video_essentials",
+            "reference": "https://github.com/scott-createplay/ComfyUI_video_essentials",
+            "files": [
+                "https://github.com/scott-createplay/ComfyUI_video_essentials"
+            ],
+            "install_type": "git-clone",
+            "description": "Essential video processing nodes for ComfyUI"
+        },
+        {
+            "author": "revisionhiep-create",
+            "title": "comfyui-standard-trigger-words",
+            "reference": "https://github.com/revisionhiep-create/comfyui-standard-trigger-words",
+            "files": [
+                "https://github.com/revisionhiep-create/comfyui-standard-trigger-words"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for managing trigger words with 50+ editable presets optimized for SDXL Illustrious"
+        },
+        {
             "author": "PROJECTMAD",
             "title": "PROJECT-MAD-NODES",
             "reference": "https://github.com/PROJECTMAD/PROJECT-MAD-NODES",
@@ -9,16 +49,6 @@
             ],
             "install_type": "git-clone",
             "description": "Collection of custom ComfyUI nodes for LoRA scheduling and prompt management, featuring visual curve editor and visual prompt gallery with EXIF metadata extraction."
-        },
-        {
-            "author": "TheArtOfficial",
-            "title": "ComfyUI-Nitra",
-            "reference": "https://github.com/TheArtOfficial/ComfyUI-Nitra",
-            "files": [
-                "https://github.com/TheArtOfficial/ComfyUI-Nitra"
-            ],
-            "install_type": "git-clone",
-            "description": "Nitra custom node for ComfyUI"
         },
         {
             "author": "akawana",
