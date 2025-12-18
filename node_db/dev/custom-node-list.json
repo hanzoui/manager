@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "OhSeongHyeon",
+            "title": "comfyui-random-image-size",
+            "reference": "https://github.com/OhSeongHyeon/comfyui-random-image-size",
+            "files": [
+                "https://github.com/OhSeongHyeon/comfyui-random-image-size"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Random Image Size"
+        },
+        {
+            "author": "Enferlain",
+            "title": "ComfyUI-Model-Comparison [WIP]",
+            "reference": "https://github.com/Enferlain/ComfyUI-Model-Comparison",
+            "files": [
+                "https://github.com/Enferlain/ComfyUI-Model-Comparison"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for comparing multiple models side-by-side. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "AMTPorn",
+            "title": "comfyui_amt",
+            "reference": "https://github.com/AMTPorn/comfyui_amt",
+            "files": [
+                "https://github.com/AMTPorn/comfyui_amt"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: AMTStringDeduplication"
+        },
+        {
             "author": "gajjar4",
             "title": "ComfyUI-Qwen-Image-i2L [UNSAFE]",
             "reference": "https://github.com/gajjar4/ComfyUI-Qwen-Image-i2L",
@@ -8669,16 +8699,6 @@
             ],
             "install_type": "git-clone",
             "description": "Gets a random file from a directory. Returns the filpath as a STRING. [w/This node allows access to arbitrary files through the workflow, which could pose a security threat.]"
-        },
-        {
-            "author": "neeltheninja",
-            "title": "ComfyUI-ControlNeXt [WIP]",
-            "reference": "https://github.com/neverbiasu/ComfyUI-ControlNeXt",
-            "files": [
-                "https://github.com/neverbiasu/ComfyUI-ControlNeXt"
-            ],
-            "install_type": "git-clone",
-            "description": "In progress🚧"
         },
         {
             "author": "neeltheninja",

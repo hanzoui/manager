@@ -33797,6 +33797,16 @@
             "description": "Custom ComfyUI nodes for integrating WaveSpeed AI API for image and video generation."
         },
         {
+            "author": "razvanmatei-sf",
+            "title": "comfyui-stillfront",
+            "reference": "https://github.com/razvanmatei-sf/comfyui-stillfront",
+            "files": [
+                "https://github.com/razvanmatei-sf/comfyui-stillfront"
+            ],
+            "install_type": "git-clone",
+            "description": "Consolidated collection of custom ComfyUI nodes with LLM integration (Claude, Gemini), WaveSpeed API support, and utility nodes for resolution presets and dynamic prompts. (Description by CC)"
+        },
+        {
             "author": "blurgyy",
             "title": "CoMPaSS-ComfyUI",
             "reference": "https://github.com/blurgyy/CoMPaSS-FLUX.1-dev-ComfyUI",
@@ -36279,6 +36289,16 @@
             "description": "This repository is a ComfyUI port of the WithAnyone model introduced in the paper.\n[a/WithAnyone: Towards Controllable and ID-Consistent Image Generation (2025)](https://arxiv.org/abs/2510.14975)\nOriginal implementation: [a/Doby-Xu/WithAnyone](https://github.com/Doby-Xu/WithAnyone)."
         },
         {
+            "author": "okdalto",
+            "title": "ComfyUI-PersonaLive",
+            "reference": "https://github.com/okdalto/ComfyUI-PersonaLive",
+            "files": [
+                "https://github.com/okdalto/ComfyUI-PersonaLive"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node implementation of PersonaLive: Expressive Portrait Image Animation for Live Streaming, enabling portrait animation driven by reference images. (Description by CC)"
+        },
+        {
             "author": "hw5511",
             "title": "Woohee HF Upscaler Loader",
             "reference": "https://github.com/hw5511/comfyui_hf_upscaler_loader",
@@ -38081,7 +38101,7 @@
                     "https://github.com/ShootTheSound/comfyUI-Realtime-Lora"
                 ],
                 "install_type": "git-clone",
-                "description": "Block Edit and Save Loras within ComfyUI & Train LoRAs directly inside ComfyUI. Supports SDXL (via sd-scripts), FLUX, Z-Image Turbo, and Wan 2.2 (via Musubi Tuner & AI-Toolkit)."
+                "description": "Train LoRAs directly inside ComfyUI. Supports SDXL (via sd-scripts), FLUX, Z-Image Turbo, and Wan 2.2 (via AI-Toolkit)."
         },
         {
             "author": "HackAfterDark",
@@ -38890,9 +38910,26 @@
             "install_type": "git-clone",
             "description": "ComfyUI custom node for managing trigger words with 50+ editable presets optimized for SDXL Illustrious"
         },
-
-
-
+        {
+            "author": "Faildes",
+            "title": "ComfyUI-NegativeFold",
+            "reference": "https://github.com/Faildes/ComfyUI-NegativeFold",
+            "files": [
+                "https://github.com/Faildes/ComfyUI-NegativeFold"
+            ],
+            "install_type": "git-clone",
+            "description": "Fold negative prompts into positive prompts for use with Turbo models. (Description by CC)"
+        },
+        {
+            "author": "isekai-sh",
+            "title": "isekai-comfy-node",
+            "reference": "https://github.com/isekai-sh/isekai-comfy-node",
+            "files": [
+                "https://github.com/isekai-sh/isekai-comfy-node"
+            ],
+            "install_type": "git-clone",
+            "description": "Upload and compress AI-generated images and enhance your ComfyUI workflows with powerful string utilities and AI integration."
+        },
 
 
 
@@ -39298,17 +39335,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-              "author": "ShootTheSound",
-              "title": "Realtime LoRA Trainer",
-              "id": "comfyui-realtime-lora",
-              "reference": "https://github.com/ShootTheSound/comfyUI-Realtime-Lora",
-              "files": [
-                  "https://github.com/ShootTheSound/comfyUI-Realtime-Lora"
-              ],
-              "install_type": "git-clone",
-              "description": "Train LoRAs directly inside ComfyUI. Supports SDXL (via sd-scripts), FLUX, Z-Image Turbo, and Wan 2.2 (via AI-Toolkit)."
-          }
+        }
     ]
 }

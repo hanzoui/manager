@@ -634,6 +634,14 @@
             "title_aux": "AIGCZero-comfyui-Qwen_edit-zero"
         }
     ],
+    "https://github.com/AMTPorn/comfyui_amt": [
+        [
+            "AMTStringDeduplication"
+        ],
+        {
+            "title_aux": "comfyui_amt"
+        }
+    ],
     "https://github.com/APZmedia/ComfyUI-folder-parser": [
         [
             "APZFolderParser"
@@ -943,7 +951,8 @@
     ],
     "https://github.com/AndSni/Comfy-FL-Nodes": [
         [
-            "CommerceHumanGenerator"
+            "CommerceHumanGenerator",
+            "TextInputEncoder"
         ],
         {
             "title_aux": "Comfy-FL-Nodes"
@@ -1802,6 +1811,14 @@
             "title_aux": "ComfyUI-Math [WIP]"
         }
     ],
+    "https://github.com/Enferlain/ComfyUI-Model-Comparison": [
+        [
+            "ModelComparisoner"
+        ],
+        {
+            "title_aux": "ComfyUI-Model-Comparison [WIP]"
+        }
+    ],
     "https://github.com/Enferlain/ComfyUI-extra-schedulers": [
         [
             "BetaSchedulerV2C",
@@ -2162,6 +2179,7 @@
     ],
     "https://github.com/IgPoly/ComfyUI-igTools": [
         [
+            "IGT_AspectRatioResizer",
             "IGT_ImageResizer",
             "IGT_ImageTilesCalc",
             "IGT_SimpleTilesCalc"
@@ -2342,15 +2360,18 @@
     "https://github.com/JosDigby/ComfyUI-DigbyWan": [
         [
             "DigbyLoopClose",
-            "DigbyLoopCloseState",
             "DigbyLoopOpen",
-            "DigbyLoopOpenState",
-            "DigbyLoopStatePack",
-            "DigbyLoopStateUnpack",
-            "ImageBatchLoopExtract",
-            "WanMiddleFrameToVideo",
-            "WanSmoothVideoTransition",
-            "WanVACEVideoSmoother"
+            "DigbyLoopRetrieveImages",
+            "DigbyLoopStoreImages",
+            "DigbyLoopVariables",
+            "DigbyLoopVariablesInit",
+            "DigbyWan22MiddleFrameToVideo",
+            "DigbyWan22SmoothVideoTransition",
+            "DigbyWanMoeKSampler",
+            "DigbyWanMoeKSamplerBasic",
+            "DigbyWanVACEVideoBridge",
+            "DigbyWanVACEVideoExtend",
+            "DigbyWanVACEVideoSmooth"
         ],
         {
             "title_aux": "ComfyUI-DigbyWan"
@@ -3166,6 +3187,7 @@
             "DJZColorWheel",
             "DJZDatamosh",
             "DJZDatamoshV2",
+            "DJZImageScaleToMegabytes",
             "DJZImageScaleToTotalPixels",
             "DJZ_ParallaxV1",
             "DatasetWordcloud",
@@ -3523,6 +3545,14 @@
         ],
         {
             "title_aux": "ComfyUI-LaplaMask"
+        }
+    ],
+    "https://github.com/OhSeongHyeon/comfyui-random-image-size": [
+        [
+            "RandomImageSize"
+        ],
+        {
+            "title_aux": "comfyui-random-image-size"
         }
     ],
     "https://github.com/Omario92/ComfyUI-OmarioNodes": [
@@ -6887,6 +6917,7 @@
             "ReplaceVideoLatentFrames",
             "RescaleCFG",
             "ResizeAndPadImage",
+            "ResolutionBucket",
             "Rodin3D_Detail",
             "Rodin3D_Gen2",
             "Rodin3D_Regular",
@@ -7876,29 +7907,6 @@
         ],
         {
             "title_aux": "ComfyUI-LLM-Utils [WIP]"
-        }
-    ],
-    "https://github.com/frost-byte/fbTools": [
-        [
-            "FBTextEncodeQwenImageEditPlus",
-            "NodeInputSelect",
-            "OpaqueAlpha",
-            "QwenAspectRatio",
-            "SAMPreprocessNHWC",
-            "SceneCreate",
-            "SceneInput",
-            "SceneOutput",
-            "SceneSave",
-            "SceneSelect",
-            "SceneUpdate",
-            "SceneView",
-            "SceneWanVideoLoraMultiSave",
-            "SubdirLister",
-            "TailEnhancePro",
-            "TailSplit"
-        ],
-        {
-            "title_aux": "fb-tools"
         }
     ],
     "https://github.com/ftechmax/ComfyUI-NovaKit-Pack": [
@@ -10673,15 +10681,6 @@
             "title_aux": "ComfyUI-WanPlus"
         }
     ],
-    "https://github.com/neverbiasu/ComfyUI-ControlNeXt": [
-        [
-            "ControlNextPipelineConfig",
-            "ControlNextSDXL"
-        ],
-        {
-            "title_aux": "ComfyUI-ControlNeXt [WIP]"
-        }
-    ],
     "https://github.com/neverbiasu/ComfyUI-DeepSeek": [
         [
             "DeepSeekCaller"
@@ -10784,7 +10783,9 @@
             "ExtractPromptFromImage",
             "FloatToString",
             "FloatToStringWithPrefix",
-            "LoraWildcardGenerator"
+            "IsComfyQueueEmpty",
+            "LoraWildcardGenerator",
+            "RepeatTextLines"
         ],
         {
             "title_aux": "comfyui-samenodes"
