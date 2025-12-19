@@ -1,6 +1,47 @@
 {
     "custom_nodes": [
         {
+            "author": "jkhayiying",
+            "title": "ImageLoadFromLocalOrUrl Node for ComfyUI [REMOVED]",
+            "id": "JkhaImageLoaderPathOrUrl",
+            "reference": "https://gitee.com/yyh915/jkha-load-img",
+            "files": [
+                "https://gitee.com/yyh915/jkha-load-img"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a node to load an image from local path or url."
+        },
+        {
+            "author": "pizurny",
+            "title": "ComfyUI-Just-DWPose [REMOVED]",
+            "reference": "https://github.com/pizurny/ComfyUI-Just-DWPose",
+            "files": [
+                "https://github.com/pizurny/ComfyUI-Just-DWPose"
+            ],
+            "install_type": "git-clone",
+            "description": "An advanced DWPose annotator for ComfyUI with TorchScript and ONNX backends, featuring comprehensive pose detection, bone validation, temporal smoothing, and custom visualization tools."
+        },
+        {
+            "author": "lfelipegg",
+            "title": "lfgg_custom_nodes [REMOVED]",
+            "reference": "https://github.com/lfelipegg/lfgg_custom_nodes",
+            "files": [
+                "https://github.com/lfelipegg/lfgg_custom_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: ModelMergeCombos\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "AndSni",
+            "title": "Comfy-FL-Nodes [REMOVED]",
+            "reference": "https://github.com/AndSni/Comfy-FL-Nodes",
+            "files": [
+                "https://github.com/AndSni/Comfy-FL-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Generates human characters for commerce applications in ComfyUI. (Description by CC)"
+        },
+        {
             "author": "neeltheninja",
             "title": "ComfyUI-ControlNeXt [REMOVED]",
             "reference": "https://github.com/neverbiasu/ComfyUI-ControlNeXt",

@@ -636,6 +636,8 @@
     ],
     "https://github.com/AMTPorn/comfyui_amt": [
         [
+            "AMTMultiConditionRegexReplace",
+            "AMTReplaceAndMaybeDropString",
             "AMTStringDeduplication"
         ],
         {
@@ -947,15 +949,6 @@
         ],
         {
             "title_aux": "AmorForge"
-        }
-    ],
-    "https://github.com/AndSni/Comfy-FL-Nodes": [
-        [
-            "CommerceHumanGenerator",
-            "TextInputEncoder"
-        ],
-        {
-            "title_aux": "Comfy-FL-Nodes"
         }
     ],
     "https://github.com/Anonymzx/ComfyUI-Indonesia-TTS": [
@@ -1819,6 +1812,14 @@
             "title_aux": "ComfyUI-Model-Comparison [WIP]"
         }
     ],
+    "https://github.com/Enferlain/ComfyUI-SamplerCustom-3Decimals": [
+        [
+            "SamplerCustom3Decimals"
+        ],
+        {
+            "title_aux": "ComfyUI-SamplerCustom-3Decimals"
+        }
+    ],
     "https://github.com/Enferlain/ComfyUI-extra-schedulers": [
         [
             "BetaSchedulerV2C",
@@ -1865,6 +1866,15 @@
         ],
         {
             "title_aux": "Comfy-Metadata-System [WIP]"
+        }
+    ],
+    "https://github.com/EricRorich/ComfyUI-MegaTran-cutom-node": [
+        [
+            "Mega tran",
+            "Megatran"
+        ],
+        {
+            "title_aux": "[WIP] ComfyUI-MegaTran-cutom-node"
         }
     ],
     "https://github.com/Estanislao-Oviedo/ComfyUI-CustomNodes": [
@@ -2180,8 +2190,10 @@
     "https://github.com/IgPoly/ComfyUI-igTools": [
         [
             "IGT_AspectRatioResizer",
+            "IGT_FloatMinMax",
             "IGT_ImageResizer",
             "IGT_ImageTilesCalc",
+            "IGT_IntMinMax",
             "IGT_SimpleTilesCalc"
         ],
         {
@@ -6493,6 +6505,7 @@
     "https://github.com/chetusangolgi/Comfyui-supabase": [
         [
             "SupabaseAudioUploader",
+            "SupabaseGLBUploader",
             "SupabaseImageUploader",
             "SupabaseTableWatcherNode"
         ],
@@ -9736,15 +9749,14 @@
             "title_aux": "ComfyUI_Scoring-Nodes"
         }
     ],
-    "https://github.com/lfelipegg/lfgg_custom_nodes": [
+    "https://github.com/lfelipegg/lfgg_custom_nodes_comfyui": [
         [
-            "LFGG - Resolution Tools",
-            "LFGG KSampler (advanced) - Config",
-            "LFGG KSampler - Config",
-            "ModelMergeCombos"
+            "LfggImageResolutionByRatio",
+            "LfggLatentSizeByRatio",
+            "LfggPixelBudgetLatentSize"
         ],
         {
-            "title_aux": "lfgg_custom_nodes [WIP]"
+            "title_aux": "[WIP] lfgg_custom_nodes_comfyui"
         }
     ],
     "https://github.com/lggcfx2020/ComfyUI-LGGCFX-Tools": [
@@ -11101,15 +11113,6 @@
             "title_aux": "ComfyUI-PixuAI"
         }
     ],
-    "https://github.com/pizurny/ComfyUI-Just-DWPose": [
-        [
-            "DWPoseAnnotator",
-            "DWPoseJSONToImage"
-        ],
-        {
-            "title_aux": "ComfyUI-Just-DWPose [WIP]"
-        }
-    ],
     "https://github.com/pizurny/Comfyui-FeedbackSampler": [
         [
             "FeedbackSampler"
@@ -11692,6 +11695,23 @@
         ],
         {
             "title_aux": "ComfyUI-Prompter"
+        }
+    ],
+    "https://github.com/saltchicken/ComfyUI-Selector": [
+        [
+            "SimpleSelectorNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Selector"
+        }
+    ],
+    "https://github.com/saltchicken/ComfyUI-Video-Utils": [
+        [
+            "FinalFrameSelector",
+            "VideoMerge"
+        ],
+        {
+            "title_aux": "ComfyUI-Video-Utils"
         }
     ],
     "https://github.com/satyasairazole/ComfyUI-Turbandetection": [

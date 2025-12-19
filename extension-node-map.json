@@ -18,14 +18,6 @@
             "title_aux": "mmaker/Color Enhance"
         }
     ],
-    "https://gitee.com/yyh915/jkha-load-img": [
-        [
-            "JkhaLoadImage"
-        ],
-        {
-            "title_aux": "ImageLoadFromLocalOrUrl Node for ComfyUI"
-        }
-    ],
     "https://github.com/0x-jerry/comfyui-rembg": [
         [
             "Load Rembg Model",
@@ -8132,6 +8124,26 @@
             "title_aux": "ComfyUI-DiffusersImageOutpaint"
         }
     ],
+    "https://github.com/GiusTex/ComfyUI-MoreEfficientSamplers": [
+        [
+            "SamplerCustomAdvanced_Efficient",
+            "SamplerCustomUltraAdvancedEfficient"
+        ],
+        {
+            "title_aux": "ComfyUI-MoreEfficientSamplers"
+        }
+    ],
+    "https://github.com/GiusTex/ComfyUI-Wan-TimeToMove": [
+        [
+            "AddTTMLatent",
+            "TTMKSamplerSelect",
+            "WanVideoEncode",
+            "WanVideoSamplerCustomUltraAdvancedEfficient"
+        ],
+        {
+            "title_aux": "ComfyUI-Wan-TimeToMove"
+        }
+    ],
     "https://github.com/GizmoR13/PG-Nodes": [
         [
             "PgCheckpointSelect",
@@ -11867,6 +11879,7 @@
             "ImageMetadataSaver",
             "LMMExtractPromptsNode",
             "LatentSettings",
+            "Loraloadertotext",
             "PipeHub",
             "PreviewMask",
             "UniversalLatentSettings",
@@ -14876,6 +14889,15 @@
             "title_aux": "ComfyUI-SAM3DBody"
         }
     ],
+    "https://github.com/PozzettiAndrea/ComfyUI-Sharp": [
+        [
+            "LoadSharpModel",
+            "SharpPredict"
+        ],
+        {
+            "title_aux": "ComfyUI-Sharp"
+        }
+    ],
     "https://github.com/PressWagon/ComfyUI-StringsAndThings": [
         [
             "DebugString",
@@ -15022,6 +15044,15 @@
         ],
         {
             "title_aux": "comfyui-qbug-batch"
+        }
+    ],
+    "https://github.com/QL-boy/ComfyUI-Advanced-Tile-Processing": [
+        [
+            "CustomTileMerger",
+            "CustomTileSplitter"
+        ],
+        {
+            "title_aux": "ComfyUI-Advanced-Tile-Processing"
         }
     ],
     "https://github.com/QaisMalkawi/ComfyUI-QaisHelper": [
@@ -20202,6 +20233,16 @@
             "title_aux": "ComfyUI-MIKKY-Mask-Editor"
         }
     ],
+    "https://github.com/XYMikky12138/ComfyUI-NanoBanana-inpaint": [
+        [
+            "BananaImageResizeFit",
+            "BananaSmartCrop",
+            "BananaUncropPaste"
+        ],
+        {
+            "title_aux": "ComfyUI-NanoBanana-inpaint"
+        }
+    ],
     "https://github.com/XchanBik/ComfyUI_SimpleBridgeNode": [
         [
             "LoraTextLoader",
@@ -22224,6 +22265,7 @@
     ],
     "https://github.com/akawana/ComfyUI-RGBYP-Mask-Editor": [
         [
+            "MaskGrowBlur",
             "RGBYPLoadImage",
             "RGBYPMaskBridge",
             "RGBYPMaskCompositeWithStrength",
@@ -22802,6 +22844,7 @@
             "ArchAi3D_Color_Correction_BT709",
             "ArchAi3D_Conditioning_Balance",
             "ArchAi3D_Dependency_Installer",
+            "ArchAi3D_DiffSynth_ControlNet",
             "ArchAi3D_Empty_Latent_Batch",
             "ArchAi3D_Float_Input",
             "ArchAi3D_GDrive_Download",
@@ -22840,6 +22883,8 @@
             "ArchAi3D_Qwen_Exterior_Navigation",
             "ArchAi3D_Qwen_Exterior_View_Control",
             "ArchAi3D_Qwen_Image_Scale",
+            "ArchAi3D_Qwen_Image_Scale_V2",
+            "ArchAi3D_Qwen_Image_Stitch",
             "ArchAi3D_Qwen_Interior_Focus",
             "ArchAi3D_Qwen_Interior_Navigation",
             "ArchAi3D_Qwen_Interior_View_Control",
@@ -22864,8 +22909,19 @@
             "ArchAi3D_SEGS_Mask_Irregularity",
             "ArchAi3D_SEGS_To_Bundle",
             "ArchAi3D_Save_Image",
+            "ArchAi3D_Simple_Blend_Mask",
+            "ArchAi3D_Simple_Blend_Mask_Batch",
+            "ArchAi3D_Simple_Edge_Mask",
             "ArchAi3D_Simple_Position_Prompt",
+            "ArchAi3D_Simple_Tile_Compositor",
+            "ArchAi3D_Simple_Tile_Compositor_Single",
+            "ArchAi3D_Simple_Tile_Cropper",
+            "ArchAi3D_Simple_Tile_Cropper_Batch",
+            "ArchAi3D_Simple_Tile_Sampler",
             "ArchAi3D_Smart_Tile_Calculator",
+            "ArchAi3D_Smart_Tile_Calculator_V3",
+            "ArchAi3D_Smart_Tile_Calculator_V4",
+            "ArchAi3D_Smart_Tile_Calculator_V5",
             "ArchAi3D_Smart_Tile_Conditioning",
             "ArchAi3D_Smart_Tile_Detailer",
             "ArchAi3D_Smart_Tile_Merger",
@@ -22874,11 +22930,29 @@
             "ArchAi3D_Smart_Tile_SEGS",
             "ArchAi3D_Smart_Tile_SEGS_Blur",
             "ArchAi3D_Smart_Tile_Sampler",
+            "ArchAi3D_Smart_Tile_Solver_V6",
+            "ArchAi3D_Smart_Tile_Solver_V6_2",
+            "ArchAi3D_Smart_USDU_DiffDiff_ControlNet",
+            "ArchAi3D_Smart_USDU_DiffDiff_ControlNet_CustomSample",
+            "ArchAi3D_Smart_USDU_DiffDiff_ControlNet_NoUpscale",
+            "ArchAi3D_Smart_USDU_DiffDiffusion",
+            "ArchAi3D_Smart_USDU_DiffDiffusion_CustomSample",
+            "ArchAi3D_Smart_USDU_DiffDiffusion_NoUpscale",
+            "ArchAi3D_Smart_USDU_Mask_Denoise",
+            "ArchAi3D_Smart_USDU_Split_Latent",
+            "ArchAi3D_Smart_USDU_Universal",
+            "ArchAi3D_Smart_USDU_Universal_CustomSample",
+            "ArchAi3D_Smart_USDU_Universal_NoUpscale",
+            "ArchAi3D_Smart_USDU_Universal_NoUpscale_V2",
+            "ArchAi3D_Smart_USDU_Universal_NoUpscale_V3",
+            "ArchAi3D_Smart_USDU_Universal_NoUpscale_V3_Standalone",
+            "ArchAi3D_Smart_USDU_V3_Standalone",
             "ArchAi3D_Smart_Ultimate_SD_Upscale",
             "ArchAi3D_Smart_Ultimate_SD_Upscale_CustomSample",
             "ArchAi3D_Smart_Ultimate_SD_Upscale_NoUpscale",
             "ArchAi3D_Solid_Color_Image",
             "ArchAi3D_String_Input",
+            "ArchAi3D_USDU_EdgeRepair",
             "ArchAi3dQwenEncoderSimpleV2"
         ],
         {
@@ -23235,6 +23309,14 @@
             "title_aux": "ComfyUI Prompt History Node"
         }
     ],
+    "https://github.com/aria1th/ComfyUI-Wildcards-rework": [
+        [
+            "TextWildcards"
+        ],
+        {
+            "title_aux": "ComfyUI-Wildcards-rework"
+        }
+    ],
     "https://github.com/arthurtravers/ComfyUI-VideoOutputBridge": [
         [
             "VideoOutputBridge"
@@ -23358,6 +23440,14 @@
         ],
         {
             "title_aux": "comfyui-find-perfect-resolution"
+        }
+    ],
+    "https://github.com/aslanxie/comfyui_qwen_image_edit": [
+        [
+            "QWen Image Edit"
+        ],
+        {
+            "title_aux": "comfyui_qwen_image_edit"
         }
     ],
     "https://github.com/asutermo/ComfyUI-Flux-TryOff": [
@@ -26543,6 +26633,7 @@
             "IndexTTS2EmotionAudioNode",
             "IndexTTS2EmotionTextNode",
             "IndexTTS2EmotionVectorNode",
+            "IndexTTS2ProNode",
             "IndexTTSNode",
             "IndexTTSProNode",
             "NovelTextStructureNode",
@@ -27480,6 +27571,9 @@
             "SCAILBasePoseGenerator",
             "SCAILBeatDetector",
             "SCAILBeatDrivenPose",
+            "SCAILCMULibraryLoader",
+            "SCAILCMUMotion",
+            "SCAILCMUSequenceToSCAILPose",
             "SCAILPoseFromDWPose",
             "SCAILPoseRenderer"
         ],
@@ -29172,6 +29266,15 @@
         ],
         {
             "title_aux": "ComfyUI-TTS"
+        }
+    ],
+    "https://github.com/danieljanata/ComfyUI-QwenVL-Override": [
+        [
+            "AILab_QwenVL_Override",
+            "AILab_QwenVL_Override_Advanced"
+        ],
+        {
+            "title_aux": "ComfyUI-QwenVL-Override"
         }
     ],
     "https://github.com/darkamenosa/comfy_inpaint_blend": [
@@ -31647,14 +31750,6 @@
             "title_aux": "ComfyUI-hvBlockswap"
         }
     ],
-    "https://github.com/flybirdxx/ComfyUI-Prompt_Helper": [
-        [
-            "QwenImageEngineer"
-        ],
-        {
-            "title_aux": "ComfyUI-Prompt_Helper"
-        }
-    ],
     "https://github.com/flybirdxx/ComfyUI-RexOmni": [
         [
             "RexOmniDetector",
@@ -32145,6 +32240,18 @@
         ],
         {
             "title_aux": "comfyui-customselector"
+        }
+    ],
+    "https://github.com/gateway/ComfyUI-Kie-API": [
+        [
+            "KIE_GetRemainingCredits",
+            "KIE_NanoBananaPro_Image",
+            "KIE_Seedream45_Edit",
+            "KIE_Seedream45_TextToImage",
+            "SteveHelloNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Kie-API"
         }
     ],
     "https://github.com/gelasdev/ComfyUI-FLUX-BFL-API": [
@@ -34058,7 +34165,6 @@
             "sort_list_string",
             "steg_alpha_embed",
             "steg_alpha_extract",
-            "steg_rgb_embed",
             "steg_rgb_extract",
             "string_clear_if_contains",
             "video_audio_concat",
@@ -38332,6 +38438,15 @@
         ],
         {
             "title_aux": "Google Photos Loader - by PabloGFX"
+        }
+    ],
+    "https://github.com/lazyq666/gemini-3-simply-comfyui": [
+        [
+            "Gemini3ProImagePreview",
+            "Gemini3ProPreviewText"
+        ],
+        {
+            "title_aux": "gemini-3-simply-comfyui"
         }
     ],
     "https://github.com/lc03lc/Comfyui_OmniConsistency": [
@@ -44839,7 +44954,9 @@
             "PVL_Google_NanoBanana_API_mandatory_IMG",
             "PVL_Google_NanoBanana_Multi_API",
             "PVL_Google_NanoBanana_PRO_Multi_API",
+            "PVL_ImageBatchToImageList",
             "PVL_ImageComposite",
+            "PVL_ImageListToImageBatch",
             "PVL_ImageResize",
             "PVL_ImageStitch",
             "PVL_Image_Translation_Offset",
@@ -52779,6 +52896,7 @@
             "YC_ShowText",
             "ycBBoxBridge",
             "ycCanvasBBox",
+            "ycCanvasBBoxMask",
             "ycimagebrushmask"
         ],
         {

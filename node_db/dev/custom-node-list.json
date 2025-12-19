@@ -1,5 +1,65 @@
 {
-    "custom_nodes": [
+    "custom_nodes": [     
+        {
+            "author": "love530love",
+            "title": "[WIP] ComfyUI-TorchMonitor",
+            "reference": "https://github.com/love530love/ComfyUI-TorchMonitor",
+            "files": [
+                "https://github.com/love530love/ComfyUI-TorchMonitor"
+            ],
+            "install_type": "git-clone",
+            "description": "Fixed-position real-time monitor for ComfyUI displaying CPU, RAM, VRAM, and GPU temperature metrics with zero configuration and single-file installation.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Enferlain",
+            "title": "ComfyUI-SamplerCustom-3Decimals",
+            "reference": "https://github.com/Enferlain/ComfyUI-SamplerCustom-3Decimals",
+            "files": [
+                "https://github.com/Enferlain/ComfyUI-SamplerCustom-3Decimals"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI sampler node with custom 3 decimals precision for sampling parameters. (Description by CC)"
+        },
+        {
+            "author": "lfelipegg",
+            "title": "[WIP] lfgg_custom_nodes_comfyui",
+            "reference": "https://github.com/lfelipegg/lfgg_custom_nodes_comfyui",
+            "files": [
+                "https://github.com/lfelipegg/lfgg_custom_nodes_comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "LFGG custom nodes for ComfyUI providing resolution-first utilities, latent sizing by aspect ratio, and divisibility-aware image processing.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "saltchicken",
+            "title": "ComfyUI-Selector",
+            "reference": "https://github.com/saltchicken/ComfyUI-Selector",
+            "files": [
+                "https://github.com/saltchicken/ComfyUI-Selector"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node providing simple selector functionality. (Description by CC)"
+        },
+        {
+            "author": "saltchicken",
+            "title": "ComfyUI-Video-Utils",
+            "reference": "https://github.com/saltchicken/ComfyUI-Video-Utils",
+            "files": [
+                "https://github.com/saltchicken/ComfyUI-Video-Utils"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for video processing including FinalFrameSelector and VideoMerge functionality. (Description by CC)"
+        },
+        {
+            "author": "EricRorich",
+            "title": "[WIP] ComfyUI-MegaTran-cutom-node",
+            "reference": "https://github.com/EricRorich/ComfyUI-MegaTran-cutom-node",
+            "files": [
+                "https://github.com/EricRorich/ComfyUI-MegaTran-cutom-node"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node applying image transformations (scaling, rotation, translation) around a pivot point with optional canvas expansion and pivot visualization. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
         {
             "author": "OhSeongHyeon",
             "title": "comfyui-random-image-size",
@@ -99,16 +159,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom node for image analysis and evaluation. (Description by CC)"
-        },
-        {
-            "author": "AndSni",
-            "title": "Comfy-FL-Nodes",
-            "reference": "https://github.com/AndSni/Comfy-FL-Nodes",
-            "files": [
-                "https://github.com/AndSni/Comfy-FL-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Generates human characters for commerce applications in ComfyUI. (Description by CC)"
         },
         {
             "author": "Spicely",
@@ -1706,16 +1756,6 @@
         },
         {
             "author": "pizurny",
-            "title": "ComfyUI-Just-DWPose [WIP]",
-            "reference": "https://github.com/pizurny/ComfyUI-Just-DWPose",
-            "files": [
-                "https://github.com/pizurny/ComfyUI-Just-DWPose"
-            ],
-            "install_type": "git-clone",
-            "description": "An advanced DWPose annotator for ComfyUI with TorchScript and ONNX backends, featuring comprehensive pose detection, bone validation, temporal smoothing, and custom visualization tools."
-        },
-        {
-            "author": "pizurny",
             "title": "ComfyUI Feedback Sampler [WIP]",
             "reference": "https://github.com/pizurny/Comfyui-FeedbackSampler",
             "files": [
@@ -2133,16 +2173,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: 'Pluto : Auto Crop Faces', 'Pluto : Composite Image',  'Pluto : Float Math', 'Pluto : GetSizeFromImage', 'Pluto : Text Append', ..."
-        },
-        {
-            "author": "lfelipegg",
-            "title": "lfgg_custom_nodes [WIP]",
-            "reference": "https://github.com/lfelipegg/lfgg_custom_nodes",
-            "files": [
-                "https://github.com/lfelipegg/lfgg_custom_nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: ModelMergeCombos\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "lu64k",
