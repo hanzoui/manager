@@ -976,17 +976,96 @@ class ManagerMenuDialog extends ComfyDialog {
 		let preview_combo = document.createElement("select");
 		preview_combo.setAttribute("title", "Configure how latent variables will be decoded during preview in the sampling process.");
 		preview_combo.className = "cm-menu-combo p-select p-component p-inputwrapper p-inputwrapper-filled";
+
+		// Loading state to prevent flash of enabled state
+		preview_combo.appendChild($el('option', { value: '', text: 'Loading...', disabled: true }, []));
 		preview_combo.appendChild($el('option', { value: 'auto', text: 'Auto' }, []));
 		preview_combo.appendChild($el('option', { value: 'taesd', text: 'TAESD (slow)' }, []));
 		preview_combo.appendChild($el('option', { value: 'latent2rgb', text: 'Latent2RGB (fast)' }, []));
 		preview_combo.appendChild($el('option', { value: 'none', text: 'None (very fast)' }, []));
 
+		// Start disabled to prevent flash
+		preview_combo.disabled = true;
+		preview_combo.value = '';
+
+		// Fetch current state
 		api.fetchApi('/manager/preview_method')
 			.then(response => response.text())
-			.then(data => { preview_combo.value = data; });
+			.then(data => {
+				// Remove loading option
+				preview_combo.querySelector('option[value=""]')?.remove();
+
+				if (data === "DISABLED") {
+					// ComfyUI per-queue preview feature is active
+					preview_combo.disabled = true;
+					preview_combo.value = 'auto';
+
+					// Accessibility attributes
+					preview_combo.setAttribute("aria-disabled", "true");
+					preview_combo.setAttribute("aria-label",
+						"Preview method setting (disabled - managed by ComfyUI). " +
+						"Use Settings > Execution > Live preview method instead."
+					);
+
+					// Tooltip for mouse users
+					preview_combo.setAttribute("title",
+						"This feature is now provided natively by ComfyUI. " +
+						"Please use 'Settings > Execution > Live preview method' instead."
+					);
+
+					// Visual feedback
+					preview_combo.style.opacity = '0.6';
+					preview_combo.style.cursor = 'not-allowed';
+				} else {
+					// Manager feature is active
+					preview_combo.disabled = false;
+					preview_combo.value = data;
+
+					// Accessibility for enabled state
+					preview_combo.setAttribute("aria-label",
+						"Preview method setting. Select how latent variables are decoded during preview."
+					);
+				}
+			})
+			.catch(error => {
+				console.error('[ComfyUI-Manager] Failed to fetch preview method status:', error);
+				// Error recovery: fallback to enabled
+				preview_combo.querySelector('option[value=""]')?.remove();
+				preview_combo.disabled = false;
+				preview_combo.value = 'auto';
+			});
 
 		preview_combo.addEventListener('change', function (event) {
-			api.fetchApi(`/manager/preview_method?value=${event.target.value}`);
+			// Ignore if disabled
+			if (preview_combo.disabled) {
+				event.preventDefault();
+				return;
+			}
+
+			// Normal operation
+			api.fetchApi(`/manager/preview_method?value=${event.target.value}`)
+				.then(response => {
+					if (response.status === 403) {
+						// Feature transitioned to native
+						alert(
+							'This feature is now provided natively by ComfyUI.\n' +
+							'Please use \'Settings > Execution > Live preview method\' instead.'
+						);
+						preview_combo.disabled = true;
+						preview_combo.style.opacity = '0.6';
+						preview_combo.style.cursor = 'not-allowed';
+
+						// Update aria attributes
+						preview_combo.setAttribute("aria-disabled", "true");
+						preview_combo.setAttribute("aria-label",
+							"Preview method setting (disabled - managed by ComfyUI). " +
+							"Use Settings > Execution > Live preview method instead."
+						);
+					}
+				})
+				.catch(error => {
+					console.error('[ComfyUI-Manager] Preview method update failed:', error);
+				});
 		});
 
 		const previewSetttingItem = createSettingsCombo("Preview method", preview_combo);
