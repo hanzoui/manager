@@ -34676,6 +34676,16 @@
             "description": "Nodes for SeC (Segment Concept) - SOTA video object segmentation. Uses SeC-4B model by OpenIXCLab. Also includes coordinate plotter for visualization"
         },
         {
+            "author": "9nate-drake",
+            "title": "ComfyUI-PanoTools",
+            "reference": "https://github.com/9nate-drake/ComfyUI-PanoTools",
+            "files": [
+                "https://github.com/9nate-drake/ComfyUI-PanoTools"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional panorama generation tools for ComfyUI converting perspective images/video to equirectangular 360° panoramas with automatic camera calibration via AI, horizon detection, or vertical line detection."
+        },        
+        {
             "author": "Kishor900",
             "title": "ComfyUI WANv2v Video Stitcher",
             "reference": "https://github.com/Kishor900/comfyui-wanv2v-video-stitcher",
@@ -39197,6 +39207,26 @@
             ],
             "install_type": "git-clone",
             "description": "Custom nodes for running the Switti text-to-image model inside ComfyUI with support for checkpoint loading, VAE, CLIP encoders, and pipeline building."
+        },
+        {
+            "author": "Bzbaozi",
+            "title": "ComfyUI-YK-Banana2-Batch",
+            "reference": "https://github.com/Bzbaozi/ComfyUI-YK-Banana2-Batch",
+            "files": [
+                "https://github.com/Bzbaozi/ComfyUI-YK-Banana2-Batch"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful batch image generation node for ComfyUI using the YK-Banana2 Pro API to generate multiple images in parallel with reference image support. (Description by CC)"
+        },
+        {
+            "author": "rethink-studios",
+            "title": "comfyui-model-linker-desktop",
+            "reference": "https://github.com/rethink-studios/comfyui-model-linker-desktop",
+            "files": [
+                "https://github.com/rethink-studios/comfyui-model-linker-desktop"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI extension that helps users relink missing models in workflows"
         },
 
 

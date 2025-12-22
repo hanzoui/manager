@@ -896,6 +896,15 @@
             "title_aux": "ComfyUI Mask to Center Point Nodes"
         }
     ],
+    "https://github.com/9nate-drake/ComfyUI-PanoTools": [
+        [
+            "CameraCalibration",
+            "Perspective2Panorama"
+        ],
+        {
+            "title_aux": "ComfyUI-PanoTools"
+        }
+    ],
     "https://github.com/9nate-drake/Comfyui-SecNodes": [
         [
             "CoordinatePlotter",
@@ -4027,6 +4036,14 @@
         ],
         {
             "title_aux": "ComfyUI-BS_Kokoro-onnx"
+        }
+    ],
+    "https://github.com/Bzbaozi/ComfyUI-YK-Banana2-Batch": [
+        [
+            "YKNanoBananaProNode"
+        ],
+        {
+            "title_aux": "ComfyUI-YK-Banana2-Batch"
         }
     ],
     "https://github.com/CC-BryanOttho/ComfyUI_API_Manager": [
@@ -10285,6 +10302,7 @@
             "JNodes_StringLiteral",
             "JNodes_SubdirectorySelector",
             "JNodes_SyncedStringLiteral",
+            "JNodes_TextManager",
             "JNodes_TokenCounter",
             "JNodes_TrimAndStrip",
             "JNodes_UploadVideo",
@@ -14818,6 +14836,7 @@
         [
             "DA3_CreateCameraParams",
             "DA3_EnableTiledProcessing",
+            "DA3_FilterGaussians",
             "DA3_MultiViewPointCloud",
             "DA3_ParseCameraPose",
             "DA3_PreviewPointCloud",
@@ -22762,6 +22781,7 @@
             "XJFloatRangeList",
             "XJImageGrid",
             "XJImageListFilter",
+            "XJImagePreviewBridge",
             "XJImageRandomTransform",
             "XJImageScaleCalc",
             "XJImageScaleMegapixel",
@@ -32433,6 +32453,7 @@
         [
             "KIE_GetRemainingCredits",
             "KIE_GridSlice",
+            "KIE_Kling26_I2V",
             "KIE_NanoBananaPro_Image",
             "KIE_SeedanceV1Pro_Fast_I2V",
             "KIE_Seedream45_Edit",

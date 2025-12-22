@@ -2659,6 +2659,7 @@
             "LunaBatchUpscaleRefine",
             "LunaCheckpointLoader",
             "LunaCheckpointTunnel",
+            "LunaChessRefiner",
             "LunaCivitaiBatchScraper",
             "LunaCivitaiScraper",
             "LunaConfigGateway",
@@ -2689,8 +2690,12 @@
             "LunaPipeExpander",
             "LunaPromptCraft",
             "LunaPromptCraftDebug",
+            "LunaPyramidNoiseGenerator",
             "LunaResetModelWeights",
+            "LunaSAM3Detector",
+            "LunaScaffoldUpscaler",
             "LunaSecondaryModelLoader",
+            "LunaSemanticDetailer",
             "LunaSmartLoRALinker",
             "LunaSuperUpscaler",
             "LunaSuperUpscalerSimple",
@@ -12653,6 +12658,16 @@
             "title_aux": "ComfyUI-SDXLGenerateFromTextFile [UNSAFE]"
         }
     ],
+    "https://github.com/tpc2233/ComfyUI-TP-IMtalker": [
+        [
+            "IMTalkerAudioDriven",
+            "IMTalkerLoader",
+            "IMTalkerVideoDriven"
+        ],
+        {
+            "title_aux": "ComfyUI-TP-IMtalker [WIP]"
+        }
+    ],
     "https://github.com/tracerstar/comfyui-p5js-node": [
         [
             "HYPE_P5JSImage"
@@ -13539,6 +13554,14 @@
             "title_aux": "ComfyUI-Dropbox-API [WIP]"
         }
     ],
+    "https://github.com/yutrodimitri-ship-it/ComfyUI-YUTRO-CastingStudio-v2": [
+        [
+            "YUTROWardrobePreset"
+        ],
+        {
+            "title_aux": "ComfyUI-YUTRO-CastingStudio-v2 [WIP]"
+        }
+    ],
     "https://github.com/yuvraj108c/ComfyUI-HYPIR": [
         [
             "HYPIRProcess",
@@ -13547,6 +13570,16 @@
         ],
         {
             "title_aux": "ComfyUI HYPIR [NAME CONFLICT]"
+        }
+    ],
+    "https://github.com/yuyu0218yu/comfyui-NXCM-tool": [
+        [
+            "HD_EncryptImage",
+            "HD_EncryptVideo",
+            "VideoToGarbledImage"
+        ],
+        {
+            "title_aux": "comfyui-NXCM-tool [UNSAFE]"
         }
     ],
     "https://github.com/z604159435g/comfyui_random_prompt_plugin": [
