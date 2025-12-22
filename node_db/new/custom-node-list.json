@@ -1,6 +1,67 @@
 {
     "custom_nodes": [
         {
+            "author": "OhSeongHyeon",
+            "title": "comfyui-watdafox-nodes",
+            "reference": "https://github.com/OhSeongHyeon/comfyui-watdafox-nodes",
+            "files": [
+                "https://github.com/OhSeongHyeon/comfyui-watdafox-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A node pack for ComfyUI"
+        },
+        {
+            "author": "pixelpainter",
+            "title": "mute-bypass by node ID",
+            "reference": "https://github.com/pixelpainter/comfyui-mute-bypass-by-ID",
+            "files": [
+                "https://github.com/pixelpainter/comfyui-mute-bypass-by-ID"
+            ],
+            "install_type": "git-clone",
+            "description": "2 nodes for muting or bypassing a node by node ID. They are widget linkable and promotable to a Subgraph node as a switch to mute or bypass a node in it's own Subgraph, or any other Subgraph, or it can be used as a stand alone node anywhere"
+        },
+        {
+            "author": "benjiyaya",
+            "title": "ComfyUI-QwenImageLayeredToLength",
+            "reference": "https://github.com/benjiyaya/ComfyUI-QwenImageLayeredToLength",
+            "files": [
+                "https://github.com/benjiyaya/ComfyUI-QwenImageLayeredToLength"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node for using Qwen-Image-Layered as a conversion tool to transform layer numbers into latent space length parameters. (Description by CC)"
+        },
+        {
+            "author": "princepainter",
+            "title": "ComfyUI-PainterVideoCombine",
+            "reference": "https://github.com/princepainter/ComfyUI-PainterVideoCombine",
+            "files": [
+                "https://github.com/princepainter/ComfyUI-PainterVideoCombine"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node: extract fps/frames/duration/width/height from video"
+        },
+        {
+            "author": "Arctenox",
+            "title": "Arctenoxs-Essentials_ComfyUI",
+            "reference": "https://github.com/Arctenox/Arctenoxs-Essentials_ComfyUI",
+            "files": [
+                "https://github.com/Arctenox/Arctenoxs-Essentials_ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of efficient workflow nodes for ComfyUI with advanced sampling, seed management, temporal prompt processing, and workflow optimization tools"
+        },
+        {
+            "author": "by-ae",
+            "title": "ae-in-workflow",
+            "reference": "https://github.com/by-ae/ae-in-workflow",
+            "files": [
+                "https://github.com/by-ae/ae-in-workflow"
+            ],
+            "install_type": "git-clone",
+            "description": "In-workflow Nodes for ComfyUI - Heavy interaction and streaming capabilities"
+        },
+
+        {
             "author": "huchenlei",
             "title": "ComfyUI-execution-glow",
             "reference": "https://github.com/huchenlei/ComfyUI-execution-glow",
@@ -39,16 +100,6 @@
             ],
             "install_type": "git-clone",
             "description": "Advanced tiling plugin for ComfyUI solving VRAM limitations in 4K/8K+ image generation using intelligent tiling and seamless weighted fusion with multiple blending modes."
-        },
-        {
-            "author": "XYMikky12138",
-            "title": "ComfyUI-NanoBanana-inpaint",
-            "reference": "https://github.com/XYMikky12138/ComfyUI-NanoBanana-inpaint",
-            "files": [
-                "https://github.com/XYMikky12138/ComfyUI-NanoBanana-inpaint"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for API-based inpainting (Gemini, Imagen) with aspect ratio constraints, smart cropping, resize fitting, intelligent paste-back with transparency support. (Description by CC)"
         },
         {
             "author": "GiusTex",
@@ -159,16 +210,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI nodes for using SimpleTuner-trained Flux 2 LoRA models. SimpleTuner's Flux 2 architecture uses fused layers, making its LoRAs incompatible with standard ComfyUI Flux nodes. (Description by CC)"
-        },
-        {
-            "author": "scott-createplay",
-            "title": "ComfyUI_video_essentials",
-            "reference": "https://github.com/scott-createplay/ComfyUI_video_essentials",
-            "files": [
-                "https://github.com/scott-createplay/ComfyUI_video_essentials"
-            ],
-            "install_type": "git-clone",
-            "description": "Essential video processing nodes for ComfyUI"
         },
         {
             "author": "revisionhiep-create",

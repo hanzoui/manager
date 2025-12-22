@@ -340,8 +340,6 @@
             "ImageBlendText",
             "ImageBlendV1",
             "ImageRatioCrop",
-            "Load_Images_Advance",
-            "Load_Images_V1",
             "PD Image Resize_V1",
             "PDEmptyRatioLatent",
             "PDIMAGE_ImageCombine",
@@ -366,6 +364,7 @@
             "PD_GetImageRatio",
             "PD_GetImageSize",
             "PD_ImageFileTraining",
+            "PD_ImageGroupComposite",
             "PD_ImageListForSort",
             "PD_ImageListForSortWithMetadata",
             "PD_ImageSearch",
@@ -376,7 +375,6 @@
             "PD_JoinStringMultiLine",
             "PD_LoadImageMetadata",
             "PD_LoadImageWithMeta",
-            "PD_LoadImagesFromDir",
             "PD_LoadImagesFromZip",
             "PD_LoadTextsFromDir",
             "PD_LoadTextsFromZip",
@@ -411,6 +409,8 @@
             "PD_image_to_text_v1",
             "PD_imagesave_path",
             "PD_load_image_v1",
+            "PD_loadimage_path",
+            "PD_loadimage_path advance",
             "PD_name_replacewordorder",
             "PD_number_star",
             "PD_number_start",
@@ -636,6 +636,8 @@
     ],
     "https://github.com/AMTPorn/comfyui_amt": [
         [
+            "AMTCountTagsInDirectory",
+            "AMTEmbedTagFrequencySafetensors",
             "AMTMultiConditionRegexReplace",
             "AMTReplaceAndMaybeDropString",
             "AMTStringDeduplication"
@@ -879,6 +881,7 @@
             "TSRestoreFromCrop",
             "TSWhisper",
             "TS_BGRM_BiRefNet",
+            "TS_BatchPromptLoader",
             "TS_Color_Grade",
             "TS_DeflickerNode",
             "TS_FilePathLoader",
@@ -894,6 +897,7 @@
             "TS_Qwen3_VL",
             "TS_QwenCanvas",
             "TS_QwenSafeResize",
+            "TS_Qwen_3VL_FP8",
             "TS_VideoDepthNode",
             "TS_Video_Upscale_With_Model",
             "TS_WAN_SafeResize"
@@ -1647,6 +1651,7 @@
             "DonutApplyLoRAStack",
             "DonutCacheDebug",
             "DonutClipEncode",
+            "DonutDetailerZIT",
             "DonutFillerClip",
             "DonutFillerModel",
             "DonutHotReload",
@@ -2651,6 +2656,7 @@
         [
             "LunaBatchPromptExtractor",
             "LunaBatchPromptLoader",
+            "LunaBatchUpscaleRefine",
             "LunaCheckpointLoader",
             "LunaCheckpointTunnel",
             "LunaCivitaiBatchScraper",
@@ -2667,8 +2673,10 @@
             "LunaExpressionPromptBuilder",
             "LunaExpressionSlicerSaver",
             "LunaGGUFConverter",
+            "LunaINT8Loader",
             "LunaKSampler",
             "LunaKSamplerAdvanced",
+            "LunaKSamplerHeadless",
             "LunaLoRARandomizer",
             "LunaLoRAStacker",
             "LunaLoRATriggerInjector",
@@ -2676,6 +2684,7 @@
             "LunaModelRestore",
             "LunaModelRouter",
             "LunaMultiSaver",
+            "LunaNF4Loader",
             "LunaOptimizedWeightsManager",
             "LunaPipeExpander",
             "LunaPromptCraft",
@@ -3561,7 +3570,10 @@
     ],
     "https://github.com/OhSeongHyeon/comfyui-random-image-size": [
         [
-            "RandomImageSize"
+            "IntegerPicker",
+            "RandomImageSizeAdvanced",
+            "RandomImageSizeAdvancedYAML",
+            "RandomInteger"
         ],
         {
             "title_aux": "comfyui-random-image-size"
@@ -6685,7 +6697,6 @@
             "ExtendIntermediateSigmas",
             "FeatherMask",
             "FlipSigmas",
-            "Flux2ProImageNode",
             "Flux2Scheduler",
             "FluxDisableGuidance",
             "FluxGuidance",
@@ -6793,6 +6804,7 @@
             "LatentConcat",
             "LatentCrop",
             "LatentCut",
+            "LatentCutToBatch",
             "LatentFlip",
             "LatentFromBatch",
             "LatentInterpolate",
@@ -11674,7 +11686,9 @@
     "https://github.com/saltchicken/ComfyUI-Identity-Mixer": [
         [
             "IdentityLoraMixer",
-            "IdentityLoraMixerStack"
+            "IdentityLoraMixerDirectory",
+            "IdentityLoraMixerStack",
+            "IdentityLoraMixerStackDirectory"
         ],
         {
             "title_aux": "ComfyUI-Identity-Mixer"
@@ -11708,6 +11722,8 @@
     "https://github.com/saltchicken/ComfyUI-Video-Utils": [
         [
             "FinalFrameSelector",
+            "NthLastFrameSelector",
+            "PreviewImageWithCounter",
             "VideoMerge"
         ],
         {
@@ -12151,9 +12167,9 @@
     "https://github.com/stalkervr/ComfyUI-StalkerVr": [
         [
             "AnyCollector",
-            "ImageAspectRatioFixer",
             "ImageBatchCrop",
             "ImageGridCropper",
+            "ImageRatioResizer",
             "JsonArraySplitter",
             "JsonBuilder",
             "JsonDeserializeObject",
@@ -12169,7 +12185,12 @@
             "ListItemExtractor",
             "LogValue",
             "LoopAny",
+            "PromptCombinationProcessor",
+            "PromptConditioner",
             "PromptPartJoin",
+            "PromptRandomizer",
+            "PromptTagFilter",
+            "PromptWeightManager",
             "StringBuilder",
             "StringCollector",
             "StringConcatenation",
@@ -13388,6 +13409,7 @@
             "FloatNode",
             "FloatToIntNode",
             "IfNode",
+            "ImageRemoveAlphaNode",
             "ImageSizeNode",
             "ImageToBase64Node",
             "ImageToVideoNode",
