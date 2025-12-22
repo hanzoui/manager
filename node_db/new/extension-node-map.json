@@ -3003,12 +3003,36 @@
             "title_aux": "ComfyUI AstroCorp Nodes"
         }
     ],
+    "https://github.com/AugustusLXIII/ComfyUI_CustomResolution_I2V": [
+        [
+            "CustomResolutionI2V"
+        ],
+        {
+            "title_aux": "ComfyUI_CustomResolution_I2V"
+        }
+    ],
     "https://github.com/AuroBit/ComfyUI-AnimateAnyone-reproduction": [
         [
             "AnimateAnyone"
         ],
         {
             "title_aux": "ComfyUI-AnimateAnyone-reproduction"
+        }
+    ],
+    "https://github.com/Austat/ComfyUI-DownsampleFPS": [
+        [
+            "DownsampleFPSNode"
+        ],
+        {
+            "title_aux": "ComfyUI-DownsampleFPS"
+        }
+    ],
+    "https://github.com/Austat/ComfyUI-RemacriScale": [
+        [
+            "RemacriOnnxUpscale"
+        ],
+        {
+            "title_aux": "ComfyUI-RemacriScale"
         }
     ],
     "https://github.com/AustinMroz/ComfyUI-DynamicOversampling": [
@@ -3438,6 +3462,14 @@
         ],
         {
             "title_aux": "SigmaWaveFormNodes"
+        }
+    ],
+    "https://github.com/BennyDaBall930/ComfyUI-Z-Engineer": [
+        [
+            "ZEngineer"
+        ],
+        {
+            "title_aux": "ComfyUI-Z-Engineer"
         }
     ],
     "https://github.com/BennyKok/comfyui-deploy": [
@@ -5738,6 +5770,14 @@
         ],
         {
             "title_aux": "PromptGenerator 12-Columns"
+        }
+    ],
+    "https://github.com/DenRakEiw/ComfyUI-nearest-qwen-resolution": [
+        [
+            "NearestQwenResolution"
+        ],
+        {
+            "title_aux": "ComfyUI-nearest-qwen-resolution"
         }
     ],
     "https://github.com/DenRakEiw/Latent_Nodes": [
@@ -12277,6 +12317,14 @@
             "title_aux": "net tool node for comfyui"
         }
     ],
+    "https://github.com/Lysthan/ComfyUI-LYSTHAN-PPS": [
+        [
+            "LYSTHAN_PPS"
+        ],
+        {
+            "title_aux": "ComfyUI-LYSTHAN-PPS"
+        }
+    ],
     "https://github.com/M1kep/ComfyLiterals": [
         [
             "Checkpoint",
@@ -14743,6 +14791,29 @@
             "title_aux": "ComfyUI-AdvancedLivePortrait"
         }
     ],
+    "https://github.com/PozzettiAndrea/ComfyUI-BGPSeg": [
+        [
+            "BGPSegSegmentation",
+            "LoadBGPSegModels"
+        ],
+        {
+            "title_aux": "ComfyUI-BGPSeg"
+        }
+    ],
+    "https://github.com/PozzettiAndrea/ComfyUI-Cadrille": [
+        [
+            "CADRecodeInference",
+            "CadQueryExecute",
+            "CadrilleImageInference",
+            "CadrilleInference",
+            "CadrilleTextInference",
+            "LoadCADRecodeModel",
+            "LoadCadrilleModel"
+        ],
+        {
+            "title_aux": "ComfyUI-Cadrille"
+        }
+    ],
     "https://github.com/PozzettiAndrea/ComfyUI-DepthAnythingV3": [
         [
             "DA3_CreateCameraParams",
@@ -14908,6 +14979,17 @@
             "title_aux": "ComfyUI-MeshCraft"
         }
     ],
+    "https://github.com/PozzettiAndrea/ComfyUI-NeurCADRecon": [
+        [
+            "LoadNeurCADReconModel",
+            "NeurCADReconInference",
+            "NeurCADReconLoadCheckpoint",
+            "NeurCADReconTrain"
+        ],
+        {
+            "title_aux": "ComfyUI-NeurCADRecon"
+        }
+    ],
     "https://github.com/PozzettiAndrea/ComfyUI-SAM3": [
         [
             "LoadSAM3Model",
@@ -14948,6 +15030,18 @@
         ],
         {
             "title_aux": "ComfyUI-SAM3DBody"
+        }
+    ],
+    "https://github.com/PozzettiAndrea/ComfyUI-SECADNET": [
+        [
+            "LoadSECADNetModel",
+            "MeshToVoxel",
+            "SECADNetFinetune",
+            "SECADNetInference",
+            "SECADNetLatentToMesh"
+        ],
+        {
+            "title_aux": "ComfyUI-SECADNET"
         }
     ],
     "https://github.com/PozzettiAndrea/ComfyUI-Sharp": [
@@ -15600,6 +15694,18 @@
             "title_aux": "Runware.ai ComfyUI Inference API Integration"
         }
     ],
+    "https://github.com/RyukoMatoiFan/ComfyUI-Switti": [
+        [
+            "SwittiCheckpointLoader",
+            "SwittiDualCLIPLoader",
+            "SwittiPipelineBuilder",
+            "SwittiSampler",
+            "SwittiVAECheckpointLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-Switti"
+        }
+    ],
     "https://github.com/Ryuukeisyou/comfyui_face_parsing": [
         [
             "BBoxDecompose(FaceParsing)",
@@ -15785,6 +15891,14 @@
         ],
         {
             "title_aux": "ComfyUI SKBundle"
+        }
+    ],
+    "https://github.com/SKBv0/ComfyUI_SpideyReroute": [
+        [
+            "SpideyReroute"
+        ],
+        {
+            "title_aux": "ComfyUI_SpideyReroute"
         }
     ],
     "https://github.com/SKFRMSEHF/comfyui_SK_Loader": [
@@ -18365,6 +18479,15 @@
             "title_aux": "Comfyroll Studio"
         }
     ],
+    "https://github.com/SuzumiyaAkizuki/ComfyUI-LLM_Prompt_XML_Formatter": [
+        [
+            "LLM_Prompt_Formatter",
+            "LLM_Xml_Style_Injector"
+        ],
+        {
+            "title_aux": "ComfyUI-LLM_Prompt_XML_Formatter"
+        }
+    ],
     "https://github.com/Sxela/ComfyWarp": [
         [
             "ApplyMask",
@@ -18920,18 +19043,6 @@
         ],
         {
             "title_aux": "ZSuite"
-        }
-    ],
-    "https://github.com/TheBill2001/comfyui-upscale-by-model": [
-        [
-            "UpscaleImageByUsingModel"
-        ],
-        {
-            "author": "Tr\u1ea7n Nam Tu\u1ea5n",
-            "description": "This custom node allow upscaling an image by a factor using a model.",
-            "nickname": "Upscale Image By (Using Model)",
-            "title": "Upscale Image By (Using Model)",
-            "title_aux": "comfyui-upscale-by-model"
         }
     ],
     "https://github.com/TheLustriVA/ComfyUI-Image-Size-Tools": [
@@ -26125,6 +26236,14 @@
         ],
         {
             "title_aux": "ComfyUI Style Plugin"
+        }
+    ],
+    "https://github.com/chameleon-ai/comfyui_momo": [
+        [
+            "MoMo"
+        ],
+        {
+            "title_aux": "comfyui_momo"
         }
     ],
     "https://github.com/chandlergis/ComfyUI-IMG_Query": [
@@ -41917,6 +42036,16 @@
             "title_aux": "ComfyUI_Mira"
         }
     ],
+    "https://github.com/mirabarukaso/ComfyUI_MiraSubPack": [
+        [
+            "ImageMergeByPixelAlign_MiraSubPack",
+            "TextEncodeQwenImageEditPlus_MiraSubPack",
+            "TextEncodeQwenImageEdit_MiraSubPack"
+        ],
+        {
+            "title_aux": "ComfyUI_MiraSubPack"
+        }
+    ],
     "https://github.com/misterjoessef/MLTask_ComfyUI": [
         [
             "FacebookPosterData",
@@ -49158,6 +49287,23 @@
         ],
         {
             "title_aux": "ComfyUI-sudo-latent-upscale"
+        }
+    ],
+    "https://github.com/styletransfer/ComfyUI-TRELLIS2_Motion": [
+        [
+            "CameraTrajectory_T2",
+            "MergeMeshSequences",
+            "MeshRenderer",
+            "MeshSequenceRenderer",
+            "MultiAngleCamera",
+            "OnionSkinning",
+            "RenderingEffects",
+            "Trellis2Predict",
+            "Trellis2VideoAngleShift",
+            "VideoToMeshes"
+        ],
+        {
+            "title_aux": "ComfyUI-TRELLIS2_Motion"
         }
     ],
     "https://github.com/subraoul/ComfyUI_Bit-Depth-Enhancer": [

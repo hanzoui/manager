@@ -3570,10 +3570,13 @@
     ],
     "https://github.com/OhSeongHyeon/comfyui-random-image-size": [
         [
+            "CheckpointLoaderWithOuputDirByModelName",
             "IntegerPicker",
+            "OuputDirByModelName",
             "RandomImageSizeAdvanced",
             "RandomImageSizeAdvancedYAML",
-            "RandomInteger"
+            "RandomInteger",
+            "UniqueStringList"
         ],
         {
             "title_aux": "comfyui-random-image-size"
@@ -4218,6 +4221,14 @@
         ],
         {
             "title_aux": "comfyui_caption-around-image"
+        }
+    ],
+    "https://github.com/SergeyKarleev/comfyui-textutils": [
+        [
+            "TextLinesBatch"
+        ],
+        {
+            "title_aux": "[WIP] comfyui-textutils"
         }
     ],
     "https://github.com/ShahFaisalWani/ComfyUI-Mojen-Nodeset": [
@@ -6691,6 +6702,7 @@
             "EmptyLatentHunyuan3Dv2",
             "EmptyLatentImage",
             "EmptyMochiLatentVideo",
+            "EmptyQwenImageLayeredLatentImage",
             "EmptySD3LatentImage",
             "Epsilon Scaling",
             "ExponentialScheduler",
