@@ -161,7 +161,11 @@
     "https://github.com/1038lab/ComfyUI-QwenVL": [
         [
             "AILab_QwenVL",
-            "AILab_QwenVL_Advanced"
+            "AILab_QwenVL_Advanced",
+            "AILab_QwenVL_GGUF",
+            "AILab_QwenVL_GGUF_Advanced",
+            "AILab_QwenVL_GGUF_PromptEnhancer",
+            "AILab_QwenVL_PromptEnhancer"
         ],
         {
             "title_aux": "ComfyUI-QwenVL"
@@ -2971,6 +2975,15 @@
             "title_aux": "Dir Gir"
         }
     ],
+    "https://github.com/Asidert/ComfyUI_Base64Images": [
+        [
+            "ConvertImageToBase64",
+            "LoadImageFromBase64"
+        ],
+        {
+            "title_aux": "ComfyUI_Base64Images"
+        }
+    ],
     "https://github.com/AstrionX/ComfyUI-Tensor-Prism-Node-Pack": [
         [
             "AdvancedCLIPMerge",
@@ -3026,6 +3039,16 @@
         ],
         {
             "title_aux": "ComfyUI-AnimateAnyone-reproduction"
+        }
+    ],
+    "https://github.com/AuroBit/ComfyUI-OOTDiffusion": [
+        [
+            "LoadOOTDPipeline",
+            "LoadOOTDPipelineHub",
+            "OOTDGenerate"
+        ],
+        {
+            "title_aux": "ComfyUI OOTDiffusion"
         }
     ],
     "https://github.com/Austat/ComfyUI-DownsampleFPS": [
@@ -8373,12 +8396,14 @@
             "GR Background Remover REMBG",
             "GR Checkered Board",
             "GR Counter",
+            "GR Filename",
             "GR Flip Tile Random Inverted",
             "GR Flip Tile Random Red Ring",
             "GR Florence 2 Caption Generator",
             "GR INT Incremetor",
             "GR Image Details Displayer",
             "GR Image Details Saver",
+            "GR Image Multiplication",
             "GR Image Multiplier",
             "GR Image Paste",
             "GR Image Paste With Mask",
@@ -17155,8 +17180,11 @@
     "https://github.com/ShootTheSound/comfyUI-Realtime-Lora": [
         [
             "ApplyTrainedLora",
+            "ClippyRebornImageLoader",
             "FLUXSelectiveLoRALoader",
+            "ImageOfDayLoader",
             "LoRALoaderWithAnalysis",
+            "LoRALoaderWithAnalysisV2",
             "MusubiQwenImageEditLoraTrainer",
             "MusubiQwenImageLoraTrainer",
             "MusubiWanLoraTrainer",
@@ -17166,6 +17194,7 @@
             "SD15LoraTrainer",
             "SDXLLoraTrainer",
             "SDXLSelectiveLoRALoader",
+            "ScheduledLoRALoader",
             "WanSelectiveLoRALoader",
             "ZImageSelectiveLoRALoader"
         ],
@@ -17584,6 +17613,14 @@
         ],
         {
             "title_aux": "ComfyUI-MaskArbiter"
+        }
+    ],
+    "https://github.com/SparknightLLC/ComfyUI-ModelSamplingSD3Advanced": [
+        [
+            "ModelSamplingSD3Advanced"
+        ],
+        {
+            "title_aux": "ComfyUI-ModelSamplingSD3Advanced"
         }
     ],
     "https://github.com/SparknightLLC/ComfyUI-WeightedRandomChoice": [
@@ -19291,6 +19328,15 @@
         ],
         {
             "title_aux": "DreamO Comfyui"
+        }
+    ],
+    "https://github.com/TobiasGlaubach/ComfyUI-TG_pydocmaker": [
+        [
+            "TG_PydGetMetadata",
+            "TG_PydPreview"
+        ],
+        {
+            "title_aux": "ComfyUI-TG_pydocmaker"
         }
     ],
     "https://github.com/Tr1dae/ComfyUI-Dequality": [
@@ -29779,6 +29825,14 @@
             "title_aux": "ComfyUI_text_diff"
         }
     ],
+    "https://github.com/ddontsov93/ComfyUI-AudioSeparator": [
+        [
+            "AudioSeparatorNode"
+        ],
+        {
+            "title_aux": "ComfyUI-AudioSeparator"
+        }
+    ],
     "https://github.com/denfrost/Den_ComfyUI_Workflow": [
         [
             "Den_CropImage_AS",
@@ -39641,6 +39695,16 @@
             "title_aux": "Comfyui_three_js"
         }
     ],
+    "https://github.com/logicalor/comfyui_friendly_pipe": [
+        [
+            "FriendlyPipeEdit",
+            "FriendlyPipeIn",
+            "FriendlyPipeOut"
+        ],
+        {
+            "title_aux": "comfyui_friendly_pipe"
+        }
+    ],
     "https://github.com/logicalor/comfyui_multi_replace": [
         [
             "FindReplacePairs",
@@ -45337,6 +45401,17 @@
             "title_aux": "ComfyUI WD 1.4 Tagger"
         }
     ],
+    "https://github.com/pzc163/Comfyui-CatVTON": [
+        [
+            "AutoMasker",
+            "CatVTON",
+            "LoadAutoMasker",
+            "LoadCatVTONPipeline"
+        ],
+        {
+            "title_aux": "Comfyui-CatVTON"
+        }
+    ],
     "https://github.com/pzc163/Comfyui_MiniCPMv2_6-prompt-generator": [
         [
             "Prompt_Generator",
@@ -46252,6 +46327,17 @@
         ],
         {
             "title_aux": "Dia realistic TTS"
+        }
+    ],
+    "https://github.com/rnbwdsh/ComfyUI-LatentWalk": [
+        [
+            "LatentWalkConditional",
+            "LatentWalkConditionalRandom",
+            "LatentWalkNoise",
+            "LatentWalkVae"
+        ],
+        {
+            "title_aux": "Latent Walk"
         }
     ],
     "https://github.com/rndnanthu/ComfyUI-RndNanthu": [
@@ -52742,6 +52828,17 @@
         ],
         {
             "title_aux": "Comfyui_Get_promptId"
+        }
+    ],
+    "https://github.com/xuheyao/comfyui-dinov3-point-prompt": [
+        [
+            "DINOv3Loader",
+            "DINOv3PointCollector",
+            "DINOv3Process",
+            "DINOv3Similarity"
+        ],
+        {
+            "title_aux": "comfyui-dinov3-point-prompt"
         }
     ],
     "https://github.com/xuhongming251/ComfyUI-GPEN": [

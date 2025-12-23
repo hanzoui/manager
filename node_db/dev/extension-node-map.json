@@ -9126,13 +9126,18 @@
     ],
     "https://github.com/jorin91/ComfyUI-JSG-Utils": [
         [
+            "JSGAddMetadata",
             "JSGDeleteFilePassAny",
             "JSGDeleteFilePassImage",
             "JSGDeleteFilePassString",
             "JSGFindImagePathsRecursive",
             "JSGFindImagesRecursiveList",
             "JSGLoadImageFromPath",
-            "JSGParsePath"
+            "JSGParsePath",
+            "JSGRandomColorHSVA",
+            "JSGRemoveMetadata",
+            "JSGSaveImage",
+            "JSGSetMetadata"
         ],
         {
             "title_aux": "ComfyUI-JSG-Utils [UNSAFE]"
@@ -12202,12 +12207,7 @@
             "ListItemExtractor",
             "LogValue",
             "LoopAny",
-            "PromptCombinationProcessor",
-            "PromptConditioner",
             "PromptPartJoin",
-            "PromptRandomizer",
-            "PromptTagFilter",
-            "PromptWeightManager",
             "StringBuilder",
             "StringCollector",
             "StringConcatenation",

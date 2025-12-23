@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "TobiasGlaubach",
+            "title": "ComfyUI-TG_PyCode [UNSAFE]",
+            "reference": "https://github.com/TobiasGlaubach/ComfyUI-TG_PyCode",
+            "files": [
+                "https://github.com/TobiasGlaubach/ComfyUI-TG_PyCode"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node library with an editor and nodes to run Python code within ComfyUI workflows.[w/This nodepack has a vulnerability that allows arbitrary code execution remotely.]"
+        },
+        {
+            "author": "jchiotaka",
+            "title": "ComfyUI-ClarityAI-Upscaler",
+            "reference": "https://github.com/jchiotaka/ComfyUI-ClarityAI-Upscaler",
+            "files": [
+                "https://github.com/jchiotaka/ComfyUI-ClarityAI-Upscaler"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI upscaler nodes including ClarityCreativeUpscaler, ClarityCrystalUpscaler, and ClarityFluxUpscaler. (Description by CC)"
+        },      
+        {
             "author": "tpc2233",
             "title": "ComfyUI-TP-IMtalker [WIP]",
             "reference": "https://github.com/tpc2233/ComfyUI-TP-IMtalker",
