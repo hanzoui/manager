@@ -2933,8 +2933,8 @@
         [
             "ClearDirectoryNode",
             "ElevenLabsTTSNode",
-            "FluxKontextMaxNode",
-            "FluxKontextProNode",
+            "Flux2Replicate",
+            "FluxKontextReplicate",
             "GPTImageEditNode",
             "GeminiChatNode",
             "GeminiDiarisationAPI",
@@ -2981,7 +2981,7 @@
             "LoadImageFromBase64"
         ],
         {
-            "title_aux": "ComfyUI_Base64Images"
+            "title_aux": "Base64 Images input and output nodes for ComfyUI"
         }
     ],
     "https://github.com/AstrionX/ComfyUI-Tensor-Prism-Node-Pack": [
@@ -3030,7 +3030,7 @@
             "CustomResolutionI2V"
         ],
         {
-            "title_aux": "ComfyUI_CustomResolution_I2V"
+            "title_aux": "Custom Resolution I2V"
         }
     ],
     "https://github.com/AuroBit/ComfyUI-AnimateAnyone-reproduction": [
@@ -3061,7 +3061,7 @@
     ],
     "https://github.com/Austat/ComfyUI-RemacriScale": [
         [
-            "RemacriOnnxUpscale"
+            "RemacriOnnxUpscaleNode"
         ],
         {
             "title_aux": "ComfyUI-RemacriScale"
@@ -3770,6 +3770,18 @@
         ],
         {
             "title_aux": "BV Nodes"
+        }
+    ],
+    "https://github.com/BlackVortexAI/bv_nodepack": [
+        [
+            "BV Pipe",
+            "BV Pipe Config",
+            "BV Subgraph Divider",
+            "BV Subgraph Heading",
+            "BV Subgraph Spacer"
+        ],
+        {
+            "title_aux": "BV Node Pack"
         }
     ],
     "https://github.com/BlakeOne/ComfyUI-CustomScheduler": [
@@ -7761,6 +7773,7 @@
         [
             "FossielCentralControlLite",
             "FossielCentralControl_v2",
+            "FossielLevelMatchmaker",
             "FossielSequenceWrangler",
             "FossielWebPWrangler",
             "Fossiel_Qwen_Size_Stabilizer",
@@ -16652,6 +16665,14 @@
             "title_aux": "Workflow to API Converter Endpoint"
         }
     ],
+    "https://github.com/Shadowwalker0P/CryptoNoise-Ksampler": [
+        [
+            "CryptoNoise_KSampler"
+        ],
+        {
+            "title_aux": "CryptoNoise-Ksampler"
+        }
+    ],
     "https://github.com/Shakker-Labs/ComfyUI-IPAdapter-Flux": [
         [
             "ApplyIPAdapterFlux",
@@ -19663,6 +19684,14 @@
             "title_aux": "ComfyUI-Qwen-Aspect-Ratio"
         }
     ],
+    "https://github.com/Verolelb/ComfyUI-Video-Workbench": [
+        [
+            "AutoEditWorkbench"
+        ],
+        {
+            "title_aux": "ComfyUI-Video-Workbench"
+        }
+    ],
     "https://github.com/Verolelb/ComfyUI-VideoCompressor": [
         [
             "VideoCompressor"
@@ -21297,9 +21326,21 @@
     ],
     "https://github.com/ZXL-Xinram/ComfyUI-AutoFlow": [
         [
+            "AutoFlowAddAlphaChannel",
+            "AutoFlowCombineVideoAndMask",
+            "AutoFlowConditionAssignment",
+            "AutoFlowConditionChecker",
+            "AutoFlowExportTexturedMesh",
+            "AutoFlowImageResizeCalculator",
+            "AutoFlowIntToListConverter",
+            "AutoFlowListLength",
+            "AutoFlowListToIntExtractor",
+            "AutoFlowLoadImageWithBackground",
+            "AutoFlowLoadImagesForLoopWithBackground",
             "AutoFlowPathJoiner",
             "AutoFlowPathParser",
             "AutoFlowPathValidator",
+            "AutoFlowSaveImagesWithAlpha",
             "AutoFlowStringCase",
             "AutoFlowStringConcat",
             "AutoFlowStringFormat",
@@ -21307,7 +21348,8 @@
             "AutoFlowStringReplace",
             "AutoFlowStringSplit",
             "AutoFlowTimestampFormatter",
-            "AutoFlowTimestampGenerator"
+            "AutoFlowTimestampGenerator",
+            "AutoFlowVideoToImages"
         ],
         {
             "title_aux": "ComfyUI-AutoFlow"
@@ -22234,6 +22276,7 @@
     "https://github.com/ainewsto/Comfyui_Comfly_v2": [
         [
             "ComflyChatGPTApi",
+            "ComflyGeminiTextOnly",
             "ComflyGoogelVeo3",
             "ComflyJimengApi",
             "ComflyJimengVideoApi",
@@ -22884,6 +22927,7 @@
             "Image Saver Simple",
             "Input Parameters (Image Saver)",
             "Int Literal (Image Saver)",
+            "RandomShapeGenerator",
             "Sampler Selector (Image Saver)",
             "Scheduler Selector (Eff.) (Image Saver)",
             "Scheduler Selector (Image Saver)",
@@ -30577,7 +30621,8 @@
     ],
     "https://github.com/dzy1128/ComfyUI-Vector-Engine": [
         [
-            "VectorEngineImageGenerator"
+            "VectorEngineGPT",
+            "VectorEngineGemini"
         ],
         {
             "title_aux": "ComfyUI-Vector-Engine"
@@ -37849,7 +37894,8 @@
         [
             "ConvertOpenPoseKeypointsToDWPose",
             "PoseDetectionVitPoseToDWPose",
-            "RenderNLFPoses"
+            "RenderNLFPoses",
+            "SaveNLFPosesAs3D"
         ],
         {
             "title_aux": "ComfyUI-SCAIL-Pose"
@@ -37973,6 +38019,7 @@
             "WanVideoImageToVideoEncode",
             "WanVideoImageToVideoMultiTalk",
             "WanVideoLatentReScale",
+            "WanVideoLongCatAvatarExtendEmbeds",
             "WanVideoLoopArgs",
             "WanVideoLoraBlockEdit",
             "WanVideoLoraSelect",
@@ -42772,6 +42819,16 @@
             "title_aux": "ComfyUI-NegiTools"
         }
     ],
+    "https://github.com/naxci1/ComfyUI-FlashVSR_Stable": [
+        [
+            "FlashVSRInitPipe",
+            "FlashVSRNode",
+            "FlashVSRNodeAdv"
+        ],
+        {
+            "title_aux": "ComfyUI-FlashVSR_Stable"
+        }
+    ],
     "https://github.com/nchenevey1/comfyui-gimp-nodes": [
         [
             "NC_LoadImageGIMP",
@@ -43228,6 +43285,7 @@
         [
             "InoBoolToSwitch",
             "InoBooleanEqual",
+            "InoLoadImagesFromFolder",
             "InoNotBoolean"
         ],
         {
@@ -43619,6 +43677,16 @@
         ],
         {
             "title_aux": "ComfyUI-WhisperXX"
+        }
+    ],
+    "https://github.com/okdalto/ComfyUI-FlashPortrait": [
+        [
+            "FlashPortraitFeatureExtractor",
+            "FlashPortraitLoader",
+            "FlashPortraitSampler"
+        ],
+        {
+            "title_aux": "ComfyUI-FlashPortrait"
         }
     ],
     "https://github.com/okdalto/ComfyUI-PersonaLive": [
@@ -45628,6 +45696,16 @@
             "title_aux": "Whirlpool Upscaler"
         }
     ],
+    "https://github.com/rakkarage/ComfyRage": [
+        [
+            "Debug",
+            "Pre",
+            "Show"
+        ],
+        {
+            "title_aux": "ComfyRage"
+        }
+    ],
     "https://github.com/ramesh-x90/ComfyUI_pyannote": [
         [
             "Speaker Diarization",
@@ -46536,6 +46614,7 @@
     "https://github.com/rookiestar28/ComfyUI_Text_Processor": [
         [
             "AddTextToImage",
+            "AdvancedImageSaver",
             "AdvancedTextFilter",
             "EvaluateFloats",
             "EvaluateInts",

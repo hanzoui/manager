@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "starsFriday",
+            "title": "ComfyUI-KLingAI-OmniVideo [WIP]",
+            "reference": "https://github.com/starsFriday/ComfyUI-KLingAI-OmniVideo",
+            "files": [
+                "https://github.com/starsFriday/ComfyUI-KLingAI-OmniVideo"
+            ],
+            "install_type": "git-clone",
+            "description": "Five API nodes for KLingAI's OmniVideo (O1) usage\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Hifunyo",
+            "title": "comfyui_google_ai",
+            "reference": "https://github.com/Hifunyo/comfyui_google_ai",
+            "files": [
+                "https://github.com/Hifunyo/comfyui_google_ai"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI integration node for Google AI image generation capabilities. (Description by CC)"
+        },
+        {
+            "author": "nschpy",
+            "title": "ComfyUI_MovisAdapter [UNSAFE]",
+            "reference": "https://github.com/nschpy/ComfyUI_MovisAdapter",
+            "files": [
+                "https://github.com/nschpy/ComfyUI_MovisAdapter"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
+            "author": "devzeroLL",
+            "title": "comfyui-lxj-Node",
+            "reference": "https://github.com/devzeroLL/comfyui-lxj-Node",
+            "files": [
+                "https://github.com/devzeroLL/comfyui-lxj-Node"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: lxj_ImageBatch14, lxj_TextBatch14"
+        },
+        {
+            "author": "hgh086",
+            "title": "Comfyui-HghImage",
+            "reference": "https://github.com/hgh086/Comfyui-HghImage",
+            "files": [
+                "https://github.com/hgh086/Comfyui-HghImage"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for image comparison functionality. (Description by CC)"
+        },
+        {
             "author": "Ginolazy",
             "title": "ComfyUI-FluxKontextImageCompensate [WIP]",
             "reference": "https://github.com/Ginolazy/ComfyUI-FluxKontextImageCompensate",
@@ -8950,16 +9000,6 @@
             ],
             "install_type": "git-clone",
             "description": "A powerful debugging tool designed to provide in-depth analysis of your environment and dependencies by exposing API endpoints. This tool allows you to inspect environment variables, pip packages, python info and dependency trees, making it easier to diagnose and resolve issues in your ComfyUI setup.[w/This tool may expose sensitive system information if used on a public server]"
-        },
-        {
-            "author": "Futureversecom",
-            "title": "ComfyUI-JEN",
-            "reference": "https://github.com/futureversecom/ComfyUI-JEN",
-            "files": [
-                "https://github.com/futureversecom/ComfyUI-JEN"
-            ],
-            "install_type": "git-clone",
-            "description": "Comfy UI custom nodes for JEN music generation powered by Futureverse"
         },
         {
             "author": "denislov",

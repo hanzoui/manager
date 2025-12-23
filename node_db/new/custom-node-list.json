@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "okdalto",
+            "title": "ComfyUI-FlashPortrait",
+            "reference": "https://github.com/okdalto/ComfyUI-FlashPortrait",
+            "files": [
+                "https://github.com/okdalto/ComfyUI-FlashPortrait"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for FlashPortrait that enable infinite-length portrait animation generation driven by video with automatic model downloading and flexible input options."
+        },
+        {
+            "author": "Shadowwalker0P",
+            "title": "CryptoNoise-Ksampler",
+            "reference": "https://github.com/Shadowwalker0P/CryptoNoise-Ksampler",
+            "files": [
+                "https://github.com/Shadowwalker0P/CryptoNoise-Ksampler"
+            ],
+            "install_type": "git-clone",
+            "description": "Drop-in replacement for ComfyUI's standard KSampler that embeds cryptographic proof of authorship directly into generated images through deterministic noise injection into the latent representation."
+        },
+        {
+            "author": "Verolelb",
+            "title": "ComfyUI-Video-Workbench",
+            "reference": "https://github.com/Verolelb/ComfyUI-Video-Workbench",
+            "files": [
+                "https://github.com/Verolelb/ComfyUI-Video-Workbench"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node that acts as a mini video editing studio, automatically assembling multiple video clips from a folder with intelligent resolution resizing, aspect ratio handling, and frame rate management."
+        },
+        {
             "author": "BlackVortexAI",
             "title": "BV Node Pack",
             "reference": "https://github.com/BlackVortexAI/bv_nodepack",
