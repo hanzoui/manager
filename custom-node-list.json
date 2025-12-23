@@ -39240,13 +39240,14 @@
         },
         {
             "author": "AugustusLXIII",
-            "title": "ComfyUI_CustomResolution_I2V",
+            "title": "Custom Resolution I2V",
+            "id": "custom-resolution-i2v-augustus",
             "reference": "https://github.com/AugustusLXIII/ComfyUI_CustomResolution_I2V",
             "files": [
                 "https://github.com/AugustusLXIII/ComfyUI_CustomResolution_I2V"
             ],
             "install_type": "git-clone",
-            "description": "Specialized resolution utility node for WanVideo Image-to-Video workflows with 20 preset levels, manual override with auto-rounding, and tooltips for custom dimensions. (Description by CC)"
+            "description": "A resolution utility for WanVideo I2V with 20 presets, manual override and automatic rounding."
         },
         {
             "author": "RyukoMatoiFan",
@@ -39749,17 +39750,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "AugustusLXIII",
-            "title": "Custom Resolution I2V",
-            "id": "custom-resolution-i2v-augustus",
-            "reference": "https://github.com/AugustusLXIII/ComfyUI_CustomResolution_I2V",
-            "files": [
-                "https://github.com/AugustusLXIII/ComfyUI_CustomResolution_I2V"
-            ],
-            "install_type": "git-clone",
-            "description": "A resolution utility for WanVideo I2V with 20 presets, manual override and automatic rounding."
         }
     ]
 }
