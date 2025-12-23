@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "BlackVortexAI",
+            "title": "BV Node Pack",
+            "reference": "https://github.com/BlackVortexAI/bv_nodepack",
+            "files": [
+                "https://github.com/BlackVortexAI/bv_nodepack"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node pack with utility and workflow nodes: a flexible config-driven Pipe system plus Subgraph-friendly UI nodes (Heading, Spacer, Divider) with dynamic JavaScript rendering."
+        },
+        {
             "author": "rakkarage",
             "title": "ComfyRage",
             "id": "comfyrage",
@@ -10,7 +20,7 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI text nodes. Pre (preprocess comments, random, and de-emphasis), Show (show and persist text), and Debug (show and persist weights)."
-        },       
+        },
         {
             "author": "naxci1",
             "title": "ComfyUI-FlashVSR_Stable",
@@ -30,7 +40,7 @@
             ],
             "install_type": "git-clone",
             "description": "FL CosyVoice3 - Advanced Text-to-Speech nodes for ComfyUI. Features zero-shot voice cloning, cross-lingual synthesis, instruction-based control, and voice conversion using the CosyVoice3 model family. Supports 9 languages and 18+ Chinese dialects with automatic model downloading and caching."
-        },        
+        },
         {
             "author": "ShammiG",
             "title": "ComfyUI_Text_Tools_SG",
