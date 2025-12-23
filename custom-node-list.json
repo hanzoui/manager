@@ -5112,6 +5112,16 @@
             "description": "A standalone ComfyUI custom node for creating animated shapes that follow user-drawn paths."
         },
         {
+            "author": "filliptm",
+            "title": "ComfyUI_FL-CosyVoice3",
+            "reference": "https://github.com/filliptm/ComfyUI_FL-CosyVoice3",
+            "files": [
+                "https://github.com/filliptm/ComfyUI_FL-CosyVoice3"
+            ],
+            "install_type": "git-clone",
+            "description": "FL CosyVoice3 - Advanced Text-to-Speech nodes for ComfyUI. Features zero-shot voice cloning, cross-lingual synthesis, instruction-based control, and voice conversion using the CosyVoice3 model family. Supports 9 languages and 18+ Chinese dialects with automatic model downloading and caching."
+        },
+        {
             "author": "zfkun",
             "title": "ComfyUI_zfkun",
             "reference": "https://github.com/zfkun/ComfyUI_zfkun",
@@ -34917,6 +34927,16 @@
             "description": "Simple node to show ANY output text in the CMD console with color options"
         },
         {
+            "author": "ShammiG",
+            "title": "ComfyUI_Text_Tools_SG",
+            "reference": "https://github.com/ShammiG/ComfyUI_Text_Tools_SG",
+            "files": [
+                "https://github.com/ShammiG/ComfyUI_Text_Tools_SG"
+            ],
+            "install_type": "git-clone",
+            "description": "Text Editor node with Markdown editing plus quick shortcuts, Text Viewer node, with extra features plus Text Merge, Text Save and Load Text from anywhere nodes."
+        },
+        {
             "author": "bgreene2",
             "title": "ComfyUI-Hunyuan-Image-3",
             "reference": "https://github.com/bgreene2/ComfyUI-Hunyuan-Image-3",
@@ -38265,6 +38285,16 @@
             "description": "The next-generation security, governance, permissions, and multi‑user control system for ComfyUI."
         },
         {
+            "author": "DayMan84",
+            "title": "ComfyUI-Usgromana-Gallery",
+            "reference": "https://github.com/DayMan84/ComfyUI-Usgromana-Gallery",
+            "files": [
+                "https://github.com/DayMan84/ComfyUI-Usgromana-Gallery"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive image gallery extension for ComfyUI that provides advanced image management, metadata editing, NSFW content filtering, real-time file monitoring, and a full-featured file explorer."
+        },
+        {
             "author": "DemonNCoding",
             "title": "PromptGenerator 12-Columns",
             "id": "promptgenerator12columns",
@@ -39298,7 +39328,17 @@
             "install_type": "git-clone",
             "description": "A minimal template for creating React/TypeScript frontend extensions for ComfyUI, with complete boilerplate setup including internationalization and unit testing."
         },
-
+        {
+            "author": "rakkarage",
+            "title": "ComfyRage",
+            "id": "comfyrage",
+            "reference": "https://github.com/rakkarage/ComfyRage",
+            "files": [
+                "https://github.com/rakkarage/ComfyRage"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI text nodes. Pre (preprocess comments, random, and de-emphasis), Show (show and persist text), and Debug (show and persist weights)."
+        },
 
 
 
@@ -39699,17 +39739,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "rakkarage",
-            "title": "ComfyRage",
-            "id": "comfyrage",
-            "reference": "https://github.com/rakkarage/ComfyRage",
-            "files": [
-                "https://github.com/rakkarage/ComfyRage"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI text nodes. Pre (preprocess comments, random, and de-emphasis), Show (show and persist text), and Debug (show and persist weights)."
         }
     ]
 }

@@ -1,6 +1,116 @@
 {
     "custom_nodes": [
         {
+            "author": "Ginolazy",
+            "title": "ComfyUI-FluxKontextImageCompensate [WIP]",
+            "reference": "https://github.com/Ginolazy/ComfyUI-FluxKontextImageCompensate",
+            "files": [
+                "https://github.com/Ginolazy/ComfyUI-FluxKontextImageCompensate"
+            ],
+            "install_type": "git-clone",
+            "description": "A focused ComfyUI plugin to handle the vertical stretching issue introduced by the Flux Kontext model.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "IO-AtelierTech",
+            "title": "comfyui-genai-connectors [WIP]",
+            "reference": "https://github.com/IO-AtelierTech/comfyui-genai-connectors",
+            "files": [
+                "https://github.com/IO-AtelierTech/comfyui-genai-connectors"
+            ],
+            "install_type": "git-clone",
+            "description": "The ComfyUI-fal-Connector is a tool designed to provide an integration between ComfyUI and fal. This extension allows users to execute their ComfyUI workflows directly on [a/fal.ai](https://fal.ai/). This enables users to leverage the computational power and resources provided by fal.ai for running their ComfyUI workflows.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "PozzettiAndrea",
+            "title": "ComfyUI-MVDUST3R [UNSAFE]",
+            "reference": "https://github.com/PozzettiAndrea/ComfyUI-MVDUST3R",
+            "files": [
+                "https://github.com/PozzettiAndrea/ComfyUI-MVDUST3R"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for MVDUST3R multi-view 3D reconstruction[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
+            "author": "ProjectAtlantis-dev",
+            "title": "comfyui-atlantis-json [UNSAFE]",
+            "reference": "https://github.com/ProjectAtlantis-dev/comfyui-atlantis-json",
+            "files": [
+                "https://github.com/ProjectAtlantis-dev/comfyui-atlantis-json"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for JSON processing and transcription workflows, including text-to-JSON conversion, SRT subtitle parsing, and file saving. (Description by CC)[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
+            "author": "ShammiG",
+            "title": "ComfyUI_Text_Tools_SG [UNSAFE]",
+            "reference": "https://github.com/ShammiG/ComfyUI_Text_Tools_SG",
+            "files": [
+                "https://github.com/ShammiG/ComfyUI_Text_Tools_SG"
+            ],
+            "install_type": "git-clone",
+            "description": "Text Editor node with Markdown editing plus quick shortcuts, Text Viewer node, with extra features plus Text Merge, Text Save and Load Text from anywhere nodes.[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
+            "author": "Smyshnikof",
+            "title": "ComfyUI-PresetDownloadManager [UNSAFE]",
+            "reference": "https://github.com/Smyshnikof/ComfyUI-PresetDownloadManager",
+            "files": [
+                "https://github.com/Smyshnikof/ComfyUI-PresetDownloadManager"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node for managing and downloading models from HuggingFace with preset support[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
+            "author": "gulajawalegit",
+            "title": "ComfyUI-Telegram-Sender [UNSAFE]",
+            "reference": "https://github.com/gulajawalegit/ComfyUI-Telegram-Sender",
+            "files": [
+                "https://github.com/gulajawalegit/ComfyUI-Telegram-Sender"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for sending generated videos to Telegram, enabling direct output sharing to messaging platforms. (Description by CC)[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
+            "author": "Laolilzp",
+            "title": "Laoli3D [UNSAFE]",
+            "reference": "https://github.com/Laolilzp/Laoli3D",
+            "files": [
+                "https://github.com/Laolilzp/Laoli3D"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI 3D pose editor enabling visual character manipulation and ControlNet image generation for precise AI figure control without prompt description. (Description by CC)[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
+            "author": "Goldlionren",
+            "title": "ComfyUI_Bridge_fabric [UNSAFE]",
+            "reference": "https://github.com/Goldlionren/ComfyUI_Bridge_fabric",
+            "files": [
+                "https://github.com/Goldlionren/ComfyUI_Bridge_fabric"
+            ],
+            "install_type": "git-clone",
+            "description": "AI Compute Fabric bridge for ComfyUI enabling distributed CLIP, VAE, and ControlNet inference across local and remote machines. (Description by CC)[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
+            "author": "CypherNaught-0x",
+            "title": "ComfyUI-StarVector [WIP]",
+            "reference": "https://github.com/CypherNaught-0x/ComfyUI-StarVector",
+            "files": [
+                "https://github.com/CypherNaught-0x/ComfyUI-StarVector"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for SVG generation using StarVector models\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Clivey1234",
+            "title": "ComfyUI_FBX_Import [UNSAFE]",
+            "reference": "https://github.com/Clivey1234/ComfyUI_FBX_Import",
+            "files": [
+                "https://github.com/Clivey1234/ComfyUI_FBX_Import"
+            ],
+            "install_type": "git-clone",
+            "description": "Convert FBX animations into ControlNet OpenPose images for driving AI video generation with motion from any animation source. (Description by CC)[w/This nodepack has a vulnerability that allows arbitrary code execution remotely.]"
+        },        
+        {
             "author": "TobiasGlaubach",
             "title": "ComfyUI-TG_PyCode [UNSAFE]",
             "reference": "https://github.com/TobiasGlaubach/ComfyUI-TG_PyCode",

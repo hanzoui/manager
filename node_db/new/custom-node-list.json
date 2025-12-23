@@ -1,6 +1,37 @@
 {
     "custom_nodes": [
         {
+            "author": "rakkarage",
+            "title": "ComfyRage",
+            "id": "comfyrage",
+            "reference": "https://github.com/rakkarage/ComfyRage",
+            "files": [
+                "https://github.com/rakkarage/ComfyRage"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI text nodes. Pre (preprocess comments, random, and de-emphasis), Show (show and persist text), and Debug (show and persist weights)."
+        },        
+        {
+            "author": "filliptm",
+            "title": "ComfyUI_FL-CosyVoice3",
+            "reference": "https://github.com/filliptm/ComfyUI_FL-CosyVoice3",
+            "files": [
+                "https://github.com/filliptm/ComfyUI_FL-CosyVoice3"
+            ],
+            "install_type": "git-clone",
+            "description": "FL CosyVoice3 - Advanced Text-to-Speech nodes for ComfyUI. Features zero-shot voice cloning, cross-lingual synthesis, instruction-based control, and voice conversion using the CosyVoice3 model family. Supports 9 languages and 18+ Chinese dialects with automatic model downloading and caching."
+        },        
+        {
+            "author": "ShammiG",
+            "title": "ComfyUI_Text_Tools_SG",
+            "reference": "https://github.com/ShammiG/ComfyUI_Text_Tools_SG",
+            "files": [
+                "https://github.com/ShammiG/ComfyUI_Text_Tools_SG"
+            ],
+            "install_type": "git-clone",
+            "description": "Text Editor node with Markdown editing plus quick shortcuts, Text Viewer node, with extra features plus Text Merge, Text Save and Load Text from anywhere nodes."
+        },
+        {
             "author": "SparknightLLC",
             "title": "ComfyUI-ModelSamplingSD3Advanced",
             "reference": "https://github.com/SparknightLLC/ComfyUI-ModelSamplingSD3Advanced",
@@ -11,6 +42,16 @@
             "description": "Adds windowed, curved shift control for Flow Matching samplers (SD3-style / flow schedules). It is a drop-in replacement for Comfy's included ModelSamplingSD3 node."
         },
         {
+            "author": "DayMan84",
+            "title": "ComfyUI-Usgromana-Gallery",
+            "reference": "https://github.com/DayMan84/ComfyUI-Usgromana-Gallery",
+            "files": [
+                "https://github.com/DayMan84/ComfyUI-Usgromana-Gallery"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive image gallery extension for ComfyUI that provides advanced image management, metadata editing, NSFW content filtering, real-time file monitoring, and a full-featured file explorer."
+        },
+        {
             "author": "ddontsov93",
             "title": "ComfyUI-AudioSeparator",
             "reference": "https://github.com/ddontsov93/ComfyUI-AudioSeparator",
@@ -19,6 +60,16 @@
             ],
             "install_type": "git-clone",
             "description": "Custom node for ComfyUI integrating audio-separator library that separates audio stems (vocals vs instrumental), removes noise, and fixes audio artifacts using GPU acceleration. (Description by CC)"
+        },
+        {
+            "author": "cyberlightdev",
+            "title": "ComfyUI-CyberUtils",
+            "reference": "https://github.com/cyberlightdev/ComfyUI-CyberUtils",
+            "files": [
+                "https://github.com/cyberlightdev/ComfyUI-CyberUtils"
+            ],
+            "install_type": "git-clone",
+            "description": "A minimal template for creating React/TypeScript frontend extensions for ComfyUI, with complete boilerplate setup including internationalization and unit testing."
         },
         {
             "author": "TobiasGlaubach",
@@ -662,66 +713,6 @@
             ],
             "install_type": "git-clone",
             "description": "Generate human poses from text descriptions using T2P Transformer for ControlNet/T2I-Adapter workflows"
-        },
-        {
-            "author": "kijai",
-            "title": "ComfyUI-SCAIL-Pose",
-            "reference": "https://github.com/kijai/ComfyUI-SCAIL-Pose",
-            "files": [
-                "https://github.com/kijai/ComfyUI-SCAIL-Pose"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI nodes for SCAIL input processing"
-        },
-        {
-            "author": "ShammiG",
-            "title": "ComfyUI-Show_Any_Text_in_CMD_Console-SG",
-            "reference": "https://github.com/ShammiG/ComfyUI-Show_Any_Text_in_CMD_Console-SG",
-            "files": [
-                "https://github.com/ShammiG/ComfyUI-Show_Any_Text_in_CMD_Console-SG"
-            ],
-            "install_type": "git-clone",
-            "description": "Simple node to show ANY output text in the CMD console with color options"
-        },        
-        {
-            "author": "ubisoft",
-            "title": "ComfyUI-Chord",
-            "reference": "https://github.com/ubisoft/ComfyUI-Chord",
-            "files": [
-                "https://github.com/ubisoft/ComfyUI-Chord"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for the paper: Chord: Chain of Rendering Decomposition for PBR Material Estimation from Generated Texture Images"
-        },
-        {
-            "author": "g7b2",
-            "title": "ComfyUI-Artist-Tester",
-            "reference": "https://github.com/g7b2/ComfyUI-Artist-Tester",
-            "files": [
-                "https://github.com/g7b2/ComfyUI-Artist-Tester"
-            ],
-            "install_type": "git-clone",
-            "description": "A dedicated suite of custom nodes for batch testing artists, styles, and prompts in ComfyUI, solving the caching problem with anti-cache logic and dynamic filename generation."
-        },
-        {
-            "author": "dseditor",
-            "title": "Comfy-MCP",
-            "reference": "https://github.com/dseditor/Comfy-MCP",
-            "files": [
-                "https://github.com/dseditor/Comfy-MCP"
-            ],
-            "install_type": "git-clone",
-            "description": "Simple MCP Server for ComfyUI text to image Workflow - ComfyUI Node Integration , Based on lalanikarim/comfy-mcp-server work"
-        },
-        {
-            "author": "ashtar1984",
-            "title": "ComfyUI-SwitchPathLazy",
-            "reference": "https://github.com/ashtar1984/ComfyUI-SwitchPathLazy",
-            "files": [
-                "https://github.com/ashtar1984/ComfyUI-SwitchPathLazy"
-            ],
-            "install_type": "git-clone",
-            "description": "Efficient lazy path switch for ComfyUI. Skips execution of the inactive branch entirely using native lazy evaluation. Includes live status display."
         }
     ]
 }
