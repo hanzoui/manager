@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "vjumpkung",
+            "title": "ComfyUI-STARWrapper",
+            "reference": "https://github.com/vjumpkung/ComfyUI-STARWrapper",
+            "files": [
+                "https://github.com/vjumpkung/ComfyUI-STARWrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "An experimental STAR Video Upscale Wrapper."
+        },
+        {
+            "author": "ttulttul",
+            "title": "Skoogeer-Noise",
+            "reference": "https://github.com/ttulttul/Skoogeer-Noise",
+            "files": [
+                "https://github.com/ttulttul/Skoogeer-Noise"
+            ],
+            "install_type": "git-clone",
+            "description": "Noise, conditioning, and perturbation utility nodes for ComfyUI (procedural noise, mesh drag, latent channel stats preview)."
+        },
+        {
+            "author": "SparknightLLC",
+            "title": "ComfyUI-SpectralVAEDetailer",
+            "reference": "https://github.com/SparknightLLC/ComfyUI-SpectralVAEDetailer",
+            "files": [
+                "https://github.com/SparknightLLC/ComfyUI-SpectralVAEDetailer"
+            ],
+            "install_type": "git-clone",
+            "description": "Adjusts a latent image before the VAE decoding step in order to improve your image quality."
+        },
+        {
+            "author": "Paddel87",
+            "title": "ComfyUI_fal_image",
+            "reference": "https://github.com/Paddel87/ComfyUI_fal_image",
+            "files": [
+                "https://github.com/Paddel87/ComfyUI_fal_image"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node pack for fal.ai image generation supporting FLUX models with queue polling, safety controls, and native image I/O conversion."
+        },
+        {
             "author": "okdalto",
             "title": "ComfyUI-FlashPortrait",
             "reference": "https://github.com/okdalto/ComfyUI-FlashPortrait",
@@ -524,16 +564,6 @@
             "install_type": "git-clone",
             "description": "ComfyUI Qwen-Image-Edit-2509 node integration for image editing using OpenAI Image API. (Description by CC)"
         },
-        {
-            "author": "danieljanata",
-            "title": "ComfyUI-QwenVL-Override",
-            "reference": "https://github.com/danieljanata/ComfyUI-QwenVL-Override",
-            "files": [
-                "https://github.com/danieljanata/ComfyUI-QwenVL-Override"
-            ],
-            "install_type": "git-clone",
-            "description": "Adds two nodes that reuse upstream ComfyUI-QwenVL presets but add a runtime override that can be wired/unwired without getting stuck."
-        },        
         {
             "author": "Faildes",
             "title": "ComfyUI-NegativeFold",

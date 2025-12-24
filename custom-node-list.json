@@ -5748,6 +5748,16 @@
             "description": "Progressive upscaling node for flow-matching models that incrementally doubles resolution with flow-consistent re-noising, denoising, and skip residual blending to preserve composition."
         },
         {
+            "author": "ttulttul",
+            "title": "Skoogeer-Noise",
+            "reference": "https://github.com/ttulttul/Skoogeer-Noise",
+            "files": [
+                "https://github.com/ttulttul/Skoogeer-Noise"
+            ],
+            "install_type": "git-clone",
+            "description": "Noise, conditioning, and perturbation utility nodes for ComfyUI (procedural noise, mesh drag, latent channel stats preview)."
+        },
+        {
             "author": "jitcoder",
             "title": "LoraInfo",
             "id": "lorainfo",
@@ -20385,6 +20395,16 @@
             ],
             "install_type": "git-clone",
             "description": "Adds windowed, curved shift control for Flow Matching samplers (SD3-style / flow schedules). It is a drop-in replacement for Comfy's included ModelSamplingSD3 node."
+        },
+        {
+            "author": "SparknightLLC",
+            "title": "ComfyUI-SpectralVAEDetailer",
+            "reference": "https://github.com/SparknightLLC/ComfyUI-SpectralVAEDetailer",
+            "files": [
+                "https://github.com/SparknightLLC/ComfyUI-SpectralVAEDetailer"
+            ],
+            "install_type": "git-clone",
+            "description": "Adjusts a latent image before the VAE decoding step in order to improve your image quality."
         },
         {
             "author": "lightricks",
@@ -39139,16 +39159,6 @@
             "description": "ComfyUI Qwen-Image-Edit-2509 node integration for image editing using OpenAI Image API. (Description by CC)"
         },
         {
-            "author": "danieljanata",
-            "title": "ComfyUI-QwenVL-Override",
-            "reference": "https://github.com/danieljanata/ComfyUI-QwenVL-Override",
-            "files": [
-                "https://github.com/danieljanata/ComfyUI-QwenVL-Override"
-            ],
-            "install_type": "git-clone",
-            "description": "Adds two nodes that reuse upstream ComfyUI-QwenVL presets but add a runtime override that can be wired/unwired without getting stuck."
-        },
-        {
             "author": "Arctenox",
             "title": "Arctenoxs-Essentials_ComfyUI",
             "reference": "https://github.com/Arctenox/Arctenoxs-Essentials_ComfyUI",
@@ -39390,8 +39400,26 @@
             "install_type": "git-clone",
             "description": "Drop-in replacement for ComfyUI's standard KSampler that embeds cryptographic proof of authorship directly into generated images through deterministic noise injection into the latent representation."
         },
-
-
+        {
+            "author": "vjumpkung",
+            "title": "ComfyUI-STARWrapper",
+            "reference": "https://github.com/vjumpkung/ComfyUI-STARWrapper",
+            "files": [
+                "https://github.com/vjumpkung/ComfyUI-STARWrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "An experimental STAR Video Upscale Wrapper."
+        },
+        {
+            "author": "Paddel87",
+            "title": "ComfyUI_fal_image",
+            "reference": "https://github.com/Paddel87/ComfyUI_fal_image",
+            "files": [
+                "https://github.com/Paddel87/ComfyUI_fal_image"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node pack for fal.ai image generation supporting FLUX models with queue polling, safety controls, and native image I/O conversion."
+        },
 
 
 

@@ -14340,13 +14340,15 @@
     ],
     "https://github.com/OhSeongHyeon/comfyui-watdafox-nodes": [
         [
-            "CheckpointLoaderWithOuputDirByModelName",
+            "BFParameters",
+            "BFParametersSimple",
             "IntegerPicker",
             "OuputDirByModelName",
             "RandomImageSizeAdvanced",
             "RandomImageSizeAdvancedYAML",
             "RandomInteger",
-            "UniqueStringList"
+            "UniqueStringList",
+            "UniqueStringListAdvanced"
         ],
         {
             "title_aux": "comfyui-watdafox-nodes"
@@ -14520,6 +14522,17 @@
         ],
         {
             "title_aux": "ComfyUI-ZeptaframePromptMerger"
+        }
+    ],
+    "https://github.com/Paddel87/ComfyUI_fal_image": [
+        [
+            "FALContextStore",
+            "FALImage2Image",
+            "FALModelSelectImage",
+            "FALText2Image"
+        ],
+        {
+            "title_aux": "ComfyUI_fal_image"
         }
     ],
     "https://github.com/PanicTitan/ComfyUI-Fooocus-V2-Expansion": [
@@ -14903,6 +14916,7 @@
             "GeomPackComputeNormals",
             "GeomPackConnectedComponents",
             "GeomPackCreatePrimitive",
+            "GeomPackDegenerateFaces",
             "GeomPackDepthNormalsToMesh",
             "GeomPackDetectSelfIntersections",
             "GeomPackExtractSkeleton",
@@ -14917,15 +14931,18 @@
             "GeomPackLoadMeshFBX",
             "GeomPackLoadMeshPath",
             "GeomPackMergeVertices",
+            "GeomPackMeshFix",
             "GeomPackMeshFromSkeleton",
             "GeomPackMeshInfo",
             "GeomPackMeshQuality",
             "GeomPackMeshToMeshDistance",
             "GeomPackMeshToPointCloud",
             "GeomPackNormalizeMeshToBBox",
+            "GeomPackOpenEdges",
             "GeomPackPointToMeshDistance",
             "GeomPackPreviewGaussian",
             "GeomPackPreviewMesh",
+            "GeomPackPreviewMeshAnalysis",
             "GeomPackPreviewMeshDual",
             "GeomPackPreviewMeshUV",
             "GeomPackPreviewMeshVTK",
@@ -14943,7 +14960,8 @@
             "GeomPackTextureToGeometry",
             "GeomPackTransformMesh",
             "GeomPackUVUnwrap",
-            "GeomPackVisualizeNormalField"
+            "GeomPackVisualizeNormalField",
+            "ScrambleIntField"
         ],
         {
             "title_aux": "ComfyUI libigl"
@@ -15658,6 +15676,7 @@
             "Runware Audio Sections",
             "Runware Background Removal",
             "Runware BlackForest Labs Provider Settings",
+            "Runware Bria Provider Mask",
             "Runware Bria Provider Settings",
             "Runware Bytedance Provider Settings",
             "Runware ControlNet",
@@ -15721,6 +15740,7 @@
             "RunwareAudioInput",
             "RunwareAudioInputCombine",
             "RunwareBlackForestProviderSettings",
+            "RunwareBriaProviderMask",
             "RunwareBriaProviderSettings",
             "RunwareBytedanceProviderSettings",
             "RunwareFrameImages",
@@ -17656,6 +17676,14 @@
         ],
         {
             "title_aux": "ComfyUI-ModelSamplingSD3Advanced"
+        }
+    ],
+    "https://github.com/SparknightLLC/ComfyUI-SpectralVAEDetailer": [
+        [
+            "SpectralVAEDetailer"
+        ],
+        {
+            "title_aux": "ComfyUI-SpectralVAEDetailer"
         }
     ],
     "https://github.com/SparknightLLC/ComfyUI-WeightedRandomChoice": [
@@ -29578,15 +29606,6 @@
             "title_aux": "ComfyUI-TTS"
         }
     ],
-    "https://github.com/danieljanata/ComfyUI-QwenVL-Override": [
-        [
-            "AILab_QwenVL_Override",
-            "AILab_QwenVL_Override_Advanced"
-        ],
-        {
-            "title_aux": "ComfyUI-QwenVL-Override"
-        }
-    ],
     "https://github.com/darkamenosa/comfy_inpaint_blend": [
         [
             "EnhancedImageCompositeMasked"
@@ -31699,6 +31718,7 @@
         [
             "FL_CosyVoice3_AudioCrop",
             "FL_CosyVoice3_CrossLingual",
+            "FL_CosyVoice3_Dialog",
             "FL_CosyVoice3_ModelLoader",
             "FL_CosyVoice3_VoiceConversion",
             "FL_CosyVoice3_ZeroShot"
@@ -42823,7 +42843,8 @@
         [
             "FlashVSRInitPipe",
             "FlashVSRNode",
-            "FlashVSRNodeAdv"
+            "FlashVSRNodeAdv",
+            "FlashVSR_Stable"
         ],
         {
             "title_aux": "ComfyUI-FlashVSR_Stable"
@@ -45699,6 +45720,7 @@
     "https://github.com/rakkarage/ComfyRage": [
         [
             "Debug",
+            "Notify",
             "Pre",
             "Show"
         ],
@@ -50847,29 +50869,8 @@
     ],
     "https://github.com/ttulttul/ComfyUI-FlowMatching-Inverter": [
         [
-            "ConditioningAddNoise",
-            "ConditioningFrequencyMerge",
-            "ConditioningFrequencySplit",
-            "ConditioningGaussianBlur",
-            "ConditioningScale",
-            "ImageAddNoise",
-            "ImageFractalBrownianMotion",
-            "ImagePerlinFractalNoise",
-            "ImageReactionDiffusion",
-            "ImageSimplexNoise",
-            "ImageSwirlNoise",
-            "ImageWorleyNoise",
-            "LatentAddNoise",
-            "LatentForwardDiffusion",
-            "LatentFractalBrownianMotion",
-            "LatentFrequencySplit",
-            "LatentGaussianBlur",
             "LatentHybridInverter",
-            "LatentPerlinFractalNoise",
-            "LatentReactionDiffusion",
-            "LatentSimplexNoise",
-            "LatentSwirlNoise",
-            "LatentWorleyNoise",
+            "MemoryDiagnosticsPassThrough",
             "QwenRectifiedFlowInverter"
         ],
         {
@@ -50913,6 +50914,41 @@
         ],
         {
             "title_aux": "ComfyUI-Tensor-Operations"
+        }
+    ],
+    "https://github.com/ttulttul/Skoogeer-Noise": [
+        [
+            "ConditioningAddNoise",
+            "ConditioningFrequencyMerge",
+            "ConditioningFrequencySplit",
+            "ConditioningGaussianBlur",
+            "ConditioningScale",
+            "ImageAddNoise",
+            "ImageFractalBrownianMotion",
+            "ImageMeshDrag",
+            "ImageNoise",
+            "ImagePerlinFractalNoise",
+            "ImageReactionDiffusion",
+            "ImageSimplexNoise",
+            "ImageSwirlNoise",
+            "ImageWorleyNoise",
+            "LatentAddNoise",
+            "LatentChannelStatsPreview",
+            "LatentForwardDiffusion",
+            "LatentFractalBrownianMotion",
+            "LatentFrequencyMerge",
+            "LatentFrequencySplit",
+            "LatentGaussianBlur",
+            "LatentMeshDrag",
+            "LatentNoise",
+            "LatentPerlinFractalNoise",
+            "LatentReactionDiffusion",
+            "LatentSimplexNoise",
+            "LatentSwirlNoise",
+            "LatentWorleyNoise"
+        ],
+        {
+            "title_aux": "Skoogeer-Noise"
         }
     ],
     "https://github.com/tuki0918/ComfyUI_Cooldown_Node": [
@@ -51566,6 +51602,14 @@
         ],
         {
             "title_aux": "ComfyUI-Vivax-Nodes"
+        }
+    ],
+    "https://github.com/vjumpkung/ComfyUI-STARWrapper": [
+        [
+            "STARVSRNode"
+        ],
+        {
+            "title_aux": "ComfyUI-STARWrapper"
         }
     ],
     "https://github.com/vkff5833/ComfyUI-MobileClient": [

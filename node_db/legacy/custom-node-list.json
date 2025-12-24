@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "AhBumm",
+            "title": "ComfyUI_MangaLineExtraction [REMOVED]",
+            "reference": "https://github.com/AhBumm/ComfyUI_MangaLineExtraction-hf",
+            "files": [
+               "https://github.com/AhBumm/ComfyUI_MangaLineExtraction-hf"
+            ],
+            "description": "p1atdev/MangaLineExtraction-hf as a node in comfyui",
+            "install_type": "git-clone"
+        },        
+        {
+            "author": "danieljanata",
+            "title": "ComfyUI-QwenVL-Override [REMOVED]",
+            "reference": "https://github.com/danieljanata/ComfyUI-QwenVL-Override",
+            "files": [
+                "https://github.com/danieljanata/ComfyUI-QwenVL-Override"
+            ],
+            "install_type": "git-clone",
+            "description": "Adds two nodes that reuse upstream ComfyUI-QwenVL presets but add a runtime override that can be wired/unwired without getting stuck."
+        },        
+        {
             "author": "Futureversecom",
             "title": "ComfyUI-JEN [REMOVED]",
             "reference": "https://github.com/futureversecom/ComfyUI-JEN",

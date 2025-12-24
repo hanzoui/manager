@@ -713,14 +713,6 @@
             "title_aux": "ComfyUI-Upscayl"
         }
     ],
-    "https://github.com/AhBumm/ComfyUI_MangaLineExtraction-hf": [
-        [
-            "MangaLineExtraction-hf"
-        ],
-        {
-            "title_aux": "ComfyUI_MangaLineExtraction"
-        }
-    ],
     "https://github.com/AkiEvansDev/ComfyUI-Tools": [
         [
             "AE.AnySwitch",
@@ -3686,13 +3678,15 @@
     ],
     "https://github.com/OhSeongHyeon/comfyui-random-image-size": [
         [
-            "CheckpointLoaderWithOuputDirByModelName",
+            "BFParameters",
+            "BFParametersSimple",
             "IntegerPicker",
             "OuputDirByModelName",
             "RandomImageSizeAdvanced",
             "RandomImageSizeAdvancedYAML",
             "RandomInteger",
-            "UniqueStringList"
+            "UniqueStringList",
+            "UniqueStringListAdvanced"
         ],
         {
             "title_aux": "comfyui-random-image-size"
@@ -3928,7 +3922,8 @@
             "LoadMVDUST3RModel",
             "MVDUST3DVisualizer",
             "MVDUST3RGridMesh",
-            "MVDUST3RInference"
+            "MVDUST3RInference",
+            "PrepareImages"
         ],
         {
             "title_aux": "ComfyUI-MVDUST3R [UNSAFE]"
@@ -11017,6 +11012,7 @@
             "FloatToString",
             "FloatToStringWithPrefix",
             "IsComfyQueueEmpty",
+            "LoRASyntaxExtractor",
             "LoraWildcardGenerator",
             "RepeatTextLines"
         ],
@@ -11052,6 +11048,14 @@
         ],
         {
             "title_aux": "ComfyUI_Cluster [WIP]"
+        }
+    ],
+    "https://github.com/nschpy/ComfyUI_MovisAdapter": [
+        [
+            "Example"
+        ],
+        {
+            "title_aux": "ComfyUI_MovisAdapter [UNSAFE]"
         }
     ],
     "https://github.com/numq/comfyui-camera-capture-node": [
