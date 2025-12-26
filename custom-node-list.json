@@ -39455,6 +39455,20 @@
             "install_type": "git-clone",
             "description": "ComfyUI custom node pack for fal.ai image generation supporting FLUX models with queue polling, safety controls, and native image I/O conversion."
         },
+        {
+            "author": "ConstantlyGrowup",
+            "title": "ComfyUI_Qwen_chat_models",
+            "reference": "https://github.com/ConstantlyGrowup/ComfyUI_Qwen_chat_models",
+            "files": [
+                "https://github.com/ConstantlyGrowup/ComfyUI_Qwen_chat_models"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for Qwen text and vision-language models. Supports Qwen2.5/Qwen3, 4-/8-bit quantization, deterministic seeding, auto model download, and shared caching to improve workflow performance."
+        },
+
+
+
+        
 
 
 
@@ -39853,17 +39867,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "huihuihuiz",
-            "title": "LoRA Downloader for ComfyUI",
-            "id": "lora_downloader",
-            "reference": "https://github.com/huihuihuiz/lora_downloader",
-            "files": [
-                "https://github.com/huihuihuiz/lora_downloader"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node for downloading and managing LoRA models directly within the UI."
         }
     ]
 }
