@@ -31882,16 +31882,6 @@
             "install_type": "git-clone",
             "description": "This is a custom node for ComfyUI that can be used to generate videos from either a starting frame, an end frame or both; with the Wan2.2 5B model (which uses the new Wan2.2 VAE, unlike Wan 2.2 A14B model wich uses the old Wan2.1 VAE)."
         },
-		{
-			"author": "Wakapedia",
-			"title": "WanVideo Wakawave - Advanced LoRA & Prompt Tools",
-			"reference": "https://github.com/Wakapedia/ComfyUI-WanVideoWakawave",
-			"files": [
-			"https://github.com/Wakapedia/ComfyUI-WanVideoWakawave"
-			],
-			"install_type": "git-clone",
-			"description": "Advanced LoRA management and prompt building tools for WanVideo. Features: Wakawave LoRA Loader (unlimited LoRAs, save/load presets, drag-to-reorder, per-LoRA strength control), Wakawave Prompt Builder (dual positive/negative prompts, weight control, segment mode, visual preset browser with import/export)."
-		},
         {
             "author": "stduhpf",
             "title": "KSampler for Wan 2.2 MoE for ComfyUI",
@@ -39475,10 +39465,19 @@
             "install_type": "git-clone",
             "description": "ComfyUI custom nodes for Qwen text and vision-language models. Supports Qwen2.5/Qwen3, 4-/8-bit quantization, deterministic seeding, auto model download, and shared caching to improve workflow performance."
         },
+        {
+            "author": "Wakapedia",
+            "title": "WanVideo Wakawave - Advanced LoRA & Prompt Tools",
+            "reference": "https://github.com/Wakapedia/ComfyUI-WanVideoWakawave",
+            "files": [
+                "https://github.com/Wakapedia/ComfyUI-WanVideoWakawave"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced LoRA management and prompt building tools for WanVideo. Features: Wakawave LoRA Loader (unlimited LoRAs, save/load presets, drag-to-reorder, per-LoRA strength control), Wakawave Prompt Builder (dual positive/negative prompts, weight control, segment mode, visual preset browser with import/export)."
+        },
 
 
 
-        
 
 
 
