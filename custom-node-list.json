@@ -18682,6 +18682,16 @@
             "description": "This is a toolset designed for ComfyUI by LAOGOU-666, providing a series of practical image processing and operation nodes, making our operation more intuitive and convenient"
         },
         {
+            "author": "LAOGOU-666",
+            "title": "ComfyUI-LG_SamplingUtils",
+            "reference": "https://github.com/LAOGOU-666/ComfyUI-LG_SamplingUtils",
+            "files": [
+                "https://github.com/LAOGOU-666/ComfyUI-LG_SamplingUtils"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a toolset designed for ComfyUI by LAOGOU-666, providing a series of practical sampling nodes, making our operation more intuitive and convenient"
+        },
+        {
             "author": "VertexStudio",
             "title": "roblox-comfyui-nodes",
             "reference": "https://github.com/VertexStudio/roblox-comfyui-nodes",
@@ -35687,17 +35697,17 @@
             "install_type": "git-clone",
             "description": "ComfyUI integration for BAAI's Emu3.5 multimodal models for text-to-image generation and multimodal understanding. (Description by CC)"
         },
-		{
-		    "author": "EricRollei",
-		    "title": "Qwen Layers Diffuser Pipeline",
-		    "id": "qwen-layers-diffuser-pipeline",
-		    "reference": "https://github.com/EricRollei/Qwen_Layers_Diffuser_Pipeline_Comfyui",
-		    "files": [
-		        "https://github.com/EricRollei/Qwen_Layers_Diffuser_Pipeline_Comfyui"
-		    ],
-		    "install_type": "git-clone",
-		    "description": "Decompose images into semantic RGBA layers using Qwen-Image-Layered model. Features AI-powered layer naming, PSD/TIFF export with proper layer structure, original resolution support, and VRAM management. Includes 18 nodes for layer decomposition, manipulation, and saving."
-		},
+        {
+            "author": "EricRollei",
+            "title": "Qwen Layers Diffuser Pipeline",
+            "id": "qwen-layers-diffuser-pipeline",
+            "reference": "https://github.com/EricRollei/Qwen_Layers_Diffuser_Pipeline_Comfyui",
+            "files": [
+                "https://github.com/EricRollei/Qwen_Layers_Diffuser_Pipeline_Comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Decompose images into semantic RGBA layers using Qwen-Image-Layered model. Features AI-powered layer naming, PSD/TIFF export with proper layer structure, original resolution support, and VRAM management. Includes 18 nodes for layer decomposition, manipulation, and saving."
+        },
         {
             "author": "nomadoor",
             "title": "ComfyUI Temporal Mask Tools",
@@ -39145,6 +39155,26 @@
             "description": "ComfyUI custom node for managing trigger words with 50+ editable presets optimized for SDXL Illustrious"
         },
         {
+            "author": "revisionhiep-create",
+            "title": "Comfyui-Prompt-Sorter",
+            "reference": "https://github.com/revisionhiep-create/Comfyui-Prompt-Sorter",
+            "files": [
+                "https://github.com/revisionhiep-create/Comfyui-Prompt-Sorter"
+            ],
+            "install_type": "git-clone",
+            "description": "Interactive button-based trigger word manager with precision weighting and portable collections."
+        },
+        {
+            "author": "revisionhiep-create",
+            "title": "comfyui-universal-trigger-toggle",
+            "reference": "https://github.com/revisionhiep-create/comfyui-universal-trigger-toggle",
+            "files": [
+                "https://github.com/revisionhiep-create/comfyui-universal-trigger-toggle"
+            ],
+            "install_type": "git-clone",
+            "description": "A standalone custom node for ComfyUI that provides an interactive tag-based interface to enable/disable trigger words from any LoRA loader or gallery node."
+        },
+        {
             "author": "Faildes",
             "title": "ComfyUI-NegativeFold",
             "reference": "https://github.com/Faildes/ComfyUI-NegativeFold",
@@ -39153,6 +39183,16 @@
             ],
             "install_type": "git-clone",
             "description": "Fold negative prompts into positive prompts for use with Turbo models. (Description by CC)"
+        },
+        {
+            "author": "Faildes",
+            "title": "ComfyUI-TC_ADV_ZPrompt",
+            "reference": "https://github.com/Faildes/ComfyUI-TC_ADV_ZPrompt",
+            "files": [
+                "https://github.com/Faildes/ComfyUI-TC_ADV_ZPrompt"
+            ],
+            "install_type": "git-clone",
+            "description": "Extension that allows to use emphasize and AND on Z-Image."
         },
         {
             "author": "isekai-sh",
@@ -39486,6 +39526,42 @@
             "install_type": "git-clone",
             "description": "Advanced LoRA management and prompt building tools for WanVideo. Features: Wakawave LoRA Loader (unlimited LoRAs, save/load presets, drag-to-reorder, per-LoRA strength control), Wakawave Prompt Builder (dual positive/negative prompts, weight control, segment mode, visual preset browser with import/export)."
         },
+        {
+            "author": "nawka12",
+            "title": "ComfyUI-Adept-Sampler",
+            "reference": "https://github.com/nawka12/ComfyUI-Adept-Sampler",
+            "files": [
+                "https://github.com/nawka12/ComfyUI-Adept-Sampler"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced custom samplers and schedulers for ComfyUI, ported from the Stable Diffusion WebUI reForge extension."
+        },
+        {
+            "author": "zhuyanan",
+            "title": "Comfy-FilmSimulator",
+            "reference": "https://github.com/zhuyanan/Comfy-FilmSimulator",
+            "files": [
+                "https://github.com/zhuyanan/Comfy-FilmSimulator"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node: realistic, adaptive film simulation for photographic and cinematic looks."
+        },
+        {
+            "author": "id7238",
+            "title": "ComfyUI-PackedPipes",
+            "reference": "https://github.com/id7238/ComfyUI-PackedPipes",
+            "files": [
+                "https://github.com/id7238/ComfyUI-PackedPipes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes that organize ComfyUI workflow connections by combining multiple links into single pipeline links. (Description by CC)"
+        },
+
+
+
+
+
+
 
 
 

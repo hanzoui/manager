@@ -5059,6 +5059,15 @@
             "title_aux": "ComfyUI-CoCoTools_IO"
         }
     ],
+    "https://github.com/ConstantlyGrowup/ComfyUI_Qwen_chat_models": [
+        [
+            "qwen_VL_model",
+            "qwen_chat_model"
+        ],
+        {
+            "title_aux": "ComfyUI_Qwen_chat_models"
+        }
+    ],
     "https://github.com/CoreyCorza/ComfyUI-CRZnodes": [
         [
             "CRZBooleanToggle",
@@ -6951,6 +6960,31 @@
             "title_aux": "PDF Tools - Advanced PDF Processing & OCR"
         }
     ],
+    "https://github.com/EricRollei/Qwen_Layers_Diffuser_Pipeline_Comfyui": [
+        [
+            "EricQwenAddAlpha",
+            "EricQwenBatchToVideo",
+            "EricQwenDecompose",
+            "EricQwenEncode",
+            "EricQwenLatentCutToBatch",
+            "EricQwenLayerComposite",
+            "EricQwenLayerDescribe",
+            "EricQwenLayerExtract",
+            "EricQwenLayerInfo",
+            "EricQwenLayerLoad",
+            "EricQwenLayerPrompts",
+            "EricQwenLayerReorder",
+            "EricQwenLayerSave",
+            "EricQwenLayerSelector",
+            "EricQwenMultiLatent",
+            "EricQwenRGBAVAELoader",
+            "EricQwenStringJoin",
+            "EricQwenUnloadModel"
+        ],
+        {
+            "title_aux": "Qwen Layers Diffuser Pipeline"
+        }
+    ],
     "https://github.com/EuphoricPenguin/resemble-enhance-comfyui": [
         [
             "ResembleEnhance"
@@ -7190,6 +7224,14 @@
         ],
         {
             "title_aux": "ComfyUI-NegativeFold"
+        }
+    ],
+    "https://github.com/Faildes/ComfyUI-TC_ADV_ZPrompt": [
+        [
+            "TC_ADV_ZPrompt"
+        ],
+        {
+            "title_aux": "ComfyUI-TC_ADV_ZPrompt"
         }
     ],
     "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation": [
@@ -11391,6 +11433,18 @@
             "title_aux": "ComfyUI-LG_HotReload"
         }
     ],
+    "https://github.com/LAOGOU-666/ComfyUI-LG_SamplingUtils": [
+        [
+            "LGNoiseInjection",
+            "LGNoiseInjectionLatent",
+            "ModelSamplingZImage",
+            "SigmasEditor",
+            "ZImageTimestepNoise"
+        ],
+        {
+            "title_aux": "ComfyUI-LG_SamplingUtils"
+        }
+    ],
     "https://github.com/LAOGOU-666/ComfyUI_LG_FFT": [
         [
             "LG_FFTNode",
@@ -12993,10 +13047,12 @@
             "DetailEnhanceSamplerNode",
             "DetailEnhanceSigmasNode",
             "DisplayText",
+            "ImageLatentResolutionExtractorNode",
             "ImageResolutionExtractorNode",
             "ImageResolutionFitNode",
             "LoRAOnlineNode",
             "MultiplicationNode",
+            "OutputAnyDebugDataNode",
             "PromptQueue",
             "PromptQueueFromFolder",
             "ResolutionSelectNode",
@@ -20156,6 +20212,15 @@
         ],
         {
             "title_aux": "ComfyUI-Loop-image"
+        }
+    ],
+    "https://github.com/Wakapedia/ComfyUI-WanVideoWakawave": [
+        [
+            "WanVideoWakawaveLoraLoader",
+            "WanVideoWakawavePromptBuilder"
+        ],
+        {
+            "title_aux": "WanVideo Wakawave - Advanced LoRA & Prompt Tools"
         }
     ],
     "https://github.com/Wakfull33/ComfyUI-SaveImageCivitAI": [
@@ -34931,6 +34996,15 @@
             "title_aux": "ComfyUI-Ichis-Pack"
         }
     ],
+    "https://github.com/id7238/ComfyUI-PackedPipes": [
+        [
+            "PipePacker",
+            "PipeUnpacker"
+        ],
+        {
+            "title_aux": "ComfyUI-PackedPipes"
+        }
+    ],
     "https://github.com/idrirap/ComfyUI-Lora-Auto-Trigger-Words": [
         [
             "FusionText",
@@ -42911,6 +42985,24 @@
             "title_aux": "ComfyUI-NegiTools"
         }
     ],
+    "https://github.com/nawka12/ComfyUI-Adept-Sampler": [
+        [
+            "AdeptAncestralSampler",
+            "AdeptSchedulerAOS_E",
+            "AdeptSchedulerAOS_V",
+            "AdeptSchedulerAYS",
+            "AdeptSchedulerAdvanced",
+            "AdeptSchedulerAkashicAOS",
+            "AdeptSchedulerEntropic",
+            "AdeptSchedulerJYS",
+            "AdeptSchedulerStochastic",
+            "AdeptSolverSampler",
+            "AkashicSolverSampler"
+        ],
+        {
+            "title_aux": "ComfyUI-Adept-Sampler"
+        }
+    ],
     "https://github.com/naxci1/ComfyUI-FlashVSR_Stable": [
         [
             "FlashVSRInitPipe",
@@ -46291,12 +46383,28 @@
             "title_aux": "Comfyui_saveimage_imgbb"
         }
     ],
+    "https://github.com/revisionhiep-create/Comfyui-Prompt-Sorter": [
+        [
+            "IllustriousPromptSorter"
+        ],
+        {
+            "title_aux": "Comfyui-Prompt-Sorter"
+        }
+    ],
     "https://github.com/revisionhiep-create/comfyui-standard-trigger-words": [
         [
             "StandardTriggerWordsLoader"
         ],
         {
             "title_aux": "comfyui-standard-trigger-words"
+        }
+    ],
+    "https://github.com/revisionhiep-create/comfyui-universal-trigger-toggle": [
+        [
+            "UniversalTriggerToggle"
+        ],
+        {
+            "title_aux": "comfyui-universal-trigger-toggle"
         }
     ],
     "https://github.com/revisiontony/LoraMangerWebFrame": [
@@ -54543,6 +54651,14 @@
         ],
         {
             "title_aux": "ComfyUI_Bxb"
+        }
+    ],
+    "https://github.com/zhuyanan/Comfy-FilmSimulator": [
+        [
+            "FilmSimNode"
+        ],
+        {
+            "title_aux": "Comfy-FilmSimulator"
         }
     ],
     "https://github.com/zichongc/ComfyUI-Attention-Distillation": [
