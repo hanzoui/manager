@@ -1,6 +1,27 @@
 {
     "custom_nodes": [
         {
+            "author": "CornmeisterNL",
+            "title": "CornmeisterNL PowerPack",
+            "id": "cornmeisternl-powerpack",
+            "reference": "https://github.com/Cornmeister/ComfyUI-CornmeisterNL-PowerPack",
+            "files": [
+                "https://github.com/Cornmeister/ComfyUI-CornmeisterNL-PowerPack"
+            ],
+            "install_type": "git-clone",
+            "description": "A power-user focused collection of ComfyUI nodes: LoRA management, prompt building, resolution presets, metadata-safe image saving (CivitAI-ready), and UNet model loading."
+        },
+        {
+            "author": "LuqP2",
+            "title": "Image MetaHub Save Node",
+            "reference": "https://github.com/LuqP2/ImageMetaHub-ComfyUI-Save",
+            "files": [
+                "https://github.com/LuqP2/ImageMetaHub-ComfyUI-Save"
+            ],
+            "install_type": "git-clone",
+            "description": "Official companion node for Image MetaHub. Saves A1111/Civitai-compatible parameters plus extended Image MetaHub metadata (workflow JSON, SHA256 model hashes, VRAM peak/total, GPU device, generation time, and steps/sec) for reproducibility and benchmarking."
+        },
+        {
             "author": "EricRollei",
             "title": "Qwen Layers Diffuser Pipeline",
             "id": "qwen-layers-diffuser-pipeline",
