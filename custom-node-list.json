@@ -39598,7 +39598,16 @@
             "install_type": "git-clone",
             "description": "An optimized storyboard-based latent generator for Wan 2.2 with low VRAM optimization and storyboard logic for controlled video composition."
         },
-
+        {
+            "author": "mrm987",
+            "title": "ComfyUI-Multi-Prompt-Generator",
+            "reference": "https://github.com/mrm987/ComfyUI_Multi_Prompt_Generator",
+            "files": [
+                "https://github.com/mrm987/ComfyUI_Multi_Prompt_Generator"
+            ],
+            "install_type": "git-clone",
+            "description": "Generate multiple images from prompt list with upscaling, LUT, and real-time preview"
+        },
 
 
 
@@ -40005,14 +40014,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-		    "author": "mrm987",
-		    "title": "ComfyUI-Multi-Prompt-Generator",
-		    "reference": "https://github.com/mrm987/ComfyUI_Multi_Prompt_Generator",
-		    "files": ["https://github.com/mrm987/ComfyUI_Multi_Prompt_Generator"],
-		    "install_type": "git-clone",
-		    "description": "Generate multiple images from prompt list with upscaling, LUT, and real-time preview"
-		}
+        }
     ]
 }

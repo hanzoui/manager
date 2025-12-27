@@ -33,6 +33,27 @@
             "description": "An optimized storyboard-based latent generator for Wan 2.2 with low VRAM optimization and storyboard logic for controlled video composition."
         },
         {
+            "author": "mrm987",
+            "title": "ComfyUI-Multi-Prompt-Generator",
+            "reference": "https://github.com/mrm987/ComfyUI_Multi_Prompt_Generator",
+            "files": [
+                "https://github.com/mrm987/ComfyUI_Multi_Prompt_Generator"
+            ],
+            "install_type": "git-clone",
+            "description": "Generate multiple images from prompt list with upscaling, LUT, and real-time preview"
+        },
+        {
+            "author": "gushob21",
+            "title": "comfyui-google-genmedia-custom-nodes",
+            "id": "Google",
+            "reference": "https://github.com/GoogleCloudPlatform/comfyui-google-genmedia-custom-nodes",
+            "files": [
+                "https://github.com/GoogleCloudPlatform/comfyui-google-genmedia-custom-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A suite of experimental custom nodes that allows access to Google's 1P models like Veo, Imagen, Nano Banana, Gemini, Virtual-try-on, Lyria"
+        },
+        {
             "author": "LuqP2",
             "title": "Image MetaHub Save Node",
             "reference": "https://github.com/LuqP2/ImageMetaHub-ComfyUI-Save",
@@ -689,56 +710,6 @@
             ],
             "install_type": "git-clone",
             "description": "Advanced tiling plugin for ComfyUI solving VRAM limitations in 4K/8K+ image generation using intelligent tiling and seamless weighted fusion with multiple blending modes."
-        },
-        {
-            "author": "GiusTex",
-            "title": "ComfyUI-Wan-TimeToMove",
-            "reference": "https://github.com/GiusTex/ComfyUI-Wan-TimeToMove",
-            "files": [
-                "https://github.com/GiusTex/ComfyUI-Wan-TimeToMove"
-            ],
-            "install_type": "git-clone",
-            "description": "Native ComfyUI port of kijai's WanVideo-Wrapper TimeToMove for video generation, currently supporting LCM sampler with frame generation capabilities. (Description by CC)"
-        },
-        {
-            "author": "okdalto",
-            "title": "ComfyUI-PersonaLive",
-            "reference": "https://github.com/okdalto/ComfyUI-PersonaLive",
-            "files": [
-                "https://github.com/okdalto/ComfyUI-PersonaLive"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node implementation of PersonaLive: Expressive Portrait Image Animation for Live Streaming, enabling portrait animation driven by reference images. (Description by CC)"
-        },
-        {
-            "author": "gateway",
-            "title": "ComfyUI-Kie-API",
-            "reference": "https://github.com/gateway/ComfyUI-Kie-API",
-            "files": [
-                "https://github.com/gateway/ComfyUI-Kie-API"
-            ],
-            "install_type": "git-clone",
-            "description": "Integration framework for KIE Nano Banana Pro API into ComfyUI custom nodes with API key setup and placeholder for upcoming node implementations. (Description by CC)"
-        },
-        {
-            "author": "lazyq666",
-            "title": "gemini-3-simply-comfyui",
-            "reference": "https://github.com/lazyq666/gemini-3-simply-comfyui",
-            "files": [
-                "https://github.com/lazyq666/gemini-3-simply-comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "Two lightweight ComfyUI nodes for Gemini 3 preview models: Gemini 3 Pro (Text) and Gemini 3 Pro Image. (Description by CC)"
-        },
-        {
-            "author": "aslanxie",
-            "title": "comfyui_qwen_image_edit",
-            "reference": "https://github.com/aslanxie/comfyui_qwen_image_edit",
-            "files": [
-                "https://github.com/aslanxie/comfyui_qwen_image_edit"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Qwen-Image-Edit-2509 node integration for image editing using OpenAI Image API. (Description by CC)"
         }
     ]
 }
