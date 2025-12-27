@@ -2829,7 +2829,8 @@
             "AGSoft_Mask_Composite",
             "AGSoft_Mask_Fix",
             "AGSoft_Mask_From_Color",
-            "AGSoft_Styles_CSV_Loader"
+            "AGSoft_Styles_CSV_Loader",
+            "AgsoftTranslate"
         ],
         {
             "title_aux": "comfyui-AGSoft"
@@ -3774,6 +3775,7 @@
     ],
     "https://github.com/BlackVortexAI/bv_nodepack": [
         [
+            "BV Control Center",
             "BV Pipe",
             "BV Pipe Config",
             "BV Subgraph Divider",
@@ -5092,6 +5094,20 @@
             "title_aux": "ComfyUI-CRZnodes"
         }
     ],
+    "https://github.com/Cornmeister/ComfyUI-CornmeisterNL-PowerPack": [
+        [
+            "CornmeisterNL_PowerDiffusionModelLoader",
+            "CornmeisterNL_PowerLoraConfigurator",
+            "CornmeisterNL_PowerLoraSelector",
+            "CornmeisterNL_PowerPromptBuilder",
+            "CornmeisterNL_PowerRes",
+            "CornmeisterNL_PowerSaveImage",
+            "CornmeisterNL_PowerTextConcat"
+        ],
+        {
+            "title_aux": "CornmeisterNL PowerPack"
+        }
+    ],
     "https://github.com/CosmicLaca/ComfyUI_Primere_Nodes": [
         [
             "DebugToFile",
@@ -5276,6 +5292,7 @@
             "QWENPrompt",
             "QwenAspectRatioCreepy",
             "RandomAudioSegment",
+            "RandomBibleVerse",
             "SanitizeFilename",
             "SaveRawLatent",
             "SaveRawLatentCreepy",
@@ -12413,6 +12430,15 @@
             "title_aux": "ComfyUI LoRA Combine Node"
         }
     ],
+    "https://github.com/LuqP2/ImageMetaHub-ComfyUI-Save": [
+        [
+            "MetaHubSaveNode",
+            "MetaHubTimerNode"
+        ],
+        {
+            "title_aux": "Image MetaHub Save Node"
+        }
+    ],
     "https://github.com/LyazS/comfyui-anime-seg": [
         [
             "Anime Character Seg"
@@ -15139,6 +15165,8 @@
             "SAM3CreateBox",
             "SAM3CreatePoint",
             "SAM3Grounding",
+            "SAM3MultiRegionCollector",
+            "SAM3MultipromptSegmentation",
             "SAM3PointCollector",
             "SAM3Propagate",
             "SAM3Segmentation",
@@ -22448,6 +22476,7 @@
     ],
     "https://github.com/aining2022/ComfyUI_Swwan": [
         [
+            "BatchSlice",
             "Fast Groups Muter (rgthree)",
             "Fast Muter (rgthree)",
             "Image Comparer (rgthree)",
@@ -22459,9 +22488,23 @@
             "LayerUtility: ImageScaleByAspectRatio V2",
             "LayerUtility: RestoreCropBox",
             "Mask_transform_sum",
+            "MergeBatch",
             "Seed (rgthree)",
             "SwwanImageBatchToImageList",
-            "SwwanImageListToImageBatch"
+            "SwwanImageListToImageBatch",
+            "list_Merge",
+            "list_Slice",
+            "list_Value",
+            "list_num_range",
+            "math_Remap_data",
+            "math_calculate",
+            "sch_Prompt",
+            "sch_Value",
+            "sch_image",
+            "sch_mask",
+            "sch_split_text",
+            "sch_text",
+            "type_AnyIndex"
         ],
         {
             "title_aux": "ComfyUI_Swwan"
@@ -22640,6 +22683,7 @@
             "CLIPTextEncodeCached",
             "Getter",
             "IndexMultiple",
+            "IsMaskEmpty",
             "IsOneOfGroupsActive",
             "PreviewRawText",
             "RepeatGroupState",
@@ -28458,6 +28502,7 @@
             "KlingImageToVideoWithAudio",
             "KlingLipSyncAudioToVideoNode",
             "KlingLipSyncTextToVideoNode",
+            "KlingMotionControl",
             "KlingOmniProEditVideoNode",
             "KlingOmniProFirstLastFrameNode",
             "KlingOmniProImageNode",
@@ -33755,9 +33800,12 @@
     ],
     "https://github.com/havvk/ComfyUI_AIIA": [
         [
+            "AIIA_Audio_Denoise",
+            "AIIA_Audio_PostProcess",
             "AIIA_Audio_Silence_Splitter",
             "AIIA_Audio_Speaker_Isolator",
             "AIIA_Audio_Speaker_Merge",
+            "AIIA_Audio_Splice_Analyzer",
             "AIIA_CosyVoice_VoiceConversion",
             "AIIA_E2E_Speaker_Diarization",
             "AIIA_FloatProcess_InMemory",
@@ -38206,6 +38254,7 @@
             "WanVideoRealisDanceLatents",
             "WanVideoRoPEFunction",
             "WanVideoSLG",
+            "WanVideoSVIProEmbeds",
             "WanVideoSampler",
             "WanVideoSamplerExtraArgs",
             "WanVideoSamplerFromSettings",
@@ -38781,35 +38830,15 @@
             "LocalGenerator",
             "LocalGeneratorBatch",
             "MultiEndpointHealthCheck",
-            "PerfLab_Analyzer",
-            "PerfLab_AutoDetectGPU",
-            "PerfLab_BenchmarkRunner",
-            "PerfLab_BlackImageFix",
+            "PerfLab_ABTest",
+            "PerfLab_AutoFix",
             "PerfLab_CapResolution",
             "PerfLab_Compare",
-            "PerfLab_EndpointHealth",
-            "PerfLab_FloatSwitch",
-            "PerfLab_GeneratePrompt",
-            "PerfLab_IntSwitch",
-            "PerfLab_IterationTracker",
-            "PerfLab_LoadWorkflow",
-            "PerfLab_LowVRAMPreset",
-            "PerfLab_ModelDetector",
-            "PerfLab_NetworkScanner",
-            "PerfLab_OneClickOptimize",
-            "PerfLab_OptimizationLoop",
-            "PerfLab_OptimizeCFG",
-            "PerfLab_QueueWorkflow",
-            "PerfLab_QuickStart",
-            "PerfLab_ReduceBatch",
-            "PerfLab_ReduceSteps",
+            "PerfLab_Feedback",
+            "PerfLab_NetworkSetup",
+            "PerfLab_Optimizer",
             "PerfLab_Report",
             "PerfLab_ShowText",
-            "PerfLab_SmartOptimize",
-            "PerfLab_SmartPrompt",
-            "PerfLab_SpeedPreset",
-            "PerfLab_Switch",
-            "PerfLab_TestModeToggle",
             "PerfLab_Timer",
             "PerfLab_VRAMMonitor",
             "RemoteComfyUI",
@@ -41793,18 +41822,13 @@
     ],
     "https://github.com/mcDandy/more_math": [
         [
-            "mrmth_AudioMathNode",
             "mrmth_CLIPMathNode",
-            "mrmth_ConditioningMathNode",
             "mrmth_FloatMathNode",
             "mrmth_FloatToInt",
-            "mrmth_ImageMathNode",
             "mrmth_IntToFloat",
-            "mrmth_LatentMathNode",
             "mrmth_ModelMathNode",
             "mrmth_NoiseMathNode",
-            "mrmth_VAEMathNode",
-            "mrmth_VideoMathNode"
+            "mrmth_VAEMathNode"
         ],
         {
             "title_aux": "More Math"
@@ -43726,7 +43750,8 @@
             "NunchakuQwenImageDiTLoader",
             "NunchakuTextEncoderLoader",
             "NunchakuTextEncoderLoaderV2",
-            "NunchakuWheelInstaller"
+            "NunchakuWheelInstaller",
+            "NunchakuZImageDiTLoader"
         ],
         {
             "title_aux": "ComfyUI-nunchaku"
@@ -46837,6 +46862,16 @@
             "title_aux": "ComfyUI Text Processor"
         }
     ],
+    "https://github.com/room3dev/ComfyUI-FrameIO": [
+        [
+            "BatchLoadImageList",
+            "BatchLoadImageSequence",
+            "BatchSaveImageSequenceWebP"
+        ],
+        {
+            "title_aux": "ComfyUI-FrameIO"
+        }
+    ],
     "https://github.com/roundyyy/ComfyUI-mesh-simplifier": [
         [
             "MeshSimplifierNode"
@@ -47717,9 +47752,16 @@
         [
             "AdjustAndRoundDimensions",
             "AspectRatioMobileDevices",
+            "AutoLevelsNode",
+            "ImageCombineRect",
+            "ImageExtractRect",
             "ImageResizeAndCropNode",
             "ImageSquareAdapterNode",
-            "PopularScreenResolutions"
+            "LoadImagesFromFolder",
+            "MathOperationNode",
+            "NumberRangeNode",
+            "PopularScreenResolutions",
+            "SliderComparisonNode"
         ],
         {
             "title_aux": "ComfyUI_Nimbus-Pack"
@@ -49966,7 +50008,8 @@
     "https://github.com/synthetai/ComfyUI-JM-Gemini-API": [
         [
             "JMGeminiImageGenerator",
-            "JMGeminiVideoGenerator"
+            "JMGeminiVideoGenerator",
+            "JMGeminiWatermarkRemover"
         ],
         {
             "title_aux": "ComfyUI-JM-Gemini-API"

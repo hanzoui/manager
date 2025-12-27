@@ -2272,7 +2272,8 @@
             "IGT_ImageResizer",
             "IGT_ImageTilesCalc",
             "IGT_IntMinMax",
-            "IGT_SimpleTilesCalc"
+            "IGT_SimpleTilesCalc",
+            "IGT_TelegramSender"
         ],
         {
             "title_aux": "ComfyUI-igTools"
@@ -2733,6 +2734,7 @@
             "LunaCheckpointLoader",
             "LunaCheckpointTunnel",
             "LunaChessRefiner",
+            "LunaChessTileTest",
             "LunaCivitaiBatchScraper",
             "LunaCivitaiScraper",
             "LunaConfigGateway",
@@ -3519,16 +3521,15 @@
             "image_iterator",
             "img2url_v2_Node",
             "img_understanding_Node",
-            "kie_base64_upload_node",
-            "kie_nano_get_node",
-            "kie_nano_post_node",
             "klingai_video_Node",
+            "liblib_auto_video_node",
+            "nano_banana_node",
             "path_join_Node",
             "save_img_NODE",
             "save_img_v2_NODE",
             "set_api_Node",
-            "suchuang_get_node",
-            "suchuang_nano_post_node",
+            "sora2",
+            "sora2_suchuang_node",
             "text_replace_node"
         ],
         {
@@ -6929,6 +6930,7 @@
             "KlingImageToVideoWithAudio",
             "KlingLipSyncAudioToVideoNode",
             "KlingLipSyncTextToVideoNode",
+            "KlingMotionControl",
             "KlingOmniProEditVideoNode",
             "KlingOmniProFirstLastFrameNode",
             "KlingOmniProImageNode",
@@ -8437,7 +8439,6 @@
             "HolafLutSaver",
             "HolafMaskToBoolean",
             "HolafOverlayNode",
-            "HolafRatioCalculator",
             "HolafRemote",
             "HolafResolutionPreset",
             "HolafSaveImage",
@@ -11006,7 +11007,6 @@
             "ExtractPromptFromImage",
             "FloatToString",
             "FloatToStringWithPrefix",
-            "IsComfyQueueEmpty",
             "LoraWildcardGenerator",
             "RepeatTextLines"
         ],
