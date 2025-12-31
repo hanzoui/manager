@@ -359,15 +359,17 @@
             ],
             "install_type": "git-clone",
             "description": "Dynamic All-In-One Guider/Scheduler/Sampler nodes for custom sampling"
-        },        {
+        },
+        {
             "author": "brucew4yn3rp",
-            "title": "ComfyUI_FrontEndCleanup",
+            "title": "Frontend Cleanup Node",
+            "id": "ComfyUI_FrontEndCleanup",
             "reference": "https://github.com/brucew4yn3rp/ComfyUI_FrontEndCleanup",
             "files": [
                 "https://github.com/brucew4yn3rp/ComfyUI_FrontEndCleanup"
             ],
             "install_type": "git-clone",
-            "description": "Customizes ComfyUI frontend by relocating action bar and hiding UI elements to reduce visual clutter."
+            "description": "This node customizes the ComfyUI frontend by relocating the action bar into the top bar and hiding selected UI elements to reduce visual clutter."	
         },
         {
             "author": "baijunty",
