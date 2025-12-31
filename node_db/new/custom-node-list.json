@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "rookiestar28",
+            "title": "ComfyUI-Doctor",
+            "reference": "https://github.com/rookiestar28/ComfyUI-Doctor",
+            "files": [
+                "https://github.com/rookiestar28/ComfyUI-Doctor"
+            ],
+            "install_type": "git-clone",
+            "description": "A continuous, real-time runtime diagnostics suite for ComfyUI. Automatic error interception, intelligent fix suggestions, and deep data flow inspection."
+        },        
+        {
             "author": "PozzettiAndrea",
             "title": "ComfyUI-MIDI3D",
             "reference": "https://github.com/PozzettiAndrea/ComfyUI-MIDI3D",
@@ -12,13 +22,13 @@
         },
         {
             "author": "EricRollei",
-            "title": "comfyui-refocus",
+            "title": "Refocus - Generative Refocusing",
             "reference": "https://github.com/EricRollei/comfyui-refocus",
             "files": [
                 "https://github.com/EricRollei/comfyui-refocus"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI nodes for Generative Refocusing - Deblurring and Bokeh generation using FLUX LoRA adapters based on Genfocus"
+            "description": "ComfyUI nodes for Genfocus generative refocusing. Features DeblurNet (restore all-in-focus images), BokehNet (create realistic depth-of-field/bokeh effects), DepthPro depth estimation, and defocus map utilities. Uses FLUX.1-dev with specialized LoRA adapters."
         },
         {
             "author": "princepainter",
@@ -89,6 +99,66 @@
             ],
             "install_type": "git-clone",
             "description": "Custom node for ComfyUI that splits a multiline prompt into 5 independent CLIP conditionings."
+        },
+        {
+            "author": "ZhiHui6",
+            "title": "zhihui_nodes_comfyui",
+            "reference": "https://github.com/ZhiHui6/zhihui_nodes_comfyui",
+            "files": [
+                "https://github.com/ZhiHui6/zhihui_nodes_comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node collection: text processing tools, image processing nodes, prompt generators and system prompt loaders, ect."
+        },
+        {
+            "author": "tori29umai0123",
+            "title": "ComfyUI-Model_Downloader",
+            "reference": "https://github.com/tori29umai0123/ComfyUI-Model_Downloader",
+            "files": [
+                "https://github.com/tori29umai0123/ComfyUI-Model_Downloader"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for downloading models directly from HuggingFace and CivitAI with support for individual files, directory downloads, and batch processing via INI files. (Description by CC)"
+        },
+        {
+            "author": "visualbruno",
+            "title": "ComfyUI-Trellis2",
+            "reference": "https://github.com/visualbruno/ComfyUI-Trellis2",
+            "files": [
+                "https://github.com/visualbruno/ComfyUI-Trellis2"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Wrapper for TRELLIS.2 - Microsoft's image-to-3D generation model. (Description by CC)"
+        },
+        {
+            "author": "attome-ai",
+            "title": "Comfyui_Attome_S3",
+            "reference": "https://github.com/attome-ai/Comfyui_Attome_S3",
+            "files": [
+                "https://github.com/attome-ai/Comfyui_Attome_S3"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for ComfyUI enabling seamless loading and saving of media files (images, videos, audio, text) directly from/to AWS S3 or S3-compatible storage services."
+        },
+        {
+            "author": "esp-dev",
+            "title": "comfyui-videoframenode",
+            "reference": "https://github.com/esp-dev/comfyui-videoframenode",
+            "files": [
+                "https://github.com/esp-dev/comfyui-videoframenode"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node: load an MP4 and output first/last frame as IMAGE."
+        },
+        {
+            "author": "mudknight",
+            "title": "comfyui-mudknight-utils",
+            "reference": "https://github.com/mudknight/comfyui-mudknight-utils",
+            "files": [
+                "https://github.com/mudknight/comfyui-mudknight-utils"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes to clean up your workflow."
         },
         {
             "author": "NexusEast",
@@ -635,67 +705,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI nodes for FlashPortrait that enable infinite-length portrait animation generation driven by video with automatic model downloading and flexible input options."
-        },
-        {
-            "author": "Shadowwalker0P",
-            "title": "CryptoNoise-Ksampler",
-            "reference": "https://github.com/Shadowwalker0P/CryptoNoise-Ksampler",
-            "files": [
-                "https://github.com/Shadowwalker0P/CryptoNoise-Ksampler"
-            ],
-            "install_type": "git-clone",
-            "description": "Drop-in replacement for ComfyUI's standard KSampler that embeds cryptographic proof of authorship directly into generated images through deterministic noise injection into the latent representation."
-        },
-        {
-            "author": "Verolelb",
-            "title": "ComfyUI-Video-Workbench",
-            "reference": "https://github.com/Verolelb/ComfyUI-Video-Workbench",
-            "files": [
-                "https://github.com/Verolelb/ComfyUI-Video-Workbench"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node that acts as a mini video editing studio, automatically assembling multiple video clips from a folder with intelligent resolution resizing, aspect ratio handling, and frame rate management."
-        },
-        {
-            "author": "BlackVortexAI",
-            "title": "BV Node Pack",
-            "reference": "https://github.com/BlackVortexAI/bv_nodepack",
-            "files": [
-                "https://github.com/BlackVortexAI/bv_nodepack"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node pack with utility and workflow nodes: a flexible config-driven Pipe system plus Subgraph-friendly UI nodes (Heading, Spacer, Divider) with dynamic JavaScript rendering."
-        },
-        {
-            "author": "rakkarage",
-            "title": "ComfyRage",
-            "id": "comfyrage",
-            "reference": "https://github.com/rakkarage/ComfyRage",
-            "files": [
-                "https://github.com/rakkarage/ComfyRage"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI text nodes. Pre (preprocess comments, random, and de-emphasis), Show (show and persist text), and Debug (show and persist weights)."
-        },
-        {
-            "author": "naxci1",
-            "title": "ComfyUI-FlashVSR_Stable",
-            "reference": "https://github.com/naxci1/ComfyUI-FlashVSR_Stable",
-            "files": [
-            "https://github.com/naxci1/ComfyUI-FlashVSR_Stable"
-            ],
-            "install_type": "git-clone",
-            "description": "High-performance Video Super Resolution for ComfyUI with VRAM optimization."
-        }, 
-        {
-            "author": "filliptm",
-            "title": "ComfyUI_FL-CosyVoice3",
-            "reference": "https://github.com/filliptm/ComfyUI_FL-CosyVoice3",
-            "files": [
-                "https://github.com/filliptm/ComfyUI_FL-CosyVoice3"
-            ],
-            "install_type": "git-clone",
-            "description": "FL CosyVoice3 - Advanced Text-to-Speech nodes for ComfyUI. Features zero-shot voice cloning, cross-lingual synthesis, instruction-based control, and voice conversion using the CosyVoice3 model family. Supports 9 languages and 18+ Chinese dialects with automatic model downloading and caching."
         }
     ]
 }
