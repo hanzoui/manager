@@ -1,5 +1,16 @@
 {
     "custom_nodes": [
+        {
+            "author": "ZUENS2020",
+            "title": "ComfyUI LLM Nodes",
+            "id": "comfyui-llm-nodes",
+            "reference": "https://github.com/ZUENS2020/ComfyUI-LLM-Nodes",
+            "files": [
+                "https://github.com/ZUENS2020/ComfyUI-LLM-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "LLM integration nodes for ComfyUI. Support chat completions and image generation with OpenAI/Gemini. Features precise resolution and aspect ratio control for Gemini image generation (1K/2K/4K with 5 aspect ratios). Zero external dependencies."
+        },
 		{
   			"author": "Rhovanx",
   			"title": "Wan Vace Auto Joiner",
