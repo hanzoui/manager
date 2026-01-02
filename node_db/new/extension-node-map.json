@@ -1959,6 +1959,7 @@
             "GlobalTextCacheGet",
             "GroupExecutorManager",
             "GroupExecutorTrigger",
+            "GroupIsEnabled",
             "GroupMuteManager",
             "ImageCacheGet",
             "MultiCharacterEditorNode",
@@ -9804,6 +9805,11 @@
     ],
     "https://github.com/IXIWORKS-KIMJUNGHO/ComfyUI-VideoDescription": [
         [
+            "BuildCharacterPromptNode",
+            "BuildPromptNode",
+            "JsonParserNode",
+            "MergeStringsNode",
+            "SelectIndexNode",
             "VideoDescriptionDAM",
             "VideoDescriptionQwen3VL"
         ],
@@ -13436,6 +13442,7 @@
     "https://github.com/Mister-Link/link-comfy-nodes": [
         [
             "AdvancedStringConcat",
+            "Auto Cropper",
             "BatchImageSave",
             "Concat",
             "ConvertToPixelArt",
@@ -14547,8 +14554,8 @@
             "BFParametersSimple",
             "CheckpointComboParameter",
             "CheckpointLoaderWithOuputDirByModelName",
+            "CyclicInteger",
             "DetailerSchedulerComboParameter",
-            "IntegerPicker",
             "KsamplerSamplersComboParameter",
             "KsamplerSchedulersComboParameter",
             "OuputDirByModelName",
@@ -20903,7 +20910,7 @@
             "PlyPreviewProcessGaussianPLYEnhance"
         ],
         {
-            "title_aux": "comfyui-PlyPreview"
+            "title_aux": "ComfyUI PlyPreview"
         }
     ],
     "https://github.com/Xyem/Xycuno-Oobabooga": [
@@ -31017,6 +31024,7 @@
             "FrameMatch",
             "GGUFInference",
             "LoadVideoPath",
+            "ModelDownloader",
             "NumberListGenerator",
             "PromptListGenerator",
             "QwenGPUInference",
@@ -39342,7 +39350,6 @@
     ],
     "https://github.com/larsupb/LoRA-Merger-ComfyUI": [
         [
-            "PM Arcee Fusion (Mergekit)",
             "PM Breadcrumbs (Mergekit)",
             "PM DARE (Mergekit)",
             "PM Dare (Mergekit)",
@@ -43312,6 +43319,7 @@
             "SeedWithOverride",
             "SplitLoaderFullPipe",
             "StylePresetNode",
+            "TagPresetNode",
             "TagReplacementNode",
             "UpscaleNode",
             "WildcardNode"
@@ -44482,6 +44490,7 @@
     "https://github.com/olivv-cs/ComfyUI-FunPack": [
         [
             "FunPackContinueVideo",
+            "FunPackCreativeTemplate",
             "FunPackImg2LatentInterpolation",
             "FunPackPromptEnhancer",
             "FunPackStoryMemJSONConverter",
@@ -48785,9 +48794,11 @@
             "EmbeddingRenameKeys",
             "EmbeddingThreeMerger",
             "EmbeddingTwoMerger",
+            "LoRACheckpointSaveFromFile",
             "LoRAMetaKeys",
             "LoRAPruneKeys",
             "LoRARenameKeys",
+            "LoRASaveFromFile",
             "LoRAThreeMerger",
             "LoRATwoMerger",
             "ModelMetaKeys",
@@ -52136,7 +52147,6 @@
     "https://github.com/ussoewwin/ComfyUI-DistorchMemoryManager": [
         [
             "DisTorchPurgeVRAMV2",
-            "MemoryCleaner",
             "MemoryManager",
             "ModelPatchMemoryCleaner",
             "SafeMemoryManager"
@@ -55389,6 +55399,7 @@
     ],
     "https://github.com/zhuyanan/Comfy-FilmSimulator": [
         [
+            "DNG Image Reader",
             "FilmSimNode"
         ],
         {

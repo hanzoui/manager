@@ -3704,8 +3704,8 @@
             "BFParametersSimple",
             "CheckpointComboParameter",
             "CheckpointLoaderWithOuputDirByModelName",
+            "CyclicInteger",
             "DetailerSchedulerComboParameter",
-            "IntegerPicker",
             "KsamplerSamplersComboParameter",
             "KsamplerSchedulersComboParameter",
             "OuputDirByModelName",
@@ -5813,6 +5813,10 @@
     ],
     "https://github.com/alisson-anjos/ComfyUI-Workarounds": [
         [
+            "FlowMatchAutoConfig",
+            "FlowMatchGuide",
+            "FlowMatchScheduler",
+            "FlowMatchSchedulerPresets",
             "SkinToneColorMatch",
             "SkinToneDetector",
             "WA_Face3DProjection",
@@ -8505,8 +8509,6 @@
             "HolafResolutionPreset",
             "HolafSaveImage",
             "HolafSaveVideo",
-            "HolafShortcut",
-            "HolafShortcutUser",
             "HolafTextBox",
             "HolafTiledKSampler",
             "HolafToText",
@@ -8519,6 +8521,7 @@
     ],
     "https://github.com/gulajawalegit/ComfyUI-Telegram-Sender": [
         [
+            "TelegramSendImage",
             "TelegramSendVideo"
         ],
         {
