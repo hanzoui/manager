@@ -1,6 +1,96 @@
 {
     "custom_nodes": [
         {
+            "author": "kanttouchthis",
+            "title": "ComfyUI-SDNQ [NAME CONFLICT]",
+            "reference": "https://github.com/kanttouchthis/ComfyUI-SDNQ",
+            "files": [
+                "https://github.com/kanttouchthis/ComfyUI-SDNQ"
+            ],
+            "install_type": "git-clone",
+            "description": "SDNQ support for ComfyUI."
+        },
+        {
+            "author": "SparknightLLC",
+            "title": "ComfyUI-GraphConstantFolder",
+            "reference": "https://github.com/SparknightLLC/ComfyUI-GraphConstantFolder",
+            "files": [
+                "https://github.com/SparknightLLC/ComfyUI-GraphConstantFolder"
+            ],
+            "install_type": "git-clone",
+            "description": "Improves performance of large workflows by rewriting the submitted prompt graph before validation to constant-fold switch/selector nodes and optionally prune now-unreachable branches."
+        },
+        {
+            "author": "bryanlholland1",
+            "title": "comfyui-app-bridge [WIP]",
+            "reference": "https://github.com/bryanlholland1/comfyui-app-bridge",
+            "files": [
+                "https://github.com/bryanlholland1/comfyui-app-bridge"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for sending images to the companion iOS/macOS/visionOS app\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "HalfADog",
+            "title": "ComfyUI-Mask2JSON",
+            "reference": "https://github.com/HalfADog/ComfyUI-Mask2JSON",
+            "files": [
+                "https://github.com/HalfADog/ComfyUI-Mask2JSON"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for converting masks to contour JSON format with visualization capabilities. (Description by CC)"
+        },
+        {
+            "author": "flywhale-666",
+            "title": "ComfyUI_pixel_snapping [WIP]",
+            "reference": "https://github.com/flywhale-666/ComfyUI_pixel_snapping",
+            "files": [
+                "https://github.com/flywhale-666/ComfyUI_pixel_snapping"
+            ],
+            "install_type": "git-clone",
+            "description": "SIFT-based image alignment, intelligent mask cropping and restoration for ComfyUI\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "fangg2000",
+            "title": "comfyui_fgtools [WIP]",
+            "reference": "https://github.com/fangg2000/comfyui_fgtools",
+            "files": [
+                "https://github.com/fangg2000/comfyui_fgtools"
+            ],
+            "install_type": "git-clone",
+            "description": "Personal utility tools for ComfyUI. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "EricRorich",
+            "title": "ComfyUI-Parametric-Face-Canvas [WIP]",
+            "reference": "https://github.com/EricRorich/ComfyUI-Parametric-Face-Canvas",
+            "files": [
+                "https://github.com/EricRorich/ComfyUI-Parametric-Face-Canvas"
+            ],
+            "install_type": "git-clone",
+            "description": "Generates a parametric 3D face wireframe and renders it as a 2D image with adjustable facial proportions and camera orientation for use in AI pipelines.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "HailXD",
+            "title": "comfyui-random-artist",
+            "reference": "https://github.com/HailXD/comfyui-random-artist",
+            "files": [
+                "https://github.com/HailXD/comfyui-random-artist"
+            ],
+            "install_type": "git-clone",
+            "description": "Generates random artist styles for ComfyUI workflows. (Description by CC)"
+        },
+        {
+            "author": "wandaijin",
+            "title": "ComfyUI-PaddleOCR [NAME CONFLICT]",
+            "reference": "https://github.com/wandaijin/ComfyUI-PaddleOCR",
+            "files": [
+                "https://github.com/wandaijin/ComfyUI-PaddleOCR"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI"
+        },
+        {
             "author": "supaidauen",
             "title": "ComfyUI-supaidauen [WIP]",
             "reference": "https://github.com/supaidauen/ComfyUI-supaidauen",
