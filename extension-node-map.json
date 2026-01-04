@@ -180,21 +180,26 @@
             "AILab_ImageCompare",
             "AILab_ImageCrop",
             "AILab_ImageMaskConvert",
-            "AILab_ImageMaskResize",
+            "AILab_ImageMaskToList",
             "AILab_ImagePreview",
+            "AILab_ImageResize",
             "AILab_ImageStitch",
+            "AILab_ImageToList",
             "AILab_LamaRemover",
             "AILab_LoadImage",
             "AILab_LoadImageAdvanced",
+            "AILab_LoadImageBatch",
             "AILab_LoadImageSimple",
             "AILab_MaskCombiner",
             "AILab_MaskEnhancer",
             "AILab_MaskExtractor",
             "AILab_MaskOverlay",
             "AILab_MaskPreview",
+            "AILab_MaskToList",
             "AILab_Preview",
             "AILab_ReferenceLatentMask",
             "AILab_SDMatte",
+            "AILab_UnbatchImages",
             "BiRefNetRMBG",
             "BodySegment",
             "ClothesSegment",
@@ -2961,6 +2966,7 @@
             "NanoBananaNode",
             "OpenAILLMNode",
             "OpenAITTSNode",
+            "SoraGen",
             "VeoGeminiVideoGenerator",
             "VeoVertexVideoGenerator"
         ],
@@ -3769,6 +3775,10 @@
             "BV Control Center",
             "BV Pipe",
             "BV Pipe Config",
+            "BV Prompt AST Debug",
+            "BV Prompt Category Switch",
+            "BV Prompt Decode",
+            "BV Prompt Encode",
             "BV Subgraph Divider",
             "BV Subgraph Heading",
             "BV Subgraph Spacer"
@@ -8554,7 +8564,6 @@
             "GR Text Overlay",
             "GR Tile and Border Image",
             "GR Tile and Border Image Random Flip",
-            "GRBatchLoader",
             "GRLoraLoader",
             "GRPromptViewer"
         ],
@@ -9023,13 +9032,15 @@
             "API_PromptHelper",
             "API_caption",
             "Batch_API_caption",
+            "Gemini_API_Image",
             "ImageComparisonGIF",
             "LoadImageList",
             "LoadTextList",
             "MinimumFilter",
             "SaveImageWithName",
             "XY_Image",
-            "ZImageLoraModelOnly"
+            "ZImageLoraModelOnly",
+            "getImageRetio"
         ],
         {
             "title_aux": "ComfyUI DashuaiTools"
@@ -11602,6 +11613,10 @@
     ],
     "https://github.com/LAOGOU-666/Comfyui_LG_Tools": [
         [
+            "AFL2:ImageRestoreNodeV2",
+            "AFL2:MaskBoxCropNodeV2",
+            "AFL2_PSD_Layer",
+            "AFL2_Save_PSD",
             "BridgePreviewNode",
             "CachePreviewBridge",
             "ColorAdjustment",
@@ -15054,6 +15069,8 @@
             "FRED_ImageUncropFromBBox",
             "FRED_Image_Sharpening_Blur_Level",
             "FRED_JpegArtifact_Simulator",
+            "FRED_Multi_Linear_Slider",
+            "FRED_RestoreFaceWithMask",
             "FRED_Save_Text_File",
             "FRED_Simplified_Parameters_Panel",
             "FRED_Text_to_XMP",
@@ -19672,11 +19689,16 @@
             "EasyCLIPLoader",
             "EasyCheckpointLoader",
             "EasyFileName",
+            "EasyJSONJobImport",
+            "EasyJSONUpdate",
+            "EasyJsonExtractor",
             "EasyLoraLoader",
             "EasyUNETLoader",
             "EasyVAELoader",
             "ImageSaveToPath",
+            "ImageSaveToPathwithCaption",
             "LineCounter",
+            "LoadImageFromMatch",
             "LoadImageFromPath",
             "LoadImagesFromDirectoryPath",
             "LoadRandomImageFromFolderPath",
@@ -19820,7 +19842,8 @@
     "https://github.com/TuonoMindCode/ComfyUI-MultiClip-Text-Script": [
         [
             "MultiClipTextScriptClipSelector",
-            "MultiClipTextScriptMain"
+            "MultiClipTextScriptMain",
+            "MultiClipTextScriptPositiveOnly"
         ],
         {
             "title_aux": "ComfyUI-MultiClip-Text-Script"
@@ -25014,6 +25037,7 @@
             "MaskBoundingBox-beyond_nodes",
             "MaskRectArea-beyond_nodes",
             "MaskToImage-beyond_nodes",
+            "Prompt-beyond_nodes",
             "RoundMask-beyond_nodes",
             "String-beyond_nodes",
             "TwoWaySwitch-beyond_nodes"
@@ -28405,6 +28429,7 @@
             "SCAILCMULibraryLoader",
             "SCAILCMUMotion",
             "SCAILCMUSequenceToSCAILPose",
+            "SCAILMixamoFBX",
             "SCAILPoseFromDWPose",
             "SCAILPoseRenderer"
         ],
@@ -31041,16 +31066,19 @@
             "AudioListCombine",
             "AudioListGenerator",
             "AudioToFrameCount",
+            "AutoWhiteBalance",
             "BatchToPSD",
             "CeilDivide",
+            "ChineseConverter",
+            "ChineseTranslate",
             "FrameMatch",
             "GGUFInference",
-            "LoadVideoPath",
             "ModelDownloader",
             "NumberListGenerator",
+            "OpenAIHelper",
+            "OpenRouterLLM",
             "PromptListGenerator",
             "QwenGPUInference",
-            "SaveVideoPath",
             "SimpleWildCardPlayer"
         ],
         {
@@ -35149,11 +35177,11 @@
     ],
     "https://github.com/huyl3-cpu/comfyui_segment_anything_a100": [
         [
-            "GroundingDinoModelLoader_A100",
-            "GroundingDinoSAMSegment_A100",
-            "InvertMask_A100",
-            "IsMaskEmpty_A100",
-            "SAMModelLoader_A100"
+            "GroundingDinoModelLoader (segment anything A100)",
+            "GroundingDinoSAMSegment (segment anything A100)",
+            "InvertMask (segment anything)",
+            "IsMaskEmpty",
+            "SAMModelLoader (segment anything A100)"
         ],
         {
             "title_aux": "comfyui_segment_anything_a100"
@@ -43323,6 +43351,7 @@
             "BBoxInsetAndCrop",
             "BaseNode",
             "CharacterPresetNode",
+            "CharacterReplacementNode",
             "CombinedUpscaleNode",
             "ConditionalLoraFullPipe",
             "DetailerNode",
@@ -43330,11 +43359,13 @@
             "FullPipeIn",
             "FullPipeLoader",
             "FullPipeOut",
+            "ImageFileSize",
             "LoaderFullPipe",
             "MaskDetailerNode",
             "MaskDetailerPipeNode",
             "ModelPresetNode",
             "MultiStringConditioning",
+            "OpenCVDenoise",
             "PromptConditioningNode",
             "ResolutionSelector",
             "SaveFullPipe",
@@ -43342,7 +43373,6 @@
             "SplitLoaderFullPipe",
             "StylePresetNode",
             "TagPresetNode",
-            "TagReplacementNode",
             "UpscaleNode",
             "WildcardNode"
         ],
@@ -45646,6 +45676,7 @@
             "CRT_KSamplerBatch",
             "CRT_QuantizeAndCropImage",
             "CRT_StringBatcher",
+            "CRT_StringLineCounter",
             "CRT_StringSplitter",
             "CRT_UpscaleModelAdv",
             "CRT_WAN_BatchSampler",
@@ -45701,6 +45732,7 @@
             "SmartStyleModelApplyDual",
             "Strength To Steps",
             "Technicolor2FX",
+            "Text Box line spot",
             "Toggle Lora Unet Blocks L1",
             "Toggle Lora Unet Blocks L2",
             "Video Duration Calculator",
@@ -48816,11 +48848,18 @@
             "EmbeddingRenameKeys",
             "EmbeddingThreeMerger",
             "EmbeddingTwoMerger",
-            "LoRACheckpointSaveFromFile",
+            "LoRAExtractFixed",
+            "LoRAExtractFrobenius",
+            "LoRAExtractKnee",
+            "LoRAExtractQuantile",
+            "LoRAExtractRatio",
             "LoRAMetaKeys",
             "LoRAPruneKeys",
             "LoRARenameKeys",
-            "LoRASaveFromFile",
+            "LoRAResizeCumulative",
+            "LoRAResizeFixed",
+            "LoRAResizeFrobenius",
+            "LoRAResizeRatio",
             "LoRAThreeMerger",
             "LoRATwoMerger",
             "ModelMetaKeys",
@@ -49869,13 +49908,14 @@
         [
             "ImageMaskCrop",
             "ImageSizeCalculator",
+            "LoadDiffusersScheduler",
             "RestoreMaskCrop",
             "SigmaSmoother",
+            "SigmasGraph",
             "SigmasRescale",
             "SuperCreateTiles",
             "SuperSVRCalcTiles",
-            "SuperStitchTiles",
-            "WanExtendI2VPlus"
+            "SuperStitchTiles"
         ],
         {
             "title_aux": "ComfyUI-SuperNodes"
@@ -50352,6 +50392,14 @@
         ],
         {
             "title_aux": "ComfyUI_Strimmlarns_aesthetic_score"
+        }
+    ],
+    "https://github.com/stuttlepress/ComfyUI-Wan-VACE-Prep": [
+        [
+            "WanVACEPrep"
+        ],
+        {
+            "title_aux": "ComfyUI Wan VACE Prep"
         }
     ],
     "https://github.com/styler00dollar/ComfyUI-deepcache": [
@@ -51766,9 +51814,7 @@
             "DyPEQwenImage",
             "FlowMatchingProgressiveUpscaler",
             "FlowMatchingStage",
-            "ImageMeshDrag",
-            "LatentChannelStatsPreview",
-            "LatentMeshDrag"
+            "LatentUpscaleAdvanced"
         ],
         {
             "title_aux": "ComfyUI-FlowMatching-Upscaler"
@@ -52664,7 +52710,8 @@
             "vsLinx_ImpactMultilineWildcardText",
             "vsLinx_LoadSelectedImagesBatch",
             "vsLinx_LoadSelectedImagesList",
-            "vsLinx_MuteOnBool"
+            "vsLinx_MuteOnBool",
+            "vsLinx_UpscaleByFactorWithModel"
         ],
         {
             "title_aux": "ComfyUI vsLinx Nodes"
@@ -53212,8 +53259,8 @@
             "TSC_EfficientLoader",
             "TriggerWordToggle",
             "VAEDecode",
-            "WanVideoLoraSelect",
-            "WanVideoLoraSelectFromText"
+            "WanVideoLoraSelectFromText",
+            "WanVideoLoraSelectLM"
         ],
         {
             "title_aux": "ComfyUI-Lora-Manager"
@@ -54307,7 +54354,8 @@
             "YC_Image_Save",
             "YC_MaskColorOverlay",
             "YC_SingleTextNode",
-            "YC_textReplaceNode"
+            "YC_textReplaceNode",
+            "ycImageTilem"
         ],
         {
             "title_aux": "ComfyUI-YCNodes"
@@ -55056,7 +55104,8 @@
             "Add Subtitles To Background",
             "Add Subtitles To Frames",
             "Apply Whisper",
-            "Resize Cropped Subtitles"
+            "Resize Cropped Subtitles",
+            "Save SRT"
         ],
         {
             "title_aux": "ComfyUI Whisper"

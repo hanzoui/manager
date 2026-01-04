@@ -36124,12 +36124,13 @@
         {
             "author": "IXIWORKS-KIMJUNGHO",
             "title": "ComfyUI-VideoDescription",
+            "id": "comfyui-videodescription",
             "reference": "https://github.com/IXIWORKS-KIMJUNGHO/ComfyUI-VideoDescription",
             "files": [
                 "https://github.com/IXIWORKS-KIMJUNGHO/ComfyUI-VideoDescription"
             ],
             "install_type": "git-clone",
-            "description": "Video description custom nodes for ComfyUI powered by advanced vision-language models."
+            "description": "Video description nodes using Qwen3-VL and NVIDIA DAM models, plus StoryBoard JSON prompt generation nodes for structured scene and character prompts."
         },
         {
             "author": "pacchikAI",
@@ -40041,16 +40042,16 @@
             "install_type": "git-clone",
             "description": "Nodes to clean up your workflow."
         },
-		{
-  			"author": "Rhovanx",
-  			"title": "Wan Vace Auto Joiner",
-  			"reference": "https://github.com/Rhovanx/wan_vace_auto_joiner",
-  			"files": [
-    			"https://github.com/Rhovanx/wan_vace_auto_joiner"
-  			],
-  			"install_type": "git-clone",
-  			"description": "Seamlessly join multiple video clips using WAN VACE with one click."
-		},
+        {
+            "author": "Rhovanx",
+            "title": "Wan Vace Auto Joiner",
+            "reference": "https://github.com/Rhovanx/wan_vace_auto_joiner",
+            "files": [
+                "https://github.com/Rhovanx/wan_vace_auto_joiner"
+            ],
+            "install_type": "git-clone",
+            "description": "Seamlessly join multiple video clips using WAN VACE with one click."
+        },
         {
             "author": "ZUENS2020",
             "title": "ComfyUI Gemini LiteLLM Nodes",
@@ -40061,6 +40062,16 @@
             ],
             "install_type": "git-clone",
             "description": "Gemini chat and image generation via LiteLLM. Multimodal support with multiple reference images. Precise control over image resolution (1K/2K/4K) and aspect ratio (1:1, 16:9, 4:3, 9:16, 3:4). Temperature control (0-1). Zero external dependencies."
+        },
+        {
+            "author": "stuttlepress",
+            "title": "ComfyUI Wan VACE Prep",
+            "reference": "https://github.com/stuttlepress/ComfyUI-Wan-VACE-Prep",
+            "files": [
+                "https://github.com/stuttlepress/ComfyUI-Wan-VACE-Prep"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node that generates a VACE control video and mask for a smooth transition between two videos"
         },
 
 
@@ -40468,14 +40479,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-    		"author": "stuttlepress",
-  			"title": "ComfyUI Wan VACE Prep",
-    		"reference": "https://github.com/stuttlepress/ComfyUI-Wan-VACE-Prep",
-    		"files": ["https://github.com/stuttlepress/ComfyUI-Wan-VACE-Prep"],
-    		"install_type": "git-clone",
-    		"description": "A ComfyUI node that generates a VACE control video and mask for a smooth transition between two videos"
-		}
+        }
     ]
 }

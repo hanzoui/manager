@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "stuttlepress",
+            "title": "ComfyUI Wan VACE Prep",
+            "reference": "https://github.com/stuttlepress/ComfyUI-Wan-VACE-Prep",
+            "files": [
+                "https://github.com/stuttlepress/ComfyUI-Wan-VACE-Prep"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node that generates a VACE control video and mask for a smooth transition between two videos"
+        },
+        {
             "author": "ZUENS2020",
             "title": "ComfyUI LLM Nodes",
             "id": "comfyui-llm-nodes",
@@ -11,16 +21,16 @@
             "install_type": "git-clone",
             "description": "LLM integration nodes for ComfyUI. Support chat completions and image generation with OpenAI/Gemini. Features precise resolution and aspect ratio control for Gemini image generation (1K/2K/4K with 5 aspect ratios). Zero external dependencies."
         },
-		{
-  			"author": "Rhovanx",
-  			"title": "Wan Vace Auto Joiner",
-  			"reference": "https://github.com/Rhovanx/wan_vace_auto_joiner",
-  			"files": [
-    			"https://github.com/Rhovanx/wan_vace_auto_joiner"
-  			],
-  			"install_type": "git-clone",
-  			"description": "Seamlessly join multiple video clips using WAN VACE with one click."
-		},
+        {
+            "author": "Rhovanx",
+            "title": "Wan Vace Auto Joiner",
+            "reference": "https://github.com/Rhovanx/wan_vace_auto_joiner",
+            "files": [
+                "https://github.com/Rhovanx/wan_vace_auto_joiner"
+            ],
+            "install_type": "git-clone",
+            "description": "Seamlessly join multiple video clips using WAN VACE with one click."
+        },
         {
             "author": "rookiestar28",
             "title": "ComfyUI-Doctor",
