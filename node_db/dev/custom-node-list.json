@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "zhu798542746",
+            "title": "comfyui_model [UNSAFE]",
+            "reference": "https://github.com/zhu798542746/comfyui_model",
+            "files": [
+                "https://github.com/zhu798542746/comfyui_model"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful tool for managing and exporting ComfyUI plugins and models with an elegant side panel interface. (Description by CC) [w/This node pack has a vulnerability that allows it to access (or exfiltrate) data from custom nodes installed remotely.]"
+        },        
+        {
+            "author": "simonri",
+            "title": "ComfyUI-SimonNodes",
+            "reference": "https://github.com/simonri/ComfyUI-SimonNodes",
+            "files": [
+                "https://github.com/simonri/ComfyUI-SimonNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Provides seed upscaling and image cropping utilities for ComfyUI workflows. (Description by CC)"
+        },
+        {
+            "author": "j-pyxal",
+            "title": "ComfyUI-Lattice-Manim [WIP]",
+            "reference": "https://github.com/j-pyxal/ComfyUI-Lattice-Manim",
+            "files": [
+                "https://github.com/j-pyxal/ComfyUI-Lattice-Manim"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI extension integrating Manim for animation rendering.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "kanttouchthis",
             "title": "ComfyUI-SDNQ [NAME CONFLICT]",
             "reference": "https://github.com/kanttouchthis/ComfyUI-SDNQ",
@@ -4535,16 +4565,6 @@
             ],
             "install_type": "git-clone",
             "description": "Change of resolutions for ComfyUI and Upscalers\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "pixixai",
-            "title": "ComfyUI_Pixix-Tools [UNSAFE/WIP]",
-            "reference": "https://github.com/pixixai/ComfyUI_pixixTools",
-            "files": [
-                "https://github.com/pixixai/ComfyUI_pixixTools"
-            ],
-            "install_type": "git-clone",
-            "description": "Load Text (from folder)\nNOTE: The files in the repo are not organized.[w/The contents of files from arbitrary paths can be read remotely through this node.]"
         },
         {
             "author": "PeterMikhai",

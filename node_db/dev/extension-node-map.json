@@ -1202,11 +1202,15 @@
     ],
     "https://github.com/Brandelan/ComfyUI_bd_customNodes": [
         [
+            "BD Float to String",
+            "BD Int to String",
             "BD Random Range",
             "BD Random Settings",
             "BD Sequencer",
             "BD Settings",
             "bd_FloatRangeSlider",
+            "bd_FloatToString",
+            "bd_IntToString",
             "bd_RandomizeSettings",
             "bd_Sequencer"
         ],
@@ -1679,6 +1683,7 @@
             "DonutFillerClip",
             "DonutFillerModel",
             "DonutHotReload",
+            "DonutImageReporter",
             "DonutLoRACivitAIInfo",
             "DonutLoRAHashLookup",
             "DonutLoRALibrary",
@@ -1688,6 +1693,7 @@
             "DonutModelSave",
             "DonutMultiModelSampler",
             "DonutOpenCivitAI",
+            "DonutPromptReceiver",
             "DonutSDXLTeaCache",
             "DonutSDXLTeaCacheStats",
             "DonutSampler",
@@ -4144,6 +4150,7 @@
     "https://github.com/Randomwalkforest/Comfyui-Koi-Toolkit": [
         [
             "AliyunChat",
+            "AliyunConcurrentVLChat",
             "AliyunVLChat",
             "AnyToBoolean",
             "CropImageByJson",
@@ -4152,12 +4159,17 @@
             "Florence2JsonShow",
             "FreepikIconSearch",
             "GeminiVision",
+            "IdealabAPINode",
             "ImageDesaturateEdgeBinarize",
             "ImageSubtraction",
             "ImageSubtractionAdvanced",
             "ImageToSVG_Potracer",
             "JsonExtractTextList",
+            "KoiImageMarker",
+            "MaskBatchCombine",
             "MaskExternalRectangle",
+            "MaskFilterByInclusion",
+            "MaskThresholdToWhite",
             "PreviewSVG",
             "QwenVLBboxVisualizer",
             "QwenVLPointVisualizer",
@@ -7039,12 +7051,21 @@
             "KlingTextToVideoWithAudio",
             "KlingVideoExtendNode",
             "KlingVirtualTryOnNode",
+            "LTXAVTextEncoderLoader",
             "LTXVAddGuide",
+            "LTXVAudioVAEDecode",
+            "LTXVAudioVAEEncode",
+            "LTXVAudioVAELoader",
+            "LTXVConcatAVLatent",
             "LTXVConditioning",
             "LTXVCropGuides",
+            "LTXVEmptyLatentAudio",
             "LTXVImgToVideo",
+            "LTXVImgToVideoInplace",
+            "LTXVLatentUpsampler",
             "LTXVPreprocess",
             "LTXVScheduler",
+            "LTXVSeparateAVLatent",
             "LaplaceScheduler",
             "LatentAdd",
             "LatentApplyOperation",
@@ -9178,6 +9199,17 @@
             "title_aux": "ComfyUI-Lovis-Node [WIP]"
         }
     ],
+    "https://github.com/j-pyxal/ComfyUI-Lattice-Manim": [
+        [
+            "ManimAudioCaptionNode",
+            "ManimDataVisualizationNode",
+            "ManimScriptNode",
+            "ManimTimelineSceneNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Lattice-Manim [WIP]"
+        }
+    ],
     "https://github.com/jKaarlehto/ComfyUI-GetWorkflowName": [
         [
             "GetWorkflowName"
@@ -9833,6 +9865,7 @@
             "Replace Color By Palette",
             "UltralyticsCheckCategory",
             "UltralyticsInference",
+            "UltralyticsInference_face_detection",
             "UltralyticsListIndexToNames",
             "UltralyticsModelLoader",
             "UltralyticsVisualization",
@@ -10011,6 +10044,7 @@
             "FluxAdaptiveInjector",
             "GaussianNoisePadding",
             "PresenceDirector",
+            "PresencePaddingTester",
             "PresencePreview",
             "PresenceSaver"
         ],
@@ -10698,7 +10732,8 @@
             "AddSingleObject",
             "AddSingleText",
             "ColorNode",
-            "PromptSelector"
+            "PromptSelector",
+            "SaveImageAndText"
         ],
         {
             "title_aux": "ComfyUI-glb-to-stl [WIP]"
@@ -11454,17 +11489,6 @@
             "title_aux": "ComfyUI LLM Prompt Enhancer [WIP]"
         }
     ],
-    "https://github.com/pixixai/ComfyUI_pixixTools": [
-        [
-            "BaiduTranslateNode",
-            "ChatGLM4TranslateTextNode",
-            "ColorPicker",
-            "LoadTextFromFolderNode"
-        ],
-        {
-            "title_aux": "ComfyUI_Pixix-Tools [UNSAFE/WIP]"
-        }
-    ],
     "https://github.com/pixuai/ComfyUI-PixuAI": [
         [
             "PromptSearch"
@@ -12060,7 +12084,8 @@
         [
             "LoadImageFromDir",
             "LoadImageFromPath",
-            "LoadSingleImageFromPath"
+            "LoadSingleImageFromPath",
+            "LoadVideoFromOutput"
         ],
         {
             "title_aux": "ComfyUI-Local-Loader"
@@ -12356,6 +12381,16 @@
         ],
         {
             "title_aux": "ComfyUI-sjnodes"
+        }
+    ],
+    "https://github.com/simonri/ComfyUI-SimonNodes": [
+        [
+            "SeedVRUpscale",
+            "UltralyticsCrop",
+            "UltralyticsModelLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-SimonNodes"
         }
     ],
     "https://github.com/siyonomicon/ComfyUI-Pin": [
@@ -13937,7 +13972,8 @@
             "YCFaceAlignToCanvas",
             "YCFaceAlignToCanvasV2",
             "YCFaceAlignToReference",
-            "YCFaceAnalysisModels"
+            "YCFaceAnalysisModels",
+            "ycFaceMaskCreator"
         ],
         {
             "title_aux": "ComfyUI-YCNodes_Advance"
@@ -14087,6 +14123,14 @@
         ],
         {
             "title_aux": "Comfyui-Anything-Converter [UNSAFE]"
+        }
+    ],
+    "https://github.com/zhu798542746/comfyui_model": [
+        [
+            "ModelManagerNode"
+        ],
+        {
+            "title_aux": "comfyui_model [UNSAFE]"
         }
     ],
     "https://github.com/zhuanvi/ComfyUI-ZVNodes": [

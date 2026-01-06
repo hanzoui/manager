@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "pixixai",
+            "title": "ComfyUI_Pixix-Tools [UNSAFE/REMOVED]",
+            "reference": "https://github.com/pixixai/ComfyUI_pixixTools",
+            "files": [
+                "https://github.com/pixixai/ComfyUI_pixixTools"
+            ],
+            "install_type": "git-clone",
+            "description": "Load Text (from folder)\nNOTE: The files in the repo are not organized.[w/The contents of files from arbitrary paths can be read remotely through this node.]"
+        },
+        {
+            "author": "fllywaay",
+            "title": "Comfyui-TextLine-counter [REMOVED]",
+            "reference": "https://github.com/zpengcom/Comfyui-TextLine-counter",
+            "files": [
+                "https://github.com/zpengcom/Comfyui-TextLine-counter"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple multi-line text processing tool, such as line count statistics, ignoring blank lines, etc."
+        },
+        {
+            "author": "daveand",
+            "title": "ComfyUI-daveand-utils [REMOVED]",
+            "reference": "https://github.com/daveand/ComfyUI-daveand-utils",
+            "files": [
+                "https://github.com/daveand/ComfyUI-daveand-utils"
+            ],
+            "install_type": "git-clone",
+            "description": "Utility nodes including ModelConfigSelector for saving checkpoint configurations and managing manual sampler overrides. (Description by CC)"
+        },
+        {
+            "author": "tristanvdb",
+            "title": "ComfyUI-toolset [REMOVED]",
+            "reference": "https://github.com/tristanvdb/ComfyUI-toolset",
+            "files": [
+                "https://github.com/tristanvdb/ComfyUI-toolset"
+            ],
+            "install_type": "git-clone",
+            "description": "Human-in-the-loop image selection tool for ComfyUI workflows using a Flask web server, enabling users to pause workflows and interactively select images via a web browser interface."
+        },
+        {
             "author": "chuchu114514",
             "title": "comfyui_proportion_solver [REMOVED]",
             "reference": "https://github.com/chuchu114514/comfyui_proportion_solver",
