@@ -1,6 +1,27 @@
 {
     "custom_nodes": [
         {
+            "author": "KrakenUnbound",
+            "title": "Kraken Tools",
+            "id": "kraken-tools",
+            "reference": "https://github.com/krakenunbound/comfyui-kraken-tools",
+            "files": [
+                "https://github.com/krakenunbound/comfyui-kraken-tools"
+            ],
+            "install_type": "git-clone",
+            "description": "15 productivity nodes: Kraken Unbound Prompt (vision-enabled prompt builder with Qwen2-VL), WAN Prompt Splitter (cinematic styling), Ollama Prompt Chat (LLM enhancement), LoRA Loader with CivitAI trigger fetching, Dual CLIP Loader (Flux/SD3/SDXL), smart KSampler (AMP handling for WAN/Flow/FP8), Empty Latent with aspect presets, Upscale & Tile Calculator for Ultimate SD Upscale, Resolution Helper, Image Processor, WAN Helper, and more."
+        },
+        {
+            "author": "18yz153",
+            "title": "ComfyUI-Persona-Director",
+            "reference": "https://github.com/c/ComfyUI-Persona-Director",
+            "files": [
+                "https://github.com/18yz153/ComfyUI-Persona-Director"
+            ],
+            "install_type": "git-clone",
+            "description": "A visual state machine for consistent character generation. It intelligently maintains character identity, outfits, and locations across multiple generations using LLM-driven state management."
+        },
+        {
             "author": "bulldog68",
             "title": "FMJ Save Image + Versions",
             "description": "Sauvegarde d’images avec métadonnées complètes (prompt, seed, versions logicielles) + chargement intelligent.",
