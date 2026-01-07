@@ -1,6 +1,67 @@
 {
     "custom_nodes": [
         {
+            "author": "DanrisiUA",
+            "title": "ComfyUI-ZImage-LoRA-Merger",
+            "reference": "https://github.com/DanrisiUA/ComfyUI-ZImage-LoRA-Merger",
+            "files": [
+                "https://github.com/DanrisiUA/ComfyUI-ZImage-LoRA-Merger"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for combining multiple LoRAs without overexposure on distilled models like Z-Image Turbo"
+        },
+        {
+            "author": "pixixai",
+            "title": "ComfyUI-AlignLayout",
+            "reference": "https://github.com/pixixai/ComfyUI-AlignLayout",
+            "files": [
+                "https://github.com/pixixai/ComfyUI-AlignLayout"
+            ],
+            "install_type": "git-clone",
+            "description": "Productivity enhancement extension for ComfyUI featuring radial menus and mouse flick gestures for efficient node alignment, distribution, and resizing. (Description by CC)"
+        },
+        {
+            "author": "MechaBabyAi",
+            "title": "ComfyUI-MechaBabyNodeSearch",
+            "reference": "https://github.com/MechaBabyAi/ComfyUI-MechaBabyNodeSearch",
+            "files": [
+                "https://github.com/MechaBabyAi/ComfyUI-MechaBabyNodeSearch"
+            ],
+            "install_type": "git-clone",
+            "description": "Enhance ComfyUI workflow by providing powerful node search, attribute search, and port navigation features with Ctrl+F shortcut support."
+        },
+        {
+            "author": "yangrui511",
+            "title": "ComfyUI-Text-Preserve",
+            "reference": "https://github.com/yangrui511/ComfyUI-Text-Preserve",
+            "files": [
+                "https://github.com/yangrui511/ComfyUI-Text-Preserve"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node providing text preservation preprocessing for ComfyUI using OCR to identify text regions and apply blur/noise fusion to non-text areas. (Description by CC)"
+        },
+        {
+            "author": "Atsushi888",
+            "title": "easy_prompt_selector_for_comfyui",
+            "reference": "https://github.com/Atsushi888/easy_prompt_selector_for_comfyui",
+            "files": [
+                "https://github.com/Atsushi888/easy_prompt_selector_for_comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple custom node for ComfyUI that loads and provides an all-in-one dropdown selector to build a prompt string."
+        },
+        {
+            "author": "princepainter",
+            "title": "ComfyUI-PainterLTXV2",
+            "reference": "https://github.com/princepainter/ComfyUI-PainterLTXV2",
+            "files": [
+                "https://github.com/princepainter/ComfyUI-PainterLTXV2"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes providing LTXV audio-video separation sampling and latent preparation capabilities for professional video generation workflows."
+        },
+
+        {
             "author": "logicalor",
             "title": "comfyui_path_sanitizer",
             "reference": "https://github.com/logicalor/comfyui_path_sanitizer",

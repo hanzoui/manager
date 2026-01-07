@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "w3rc",
+            "title": "lpips-similarity-comfyui",
+            "reference": "https://github.com/w3rc/lpips-similarity-comfyui",
+            "files": [
+                "https://github.com/w3rc/lpips-similarity-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: GetSimilarity, LPIPSSimilarity"
+        },
+        {
+            "author": "StevenBaby",
+            "title": "comfyui-tools",
+            "reference": "https://github.com/StevenBaby/comfyui-tools",
+            "files": [
+                "https://github.com/StevenBaby/comfyui-tools"
+            ],
+            "install_type": "git-clone",
+            "description": "IntParameterNode: A Node contain 4 int parameters to quick switch input to other nodes."
+        },        
+        {
             "author": "zhu798542746",
             "title": "comfyui_model [UNSAFE]",
             "reference": "https://github.com/zhu798542746/comfyui_model",

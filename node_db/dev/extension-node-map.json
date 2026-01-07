@@ -2790,6 +2790,7 @@
             "LunaConnectionEditor",
             "LunaConnectionMatcher",
             "LunaConnectionStats",
+            "LunaDAAMAnalyzer",
             "LunaDaemonCLIPLoader",
             "LunaDaemonVAELoader",
             "LunaDimensionScaler",
@@ -2804,6 +2805,8 @@
             "LunaKSamplerAdvanced",
             "LunaKSamplerHeadless",
             "LunaKSamplerScaffold",
+            "LunaLSDBridge",
+            "LunaLSDTokenEditor",
             "LunaLoRARandomizer",
             "LunaLoRAStacker",
             "LunaLoRATriggerInjector",
@@ -12083,6 +12086,7 @@
     "https://github.com/saltchicken/ComfyUI-Local-Loader": [
         [
             "LoadImageFromDir",
+            "LoadImageFromOutput",
             "LoadImageFromPath",
             "LoadSingleImageFromPath",
             "LoadVideoFromOutput"
@@ -12093,7 +12097,7 @@
     ],
     "https://github.com/saltchicken/ComfyUI-Prompter": [
         [
-            "CustomizablePromptGenerator"
+            "PromptTemplateManager"
         ],
         {
             "title_aux": "ComfyUI-Prompter"

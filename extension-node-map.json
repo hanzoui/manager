@@ -467,7 +467,6 @@
             "1hew_StringFilter",
             "1hew_StringJoinMulti",
             "1hew_TextCustomExtract",
-            "1hew_TextEncodeQwenImageEditKeepSize",
             "1hew_TextListToString",
             "1hew_TextPrefixSuffix",
             "1hew_URLToVideo",
@@ -3059,6 +3058,14 @@
             "title_aux": "ComfyUI AstroCorp Nodes"
         }
     ],
+    "https://github.com/Atsushi888/easy_prompt_selector_for_comfyui": [
+        [
+            "EasyHairPromptSelector"
+        ],
+        {
+            "title_aux": "easy_prompt_selector_for_comfyui"
+        }
+    ],
     "https://github.com/AugustusLXIII/ComfyUI_CustomResolution_I2V": [
         [
             "CustomResolutionI2V"
@@ -5633,6 +5640,18 @@
             "title_aux": "ComfyUI Prompt Template"
         }
     ],
+    "https://github.com/DanrisiUA/ComfyUI-ZImage-LoRA-Merger": [
+        [
+            "ZImageLoRAMergeToSingle",
+            "ZImageLoRAMerger",
+            "ZImageLoRAStack",
+            "ZImageLoRAStackApply",
+            "ZImageLoRATrueMerge"
+        ],
+        {
+            "title_aux": "ComfyUI-ZImage-LoRA-Merger"
+        }
+    ],
     "https://github.com/Daohoi123/ComfyUI-Gemini3": [
         [
             "Gemini3ProImageNode"
@@ -6310,12 +6329,15 @@
             "BoyoExecutionBarrier",
             "BoyoForLoopEnd",
             "BoyoForLoopStart",
+            "BoyoFrameCounter",
             "BoyoFramePackLoRA",
             "BoyoIPAdapterZImageLoader",
             "BoyoImageCrop",
             "BoyoImageGrab",
             "BoyoIncontextSaver",
+            "BoyoLatentCacheUpdater",
             "BoyoLatentPassthrough",
+            "BoyoLatentSwitch",
             "BoyoLoRAConfigInspector",
             "BoyoLoRAConfigProcessor",
             "BoyoLoRAJSONBuilder",
@@ -6326,7 +6348,10 @@
             "BoyoLoopCounter",
             "BoyoLoopImageSaver",
             "BoyoLoopReset",
+            "BoyoLorainforsender",
             "BoyoMathInt",
+            "BoyoOverlapSwitch",
+            "BoyoPainterSVI",
             "BoyoPairedImageSaver",
             "BoyoPairedSaver",
             "BoyoPromptInjector",
@@ -6340,6 +6365,8 @@
             "BoyoVACEInjector",
             "BoyoVACEViewer",
             "BoyoVAEDecode",
+            "BoyoVideoCutter",
+            "BoyoVideoLengthCalculator",
             "BoyoVideoPairedSaver",
             "BoyoVideoSaver",
             "BoyoVision",
@@ -7072,7 +7099,7 @@
     ],
     "https://github.com/EricRorich/ComfyUI-face-shaper": [
         [
-            "ComfyUI-face-shaper"
+            "RORICH-AI"
         ],
         {
             "title_aux": "ComfyUI-face-shaper"
@@ -14040,8 +14067,7 @@
     ],
     "https://github.com/NOLABEL-VFX/ComfyUI-NL_Nodes": [
         [
-            "ModelLocalizer",
-            "ShotPathBuilder"
+            "ModelLocalizer"
         ],
         {
             "title_aux": "ComfyUI-NL_Nodes"
@@ -25929,6 +25955,7 @@
             "LoadVideoFromUrlOrPath",
             "LoadVideoLoraFromUrlOrPath",
             "LoadVideoLoraFromUrlOrPathSelect",
+            "OpenRouterGeminiImage",
             "PasteImageByMask"
         ],
         {
@@ -30599,7 +30626,8 @@
             "LatentImageAndSeed",
             "PromptCameraSelector",
             "PromptConstructor",
-            "PromptLightingSelector"
+            "PromptLightingSelector",
+            "TrainingDatasetSaver"
         ],
         {
             "title_aux": "ComfyUI-daveand-nodes"
@@ -46425,6 +46453,15 @@
             "title_aux": "ComfyUI-PainterImageLoad"
         }
     ],
+    "https://github.com/princepainter/ComfyUI-PainterLTXV2": [
+        [
+            "PainterLTXVtoVideo",
+            "PainterSamplerLTXV"
+        ],
+        {
+            "title_aux": "ComfyUI-PainterLTXV2"
+        }
+    ],
     "https://github.com/princepainter/ComfyUI-PainterLongVideo": [
         [
             "PainterLongVideo"
@@ -50434,6 +50471,7 @@
             "SigmasGraph",
             "SigmasRescale",
             "SuperCreateTiles",
+            "SuperResizeImage",
             "SuperSVRCalcTiles",
             "SuperStitchTiles"
         ],
@@ -54553,6 +54591,14 @@
         ],
         {
             "title_aux": "ComfyUI Kontext Duo Image Analyzer"
+        }
+    ],
+    "https://github.com/yangrui511/ComfyUI-Text-Preserve": [
+        [
+            "TextPreserveNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Text-Preserve"
         }
     ],
     "https://github.com/yanhuifair/comfyui-janus": [
