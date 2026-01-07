@@ -1,17 +1,6 @@
 {
     "custom_nodes": [
         {
-            "author": "solidlime",
-            "title": "Random Image Picker",
-            "reference": "https://github.com/solidlime/Comfyui-Random_Image_Picker",
-            "files": [
-                "https://github.com/solidlime/Comfyui-Random_Image_Picker"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node for flexible image loading with file picker and random folder selection. Features instant preview, auto mode switching, and browser-based file selection.",
-            "nodename_pattern": "RandomImagePicker"
-        },
-        {
             "author": "Dr.Lt.Data",
             "title": "ComfyUI-Manager",
             "id": "manager",
@@ -33534,6 +33523,16 @@
             "description": "A general comfyui model loading plugin that supports loading unet models quantized in bnb-4bit (nf4 and fp4) format"
         },
         {
+            "author": "mengqin",
+            "title": "Twinflow Node for ComfyUI",            
+            "reference": "https://github.com/mengqin/ComfyUI-TwinFlow",
+            "files": [
+                "https://github.com/mengqin/ComfyUI-TwinFlow"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a set of sampling nodes specifically designed for fine-tuning Twinflow models."
+        },
+        {
             "author": "Artificial-Sweetener",
             "title": "WhiteRabbit",
             "reference": "https://github.com/Artificial-Sweetener/comfyui-WhiteRabbit",
@@ -40747,6 +40746,17 @@
             "install_type": "git-clone",
             "description": "image split comparison horizontally/vertically, real-time mouse interaction to adjust split ratios, bidirectional linkage between slider and mouse, and the ability to export comparison images with precise split lines."
         },
+        {
+            "author": "solidlime",
+            "title": "Random Image Picker",
+            "reference": "https://github.com/solidlime/Comfyui-Random_Image_Picker",
+            "files": [
+                "https://github.com/solidlime/Comfyui-Random_Image_Picker"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for flexible image loading with file picker and random folder selection. Features instant preview, auto mode switching, and browser-based file selection.",
+            "nodename_pattern": "RandomImagePicker"
+        },
 
 
 
@@ -41161,16 +41171,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "mengqin",
-            "title": "Twinflow Node for ComfyUI",            
-            "reference": "https://github.com/mengqin/ComfyUI-TwinFlow",
-            "files": [
-                "https://github.com/mengqin/ComfyUI-TwinFlow"
-            ],
-            "install_type": "git-clone",
-            "description": "This is a set of sampling nodes specifically designed for fine-tuning Twinflow models."
         }
     ]
 }
