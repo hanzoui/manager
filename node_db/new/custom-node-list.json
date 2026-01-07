@@ -1,6 +1,29 @@
 {
     "custom_nodes": [
         {
+            "author": "bulldog68",
+            "title": "FMJ Save Image + Versions",
+            "description": "Sauvegarde d’images avec métadonnées complètes (prompt, seed, versions logicielles) + chargement intelligent.",
+            "reference": "https://github.com/bulldog68/ComfyUI_FMJ_SaveImageVersions",
+            "files": [
+                "https://github.com/bulldog68/ComfyUI_FMJ_SaveImageVersions"
+            ],
+            "install_type": "git-clone",
+            "tags": ["save image", "metadonne"],
+            "license": "GNUV3"
+        },
+        {
+            "author": "shmbatom",
+            "title": "Comfyui-ImageAB-Compare",
+            "id": "Comfyui-ImageAB-Compare",
+            "reference": "https://github.com/shmbatom/Comfyui-ImageAB-Compare", 
+            "files": [                
+                "https://github.com/shmbatom/Comfyui-ImageAB-Compare"            
+            ],
+            "install_type": "git-clone",
+            "description": "image split comparison horizontally/vertically, real-time mouse interaction to adjust split ratios, bidirectional linkage between slider and mouse, and the ability to export comparison images with precise split lines."
+        },
+        {
             "author": "DanrisiUA",
             "title": "ComfyUI-ZImage-LoRA-Merger",
             "reference": "https://github.com/DanrisiUA/ComfyUI-ZImage-LoRA-Merger",
