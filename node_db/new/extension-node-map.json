@@ -387,6 +387,15 @@
             "title_aux": "Comfyui-ergouzi-samplers"
         }
     ],
+    "https://github.com/18yz153/ComfyUI-Persona-Director": [
+        [
+            "PersonaDirector",
+            "PersonaDirectorNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Persona-Director"
+        }
+    ],
     "https://github.com/1hew/ComfyUI-1hewNodes": [
         [
             "1hew_AnyEmptyBool",
@@ -3338,6 +3347,15 @@
         ],
         {
             "title_aux": "comfyui_flux_corrector"
+        }
+    ],
+    "https://github.com/BWDrum/ComfyUI-RandomWildcardLoader": [
+        [
+            "RandomWildcardLoader",
+            "RandomWildcardLoaderAdvanced"
+        ],
+        {
+            "title_aux": "ComfyUI Random Wildcard Loader"
         }
     ],
     "https://github.com/BXYMartin/ComfyUI-InstantIDUtils": [
@@ -8524,6 +8542,16 @@
         ],
         {
             "title_aux": "Save Image Plus for ComfyUI"
+        }
+    ],
+    "https://github.com/GonDesign/ComfyUI-HaoranWanxImageEdit": [
+        [
+            "HaoranWanxAPILoader",
+            "HaoranWanxImageEdit",
+            "HaoranWanxPromptHelper"
+        ],
+        {
+            "title_aux": "ComfyUI-HaoranWanxImageEdit"
         }
     ],
     "https://github.com/GoogleCloudPlatform/comfyui-google-genmedia-custom-nodes": [
@@ -16917,6 +16945,16 @@
         ],
         {
             "title_aux": "Remove Background"
+        }
+    ],
+    "https://github.com/Sean-Bradley/ComfyUI-Sonic": [
+        [
+            "SONICSampler",
+            "SONICTLoader",
+            "SONIC_PreData"
+        ],
+        {
+            "title_aux": "ComfyUI-Sonic"
         }
     ],
     "https://github.com/Sean-Bradley/ComfyUI-Video-Reverse": [
@@ -39589,6 +39627,23 @@
         ],
         {
             "title_aux": "ComfyUI-KrakenTools"
+        }
+    ],
+    "https://github.com/krakenunbound/comfyui-kraken-tools": [
+        [
+            "KrakenDualCLIPLoader",
+            "KrakenImageProcessor",
+            "KrakenImageResize",
+            "KrakenKSampler",
+            "KrakenLastFrameMeta",
+            "KrakenLoras3",
+            "KrakenOllamaPromptChat",
+            "KrakenResolutionHelper",
+            "KrakenWanHelper",
+            "kraken_checkpoint_loader"
+        ],
+        {
+            "title_aux": "Kraken Tools"
         }
     ],
     "https://github.com/krakenunbound/kraken-discord-bot": [
