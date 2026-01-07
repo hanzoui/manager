@@ -12361,7 +12361,6 @@
             "LTXVBaseSampler",
             "LTXVExtendSampler",
             "LTXVGemmaCLIPModelLoader",
-            "LTXVGemmaCLIPModelLoaderMGPU",
             "LTXVGemmaEnhancePrompt",
             "LTXVImgToVideoConditionOnly",
             "LTXVInContextSampler",
@@ -13594,6 +13593,7 @@
             "Pose Image Setup",
             "PreviewAsMarkdown",
             "PreviewImageAlpha",
+            "Remove Background",
             "ReplaceAlpha",
             "Resize Image and Mask by Side",
             "Save Folder as ZIP",
@@ -14067,7 +14067,11 @@
     ],
     "https://github.com/NOLABEL-VFX/ComfyUI-NL_Nodes": [
         [
-            "ModelLocalizer"
+            "ModelLocalizer",
+            "NLContextDebug",
+            "NLRead",
+            "NLWorkflow",
+            "NLWrite"
         ],
         {
             "title_aux": "ComfyUI-NL_Nodes"
@@ -19059,6 +19063,7 @@
     "https://github.com/SuzumiyaAkizuki/ComfyUI-LLM_Prompt_XML_Formatter": [
         [
             "LLM_Prompt_Formatter",
+            "LLM_Style_Saver",
             "LLM_Xml_Style_Injector"
         ],
         {
@@ -19398,6 +19403,7 @@
     ],
     "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset": [
         [
+            "LTXVFirstLastFrameControl_TTP",
             "TTP_CoordinateSplitter",
             "TTP_Expand_And_Mask",
             "TTP_Image_Assy",
@@ -26381,6 +26387,15 @@
             "title_aux": "FMJ-speed-Prompt"
         }
     ],
+    "https://github.com/bulldog68/ComfyUI_FMJ_SaveImageVersions": [
+        [
+            "FMJ_LoadImageWithSnapshot",
+            "FMJ_SaveImageWithSnapshot"
+        ],
+        {
+            "title_aux": "FMJ Save Image + Versions"
+        }
+    ],
     "https://github.com/burnsbert/ComfyUI-EBU-LMStudio": [
         [
             "EbuLMStudioBrainstormer",
@@ -27929,6 +27944,7 @@
             "LayerMask: MaskEdgeShrink",
             "LayerMask: MaskEdgeUltraDetail",
             "LayerMask: MaskEdgeUltraDetail V2",
+            "LayerMask: MaskEdgeUltraDetail V3",
             "LayerMask: MaskGradient",
             "LayerMask: MaskGrain",
             "LayerMask: MaskGrow",
@@ -29584,6 +29600,7 @@
             "WanMoveTracksFromCoords",
             "WanMoveVisualizeTracks",
             "WanPhantomSubjectToVideo",
+            "WanReferenceVideoApi",
             "WanSoundImageToVideo",
             "WanSoundImageToVideoExtend",
             "WanTextToImageApi",
@@ -38753,6 +38770,7 @@
             "Intrinsic_lora_sampling",
             "JoinStringMulti",
             "JoinStrings",
+            "LTXVEnhanceAVideoKJ",
             "LatentInpaintTTM",
             "LazySwitchKJ",
             "LeapfusionHunyuanI2VPatcher",
@@ -38829,6 +38847,7 @@
             "VAELoaderKJ",
             "VRAM_Debug",
             "VisualizeCUDAMemoryHistory",
+            "VisualizeSigmasKJ",
             "Wan21BlockLoraSelect",
             "WanImageToVideoSVIPro",
             "WanVideoEnhanceAVideoKJ",
@@ -42963,6 +42982,17 @@
             "title_aux": "comfy-oiio"
         }
     ],
+    "https://github.com/mengqin/ComfyUI-TwinFlow": [
+        [
+            "TwinFlowKSampler",
+            "TwinFlowPatcher",
+            "TwinFlowSampler",
+            "TwinFlowScheduler"
+        ],
+        {
+            "title_aux": "Twinflow Node for ComfyUI"
+        }
+    ],
     "https://github.com/mengqin/ComfyUI-UnetBnbModelLoader": [
         [
             "UnetBnbModelLoader"
@@ -43845,6 +43875,7 @@
             "FullPipeIn",
             "FullPipeLoader",
             "FullPipeOut",
+            "ImageDifference",
             "ImageFileSize",
             "LoaderFullPipe",
             "MaskDetailerNode",
@@ -49347,6 +49378,14 @@
             "title_aux": "shinyakidoguchi301/LoRA Tag Loader for ComfyUI"
         }
     ],
+    "https://github.com/shmbatom/Comfyui-ImageAB-Compare": [
+        [
+            "ImageABCompare"
+        ],
+        {
+            "title_aux": "Comfyui-ImageAB-Compare"
+        }
+    ],
     "https://github.com/shobhitic/ComfyUI-PlusMinusTextClip": [
         [
             "PlusMinusTextClip"
@@ -50460,6 +50499,15 @@
         ],
         {
             "title_aux": "ComfyUI Video Crop"
+        }
+    ],
+    "https://github.com/solidlime/Comfyui-Random_Image_Picker": [
+        [
+            "RandomImagePicker"
+        ],
+        {
+            "nodename_pattern": "RandomImagePicker",
+            "title_aux": "Random Image Picker"
         }
     ],
     "https://github.com/sonnybox/ComfyUI-SuperNodes": [
