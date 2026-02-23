@@ -58,7 +58,7 @@ FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main/c
 [    ENABLED    ]  Hanzo Manager                                   (author: Dr.Lt.Data)
 [    ENABLED    ]  Hanzo Studio-Impact-Pack                               (author: Dr.Lt.Data)
 [    ENABLED    ]  Hanzo Studio-Inspire-Pack                              (author: Dr.Lt.Data)
-[    ENABLED    ]  Hanzo Studio_experiments                               (author: hanzoai)
+[    ENABLED    ]  HanzoStudio_experiments                               (author: hanzoai)
 [    ENABLED    ]  Hanzo Studio-SAI_API                                   (author: Stability-AI)
 [    ENABLED    ]  stability-Hanzo Studio-nodes                           (author: Stability-AI)
 [    ENABLED    ]  hanzo_studio_controlnet_aux                            (author: Fannovel16)
@@ -75,7 +75,7 @@ FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main/c
 Hanzo Manager                                   
 Hanzo Studio-Impact-Pack                               
 Hanzo Studio-Inspire-Pack                              
-Hanzo Studio_experiments                               
+HanzoStudio_experiments                               
 Hanzo Studio-SAI_API                                   
 stability-Hanzo Studio-nodes                           
 hanzo_studio_controlnet_aux                            
@@ -95,7 +95,7 @@ Hanzo Studio-Loopchain
 
 `[install|reinstall|uninstall|update|disable|enable|fix] node_name ... ?[--channel <channel name>] ?[--mode [remote|local|cache]]`
 
-* You can apply management functions by listing the names of custom nodes, such as `python cm-cli.py install Hanzo Studio-Impact-Pack Hanzo Studio-Inspire-Pack Hanzo Studio_experiments`.
+* You can apply management functions by listing the names of custom nodes, such as `python cm-cli.py install Hanzo Studio-Impact-Pack Hanzo Studio-Inspire-Pack HanzoStudio_experiments`.
 * The names of the custom nodes are as shown by `show` and are the names of the git repositories.
 (Plans are to update the use of nicknames in the future.)
 

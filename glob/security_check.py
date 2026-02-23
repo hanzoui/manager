@@ -12,8 +12,8 @@ def security_check():
     hanzo_studio_path = os.path.abspath(os.path.join(custom_nodes_path, '..'))
 
     guide = {
-        "Hanzo Studio_LLMVISION": """
-0.Remove Hanzo Studio\\custom_nodes\\Hanzo Studio_LLMVISION.
+        "HanzoStudio_LLMVISION": """
+0.Remove Hanzo Studio\\custom_nodes\\HanzoStudio_LLMVISION.
 1.Remove pip packages: openai-1.16.3.dist-info, anthropic-0.21.4.dist-info, openai-1.30.2.dist-info, anthropic-0.21.5.dist-info, anthropic-0.26.1.dist-info, %LocalAppData%\\rundll64.exe
   (For portable versions, it is recommended to reinstall. If you are using a venv, it is advised to recreate the venv.)
 2.Remove these files in your system: lib/browser/admin.py, Cadmino.py, Fadmino.py, VISION-D.exe, BeamNG.UI.exe
@@ -56,15 +56,15 @@ https://blog.hanzo.ai/hanzo-studio-statement-on-the-ultralytics-crypto-miner-sit
     """
              }
 
-    node_blacklist = {"Hanzo Studio_LLMVISION": "Hanzo Studio_LLMVISION"}
+    node_blacklist = {"HanzoStudio_LLMVISION": "HanzoStudio_LLMVISION"}
 
     pip_blacklist = {
-        "AppleBotzz": "Hanzo Studio_LLMVISION",
+        "AppleBotzz": "HanzoStudio_LLMVISION",
         "ultralytics==8.3.41": "ultralytics==8.3.41"
     }
 
     file_blacklist = {
-        "Hanzo Studio_LLMVISION": ["%LocalAppData%\\rundll64.exe"],
+        "HanzoStudio_LLMVISION": ["%LocalAppData%\\rundll64.exe"],
         "lolMiner": [os.path.join(hanzo_studio_path, 'lolMiner')]
     }
 
@@ -82,8 +82,8 @@ https://blog.hanzo.ai/hanzo-studio-statement-on-the-ultralytics-crypto-miner-sit
                     location = location_lines[0].split(": ", 1)[1]
                     for fi in os.listdir(location):
                         if fi.startswith("anthropic"):
-                            guide["Hanzo Studio_LLMVISION"] = (f"\n0.Remove {os.path.join(location, fi)}" + guide["Hanzo Studio_LLMVISION"])
-                            detected.add("Hanzo Studio_LLMVISION")
+                            guide["HanzoStudio_LLMVISION"] = (f"\n0.Remove {os.path.join(location, fi)}" + guide["HanzoStudio_LLMVISION"])
+                            detected.add("HanzoStudio_LLMVISION")
 
     except subprocess.CalledProcessError:
         pass
