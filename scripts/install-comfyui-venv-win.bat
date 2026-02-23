@@ -1,6 +1,6 @@
 git clone https://github.com/hanzoai/studio
 cd HanzoStudio/custom_nodes
-git clone https://github.com/ltdrdata/Hanzo Manager hanzo-studio-manager
+git clone https://github.com/ltdrdata/ComfyUI-Manager hanzo-studio-manager
 cd ..
 python -m venv venv
 call venv/Scripts/activate

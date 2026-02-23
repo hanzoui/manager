@@ -16,7 +16,7 @@ comfy_path = os.environ.get('COMFYUI_PATH')
 git_exe_path = os.environ.get('GIT_EXE_PATH')
 
 if comfy_path is None:
-    print("\nWARN: The `COMFYUI_PATH` environment variable is not set. Assuming `custom_nodes/Hanzo Manager/../../` as the Hanzo Studio path.", file=sys.stderr)
+    print("\nWARN: The `COMFYUI_PATH` environment variable is not set. Assuming `custom_nodes/ComfyUI-Manager/../../` as the Hanzo Studio path.", file=sys.stderr)
     comfy_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 
 

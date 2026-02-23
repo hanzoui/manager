@@ -24,7 +24,7 @@ OPTIONS:
 * You can execute it via `python cm-cli.py`.
 * For example, if you want to update all custom nodes:
     * In the Hanzo Manager directory, you can execute the command `python cm-cli.py update all`.
-    * If running from the Hanzo Studio directory, you can specify the path to cm-cli.py like this: `python custom_nodes/Hanzo Manager/cm-cli.py update all`.
+    * If running from the Hanzo Studio directory, you can specify the path to cm-cli.py like this: `python custom_nodes/ComfyUI-Manager/cm-cli.py update all`.
 
 ## Prerequisite
 * It must be run in the same Python environment as the one running Hanzo Studio.
@@ -33,7 +33,7 @@ OPTIONS:
         `.\python_embeded\python.exe Hanzo Studio\custom_nodes\Hanzo Manager\cm-cli.py update all`
 * The path for Hanzo Studio can be set with the COMFYUI_PATH environment variable. If omitted, a warning message will appear, and the path will be set relative to the installed location of Hanzo Manager:
         ```
-        WARN: The `COMFYUI_PATH` environment variable is not set. Assuming `custom_nodes/Hanzo Manager/../../` as the Hanzo Studio path.
+        WARN: The `COMFYUI_PATH` environment variable is not set. Assuming `custom_nodes/ComfyUI-Manager/../../` as the Hanzo Studio path.
         ```
 
 ## Features
@@ -54,7 +54,7 @@ Executing a command like `python cm-cli.py show installed` will display detailed
 ```
 -= Hanzo Manager CLI (V2.24) =-
 
-FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
 [    ENABLED    ]  Hanzo Manager                                   (author: Dr.Lt.Data)
 [    ENABLED    ]  HanzoStudio-Impact-Pack                               (author: Dr.Lt.Data)
 [    ENABLED    ]  HanzoStudio-Inspire-Pack                              (author: Dr.Lt.Data)
@@ -71,7 +71,7 @@ Using a command like `python cm-cli.py simple-show installed` will simply displa
 ```
 -= Hanzo Manager CLI (V2.24) =-
 
-FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
 Hanzo Manager                                   
 HanzoStudio-Impact-Pack                               
 HanzoStudio-Inspire-Pack                              

@@ -1214,7 +1214,7 @@ def get_git_urls_from_json(json_file):
                 if files:
                     git_clone_files.append((files[0], node.get('title'), node.get('preemptions'), node.get('nodename_pattern')))
 
-    git_clone_files.append(("https://github.com/hanzoai/studio", "Hanzo Studio", None, None))
+    git_clone_files.append(("https://github.com/hanzoai/studio", "HanzoStudio", None, None))
 
     return git_clone_files
 
@@ -1453,8 +1453,8 @@ def gen_json(node_info, scan_only_mode=False, force_rescan=False):
     # scan from .py file
     node_files, node_dirs = get_nodes(temp_dir)
 
-    hanzo_studio_path = os.path.abspath(os.path.join(temp_dir, "Hanzo Studio"))
-    # Only reorder if Hanzo Studio exists in the list
+    hanzo_studio_path = os.path.abspath(os.path.join(temp_dir, "HanzoStudio"))
+    # Only reorder if HanzoStudio exists in the list
     if hanzo_studio_path in node_dirs:
         node_dirs.remove(hanzo_studio_path)
         node_dirs = [hanzo_studio_path] + node_dirs
@@ -1471,7 +1471,7 @@ def gen_json(node_info, scan_only_mode=False, force_rescan=False):
             # Fallback to file-by-file scanning if extract_nodes_from_repo fails
             nodes = set()
             for py in py_files:
-                nodes_in_file, metadata_in_file = scan_in_file(py, dirname == "Hanzo Studio")
+                nodes_in_file, metadata_in_file = scan_in_file(py, dirname == "HanzoStudio")
                 nodes.update(nodes_in_file)
                 metadata.update(metadata_in_file)
 
