@@ -29,7 +29,7 @@ if comfy_path is None:
         import folder_paths
         comfy_path = os.path.join(os.path.dirname(folder_paths.__file__))
     except:
-        print("\n[bold yellow]WARN: The `COMFYUI_PATH` environment variable is not set. Assuming `custom_nodes/Hanzo Manager/../../` as the Hanzo Studio path.[/bold yellow]", file=sys.stderr)
+        print("\n[bold yellow]WARN: The `COMFYUI_PATH` environment variable is not set. Assuming `custom_nodes/ComfyUI-Manager/../../` as the Hanzo Studio path.[/bold yellow]", file=sys.stderr)
         comfy_path = os.path.abspath(os.path.join(manager_util.hanzo_studio_manager_path, '..', '..'))
 
 # This should be placed here

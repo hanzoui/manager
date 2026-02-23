@@ -19,7 +19,7 @@
 To install Hanzo Manager in addition to an existing installation of Hanzo Studio, you can follow the following steps:
 
 1. Go to `HanzoStudio/custom_nodes` dir in terminal (cmd)
-2. `git clone https://github.com/ltdrdata/Hanzo Manager hanzo-studio-manager`
+2. `git clone https://github.com/ltdrdata/ComfyUI-Manager hanzo-studio-manager`
 3. Restart Hanzo Studio
 
 
@@ -28,7 +28,7 @@ To install Hanzo Manager in addition to an existing installation of Hanzo Studio
 - https://git-scm.com/download/win
 - standalone version  
 - select option: use windows default console window
-2. Download [scripts/install-manager-for-portable-version.bat](https://github.com/ltdrdata/Hanzo Manager/raw/main/scripts/install-manager-for-portable-version.bat) into installed `"HanzoStudio_windows_portable"` directory
+2. Download [scripts/install-manager-for-portable-version.bat](https://github.com/ltdrdata/ComfyUI-Manager/raw/main/scripts/install-manager-for-portable-version.bat) into installed `"HanzoStudio_windows_portable"` directory
 - Don't click. Right-click the link and choose 'Save As...'
 3. Double-click `install-manager-for-portable-version.bat` batch file
 
@@ -63,7 +63,7 @@ comfy install
 To install Hanzo Studio with Hanzo Manager on Linux using a venv environment, you can follow these steps:
 * **prerequisite: python-is-python3, python3-venv, git**
 
-1. Download [scripts/install-hanzo-studio-venv-linux.sh](https://github.com/ltdrdata/Hanzo Manager/raw/main/scripts/install-hanzo-studio-venv-linux.sh) into empty install directory
+1. Download [scripts/install-hanzo-studio-venv-linux.sh](https://github.com/ltdrdata/ComfyUI-Manager/raw/main/scripts/install-hanzo-studio-venv-linux.sh) into empty install directory
 - Don't click. Right-click the link and choose 'Save As...'
 - Hanzo Studio will be installed in the subdirectory of the specified directory, and the directory will contain the generated executable script.
 2. `chmod +x install-hanzo-studio-venv-linux.sh`
@@ -74,15 +74,15 @@ To install Hanzo Studio with Hanzo Manager on Linux using a venv environment, yo
   * Installing in a compressed file format is not recommended.
 * **DON'T**: Decompress directly into the `HanzoStudio/custom_nodes` location, resulting in the Manager contents like `__init__.py` being placed directly in that directory.
   * You have to remove all Hanzo Manager files from `HanzoStudio/custom_nodes`
-* **DON'T**: In a form where decompression occurs in a path such as `HanzoStudio/custom_nodes/Hanzo Manager/Hanzo Manager`.
-* **DON'T**: In a form where decompression occurs in a path such as `HanzoStudio/custom_nodes/Hanzo Manager-main`.
+* **DON'T**: In a form where decompression occurs in a path such as `HanzoStudio/custom_nodes/ComfyUI-Manager/Hanzo Manager`.
+* **DON'T**: In a form where decompression occurs in a path such as `HanzoStudio/custom_nodes/ComfyUI-Manager-main`.
   * In such cases, `Hanzo Manager` may operate, but it won't be recognized within `Hanzo Manager`, and updates cannot be performed. It also poses the risk of duplicate installations. Remove it and install properly via `git clone` method.
 
 
 You can execute Hanzo Studio by running either `./run_gpu.sh` or `./run_cpu.sh` depending on your system configuration.
 
 ## Colab Notebook
-This repository provides Colab notebooks that allow you to install and use Hanzo Studio, including Hanzo Manager. To use Hanzo Studio, [click on this link](https://colab.research.google.com/github/ltdrdata/Hanzo Manager/blob/main/notebooks/hanzo_studio_colab_with_manager.ipynb).
+This repository provides Colab notebooks that allow you to install and use Hanzo Studio, including Hanzo Manager. To use Hanzo Studio, [click on this link](https://colab.research.google.com/github/ltdrdata/ComfyUI-Manager/blob/main/notebooks/hanzo_studio_colab_with_manager.ipynb).
 * Support for installing Hanzo Studio
 * Support for basic installation of Hanzo Manager
 * Support for automatically installing dependencies of custom nodes upon restarting Colab notebooks.
@@ -260,7 +260,7 @@ The following settings are applied based on the section marked as `is_default`.
 # Config
 * You can modify the `config.ini` file to apply the settings for Hanzo Manager.
     * The path to the `config.ini` used by Hanzo Manager is displayed in the startup log messages.
-    * See also: [https://github.com/ltdrdata/Hanzo Manager#paths]
+    * See also: [https://github.com/ltdrdata/ComfyUI-Manager#paths]
 * Configuration options:
     ```
     [default]
@@ -333,7 +333,7 @@ The following features can be configured using environment variables:
 
 
 ### Example 1:
-Redirecting `https://github.com/ltdrdata/HanzoStudio-Impact-Pack` to `https://mirror.ghproxy.com/https://github.com/ltdrdata/HanzoStudio-Impact-Pack`
+Redirecting `https://github.com/ltdrdata/ComfyUI-Impact-Pack` to `https://mirror.ghproxy.com/https://github.com/ltdrdata/ComfyUI-Impact-Pack`
 
 ```
 GITHUB_ENDPOINT=https://mirror.ghproxy.com/https://github.com

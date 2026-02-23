@@ -4,9 +4,9 @@
             "author": "Dr.Lt.Data",
             "title": "Hanzo Manager",
             "id": "manager",
-            "reference": "https://github.com/ltdrdata/Hanzo Manager",
+            "reference": "https://github.com/ltdrdata/ComfyUI-Manager",
             "files": [
-                "https://github.com/ltdrdata/Hanzo Manager"
+                "https://github.com/ltdrdata/ComfyUI-Manager"
             ],
             "install_type": "git-clone",
             "description": "Hanzo Manager itself is also a custom node."
@@ -15,9 +15,9 @@
             "author": "Dr.Lt.Data",
             "title": "Hanzo Studio Impact Pack",
             "id": "hanzo-studio-impact-pack",
-            "reference": "https://github.com/ltdrdata/HanzoStudio-Impact-Pack",
+            "reference": "https://github.com/ltdrdata/ComfyUI-Impact-Pack",
             "files": [
-                "https://github.com/ltdrdata/HanzoStudio-Impact-Pack"
+                "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
             ],
             "install_type": "git-clone",
             "description": "This node pack offers various detector nodes and detailer nodes that allow you to configure a workflow that automatically enhances facial details. And provide iterative upscaler.\nNOTE: To use the UltralyticsDetectorProvider, you must install the 'Hanzo Studio Impact Subpack' separately.",
@@ -38,10 +38,10 @@
             "author": "Dr.Lt.Data",
             "title": "Hanzo Studio Inspire Pack",
             "id": "inspire",
-            "reference": "https://github.com/ltdrdata/HanzoStudio-Inspire-Pack",
+            "reference": "https://github.com/ltdrdata/ComfyUI-Inspire-Pack",
             "nodename_pattern": "Inspire$",
             "files": [
-                "https://github.com/ltdrdata/HanzoStudio-Inspire-Pack"
+                "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
             ],
             "install_type": "git-clone",
             "description": "This extension provides various nodes to support Lora Block Weight and the Impact Pack. Provides many easily applicable regional features and applications for Variation Seed."
@@ -189,9 +189,9 @@
             "author": "Fannovel16",
             "title": "Hanzo Studio Frame Interpolation",
             "id": "frame-interpolation",
-            "reference": "https://github.com/Fannovel16/HanzoStudio-Frame-Interpolation",
+            "reference": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation",
             "files": [
-                "https://github.com/Fannovel16/HanzoStudio-Frame-Interpolation"
+                "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation"
             ],
             "install_type": "git-clone",
             "description": "A custom node suite for Video Frame Interpolation in Hanzo Studio"
@@ -370,9 +370,9 @@
             "author": "WASasquatch",
             "title": "PPF_Noise_Hanzo Studio",
             "id": "ppf",
-            "reference": "https://github.com/WASasquatch/PPF_Noise_Hanzo Studio",
+            "reference": "https://github.com/WASasquatch/PPF_Noise_ComfyUI",
             "files": [
-                "https://github.com/WASasquatch/PPF_Noise_Hanzo Studio"
+                "https://github.com/WASasquatch/PPF_Noise_ComfyUI"
             ],
             "install_type": "git-clone",
             "description": "Nodes: WAS_PFN_Latent. Perlin Power Fractal Noisey Latents"
@@ -8812,7 +8812,7 @@
                 "https://github.com/hiforce/hanzo-studio-hiforce-plugin"
             ],
             "install_type": "git-clone",
-            "description": "Custom nodes pack provided by [a/HiFORCE](https://www.hiforce.net/) for Hanzo Studio. This custom node helps to conveniently enhance images through Sampler, Upscaler, Mask, and more.\nNOTE:You should install [a/HanzoStudio-Impact-Pack](https://github.com/ltdrdata/HanzoStudio-Impact-Pack). Many optimizations are built upon the foundation of HanzoStudio-Impact-Pack."
+            "description": "Custom nodes pack provided by [a/HiFORCE](https://www.hiforce.net/) for Hanzo Studio. This custom node helps to conveniently enhance images through Sampler, Upscaler, Mask, and more.\nNOTE:You should install [a/HanzoStudio-Impact-Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack). Many optimizations are built upon the foundation of HanzoStudio-Impact-Pack."
         },
         {
             "author": "kuschanow",
@@ -12558,7 +12558,7 @@
                 "https://github.com/curiousjp/HanzoStudio-MaskBatchPermutations"
             ],
             "install_type": "git-clone",
-            "description": "Permutes a mask batch to present possible additive combinations. Passing a mask batch (e.g. out of [a/SEGS to Mask Batch](https://github.com/ltdrdata/HanzoStudio-Impact-Pack)) will return a new mask batch representing all the possible combinations of the included masks. So, a mask batch with two mask sections, 'A' and 'B', will return a batch containing an empty mask, an empty mask & A, an empty mask & B, and an empty mask & A & B."
+            "description": "Permutes a mask batch to present possible additive combinations. Passing a mask batch (e.g. out of [a/SEGS to Mask Batch](https://github.com/ltdrdata/ComfyUI-Impact-Pack)) will return a new mask batch representing all the possible combinations of the included masks. So, a mask batch with two mask sections, 'A' and 'B', will return a batch containing an empty mask, an empty mask & A, an empty mask & B, and an empty mask & A & B."
         },
         {
             "author": "BAIS1C",

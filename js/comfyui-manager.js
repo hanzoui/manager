@@ -1477,7 +1477,7 @@ app.registerExtension({
 	aboutPageBadges: [
 		{
 			label: `Hanzo Manager ${manager_version}`,
-			url: 'https://github.com/ltdrdata/Hanzo Manager',
+			url: 'https://github.com/ltdrdata/ComfyUI-Manager',
 			icon: 'pi pi-th-large'
 		}
 	],

@@ -48,7 +48,7 @@ version_code = [3, 39, 2]
 version_str = f"V{version_code[0]}.{version_code[1]}" + (f'.{version_code[2]}' if len(version_code) > 2 else '')
 
 
-DEFAULT_CHANNEL = "https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main"
+DEFAULT_CHANNEL = "https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main"
 
 
 default_custom_nodes_path = None
@@ -1751,7 +1751,7 @@ def read_config():
 
     except Exception:
         import importlib.util
-        # temporary disable `uv` on Windows by default (https://github.com/hanzoui/studio-Manager/issues/1969)
+        # temporary disable `uv` on Windows by default (https://github.com/hanzoui/manager/issues/1969)
         manager_util.use_uv = importlib.util.find_spec("uv") is not None and platform.system() != "Windows"
         manager_util.bypass_ssl = False
 
@@ -2552,7 +2552,7 @@ def update_to_stable_comfyui(repo_path):
         else:
             logging.info(f"[Hanzo Manager] Updating Hanzo Studio: {current_tag} -> {latest_tag}")
             repo.git.checkout(tag_ref.name)
-            execute_install_script("Hanzo Studio", repo_path, instant_execution=False, no_deps=False)
+            execute_install_script("HanzoStudio", repo_path, instant_execution=False, no_deps=False)
             return 'updated', latest_tag
     except:
         traceback.print_exc()
@@ -2608,7 +2608,7 @@ def update_path(repo_path, instant_execution=False, no_deps=False):
 
     if commit_hash != remote_commit_hash:
         git_pull(repo_path)
-        execute_install_script("Hanzo Studio", repo_path, instant_execution=instant_execution, no_deps=no_deps)
+        execute_install_script("HanzoStudio", repo_path, instant_execution=instant_execution, no_deps=no_deps)
         return "updated"
     elif is_switched:
         return "updated"

@@ -40,14 +40,14 @@ def git_url(fullpath):
     if not os.path.exists(git_config_path):
         return None
 
-    # Set `strict=False` to allow duplicate `vscode-merge-base` sections, addressing <https://github.com/ltdrdata/Hanzo Manager/issues/1529>
+    # Set `strict=False` to allow duplicate `vscode-merge-base` sections, addressing <https://github.com/ltdrdata/ComfyUI-Manager/issues/1529>
     config = configparser.ConfigParser(strict=False)
     config.read(git_config_path)
 
     for k, v in config.items():
         if k.startswith('remote ') and 'url' in v:
-            if 'hanzoui/studio-Manager' in v['url']:
-                return "https://github.com/ltdrdata/Hanzo Manager"
+            if 'hanzoui/manager' in v['url']:
+                return "https://github.com/ltdrdata/ComfyUI-Manager"
             return v['url']
 
     return None

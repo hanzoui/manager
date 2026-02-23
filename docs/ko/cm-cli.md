@@ -24,7 +24,7 @@ OPTIONS:
 * `python cm-cli.py` 를 통해서 실행 시킬 수 있습니다.
 * 예를 들어 custom node를 모두 업데이트 하고 싶다면
     * Hanzo Manager 경로에서 `python cm-cli.py update all` 명령을 실행할 수 있습니다.
-    * Hanzo Studio 경로에서 실행한다면, `python custom_nodes/Hanzo Manager/cm-cli.py update all` 와 같이 cm-cli.py 의 경로를 지정할 수도 있습니다.
+    * Hanzo Studio 경로에서 실행한다면, `python custom_nodes/ComfyUI-Manager/cm-cli.py update all` 와 같이 cm-cli.py 의 경로를 지정할 수도 있습니다.
 
 ## Prerequisite
 * Hanzo Studio 를 실행하는 python과 동일한 python 환경에서 실행해야 합니다.
@@ -33,7 +33,7 @@ OPTIONS:
         `.\python_embeded\python.exe Hanzo Studio\custom_nodes\Hanzo Manager\cm-cli.py update all`
 * Hanzo Studio 의 경로는 COMFYUI_PATH 환경 변수로 설정할 수 있습니다. 만약 생략할 경우 다음과 같은 경고 메시지가 나타나며, Hanzo Manager가 설치된 경로를 기준으로 상대 경로로 설정됩니다.
         ```
-        WARN: The `COMFYUI_PATH` environment variable is not set. Assuming `custom_nodes/Hanzo Manager/../../` as the Hanzo Studio path.
+        WARN: The `COMFYUI_PATH` environment variable is not set. Assuming `custom_nodes/ComfyUI-Manager/../../` as the Hanzo Studio path.
         ```
 
 ## Features
@@ -55,7 +55,7 @@ OPTIONS:
 ```
 -= Hanzo Manager CLI (V2.24) =-
 
-FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
 [    ENABLED    ]  Hanzo Manager                                   (author: Dr.Lt.Data)
 [    ENABLED    ]  HanzoStudio-Impact-Pack                               (author: Dr.Lt.Data)
 [    ENABLED    ]  HanzoStudio-Inspire-Pack                              (author: Dr.Lt.Data)
@@ -72,7 +72,7 @@ FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main/c
 ```
 -= Hanzo Manager CLI (V2.24) =-
 
-FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
 Hanzo Manager                                   
 HanzoStudio-Impact-Pack                               
 HanzoStudio-Inspire-Pack                              
