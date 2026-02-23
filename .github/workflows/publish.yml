@@ -1,3 +1,4 @@
+# Secrets: Hanzo KMS (kms.hanzo.ai) — auth via Hanzo IAM
 name: Publish to Comfy registry
 on:
   workflow_dispatch:
@@ -16,10 +17,17 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.repository_owner == 'ltdrdata' }}
     steps:
+      - name: Fetch secrets from Hanzo KMS
+        id: kms
+        uses: hanzoui/.github/actions/kms-secrets@main
+        with:
+          kms_client_id: ${{ secrets.KMS_CLIENT_ID }}
+          kms_client_secret: ${{ secrets.KMS_CLIENT_SECRET }}
+          secrets: 'REGISTRY_ACCESS_TOKEN'
       - name: Check out code
         uses: actions/checkout@v4
       - name: Publish Custom Node
         uses: hanzoui/publish-node-action@v1
         with:
           ## Add your own personal access token to your Github Repository secrets and reference it here.
-          personal_access_token: ${{ secrets.REGISTRY_ACCESS_TOKEN }}
+          personal_access_token: ${{ steps.kms.outputs.REGISTRY_ACCESS_TOKEN }}

@@ -1,3 +1,4 @@
+# Secrets: Hanzo KMS (kms.hanzo.ai) — auth via Hanzo IAM
 name: Publish to PyPI
 
 on:
@@ -13,6 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.repository_owner == 'ltdrdata' || github.repository_owner == 'hanzoui' }}
     steps:
+      - name: Fetch secrets from Hanzo KMS
+        id: kms
+        uses: hanzoui/.github/actions/kms-secrets@main
+        with:
+          kms_client_id: ${{ secrets.KMS_CLIENT_ID }}
+          kms_client_secret: ${{ secrets.KMS_CLIENT_SECRET }}
+          secrets: 'PYPI_TOKEN'
       - name: Checkout code
         uses: actions/checkout@v4
         with:
@@ -53,6 +61,6 @@ jobs:
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          password: ${{ secrets.PYPI_TOKEN }}
+          password: ${{ steps.kms.outputs.PYPI_TOKEN }}
           skip-existing: true
           verbose: true 
