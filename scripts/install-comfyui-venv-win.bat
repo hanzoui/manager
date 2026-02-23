@@ -1,5 +1,5 @@
 git clone https://github.com/hanzoai/studio
-cd Hanzo Studio/custom_nodes
+cd HanzoStudio/custom_nodes
 git clone https://github.com/ltdrdata/Hanzo Manager hanzo-studio-manager
 cd ..
 python -m venv venv

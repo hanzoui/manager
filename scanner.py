@@ -632,7 +632,7 @@ def extract_nodes_enhanced(
 
     # Phase 6: Dict comprehension pattern (NEW in 2.0.12)
     # Detects: NODE_CLASS_MAPPINGS = {cls.__name__: cls for cls in to_export}
-    # Example: TobiasGlaubach/Hanzo Studio-TG_PyCode
+    # Example: TobiasGlaubach/HanzoStudio-TG_PyCode
     phase6_nodes = _fallback_dict_comprehension(code_text, file_path)
 
     # Phase 7: Import-based class names for dict comprehension (NEW in 2.0.12)

@@ -241,7 +241,7 @@ let share_option = 'all';
 var is_updating = false;
 
 
-// copied style from https://github.com/pythongosssss/Hanzo Studio-Custom-Scripts
+// copied style from https://github.com/pythongosssss/HanzoStudio-Custom-Scripts
 const style = `
 #workflowgallery-button {
 	height: 50px;
@@ -1221,7 +1221,7 @@ class ManagerMenuDialog extends ComfyDialog {
 					id: 'cm-manual-button',
 					type: "button",
 					textContent: "Community Manual",
-					onclick: () => { window.open("https://blenderneko.github.io/Hanzo Studio-docs/", "hanzo-studio-community-manual"); }
+					onclick: () => { window.open("https://blenderneko.github.io/HanzoStudio-docs/", "hanzo-studio-community-manual"); }
 				}, [
 					$el("div.pysssss-workflow-arrow-2", {
 						id: `cm-manual-button-arrow`,

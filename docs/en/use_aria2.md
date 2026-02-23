@@ -28,8 +28,8 @@ services:
     volumes:
       - ./config:/config
       - ./downloads:/downloads
-      - ~/Hanzo Studio/models:/models
-      - ~/Hanzo Studio/custom_nodes:/custom_nodes
+      - ~/HanzoStudio/models:/models
+      - ~/HanzoStudio/custom_nodes:/custom_nodes
     ports:
       - 6800:6800
     restart: unless-stopped
