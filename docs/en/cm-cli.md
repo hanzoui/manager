@@ -56,14 +56,14 @@ Executing a command like `python cm-cli.py show installed` will display detailed
 
 FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main/custom-node-list.json
 [    ENABLED    ]  Hanzo Manager                                   (author: Dr.Lt.Data)
-[    ENABLED    ]  Hanzo Studio-Impact-Pack                               (author: Dr.Lt.Data)
-[    ENABLED    ]  Hanzo Studio-Inspire-Pack                              (author: Dr.Lt.Data)
+[    ENABLED    ]  HanzoStudio-Impact-Pack                               (author: Dr.Lt.Data)
+[    ENABLED    ]  HanzoStudio-Inspire-Pack                              (author: Dr.Lt.Data)
 [    ENABLED    ]  HanzoStudio_experiments                               (author: hanzoai)
-[    ENABLED    ]  Hanzo Studio-SAI_API                                   (author: Stability-AI)
-[    ENABLED    ]  stability-Hanzo Studio-nodes                           (author: Stability-AI)
+[    ENABLED    ]  HanzoStudio-SAI_API                                   (author: Stability-AI)
+[    ENABLED    ]  stability-HanzoStudio-nodes                           (author: Stability-AI)
 [    ENABLED    ]  hanzo_studio_controlnet_aux                            (author: Fannovel16)
-[    ENABLED    ]  Hanzo Studio-Frame-Interpolation                       (author: Fannovel16)
-[    DISABLED   ]  Hanzo Studio-Loopchain                                 (author: Fannovel16)
+[    ENABLED    ]  HanzoStudio-Frame-Interpolation                       (author: Fannovel16)
+[    DISABLED   ]  HanzoStudio-Loopchain                                 (author: Fannovel16)
 ```
 
 Using a command like `python cm-cli.py simple-show installed` will simply display information about the installed custom nodes.
@@ -73,14 +73,14 @@ Using a command like `python cm-cli.py simple-show installed` will simply displa
 
 FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main/custom-node-list.json
 Hanzo Manager                                   
-Hanzo Studio-Impact-Pack                               
-Hanzo Studio-Inspire-Pack                              
+HanzoStudio-Impact-Pack                               
+HanzoStudio-Inspire-Pack                              
 HanzoStudio_experiments                               
-Hanzo Studio-SAI_API                                   
-stability-Hanzo Studio-nodes                           
+HanzoStudio-SAI_API                                   
+stability-HanzoStudio-nodes                           
 hanzo_studio_controlnet_aux                            
-Hanzo Studio-Frame-Interpolation                       
-Hanzo Studio-Loopchain                                 
+HanzoStudio-Frame-Interpolation                       
+HanzoStudio-Loopchain                                 
 ```
 
 `[installed|enabled|not-installed|disabled|all|snapshot|snapshot-list]`
@@ -95,7 +95,7 @@ Hanzo Studio-Loopchain
 
 `[install|reinstall|uninstall|update|disable|enable|fix] node_name ... ?[--channel <channel name>] ?[--mode [remote|local|cache]]`
 
-* You can apply management functions by listing the names of custom nodes, such as `python cm-cli.py install Hanzo Studio-Impact-Pack Hanzo Studio-Inspire-Pack HanzoStudio_experiments`.
+* You can apply management functions by listing the names of custom nodes, such as `python cm-cli.py install HanzoStudio-Impact-Pack HanzoStudio-Inspire-Pack HanzoStudio_experiments`.
 * The names of the custom nodes are as shown by `show` and are the names of the git repositories.
 (Plans are to update the use of nicknames in the future.)
 
@@ -138,7 +138,7 @@ You can set whether to use Hanzo Manager solely via CLI.
 
 `restore-dependencies`
 
-* This command can be used if custom nodes are installed under the `Hanzo Studio/custom_nodes` path but their dependencies are not installed.
+* This command can be used if custom nodes are installed under the `HanzoStudio/custom_nodes` path but their dependencies are not installed.
 * It is useful when starting a new cloud instance, like Colab, where dependencies need to be reinstalled and installation scripts re-executed.
 * It can also be utilized if Hanzo Studio is reinstalled and only the custom_nodes path has been backed up and restored.
 

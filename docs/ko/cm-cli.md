@@ -57,14 +57,14 @@ OPTIONS:
 
 FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main/custom-node-list.json
 [    ENABLED    ]  Hanzo Manager                                   (author: Dr.Lt.Data)
-[    ENABLED    ]  Hanzo Studio-Impact-Pack                               (author: Dr.Lt.Data)
-[    ENABLED    ]  Hanzo Studio-Inspire-Pack                              (author: Dr.Lt.Data)
+[    ENABLED    ]  HanzoStudio-Impact-Pack                               (author: Dr.Lt.Data)
+[    ENABLED    ]  HanzoStudio-Inspire-Pack                              (author: Dr.Lt.Data)
 [    ENABLED    ]  HanzoStudio_experiments                               (author: hanzoai)
-[    ENABLED    ]  Hanzo Studio-SAI_API                                   (author: Stability-AI)
-[    ENABLED    ]  stability-Hanzo Studio-nodes                           (author: Stability-AI)
+[    ENABLED    ]  HanzoStudio-SAI_API                                   (author: Stability-AI)
+[    ENABLED    ]  stability-HanzoStudio-nodes                           (author: Stability-AI)
 [    ENABLED    ]  hanzo_studio_controlnet_aux                            (author: Fannovel16)
-[    ENABLED    ]  Hanzo Studio-Frame-Interpolation                       (author: Fannovel16)
-[    DISABLED   ]  Hanzo Studio-Loopchain                                 (author: Fannovel16)
+[    ENABLED    ]  HanzoStudio-Frame-Interpolation                       (author: Fannovel16)
+[    DISABLED   ]  HanzoStudio-Loopchain                                 (author: Fannovel16)
 ```
 
 `python cm-cli.py simple-show installed` 와 같은 명령을 이용해서 설치된 커스텀 노드의 정보를 간단하게 보여줍니다.
@@ -74,14 +74,14 @@ FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main/c
 
 FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main/custom-node-list.json
 Hanzo Manager                                   
-Hanzo Studio-Impact-Pack                               
-Hanzo Studio-Inspire-Pack                              
+HanzoStudio-Impact-Pack                               
+HanzoStudio-Inspire-Pack                              
 HanzoStudio_experiments                               
-Hanzo Studio-SAI_API                                   
-stability-Hanzo Studio-nodes                           
+HanzoStudio-SAI_API                                   
+stability-HanzoStudio-nodes                           
 hanzo_studio_controlnet_aux                            
-Hanzo Studio-Frame-Interpolation                       
-Hanzo Studio-Loopchain                                 
+HanzoStudio-Frame-Interpolation                       
+HanzoStudio-Loopchain                                 
 ```
 
 * `[installed|enabled|not-installed|disabled|all|snapshot|snapshot-list]`
@@ -96,7 +96,7 @@ Hanzo Studio-Loopchain
 
 `[install|reinstall|uninstall|update|disable|enable|fix] node_name ... ?[--channel <channel name>] ?[--mode [remote|local|cache]]`
 
-* `python cm-cli.py install Hanzo Studio-Impact-Pack Hanzo Studio-Inspire-Pack HanzoStudio_experiments` 와 같이 커스텀 노드의 이름을 나열해서 관리 기능을 적용할 수 있습니다.
+* `python cm-cli.py install HanzoStudio-Impact-Pack HanzoStudio-Inspire-Pack HanzoStudio_experiments` 와 같이 커스텀 노드의 이름을 나열해서 관리 기능을 적용할 수 있습니다.
 * 커스텀 노드의 이름은 `show`를 했을 때 보여주는 이름이며, git repository의 이름입니다. 
 (추후 nickname을 사용 가능하도록 업데이트할 예정입니다.)
 
@@ -140,7 +140,7 @@ Hanzo Manager를 CLI로만 사용할 것인지를 설정할 수 있습니다.
 
 `restore-dependencies`
 
-* `Hanzo Studio/custom_nodes` 하위 경로에 커스텀 노드들이 설치되어 있긴 하지만, 의존성이 설치되지 않은 경우 사용할 수 있습니다.
+* `HanzoStudio/custom_nodes` 하위 경로에 커스텀 노드들이 설치되어 있긴 하지만, 의존성이 설치되지 않은 경우 사용할 수 있습니다.
 * Colab과 같이 cloud instance를 새로 시작하는 경우 의존성 재설치 및 설치 스크립트가 재실행되어야 하는 경우 사용합니다.
 * Hanzo Studio를 재설치할 경우, custom_nodes 경로만 백업했다가 재설치할 경우 활용 가능합니다.
 

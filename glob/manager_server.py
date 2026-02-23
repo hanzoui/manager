@@ -409,7 +409,7 @@ def nickname_filter(json_obj):
         if 'preemptions' in x[1]:
             for y in x[1]['preemptions']:
                 preemptions_map[y] = k
-        elif k.endswith("/Hanzo Studio"):
+        elif k.endswith("/HanzoStudio"):
             for y in x[0]:
                 preemptions_map[y] = k
 

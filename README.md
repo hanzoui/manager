@@ -2,7 +2,7 @@
 
 **Hanzo Manager** is an extension designed to enhance the usability of [Hanzo Studio](https://github.com/hanzoai/studio). It offers management functions to **install, remove, disable, and enable** various custom nodes of Hanzo Studio. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within Hanzo Studio.
 
-![menu](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/refs/heads/Main/Hanzo Manager/images/dialog.jpg)
+![menu](https://raw.githubusercontent.com/ltdrdata/HanzoStudio-extension-tutorials/refs/heads/Main/Hanzo Manager/images/dialog.jpg)
 
 ## NOTICE
 * V3.38: **Security patch** - Manager data migrated to protected path. See [Migration Guide](docs/en/v3.38-userdata-security-migration.md).
@@ -18,7 +18,7 @@
 
 To install Hanzo Manager in addition to an existing installation of Hanzo Studio, you can follow the following steps:
 
-1. Go to `Hanzo Studio/custom_nodes` dir in terminal (cmd)
+1. Go to `HanzoStudio/custom_nodes` dir in terminal (cmd)
 2. `git clone https://github.com/ltdrdata/Hanzo Manager hanzo-studio-manager`
 3. Restart Hanzo Studio
 
@@ -32,7 +32,7 @@ To install Hanzo Manager in addition to an existing installation of Hanzo Studio
 - Don't click. Right-click the link and choose 'Save As...'
 3. Double-click `install-manager-for-portable-version.bat` batch file
 
-![portable-install](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/portable-install.jpg)
+![portable-install](https://raw.githubusercontent.com/ltdrdata/HanzoStudio-extension-tutorials/Main/Hanzo Manager/images/portable-install.jpg)
 
 
 ### Installation[method3] (Installation through hanzo-cli: install Hanzo Studio and Hanzo Manager at once.)  
@@ -70,12 +70,12 @@ To install Hanzo Studio with Hanzo Manager on Linux using a venv environment, yo
 3. `./install-hanzo-studio-venv-linux.sh`
 
 ### Installation Precautions
-* **DO**: `Hanzo Manager` files must be accurately located in the path `Hanzo Studio/custom_nodes/hanzo-studio-manager`
+* **DO**: `Hanzo Manager` files must be accurately located in the path `HanzoStudio/custom_nodes/hanzo-studio-manager`
   * Installing in a compressed file format is not recommended.
-* **DON'T**: Decompress directly into the `Hanzo Studio/custom_nodes` location, resulting in the Manager contents like `__init__.py` being placed directly in that directory.
-  * You have to remove all Hanzo Manager files from `Hanzo Studio/custom_nodes`
-* **DON'T**: In a form where decompression occurs in a path such as `Hanzo Studio/custom_nodes/Hanzo Manager/Hanzo Manager`.
-* **DON'T**: In a form where decompression occurs in a path such as `Hanzo Studio/custom_nodes/Hanzo Manager-main`.
+* **DON'T**: Decompress directly into the `HanzoStudio/custom_nodes` location, resulting in the Manager contents like `__init__.py` being placed directly in that directory.
+  * You have to remove all Hanzo Manager files from `HanzoStudio/custom_nodes`
+* **DON'T**: In a form where decompression occurs in a path such as `HanzoStudio/custom_nodes/Hanzo Manager/Hanzo Manager`.
+* **DON'T**: In a form where decompression occurs in a path such as `HanzoStudio/custom_nodes/Hanzo Manager-main`.
   * In such cases, `Hanzo Manager` may operate, but it won't be recognized within `Hanzo Manager`, and updates cannot be performed. It also poses the risk of duplicate installations. Remove it and install properly via `git clone` method.
 
 
@@ -92,12 +92,12 @@ This repository provides Colab notebooks that allow you to install and use Hanzo
 
 1. Click "Manager" button on main menu
 
-    ![mainmenu](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/topbar.jpg)
+    ![mainmenu](https://raw.githubusercontent.com/ltdrdata/HanzoStudio-extension-tutorials/Main/Hanzo Manager/images/topbar.jpg)
 
 
 2. If you click on 'Install Custom Nodes' or 'Install Models', an installer dialog will open.
 
-    ![menu](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/refs/heads/Main/Hanzo Manager/images/dialog.jpg)
+    ![menu](https://raw.githubusercontent.com/ltdrdata/HanzoStudio-extension-tutorials/refs/heads/Main/Hanzo Manager/images/dialog.jpg)
 
     * There are three DB modes: `DB: Channel (1day cache)`, `DB: Local`, and `DB: Channel (remote)`. 
       * `Channel (1day cache)` utilizes Channel cache information with a validity period of one day to quickly display the list.
@@ -113,9 +113,9 @@ This repository provides Colab notebooks that allow you to install and use Hanzo
 
 3. Click 'Install' or 'Try Install' button.
 
-    ![node-install-dialog](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/custom-nodes.jpg)
+    ![node-install-dialog](https://raw.githubusercontent.com/ltdrdata/HanzoStudio-extension-tutorials/Main/Hanzo Manager/images/custom-nodes.jpg)
 
-    ![model-install-dialog](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/models.jpg)
+    ![model-install-dialog](https://raw.githubusercontent.com/ltdrdata/HanzoStudio-extension-tutorials/Main/Hanzo Manager/images/models.jpg)
 
     * Installed: This item is already installed.
     * Install: Clicking this button will install the item.
@@ -126,14 +126,14 @@ This repository provides Colab notebooks that allow you to install and use Hanzo
     * Conflicted Nodes with a yellow background show a list of nodes conflicting with other extensions in the respective extension. This issue needs to be addressed by the developer, and users should be aware that due to these conflicts, some nodes may not function correctly and may need to be installed accordingly.
 
 4. Share
-  ![menu](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/topbar.jpg) ![share](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/share.jpg) 
+  ![menu](https://raw.githubusercontent.com/ltdrdata/HanzoStudio-extension-tutorials/Main/Hanzo Manager/images/topbar.jpg) ![share](https://raw.githubusercontent.com/ltdrdata/HanzoStudio-extension-tutorials/Main/Hanzo Manager/images/share.jpg) 
 
   * You can share the workflow by clicking the Share button at the bottom of the main menu or selecting Share Output from the Context Menu of the Image node.
   * Currently, it supports sharing via [https://comfyworkflows.com/](https://comfyworkflows.com/),
     [https://openart.ai](https://openart.ai/workflows/dev), [https://youml.com](https://youml.com) 
     as well as through the Matrix channel.
 
-  ![menu](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/share-setting.jpg)
+  ![menu](https://raw.githubusercontent.com/ltdrdata/HanzoStudio-extension-tutorials/Main/Hanzo Manager/images/share-setting.jpg)
   
   * Through the Share settings in the Manager menu, you can configure the behavior of the Share button in the Main menu or Share Output button on Context Menu.
     * `None`: hide from Main menu
@@ -144,7 +144,7 @@ This repository provides Colab notebooks that allow you to install and use Hanzo
 Starting from V3.38, Manager uses a protected system path for enhanced security.
 
 * <USER_DIRECTORY>
-  * If executed without any options, the path defaults to Hanzo Studio/user.
+  * If executed without any options, the path defaults to HanzoStudio/user.
   * It can be set using --user-directory <USER_DIRECTORY>.
 
 | Hanzo Studio Version | Manager Path |
@@ -181,7 +181,7 @@ The following settings are applied based on the section marked as `is_default`.
 * When you press `Restore`, it will take effect on the next Hanzo Studio startup.
   * The selected snapshot file is saved in `<USER_DIRECTORY>/default/Hanzo Manager/startup-scripts/restore-snapshot.json`, and upon restarting Hanzo Studio, the snapshot is applied and then deleted.
 
-![model-install-dialog](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/snapshot.jpg)
+![model-install-dialog](https://raw.githubusercontent.com/ltdrdata/HanzoStudio-extension-tutorials/Main/Hanzo Manager/images/snapshot.jpg)
 
 
 ## cm-cli: command line tools for power users
@@ -250,11 +250,11 @@ The following settings are applied based on the section marked as `is_default`.
 
 ## Support for installing missing nodes
 
-![missing-menu](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/missing-menu.jpg)
+![missing-menu](https://raw.githubusercontent.com/ltdrdata/HanzoStudio-extension-tutorials/Main/Hanzo Manager/images/missing-menu.jpg)
 
 * When you click on the ```Install Missing Custom Nodes``` button in the menu, it displays a list of extension nodes that contain nodes not currently present in the workflow.
 
-![missing-list](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/missing-list.jpg)
+![missing-list](https://raw.githubusercontent.com/ltdrdata/HanzoStudio-extension-tutorials/Main/Hanzo Manager/images/missing-list.jpg)
 
 
 # Config
@@ -333,7 +333,7 @@ The following features can be configured using environment variables:
 
 
 ### Example 1:
-Redirecting `https://github.com/ltdrdata/Hanzo Studio-Impact-Pack` to `https://mirror.ghproxy.com/https://github.com/ltdrdata/Hanzo Studio-Impact-Pack`
+Redirecting `https://github.com/ltdrdata/HanzoStudio-Impact-Pack` to `https://mirror.ghproxy.com/https://github.com/ltdrdata/HanzoStudio-Impact-Pack`
 
 ```
 GITHUB_ENDPOINT=https://mirror.ghproxy.com/https://github.com
@@ -404,6 +404,6 @@ When you run the `scan.sh` script:
 
 
 ## Credit
-Hanzo Studio/[Hanzo Studio](https://github.com/hanzoai/studio) - A powerful and modular stable diffusion GUI.
+HanzoStudio/[Hanzo Studio](https://github.com/hanzoai/studio) - A powerful and modular stable diffusion GUI.
 
 **And, for all Hanzo Studio custom node developers**
