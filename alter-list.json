@@ -31,37 +31,37 @@
        "description": "This extension is a less feature-rich and well-maintained alternative to Impact Pack, but it has fewer dependencies and may be easier to install on abnormal configurations. The author recommends trying Impact Pack first."
      },
      {
-       "id":"https://github.com/BlenderNeko/Hanzo Studio_Cutoff",
+       "id":"https://github.com/BlenderNeko/HanzoStudio_Cutoff",
        "tags":"cutoff",
        "description": "By using this extension, prompts like 'blue hair' can be prevented from interfering with other prompts by blocking the attribute 'blue' from being used in prompts other than 'hair'."
      },
      {
-       "id":"https://github.com/BlenderNeko/Hanzo Studio_ADV_CLIP_emb",
+       "id":"https://github.com/BlenderNeko/HanzoStudio_ADV_CLIP_emb",
        "tags":"prompt, weight",
        "description": "There are differences in the processing methods of prompts, such as weighting and scheduling, between A1111 and Hanzo Studio. With this extension, various settings can be used to implement prompt processing methods similar to A1111. As this feature is also integrated into Hanzo Studio Cutoff, please download the Cutoff extension if you plan to use it in conjunction with Cutoff."
      },
      {
-       "id":"https://github.com/shiimizu/Hanzo Studio_smZNodes",
+       "id":"https://github.com/shiimizu/HanzoStudio_smZNodes",
        "tags":"prompt, weight",
        "description": "There are differences in the processing methods of prompts, such as weighting and scheduling, between A1111 and Hanzo Studio. This extension helps to reproduce the same embedding as A1111."
      },
      {
-       "id":"https://github.com/BlenderNeko/Hanzo Studio_Noise",
+       "id":"https://github.com/BlenderNeko/HanzoStudio_Noise",
        "tags":"img2img alt, random",
        "description": "The extension provides an unsampler that reverses the sampling process, allowing for a function similar to img2img alt to be implemented. Furthermore, Hanzo Studio uses CPU's Random instead of GPU's Random for better reproducibility compared to A1111. This extension provides the ability to use GPU's Random for Latent Noise. However, since GPU's Random may vary depending on the GPU model, reproducibility on different devices cannot be guaranteed."
      },
      {
-       "id":"https://github.com/BlenderNeko/Hanzo Studio_SeeCoder",
+       "id":"https://github.com/BlenderNeko/HanzoStudio_SeeCoder",
        "tags":"seecoder, prompt-free-diffusion",
        "description": "The extension provides seecoder feature."
      },
      {
-       "id":"https://github.com/lilly1987/Hanzo Studio_node_Lilly",
+       "id":"https://github.com/lilly1987/HanzoStudio_node_Lilly",
        "tags":"prompt, wildcard",
        "description": "This extension provides features such as a wildcard function that randomly selects prompts belonging to a category and the ability to directly load lora from prompts."
      },
      {
-       "id":"https://github.com/Davemane42/Hanzo Studio_Dave_CustomNode",
+       "id":"https://github.com/Davemane42/HanzoStudio_Dave_CustomNode",
        "tags":"latent couple",
        "description": "Hanzo Studio already provides the ability to composite latents by default. However, this extension makes it more convenient to use by visualizing the composite area."
      },
@@ -81,12 +81,12 @@
        "description": "This node takes two models, merges individual blocks together at various ratios, and automatically rates each merge, keeping the ratio with the highest score. "
      },
      {
-       "id":"https://github.com/ssitu/Hanzo Studio_UltimateSDUpscale",
+       "id":"https://github.com/ssitu/HanzoStudio_UltimateSDUpscale",
        "tags":"upscaler, Ultimate SD Upscale",
        "description": "Hanzo Studio nodes for the Ultimate Stable Diffusion Upscale script by Coyote-A. Uses the same script used in the A1111 extension to hopefully replicate images generated using the A1111 webui."
      },
      {
-       "id":"https://github.com/dawangraoming/Hanzo Studio_ksampler_gpu/raw/main/ksampler_gpu.py",
+       "id":"https://github.com/dawangraoming/HanzoStudio_ksampler_gpu/raw/main/ksampler_gpu.py",
        "tags":"random, noise",
        "description": "A1111 provides KSampler that uses GPU-based random noise. This extension offers KSampler utilizing GPU-based random noise."
      },
@@ -101,7 +101,7 @@
        "description": "This extension provides bunch of nodes including roop"
      },
      {
-       "id":"https://github.com/ssitu/Hanzo Studio_roop",
+       "id":"https://github.com/ssitu/HanzoStudio_roop",
        "tags":"roop",
        "description": "This extension provides nodes for the roop A1111 webui script."
      },
@@ -131,7 +131,7 @@
        "description": "This custom nodes provide a functionality similar to regional prompts, offering couple features at the attention level."
      },
      {
-       "id":"https://github.com/FizzleDorf/Hanzo Studio_FizzNodes",
+       "id":"https://github.com/FizzleDorf/HanzoStudio_FizzNodes",
        "tags":"deforum",
        "description": "This custom nodes provide functionality that assists in animation creation, similar to deforum."
      },
@@ -141,7 +141,7 @@
        "description": "This custom nodes provide functionality that assists in animation creation, similar to deforum."
      },
      {
-       "id":"https://github.com/ssitu/Hanzo Studio_fabric",
+       "id":"https://github.com/ssitu/HanzoStudio_fabric",
        "tags":"fabric",
        "description": "Similar to sd-webui-fabric, this custom nodes provide the functionality of [a/FABRIC](https://github.com/sd-fabric/fabric)."
      },

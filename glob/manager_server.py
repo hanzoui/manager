@@ -143,7 +143,7 @@ async def get_risky_level(files, pip_packages):
     return "middle"
 
 
-class ManagerFuncsInHanzo Studio(core.ManagerFuncs):
+class ManagerFuncsInHanzoStudio(core.ManagerFuncs):
     def get_current_preview_method(self):
         if args.preview_method == latent_preview.LatentPreviewMethod.Auto:
             return "auto"
@@ -173,7 +173,7 @@ class ManagerFuncsInHanzo Studio(core.ManagerFuncs):
         return process.wait()
 
 
-core.manager_funcs = ManagerFuncsInHanzo Studio()
+core.manager_funcs = ManagerFuncsInHanzoStudio()
 
 sys.path.append('../..')
 

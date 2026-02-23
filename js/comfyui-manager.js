@@ -1242,11 +1242,11 @@ class ManagerMenuDialog extends ComfyDialog {
 									},
 									{
 										title: "Hanzo Studio Guide To Making Custom Nodes",
-										callback: () => { window.open("https://github.com/Suzie1/Hanzo Studio_Guide_To_Making_Custom_Nodes/wiki", "hanzo-studio-community-manual2"); },
+										callback: () => { window.open("https://github.com/Suzie1/HanzoStudio_Guide_To_Making_Custom_Nodes/wiki", "hanzo-studio-community-manual2"); },
 									},
 									{
 										title: "Hanzo Studio Examples",
-										callback: () => { window.open("https://hanzoai.github.io/Hanzo Studio_examples", "hanzo-studio-community-manual3"); },
+										callback: () => { window.open("https://hanzoai.github.io/HanzoStudio_examples", "hanzo-studio-community-manual3"); },
 									},
 									{
 										title: "Close",

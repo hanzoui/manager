@@ -28,7 +28,7 @@ To install Hanzo Manager in addition to an existing installation of Hanzo Studio
 - https://git-scm.com/download/win
 - standalone version  
 - select option: use windows default console window
-2. Download [scripts/install-manager-for-portable-version.bat](https://github.com/ltdrdata/Hanzo Manager/raw/main/scripts/install-manager-for-portable-version.bat) into installed `"Hanzo Studio_windows_portable"` directory
+2. Download [scripts/install-manager-for-portable-version.bat](https://github.com/ltdrdata/Hanzo Manager/raw/main/scripts/install-manager-for-portable-version.bat) into installed `"HanzoStudio_windows_portable"` directory
 - Don't click. Right-click the link and choose 'Save As...'
 3. Double-click `install-manager-for-portable-version.bat` batch file
 

@@ -59,7 +59,7 @@ FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main/c
 [    ENABLED    ]  Hanzo Manager                                   (author: Dr.Lt.Data)
 [    ENABLED    ]  Hanzo Studio-Impact-Pack                               (author: Dr.Lt.Data)
 [    ENABLED    ]  Hanzo Studio-Inspire-Pack                              (author: Dr.Lt.Data)
-[    ENABLED    ]  Hanzo Studio_experiments                               (author: hanzoai)
+[    ENABLED    ]  HanzoStudio_experiments                               (author: hanzoai)
 [    ENABLED    ]  Hanzo Studio-SAI_API                                   (author: Stability-AI)
 [    ENABLED    ]  stability-Hanzo Studio-nodes                           (author: Stability-AI)
 [    ENABLED    ]  hanzo_studio_controlnet_aux                            (author: Fannovel16)
@@ -76,7 +76,7 @@ FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main/c
 Hanzo Manager                                   
 Hanzo Studio-Impact-Pack                               
 Hanzo Studio-Inspire-Pack                              
-Hanzo Studio_experiments                               
+HanzoStudio_experiments                               
 Hanzo Studio-SAI_API                                   
 stability-Hanzo Studio-nodes                           
 hanzo_studio_controlnet_aux                            
@@ -96,7 +96,7 @@ Hanzo Studio-Loopchain
 
 `[install|reinstall|uninstall|update|disable|enable|fix] node_name ... ?[--channel <channel name>] ?[--mode [remote|local|cache]]`
 
-* `python cm-cli.py install Hanzo Studio-Impact-Pack Hanzo Studio-Inspire-Pack Hanzo Studio_experiments` 와 같이 커스텀 노드의 이름을 나열해서 관리 기능을 적용할 수 있습니다.
+* `python cm-cli.py install Hanzo Studio-Impact-Pack Hanzo Studio-Inspire-Pack HanzoStudio_experiments` 와 같이 커스텀 노드의 이름을 나열해서 관리 기능을 적용할 수 있습니다.
 * 커스텀 노드의 이름은 `show`를 했을 때 보여주는 이름이며, git repository의 이름입니다. 
 (추후 nickname을 사용 가능하도록 업데이트할 예정입니다.)
 

@@ -283,7 +283,7 @@ try:
     is_start_mode = True
 
 
-    class Hanzo StudioManagerLogger:
+    class HanzoStudioManagerLogger:
         def __init__(self, is_stdout):
             self.is_stdout = is_stdout
             self.encoding = "utf-8"
@@ -397,8 +397,8 @@ try:
 
 
     if enable_file_logging:
-        sys.stdout = Hanzo StudioManagerLogger(True)
-        stderr_wrapper = Hanzo StudioManagerLogger(False)
+        sys.stdout = HanzoStudioManagerLogger(True)
+        stderr_wrapper = HanzoStudioManagerLogger(False)
         sys.stderr = stderr_wrapper
 
         atexit.register(close_log)
