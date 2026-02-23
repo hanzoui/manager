@@ -2,7 +2,7 @@ import { app } from "../../scripts/app.js";
 import { api } from "../../scripts/api.js"
 import { ComfyDialog, $el } from "../../scripts/ui.js";
 import { manager_instance, rebootAPI, show_message, handle403Response, loadCss } from  "./common.js";
-import { buildGuiFrame } from "./comfyui-gui-builder.js";
+import { buildGuiFrame } from "./hanzo-studio-gui-builder.js";
 
 loadCss("./snapshot.css");
 
@@ -29,7 +29,7 @@ async function restore_snapshot(target) {
 		}
 		finally {
 			await SnapshotManager.instance.invalidateControl();
-			SnapshotManager.instance.updateMessage("<BR>To apply the snapshot, please <button id='cm-reboot-button2' class='p-button p-component'>RESTART</button> ComfyUI. And refresh browser.", 'cm-reboot-button2');
+			SnapshotManager.instance.updateMessage("<BR>To apply the snapshot, please <button id='cm-reboot-button2' class='p-button p-component'>RESTART</button> Hanzo Studio. And refresh browser.", 'cm-reboot-button2');
 		}
 	}
 }

@@ -297,7 +297,7 @@ export class YouMLShareDialog extends ComfyDialog {
     fetchOptions.headers = {
       ...fetchOptions.headers,
       "Authorization": `Bearer ${this.apiTokenInput.value}`,
-      "User-Agent": "ComfyUI-Manager-Youml/1.0.0",
+      "User-Agent": "Hanzo Manager-Youml/1.0.0",
     }
 
     const response = await fetch(fullPath, fetchOptions);

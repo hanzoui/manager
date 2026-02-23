@@ -1,16 +1,16 @@
 openapi: 3.1.0
 info:
-  title: ComfyUI-Manager API
+  title: Hanzo Manager API
   description: |
-    API for ComfyUI-Manager, a comprehensive management tool for ComfyUI custom nodes, models, and components.
+    API for Hanzo Manager, a comprehensive management tool for Hanzo Studio custom nodes, models, and components.
     This API enables programmatic access to node management, model downloading, snapshot operations,
     and overall system configuration.
   version: "3.32.3"
   contact:
-    name: ComfyUI-Manager Maintainers
+    name: Hanzo Manager Maintainers
 servers:
   - url: '/'
-    description: Default ComfyUI server
+    description: Default Hanzo Studio server
 
 # Common API components
 components:
@@ -576,8 +576,8 @@ paths:
           
   /manager/queue/update_comfyui:
     get:
-      summary: Update ComfyUI
-      description: Queues an update operation for ComfyUI itself
+      summary: Update Hanzo Studio
+      description: Queues an update operation for Hanzo Studio itself
       responses:
         '200':
           description: Update queued successfully
@@ -676,11 +676,11 @@ paths:
         '400':
           description: Error saving snapshot
           
-  # ComfyUI Management Endpoints
-  /comfyui_manager/comfyui_versions:
+  # Hanzo Studio Management Endpoints
+  /hanzo_studio_manager/hanzo_studio_versions:
     get:
-      summary: Get ComfyUI versions
-      description: Returns available and current ComfyUI versions
+      summary: Get Hanzo Studio versions
+      description: Returns available and current Hanzo Studio versions
       responses:
         '200':
           description: Successful operation
@@ -698,10 +698,10 @@ paths:
         '400':
           description: Error retrieving versions
           
-  /comfyui_manager/comfyui_switch_version:
+  /hanzo_studio_manager/hanzo_studio_switch_version:
     get:
-      summary: Switch ComfyUI version
-      description: Switches to a specified ComfyUI version
+      summary: Switch Hanzo Studio version
+      description: Switches to a specified Hanzo Studio version
       parameters:
         - name: ver
           in: query
@@ -716,8 +716,8 @@ paths:
           
   /manager/reboot:
     get:
-      summary: Reboot ComfyUI
-      description: Restarts the ComfyUI server
+      summary: Reboot Hanzo Studio
+      description: Restarts the Hanzo Studio server
       security:
         - securityLevel: []
       responses:
@@ -881,7 +881,7 @@ paths:
   /manager/version:
     get:
       summary: Get manager version
-      description: Returns the current version of ComfyUI-Manager
+      description: Returns the current version of Hanzo Manager
       responses:
         '200':
           description: Successful operation

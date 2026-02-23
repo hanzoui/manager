@@ -1,5 +1,5 @@
 """
-This file is the entry point for the ComfyUI-Manager package, handling CLI-only mode and initial setup.
+This file is the entry point for the Hanzo Manager package, handling CLI-only mode and initial setup.
 """
 
 import os
@@ -16,7 +16,7 @@ if not os.path.exists(cli_mode_flag):
     if not cm_global.disable_front and not 'DISABLE_COMFYUI_MANAGER_FRONT' in os.environ:
         WEB_DIRECTORY = "js"
 else:
-    print("\n[ComfyUI-Manager] !! cli-only-mode is enabled !!\n")
+    print("\n[Hanzo Manager] !! cli-only-mode is enabled !!\n")
 
 NODE_CLASS_MAPPINGS = {}
 __all__ = ['NODE_CLASS_MAPPINGS']

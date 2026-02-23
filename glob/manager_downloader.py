@@ -58,7 +58,7 @@ def download_url(model_url: str, model_dir: str, filename: str):
         try:
             return torchvision_download_url(model_url, model_dir, filename)
         except Exception as e:
-            logging.error(f"[ComfyUI-Manager] Failed to download: {model_url} / {repr(e)}")
+            logging.error(f"[Hanzo Manager] Failed to download: {model_url} / {repr(e)}")
             raise
 
 

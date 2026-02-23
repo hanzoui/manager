@@ -1,6 +1,6 @@
-# ComfyUI-Manager: Core Backend (glob)
+# Hanzo Manager: Core Backend (glob)
 
-This directory contains the Python backend modules that power ComfyUI-Manager, handling the core functionality of node management, downloading, security, and server operations.
+This directory contains the Python backend modules that power Hanzo Manager, handling the core functionality of node management, downloading, security, and server operations.
 
 ## Core Modules
 
@@ -38,7 +38,7 @@ The system implements a comprehensive security framework with multiple levels:
 
 ## Implementation Details
 
-- The backend is designed to work seamlessly with ComfyUI
+- The backend is designed to work seamlessly with Hanzo Studio
 - Asynchronous task queuing is implemented for background operations
 - The system supports multiple installation modes
 - Error handling and risk assessment are integrated throughout the codebase

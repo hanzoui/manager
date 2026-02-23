@@ -148,7 +148,7 @@ def download_url(url, dest_folder, filename=None):
 def parse_arguments():
     """Parse command-line arguments"""
     parser = argparse.ArgumentParser(
-        description='ComfyUI Manager Node Scanner',
+        description='Hanzo Manager Node Scanner',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog='''
 Examples:
@@ -467,11 +467,11 @@ def extract_nodes_from_repo(repo_path: Path, verbose: bool = False, force_rescan
 
 def _verify_class_exists(node_name: str, code_text: str, file_path: Optional[Path] = None) -> tuple[bool, Optional[str], Optional[int]]:
     """
-    Verify that a node class exists and has ComfyUI node structure.
+    Verify that a node class exists and has Hanzo Studio node structure.
 
     Returns: (exists: bool, file_path: str, line_number: int)
 
-    A valid ComfyUI node must have:
+    A valid Hanzo Studio node must have:
     - Class definition (not commented)
     - At least one of: INPUT_TYPES, RETURN_TYPES, FUNCTION method/attribute
     """
@@ -485,7 +485,7 @@ def _verify_class_exists(node_name: str, code_text: str, file_path: Optional[Pat
     for node in ast.walk(tree):
         if isinstance(node, ast.ClassDef):
             if node.name == node_name or node.name.replace('_', '') == node_name.replace('_', ''):
-                # Found class definition - check if it has ComfyUI interface
+                # Found class definition - check if it has Hanzo Studio interface
                 has_input_types = False
                 has_return_types = False
                 has_function = False
@@ -506,7 +506,7 @@ def _verify_class_exists(node_name: str, code_text: str, file_path: Optional[Pat
                     elif isinstance(item, ast.FunctionDef):
                         has_function = True
 
-                # Valid if has any ComfyUI signature
+                # Valid if has any Hanzo Studio signature
                 if has_input_types or has_return_types or has_function:
                     file_str = str(file_path) if file_path else None
                     return (True, file_str, node.lineno)
@@ -632,7 +632,7 @@ def extract_nodes_enhanced(
 
     # Phase 6: Dict comprehension pattern (NEW in 2.0.12)
     # Detects: NODE_CLASS_MAPPINGS = {cls.__name__: cls for cls in to_export}
-    # Example: TobiasGlaubach/ComfyUI-TG_PyCode
+    # Example: TobiasGlaubach/Hanzo Studio-TG_PyCode
     phase6_nodes = _fallback_dict_comprehension(code_text, file_path)
 
     # Phase 7: Import-based class names for dict comprehension (NEW in 2.0.12)
@@ -1214,7 +1214,7 @@ def get_git_urls_from_json(json_file):
                 if files:
                     git_clone_files.append((files[0], node.get('title'), node.get('preemptions'), node.get('nodename_pattern')))
 
-    git_clone_files.append(("https://github.com/comfyanonymous/ComfyUI", "ComfyUI", None, None))
+    git_clone_files.append(("https://github.com/hanzoai/studio", "Hanzo Studio", None, None))
 
     return git_clone_files
 
@@ -1453,11 +1453,11 @@ def gen_json(node_info, scan_only_mode=False, force_rescan=False):
     # scan from .py file
     node_files, node_dirs = get_nodes(temp_dir)
 
-    comfyui_path = os.path.abspath(os.path.join(temp_dir, "ComfyUI"))
-    # Only reorder if ComfyUI exists in the list
-    if comfyui_path in node_dirs:
-        node_dirs.remove(comfyui_path)
-        node_dirs = [comfyui_path] + node_dirs
+    hanzo_studio_path = os.path.abspath(os.path.join(temp_dir, "Hanzo Studio"))
+    # Only reorder if Hanzo Studio exists in the list
+    if hanzo_studio_path in node_dirs:
+        node_dirs.remove(hanzo_studio_path)
+        node_dirs = [hanzo_studio_path] + node_dirs
 
     data = {}
     for dirname in node_dirs:
@@ -1471,7 +1471,7 @@ def gen_json(node_info, scan_only_mode=False, force_rescan=False):
             # Fallback to file-by-file scanning if extract_nodes_from_repo fails
             nodes = set()
             for py in py_files:
-                nodes_in_file, metadata_in_file = scan_in_file(py, dirname == "ComfyUI")
+                nodes_in_file, metadata_in_file = scan_in_file(py, dirname == "Hanzo Studio")
                 nodes.update(nodes_in_file)
                 metadata.update(metadata_in_file)
 
@@ -1623,7 +1623,7 @@ if __name__ == "__main__":
     else:
         g = None
 
-    print("### ComfyUI Manager Node Scanner ###")
+    print("### Hanzo Manager Node Scanner ###")
 
     if scan_only_mode:
         print(f"\n# [Scan-Only Mode] Processing URL list: {url_list_file}\n")

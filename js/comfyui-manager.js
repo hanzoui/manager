@@ -9,8 +9,8 @@ import {
 	showOpenArtShareDialog,
 	showShareDialog,
 	showYouMLShareDialog
-} from "./comfyui-share-common.js";
-import { OpenArtShareDialog } from "./comfyui-share-openart.js";
+} from "./hanzo-studio-share-common.js";
+import { OpenArtShareDialog } from "./hanzo-studio-share-openart.js";
 import {
 	free_models, install_pip, install_via_git_url, manager_instance,
 	rebootAPI, setManagerInstance, show_message, customAlert, customPrompt,
@@ -20,7 +20,7 @@ import { ComponentBuilderDialog, getPureName, load_components, set_component_pol
 import { CustomNodesManager } from "./custom-nodes-manager.js";
 import { ModelManager } from "./model-manager.js";
 import { SnapshotManager } from "./snapshot.js";
-import { buildGuiFrame, createSettingsCombo } from "./comfyui-gui-builder.js";
+import { buildGuiFrame, createSettingsCombo } from "./hanzo-studio-gui-builder.js";
 
 let manager_version = await getVersion();
 
@@ -231,8 +231,8 @@ function is_legacy_front() {
 
 document.head.appendChild(docStyle);
 
-var update_comfyui_button = null;
-var switch_comfyui_button = null;
+var update_hanzo_studio_button = null;
+var switch_hanzo_studio_button = null;
 var update_all_button = null;
 var restart_stop_button = null;
 var update_policy_combo = null;
@@ -241,7 +241,7 @@ let share_option = 'all';
 var is_updating = false;
 
 
-// copied style from https://github.com/pythongosssss/ComfyUI-Custom-Scripts
+// copied style from https://github.com/pythongosssss/Hanzo Studio-Custom-Scripts
 const style = `
 #workflowgallery-button {
 	height: 50px;
@@ -428,14 +428,14 @@ await init_share_option();
 
 
 async function set_inprogress_mode() {
-	update_comfyui_button.disabled = true;
-	update_comfyui_button.style.backgroundColor = "gray";
+	update_hanzo_studio_button.disabled = true;
+	update_hanzo_studio_button.style.backgroundColor = "gray";
 
 	update_all_button.disabled = true;
 	update_all_button.style.backgroundColor = "gray";
 
-	switch_comfyui_button.disabled = true;
-	switch_comfyui_button.style.backgroundColor = "gray";
+	switch_hanzo_studio_button.disabled = true;
+	switch_hanzo_studio_button.style.backgroundColor = "gray";
 
 	restart_stop_button.innerText = 'Stop';
 }
@@ -451,22 +451,22 @@ async function reset_action_buttons() {
 		update_all_button.innerText = "Update All";
 	}
 
-	update_comfyui_button.innerText = "Update ComfyUI";
-	switch_comfyui_button.innerText = "Switch ComfyUI";
+	update_hanzo_studio_button.innerText = "Update Hanzo Studio";
+	switch_hanzo_studio_button.innerText = "Switch Hanzo Studio";
 	restart_stop_button.innerText = 'Restart';
 
-	update_comfyui_button.disabled = false;
+	update_hanzo_studio_button.disabled = false;
 	update_all_button.disabled = false;
-	switch_comfyui_button.disabled = false;
+	switch_hanzo_studio_button.disabled = false;
 
-	update_comfyui_button.style.backgroundColor = "";
+	update_hanzo_studio_button.style.backgroundColor = "";
 	update_all_button.style.backgroundColor = "";
-	switch_comfyui_button.style.backgroundColor = "";
+	switch_hanzo_studio_button.style.backgroundColor = "";
 }
 
-async function updateComfyUI() {
-	let prev_text = update_comfyui_button.innerText;
-	update_comfyui_button.innerText = "Updating ComfyUI...";
+async function updateHanzo Studio() {
+	let prev_text = update_hanzo_studio_button.innerText;
+	update_hanzo_studio_button.innerText = "Updating Hanzo Studio...";
 
 	set_inprogress_mode();
 
@@ -602,14 +602,14 @@ function showVersionSelectorDialog(versions, current, onSelect) {
 		dialog.show(content);
 }
 
-async function switchComfyUI() {
-	switch_comfyui_button.disabled = true;
-	switch_comfyui_button.style.backgroundColor = "gray";
+async function switchHanzo Studio() {
+	switch_hanzo_studio_button.disabled = true;
+	switch_hanzo_studio_button.style.backgroundColor = "gray";
 	
-	let res = await api.fetchApi(`/comfyui_manager/comfyui_versions`, { cache: "no-store" });
+	let res = await api.fetchApi(`/hanzo_studio_manager/hanzo_studio_versions`, { cache: "no-store" });
 
-	switch_comfyui_button.disabled = false;
-	switch_comfyui_button.style.backgroundColor = "";
+	switch_hanzo_studio_button.disabled = false;
+	switch_hanzo_studio_button.style.backgroundColor = "";
 
 	if(res.status == 200) {
 		let obj = await res.json();
@@ -632,17 +632,17 @@ async function switchComfyUI() {
 				api.fetchApi('/manager/policy/update?value=stable-comfyui');
 			}
 
-			let response = await api.fetchApi(`/comfyui_manager/comfyui_switch_version?ver=${selected_version}`, { cache: "no-store" });
+			let response = await api.fetchApi(`/hanzo_studio_manager/hanzo_studio_switch_version?ver=${selected_version}`, { cache: "no-store" });
 			if (response.status == 200) {
-				infoToast(`ComfyUI version is switched to ${selected_version}`);
+				infoToast(`Hanzo Studio version is switched to ${selected_version}`);
 			}
 			else {
-				customAlert('Failed to switch ComfyUI version.');
+				customAlert('Failed to switch Hanzo Studio version.');
 			}
 		});
 	}
 	else {
-		customAlert('Failed to fetch ComfyUI versions.');
+		customAlert('Failed to fetch Hanzo Studio versions.');
 	}
 }
 
@@ -664,13 +664,13 @@ async function onQueueStatus(event) {
 
 		let success_list = [];
 		let failed_list = [];
-		let comfyui_state = null;
+		let hanzo_studio_state = null;
 
 		for(let k in event.detail.nodepack_result){
 			let v = event.detail.nodepack_result[k];
 
 			if(k == 'comfyui') {
-				comfyui_state = v;
+				hanzo_studio_state = v;
 				continue;
 			}
 
@@ -683,28 +683,28 @@ async function onQueueStatus(event) {
 
 		let msg = "";
 		
-		if(success_list.length == 0 && comfyui_state.startsWith('skip')) {
+		if(success_list.length == 0 && hanzo_studio_state.startsWith('skip')) {
 			if(failed_list.length == 0) {
 				msg += "You are already up to date.";
 			}
 		}
 		else {
-			msg = "To apply the updates, you need to <button class='cm-small-button' id='cm-reboot-button5'>RESTART</button> ComfyUI.<hr>";
+			msg = "To apply the updates, you need to <button class='cm-small-button' id='cm-reboot-button5'>RESTART</button> Hanzo Studio.<hr>";
 
-			if(comfyui_state == 'success-nightly') {
-				msg += "ComfyUI has been updated to latest nightly version.<BR><BR>";
-				infoToast("ComfyUI has been updated to the latest nightly version.");
+			if(hanzo_studio_state == 'success-nightly') {
+				msg += "Hanzo Studio has been updated to latest nightly version.<BR><BR>";
+				infoToast("Hanzo Studio has been updated to the latest nightly version.");
 			}
-			else if(comfyui_state.startsWith('success-stable')) {
-				const ver = comfyui_state.split("-").pop();
-				msg += `ComfyUI has been updated to ${ver}.<BR><BR>`;
-				infoToast(`ComfyUI has been updated to ${ver}`);
+			else if(hanzo_studio_state.startsWith('success-stable')) {
+				const ver = hanzo_studio_state.split("-").pop();
+				msg += `Hanzo Studio has been updated to ${ver}.<BR><BR>`;
+				infoToast(`Hanzo Studio has been updated to ${ver}`);
 			}
-			else if(comfyui_state == 'skip') {
-				msg += "ComfyUI is already up to date.<BR><BR>"
+			else if(hanzo_studio_state == 'skip') {
+				msg += "Hanzo Studio is already up to date.<BR><BR>"
 			}
-			else if(comfyui_state != null) {
-				msg += "Failed to update ComfyUI.<BR><BR>"
+			else if(hanzo_studio_state != null) {
+				msg += "Failed to update Hanzo Studio.<BR><BR>"
 			}
 
 			if(success_list.length > 0) {
@@ -768,7 +768,7 @@ async function updateAll(update_comfyui) {
 	showTerminal();
 
 	if(update_comfyui) {
-		update_all_button.innerText = "Updating ComfyUI...";
+		update_all_button.innerText = "Updating Hanzo Studio...";
 		await api.fetchApi('/manager/queue/update_comfyui');
 	}
 
@@ -824,26 +824,26 @@ class ManagerMenuDialog extends ComfyDialog {
 		let self = this;
 		const isElectron = 'electronAPI' in window;
 		
-		update_comfyui_button =
+		update_hanzo_studio_button =
 			$el("button.p-button.p-component.cm-button", {
 				type: "button",
-				textContent: "Update ComfyUI",
+				textContent: "Update Hanzo Studio",
 				style: {
 					display: isElectron ? 'none' : 'block'
 				},
 				onclick:
-					() => updateComfyUI()
+					() => updateHanzo Studio()
 			});
 
-		switch_comfyui_button =
+		switch_hanzo_studio_button =
 			$el("button.p-button.p-component.cm-button", {
 				type: "button",
-				textContent: "Switch ComfyUI",
+				textContent: "Switch Hanzo Studio",
 				style: {
 					display: isElectron ? 'none' : 'block'
 				},
 				onclick:
-					() => switchComfyUI()
+					() => switchHanzo Studio()
 			});
 
 		restart_stop_button =
@@ -937,8 +937,8 @@ class ManagerMenuDialog extends ComfyDialog {
 
 				$el("div", {}, []),
 				update_all_button,
-				update_comfyui_button,
-				switch_comfyui_button,
+				update_hanzo_studio_button,
+				switch_hanzo_studio_button,
 				// fetch_updates_button,
 
 				$el("div", {}, []),
@@ -996,20 +996,20 @@ class ManagerMenuDialog extends ComfyDialog {
 				preview_combo.querySelector('option[value=""]')?.remove();
 
 				if (data === "DISABLED") {
-					// ComfyUI per-queue preview feature is active
+					// Hanzo Studio per-queue preview feature is active
 					preview_combo.disabled = true;
 					preview_combo.value = 'auto';
 
 					// Accessibility attributes
 					preview_combo.setAttribute("aria-disabled", "true");
 					preview_combo.setAttribute("aria-label",
-						"Preview method setting (disabled - managed by ComfyUI). " +
+						"Preview method setting (disabled - managed by Hanzo Studio). " +
 						"Use Settings > Execution > Live preview method instead."
 					);
 
 					// Tooltip for mouse users
 					preview_combo.setAttribute("title",
-						"This feature is now provided natively by ComfyUI. " +
+						"This feature is now provided natively by Hanzo Studio. " +
 						"Please use 'Settings > Execution > Live preview method' instead."
 					);
 
@@ -1028,7 +1028,7 @@ class ManagerMenuDialog extends ComfyDialog {
 				}
 			})
 			.catch(error => {
-				console.error('[ComfyUI-Manager] Failed to fetch preview method status:', error);
+				console.error('[Hanzo Manager] Failed to fetch preview method status:', error);
 				// Error recovery: fallback to enabled
 				preview_combo.querySelector('option[value=""]')?.remove();
 				preview_combo.disabled = false;
@@ -1048,7 +1048,7 @@ class ManagerMenuDialog extends ComfyDialog {
 					if (response.status === 403) {
 						// Feature transitioned to native
 						alert(
-							'This feature is now provided natively by ComfyUI.\n' +
+							'This feature is now provided natively by Hanzo Studio.\n' +
 							'Please use \'Settings > Execution > Live preview method\' instead.'
 						);
 						preview_combo.disabled = true;
@@ -1058,13 +1058,13 @@ class ManagerMenuDialog extends ComfyDialog {
 						// Update aria attributes
 						preview_combo.setAttribute("aria-disabled", "true");
 						preview_combo.setAttribute("aria-label",
-							"Preview method setting (disabled - managed by ComfyUI). " +
+							"Preview method setting (disabled - managed by Hanzo Studio). " +
 							"Use Settings > Execution > Live preview method instead."
 						);
 					}
 				})
 				.catch(error => {
-					console.error('[ComfyUI-Manager] Preview method update failed:', error);
+					console.error('[Hanzo Manager] Preview method update failed:', error);
 				});
 		});
 
@@ -1162,8 +1162,8 @@ class ManagerMenuDialog extends ComfyDialog {
 		
 		update_policy_combo.setAttribute("title", "Sets the policy to be applied when performing an update.");
 		update_policy_combo.className = "cm-menu-combo p-select p-component p-inputwrapper p-inputwrapper-filled";
-		update_policy_combo.appendChild($el('option', { value: 'stable-comfyui', text: 'ComfyUI Stable Version' }, []));
-		update_policy_combo.appendChild($el('option', { value: 'nightly-comfyui', text: 'ComfyUI Nightly Version' }, []));
+		update_policy_combo.appendChild($el('option', { value: 'stable-comfyui', text: 'Hanzo Studio Stable Version' }, []));
+		update_policy_combo.appendChild($el('option', { value: 'nightly-comfyui', text: 'Hanzo Studio Nightly Version' }, []));
 		api.fetchApi('/manager/policy/update')
 			.then(response => response.text())
 			.then(data => {
@@ -1221,7 +1221,7 @@ class ManagerMenuDialog extends ComfyDialog {
 					id: 'cm-manual-button',
 					type: "button",
 					textContent: "Community Manual",
-					onclick: () => { window.open("https://blenderneko.github.io/ComfyUI-docs/", "comfyui-community-manual"); }
+					onclick: () => { window.open("https://blenderneko.github.io/Hanzo Studio-docs/", "hanzo-studio-community-manual"); }
 				}, [
 					$el("div.pysssss-workflow-arrow-2", {
 						id: `cm-manual-button-arrow`,
@@ -1233,20 +1233,20 @@ class ManagerMenuDialog extends ComfyDialog {
 							const menu = new LiteGraph.ContextMenu(
 								[
 									{
-										title: "ComfyUI Docs",
-										callback: () => { window.open("https://docs.comfy.org/", "comfyui-official-manual"); },
+										title: "Hanzo Studio Docs",
+										callback: () => { window.open("https://docs.hanzo.ai/", "hanzo-studio-official-manual"); },
 									},
 									{
 										title: "Comfy Custom Node How To",
-										callback: () => { window.open("https://github.com/chrisgoringe/Comfy-Custom-Node-How-To/wiki/aaa_index", "comfyui-community-manual1"); },
+										callback: () => { window.open("https://github.com/chrisgoringe/Comfy-Custom-Node-How-To/wiki/aaa_index", "hanzo-studio-community-manual1"); },
 									},
 									{
-										title: "ComfyUI Guide To Making Custom Nodes",
-										callback: () => { window.open("https://github.com/Suzie1/ComfyUI_Guide_To_Making_Custom_Nodes/wiki", "comfyui-community-manual2"); },
+										title: "Hanzo Studio Guide To Making Custom Nodes",
+										callback: () => { window.open("https://github.com/Suzie1/Hanzo Studio_Guide_To_Making_Custom_Nodes/wiki", "hanzo-studio-community-manual2"); },
 									},
 									{
-										title: "ComfyUI Examples",
-										callback: () => { window.open("https://comfyanonymous.github.io/ComfyUI_examples", "comfyui-community-manual3"); },
+										title: "Hanzo Studio Examples",
+										callback: () => { window.open("https://hanzoai.github.io/Hanzo Studio_examples", "hanzo-studio-community-manual3"); },
 									},
 									{
 										title: "Close",
@@ -1315,7 +1315,7 @@ class ManagerMenuDialog extends ComfyDialog {
 					id: 'cm-nodeinfo-button',
 					type: "button",
 					textContent: "Nodes Info",
-					onclick: () => { window.open("https://ltdrdata.github.io/", "comfyui-node-info"); }
+					onclick: () => { window.open("https://ltdrdata.github.io/", "hanzo-studio-node-info"); }
 				}),
 		];
 
@@ -1341,7 +1341,7 @@ class ManagerMenuDialog extends ComfyDialog {
 
 		const frame = buildGuiFrame(
 			'cm-manager-dialog', // dialog id
-			`ComfyUI Manager ${manager_version}`, // dialog title
+			`Hanzo Manager ${manager_version}`, // dialog title
 			"i.mdi.mdi-puzzle", // dialog icon class to show before title
 			content, // dialog content element
 			this
@@ -1414,7 +1414,7 @@ class ManagerMenuDialog extends ComfyDialog {
 				{
 					title: "Open 'youml.com'",
 					callback: () => {
-						const url = "https://youml.com/?from=comfyui-share";
+						const url = "https://youml.com/?from=hanzo-studio-share";
 						localStorage.setItem("wg_last_visited", url);
 						window.open(url, url);
 						modifyButtonStyle(url);
@@ -1476,8 +1476,8 @@ app.registerExtension({
 
 	aboutPageBadges: [
 		{
-			label: `ComfyUI-Manager ${manager_version}`,
-			url: 'https://github.com/ltdrdata/ComfyUI-Manager',
+			label: `Hanzo Manager ${manager_version}`,
+			url: 'https://github.com/ltdrdata/Hanzo Manager',
 			icon: 'pi pi-th-large'
 		}
 	],
@@ -1532,7 +1532,7 @@ app.registerExtension({
 
 		load_components();
 
-		// Fetch and show startup alerts (critical errors like outdated ComfyUI)
+		// Fetch and show startup alerts (critical errors like outdated Hanzo Studio)
 		// Poll until extensionManager.toast is ready (set in Vue onMounted)
 		const showStartupAlerts = async () => {
 			let toastWaitCount = 0;
@@ -1545,12 +1545,12 @@ app.registerExtension({
 								customAlert(alert.message);
 							}
 						})
-						.catch(e => console.warn('[ComfyUI-Manager] Failed to fetch startup alerts:', e));
+						.catch(e => console.warn('[Hanzo Manager] Failed to fetch startup alerts:', e));
 				} else if (toastWaitCount < 300) {  // Max 30 seconds (300 * 100ms)
 					toastWaitCount++;
 					setTimeout(waitForToast, 100);
 				} else {
-					console.warn('[ComfyUI-Manager] Timeout waiting for toast. Startup alerts skipped.');
+					console.warn('[Hanzo Manager] Timeout waiting for toast. Startup alerts skipped.');
 				}
 			};
 			waitForToast();
@@ -1575,9 +1575,9 @@ app.registerExtension({
 							setManagerInstance(new ManagerMenuDialog());
 						manager_instance.show();
 					},
-					tooltip: "ComfyUI Manager",
+					tooltip: "Hanzo Manager",
 					content: "Manager",
-					classList: "comfyui-button comfyui-menu-mobile-collapse primary"
+					classList: "hanzo-studio-button hanzo-studio-menu-mobile-collapse primary"
 				}).element,
 				new(await import("../../scripts/ui/components/button.js")).ComfyButton({
 					icon: "star",
@@ -1632,7 +1632,7 @@ app.registerExtension({
 			app.menu?.settingsGroup.element.before(cmGroup.element);
 		}
 		catch(exception) {
-			console.log('ComfyUI is outdated. New style menu based features are disabled.');
+			console.log('Hanzo Studio is outdated. New style menu based features are disabled.');
 		}
 
 		// old style Manager button

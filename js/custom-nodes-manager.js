@@ -1,7 +1,7 @@
 import { app } from "../../scripts/app.js";
 import { ComfyDialog, $el } from "../../scripts/ui.js";
 import { api } from "../../scripts/api.js";
-import { buildGuiFrameCustomHeader,  createSettingsCombo } from "./comfyui-gui-builder.js";
+import { buildGuiFrameCustomHeader,  createSettingsCombo } from "./hanzo-studio-gui-builder.js";
 
 import {
 	manager_instance, rebootAPI, install_via_git_url,
@@ -359,7 +359,7 @@ export class CustomNodesManager {
 			installGroups.enabled = installGroups.enabled.filter(it => it !== "try-update");
 		}
 
-		if (rowItem?.title === "ComfyUI-Manager") {
+		if (rowItem?.title === "Hanzo Manager") {
 			installGroups.enabled = installGroups.enabled.filter(it => it !== "disable" && it !== "uninstall" && it !== "switch");
 		}
 
@@ -1446,7 +1446,7 @@ export class CustomNodesManager {
 		let stats = await api.fetchApi('/manager/queue/status');
 		stats = await stats.json();
 		if(stats.is_processing) {
-			customAlert(`[ComfyUI-Manager] There are already tasks in progress. Please try again after it is completed. (${stats.done_count}/${stats.total_count})`);
+			customAlert(`[Hanzo Manager] There are already tasks in progress. Please try again after it is completed. (${stats.done_count}/${stats.total_count})`);
 			return;
 		}
 
@@ -1532,8 +1532,8 @@ export class CustomNodesManager {
 				if(res.status == 403) {
 					try {
 						const data = await res.json();
-						if(data.error === 'comfyui_outdated') {
-							errorMsg += `ComfyUI version is outdated. Please update ComfyUI to use Manager normally.\n`;
+						if(data.error === 'hanzo_studio_outdated') {
+							errorMsg += `Hanzo Studio version is outdated. Please update Hanzo Studio to use Manager normally.\n`;
 						} else {
 							errorMsg += `This action is not allowed with this security level configuration.\n`;
 						}
@@ -1625,9 +1625,9 @@ export class CustomNodesManager {
 		}
 
 		self.showRestart();
-		self.showMessage(`To apply the installed/updated/disabled/enabled custom node, please restart ComfyUI. And refresh browser.`, "red");
+		self.showMessage(`To apply the installed/updated/disabled/enabled custom node, please restart Hanzo Studio. And refresh browser.`, "red");
 
-		infoToast(`[ComfyUI-Manager] All node pack tasks in the queue have been completed.\n${info.done_count}/${info.total_count}`);
+		infoToast(`[Hanzo Manager] All node pack tasks in the queue have been completed.\n${info.done_count}/${info.total_count}`);
 		self.install_context = undefined;
 	}
 
@@ -1734,7 +1734,7 @@ export class CustomNodesManager {
 		}
 
 		if(outdated_comfyui) {
-			customAlert('ComfyUI is outdated, so some built-in nodes cannot be used.');
+			customAlert('Hanzo Studio is outdated, so some built-in nodes cannot be used.');
 		}
 
 		if(Object.keys(unresolved_aux_ids).length > 0) {
@@ -1948,7 +1948,7 @@ export class CustomNodesManager {
 		const { channel, node_packs } = res.data;
 
 		if(isElectron) {
-			delete node_packs['comfyui-manager'];
+			delete node_packs['hanzo-studio-manager'];
 		}
 
 		this.channel = channel;

@@ -1,6 +1,6 @@
 """
 description:
-    `manager_core` contains the core implementation of the management functions in ComfyUI-Manager.
+    `manager_core` contains the core implementation of the management functions in Hanzo Manager.
 """
 
 import json
@@ -32,7 +32,7 @@ from packaging import version
 
 import uuid
 
-glob_path = os.path.join(os.path.dirname(__file__))  # ComfyUI-Manager/glob
+glob_path = os.path.join(os.path.dirname(__file__))  # Hanzo Manager/glob
 sys.path.append(glob_path)
 
 import cm_global
@@ -48,7 +48,7 @@ version_code = [3, 39, 2]
 version_str = f"V{version_code[0]}.{version_code[1]}" + (f'.{version_code[2]}' if len(version_code) > 2 else '')
 
 
-DEFAULT_CHANNEL = "https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main"
+DEFAULT_CHANNEL = "https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main"
 
 
 default_custom_nodes_path = None
@@ -66,7 +66,7 @@ def get_default_custom_nodes_path():
             import folder_paths
             default_custom_nodes_path = folder_paths.get_folder_paths("custom_nodes")[0]
         except:
-            default_custom_nodes_path = os.path.abspath(os.path.join(manager_util.comfyui_manager_path, '..'))
+            default_custom_nodes_path = os.path.abspath(os.path.join(manager_util.hanzo_studio_manager_path, '..'))
 
     return default_custom_nodes_path
 
@@ -76,11 +76,11 @@ def get_custom_nodes_paths():
             import folder_paths
             return folder_paths.get_folder_paths("custom_nodes")
         except:
-            custom_nodes_path = os.path.abspath(os.path.join(manager_util.comfyui_manager_path, '..'))
+            custom_nodes_path = os.path.abspath(os.path.join(manager_util.hanzo_studio_manager_path, '..'))
             return [custom_nodes_path]
 
 
-def get_comfyui_tag():
+def get_hanzo_studio_tag():
     try:
         repo = git.Repo(comfy_path)
         return repo.git.describe('--tags')
@@ -88,7 +88,7 @@ def get_comfyui_tag():
         return None
 
 
-def get_current_comfyui_ver():
+def get_current_hanzo_studio_ver():
     """
     Extract version from pyproject.toml
     """
@@ -169,7 +169,7 @@ def check_invalid_nodes():
             check(disabled_dir)
 
     if len(invalid_nodes):
-        print("\n-------------------- ComfyUI-Manager invalid nodes notice ----------------")
+        print("\n-------------------- Hanzo Manager invalid nodes notice ----------------")
         print("\nNodes requiring reinstallation have been detected:\n(Directly delete the corresponding path and reinstall.)\n")
 
         for x in invalid_nodes.values():
@@ -187,14 +187,14 @@ if comfy_path is None:
         import folder_paths
         comfy_path = os.path.join(os.path.dirname(folder_paths.__file__))
     except:
-        comfy_path = os.path.abspath(os.path.join(manager_util.comfyui_manager_path, '..', '..'))
+        comfy_path = os.path.abspath(os.path.join(manager_util.hanzo_studio_manager_path, '..', '..'))
 
 if comfy_base_path is None:
     comfy_base_path = comfy_path
 
 
-channel_list_template_path = os.path.join(manager_util.comfyui_manager_path, 'channels.list.template')
-git_script_path = os.path.join(manager_util.comfyui_manager_path, "git_helper.py")
+channel_list_template_path = os.path.join(manager_util.hanzo_studio_manager_path, 'channels.list.template')
+git_script_path = os.path.join(manager_util.hanzo_studio_manager_path, "git_helper.py")
 
 manager_files_path = None
 manager_config_path = None
@@ -245,7 +245,7 @@ try:
 except Exception:
     # fallback:
     # This case is only possible when running with cm-cli, and in practice, this case is not actually used.
-    update_user_directory(os.path.abspath(manager_util.comfyui_manager_path))
+    update_user_directory(os.path.abspath(manager_util.hanzo_studio_manager_path))
 
 
 cached_config = None
@@ -265,7 +265,7 @@ channel_list = None
 def remap_pip_package(pkg):
     if pkg in cm_global.pip_overrides:
         res = cm_global.pip_overrides[pkg]
-        print(f"[ComfyUI-Manager] '{pkg}' is remapped to '{res}'")
+        print(f"[Hanzo Manager] '{pkg}' is remapped to '{res}'")
         return res
     else:
         return pkg
@@ -321,7 +321,7 @@ def is_installed(name):
         elif match.group(2) in ['<=', '==', '<', '~=']:
             if name in pips:
                 if manager_util.StrictVersion(pips[name]) >= manager_util.StrictVersion(match.group(3)):
-                    print(f"[ComfyUI-Manager] skip black listed pip installation: '{name}'")
+                    print(f"[Hanzo Manager] skip black listed pip installation: '{name}'")
                     return True
 
     pkg = manager_util.get_installed_packages().get(name.lower())
@@ -851,7 +851,7 @@ class UnifiedManager:
 
         # validate channel - only the channel set by the user is allowed.
         if channel_url not in valid_channels:
-            logging.error(f'[ComfyUI-Manager] An invalid channel was used: {channel_url}')
+            logging.error(f'[Hanzo Manager] An invalid channel was used: {channel_url}')
             raise InvalidChannel(channel_url)
 
         json_obj = await get_data_by_mode(mode, 'custom-node-list.json', channel_url=channel_url)
@@ -866,7 +866,7 @@ class UnifiedManager:
                     if x['id'] not in res:
                         res[x['id']] = (x, True)
             except:
-                logging.error(f"[ComfyUI-Manager] broken item:{x}")
+                logging.error(f"[Hanzo Manager] broken item:{x}")
 
         return res
 
@@ -1104,7 +1104,7 @@ class UnifiedManager:
 
         result = ManagedResult('enable')
 
-        if 'comfyui-manager' in node_id.lower():
+        if 'hanzo-studio-manager' in node_id.lower():
             return result.fail(f"ignored: enabling '{node_id}'")
 
         if version_spec is None:
@@ -1175,7 +1175,7 @@ class UnifiedManager:
     def unified_disable(self, node_id: str, is_unknown):
         result = ManagedResult('disable')
 
-        if 'comfyui-manager' in node_id.lower():
+        if 'hanzo-studio-manager' in node_id.lower():
             return result.fail(f"ignored: disabling '{node_id}'")
 
         if is_unknown:
@@ -1233,7 +1233,7 @@ class UnifiedManager:
         """
         result = ManagedResult('uninstall')
 
-        if 'comfyui-manager' in node_id.lower():
+        if 'hanzo-studio-manager' in node_id.lower():
             return result.fail(f"ignored: uninstalling '{node_id}'")
 
         if is_unknown:
@@ -1295,7 +1295,7 @@ class UnifiedManager:
     def cnr_install(self, node_id: str, version_spec=None, instant_execution=False, no_deps=False, return_postinstall=False):
         result = ManagedResult('install-cnr')
 
-        if 'comfyui-manager' in node_id.lower():
+        if 'hanzo-studio-manager' in node_id.lower():
             return result.fail(f"ignored: installing '{node_id}'")
 
         node_info = cnr_utils.install_node(node_id, version_spec)
@@ -1346,7 +1346,7 @@ class UnifiedManager:
         result = ManagedResult('install-git')
         result.append(url)
 
-        if 'comfyui-manager' in url.lower():
+        if 'hanzo-studio-manager' in url.lower():
             return result.fail(f"ignored: installing '{url}'")
 
         if not is_valid_url(url):
@@ -1400,7 +1400,7 @@ class UnifiedManager:
             branch_name = current_branch.name
 
             if current_branch.tracking_branch() is None:
-                print(f"[ComfyUI-Manager] There is no tracking branch ({current_branch})")
+                print(f"[Hanzo Manager] There is no tracking branch ({current_branch})")
                 remote_name = get_remote_name(repo)
             else:
                 remote_name = current_branch.tracking_branch().remote_name
@@ -1414,13 +1414,13 @@ class UnifiedManager:
                 remote.fetch()
             except Exception as e:
                 if 'detected dubious' in str(e):
-                    print(f"[ComfyUI-Manager] Try fixing 'dubious repository' error on '{repo_path}' repository")
+                    print(f"[Hanzo Manager] Try fixing 'dubious repository' error on '{repo_path}' repository")
                     safedir_path = repo_path.replace('\\', '/')
                     subprocess.run(['git', 'config', '--global', '--add', 'safe.directory', safedir_path])
                     try:
                         remote.fetch()
                     except Exception:
-                        print("\n[ComfyUI-Manager] Failed to fixing repository setup. Please execute this command on cmd: \n"
+                        print("\n[Hanzo Manager] Failed to fixing repository setup. Please execute this command on cmd: \n"
                               "-----------------------------------------------------------------------------------------\n"
                               f'git config --global --add safe.directory "{safedir_path}"\n'
                               "-----------------------------------------------------------------------------------------\n")
@@ -1477,7 +1477,7 @@ class UnifiedManager:
         remark: latest version_spec is not allowed. Must be resolved before call.
         """
 
-        if 'comfyui-manager' in node_id.lower():
+        if 'hanzo-studio-manager' in node_id.lower():
             return ManagedResult('skip').fail(f"ignored: installing '{node_id}'")
 
         repo_url = None
@@ -1580,7 +1580,7 @@ def identify_node_pack_from_path(fullpath):
             try:
                 github_id = os.path.basename(repo_url)
             except:
-                logging.warning(f"[ComfyUI-Manager] unexpected repo url: {repo_url}")
+                logging.warning(f"[Hanzo Manager] unexpected repo url: {repo_url}")
                 github_id = module_name
 
         if cnr_id is not None:
@@ -1668,7 +1668,7 @@ class ManagerFuncs:
 
     def run_script(self, cmd, cwd='.'):
         if len(cmd) > 0 and cmd[0].startswith("#"):
-            print(f"[ComfyUI-Manager] Unexpected behavior: `{cmd}`")
+            print(f"[Hanzo Manager] Unexpected behavior: `{cmd}`")
             return 0
 
         subprocess.check_call(cmd, cwd=cwd, env=get_script_env())
@@ -1751,7 +1751,7 @@ def read_config():
 
     except Exception:
         import importlib.util
-        # temporary disable `uv` on Windows by default (https://github.com/Comfy-Org/ComfyUI-Manager/issues/1969)
+        # temporary disable `uv` on Windows by default (https://github.com/hanzoui/studio-Manager/issues/1969)
         manager_util.use_uv = importlib.util.find_spec("uv") is not None and platform.system() != "Windows"
         manager_util.bypass_ssl = False
 
@@ -1785,7 +1785,7 @@ def get_config():
     if cached_config is None:
         cached_config = read_config()
         if cached_config['http_channel_enabled']:
-            print("[ComfyUI-Manager] Warning: http channel enabled, make sure server in secure env")
+            print("[Hanzo Manager] Warning: http channel enabled, make sure server in secure env")
 
     return cached_config
 
@@ -1800,9 +1800,9 @@ def get_remote_name(repo):
         return available_remotes[0]
 
     if not available_remotes:
-        print(f"[ComfyUI-Manager] No remotes are configured for this repository: {repo.working_dir}")
+        print(f"[Hanzo Manager] No remotes are configured for this repository: {repo.working_dir}")
     else:
-        print(f"[ComfyUI-Manager] Available remotes in '{repo.working_dir}': ")
+        print(f"[Hanzo Manager] Available remotes in '{repo.working_dir}': ")
         for remote in available_remotes:
             print(f"- {remote}")
 
@@ -1842,7 +1842,7 @@ def switch_to_default_branch(repo):
                     except:
                         pass
 
-    print("[ComfyUI Manager] Failed to switch to the default branch")
+    print("[Hanzo Manager] Failed to switch to the default branch")
     return False
 
 
@@ -1860,7 +1860,7 @@ def try_rmtree(title, fullpath):
     try:
         shutil.rmtree(fullpath)
     except Exception as e:
-        logging.warning(f"[ComfyUI-Manager] An error occurred while deleting '{fullpath}', so it has been scheduled for deletion upon restart.\nEXCEPTION: {e}")
+        logging.warning(f"[Hanzo Manager] An error occurred while deleting '{fullpath}', so it has been scheduled for deletion upon restart.\nEXCEPTION: {e}")
         reserve_script(title, ["#LAZY-DELETE-NODEPACK", fullpath])
 
 
@@ -1873,22 +1873,22 @@ def try_install_script(url, repo_path, install_cmd, instant_execution=False):
     else:
         if len(install_cmd) == 5 and install_cmd[2:4] == ['pip', 'install']:
             if is_blacklisted(install_cmd[4]):
-                print(f"[ComfyUI-Manager] skip black listed pip installation: '{install_cmd[4]}'")
+                print(f"[Hanzo Manager] skip black listed pip installation: '{install_cmd[4]}'")
                 return True
         elif len(install_cmd) == 6 and install_cmd[3:5] == ['pip', 'install']:  # uv mode
             if is_blacklisted(install_cmd[5]):
-                print(f"[ComfyUI-Manager] skip black listed pip installation: '{install_cmd[5]}'")
+                print(f"[Hanzo Manager] skip black listed pip installation: '{install_cmd[5]}'")
                 return True
 
-        print(f"\n## ComfyUI-Manager: EXECUTE => {install_cmd}")
+        print(f"\n## Hanzo Manager: EXECUTE => {install_cmd}")
         code = manager_funcs.run_script(install_cmd, cwd=repo_path)
 
         if platform.system() != "Windows":
             try:
                 if not os.environ.get('__COMFYUI_DESKTOP_VERSION__') and comfy_ui_commit_datetime.date() < comfy_ui_required_commit_datetime.date():
                     print("\n\n###################################################################")
-                    print(f"[WARN] ComfyUI-Manager: Your ComfyUI version ({comfy_ui_revision})[{comfy_ui_commit_datetime.date()}] is too old. Please update to the latest version.")
-                    print("[WARN] The extension installation feature may not work properly in the current installed ComfyUI version on Windows environment.")
+                    print(f"[WARN] Hanzo Manager: Your Hanzo Studio version ({comfy_ui_revision})[{comfy_ui_commit_datetime.date()}] is too old. Please update to the latest version.")
+                    print("[WARN] The extension installation feature may not work properly in the current installed Hanzo Studio version on Windows environment.")
                     print("###################################################################\n\n")
             except:
                 pass
@@ -1920,7 +1920,7 @@ def __win_check_git_update(path, do_fetch=False, do_update=False):
         # fix and try again
         safedir_path = path.replace('\\', '/')
         try:
-            print(f"[ComfyUI-Manager] Try fixing 'dubious repository' error on '{safedir_path}' repo")
+            print(f"[Hanzo Manager] Try fixing 'dubious repository' error on '{safedir_path}' repo")
             process = subprocess.Popen(['git', 'config', '--global', '--add', 'safe.directory', safedir_path], env=new_env, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             output, _ = process.communicate()
 
@@ -1928,10 +1928,10 @@ def __win_check_git_update(path, do_fetch=False, do_update=False):
             output, _ = process.communicate()
             output = output.decode('utf-8').strip()
         except Exception:
-            print('[ComfyUI-Manager] failed to fixing')
+            print('[Hanzo Manager] failed to fixing')
 
         if 'detected dubious' in output:
-            print(f'\n[ComfyUI-Manager] Failed to fixing repository setup. Please execute this command on cmd: \n'
+            print(f'\n[Hanzo Manager] Failed to fixing repository setup. Please execute this command on cmd: \n'
                   f'-----------------------------------------------------------------------------------------\n'
                   f'git config --global --add safe.directory "{safedir_path}"\n'
                   f'-----------------------------------------------------------------------------------------\n')
@@ -2030,7 +2030,7 @@ def git_repo_update_check_with(path, do_fetch=False, do_update=False, no_deps=Fa
 
     # Check if the path is a git repository
     if not os.path.exists(os.path.join(path, '.git')):
-        raise ValueError(f'[ComfyUI-Manager] Not a valid git repository: {path}')
+        raise ValueError(f'[Hanzo Manager] Not a valid git repository: {path}')
 
     if platform.system() == "Windows":
         updated, success = __win_check_git_update(path, do_fetch, do_update)
@@ -2265,9 +2265,9 @@ def git_pull(path):
             branch_name = current_branch.name
             backup_name = f'backup_{time.strftime("%Y%m%d_%H%M%S")}'
             repo.create_head(backup_name)
-            logging.info(f"[ComfyUI-Manager] Cannot fast-forward. Backup created: {backup_name}")
+            logging.info(f"[Hanzo Manager] Cannot fast-forward. Backup created: {backup_name}")
             repo.git.reset('--hard', f'{remote_name}/{branch_name}')
-            logging.info(f"[ComfyUI-Manager] Reset to {remote_name}/{branch_name}")
+            logging.info(f"[Hanzo Manager] Reset to {remote_name}/{branch_name}")
 
         repo.git.submodule('update', '--init', '--recursive')
 
@@ -2281,7 +2281,7 @@ async def get_data_by_mode(mode, filename, channel_url=None):
         channel_url = get_channel_dict()[channel_url]
 
     try:
-        local_uri = os.path.join(manager_util.comfyui_manager_path, filename)
+        local_uri = os.path.join(manager_util.hanzo_studio_manager_path, filename)
 
         if mode == "local":
             json_obj = await manager_util.get_data(local_uri)
@@ -2299,7 +2299,7 @@ async def get_data_by_mode(mode, filename, channel_url=None):
                 if os.path.exists(cache_uri):
                     json_obj = await manager_util.get_data(cache_uri)
                 else:
-                    local_uri = os.path.join(manager_util.comfyui_manager_path, filename)
+                    local_uri = os.path.join(manager_util.hanzo_studio_manager_path, filename)
                     if os.path.exists(local_uri):
                         json_obj = await manager_util.get_data(local_uri)
                     else:
@@ -2314,8 +2314,8 @@ async def get_data_by_mode(mode, filename, channel_url=None):
                         with open(cache_uri, "w", encoding='utf-8') as file:
                             json.dump(json_obj, file, indent=4, sort_keys=True)
     except Exception as e:
-        print(f"[ComfyUI-Manager] Due to a network error, switching to local mode.\n=> {filename}\n=> {e}")
-        uri = os.path.join(manager_util.comfyui_manager_path, filename)
+        print(f"[Hanzo Manager] Due to a network error, switching to local mode.\n=> {filename}\n=> {e}")
+        uri = os.path.join(manager_util.hanzo_studio_manager_path, filename)
         json_obj = await manager_util.get_data(uri)
 
     return json_obj
@@ -2531,28 +2531,28 @@ def update_to_stable_comfyui(repo_path):
         try:
             repo.git.checkout(repo.heads.master)
         except:
-            logging.error(f"[ComfyUI-Manager] Failed to checkout 'master' branch.\nrepo_path={repo_path}\nAvailable branches:")
+            logging.error(f"[Hanzo Manager] Failed to checkout 'master' branch.\nrepo_path={repo_path}\nAvailable branches:")
             for branch in repo.branches:
                 logging.error('\t'+branch.name)
             return "fail", None
 
-        versions, current_tag, latest_tag = get_comfyui_versions(repo)
+        versions, current_tag, latest_tag = get_hanzo_studio_versions(repo)
 
         if latest_tag is None:
-            logging.info("[ComfyUI-Manager] Unable to update to the stable ComfyUI version.")
+            logging.info("[Hanzo Manager] Unable to update to the stable Hanzo Studio version.")
             return "fail", None
 
         tag_ref = next((t for t in repo.tags if t.name == latest_tag), None)
         if tag_ref is None:
-            logging.info(f"[ComfyUI-Manager] Unable to locate tag '{latest_tag}' in repository.")
+            logging.info(f"[Hanzo Manager] Unable to locate tag '{latest_tag}' in repository.")
             return "fail", None
 
         if repo.head.commit == tag_ref.commit:
             return "skip", None
         else:
-            logging.info(f"[ComfyUI-Manager] Updating ComfyUI: {current_tag} -> {latest_tag}")
+            logging.info(f"[Hanzo Manager] Updating Hanzo Studio: {current_tag} -> {latest_tag}")
             repo.git.checkout(tag_ref.name)
-            execute_install_script("ComfyUI", repo_path, instant_execution=False, no_deps=False)
+            execute_install_script("Hanzo Studio", repo_path, instant_execution=False, no_deps=False)
             return 'updated', latest_tag
     except:
         traceback.print_exc()
@@ -2577,7 +2577,7 @@ def update_path(repo_path, instant_execution=False, no_deps=False):
     branch_name = current_branch.name
 
     if current_branch.tracking_branch() is None:
-        print(f"[ComfyUI-Manager] There is no tracking branch ({current_branch})")
+        print(f"[Hanzo Manager] There is no tracking branch ({current_branch})")
         remote_name = get_remote_name(repo)
     else:
         remote_name = current_branch.tracking_branch().remote_name
@@ -2587,13 +2587,13 @@ def update_path(repo_path, instant_execution=False, no_deps=False):
         remote.fetch()
     except Exception as e:
         if 'detected dubious' in str(e):
-            print(f"[ComfyUI-Manager] Try fixing 'dubious repository' error on '{repo_path}' repository")
+            print(f"[Hanzo Manager] Try fixing 'dubious repository' error on '{repo_path}' repository")
             safedir_path = repo_path.replace('\\', '/')
             subprocess.run(['git', 'config', '--global', '--add', 'safe.directory', safedir_path])
             try:
                 remote.fetch()
             except Exception:
-                print(f"\n[ComfyUI-Manager] Failed to fixing repository setup. Please execute this command on cmd: \n"
+                print(f"\n[Hanzo Manager] Failed to fixing repository setup. Please execute this command on cmd: \n"
                       f"-----------------------------------------------------------------------------------------\n"
                       f'git config --global --add safe.directory "{safedir_path}"\n'
                       f"-----------------------------------------------------------------------------------------\n")
@@ -2608,7 +2608,7 @@ def update_path(repo_path, instant_execution=False, no_deps=False):
 
     if commit_hash != remote_commit_hash:
         git_pull(repo_path)
-        execute_install_script("ComfyUI", repo_path, instant_execution=instant_execution, no_deps=no_deps)
+        execute_install_script("Hanzo Studio", repo_path, instant_execution=instant_execution, no_deps=no_deps)
         return "updated"
     elif is_switched:
         return "updated"
@@ -2680,7 +2680,7 @@ def check_state_of_git_node_pack_single(item, do_fetch=False, do_update_check=Tr
                 elif do_update and not success:
                     item['update-state'] = 'fail'
             except Exception:
-                print(f"[ComfyUI-Manager] Failed to check state of the git node pack: {dir_path}")
+                print(f"[Hanzo Manager] Failed to check state of the git node pack: {dir_path}")
 
 
 def get_installed_pip_packages():
@@ -2689,7 +2689,7 @@ def get_installed_pip_packages():
         cmd = manager_util.make_pip_cmd(['freeze'])
         pips = subprocess.check_output(cmd, text=True).split('\n')
     except Exception as e:
-        logging.warning("[ComfyUI-Manager] Could not enumerate pip packages for snapshot: %s", e)
+        logging.warning("[Hanzo Manager] Could not enumerate pip packages for snapshot: %s", e)
         return {}
 
     res = {}
@@ -2710,14 +2710,14 @@ async def get_current_snapshot(custom_nodes_only = False):
     await unified_manager.reload('cache')
     await unified_manager.get_custom_nodes('default', 'cache')
 
-    # Get ComfyUI hash
+    # Get Hanzo Studio hash
     repo_path = comfy_path
 
-    comfyui_commit_hash = None
+    hanzo_studio_commit_hash = None
     if not custom_nodes_only:
         if os.path.exists(os.path.join(repo_path, '.git')):
             repo = git.Repo(repo_path)
-            comfyui_commit_hash = repo.head.commit.hexsha
+            hanzo_studio_commit_hash = repo.head.commit.hexsha
         
     git_custom_nodes = {}
     cnr_custom_nodes = {}
@@ -2772,7 +2772,7 @@ async def get_current_snapshot(custom_nodes_only = False):
     pip_packages = None if custom_nodes_only else get_installed_pip_packages()
 
     return {
-        'comfyui': comfyui_commit_hash,
+        'comfyui': hanzo_studio_commit_hash,
         'git_custom_nodes': git_custom_nodes,
         'cnr_custom_nodes': cnr_custom_nodes,
         'file_custom_nodes': file_custom_nodes,
@@ -2828,7 +2828,7 @@ async def extract_nodes_from_workflow(filepath, mode='local', channel_url='defau
                 try:
                     workflow = json.loads(img.info['workflow'])
                 except:
-                    print(f"This is not a valid .png file containing a ComfyUI workflow: {filepath}")
+                    print(f"This is not a valid .png file containing a Hanzo Studio workflow: {filepath}")
                     exit(-1)
 
     if workflow is None:
@@ -2864,7 +2864,7 @@ async def extract_nodes_from_workflow(filepath, mode='local', channel_url='defau
     preemption_map = {}
     patterns = []
     for k, v in ext_map.items():
-        if k == 'https://github.com/comfyanonymous/ComfyUI':
+        if k == 'https://github.com/hanzoai/studio':
             for x in v[0]:
                 if x not in preemption_map:
                     preemption_map[x] = []
@@ -2906,7 +2906,7 @@ async def extract_nodes_from_workflow(filepath, mode='local', channel_url='defau
                     ext = pat_ext[1]
                     break
 
-        if ext == 'https://github.com/comfyanonymous/ComfyUI':
+        if ext == 'https://github.com/hanzoai/studio':
             pass
         elif ext is not None:
             used_exts.add(ext)
@@ -2918,7 +2918,7 @@ async def extract_nodes_from_workflow(filepath, mode='local', channel_url='defau
 
 def unzip(model_path):
     if not os.path.exists(model_path):
-        print(f"[ComfyUI-Manager] unzip: File not found: {model_path}")
+        print(f"[Hanzo Manager] unzip: File not found: {model_path}")
         return False
 
     base_dir = os.path.dirname(model_path)
@@ -3039,7 +3039,7 @@ async def get_unified_total_nodes(channel, mode, regsitry_cache_mode='cache'):
             cnr = unified_manager.cnr_map[cnr_id]
             author = cnr['publisher']['name']
             title = cnr['name']
-            reference = f"https://registry.comfy.org/nodes/{cnr['id']}"
+            reference = f"https://registry.hanzo.ai/nodes/{cnr['id']}"
             repository = cnr.get('repository', '')
             install_type = "cnr"
             description = cnr.get('description', '')
@@ -3099,7 +3099,7 @@ def populate_github_stats(node_packs, json_obj_github):
                 v['last_update'] = -1
                 v['trust'] = False
         except:
-            logging.error(f"[ComfyUI-Manager] DB item is broken:\n{v}")
+            logging.error(f"[Hanzo Manager] DB item is broken:\n{v}")
 
 
 def populate_favorites(node_packs, json_obj_extras):
@@ -3152,7 +3152,7 @@ async def restore_snapshot(snapshot_path, git_helper_extras=None):
             todo_checkout = []
 
             for k, v in unified_manager.active_nodes.items():
-                if 'comfyui-manager' in k:
+                if 'hanzo-studio-manager' in k:
                     continue
 
                 if v[0] != 'nightly':
@@ -3180,7 +3180,7 @@ async def restore_snapshot(snapshot_path, git_helper_extras=None):
 
             # install listed cnr nodes
             for k, v in cnr_info.items():
-                if 'comfyui-manager' in k:
+                if 'hanzo-studio-manager' in k:
                     continue
 
                 ps = await unified_manager.install_by_id(k, version_spec=v, instant_execution=True, return_postinstall=True)
@@ -3199,8 +3199,8 @@ async def restore_snapshot(snapshot_path, git_helper_extras=None):
 
         # normalize github repo
         for k, v in _git_info.items():
-            # robust filter out comfyui-manager while restoring snapshot
-            if 'comfyui-manager' in k.lower():
+            # robust filter out hanzo-studio-manager while restoring snapshot
+            if 'hanzo-studio-manager' in k.lower():
                 continue
 
             norm_k = git_utils.normalize_url(k)
@@ -3213,7 +3213,7 @@ async def restore_snapshot(snapshot_path, git_helper_extras=None):
             processed_urls = []
 
             for k, v in unified_manager.active_nodes.items():
-                if 'comfyui-manager' in k:
+                if 'hanzo-studio-manager' in k:
                     continue
 
                 if v[0] == 'nightly' and cnr_repo_map.get(k):
@@ -3227,7 +3227,7 @@ async def restore_snapshot(snapshot_path, git_helper_extras=None):
                         todo_checkout.append((v[1], commit_hash))
 
             for k, v in unified_manager.nightly_inactive_nodes.items():
-                if 'comfyui-manager' in k:
+                if 'hanzo-studio-manager' in k:
                     continue
 
                 if cnr_repo_map.get(k):
@@ -3374,7 +3374,7 @@ async def restore_snapshot(snapshot_path, git_helper_extras=None):
     #     print("[bold red]ERROR: Failed to restore snapshot.[/bold red]")
 
 
-def get_comfyui_versions(repo=None):
+def get_hanzo_studio_versions(repo=None):
     repo = repo or git.Repo(comfy_path)
 
     remote_name = None
@@ -3382,7 +3382,7 @@ def get_comfyui_versions(repo=None):
         remote_name = get_remote_name(repo)
         repo.remotes[remote_name].fetch()
     except:
-        logging.error("[ComfyUI-Manager] Failed to fetch ComfyUI")
+        logging.error("[Hanzo Manager] Failed to fetch Hanzo Studio")
 
     def parse_semver(tag_name):
         match = re.match(r'^v(\d+)\.(\d+)\.(\d+)$', tag_name)
@@ -3461,10 +3461,10 @@ def switch_comfyui(tag):
         tracking_branch = repo.active_branch.tracking_branch()
         remote_name = tracking_branch.remote_name
         repo.remotes[remote_name].pull()
-        print("[ComfyUI-Manager] ComfyUI version is switched to the latest 'master' version")
+        print("[Hanzo Manager] Hanzo Studio version is switched to the latest 'master' version")
     else:
         repo.git.checkout(tag)
-        print(f"[ComfyUI-Manager] ComfyUI version is switched to '{tag}'")
+        print(f"[Hanzo Manager] Hanzo Studio version is switched to '{tag}'")
 
 
 def resolve_giturl_from_path(fullpath):
