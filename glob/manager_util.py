@@ -1,6 +1,6 @@
 """
 description:
-    `manager_util` is the lightest module shared across the prestartup_script, main code, and cm-cli of ComfyUI-Manager.
+    `manager_util` is the lightest module shared across the prestartup_script, main code, and cm-cli of Hanzo Manager.
 """
 import traceback
 
@@ -20,8 +20,8 @@ from functools import lru_cache
 
 cache_lock = threading.Lock()
 
-comfyui_manager_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-cache_dir = os.path.join(comfyui_manager_path, '.cache')  # This path is also updated together in **manager_core.update_user_directory**.
+hanzo_studio_manager_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+cache_dir = os.path.join(hanzo_studio_manager_path, '.cache')  # This path is also updated together in **manager_core.update_user_directory**.
 
 use_uv = False
 bypass_ssl = False
@@ -55,7 +55,7 @@ def get_pip_cmd(force_uv=False):
             subprocess.check_output(test_cmd, stderr=subprocess.DEVNULL, timeout=5)
             return [sys.executable] + (['-s'] if embedded else []) + ['-m', 'pip']
         except Exception:
-            logging.warning("[ComfyUI-Manager] `python -m pip` not available. Falling back to `uv`.")
+            logging.warning("[Hanzo Manager] `python -m pip` not available. Falling back to `uv`.")
 
     # Try uv (either forced or pip failed)
     import shutil
@@ -64,18 +64,18 @@ def get_pip_cmd(force_uv=False):
     try:
         test_cmd = [sys.executable] + (['-s'] if embedded else []) + ['-m', 'uv', '--version']
         subprocess.check_output(test_cmd, stderr=subprocess.DEVNULL, timeout=5)
-        logging.info("[ComfyUI-Manager] Using `uv` as Python module for pip operations.")
+        logging.info("[Hanzo Manager] Using `uv` as Python module for pip operations.")
         return [sys.executable] + (['-s'] if embedded else []) + ['-m', 'uv', 'pip']
     except Exception:
         pass
 
     # Try standalone uv
     if shutil.which('uv'):
-        logging.info("[ComfyUI-Manager] Using standalone `uv` for pip operations.")
+        logging.info("[Hanzo Manager] Using standalone `uv` for pip operations.")
         return ['uv', 'pip']
 
     # Nothing worked
-    logging.error("[ComfyUI-Manager] Neither `python -m pip` nor `uv` are available. Cannot proceed with package operations.")
+    logging.error("[Hanzo Manager] Neither `python -m pip` nor `uv` are available. Cannot proceed with package operations.")
     raise Exception("Neither `pip` nor `uv` are available for package management")
 
 
@@ -98,7 +98,7 @@ def make_pip_cmd(cmd):
 # try:
 #     from distutils.version import StrictVersion
 # except:
-#     print(f"[ComfyUI-Manager]  'distutils' package not found. Activating fallback mode for compatibility.")
+#     print(f"[Hanzo Manager]  'distutils' package not found. Activating fallback mode for compatibility.")
 class StrictVersion:
     def __init__(self, version_string):
         self.version_string = version_string
@@ -199,7 +199,7 @@ async def get_data(uri, silent=False):
     try:
         json_obj = json.loads(json_text)
     except Exception as e:
-        logging.error(f"[ComfyUI-Manager] An error occurred while fetching '{uri}': {e}")
+        logging.error(f"[Hanzo Manager] An error occurred while fetching '{uri}': {e}")
 
         return {}
 
@@ -232,7 +232,7 @@ def save_to_cache(uri, json_obj, silent=False):
         with open(cache_uri, "w", encoding='utf-8') as file:
             json.dump(json_obj, file, indent=4, sort_keys=True)
             if not silent:
-                logging.info(f"[ComfyUI-Manager] default cache updated: {uri}")
+                logging.info(f"[Hanzo Manager] default cache updated: {uri}")
 
 
 async def get_data_with_cache(uri, silent=False, cache_mode=True, dont_wait=False, dont_cache=False):
@@ -241,12 +241,12 @@ async def get_data_with_cache(uri, silent=False, cache_mode=True, dont_wait=Fals
     if cache_mode and dont_wait:
         # NOTE: return the cache if possible, even if it is expired, so do not cache
         if not os.path.exists(cache_uri):
-            logging.error(f"[ComfyUI-Manager] The network connection is unstable, so it is operating in fallback mode: {uri}")
+            logging.error(f"[Hanzo Manager] The network connection is unstable, so it is operating in fallback mode: {uri}")
 
             return {}
         else:
             if not is_file_created_within_one_day(cache_uri):
-                logging.error(f"[ComfyUI-Manager] The network connection is unstable, so it is operating in outdated cache mode: {uri}")
+                logging.error(f"[Hanzo Manager] The network connection is unstable, so it is operating in outdated cache mode: {uri}")
 
             return await get_data(cache_uri, silent=silent)
 
@@ -259,7 +259,7 @@ async def get_data_with_cache(uri, silent=False, cache_mode=True, dont_wait=Fals
                 with open(cache_uri, "w", encoding='utf-8') as file:
                     json.dump(json_obj, file, indent=4, sort_keys=True)
                     if not silent:
-                        logging.info(f"[ComfyUI-Manager] default cache updated: {uri}")
+                        logging.info(f"[Hanzo Manager] default cache updated: {uri}")
 
     return json_obj
 
@@ -302,7 +302,7 @@ def get_installed_packages(renew=False):
                     normalized_name = y[0].lower().replace('-', '_')
                     pip_map[normalized_name] = y[1]
         except subprocess.CalledProcessError:
-            logging.error("[ComfyUI-Manager] Failed to retrieve the information of installed pip packages.")
+            logging.error("[Hanzo Manager] Failed to retrieve the information of installed pip packages.")
             return {}
 
     return pip_map
@@ -390,20 +390,20 @@ def torch_rollback(prev):
     if torch_torchvision_torchaudio_ver is None:
         cmd = make_pip_cmd(['install', '--pre', 'torch', 'torchvision', 'torchaudio',
                             '--index-url', f"https://download.pytorch.org/whl/nightly/{platform}"])
-        logging.info("[ComfyUI-Manager] restore PyTorch to nightly version")
+        logging.info("[Hanzo Manager] restore PyTorch to nightly version")
     else:
         torchvision_ver, torchaudio_ver = torch_torchvision_torchaudio_ver
         cmd = make_pip_cmd(['install', f'torch=={torch_ver}', f'torchvision=={torchvision_ver}', f"torchaudio=={torchaudio_ver}",
                             '--index-url', f"https://download.pytorch.org/whl/{platform}"])
-        logging.info(f"[ComfyUI-Manager] restore PyTorch to {torch_ver}+{platform}")
+        logging.info(f"[Hanzo Manager] restore PyTorch to {torch_ver}+{platform}")
 
     subprocess.check_output(cmd, universal_newlines=True)
 
 
 class PIPFixer:
-    def __init__(self, prev_pip_versions, comfyui_path, manager_files_path):
+    def __init__(self, prev_pip_versions, hanzo_studio_path, manager_files_path):
         self.prev_pip_versions = { **prev_pip_versions }
-        self.comfyui_path = comfyui_path
+        self.hanzo_studio_path = hanzo_studio_path
         self.manager_files_path = manager_files_path
 
     def fix_broken(self):
@@ -415,21 +415,21 @@ class PIPFixer:
                 cmd = make_pip_cmd(['uninstall', 'comfy'])
                 subprocess.check_output(cmd, universal_newlines=True)
 
-                logging.warning("[ComfyUI-Manager] 'comfy' python package is uninstalled.\nWARN: The 'comfy' package is completely unrelated to ComfyUI and should never be installed as it causes conflicts with ComfyUI.")
+                logging.warning("[Hanzo Manager] 'comfy' python package is uninstalled.\nWARN: The 'comfy' package is completely unrelated to Hanzo Studio and should never be installed as it causes conflicts with Hanzo Studio.")
         except Exception as e:
-            logging.error("[ComfyUI-Manager] Failed to uninstall `comfy` python package")
+            logging.error("[Hanzo Manager] Failed to uninstall `comfy` python package")
             logging.error(e)
 
         # fix torch - reinstall torch packages if version is changed
         try:
             if 'torch' not in self.prev_pip_versions or 'torchvision' not in self.prev_pip_versions or 'torchaudio' not in self.prev_pip_versions:
-                logging.error("[ComfyUI-Manager] PyTorch is not installed")
+                logging.error("[Hanzo Manager] PyTorch is not installed")
             elif self.prev_pip_versions['torch'] != new_pip_versions['torch'] \
                 or self.prev_pip_versions['torchvision'] != new_pip_versions['torchvision'] \
                 or self.prev_pip_versions['torchaudio'] != new_pip_versions['torchaudio']:
                     torch_rollback(self.prev_pip_versions['torch'])
         except Exception as e:
-            logging.error("[ComfyUI-Manager] Failed to restore PyTorch")
+            logging.error("[Hanzo Manager] Failed to restore PyTorch")
             logging.error(e)
 
         # fix opencv
@@ -461,33 +461,33 @@ class PIPFixer:
                         cmd = make_pip_cmd(['install', f"{x}=={versions[0].version_string}"])
                         subprocess.check_output(cmd, universal_newlines=True)
 
-                    logging.info(f"[ComfyUI-Manager] 'opencv' dependencies were fixed: {targets}")
+                    logging.info(f"[Hanzo Manager] 'opencv' dependencies were fixed: {targets}")
         except Exception as e:
-            logging.error("[ComfyUI-Manager] Failed to restore opencv")
+            logging.error("[Hanzo Manager] Failed to restore opencv")
             logging.error(e)
 
         # fix missing frontend
         try:
-            # NOTE: package name in requirements is 'comfyui-frontend-package'
-            #       but, package name from `pip freeze` is 'comfyui_frontend_package'
-            #       but, package name from `uv pip freeze` is 'comfyui-frontend-package'
+            # NOTE: package name in requirements is 'hanzo-studio-frontend-package'
+            #       but, package name from `pip freeze` is 'hanzo_studio_frontend_package'
+            #       but, package name from `uv pip freeze` is 'hanzo-studio-frontend-package'
             #
-            #       get_installed_packages returns normalized name (i.e. comfyui_frontend_package)
-            if 'comfyui_frontend_package' not in new_pip_versions:
-                requirements_path = os.path.join(self.comfyui_path, 'requirements.txt')
+            #       get_installed_packages returns normalized name (i.e. hanzo_studio_frontend_package)
+            if 'hanzo_studio_frontend_package' not in new_pip_versions:
+                requirements_path = os.path.join(self.hanzo_studio_path, 'requirements.txt')
 
                 with open(requirements_path, 'r') as file:
                     lines = file.readlines()
                 
-                front_line = next((line.strip() for line in lines if line.startswith('comfyui-frontend-package')), None)
+                front_line = next((line.strip() for line in lines if line.startswith('hanzo-studio-frontend-package')), None)
                 if front_line is None:
-                    logging.info("[ComfyUI-Manager] Skipped fixing the 'comfyui-frontend-package' dependency because the ComfyUI is outdated.")
+                    logging.info("[Hanzo Manager] Skipped fixing the 'hanzo-studio-frontend-package' dependency because the Hanzo Studio is outdated.")
                 else:
                     cmd = make_pip_cmd(['install', front_line])
                     subprocess.check_output(cmd , universal_newlines=True)
-                    logging.info("[ComfyUI-Manager] 'comfyui-frontend-package' dependency were fixed")
+                    logging.info("[Hanzo Manager] 'hanzo-studio-frontend-package' dependency were fixed")
         except Exception as e:
-            logging.error("[ComfyUI-Manager] Failed to restore comfyui-frontend-package")
+            logging.error("[Hanzo Manager] Failed to restore hanzo-studio-frontend-package")
             logging.error(e)
 
         # restore based on custom list
@@ -532,11 +532,11 @@ class PIPFixer:
                             fixed_list.append(parsed['package'])
                     except Exception as e:
                         traceback.print_exc()
-                        logging.error(f"[ComfyUI-Manager] Failed to restore '{x}'")
+                        logging.error(f"[Hanzo Manager] Failed to restore '{x}'")
                         logging.error(e)
 
                 if len(fixed_list) > 0:
-                    logging.info(f"[ComfyUI-Manager] dependencies in pip_auto_fix.json were fixed: {fixed_list}")
+                    logging.info(f"[Hanzo Manager] dependencies in pip_auto_fix.json were fixed: {fixed_list}")
 
 def sanitize(data):
     return data.replace("<", "&lt;").replace(">", "&gt;")
@@ -563,7 +563,7 @@ def robust_readlines(fullpath):
             with open(fullpath, "r", encoding=encoding) as f:
                 return f.readlines()
 
-        print(f"[ComfyUI-Manager] Failed to recognize encoding for: {fullpath}")
+        print(f"[Hanzo Manager] Failed to recognize encoding for: {fullpath}")
         return []
 
 

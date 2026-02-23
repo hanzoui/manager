@@ -1,42 +1,42 @@
-# ComfyUI Manager
+# Hanzo Manager
 
-**ComfyUI-Manager** is an extension designed to enhance the usability of [ComfyUI](https://github.com/comfyanonymous/ComfyUI). It offers management functions to **install, remove, disable, and enable** various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI.
+**Hanzo Manager** is an extension designed to enhance the usability of [Hanzo Studio](https://github.com/hanzoai/studio). It offers management functions to **install, remove, disable, and enable** various custom nodes of Hanzo Studio. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within Hanzo Studio.
 
-![menu](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/refs/heads/Main/ComfyUI-Manager/images/dialog.jpg)
+![menu](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/refs/heads/Main/Hanzo Manager/images/dialog.jpg)
 
 ## NOTICE
 * V3.38: **Security patch** - Manager data migrated to protected path. See [Migration Guide](docs/en/v3.38-userdata-security-migration.md).
 * V3.16: Support for `uv` has been added. Set `use_uv` in `config.ini`.
 * V3.10: `double-click feature` is removed
-  * This feature has been moved to https://github.com/ltdrdata/comfyui-connection-helper
-* V3.3.2: Overhauled. Officially supports [https://registry.comfy.org/](https://registry.comfy.org/).
-* You can see whole nodes info on [ComfyUI Nodes Info](https://ltdrdata.github.io/) page.
+  * This feature has been moved to https://github.com/ltdrdata/hanzo-studio-connection-helper
+* V3.3.2: Overhauled. Officially supports [https://registry.hanzo.ai/](https://registry.hanzo.ai/).
+* You can see whole nodes info on [Hanzo Studio Nodes Info](https://ltdrdata.github.io/) page.
 
 ## Installation
 
-### Installation[method1] (General installation method: ComfyUI-Manager only)
+### Installation[method1] (General installation method: Hanzo Manager only)
 
-To install ComfyUI-Manager in addition to an existing installation of ComfyUI, you can follow the following steps:
+To install Hanzo Manager in addition to an existing installation of Hanzo Studio, you can follow the following steps:
 
-1. Go to `ComfyUI/custom_nodes` dir in terminal (cmd)
-2. `git clone https://github.com/ltdrdata/ComfyUI-Manager comfyui-manager`
-3. Restart ComfyUI
+1. Go to `Hanzo Studio/custom_nodes` dir in terminal (cmd)
+2. `git clone https://github.com/ltdrdata/Hanzo Manager hanzo-studio-manager`
+3. Restart Hanzo Studio
 
 
-### Installation[method2] (Installation for portable ComfyUI version: ComfyUI-Manager only)
+### Installation[method2] (Installation for portable Hanzo Studio version: Hanzo Manager only)
 1. install git 
 - https://git-scm.com/download/win
 - standalone version  
 - select option: use windows default console window
-2. Download [scripts/install-manager-for-portable-version.bat](https://github.com/ltdrdata/ComfyUI-Manager/raw/main/scripts/install-manager-for-portable-version.bat) into installed `"ComfyUI_windows_portable"` directory
+2. Download [scripts/install-manager-for-portable-version.bat](https://github.com/ltdrdata/Hanzo Manager/raw/main/scripts/install-manager-for-portable-version.bat) into installed `"Hanzo Studio_windows_portable"` directory
 - Don't click. Right-click the link and choose 'Save As...'
 3. Double-click `install-manager-for-portable-version.bat` batch file
 
-![portable-install](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/Main/ComfyUI-Manager/images/portable-install.jpg)
+![portable-install](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/portable-install.jpg)
 
 
-### Installation[method3] (Installation through comfy-cli: install ComfyUI and ComfyUI-Manager at once.)  
-> RECOMMENDED: comfy-cli provides various features to manage ComfyUI from the CLI.
+### Installation[method3] (Installation through hanzo-cli: install Hanzo Studio and Hanzo Manager at once.)  
+> RECOMMENDED: hanzo-cli provides various features to manage Hanzo Studio from the CLI.
 
 * **prerequisite: python 3, git**
 
@@ -44,7 +44,7 @@ Windows:
 ```commandline
 python -m venv venv
 venv\Scripts\activate
-pip install comfy-cli
+pip install hanzo-cli
 comfy install
 ```
 
@@ -52,39 +52,39 @@ Linux/macOS:
 ```commandline
 python -m venv venv
 . venv/bin/activate
-pip install comfy-cli
+pip install hanzo-cli
 comfy install
 ```
-* See also: https://github.com/Comfy-Org/comfy-cli
+* See also: https://github.com/hanzoui/cli
 
 
-### Installation[method4] (Installation for Linux+venv: ComfyUI + ComfyUI-Manager)
+### Installation[method4] (Installation for Linux+venv: Hanzo Studio + Hanzo Manager)
 
-To install ComfyUI with ComfyUI-Manager on Linux using a venv environment, you can follow these steps:
+To install Hanzo Studio with Hanzo Manager on Linux using a venv environment, you can follow these steps:
 * **prerequisite: python-is-python3, python3-venv, git**
 
-1. Download [scripts/install-comfyui-venv-linux.sh](https://github.com/ltdrdata/ComfyUI-Manager/raw/main/scripts/install-comfyui-venv-linux.sh) into empty install directory
+1. Download [scripts/install-hanzo-studio-venv-linux.sh](https://github.com/ltdrdata/Hanzo Manager/raw/main/scripts/install-hanzo-studio-venv-linux.sh) into empty install directory
 - Don't click. Right-click the link and choose 'Save As...'
-- ComfyUI will be installed in the subdirectory of the specified directory, and the directory will contain the generated executable script.
-2. `chmod +x install-comfyui-venv-linux.sh`
-3. `./install-comfyui-venv-linux.sh`
+- Hanzo Studio will be installed in the subdirectory of the specified directory, and the directory will contain the generated executable script.
+2. `chmod +x install-hanzo-studio-venv-linux.sh`
+3. `./install-hanzo-studio-venv-linux.sh`
 
 ### Installation Precautions
-* **DO**: `ComfyUI-Manager` files must be accurately located in the path `ComfyUI/custom_nodes/comfyui-manager`
+* **DO**: `Hanzo Manager` files must be accurately located in the path `Hanzo Studio/custom_nodes/hanzo-studio-manager`
   * Installing in a compressed file format is not recommended.
-* **DON'T**: Decompress directly into the `ComfyUI/custom_nodes` location, resulting in the Manager contents like `__init__.py` being placed directly in that directory.
-  * You have to remove all ComfyUI-Manager files from `ComfyUI/custom_nodes`
-* **DON'T**: In a form where decompression occurs in a path such as `ComfyUI/custom_nodes/ComfyUI-Manager/ComfyUI-Manager`.
-* **DON'T**: In a form where decompression occurs in a path such as `ComfyUI/custom_nodes/ComfyUI-Manager-main`.
-  * In such cases, `ComfyUI-Manager` may operate, but it won't be recognized within `ComfyUI-Manager`, and updates cannot be performed. It also poses the risk of duplicate installations. Remove it and install properly via `git clone` method.
+* **DON'T**: Decompress directly into the `Hanzo Studio/custom_nodes` location, resulting in the Manager contents like `__init__.py` being placed directly in that directory.
+  * You have to remove all Hanzo Manager files from `Hanzo Studio/custom_nodes`
+* **DON'T**: In a form where decompression occurs in a path such as `Hanzo Studio/custom_nodes/Hanzo Manager/Hanzo Manager`.
+* **DON'T**: In a form where decompression occurs in a path such as `Hanzo Studio/custom_nodes/Hanzo Manager-main`.
+  * In such cases, `Hanzo Manager` may operate, but it won't be recognized within `Hanzo Manager`, and updates cannot be performed. It also poses the risk of duplicate installations. Remove it and install properly via `git clone` method.
 
 
-You can execute ComfyUI by running either `./run_gpu.sh` or `./run_cpu.sh` depending on your system configuration.
+You can execute Hanzo Studio by running either `./run_gpu.sh` or `./run_cpu.sh` depending on your system configuration.
 
 ## Colab Notebook
-This repository provides Colab notebooks that allow you to install and use ComfyUI, including ComfyUI-Manager. To use ComfyUI, [click on this link](https://colab.research.google.com/github/ltdrdata/ComfyUI-Manager/blob/main/notebooks/comfyui_colab_with_manager.ipynb).
-* Support for installing ComfyUI
-* Support for basic installation of ComfyUI-Manager
+This repository provides Colab notebooks that allow you to install and use Hanzo Studio, including Hanzo Manager. To use Hanzo Studio, [click on this link](https://colab.research.google.com/github/ltdrdata/Hanzo Manager/blob/main/notebooks/hanzo_studio_colab_with_manager.ipynb).
+* Support for installing Hanzo Studio
+* Support for basic installation of Hanzo Manager
 * Support for automatically installing dependencies of custom nodes upon restarting Colab notebooks.
 
 
@@ -92,19 +92,19 @@ This repository provides Colab notebooks that allow you to install and use Comfy
 
 1. Click "Manager" button on main menu
 
-    ![mainmenu](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/Main/ComfyUI-Manager/images/topbar.jpg)
+    ![mainmenu](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/topbar.jpg)
 
 
 2. If you click on 'Install Custom Nodes' or 'Install Models', an installer dialog will open.
 
-    ![menu](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/refs/heads/Main/ComfyUI-Manager/images/dialog.jpg)
+    ![menu](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/refs/heads/Main/Hanzo Manager/images/dialog.jpg)
 
     * There are three DB modes: `DB: Channel (1day cache)`, `DB: Local`, and `DB: Channel (remote)`. 
       * `Channel (1day cache)` utilizes Channel cache information with a validity period of one day to quickly display the list.
         * This information will be updated when there is no cache, when the cache expires, or when external information is retrieved through the Channel (remote).
-        * Whenever you start ComfyUI anew, this mode is always set as the **default** mode.
-      * `Local` uses information stored locally in ComfyUI-Manager.
-        * This information will be updated only when you update ComfyUI-Manager.
+        * Whenever you start Hanzo Studio anew, this mode is always set as the **default** mode.
+      * `Local` uses information stored locally in Hanzo Manager.
+        * This information will be updated only when you update Hanzo Manager.
         * For custom node developers, they should use this mode when registering their nodes in `custom-node-list.json` and testing them.
       * `Channel (remote)` retrieves information from the remote channel, always displaying the latest list.
       * In cases where retrieval is not possible due to network errors, it will forcibly use local information.
@@ -113,9 +113,9 @@ This repository provides Colab notebooks that allow you to install and use Comfy
 
 3. Click 'Install' or 'Try Install' button.
 
-    ![node-install-dialog](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/Main/ComfyUI-Manager/images/custom-nodes.jpg)
+    ![node-install-dialog](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/custom-nodes.jpg)
 
-    ![model-install-dialog](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/Main/ComfyUI-Manager/images/models.jpg)
+    ![model-install-dialog](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/models.jpg)
 
     * Installed: This item is already installed.
     * Install: Clicking this button will install the item.
@@ -126,14 +126,14 @@ This repository provides Colab notebooks that allow you to install and use Comfy
     * Conflicted Nodes with a yellow background show a list of nodes conflicting with other extensions in the respective extension. This issue needs to be addressed by the developer, and users should be aware that due to these conflicts, some nodes may not function correctly and may need to be installed accordingly.
 
 4. Share
-  ![menu](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/Main/ComfyUI-Manager/images/topbar.jpg) ![share](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/Main/ComfyUI-Manager/images/share.jpg) 
+  ![menu](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/topbar.jpg) ![share](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/share.jpg) 
 
   * You can share the workflow by clicking the Share button at the bottom of the main menu or selecting Share Output from the Context Menu of the Image node.
   * Currently, it supports sharing via [https://comfyworkflows.com/](https://comfyworkflows.com/),
     [https://openart.ai](https://openart.ai/workflows/dev), [https://youml.com](https://youml.com) 
     as well as through the Matrix channel.
 
-  ![menu](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/Main/ComfyUI-Manager/images/share-setting.jpg)
+  ![menu](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/share-setting.jpg)
   
   * Through the Share settings in the Manager menu, you can configure the behavior of the Share button in the Main menu or Share Output button on Context Menu.
     * `None`: hide from Main menu
@@ -144,13 +144,13 @@ This repository provides Colab notebooks that allow you to install and use Comfy
 Starting from V3.38, Manager uses a protected system path for enhanced security.
 
 * <USER_DIRECTORY>
-  * If executed without any options, the path defaults to ComfyUI/user.
+  * If executed without any options, the path defaults to Hanzo Studio/user.
   * It can be set using --user-directory <USER_DIRECTORY>.
 
-| ComfyUI Version | Manager Path |
+| Hanzo Studio Version | Manager Path |
 |-----------------|--------------|
 | v0.3.76+ (with System User API) | `<USER_DIRECTORY>/__manager/` |
-| Older versions | `<USER_DIRECTORY>/default/ComfyUI-Manager/` |
+| Older versions | `<USER_DIRECTORY>/default/Hanzo Manager/` |
 
 * Basic config files: `config.ini`
 * Configurable channel lists: `channels.list`
@@ -168,30 +168,30 @@ Starting from V3.38, Manager uses a protected system path for enhanced security.
 The following settings are applied based on the section marked as `is_default`.
 
 * `custom_nodes`: Path for installing custom nodes
-    * Importing does not need to adhere to the path set as `is_default`, but this is the path where custom nodes are installed by the `ComfyUI Nodes Manager`.
+    * Importing does not need to adhere to the path set as `is_default`, but this is the path where custom nodes are installed by the `Hanzo Studio Nodes Manager`.
 * `download_model_base`: Path for downloading models
 
 
 ## Snapshot-Manager
 * When you press `Save snapshot` or use `Update All` on `Manager Menu`, the current installation status snapshot is saved.
-  * Snapshot file dir: `<USER_DIRECTORY>/default/ComfyUI-Manager/snapshots`
+  * Snapshot file dir: `<USER_DIRECTORY>/default/Hanzo Manager/snapshots`
   * You can rename snapshot file.
 * Press the "Restore" button to revert to the installation status of the respective snapshot.
   * However, for custom nodes not managed by Git, snapshot support is incomplete.
-* When you press `Restore`, it will take effect on the next ComfyUI startup.
-  * The selected snapshot file is saved in `<USER_DIRECTORY>/default/ComfyUI-Manager/startup-scripts/restore-snapshot.json`, and upon restarting ComfyUI, the snapshot is applied and then deleted.
+* When you press `Restore`, it will take effect on the next Hanzo Studio startup.
+  * The selected snapshot file is saved in `<USER_DIRECTORY>/default/Hanzo Manager/startup-scripts/restore-snapshot.json`, and upon restarting Hanzo Studio, the snapshot is applied and then deleted.
 
-![model-install-dialog](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/Main/ComfyUI-Manager/images/snapshot.jpg)
+![model-install-dialog](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/snapshot.jpg)
 
 
 ## cm-cli: command line tools for power users
-* A tool is provided that allows you to use the features of ComfyUI-Manager without running ComfyUI.
+* A tool is provided that allows you to use the features of Hanzo Manager without running Hanzo Studio.
 * For more details, please refer to the [cm-cli documentation](docs/en/cm-cli.md).
 
 
-## How to register your custom node into ComfyUI-Manager
+## How to register your custom node into Hanzo Manager
 
-* Add an entry to `custom-node-list.json` located in the root of ComfyUI-Manager and submit a Pull Request.
+* Add an entry to `custom-node-list.json` located in the root of Hanzo Manager and submit a Pull Request.
 * NOTE: Before submitting the PR after making changes, please check `Use local DB` and ensure that the extension list loads without any issues in the `Install custom nodes` dialog. Occasionally, missing or extra commas can lead to JSON syntax errors.
 * The remaining JSON will be updated through scripts in the future, so you don't need to worry about it.
 
@@ -202,8 +202,8 @@ The following settings are applied based on the section marked as `is_default`.
     - You should no longer assume that the GitHub repository name will match the subdirectory name under `custom_nodes`. The name of the subdirectory under `custom_nodes` will now use the normalized name from the `name` field in `pyproject.toml`.
     - Avoid relying on directory names for imports whenever possible.
 
-* https://docs.comfy.org/registry/overview
-* https://github.com/Comfy-Org/rfcs
+* https://docs.hanzo.ai/registry/overview
+* https://github.com/hanzoui/rfcs
 
 **Special purpose files** (optional)
   * `pyproject.toml` - Spec file for comfyregistry.
@@ -219,7 +219,7 @@ The following settings are applied based on the section marked as `is_default`.
   * When pasting a component from the clipboard, it supports text in the following JSON format. (text/plain)
     ```
     {
-      "kind": "ComfyUI Components",
+      "kind": "Hanzo Studio Components",
       "timestamp": <current timestamp>,
       "components": 
         {
@@ -228,12 +228,12 @@ The following settings are applied based on the section marked as `is_default`.
     }
     ```
   * `<current timestamp>` Ensure that the timestamp is always unique.
-    * "components" should have the same structure as the content of the file stored in `<USER_DIRECTORY>/default/ComfyUI-Manager/components`.
+    * "components" should have the same structure as the content of the file stored in `<USER_DIRECTORY>/default/Hanzo Manager/components`.
       * `<component name>`: The name should be in the format `<prefix>::<node name>`.
         * `<component node data>`: In the node data of the group node.
           * `<version>`: Only two formats are allowed: `major.minor.patch` or `major.minor`. (e.g. `1.0`, `2.2.1`)
           * `<datetime>`: Saved time
-          * `<packname>`: If the packname is not empty, the category becomes packname/workflow, and it is saved in the <packname>.pack file in `<USER_DIRECTORY>/default/ComfyUI-Manager/components`.
+          * `<packname>`: If the packname is not empty, the category becomes packname/workflow, and it is saved in the <packname>.pack file in `<USER_DIRECTORY>/default/Hanzo Manager/components`.
           * `<category>`: If there is neither a category nor a packname, it is saved in the components category.
           ```
               "version":"1.0",
@@ -250,17 +250,17 @@ The following settings are applied based on the section marked as `is_default`.
 
 ## Support for installing missing nodes
 
-![missing-menu](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/Main/ComfyUI-Manager/images/missing-menu.jpg)
+![missing-menu](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/missing-menu.jpg)
 
 * When you click on the ```Install Missing Custom Nodes``` button in the menu, it displays a list of extension nodes that contain nodes not currently present in the workflow.
 
-![missing-list](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/Main/ComfyUI-Manager/images/missing-list.jpg)
+![missing-list](https://raw.githubusercontent.com/ltdrdata/Hanzo Studio-extension-tutorials/Main/Hanzo Manager/images/missing-list.jpg)
 
 
 # Config
-* You can modify the `config.ini` file to apply the settings for ComfyUI-Manager.
-    * The path to the `config.ini` used by ComfyUI-Manager is displayed in the startup log messages.
-    * See also: [https://github.com/ltdrdata/ComfyUI-Manager#paths]
+* You can modify the `config.ini` file to apply the settings for Hanzo Manager.
+    * The path to the `config.ini` used by Hanzo Manager is displayed in the startup log messages.
+    * See also: [https://github.com/ltdrdata/Hanzo Manager#paths]
 * Configuration options:
     ```
     [default]
@@ -268,7 +268,7 @@ The following settings are applied based on the section marked as `is_default`.
     use_uv = <Use uv instead of pip for dependency installation.>
     default_cache_as_channel_url = <Determines whether to retrieve the DB designated as channel_url at startup>
     bypass_ssl = <Set to True if SSL errors occur to disable SSL.>
-    file_logging = <Configure whether to create a log file used by ComfyUI-Manager.>
+    file_logging = <Configure whether to create a log file used by Hanzo Manager.>
     windows_selector_event_loop_policy = <If an event loop error occurs on Windows, set this to True.>
     model_download_by_agent = <When downloading models, use an agent instead of torchvision_download_url.>
     downgrade_blacklist = <Set a list of packages to prevent downgrades. List them separated by commas.>
@@ -290,7 +290,7 @@ The following settings are applied based on the section marked as `is_default`.
 * Fix node (recreate): When right-clicking on a node and selecting `Fix node (recreate)`, you can recreate the node. The widget's values are reset, while the connections maintain those with the same names.
   * It is used to correct errors in nodes of old workflows created before, which are incompatible with the version changes of custom nodes.
 
-* Double-Click Node Title: You can set the double-click behavior of nodes in the ComfyUI-Manager menu.
+* Double-Click Node Title: You can set the double-click behavior of nodes in the Hanzo Manager menu.
   * `Copy All Connections`, `Copy Input Connections`: Double-clicking a node copies the connections of the nearest node.
     * This action targets the nearest node within a straight-line distance of 1000 pixels from the center of the node.
     * In the case of `Copy All Connections`, it duplicates existing outputs, but since it does not allow duplicate connections, the existing output connections of the original node are disconnected.
@@ -316,7 +316,7 @@ The following settings are applied based on the section marked as `is_default`.
   * List the package names one per line in the `pip_blacklist.list` file.
 
 * Automatically Restoring pip Installation
- * If you list pip spec requirements in `pip_auto_fix.list`, similar to `requirements.txt`, it will automatically restore the specified versions when starting ComfyUI or when versions get mismatched during various custom node installations.
+ * If you list pip spec requirements in `pip_auto_fix.list`, similar to `requirements.txt`, it will automatically restore the specified versions when starting Hanzo Studio or when versions get mismatched during various custom node installations.
  * `--index-url` can be used.
 
 * Use `aria2` as downloader
@@ -327,13 +327,13 @@ The following settings are applied based on the section marked as `is_default`.
 
 The following features can be configured using environment variables:
 
-* **COMFYUI_PATH**: The installation path of ComfyUI
+* **COMFYUI_PATH**: The installation path of Hanzo Studio
 * **GITHUB_ENDPOINT**: Reverse proxy configuration for environments with limited access to GitHub
 * **HF_ENDPOINT**: Reverse proxy configuration for environments with limited access to Hugging Face
 
 
 ### Example 1:
-Redirecting `https://github.com/ltdrdata/ComfyUI-Impact-Pack` to `https://mirror.ghproxy.com/https://github.com/ltdrdata/ComfyUI-Impact-Pack`
+Redirecting `https://github.com/ltdrdata/Hanzo Studio-Impact-Pack` to `https://mirror.ghproxy.com/https://github.com/ltdrdata/Hanzo Studio-Impact-Pack`
 
 ```
 GITHUB_ENDPOINT=https://mirror.ghproxy.com/https://github.com
@@ -362,9 +362,9 @@ When you run the `scan.sh` script:
 
 
 ## Troubleshooting
-* If your `git.exe` is installed in a specific location other than system git, please install ComfyUI-Manager and run ComfyUI. Then, specify the path including the file name in `git_exe = ` in the `<USER_DIRECTORY>/default/ComfyUI-Manager/config.ini` file that is generated.
-* If updating ComfyUI-Manager itself fails, please go to the **ComfyUI-Manager** directory and execute the command `git update-ref refs/remotes/origin/main a361cc1 && git fetch --all && git pull`.
-* If you encounter the error message `Overlapped Object has pending operation at deallocation on ComfyUI Manager load` under Windows
+* If your `git.exe` is installed in a specific location other than system git, please install Hanzo Manager and run Hanzo Studio. Then, specify the path including the file name in `git_exe = ` in the `<USER_DIRECTORY>/default/Hanzo Manager/config.ini` file that is generated.
+* If updating Hanzo Manager itself fails, please go to the **Hanzo Manager** directory and execute the command `git update-ref refs/remotes/origin/main a361cc1 && git fetch --all && git pull`.
+* If you encounter the error message `Overlapped Object has pending operation at deallocation on Hanzo Manager load` under Windows
   * Edit `config.ini` file: add `windows_selector_event_loop_policy = True`
 * If the `SSL: CERTIFICATE_VERIFY_FAILED` error occurs.
   * Edit `config.ini` file: add `bypass_ssl = True`
@@ -395,7 +395,7 @@ When you run the `scan.sh` script:
     * Restart
   
   * `low` level risky features
-    * Update ComfyUI
+    * Update Hanzo Studio
 
 
 # Disclaimer
@@ -404,6 +404,6 @@ When you run the `scan.sh` script:
 
 
 ## Credit
-ComfyUI/[ComfyUI](https://github.com/comfyanonymous/ComfyUI) - A powerful and modular stable diffusion GUI.
+Hanzo Studio/[Hanzo Studio](https://github.com/hanzoai/studio) - A powerful and modular stable diffusion GUI.
 
-**And, for all ComfyUI custom node developers**
+**And, for all Hanzo Studio custom node developers**

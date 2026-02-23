@@ -167,7 +167,7 @@ async def api_set_youml_settings(request):
 @PromptServer.instance.routes.get("/manager/get_comfyworkflows_auth")
 async def api_get_comfyworkflows_auth(request):
     # Check if the user has provided Matrix credentials in a file called 'matrix_accesstoken'
-    # in the same directory as the ComfyUI base folder
+    # in the same directory as the Hanzo Studio base folder
     # print("Getting stored Comfyworkflows.com auth...")
     comfyworkflows_auth = get_comfyworkflows_auth()
     if not comfyworkflows_auth:
@@ -307,7 +307,7 @@ async def share_art(request):
             form = aiohttp.FormData()
             if comfyworkflows_sharekey:
                 form.add_field("shareKey", comfyworkflows_sharekey)
-            form.add_field("source", "comfyui_manager")
+            form.add_field("source", "hanzo_studio_manager")
             form.add_field("assetFileKey", assetFileKey)
             form.add_field("assetFileType", assetFileType)
             form.add_field("workflowJsonFileKey", workflowJsonFileKey)
@@ -330,7 +330,7 @@ async def share_art(request):
 
     # check if the user has provided Matrix credentials
     if "matrix" in share_destinations:
-        comfyui_share_room_id = '!LGYSoacpJPhIfBqVfb:matrix.org'
+        hanzo_studio_share_room_id = '!LGYSoacpJPhIfBqVfb:matrix.org'
         filename = os.path.basename(asset_filepath)
         content_type = assetFileType
 
@@ -381,14 +381,14 @@ async def share_art(request):
             if credits:
                 text_content += f"\ncredits: {credits}\n"
             await client.room_send(
-                room_id=comfyui_share_room_id,
+                room_id=hanzo_studio_share_room_id,
                 message_type="m.room.message",
                 content={"msgtype": "m.text", "body": text_content}
             )
 
             # Send image
             await client.room_send(
-                room_id=comfyui_share_room_id,
+                room_id=hanzo_studio_share_room_id,
                 message_type="m.room.message",
                 content={
                     "msgtype": "m.image",
@@ -403,7 +403,7 @@ async def share_art(request):
 
             # Send workflow JSON file
             await client.room_send(
-                room_id=comfyui_share_room_id,
+                room_id=hanzo_studio_share_room_id,
                 message_type="m.room.message",
                 content={
                     "msgtype": "m.file",

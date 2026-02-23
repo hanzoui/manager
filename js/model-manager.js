@@ -9,7 +9,7 @@ import { api } from "../../scripts/api.js";
 
 // https://cenfun.github.io/turbogrid/api.html
 import TG from "./turbogrid.esm.js";
-import { buildGuiFrameCustomHeader,  createSettingsCombo } from "./comfyui-gui-builder.js";
+import { buildGuiFrameCustomHeader,  createSettingsCombo } from "./hanzo-studio-gui-builder.js";
 
 loadCss("./model-manager.css");
 
@@ -434,7 +434,7 @@ export class ModelManager {
 
 		stats = await stats.json();
 		if(stats.is_processing) {
-			customAlert(`[ComfyUI-Manager] There are already tasks in progress. Please try again after it is completed. (${stats.done_count}/${stats.total_count})`);
+			customAlert(`[Hanzo Manager] There are already tasks in progress. Please try again after it is completed. (${stats.done_count}/${stats.total_count})`);
 			return;
 		}
 
@@ -474,8 +474,8 @@ export class ModelManager {
 				if(res.status == 403) {
 					try {
 						const data = await res.json();
-						if(data.error === 'comfyui_outdated') {
-							errorMsg += `ComfyUI version is outdated. Please update ComfyUI to use Manager normally.\n`;
+						if(data.error === 'hanzo_studio_outdated') {
+							errorMsg += `Hanzo Studio version is outdated. Please update Hanzo Studio to use Manager normally.\n`;
 						} else {
 							errorMsg += `This action is not allowed with this security level configuration.\n`;
 						}
@@ -571,7 +571,7 @@ export class ModelManager {
 		self.showRefresh();
 		self.showMessage(`To apply the installed model, please click the 'Refresh' button.`, "red")
 
-		infoToast('Tasks done', `[ComfyUI-Manager] All model downloading tasks in the queue have been completed.\n${info.done_count}/${info.total_count}`);
+		infoToast('Tasks done', `[Hanzo Manager] All model downloading tasks in the queue have been completed.\n${info.done_count}/${info.total_count}`);
 		self.install_context = undefined;
 	}
 

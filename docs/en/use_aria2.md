@@ -28,8 +28,8 @@ services:
     volumes:
       - ./config:/config
       - ./downloads:/downloads
-      - ~/ComfyUI/models:/models
-      - ~/ComfyUI/custom_nodes:/custom_nodes
+      - ~/Hanzo Studio/models:/models
+      - ~/Hanzo Studio/custom_nodes:/custom_nodes
     ports:
       - 6800:6800
     restart: unless-stopped

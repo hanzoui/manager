@@ -863,7 +863,7 @@ export class CopusShareDialog extends ComfyDialog {
     }
     try {
       const res = await this.fetchApi(
-        "/client/common/opus/shareFromComfyUI",
+        "/client/common/opus/shareFromHanzo Studio",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

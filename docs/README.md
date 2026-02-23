@@ -1,6 +1,6 @@
-# ComfyUI-Manager: Documentation
+# Hanzo Manager: Documentation
 
-This directory contains documentation for the ComfyUI-Manager, providing guides and tutorials for users in multiple languages.
+This directory contains documentation for the Hanzo Manager, providing guides and tutorials for users in multiple languages.
 
 ## Directory Structure
 
@@ -13,11 +13,11 @@ The documentation is organized into language-specific directories:
 
 ### Command-Line Interface
 
-- **cm-cli.md**: Documentation for the ComfyUI-Manager Command Line Interface (CLI), which allows using manager functionality without the UI.
+- **cm-cli.md**: Documentation for the Hanzo Manager Command Line Interface (CLI), which allows using manager functionality without the UI.
 
 ### Advanced Features
 
-- **use_aria2.md**: Guide for using the aria2 download accelerator with ComfyUI-Manager for faster model downloads.
+- **use_aria2.md**: Guide for using the aria2 download accelerator with Hanzo Manager for faster model downloads.
 
 ## Documentation Standards
 
@@ -38,4 +38,4 @@ When contributing new documentation:
 4. Consider adding screenshots or diagrams for complex features
 5. Maintain consistent formatting with existing documentation
 
-This documentation directory will continue to grow to support the expanding feature set of ComfyUI-Manager.
+This documentation directory will continue to grow to support the expanding feature set of Hanzo Manager.

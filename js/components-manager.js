@@ -420,7 +420,7 @@ async function handlePaste(e) {
 			data = data.getData("text/plain");
 			try {
 				let json_data = JSON.parse(data);
-				if(json_data.kind == 'ComfyUI Components' && last_paste_timestamp != json_data.timestamp) {
+				if(json_data.kind == 'Hanzo Studio Components' && last_paste_timestamp != json_data.timestamp) {
 					last_paste_timestamp = json_data.timestamp;
 					await handle_import_components(json_data.components);
 
@@ -539,7 +539,7 @@ export class ComponentBuilderDialog extends ComfyDialog {
 				$el("div.comfy-modal-content",
 					[
 						$el("tr.cm-title", {}, [
-								$el("font", {size:6, color:"white"}, [`ComfyUI-Manager: Component Builder`])]
+								$el("font", {size:6, color:"white"}, [`Hanzo Manager: Component Builder`])]
 							),
 						$el("br", {}, []),
 						$el("div.cm-menu-container",

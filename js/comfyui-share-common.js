@@ -1,9 +1,9 @@
 import { api } from "../../scripts/api.js";
 import { app } from "../../scripts/app.js";
 import { $el, ComfyDialog } from "../../scripts/ui.js";
-import { CopusShareDialog } from "./comfyui-share-copus.js";
-import { OpenArtShareDialog } from "./comfyui-share-openart.js";
-import { YouMLShareDialog } from "./comfyui-share-youml.js";
+import { CopusShareDialog } from "./hanzo-studio-share-copus.js";
+import { OpenArtShareDialog } from "./hanzo-studio-share-openart.js";
+import { YouMLShareDialog } from "./hanzo-studio-share-youml.js";
 import { customAlert } from "./common.js";
 
 export const SUPPORTED_OUTPUT_NODE_TYPES = [
@@ -285,7 +285,7 @@ export class ShareDialogChooser extends ComfyDialog {
 				key: "openart",
 				textContent: "OpenArt AI",
 				website: "https://openart.ai/workflows/",
-				description: "Share ComfyUI workflows and art on OpenArt.ai",
+				description: "Share Hanzo Studio workflows and art on OpenArt.ai",
 				onclick: () => {
 				  showOpenArtShareDialog();
 				  this.close();
@@ -304,8 +304,8 @@ export class ShareDialogChooser extends ComfyDialog {
 			{
 				key: "matrix",
 				textContent: "Matrix Server",
-				website: "https://app.element.io/#/room/%23comfyui_space%3Amatrix.org",
-				description: "Share your art on the official ComfyUI matrix server",
+				website: "https://app.element.io/#/room/%23hanzo_studio_space%3Amatrix.org",
+				description: "Share your art on the official Hanzo Studio matrix server",
 				onclick: async () => {
 				  showShareDialog('matrix').then((suc) => {
 				    suc && this.close();
@@ -316,7 +316,7 @@ export class ShareDialogChooser extends ComfyDialog {
 				key: "comfyworkflows",
 				textContent: "ComfyWorkflows",
 				website: "https://comfyworkflows.com",
-				description: "Share & browse thousands of ComfyUI workflows and art 🎨<br/><br/><a style='color:var(--input-text);' href='https://comfyworkflows.com' target='_blank'>ComfyWorkflows.com</a>",
+				description: "Share & browse thousands of Hanzo Studio workflows and art 🎨<br/><br/><a style='color:var(--input-text);' href='https://comfyworkflows.com' target='_blank'>ComfyWorkflows.com</a>",
 				onclick: () => {
 				  showShareDialog('comfyworkflows').then((suc) => {
 				    suc && this.close();
@@ -327,7 +327,7 @@ export class ShareDialogChooser extends ComfyDialog {
 				key: "esheep",
 				textContent: "eSheep",
 				website: "https://www.esheep.com",
-				description: "Share & download thousands of ComfyUI workflows on <a style='color:var(--input-text);' href='https://www.esheep.com' target='_blank'>esheep.com</a>",
+				description: "Share & download thousands of Hanzo Studio workflows on <a style='color:var(--input-text);' href='https://www.esheep.com' target='_blank'>esheep.com</a>",
 				onclick: () => {
 					shareToEsheep();
 				  	this.close();
@@ -337,7 +337,7 @@ export class ShareDialogChooser extends ComfyDialog {
 				key: "Copus",
 				textContent: "Copus",
 				website: "https://www.copus.io",
-				description: "🔴 Earn simple. Get paid from your ComfyUI workflows—no revenue sharing. Ever.",
+				description: "🔴 Earn simple. Get paid from your Hanzo Studio workflows—no revenue sharing. Ever.",
 				onclick: () => {
 					showCopusShareDialog();
 				  this.close();
@@ -486,7 +486,7 @@ export class ShareDialogChooser extends ComfyDialog {
 			),
 
 			$el("div.cm-menu-container", {
-				id: "comfyui-share-container"
+				id: "hanzo-studio-share-container"
 			}, [
 				$el("div.cm-menu-column", [
 					createShareButtonsWithDescriptions(),
@@ -494,7 +494,7 @@ export class ShareDialogChooser extends ComfyDialog {
 				]),
 			]),
 			$el("div.cm-menu-container", {
-				id: "comfyui-share-container"
+				id: "hanzo-studio-share-container"
 			}, [
 				$el("button", {
 					type: "button",
@@ -548,7 +548,7 @@ export class ShareDialog extends ComfyDialog {
 		this.is_nsfw_checkbox.checked = false;
 
 		this.matrix_destination_checkbox = $el("input", { type: 'checkbox', id: "matrix_destination" }, [])
-		const matrix_destination_checkbox_text = $el("label", {}, [" ComfyUI Matrix server"])
+		const matrix_destination_checkbox_text = $el("label", {}, [" Hanzo Studio Matrix server"])
 		this.matrix_destination_checkbox.style.color = "var(--fg-color)";
 		this.matrix_destination_checkbox.checked = this.share_option === 'matrix'; //true;
 
@@ -600,7 +600,7 @@ export class ShareDialog extends ComfyDialog {
 		}, []);
 
 		this.share_finalmessage_container = $el("div.cm-menu-container", {
-			id: "comfyui-share-finalmessage-container",
+			id: "hanzo-studio-share-finalmessage-container",
 			style: {
 				display: "none",
 			}
@@ -636,7 +636,7 @@ export class ShareDialog extends ComfyDialog {
 			])
 		]);
 		this.share_container = $el("div.cm-menu-container", {
-			id: "comfyui-share-container"
+			id: "hanzo-studio-share-container"
 		}, [
 			$el("div.cm-menu-column", [
 				$el("details", {
@@ -939,17 +939,17 @@ export class ShareDialog extends ComfyDialog {
 			if (response_json.comfyworkflows.url) {
 				this.final_message.innerHTML = "Your art has been shared: <a href='" + response_json.comfyworkflows.url + "' target='_blank'>" + response_json.comfyworkflows.url + "</a>";
 				if (response_json.matrix.success) {
-					this.final_message.innerHTML += "<br>Your art has been shared in the ComfyUI Matrix server's #share channel!";
+					this.final_message.innerHTML += "<br>Your art has been shared in the Hanzo Studio Matrix server's #share channel!";
 				}
 			} else {
 				if (response_json.matrix.success) {
-					this.final_message.innerHTML = "Your art has been shared in the ComfyUI Matrix server's #share channel!";
+					this.final_message.innerHTML = "Your art has been shared in the Hanzo Studio Matrix server's #share channel!";
 				}
 			}
 
 			this.final_message.style.color = "green";
 
-			// hide #comfyui-share-container and show #comfyui-share-finalmessage-container
+			// hide #hanzo-studio-share-container and show #hanzo-studio-share-finalmessage-container
 			this.share_container.style.display = "none";
 			this.share_finalmessage_container.style.display = "block";
 

@@ -11,7 +11,7 @@ import manager_util
 import requests
 import toml
 
-base_url = "https://api.comfy.org"
+base_url = "https://api.hanzo.ai"
 
 
 lock = asyncio.Lock()
@@ -44,12 +44,12 @@ async def _get_cnr_data(cache_mode=True, dont_wait=True):
         is_mac = system == 'darwin'
         is_linux = system == 'linux'
 
-        # Get ComfyUI version tag
+        # Get Hanzo Studio version tag
         if is_desktop:
             # extract version from pyproject.toml instead of git tag
-            comfyui_ver = manager_core.get_current_comfyui_ver() or 'unknown'
+            hanzo_studio_ver = manager_core.get_current_hanzo_studio_ver() or 'unknown'
         else:
-            comfyui_ver = manager_core.get_comfyui_tag() or 'unknown'
+            hanzo_studio_ver = manager_core.get_hanzo_studio_tag() or 'unknown'
 
         if is_desktop:
             if is_windows:
@@ -69,8 +69,8 @@ async def _get_cnr_data(cache_mode=True, dont_wait=True):
                 form_factor = 'other'
         
         while remained:
-            # Add comfyui_version and form_factor to the API request
-            sub_uri = f'{base_url}/nodes?page={page}&limit=30&comfyui_version={comfyui_ver}&form_factor={form_factor}'
+            # Add hanzo_studio_version and form_factor to the API request
+            sub_uri = f'{base_url}/nodes?page={page}&limit=30&hanzo_studio_version={hanzo_studio_ver}&form_factor={form_factor}'
             sub_json_obj = await asyncio.wait_for(manager_util.get_data_with_cache(sub_uri, cache_mode=False, silent=True, dont_cache=True), timeout=30)
             remained = page < sub_json_obj['totalPages']
 
@@ -99,7 +99,7 @@ async def _get_cnr_data(cache_mode=True, dont_wait=True):
             if cache_state == 'not-cached':
                 return {}
             else:
-                print("[ComfyUI-Manager] The ComfyRegistry cache update is still in progress, so an outdated cache is being used.")
+                print("[Hanzo Manager] The ComfyRegistry cache update is still in progress, so an outdated cache is being used.")
                 with open(manager_util.get_cache_path(uri), 'r', encoding="UTF-8", errors="ignore") as json_file:
                     return json.load(json_file)['nodes']
 
@@ -237,7 +237,7 @@ def generate_cnr_id(fullpath, cnr_id):
             with open(cnr_id_path, "w") as f:
                 return f.write(cnr_id)
     except:
-        print(f"[ComfyUI Manager] unable to create file: {cnr_id_path}")
+        print(f"[Hanzo Manager] unable to create file: {cnr_id_path}")
 
 
 def read_cnr_id(fullpath):

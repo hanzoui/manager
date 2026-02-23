@@ -25,15 +25,15 @@ import manager_downloader
 import manager_migration
 
 
-logging.info(f"### Loading: ComfyUI-Manager ({core.version_str})")
-logging.info("[ComfyUI-Manager] network_mode: " + core.get_config()['network_mode'])
+logging.info(f"### Loading: Hanzo Manager ({core.version_str})")
+logging.info("[Hanzo Manager] network_mode: " + core.get_config()['network_mode'])
 
 comfy_ui_hash = "-"
-comfyui_tag = None
+hanzo_studio_tag = None
 
-SECURITY_MESSAGE_MIDDLE_OR_BELOW = "ERROR: To use this action, a security_level of `middle or below` is required. Please contact the administrator.\nReference: https://github.com/ltdrdata/ComfyUI-Manager#security-policy"
-SECURITY_MESSAGE_NORMAL_MINUS = "ERROR: To use this feature, you must either set '--listen' to a local IP and set the security level to 'normal-' or lower, or set the security level to 'middle' or 'weak'. Please contact the administrator.\nReference: https://github.com/ltdrdata/ComfyUI-Manager#security-policy"
-SECURITY_MESSAGE_GENERAL = "ERROR: This installation is not allowed in this security_level. Please contact the administrator.\nReference: https://github.com/ltdrdata/ComfyUI-Manager#security-policy"
+SECURITY_MESSAGE_MIDDLE_OR_BELOW = "ERROR: To use this action, a security_level of `middle or below` is required. Please contact the administrator.\nReference: https://github.com/ltdrdata/Hanzo Manager#security-policy"
+SECURITY_MESSAGE_NORMAL_MINUS = "ERROR: To use this feature, you must either set '--listen' to a local IP and set the security level to 'normal-' or lower, or set the security level to 'middle' or 'weak'. Please contact the administrator.\nReference: https://github.com/ltdrdata/Hanzo Manager#security-policy"
+SECURITY_MESSAGE_GENERAL = "ERROR: This installation is not allowed in this security_level. Please contact the administrator.\nReference: https://github.com/ltdrdata/Hanzo Manager#security-policy"
 SECURITY_MESSAGE_NORMAL_MINUS_MODEL = "ERROR: Downloading models that are not in '.safetensors' format is only allowed for models registered in the 'default' channel at this security level. If you want to download this model, set the security level to 'normal-' or lower."
 
 routes = PromptServer.instance.routes
@@ -41,10 +41,10 @@ routes = PromptServer.instance.routes
 
 def has_per_queue_preview():
     """
-    Check if ComfyUI PR #11261 (per-queue live preview override) is merged
+    Check if Hanzo Studio PR #11261 (per-queue live preview override) is merged
 
     Returns:
-        bool: True if ComfyUI has per-queue preview feature
+        bool: True if Hanzo Studio has per-queue preview feature
     """
     try:
         import latent_preview
@@ -53,7 +53,7 @@ def has_per_queue_preview():
         return False
 
 
-# Detect ComfyUI per-queue preview override feature (PR #11261)
+# Detect Hanzo Studio per-queue preview override feature (PR #11261)
 COMFYUI_HAS_PER_QUEUE_PREVIEW = has_per_queue_preview()
 
 
@@ -122,7 +122,7 @@ def is_allowed_security_level(level):
 
 async def get_risky_level(files, pip_packages):
     json_data1 = await core.get_data_by_mode('local', 'custom-node-list.json')
-    json_data2 = await core.get_data_by_mode('cache', 'custom-node-list.json', channel_url='https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main')
+    json_data2 = await core.get_data_by_mode('cache', 'custom-node-list.json', channel_url='https://raw.githubusercontent.com/ltdrdata/Hanzo Manager/main')
 
     all_urls = set()
     for x in json_data1['custom_nodes'] + json_data2['custom_nodes']:
@@ -143,7 +143,7 @@ async def get_risky_level(files, pip_packages):
     return "middle"
 
 
-class ManagerFuncsInComfyUI(core.ManagerFuncs):
+class ManagerFuncsInHanzo Studio(core.ManagerFuncs):
     def get_current_preview_method(self):
         if args.preview_method == latent_preview.LatentPreviewMethod.Auto:
             return "auto"
@@ -156,7 +156,7 @@ class ManagerFuncsInComfyUI(core.ManagerFuncs):
 
     def run_script(self, cmd, cwd='.'):
         if len(cmd) > 0 and cmd[0].startswith("#"):
-            logging.error(f"[ComfyUI-Manager] Unexpected behavior: `{cmd}`")
+            logging.error(f"[Hanzo Manager] Unexpected behavior: `{cmd}`")
             return 0
 
         process = subprocess.Popen(cmd, cwd=cwd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, bufsize=1, env=core.get_script_env())
@@ -173,7 +173,7 @@ class ManagerFuncsInComfyUI(core.ManagerFuncs):
         return process.wait()
 
 
-core.manager_funcs = ManagerFuncsInComfyUI()
+core.manager_funcs = ManagerFuncsInHanzo Studio()
 
 sys.path.append('../..')
 
@@ -182,10 +182,10 @@ from manager_downloader import download_url, download_url_with_agent
 core.comfy_path = os.path.dirname(folder_paths.__file__)
 core.js_path = os.path.join(core.comfy_path, "web", "extensions")
 
-local_db_model = os.path.join(manager_util.comfyui_manager_path, "model-list.json")
-local_db_alter = os.path.join(manager_util.comfyui_manager_path, "alter-list.json")
-local_db_custom_node_list = os.path.join(manager_util.comfyui_manager_path, "custom-node-list.json")
-local_db_extension_node_mappings = os.path.join(manager_util.comfyui_manager_path, "extension-node-map.json")
+local_db_model = os.path.join(manager_util.hanzo_studio_manager_path, "model-list.json")
+local_db_alter = os.path.join(manager_util.hanzo_studio_manager_path, "alter-list.json")
+local_db_custom_node_list = os.path.join(manager_util.hanzo_studio_manager_path, "custom-node-list.json")
+local_db_extension_node_mappings = os.path.join(manager_util.hanzo_studio_manager_path, "extension-node-map.json")
 
 
 def set_preview_method(method):
@@ -203,16 +203,16 @@ def set_preview_method(method):
 
 if COMFYUI_HAS_PER_QUEUE_PREVIEW:
     logging.info(
-        "[ComfyUI-Manager] ComfyUI per-queue preview override detected (PR #11261). "
+        "[Hanzo Manager] Hanzo Studio per-queue preview override detected (PR #11261). "
         "Manager's preview method feature is disabled. "
-        "Use ComfyUI's --preview-method CLI option or 'Settings > Execution > Live preview method'."
+        "Use Hanzo Studio's --preview-method CLI option or 'Settings > Execution > Live preview method'."
     )
 elif args.preview_method == latent_preview.LatentPreviewMethod.NoPreviews:
     set_preview_method(core.get_config()['preview_method'])
 else:
     logging.warning(
-        "[ComfyUI-Manager] Since --preview-method is set, "
-        "ComfyUI-Manager's preview method feature will be ignored."
+        "[Hanzo Manager] Since --preview-method is set, "
+        "Hanzo Manager's preview method feature will be ignored."
     )
 
 
@@ -225,9 +225,9 @@ def set_update_policy(mode):
 def set_db_mode(mode):
     core.get_config()['db_mode'] = mode
 
-def print_comfyui_version():
+def print_hanzo_studio_version():
     global comfy_ui_hash
-    global comfyui_tag
+    global hanzo_studio_tag
 
     is_detached = False
     try:
@@ -243,11 +243,11 @@ def print_comfyui_version():
         is_detached = repo.head.is_detached
         current_branch = repo.active_branch.name
 
-        comfyui_tag = core.get_comfyui_tag()
+        hanzo_studio_tag = core.get_hanzo_studio_tag()
 
         try:
             if not os.environ.get('__COMFYUI_DESKTOP_VERSION__') and core.comfy_ui_commit_datetime.date() < core.comfy_ui_required_commit_datetime.date():
-                logging.warning(f"\n\n## [WARN] ComfyUI-Manager: Your ComfyUI version ({core.comfy_ui_revision})[{core.comfy_ui_commit_datetime.date()}] is too old. Please update to the latest version. ##\n\n")
+                logging.warning(f"\n\n## [WARN] Hanzo Manager: Your Hanzo Studio version ({core.comfy_ui_revision})[{core.comfy_ui_commit_datetime.date()}] is too old. Please update to the latest version. ##\n\n")
         except:
             pass
 
@@ -262,27 +262,27 @@ def print_comfyui_version():
 
             del cm_global.variables['cm.on_revision_detected_handler']
         else:
-            logging.warning("[ComfyUI-Manager] Some features are restricted due to your ComfyUI being outdated.")
+            logging.warning("[Hanzo Manager] Some features are restricted due to your Hanzo Studio being outdated.")
         # <--
 
         if current_branch == "master":
-            if comfyui_tag:
-                logging.info(f"### ComfyUI Version: {comfyui_tag} | Released on '{core.comfy_ui_commit_datetime.date()}'")
+            if hanzo_studio_tag:
+                logging.info(f"### Hanzo Studio Version: {hanzo_studio_tag} | Released on '{core.comfy_ui_commit_datetime.date()}'")
             else:
-                logging.info(f"### ComfyUI Revision: {core.comfy_ui_revision} [{comfy_ui_hash[:8]}] | Released on '{core.comfy_ui_commit_datetime.date()}'")
+                logging.info(f"### Hanzo Studio Revision: {core.comfy_ui_revision} [{comfy_ui_hash[:8]}] | Released on '{core.comfy_ui_commit_datetime.date()}'")
         else:
-            if comfyui_tag:
-                logging.info(f"### ComfyUI Version: {comfyui_tag} on '{current_branch}' | Released on '{core.comfy_ui_commit_datetime.date()}'")
+            if hanzo_studio_tag:
+                logging.info(f"### Hanzo Studio Version: {hanzo_studio_tag} on '{current_branch}' | Released on '{core.comfy_ui_commit_datetime.date()}'")
             else:
-                logging.info(f"### ComfyUI Revision: {core.comfy_ui_revision} on '{current_branch}' [{comfy_ui_hash[:8]}] | Released on '{core.comfy_ui_commit_datetime.date()}'")
+                logging.info(f"### Hanzo Studio Revision: {core.comfy_ui_revision} on '{current_branch}' [{comfy_ui_hash[:8]}] | Released on '{core.comfy_ui_commit_datetime.date()}'")
     except:
         if is_detached:
-            logging.info(f"### ComfyUI Revision: {core.comfy_ui_revision} [{comfy_ui_hash[:8]}] *DETACHED | Released on '{core.comfy_ui_commit_datetime.date()}'")
+            logging.info(f"### Hanzo Studio Revision: {core.comfy_ui_revision} [{comfy_ui_hash[:8]}] *DETACHED | Released on '{core.comfy_ui_commit_datetime.date()}'")
         else:
-            logging.info("### ComfyUI Revision: UNKNOWN (The currently installed ComfyUI is not a Git repository)")
+            logging.info("### Hanzo Studio Revision: UNKNOWN (The currently installed Hanzo Studio is not a Git repository)")
 
 
-print_comfyui_version()
+print_hanzo_studio_version()
 core.check_invalid_nodes()
 
 
@@ -306,9 +306,9 @@ import urllib.request
 
 
 def security_403_response():
-    """Return appropriate 403 response based on ComfyUI version."""
+    """Return appropriate 403 response based on Hanzo Studio version."""
     if not manager_migration.has_system_user_api():
-        return web.json_response({"error": "comfyui_outdated"}, status=403)
+        return web.json_response({"error": "hanzo_studio_outdated"}, status=403)
     return web.json_response({"error": "security_level"}, status=403)
 
 
@@ -349,7 +349,7 @@ def get_model_dir(data, show_log=False):
                 base_model = resolve_custom_node(data['save_path'])
                 if base_model is None:
                     if show_log:
-                        logging.info(f"[ComfyUI-Manager] The target custom node for model download is not installed: {data['save_path']}")
+                        logging.info(f"[Hanzo Manager] The target custom node for model download is not installed: {data['save_path']}")
                     return None
             else:
                 base_model = os.path.join(models_base, data['save_path'])
@@ -409,7 +409,7 @@ def nickname_filter(json_obj):
         if 'preemptions' in x[1]:
             for y in x[1]['preemptions']:
                 preemptions_map[y] = k
-        elif k.endswith("/ComfyUI"):
+        elif k.endswith("/Hanzo Studio"):
             for y in x[0]:
                 preemptions_map[y] = k
 
@@ -456,11 +456,11 @@ async def task_worker():
             # discard post install if skip_post_install mode
 
             if res.action not in ['skip', 'enable', 'install-git', 'install-cnr', 'switch-cnr']:
-                logging.error(f"[ComfyUI-Manager] Installation failed:\n{res.msg}")
+                logging.error(f"[Hanzo Manager] Installation failed:\n{res.msg}")
                 return res.msg
 
             elif not res.result:
-                logging.error(f"[ComfyUI-Manager] Installation failed:\n{res.msg}")
+                logging.error(f"[Hanzo Manager] Installation failed:\n{res.msg}")
                 return res.msg
 
             return 'success'
@@ -517,17 +517,17 @@ async def task_worker():
                 res = core.update_path(repo_path)
                 
             if res == "fail":
-                logging.error("ComfyUI update failed")
+                logging.error("Hanzo Studio update failed")
                 return "fail"
             elif res == "updated":
                 if is_stable:
-                    logging.info("ComfyUI is updated to latest stable version.")
+                    logging.info("Hanzo Studio is updated to latest stable version.")
                     return "success-stable-"+latest_tag
                 else:
-                    logging.info("ComfyUI is updated to latest nightly version.")
+                    logging.info("Hanzo Studio is updated to latest nightly version.")
                     return "success-nightly"
             else:  # skipped
-                logging.info("ComfyUI is up-to-date.")
+                logging.info("Hanzo Studio is up-to-date.")
                 return "skip"
 
         except Exception:
@@ -595,10 +595,10 @@ async def task_worker():
 
                 if json_data['filename'] == '<huggingface>':
                     if os.path.exists(os.path.join(model_path, os.path.dirname(json_data['url']))):
-                        logging.error(f"[ComfyUI-Manager] the model path already exists: {model_path}")
+                        logging.error(f"[Hanzo Manager] the model path already exists: {model_path}")
                         return f"The model path already exists: {model_path}"
 
-                    logging.info(f"[ComfyUI-Manager] Downloading '{model_url}' into '{model_path}'")
+                    logging.info(f"[Hanzo Manager] Downloading '{model_url}' into '{model_path}'")
                     manager_downloader.download_repo_in_bytes(repo_id=model_url, local_dir=model_path)
 
                     return 'success'
@@ -619,13 +619,13 @@ async def task_worker():
                     if res and model_path.endswith('.zip'):
                         res = core.unzip(model_path)
             else:
-                logging.error(f"[ComfyUI-Manager] Model installation error: invalid model type - {json_data['type']}")
+                logging.error(f"[Hanzo Manager] Model installation error: invalid model type - {json_data['type']}")
 
             if res:
                 return 'success'
 
         except Exception as e:
-            logging.error(f"[ComfyUI-Manager] ERROR: {e}")
+            logging.error(f"[Hanzo Manager] ERROR: {e}")
 
         return f"Model installation error: {model_url}"
 
@@ -636,9 +636,9 @@ async def task_worker():
         total_count = done_count + task_queue.qsize()
 
         if task_queue.empty():
-            logging.info(f"\n[ComfyUI-Manager] Queued works are completed.\n{stats}")
+            logging.info(f"\n[Hanzo Manager] Queued works are completed.\n{stats}")
 
-            logging.info("\nAfter restarting ComfyUI, please refresh the browser.")
+            logging.info("\nAfter restarting Hanzo Studio, please refresh the browser.")
             PromptServer.instance.send_sync("cm-queue-status",
                                             {'status': 'done',
                                              'nodepack_result': nodepack_result, 'model_result': model_result,
@@ -786,8 +786,8 @@ async def update_all(request):
     await core.unified_manager.get_custom_nodes(channel, request.rel_url.query["mode"])
 
     for k, v in core.unified_manager.active_nodes.items():
-        if k == 'comfyui-manager':
-            # skip updating comfyui-manager if desktop version
+        if k == 'hanzo-studio-manager':
+            # skip updating hanzo-studio-manager if desktop version
             if os.environ.get('__COMFYUI_DESKTOP_VERSION__'):
                 continue
 
@@ -795,8 +795,8 @@ async def update_all(request):
         task_queue.put(("update-main", update_item))
 
     for k, v in core.unified_manager.unknown_active_nodes.items():
-        if k == 'comfyui-manager':
-            # skip updating comfyui-manager if desktop version
+        if k == 'hanzo-studio-manager':
+            # skip updating hanzo-studio-manager if desktop version
             if os.environ.get('__COMFYUI_DESKTOP_VERSION__'):
                 continue
 
@@ -1017,7 +1017,7 @@ async def remove_snapshot(request):
         path = get_safe_snapshot_path(target)
 
         if path is None:
-            logging.error(f"[ComfyUI-Manager] Invalid snapshot target: {target}")
+            logging.error(f"[Hanzo Manager] Invalid snapshot target: {target}")
             return web.Response(text="Invalid snapshot target", status=400)
 
         if os.path.exists(path):
@@ -1039,7 +1039,7 @@ async def restore_snapshot(request):
         path = get_safe_snapshot_path(target)
 
         if path is None:
-            logging.error(f"[ComfyUI-Manager] Invalid snapshot target: {target}")
+            logging.error(f"[Hanzo Manager] Invalid snapshot target: {target}")
             return web.Response(text="Invalid snapshot target", status=400)
 
         if os.path.exists(path):
@@ -1281,10 +1281,10 @@ async def install_custom_node(request):
             node_spec_str = f"{cnr_id}@nightly"
             git_url = [json_data.get('repository')]
             if git_url is None:
-                logging.error(f"[ComfyUI-Manager] Following node pack doesn't provide `nightly` version: ${git_url}")
+                logging.error(f"[Hanzo Manager] Following node pack doesn't provide `nightly` version: ${git_url}")
                 return web.Response(status=404, text=f"Following node pack doesn't provide `nightly` version: ${git_url}")
     elif json_data['version'] != 'unknown' and selected_version == 'unknown':
-        logging.error(f"[ComfyUI-Manager] Invalid installation request: {json_data}")
+        logging.error(f"[Hanzo Manager] Invalid installation request: {json_data}")
         return web.Response(status=400, text="Invalid installation request")
     else:
         # unknown
@@ -1364,7 +1364,7 @@ async def install_custom_node_git_url(request):
         logging.info(f"\nAlready installed: '{res.target}'")
         return web.Response(status=200)
     elif res.result:
-        logging.info("\nAfter restarting ComfyUI, please refresh the browser.")
+        logging.info("\nAfter restarting Hanzo Studio, please refresh the browser.")
         return web.Response(status=200)
 
     logging.error(res.msg)
@@ -1434,26 +1434,26 @@ async def update_comfyui(request):
     return web.Response(status=200)
 
 
-@routes.get("/comfyui_manager/comfyui_versions")
-async def comfyui_versions(request):
+@routes.get("/hanzo_studio_manager/hanzo_studio_versions")
+async def hanzo_studio_versions(request):
     try:
-        res, current, latest = core.get_comfyui_versions()
+        res, current, latest = core.get_hanzo_studio_versions()
         return web.json_response({'versions': res, 'current': current}, status=200, content_type='application/json')
     except Exception as e:
-        logging.error(f"ComfyUI update fail: {e}", file=sys.stderr)
+        logging.error(f"Hanzo Studio update fail: {e}", file=sys.stderr)
 
     return web.Response(status=400)
 
 
-@routes.get("/comfyui_manager/comfyui_switch_version")
-async def comfyui_switch_version(request):
+@routes.get("/hanzo_studio_manager/hanzo_studio_switch_version")
+async def hanzo_studio_switch_version(request):
     try:
         if "ver" in request.rel_url.query:
             core.switch_comfyui(request.rel_url.query['ver'])
 
         return web.Response(status=200)
     except Exception as e:
-        logging.error(f"ComfyUI update fail: {e}", file=sys.stderr)
+        logging.error(f"Hanzo Studio update fail: {e}", file=sys.stderr)
 
     return web.Response(status=400)
 
@@ -1503,7 +1503,7 @@ async def install_model(request):
 
     # validate request
     if not await check_whitelist_for_model(json_data):
-        logging.error(f"[ComfyUI-Manager] Invalid model install request is detected: {json_data}")
+        logging.error(f"[Hanzo Manager] Invalid model install request is detected: {json_data}")
         return web.Response(status=400, text="Invalid model install request is detected")
 
     if not json_data['filename'].endswith('.safetensors') and not is_allowed_security_level('high'):
@@ -1637,13 +1637,13 @@ async def get_notice(request):
                     markdown_content = match.group(1)
                     version_tag = os.environ.get('__COMFYUI_DESKTOP_VERSION__')
                     if version_tag is not None:
-                        markdown_content += f"<HR>ComfyUI: {version_tag} [Desktop]"
+                        markdown_content += f"<HR>Hanzo Studio: {version_tag} [Desktop]"
                     else:
-                        version_tag = core.get_comfyui_tag()
+                        version_tag = core.get_hanzo_studio_tag()
                         if version_tag is None:
-                            markdown_content += f"<HR>ComfyUI: {core.comfy_ui_revision}[{comfy_ui_hash[:6]}]({core.comfy_ui_commit_datetime.date()})"
+                            markdown_content += f"<HR>Hanzo Studio: {core.comfy_ui_revision}[{comfy_ui_hash[:6]}]({core.comfy_ui_commit_datetime.date()})"
                         else:
-                            markdown_content += (f"<HR>ComfyUI: {version_tag}<BR>"
+                            markdown_content += (f"<HR>Hanzo Studio: {version_tag}<BR>"
                                                  f"&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;({core.comfy_ui_commit_datetime.date()})")
                     # markdown_content += f"<BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;()"
                     markdown_content += f"<BR>Manager: {core.version_str}"
@@ -1653,9 +1653,9 @@ async def get_notice(request):
                     try:
                         if '__COMFYUI_DESKTOP_VERSION__' not in os.environ:
                             if core.comfy_ui_commit_datetime == datetime(1900, 1, 1, 0, 0, 0):
-                                markdown_content = '<P style="text-align: center; color:red; background-color:white; font-weight:bold">Your ComfyUI isn\'t git repo.</P>' + markdown_content
+                                markdown_content = '<P style="text-align: center; color:red; background-color:white; font-weight:bold">Your Hanzo Studio isn\'t git repo.</P>' + markdown_content
                             elif core.comfy_ui_required_commit_datetime.date() > core.comfy_ui_commit_datetime.date():
-                                markdown_content = '<P style="text-align: center; color:red; background-color:white; font-weight:bold">Your ComfyUI is too OUTDATED!!!</P>' + markdown_content
+                                markdown_content = '<P style="text-align: center; color:red; background-color:white; font-weight:bold">Your Hanzo Studio is too OUTDATED!!!</P>' + markdown_content
                     except:
                         pass
 
@@ -1689,9 +1689,9 @@ async def get_startup_alerts(request):
     for message, level in manager_migration.startup_notices:
         # Convert HTML BR to newlines for customAlert
         text = message.replace('<BR>', '\n').replace('<br>', '\n')
-        # Add [ComfyUI-Manager] prefix for customAlert (notice board shows in Manager UI anyway)
-        text = text.replace('[Security Alert]', '[ComfyUI-Manager] Security Alert:')
-        text = text.replace('[MIGRATION]', '[ComfyUI-Manager] Migration:')
+        # Add [Hanzo Manager] prefix for customAlert (notice board shows in Manager UI anyway)
+        text = text.replace('[Security Alert]', '[Hanzo Manager] Security Alert:')
+        text = text.replace('[MIGRATION]', '[Hanzo Manager] Migration:')
         alerts.append({
             'message': text,
             'level': level
@@ -1782,11 +1782,11 @@ async def load_components(request):
                         # When there is a conflict between the .pack and the .json, the pack takes precedence and overrides.
                         components.update(json.load(file))
                     except json.JSONDecodeError as e:
-                        logging.error(f"[ComfyUI-Manager] Error decoding component file in file {json_file}: {e}")
+                        logging.error(f"[Hanzo Manager] Error decoding component file in file {json_file}: {e}")
 
             return web.json_response(components)
         except Exception as e:
-            logging.error(f"[ComfyUI-Manager] failed to load components\n{e}")
+            logging.error(f"[Hanzo Manager] failed to load components\n{e}")
             return web.Response(status=400)
     else:
         return web.json_response({})
@@ -1808,7 +1808,7 @@ async def _confirm_try_install(sender, custom_node_url, msg):
         PromptServer.instance.send_sync("cm-api-try-install-customnode",
                                         {"sender": sender, "target": target, "msg": msg})
     else:
-        logging.error(f"[ComfyUI Manager API] Failed to try install - Unknown custom node url '{custom_node_url}'")
+        logging.error(f"[Hanzo Manager API] Failed to try install - Unknown custom node url '{custom_node_url}'")
 
 
 def confirm_try_install(sender, custom_node_url, msg):
@@ -1836,9 +1836,9 @@ async def default_cache_update():
             with manager_util.cache_lock:
                 with open(cache_uri, "w", encoding='utf-8') as file:
                     json.dump(json_obj, file, indent=4, sort_keys=True)
-                    logging.info(f"[ComfyUI-Manager] default cache updated: {uri}")
+                    logging.info(f"[Hanzo Manager] default cache updated: {uri}")
         except Exception as e:
-            logging.error(f"[ComfyUI-Manager] Failed to perform initial fetching '{filename}': {e}")
+            logging.error(f"[Hanzo Manager] Failed to perform initial fetching '{filename}': {e}")
             traceback.print_exc()
 
     if core.get_config()['network_mode'] != 'offline':
@@ -1851,13 +1851,13 @@ async def default_cache_update():
         await asyncio.gather(a, b, c, d, e)
 
         if core.get_config()['network_mode'] == 'private':
-            logging.info("[ComfyUI-Manager] The private comfyregistry is not yet supported in `network_mode=private`.")
+            logging.info("[Hanzo Manager] The private comfyregistry is not yet supported in `network_mode=private`.")
         else:
             # load at least once
             await core.unified_manager.reload('remote', dont_wait=False)
             await core.unified_manager.get_custom_nodes(channel_url, 'remote')
 
-    logging.info("[ComfyUI-Manager] All startup tasks have been completed.")
+    logging.info("[Hanzo Manager] All startup tasks have been completed.")
 
 
 threading.Thread(target=lambda: asyncio.run(default_cache_update())).start()
@@ -1867,10 +1867,10 @@ if not os.path.exists(core.manager_config_path):
     core.write_config()
 
 
-cm_global.register_extension('ComfyUI-Manager',
+cm_global.register_extension('Hanzo Manager',
                              {'version': core.version,
-                                 'name': 'ComfyUI Manager',
+                                 'name': 'Hanzo Manager',
                                  'nodes': {},
-                                 'description': 'This extension provides the ability to manage custom nodes in ComfyUI.', })
+                                 'description': 'This extension provides the ability to manage custom nodes in Hanzo Studio.', })
 
 

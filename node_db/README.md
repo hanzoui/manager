@@ -1,6 +1,6 @@
-# ComfyUI-Manager: Node Database (node_db)
+# Hanzo Manager: Node Database (node_db)
 
-This directory contains the JSON database files that power ComfyUI-Manager's legacy node registry system. While the manager is gradually transitioning to the online Custom Node Registry (CNR), these local JSON files continue to provide important metadata about custom nodes, models, and their integrations.
+This directory contains the JSON database files that power Hanzo Manager's legacy node registry system. While the manager is gradually transitioning to the online Custom Node Registry (CNR), these local JSON files continue to provide important metadata about custom nodes, models, and their integrations.
 
 ## Directory Structure
 
@@ -92,4 +92,4 @@ Each subdirectory contains a `scan.sh` script that assists with:
 - Validating database integrity
 - Generating proper JSON structures
 
-This database system enables a flexible, secure, and comprehensive management system for the ComfyUI ecosystem while the transition to CNR continues.
+This database system enables a flexible, secure, and comprehensive management system for the Hanzo Studio ecosystem while the transition to CNR continues.

@@ -11,7 +11,7 @@ on:
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
-    if: ${{ github.repository_owner == 'ltdrdata' || github.repository_owner == 'Comfy-Org' }}
+    if: ${{ github.repository_owner == 'ltdrdata' || github.repository_owner == 'hanzoui' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4

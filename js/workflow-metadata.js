@@ -44,7 +44,7 @@ class WorkflowMetadataExtension {
 
   async init() {
     this.installedNodes = await this.getInstalledNodes();
-    this.comfyCoreVersion = (await api.getSystemStats()).system.comfyui_version;
+    this.comfyCoreVersion = (await api.getSystemStats()).system.hanzo_studio_version;
   }
 
   /**

@@ -33,7 +33,7 @@ if hasattr(dt, 'datetime'):
 else:
     # NOTE: Occurs in some Mac environments.
     import time
-    logging.error(f"[ComfyUI-Manager] fallback timestamp mode\n                  datetime module is invalid: '{dt.__file__}'")
+    logging.error(f"[Hanzo Manager] fallback timestamp mode\n                  datetime module is invalid: '{dt.__file__}'")
     
     def current_timestamp():
         return str(time.time()).split('.')[0]
@@ -76,13 +76,13 @@ if comfy_path is None:
 if comfy_base_path is None:
     comfy_base_path = comfy_path
 
-sys.__comfyui_manager_register_message_collapse = register_message_collapse
-sys.__comfyui_manager_is_import_failed_extension = is_import_failed_extension
+sys.__hanzo_studio_manager_register_message_collapse = register_message_collapse
+sys.__hanzo_studio_manager_is_import_failed_extension = is_import_failed_extension
 cm_global.register_api('cm.register_message_collapse', register_message_collapse)
 cm_global.register_api('cm.is_import_failed_extension', is_import_failed_extension)
 
 
-comfyui_manager_path = os.path.abspath(os.path.dirname(__file__))
+hanzo_studio_manager_path = os.path.abspath(os.path.dirname(__file__))
 
 custom_nodes_base_path = folder_paths.get_folder_paths('custom_nodes')[0]
 
@@ -92,14 +92,14 @@ _has_system_user_api = hasattr(folder_paths, 'get_system_user_directory')
 if _has_system_user_api:
     manager_files_path = os.path.abspath(os.path.join(folder_paths.get_user_directory(), '__manager'))
 else:
-    manager_files_path = os.path.abspath(os.path.join(folder_paths.get_user_directory(), 'default', 'ComfyUI-Manager'))
+    manager_files_path = os.path.abspath(os.path.join(folder_paths.get_user_directory(), 'default', 'Hanzo Manager'))
 
 manager_pip_overrides_path = os.path.join(manager_files_path, "pip_overrides.json")
 manager_pip_blacklist_path = os.path.join(manager_files_path, "pip_blacklist.list")
 restore_snapshot_path = os.path.join(manager_files_path, "startup-scripts", "restore-snapshot.json")
 manager_config_path = os.path.join(manager_files_path, 'config.ini')
 
-cm_cli_path = os.path.join(comfyui_manager_path, "cm-cli.py")
+cm_cli_path = os.path.join(hanzo_studio_manager_path, "cm-cli.py")
 
 
 default_conf = {}
@@ -147,7 +147,7 @@ if os.path.exists(manager_pip_blacklist_path):
 def remap_pip_package(pkg):
     if pkg in cm_global.pip_overrides:
         res = cm_global.pip_overrides[pkg]
-        print(f"[ComfyUI-Manager] '{pkg}' is remapped to '{res}'")
+        print(f"[Hanzo Manager] '{pkg}' is remapped to '{res}'")
         return res
     else:
         return pkg
@@ -197,7 +197,7 @@ def try_get_custom_nodes(x):
         if x.startswith(custom_nodes_dir):
             relative_path = os.path.relpath(x, custom_nodes_dir)
             next_segment = relative_path.split(os.sep)[0]
-            if next_segment.lower() != 'comfyui-manager':
+            if next_segment.lower() != 'hanzo-studio-manager':
                 return next_segment, os.path.join(custom_nodes_dir, next_segment)
     return None
 
@@ -283,7 +283,7 @@ try:
     is_start_mode = True
 
 
-    class ComfyUIManagerLogger:
+    class Hanzo StudioManagerLogger:
         def __init__(self, is_stdout):
             self.is_stdout = is_stdout
             self.encoding = "utf-8"
@@ -318,7 +318,7 @@ try:
                     if origin_info is not None:
                         name, origin_path = origin_info
                         
-                        if name != 'comfyui-manager':
+                        if name != 'hanzo-studio-manager':
                             if name not in cm_global.error_dict:
                                 cm_global.error_dict[name] = {'name': name, 'path': origin_path, 'msg': ''}
 
@@ -397,8 +397,8 @@ try:
 
 
     if enable_file_logging:
-        sys.stdout = ComfyUIManagerLogger(True)
-        stderr_wrapper = ComfyUIManagerLogger(False)
+        sys.stdout = Hanzo StudioManagerLogger(True)
+        stderr_wrapper = Hanzo StudioManagerLogger(False)
         sys.stderr = stderr_wrapper
 
         atexit.register(close_log)
@@ -424,7 +424,7 @@ try:
                     if origin_info is not None:
                         name, origin_path = origin_info
                         
-                        if name != 'comfyui-manager':
+                        if name != 'hanzo-studio-manager':
                             if name not in cm_global.error_dict:
                                 cm_global.error_dict[name] = {'name': name, 'path': origin_path, 'msg': ''}
 
@@ -451,7 +451,7 @@ try:
 
 
 except Exception as e:
-    print(f"[ComfyUI-Manager] Logging failed: {e}")
+    print(f"[Hanzo Manager] Logging failed: {e}")
 
 
 def ensure_dependencies():
@@ -464,33 +464,33 @@ def ensure_dependencies():
         my_path = os.path.dirname(__file__)
         requirements_path = os.path.join(my_path, "requirements.txt")
 
-        print("## ComfyUI-Manager: installing dependencies. (GitPython)")
+        print("## Hanzo Manager: installing dependencies. (GitPython)")
         try:
             subprocess.check_output(manager_util.make_pip_cmd(['install', '-r', requirements_path]))
         except subprocess.CalledProcessError:
-            print("## [ERROR] ComfyUI-Manager: Attempting to reinstall dependencies using an alternative method.")
+            print("## [ERROR] Hanzo Manager: Attempting to reinstall dependencies using an alternative method.")
             try:
                 subprocess.check_output(manager_util.make_pip_cmd(['install', '--user', '-r', requirements_path]))
             except subprocess.CalledProcessError:
-                print("## [ERROR] ComfyUI-Manager: Failed to install the GitPython package in the correct Python environment. Please install it manually in the appropriate environment. (You can seek help at https://app.element.io/#/room/%23comfyui_space%3Amatrix.org)")
+                print("## [ERROR] Hanzo Manager: Failed to install the GitPython package in the correct Python environment. Please install it manually in the appropriate environment. (You can seek help at https://app.element.io/#/room/%23hanzo_studio_space%3Amatrix.org)")
 
     try:
-        print("## ComfyUI-Manager: installing dependencies done.")
+        print("## Hanzo Manager: installing dependencies done.")
     except:
         # maybe we should sys.exit() here? there is at least two screens worth of error messages still being pumped after our error messages
-        print("## [ERROR] ComfyUI-Manager: GitPython package seems to be installed, but failed to load somehow. Make sure you have a working git client installed")
+        print("## [ERROR] Hanzo Manager: GitPython package seems to be installed, but failed to load somehow. Make sure you have a working git client installed")
 
 ensure_dependencies()
 
 
-print("** ComfyUI startup time:", current_timestamp())
+print("** Hanzo Studio startup time:", current_timestamp())
 print("** Platform:", platform.system())
 print("** Python version:", sys.version)
 print("** Python executable:", sys.executable)
-print("** ComfyUI Path:", comfy_path)
-print("** ComfyUI Base Folder Path:", comfy_base_path)
+print("** Hanzo Studio Path:", comfy_path)
+print("** Hanzo Studio Base Folder Path:", comfy_base_path)
 print("** User directory:", folder_paths.user_directory)
-print("** ComfyUI-Manager config path:", manager_config_path)
+print("** Hanzo Manager config path:", manager_config_path)
 
 
 if log_path_base is not None:
@@ -517,7 +517,7 @@ def check_bypass_ssl():
     try:
         import ssl
         if 'bypass_ssl' in default_conf and default_conf['bypass_ssl'].lower() == 'true':
-            print(f"[ComfyUI-Manager] WARN: Unsafe - SSL verification bypass option is Enabled. (see {manager_config_path})")
+            print(f"[Hanzo Manager] WARN: Unsafe - SSL verification bypass option is Enabled. (see {manager_config_path})")
             ssl._create_default_https_context = ssl._create_unverified_context  # SSL certificate error fix.
     except Exception:
         pass
@@ -556,7 +556,7 @@ def is_installed(name):
         elif match.group(2) in ['<=', '==', '<', '~=']:
             if name in pips:
                 if manager_util.StrictVersion(pips[name]) >= manager_util.StrictVersion(match.group(3)):
-                    print(f"[ComfyUI-Manager] skip black listed pip installation: '{name}'")
+                    print(f"[Hanzo Manager] skip black listed pip installation: '{name}'")
                     return True
 
     pkg = manager_util.get_installed_packages().get(name.lower())
@@ -608,7 +608,7 @@ if os.path.exists(restore_snapshot_path):
                     else:
                         print(prefix, msg, end="")
 
-        print("[ComfyUI-Manager] Restore snapshot.")
+        print("[Hanzo Manager] Restore snapshot.")
         new_env = os.environ.copy()
         if 'COMFYUI_FOLDERS_BASE_PATH' not in new_env:
             new_env["COMFYUI_FOLDERS_BASE_PATH"] = comfy_path
@@ -617,13 +617,13 @@ if os.path.exists(restore_snapshot_path):
         exit_code = process_wrap(cmd_str, custom_nodes_base_path, handler=msg_capture, env=new_env)
 
         if exit_code != 0:
-            print("[ComfyUI-Manager] Restore snapshot failed.")
+            print("[Hanzo Manager] Restore snapshot failed.")
         else:
-            print("[ComfyUI-Manager] Restore snapshot done.")
+            print("[Hanzo Manager] Restore snapshot done.")
 
     except Exception as e:
         print(e)
-        print("[ComfyUI-Manager] Restore snapshot failed.")
+        print("[Hanzo Manager] Restore snapshot failed.")
 
     os.remove(restore_snapshot_path)
 
@@ -717,7 +717,7 @@ script_executed = False
 def execute_startup_script():
     global script_executed
     print("\n#######################################################################")
-    print("[ComfyUI-Manager] Starting dependency installation/(de)activation for the extension\n")
+    print("[Hanzo Manager] Starting dependency installation/(de)activation for the extension\n")
 
     custom_nodelist_cache = None
 
@@ -736,18 +736,18 @@ def execute_startup_script():
     def execute_lazy_delete(path):
         # Validate to prevent arbitrary paths from being deleted
         if path not in get_custom_node_paths():
-            logging.error(f"## ComfyUI-Manager: The scheduled '{path}' is not a custom node path, so the deletion has been canceled.")
+            logging.error(f"## Hanzo Manager: The scheduled '{path}' is not a custom node path, so the deletion has been canceled.")
             return
 
         if not os.path.exists(path):
-            logging.info(f"## ComfyUI-Manager: SKIP-DELETE => '{path}' (already deleted)")
+            logging.info(f"## Hanzo Manager: SKIP-DELETE => '{path}' (already deleted)")
             return
 
         try:
             shutil.rmtree(path)
-            logging.info(f"## ComfyUI-Manager: DELETE => '{path}'")
+            logging.info(f"## Hanzo Manager: DELETE => '{path}'")
         except Exception as e:
-            logging.error(f"## ComfyUI-Manager: Failed to delete '{path}' ({e})")
+            logging.error(f"## Hanzo Manager: Failed to delete '{path}' ({e})")
 
     executed = set()
     # Read each line from the file and convert it to a list using eval
@@ -779,7 +779,7 @@ def execute_startup_script():
                         if 'pip' in script[1:] and 'install' in script[1:] and is_installed(script[-1]):
                             continue
 
-                    print(f"\n## ComfyUI-Manager: EXECUTE => {script[1:]}")
+                    print(f"\n## Hanzo Manager: EXECUTE => {script[1:]}")
                     print(f"\n## Execute management script for '{script[0]}'")
 
                     new_env = os.environ.copy()
@@ -790,7 +790,7 @@ def execute_startup_script():
                     if exit_code != 0:
                         print(f"management script failed: {script[0]}")
                 else:
-                    print(f"\n## ComfyUI-Manager: CANCELED => {script[1:]}")
+                    print(f"\n## Hanzo Manager: CANCELED => {script[1:]}")
 
             except Exception as e:
                 print(f"[ERROR] Failed to execute management script: {line} / {e}")
@@ -800,15 +800,15 @@ def execute_startup_script():
         script_executed = True
         os.remove(script_list_path)
         
-    print("\n[ComfyUI-Manager] Startup script completed.")
+    print("\n[Hanzo Manager] Startup script completed.")
     print("#######################################################################\n")
 
 
 # Check if script_list_path exists
-# Block startup-scripts on old ComfyUI (security measure)
+# Block startup-scripts on old Hanzo Studio (security measure)
 if not _has_system_user_api:
     if os.path.exists(script_list_path):
-        print("[ComfyUI-Manager] Startup scripts blocked on old ComfyUI version.")
+        print("[Hanzo Manager] Startup scripts blocked on old Hanzo Studio version.")
 elif os.path.exists(script_list_path):
     execute_startup_script()
 
@@ -821,7 +821,7 @@ manager_util.clear_pip_cache()
 
 if script_executed:
     # Restart
-    print("[ComfyUI-Manager] Restarting to reapply dependency installation.")
+    print("[Hanzo Manager] Restarting to reapply dependency installation.")
 
     if '__COMFY_CLI_SESSION__' in os.environ:
         with open(os.path.join(os.environ['__COMFY_CLI_SESSION__'] + '.reboot'), 'w'):
@@ -858,9 +858,9 @@ def check_windows_event_loop_policy():
                 import asyncio
                 import asyncio.windows_events
                 asyncio.set_event_loop_policy(asyncio.windows_events.WindowsSelectorEventLoopPolicy())
-                print("[ComfyUI-Manager] Windows event loop policy mode enabled")
+                print("[Hanzo Manager] Windows event loop policy mode enabled")
             except Exception as e:
-                print(f"[ComfyUI-Manager] WARN: Windows initialization fail: {e}")
+                print(f"[Hanzo Manager] WARN: Windows initialization fail: {e}")
     except Exception:
         pass
 

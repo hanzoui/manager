@@ -103,8 +103,8 @@ export function show_message(msg) {
 export async function handle403Response(res, defaultMessage) {
 	try {
 		const data = await res.json();
-		if(data.error === 'comfyui_outdated') {
-			show_message('ComfyUI version is outdated.<BR>Please update ComfyUI to use Manager normally.');
+		if(data.error === 'hanzo_studio_outdated') {
+			show_message('Hanzo Studio version is outdated.<BR>Please update Hanzo Studio to use Manager normally.');
 		} else {
 			show_message(defaultMessage || 'This action is not allowed with this security level configuration.');
 		}
@@ -237,7 +237,7 @@ export async function install_pip(packages) {
 	}
 
 	if(res.status == 200) {
-		show_message(`PIP package installation is processed.<br>To apply the pip packages, please click the <button id='cm-reboot-button3'><font size='3px'>RESTART</font></button> button in ComfyUI.`);
+		show_message(`PIP package installation is processed.<br>To apply the pip packages, please click the <button id='cm-reboot-button3'><font size='3px'>RESTART</font></button> button in Hanzo Studio.`);
 
 		const rebootButton = document.getElementById('cm-reboot-button3');
 		const self = this;
@@ -272,7 +272,7 @@ export async function install_via_git_url(url, manager_dialog) {
 	}
 
 	if(res.status == 200) {
-		show_message(`'${url}' is installed<BR>To apply the installed custom node, please <button id='cm-reboot-button4'><font size='3px'>RESTART</font></button> ComfyUI.`);
+		show_message(`'${url}' is installed<BR>To apply the installed custom node, please <button id='cm-reboot-button4'><font size='3px'>RESTART</font></button> Hanzo Studio.`);
 
 		const rebootButton = document.getElementById('cm-reboot-button4');
 		const self = this;
@@ -313,7 +313,7 @@ export async function free_models(free_execution_cache) {
 				showToast("Models' have been unloaded.", 3000);
 			}
 		} else {
-			showToast('Unloading of models failed. Installed ComfyUI may be an outdated version.', 5000);
+			showToast('Unloading of models failed. Installed Hanzo Studio may be an outdated version.', 5000);
 		}
 	} catch (error) {
 		showToast('An error occurred while trying to unload models.', 5000);
@@ -456,7 +456,7 @@ async function onReconnected(event) {
 
 api.addEventListener('reconnected', onReconnected);
 
-const storeId = "comfyui-manager-grid";
+const storeId = "hanzo-studio-manager-grid";
 let timeId;
 export function storeColumnWidth(gridId, columnItem) {
 	clearTimeout(timeId);

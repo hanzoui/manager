@@ -16,7 +16,7 @@ comfy_path = os.environ.get('COMFYUI_PATH')
 git_exe_path = os.environ.get('GIT_EXE_PATH')
 
 if comfy_path is None:
-    print("\nWARN: The `COMFYUI_PATH` environment variable is not set. Assuming `custom_nodes/ComfyUI-Manager/../../` as the ComfyUI path.", file=sys.stderr)
+    print("\nWARN: The `COMFYUI_PATH` environment variable is not set. Assuming `custom_nodes/Hanzo Manager/../../` as the Hanzo Studio path.", file=sys.stderr)
     comfy_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 
 
@@ -135,9 +135,9 @@ def get_remote_name(repo):
         return available_remotes[0]
 
     if not available_remotes:
-        print(f"[ComfyUI-Manager] No remotes are configured for this repository: {repo.working_dir}")
+        print(f"[Hanzo Manager] No remotes are configured for this repository: {repo.working_dir}")
     else:
-        print(f"[ComfyUI-Manager] Available remotes in '{repo.working_dir}': ")
+        print(f"[Hanzo Manager] Available remotes in '{repo.working_dir}': ")
         for remote in available_remotes:
             print(f"- {remote}")
 
@@ -177,7 +177,7 @@ def switch_to_default_branch(repo):
                     except:
                         pass
 
-    print("[ComfyUI Manager] Failed to switch to the default branch")
+    print("[Hanzo Manager] Failed to switch to the default branch")
     return False
 
 
@@ -225,9 +225,9 @@ def gitpull(path):
         except git.GitCommandError:
             backup_name = f'backup_{time.strftime("%Y%m%d_%H%M%S")}'
             repo.create_head(backup_name)
-            print(f"[ComfyUI-Manager] Cannot fast-forward. Backup created: {backup_name}")
+            print(f"[Hanzo Manager] Cannot fast-forward. Backup created: {backup_name}")
             repo.git.reset('--hard', f'{remote_name}/{branch_name}')
-            print(f"[ComfyUI-Manager] Reset to {remote_name}/{branch_name}")
+            print(f"[Hanzo Manager] Reset to {remote_name}/{branch_name}")
 
         repo.git.submodule('update', '--init', '--recursive')
         new_commit_hash = repo.head.commit.hexsha
@@ -243,16 +243,16 @@ def gitpull(path):
     repo.close()
 
 
-def checkout_comfyui_hash(target_hash):
+def checkout_hanzo_studio_hash(target_hash):
     repo = git.Repo(comfy_path)
     commit_hash = repo.head.commit.hexsha
 
     if commit_hash != target_hash:
         try:
-            print(f"CHECKOUT: ComfyUI [{target_hash}]")
+            print(f"CHECKOUT: Hanzo Studio [{target_hash}]")
             repo.git.checkout(target_hash)
         except git.GitCommandError as e:
-            print(f"Error checking out the ComfyUI: {str(e)}")
+            print(f"Error checking out the Hanzo Studio: {str(e)}")
 
 
 def checkout_custom_node_hash(git_custom_node_infos):
@@ -267,7 +267,7 @@ def checkout_custom_node_hash(git_custom_node_infos):
         repo_name_to_url[repo_name] = url
 
     for path in os.listdir(working_directory):
-        if path.endswith("ComfyUI-Manager"):
+        if path.endswith("Hanzo Manager"):
             continue
 
         fullpath = os.path.join(working_directory, path)
@@ -326,7 +326,7 @@ def checkout_custom_node_hash(git_custom_node_infos):
 
     # clone missing
     for k, v in git_custom_node_infos.items():
-        if 'ComfyUI-Manager' in k:
+        if 'Hanzo Manager' in k:
             continue
 
         if not v['disabled']:
@@ -406,12 +406,12 @@ def apply_snapshot(path):
                     print("APPLY SNAPSHOT: False")
                     return None
 
-                comfyui_hash = info['comfyui']
+                hanzo_studio_hash = info['comfyui']
                 git_custom_node_infos = info['git_custom_nodes']
                 file_custom_node_infos = info['file_custom_nodes']
 
-                if comfyui_hash:
-                    checkout_comfyui_hash(comfyui_hash)
+                if hanzo_studio_hash:
+                    checkout_hanzo_studio_hash(hanzo_studio_hash)
                 checkout_custom_node_hash(git_custom_node_infos)
                 invalidate_custom_node_file(file_custom_node_infos)
 

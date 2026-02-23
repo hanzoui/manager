@@ -29,8 +29,8 @@ if comfy_path is None:
         import folder_paths
         comfy_path = os.path.join(os.path.dirname(folder_paths.__file__))
     except:
-        print("\n[bold yellow]WARN: The `COMFYUI_PATH` environment variable is not set. Assuming `custom_nodes/ComfyUI-Manager/../../` as the ComfyUI path.[/bold yellow]", file=sys.stderr)
-        comfy_path = os.path.abspath(os.path.join(manager_util.comfyui_manager_path, '..', '..'))
+        print("\n[bold yellow]WARN: The `COMFYUI_PATH` environment variable is not set. Assuming `custom_nodes/Hanzo Manager/../../` as the Hanzo Studio path.[/bold yellow]", file=sys.stderr)
+        comfy_path = os.path.abspath(os.path.join(manager_util.hanzo_studio_manager_path, '..', '..'))
 
 # This should be placed here
 sys.path.append(comfy_path)
@@ -41,40 +41,40 @@ import manager_core as core
 from manager_core import unified_manager
 import cnr_utils
 
-comfyui_manager_path = os.path.abspath(os.path.dirname(__file__))
+hanzo_studio_manager_path = os.path.abspath(os.path.dirname(__file__))
 
 cm_global.pip_blacklist = {'torch', 'torchaudio', 'torchsde', 'torchvision'}
 cm_global.pip_downgrade_blacklist = ['torch', 'torchaudio', 'torchsde', 'torchvision', 'transformers', 'safetensors', 'kornia']
 
 cm_global.pip_overrides = {}
 
-if os.path.exists(os.path.join(manager_util.comfyui_manager_path, "pip_overrides.json")):
-    with open(os.path.join(manager_util.comfyui_manager_path, "pip_overrides.json"), 'r', encoding="UTF-8", errors="ignore") as json_file:
+if os.path.exists(os.path.join(manager_util.hanzo_studio_manager_path, "pip_overrides.json")):
+    with open(os.path.join(manager_util.hanzo_studio_manager_path, "pip_overrides.json"), 'r', encoding="UTF-8", errors="ignore") as json_file:
         cm_global.pip_overrides = json.load(json_file)
 
 
-if os.path.exists(os.path.join(manager_util.comfyui_manager_path, "pip_blacklist.list")):
-    with open(os.path.join(manager_util.comfyui_manager_path, "pip_blacklist.list"), 'r', encoding="UTF-8", errors="ignore") as f:
+if os.path.exists(os.path.join(manager_util.hanzo_studio_manager_path, "pip_blacklist.list")):
+    with open(os.path.join(manager_util.hanzo_studio_manager_path, "pip_blacklist.list"), 'r', encoding="UTF-8", errors="ignore") as f:
         for x in f.readlines():
             y = x.strip()
             if y != '':
                 cm_global.pip_blacklist.add(y)
 
 
-def check_comfyui_hash():
+def check_hanzo_studio_hash():
     try:
         repo = git.Repo(comfy_path)
         core.comfy_ui_revision = len(list(repo.iter_commits('HEAD')))
         core.comfy_ui_commit_datetime = repo.head.commit.committed_datetime
     except:
-        print('[bold yellow]INFO: Frozen ComfyUI mode.[/bold yellow]')
+        print('[bold yellow]INFO: Frozen Hanzo Studio mode.[/bold yellow]')
         core.comfy_ui_revision = 0
         core.comfy_ui_commit_datetime = 0
 
     cm_global.variables['comfyui.revision'] = core.comfy_ui_revision
 
 
-check_comfyui_hash()  # This is a preparation step for manager_core
+check_hanzo_studio_hash()  # This is a preparation step for manager_core
 core.check_invalid_nodes()
 
 
@@ -360,11 +360,11 @@ def update_parallel(nodes):
 def update_comfyui():
     res = core.update_path(comfy_path, instant_execution=True)
     if res == 'fail':
-        print("Updating ComfyUI has failed.")
+        print("Updating Hanzo Studio has failed.")
     elif res == 'updated':
-        print("ComfyUI is updated.")
+        print("Hanzo Studio is updated.")
     else:
-        print("ComfyUI is already up to date.")
+        print("Hanzo Studio is already up to date.")
 
 
 def enable_node(node_spec_str, is_all=False, cnt_msg=''):
@@ -391,7 +391,7 @@ def enable_node(node_spec_str, is_all=False, cnt_msg=''):
 
 
 def disable_node(node_spec_str: str, is_all=False, cnt_msg=''):
-    if 'comfyui-manager' in node_spec_str.lower():
+    if 'hanzo-studio-manager' in node_spec_str.lower():
         return
 
     node_spec = unified_manager.resolve_node_spec(node_spec_str, guess_mode='active')
@@ -956,7 +956,7 @@ def simple_show(
         show_list(arg, True)
 
 
-@app.command('cli-only-mode', help="Set whether to use ComfyUI-Manager in CLI-only mode.")
+@app.command('cli-only-mode', help="Set whether to use Hanzo Manager in CLI-only mode.")
 def cli_only_mode(
         mode: str = typer.Argument(
             ..., help="[enable|disable]"
@@ -1037,7 +1037,7 @@ def deps_in_workflow(
     print(f"Workflow dependencies are being saved into {output_path}.")
 
 
-@app.command("save-snapshot", help="Save a snapshot of the current ComfyUI environment. If output path isn't provided. Save to ComfyUI-Manager/snapshots path.")
+@app.command("save-snapshot", help="Save a snapshot of the current Hanzo Studio environment. If output path isn't provided. Save to Hanzo Manager/snapshots path.")
 def save_snapshot(
         output: Annotated[
             str,
@@ -1052,7 +1052,7 @@ def save_snapshot(
         full_snapshot: Annotated[
             bool,
             typer.Option(
-                show_default=False, help="If the snapshot should include custom node, ComfyUI version and pip versions (default), or only custom node details"
+                show_default=False, help="If the snapshot should include custom node, Hanzo Studio version and pip versions (default), or only custom node details"
             ),
         ] = True,
 ):
@@ -1237,7 +1237,7 @@ def install_deps(
         print("Dependency installation and activation complete.")
 
 
-@app.command(help="Clear reserved startup action in ComfyUI-Manager")
+@app.command(help="Clear reserved startup action in Hanzo Manager")
 def clear():
     cancel()
 
